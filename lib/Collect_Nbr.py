@@ -48,8 +48,9 @@ class NbrData():
 
 class Collect_Nbr(Collect_Research_Data):
 
-    prenbr_stats   = "Data/StatData/PreNbr_Stats.csv"
-    topcombo_stats = "Data/StatData/LangCombo_Stats.csv"
+    stat_dir = "Data/StatData/"
+    prenbr_stats   = stat_dir + "PreNbr_Stats.csv"
+    topcombo_stats = stat_dir + "LangCombo_Stats.csv"
 
     def __init__(self, repo_no, file_name='PreNbr_Stats'):
         super(Collect_Nbr, self).__init__(file_name=file_name)
@@ -128,6 +129,8 @@ class Collect_Nbr(Collect_Research_Data):
         repo_id = repo_item.id
 
         combo = "".join (repo_item.language_combinations)
+        combo = combo.replace ("c++", "cpp")
+        combo = combo.replace ("objective-c", "objectivec")
         combo = combo.replace (" ", "_")
 
         #basic
@@ -142,13 +145,18 @@ class Collect_Nbr(Collect_Research_Data):
         cdf = pd.read_csv(Collect_Nbr.prenbr_stats)
         for index, row in cdf.iterrows():
             repo_id = row['repo_id']
-            self.pre_nbr_stats[repo_id] = PreNbrData (repo_id, row['combo'], row['pj_size'], row['lg_num'], 
+            combo = row['combo']
+            combo = combo.replace ("c++", "cpp")
+            combo = combo.replace ("objective-c", "objectivec")
+            self.pre_nbr_stats[repo_id] = PreNbrData (repo_id, combo, row['pj_size'], row['lg_num'], 
                                                       row['age'], row['cmmt_num'], row['dev_num'], row['se_num']) 
 
     def load_top_combo (self, top_num=30):
         cdf = pd.read_csv(Collect_Nbr.topcombo_stats)
         for index, row in cdf.iterrows():
             combo = row['combination']
+            combo = combo.replace ("c++", "cpp")
+            combo = combo.replace ("objective-c", "objectivec")
             combo = combo.replace (" ", "_")
             self.topcombo.append(combo)
             if (index >= top_num):
@@ -164,8 +172,51 @@ class Collect_Nbr(Collect_Research_Data):
                                predata.age, predata.cmmt_num, predata.dev_num, predata.se_num)
             self.research_stats[repo_id] = nbrdata
 
-    def compute_nbr (self):
-        pass
+    def compute_nbr (self, cdf):
+        df_train = cdf
+        print ("\r\n============================== training data ================================")
+        print (df_train)
+        
+        #Setup the regression expression in patsy notation. 
+        #We are telling patsy that BB_COUNT is our dependent variable 
+        #and it depends on the regression variables: DAY, DAY_OF_WEEK, MONTH, HIGH_T, LOW_T and PRECIP
+        expr = """se_num ~ css_html_javascript + c_cpp_shell + python_shell + javascript_typescript + html_python + html_ruby + css_html_javascript_python + javascript_python + css_html_javascript_shell + css_html_javascript_ruby + c_python + html_javascript_python + html_java + makefile_python + html_php + objectivec_ruby + go_shell + cpp_java_shell + javascript_php + css_html_javascript_php + objectivec_ruby_swift + javascript_shell + java_shell + c_cpp_python + html_javascript_java_c + c_cpp_cmake + css_javascript_php + java_javascript + css_html_javascript_python_shell + cpp_python + cpp_cmake + pj_size + lg_num + age + cmmt_num + dev_num"""
+        
+        #Set up the X and y matrices for the training and testing data sets
+        y_train, X_train = dmatrices(expr, df_train, return_type='dataframe')
+        
+        #Using the statsmodels GLM class, train the Poisson regression model on the training data set
+        poisson_training_results = sm.GLM(y_train, X_train, family=sm.families.Poisson()).fit()
+        
+        #print out the training summary
+        print ("\r\n============================== Poisson result ================================")
+        print(poisson_training_results.summary())
+        
+        #print out the fitted rate vector
+        print(poisson_training_results.mu)
+        
+        #Add the λ vector as a new column called 'BB_LAMBDA' to the Data Frame of the training data set
+        df_train['BB_LAMBDA'] = poisson_training_results.mu
+        
+        #add a derived column called 'AUX_OLS_DEP' to the pandas Data Frame. This new column will store the values of the dependent variable of the OLS regression
+        df_train['AUX_OLS_DEP'] = df_train.apply(lambda x: ((x['se_num'] - x['BB_LAMBDA'])**2 - x['se_num']) / x['BB_LAMBDA'], axis=1)
+        
+        #use patsy to form the model specification for the OLSR
+        ols_expr = """AUX_OLS_DEP ~ BB_LAMBDA - 1"""
+        
+        #Configure and fit the OLSR model
+        aux_olsr_results = smf.ols(ols_expr, df_train).fit()
+        
+        #Print the regression params
+        print(aux_olsr_results.params)
+        
+        #train the NB2 model on the training data set
+        nb2_training_results = sm.GLM(y_train, X_train,family=sm.families.NegativeBinomial(alpha=aux_olsr_results.params[0])).fit()
+        
+        #print the training summary
+        print ("\r\n============================== NB2 result ================================")
+        print(nb2_training_results.summary())
+        
     
     def _update(self):
         if (len(self.pre_nbr_stats) == 0):
@@ -176,11 +227,22 @@ class Collect_Nbr(Collect_Research_Data):
         self.load_top_combo ()
 
         for combo in self.topcombo:
-            print ("NBR --- %s" %combo)
+            print ("NMR --- %s " %combo)
+            #print ("%s + " %combo, end="")
             self.get_nbrdata (combo)
             self.save_data(combo)
+
+        index = 0
+        for combo in self.topcombo:
+            df = pd.read_csv(Collect_Nbr.stat_dir + combo+".csv", header=0, 
+                             infer_datetime_format=True, parse_dates=[0], index_col=[0])
+            if not index:
+                cdf = df
             
-            self.compute_nbr (combo+".csv")
+            cdf[combo] = df['combo_num']
+            index += 1
+            
+        self.compute_nbr (cdf)
 
 
     def save_data(self, file_name=None):
