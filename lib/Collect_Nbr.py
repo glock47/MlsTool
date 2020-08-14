@@ -7,6 +7,8 @@ from lib.System import System
 from lib.TextModel import TextModel
 from datetime import datetime, timedelta
 import time
+import ast
+
 
 import pandas as pd
 from patsy import dmatrices
@@ -15,8 +17,16 @@ import statsmodels.api as sm
 import statsmodels.formula.api as smf
 import matplotlib.pyplot as plt
 
+
+class SeCategory ():
+    def __init__ (self, category, keywords):
+        self.category = category
+        self.keywords = keywords
+
+
 class PreNbrData():
-    def __init__(self, repo_id, combo, pj_size, lg_num, age, commits_num, developer_num, se_num):
+    def __init__(self, repo_id, combo, pj_size, lg_num, age, commits_num, developer_num, se_num,
+                   se_rem_num, se_iibc_num, se_pd_num, se_other):
         self.repo_id  = repo_id
         self.combo    = combo
         self.pj_size  = pj_size    
@@ -25,6 +35,10 @@ class PreNbrData():
         self.cmmt_num = commits_num
         self.dev_num  = developer_num
         self.se_num   = se_num
+        self.se_rem_num  = se_rem_num
+        self.se_iibc_num = se_iibc_num
+        self.se_pd_num   = se_pd_num
+        self.se_other    = se_other
 
     def update (self, age, cmmt_num, dev_num, se_num):
         self.age      = age
@@ -32,9 +46,15 @@ class PreNbrData():
         self.dev_num  = dev_num
         self.se_num   = se_num
 
+    def update_secategory (self, se_rem_num, se_iibc_num, se_pd_num, se_other):
+        self.se_rem_num  = se_rem_num
+        self.se_iibc_num = se_iibc_num
+        self.se_pd_num   = se_pd_num
+        self.se_other    = se_other
+
 
 class NbrData():
-    def __init__(self, repo_id, combo, combo_num, pj_size, lg_num, age, commits_num, developer_num, se_num):
+    def __init__(self, repo_id, combo, combo_num, pj_size, lg_num, age, commits_num, developer_num, se_num, se_rem_num, se_iibc_num, se_pd_num, se_other):
         self.repo_id   = repo_id
         self.combo     = combo
         self.combo_num = combo_num
@@ -44,6 +64,10 @@ class NbrData():
         self.cmmt_num  = commits_num
         self.dev_num   = developer_num
         self.se_num    = se_num
+        self.se_rem_num  = se_rem_num
+        self.se_iibc_num = se_iibc_num
+        self.se_pd_num   = se_pd_num
+        self.se_other    = se_other
 
 
 class Collect_Nbr(Collect_Research_Data):
@@ -59,9 +83,24 @@ class Collect_Nbr(Collect_Research_Data):
         self.max_cmmt_num = System.MAX_CMMT_NUM
         self.pre_nbr_stats = {}
         self.topcombo = []
+        self.secategory_stats = {}
+
+        self.load_secategory ()
 
     def is_prenbr_ready (self):
         return System.is_exist(Collect_Nbr.prenbr_stats)
+
+    def load_secategory (self):
+        file = "./Data/StatData/SeCategory_Stats.csv"
+        cdf = pd.read_csv(file)
+        for index, row in cdf.iterrows():
+            self.secategory_stats[index] = SeCategory (row['category'], row['keywords'])
+
+    def get_secategory (self, keyword):
+        for id, secate_stat in self.secategory_stats.items ():
+            if keyword in secate_stat.keywords:
+                return id
+        return 3 #default
 
     def get_cmmtinfo (self, NbrStats):
         repo_id = NbrStats.repo_id
@@ -102,8 +141,30 @@ class Collect_Nbr(Collect_Research_Data):
             return
         cdf = pd.read_csv(cmmt_stat_file)
         se_num = cdf.shape[0]
-
         NbrStats.update (age, commits_num, developer_num, se_num)
+
+
+        #se categories
+        se_rem_num  = 0
+        se_iibc_num = 0 
+        se_pd_num = 0
+        se_other = 0
+        for index, row in cdf.iterrows():
+            keywords = ast.literal_eval(row['fuzzy']).keys()
+            for key in keywords:
+                category = self.get_secategory (key)
+                if (category != 3):
+                    break
+            if (category == 0):
+                se_rem_num += 1
+            elif (category == 1):
+                se_iibc_num += 1
+            elif (category == 2):
+                se_pd_num += 1
+            else:
+                se_other += 1
+        NbrStats.update_secategory (se_rem_num, se_iibc_num, se_pd_num, se_other)
+            
         self.pre_nbr_stats[repo_id] = NbrStats
 
 
@@ -113,7 +174,6 @@ class Collect_Nbr(Collect_Research_Data):
         
         if ((self.repo_num < self.repo_no) or (self.repo_num >= self.repo_no+1000)):
             return True
-
         return False
 
     
@@ -134,7 +194,7 @@ class Collect_Nbr(Collect_Research_Data):
         combo = combo.replace (" ", "_")
 
         #basic
-        NbrStats = PreNbrData (repo_id, combo, repo_item.size, repo_item.languages_used, 0, 0, 0, 0)     
+        NbrStats = PreNbrData (repo_id, combo, repo_item.size, repo_item.languages_used, 0, 0, 0, 0, 0, 0, 0, 0)     
         
         #commits
         self.get_cmmtinfo (NbrStats)
@@ -149,7 +209,8 @@ class Collect_Nbr(Collect_Research_Data):
             combo = combo.replace ("c++", "cpp")
             combo = combo.replace ("objective-c", "objectivec")
             self.pre_nbr_stats[repo_id] = PreNbrData (repo_id, combo, row['pj_size'], row['lg_num'], 
-                                                      row['age'], row['cmmt_num'], row['dev_num'], row['se_num']) 
+                                                      row['age'], row['cmmt_num'], row['dev_num'], row['se_num'],
+                                                      row['se_rem_num'], row['se_iibc_num'], row['se_pd_num'], row['se_other']) 
 
     def load_top_combo (self, top_num=30):
         cdf = pd.read_csv(Collect_Nbr.topcombo_stats)
@@ -169,19 +230,15 @@ class Collect_Nbr(Collect_Research_Data):
             if ((combo in predata.combo) or (predata.combo in combo)):
                 combo_num = 1
             nbrdata = NbrData (predata.repo_id, predata.combo, combo_num, predata.pj_size, predata.lg_num, 
-                               predata.age, predata.cmmt_num, predata.dev_num, predata.se_num)
+                               predata.age, predata.cmmt_num, predata.dev_num, predata.se_num,
+                               predata.se_rem_num, predata.se_iibc_num, predata.se_pd_num, predata.se_other)
             self.research_stats[repo_id] = nbrdata
 
-    def compute_nbr (self, cdf):
+    def compute_nbr (self, cdf, expr, r_val):
         df_train = cdf
         print ("\r\n============================== training data ================================")
         print (df_train)
-        
-        #Setup the regression expression in patsy notation. 
-        #We are telling patsy that BB_COUNT is our dependent variable 
-        #and it depends on the regression variables: DAY, DAY_OF_WEEK, MONTH, HIGH_T, LOW_T and PRECIP
-        expr = """se_num ~ css_html_javascript + c_cpp_shell + python_shell + javascript_typescript + html_python + html_ruby + css_html_javascript_python + javascript_python + css_html_javascript_shell + css_html_javascript_ruby + c_python + html_javascript_python + html_java + makefile_python + html_php + objectivec_ruby + go_shell + cpp_java_shell + javascript_php + css_html_javascript_php + objectivec_ruby_swift + javascript_shell + java_shell + c_cpp_python + html_javascript_java_c + c_cpp_cmake + css_javascript_php + java_javascript + css_html_javascript_python_shell + cpp_python + cpp_cmake + pj_size + lg_num + age + cmmt_num + dev_num"""
-        
+              
         #Set up the X and y matrices for the training and testing data sets
         y_train, X_train = dmatrices(expr, df_train, return_type='dataframe')
         
@@ -199,7 +256,7 @@ class Collect_Nbr(Collect_Research_Data):
         df_train['BB_LAMBDA'] = poisson_training_results.mu
         
         #add a derived column called 'AUX_OLS_DEP' to the pandas Data Frame. This new column will store the values of the dependent variable of the OLS regression
-        df_train['AUX_OLS_DEP'] = df_train.apply(lambda x: ((x['se_num'] - x['BB_LAMBDA'])**2 - x['se_num']) / x['BB_LAMBDA'], axis=1)
+        df_train['AUX_OLS_DEP'] = df_train.apply(lambda x: ((x[r_val] - x['BB_LAMBDA'])**2 - x[r_val]) / x['BB_LAMBDA'], axis=1)
         
         #use patsy to form the model specification for the OLSR
         ols_expr = """AUX_OLS_DEP ~ BB_LAMBDA - 1"""
@@ -227,7 +284,7 @@ class Collect_Nbr(Collect_Research_Data):
         self.load_top_combo ()
 
         for combo in self.topcombo:
-            print ("NMR --- %s " %combo)
+            #print ("NMR --- %s " %combo)
             #print ("%s + " %combo, end="")
             self.get_nbrdata (combo)
             self.save_data(combo)
@@ -241,9 +298,30 @@ class Collect_Nbr(Collect_Research_Data):
             
             cdf[combo] = df['combo_num']
             index += 1
-            
-        self.compute_nbr (cdf)
+        
+        #Setup the regression expression in patsy notation. 
+        #We are telling patsy that se_num is our dependent variable 
+        #and it depends on the regression variables: combinations .... project variables
 
+        print ("==================================== secutiry vulnerabilities ====================================")
+        expr = """se_num ~ css_html_javascript + c_cpp_shell + python_shell + javascript_typescript + html_python + html_ruby + css_html_javascript_python + javascript_python + css_html_javascript_shell + css_html_javascript_ruby + c_python + html_javascript_python + html_java + makefile_python + html_php + objectivec_ruby + go_shell + cpp_java_shell + javascript_php + css_html_javascript_php + objectivec_ruby_swift + javascript_shell + java_shell + c_cpp_python + html_javascript_java_c + c_cpp_cmake + css_javascript_php + java_javascript + css_html_javascript_python_shell + cpp_python + cpp_cmake + pj_size + lg_num + age + cmmt_num + dev_num"""
+        self.compute_nbr (cdf, expr, "se_num")
+        print ("==================================== secutiry vulnerabilities ====================================")
+        
+        print ("==================================== Risky_resource_management ====================================")
+        expr = """se_rem_num ~ css_html_javascript + c_cpp_shell + python_shell + javascript_typescript + html_python + html_ruby + css_html_javascript_python + javascript_python + css_html_javascript_shell + css_html_javascript_ruby + c_python + html_javascript_python + html_java + makefile_python + html_php + objectivec_ruby + go_shell + cpp_java_shell + javascript_php + css_html_javascript_php + objectivec_ruby_swift + javascript_shell + java_shell + c_cpp_python + html_javascript_java_c + c_cpp_cmake + css_javascript_php + java_javascript + css_html_javascript_python_shell + cpp_python + cpp_cmake + pj_size + lg_num + age + cmmt_num + dev_num"""
+        self.compute_nbr (cdf, expr, "se_rem_num")
+        print ("==================================== Risky_resource_management ====================================")
+
+        print ("==================================== Insecure_interaction_between_components ====================================")
+        expr = """se_iibc_num ~ css_html_javascript + c_cpp_shell + python_shell + javascript_typescript + html_python + html_ruby + css_html_javascript_python + javascript_python + css_html_javascript_shell + css_html_javascript_ruby + c_python + html_javascript_python + html_java + makefile_python + html_php + objectivec_ruby + go_shell + cpp_java_shell + javascript_php + css_html_javascript_php + objectivec_ruby_swift + javascript_shell + java_shell + c_cpp_python + html_javascript_java_c + c_cpp_cmake + css_javascript_php + java_javascript + css_html_javascript_python_shell + cpp_python + cpp_cmake + pj_size + lg_num + age + cmmt_num + dev_num"""
+        self.compute_nbr (cdf, expr, "se_iibc_num")
+        print ("==================================== Insecure_interaction_between_components ====================================")
+       
+        print ("==================================== Porous_defenses ====================================")
+        expr = """se_pd_num ~ css_html_javascript + c_cpp_shell + python_shell + javascript_typescript + html_python + html_ruby + css_html_javascript_python + javascript_python + css_html_javascript_shell + css_html_javascript_ruby + c_python + html_javascript_python + html_java + makefile_python + html_php + objectivec_ruby + go_shell + cpp_java_shell + javascript_php + css_html_javascript_php + objectivec_ruby_swift + javascript_shell + java_shell + c_cpp_python + html_javascript_java_c + c_cpp_cmake + css_javascript_php + java_javascript + css_html_javascript_python_shell + cpp_python + cpp_cmake + pj_size + lg_num + age + cmmt_num + dev_num"""
+        self.compute_nbr (cdf, expr, "se_pd_num")
+        print ("==================================== Porous_defenses ====================================")
 
     def save_data(self, file_name=None):
         if (len(self.research_stats) == 0):
