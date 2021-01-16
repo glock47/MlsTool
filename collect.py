@@ -1,5 +1,6 @@
 #!/usr/bin/python
 
+import os
 import sys, getopt
 import time
 from progressbar import ProgressBar
@@ -17,6 +18,33 @@ from lib.Collect_ComboTopicStats import Collect_ComboTopicStats
 from lib.Collect_Association import Collect_Association
 from lib.Collect_CmmtLogs import Collect_CmmtLogs
 from lib.Collect_Nbr import Collect_Nbr
+from lib.LangApiSniffer import LangApiSniffer
+
+def Daemonize(pid_file=None):
+    pid = os.fork()
+    if pid:
+        sys.exit(0)
+ 
+    #os.chdir('/')
+    os.umask(0)
+    os.setsid()
+
+    _pid = os.fork()
+    if _pid:
+        sys.exit(0)
+ 
+    sys.stdout.flush()
+    sys.stderr.flush()
+ 
+    with open('/dev/null') as read_null, open('/dev/null', 'w') as write_null:
+        os.dup2(read_null.fileno(), sys.stdin.fileno())
+        os.dup2(write_null.fileno(), sys.stdout.fileno())
+        os.dup2(write_null.fileno(), sys.stderr.fileno())
+ 
+    if pid_file:
+        with open(pid_file, 'w+') as f:
+            f.write(str(os.getpid()))
+        atexit.register(os.remove, pid_file)
 
 
 def TimeTag (Tag):
@@ -119,6 +147,19 @@ def CommitLogNbr(repo_no, repo_stats=None):
     research_data.process_data(list_of_repos=repo_stats)
     research_data.save_data()
 
+
+# Language API sniffer
+def LangSniffer(repo_no, repo_stats=None):
+    TimeTag(">>>>>>>>>>>> Statistic LangAPISniffer...")
+    file_path=System.getdir_stat()
+    if (repo_stats == None):
+        repo_stats = Process_Data.load_data(file_path=file_path, file_name='Repository_Stats')
+        repo_stats = Process_Data.dict_to_list(repo_stats)
+        
+    research_data = LangApiSniffer() 
+    research_data.process_data(list_of_repos=repo_stats)
+    research_data.save_data()
+
 def StatAll ():
     original_repo_list = Process_Data.load_data(file_path=System.getdir_collect(), file_name='Repository_List')
     RepoStats(original_repo_list)
@@ -136,10 +177,11 @@ def main(argv):
     by_year  = False
     year_val = 0
     repo_no  = 0
+    IsDaemon = False
    
     # get step
     try:
-        opts, args = getopt.getopt(argv,"hs:y:n:",["step=", "year=", "no="])
+        opts, args = getopt.getopt(argv,"dhs:y:n:",["step=", "year=", "no="])
     except getopt.GetoptError:
         print ("run.py -s <step_name>")
         sys.exit(2)
@@ -155,6 +197,11 @@ def main(argv):
             by_year = True;
             year_val = int(arg)
             print ("by_year = %d, year_val = %d" %(by_year, year_val))
+        elif opt in ("-d", "--daemon"):
+            IsDaemon = True;
+
+    if IsDaemon:
+        Daemonize ()
 
 
     if (step == "all"):
@@ -233,6 +280,8 @@ def main(argv):
         CommitLog (repo_no)
     elif (step == "nbr"):
         CommitLogNbr (repo_no)
+    elif (step == "apisniffer"):
+        LangSniffer (repo_no)
     else:
         print ("run.py -s <all/collect/repostats/langstats/discripstats/topics/asso/cmmts>") 
 

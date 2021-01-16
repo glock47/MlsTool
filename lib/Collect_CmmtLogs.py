@@ -42,7 +42,7 @@ class SeCategory_Stats ():
 class CmmtLogs():
     def __init__ (self, message, fuzzy):
         self.message = message
-        self.fuzzy = fuzzy
+        self.fuzzy = fuzzy       
 
 class Collect_CmmtLogs(Collect_Research_Data):
 
@@ -148,8 +148,9 @@ class Collect_CmmtLogs(Collect_Research_Data):
         print ("[%u]%u start...commit num:%u" %(self.repo_num, repo_id, cdf.shape[0]))
         for index, row in cdf.iterrows():
             self.commits_num += 1
-            
-            message = self.formalize_msg (row['message'])
+
+            message = row['message'] + " " + row['content']
+            message = self.formalize_msg (message)
             if (message == None):
                 continue
             
