@@ -85,13 +85,17 @@ class System():
 
     @staticmethod
     def getdir_stat():
-        return (System.BaseDir + "/" + System.StatisticDir + "/")
+        StatDir = System.BaseDir + "/" + System.StatisticDir + "/"
+        if not os.path.exists(StatDir):
+            System.mkdir (StatDir)
+        return StatDir
 
     @staticmethod
     def getdir_evolve():
-        evolve_dir =  (System.BaseDir + "/" + System.Evoluation + "/")
-        System.mkdir (evolve_dir)
-        return evolve_dir
+        EvolveDir =  (System.BaseDir + "/" + System.Evoluation + "/")
+        if not os.path.exists(EvolveDir):
+            System.mkdir (EvolveDir)
+        return EvolveDir
 
     def get_release_version():
         return 
