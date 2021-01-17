@@ -66,7 +66,7 @@ class ApiClassifier ():
 
         #print ("Entry classifier: ", self.name)
         StateStack = self.States
-        with open (File, "r") as sf:
+        with open (File, "r", encoding="utf8", errors="ignore") as sf:
             for line in sf:
                 if len (line) < 4:
                     continue
