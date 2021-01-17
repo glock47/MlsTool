@@ -60,6 +60,9 @@ class ApiClassifier ():
         return False
 
     def Match (self, File):
+        if not os.path.exists (File):
+            return False
+        
         Ext = os.path.splitext(File)[-1].lower()
         if "*" not in self.filetype and Ext not in self.filetype:
             return False

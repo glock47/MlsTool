@@ -19,6 +19,8 @@ from lib.Collect_Association import Collect_Association
 from lib.Collect_CmmtLogs import Collect_CmmtLogs
 from lib.Collect_Nbr import Collect_Nbr
 from lib.LangApiSniffer import LangApiSniffer
+from lib.CloneRepo import CloneRepo
+
 
 def Daemonize(pid_file=None):
     pid = os.fork()
@@ -160,6 +162,10 @@ def LangSniffer(repo_no, repo_stats=None):
     research_data.process_data(list_of_repos=repo_stats)
     research_data.save_data()
 
+def CloneRepos (startNo=0, endNo=65535):
+    CR = CloneRepo ("Repository_List.csv", startNo, endNo)
+    CR.Clone ()
+
 def StatAll ():
     original_repo_list = Process_Data.load_data(file_path=System.getdir_collect(), file_name='Repository_List')
     RepoStats(original_repo_list)
@@ -282,6 +288,8 @@ def main(argv):
         CommitLogNbr (repo_no)
     elif (step == "apisniffer"):
         LangSniffer (repo_no)
+    elif (step == "clone"):
+        CloneRepos ()
     else:
         print ("run.py -s <all/collect/repostats/langstats/discripstats/topics/asso/cmmts>") 
 

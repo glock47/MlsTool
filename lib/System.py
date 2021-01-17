@@ -23,11 +23,20 @@ class System():
     Version      = "None"
 
     CMMT_DIR     = BaseDir + "/CmmtSet/"
+    if not os.path.exists (CMMT_DIR):
+        os.mkdir (CMMT_DIR)
+        
     CMMT_STAT_DIR= BaseDir + "/" + OriginStat + "/CmmtSet/"
+    if not os.path.exists (CMMT_STAT_DIR):
+        os.mkdir (CMMT_STAT_DIR)
 
     KEYWORD_FILE = BaseDir + "/" + OriginCollect + "/keywords.txt"
 
     MAX_CMMT_NUM = 20 * 1024
+
+    TagSet       = BaseDir + "/TagSet"
+    if not os.path.exists (TagSet):
+        os.mkdir (TagSet)
 
     @staticmethod
     def cmmt_file(id):
@@ -98,5 +107,21 @@ class System():
         return EvolveDir
 
     def get_release_version():
-        return 
+        return
+
+    @staticmethod
+    def set_tag(tag):
+        NewDir = System.TagSet
+        if not os.path.exists (NewDir):
+            System.mkdir (NewDir)
+        file = open(NewDir + "/" + tag, 'w')
+        file.close()
+        
+    @staticmethod
+    def access_tag(tag):
+        tagPath = System.TagSet + "/" + tag
+        isExists = os.path.exists(tagPath)
+        if not isExists:
+            return False
+        return True
  
