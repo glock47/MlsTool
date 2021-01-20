@@ -263,14 +263,17 @@ class CloneRepo():
                 Id += 1
                 continue
             
-            RepoDir = BaseDir + str(repo['id'])
-            if not os.path.exists (RepoDir):
-                os.mkdir (RepoDir)
-            os.chdir(RepoDir)
-
             if System.access_tag (str(repo['id'])):
                 self.Clean (RepoDir)
                 continue
+            
+            RepoDir = BaseDir + str(repo['id'])
+            if not os.path.exists (RepoDir):
+                os.mkdir (RepoDir)
+            else:
+                RmCmd = "rm -rf " + RepoDir + "/*"
+                os.system (RmCmd)         
+            os.chdir(RepoDir)
 
             CloneCmd = "git clone " + repo['clone_url']
             print ("[", Id, "] --> ", CloneCmd)

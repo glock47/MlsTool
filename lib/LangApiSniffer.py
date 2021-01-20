@@ -86,8 +86,12 @@ class ApiClassifier ():
         return False
 
 class LangApiSniffer(Collect_Research_Data):
-    def __init__(self, file_name='ApiSniffer'):
+    def __init__(self, StartNo=0, EndNo=65535, file_name='ApiSniffer'):
         super(LangApiSniffer, self).__init__(file_name=file_name)
+        self.StartNo = StartNo
+        self.EndNo   = EndNo
+        self.Index   = 0
+        
         self.FFIClfList = []
         self.IDClfList  = []
         self.HDClfList  = []
@@ -108,6 +112,12 @@ class LangApiSniffer(Collect_Research_Data):
         # Test
         self.TestClf ()
 
+        # Default file 
+        Header = ['id', 'classifier', 'clfType', 'fileType']
+        SfFile = self.file_path + "ApiSniffer" + '.csv'
+        with open(SfFile, 'w', encoding='utf-8') as CsvFile:       
+            writer = csv.writer(CsvFile)
+            writer.writerow(Header)      
 
     def AddClf (self, Classifier):
         self.FFIClfList.append (Classifier)
@@ -116,9 +126,15 @@ class LangApiSniffer(Collect_Research_Data):
         self.save_data()
 
     def _update_statistics(self, repo_item):
+        #print (self.Index, " -> [", self.StartNo, ", ", self.EndNo, "]")
+        if self.Index < self.StartNo or self.Index > self.EndNo:
+            self.Index += 1
+            return
+        
         ReppId  = repo_item.id
         RepoDir = "./Data/Repository/" + str(ReppId)
         if not os.path.exists (RepoDir):
+            self.Index += 1
             return
         TopLangs = self.TopLanguages.keys()
         Langs = [lang for lang in repo_item.all_languages if lang in TopLangs]
@@ -127,7 +143,9 @@ class LangApiSniffer(Collect_Research_Data):
         ApiCls  = self.Sniffer(Langs, RepoDir)
         if ApiCls != None:
            print ("Match:", Langs[0:3], "[", ReppId, "] -> ", ApiCls.name, " = ", ApiCls.clstype)
-           self.research_stats[ReppId] = ApiCls 
+           self.research_stats[ReppId] = ApiCls
+
+        self.Index += 1
 
     def SnifferByFFI (self, Langs, File):
         for Clf in self.FFIClfList:
@@ -198,15 +216,14 @@ class LangApiSniffer(Collect_Research_Data):
     def save_data(self, file_name=None):
         if (len(self.research_stats) == 0):
             return
-        Header = ['id', 'classifier', 'clfType', 'fileType']
+        #Header = ['id', 'classifier', 'clfType', 'fileType']
         SfFile = self.file_path + self.file_name + '.csv'
         with open(SfFile, 'w', encoding='utf-8') as CsvFile:       
             writer = csv.writer(CsvFile)
-            writer.writerow(Header)  
+            #writer.writerow(Header)  
             for Id, Clf in self.research_stats.items():
                 row = [Id, Clf.name, Clf.clstype, Clf.filetype]
                 writer.writerow(row)
-        CsvFile.close()
         self.research_stats = {}
              
     def _object_to_list(self, value):
@@ -366,8 +383,8 @@ class LangApiSniffer(Collect_Research_Data):
         Class = ApiClassifier ("C-Python", LANG_API_FFI, ".c .py")
         S0 = State (0, "from cffi import FFI")
         Class.AddState(S0)
-        S1 = State (1, "#include <Python.h>")
-        S2 = State (2, "PyObject|Py_Initialize|PyMethodDef")
+        S1 = State (1, "#include <Python.h>|from ctypes import|from.*cimport")
+        S2 = State (2, "PyObject|Py_Initialize|PyMethodDef|cdll.LoadLibrary|cdef extern from")
         S1.AddNext(S2)
         Class.AddState(S1)
         self.FFIClfList.append (Class)

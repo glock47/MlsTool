@@ -151,14 +151,13 @@ def CommitLogNbr(repo_no, repo_stats=None):
 
 
 # Language API sniffer
-def LangSniffer(repo_no, repo_stats=None):
+def LangSniffer(StartNo, EndNo, FileName):
     TimeTag(">>>>>>>>>>>> Statistic LangAPISniffer...")
     file_path=System.getdir_stat()
-    if (repo_stats == None):
-        repo_stats = Process_Data.load_data(file_path=file_path, file_name='Repository_Stats')
-        repo_stats = Process_Data.dict_to_list(repo_stats)
+    repo_stats = Process_Data.load_data(file_path=file_path, file_name='Repository_Stats')
+    repo_stats = Process_Data.dict_to_list(repo_stats)
         
-    research_data = LangApiSniffer() 
+    research_data = LangApiSniffer(StartNo, EndNo, FileName) 
     research_data.process_data(list_of_repos=repo_stats)
     research_data.save_data()
 
@@ -184,10 +183,13 @@ def main(argv):
     year_val = 0
     repo_no  = 0
     IsDaemon = False
+    FileName = ""
+    StartNo  = 0
+    EndNo    = 65535
    
     # get step
     try:
-        opts, args = getopt.getopt(argv,"dhs:y:n:",["step=", "year=", "no="])
+        opts, args = getopt.getopt(argv,"dhs:y:n:f:b:e:",["step=", "year=", "no="])
     except getopt.GetoptError:
         print ("run.py -s <step_name>")
         sys.exit(2)
@@ -205,6 +207,12 @@ def main(argv):
             print ("by_year = %d, year_val = %d" %(by_year, year_val))
         elif opt in ("-d", "--daemon"):
             IsDaemon = True;
+        elif opt in ("-f", "--filename"):
+            FileName = arg;
+        elif opt in ("-b", "--beginno"):
+            StartNo = int(arg);
+        elif opt in ("-e", "--endno"):
+            EndNo = int(arg);
 
     if IsDaemon:
         Daemonize ()
@@ -287,7 +295,7 @@ def main(argv):
     elif (step == "nbr"):
         CommitLogNbr (repo_no)
     elif (step == "apisniffer"):
-        LangSniffer (repo_no)
+        LangSniffer (StartNo, EndNo, FileName)
     elif (step == "clone"):
         CloneRepos ()
     else:

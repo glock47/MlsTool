@@ -16,7 +16,7 @@ class System():
     OriginStat   = "StatData"
     Evoluation   = "Evoluation"
 
-    BaseDir      = "./Data"
+    BaseDir      = os.getcwd() + "/Data"
     CollectDir   = OriginCollect
     StatisticDir = OriginStat
 
@@ -113,7 +113,7 @@ class System():
     def set_tag(tag):
         NewDir = System.TagSet
         if not os.path.exists (NewDir):
-            System.mkdir (NewDir)
+            os.mkdir (NewDir)
         file = open(NewDir + "/" + tag, 'w')
         file.close()
         
