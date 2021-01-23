@@ -184,6 +184,9 @@ class LangApiSniffer(Collect_Research_Data):
         return None
 
     def Sniffer (self, Langs, Dir):
+        if len (Langs) <= 1:
+            return None
+        
         # 1. FFI Scan      
         RepoDirs = os.walk(Dir)
         for Path, Dirs, Fs in RepoDirs:
