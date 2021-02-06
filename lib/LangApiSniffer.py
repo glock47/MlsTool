@@ -6,8 +6,8 @@ from lib.Process_Data import Process_Data
 from lib.Collect_Research_Data import Collect_Research_Data
 
 LANG_API_FFI = "FFI"
-LANG_API_ID  = "Implicit dependence"
-LANG_API_HD  = "Hidden dependence"
+LANG_API_ID  = "ID"  #Implicit dependence
+LANG_API_HD  = "HD"  #Hidden dependence
 FfiSignature = "@FfiSignature"
 
 class State ():
@@ -95,6 +95,8 @@ class LangApiSniffer(Collect_Research_Data):
         self.FFIClfList = []
         self.IDClfList  = []
         self.HDClfList  = []
+
+        self.Langs = {}
         
         self.TopLanguages = {"c":".c", "c++":".cpp .cc", "java":".java", "javascript":".js", "typescript":".ts", 
                              "python":".py", "html":".html", "php":".php", "go":".go", "ruby":".rb", "objective-c":".m .mm", 
@@ -113,7 +115,7 @@ class LangApiSniffer(Collect_Research_Data):
         self.TestClf ()
 
         # Default file 
-        Header = ['id', 'classifier', 'clfType', 'fileType']
+        Header = ['id', 'languages', 'classifier', 'clfType', 'fileType']
         SfFile = self.file_path + "ApiSniffer" + '.csv'
         with open(SfFile, 'w', encoding='utf-8') as CsvFile:       
             writer = csv.writer(CsvFile)
@@ -123,7 +125,7 @@ class LangApiSniffer(Collect_Research_Data):
         self.FFIClfList.append (Classifier)
 
     def _update(self):
-        self.save_data()
+        pass
 
     def _update_statistics(self, repo_item):
         #print (self.Index, " -> [", self.StartNo, ", ", self.EndNo, "]")
@@ -140,11 +142,7 @@ class LangApiSniffer(Collect_Research_Data):
         Langs = [lang for lang in repo_item.all_languages if lang in TopLangs]
 
         #print ("Scan ", RepoDir, Langs)
-        ApiCls  = self.Sniffer(Langs, RepoDir)
-        if ApiCls != None:
-           print ("Match:", Langs[0:3], "[", ReppId, "] -> ", ApiCls.name, " = ", ApiCls.clstype)
-           self.research_stats[ReppId] = ApiCls
-
+        self.Sniffer(ReppId, Langs, RepoDir)
         self.Index += 1
 
     def SnifferByFFI (self, Langs, File):
@@ -183,9 +181,17 @@ class LangApiSniffer(Collect_Research_Data):
                 return Clf
         return None
 
-    def Sniffer (self, Langs, Dir):
+    def AddScanResult (self, ClfList, Clf):
+        for C in ClfList:
+            if C.name == Clf.name:
+                return
+        ClfList.append (Clf)
+
+    def Sniffer (self, ReppId, Langs, Dir):
         if len (Langs) <= 1:
             return None
+
+        ClfList = []
         
         # 1. FFI Scan      
         RepoDirs = os.walk(Dir)
@@ -194,7 +200,12 @@ class LangApiSniffer(Collect_Research_Data):
                 File = os.path.join(Path, f)
                 Clf = self.SnifferByFFI (Langs, File)
                 if Clf != None:
-                    return Clf
+                    print ("Match:", Langs[0:3], "[", ReppId, "] -> ", Clf.name, " = ", Clf.clstype)
+                    self.AddScanResult (ClfList, Clf)
+
+        if (len (ClfList) >= len(Langs)-1):
+            self.research_stats [ReppId] = ClfList
+            return
 
         # 2. ID Scan      
         RepoDirs = os.walk(Dir)
@@ -203,7 +214,11 @@ class LangApiSniffer(Collect_Research_Data):
                 File = os.path.join(Path, f)
                 Clf = self.SnifferByID (Langs, File)
                 if Clf != None:
-                    return Clf
+                    self.AddScanResult (ClfList, Clf)
+        
+        if (len (ClfList) >= 3):
+            self.research_stats [ReppId] = ClfList
+            return
         
         # 3. HD Scan      
         RepoDirs = os.walk(Dir)
@@ -212,20 +227,34 @@ class LangApiSniffer(Collect_Research_Data):
                 File = os.path.join(Path, f)
                 Clf = self.SnifferByHD (Langs, File)
                 if Clf != None:
-                    return Clf      
-                
+                    self.AddScanResult (ClfList, Clf)
+
+        self.research_stats [ReppId] = ClfList
+        self.Langs [ReppId] = Langs
         return None
     
     def save_data(self, file_name=None):
         if (len(self.research_stats) == 0):
             return
-        #Header = ['id', 'classifier', 'clfType', 'fileType']
+        #Header = ['id', ''langs', 'classifier', 'clfType', 'fileType']
         SfFile = self.file_path + self.file_name + '.csv'
         with open(SfFile, 'w', encoding='utf-8') as CsvFile:       
             writer = csv.writer(CsvFile)
             #writer.writerow(Header)  
-            for Id, Clf in self.research_stats.items():
-                row = [Id, Clf.name, Clf.clstype, Clf.filetype]
+            for Id, ClfList in self.research_stats.items():
+                Names = []
+                Types = []
+                FileTypes = []
+                for clf in ClfList:
+                    print ("Clf: ", clf.name)
+                    Names.append (clf.name)
+                    Types.append (clf.clstype)
+                    FileTypes += clf.filetype
+
+                Names = "_".join(list(set (Names)))
+                Types = "_".join(list(set (Types)))
+                row = [Id, self.Langs [Id], Names, Types, FileTypes]
+                print (row)
                 writer.writerow(row)
         self.research_stats = {}
              

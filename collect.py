@@ -302,7 +302,6 @@ def main(argv):
         print ("run.py -s <all/collect/repostats/langstats/discripstats/topics/asso/cmmts>") 
 
     TimeTag (">>>>>>>>>>>> End")
-   
 
 if __name__ == "__main__":
-   main(sys.argv[1:])
+    main(sys.argv[1:])
