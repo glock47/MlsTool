@@ -217,7 +217,7 @@ class LangApiSniffer(Collect_Research_Data):
                 if Clf != None:
                     self.AddScanResult (ClfList, Clf)
         
-        if (len (ClfList) >= 3 || len (ClfList) >= len(Langs)-1):
+        if (len (ClfList) >= 3 or len (ClfList) >= len(Langs)-1):
             self.research_stats [ReppId] = ClfList
             return
         
