@@ -125,7 +125,7 @@ class LangApiSniffer(Collect_Research_Data):
         self.FFIClfList.append (Classifier)
 
     def _update(self):
-        pass
+        self.save_data ()
 
     def _update_statistics(self, repo_item):
         #print (self.Index, " -> [", self.StartNo, ", ", self.EndNo, "]")
@@ -192,6 +192,7 @@ class LangApiSniffer(Collect_Research_Data):
             return None
 
         ClfList = []
+        self.Langs [ReppId] = Langs
         
         # 1. FFI Scan      
         RepoDirs = os.walk(Dir)
@@ -230,7 +231,6 @@ class LangApiSniffer(Collect_Research_Data):
                     self.AddScanResult (ClfList, Clf)
 
         self.research_stats [ReppId] = ClfList
-        self.Langs [ReppId] = Langs
         return None
     
     def save_data(self, file_name=None):
