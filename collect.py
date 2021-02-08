@@ -196,7 +196,7 @@ def main(argv):
     try:
         opts, args = getopt.getopt(argv,"dhs:y:n:f:b:e:",["step=", "year=", "no="])
     except getopt.GetoptError:
-        print ("run.py -s <step_name>")
+        print ("./collect.py -s <step_name>")
         sys.exit(2)
     for opt, arg in opts:
         if opt == '-h':
@@ -304,7 +304,7 @@ def main(argv):
     elif (step == "clone"):
         CloneRepos ()
     else:
-        print ("run.py -s <all/collect/repostats/langstats/discripstats/topics/asso/cmmts>") 
+        print ("collect.py -s <all/collect/repostats/langstats/discripstats/topics/asso/cmmts/nbr/apisniffer/clone>") 
 
     TimeTag (">>>>>>>>>>>> End")
 

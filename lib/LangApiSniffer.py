@@ -162,8 +162,6 @@ class LangApiSniffer(Collect_Research_Data):
         Fext = os.path.splitext(File)[-1].lower()
         
         IsFiltered = True
-        if len (Langs) > 3:
-            Langs = Langs[0:3]
         for lang in Langs:
             Ext = self.TopLanguages [lang].split ()
             if Fext in Ext:
@@ -181,7 +179,7 @@ class LangApiSniffer(Collect_Research_Data):
 
     def SnifferByID (self, Langs, File):
         LangNum = 0
-        Languages = ["java", "css", "html"]
+        Languages = ["javascript", "typescript", "css", "html"]
         for lang in Langs:
             if lang in Languages:
                 LangNum += 1
