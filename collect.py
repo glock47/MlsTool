@@ -18,6 +18,7 @@ from lib.Collect_ComboTopicStats import Collect_ComboTopicStats
 from lib.Collect_Association import Collect_Association
 from lib.Collect_CmmtLogs import Collect_CmmtLogs
 from lib.Collect_Nbr import Collect_Nbr
+from lib.Collect_NbrAPI import Collect_NbrAPI
 from lib.LangApiSniffer import LangApiSniffer
 from lib.CloneRepo import CloneRepo
 
@@ -146,6 +147,10 @@ def CommitLogNbr(repo_no, repo_stats=None):
         repo_stats = Process_Data.dict_to_list(repo_stats)
         
     research_data = Collect_Nbr(repo_no) 
+    research_data.process_data(list_of_repos=repo_stats)
+    research_data.save_data()
+
+    research_data = Collect_NbrAPI(repo_no) 
     research_data.process_data(list_of_repos=repo_stats)
     research_data.save_data()
 

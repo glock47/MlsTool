@@ -8,7 +8,7 @@ from lib.Collect_Research_Data import Collect_Research_Data
 LANG_API_FFI = "FFI"
 LANG_API_IRI = "IRI" #Indirect remote-invocation
 LANG_API_ID  = "ID"  #inter-dependence
-LANG_API_HD  = "HD"  #Hidden dependence
+LANG_API_HI  = "HI"  #Hidden interaction
 FfiSignature = "@FfiSignature"
 
 class State ():
@@ -96,7 +96,7 @@ class LangApiSniffer(Collect_Research_Data):
         self.FFIClfList = []
         self.IRIClfList = []
         self.IDClfList  = []
-        self.HDClfList  = []
+        self.HIClfList  = []
 
         self.Langs = {}
         
@@ -114,7 +114,7 @@ class LangApiSniffer(Collect_Research_Data):
         self.InitIDClass ()
 
         # Init HD classifier
-        self.InitHDClass ()
+        self.InitHIClass ()
 
         # Test
         self.TestClf ()
@@ -180,14 +180,22 @@ class LangApiSniffer(Collect_Research_Data):
         return None
 
     def SnifferByID (self, Langs, File):
+        LangNum = 0
+        Languages = ["java", "css", "html"]
+        for lang in Langs:
+            if lang in Languages:
+                LangNum += 1
+        if (LangNum < 2):
+            return None
+        
         for Clf in self.IDClfList:
             IsMatch = Clf.Match (File)
             if IsMatch == True:
                 return Clf
         return None
 
-    def SnifferByHD (self, Langs, File):
-        for Clf in self.HDClfList:
+    def SnifferByHI (self, Langs, File):
+        for Clf in self.HIClfList:
             IsMatch = Clf.Match (File)
             if IsMatch == True:
                 return Clf
@@ -242,21 +250,36 @@ class LangApiSniffer(Collect_Research_Data):
                 if Clf != None:
                     self.AddScanResult (ClfList, Clf)
         
-        if (len (ClfList) >= 3 or len (ClfList) >= len(Langs)-1):
+        if (len (ClfList) != 0):
             self.research_stats [ReppId] = ClfList
             return
         
-        # 4. HD Scan      
+        # 4. HI Scan      
         RepoDirs = os.walk(Dir)
         for Path, Dirs, Fs in RepoDirs:
             for f in Fs:
                 File = os.path.join(Path, f)
-                Clf = self.SnifferByHD (Langs, File)
+                Clf = self.SnifferByHI (Langs, File)
                 if Clf != None:
                     self.AddScanResult (ClfList, Clf)
 
         self.research_stats [ReppId] = ClfList
         return None
+
+    def FormatTypes (self, TypeList):
+        if len (TypeList) == 0:
+            return "HI"
+        
+        Types = ""
+        TypeOrder = ["FFI", "IRI", "ID", "HI"]
+        for type in TypeOrder:
+            if type not in TypeList:
+                continue
+            if Types == "":
+                Types = type
+            else:
+                Types += "_" + type
+        return Types
     
     def save_data(self, file_name=None):
         if (len(self.research_stats) == 0):
@@ -277,7 +300,7 @@ class LangApiSniffer(Collect_Research_Data):
                     FileTypes += clf.filetype
 
                 Names = "_".join(list(set (Names)))
-                Types = "_".join(list(set (Types)))
+                Types = self.FormatTypes(list(set (Types)))
                 row = [Id, self.Langs [Id], Names, Types, FileTypes]
                 print (row)
                 writer.writerow(row)
@@ -400,14 +423,14 @@ class LangApiSniffer(Collect_Research_Data):
         self.IDClfList.append (Class)
         
     
-    def InitHDClass (self):
+    def InitHIClass (self):
         ############################################################
-        # Class: HD*
+        # Class: HI*
         ############################################################
-        Class = ApiClassifier ("HD*", LANG_API_HD, "*")
+        Class = ApiClassifier ("HI*", LANG_API_HI, "*")
         S0 = State (0, ".")
         Class.AddState(S0)
-        self.HDClfList.append (Class)
+        self.HIClfList.append (Class)
     
     
     def InitFfiClass (self):
