@@ -6,7 +6,8 @@ from lib.Process_Data import Process_Data
 from lib.Collect_Research_Data import Collect_Research_Data
 
 LANG_API_FFI = "FFI"
-LANG_API_ID  = "ID"  #Implicit dependence
+LANG_API_IRI = "IRI" #Indirect remote-invocation
+LANG_API_ID  = "ID"  #inter-dependence
 LANG_API_HD  = "HD"  #Hidden dependence
 FfiSignature = "@FfiSignature"
 
@@ -93,6 +94,7 @@ class LangApiSniffer(Collect_Research_Data):
         self.Index   = 0
         
         self.FFIClfList = []
+        self.IRIClfList = []
         self.IDClfList  = []
         self.HDClfList  = []
 
@@ -105,7 +107,10 @@ class LangApiSniffer(Collect_Research_Data):
         # Init FFI classifier
         self.InitFfiClass ()
 
-        # Init ID classifier
+        # Init IRI classifier
+        self.InitIriClass ()
+
+        # Init HD classifier
         self.InitIDClass ()
 
         # Init HD classifier
@@ -153,7 +158,7 @@ class LangApiSniffer(Collect_Research_Data):
                 return Clf
         return None
 
-    def SnifferByID (self, Langs, File):
+    def SnifferByIri (self, Langs, File):
         Fext = os.path.splitext(File)[-1].lower()
         
         IsFiltered = True
@@ -167,8 +172,15 @@ class LangApiSniffer(Collect_Research_Data):
         if IsFiltered == True:
             return None
         
-        for Clf in self.IDClfList:
+        for Clf in self.IRIClfList:
             #print ("\t->>>Scan by ", Clf.name)
+            IsMatch = Clf.Match (File)
+            if IsMatch == True:
+                return Clf
+        return None
+
+    def SnifferByID (self, Langs, File):
+        for Clf in self.IDClfList:
             IsMatch = Clf.Match (File)
             if IsMatch == True:
                 return Clf
@@ -208,7 +220,20 @@ class LangApiSniffer(Collect_Research_Data):
             self.research_stats [ReppId] = ClfList
             return
 
-        # 2. ID Scan      
+        # 2. IRI Scan      
+        RepoDirs = os.walk(Dir)
+        for Path, Dirs, Fs in RepoDirs:
+            for f in Fs:
+                File = os.path.join(Path, f)
+                Clf = self.SnifferByIri (Langs, File)
+                if Clf != None:
+                    self.AddScanResult (ClfList, Clf)
+        
+        if (len (ClfList) >= 3 or len (ClfList) >= len(Langs)-1):
+            self.research_stats [ReppId] = ClfList
+            return
+
+        #3. ID Scan
         RepoDirs = os.walk(Dir)
         for Path, Dirs, Fs in RepoDirs:
             for f in Fs:
@@ -221,7 +246,7 @@ class LangApiSniffer(Collect_Research_Data):
             self.research_stats [ReppId] = ClfList
             return
         
-        # 3. HD Scan      
+        # 4. HD Scan      
         RepoDirs = os.walk(Dir)
         for Path, Dirs, Fs in RepoDirs:
             for f in Fs:
@@ -276,23 +301,23 @@ class LangApiSniffer(Collect_Research_Data):
             else:
                 print ("[Pass]: ", Clf.name, "->", Clf.clstype)
                 
-    def InitIDClass (self):
+    def InitIriClass (self):
         ############################################################
         # Class: Java*
         ############################################################
-        Class = ApiClassifier ("Java*", LANG_API_ID, ".java")
+        Class = ApiClassifier ("Java*", LANG_API_IRI, ".java")
         S0 = State (0, "import java.net.*")
         S1 = State (1, "ServerSocket|Socket")
         S0.AddNext(S1)
         Class.AddState(S0)
-        S2 = State (2, "import org.freedesktop.DBus")
+        S2 = State (2, "import org.freedesktop.DBus|import io.grpc.inprocess")
         Class.AddState(S2)
-        self.IDClfList.append (Class)
+        self.IRIClfList.append (Class)
 
         ############################################################
         # Class: Python*
         ############################################################
-        Class = ApiClassifier ("Python*", LANG_API_ID, ".py")
+        Class = ApiClassifier ("Python*", LANG_API_IRI, ".py")
         S0 = State (0, "import.*dbus|from dbus import|import subprocess")
         S1 = State (1, "SessionBus|Interface|subprocess.run")
         S0.AddNext(S1)
@@ -303,46 +328,73 @@ class LangApiSniffer(Collect_Research_Data):
         Class.AddState(S2)
         S4 = State (4, "os.system.*\)")
         Class.AddState(S4)
-        self.IDClfList.append (Class)
+        self.IRIClfList.append (Class)
 
 
         ############################################################
         # Class: JavaScript*
         ############################################################
-        Class = ApiClassifier ("JavaScript*", LANG_API_ID, ".ts .js .html")
+        Class = ApiClassifier ("JavaScript*", LANG_API_IRI, ".ts .js .html")
         S0 = State (0, "interface.*WebSocket|WebSocket")
         Class.AddState(S0)
         S1 = State (1, "require\('child_process'\)")
         S2 = State (2, "exec\(.*\)")
         S1.AddNext(S2)
         Class.AddState(S1)
-        self.IDClfList.append (Class)
+        self.IRIClfList.append (Class)
 
 
         ############################################################
         # Class: Ruby*
         ############################################################
-        Class = ApiClassifier ("Ruby*", LANG_API_ID, ".rb")
+        Class = ApiClassifier ("Ruby*", LANG_API_IRI, ".rb")
         S0 = State (0, "require.*socket")
         S1 = State (1, "Socket.new|TCPSocket|UDPSocket|TCPServer|UDPServer")
         S0.AddNext(S1)
         Class.AddState(S0)
         S2 = State (2, "system\(.*\)|exec\(.*\)")
         Class.AddState(S2)
-        self.IDClfList.append (Class)
+        self.IRIClfList.append (Class)
 
         ############################################################
         # Class: PHP*
         ############################################################
-        Class = ApiClassifier ("PHP*", LANG_API_ID, ".php")
-        S0 = State (0, "socket_create|socket_connect|socket_write")
+        Class = ApiClassifier ("PHP*", LANG_API_IRI, ".php")
+        S0 = State (0, "socket_create|socket_connect|socket_write|namespace Grpc")
         Class.AddState(S0)
-        self.IDClfList.append (Class)
+        self.IRIClfList.append (Class)
+
+        ############################################################
+        # Class: Objective-C*
+        ############################################################
+        Class = ApiClassifier ("Objective-C*", LANG_API_IRI, ".mm")
+        S0 = State (0, "#import.*GRPCClient")
+        Class.AddState(S0)
+        self.IRIClfList.append (Class)
+
+        ############################################################
+        # Class: Go*
+        ############################################################
+        Class = ApiClassifier ("Go*", LANG_API_IRI, ".go")
+        S0 = State (0, "org.freedesktop.DBus")
+        Class.AddState(S0)
+        S1 = State (1, "import .*net|import .*fmt|import .*grpc")
+        Class.AddState(S1)
+        self.IRIClfList.append (Class)
 
         ############################################################
         # Class: Shell*
         ############################################################
-        Class = ApiClassifier ("Shell*", LANG_API_ID, ".sh .bsh .zsh")
+        Class = ApiClassifier ("Shell*", LANG_API_IRI, ".sh .bsh .zsh")
+        S0 = State (0, ".")
+        Class.AddState(S0)
+        self.IRIClfList.append (Class)
+
+    def InitIDClass (self):
+        ############################################################
+        # Class: HD*
+        ############################################################
+        Class = ApiClassifier ("JS-CSS-HTML*", LANG_API_ID, ".html .js .css")
         S0 = State (0, ".")
         Class.AddState(S0)
         self.IDClfList.append (Class)
@@ -413,23 +465,13 @@ class LangApiSniffer(Collect_Research_Data):
         # Class: C and Python
         ############################################################
         Class = ApiClassifier ("C-Python", LANG_API_FFI, ".c .py")
-        S0 = State (0, "from cffi import FFI")
-        Class.AddState(S0)
-        S1 = State (1, "#include <Python.h>|from ctypes import|from.*cimport")
-        S2 = State (2, "PyObject|Py_Initialize|PyMethodDef|cdll.LoadLibrary|cdef extern from")
-        S1.AddNext(S2)
-        Class.AddState(S1)
-        self.FFIClfList.append (Class)
-
-        ############################################################
-        # Class: C and Python
-        ############################################################
-        Class = ApiClassifier ("C-Python", LANG_API_FFI, ".c .py")
-        S0 = State (0, "from cffi import FFI")
+        S0 = State (0, "from cffi import FFI|import ctypes")
         Class.AddState(S0)
         S1 = State (1, "#include <Python.h>")
         S2 = State (2, "PyObject|Py_Initialize|PyMethodDef")
         S1.AddNext(S2)
+        S3 = State (3, "ctypes.CDLL")
+        S1.AddNext(S3)
         Class.AddState(S1)
         self.FFIClfList.append (Class)
 
@@ -450,16 +492,16 @@ class LangApiSniffer(Collect_Research_Data):
         ############################################################
         # Class: C++ and Ruby
         ############################################################
-        Class = ApiClassifier ("C++-Ruby", LANG_API_FFI, ".cpp .cc")
-        S0 = State (0, "rb_define_module|rb_define_class|rb_class_.*method|rb_define_.*_function")
+        Class = ApiClassifier ("C++-Ruby", LANG_API_FFI, ".cpp .cc .rb")
+        S0 = State (0, "rb_define_module|rb_define_class|rb_class_.*method|rb_define_.*_function|Fiddle.dlopen|require.*fiddle")
         Class.AddState(S0)
         self.FFIClfList.append (Class)
 
         ############################################################
         # Class: C++ and Objective-C
         ############################################################
-        Class = ApiClassifier ("C++-Ruby", LANG_API_FFI, ".mm")
-        S0 = State (0, "")
+        Class = ApiClassifier ("C++-Objective-C", LANG_API_FFI, ".mm")
+        S0 = State (0, " ")
         Class.AddState(S0)
         self.FFIClfList.append (Class)
 
