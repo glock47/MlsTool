@@ -70,6 +70,9 @@ class ApiClassifier ():
 
         #print ("Entry classifier: ", self.name)
         StateStack = self.States
+        if len (StateStack) == 0:
+            return False
+        
         with open (File, "r", encoding="utf8", errors="ignore") as sf:
             for line in sf:
                 if len (line) < 4:
@@ -156,6 +159,9 @@ class LangApiSniffer(Collect_Research_Data):
             IsMatch = Clf.Match (File)
             if IsMatch == True:
                 return Clf
+        #C-C++ classifier
+        if "c" in Langs and "c++" in Langs:
+            return self.FFIClfList[0]
         return None
 
     def SnifferByIri (self, Langs, File):
@@ -407,7 +413,7 @@ class LangApiSniffer(Collect_Research_Data):
         # Class: Shell*
         ############################################################
         Class = ApiClassifier ("Shell*", LANG_API_IRI, ".sh .bsh .zsh")
-        S0 = State (0, ".")
+        S0 = State (0, " ")
         Class.AddState(S0)
         self.IRIClfList.append (Class)
 
@@ -416,7 +422,7 @@ class LangApiSniffer(Collect_Research_Data):
         # Class: HD*
         ############################################################
         Class = ApiClassifier ("JS-CSS-HTML*", LANG_API_ID, ".html .js .css")
-        S0 = State (0, ".")
+        S0 = State (0, " ")
         Class.AddState(S0)
         self.IDClfList.append (Class)
         
@@ -426,12 +432,18 @@ class LangApiSniffer(Collect_Research_Data):
         # Class: HI*
         ############################################################
         Class = ApiClassifier ("HI*", LANG_API_HI, "*")
-        S0 = State (0, ".")
+        S0 = State (0, " ")
         Class.AddState(S0)
         self.HIClfList.append (Class)
     
     
     def InitFfiClass (self):
+        ############################################################
+        # Class: C and C++
+        ############################################################
+        Class = ApiClassifier ("C-C++", LANG_API_FFI, ".c .cpp")
+        self.FFIClfList.append (Class)
+        
         ############################################################
         # Class: Java and C
         ############################################################
