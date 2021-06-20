@@ -200,7 +200,7 @@ def main(argv):
         sys.exit(2)
     for opt, arg in opts:
         if opt == '-h':
-            print ("run.py -s <step_name>");
+            print ("collect.py -s <step_name>");
             sys.exit()
         elif opt in ("-s", "--step"):
             step = arg;

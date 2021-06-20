@@ -54,7 +54,7 @@ class Github_API():
     Fields_Wanted = ['id', 'size', 'forks',
                      'open_issues', 'subscribers_count',
                      'stargazers_count', 'language_dictionary',
-                     'owner_type', 'url',
+                     'owner_type', 'url', 'created_at',
                      'pushed_at', 'topics', 'description']
 
     def __init__(self, file_name='Repository_List'):
@@ -66,10 +66,11 @@ class Github_API():
         self.date_created = ""
         self.username = ""
         self.password = ""
-        self.stars = []
+        self.init_star  = 25000
+        self.delta_star = 100
+        self.min_star   = 1000
 
     def collect_repositories(self):
-        self.stars = ["4773..*", "4273..4772", "3772..4272", "3272..3771", "2772..3271", "2272..2771", "1772..2271", "1371..1771", "1071..1370", "801..1070", "500..800"]
         self.collect_repositories_by_year()
 
     def collect_repository_versions(self):
@@ -88,7 +89,9 @@ class Github_API():
 
     def collect_repositories_by_year(self, year=0):
         if (year):
-            self.stars = ["700..*", "450..699", "350..449", "280..349", "200..279", "150..199", "70..149", "30..69"]
+            self.init_star  = 1500
+            self.delta_star = 50
+            self.min_star   = 50
         
         # Obtains initial 'unclean' repositories
         self.get_repos_by_year(year)
@@ -149,7 +152,7 @@ class Github_API():
         print("Date Update Time-Span (months): %d"  %months)
         days = months * 30
 
-        date = datetime.strptime("2019-12-31", "%Y-%m-%d") - timedelta(days=days)
+        date = datetime.strptime("2020-12-31", "%Y-%m-%d") - timedelta(days=days)
         self.updated_time[UPDATE_MAX] = "+pushed:<=" + date.strftime("%Y-%m-%d")
         self.updated_time[UPDATE_ACTIVE] = "+pushed:>=" + date.strftime("%Y-%m-%d")
 
@@ -239,7 +242,14 @@ class Github_API():
         print("---> [%s]Obtaining Repositories from Github..." %updated_key)
         page_count = PAGE_COUNT+1        
         list_of_repositories = []
-        for star_count in self.stars:
+
+        init_star = self.init_star
+        while init_star > self.min_star:
+            b_star = init_star - self.delta_star
+            e_star = init_star
+            init_star = init_star - self.delta_star
+
+            star_count = str(b_star) + ".." + str(e_star)
             # Reads in 100 repositories from 10 pages resulting in 1000 repositories
             for page_num in range(1, page_count, 1):
                 # Gets repos from github in json format
@@ -250,7 +260,7 @@ class Github_API():
                     repos = json_repos['items']
                     list_of_repositories += repos
                     if (len(repos) < PER_PAGE):
-                        print ("[%s][%d] get repo counts = %d" %(star_count, page_num, len(repos)))
+                        print ("[%s][%d] get repo counts = %d / %d" %(star_count, page_num, len(repos), len (list_of_repositories)))
                         break
                 else:
                     # If 'items' is not a valid key then there are no more repos to read in
@@ -271,7 +281,7 @@ class Github_API():
             self.get_basic_auth()
             self.get_date_created()
             
-            months = (2019-year) * 12
+            months = (2020-year) * 12
             self.get_date_updated (year, months)
             
             #get repositories end at the end of the year
