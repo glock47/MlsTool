@@ -66,8 +66,8 @@ class Github_API():
         self.date_created = ""
         self.username = ""
         self.password = ""
-        self.init_star  = 25000
-        self.delta_star = 100
+        self.init_star  = 30000
+        self.delta_star = 50
         self.min_star   = 1000
 
     def collect_repositories(self):

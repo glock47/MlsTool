@@ -15,6 +15,24 @@ from nltk.stem import WordNetLemmatizer
 lemmatizer = WordNetLemmatizer()
 
 
+def is_number(s):
+    try:
+        float(s)
+        return True
+    except ValueError:
+        pass
+ 
+    try:
+        import unicodedata
+        unicodedata.numeric(s)
+        return True
+    except (TypeError, ValueError):
+        pass
+ 
+    return False
+
+
+
 class Diff ():
     def __init__(self, file, content):
         self.file = file
@@ -33,6 +51,7 @@ class Commit ():
         self.author  = author
         self.date    = date
         self.message = message
+        self.issue   = ' '
 
         self.Diffs   = None
 
@@ -82,17 +101,49 @@ class CloneRepo():
 
     def WriteCommts (self, RepoId):
         CmmtFile = self.BaseDir + "/Data/CmmtSet/" + str (RepoId) + ".csv"
-        Header = ['id', 'sha', 'author', 'date', 'message', 'file', 'content']
+        Header = ['id', 'sha', 'author', 'date', 'issue', 'message', 'file', 'content']
         with open(CmmtFile, 'w', encoding='utf-8') as CsvFile:       
             writer = csv.writer(CsvFile)
             writer.writerow(Header)  
             for cmmt in self.Commits:
                 if cmmt.Diffs == None:
-                    row = [cmmt.id, cmmt.sha, cmmt.author, cmmt.date, cmmt.message, "", ""]
+                    row = [cmmt.id, cmmt.sha, cmmt.author, cmmt.date, cmmt.issue, cmmt.message, "", ""]
                 else:
-                    row = [cmmt.id, cmmt.sha, cmmt.author, cmmt.date, cmmt.message, cmmt.Diffs.file, cmmt.Diffs.content]
+                    row = [cmmt.id, cmmt.sha, cmmt.author, cmmt.date, cmmt.issue, cmmt.message, cmmt.Diffs.file, cmmt.Diffs.content]
                 writer.writerow(row)
         CsvFile.close()
+
+    def PassLangs (self, LangFile="lang.ll"):
+        with open(LangFile, 'r', encoding='latin1') as Lfile:
+            Langs = []
+            for line in Lfile:
+                ll = re.findall(r"%  (.+?)\n", line)
+                #print ("Line = ", line, ", lang = ", ll)
+                if len (ll) == 0:
+                    continue
+                Langs.append (ll[0].strip().lower())
+            #print ("Old langs -> ", Langs)
+            return Langs
+        
+    def CheckLangs (self, Langs, Date='2016-06-01'):
+        print ("New langs -> ", Langs)
+        CmmDate = None
+        Cmmt = None
+        for cmmt in self.Commits:
+            CmmDate = re.findall('\d{4}-\d{2}-\d{2}', cmmt.date)[0]
+            if CmmDate < Date:
+                Cmmt = cmmt
+                break
+        HistCmd = "git checkout " + Cmmt.sha
+        os.system (HistCmd)
+        LangCmd = "github-linguist > lang.ll"
+        os.system (LangCmd)
+
+        HistLangs = self.PassLangs ()
+        if (len (HistLangs) != len (Langs)):
+            return False
+        else:
+            return True
 
     def is_continue (self, errcode):
         codes = [404, 500]
@@ -136,6 +187,7 @@ class CloneRepo():
             if Data == None:
                 continue
             repo['clone_url'] = Data['clone_url']
+            repo['language_dictionary'] = row['language_dictionary']        
             self.RepoList.append (repo)
 
     def GetRepoList(self):
@@ -149,6 +201,7 @@ class CloneRepo():
                 repo = {}
                 repo['id']  = row['id']
                 repo['clone_url'] = row['clone_url']
+                repo['language_dictionary'] = eval(row['language_dictionary'])
                 self.RepoList.append (repo)           
         print ("Total %d Repositories" %len(self.RepoList))
         
@@ -230,18 +283,57 @@ class CloneRepo():
                     if Df != None:
                         DfContent += line
                  
-
-    def CloneLog (self, RepoId, RepoDir):
+    def ParseLogSmp (self, LogFile):      
+        import re
+        with open(LogFile, 'r', encoding='latin1') as Lfile:
+            Cmmt   = None
+            Author = None
+            Date   = None
+            Message = ""
+            Index   = 0
+            for line in Lfile:
+                if line[0:7] == "commit ":
+                    if Cmmt != None:
+                        Cmmt.message = Message
+                        Message = ''
+                    Id  = len(self.Commits)
+                    Sha = line[7:-1]
+                    Cmmt = Commit (Id, Sha, None, None, None)
+                    self.Commits.append (Cmmt)
+                elif line[0:8] == "Author: ":
+                    Cmmt.author = line[9:-1]
+                elif line[0:6] == "Date: ":
+                    Cmmt.date = line[7:-1]
+                else:
+                    if len (line) < 6 :
+                        continue
+                    
+                    IssueNo = line.find ('#')
+                    if IssueNo != -1:
+                        issue = re.findall(r"#(.+?) ", line)
+                        if len (issue) != 0:
+                            #print ("Exit issue -> ", line, ", issue -> ", )
+                            issue = issue[0]
+                            if is_number (issue) == True:
+                                Cmmt.issue = issue
+                        
+                    Message += self.Cleaning(line)
+                    #print ("Get msg -> ", Message)
+    
+    def CloneLog (self, RepoId, RepoDir, Langs):
         Repo = RepoDir + "/" + os.listdir(RepoDir)[0]     
         os.chdir(Repo)
+        print ("Repo -> ", Repo)
 
         LogFile = str (RepoId) + ".log"
-        LogCmd = "git log -20000 --date=iso -p > " + LogFile
+        #LogCmd = "git log -20000 --date=iso -p > " + LogFile # for ParseLog
+        LogCmd = "git log -20000 --date=iso > " + LogFile     # for ParseLogSmp
         os.system (LogCmd)
         print (LogCmd)
         print ("ParseLog....")
-        self.ParseLog (LogFile)
-        self.WriteCommts (RepoId)
+        self.ParseLogSmp (LogFile)
+        if self.CheckLangs (Langs) == True:
+            self.WriteCommts (RepoId)
         os.remove (LogFile)
         self.Commits  = []
 
@@ -280,7 +372,8 @@ class CloneRepo():
             os.system (CloneCmd)
             Id += 1
 
-            self.CloneLog (repo['id'], RepoDir)
+            Langs = [lang.lower() for lang in repo['language_dictionary'].keys()]
+            self.CloneLog (repo['id'], RepoDir, Langs)
             System.set_tag (str(repo['id']))
             self.Clean (RepoDir)
  
