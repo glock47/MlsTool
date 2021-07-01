@@ -302,7 +302,7 @@ def main(argv):
     elif (step == "apisniffer"):
         LangSniffer (StartNo, EndNo, FileName)
     elif (step == "clone"):
-        CloneRepos ()
+        CloneRepos (StartNo, EndNo)
     else:
         print ("collect.py -s <all/collect/repostats/langstats/discripstats/topics/asso/cmmts/nbr/apisniffer/clone>") 
 

@@ -163,7 +163,7 @@ class Github_API():
     def get_date_created(self):
         #print("Date Created Time-Span (years): ", end="")
         #years = int(input())
-        years = (END_YEAR - 2015) + 1
+        years = (END_YEAR - 2018) + 1
         print("Date Created Time-Span (years): %d"  %years)
         days = years * 365.24
         date = datetime.today() - timedelta(days=days)

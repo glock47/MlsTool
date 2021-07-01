@@ -134,6 +134,8 @@ class CloneRepo():
             if CmmDate < Date:
                 Cmmt = cmmt
                 break
+        if Cmmt == None:
+            Cmmt = self.Commits[-1]
         HistCmd = "git checkout " + Cmmt.sha
         os.system (HistCmd)
         LangCmd = "github-linguist > lang.ll"
@@ -354,12 +356,13 @@ class CloneRepo():
             if Id < self.startNo or Id > self.endNo:
                 Id += 1
                 continue
-            
+
+            RepoDir = BaseDir + str(repo['id'])
             if System.access_tag (str(repo['id'])):
                 self.Clean (RepoDir)
+                Id += 1
                 continue
             
-            RepoDir = BaseDir + str(repo['id'])
             if not os.path.exists (RepoDir):
                 os.mkdir (RepoDir)
             else:
@@ -372,7 +375,8 @@ class CloneRepo():
             os.system (CloneCmd)
             Id += 1
 
-            Langs = [lang.lower() for lang in repo['language_dictionary'].keys()]
+            LangsDict = repo['language_dictionary']
+            Langs = [lang.lower() for lang in LangsDict.keys()]
             self.CloneLog (repo['id'], RepoDir, Langs)
             System.set_tag (str(repo['id']))
             self.Clean (RepoDir)
