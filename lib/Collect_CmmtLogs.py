@@ -14,6 +14,7 @@ import time
 import re
 import os
 import ast
+import sys
 import requests
 
 
@@ -177,10 +178,11 @@ class Collect_CmmtLogs(Collect_Research_Data):
         for index, row in cdf.iterrows():
             self.commits_num += 1
 
+            Labels = ""
             if row['issue'] != ' ':
-                self.get_issuetag (repo_item.url, row['issue'])
+                Labels = self.get_issuetag (repo_item.url, row['issue'])
 
-            message = row['message'] #+ " " + row['content']
+            message = row['message'] + " " + Labels #+ " " + row['content']
             message = self.formalize_msg (message)
             if (message == None):
                 continue
