@@ -125,7 +125,7 @@ class CloneRepo():
             #print ("Old langs -> ", Langs)
             return Langs
         
-    def CheckLangs (self, Langs, Date='2016-06-01'):
+    def CheckLangs (self, Langs, Date='2018-06-01'):
         print ("New langs -> ", Langs)
         CmmDate = None
         Cmmt = None
@@ -189,22 +189,18 @@ class CloneRepo():
             if Data == None:
                 continue
             repo['clone_url'] = Data['clone_url']
-            repo['language_dictionary'] = row['language_dictionary']        
+            repo['language_dictionary'] = eval(row['language_dictionary'])        
             self.RepoList.append (repo)
 
     def GetRepoList(self):
-        CloneRepoPath = "Data/OriginData/Clone" + self.RepoPath
-        if not os.path.exists (CloneRepoPath):
-            self.GetClonePath (CloneRepoPath)
-            self.WriteCsv (self.RepoList, CloneRepoPath)
-        else:           
-            df = pd.read_csv(CloneRepoPath)
-            for index, row in df.iterrows():            
-                repo = {}
-                repo['id']  = row['id']
-                repo['clone_url'] = row['clone_url']
-                repo['language_dictionary'] = eval(row['language_dictionary'])
-                self.RepoList.append (repo)           
+        RepoPath = "Data/OriginData/" + self.RepoPath
+        df = pd.read_csv(RepoPath)
+        for index, row in df.iterrows():            
+            repo = {}
+            repo['id']  = row['id']
+            repo['clone_url'] = row['clone_url']
+            repo['language_dictionary'] = eval(row['language_dictionary'])
+            self.RepoList.append (repo)           
         print ("Total %d Repositories" %len(self.RepoList))
         
     

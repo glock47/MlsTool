@@ -51,7 +51,7 @@ UPDATE_MIN    = "min"
 
 class Github_API():
 
-    Fields_Wanted = ['id', 'size', 'forks',
+    Fields_Wanted = ['id', 'size', 'forks', 'clone_url',
                      'open_issues', 'subscribers_count',
                      'stargazers_count', 'language_dictionary',
                      'owner_type', 'url', 'created_at',
@@ -67,7 +67,7 @@ class Github_API():
         self.username = ""
         self.password = ""
         self.init_star  = 30000
-        self.delta_star = 50
+        self.delta_star = 25
         self.min_star   = 1000
 
     def collect_repositories(self):
@@ -152,7 +152,7 @@ class Github_API():
         print("Date Update Time-Span (months): %d"  %months)
         days = months * 30
 
-        date = datetime.strptime("2020-12-31", "%Y-%m-%d") - timedelta(days=days)
+        date = datetime.strptime("2021-06-30", "%Y-%m-%d") - timedelta(days=days)
         self.updated_time[UPDATE_MAX] = "+pushed:<=" + date.strftime("%Y-%m-%d")
         self.updated_time[UPDATE_ACTIVE] = "+pushed:>=" + date.strftime("%Y-%m-%d")
 

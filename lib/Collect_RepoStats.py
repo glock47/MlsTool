@@ -1,5 +1,5 @@
 #!/usr/bin/python
-
+from lib.System import System
 from lib.Process_Data import Process_Data
 from lib.Collect_Research_Data import Collect_Research_Data
 from lib.Repository_Stats import Repository_Stats
@@ -30,7 +30,9 @@ class Collect_RepoStats(Collect_Research_Data):
         self.avg_lang_stats = {}
 
     def _update_statistics(self, repo_item):
-  
+        CmmtFile = System.cmmt_file (repo_item.id)
+        if System.is_exist(CmmtFile) == False:
+            return
         repo_stat = Repository_Stats(repo_item)
         repo_id   = repo_stat.id
         self.research_stats[repo_id] = repo_stat

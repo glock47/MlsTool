@@ -74,6 +74,7 @@ class Repository_Stats():
         self.topics = repo.topics
         # The description of the repository
         self.description = str(repo.description)
+        self.url = repo.url
 
     def _get_n_combination (self, n):
         all_languages = []

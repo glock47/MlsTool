@@ -14,6 +14,8 @@ import time
 import re
 import os
 import ast
+import requests
+
 
 class Keyword_Stats ():
     def __init__ (self, keyword, count):
@@ -119,7 +121,33 @@ class Collect_CmmtLogs(Collect_Research_Data):
         if ((self.repo_num < self.repo_no) or (self.repo_num >= self.repo_no+1000)):
             return True
 
-        return False
+        return False  
+
+    def is_continue (self, errcode):
+        codes = [404, 500]
+        if (errcode in codes):
+            return False
+        else:
+            return True
+
+    def get_issuetag (self, url, issue):
+        url = url + "/issues/" + issue
+        result = requests.get(url,
+                              auth=("yawenlee", "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"),
+                              headers={"Accept": "application/vnd.github.mercy-preview+json"})
+        if (self.is_continue (result.status_code) == False):
+            print("$$$%s: %s, URL: %s" % (result.status_code, result.reason, url))
+            return None
+        
+        if (result.status_code != 200 and result.status_code != 422):
+            print("%s: %s, URL: %s" % (result.status_code, result.reason, url))
+            sleep(1200)
+            return self.get_issuetag(url)     
+        Labels = result.json()['labels']
+        if len (Labels) == 0:
+            return ""
+        LabelName = Labels[0]['name']
+        print ("Issue - ", issue, "'s labes -> ", LabelName)
                 
     def _update_statistics(self, repo_item):
         start_time = time.time()
@@ -149,7 +177,10 @@ class Collect_CmmtLogs(Collect_Research_Data):
         for index, row in cdf.iterrows():
             self.commits_num += 1
 
-            message = row['message'] + " " + row['content']
+            if row['issue'] != ' ':
+                self.get_issuetag (repo_item.url, row['issue'])
+
+            message = row['message'] #+ " " + row['content']
             message = self.formalize_msg (message)
             if (message == None):
                 continue
