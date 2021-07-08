@@ -225,7 +225,7 @@ class LangApiSniffer(Collect_Research_Data):
                 File = os.path.join(Path, f)
                 Clf = self.SnifferByFFI (Langs, File)
                 if Clf != None:
-                    print ("Match:", Langs[0:3], "[", ReppId, "] -> ", Clf.name, " = ", Clf.clstype)
+                    #print ("Match:", Langs[0:3], "[", ReppId, "] -> ", Clf.name, " = ", Clf.clstype)
                     self.AddScanResult (ClfList, Clf)
 
         if (len (ClfList) >= len(Langs)-1):

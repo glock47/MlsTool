@@ -138,17 +138,17 @@ class Collect_CmmtLogs(Collect_Research_Data):
                               headers={"Accept": "application/vnd.github.mercy-preview+json"})
         if (self.is_continue (result.status_code) == False):
             print("$$$%s: %s, URL: %s" % (result.status_code, result.reason, url))
-            return None
+            return ""
         
         if (result.status_code != 200 and result.status_code != 422):
             print("%s: %s, URL: %s" % (result.status_code, result.reason, url))
             sleep(1200)
-            return self.get_issuetag(url)     
+            return self.get_issuetag(url, issue)     
         Labels = result.json()['labels']
         if len (Labels) == 0:
             return ""
         LabelName = Labels[0]['name']
-        print ("Issue - ", issue, "'s labes -> ", LabelName)
+        return LabelName
                 
     def _update_statistics(self, repo_item):
         start_time = time.time()
