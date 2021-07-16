@@ -21,6 +21,8 @@ from lib.Collect_Nbr import Collect_Nbr
 from lib.Collect_NbrAPI import Collect_NbrAPI
 from lib.LangApiSniffer import LangApiSniffer
 from lib.CloneRepo import CloneRepo
+from lib.Sample import Sample
+
 
 
 def Daemonize(pid_file=None):
@@ -170,6 +172,11 @@ def CloneRepos (startNo=0, endNo=65535):
     CR = CloneRepo ("Repository_List.csv", startNo, endNo)
     CR.Clone ()
 
+def CollectSamples ():
+    Cs = Sample (50, 500)
+    Cs.Smapling ()
+
+
 def StatAll ():
     original_repo_list = Process_Data.load_data(file_path=System.getdir_collect(), file_name='Repository_List')
     RepoStats(original_repo_list)
@@ -303,6 +310,8 @@ def main(argv):
         LangSniffer (StartNo, EndNo, FileName)
     elif (step == "clone"):
         CloneRepos (StartNo, EndNo)
+    elif (step == "sample"):
+        CollectSamples ()
     else:
         print ("collect.py -s <all/collect/repostats/langstats/discripstats/topics/asso/cmmts/nbr/apisniffer/clone>") 
 
