@@ -6,9 +6,9 @@ from lib.Process_Data import Process_Data
 from lib.Collect_Research_Data import Collect_Research_Data
 
 LANG_API_FFI = "FFI"
-LANG_API_IRI = "IRI" #Indirect remote-invocation
-LANG_API_ID  = "ID"  #inter-dependence
-LANG_API_HI  = "HI"  #Hidden interaction
+LANG_API_IRI = "IMI"  #Indirect remote-invocation
+LANG_API_ID  = "EBD"  #inter-dependence
+LANG_API_HI  = "HIT"  #Hidden interaction
 FfiSignature = "@FfiSignature"
 
 class State ():
@@ -272,10 +272,10 @@ class LangApiSniffer(Collect_Research_Data):
 
     def FormatTypes (self, TypeList):
         if len (TypeList) == 0:
-            return "HI"
+            return LANG_API_HI
         
         Types = ""
-        TypeOrder = ["FFI", "IRI", "ID", "HI"]
+        TypeOrder = [LANG_API_FFI, LANG_API_IRI, LANG_API_ID, LANG_API_HI]
         for type in TypeOrder:
             if type not in TypeList:
                 continue
@@ -431,7 +431,7 @@ class LangApiSniffer(Collect_Research_Data):
         ############################################################
         # Class: HI*
         ############################################################
-        Class = ApiClassifier ("HI*", LANG_API_HI, "*")
+        Class = ApiClassifier ("HIT*", LANG_API_HI, "*")
         S0 = State (0, " ")
         Class.AddState(S0)
         self.HIClfList.append (Class)

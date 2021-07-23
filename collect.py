@@ -70,6 +70,13 @@ def CollectRepo(year=0):
     
     return origin_repo.list_of_repositories
 
+def UpdateRepo():
+    TimeTag(">>>>>>>>>>>> [%d]Update repositories fom github...")
+    # Retrieves repo data from Github by page
+    Ga = Github_API()
+    Ga.update_repolist()
+
+
 # repo stats
 def RepoStats(original_repo_list=None):
     TimeTag(">>>>>>>>>>>> Statistic on repositories...")
@@ -240,7 +247,8 @@ def main(argv):
                 StatAll()
         else:
             StatAll ()
-            
+    elif (step == "update"):
+        UpdateRepo ()
     elif (step == "collect"):
         if (by_year == True):
             for year in range (System.START_YEAR, System.END_YEAR+1, 1):

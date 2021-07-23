@@ -11,6 +11,7 @@ import pandas as pd
 from fuzzywuzzy import fuzz
 from fuzzywuzzy import process
 import time
+from time import sleep
 import re
 import os
 import ast
@@ -43,9 +44,11 @@ class SeCategory_Stats ():
         self.count += count
 
 class CmmtLogs():
-    def __init__ (self, message, fuzzy):
+    def __init__ (self, sha, message, fuzzy, labels):
+        self.sha     = sha
         self.message = message
-        self.fuzzy = fuzzy       
+        self.fuzzy   = fuzzy
+        self.labels  = labels
 
 class Collect_CmmtLogs(Collect_Research_Data):
 
@@ -182,7 +185,7 @@ class Collect_CmmtLogs(Collect_Research_Data):
             if row['issue'] != ' ':
                 Labels = self.get_issuetag (repo_item.url, row['issue'])
 
-            message = row['message'] + " " + Labels #+ " " + row['content']
+            message = str(row['message']) + " " + Labels #+ " " + row['content']
             message = self.formalize_msg (message)
             if (message == None):
                 continue
@@ -192,7 +195,7 @@ class Collect_CmmtLogs(Collect_Research_Data):
             if fuzz_results:
                 #print (fuzz_results)
                 index = len (self.research_stats)
-                self.research_stats[index] = CmmtLogs (message, fuzz_results)
+                self.research_stats[index] = CmmtLogs (row['sha'], message, fuzz_results, Labels)
             if (index >= self.max_cmmt_num):
                 break
 

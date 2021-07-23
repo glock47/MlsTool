@@ -9,6 +9,7 @@ from progressbar import ProgressBar
 import csv  # reader()
 import sys  # sys.maxsize
 import os
+import pandas as pd
 # Allows code to read in large CSV files
 csv.field_size_limit(sys.maxsize)
 
@@ -67,7 +68,7 @@ class Github_API():
         self.username = ""
         self.password = ""
         self.init_star  = 30000
-        self.delta_star = 25
+        self.delta_star = 100
         self.min_star   = 1000
 
     def collect_repositories(self):
@@ -186,7 +187,7 @@ class Github_API():
         for repo in self.list_of_repositories:
             language_count = len(repo['language_dictionary'])
             character_count = len(str(repo['description']))
-            if language_count > 0 and character_count > 20:
+            if language_count > 1 and character_count > 8:
                 updated_repos.append(repo)
         self.list_of_repositories = updated_repos
 
@@ -218,15 +219,15 @@ class Github_API():
             return self.http_get_call(url)
         return result.json()
 
-    def get_page_of_repos(self, updated_key, page_num, star_count):
+    def get_page_of_repos(self, updated_key, page_num, star_count, sort='asc'):
         url = 'https://api.github.com/search/repositories?' \
-              + 'q=stars:' + star_count + '+is:public+mirror:false' \
+              + 'q=stars:' + star_count + '+is:public+mirror:false'\
               + self.updated_time[updated_key] 
 
         if (updated_key == UPDATE_ACTIVE):
             url += self.date_created
         
-        url += '&sort=stars&per_page=' + str(PER_PAGE) + '&order=desc' + '&page=' + str(page_num)  # 4250
+        url += '&sort=stars&per_page=' + str(PER_PAGE) + '&order=' + sort + '&page=' + str(page_num)  # 4250
         
         if page_num == 1:
             print(url)
@@ -250,21 +251,36 @@ class Github_API():
             init_star = init_star - self.delta_star
 
             star_count = str(b_star) + ".." + str(e_star)
-            # Reads in 100 repositories from 10 pages resulting in 1000 repositories
-            for page_num in range(1, page_count, 1):
-                # Gets repos from github in json format
-                json_repos = self.get_page_of_repos(updated_key, page_num, star_count)
-                # json_repos['items'] = list of repo dictionary objects OR is not a valid key
-                if 'items' in json_repos:
-                    # Append new repos to the end of 'list_of_repositories'
-                    repos = json_repos['items']
-                    list_of_repositories += repos
-                    if (len(repos) < PER_PAGE):
-                        print ("[%s][%d] get repo counts = %d / %d" %(star_count, page_num, len(repos), len (list_of_repositories)))
+            star_repos = []
+            star_IDS   = []
+            for sort in ['asc', 'desc']:      
+                # Reads in 100 repositories from 10 pages resulting in 1000 repositories
+                for page_num in range(1, page_count, 1):
+                    # Gets repos from github in json format
+                    json_repos = self.get_page_of_repos(updated_key, page_num, star_count, sort)
+                    # json_repos['items'] = list of repo dictionary objects OR is not a valid key
+                    if 'items' in json_repos:
+                        # Append new repos to the end of 'list_of_repositories'
+                        repos = json_repos['items']
+                        if len (star_IDS) == 0:
+                            star_repos += repos
+                            list_of_repositories += repos
+                        else:
+                            for rp in repos:
+                                if rp['id'] in star_IDS:
+                                    continue
+                                star_repos.append (rp)
+                                list_of_repositories.append (rp)
+                        if (len(repos) < PER_PAGE) or page_num == 10:
+                            print ("[%s][%d] get repo counts = %d / %d" %(star_count, page_num, len(repos), len (list_of_repositories)))
+                            break
+                    else:
+                        # If 'items' is not a valid key then there are no more repos to read in
                         break
-                else:
-                    # If 'items' is not a valid key then there are no more repos to read in
+                if len (star_repos) < 1000:
                     break
+                for repo in star_repos:
+                    star_IDS.append (repo['id'])
         return list_of_repositories
 
     def get_active_repos(self):
@@ -375,4 +391,22 @@ class Github_API():
                     row.append(repository[field])
                 writer.writerow(row)
         csv_file.close()
+
+    def update_repolist(self):
+        list_of_repositories = []
+        file = self.file_path + self.file_name + '.csv'
+        df = pd.read_csv(file)
+        for index, row in df.iterrows():
+            CmmtFile = System.cmmt_file (row['id'])
+            if System.is_exist(CmmtFile) == False:
+                continue
+            row['language_dictionary'] = eval (row['language_dictionary'])
+            row['topics'] = eval (row['topics'])
+            list_of_repositories.append (row)
+        self.list_of_repositories = list_of_repositories
+
+        file_name = 'Repository_List'
+        Process_Data.store_data(file_path=self.file_path, file_name=file_name, data=self.list_of_repositories)
+        self.write_csv(file_name)
+        print ("@@@@ Total %d repositories collected...." %len(list_of_repositories))
 

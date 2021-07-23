@@ -1,6 +1,7 @@
 #!/usr/bin/python
 
 from lib.System import System
+from lib.Process_Data import Process_Data
 import csv
 import sys
 import os
@@ -200,7 +201,7 @@ class CloneRepo():
             repo['id']  = row['id']
             repo['clone_url'] = row['clone_url']
             repo['language_dictionary'] = eval(row['language_dictionary'])
-            self.RepoList.append (repo)           
+            self.RepoList.append (repo)
         print ("Total %d Repositories" %len(self.RepoList))
         
     
@@ -283,6 +284,7 @@ class CloneRepo():
                  
     def ParseLogSmp (self, LogFile):      
         import re
+        IssueNum = 0
         with open(LogFile, 'r', encoding='latin1') as Lfile:
             Cmmt   = None
             Author = None
@@ -314,9 +316,11 @@ class CloneRepo():
                             issue = issue[0]
                             if is_number (issue) == True:
                                 Cmmt.issue = issue
+                                IssueNum += 1
                         
                     Message += self.Cleaning(line)
                     #print ("Get msg -> ", Message)
+            return IssueNum
     
     def CloneLog (self, RepoId, RepoDir, Langs):
         Repo = RepoDir + "/" + os.listdir(RepoDir)[0]     
@@ -329,17 +333,25 @@ class CloneRepo():
         os.system (LogCmd)
         print (LogCmd)
         print ("ParseLog....")
-        self.ParseLogSmp (LogFile)
-        if self.CheckLangs (Langs) == True:
+        IssueNum = self.ParseLogSmp (LogFile)
+        if self.CheckLangs (Langs) == True and IssueNum != 0 and len (self.Commits) >= 1000:
+            print ("@@@@@@ CmmtsNum = %d, IssueNum = %d" %(len(self.Commits), IssueNum))
             self.WriteCommts (RepoId)
-        os.remove (LogFile)
-        self.Commits  = []
+            self.Commits  = []
+            os.remove (LogFile)
+            return True
+        else:
+            RmCmd = "rm -rf " + RepoDir
+            os.system (RmCmd)
+            return False
 
     def Clean (self, RepoDir):
+        if not os.path.exists (RepoDir):
+            return
         os.chdir(RepoDir)
         CleanCmd = "find . -name \".git\" | xargs rm -rf"
         os.system (CleanCmd)
-    
+        
     def Clone (self):
         self.Extersion = {}
         self.GetRepoList ()
@@ -373,9 +385,8 @@ class CloneRepo():
 
             LangsDict = repo['language_dictionary']
             Langs = [lang.lower() for lang in LangsDict.keys()]
-            self.CloneLog (repo['id'], RepoDir, Langs)
+            if self.CloneLog (repo['id'], RepoDir, Langs) == True:
+                self.Clean (RepoDir)
             System.set_tag (str(repo['id']))
-            self.Clean (RepoDir)
- 
+            
 
-    

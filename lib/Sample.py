@@ -1,7 +1,11 @@
 
 import os
+import sys
+import csv
+from time import sleep
 import pandas as pd
 import random
+import requests
 from lib.System import System
 
 class ApiInfo ():
@@ -12,8 +16,8 @@ class ApiInfo ():
 
 class Sample():
 
-    LANGINTR_SET  = ["FFI", "FFI_ID", "FFI_IRI", "FFI_IRI_ID", "IRI", "IRI_ID"]
-    LANGCOMBO_SET = [["python", "shell"], ["c", "c++"], ["go", "shell"], ["objective-c", "ruby"], ["css", "html", "javascript", "shell"], 
+    LANGINTR_SET  = ["FFI", "FFI_EBD", "FFI_IMI", "FFI_IMI_EBD", "IMI", "IMI_EBD"]
+    LANGCOMBO_SET = [["python", "shell"], ["html", "java"], ["go", "shell"], ["objective-c", "ruby"], ["css", "html", "javascript", "shell"], 
                      ["css", "html", "javascript", "python"], ["java", "shell"], ["javascript", "shell"], ["c", "c++", "python"], 
                      ["c", "python"], ["c", "c++", "python", "shell"], ["html", "javascript", "shell"], ["javascript", "php"]]
 
@@ -27,6 +31,8 @@ class Sample():
 
         self.ApiInfo  = {}
         self.GetApiInfo ()
+
+        System.mkdir('Data/StatData/Samples') 
 
     def GetApiInfo (self):
         AiPath = "Data/StatData/ApiSniffer.csv"
@@ -43,6 +49,7 @@ class Sample():
             repo['id']  = row['id']
             repo['url'] = row['url']
             self.RepoList.append (repo)
+        print ("@@@@@ Get repository number: %d" %len (self.RepoList))
 
     def GetLangSelt (self, Langs):
         LangSet = []
@@ -79,7 +86,7 @@ class Sample():
                 continue
             LangSet.append (Ls)
 
-        print ("LangSet size is ", len (LangSet), ", Details: ", LangSet)
+        #print ("LangSet size is ", len (LangSet), ", Details: ", LangSet)
         if len (LangSet) > self.SmpNum/3:
             return True
         else:
@@ -92,12 +99,11 @@ class Sample():
             Id = repo['id']
             Ai = self.ApiInfo.get (Id)
             ApiType = Ai.ApiType
-            print (ApiType)
             if ApiType in Sample.LANGINTR_SET:
                 ApiSet.append (ApiType)
 
         ApiSet = set(ApiSet)
-        print ("ApiSet size is ", len (ApiSet), ", Details: ", ApiSet)
+        #print ("ApiSet size is ", len (ApiSet), ", Details: ", ApiSet)
         if len (ApiSet) > 3:
             return True
         else:
@@ -112,19 +118,36 @@ class Sample():
             return False
         
         return True
-        
+
+    
+    def GetCmmtNum (self, RepoId):
+        CmmtFile = System.cmmt_file (RepoId)
+        with open(CmmtFile, 'r') as f:
+            return len(f.readlines())
+
+    def GenSamples (self):
+        ScFile = "Data/StatData/Samples/Samples.csv"
+        Header = ['id', 'languages', 'api-type']
+        with open(ScFile, 'w', encoding='utf-8') as CsvFile:       
+            writer = csv.writer(CsvFile)
+            writer.writerow(Header)  
+            for smp in self.Samples:
+                Id = smp['id']
+                Ai = self.ApiInfo.get (Id)
+                ApiType = Ai.ApiType
+                Ls = self.GetLangSelt (Ai.Langs)
+                writer.writerow([Id, Ls, ApiType])
     
     def Smapling (self):
+        TryNum = 0;
         while True:
-            Sn = 0
-            TryNum = 0;
+            TryNum += 1
+            
+            Sn = 0           
             IdDict = {}
             RepoNum = len (self.RepoList)
-            while True:
-                TryNum += 1
-                if Sn >= 50:
-                    break
-                
+            self.Samples = []
+            while True: 
                 RId  = random.randrange(1, 16777215, 1) % RepoNum
                 Repo = self.RepoList [RId]
                 Id   = Repo['id']
@@ -136,13 +159,28 @@ class Sample():
                     continue
                 IdDict[Id] = True
 
+                CmmtNum = self.GetCmmtNum (Id)
+                if CmmtNum < self.CmmtNum:
+                    continue
+                
                 self.Samples.append (Repo)
+                
                 Sn += 1
+                if Sn >= self.SmpNum:
+                    break
 
             if self.CheckValid () == True:
+                self.GenSamples ()
                 break
 
         self.GrabCmmts ()
+
+    def is_continue (self, errcode):
+        codes = [404, 410, 500]
+        if (errcode in codes):
+            return False
+        else:
+            return True
 
     def GetIssueTag (self, url):
         result = requests.get(url,
@@ -155,34 +193,64 @@ class Sample():
         if (result.status_code != 200 and result.status_code != 422):
             print("%s: %s, URL: %s" % (result.status_code, result.reason, url))
             sleep(1200)
-            return self.get_issuetag(url, issue)     
+            return self.GetIssueTag(url)     
         Labels = result.json()['labels']
         if len (Labels) == 0:
             return ""
         LabelName = Labels[0]['name']
+        #print ("\tTag = ", LabelName)
         return LabelName
 
+    def IsValidIssue (self, Tag):
+        Tag = Tag.lower ()
+        ValidTags = ['bug', 'security', 'good first issue', 'enhancement']
+        
+        for Tg in ValidTags:
+            if Tag.find(Tg) != -1:
+                return True
+        return False
+
+    def GenSampleCmmts (self, RepoId, SampleCmmts):
+        if len (SampleCmmts) == 0:
+            return
+        ScFile = "Data/StatData/Samples/" + str (RepoId) + ".csv"
+        Header = SampleCmmts[0].keys()
+        with open(ScFile, 'w', encoding='utf-8') as CsvFile:       
+            writer = csv.writer(CsvFile)
+            writer.writerow(Header)  
+            for Smc in SampleCmmts:
+                row = Smc.values()
+                writer.writerow(row)
+  
     def GrabCmmts (self):
+        IssueCmm = 0
+        Index = 0
         for repo in self.Samples:
             RepoId = repo['id']
             Url    = repo['url'] + "/issues/"
-
-            Cmmts = {}
+            print ("[%d][%s]Retrieve %s" %(Index, RepoId, Url) )
+            Index += 1
+            
+            SampleCmmts = []
             CNo = 0
             CmmtFile = System.cmmt_file (RepoId)
             df = pd.read_csv(CmmtFile)
             for index, row in df.iterrows():
-                if row['issue'] == ' ':
-                    continue
+                if row['issue'] != ' ':
+                    IssueUrl = Url + row['issue']
+                    Tag = self.GetIssueTag (IssueUrl)
+                    if self.IsValidIssue (Tag) == True:
+                        Cmmts = {}
+                        Cmmts['No'] = CNo
+                        Cmmts['Issue-url'] = IssueUrl
+                        Cmmts['Tag'] = Tag
+                        SampleCmmts.append (Cmmts)
 
-                IssueUrl = Url + row['issue']
-                Tag = self.GetIssueTag (IssueUrl)
-                if Tag != 'bug':
-                    continue
-                
-                Cmmts['No'] = CNo
-                Cmmts['Issue-url'] = IssueUrl
-                Cmmts['Tag'] = Tag
- 
-            
+                CNo += 1
+                if CNo >= self.CmmtNum:
+                    break
+            print ("\tDone...[%d/%d]"  %(len (SampleCmmts), CNo))
+            IssueCmm += len (SampleCmmts)
+            self.GenSampleCmmts (RepoId, SampleCmmts)
+        print ("Total %d issue-Commits found!!" %IssueCmm)
         
