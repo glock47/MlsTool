@@ -143,7 +143,8 @@ class CloneRepo():
         os.system (LangCmd)
 
         HistLangs = self.PassLangs ()
-        if (len (HistLangs) != len (Langs)):
+        if len (HistLangs) < len (Langs):
+            print ("Hist langs -> ", HistLangs)
             return False
         else:
             return True
@@ -312,9 +313,9 @@ class CloneRepo():
                     if IssueNo != -1:
                         issue = re.findall(r"#(.+?) ", line)
                         if len (issue) != 0:
-                            #print ("Exit issue -> ", line, ", issue -> ", )
                             issue = issue[0]
                             if is_number (issue) == True:
+                                print ("Exit issue -> ", line, ", issue -> ", issue)
                                 Cmmt.issue = issue
                                 IssueNum += 1
                         
@@ -334,7 +335,8 @@ class CloneRepo():
         print (LogCmd)
         print ("ParseLog....")
         IssueNum = self.ParseLogSmp (LogFile)
-        if self.CheckLangs (Langs) == True and IssueNum != 0 and len (self.Commits) >= 1000:
+        IssueRate = int (IssueNum*100/len (self.Commits))
+        if self.CheckLangs (Langs) == True and IssueRate >= 1  and len (self.Commits) >= 1000:
             print ("@@@@@@ CmmtsNum = %d, IssueNum = %d" %(len(self.Commits), IssueNum))
             self.WriteCommts (RepoId)
             self.Commits  = []

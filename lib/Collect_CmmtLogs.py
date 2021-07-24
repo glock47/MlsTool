@@ -246,7 +246,29 @@ class Collect_CmmtLogs(Collect_Research_Data):
                 secate.append_keyword (keyword, keywors_stat.count)
                 
         super(Collect_CmmtLogs, self).save_data2(self.secategory_stats, "./Data/StatData/SeCategory_Stats")
-                    
+
+
+    def ClassifySeC (self, Msg):
+        message = self.formalize_msg (Msg)
+        if (message == None):
+            return "None"
+
+        fuzz_results = self.fuzz_match (message, 90)
+        if fuzz_results:
+            keyword = fuzz_results.keys()
+            for id, secate in self.secategory_stats.items ():
+                if not secate.is_match (keyword):
+                    continue
+                else:
+                    print ("@@@@ Match %s!!!" %secate.category)
+                    return secate.category
+
+            secate = self.secategory_stats[3]
+            #print ("@@@@ Match %s!!!" %secate.category)
+            return secate.category             
+        else:
+            #print ("@@@@ Match None!!!")
+            return "None"
         
     def _update(self):
         print ("Final: repo_num: %u -> accumulated commits: %u" %(self.repo_num, self.commits_num))

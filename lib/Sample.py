@@ -7,6 +7,7 @@ import pandas as pd
 import random
 import requests
 from lib.System import System
+from lib.Collect_CmmtLogs import Collect_CmmtLogs
 
 class ApiInfo ():
     def __init__(self, Id, Langs, ApiType):
@@ -188,7 +189,7 @@ class Sample():
                               headers={"Accept": "application/vnd.github.mercy-preview+json"})
         if (self.is_continue (result.status_code) == False):
             print("$$$%s: %s, URL: %s" % (result.status_code, result.reason, url))
-            return ""
+            return " "
         
         if (result.status_code != 200 and result.status_code != 422):
             print("%s: %s, URL: %s" % (result.status_code, result.reason, url))
@@ -196,23 +197,24 @@ class Sample():
             return self.GetIssueTag(url)     
         Labels = result.json()['labels']
         if len (Labels) == 0:
-            return ""
+            return " "
         LabelName = Labels[0]['name']
         #print ("\tTag = ", LabelName)
         return LabelName
 
     def IsValidIssue (self, Tag):
         Tag = Tag.lower ()
-        ValidTags = ['bug', 'security', 'good first issue', 'enhancement']
+        ValidTags = ['bug', 'security', 'issue', 'enhancement', 'critical']
         
         for Tg in ValidTags:
             if Tag.find(Tg) != -1:
                 return True
-        return False
+        return True
 
     def GenSampleCmmts (self, RepoId, SampleCmmts):
         if len (SampleCmmts) == 0:
             return
+
         ScFile = "Data/StatData/Samples/" + str (RepoId) + ".csv"
         Header = SampleCmmts[0].keys()
         with open(ScFile, 'w', encoding='utf-8') as CsvFile:       
@@ -223,6 +225,8 @@ class Sample():
                 writer.writerow(row)
   
     def GrabCmmts (self):
+        CCm = Collect_CmmtLogs(0)
+        
         IssueCmm = 0
         Index = 0
         for repo in self.Samples:
@@ -236,21 +240,33 @@ class Sample():
             CmmtFile = System.cmmt_file (RepoId)
             df = pd.read_csv(CmmtFile)
             for index, row in df.iterrows():
+                Cmmts = {}
+                Cmmts['No'] = CNo
+                Cmmts['Valid'] = False
+                Cmmts['Message']  = row['message']
+
+                Msg = str(row['message'])
                 if row['issue'] != ' ':
                     IssueUrl = Url + row['issue']
+                    Cmmts['Issue-url'] = IssueUrl
+                    
                     Tag = self.GetIssueTag (IssueUrl)
-                    if self.IsValidIssue (Tag) == True:
-                        Cmmts = {}
-                        Cmmts['No'] = CNo
-                        Cmmts['Issue-url'] = IssueUrl
-                        Cmmts['Tag'] = Tag
-                        SampleCmmts.append (Cmmts)
-
+                    Cmmts['Tag'] = Tag
+                    
+                    if self.IsValidIssue (Tag) == True: 
+                        Cmmts['Valid'] = True     
+                        Msg += " " + Tag
+                    IssueCmm += 1
+                else:
+                    Cmmts['Issue-url'] = ' '
+                    Cmmts['Tag'] = ' '
+                Cmmts['Category'] = CCm.ClassifySeC(Msg)
+                        
+                SampleCmmts.append (Cmmts)
                 CNo += 1
                 if CNo >= self.CmmtNum:
                     break
             print ("\tDone...[%d/%d]"  %(len (SampleCmmts), CNo))
-            IssueCmm += len (SampleCmmts)
             self.GenSampleCmmts (RepoId, SampleCmmts)
         print ("Total %d issue-Commits found!!" %IssueCmm)
         
