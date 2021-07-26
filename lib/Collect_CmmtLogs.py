@@ -29,6 +29,7 @@ class SeCategory_Stats ():
         self.category = category
         self.keywords = keywords
         self.count = 0
+        self.reEngine = None
 
     def is_match (self, keyword):
         if (keyword in self.keywords):
@@ -44,17 +45,18 @@ class SeCategory_Stats ():
         self.count += count
 
 class CmmtLogs():
-    def __init__ (self, sha, message, fuzzy, labels):
-        self.sha     = sha
-        self.message = message
-        self.fuzzy   = fuzzy
-        self.labels  = labels
+    def __init__ (self, sha, message, catetory, matched, labels):
+        self.sha      = sha
+        self.message  = message
+        self.catetory = catetory
+        self.matched  = matched
+        self.labels   = labels
 
 class Collect_CmmtLogs(Collect_Research_Data):
 
-    def __init__(self, repo_no, file_name='CmmtLogs_Stats'):
+    def __init__(self, repo_no, re_use=False, file_name='CmmtLogs_Stats'):
         super(Collect_CmmtLogs, self).__init__(file_name=file_name)
-        
+        self.re_use = re_use 
         self.Tm = TextModel ()
         self.keywords = self.load_keywords ()
         self.commits_num = 0
@@ -70,17 +72,60 @@ class Collect_CmmtLogs(Collect_Research_Data):
         self.exception = re.compile(r'^current$|^ctrl$|^design$|^designer$|^description$|^described$|^descriptive$|^desc$|^list$|^sure$|^flow$|^brace$|^able$|^action$|^back$|^open$|^read$|^the$|^char$|^site$|^tweak$|^print$|^printf$')
         
     def init_secategory (self):
-        self.secategory_stats[0] = SeCategory_Stats ("Risky_resource_management", 
+        if self.re_use == False:
+            self.secategory_stats[0] = SeCategory_Stats ("Risky_resource_management", 
                                                      ['thread', 'concurrent', 'concurren', 'synch', 'deadlock', 'race', 'buffer', 'crash', 'stack', 'integer', 'overflow', 'Sensitive', 'Sprintf', 'underflow', 'signedness', 'length', 'overrun'])
         
-        self.secategory_stats[1] = SeCategory_Stats ("Insecure_interaction_between_components", 
-                                                     ['injection', 'blacklist', 'CSRF', 'Cross-Site', 'forger', 'Forgery', 'SQLI', 'exploit', 'XSRF', 'backdoor', 'insecure', 'threat', 'specialchar', 'penetration'])
+            self.secategory_stats[1] = SeCategory_Stats ("Insecure_interaction_between_components", 
+                                                         ['injection', 'blacklist', 'CSRF', 'Cross-Site', 'forger', 'Forgery', 'SQLI', 'exploit', 'XSRF', 'backdoor', 'insecure', 'threat', 'specialchar', 'penetration'])
 
-        self.secategory_stats[2] = SeCategory_Stats ("Porous_defenses", 
-                                                     ['leak', 'permission', 'OpenSSL', 'crypto', 'encryption', 'cipher', 'bcrypt', 'entropy', 'unauthenticated', 'weak', 'Exposure', 'expose', 'ciphers', 'wireguard', 'breakable'])
+            self.secategory_stats[2] = SeCategory_Stats ("Porous_defenses", 
+                                                         ['leak', 'permission', 'OpenSSL', 'crypto', 'encryption', 'cipher', 'bcrypt', 'entropy', 'unauthenticated', 'weak', 'Exposure', 'expose', 'ciphers', 'wireguard', 'breakable'])
 
-        self.secategory_stats[3] = SeCategory_Stats ("Other", [])
+            self.secategory_stats[3] = SeCategory_Stats ("Other", [])
+        else:
+            self.secategory_stats[0] = SeCategory_Stats ("Risky_resource_management", 
+                                                         ['path traversal', 'deadlock', 'race', 'crash', 'overflow', 'underflow', 'overrun', 'wraparound', 'uncontrolled format', 
+                                                         'dangerous function', 'untrusted control', 'improper limitation', 'integrity check', 'null pointer', 'missing init'])
+            self.secategory_stats[0].reEngine = re.compile(r'path traversal|deadlock|race|crash|overflow|underflow|overrun|wraparound|uncontrolled format|dangerous function|untrusted control|improper limitation|integrity check|null pointer|missing init')
+            
+            self.secategory_stats[1] = SeCategory_Stats ("Insecure_interaction_between_components", 
+                                                         ['sql injection', 'command injection', 'csrf', 'cross-site', 'forger', 'forgery', 'sqli', 'request forgery', 'xsrf', 'backdoor', 
+                                                         'untrusted site', 'specialchar', 'unrestricted upload', 'unrestricted file', 'man-in-the-middle', 'reflected xss', 'get-based xss'])
+            self.secategory_stats[1].reEngine = re.compile(r'sql injection|command injection|csrf|cross-site|forger|forgery|sqli|request forgery|xsrf|backdoor|untrusted site|specialchar|unrestricted upload|unrestricted file|man-in-the-middle|reflected xss|get-based xss')
 
+            self.secategory_stats[2] = SeCategory_Stats ("Porous_defenses", 
+                                                         ['missing authentication', 'missing authorization', 'hard-coded credential', 'missing encryption', 'untrusted input', 'unnecessary privilege', 'sensitive data' 
+                                                         'incorrect authorization', 'incorrect permission', 'broken cryptographic', 'risky cryptographic', 'excessive authentication', 'privilege escalation',
+                                                         'without a salt', 'unauthenticated', 'information disclosure', 'authentication bypass', 'cnc vulnerability', 'access control', 'cleartext storage'])
+            self.secategory_stats[2].reEngine = re.compile(r'missing authentication|missing authorization|hard-coded credential|miss encryption|untrusted input|unnecessary privilege|incorrect authorization|incorrect permission|broken cryptographic|risky cryptographic|excessive authentication|without a salt|unauthenticated|information disclosure|authentication bypass|cnc vulnerability|access control|privilege escalation|cleartext storage|sensitive data')
+
+            self.secategory_stats[3] = SeCategory_Stats ("General", ['adaptive chosen ciphertext', 'chosen-ciphertext attack', 'timing discrepancy', 'security', 'denial service', 'threat', 'insecure', 'penetration'])
+            self.secategory_stats[3].reEngine = re.compile(r'security|adaptive chosen ciphertext|chosen-ciphertext attack|timing discrepancy|denial service|threat|insecure|penetration')
+
+            self.re_match_test ()
+            #exit (0)
+    
+    def re_match_test (self):
+        for Id, Sec in self.secategory_stats.items():
+            reEngine = Sec.reEngine
+            keywords = " ".join(Sec.keywords)
+            Res = reEngine.match (keywords)
+            print (keywords, " ---> ", Res)
+            if Res != None:
+                print (Sec.category, " >>> match ", Res.group(0), " ---> success!!")
+            else:
+                print (Sec.category, " ---> fail!!")
+
+    def re_match (self, message, threshhold=0):
+        message = " ".join(message)
+        for Id, Sec in self.secategory_stats.items():
+            reEngine = Sec.reEngine
+            Res = reEngine.match (message)
+            if Res != None:
+                self.secategory_stats[Id].count += 1
+                return Sec.category, Res.group(0)
+        return None, None
                                                      
     def is_filtered (self, word):
         return self.exception.match(word)
@@ -100,8 +145,10 @@ class Collect_CmmtLogs(Collect_Research_Data):
                 #print ("[%s][%f]fuzz match" %(result[0], result[1]))
                 if (result[1] >= threshhold):
                     fuzz_results[result[0]] = int (result[1])
-
-        return fuzz_results
+        if fuzz_results:
+            return fuzz_results
+        else:
+            return None
 
     def formalize_msg (self, message):
         message = str (message)
@@ -183,7 +230,10 @@ class Collect_CmmtLogs(Collect_Research_Data):
 
             Labels = ""
             if row['issue'] != ' ':
-                Labels = self.get_issuetag (repo_item.url, row['issue'])
+                #Labels = self.get_issuetag (repo_item.url, row['issue'])
+                pass
+            else:
+                continue
 
             message = str(row['message']) + " " + Labels #+ " " + row['content']
             message = self.formalize_msg (message)
@@ -191,11 +241,18 @@ class Collect_CmmtLogs(Collect_Research_Data):
                 continue
             
             #print (message)
-            fuzz_results = self.fuzz_match (message, 90)
-            if fuzz_results:
-                #print (fuzz_results)
+            Clf = None
+            Matched = None
+            if self.re_use == True:
+                Clf, Matched = self.re_match (message)
+            else:
+                Clf = self.fuzz_match (message, 90)
+                Matched = Clf
+            
+            if Clf != None:
+                #print (Clf)
                 index = len (self.research_stats)
-                self.research_stats[index] = CmmtLogs (row['sha'], message, fuzz_results, Labels)
+                self.research_stats[index] = CmmtLogs (row['sha'], message, Clf, Matched, Labels)
             if (index >= self.max_cmmt_num):
                 break
 
@@ -215,7 +272,7 @@ class Collect_CmmtLogs(Collect_Research_Data):
                     continue
                 cdf = pd.read_csv(stat_file)
                 for index, row in cdf.iterrows():
-                    keywords = ast.literal_eval(row['fuzzy']).keys()
+                    keywords = ast.literal_eval(row['matched']).keys()
                     for key in keywords:
                         SeK = keywors_stats.get(key, None)
                         if (SeK == None):
@@ -272,10 +329,13 @@ class Collect_CmmtLogs(Collect_Research_Data):
         
     def _update(self):
         print ("Final: repo_num: %u -> accumulated commits: %u" %(self.repo_num, self.commits_num))
-        print ("Start compute keyword stats...")
-        self.get_keywords_stat ()
-        print ("Start compute security categories...")
-        self.get_secategory ()
+        if self.re_use == False:
+            print ("Start compute keyword stats...")
+            self.get_keywords_stat ()
+            print ("Start compute security categories...")
+            self.get_secategory ()
+        else:
+            super(Collect_CmmtLogs, self).save_data2(self.secategory_stats, "./Data/StatData/SeCategory_Stats")
         
 
     def load_keywords(self):
