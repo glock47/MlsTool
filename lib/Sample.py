@@ -49,6 +49,9 @@ class Sample():
             repo = {}
             repo['id']  = row['id']
             repo['url'] = row['url']
+            cmmt_stat_file = System.cmmt_stat_file (repo['id']) + '.csv'
+            if System.is_exist (cmmt_stat_file) == False:
+                continue
             self.RepoList.append (repo)
         print ("@@@@@ Get repository number: %d" %len (self.RepoList))
 

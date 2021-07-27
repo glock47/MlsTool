@@ -130,23 +130,23 @@ class Collect_CmmtLogs(Collect_Research_Data):
         message = ['sqli',  'injection', 'commands', 'injection']
         Clf, Matched = self.fuzz_match (message, 90)
         if Clf == "Insecure_interaction_between_components":
-            print ("\t fuzz_match_test -> %s pass!!!!", %message)
+            print ("\t fuzz_match_test -> %s pass!!!!" %message)
         else:
-            print ("\t fuzz_match_test -> %s fail!!!!", %message)
+            print ("\t fuzz_match_test -> %s fail!!!!" %message)
 
         message = ['path',  'traversal', 'deadlock', 'race']
         Clf, Matched = self.fuzz_match (message, 90)
         if Clf == "Risky_resource_management":
-            print ("\t fuzz_match_test -> %s pass!!!!", %message)
+            print ("\t fuzz_match_test -> %s pass!!!!" %message)
         else:
-            print ("\t fuzz_match_test -> %s fail!!!!", %message)
+            print ("\t fuzz_match_test -> %s fail!!!!" %message)
 
         message = ['hard', 'coded', 'credential', 'encryption']
         Clf, Matched = self.fuzz_match (message, 90)
         if Clf == "Porous_defenses":
-            print ("\t fuzz_match_test -> %s pass!!!!", %message)
+            print ("\t fuzz_match_test -> %s pass!!!!" %message)
         else:
-            print ("\t fuzz_match_test -> %s fail!!!!", %message)
+            print ("\t fuzz_match_test -> %s fail!!!!" %message)
 
     
     def fuzz_match(self, message, threshhold):  
@@ -302,19 +302,13 @@ class Collect_CmmtLogs(Collect_Research_Data):
         if (message == None):
             return "None"
 
-        fuzz_results = self.fuzz_match (message, 90)
-        if fuzz_results:
-            keyword = fuzz_results.keys()
+        Clf, Matched = self.fuzz_match (message, 90)
+        if Clf != None:
             for id, secate in self.secategory_stats.items ():
-                if not secate.is_match (keyword):
-                    continue
-                else:
+                if Clf == secate.category:
                     print ("@@@@ Match %s!!!" %secate.category)
-                    return secate.category
-
-            secate = self.secategory_stats[3]
-            #print ("@@@@ Match %s!!!" %secate.category)
-            return secate.category             
+                    return secate.category                  
+            return "None"            
         else:
             #print ("@@@@ Match None!!!")
             return "None"
