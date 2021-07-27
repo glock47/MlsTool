@@ -136,14 +136,14 @@ def Association(correlation_stat=None):
     research_data.save_data()
 
 # Commits log analysis
-def CommitLog(repo_no, repo_stats=None):
+def CommitLog(StartNo=0, EndNo=65535, repo_stats=None):
     TimeTag(">>>>>>>>>>>> Statistic on CommitLog...")
     file_path=System.getdir_stat()
     if (repo_stats == None):
         repo_stats = Process_Data.load_data(file_path=file_path, file_name='Repository_Stats')
         repo_stats = Process_Data.dict_to_list(repo_stats)
         
-    research_data = Collect_CmmtLogs(repo_no) 
+    research_data = Collect_CmmtLogs(StartNo, EndNo) 
     research_data.process_data(list_of_repos=repo_stats)
     research_data.save_data()
 
@@ -311,7 +311,7 @@ def main(argv):
         else:
             Association(None)
     elif (step == "cmmts"):
-        CommitLog (repo_no)
+        CommitLog (StartNo, EndNo)
     elif (step == "nbr"):
         CommitLogNbr (repo_no)
     elif (step == "apisniffer"):

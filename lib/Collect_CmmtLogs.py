@@ -54,14 +54,15 @@ class CmmtLogs():
 
 class Collect_CmmtLogs(Collect_Research_Data):
 
-    def __init__(self, repo_no, re_use=False, file_name='CmmtLogs_Stats'):
+    def __init__(self, start_no=0, end_no=65535, re_use=False, file_name='CmmtLogs_Stats'):
         super(Collect_CmmtLogs, self).__init__(file_name=file_name)
         self.re_use = re_use 
         self.Tm = TextModel ()
         self.keywords = self.load_keywords ()
         self.commits_num = 0
         self.repo_num  = 0
-        self.repo_no   = repo_no
+        self.start_no  = start_no
+        self.end_no    = end_no
         self.file_path = ""
         self.max_cmmt_num = System.MAX_CMMT_NUM
         self.keywors_stats = {}
@@ -120,7 +121,7 @@ class Collect_CmmtLogs(Collect_Research_Data):
             reEngine = Sec.reEngine
             Res = reEngine.match (message)
             if Res != None:
-                Sec.count += 1
+                #Sec.count += 1
                 return Sec.category, Res.group(0)
         return None, None 
 
@@ -170,7 +171,7 @@ class Collect_CmmtLogs(Collect_Research_Data):
                     #print ("\t\t1 => [%s][%f]fuzz match" %(result[0], result[1]))
                     if (result[1] >= threshhold):
                         fuzz_results[result[0]] = int (result[1])           
-                        Sec.count += 1
+                        #Sec.count += 1
                         return Sec.category, fuzz_results 
                 elif key_len == msg_len:
                     msg = " ".join(message)
@@ -180,7 +181,7 @@ class Collect_CmmtLogs(Collect_Research_Data):
                     if (result[1] >= threshhold):
                         fuzz_results[result[0]] = int (result[1])
                         
-                        Sec.count += 1
+                        #Sec.count += 1
                         return Sec.category, fuzz_results
                 
                 
@@ -202,10 +203,7 @@ class Collect_CmmtLogs(Collect_Research_Data):
         return System.is_exist (cmmt_stat_file)
 
     def is_segfin (self, repo_num):
-        if (self.repo_no == 0):
-            return False
-        
-        if ((self.repo_num < self.repo_no) or (self.repo_num >= self.repo_no+1000)):
+        if ((self.repo_num < self.start_no) or (self.repo_num >= self.end_no)):
             return True
 
         return False  
@@ -320,6 +318,21 @@ class Collect_CmmtLogs(Collect_Research_Data):
         
     def _update(self):
         print ("Final: repo_num: %u -> accumulated commits: %u" %(self.repo_num, self.commits_num))
+
+        cmmt_stat_dir = os.walk("./Data/StatData/CmmtSet")
+        keywors_stats = {}
+        for path,dir_list,file_list in cmmt_stat_dir:  
+            for file_name in file_list:
+                stat_file = os.path.join(path, file_name)
+                fsize = os.path.getsize(stat_file)/1024
+                if (fsize == 0):
+                    continue
+                cdf = pd.read_csv(stat_file)
+                for index, row in cdf.iterrows():
+                    Clf = row['catetory']
+                    for Id, Sec in self.secategory_stats.items():
+                        if Sec.category == Clf:
+                            Sec.count += 1                 
         super(Collect_CmmtLogs, self).save_data2(self.secategory_stats, "./Data/StatData/SeCategory_Stats")
         
 
