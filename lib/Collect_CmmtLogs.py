@@ -130,23 +130,23 @@ class Collect_CmmtLogs(Collect_Research_Data):
         message = ['sqli',  'injection', 'commands', 'injection']
         Clf, Matched = self.fuzz_match (message, 90)
         if Clf == "Insecure_interaction_between_components":
-            print ("\t fuzz_match_test -> %s pass!!!!", message)
+            print ("\t fuzz_match_test -> %s pass!!!!", %message)
         else:
-            print ("\t fuzz_match_test -> %s fail!!!!", message)
+            print ("\t fuzz_match_test -> %s fail!!!!", %message)
 
         message = ['path',  'traversal', 'deadlock', 'race']
         Clf, Matched = self.fuzz_match (message, 90)
         if Clf == "Risky_resource_management":
-            print ("\t fuzz_match_test -> %s pass!!!!", message)
+            print ("\t fuzz_match_test -> %s pass!!!!", %message)
         else:
-            print ("\t fuzz_match_test -> %s fail!!!!", message)
+            print ("\t fuzz_match_test -> %s fail!!!!", %message)
 
         message = ['hard', 'coded', 'credential', 'encryption']
         Clf, Matched = self.fuzz_match (message, 90)
         if Clf == "Porous_defenses":
-            print ("\t fuzz_match_test -> %s pass!!!!", message)
+            print ("\t fuzz_match_test -> %s pass!!!!", %message)
         else:
-            print ("\t fuzz_match_test -> %s fail!!!!", message)
+            print ("\t fuzz_match_test -> %s fail!!!!", %message)
 
     
     def fuzz_match(self, message, threshhold):  
@@ -256,6 +256,7 @@ class Collect_CmmtLogs(Collect_Research_Data):
                 self.commits_num += cdf.shape[0]
             else:
                 self.commits_num += self.max_cmmt_num
+            print ("[%u]%u -> accumulated commits: %u, timecost:%u s" %(self.repo_num, repo_id, self.commits_num, int(time.time()-start_time)))
             return
                 
         print ("[%u]%u start...commit num:%u" %(self.repo_num, repo_id, cdf.shape[0]))
@@ -273,8 +274,10 @@ class Collect_CmmtLogs(Collect_Research_Data):
             message = self.formalize_msg (message)
             if len (message) == 0:
                 continue
-            
-            #print (message)
+            elif len (message) > 256:
+                message = message[0:32]
+                
+            #print ("Message length -> %d " %len (message))
             Clf = None
             Matched = None
             if self.re_use == True:
