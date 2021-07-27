@@ -69,53 +69,50 @@ class Collect_CmmtLogs(Collect_Research_Data):
         self.secategory_stats = {}
         self.init_secategory ()
 
-        self.exception = re.compile(r'^current$|^ctrl$|^design$|^designer$|^description$|^described$|^descriptive$|^desc$|^list$|^sure$|^flow$|^brace$|^able$|^action$|^back$|^open$|^read$|^the$|^char$|^site$|^tweak$|^print$|^printf$')
-        
     def init_secategory (self):
-        if self.re_use == False:
-            self.secategory_stats[0] = SeCategory_Stats ("Risky_resource_management", 
-                                                     ['thread', 'concurrent', 'concurren', 'synch', 'deadlock', 'race', 'buffer', 'crash', 'stack', 'integer', 'overflow', 'Sensitive', 'Sprintf', 'underflow', 'signedness', 'length', 'overrun'])
         
-            self.secategory_stats[1] = SeCategory_Stats ("Insecure_interaction_between_components", 
-                                                         ['injection', 'blacklist', 'CSRF', 'Cross-Site', 'forger', 'Forgery', 'SQLI', 'exploit', 'XSRF', 'backdoor', 'insecure', 'threat', 'specialchar', 'penetration'])
+        self.secategory_stats[0] = SeCategory_Stats ("Risky_resource_management", 
+                                                     ['path traversal', 'deadlock', 'race', 'crash', 'overflow', 'underflow', 'overrun', 'wraparound', 'uncontrolled format', 
+                                                      'dangerous function', 'untrusted control', 'improper limitation', 'integrity check', 'null pointer', 'missing init'])
+  
+        self.secategory_stats[1] = SeCategory_Stats ("Insecure_interaction_between_components", 
+                                                     ['sql injection', 'command injection', 'csrf', 'cross-site', 'forger', 'forgery', 'sqli', 'request forgery', 'xsrf', 'backdoor', 
+                                                      'untrusted site', 'specialchar', 'unrestricted upload', 'unrestricted file', 'man-in-the-middle', 'reflected xss', 'get-based xss'])
 
-            self.secategory_stats[2] = SeCategory_Stats ("Porous_defenses", 
-                                                         ['leak', 'permission', 'OpenSSL', 'crypto', 'encryption', 'cipher', 'bcrypt', 'entropy', 'unauthenticated', 'weak', 'Exposure', 'expose', 'ciphers', 'wireguard', 'breakable'])
+        self.secategory_stats[2] = SeCategory_Stats ("Porous_defenses", 
+                                                     ['missing authentication', 'missing authorization', 'hard coded credential', 'missing encryption', 'untrusted input', 'unnecessary privilege', 'sensitive data' 
+                                                      'incorrect authorization', 'incorrect permission', 'broken cryptographic', 'risky cryptographic', 'excessive authentication', 'privilege escalation',
+                                                      'without a salt', 'unauthenticated', 'information disclosure', 'authentication bypass', 'cnc vulnerability', 'access control', 'cleartext storage'])
 
-            self.secategory_stats[3] = SeCategory_Stats ("Other", [])
-        else:
-            self.secategory_stats[0] = SeCategory_Stats ("Risky_resource_management", 
-                                                         ['path traversal', 'deadlock', 'race', 'crash', 'overflow', 'underflow', 'overrun', 'wraparound', 'uncontrolled format', 
-                                                         'dangerous function', 'untrusted control', 'improper limitation', 'integrity check', 'null pointer', 'missing init'])
-            self.secategory_stats[0].reEngine = re.compile(r'path traversal|deadlock|race|crash|overflow|underflow|overrun|wraparound|uncontrolled format|dangerous function|untrusted control|improper limitation|integrity check|null pointer|missing init')
-            
-            self.secategory_stats[1] = SeCategory_Stats ("Insecure_interaction_between_components", 
-                                                         ['sql injection', 'command injection', 'csrf', 'cross-site', 'forger', 'forgery', 'sqli', 'request forgery', 'xsrf', 'backdoor', 
-                                                         'untrusted site', 'specialchar', 'unrestricted upload', 'unrestricted file', 'man-in-the-middle', 'reflected xss', 'get-based xss'])
-            self.secategory_stats[1].reEngine = re.compile(r'sql injection|command injection|csrf|cross-site|forger|forgery|sqli|request forgery|xsrf|backdoor|untrusted site|specialchar|unrestricted upload|unrestricted file|man-in-the-middle|reflected xss|get-based xss')
+        self.secategory_stats[3] = SeCategory_Stats ("General", ['adaptive chosen ciphertext', 'chosen ciphertext attack', 'timing discrepancy', 'security', 'denial service', 'threat', 'insecure', 'penetration'])
 
-            self.secategory_stats[2] = SeCategory_Stats ("Porous_defenses", 
-                                                         ['missing authentication', 'missing authorization', 'hard-coded credential', 'missing encryption', 'untrusted input', 'unnecessary privilege', 'sensitive data' 
-                                                         'incorrect authorization', 'incorrect permission', 'broken cryptographic', 'risky cryptographic', 'excessive authentication', 'privilege escalation',
-                                                         'without a salt', 'unauthenticated', 'information disclosure', 'authentication bypass', 'cnc vulnerability', 'access control', 'cleartext storage'])
-            self.secategory_stats[2].reEngine = re.compile(r'missing authentication|missing authorization|hard-coded credential|miss encryption|untrusted input|unnecessary privilege|incorrect authorization|incorrect permission|broken cryptographic|risky cryptographic|excessive authentication|without a salt|unauthenticated|information disclosure|authentication bypass|cnc vulnerability|access control|privilege escalation|cleartext storage|sensitive data')
-
-            self.secategory_stats[3] = SeCategory_Stats ("General", ['adaptive chosen ciphertext', 'chosen-ciphertext attack', 'timing discrepancy', 'security', 'denial service', 'threat', 'insecure', 'penetration'])
-            self.secategory_stats[3].reEngine = re.compile(r'security|adaptive chosen ciphertext|chosen-ciphertext attack|timing discrepancy|denial service|threat|insecure|penetration')
-
+        if self.re_use == True:
+            self.re_compile ()         
             self.re_match_test ()
-            #exit (0)
-    
+        else:
+            self.fuzz_match_test ()
+
+    def re_compile (self):
+        for Id, Sec in self.secategory_stats.items():
+            keywords = Sec.keywords
+            regx = r''
+            for key in keywords:
+                if len (regx) != 0:
+                    regx += '|'
+                regx += key
+            Sec.reEngine = re.compile (regx)
+        
     def re_match_test (self):
         for Id, Sec in self.secategory_stats.items():
             reEngine = Sec.reEngine
             keywords = " ".join(Sec.keywords)
+            clean_text = self.Tm.clean_text (keywords)
             Res = reEngine.match (keywords)
-            print (keywords, " ---> ", Res)
+            print (clean_text, " ---> ", Res)
             if Res != None:
-                print (Sec.category, " >>> match ", Res.group(0), " ---> success!!")
+                print (Sec.category, " >>> match ---> success!!")
             else:
-                print (Sec.category, " ---> fail!!")
+                print (Sec.category, " >>> match ---> fail!!")
 
     def re_match (self, message, threshhold=0):
         message = " ".join(message)
@@ -123,41 +120,80 @@ class Collect_CmmtLogs(Collect_Research_Data):
             reEngine = Sec.reEngine
             Res = reEngine.match (message)
             if Res != None:
-                self.secategory_stats[Id].count += 1
+                Sec.count += 1
                 return Sec.category, Res.group(0)
-        return None, None
-                                                     
-    def is_filtered (self, word):
-        return self.exception.match(word)
-        
+        return None, None 
+
+    def fuzz_match_test(self):
+        print (self.secategory_stats)
+        message = ['sqli',  'injection', 'commands', 'injection']
+        Clf, Matched = self.fuzz_match (message, 90)
+        if Clf == "Insecure_interaction_between_components":
+            print ("\t fuzz_match_test -> %s pass!!!!", message)
+        else:
+            print ("\t fuzz_match_test -> %s fail!!!!", message)
+
+        message = ['path',  'traversal', 'deadlock', 'race']
+        Clf, Matched = self.fuzz_match (message, 90)
+        if Clf == "Risky_resource_management":
+            print ("\t fuzz_match_test -> %s pass!!!!", message)
+        else:
+            print ("\t fuzz_match_test -> %s fail!!!!", message)
+
+        message = ['hard', 'coded', 'credential', 'encryption']
+        Clf, Matched = self.fuzz_match (message, 90)
+        if Clf == "Porous_defenses":
+            print ("\t fuzz_match_test -> %s pass!!!!", message)
+        else:
+            print ("\t fuzz_match_test -> %s fail!!!!", message)
+
+    
     def fuzz_match(self, message, threshhold):  
         fuzz_results = {}
-        
-        for word in message:
-            if self.is_filtered(word):
-                continue
-            
-            if word in self.keywords:
-                #print ("[%s][100%]direct match" %word)
-                fuzz_results[word] = 100
-            else:
-                result = process.extractOne(word, self.keywords, scorer=fuzz.ratio)
-                #print ("[%s][%f]fuzz match" %(result[0], result[1]))
-                if (result[1] >= threshhold):
-                    fuzz_results[result[0]] = int (result[1])
-        if fuzz_results:
-            return fuzz_results
-        else:
-            return None
+        #print ("fuzz_match -> ", message)
+        for Id, Sec in self.secategory_stats.items():
+            keywords = Sec.keywords
+            for str in keywords:
+                key_len = len(str.split())
+                msg_len = len (message)
+                gram_meg = []
+                
+                if key_len < msg_len:
+                    for i in range (0, len (message)):
+                        end = i + key_len
+                        if end > msg_len:
+                            break
+                        msg = " ".join(message[i:end])
+                        gram_meg.append (msg)
+                    #print ("\t[%s][%s] Try -> %s" %(Sec.category, str, gram_meg))
+                    result = process.extractOne(str, gram_meg, scorer=fuzz.ratio)
+                    #print ("\t\t1 => [%s][%f]fuzz match" %(result[0], result[1]))
+                    if (result[1] >= threshhold):
+                        fuzz_results[result[0]] = int (result[1])           
+                        Sec.count += 1
+                        return Sec.category, fuzz_results 
+                elif key_len == msg_len:
+                    msg = " ".join(message)
+                    gram_meg.append (msg)
+                    result = process.extractOne(str, gram_meg, scorer=fuzz.ratio)
+                    #print ("\t\t2 => [%s][%f]fuzz match" %(result[0], result[1]))
+                    if (result[1] >= threshhold):
+                        fuzz_results[result[0]] = int (result[1])
+                        
+                        Sec.count += 1
+                        return Sec.category, fuzz_results
+                
+                
+        return None, None
 
     def formalize_msg (self, message):
         message = str (message)
         if (message == ""):
-            return None
+            return []
         
         clean_text = self.Tm.clean_text (message)
         if (clean_text == ""):
-            return None
+            return []
 
         return self.Tm.subject(clean_text, 3)
 
@@ -237,7 +273,7 @@ class Collect_CmmtLogs(Collect_Research_Data):
 
             message = str(row['message']) + " " + Labels #+ " " + row['content']
             message = self.formalize_msg (message)
-            if (message == None):
+            if len (message) == 0:
                 continue
             
             #print (message)
@@ -246,8 +282,7 @@ class Collect_CmmtLogs(Collect_Research_Data):
             if self.re_use == True:
                 Clf, Matched = self.re_match (message)
             else:
-                Clf = self.fuzz_match (message, 90)
-                Matched = Clf
+                Clf, Matched = self.fuzz_match (message, 90)
             
             if Clf != None:
                 #print (Clf)
@@ -260,50 +295,6 @@ class Collect_CmmtLogs(Collect_Research_Data):
         print ("[%u]%u -> accumulated commits: %u, timecost:%u s" %(self.repo_num, repo_id, self.commits_num, int(time.time()-start_time)) )
         self.save_data (cmmt_stat_file)
         self.research_stats = {}
-
-    def get_keywords_stat (self):
-        cmmt_stat_dir = os.walk("./Data/StatData/CmmtSet")
-        keywors_stats = {}
-        for path,dir_list,file_list in cmmt_stat_dir:  
-            for file_name in file_list:
-                stat_file = os.path.join(path, file_name)
-                fsize = os.path.getsize(stat_file)/1024
-                if (fsize == 0):
-                    continue
-                cdf = pd.read_csv(stat_file)
-                for index, row in cdf.iterrows():
-                    keywords = ast.literal_eval(row['matched']).keys()
-                    for key in keywords:
-                        SeK = keywors_stats.get(key, None)
-                        if (SeK == None):
-                            keywors_stats[key] = 1
-                        else:
-                            keywors_stats[key] += 1
-        
-        keywors_stats = Process_Data.dictsort_value (keywors_stats, True)
-        Index = 0
-        for key, value in keywors_stats.items ():
-            self.keywors_stats[Index] = Keyword_Stats (key, value)
-            Index += 1
-        super(Collect_CmmtLogs, self).save_data2(self.keywors_stats, "./Data/StatData/Keyword_Stats")
-
-
-    def get_secategory (self):
-        for index, keywors_stat in self.keywors_stats.items ():
-            keyword = keywors_stat.keyword
-            is_other = True
-            for id, secate in self.secategory_stats.items ():
-                if not secate.is_match (keyword):
-                    continue
-                secate.update (keywors_stat.count)
-                is_other = False
-
-            if (is_other):
-                secate = self.secategory_stats[3]
-                secate.append_keyword (keyword, keywors_stat.count)
-                
-        super(Collect_CmmtLogs, self).save_data2(self.secategory_stats, "./Data/StatData/SeCategory_Stats")
-
 
     def ClassifySeC (self, Msg):
         message = self.formalize_msg (Msg)
@@ -329,13 +320,7 @@ class Collect_CmmtLogs(Collect_Research_Data):
         
     def _update(self):
         print ("Final: repo_num: %u -> accumulated commits: %u" %(self.repo_num, self.commits_num))
-        if self.re_use == False:
-            print ("Start compute keyword stats...")
-            self.get_keywords_stat ()
-            print ("Start compute security categories...")
-            self.get_secategory ()
-        else:
-            super(Collect_CmmtLogs, self).save_data2(self.secategory_stats, "./Data/StatData/SeCategory_Stats")
+        super(Collect_CmmtLogs, self).save_data2(self.secategory_stats, "./Data/StatData/SeCategory_Stats")
         
 
     def load_keywords(self):
