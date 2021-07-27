@@ -1,36 +1,6 @@
-message,fuzzy
-"['temporary', 'allowbindgen', 'workaround', 'issue']",{'issue': 100}
-"['gwennprogress', 'information', 'expose', 'query']",{'expose': 100}
-"['progress', 'information', 'expose', 'query']",{'expose': 100}
-"['progress', 'information', 'expose', 'query']",{'expose': 100}
-"['report', 'redundant', 'closure', 'clippy', 'issue']",{'issue': 100}
-"['check', 'stack', 'return']",{'stack': 100}
-"['window', 'rusqlite', 'expose']",{'expose': 100}
-"['arthurprsconnection', 'overflow']",{'overflow': 100}
-"['connection', 'overflow']",{'overflow': 100}
-"['mergerequest', 'params', 'macro', 'thomcctosql', 'params', 'level', 'expose']",{'expose': 100}
-"['tosql', 'params', 'level', 'expose']",{'expose': 100}
-"['mergerequest', 'issue', 'coherence', 'jgallaghermerge', 'coherence', 'issue']",{'issue': 100}
-"['mergerequest', 'index', 'gwenn', 'columnstatement', 'insensitive']",{'Sensitive': 90}
-"['statement', 'insensitive']",{'Sensitive': 90}
-"['implementation', 'mutates', 'transaction', 'neverreference', 'connection', 'transactionimmutable', 'structure', 'constructor', 'reader', 'requiresconnection', 'compileconnection', 'concurrent']",{'concurrent': 100}
-"['timezone', 'issue']",{'issue': 100}
-"['gwenn', 'limit', 'jgallagherlimit', 'expose']",{'expose': 100}
-"['expose', 'version', 'jgallagherversion', 'expose']",{'expose': 100}
-"['version', 'expose']",{'expose': 100}
-"['limit', 'expose']",{'expose': 100}
-"['libsqlitesfackler', 'issuecomment', 'openssl', 'issue']","{'OpenSSL': 100, 'issue': 100}"
-"['mergerequest', 'range', 'check', 'integer', 'jgallagherinteger', 'check', 'range']",{'integer': 100}
-"['workaround', 'issue']",{'issue': 100}
-"['rusqlite', 'jgallagher', 'issue']",{'issue': 100}
-"['empty', 'issue']",{'issue': 100}
-"['mergerequest', 'crash', 'jgallagherchange', 'function', 'crash']",{'crash': 100}
-"['function', 'crash']",{'crash': 100}
-"['sensitive', 'comment']",{'Sensitive': 100}
-"['comment', 'issue', 'rusqlite']",{'issue': 100}
-"['gwenncheck', 'length']",{'length': 100}
-"['check', 'buffer']",{'buffer': 100}
-"['check', 'length']",{'length': 100}
-"['check', 'length']",{'length': 100}
-"['unique', 'ensureresource', 'ownedsqlite', 'possiblymultiple', 'unsafe', 'simultaneous', 'thread', 'accessallow', 'ownership']",{'thread': 100}
-"['reddit', 'commentlapta', 'thread', 'comment']",{'thread': 100}
+sha,message,catetory,matched,labels
+81fc06c6c59cbf48911d5fb874a418578acb89b0,"['mergechannel', 'request', 'willingcconda', 'channel', 'forge']",Insecure_interaction_between_components,{'forge': 91},
+2ffe7cb2661532db40a8f463a61252e89d5ed973,"['cabbd', 'mergeminrk', 'request', 'pycurlversion', 'pycurl', 'fallback', 'python', 'insecure']",General,{'insecure': 100},
+a66faf8c986f74a3ddb1674e325e085dba9b9e03,"['mergecodereview', 'request', 'stack', 'memory', 'overflow']",Risky_resource_management,{'overflow': 100},
+54163a4146ff1ffbe98e5a9650567096f4a08193,"['mergerequest', 'arthurprs', 'mergeconnection', 'overflow']",Risky_resource_management,{'overflow': 100},
+d6e604af77a6c11e95d8a2a3da6f6d28fc858ba6,"['crash', 'function']",Risky_resource_management,{'crash': 100},

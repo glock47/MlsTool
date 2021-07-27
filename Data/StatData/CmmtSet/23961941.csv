@@ -1,58 +1,6 @@
-message,fuzzy
-"['openssl', 'pyopenssl', 'docker', 'python', 'install']",{'OpenSSL': 100}
-"['cryptography', 'travis', 'crash']",{'crash': 100}
-"['openssl', 'message', 'discard']",{'OpenSSL': 100}
-"['ecacf', 'cfaeb', 'mergerequest', 'crash', 'insert', 'mergehandle', 'insert', 'mongo', 'failure']",{'crash': 100}
-"['fefad', 'mergerequest', 'openports', 'mergeexists', 'openport', 'crash']",{'crash': 100}
-"['exists', 'openport', 'crash']",{'crash': 100}
-"['mergerequest', 'masscan', 'mergemasscan', 'crash']",{'crash': 100}
-"['masscan', 'crash']",{'crash': 100}
-"['fbeff', 'mergerequest', 'hotfix', 'passive', 'corner', 'crash']",{'crash': 100}
-"['passive', 'corner', 'crash']",{'crash': 100}
-"['updateleast', 'field', 'immense', 'length', 'document', 'contains']",{'length': 100}
-"['bfdbe', 'mergerequest', 'mergepyopenssl', 'openssl', 'popen']",{'OpenSSL': 100}
-"['pyopenssl', 'openssl', 'popen']",{'OpenSSL': 100}
-"['field', 'varcharfloat', 'integer', 'incorrect', 'conversiontrigger', 'message']","{'integer': 100, 'incorrect': 100}"
-"['empty', 'result', 'crash']",{'crash': 100}
-"['mergerequest', 'marilafo', 'dnsblpassive', 'blacklist']",{'blacklist': 100}
-"['mergerequest', 'passive', 'mergepassive', 'server', 'fingerprint', 'client', 'stack']",{'stack': 100}
-"['indexrecord', 'subject', 'passive', 'certificate', 'limit', 'issuer']",{'issue': 91}
-"['record', 'subject', 'passive', 'certificate', 'limit', 'issuerlimit', 'value', 'subkeysubject', 'mongodb', 'issuer', 'value', 'indexsubject', 'field', 'issuer']",{'issue': 91}
-"['trigger', 'issue']",{'issue': 100}
-"['openssl', 'value', 'command', 'config']",{'OpenSSL': 100}
-"['mergerequest', 'dbview', 'issue', 'argument']",{'issue': 100}
-"['issue', 'argument']",{'issue': 100}
-"['range', 'geoiputils', 'generation']",{'generation': 100}
-"['array', 'integer', 'addrs', 'mongo']",{'integer': 100}
-"['support', 'earlyversion', 'store', 'introducesrepresentation', 'string', 'canonical', 'address', 'addressrepresentation', 'integer', 'hexadecimal', 'corresponding', 'addresssection', 'addresssectionchoice', 'impossibility', 'store', 'reasoninteger', 'indexbinary', 'integer', 'consideredmanipulate', 'operator', 'framework', 'binary', 'aggregationwould', 'analysis', 'operation', 'impossibledatabasealready']",{'integer': 100}
-"['fafebfd', 'mergerequest', 'passive', 'locallocal', 'crash', 'record']",{'crash': 100}
-"['local', 'crash', 'record']",{'crash': 100}
-"['faeee', 'mergerequest', 'passive', 'mergeinsertion', 'subject', 'issuer']",{'issue': 91}
-"['insertion', 'subject', 'issuer']",{'issue': 91}
-"['mergerequest', 'mergesubject', 'issuer']",{'issue': 91}
-"['record', 'generation', 'postgresql', 'passive', 'value']",{'generation': 100}
-"['result', 'generation']",{'generation': 100}
-"['mergerequest', 'issue']",{'issue': 100}
-"['mergerequest', 'issue', 'mergeworkarounds']",{'issue': 100}
-"['crash', 'acquisition', 'agent', 'failure']",{'crash': 100}
-"['mergerequest', 'issue', 'mergerunscans']",{'issue': 100}
-"['crash', 'runscansagent', 'stdin']",{'crash': 100}
-"['version', 'generation']",{'generation': 100}
-"['dfaef', 'mergerequest', 'github', 'mergelicense', 'issue', 'template']",{'issue': 100}
-"['license', 'issue', 'template']",{'issue': 100}
-"['version', 'crash']",{'crash': 100}
-"['xmlnmap', 'issue', 'dependency']",{'issue': 100}
-"['dokuwiki', 'incorrect', 'linebreaks']",{'incorrect': 100}
-"['requirement', 'crypto']",{'crypto': 100}
-"['mergexmlnmap', 'request', 'script', 'mergecorner', 'crash']",{'crash': 100}
-"['hostscript', 'crash', 'fmonjalet']",{'crash': 100}
-"['nmapdb', 'crash']",{'crash': 100}
-"['nmapdb', 'crash', 'invalid']",{'crash': 100}
-"['issue', 'docker', 'client', 'workaround']",{'issue': 100}
-"['support', 'generation']",{'generation': 100}
-"['mergerequest', 'commial', 'report', 'mergereport', 'generation']",{'generation': 100}
-"['mergerequest', 'master', 'mergemerge', 'result', 'nmapdb', 'crash']",{'crash': 100}
-"['result', 'nmapdb', 'crash']",{'crash': 100}
-"['cbbef', 'mergerequest', 'issue', 'method', 'static', 'mergestaticmethod']",{'issue': 100}
-"['issue', 'staticmethod', 'thanks', 'camille', 'mougey', 'kamoulx']",{'issue': 100}
-"['geoip', 'directory', 'permission']",{'permission': 100}
+sha,message,catetory,matched,labels
+726d9d043d8b9fd7e63bb07542aa9f898ffe304f,"['cfaeb', 'ecacf', 'mergeinsert', 'crash', 'request', 'mergefailure', 'mongo', 'insert']",Risky_resource_management,{'crash': 100},
+4ef6a27aa509af335d883d3a0004aa3684ebf195,"['fefad', 'mergeopenports', 'request', 'mergeexists', 'openport', 'crash']",Risky_resource_management,{'crash': 100},
+de0c2693e98fdbd4e4c89d70ce4171344db7b421,"['mergemasscan', 'request', 'mergebroken', 'crash', 'masscan']",Risky_resource_management,{'crash': 100},
+d5e7a1006535a678be34283df4b981f7e41af1a9,"['fbeff', 'mergehotfix', 'request', 'crash', 'passive', 'corner']",Risky_resource_management,{'crash': 100},
+e40e1a74d3095623d4abc35e2fe8c5c19ccc2a87,"['fafebfd', 'mergepassive', 'local', 'request', 'local', 'crash', 'record']",Risky_resource_management,{'crash': 100},

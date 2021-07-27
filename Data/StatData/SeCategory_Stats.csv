@@ -1,5 +1,5 @@
-category,keywords,count
-Risky_resource_management,"['thread', 'concurrent', 'concurren', 'synch', 'deadlock', 'race', 'buffer', 'crash', 'stack', 'integer', 'overflow', 'Sensitive', 'Sprintf', 'underflow', 'signedness', 'length', 'overrun']",114032
-Insecure_interaction_between_components,"['injection', 'blacklist', 'CSRF', 'Cross-Site', 'forger', 'Forgery', 'SQLI', 'exploit', 'XSRF', 'backdoor', 'insecure', 'threat', 'specialchar', 'penetration']",5747
-Porous_defenses,"['leak', 'permission', 'OpenSSL', 'crypto', 'encryption', 'cipher', 'bcrypt', 'entropy', 'unauthenticated', 'weak', 'Exposure', 'expose', 'ciphers', 'wireguard', 'breakable']",32767
-Other,"['issue', 'generation', 'incorrect', 'Security', 'fatal', 'improper', 'vulnerable', 'assessment', 'randomness', 'breach', 'violate', 'broken', 'denial service', 'widthness', 'gain access', 'unproper']",201599
+category,keywords,count,reEngine
+Risky_resource_management,"['path traversal', 'deadlock', 'race', 'crash', 'overflow', 'underflow', 'overrun', 'wraparound', 'uncontrolled format', 'dangerous function', 'untrusted control', 'improper limitation', 'integrity check', 'null pointer', 'missing init']",9813,
+Insecure_interaction_between_components,"['sql injection', 'command injection', 'csrf', 'cross-site', 'forger', 'forgery', 'sqli', 'request forgery', 'xsrf', 'backdoor', 'untrusted site', 'specialchar', 'unrestricted upload', 'unrestricted file', 'man-in-the-middle', 'reflected xss', 'get-based xss']",293,
+Porous_defenses,"['missing authentication', 'missing authorization', 'hard coded credential', 'missing encryption', 'untrusted input', 'unnecessary privilege', 'sensitive dataincorrect authorization', 'incorrect permission', 'broken cryptographic', 'risky cryptographic', 'excessive authentication', 'privilege escalation', 'without a salt', 'unauthenticated', 'information disclosure', 'authentication bypass', 'cnc vulnerability', 'access control', 'cleartext storage']",87,
+General,"['adaptive chosen ciphertext', 'chosen ciphertext attack', 'timing discrepancy', 'security', 'denial service', 'threat', 'insecure', 'penetration']",4849,

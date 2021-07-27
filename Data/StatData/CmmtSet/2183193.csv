@@ -1,606 +1,93 @@
-message,fuzzy
-"['issue', 'flake']",{'issue': 100}
-"['slice', 'wrongslice', 'incorrect']",{'incorrect': 100}
-"['stack', 'trace']",{'stack': 100}
-"['crash', 'debugmode']",{'crash': 100}
-"['compilation', 'flake', 'crash']",{'crash': 100}
-"['prevents', 'cudnn', 'bugfix', 'spacespace', 'parse', 'wrapping', 'request', 'temporary', 'prevents', 'theano', 'issue', 'access', 'python', 'directory', 'symlink', 'client', 'program']",{'issue': 100}
-"['palmer', 'requestinvalid', 'overflow', 'index']",{'overflow': 100}
-"['invalid', 'overflow', 'indexstride', 'strictoverflow']",{'overflow': 100}
-"['crash', 'flake']",{'crash': 100}
-"['crash', 'scipy', 'import']",{'crash': 100}
-"['dtype', 'crash']",{'crash': 100}
-"['crash', 'scipy']",{'crash': 100}
-"['trace', 'place', 'stack']",{'stack': 100}
-"['length', 'infers']",{'length': 100}
-"['thinggpuincsubtensor', 'issue', 'expose']","{'issue': 100, 'expose': 100}"
-"['syntax', 'issue', 'flakecleaner', 'conditionstate', 'internal', 'assert']",{'issue': 100}
-"['mergetrace', 'stack', 'cooijmanstim', 'gpuarray', 'requestgpuarray', 'stack', 'trace']",{'stack': 100}
-"['identical', 'tuple', 'integer']",{'integer': 100}
-"['minor', 'issue']",{'issue': 100}
-"['stack', 'trace']",{'stack': 100}
-"['stack', 'trace']",{'stack': 100}
-"['inherit', 'manager', 'trace', 'context', 'stack']",{'stack': 100}
-"['stack', 'check', 'trace']",{'stack': 100}
-"['length', 'filter']",{'length': 100}
-"['overflow', 'setting', 'workspace', 'findex']",{'overflow': 100}
-"['crash', 'gpuelemwise']",{'crash': 100}
-"['compilation', 'crash']",{'crash': 100}
-"['crash', 'debugmode']",{'crash': 100}
-"['mergemerge', 'request', 'nouizprofile', 'crash']",{'crash': 100}
-"['profile', 'crash']",{'crash': 100}
-"['usedforsecurity', 'openssl']",{'OpenSSL': 100}
-"['stack', 'dummy', 'trace']",{'stack': 100}
-"['context', 'length', 'memory', 'inputrisso', 'tozatti']",{'length': 100}
-"['pygpu', 'label', 'length', 'memory', 'allocationrisso', 'tozatti']",{'length': 100}
-"['context', 'malloc', 'stack', 'allocationrisso', 'tozatti']",{'stack': 100}
-"['value', 'stack', 'empty']",{'stack': 100}
-"['limit', 'thread', 'openmppackage', 'current', 'numpy']",{'thread': 100}
-"['request', 'nouizfloat', 'crash', 'argmax', 'maxandargmax']",{'crash': 100}
-"['dtype', 'crash']",{'crash': 100}
-"['empty', 'crash', 'refresh', 'compiledir']",{'crash': 100}
-"['atomicadd', 'double', 'redefinepascal', 'compilation', 'issue']",{'issue': 100}
-"['ecafdmerge', 'lamblin', 'requestbitwise', 'issue', 'operation', 'optimization']",{'issue': 100}
-"['incorrect', 'optimizationsince', 'bitwise', 'operationsimplification']",{'incorrect': 100}
-"['mergeenums', 'cudnn', 'notoraptor', 'requestcudnn', 'crash', 'enumeration', 'availability']",{'crash': 100}
-"['baafec', 'mergemerge', 'request', 'nouizregression', 'crash']",{'crash': 100}
-"['regression', 'crash']",{'crash': 100}
-"['gpuincsubtensor', 'crash', 'subtensor']",{'crash': 100}
-"['number', 'elemwise', 'current', 'lifter', 'overflow', 'adapt', 'optimization', 'gpuarray', 'method', 'inputtheanoinvalid', 'lifter', 'making', 'setting', 'overflow', 'optimization', 'gpuarray', 'computation', 'inputoccurs', 'elemwise', 'general']",{'overflow': 100}
-"['mergemerge', 'issue', 'requestclose', 'concat', 'string']",{'issue': 100}
-"['overflow', 'avoiddebugmode', 'return']",{'overflow': 100}
-"['crash', 'input']",{'crash': 100}
-"['crash', 'contiguous', 'destination']",{'crash': 100}
-"['ddbcemerge', 'lamblin', 'requestarray', 'crash']",{'crash': 100}
-"['array', 'crash']",{'crash': 100}
-"['mergemerge', 'lamblin', 'requestdebugmode', 'issue']",{'issue': 100}
-"['issue', 'requestdistribution', 'gradient', 'setting']",{'issue': 100}
-"['initial', 'gradient', 'distribution', 'issue']",{'issue': 100}
-"['optimization', 'issue']",{'issue': 100}
-"['generation', 'binary']",{'generation': 100}
-"['sphinx', 'version', 'generation']",{'generation': 100}
-"['import', 'wrapper', 'jenkins', 'issue', 'initialization']",{'issue': 100}
-"['tempfile', 'typeerror', 'preventwritten', 'object', 'compilation', 'string', 'occurs', 'issue', 'default']",{'issue': 100}
-"['request', 'nouizcareduce', 'crash']",{'crash': 100}
-"['device', 'crash', 'theano']",{'crash': 100}
-"['eigenvectors', 'gradient', 'sensitive', 'epsilon']",{'Sensitive': 100}
-"['range', 'issue']",{'issue': 100}
-"['specify', 'reshape', 'output', 'explicitlyshape', 'length']",{'length': 100}
-"['weight', 'compilation', 'crash']",{'crash': 100}
-"['valuereduction', 'check', 'fasterdriver', 'crash', 'nvidiasimple']",{'crash': 100}
-"['mergemerge', 'request', 'nouizvariable', 'crash', 'return']",{'crash': 100}
-"['sparse', 'overflow', 'index']",{'overflow': 100}
-"['ceeeemerge', 'request', 'nouizfloatx', 'compilation', 'crash']",{'crash': 100}
-"['crash', 'compilation', 'gpuelemwise']",{'crash': 100}
-"['crash', 'sandbox', 'compilation', 'floatx', 'theano']",{'crash': 100}
-"['outputtedexcept', 'generatedissuecomment', 'issue', 'theano']",{'issue': 100}
-"['issue', 'couldwindowpythonshape', 'biggercould', 'shape']",{'issue': 100}
-"['corner', 'crash', 'warning']",{'crash': 100}
-"['stack', 'trace']",{'stack': 100}
-"['investigation', 'requestprevent', 'issue', 'warning']",{'issue': 100}
-"['error', 'generation', 'tutorial', 'message', 'documentation', 'generate']",{'generation': 100}
-"['generation', 'error']",{'generation': 100}
-"['warning', 'theano', 'issue', 'backend']",{'issue': 100}
-"['fcddc', 'mergenotoraptor', 'issue', 'requestgpuarraytype', 'issue', 'method']",{'issue': 100}
-"['stack', 'trace']",{'stack': 100}
-"['crash', 'input', 'function']",{'crash': 100}
-"['crash', 'context']",{'crash': 100}
-"['issue', 'relatedtensor', 'theanochange', 'cache']",{'issue': 100}
-"['issue', 'requestinteger', 'update']",{'issue': 100}
-"['integer', 'update', 'string', 'checkinginstead', 'moduleanalyzes', 'check', 'relevant', 'issue', 'function']","{'integer': 100, 'issue': 100}"
-"['issue', 'python', 'compat', 'smalltravis', 'detect']",{'issue': 100}
-"['mergerequest', 'length', 'softmax', 'length', 'dimension']",{'length': 100}
-"['flake', 'stack']",{'stack': 100}
-"['various', 'stack']",{'stack': 100}
-"['length', 'dimension']",{'length': 100}
-"['window', 'detection', 'conda', 'specialminiconda', 'forge', 'install', 'outsidealways', 'importservice', 'install', 'information']",{'forger': 91}
-"['crash', 'backend']",{'crash': 100}
-"['crash', 'example']",{'crash': 100}
-"['mergewindow', 'notoraptor', 'requestwindow', 'issue']",{'issue': 100}
-"['window', 'issue', 'relatedcomment', 'issuecomment', 'theanowindow', 'issuesurroundedremove', 'betterstart', 'quote', 'presentpassedldflags']",{'issue': 100}
-"['fdfdaf', 'mergenotoraptor', 'master', 'requestgpumaxandargmax', 'proposal', 'issue']",{'issue': 100}
-"['mergemerge', 'request', 'nouizfloat', 'crash']",{'crash': 100}
-"['float', 'overflow']",{'overflow': 100}
-"['stride', 'touch', 'length', 'dimensiondimension', 'reject', 'broadcastablestride']",{'length': 100}
-"['callable', 'imcol', 'colim', 'registerregister', 'previous', 'thread']",{'thread': 100}
-"['mergerequest', 'thread', 'gpuarray', 'thread', 'corrmm', 'gpuarray', 'block']",{'thread': 100}
-"['large', 'float', 'overflow']",{'overflow': 100}
-"['thread', 'gpuarray', 'block', 'correctblock', 'thread', 'number']",{'thread': 100}
-"['stack', 'print', 'input', 'trace']",{'stack': 100}
-"['requestwould', 'buffer', 'problem', 'sample']",{'buffer': 100}
-"['buffer', 'problem', 'sample']",{'buffer': 100}
-"['issue', 'flake']",{'issue': 100}
-"['error', 'syntax', 'issue', 'point']",{'issue': 100}
-"['forgot', 'issue', 'point', 'import']",{'issue': 100}
-"['issue', 'point']",{'issue': 100}
-"['profiler', 'crash']",{'crash': 100}
-"['multi', 'deque', 'thread', 'communication', 'automatic', 'datastructure', 'queue']",{'thread': 100}
-"['futur', 'crash', 'review']",{'crash': 100}
-"['issue', 'information', 'template']",{'issue': 100}
-"['request', 'nouizpydot', 'crash']",{'crash': 100}
-"['pydot', 'crash']",{'crash': 100}
-"['numpy', 'crash', 'recent', 'theano']",{'crash': 100}
-"['issue', 'requesterror', 'boolean']",{'issue': 100}
-"['mergemerge', 'genichyar', 'compiler', 'bindir', 'cudnn', 'issue']",{'issue': 100}
-"['compiler', 'bindir', 'cudnn', 'issue']",{'issue': 100}
-"['mergemerge', 'request', 'nouizprofile', 'crash']",{'crash': 100}
-"['review', 'issue', 'address']",{'issue': 100}
-"['issue', 'subtensor']",{'issue': 100}
-"['refactor', 'documentationrefactor', 'documentation', 'installationextra', 'homepage', 'installrestoresuppress', 'rename', 'install', 'toctreelabel', 'multipledownload', 'instruction', 'referencecolorinstruction', 'installationtroubleshootingbrokenscript', 'generation', 'usingversion', 'numpy', 'scipycanopy', 'referencescript', 'failsminor', 'warning', 'deprecation', 'backendempty', 'string', 'defaultoption', 'reference', 'libgpuarray', 'pythonpathinstruction', 'installation', 'staticsyntax']",{'generation': 100}
-"['mergeozancaglayan', 'entropy', 'string', 'requestsandbox', 'crossentropy']",{'entropy': 100}
-"['request', 'nouiznanguardmode', 'stack']",{'stack': 100}
-"['print', 'trace', 'crash', 'stack', 'input', 'nanguardmode']","{'crash': 100, 'stack': 100}"
-"['stack', 'check', 'trace']",{'stack': 100}
-"['nanguardmode', 'stack']",{'stack': 100}
-"['label', 'issue']",{'issue': 100}
-"['imageneibs', 'kernel', 'opencl', 'supportbugfix', 'imageneibs', 'libgpuarray', 'support', 'openclcommit', 'python', 'crash']",{'crash': 100}
-"['thread', 'declaration', 'function']",{'thread': 100}
-"['issue', 'return']",{'issue': 100}
-"['tensor', 'issue']",{'issue': 100}
-"['mergemerge', 'request', 'nouizoptimizer', 'profile', 'crash']",{'crash': 100}
-"['stack', 'problem', 'trace']",{'stack': 100}
-"['optimizer', 'profile', 'crash']",{'crash': 100}
-"['update', 'iframe', 'issue', 'example']",{'issue': 100}
-"['issue', 'theano']",{'issue': 100}
-"['error', 'crash']",{'crash': 100}
-"['aefbcf', 'mergemerge', 'request', 'nouizgpufft', 'crash']",{'crash': 100}
-"['compilation', 'crash', 'theano']",{'crash': 100}
-"['mergemerge', 'request', 'nouizcache', 'delete', 'version', 'crash', 'cudnn']",{'crash': 100}
-"['error', 'crash']",{'crash': 100}
-"['length', 'check']",{'length': 100}
-"['issue', 'fchollet']",{'issue': 100}
-"['mergemerge', 'request', 'adbrebstrace', 'helper', 'check', 'stack', 'function']",{'stack': 100}
-"['trace', 'helper', 'graph', 'check', 'stack', 'function']",{'stack': 100}
-"['mergemerge', 'vmichals', 'requestfolder', 'stack', 'optimization', 'trace']",{'stack': 100}
-"['integer', 'ensure']",{'integer': 100}
-"['trace', 'unittests', 'optimization', 'stack']",{'stack': 100}
-"['aaedec', 'mergetheaverageguy', 'issue', 'requestimpossible', 'compile']",{'issue': 100}
-"['issue', 'flake']",{'issue': 100}
-"['edecb', 'mergeyaoli', 'requesterror', 'overflow']",{'overflow': 100}
-"['error', 'overflow', 'memroy', 'smallerrefactoredselect']",{'overflow': 100}
-"['mergemerge', 'master', 'requestimprove', 'issue']",{'issue': 100}
-"['cgemv', 'buffer', 'output']",{'buffer': 100}
-"['check', 'length']",{'length': 100}
-"['cafbb', 'afeaesentient', 'issue', 'requestnever', 'fgraph', 'assert', 'reintroduce']",{'issue': 100}
-"['fdaea', 'mergemerge', 'request', 'nouizcheck', 'issue', 'starter']",{'issue': 100}
-"['check', 'issue', 'starter']",{'issue': 100}
-"['incorrectness', 'threshold', 'overflow']",{'overflow': 100}
-"['gpubatcheddot', 'merges', 'incorrect']",{'incorrect': 100}
-"['issue', 'rectangular']",{'issue': 100}
-"['issue', 'stale', 'import']",{'issue': 100}
-"['mergemerge', 'issue', 'anishshah']",{'issue': 100}
-"['feafdmerge', 'request', 'nouizpattern', 'crash', 'broadcast']",{'crash': 100}
-"['pattern', 'crash', 'broadcast']",{'crash': 100}
-"['stack', 'level', 'number']",{'stack': 100}
-"['check', 'stack']",{'stack': 100}
-"['cudnn', 'crash']",{'crash': 100}
-"['issue', 'datatype']",{'issue': 100}
-"['disables', 'issue']",{'issue': 100}
-"['ceabe', 'mergesinahonari', 'issue', 'requestparam']",{'issue': 100}
-"['subdirectory', 'theanp', 'crash', 'cache']",{'crash': 100}
-"['ffeef', 'mergesinahonari', 'issue', 'requestinterface', 'deconvolution']",{'issue': 100}
-"['issue', 'requestgpubatcheddot']",{'issue': 100}
-"['integer', 'array']",{'integer': 100}
-"['integer', 'warning']",{'integer': 100}
-"['issue', 'requestquick', 'python', 'gradient']",{'issue': 100}
-"['requestpython', 'issue', 'refactor', 'statement']",{'issue': 100}
-"['mergemerge', 'patch', 'request', 'incorrect', 'compatibility', 'statement']",{'incorrect': 100}
-"['incorrect', 'compatibility', 'statement']",{'incorrect': 100}
-"['python', 'library', 'reference', 'issue', 'compatibilityprint', 'syntax', 'python', 'compatiblepython']",{'issue': 100}
-"['error', 'overflow', 'debugmode', 'comparison']",{'overflow': 100}
-"['crash', 'error']",{'crash': 100}
-"['issue', 'warning', 'paragraph']",{'issue': 100}
-"['crash', 'profilemode']",{'crash': 100}
-"['crash', 'linker']",{'crash': 100}
-"['comment', 'crash']",{'crash': 100}
-"['issue', 'requestrefactor', 'flatten']",{'issue': 100}
-"['crash', 'input']",{'crash': 100}
-"['issue', 'requestcomment', 'negation']",{'issue': 100}
-"['dedbb', 'mergesinahonari', 'issue', 'requestrewrite']",{'issue': 100}
-"['issue', 'division']",{'issue': 100}
-"['mergemerge', 'request', 'nouizcompilation', 'crash']",{'crash': 100}
-"['compilation', 'crash']",{'crash': 100}
-"['mergemerge', 'request', 'nouizscalar', 'crash', 'cache']",{'crash': 100}
-"['fafae', 'mergemerge', 'request', 'nouizmulti', 'release', 'thread']",{'thread': 100}
-"['ffdab', 'mergesentient', 'issue', 'requestoutput']",{'issue': 100}
-"['timmig', 'thread']",{'thread': 100}
-"['compiler', 'crash']",{'crash': 100}
-"['cudnn', 'crash', 'enable', 'abstractopt']",{'crash': 100}
-"['optimization', 'stack']",{'stack': 100}
-"['addditional', 'trace', 'previous', 'additional', 'stack']",{'stack': 100}
-"['mergemerge', 'itdxer', 'requestpython', 'issue', 'pydotprint']",{'issue': 100}
-"['python', 'issue', 'pydotprint']",{'issue': 100}
-"['crash', 'clinker', 'softmax']",{'crash': 100}
-"['mergemerge', 'request', 'nouizinput', 'crash', 'elemwise']",{'crash': 100}
-"['integer', 'scalar', 'vector']",{'integer': 100}
-"['crash', 'speed', 'trade', 'memory']",{'crash': 100}
-"['expose', 'gpualloc', 'gpuarray', 'gpuallocempty', 'backend']",{'expose': 100}
-"['gpuallocempty', 'expose', 'backend']",{'expose': 100}
-"['compilation', 'crash']",{'crash': 100}
-"['request', 'nouizerror', 'crash']",{'crash': 100}
-"['variable', 'crash']",{'crash': 100}
-"['error', 'crash']",{'crash': 100}
-"['wrong', 'crash']",{'crash': 100}
-"['stack', 'documentation']",{'stack': 100}
-"['mergemerge', 'nanguard', 'request', 'nouizpycobject', 'crash', 'nanguardmode']",{'crash': 100}
-"['mergemerge', 'request', 'nouiznosetests', 'crash']",{'crash': 100}
-"['error', 'crash']",{'crash': 100}
-"['stack', 'interface']",{'stack': 100}
-"['overflow', 'softmax']",{'overflow': 100}
-"['stack', 'optimizers', 'local', 'trace']",{'stack': 100}
-"['mergemerge', 'issue', 'request', 'kashifmismatch', 'shape', 'gpudnnpoolgrad']",{'issue': 100}
-"['python', 'crash']",{'crash': 100}
-"['crash', 'error']",{'crash': 100}
-"['optimizer', 'crash', 'profile', 'display']",{'crash': 100}
-"['class', 'situation', 'wrong', 'compute', 'crash', 'result', 'detect']",{'crash': 100}
-"['crash', 'pydotprint']",{'crash': 100}
-"['issue', 'fusionoptimizer']",{'issue': 100}
-"['multi', 'crash', 'elemwise', 'output']",{'crash': 100}
-"['example', 'crash', 'pycuda']",{'crash': 100}
-"['issue', 'requestreshape']",{'issue': 100}
-"['convd', 'subsample', 'integer', 'value']",{'integer': 100}
-"['issue', 'rebase']",{'issue': 100}
-"['defac', 'mergemerge', 'request', 'trace', 'school', 'summer', 'stack']",{'stack': 100}
-"['stack', 'empty']",{'stack': 100}
-"['crash', 'cdatatype', 'nanguardmode']",{'crash': 100}
-"['local', 'trace', 'pascal', 'optimization', 'stack']",{'stack': 100}
-"['stack', 'creation', 'trace']",{'stack': 100}
-"['reduction', 'performance', 'thread', 'launch', 'parallel']",{'thread': 100}
-"['frequent', 'pypipins', 'issue', 'problem']",{'issue': 100}
-"['generation', 'error', 'warning']",{'generation': 100}
-"['mergemerge', 'request', 'nouizforce', 'concurrent']",{'concurrent': 100}
-"['force', 'concurrent']",{'concurrent': 100}
-"['stack', 'trace']",{'stack': 100}
-"['float', 'document', 'gpuelemwise', 'issue']",{'issue': 100}
-"['mergemerge', 'request', 'nouizfloat', 'crash']",{'crash': 100}
-"['crash', 'downcast', 'upcast']",{'crash': 100}
-"['issue', 'requestdevice', 'raising']",{'issue': 100}
-"['tolerance', 'increase', 'pickle', 'length']",{'length': 100}
-"['mergemerge', 'request', 'carrieplerror', 'crash', 'index']",{'crash': 100}
-"['crash', 'compilation']",{'crash': 100}
-"['dadcd', 'mergemerge', 'request', 'nouizfunctiongraph', 'crash']",{'crash': 100}
-"['crash', 'fgraph', 'optimization', 'output']",{'crash': 100}
-"['crash', 'compilation']",{'crash': 100}
-"['cdeebmerge', 'request', 'carrieplerror', 'crash', 'index']",{'crash': 100}
-"['float', 'number', 'sample', 'entropy']",{'entropy': 100}
-"['requestgpuarray', 'crash']",{'crash': 100}
-"['mergemerge', 'lamblin', 'requestautodoc', 'generation']",{'generation': 100}
-"['crash', 'debugmode']",{'crash': 100}
-"['crash', 'debugmode']",{'crash': 100}
-"['issue', 'requestfirst']",{'issue': 100}
-"['autodoc', 'generation']",{'generation': 100}
-"['crash', 'rizar']",{'crash': 100}
-"['scansavemem', 'memory', 'modify', 'buffer']",{'buffer': 100}
-"['generation', 'check', 'explicitelyfloat']",{'generation': 100}
-"['cbfbfmerge', 'request', 'nouizgpuadv', 'crash']",{'crash': 100}
-"['minor', 'modification', 'issue']",{'issue': 100}
-"['crash', 'alloc']",{'crash': 100}
-"['crash', 'noneconst', 'support', 'maxandargmax']",{'crash': 100}
-"['issue', 'requesterror', 'initial', 'message']",{'issue': 100}
-"['mergemerge', 'request', 'crash', 'curand', 'extention']",{'crash': 100}
-"['mergemerge', 'request', 'carrieplinner', 'graph', 'crash', 'inconsistent', 'segfault']",{'crash': 100}
-"['crash', 'curand']",{'crash': 100}
-"['cebbfdmerge', 'request', 'carrieplensure', 'crash', 'check', 'gpuarray', 'input', 'hostfromgpu']",{'crash': 100}
-"['crash', 'gpuarray']",{'crash': 100}
-"['empty', 'crash', 'elemwise']",{'crash': 100}
-"['actual', 'length', 'trustinitial']",{'length': 100}
-"['afbeba', 'mergesinahonari', 'issue', 'requestweight', 'tutorial', 'matrix']",{'issue': 100}
-"['scalar', 'element', 'iterable', 'integer', 'check', 'dtype']",{'integer': 100}
-"['issue', 'requestmanagement', 'update', 'memory']",{'issue': 100}
-"['crash', 'recurrent']",{'crash': 100}
-"['dbacemerge', 'issue', 'requestbiggest', 'storage', 'display', 'issue']",{'issue': 100}
-"['review', 'update', 'issue']",{'issue': 100}
-"['display', 'issue']",{'issue': 100}
-"['edfdb', 'mergemerge', 'request', 'carrieplmultiple', 'crash', 'output']",{'crash': 100}
-"['cudnn', 'crash']",{'crash': 100}
-"['issue', 'requestunbroadcast', 'documentation']",{'issue': 100}
-"['mergemerge', 'request', 'nouizparameter', 'crash']",{'crash': 100}
-"['parameter', 'crash']",{'crash': 100}
-"['mergemerge', 'request', 'carrieplerror', 'crash', 'input', 'nonseq']",{'crash': 100}
-"['crash', 'input']",{'crash': 100}
-"['request', 'nouizcudnn', 'crash']",{'crash': 100}
-"['cudnn', 'crash']",{'crash': 100}
-"['deafd', 'mergemerge', 'request', 'crash', 'increment']",{'crash': 100}
-"['crash', 'return']",{'crash': 100}
-"['mergemerge', 'cleanup', 'request', 'nouizgraph', 'crash', 'simpler']",{'crash': 100}
-"['issue', 'requeststride', 'support']",{'issue': 100}
-"['singleton', 'pattern', 'crash', 'unpickle']",{'crash': 100}
-"['cudnn', 'crash']",{'crash': 100}
-"['pickable', 'crash']",{'crash': 100}
-"['number', 'crash', 'random', 'monitormode', 'example']",{'crash': 100}
-"['mergemerge', 'request', 'nouizprofile', 'crash', 'import']",{'crash': 100}
-"['crash', 'debugmode']",{'crash': 100}
-"['crash', 'pydotprint', 'theano', 'function']",{'crash': 100}
-"['crash', 'cache', 'theano']",{'crash': 100}
-"['aefddmerge', 'request', 'nouizcudnn', 'python', 'compilation', 'crash']",{'crash': 100}
-"['cudnn', 'python', 'compilation', 'crash']",{'crash': 100}
-"['cache', 'delete', 'buildbot', 'concurrent', 'theano']",{'concurrent': 100}
-"['request', 'nouizchange', 'crash']",{'crash': 100}
-"['issue', 'requestissue', 'stride', 'support']",{'issue': 100}
-"['mergemerge', 'request', 'crash', 'unpickle']",{'crash': 100}
-"['cudnn', 'crash', 'compilation', 'softmax']",{'crash': 100}
-"['message', 'error', 'crash']",{'crash': 100}
-"['cudnn', 'crash']",{'crash': 100}
-"['mergemerge', 'request', 'nouizcudnn', 'crash', 'repair', 'softmax']",{'crash': 100}
-"['cudnn', 'crash', 'softmax']",{'crash': 100}
-"['gradgrad', 'issue']",{'issue': 100}
-"['issue', 'computation']",{'issue': 100}
-"['integer', 'python', 'division']",{'integer': 100}
-"['update', 'format', 'crash', 'output']",{'crash': 100}
-"['dceaebmerge', 'request', 'nouizquick', 'crash', 'review']",{'crash': 100}
-"['python', 'crash', 'difference', 'comprenhension']",{'crash': 100}
-"['python', 'crash']",{'crash': 100}
-"['fdbff', 'mergemerge', 'request', 'nouizsparse', 'crash']",{'crash': 100}
-"['crashbroadcastable', 'infer', 'crash']",{'crash': 100}
-"['return', 'crash', 'dense', 'mulsdoutput']",{'crash': 100}
-"['optimizationgpudownsample', 'crash', 'strange', 'definition', 'cudnn', 'inputdifference', 'order', 'inputcudnn', 'comment']",{'crash': 100}
-"['crash', 'order', 'debugmode', 'import']",{'crash': 100}
-"['crash', 'import']",{'crash': 100}
-"['error', 'crash']",{'crash': 100}
-"['dedee', 'mergemerge', 'master', 'request', 'asalvailpython', 'crash', 'string']",{'crash': 100}
-"['python', 'crash', 'string', 'castingerror', 'crash', 'message', 'string', 'solves', 'cudnn']",{'crash': 100}
-"['buffer', 'elemwise', 'output']",{'buffer': 100}
-"['overflow', 'crash']","{'overflow': 100, 'crash': 100}"
-"['float', 'crash', 'floatx']",{'crash': 100}
-"['issue', 'couple']",{'issue': 100}
-"['mergemerge', 'request', 'nouizfirst', 'crash', 'input', 'dtype']",{'crash': 100}
-"['crash', 'optimization']",{'crash': 100}
-"['error', 'python', 'detectionpython', 'crash', 'making']",{'crash': 100}
-"['bfcdb', 'mergesebastien', 'requestlimit', 'issue']",{'issue': 100}
-"['issue', 'requestissue']",{'issue': 100}
-"['mergemerge', 'request', 'nouizbuildbot', 'crash']",{'crash': 100}
-"['check', 'crash', 'debugmode', 'uselessdifferent', 'input', 'resilent']",{'crash': 100}
-"['crash', 'correctlybuildbot', 'crash', 'debugmode', 'theano', 'detectedobligatory']",{'crash': 100}
-"['crash', 'ndarray']",{'crash': 100}
-"['cudnn', 'crash']",{'crash': 100}
-"['internal', 'theano', 'stack', 'readable', 'level']",{'stack': 100}
-"['compiler', 'crash', 'elemwise']",{'crash': 100}
-"['eadce', 'mergemerge', 'request', 'nouizpresent', 'crash']",{'crash': 100}
-"['present', 'crash']",{'crash': 100}
-"['mergemerge', 'request', 'nouizpython', 'crash', 'optimization']",{'crash': 100}
-"['python', 'crash', 'space']",{'crash': 100}
-"['optimizer', 'crash']",{'crash': 100}
-"['length', 'limit', 'output']",{'length': 100}
-"['optimizer', 'python', 'crash', 'theano', 'import']",{'crash': 100}
-"['optimizer', 'crash', 'import', 'theanooptimizer', 'python', 'theano', 'import']",{'crash': 100}
-"['mergemerge', 'request', 'nouizpython', 'crash']",{'crash': 100}
-"['python', 'crash']",{'crash': 100}
-"['empty', 'crash']",{'crash': 100}
-"['convd', 'shape', 'crash']",{'crash': 100}
-"['exercices', 'issue']",{'issue': 100}
-"['crash', 'compilation']",{'crash': 100}
-"['mergemerge', 'request', 'nouizstride', 'shape', 'crash', 'resistent', 'numpy']",{'crash': 100}
-"['mergemerge', 'request', 'nouizconvd', 'crash']",{'crash': 100}
-"['shape', 'crash']",{'crash': 100}
-"['compilation', 'crash']",{'crash': 100}
-"['mergemerge', 'request', 'nouizprint', 'crash', 'assert']",{'crash': 100}
-"['normal', 'silence', 'crash']",{'crash': 100}
-"['edbaemerge', 'request', 'nouizextra', 'debug', 'crash', 'cublas']",{'crash': 100}
-"['rahul', 'requestpycuda', 'handler', 'crash', 'atexit', 'clash']",{'crash': 100}
-"['crash', 'tellingtutorial']",{'crash': 100}
-"['crash', 'value']",{'crash': 100}
-"['pycuda', 'handler', 'crash', 'atexit', 'clash']",{'crash': 100}
-"['compilation', 'crash']",{'crash': 100}
-"['compatibility', 'memset', 'issue']",{'issue': 100}
-"['crash', 'optimization']",{'crash': 100}
-"['issue', 'function']",{'issue': 100}
-"['compilation', 'crash']",{'crash': 100}
-"['debug', 'crash', 'reset']",{'crash': 100}
-"['crash', 'gradient']",{'crash': 100}
-"['request', 'nouizintroduce', 'graph', 'crash', 'cycle']",{'crash': 100}
-"['crash', 'function']",{'crash': 100}
-"['optimizer', 'crash']",{'crash': 100}
-"['issue', 'requestissue']",{'issue': 100}
-"['mergemerge', 'request', 'nouizgpuarray', 'crash']",{'crash': 100}
-"['gpukernelbase', 'rework', 'kernel', 'separetlyallows', 'kernel', 'multiplealternative', 'runtime', 'chooseparameter', 'group', 'reason', 'binary', 'source', 'compilationimplementation', 'changeblacklist', 'crash', 'runtime', 'drivercreate', 'binary', 'kernel']",{'crash': 100}
-"['gpuarray', 'crash']",{'crash': 100}
-"['gpuarray', 'issue']",{'issue': 100}
-"['overflow', 'matvecmodm']",{'overflow': 100}
-"['evalutate', 'issue', 'functionaddedstill', 'issue', 'occurs']",{'issue': 100}
-"['request', 'nouizremove', 'overflow', 'detect']",{'overflow': 100}
-"['driver', 'crash', 'strictcause']",{'crash': 100}
-"['overflow', 'detect']",{'overflow': 100}
-"['gpuarray', 'issue']",{'issue': 100}
-"['compat', 'python', 'issue']",{'issue': 100}
-"['crash', 'composite', 'output']",{'crash': 100}
-"['deadlock', 'usage']",{'deadlock': 100}
-"['compilation', 'refactor', 'crashcross', 'inner', 'entropy', 'avaiableduplicate']",{'entropy': 100}
-"['crash', 'compile']",{'crash': 100}
-"['overflow', 'matvecmodm']",{'overflow': 100}
-"['crashversion', 'crash']",{'crash': 100}
-"['ccabacmerge', 'rizar', 'requestgithub', 'issue']",{'issue': 100}
-"['sparse', 'crash']",{'crash': 100}
-"['mergemerge', 'request', 'nouizwindow', 'crash']",{'crash': 100}
-"['mergemerge', 'request', 'nouizvariable', 'crash', 'theano']",{'crash': 100}
-"['program', 'python', 'compilation', 'compatibilitysimilarerror', 'python', 'place', 'occurs', 'buffer', 'interface']",{'buffer': 100}
-"['window', 'crash']",{'crash': 100}
-"['window', 'compilation', 'crash', 'support']",{'crash': 100}
-"['dtype', 'crash']",{'crash': 100}
-"['crash', 'warning']",{'crash': 100}
-"['gpuconv', 'crash', 'reuse']",{'crash': 100}
-"['mergemerge', 'request', 'nouizpython', 'crash']",{'crash': 100}
-"['crash', 'linker']",{'crash': 100}
-"['python', 'crash']",{'crash': 100}
-"['caddadbmerge', 'lamblin', 'requeststack', 'crash', 'hessian']",{'crash': 100}
-"['error', 'crash']",{'crash': 100}
-"['crash', 'debugmode', 'recentlymessage', 'error', 'original', 'information']",{'crash': 100}
-"['abalkin', 'crash']",{'crash': 100}
-"['hstack', 'dtype']",{'stack': 91}
-"['sparce', 'crash', 'interface', 'scipyelement', 'ndarray', 'support']",{'crash': 100}
-"['compilation', 'stride', 'crash']",{'crash': 100}
-"['compilation', 'crash']",{'crash': 100}
-"['specify', 'crash', 'march']",{'crash': 100}
-"['crash', 'memory']",{'crash': 100}
-"['mergemerge', 'request', 'python', 'crash', 'import']",{'crash': 100}
-"['python', 'crash', 'import']",{'crash': 100}
-"['compilation', 'crash']",{'crash': 100}
-"['crash', 'compile', 'numpy']",{'crash': 100}
-"['compilation', 'crash']",{'crash': 100}
-"['gpusubtensor', 'compilation', 'crash']",{'crash': 100}
-"['check', 'incorrect', 'outputdifferent', 'number']",{'incorrect': 100}
-"['profiler', 'crash']",{'crash': 100}
-"['cddbecmerge', 'request', 'jlowinminor', 'integer', 'single']",{'integer': 100}
-"['print', 'overflow']",{'overflow': 100}
-"['shape', 'integer', 'single']",{'integer': 100}
-"['mergemerge', 'request', 'nouizreduce', 'crash']",{'crash': 100}
-"['reduction', 'crash']",{'crash': 100}
-"['cross', 'error', 'variable', 'label', 'stack', 'initialization']",{'stack': 100}
-"['mergemerge', 'lamblin', 'requestdifferent', 'realpath', 'crash']",{'crash': 100}
-"['crash', 'import']",{'crash': 100}
-"['crash', 'toposorterror']",{'crash': 100}
-"['crash', 'function']",{'crash': 100}
-"['mergemerge', 'request', 'nouizpython', 'crash']",{'crash': 100}
-"['python', 'crash']",{'crash': 100}
-"['review', 'comment', 'thread', 'minimum']",{'thread': 100}
-"['thread', 'minimum', 'block']",{'thread': 100}
-"['python', 'crash']",{'crash': 100}
-"['errordebug', 'crash']",{'crash': 100}
-"['error', 'numpypython', 'overflow', 'numpy', 'return']",{'overflow': 100}
-"['faace', 'mergemerge', 'lamblin', 'requesterror', 'shape', 'length', 'message']",{'length': 100}
-"['error', 'shape', 'length', 'message']",{'length': 100}
-"['crash', 'gradient', 'elemwise']",{'crash': 100}
-"['crash', 'gradient', 'elemwise', 'unimplementedmcneil', 'forbes', 'michael']",{'crash': 100}
-"['minor', 'fixing', 'issue']",{'issue': 100}
-"['stack', 'assert']",{'stack': 100}
-"['integer', 'python']",{'integer': 100}
-"['crash', 'import']",{'crash': 100}
-"['stack', 'memory']",{'stack': 100}
-"['stack', 'loopgc']",{'stack': 100}
-"['right', 'number', 'dimension', 'crash', 'input', 'output']",{'crash': 100}
-"['native', 'crash', 'equivalent', 'march', 'detect']",{'crash': 100}
-"['eaccf', 'mergeabalkin', 'issue', 'compatible']",{'issue': 100}
-"['python', 'travis', 'install', 'compatible', 'issue', 'instruct']",{'issue': 100}
-"['python', 'issue', 'python', 'compatibility']",{'issue': 100}
-"['issue', 'compatiblepythobn', 'python', 'default', 'theano']",{'issue': 100}
-"['python', 'issue', 'compatible']",{'issue': 100}
-"['python', 'issue', 'compatible']",{'issue': 100}
-"['request', 'importpython', 'relative', 'issue', 'compatible']",{'issue': 100}
-"['python', 'issue', 'builtin', 'compatible']",{'issue': 100}
-"['python', 'issue']",{'issue': 100}
-"['python', 'issue']",{'issue': 100}
-"['python', 'pickle', 'issue', 'compatible']",{'issue': 100}
-"['instance', 'python', 'issue', 'compatible']",{'issue': 100}
-"['floor', 'python', 'integer', 'complex', 'issue', 'number', 'floor', 'python', 'division', 'operator', 'complexerror', 'resulttensor', 'python', 'theano']","{'integer': 100, 'issue': 100}"
-"['explicit', 'floor', 'python', 'division', 'inplace', 'issue']",{'issue': 100}
-"['explicit', 'floor', 'python', 'division', 'issue']",{'issue': 100}
-"['issue', 'compatible']",{'issue': 100}
-"['instance', 'python', 'numpy', 'issue', 'compatible']",{'issue': 100}
-"['issue', 'compatible']",{'issue': 100}
-"['python', 'issue', 'compatiblefilter', 'theano', 'method']",{'issue': 100}
-"['python', 'message', 'issue', 'compatible']",{'issue': 100}
-"['python', 'issue']",{'issue': 100}
-"['crash', 'config', 'value']",{'crash': 100}
-"['index', 'issue']",{'issue': 100}
-"['relative', 'issue', 'compatiblecommit', 'series', 'redundantunless', 'function', 'importinstance', 'reuse']",{'issue': 100}
-"['stride', 'dimension', 'crash', 'setting', 'gpusubtensor']",{'crash': 100}
-"['request', 'importpython', 'unnecessary', 'issue', 'compatible']",{'issue': 100}
-"['unnecessary', 'issue', 'compatibleimport', 'theano', 'compatibleremove', 'unnecessaryrelative', 'issue', 'import']",{'issue': 100}
-"['variable', 'sparse', 'crash', 'theano', 'random', 'attribute']",{'crash': 100}
-"['eadaf', 'mergedelallea', 'minor', 'requestcross', 'categorical', 'entropy']",{'entropy': 100}
-"['cross', 'categorical', 'entropy']",{'entropy': 100}
-"['stack', 'print', 'warning']",{'stack': 100}
-"['explicit', 'failure', 'logictensor', 'issue', 'platform', 'regardlessshape', 'appearance']",{'issue': 100}
-"['crash', 'insertedcause']",{'crash': 100}
-"['faedb', 'mergenouiz', 'clean', 'abalkin', 'requestcompilation', 'crash']",{'crash': 100}
-"['stack', 'argument', 'level']",{'stack': 100}
-"['crash', 'memory', 'outputpython', 'exception']",{'crash': 100}
-"['crash', 'deepcopyop']",{'crash': 100}
-"['tuples', 'length', 'return']",{'length': 100}
-"['vstack', 'length', 'array']","{'stack': 91, 'length': 100}"
-"['mergemerge', 'request', 'nouiziscalar', 'crash']",{'crash': 100}
-"['iscalar', 'crash']",{'crash': 100}
-"['shape', 'crash', 'contains', 'gpusoftmax', 'input']",{'crash': 100}
-"['somes', 'gpusoftmax', 'crash']",{'crash': 100}
-"['block', 'crash']",{'crash': 100}
-"['global', 'transform', 'issue', 'optimization']",{'issue': 100}
-"['stochastic', 'issue', 'optimization']",{'issue': 100}
-"['identical', 'different', 'length', 'optimization']",{'length': 100}
-"['issue', 'import']",{'issue': 100}
-"['mergemerge', 'goodfeli', 'master', 'requestcaught', 'olivier', 'issue', 'import']",{'issue': 100}
-"['hashlib', 'thanks', 'issue', 'olivier', 'import']",{'issue': 100}
-"['requesttensorvariable', 'similar', 'issue', 'interface']",{'issue': 100}
-"['issue', 'determinism']",{'issue': 100}
-"['dbacf', 'mergeabalkin', 'requesttensorvariable', 'similar', 'issue', 'interface']",{'issue': 100}
-"['mergemerge', 'goodfeli', 'ready', 'gradient', 'integer']",{'integer': 100}
-"['requestdtype', 'issue']",{'issue': 100}
-"['index', 'issue']",{'issue': 100}
-"['check', 'issue', 'dtype']",{'issue': 100}
-"['crash', 'optimizationclone']",{'crash': 100}
-"['python', 'mixin', 'issue']",{'issue': 100}
-"['output', 'incorrect', 'matchcomment']",{'incorrect': 100}
-"['crash', 'import']",{'crash': 100}
-"['mergemerge', 'request', 'crash', 'verbose']",{'crash': 100}
-"['crash', 'optimiztion', 'scheduler']",{'crash': 100}
-"['schedulereduce', 'issue']",{'issue': 100}
-"['syntax', 'issue']",{'issue': 100}
-"['shape', 'crash', 'gpusum', 'input', 'gpumax']",{'crash': 100}
-"['crash', 'recentlyupdate']",{'crash': 100}
-"['aecde', 'mergemerge', 'goodfeli', 'requestconsistent', 'gradient', 'integer', 'handlingconsistent', 'implementation', 'gradient', 'integer', 'documentation', 'handlingensure', 'gradient', 'integer', 'check', 'pointensure', 'undefined', 'gradient', 'integer', 'checkprovides', 'version', 'function', 'question', 'information', 'theano']",{'integer': 100}
-"['incorrect', 'behavior']",{'incorrect': 100}
-"['integer', 'gradient']",{'integer': 100}
-"['integer', 'input']",{'integer': 100}
-"['gradient', 'introduce', 'integer']",{'integer': 100}
-"['error', 'space', 'message', 'issue']",{'issue': 100}
-"['gradient', 'integer']",{'integer': 100}
-"['integer', 'gradient', 'output']",{'integer': 100}
-"['fixedoption', 'crash', 'solves', 'theanobatch']",{'crash': 100}
-"['tester', 'inplace', 'gamma', 'crash']",{'crash': 100}
-"['mergemerge', 'goodfeli', 'requestclass', 'instance', 'versus', 'issue']",{'issue': 100}
-"['instance', 'versus', 'issue']",{'issue': 100}
-"['corner', 'crash']",{'crash': 100}
-"['crash', 'default']",{'crash': 100}
-"['integer', 'unsigneg']",{'integer': 100}
-"['integer', 'image']",{'integer': 100}
-"['incorrect', 'gpuelemwise', 'cache']",{'incorrect': 100}
-"['stack', 'linker', 'theano']",{'stack': 100}
-"['linker', 'force', 'value', 'stack', 'config']",{'stack': 100}
-"['crash', 'cycle']",{'crash': 100}
-"['variable', 'length']",{'length': 100}
-"['mergemerge', 'goodfeli', 'requestprint', 'warning', 'stack', 'level']",{'stack': 100}
-"['warning', 'stack', 'level']",{'stack': 100}
-"['vstack', 'problem']",{'stack': 91}
-"['sparse', 'vstack', 'hstack']",{'stack': 91}
-"['thread', 'parallel']",{'thread': 100}
-"['deque', 'stack']",{'stack': 100}
-"['dtype', 'crash']",{'crash': 100}
-"['loadfromdiskdifficulty', 'issue', 'input', 'puttingconstruction']",{'issue': 100}
-"['input', 'version', 'crash']",{'crash': 100}
-"['buildbot', 'crash', 'raising']",{'crash': 100}
-"['comment', 'centos', 'thread', 'parallel']",{'thread': 100}
-"['mergemerge', 'requestcorruption', 'crash']",{'crash': 100}
-"['state', 'randomunless', 'parameter', 'value', 'initialdifferentiable', 'random']",{'randomness': 91}
-"['variablecompute', 'issue', 'thoughtinner', 'variable', 'update', 'number', 'meaningunless', 'value', 'respect', 'explicitlyextra', 'wouldreason', 'computation', 'possiblemeaningless', 'methodnumber', 'compute', 'wouldthough', 'valuesince', 'exactlyerror', 'suppose', 'understanding']",{'issue': 100}
-"['graph', 'crash']",{'crash': 100}
-"['mergemerge', 'lamblin', 'requeststride', 'subtensor', 'length', 'dimension']",{'length': 100}
-"['stride', 'subtensor', 'length', 'dimensionstorage', 'shape', 'cudandarray', 'rightbroadcastable', 'strideclose']",{'length': 100}
-"['wrong', 'value', 'buffer', 'default']",{'buffer': 100}
-"['crash', 'concatenate']",{'crash': 100}
-"['reshape', 'reuseinput', 'crash', 'reshape']",{'crash': 100}
-"['crash', 'concatenate']",{'crash': 100}
-"['requestpotential', 'crash', 'concurrent']","{'crash': 100, 'concurrent': 100}"
-"['potential', 'crash', 'concurrent']","{'crash': 100, 'concurrent': 100}"
-"['generation', 'window', 'documentation']",{'generation': 100}
-"['element', 'crash', 'optimizationexecution', 'element', 'fusion', 'optimization', 'inputfloat', 'computesander', 'dieleman']",{'crash': 100}
-"['indent', 'issue']",{'issue': 100}
-"['stack', 'display', 'level', 'function']",{'stack': 100}
-"['option', 'usingavoids', 'crash', 'warning', 'valueoption', 'config']",{'crash': 100}
-"['print', 'config', 'crash']",{'crash': 100}
-"['error', 'generation', 'warning']",{'generation': 100}
-"['assertion', 'crash', 'error']",{'crash': 100}
-"['issue', 'circular']",{'issue': 100}
-"['stride', 'length', 'dimension']",{'length': 100}
-"['requestcomposite', 'crash']",{'crash': 100}
-"['composite', 'crash', 'supportcomposite', 'problemcause', 'parent', 'subnode', 'support', 'empty', 'support', 'returnempty', 'crash', 'supportthanks']",{'crash': 100}
-"['fecdc', 'abdfba', 'mergedelallea', 'issue', 'subtensor']",{'issue': 100}
-"['crash', 'initialperform', 'matrix']",{'crash': 100}
-"['constant', 'index', 'length', 'patterndebug', 'buildbot']",{'length': 100}
-"['broadcastable', 'crash', 'runtime', 'optimization', 'input']",{'crash': 100}
-"['crash', 'cache']",{'crash': 100}
-"['crash', 'cache']",{'crash': 100}
-"['requestoptimization', 'crash']",{'crash': 100}
-"['optimization', 'crash']",{'crash': 100}
-"['integer', 'dtype', 'default', 'inputinteger', 'unsigneddtype', 'overridden', 'default', 'specifyinghowever', 'warning']",{'integer': 100}
-"['window', 'cache', 'crash', 'theano']",{'crash': 100}
-"['mintap', 'issue']",{'issue': 100}
-"['requestexist', 'crash']",{'crash': 100}
-"['crash', 'fixedsomeone']",{'crash': 100}
+sha,message,catetory,matched,labels
+bb629b6a07a5a23442a3a7a6b3749d22fbf42531,"['mergemerge', 'request', 'nouiztravis', 'python', 'forge', 'conda']",Insecure_interaction_between_components,{'forge': 91},
+b56a541cf132b5959e2ab10f96733374b3a1c693,"['mergemerge', 'request', 'nouizscipy', 'crash']",Risky_resource_management,{'crash': 100},
+66277226b1169c642a889174ce344df5c23d75ac,"['mergemerge', 'request', 'float', 'nouizargmax', 'float', 'maxandargmax', 'crash']",Risky_resource_management,{'crash': 100},
+3796417a2c4bcbf9d8f79443b9985c291e8c6baf,"['fcbfcamerge', 'request', 'compiledir', 'crash', 'cache']",Risky_resource_management,{'crash': 100},
+ebc59491c587c0f77d2ace3a1580dfe006253b5d,"['mergecudnn', 'notoraptor', 'enums', 'request', 'mergeenumeration', 'cudnn', 'availability', 'crash']",Risky_resource_management,{'crash': 100},
+177cc884464310a848a9719342480f5af70ff766,"['dcbbamerge', 'request', 'crash', 'warning']",Risky_resource_management,{'crash': 100},
+89aac420cb6cc64328e23ee5dbe33c280b1eb980,"['request', 'ahmedcomment', 'current', 'signature', 'elemwise', 'method', 'input', 'overflow', 'adapt', 'gpuarray', 'large', 'input', 'gpuarray', 'computation', 'invalid', 'overflow', 'lifter', 'setting', 'optimization', 'number', 'testingelemwise', 'general', 'occurs']",Risky_resource_management,{'overflow': 100},
+ddafc3e2c457a36871263b5549f916f821a67c29,"['ddbcemerge', 'request', 'array', 'crash']",Risky_resource_management,{'crash': 100},
+3c5d9bdecdb08d18ee84e7a5acecf8eea0404fd7,"['mergemerge', 'request', 'nouizinformation', 'detect', 'crash']",Risky_resource_management,{'crash': 100},
+c95f7e8b234fe7b2073b6b98eb43b1d9774bb7ef,"['mergemerge', 'careduce', 'request', 'nouizcareduce', 'crash']",Risky_resource_management,{'crash': 100},
+f7e4910b8cf8f55dfb04c39f88fdd4e855add1e4,"['mergemerge', 'request', 'nouizreturn', 'crash']",Risky_resource_management,{'crash': 100},
+cc93c29065ca639dc13b08917d54853c48607f60,"['adcfadmerge', 'request', 'nouizinput', 'gpuelemwise', 'crash']",Risky_resource_management,{'crash': 100},
+596daba47283bb673035eb97202698b03e456626,"['mergemerge', 'request', 'lamblindecref', 'crash']",Risky_resource_management,{'crash': 100},
+168ee75dcf978c15749de55d226d3e11285c7743,"['ceeee', 'afefbcmerge', 'request', 'nouizfloatx', 'crash', 'compilation']",Risky_resource_management,{'crash': 100},
+29da664224bebaf9b481ab3998dc24befa014f07,"['mergemerge', 'request', 'nouizdisplay', 'crash']",Risky_resource_management,{'crash': 100},
+205adfa40cb7718362d3af4c4d8023f0cc2ce39a,"['mergemerge', 'request', 'float', 'crash']",Risky_resource_management,{'crash': 100},
+53ba24bb61e464e46b7428d01503ff5f81bbdbd1,"['mergemerge', 'request', 'nouizinplace', 'crash', 'profile']",Risky_resource_management,{'crash': 100},
+78fe13548c509ebdbdfd0bd99debae3b7e6bdb03,"['efcca', 'ceafbmerge', 'pydot', 'request', 'nouizpydot', 'crash']",Risky_resource_management,{'crash': 100},
+ed6c966dcb3b8ad57b1fa9b4b5c00b08f878313b,"['aefbcfmerge', 'request', 'nouizgpufft', 'crash']",Risky_resource_management,{'crash': 100},
+4842bb5c1cb3c99415a12898f9dca7a3082ef9dd,"['mergemerge', 'request', 'nouizcudnn', 'version', 'delete', 'crash', 'cache']",Risky_resource_management,{'crash': 100},
+ae614647ff0fa754f87e572bd92581acacccd0cd,"['feafdmerge', 'request', 'nouizpattern', 'broadcast', 'crash']",Risky_resource_management,{'crash': 100},
+5429c30a5c74877bf06ad6654aa40c21971bf3f7,"['mergemerge', 'request', 'nouizscalar', 'crash', 'cache']",Risky_resource_management,{'crash': 100},
+a7cd6648f8a6ceead46919d4abe8047d96909913,"['crash', 'softmax', 'clinker']",Risky_resource_management,{'crash': 100},
+5849db2111a57dbfe6511cc0a12708845aec5daf,"['mergemerge', 'request', 'nouizelemwise', 'input', 'crash']",Risky_resource_management,{'crash': 100},
+9c19d30009f959666bdc8eab13c494aa52dc16ab,"['mergemerge', 'request', 'nouizmemory', 'speed', 'crash', 'trade']",Risky_resource_management,{'crash': 100},
+2928d02a2de5753b90ea9a9b339ad06de8987ff5,"['mergemerge', 'request', 'clean', 'crash']",Risky_resource_management,{'crash': 100},
+e617dc5087204d7bdb9eb10249b2d87fc73f5cec,"['request', 'nouiznanguardmode', 'crash', 'pycobject']",Risky_resource_management,{'crash': 100},
+865ea1867be138d77db4d12601b3412122335226,"['mergemerge', 'request', 'nouiznosetests', 'crash']",Risky_resource_management,{'crash': 100},
+32105241e13ad4d9523a86dd19da7048e2a78efe,"['mergemerge', 'request', 'crash', 'nouizcrash', 'cgemv', 'optimization']",Risky_resource_management,{'crash': 100},
+c2cd739bff9668e2061a011097bb7cf4d4423a9b,"['mergemerge', 'request', 'nanguardmode', 'nouiznanguardmode', 'crash']",Risky_resource_management,{'crash': 100},
+e699c27ded8904ace2e7353022b7a30a0108165c,"['mergemerge', 'request', 'nouizfloat', 'crash']",Risky_resource_management,{'crash': 100},
+6c3d8e265e710d3a7fdfe1274a5d00beb88ec692,"['mergemerge', 'request', 'carrieplerror', 'crash', 'index']",Risky_resource_management,{'crash': 100},
+c6d2ab3929182cdf7cf12e4b1f191a6ff99d07cc,"['cdeebmerge', 'request', 'carrieplerror', 'crash', 'index']",Risky_resource_management,{'crash': 100},
+292a2b150496513fb1c83ac073bddec2df106132,"['cbfbfmerge', 'request', 'nouizgpuadv', 'crash']",Risky_resource_management,{'crash': 100},
+6f01cf8692ff7cfd20cd2b650cbf2d88e2c39202,"['mergemerge', 'request', 'variable', 'management', 'crash']",Risky_resource_management,{'crash': 100},
+54363a8d0daffbd1b0c5e04dc556d7a5d15f5d07,"['mergemerge', 'request', 'nouiznoneconst', 'crash', 'support', 'maxandargmax']",Risky_resource_management,{'crash': 100},
+11df7d41dbdb331f9cf772de4e29e8dba7afb323,"['mergemerge', 'request', 'nouizcurand', 'extention', 'crash']",Risky_resource_management,{'crash': 100},
+11e7d647582d054603c3db0e25fe3406cb595242,"['mergemerge', 'request', 'carrieplinconsistent', 'inner', 'crash', 'segfault', 'graph']",Risky_resource_management,{'crash': 100},
+8d1910e3eeb3e33c3fbf4ffa95b84ec25943a1ba,"['mergemerge', 'request', 'output', 'crash']",Risky_resource_management,{'crash': 100},
+93cc458d31259d5427c2cbda10e8b8450ec75070,"['afdbbmerge', 'request', 'carrieplcomparison', 'crash', 'backend']",Risky_resource_management,{'crash': 100},
+510a266bbe65b0da726192e32ed72409e32cbeda,"['cebbfdmerge', 'request', 'carrieplfirst', 'hostfromgpu', 'input', 'check', 'gpuarray', 'crash', 'ensure']",Risky_resource_management,{'crash': 100},
+7b8d56d248045947c3ed5488473768f97295b158,"['edfdbmerge', 'request', 'carrieplvariable', 'output', 'multiple', 'crash']",Risky_resource_management,{'crash': 100},
+66bb10789d04c167cc037dd95f5c0ea644ca09d8,"['mergemerge', 'request', 'crash', 'nouizimport']",Risky_resource_management,{'crash': 100},
+6dc034af87b66a8a046b6c14c669a8cb9daca1eb,"['bafdcmerge', 'request', 'crash', 'nouiz']",Risky_resource_management,{'crash': 100},
+59faec8ec1ca2e88d51bac8d1ee219600972f080,"['mergemerge', 'request', 'nouizparameter', 'crash']",Risky_resource_management,{'crash': 100},
+e9fee7117c6ddce81d7faad0ba1a504dd8b7837f,"['mergemerge', 'request', 'carrieplerror', 'input', 'crash', 'nonseq']",Risky_resource_management,{'crash': 100},
+009733e02b3aaca87303db032620a50d81bc606f,"['mergemerge', 'abergeron', 'request', 'nouizcudnn', 'crash']",Risky_resource_management,{'crash': 100},
+cd3979e5cbe87eff8bc15009c50db5f3962c04c0,"['mergemerge', 'request', 'nouizimport', 'crash', 'profile']",Risky_resource_management,{'crash': 100},
+b02eee354486be5492720111986c812febe3f350,"['eeabcbb', 'aefddmerge', 'request', 'nouizpython', 'cudnn', 'crash', 'compilation']",Risky_resource_management,{'crash': 100},
+0bee6bb1ff479d809afdbf19b5a84cd87703b5c1,"['mergemerge', 'request', 'crash', 'unpickle']",Risky_resource_management,{'crash': 100},
+5895d5a2c62e4d5a99729cf72cfeff3e6e4e5bae,"['mergemerge', 'request', 'nouizsoftmax', 'cudnn', 'crash', 'repair']",Risky_resource_management,{'crash': 100},
+e34f6e59d55732540afd4f53fbe64c8f1b067a89,"['mergemerge', 'request', 'nouizcudnn', 'crash']",Risky_resource_management,{'crash': 100},
+604d4d2b755af988e1cdf341ab01ead78aa07056,"['dceaebmerge', 'request', 'nouizreview', 'quick', 'crash']",Risky_resource_management,{'crash': 100},
+3ff7e92b3d189bfc11a2ecec52869f00950766f3,"['fdbffmerge', 'request', 'crash', 'sparse']",Risky_resource_management,{'crash': 100},
+aa892a7e3f1ce45d980719a901533458ddeb41ad,"['aeabceemerge', 'request', 'nouizimport', 'crash']",Risky_resource_management,{'crash': 100},
+d8ffeccd0d5307fbd398b6eba7d322c454f9b365,"['dedee', 'mergeasalvail', 'master', 'requestpython', 'crash', 'string']",Risky_resource_management,{'crash': 100},
+49d2b3f9c9e40d8dd54b407e953b6874fbb4a648,"['mergemerge', 'request', 'nouizfirst', 'input', 'dtype', 'crash']",Risky_resource_management,{'crash': 100},
+c3eaee99de7f669c1207b3a79cd8c5f254b02d91,"['eadcemerge', 'request', 'nouizpresent', 'crash']",Risky_resource_management,{'crash': 100},
+7aec3600de2a46241d2250bb0b63fe7907534586,"['mergemerge', 'request', 'nouizpython', 'crash']",Risky_resource_management,{'crash': 100},
+5d0b1ee8650f97a158ff723edfb860529e84099e,"['mergemerge', 'request', 'nouizresistent', 'crash', 'stride', 'numpy', 'shape']",Risky_resource_management,{'crash': 100},
+87d3e7c1161f48c0cc44c5726fb1961b2456e5bd,"['mergemerge', 'request', 'nouizassert', 'crash', 'print']",Risky_resource_management,{'crash': 100},
+8da054b7951ca1c6d2963fef7e7168d5ded63209,"['mergemerge', 'request', 'tutorial', 'crash', 'example']",Risky_resource_management,{'crash': 100},
+33d27554c09996dbcd76dc57964912df4e1affbd,"['edbaemerge', 'request', 'extra', 'debug', 'crash', 'cublas']",Risky_resource_management,{'crash': 100},
+501ccde54d374989bf0806779877646d1f69a2c7,"['mergemerge', 'rahul', 'request', 'profilingclash', 'atexit', 'pycuda', 'handler', 'crash']",Risky_resource_management,{'crash': 100},
+8eeaea6c52e4f5b3d643ae2395d41b1d2a61aee1,"['mergemerge', 'request', 'nouizbroadcast', 'crash']",Risky_resource_management,{'crash': 100},
+b6f3c46915584fbffa1222273b815711dd5c5217,"['mergemerge', 'request', 'cycle', 'nouizcycle', 'crash', 'graph', 'introduce']",Risky_resource_management,{'crash': 100},
+2c63e7ae8315eaafe5ac9b7c6d2dc2a005730b61,"['mergemerge', 'request', 'nouizconstant', 'crash', 'gpuarray']",Risky_resource_management,{'crash': 100},
+4937b42b3bc23b76141387f3baae1d28a71a4b3d,"['dbfcfebmerge', 'request', 'crash', 'nouizhappen', 'detect', 'overflow']",Risky_resource_management,{'crash': 100},
+70e25931e584aea1252cdb6e23fe56a4f2111200,"['mergemerge', 'request', 'nouizfaster', 'crash', 'optimization']",Risky_resource_management,{'crash': 100},
+6bf3539c32fa906fc46aa39e2fe8c4ae60d4aca0,"['mergemerge', 'request', 'nouizvariable', 'theano', 'crash']",Risky_resource_management,{'crash': 100},
+4e9c944cf3a9eb6d2851ba61571df82bd19402fe,"['mergemerge', 'request', 'crash', 'compilation']",Risky_resource_management,{'crash': 100},
+2b806f0b8b7d9868bc1e2c3465de145a0ab24a38,"['abcdfmerge', 'request', 'crash', 'crash', 'compilation']",Risky_resource_management,{'crash': 100},
+c4ad13833d5a392def4ccf834a53485161040a40,"['mergemerge', 'request', 'python', 'crash']",Risky_resource_management,{'crash': 100},
+b1f1e62a84689b174c12167ecf34e01b3756be20,"['caddadbmerge', 'request', 'lamblinhessian', 'crash', 'stack']",Risky_resource_management,{'crash': 100},
+8e7f43a1c54a0f3feaae063c6136027c4f62fecc,"['mergemerge', 'request', 'debugmode', 'crash', 'debugmode']",Risky_resource_management,{'crash': 100},
+fd2f68d2fc66232dd278d131fd30be9270a84f95,"['mergemerge', 'request', 'nouiz', 'crash', 'march']",Risky_resource_management,{'crash': 100},
+d7719f022195cf8240aea2e801131f729e0125fa,"['affbcmerge', 'request', 'gpujoin', 'crash', 'compilation']",Risky_resource_management,{'crash': 100},
+548688470038e0b6ef23dc624f7b13c249299b17,"['mergemerge', 'request', 'lamblinrealpath', 'different', 'crash']",Risky_resource_management,{'crash': 100},
+ba833bb1801bc359b8c35c1e108cc254c5c78ad5,"['mergemerge', 'request', 'nouizpython', 'crash']",Risky_resource_management,{'crash': 100},
+83d77e844151b92542dd98e9d9ad9635d148c05d,"['mergemerge', 'delallea', 'requestelemwise', 'crash', 'gradient']",Risky_resource_management,{'crash': 100},
+703d535a013e1cfa8b399e5db911c4b7f090931a,"['mergemerge', 'request', 'nouizjeremiah', 'crash', 'iscalar']",Risky_resource_management,{'crash': 100},
+de10660e7a7838a0c6e15bd653e3de71f73c0305,"['mergemerge', 'delallea', 'constant', 'crash']",Risky_resource_management,{'crash': 100},
+f56254ef3a4986a6c6d74aee6fa6a73a987b7506,"['mergemerge', 'request', 'nouizoptimization', 'crash']",Risky_resource_management,{'crash': 100},
+d482d6f42f637d0eb8dede534b7bdaf620bf5483,"['adcfbdmerge', 'request', 'nouizscheduler', 'crash', 'optimiztion']",Risky_resource_management,{'crash': 100},
+596e3cdb845c5853820fe1cadc6da126d1b5ce0d,"['mergemerge', 'request', 'crash', 'verbose']",Risky_resource_management,{'crash': 100},
+28716425b860af0644e193d4facbb5e3d8df3dec,"['mergemerge', 'requestcorruption', 'crash']",Risky_resource_management,{'crash': 100},
+568bd526a449d5c2193949a51de09a01b6a9bdbe,"['fdcceaamerge', 'request', 'nouizreshape', 'crash']",Risky_resource_management,{'crash': 100},
+5a34781f4560bdd92b3255b2ce6936607a264908,"['mergemerge', 'delallea', 'requestsituation', 'concatenate', 'crash']",Risky_resource_management,{'crash': 100},
+58c73c2161fdd6454432d6801eaaf325a19c87da,"['mergemerge', 'delallea', 'requestconcurrent', 'potential', 'crash']",Risky_resource_management,{'crash': 100},
+650790807a124d23d6c0fd220ab0bb21e539dd58,"['mergemerge', 'delallea', 'crash', 'support', 'composite']",Risky_resource_management,{'crash': 100},
+df5f35917e5b21011268b986366baa589b5247f4,"['ceeccmerge', 'delallea', 'crash', 'cache']",Risky_resource_management,{'crash': 100},
+77679d7bc075378f376a3ebce07e0fd1133d6a29,"['caademerge', 'delallea', 'requestimport', 'crash', 'optimization']",Risky_resource_management,{'crash': 100},
