@@ -9,7 +9,7 @@ do
 	Start=$[Num*ProcNum]
 	End=$[Start+ProcNum]
 
-	python collect.py -s cmmits -b $Start -e $End &	
+	python collect.py -s cmmts -b $Start -e $End &	
 done
 
 

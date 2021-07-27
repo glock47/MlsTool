@@ -251,7 +251,7 @@ class Collect_CmmtLogs(Collect_Research_Data):
 
         cdf = pd.read_csv(cmmt_file)
         cmmt_stat_file = System.cmmt_stat_file (repo_id)
-        if (self.is_processed (cmmt_stat_file)):
+        if self.is_processed (cmmt_stat_file) or os.path.exists(cmmt_stat_file):
             if (cdf.shape[0] < self.max_cmmt_num):
                 self.commits_num += cdf.shape[0]
             else:
@@ -343,6 +343,9 @@ class Collect_CmmtLogs(Collect_Research_Data):
 
     def save_data(self, file_name=None):
         if (len(self.research_stats) == 0):
+            if file_name != None:
+                Empty = "touch " + file_name
+                os.system (Empty)
             return
         super(Collect_CmmtLogs, self).save_data2(self.research_stats, file_name)
          
