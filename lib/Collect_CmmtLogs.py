@@ -74,24 +74,39 @@ class Collect_CmmtLogs(Collect_Research_Data):
         
         self.secategory_stats[0] = SeCategory_Stats ("Risky_resource_management", 
                                                      ['path traversal', 'deadlock', 'race', 'crash', 'overflow', 'underflow', 'overrun', 'wraparound', 'uncontrolled format', 
-                                                      'dangerous function', 'untrusted control', 'improper limitation', 'integrity check', 'null pointer', 'missing init'])
+                                                      'dangerous function', 'untrusted control', 'improper limitation', 'Improper Validation', 'integrity check', 'null pointer', 
+                                                      'missing init', 'Incorrect Length', 'Forced Browsing', 'User-Controlled Key', 'Critical Resource', 'Exposed Dangerous'])
   
         self.secategory_stats[1] = SeCategory_Stats ("Insecure_interaction_between_components", 
-                                                     ['sql injection', 'command injection', 'csrf', 'cross-site', 'forger', 'forgery', 'sqli', 'request forgery', 'xsrf', 'backdoor', 
-                                                      'untrusted site', 'specialchar', 'unrestricted upload', 'unrestricted file', 'man-in-the-middle', 'reflected xss', 'get-based xss'])
+                                                     ['sql injection', 'command injection', 'csrf', 'cross site', 'Request Forgery', 'sqli', 'request forgery', 'xsrf', 'backdoor', 
+                                                      'untrusted site', 'specialchar', 'unrestricted upload', 'unrestricted file', 'man in the middle', 'reflected xss', 'get based xss',
+                                                      'Improper Neutralization', 'Dangerous Type', 'Cursor Injection', 'Dangling Database Cursor', 'Unintended Proxy', 'Unintended Intermediary',
+                                                      'Argument Injection', 'Argument Modification', 'XSS Manipulation', 'Incomplete Blacklist', 'Origin Validation Error'])
 
         self.secategory_stats[2] = SeCategory_Stats ("Porous_defenses", 
-                                                     ['missing authentication', 'missing authorization', 'hard coded credential', 'missing encryption', 'untrusted input', 'unnecessary privilege', 'sensitive data' 
+                                                     ['missing authentication', 'missing authorization', 'hard coded credential', 'missing encryption', 'untrusted input', 'unnecessary privilege', 
+                                                      'sensitive data', 'User-Controlled Key', 'Authorization Bypass',  'Hard coded Password', 'Hard coded Cryptographic', 'Key Management Error',
                                                       'incorrect authorization', 'incorrect permission', 'broken cryptographic', 'risky cryptographic', 'excessive authentication', 'privilege escalation',
-                                                      'without a salt', 'unauthenticated', 'information disclosure', 'authentication bypass', 'cnc vulnerability', 'access control', 'cleartext storage'])
+                                                      'without a salt', 'unauthenticated', 'information disclosure', 'authentication bypass', 'cnc vulnerability', 'access control', 'cleartext storage',
+                                                      'Least Privilege Violation', 'Insufficient Compartmentalization', 'Dropped Privileges', 'Assumed Immutable Data', 'Insufficient Entropy',
+                                                      'Cryptographically Weak PRNG'])
 
-        self.secategory_stats[3] = SeCategory_Stats ("General", ['adaptive chosen ciphertext', 'chosen ciphertext attack', 'timing discrepancy', 'security', 'denial service', 'threat', 'insecure', 'penetration'])
+        self.secategory_stats[3] = SeCategory_Stats ("General", 
+                                                    ['adaptive chosen ciphertext', 'chosen ciphertext attack', 'timing discrepancy', 'security', 'denial service', 'insecure', 
+                                                     'penetration', 'bypass security', 'Security bypass', 'Data loss', 'Authorization Bypass'])
 
         if self.re_use == True:
             self.re_compile ()         
             self.re_match_test ()
         else:
             self.fuzz_match_test ()
+
+        TotalPhrase = 0
+        for Id, Sec in self.secategory_stats.items():
+            keywords = Sec.keywords
+            print ("===> %s ---- key phrase number ---->%d" %(Sec.category, len(keywords)))
+            TotalPhrase += len(keywords)
+        print ("===> Whole ---- key phrase number ---->%d" %(TotalPhrase))
 
     def re_compile (self):
         for Id, Sec in self.secategory_stats.items():
