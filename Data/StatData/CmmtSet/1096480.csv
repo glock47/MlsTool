@@ -1,51 +1,5 @@
-message,fuzzy
-"['eigen', 'keyword', 'issue']",{'issue': 100}
-"['method', 'thread', 'removecurrent', 'contextremovecurrent', 'context', 'methodrecursive', 'mutex', 'contextwhitespace', 'clearthread', 'example', 'context', 'pangolinimplement', 'removecurrentimplement', 'errorimplement', 'removecurrentimplement', 'removecurrent', 'waylandwindowcurrent', 'context', 'window']",{'thread': 100}
-"['filter', 'thread', 'message', 'speedup', 'mirror', 'warning']",{'thread': 100}
-"['expose', 'driver', 'setgain', 'setexposure', 'interface']",{'expose': 100}
-"['thread', 'videoviewer', 'default']",{'thread': 100}
-"['thread', 'safeguard', 'video']",{'thread': 100}
-"['glbuffer', 'storage', 'buffer', 'shader']",{'buffer': 100}
-"['glbuffer', 'buffer', 'reinitialize']",{'buffer': 100}
-"['negative', 'number', 'memory', 'crash', 'potential']",{'crash': 100}
-"['wrong', 'aspect', 'ratio', 'allocation', 'crash', 'alloc']",{'crash': 100}
-"['exposure', 'setting', 'support']",{'Exposure': 100}
-"['expose', 'accessor']",{'expose': 100}
-"['window', 'deadlock']",{'deadlock': 100}
-"['expose', 'plotter', 'series', 'colour']",{'expose': 100}
-"['awareness', 'propagate', 'buffer', 'videoproperties', 'debayer']",{'buffer': 100}
-"['thread', 'printout', 'debug']",{'thread': 100}
-"['thread', 'filter']",{'thread': 100}
-"['thread', 'filter']",{'thread': 100}
-"['expose', 'parameterswait', 'videoviewer', 'keypress']",{'expose': 100}
-"['libpthread', 'issue']",{'issue': 100}
-"['driver', 'buffer', 'memory', 'example', 'video']",{'buffer': 100}
-"['object', 'buffer', 'memory']",{'buffer': 100}
-"['expose', 'command', 'debayer', 'method']",{'expose': 100}
-"['mergemerge', 'request', 'renzodenardiaccessors', 'exposure', 'pleora', 'analog']",{'Exposure': 100}
-"['accessors', 'exposure', 'pleora', 'analog']",{'Exposure': 100}
-"['section', 'issue']",{'issue': 100}
-"['window', 'issue', 'input', 'focus']",{'issue': 100}
-"['python', 'initialisation', 'issue']",{'issue': 100}
-"['class', 'packetstream', 'buffer', 'insufficient']",{'buffer': 100}
-"['event', 'depthsense', 'thread', 'ensure']",{'thread': 100}
-"['method', 'incorrect', 'debayervideo']",{'incorrect': 100}
-"['expose', 'camera', 'calibration', 'depthsense']",{'expose': 100}
-"['logger', 'integer', 'microsecond', 'switch']",{'integer': 100}
-"['sprintf', 'specifier', 'format', 'ensure']",{'Sprintf': 100}
-"['streambuf', 'threadedfilebuf', 'overflow']",{'overflow': 100}
-"['display', 'function', 'issue']",{'issue': 100}
-"['issue', 'texture', 'destruction']",{'issue': 100}
-"['expose', 'interface', 'marker']",{'expose': 100}
-"['implicit', 'computation', 'issue', 'strange', 'excessive', 'virtual']",{'issue': 100}
-"['thread', 'local', 'android', 'conflict', 'issue', 'section']","{'thread': 100, 'issue': 100}"
-"['increase', 'account', 'buffer']",{'buffer': 100}
-"['thread', 'android']",{'thread': 100}
-"['stack', 'compat', 'glconsole', 'limit']",{'stack': 100}
-"['cmake', 'install', 'issue']",{'issue': 100}
-"['issue', 'ffmpeg', 'ubuntu', 'compilation']",{'issue': 100}
-"['simple', 'value', 'buggy', 'buffer', 'vector', 'lovegrove', 'stevenlovegrove']",{'buffer': 100}
-"['aedffbranch', 'issue', 'renzodenardi', 'pangolin', 'master']",{'issue': 100}
-"['ffmpeg', 'colour', 'crash', 'default', 'conversionsteven', 'lovegrove', 'stevenlovegrove']",{'crash': 100}
-"['utility', 'buffer', 'smallsteven', 'lovegrove', 'stevenlovegrove']",{'buffer': 100}
-"['object', 'aquisition', 'efficient', 'buffer', 'improvement', 'resource', 'wrapper', 'findcuda', 'addedsteven', 'lovegrove', 'stevenlovegrove']",{'buffer': 100}
+sha,message,catetory,matched,labels
+0ad1844c7fcf4da0c56e092e0b819b1ce6741f36,"['crash', 'potential', 'memory', 'number']",Risky_resource_management,{'crash': 100},
+ef7a80f0aa9cf6b07ea60259f11b71510d4fe9e0,"['crash', 'ratio', 'allocation', 'image', 'wrong', 'aspect', 'alloc']",Risky_resource_management,{'crash': 100},
+aed0ad98a473329cca91545e82a34a92a30b455a,"['window', 'deadlock']",Risky_resource_management,{'deadlock': 100},
+73a67046d04d624d415787e821db06e045a29dfd,"['crash', 'android']",Risky_resource_management,{'crash': 100},

@@ -1,28 +1,6 @@
-message,fuzzy
-"['integer', 'filter']",{'integer': 100}
-"['integer', 'filter']",{'integer': 100}
-"['integer', 'default']",{'integer': 100}
-"['issue', 'address', 'rubocopstate', 'style']",{'issue': 100}
-"['integer', 'coercion', 'clarify']",{'integer': 100}
-"['mergemerge', 'patch', 'requestfilter', 'update', 'readme', 'option', 'integer']",{'integer': 100}
-"['mergemerge', 'integer', 'request', 'orgsyncinteger', 'filter', 'option']",{'integer': 100}
-"['integer', 'filter', 'option']",{'integer': 100}
-"['maximum', 'length', 'class', 'increase']",{'length': 100}
-"['documentation', 'warning', 'security']",{'Security': 100}
-"['issue', 'section']",{'issue': 100}
-"['basic', 'example', 'integer']",{'integer': 100}
-"['mergemerge', 'issue', 'request', 'orgsyncrollback', 'transaction', 'error']",{'issue': 100}
-"['mergemerge', 'issue', 'request', 'orgsyncvalidators', 'pollute']",{'issue': 100}
-"['documentation', 'security', 'issue']","{'Security': 100, 'issue': 100}"
-"['stack', 'overflow']","{'stack': 100, 'overflow': 100}"
-"['default', 'revert', 'length', 'class']",{'length': 100}
-"['version', 'rubygemsversion', 'thingvagrant', 'bundle', 'precisefatal', 'bundler', 'error', 'bundler', 'documentation', 'errno', 'local', 'permission', 'mkdir', 'linux', 'eaccesvagrant', 'plugin', 'errno', 'local', 'permission', 'rubygems', 'linux', 'eacces', 'errorvagrant', 'system', 'update', 'precisebuild', 'plugin', 'local', 'rubygems', 'errorvagrant', 'libffi', 'directoryvagrant', 'libffi', 'errordirectory', 'libffi', 'local', 'linux', 'leavinglibffi', 'linux', 'local', 'localextension', 'local', 'result', 'linux', 'staticbuilderror']",{'permission': 100}
-"['method', 'default', 'revert', 'length']",{'length': 100}
-"['length', 'class']",{'length': 100}
-"['minor', 'issue']",{'issue': 100}
-"['minor', 'issue']",{'issue': 100}
-"['empty', 'length']",{'length': 100}
-"['minor', 'documentation', 'issue', 'default', 'option']",{'issue': 100}
-"['integer', 'floatfilters']",{'integer': 100}
-"['integer', 'string']",{'integer': 100}
-"['integer', 'support']",{'integer': 100}
+sha,message,catetory,matched,labels
+ade95c0eed226aee0b2bb846c0b449c554805405,"['crash', 'cgrect', 'revert', 'ibdesignable', 'frame', 'overridereverts']",Risky_resource_management,{'crash': 100},
+7492886cb5834b2822449f6cad2b96a00b9be433,"['crash', 'cgrect', 'ibdesignable', 'frame', 'override']",Risky_resource_management,{'crash': 100},
+408514023dd5ed774c20382ea65306277c22a224,"['warning', 'security']",General,{'security': 100},
+a86ae75810dfa9a6d58ba8e26cfee1c0bc013798,"['documentation', 'issue', 'possible', 'security']",General,{'security': 100},
+77046cb573a045d3f563ee247fe0ab9988be8447,"['denial', 'service', 'attacklarge', 'symbol', 'strip', 'attack']",General,{'denial service': 100},

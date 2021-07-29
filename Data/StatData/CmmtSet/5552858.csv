@@ -1,41 +1,4 @@
-message,fuzzy
-"['sample', 'encryption']",{'encryption': 100}
-"['sample', 'encryption', 'method']",{'encryption': 100}
-"['comment', 'buffer']",{'buffer': 100}
-"['content', 'response', 'chunk', 'length']",{'length': 100}
-"['refactor', 'buffer', 'header']",{'buffer': 100}
-"['invalid', 'response', 'incorrect']",{'incorrect': 100}
-"['response', 'connectioncontent', 'header', 'safarilimit', 'number', 'concurrent', 'connection', 'safarierroneous', 'block']",{'concurrent': 100}
-"['encryption', 'update', 'sample', 'method']",{'encryption': 100}
-"['travis', 'cipher', 'install']",{'cipher': 100}
-"['option', 'extract', 'fatal', 'reorder']",{'fatal': 100}
-"['length', 'incorrect']","{'length': 100, 'incorrect': 100}"
-"['buffer', 'leaky']",{'buffer': 100}
-"['leakybuf', 'buffer']",{'buffer': 100}
-"['contbuf', 'buffer', 'leaky']",{'buffer': 100}
-"['buffer', 'reuse', 'client']",{'buffer': 100}
-"['server', 'buffer', 'reuse']",{'buffer': 100}
-"['buffer', 'number']",{'buffer': 100}
-"['request', 'buffer']",{'buffer': 100}
-"['buffer', 'client', 'server', 'reader', 'leaky']",{'buffer': 100}
-"['buffer', 'manage', 'connection', 'client', 'leaky']",{'buffer': 100}
-"['parse', 'integer']",{'integer': 100}
-"['crash', 'weird', 'initialization']",{'crash': 100}
-"['comment', 'buffer']",{'buffer': 100}
-"['content', 'length']",{'length': 100}
-"['encryption', 'support']",{'encryption': 100}
-"['buffer', 'increase']",{'buffer': 100}
-"['level', 'generation']",{'generation': 100}
-"['issue', 'error']",{'issue': 100}
-"['buffer', 'server']",{'buffer': 100}
-"['crash', 'issue']","{'crash': 100, 'issue': 100}"
-"['empty', 'crash']",{'crash': 100}
-"['crash', 'inconsistency', 'domain']",{'crash': 100}
-"['content', 'buffer', 'store']",{'buffer': 100}
-"['buffer', 'request']",{'buffer': 100}
-"['content', 'response', 'length', 'connection', 'closecontent', 'length']",{'length': 100}
-"['length', 'space']",{'length': 100}
-"['concurrency', 'expose']","{'concurren': 90, 'expose': 100}"
-"['requestavoid', 'buffer']",{'buffer': 100}
-"['buffer', 'request']",{'buffer': 100}
-"['content', 'parse', 'length']",{'length': 100}
+sha,message,catetory,matched,labels
+edfca689eaa85e2d954b5647bb47aa2455cccd60,"['crash', 'window']",Risky_resource_management,{'crash': 100},
+97e80a4174cf4d526c1822cc947a256155545191,"['issue', 'crash']",Risky_resource_management,{'crash': 100},
+6018e8d771e4b55682606ecfc101c8d6bf3c0c69,"['error', 'crash']",Risky_resource_management,{'crash': 100},

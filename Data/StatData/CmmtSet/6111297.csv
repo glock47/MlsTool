@@ -1,49 +1,10 @@
-message,fuzzy
-"['fatal', 'limit']",{'fatal': 100}
-"['fatal', 'dynamic', 'error']",{'fatal': 100}
-"['thread', 'limit']",{'thread': 100}
-"['fatal', 'input']",{'fatal': 100}
-"['incorrect', 'configure']",{'incorrect': 100}
-"['object', 'thread']",{'thread': 100}
-"['memory', 'fiber', 'module', 'overflow']",{'overflow': 100}
-"['thread', 'mutex', 'mbedtls']",{'thread': 100}
-"['moehusterbuffer', 'length', 'bugfix']",{'length': 100}
-"['buffer', 'length', 'bugfix']","{'buffer': 100, 'length': 100}"
-"['fatal', 'fbase']",{'fatal': 100}
-"['request', 'content', 'length']",{'length': 100}
-"['length', 'support', 'value', 'field', 'module']",{'length': 100}
-"['thread', 'syslog', 'mutex', 'server']",{'thread': 100}
-"['thread', 'support']",{'thread': 100}
-"['bugfix', 'double', 'support', 'integer', 'serializationmethod']",{'integer': 100}
-"['detachable', 'thread', 'status', 'default']",{'thread': 100}
-"['fatal', 'error']",{'fatal': 100}
-"['incorrect', 'fiber']",{'incorrect': 100}
-"['crash', 'object']",{'crash': 100}
-"['crash', 'object']",{'crash': 100}
-"['reuseport', 'thread']",{'thread': 100}
-"['fatal', 'domain', 'invalid', 'workaroud']",{'fatal': 100}
-"['thread', 'fiber', 'synchronize']",{'thread': 100}
-"['mutex', 'support', 'thread', 'fiber']",{'thread': 100}
-"['thread', 'fiber']",{'thread': 100}
-"['bugfix', 'deadlock']",{'deadlock': 100}
-"['signal', 'integer', 'fiber', 'overflow']","{'integer': 100, 'overflow': 100}"
-"['fiber', 'overflow']",{'overflow': 100}
-"['thread', 'default', 'muext']",{'thread': 100}
-"['thread', 'mutex', 'safety']",{'thread': 100}
-"['thread', 'sample']",{'thread': 100}
-"['thread', 'support', 'fibermutex']",{'thread': 100}
-"['thread', 'sample']",{'thread': 100}
-"['thread', 'sample']",{'thread': 100}
-"['thread', 'server', 'template', 'master', 'fiber', 'multi']",{'thread': 100}
-"['thread', 'support']",{'thread': 100}
-"['usage', 'issue', 'master', 'setup']",{'issue': 100}
-"['thread', 'class']",{'thread': 100}
-"['thread', 'server', 'support', 'multi']",{'thread': 100}
-"['issue', 'master']",{'issue': 100}
-"['stack', 'procedure', 'fiber']",{'stack': 100}
-"['thread', 'communication']",{'thread': 100}
-"['thread', 'memory', 'class']",{'thread': 100}
-"['thread', 'sample', 'queue']",{'thread': 100}
-"['result', 'buffer']",{'buffer': 100}
-"['thread', 'sample', 'redis', 'multi', 'cluster']",{'thread': 100}
-"['thread', 'sample', 'redis', 'multi', 'cluster']",{'thread': 100}
+sha,message,catetory,matched,labels
+f8b82569f27b8ea0723fc682f7e9f6589bd3b975,"['issue', 'shutdown', 'crash']",Risky_resource_management,{'crash': 100},
+e03d9d7b9101797b04aa0c71402b542bb42c3621,"['handler', 'crash', 'option', 'default', 'buildhandler', 'crash', 'option', 'default', 'buildscript', 'backslash']",Risky_resource_management,{'crash': 100},
+b8124da08b1204805ba9ee7c14cd85ebb53ebafa,"['overrun', 'single', 'input', 'memory']",Risky_resource_management,{'overrun': 100},
+9029907725c15f0685322a46a5fd4947995b2543,"['parse', 'config', 'proxyjump', 'libsshaddressidpasskey', 'security', 'idpasskeyfileconfigreadme', 'update']",General,{'security': 100},
+7702f3ae7cee7a1d372e93da7052012708a1a27c,"['deadlock', 'connection']",Risky_resource_management,{'deadlock': 100},
+dee7833d1d6ab1f225c4ae44eec605be0cd18677,"['fiber', 'module', 'memory', 'overflow']",Risky_resource_management,{'memory overflow': 100},
+8b4d78198ee8e8b8a7dd8a243cd054734b7550c8,"['deadlock', 'bugfix']",Risky_resource_management,{'deadlock': 100},
+652b567c9eee7eeb03928b40270d8c5db353bfe0,"['integer', 'overflow', 'signal']",Risky_resource_management,{'integer overflow': 100},
+67e2a99eeeeb0877ef57f307e055e5592cce720a,"['websocket', 'memory', 'overflow']",Risky_resource_management,{'memory overflow': 100},

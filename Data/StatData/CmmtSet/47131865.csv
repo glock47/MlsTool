@@ -1,42 +1,8 @@
-message,fuzzy
-"['expose', 'header', 'return', 'empty']",{'expose': 100}
-"['multiple', 'issue', 'import']",{'issue': 100}
-"['matcher', 'insensitive']",{'Sensitive': 90}
-"['response', 'length', 'check', 'content', 'contains']",{'length': 100}
-"['response', 'length', 'content', 'simplify']",{'length': 100}
-"['analysis', 'package', 'hoverctl', 'issue']",{'issue': 100}
-"['analysis', 'package', 'issue']",{'issue': 100}
-"['response', 'length', 'consistent', 'content', 'value', 'contentlength']",{'length': 100}
-"['response', 'length']",{'length': 100}
-"['response', 'length', 'content', 'clearer', 'update', 'setting']",{'length': 100}
-"['minor', 'template', 'issue', 'editing']",{'issue': 100}
-"['jsonpath', 'issue']",{'issue': 100}
-"['python', 'dependency', 'version', 'alert', 'security']",{'Security': 100}
-"['python', 'dependency', 'version', 'alert', 'security']",{'Security': 100}
-"['length', 'warning', 'additional', 'content', 'import']",{'length': 100}
-"['length', 'content']",{'length': 100}
-"['switch', 'blacklist', 'header', 'whitelist']",{'blacklist': 100}
-"['response', 'output', 'length', 'mismatch', 'warning', 'content', 'import']",{'length': 100}
-"['response', 'output', 'length', 'content', 'import', 'header']",{'length': 100}
-"['response', 'length', 'content', 'error', 'header']",{'length': 100}
-"['response', 'length', 'content', 'error', 'incorrect']","{'length': 100, 'incorrect': 100}"
-"['content', 'length', 'empty']",{'length': 100}
-"['example', 'issue', 'simulation', 'incorrect']","{'issue': 100, 'incorrect': 100}"
-"['connection', 'issue', 'internet']",{'issue': 100}
-"['reproduce', 'issue']",{'issue': 100}
-"['response', 'issue', 'error', 'header']",{'issue': 100}
-"['flakiness', 'target', 'issue']",{'issue': 100}
-"['simulation', 'incorrect']",{'incorrect': 100}
-"['issue', 'dependency']",{'issue': 100}
-"['length', 'regardless', 'value', 'xpathmatcher']",{'length': 100}
-"['pointer', 'issue']",{'issue': 100}
-"['incorrect', 'credential']",{'incorrect': 100}
-"['request', 'issue']",{'issue': 100}
-"['permission', 'directory']",{'permission': 100}
-"['ccaedff', 'mergemerge', 'request', 'spectolabs', 'security', 'refactor', 'adminstuff', 'controller', 'handler']",{'Security': 100}
-"['lengthy', 'separate', 'target']",{'length': 92}
-"['request', 'issue', 'functional', 'middleware']",{'issue': 100}
-"['logout', 'blacklist']",{'blacklist': 100}
-"['logout', 'blacklist']",{'blacklist': 100}
-"['rusenask', 'mergeboltdb', 'buffer', 'transaction']",{'buffer': 100}
-"['buffer', 'thanks']",{'buffer': 100}
+sha,message,catetory,matched,labels
+ac779cb6a082fe524e80054328b5463575ba7502,"['buggy', 'overrun', 'structure']",Risky_resource_management,{'overrun': 100},
+9d67ab4cf0f242b0a04f00f133bfaa563b08fb4d,"['cache', 'android', 'crash']",Risky_resource_management,{'crash': 100},
+943bb355f931ae1ef45d67a611e2415477f8e23b,"['attempt', 'infamous', 'crash']",Risky_resource_management,{'crash': 100},
+d4453441f12a26c273c6bd8bcfa1b3f76889a884,"['level', 'purpose', 'stack', 'crash']",Risky_resource_management,{'crash': 100},
+db5697e18d741e27772e6250991c7ab64eb30637,"['vulnerability', 'version', 'security']",General,{'security': 100},
+186eba9641ee5ef9f14c78a6d95b2f12078d64aa,"['security', 'version', 'dependency']",General,{'security': 100},
+3aac8d16c33f19f4cc78bc862b340a6428dec61d,"['security', 'version', 'dependency']",General,{'security': 100},

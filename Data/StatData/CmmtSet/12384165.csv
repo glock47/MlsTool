@@ -1,68 +1,10 @@
-message,fuzzy
-"['convention', 'result', 'thread', 'function']",{'thread': 100}
-"['dependent', 'thread', 'platform']",{'thread': 100}
-"['monochrome', 'issue', 'allocation', 'memory', 'picture']",{'issue': 100}
-"['available', 'assumeclang', 'centos', 'issue']",{'issue': 100}
-"['large', 'stack', 'overflow', 'buffer', 'preventcreditissue', 'detail']","{'stack': 100, 'overflow': 100, 'buffer': 100}"
-"['reading', 'libheif', 'monochrome', 'issue', 'image']",{'issue': 100}
-"['crash', 'encoder']",{'crash': 100}
-"['resscaleval', 'context', 'thread']",{'thread': 100}
-"['lockup', 'intra', 'illegal', 'access', 'thread']",{'thread': 100}
-"['specific', 'finish', 'thread']",{'thread': 100}
-"['thread', 'image']",{'thread': 100}
-"['overflow', 'integer']","{'overflow': 100, 'integer': 100}"
-"['mergeencoder', 'crash']",{'crash': 100}
-"['mergeencoder', 'crash']",{'crash': 100}
-"['error', 'incorrect']",{'incorrect': 100}
-"['picture', 'crash', 'reference']",{'crash': 100}
-"['issue', 'const']",{'issue': 100}
-"['assignment', 'alignment', 'incorrect']",{'incorrect': 100}
-"['issue', 'memory']",{'issue': 100}
-"['creator', 'buffer', 'image', 'picture', 'input', 'encoder']",{'buffer': 100}
-"['creator', 'buffer', 'picture', 'encoder']",{'buffer': 100}
-"['crash', 'encoder', 'input']",{'crash': 100}
-"['constructor', 'initialize', 'counter', 'thread', 'coverity']",{'thread': 100}
-"['variable', 'initialize', 'thread']",{'thread': 100}
-"['profile', 'generation', 'decoder']",{'generation': 100}
-"['estimation', 'reorganize', 'issue', 'illegal', 'access', 'memory']",{'issue': 100}
-"['entropy', 'estimation']",{'entropy': 100}
-"['generate', 'estimate', 'entropy', 'writer', 'cabac', 'table']",{'entropy': 100}
-"['conformance', 'buffer', 'image', 'window']",{'buffer': 100}
-"['thread', 'state']",{'thread': 100}
-"['respective', 'state', 'thread']",{'thread': 100}
-"['interface', 'class', 'thread']",{'thread': 100}
-"['state', 'thread']",{'thread': 100}
-"['computation', 'single', 'storage', 'thread', 'cabac', 'model']",{'thread': 100}
-"['context', 'obsolet', 'thread']",{'thread': 100}
-"['context', 'local', 'thread']",{'thread': 100}
-"['reorder', 'buffer', 'vector']",{'buffer': 100}
-"['reorder', 'buffer']",{'buffer': 100}
-"['constructor', 'queue', 'crash', 'revert', 'memset', 'overwritten', 'memory', 'probablyreverts']",{'crash': 100}
-"['constructor', 'queue', 'crash', 'memset', 'overwritten', 'memory']",{'crash': 100}
-"['class', 'buffer']",{'buffer': 100}
-"['empty', 'output', 'return', 'buffer']",{'buffer': 100}
-"['overrun', 'memory', 'block', 'prevents', 'optimization']",{'overrun': 100}
-"['limit', 'thread', 'maximum', 'number']",{'thread': 100}
-"['mergemerge', 'fancycode', 'requestreinitialize', 'thread']",{'thread': 100}
-"['reinitialize', 'thread']",{'thread': 100}
-"['overflow', 'integer', 'dequant']","{'overflow': 100, 'integer': 100}"
-"['context', 'decoder', 'header', 'thread', 'slice']",{'thread': 100}
-"['integer', 'model']",{'integer': 100}
-"['initialization', 'thread', 'library']",{'thread': 100}
-"['decodes', 'length']",{'length': 100}
-"['limit', 'length', 'increase']",{'length': 100}
-"['thread', 'obsolet']",{'thread': 100}
-"['point', 'offset', 'incorrect', 'issue', 'input', 'stream', 'warning', 'entry']","{'incorrect': 100, 'issue': 100}"
-"['mergemerge', 'fancycode', 'stack', 'memory']",{'stack': 100}
-"['stack', 'memory']",{'stack': 100}
-"['local', 'thread']",{'thread': 100}
-"['issue', 'cygwin', 'thread', 'compiler']","{'issue': 100, 'thread': 100}"
-"['command', 'pthread', 'library']",{'thread': 92}
-"['local', 'store', 'coefficient', 'context', 'thread']",{'thread': 100}
-"['structure', 'local', 'refactor', 'thread']",{'thread': 100}
-"['implementation', 'thread']",{'thread': 100}
-"['thread', 'initialization', 'message', 'error']",{'thread': 100}
-"['flush', 'reorder', 'buffer', 'stream']",{'buffer': 100}
-"['computation', 'overflow']",{'overflow': 100}
-"['memory', 'buffer', 'image']",{'buffer': 100}
-"['sample', 'prediction', 'generation', 'inter']",{'generation': 100}
+sha,message,catetory,matched,labels
+208f650145a3ade85f75a17a5d361f15620a9a60,"['crash', 'encoder']",Risky_resource_management,{'crash': 100},
+253a5bc9de1ad4fe413bf96adf23f3fbbeeb2541,"['crash', 'stream']",Risky_resource_management,{'crash': 100},
+83388bcbeda27259a513688fb68a2e0827ef4b08,"['undefined', 'header', 'crash', 'slice']",Risky_resource_management,{'crash': 100},
+c5f5efdb6e7ac6e92b3910d75af0aa50162d76e9,"['assumes', 'crash']",Risky_resource_management,{'crash': 100},
+5a89c79d7268c52470fa69f6bd0b806c88afa854,"['integer', 'overflow']",Risky_resource_management,{'integer overflow': 100},
+5129e7f0943b05bb54a2ffca675ded9225dc837a,"['additional', 'crash', 'encoder', 'decoder']",Risky_resource_management,{'crash': 100},
+6d4db453a8f75606300455c93a8658ad0958b9c4,"['crash', 'picture', 'reference']",Risky_resource_management,{'crash': 100},
+2d6d5110541ab66c5d5971f525b8d0e33caaac38,"['encoder', 'input', 'crash']",Risky_resource_management,{'crash': 100},
+8920d14aad77bf4bf7efaaa45f42033048237ae2,"['iteration', 'overrun', 'optimization', 'block', 'memory']",Risky_resource_management,{'overrun': 100},

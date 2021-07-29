@@ -1,55 +1,7 @@
-message,fuzzy
-"['prefix', 'issue']",{'issue': 100}
-"['issue', 'socket']",{'issue': 100}
-"['value', 'thread', 'default', 'tweak', 'parallel']",{'thread': 100}
-"['thread', 'parameterize', 'collection']",{'thread': 100}
-"['concurrency', 'deadlock']","{'concurren': 90, 'deadlock': 100}"
-"['access', 'concurrent']",{'concurrent': 100}
-"['concurrency', 'refactor']",{'concurren': 90}
-"['import', 'crash']",{'crash': 100}
-"['linux', 'stack', 'trace', 'stability']",{'stack': 100}
-"['trace', 'stack', 'number']",{'stack': 100}
-"['weight', 'expose', 'field']",{'expose': 100}
-"['update', 'array', 'field', 'mismatch', 'crash', 'array', 'field', 'string', 'update']",{'crash': 100}
-"['update', 'expose', 'document']",{'expose': 100}
-"['template', 'level', 'issue']",{'issue': 100}
-"['field', 'crash']",{'crash': 100}
-"['result', 'integer']",{'integer': 100}
-"['expose', 'network']",{'expose': 100}
-"['string', 'expose', 'metric', 'value']",{'expose': 100}
-"['float', 'array', 'field', 'integer']",{'integer': 100}
-"['expose', 'group']",{'expose': 100}
-"['point', 'generation']",{'generation': 100}
-"['validate', 'integer']",{'integer': 100}
-"['expose', 'metric', 'system']",{'expose': 100}
-"['score', 'expose']",{'expose': 100}
-"['update', 'licensetypesense', 'close', 'issue']",{'issue': 100}
-"['issue', 'route']",{'issue': 100}
-"['string', 'length']",{'length': 100}
-"['large', 'float', 'valuetypesense', 'issue']",{'issue': 100}
-"['issue', 'query', 'facet']",{'issue': 100}
-"['score', 'expose', 'search']",{'expose': 100}
-"['openssl', 'upgrade']",{'OpenSSL': 100}
-"['expose', 'sequence']",{'expose': 100}
-"['query', 'highlighter', 'query', 'overlap', 'highlighter', 'length']",{'length': 100}
-"['field', 'search', 'verbatim', 'normalizingdifference', 'facet', 'array', 'string', 'behavior', 'field', 'correctedtypesense', 'issue']",{'issue': 100}
-"['timestamp', 'expose', 'collection', 'summary']",{'expose': 100}
-"['large', 'overflow', 'patch', 'string']",{'overflow': 100}
-"['large', 'overflow', 'string']",{'overflow': 100}
-"['configuringtypesense', 'issue']",{'issue': 100}
-"['openssl', 'fixedcontent']",{'OpenSSL': 100}
-"['expose', 'distance', 'computation']",{'expose': 100}
-"['template', 'issue']",{'issue': 100}
-"['conversion', 'string', 'validate', 'integer']",{'integer': 100}
-"['linux', 'release', 'upgrade', 'fixedbuild', 'release', 'debug', 'stack', 'linux']",{'stack': 100}
-"['expose', 'colllection']",{'expose': 100}
-"['snippet', 'contexualtoken', 'string', 'length', 'relevant']",{'length': 100}
-"['token', 'track', 'offset', 'token', 'topster', 'offset', 'position', 'diffs', 'offset', 'length']",{'length': 100}
-"['server', 'expose', 'response']",{'expose': 100}
-"['token', 'expose', 'field']",{'expose': 100}
-"['expose', 'field', 'facet']",{'expose': 100}
-"['empty', 'crash', 'index']",{'crash': 100}
-"['range', 'integer']",{'integer': 100}
-"['token', 'issue', 'index', 'search']",{'issue': 100}
-"['redundant', 'offset', 'length', 'storage']",{'length': 100}
-"['issue', 'fixedspurious']",{'issue': 100}
+sha,message,catetory,matched,labels
+3f4e6d3cc7300e395c8d76b78e229e477290b85c,"['separate', 'threadconcurrency', 'deadlock', 'issue']",Risky_resource_management,{'deadlock': 100},
+bb76e8ba2dc3b45548794b9d472ca6e9dbad40dc,"['import', 'crash']",Risky_resource_management,{'crash': 100},
+cf201b0218db3012107962f7045ddd324529c5c8,"['field', 'update', 'string', 'string', 'array', 'update', 'crash', 'mismatch', 'field']",Risky_resource_management,{'crash': 100},
+9e32412bc513dcfd530d095d31f70c9ffc943641,"['field', 'crash']",Risky_resource_management,{'crash': 100},
+91314ac4a6a2424e81b0293a5eea9ed9e0d693c1,"['crash', 'issuetypesense', 'issueissue', 'rocksdb', 'facebookcommit', 'rocksdb', 'facebook']",Risky_resource_management,{'crash': 100},
+57bff89a9725985345e4141f50344904ee77a606,"['index', 'empty', 'crash']",Risky_resource_management,{'crash': 100},

@@ -1,13 +1,5 @@
-message,fuzzy
-"['potential', 'buffer', 'overflow']","{'buffer': 100, 'overflow': 100}"
-"['fixedprevious', 'behaviordecision', 'result', 'issue']",{'issue': 100}
-"['rewrite', 'engine', 'stackinglayer', 'normal', 'involves', 'window', 'floatingsimple', 'insert', 'stack', 'functioncompare', 'relyingfullscreen', 'window']",{'stack': 100}
-"['class', 'length', 'string', 'increase']",{'length': 100}
-"['length', 'string', 'increase', 'instance']",{'length': 100}
-"['panel', 'concurrent']",{'concurrent': 100}
-"['clobber', 'systemprevents', 'system', 'bspwmprotection', 'stack']",{'stack': 100}
-"['cleanup', 'crash']",{'crash': 100}
-"['focus', 'window', 'stack', 'history']",{'stack': 100}
-"['buffer', 'overrun']","{'buffer': 100, 'overrun': 100}"
-"['reworkpotential', 'buffer', 'overflowerror']",{'buffer': 100}
-"['potential', 'buffer', 'address', 'overflow']","{'buffer': 100, 'overflow': 100}"
+sha,message,catetory,matched,labels
+ab81f1b10148311d0b798f96d472d4afcbb77ce5,"['buffer', 'overflow', 'potential']",Risky_resource_management,{'buffer overflow': 100},
+73e402e49a4ff9ad97e669fc52a7a8f5abec61cf,"['check', 'missingwindow', 'crash']",Risky_resource_management,{'crash': 100},
+e01130f5d1ce92e103943c969d73cba59551d3c7,"['cleanup', 'crash']",Risky_resource_management,{'crash': 100},
+36140fe1c3315ea6232d206302d1d3415bf5cc0b,"['address', 'buffer', 'overflow', 'potential']",Risky_resource_management,{'buffer overflow': 100},

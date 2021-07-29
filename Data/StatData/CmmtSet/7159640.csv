@@ -1,27 +1,3 @@
-message,fuzzy
-"['issue', 'github']",{'issue': 100}
-"['simple', 'machine', 'thread']",{'thread': 100}
-"['issue', 'address']",{'issue': 100}
-"['issue', 'compiler', 'warning']",{'issue': 100}
-"['refactor', 'issue', 'switch']",{'issue': 100}
-"['ryuichis', 'opensslstatic', 'library', 'openssl']",{'OpenSSL': 100}
-"['static', 'approach', 'openssl', 'linux']",{'OpenSSL': 100}
-"['mergemerge', 'request', 'ryuichis', 'warningadditional', 'issue']",{'issue': 100}
-"['additional', 'issue']",{'issue': 100}
-"['issue', 'method']",{'issue': 100}
-"['generation', 'property']",{'generation': 100}
-"['version', 'workaround', 'issue']",{'issue': 100}
-"['expose', 'report', 'category']",{'expose': 100}
-"['static', 'clang', 'result', 'expose', 'analyzer', 'reporter']",{'expose': 100}
-"['expose', 'report', 'category']",{'expose': 100}
-"['expose', 'category', 'reporter']",{'expose': 100}
-"['expose', 'report', 'category']",{'expose': 100}
-"['crash', 'setter', 'property']",{'crash': 100}
-"['sensitive', 'systemz']",{'Sensitive': 100}
-"['crash', 'protocol', 'method']",{'crash': 100}
-"['number', 'violation', 'crash']",{'crash': 100}
-"['length', 'string', 'issue', 'inline']","{'length': 100, 'issue': 100}"
-"['concurrent', 'default']",{'concurrent': 100}
-"['issue', 'coverage']",{'issue': 100}
-"['incorrect', 'pointer']",{'incorrect': 100}
-"['empty', 'violation', 'buffer', 'source']",{'buffer': 100}
+sha,message,catetory,matched,labels
+e659b8969e649cee496a42d7aeefbeacb40a1f57,"['crash', 'protocol']",Risky_resource_management,{'crash': 100},
+70d566d6c3a7fc2bdfdd2ffe8f102963dad2f87f,"['crash', 'violation', 'number']",Risky_resource_management,{'crash': 100},

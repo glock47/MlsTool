@@ -1,105 +1,41 @@
-message,fuzzy
-"['issue', 'exclude']",{'issue': 100}
-"['proxy', 'crash', 'slows', 'factor']",{'crash': 100}
-"['readme', 'incorrect']",{'incorrect': 100}
-"['serialisation', 'integer', 'large', 'document', 'failure']",{'integer': 100}
-"['function', 'crash']",{'crash': 100}
-"['function', 'crash']",{'crash': 100}
-"['buffer', 'output']",{'buffer': 100}
-"['length', 'string']",{'length': 100}
-"['integer', 'method', 'element']",{'integer': 100}
-"['subtree', 'contains', 'entity', 'child', 'crashinfinite', 'gnome', 'issue', 'entity', 'child', 'crash', 'recursive', 'libxmllucky', 'traversal', 'thing', 'speed', 'update', 'cleanup', 'effect', 'pointer', 'libxml']","{'issue': 100, 'crash': 100}"
-"['crypto', 'libexslt']",{'crypto': 100}
-"['instance', 'cycle', 'crash', 'disconnectclose']",{'crash': 100}
-"['xmlparser', 'parameterpositive', 'pycharm', 'issue', 'xmlparser', 'report', 'definition', 'parameter']",{'issue': 100}
-"['fdebemerge', 'dgreisen', 'request', 'patchtracker', 'issue']",{'issue': 100}
-"['tracker', 'issue']",{'issue': 100}
-"['local', 'transform', 'stack', 'threaderror', 'global', 'message', 'function', 'variable', 'libxslt']",{'stack': 100}
-"['signedness', 'dependency']",{'signedness': 100}
-"['collection', 'garbage', 'iterparse', 'crash', 'validation', 'xmlschema']",{'crash': 100}
-"['isysroot', 'linker', 'darwin', 'extensionxcrun', 'isysrootsuggestion', 'thread']",{'thread': 100}
-"['reasonable', 'crash', 'wheel', 'information', 'debug', 'stack']","{'crash': 100, 'stack': 100}"
-"['xmlfile', 'rewrite', 'fatal', 'writingtrigger', 'epilogue', 'exception', 'mechanism', 'generatorexit']",{'fatal': 100}
-"['retry', 'issue']",{'issue': 100}
-"['optiondeprecate', 'incorrect', 'option']",{'incorrect': 100}
-"['expose', 'htmlparser']",{'expose': 100}
-"['project', 'migration', 'readthedocs', 'convertproject', 'email', 'subdomains', 'changeproject', 'subdomains', 'security', 'address', 'domain']",{'Security': 100}
-"['smart', 'exception', 'crash', 'simple', 'overflow', 'subclass', 'string', 'unicode', 'result', 'python', 'stack']","{'crash': 100, 'overflow': 100, 'stack': 100}"
-"['proxy', 'element', 'parent', 'crash']",{'crash': 100}
-"['function', 'crash']",{'crash': 100}
-"['final', 'subtypes', 'element', 'crash', 'freelists', 'class']",{'crash': 100}
-"['cython', 'incorrect', 'cflags']",{'incorrect': 100}
-"['reference', 'crash', 'parser']",{'crash': 100}
-"['crash', 'paste']",{'crash': 100}
-"['comment', 'crash', 'validate']",{'crash': 100}
-"['sentence', 'incorrect']",{'incorrect': 100}
-"['custom', 'method', 'lookup', 'arbitrary', 'object', 'return', 'crash', 'class']",{'crash': 100}
-"['instance', 'subtypes', 'comment', 'crash']",{'crash': 100}
-"['issue', 'repairwhereby', 'namespacesplit', 'attribute']",{'issue': 100}
-"['couple', 'issue']",{'issue': 100}
-"['incremental', 'generation']",{'generation': 100}
-"['changelog', 'generation', 'reference', 'tracker']",{'generation': 100}
-"['current', 'method', 'global', 'debugger', 'return', 'thread', 'libxml']",{'thread': 100}
-"['buffer', 'adapt']",{'buffer': 100}
-"['compiler', 'unsignedness', 'warning']",{'signedness': 91}
-"['warning', 'signedness']",{'signedness': 100}
-"['straight', 'level', 'store', 'global', 'value', 'thread']",{'thread': 100}
-"['attribute', 'thread']",{'thread': 100}
-"['cleanup', 'external', 'subset', 'thread']",{'thread': 100}
-"['instantiation', 'thread']",{'thread': 100}
-"['general', 'applicability', 'incorrect', 'function', 'helper']",{'incorrect': 100}
-"['versionappears', 'worthreferencedetail', 'issue', 'htmllibsource', 'browse', 'htmllib', 'fpythonextra']",{'issue': 100}
-"['doctype', 'crash', 'parser', 'invalid']",{'crash': 100}
-"['protocol', 'buffer']",{'buffer': 100}
-"['building', 'nsmap', 'crash', 'empty', 'namespaceextra']",{'crash': 100}
-"['building', 'nsmap', 'crash', 'empty', 'namespace']",{'crash': 100}
-"['thread', 'paragraph']",{'thread': 100}
-"['expose', 'iterelements', 'entity', 'rename']",{'expose': 100}
-"['buffer', 'conversion', 'length', 'python']","{'buffer': 100, 'length': 100}"
-"['buffer', 'conversion', 'length', 'pythonextra']","{'buffer': 100, 'length': 100}"
-"['crash', 'signal', 'ignorebranch', 'trunk']",{'crash': 100}
-"['lenny', 'sbehnelcrash', 'thread', 'documentbranch', 'trunk']",{'thread': 100}
-"['expose', 'error', 'compile', 'xpathallow', 'document', 'selection', 'resultbranch', 'trunk']",{'expose': 100}
-"['lenny', 'sbehnelcustom', 'element', 'crash', 'classbranch', 'trunk']",{'crash': 100}
-"['delle', 'sbehnelseveral', 'issue', 'unicode', 'character', 'escapebranch', 'trunk']",{'issue': 100}
-"['delle', 'sbehnelimport', 'filename', 'crash', 'xmlschemabranch', 'trunk']",{'crash': 100}
-"['delle', 'sbehnelpipeline', 'thread', 'basedbranch', 'trunk']",{'thread': 100}
-"['delle', 'sbehnelglobal', 'error', 'thread', 'localbranch', 'trunk']",{'thread': 100}
-"['delle', 'sbehnellookup', 'subclass', 'crash', 'classbranch', 'trunk']",{'crash': 100}
-"['delle', 'sbehnelprotocol', 'buffer', 'reuse', 'resultbranch', 'trunk']",{'buffer': 100}
-"['delle', 'sbehnelprotocol', 'simple', 'buffer', 'supportbranch', 'trunk']",{'buffer': 100}
-"['delle', 'sbehneltarget', 'element', 'dictionary', 'pointer', 'thread', 'differentbranch', 'trunk']",{'thread': 100}
-"['delle', 'sbehnelmemory', 'schematron', 'crash', 'libxmlbranch', 'trunk']",{'crash': 100}
-"['thread', 'entry', 'differentbranch', 'trunk']",{'thread': 100}
-"['crash', 'objectpath', 'fixedbranch', 'trunk']",{'crash': 100}
-"['crash', 'overflow', 'prefix', 'python', 'counter', 'namespacebranch', 'trunk']","{'crash': 100, 'overflow': 100}"
-"['crash', 'thread', 'updatebranch', 'trunk']","{'crash': 100, 'thread': 100}"
-"['lookup', 'element', 'crash', 'classbranch', 'trunk']",{'crash': 100}
-"['proxy', 'deallocation', 'afterwards', 'reference', 'crash', 'decref', 'deallocatingbranch', 'trunk']",{'crash': 100}
-"['compilation', 'failure', 'thread', 'withoutbranch', 'trunk']",{'thread': 100}
-"['underline', 'length', 'fixedbranch', 'trunk']",{'length': 100}
-"['thread', 'parserbranch', 'trunk']",{'thread': 100}
-"['xmlctxtreset', 'crash', 'libxmlbranch', 'trunk']",{'crash': 100}
-"['crash', 'krukoff', 'foundbranch', 'trunk']",{'crash': 100}
-"['thread', 'concurrentbranch', 'trunk']",{'thread': 100}
-"['crash', 'krukoff', 'foundbranch', 'trunk']",{'crash': 100}
-"['crash', 'element', 'resultbranch', 'trunk']",{'crash': 100}
-"['clean', 'cleanup', 'method', 'setting', 'dictionary', 'thread', 'parser', 'majorbranch', 'trunk']",{'thread': 100}
-"['thread', 'function', 'extensionbranch', 'trunk']",{'thread': 100}
-"['thread', 'validation', 'xmlschemabranch', 'trunk']",{'thread': 100}
-"['crash', 'revertedbranch', 'trunk']",{'crash': 100}
-"['crash', 'entry', 'reportingbranch', 'trunk']",{'crash': 100}
-"['object', 'function', 'crash', 'callingbranch', 'trunk']",{'crash': 100}
-"['error', 'access', 'cleanup', 'fatal', 'attributebranch', 'trunk']",{'fatal': 100}
-"['clean', 'deallocation', 'document', 'function', 'crash', 'helperbranch', 'trunk']",{'crash': 100}
-"['crash', 'couldbranch', 'trunk']",{'crash': 100}
-"['error', 'keyword', 'buffer', 'declaration', 'alloc', 'support', 'exception', 'tostringbranch', 'trunk']",{'buffer': 100}
-"['lengthy', 'exception', 'variablebranch', 'trunk']",{'length': 92}
-"['document', 'namespace', 'crash', 'xmlschemabranch', 'trunk']",{'crash': 100}
-"['prefix', 'stack', 'namespacebranch', 'trunk']",{'stack': 100}
-"['crash', 'conditionbranch', 'trunk']",{'crash': 100}
-"['individual', 'output', 'element', 'enchandler', 'generation', 'result', 'usingemptybranch', 'trunk']",{'generation': 100}
-"['issue', 'namespaces', 'namespaceusingbranch', 'trunk']",{'issue': 100}
-"['supportpython', 'modify', 'selftestdisable', 'incorrect', 'remainingbranch', 'trunk']",{'incorrect': 100}
-"['length', 'support', 'addedbranch', 'trunk']",{'length': 100}
-"['length', 'addedbranch', 'trunk']",{'length': 100}
+sha,message,catetory,matched,labels
+201410af2d9fc1ba944399c01fbc4ae2539aa4a8,"['crash', 'window', 'revert', 'button', 'fixedcommit', 'reverts']",Risky_resource_management,{'crash': 100},
+f6639a65207b1082e1c88b05866f232611f3dd9a,"['button', 'crash', 'window']",Risky_resource_management,{'crash': 100},
+933bf68b4adc12c8d8fc8a56144a870bb9cf1e79,"['security', 'check']",General,{'security': 100},
+c75152cee59e51f23d2901daf2e75b134e64b206,"['security', 'check']",General,{'security': 100},
+f190b95e10421049242e0028b40dbf4b9b5f3a2e,"['crash', 'unity', 'linux', 'emulator']",Risky_resource_management,{'crash': 100},
+c44da0f15cbc3ddef49294d727c6d3a4e7431257,"['crash', 'android', 'device', 'unity', 'orientation']",Risky_resource_management,{'crash': 100},
+d1f3f5c45ef85271d2001098194df95564e2e382,"['crash', 'proxy', 'slows']",Risky_resource_management,{'crash': 100},
+f529aeb1bb234cf7dc0cf23e1e7fd98ce4953e85,"['crash', 'incorrect', 'handlingtraversal']",Risky_resource_management,{'crash': 100},
+201b712edf0478e6a94ace984c1e8435bf3bc3c3,"['subtree', 'contains', 'child', 'entitygnome', 'crash', 'issue', 'libxml', 'child', 'entity', 'recursivetraversal', 'update', 'pointer', 'effect', 'cleanup', 'speed', 'libxml', 'single', 'thing']",Risky_resource_management,{'crash': 100},
+69e5de40227ee046e9f19414fb90b924e4f739f8,"['crash', 'instance', 'reference', 'cycle', 'disconnectclose']",Risky_resource_management,{'crash': 100},
+7affcdc3dc774cdf8db352890fc6cf538a70c01d,"['crash', 'xmlschema', 'iterparse', 'validation', 'collection', 'garbage']",Risky_resource_management,{'crash': 100},
+7f98e37d668abc5231a462ead9c09568780600eb,"['crash', 'result', 'smart', 'exception', 'simple', 'stack', 'string', 'overflow', 'subclass', 'python', 'unicode']",Risky_resource_management,{'crash': 100},
+fa39e927e702e564485c6af7c97c1ed3a8230073,"['crash', 'element', 'error', 'pointer', 'document', 'double']",Risky_resource_management,{'crash': 100},
+11589fcf5b28101ec7b8de286ad0133a4894f83c,"['crash', 'element', 'parent', 'proxy']",Risky_resource_management,{'crash': 100},
+040671bd28367a8657256b5f9d71bb4508cbd0dc,"['crash', 'element', 'subtypes', 'final', 'class']",Risky_resource_management,{'crash': 100},
+2188421b7e64265f85f27012727a4881df3e1e68,"['crash', 'element', 'error', 'xmlfile', 'potential']",Risky_resource_management,{'crash': 100},
+e7a670c66aef2e7ef4282bdc8fa3a21d39898eb5,"['crash', 'iterparse', 'reference', 'xmldict']",Risky_resource_management,{'crash': 100},
+ab93c7098d4dbad55da60c15f6464e5fcd78bec7,"['crash', 'paste']",Risky_resource_management,{'crash': 100},
+da15b9866b261bc464d6ca18d5d279567abfc4e0,"['crash', 'element', 'validate', 'comment']",Risky_resource_management,{'crash': 100},
+8867ff26975d2a3e2822b15a7f41c404c3521017,"['crash', 'lookup', 'object', 'arbitrary', 'custom', 'class', 'method', 'return']",Risky_resource_management,{'crash': 100},
+46e3b2570b6e63cfcb2c8bfe11467466b93b81d1,"['crash', 'instance', 'subtypes', 'comment']",Risky_resource_management,{'crash': 100},
+b1a6b5935d7c734b40016365cf84a41de76f501d,"['crash', 'function']",Risky_resource_management,{'crash': 100},
+e1f3f2affc774fdaaf414f59e2601c298b33f954,"['crash', 'doctype', 'invalid', 'parser']",Risky_resource_management,{'crash': 100},
+d7c216dae0de389cdd68b0e1174c2f6fca554f3f,"['crash', 'function']",Risky_resource_management,{'crash': 100},
+042cdf5e476466cf79a48ded3371c74bda731418,"['crash', 'empty', 'namespace', 'nsmap', 'buildingextra']",Risky_resource_management,{'crash': 100},
+01b04fb0c88f0cda0b68d7430dccaf50b4e02c33,"['crash', 'empty', 'namespace', 'nsmap', 'building']",Risky_resource_management,{'crash': 100},
+ee022af42b5b066f68df88cf95aa09e7397ef0b6,"['ignore', 'crash', 'signal', 'checkingtrunk']",Risky_resource_management,{'crash': 100},
+68b4a642510ccfe6d43749fe4449855aebc7ed0c,"['crash', 'smart', 'reading', 'context', 'document', 'string', 'original', 'xpathtrunk']",Risky_resource_management,{'crash': 100},
+26c9fdd03ced44d0697913a28752490e91e66f0c,"['crash', 'objectpath', 'fixedtrunk']",Risky_resource_management,{'crash': 100},
+65dfe4fe2e946a7ab5201e9719351394bf59500a,"['crash', 'namespace', 'prefix', 'counter', 'overflow']",Risky_resource_management,{'crash': 100},
+7f2063f42d3e7a74dceb4ef5d7c7e603872e4669,"['crash', 'update', 'threadtrunk']",Risky_resource_management,{'crash': 100},
+0f370ec2edef5cfb04f9d2ddf20d97bef1653fd7,"['element', 'crash', 'lookup']",Risky_resource_management,{'crash': 100},
+5411475c5c9adb0372018e130b34b723497f5ddf,"['crash', 'xmlschema', 'libxml', 'fixedtrunk']",Risky_resource_management,{'crash': 100},
+37a5b3163c75c95e109dd5d6e9355513a5f1f33f,"['crash', 'krukoff']",Risky_resource_management,{'crash': 100},
+0c430750d4f8594817f1b2dbda4a99f4157b660d,"['crash', 'revertedtrunk']",Risky_resource_management,{'crash': 100},
+e336dfdb332dbeacd7cd5fd20fae7a684e97cb0c,"['crash', 'object']",Risky_resource_management,{'crash': 100},
+f6ef9b9af1df4ba4833f4c66d14385acf0ecf94a,"['crash', 'memory', 'function', 'deallocation', 'document', 'clean', 'helper', 'copyingtrunk']",Risky_resource_management,{'crash': 100},
+ea1e9a65b7aded4fb2f7364e2e795abc4a1798b9,"['crash', 'couldtrunk']",Risky_resource_management,{'crash': 100},
+7852e0bc5a363c2586d224972f62752fb34e22ae,"['crash', 'xmlschema', 'namespace', 'document']",Risky_resource_management,{'crash': 100},
+10b5f7b306fe9ed874c8b99009b50ed1372b14dc,"['crash', 'conditiontrunk']",Risky_resource_management,{'crash': 100},

@@ -1,4 +1,13 @@
 sha,message,catetory,matched,labels
+fba1424f11244772e3f8b1cb6e5f81e19e89e853,"['android', 'crash', 'nullpointer', 'version']",Risky_resource_management,{'crash': 100},
+d9c0dc5df4b07c66113561975414f22581c74ef2,"['android', 'crash', 'nullpointer']",Risky_resource_management,{'crash': 100},
+36297d387e654019bef8fa1d0869ffec3c6754cb,"['crash', 'windowcrash', 'window']",Risky_resource_management,{'crash': 100},
+a3f8cbe11e1d8fb7288e196af7cd89fe23859cda,"['android', 'crash', 'blurviewandroid', 'crash']",Risky_resource_management,{'crash': 100},
+8290f7d0315b5890ec4c6e801a6263755d39ba3d,"['dependencynative', 'input', 'crash', 'fixednative', 'blurview', 'android', 'supportclean']",Risky_resource_management,{'crash': 100},
 6ad99163d99e6bac554644e0ecac50066b3782b2,"['mergemerge', 'request', 'ggrekhovexception', 'mysql', 'deadlock']",Risky_resource_management,{'deadlock': 100},
+3dc808983c509a3f06c15d4e529fe8d303d3adb6,"['mysql', 'deadlock']",Risky_resource_management,{'deadlock': 100},
 1669fe9b26342d7cd2ee45432d54edaa1dab1133,"['mergemerge', 'requestmysql', 'deadlock', 'retry']",Risky_resource_management,{'deadlock': 100},
+e295a240a3d638b7b4c56fa70c400cd8421584a7,"['retry', 'startup', 'option', 'deadlock']",Risky_resource_management,{'deadlock': 100},
+f86f3160becc62bf57f8cdbe736ed24d09523cd7,"['common', 'injection', 'jsonutils', 'provider']",Insecure_interaction_between_components,{'common injection': 91},
 66d11948d0091735544a54692e0261eff291fc5d,"['mergemerge', 'request', 'jvemuguntadatabase', 'mysql', 'deadlock']",Risky_resource_management,{'deadlock': 100},
+4b721c5b42177f068da88ff3d70abacb64db8d61,"['database', 'mysql', 'deadlock']",Risky_resource_management,{'deadlock': 100},

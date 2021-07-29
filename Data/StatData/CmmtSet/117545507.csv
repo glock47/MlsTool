@@ -1,30 +1,3 @@
-message,fuzzy
-"['modify', 'cipher']",{'cipher': 100}
-"['managment', 'cipher', 'config']",{'cipher': 100}
-"['panic', 'stack', 'locatepanic', 'stack', 'locatesimplify', 'trace']",{'stack': 100}
-"['wrong', 'format', 'sprintf']",{'Sprintf': 100}
-"['crypto', 'session', 'improvement', 'generate']",{'crypto': 100}
-"['success', 'schema', 'generation']",{'generation': 100}
-"['center', 'endpoint', 'expose', 'config']",{'expose': 100}
-"['decouple', 'security', 'httpclient']",{'Security': 100}
-"['update', 'template', 'issue']",{'issue': 100}
-"['countfault', 'testcase', 'injection']",{'injection': 100}
-"['faultinjection', 'panic', 'concurrency']",{'concurren': 90}
-"['index', 'expose', 'cache']",{'expose': 100}
-"['issue', 'debug']",{'issue': 100}
-"['update', 'template', 'issue']",{'issue': 100}
-"['bugfix', 'generation', 'config']",{'generation': 100}
-"['wrong', 'response', 'issue', 'retry', 'success']",{'issue': 100}
-"['concurrent', 'strategy']",{'concurrent': 100}
-"['darklaunch', 'translation', 'routefault', 'dubbo', 'injection', 'protocoltranslation']",{'injection': 100}
-"['expose', 'native']",{'expose': 100}
-"['fault', 'problem', 'injection', 'mutation']",{'injection': 100}
-"['master', 'requestsession', 'stickiness', 'concurrent', 'issue']","{'concurrent': 100, 'issue': 100}"
-"['session', 'stickiness', 'concurrent', 'issue']","{'concurrent': 100, 'issue': 100}"
-"['metric', 'collector', 'duplicate', 'issue', 'registration']",{'issue': 100}
-"['client', 'highwaychassis', 'servicecomb', 'issueservicecomb', 'chassis', 'revert', 'issuecommit', 'revertschassis', 'servicecomb', 'issue']",{'issue': 100}
-"['dfacb', 'mergerequest', 'patch', 'readme', 'readme', 'issue']",{'issue': 100}
-"['readme', 'issue']",{'issue': 100}
-"['mergemerge', 'ninokop', 'master', 'requestproblem', 'fault', 'percentage', 'qpslimiter', 'mutation', 'global', 'injection', 'config']",{'injection': 100}
-"['problem', 'fault', 'percentage', 'qpslimiter', 'mutation', 'global', 'injection', 'config']",{'injection': 100}
-"['check', 'goconst', 'issue', 'static']",{'issue': 100}
+sha,message,catetory,matched,labels
+336f0d31f79b1c020c1d543f333f23cb1b0baea7,"['config', 'request', 'crash']",Risky_resource_management,{'crash': 100},
+988d268f88ac0c30a31be28aff46237c8e67bfae,"['decouple', 'security', 'httpclient']",General,{'security': 100},
