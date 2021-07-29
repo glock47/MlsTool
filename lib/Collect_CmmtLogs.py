@@ -73,8 +73,8 @@ class Collect_CmmtLogs(Collect_Research_Data):
     def init_secategory (self):
         
         self.secategory_stats[0] = SeCategory_Stats ("Risky_resource_management", 
-                                                     ['path traversal', 'deadlock', 'data race', 'crash', 'buffer overflow', 'integer overflow',
-                                                      'integer underflow', 'overrun', 'integer wraparound', 'uncontrolled format', 
+                                                     ['path traversal', 'deadlock', 'data race', 'crash', 'buffer overflow', 'stack overflow', 'memory overflow', 'Out memory',
+                                                      'integer overflow', 'integer underflow', 'overrun', 'integer wraparound', 'uncontrolled format',
                                                       'dangerous function', 'untrusted control', 'improper limitation', 'Improper Validation', 'integrity check', 'null pointer', 
                                                       'missing init', 'Incorrect Length', 'Forced Browsing', 'User-Controlled Key', 'Critical Resource', 'Exposed Dangerous'])
   
