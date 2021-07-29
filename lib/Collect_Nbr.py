@@ -124,7 +124,7 @@ class Collect_Nbr(Collect_Research_Data):
         for index, row in cdf.iterrows():
             developers[row['author']] = 1
             date = row['date']
-            date = re.findall('\d{4}-\d{2}-\d{2} \d{2}:\d{2}：\d{2}', date)[0]
+            date = re.findall('\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}', date)[0]
             if (date > max_date):
                 max_date = date
             if (date < min_date):
@@ -151,7 +151,7 @@ class Collect_Nbr(Collect_Research_Data):
         se_pd_num = 0
         se_other = 0
         for index, row in cdf.iterrows():
-            catetory = row['catetory'])
+            catetory = row['catetory']
             seId = self.get_secategory (catetory)
             if seId == None:
                 continue
@@ -304,22 +304,22 @@ class Collect_Nbr(Collect_Research_Data):
         #and it depends on the regression variables: combinations .... project variables
 
         print ("==================================== secutiry vulnerabilities ====================================")
-        expr = """se_num ~ css_html_javascript + python_shell + javascript_typescript + go_shell + objectivec_ruby + css_html_javascript_shell + html_python + javascript_python + css_html_javascript_python + java_shell + javascript_shell + c_cpp_python + html_ruby + c_python + ruby_shell + c_cpp_python_shell + html_javascript_shell + c_shell + javascript_php + html_java + pj_size + lg_num + age + cmmt_num + dev_num"""
+        expr = """se_num ~ css_html_javascript + python_shell + go_shell + c_cpp_python_shell + javascript_python + css_html_javascript_shell + c_cpp_python + objectivec_ruby + html_python + css_html_javascript_python + cpp_python + html_ruby + c_python + c_cpp_shell + java_shell + javascript_shell + javascript_php + html_java + c_python_shell + java_javascript + c_shell + pj_size + lg_num + age + cmmt_num + dev_num"""
         self.compute_nbr (cdf, expr, "se_num")
         print ("==================================== secutiry vulnerabilities ====================================")
         
         print ("==================================== Risky_resource_management ====================================")
-        expr = """se_rem_num ~ css_html_javascript + python_shell + javascript_typescript + go_shell + objectivec_ruby + css_html_javascript_shell + html_python + javascript_python + css_html_javascript_python + java_shell + javascript_shell + c_cpp_python + html_ruby + c_python + ruby_shell + c_cpp_python_shell + html_javascript_shell + c_shell + javascript_php + html_java + pj_size + lg_num + age + cmmt_num + dev_num"""
+        expr = """se_rem_num ~ css_html_javascript + python_shell + go_shell + c_cpp_python_shell + javascript_python + css_html_javascript_shell + c_cpp_python + objectivec_ruby + html_python + css_html_javascript_python + cpp_python + html_ruby + c_python + c_cpp_shell + java_shell + javascript_shell + javascript_php + html_java + c_python_shell + java_javascript + c_shell + pj_size + lg_num + age + cmmt_num + dev_num"""
         self.compute_nbr (cdf, expr, "se_rem_num")
         print ("==================================== Risky_resource_management ====================================")
 
         print ("==================================== Insecure_interaction_between_components ====================================")
-        expr = """se_iibc_num ~ css_html_javascript + python_shell + javascript_typescript + go_shell + objectivec_ruby + css_html_javascript_shell + html_python + javascript_python + css_html_javascript_python + java_shell + javascript_shell + c_cpp_python + html_ruby + c_python + ruby_shell + c_cpp_python_shell + html_javascript_shell + c_shell + javascript_php + html_java + pj_size + lg_num + age + cmmt_num + dev_num"""
+        expr = """se_iibc_num ~ css_html_javascript + python_shell + go_shell + c_cpp_python_shell + javascript_python + css_html_javascript_shell + c_cpp_python + objectivec_ruby + html_python + css_html_javascript_python + cpp_python + html_ruby + c_python + c_cpp_shell + java_shell + javascript_shell + javascript_php + html_java + c_python_shell + java_javascript + c_shell + pj_size + lg_num + age + cmmt_num + dev_num"""
         self.compute_nbr (cdf, expr, "se_iibc_num")
         print ("==================================== Insecure_interaction_between_components ====================================")
        
         print ("==================================== Porous_defenses ====================================")
-        expr = """se_pd_num ~ css_html_javascript + python_shell + javascript_typescript + go_shell + objectivec_ruby + css_html_javascript_shell + html_python + javascript_python + css_html_javascript_python + java_shell + javascript_shell + c_cpp_python + html_ruby + c_python + ruby_shell + c_cpp_python_shell + html_javascript_shell + c_shell + javascript_php + html_java + pj_size + lg_num + age + cmmt_num + dev_num"""
+        expr = """se_pd_num ~ css_html_javascript + python_shell + go_shell + c_cpp_python_shell + javascript_python + css_html_javascript_shell + c_cpp_python + objectivec_ruby + html_python + css_html_javascript_python + cpp_python + html_ruby + c_python + c_cpp_shell + java_shell + javascript_shell + javascript_php + html_java + c_python_shell + java_javascript + c_shell + pj_size + lg_num + age + cmmt_num + dev_num"""
         self.compute_nbr (cdf, expr, "se_pd_num")
         print ("==================================== Porous_defenses ====================================")
 
