@@ -96,11 +96,11 @@ class Collect_Nbr(Collect_Research_Data):
         for index, row in cdf.iterrows():
             self.secategory_stats[index] = SeCategory (row['category'], row['keywords'])
 
-    def get_secategory (self, keyword):
+    def get_secategory (self, catetory):
         for id, secate_stat in self.secategory_stats.items ():
-            if keyword in secate_stat.keywords:
+            if catetory == secate_stat.category:
                 return id
-        return 3 #default
+        return None
 
     def get_cmmtinfo (self, NbrStats):
         repo_id = NbrStats.repo_id
@@ -124,15 +124,15 @@ class Collect_Nbr(Collect_Research_Data):
         for index, row in cdf.iterrows():
             developers[row['author']] = 1
             date = row['date']
-            date = re.findall('\d{4}-\d{2}-\d{2} \d{2}：\d{2}：\d{2}', date)[0]
+            date = re.findall('\d{4}-\d{2}-\d{2} \d{2}:\d{2}：\d{2}', date)[0]
             if (date > max_date):
                 max_date = date
             if (date < min_date):
                 min_date = date
         developer_num = len (developers)
 
-        max_time = datetime.strptime(max_date, '%Y-%m-%dT%H:%M:%SZ')
-        min_time = datetime.strptime(min_date, '%Y-%m-%dT%H:%M:%SZ')
+        max_time = datetime.strptime(max_date, '%Y-%m-%d %H:%M:%S')
+        min_time = datetime.strptime(min_date, '%Y-%m-%d %H:%M:%S')
         age = (max_time - min_time).days
         
             
@@ -151,16 +151,15 @@ class Collect_Nbr(Collect_Research_Data):
         se_pd_num = 0
         se_other = 0
         for index, row in cdf.iterrows():
-            keywords = ast.literal_eval(row['fuzzy']).keys()
-            for key in keywords:
-                category = self.get_secategory (key)
-                if (category != 3):
-                    break
-            if (category == 0):
+            catetory = row['catetory'])
+            seId = self.get_secategory (catetory)
+            if seId == None:
+                continue
+            if (seId == 0):
                 se_rem_num += 1
-            elif (category == 1):
+            elif (seId == 1):
                 se_iibc_num += 1
-            elif (category == 2):
+            elif (seId == 2):
                 se_pd_num += 1
             else:
                 se_other += 1
