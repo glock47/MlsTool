@@ -73,12 +73,13 @@ class Collect_CmmtLogs(Collect_Research_Data):
     def init_secategory (self):
         
         self.secategory_stats[0] = SeCategory_Stats ("Risky_resource_management", 
-                                                     ['path traversal', 'deadlock', 'race', 'crash', 'overflow', 'underflow', 'overrun', 'wraparound', 'uncontrolled format', 
+                                                     ['path traversal', 'deadlock', 'data race', 'crash', 'buffer overflow', 'integer overflow',
+                                                      'integer underflow', 'overrun', 'integer wraparound', 'uncontrolled format', 
                                                       'dangerous function', 'untrusted control', 'improper limitation', 'Improper Validation', 'integrity check', 'null pointer', 
                                                       'missing init', 'Incorrect Length', 'Forced Browsing', 'User-Controlled Key', 'Critical Resource', 'Exposed Dangerous'])
   
         self.secategory_stats[1] = SeCategory_Stats ("Insecure_interaction_between_components", 
-                                                     ['sql injection', 'command injection', 'csrf', 'cross site', 'Request Forgery', 'sqli', 'request forgery', 'xsrf', 'backdoor', 
+                                                     ['sql injection', 'command injection', 'csrf', 'cross site', 'Request Forgery', 'sqli', 'xsrf', 'backdoor', 
                                                       'untrusted site', 'specialchar', 'unrestricted upload', 'unrestricted file', 'man in the middle', 'reflected xss', 'get based xss',
                                                       'Improper Neutralization', 'Dangerous Type', 'Cursor Injection', 'Dangling Database Cursor', 'Unintended Proxy', 'Unintended Intermediary',
                                                       'Argument Injection', 'Argument Modification', 'XSS Manipulation', 'Incomplete Blacklist', 'Origin Validation Error'])
@@ -282,8 +283,6 @@ class Collect_CmmtLogs(Collect_Research_Data):
             if row['issue'] != ' ':
                 #Labels = self.get_issuetag (repo_item.url, row['issue'])
                 pass
-            else:
-                continue
 
             message = str(row['message']) + " " + Labels #+ " " + row['content']
             message = self.formalize_msg (message)
