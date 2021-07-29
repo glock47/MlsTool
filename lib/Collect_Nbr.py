@@ -212,7 +212,7 @@ class Collect_Nbr(Collect_Research_Data):
                                                       row['age'], row['cmmt_num'], row['dev_num'], row['se_num'],
                                                       row['se_rem_num'], row['se_iibc_num'], row['se_pd_num'], row['se_other']) 
 
-    def load_top_combo (self, top_num=30):
+    def load_top_combo (self, top_num=50):
         cdf = pd.read_csv(Collect_Nbr.topcombo_stats)
         for index, row in cdf.iterrows():
             combo = row['combination']
