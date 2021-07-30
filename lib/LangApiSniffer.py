@@ -146,6 +146,12 @@ class LangApiSniffer(Collect_Research_Data):
         if not os.path.exists (RepoDir):
             self.Index += 1
             return
+            
+        cmmt_stat_file = System.cmmt_stat_file (ReppId) + '.csv'
+        if not os.path.exists(cmmt_stat_file):
+            self.Index += 1
+            return
+        
         TopLangs = self.TopLanguages.keys()
         Langs = [lang for lang in repo_item.all_languages if lang in TopLangs]
 

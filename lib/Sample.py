@@ -245,6 +245,7 @@ class Sample():
             for index, row in df.iterrows():
                 Cmmts = {}
                 Cmmts['No'] = CNo
+                Cmmts['Sha'] = row['sha']
                 Cmmts['Valid'] = False
                 Cmmts['Message']  = row['message']
 

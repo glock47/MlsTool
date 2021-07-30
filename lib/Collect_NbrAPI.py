@@ -151,7 +151,7 @@ class Collect_NbrAPI(Collect_Research_Data):
         #and it depends on the regression variables: combinations .... project variables
 
         print ("==================================== secutiry vulnerabilities ====================================")
-        expr = """se_num ~ FFFI + FFI_IMI + FFI_EBD + FFI_IMI_EBD + IMI + IMI_EBD + EBD + HIT + pj_size + lg_num + age + cmmt_num + dev_num"""
+        expr = """se_num ~ FFI + FFI_IMI + FFI_EBD + FFI_IMI_EBD + IMI + IMI_EBD + EBD + HIT + pj_size + lg_num + age + cmmt_num + dev_num"""
         self.compute_nbr (cdf, expr, "se_num")
         print ("==================================== secutiry vulnerabilities ====================================")
         

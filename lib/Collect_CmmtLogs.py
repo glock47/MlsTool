@@ -73,13 +73,13 @@ class Collect_CmmtLogs(Collect_Research_Data):
     def init_secategory (self):
         
         self.secategory_stats[0] = SeCategory_Stats ("Risky_resource_management", 
-                                                     ['path traversal', 'deadlock', 'data race', 'crash', 'buffer overflow', 'stack overflow', 'memory overflow', 'Out memory',
-                                                      'integer overflow', 'integer underflow', 'overrun', 'integer wraparound', 'uncontrolled format',
+                                                     ['path traversal', 'deadlock', 'data race', 'buffer overflow', 'stack overflow', 'memory overflow', 'Out memory',
+                                                      'integer overflow', 'integer underflow', 'overrun', 'integer wraparound', 'uncontrolled format', 'Data loss', 
                                                       'dangerous function', 'untrusted control', 'improper limitation', 'Improper Validation', 'integrity check', 'null pointer', 
                                                       'missing init', 'Incorrect Length', 'Forced Browsing', 'User-Controlled Key', 'Critical Resource', 'Exposed Dangerous'])
   
         self.secategory_stats[1] = SeCategory_Stats ("Insecure_interaction_between_components", 
-                                                     ['sql injection', 'command injection', 'csrf', 'cross site', 'Request Forgery', 'sqli', 'xsrf', 'backdoor', 
+                                                     ['sql injection', 'command injection', 'csrf', 'cross site', 'Request Forgery', 'sqli', 'xsrf', 'backdoor', 'Open Redirect',
                                                       'untrusted site', 'specialchar', 'unrestricted upload', 'unrestricted file', 'man in the middle', 'reflected xss', 'get based xss',
                                                       'Improper Neutralization', 'Dangerous Type', 'Cursor Injection', 'Dangling Database Cursor', 'Unintended Proxy', 'Unintended Intermediary',
                                                       'Argument Injection', 'Argument Modification', 'XSS Manipulation', 'Incomplete Blacklist', 'Origin Validation Error'])
@@ -90,16 +90,16 @@ class Collect_CmmtLogs(Collect_Research_Data):
                                                       'incorrect authorization', 'incorrect permission', 'broken cryptographic', 'risky cryptographic', 'excessive authentication', 'privilege escalation',
                                                       'without a salt', 'unauthenticated', 'information disclosure', 'authentication bypass', 'cnc vulnerability', 'access control', 'cleartext storage',
                                                       'Least Privilege Violation', 'Insufficient Compartmentalization', 'Dropped Privileges', 'Assumed Immutable Data', 'Insufficient Entropy',
-                                                      'Cryptographically Weak PRNG'])
+                                                      'Cryptographically Weak PRNG', 'adaptive chosen ciphertext', 'chosen ciphertext attack', 'Authorization Bypass'])
 
         self.secategory_stats[3] = SeCategory_Stats ("General", 
-                                                    ['adaptive chosen ciphertext', 'chosen ciphertext attack', 'timing discrepancy', 'security', 'denial service', 'insecure', 
-                                                     'penetration', 'bypass security', 'Security bypass', 'Data loss', 'Authorization Bypass'])
+                                                    ['security', 'denial service', 'insecure', 'penetration', 'bypass security', 'crash'])
 
         if self.re_use == True:
             self.re_compile ()         
             self.re_match_test ()
         else:
+            self.threshhold = 90
             self.fuzz_match_test ()
 
         TotalPhrase = 0
@@ -144,28 +144,28 @@ class Collect_CmmtLogs(Collect_Research_Data):
     def fuzz_match_test(self):
         print (self.secategory_stats)
         message = ['sqli',  'injection', 'commands', 'injection']
-        Clf, Matched = self.fuzz_match (message, 90)
+        Clf, Matched = self.fuzz_match (message, self.threshhold)
         if Clf == "Insecure_interaction_between_components":
             print ("\t fuzz_match_test -> %s pass!!!!" %message)
         else:
             print ("\t fuzz_match_test -> %s fail!!!!" %message)
 
         message = ['path',  'traversal', 'deadlock', 'race']
-        Clf, Matched = self.fuzz_match (message, 90)
+        Clf, Matched = self.fuzz_match (message, self.threshhold)
         if Clf == "Risky_resource_management":
             print ("\t fuzz_match_test -> %s pass!!!!" %message)
         else:
             print ("\t fuzz_match_test -> %s fail!!!!" %message)
 
         message = ['hard', 'coded', 'credential', 'encryption']
-        Clf, Matched = self.fuzz_match (message, 90)
+        Clf, Matched = self.fuzz_match (message, self.threshhold)
         if Clf == "Porous_defenses":
             print ("\t fuzz_match_test -> %s pass!!!!" %message)
         else:
             print ("\t fuzz_match_test -> %s fail!!!!" %message)
 
     
-    def fuzz_match(self, message, threshhold):  
+    def fuzz_match(self, message, threshhold=90):  
         fuzz_results = {}
         #print ("fuzz_match -> ", message)
         for Id, Sec in self.secategory_stats.items():
@@ -297,7 +297,7 @@ class Collect_CmmtLogs(Collect_Research_Data):
             if self.re_use == True:
                 Clf, Matched = self.re_match (message)
             else:
-                Clf, Matched = self.fuzz_match (message, 90)
+                Clf, Matched = self.fuzz_match (message, self.threshhold)
             
             if Clf != None:
                 #print (Clf)
