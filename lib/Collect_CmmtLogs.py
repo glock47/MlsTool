@@ -374,7 +374,7 @@ class Collect_Issues(Collect_Research_Data):
                               auth=("yawenlee", "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"),
                               headers={"Accept": "application/vnd.github.mercy-preview+json"})
         if (self.is_continue (result.status_code) == False):
-            print("$$$%s: %s, URL: %s" % (result.status_code, result.reason, url))
+            #print("$$$%s: %s, URL: %s" % (result.status_code, result.reason, url))
             return None
         
         if (result.status_code != 200 and result.status_code != 422):
@@ -401,11 +401,16 @@ class Collect_Issues(Collect_Research_Data):
             return
                 
         print ("[%u]%u start...commit num:%u" %(self.repo_num, repo_id, cdf.shape[0]))
+        ExIssues = {}
         for index, row in cdf.iterrows():
-            if row['issue'] == ' ':
+            IsNo = row['issue']
+            if IsNo == ' ':
                 continue
 
-            IssJson = self.get_issue (repo_item.url, row['issue'])
+            if ExIssues.get (IsNo) != None:
+                continue
+
+            IssJson = self.get_issue (repo_item.url, IsNo)
             if IssJson == None:
                 continue
 
@@ -426,7 +431,8 @@ class Collect_Issues(Collect_Research_Data):
             No = len (self.research_stats)
             self.research_stats[No] = IssueItem (IssJson['url'], IssJson['state'], IssJson['title'], Label, 
                                                  IssJson['comments_url'], diff_url, patch_url)
-            print ("[%d/%d] %d -> retrieve %s" %(index, cdf.shape[0], No, IssJson['url']))
+            ExIssues [IsNo] = True
+            print ("<%d>[%d/%d] %d -> retrieve %s" %(self.repo_num, index, cdf.shape[0], No, IssJson['url']))
 
         self.save_data (issue_file)
         self.research_stats = {}
