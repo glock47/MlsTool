@@ -45,12 +45,11 @@ class SeCategory_Stats ():
         self.count += count
 
 class CmmtLogs():
-    def __init__ (self, sha, message, catetory, matched, labels):
+    def __init__ (self, sha, message, catetory, matched):
         self.sha      = sha
         self.message  = message
         self.catetory = catetory
         self.matched  = matched
-        self.labels   = labels
 
 class Collect_CmmtLogs(Collect_Research_Data):
 
@@ -279,7 +278,7 @@ class Collect_CmmtLogs(Collect_Research_Data):
             if Clf != None:
                 #print (Clf)
                 index = len (self.research_stats)
-                self.research_stats[index] = CmmtLogs (row['sha'], message, Clf, Matched, Labels)
+                self.research_stats[index] = CmmtLogs (row['sha'], message, Clf, Matched)
             if (index >= self.max_cmmt_num):
                 break
 
