@@ -38,6 +38,14 @@ class System():
     if not os.path.exists (TagSet):
         os.mkdir (TagSet)
 
+    IssueDir     = BaseDir + "/Issues"
+    if not os.path.exists (IssueDir):
+        os.mkdir (IssueDir)
+
+    @staticmethod
+    def issue_file(id):
+        return (System.IssueDir + "/" + str(id) + ".csv")
+    
     @staticmethod
     def cmmt_file(id):
         return (System.CMMT_DIR + str(id) + ".csv")

@@ -16,6 +16,7 @@ from lib.Collect_DiscripStats import Collect_DiscripStats
 from lib.Collect_ComboTopicStats import Collect_ComboTopicStats
 
 from lib.Collect_Association import Collect_Association
+from lib.Collect_CmmtLogs import Collect_Issues
 from lib.Collect_CmmtLogs import Collect_CmmtLogs
 from lib.Collect_Nbr import Collect_Nbr
 from lib.Collect_NbrAPI import Collect_NbrAPI
@@ -183,6 +184,18 @@ def CollectSamples ():
     Cs = Sample (50, 500)
     Cs.Smapling ()
 
+def CollectIssues (StartNo=0, EndNo=65535, repo_stats=None):
+    TimeTag(">>>>>>>>>>>> Statistic on Issues...")
+    file_path=System.getdir_stat()
+    if (repo_stats == None):
+        repo_stats = Process_Data.load_data(file_path=file_path, file_name='Repository_Stats')
+        repo_stats = Process_Data.dict_to_list(repo_stats)
+        
+    research_data = Collect_Issues(StartNo, EndNo) 
+    research_data.process_data(list_of_repos=repo_stats)
+    research_data.save_data()
+
+
 
 def StatAll ():
     original_repo_list = Process_Data.load_data(file_path=System.getdir_collect(), file_name='Repository_List')
@@ -312,6 +325,8 @@ def main(argv):
             Association(None)
     elif (step == "cmmts"):
         CommitLog (StartNo, EndNo)
+    elif (step == "issue"):
+        CollectIssues (StartNo, EndNo)
     elif (step == "nbr"):
         CommitLogNbr (repo_no)
     elif (step == "apisniffer"):

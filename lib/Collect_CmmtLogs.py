@@ -221,15 +221,7 @@ class Collect_CmmtLogs(Collect_Research_Data):
     def is_segfin (self, repo_num):
         if ((self.repo_num < self.start_no) or (self.repo_num >= self.end_no)):
             return True
-
         return False  
-
-    def is_continue (self, errcode):
-        codes = [404, 500]
-        if (errcode in codes):
-            return False
-        else:
-            return True
                 
     def _update_statistics(self, repo_item):
         start_time = time.time()
@@ -346,12 +338,35 @@ class Collect_CmmtLogs(Collect_Research_Data):
         return super(Collect_CmmtLogs, self)._get_header(data)
 
 
+class IssueItem():
+    def __init__ (self, url, state, title, label, comments_url, diff_url, patch_url):
+        self.url   = url
+        self.state = state
+        self.title = title
+        self.label = label
+        self.comments_url = comments_url
+        self.diff_url = diff_url
+        self.patch_url = patch_url
+        
 class Collect_Issues(Collect_Research_Data):
     def __init__(self, start_no=0, end_no=65535, file_name='CmmtLogs_Issues'):
         super(Collect_Issues, self).__init__(file_name=file_name)
         self.repo_num  = 0
+        self.file_path = ""
         self.start_no  = start_no
         self.end_no    = end_no
+
+    def is_segfin (self, repo_num):
+        if ((self.repo_num < self.start_no) or (self.repo_num >= self.end_no)):
+            return True
+        return False
+
+    def is_continue (self, errcode):
+        codes = [410, 404, 500]
+        if (errcode in codes):
+            return False
+        else:
+            return True
 
     def get_issue (self, url, issue):
         url = url + "/issues/" + issue
@@ -360,7 +375,7 @@ class Collect_Issues(Collect_Research_Data):
                               headers={"Accept": "application/vnd.github.mercy-preview+json"})
         if (self.is_continue (result.status_code) == False):
             print("$$$%s: %s, URL: %s" % (result.status_code, result.reason, url))
-            return ""
+            return None
         
         if (result.status_code != 200 and result.status_code != 422):
             print("%s: %s, URL: %s" % (result.status_code, result.reason, url))
@@ -387,9 +402,49 @@ class Collect_Issues(Collect_Research_Data):
                 
         print ("[%u]%u start...commit num:%u" %(self.repo_num, repo_id, cdf.shape[0]))
         for index, row in cdf.iterrows():
-            self.commits_num += 1
-
-            if row['issue'] != ' ':
+            if row['issue'] == ' ':
                 continue
 
-            issue = self.get_issuetag (repo_item.url, row['issue'])
+            IssJson = self.get_issue (repo_item.url, row['issue'])
+            if IssJson == None:
+                continue
+
+            # get label
+            Label   = ' '
+            Labels = IssJson['labels']
+            if len (Labels) != 0:
+                Label = Labels[0]['name']
+
+            # get pullrequest
+            diff_url  = ' ' 
+            patch_url = ' '
+            if 'pull_request' in IssJson:
+                pull_request = IssJson['pull_request']
+                diff_url  = pull_request['diff_url']
+                patch_url = pull_request['patch_url']
+            
+            No = len (self.research_stats)
+            self.research_stats[No] = IssueItem (IssJson['url'], IssJson['state'], IssJson['title'], Label, 
+                                                 IssJson['comments_url'], diff_url, patch_url)
+            print ("[%d/%d] %d -> retrieve %s" %(index, cdf.shape[0], No, IssJson['url']))
+
+        self.save_data (issue_file)
+        self.research_stats = {}
+
+    def _update(self):
+        pass
+
+    def save_data(self, file_name=None):
+        if (len(self.research_stats) == 0):
+            return
+        super(Collect_Issues, self).save_data2(self.research_stats, file_name)
+                     
+    def _object_to_list(self, value):
+        return super(Collect_Issues, self)._object_to_list(value)
+            
+    def _object_to_dict(self, value):
+        return super(Collect_Issues, self)._object_to_dict(value)
+            
+    def _get_header(self, data):
+        return super(Collect_Issues, self)._get_header(data)
+    
