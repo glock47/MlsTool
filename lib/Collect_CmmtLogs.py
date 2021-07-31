@@ -73,10 +73,11 @@ class Collect_CmmtLogs(Collect_Research_Data):
     def init_secategory (self):
         
         self.secategory_stats[0] = SeCategory_Stats ("Risky_resource_management", 
-                                                     ['path traversal', 'deadlock', 'data race', 'buffer overflow', 'stack overflow', 'memory overflow', 'Out memory',
-                                                      'integer overflow', 'integer underflow', 'overrun', 'integer wraparound', 'uncontrolled format', 'Data loss', 
+                                                     ['path traversal', 'deadlock', 'data race', 'data leak', 'buffer overflow', 'stack overflow', 'memory overflow', 'Out memory',
+                                                      'integer overflow', 'integer underflow', 'overrun', 'integer wraparound', 'uncontrolled format', 'Data loss', 'uninitialized memory',
                                                       'dangerous function', 'untrusted control', 'improper limitation', 'Improper Validation', 'integrity check', 'null pointer', 
-                                                      'missing init', 'Incorrect Length', 'Forced Browsing', 'User-Controlled Key', 'Critical Resource', 'Exposed Dangerous'])
+                                                      'missing init', 'Incorrect Length', 'Forced Browsing', 'User-Controlled Key', 'Critical Resource', 'Exposed Dangerous',
+                                                      'crashing length', 'Memory corruption', 'Memory leak', 'Double free', 'Use after free', 'Dangling pointers'])
   
         self.secategory_stats[1] = SeCategory_Stats ("Insecure_interaction_between_components", 
                                                      ['sql injection', 'command injection', 'csrf', 'cross site', 'Request Forgery', 'sqli', 'xsrf', 'backdoor', 'Open Redirect',
@@ -230,25 +231,6 @@ class Collect_CmmtLogs(Collect_Research_Data):
             return False
         else:
             return True
-
-    def get_issuetag (self, url, issue):
-        url = url + "/issues/" + issue
-        result = requests.get(url,
-                              auth=("yawenlee", "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"),
-                              headers={"Accept": "application/vnd.github.mercy-preview+json"})
-        if (self.is_continue (result.status_code) == False):
-            print("$$$%s: %s, URL: %s" % (result.status_code, result.reason, url))
-            return ""
-        
-        if (result.status_code != 200 and result.status_code != 422):
-            print("%s: %s, URL: %s" % (result.status_code, result.reason, url))
-            sleep(1200)
-            return self.get_issuetag(url, issue)     
-        Labels = result.json()['labels']
-        if len (Labels) == 0:
-            return ""
-        LabelName = Labels[0]['name']
-        return LabelName
                 
     def _update_statistics(self, repo_item):
         start_time = time.time()
@@ -279,12 +261,7 @@ class Collect_CmmtLogs(Collect_Research_Data):
         for index, row in cdf.iterrows():
             self.commits_num += 1
 
-            Labels = ""
-            if row['issue'] != ' ':
-                #Labels = self.get_issuetag (repo_item.url, row['issue'])
-                pass
-
-            message = str(row['message']) + " " + Labels #+ " " + row['content']
+            message = str(row['message']) #+ " " + row['content']
             message = self.formalize_msg (message)
             if len (message) == 0:
                 continue
@@ -370,3 +347,50 @@ class Collect_CmmtLogs(Collect_Research_Data):
         return super(Collect_CmmtLogs, self)._get_header(data)
 
 
+class Collect_Issues(Collect_Research_Data):
+    def __init__(self, start_no=0, end_no=65535, file_name='CmmtLogs_Issues'):
+        super(Collect_Issues, self).__init__(file_name=file_name)
+        self.repo_num  = 0
+        self.start_no  = start_no
+        self.end_no    = end_no
+
+    def get_issue (self, url, issue):
+        url = url + "/issues/" + issue
+        result = requests.get(url,
+                              auth=("yawenlee", "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"),
+                              headers={"Accept": "application/vnd.github.mercy-preview+json"})
+        if (self.is_continue (result.status_code) == False):
+            print("$$$%s: %s, URL: %s" % (result.status_code, result.reason, url))
+            return ""
+        
+        if (result.status_code != 200 and result.status_code != 422):
+            print("%s: %s, URL: %s" % (result.status_code, result.reason, url))
+            sleep(1200)
+            return self.get_issue(url, issue)     
+        return result.json()
+                
+    def _update_statistics(self, repo_item):
+        start_time = time.time()
+
+        self.repo_num += 1
+        if (self.is_segfin (self.repo_num)):
+            return
+        
+        repo_id   = repo_item.id
+        cmmt_file = System.cmmt_file (repo_id)
+        if (System.is_exist(cmmt_file) == False):
+            return
+
+        cdf = pd.read_csv(cmmt_file)
+        issue_file = System.issue_file (repo_id)
+        if System.is_exist(issue_file):
+            return
+                
+        print ("[%u]%u start...commit num:%u" %(self.repo_num, repo_id, cdf.shape[0]))
+        for index, row in cdf.iterrows():
+            self.commits_num += 1
+
+            if row['issue'] != ' ':
+                continue
+
+            issue = self.get_issuetag (repo_item.url, row['issue'])

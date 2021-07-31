@@ -83,21 +83,20 @@ class CloneRepo():
 
     def CleanText(self, Text):
         Text = str (Text)
-        Text = re.sub(r'[+|/]', ' and ', Text)
+        Text = re.sub(r'[+|/]', ' ', Text)
         Text = re.sub(r'[^\w\d,.]', ' ', Text)
         Text = Text.lower()
         words = Text.split()
-        words = [re.sub(r'[^a-z]', '', word) for word in words if word.isalnum()]
-        Text = ' '.join(words)
+        words = [re.sub(r'[^a-z]', ' ', word) for word in words if word.isalnum()]
         return Text      
         
-    def Cleaning(self, Text, min_len=4, max_len=16):
+    def Cleaning(self, Text, min_len=3, max_len=16):
         Text = self.CleanText (Text)       
         words = nltk.word_tokenize(Text)
         words = [lemmatizer.lemmatize(word) for word in words]
         stopwords_list = stopwords.words('english') 
-        words = [word for word in words if word not in stopwords_list and len(word) > min_len and len(word) < max_len]
-        words = list (set (words))
+        words = [word for word in words if word not in stopwords_list and len(word) >= min_len and len(word) < max_len]
+        #words = list (set (words))
         return " ".join(words)
 
     def WriteCommts (self, RepoId):
@@ -261,7 +260,7 @@ class CloneRepo():
 
                     # message
                     if state == 1:
-                        Message += line
+                        Message += ' ' + line
 
                     #diff
                     if state == 2:
@@ -281,11 +280,12 @@ class CloneRepo():
                             continue
                     #diff content
                     if Df != None:
-                        DfContent += line
+                        DfContent += ' ' + line
                  
     def ParseLogSmp (self, LogFile):      
         import re
         IssueNum = 0
+        self.Commits  = []
         with open(LogFile, 'r', encoding='latin1') as Lfile:
             Cmmt   = None
             Author = None
@@ -303,23 +303,25 @@ class CloneRepo():
                     self.Commits.append (Cmmt)
                 elif line[0:8] == "Author: ":
                     Cmmt.author = line[9:-1]
+                elif line[0:7] == "Merge: ":
+                    continue
                 elif line[0:6] == "Date: ":
                     Cmmt.date = line[7:-1]
                 else:
                     if len (line) < 6 :
                         continue
                     
-                    IssueNo = line.find ('#')
-                    if IssueNo != -1:
-                        issue = re.findall(r"#(.+?) ", line)
-                        if len (issue) != 0:
-                            issue = issue[0]
-                            if is_number (issue) == True:
-                                print ("Exit issue -> ", line, ", issue -> ", issue)
-                                Cmmt.issue = issue
-                                IssueNum += 1
-                        
-                    Message += self.Cleaning(line)
+                    issue = re.findall(r"#(\d+?)[\s\r\n]", line)
+                    if len (issue) == 0:
+                        issue = re.findall(r"/issues/(\d+?)[\s\r\n]", line)
+                    if len (issue) != 0:
+                        issue = issue[0]
+                        if is_number (issue) == True:
+                            #print ("\tExist issue -> ", line, ", issue -> ", issue)
+                            Cmmt.issue = issue
+                            IssueNum += 1
+   
+                    Message += ' ' +  self.Cleaning(line)
                     #print ("Get msg -> ", Message)
             return IssueNum
     
@@ -339,8 +341,7 @@ class CloneRepo():
         if self.CheckLangs (Langs) == True and IssueRate >= 1  and len (self.Commits) >= 1000:
             print ("@@@@@@ CmmtsNum = %d, IssueNum = %d" %(len(self.Commits), IssueNum))
             self.WriteCommts (RepoId)
-            self.Commits  = []
-            os.remove (LogFile)
+            #os.remove (LogFile)
             return True
         else:
             RmCmd = "rm -rf " + RepoDir
