@@ -45,7 +45,7 @@ class TextModel:
         self.claster_labels = None
         self.word_model     = None
 
-    def clean_text(self, text):
+    def clean_text(self, text, length=1024):
         # Change all the text to lower case
         text = text.lower()
         # Converts all '+' and '/' to the word 'and'
@@ -56,6 +56,8 @@ class TextModel:
         words = text.split()
         # Remove Non-alpha text
         words = [re.sub(r'[^a-z]', '', word) for word in words if word.isalnum()]
+        if len (words) > length:
+            words = words[0:length]
         # Joins tokenized string into one string
         text = ' '.join(words)
         return text

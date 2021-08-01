@@ -208,7 +208,7 @@ class Collect_CmmtLogs(Collect_Research_Data):
         if (message == ""):
             return []
         
-        clean_text = self.Tm.clean_text (message)
+        clean_text = self.Tm.clean_text (message, 64)
         if (clean_text == ""):
             return []
 
@@ -256,8 +256,6 @@ class Collect_CmmtLogs(Collect_Research_Data):
             message = self.formalize_msg (message)
             if len (message) == 0:
                 continue
-            elif len (message) > 256:
-                message = message[0:32]
                 
             #print ("Message length -> %d " %len (message))
             Clf = None
@@ -269,8 +267,9 @@ class Collect_CmmtLogs(Collect_Research_Data):
             
             if Clf != None:
                 #print (Clf)
-                index = len (self.research_stats)
-                self.research_stats[index] = CmmtLogs (row['sha'], message, Clf, Matched)
+                No = len (self.research_stats)
+                self.research_stats[No] = CmmtLogs (row['sha'], message, Clf, Matched)
+                print ("<%d>[%d/%d] retrieve cmmits -> %d" %(self.repo_num, index, cdf.shape[0], No))
             if (index >= self.max_cmmt_num):
                 break
 

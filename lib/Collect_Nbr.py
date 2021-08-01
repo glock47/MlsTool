@@ -138,12 +138,15 @@ class Collect_Nbr(Collect_Research_Data):
             
         #security bug num
         cmmt_stat_file = System.cmmt_stat_file (repo_id) + ".csv"
-        if (System.is_exist(cmmt_stat_file) == False):
+        if System.is_exist(cmmt_stat_file) == False:
+            NbrStats.update (age, commits_num, developer_num, 0)
+            NbrStats.update_secategory (0, 0, 0, 0)      
+            self.pre_nbr_stats[repo_id] = NbrStats
             return
+            
         cdf = pd.read_csv(cmmt_stat_file)
         se_num = cdf.shape[0]
         NbrStats.update (age, commits_num, developer_num, se_num)
-
 
         #se categories
         se_rem_num  = 0
@@ -163,8 +166,8 @@ class Collect_Nbr(Collect_Research_Data):
                 se_pd_num += 1
             else:
                 se_other += 1
-        NbrStats.update_secategory (se_rem_num, se_iibc_num, se_pd_num, se_other)
-            
+        
+        NbrStats.update_secategory (se_rem_num, se_iibc_num, se_pd_num, se_other)          
         self.pre_nbr_stats[repo_id] = NbrStats
 
 
