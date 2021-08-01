@@ -1,16 +1,20 @@
-sha,message,catetory,matched,labels
-5eddb5f18acbca6e6e276aca5e1ba0988183c823,"['error', 'message', 'crash', 'localfree', 'print']",Risky_resource_management,{'crash': 100},
-fb89c1c2d822f91e40d3004cfaff223e06cee832,"['crashcount', 'crash']",Risky_resource_management,{'crash': 100},
-2cca5141282d29f6c08e97d6902402cd583aac23,"['infinite', 'cpptoolscpptools', 'crash', 'infinite', 'microsoft', 'vscode', 'issue']",Risky_resource_management,{'crash': 100},
-94294dd3728e034fbe2be6db0437baabcde4ef8b,"['infinite', 'cpptoolscpptools', 'crash', 'infinite', 'microsoft', 'vscode', 'issue']",Risky_resource_management,{'crash': 100},
-ef120e83137799ba0438c283388b1647ab912445,"['event', 'telemetry', 'process', 'crash']",Risky_resource_management,{'crash': 100},
-b5fc4cc9b2d603ab393b9a6f3367c2fb9ea30022,"['workspace', 'crash']",Risky_resource_management,{'crash': 100},
-46335eb72217221f9177e472d2c2b6b150c90c8c,"['multiroot', 'cpptools', 'crash', 'occurs', 'color', 'microsoft', 'vscode', 'issue', 'workspace']",Risky_resource_management,{'crash': 100},
-3f66cb5c591b8b4df18c9a46045edde09f61359c,"['serialize', 'issue', 'security']",General,{'security': 100},
-9ea53681a5cebe2c72498dd0be2942c9e32e8a05,"['version', 'crash']",Risky_resource_management,{'crash': 100},
-35501431f88a4c84a074d4f1615df2014a86b287,"['binaryversion', 'crash']",Risky_resource_management,{'crash': 100},
-e0543a64c1ce0689ad3630db410905785616507f,"['seanmcm', 'changelog', 'insiderchangelog', 'update', 'crash']",Risky_resource_management,{'crash': 100},
-8129ce337ed7ee44a60c58b49183a0a529fde32f,"['crash', 'preventaddress', 'languageclient', 'issueprevent']",Risky_resource_management,{'crash': 100},
-4a8b143ce099fa980612f75e53098d416ebc65cf,"['telemetry', 'crash']",Risky_resource_management,{'crash': 100},
-88e972489290404191862d1e3f09695a1117dda5,"['attempt', 'security']",General,{'security': 100},
-905041068f3433aa7c1445202f38f1e199958c14,"['guard', 'processing', 'configuration', 'crash']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+d3a38d9f2812b869e696f5d54be0529fa1436b5c,"['translation', 'crash']",General,{'crash': 100}
+bbe5c42e64f07db041ce7f82db9eac4e0def6753,"['update', 'window', 'debugger', 'package', 'vsdbg', 'crash', 'window', 'address', 'update', 'package', 'version']",General,{'crash': 100}
+2cca5141282d29f6c08e97d6902402cd583aac23,"['infinite', 'loop', 'cpptools', 'crash', 'infinite', 'loop', 'cpptools', 'crash', 'http', 'github', 'microsoft', 'vscode', 'cpptools', 'issue']",General,{'crash': 100}
+94294dd3728e034fbe2be6db0437baabcde4ef8b,"['infinite', 'loop', 'cpptools', 'crash', 'infinite', 'loop', 'cpptools', 'crash', 'http', 'github', 'microsoft', 'vscode', 'cpptools', 'issue']",General,{'crash': 100}
+ef120e83137799ba0438c283388b1647ab912445,"['telemetry', 'event', 'main', 'process', 'crash']",General,{'crash': 100}
+b5fc4cc9b2d603ab393b9a6f3367c2fb9ea30022,"['crash', 'workspace', 'folder']",General,{'crash': 100}
+46335eb72217221f9177e472d2c2b6b150c90c8c,"['crash', 'color', 'theme', 'multiroot', 'workspace', 'http', 'github', 'microsoft', 'vscode', 'cpptools', 'issue']",General,{'crash': 100}
+33a6b6699e5eb84395d1ecefa30ae0fa754f299d,"['attempt', 'crash', 'telemetry', 'attept', 'crash', 'telemetry']",General,{'crash': 100}
+3f66cb5c591b8b4df18c9a46045edde09f61359c,"['security', 'issue', 'serialize', 'javascript', 'yarn', 'lock']",General,{'security': 100}
+9ea53681a5cebe2c72498dd0be2942c9e32e8a05,"['crash', 'version', 'reading']",General,{'crash': 100}
+35501431f88a4c84a074d4f1615df2014a86b287,"['binaryversion', 'crash', 'telemetry']",General,{'crash': 100}
+e0543a64c1ce0689ad3630db410905785616507f,"['seanmcm', 'insider', 'changelog', 'update', 'changelog', 'crash']",General,{'crash': 100}
+99b290513bfc1d95d24873aae0c0206698aac335,"['setting', 'webview', 'setting', 'usesettingsui', 'global', 'setting', 'json', 'content', 'security', 'policy', 'html', 'workbench', 'setting', 'othersettings', 'class', 'sync', 'json', 'file', 'function', 'open', 'setting', 'json', 'unnecesary', 'command', 'newline', 'value', 'property', 'html', 'element', 'html', 'value', 'typedef', 'code', 'styling', 'configdirty', 'flag', 'reset']",General,{'security': 100}
+8129ce337ed7ee44a60c58b49183a0a529fde32f,"['crash', 'address', 'issue', 'available']",General,{'crash': 100}
+95dd5386ed6e1dd627dafdba19dc6b0542d4a050,"['code', 'requirement', 'code', 'requirement', 'address', 'crash', 'telemetry']",General,{'crash': 100}
+4a8b143ce099fa980612f75e53098d416ebc65cf,"['crash', 'telemetry']",General,{'crash': 100}
+88e972489290404191862d1e3f09695a1117dda5,"['attempt', 'security', 'gulp']",General,{'security': 100}
+905041068f3433aa7c1445202f38f1e199958c14,"['guard', 'crash', 'configuration', 'processing']",General,{'crash': 100}
+7a39edaf65b74d1f2a95e823c4999afc932961f9,"['crash', 'client', 'module', 'temporary', 'name', 'switch', 'block', 'attempt', 'access', 'length']",General,{'crash': 100}

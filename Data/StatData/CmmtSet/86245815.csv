@@ -1,17 +1,83 @@
-sha,message,catetory,matched,labels
-8a3d7381adcc91f35826c7ea72e098963752c4ef,"['underruns', 'overrun', 'potential', 'correction', 'length', 'account']",Risky_resource_management,{'overrun': 100},
-cff5e6d6096823222118eb9a1c6ef6809929b80b,"['mergemaster', 'request', 'programator', 'mergemodule', 'music', 'deadlock']",Risky_resource_management,{'deadlock': 100},
-c005d064d54bc60a6840040f0c5ab2764f70bd22,"['mergerequest', 'deadlock', 'music', 'descriptor', 'object']",Risky_resource_management,{'deadlock': 100},
-946dcda0c6936d4cff926cdc59e45af44e6e7a7f,"['music', 'deadlock', 'object']",Risky_resource_management,{'deadlock': 100},
-13bd00fd3e1e6f5378f9523a10756df1e4ea1801,"['mergerequest', 'deadlock', 'music', 'object']",Risky_resource_management,{'deadlock': 100},
-c82562ce9469e807e65094d469b6bb0c23e73f8a,"['crash', 'swizzle', 'method', 'lookup', 'vector', 'shortcut']",Risky_resource_management,{'crash': 100},
-f59e46fdc5605a09775a4875046ef6241e63ffb6,"['error', 'crash']",Risky_resource_management,{'crash': 100},
-4979fc56c489d2881619f9f63036fc5a2d3416ca,"['thanks', 'failure', 'array', 'platform', 'christoph', 'interface', 'crash']",Risky_resource_management,{'crash': 100},
-7164c4992beaeb961f4261d1eddcdd7c53352840,"['freetype', 'python', 'reading', 'crash']",Risky_resource_management,{'crash': 100},
-00d52bfe7a331972d43443650e40186b5275e003,"['freetype', 'crash']",Risky_resource_management,{'crash': 100},
-2f053c411e23c87400ee2247879f6ec64138f6d1,"['module', 'crash', 'development']",Risky_resource_management,{'crash': 100},
-40ab90c3c74fd2ef5276529415e8e6d99809cc9b,"['window', 'surrogate', 'string', 'crash']",Risky_resource_management,{'crash': 100},
-9b263a2177666cd930c2c15c732fd3a70ff1f052,"['ffmpeg', 'compat', 'backwardexample', 'crash']",Risky_resource_management,{'crash': 100},
-884f0f54cf6be28d3ce7a08e5de2b034945873fd,"['fault', 'exception', 'crash']",Risky_resource_management,{'crash': 100},
-c1edbfdef8b9fa7fc00d9ebab9c26f4b6d609a39,"['exception', 'error', 'crash']",Risky_resource_management,{'crash': 100},
-d20e677227d1eb8b9c218c9677005d63adc1cf7a,"['surface', 'crash']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+694f0dd788dc411119ebd123252fa1a19ac2c522,"['pull', 'request', 'pygame', 'test', 'crash']",General,{'crash': 100}
+2faaa4418e733a8d2e5f5b8814eefb2bddca19c4,"['crash', 'reformat', 'test']",General,{'crash': 100}
+9565244dc612b4ab4e1fc02e75593ab36a9b5522,"['self', 'alpha', 'blits', 'blitter', 'slow', 'route', 'alpha', 'blitter', 'effect', 'self', 'blits', 'crash', 'version', 'good', 'reason']",General,{'crash': 100}
+41b023ae132cb5a0a7661c5ef68e2a4e3835f9f9,"['pull', 'request', 'ankith', 'patch', 'random', 'crash']",General,{'crash': 100}
+c31d5066184a9f6db2070c5cd8c81d108335820c,"['random', 'crash']",General,{'crash': 100}
+8a3d7381adcc91f35826c7ea72e098963752c4ef,"['test', 'account', 'potential', 'underruns', 'overrun', 'self', 'correction', 'actual', 'tick', 'length']",Risky_resource_management,{'overrun': 100}
+787b5b6f8f220bd0e5c8586556a3adbb2f2ff660,"['crash', 'pixel', 'differs', 'niels', 'thykier', 'niels', 'thykier']",General,{'crash': 100}
+60d0151421c6d62de47be9661c63221f139de229,"['pull', 'request', 'nthykier', 'crash', 'resize', 'ensure', 'flip', 'request', 'review']",General,{'crash': 100}
+28eb4bb8f944ff8b417869963b3ac69d848e207b,"['pull', 'request', 'nthykier', 'todo', 'test', 'crash']",General,{'crash': 100}
+dad2615a62d13d4c538b489daa0097ce924a9470,"['mouse', 'location', 'linux', 'crash', 'fault', 'video', 'subsystem', 'niels', 'thykier', 'niels', 'thykier']",General,{'crash': 100}
+468260b4f5d3d25274c3b09659863b2d79761daa,"['todo', 'test', 'crash', 'niels', 'thykier', 'niels', 'thykier']",General,{'crash': 100}
+5529174d71d6eae88c218621e784c8a1432022e7,"['pull', 'request', 'nthykier', 'malloc', 'check', 'malloc', 'error', 'memory', 'leak', 'error']",Risky_resource_management,{'memory leak': 100}
+d7e5a2cb30fd75d2b7a6c134814e94cd66abac3e,"['memory', 'leak', 'error', 'case', 'niels', 'thykier', 'niels', 'thykier']",Risky_resource_management,{'memory leak': 100}
+dcf64539a3a4af0eceecc9e9e2d5fb07d7df469f,"['mixer', 'leak', 'memory', 'realloc', 'common', 'faulty', 'code', 'pattern', 'realloc', 'form', 'realloc', 'occurs', 'realloc', 'memory', 'situation', 'case', 'realloc', 'return', 'null', 'concrete', 'situation', 'code', 'realloc', 'failure', 'attempt', 'dereference', 'null', 'pointer', 'niels', 'thykier', 'niels', 'thykier']",Risky_resource_management,{'null pointer': 100}
+2671052422acb79f81697c924ddd07ee35aa3638,"['pull', 'request', 'charlesej', 'font', 'memory', 'leak', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+5835268b81ce2759bd94ab7072c6f52581395392,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+1ea070e2e4108d32b11220956680fdb451710da3,"['pull', 'request', 'charlesej', 'memory', 'leak', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+372cfe13500582abb2c3c7b28d5bf6a415ef1d31,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+cff5e6d6096823222118eb9a1c6ef6809929b80b,"['pull', 'request', 'programator', 'master', 'deadlock', 'music', 'module']",Risky_resource_management,{'deadlock': 100}
+0a3c5caab8a64bad653d8b3ece83f5a593577a52,"['pull', 'request', 'charlesej', 'scrap', 'init', 'memory', 'leak', 'scrap', 'init', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+f468362075767e4b14d086d37e6af33bb5fb5343,"['deadlock', 'music', 'module', 'function', 'lock', 'function', 'pygame', 'lock', 'thread', 'aforementioned', 'function']",Risky_resource_management,{'deadlock': 100}
+aec598c973f075dbf65a8233a7d641f65e41fc31,"['scrap', 'init', 'memory', 'leak', 'scrap', 'init', 'memory', 'leak', 'scrap', 'test']",Risky_resource_management,{'memory leak': 100}
+24ba4cf8097e2ad1a5ef259415520bf7b5ebab14,"['zero', 'segmentation', 'fault', 'memory', 'leak', 'array', 'initialization']",Risky_resource_management,{'memory leak': 100}
+60625989db643a9ad29a366435ea05fe7fe51019,"['mask', 'index', 'segmentation', 'fault', 'indexerror', 'memory', 'leak', 'incorrect', 'exception', 'message', 'test', 'method', 'variable', 'name', 'error']",Risky_resource_management,{'memory leak': 100}
+58e2aca0e57a45dfd68b31ad049dbe62de21a071,"['pull', 'request', 'pygame', 'palette', 'crash', 'crash']",General,{'crash': 100}
+86172b6189149a2c39b2aa9098d33aeaa32f0753,"['pull', 'request', 'charlesej', 'line', 'memory', 'leak', 'memory', 'leak', 'drawing', 'line', 'width']",Risky_resource_management,{'memory leak': 100}
+2af752babeec6b3d26c118c16c6d68c33ecf378e,['crash'],General,{'crash': 100}
+317b9d7d3915ba253c43cb6771c7f675794d8309,"['memory', 'leak', 'drawing', 'line', 'width']",Risky_resource_management,{'memory leak': 100}
+7e633530f516a14d2252f3d0e664e0321e934e1e,"['small', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+e77dec586ad18f5e246af847b181d5ea3651bf98,"['pull', 'request', 'dlon', 'freetype', 'leak', 'freetype', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+c005d064d54bc60a6840040f0c5ab2764f70bd22,"['pull', 'request', 'dlon', 'deadlock', 'file', 'music', 'file', 'file', 'descriptor']",Risky_resource_management,{'deadlock': 100}
+0632e4fe2048ad30d61519c9f34b8c3e7ed96f29,"['freetype', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+13bd00fd3e1e6f5378f9523a10756df1e4ea1801,"['pull', 'request', 'dlon', 'deadlock', 'music', 'file', 'object']",Risky_resource_management,{'deadlock': 100}
+ccc9beba8fc8ae7e7e7a917693aedb365569a56c,"['file', 'descriptor', 'chance', 'deadlock']",Risky_resource_management,{'deadlock': 100}
+af2e2c17d64455bbf35450b9a8aee7c9d679aa0f,"['file', 'object', 'deadlock', 'python', 'release']",Risky_resource_management,{'deadlock': 100}
+208bac51294177d0acfdfbd72db589b95199ec67,"['pull', 'request', 'pygame', 'issue', 'scale', 'crash', 'transform', 'scale', 'crash', 'zero']",General,{'crash': 100}
+8f0d99d0eeb1cc2c48e755f1a8f1962af35c4861,"['transform', 'scale', 'crash', 'zero']",General,{'crash': 100}
+400557987d925577aa9b15cf6252eb2630341d5a,"['modernize', 'surflock', 'test', 'code', 'surflock', 'function', 'declaration', 'parameter', 'name', 'null', 'null', 'pointer', 'value', 'informative']",Risky_resource_management,{'null pointer': 100}
+00f54c57a96a78cf5db06c439c62093d93efc02f,"['modernize', 'color', 'test', 'code', 'color', 'python', 'conditional', 'code', 'color', 'function', 'declaration', 'parameter', 'name', 'null', 'null', 'pointer', 'value', 'informative', 'python', 'exception', 'problem', 'failxxx', 'test', 'case', 'method', 'equivalent', 'assertxxx']",Risky_resource_management,{'null pointer': 100}
+29721701a66dfc47a70c2b16563271e8ed4b52b5,"['modernize', 'color', 'test', 'code', 'color', 'python', 'conditional', 'code', 'color', 'function', 'declaration', 'parameter', 'name', 'null', 'null', 'pointer', 'value', 'informative', 'python', 'exception', 'problem', 'failxxx', 'test', 'case', 'method', 'equivalent', 'assertxxx']",Risky_resource_management,{'null pointer': 100}
+c82562ce9469e807e65094d469b6bb0c23e73f8a,"['vector', 'method', 'lookup', 'swizzle', 'shortcut', 'crash', 'window']",General,{'crash': 100}
+ce69abddbdfe7b30c9d7b28c666ef414eb35a46c,"['pixelarray', 'memory', 'leak', 'multiple', 'index', 'problem', 'subscript', 'array', 'array', 'array', 'subscript', 'assignment', 'array', 'element', 'sequence', 'array', 'slice', 'email', 'message', 'http', 'archive', 'pygame', 'user', 'seul', 'html', 'thanks', 'mari']",Risky_resource_management,{'memory leak': 100}
+e26f569b1f3e28d935327b7dfc4cb10e722a9d09,"['issue', 'issue', 'memory', 'overrun', 'text', 'fractional', 'bottom', 'difference', 'line', 'bottom', 'pixel', 'boundary', 'negative', 'number', 'bottom', 'surface', 'overwrote', 'invalid', 'memory', 'problem', 'problem', 'underline', 'thickness', 'value']",Risky_resource_management,{'overrun': 100}
+f59e46fdc5605a09775a4875046ef6241e63ffb6,"['crash', 'error']",General,{'crash': 100}
+df66330e8ca395cdd3958b62678a0bb7db4e2fa0,"['cpychecker', 'warning', 'pixelarray', 'issue', 'pixelarray', 'clear', 'false', 'memory', 'leak', 'warning', 'self', 'dict', 'memory', 'leak', 'spurious', 'warning', 'clean', 'switch', 'statement']",Risky_resource_management,{'memory leak': 100}
+014327f6dd13959787a0fb9aab748bc178f2d34b,"['cpychecker', 'imageext', 'font', 'memory', 'leak', 'python', 'exception', 'possible', 'undefined', 'variable', 'rgba', 'false', 'positive', 'variable', 'rgba', 'safe', 'practice']",Risky_resource_management,{'memory leak': 100}
+e6b43515e00143b475c049ecc167870ebdef22aa,"['changeset', 'cacec', 'issue', 'changeset', 'cacec', 'changeset', 'address', 'problem', 'pygame', 'changeset', 'main', 'declaration', 'file', 'import', 'pygame', 'pygame', 'extern', 'source', 'file', 'source', 'file', 'python', 'level', 'interface', 'import', 'pygame', 'module', 'apis', 'freetype', 'source', 'file', 'freetype', 'subdirectory', 'access', 'pygame', 'pygame', 'pointer', 'array', 'file', 'copy', 'array', 'array', 'local', 'undefined', 'pointer', 'file', 'exception', 'surface', 'width', 'height', 'value', 'large', 'changeset', 'cacec', 'null', 'pointer', 'entry', 'python', 'exception', 'null', 'object', 'exception', 'python', 'systemerror', 'result']",Risky_resource_management,{'null pointer': 100}
+43f30bc6bdccbe55145409c4ab91c2e71c2d5c8b,"['memory', 'overrun', 'lead', 'output', 'buffer', 'guard', 'simular', 'memory', 'access', 'violation']",Risky_resource_management,{'overrun': 100}
+0b1f7f129971a8175e8f28640f2cb381ea7199a2,"['pygame', 'surface', 'unit', 'test', 'flag', 'crash', 'bufferproxy', 'object', 'ndim', 'buffer', 'kind', 'lead', 'crash']",General,{'crash': 100}
+c156e120b548a713714b1197e8610cee11995f2c,"['memory', 'leak', 'thanks', 'christopher', 'night', 'method', 'cobject', 'capsule', 'view']",Risky_resource_management,{'memory leak': 100}
+a1ce76ca94709274bd2bb6c048fc4cb469db9eea,"['memory', 'leak', 'file', 'imageext', 'function', 'thanks', 'winston', 'ewert', 'patch', 'thanks', 'jonathan', 'berry', 'marco', 'lettere', 'work']",Risky_resource_management,{'memory leak': 100}
+53bde75dbc2ad9f9b9325d0477daddbb2f471623,"['buffer', 'overflow', 'thanks', 'knight']",Risky_resource_management,{'buffer overflow': 100}
+4979fc56c489d2881619f9f63036fc5a2d3416ca,"['array', 'interface', 'crash', 'test', 'failure', 'platform', 'thanks', 'christoph', 'gohlke']",General,{'crash': 100}
+acc9333407017a65e452594889f9afb7d228b048,"['personal', 'style', 'preference', 'block', 'body', 'condition', 'direct', 'value', 'check', 'function', 'return', 'binary', 'state', 'success', 'null', 'null', 'pointer', 'literal', 'null', 'pointer', 'value', 'time', 'cpython', 'source', 'initialize', 'pytypeobject', 'slot', 'dictobject', 'example']",Risky_resource_management,{'null pointer': 100}
+7164c4992beaeb961f4261d1eddcdd7c53352840,"['compatibility', 'font', 'font', 'freetype', 'font', 'crash', 'python', 'reading', 'open', 'python', 'file']",General,{'crash': 100}
+2f053c411e23c87400ee2247879f6ec64138f6d1,"['development', 'unit', 'test', 'module', 'crash']",General,{'crash': 100}
+9f772cdec618351363c550d7ad794574876a6d4a,"['groupsingle', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+15d3afaf27924e191bd8331f01100ca4b08f35d2,"['groupsingle', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+40ab90c3c74fd2ef5276529415e8e6d99809cc9b,"['pygame', 'freetype', 'surrogate', 'decode', 'null', 'string', 'problem', 'font', 'crash', 'window']",General,{'crash': 100}
+9c4ce29397ca79de1485fad5c92a458acf3d6b5f,"['rwobject', 'memory', 'leak', 'raising', 'memory', 'error']",Risky_resource_management,{'memory leak': 100}
+9b263a2177666cd930c2c15c732fd3a70ff1f052,"['modification', 'backward', 'compat', 'ffmpeg', 'library', 'example', 'script', 'crash', 'laptop', 'test', 'desktop']",General,{'crash': 100}
+314463e4bf5ccb0b06ef23eec732e4b1dca50f23,"['memory', 'leak', 'module', 'thanks', 'lorenz', 'quack']",Risky_resource_management,{'memory leak': 100}
+2878fb0afb819a8ce4ee9d4b1598d11983e06940,"['possible', 'memory', 'leak', 'comment', 'return', 'value']",Risky_resource_management,{'memory leak': 100}
+0a92d616ef07f74a9a3251465da1f13e9fe0f59b,"['init', 'function', 'minor', 'python', 'memory', 'leak', 'clean', 'indentation']",Risky_resource_management,{'memory leak': 100}
+e25555a22a466d0fd6a02f8f0a1cabb61fa5f209,"['crash', 'smpeg', 'debian', 'linux', 'unit', 'test', 'warning']",General,{'crash': 100}
+68fcf48ce6f29927e2867f5eb6f23f4b084e44ed,"['adapt', 'overlay', 'python', 'crash']",General,{'crash': 100}
+733c30d3b5c8e6a9d9fd8ad839bd93f857bdce49,"['memory', 'leak', 'patch', 'campbell', 'barton']",Risky_resource_management,{'memory leak': 100}
+f1bd9d4b50244982af5a0ac171c02647ce8f7e26,"['campbell', 'barton', 'patch', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+3009ecd7fae2492a3701ef98b79d312d93bc1f51,"['memory', 'leak', 'patch', 'campbell', 'barton']",Risky_resource_management,{'memory leak': 100}
+ce2f7524bcf95873fd9150003664510465640f71,"['memory', 'leak', 'mask']",Risky_resource_management,{'memory leak': 100}
+231daed42b2a294c477874738f0123009bbfb854,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+78a88bb12874f33b042e16621bf85930c80d04dc,"['memory', 'leak', 'pixelarray']",Risky_resource_management,{'memory leak': 100}
+884f0f54cf6be28d3ce7a08e5de2b034945873fd,"['segmentation', 'fault', 'crash', 'exception', 'segmentation', 'fault']",General,{'crash': 100}
+c1edbfdef8b9fa7fc00d9ebab9c26f4b6d609a39,"['crash', 'error', 'jpeg']",General,{'crash': 100}
+4688382843a7159917fc48a52cefac5c860c8edf,"['possible', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+62f96d7671d2474ed3efda2750100a5e9abac913,"['null', 'pointer', 'segfault', 'screen', 'surface', 'brian']",Risky_resource_management,{'null pointer': 100}
+eaee42062fe2247fdd604289fda44175f6e5a08e,"['file', 'display', 'test', 'crash', 'window', 'test', 'thread', 'whereas', 'main', 'thread']",General,{'crash': 100}
+d0d64bce5e99b5d6dc12b3f18ad62ee26df0bffb,"['negative', 'rects', 'crash']",General,{'crash': 100}
+53a337d029eb816e54d47b0017dfced8251bc7bb,"['memory', 'leak', 'rect', 'wreschnig']",Risky_resource_management,{'memory leak': 100}
+4cd14ab0d96c646f57ffcb90c9b00a9cbd6f4d78,"['icon', 'crash', 'display', 'patch', 'wreschnig']",General,{'crash': 100}
+a02bf676403f148b2f4f78b60e7f58c9dd0434b7,"['extensible', 'package', 'data', 'acquisition', 'system', 'pkgdata', 'pkgdata', 'display', 'font', 'macosx', 'cosmetic', 'display', 'font', 'potential', 'crash', 'default', 'font', 'specific', 'example', 'directory', 'example', 'macosx', 'experimental', 'sysfont', 'sort', 'thing', 'example', 'macosx', 'macfont', 'standalone', 'application', 'pkgdata', 'system', 'bundlebuilder', 'example', 'macosx']",General,{'crash': 100}
+d20e677227d1eb8b9c218c9677005d63adc1cf7a,"['surface', 'crash', 'display']",General,{'crash': 100}

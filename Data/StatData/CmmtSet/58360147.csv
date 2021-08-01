@@ -1,3 +1,7 @@
-sha,message,catetory,matched,labels
-a3b73d87b9fd657cf11b08647e3d1363c20d1236,"['security', 'problem', 'policy', 'content']",General,{'security': 100},
-129dd25388a5b282057c9680d0fa748e9f332f03,"['crash', 'runtime', 'transformer']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+a3b73d87b9fd657cf11b08647e3d1363c20d1236,"['content', 'security', 'policy', 'problem', 'eval']",General,{'security': 100}
+e76148cfac972716fe3cc64ca8d718d881850a15,"['pull', 'request', 'javascript', 'obfuscator', 'memory', 'leak', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+e4ca9f774bffb504b3d6cbbdc21a1ce334dc81c7,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+519ecbf0847f0914c325d0db3a1974ede2c27482,"['esprima', 'crash']",General,{'crash': 100}
+129dd25388a5b282057c9680d0fa748e9f332f03,"['temp', 'workaround', 'runtime', 'crash', 'node', 'transformer']",General,{'crash': 100}
+ff3d49ece61613306d7444c668121150c5c43712,"['crash', 'template', 'custom', 'node']",General,{'crash': 100}

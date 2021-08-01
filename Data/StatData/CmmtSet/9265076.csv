@@ -1,16 +1,18 @@
-sha,message,catetory,matched,labels
-b6351f9c967b53977821ce202c13620118a2d55c,"['virtual', 'reference', 'invoke', 'facebook', 'android', 'attempt', 'object', 'crash', 'method']",Risky_resource_management,{'crash': 100},
-b91bd786d72efedb85a636091a1154a47206d5af,"['crashlytics', 'crash']",Risky_resource_management,{'crash': 100},
-17f5a7f179c381dd1476061f2b07ab242be8ad95,"['requesteddyverbruggen', 'phonegap', 'plugin', 'crash']",Risky_resource_management,{'crash': 100},
-22f8ec4e6d00d2fba0723a9b22c59e28b00f81a8,"['eddyverbruggen', 'phonegap', 'plugin', 'crash']",Risky_resource_management,{'crash': 100},
-0f66687677ddbcc8cc52a020248c383d4fe81d44,"['mergecesarak', 'library', 'request', 'issue', 'usageshare', 'image', 'issue', 'crash']",Risky_resource_management,{'crash': 100},
-819361c16ea919a79795d3c85af276ddce0883da,"['mergejohny', 'master', 'android', 'shareviaemail', 'crash', 'method']",Risky_resource_management,{'crash': 100},
-f3f29232f4b3d4d49ab2f029ab50505c4cf577b0,"['android', 'shareviaemail', 'crash', 'android', 'shareviaemail', 'crash', 'methodmessage', 'restrictivedosendintent', 'fileuri', 'latterduplicate', 'correction', 'shareviaemail', 'dosendintent', 'methodandroid', 'shareviaemail', 'galaxy', 'method', 'pixel']",Risky_resource_management,{'crash': 100},
-5b816500f68cae5c43431c038cb57a3a4d9ddf73,"['instagram', 'crash']",Risky_resource_management,{'crash': 100},
-d89b1de1982cc2acff530f06e9ddf0f6d35c9eab,"['instagram', 'crash']",Risky_resource_management,{'crash': 100},
-09545f539167ccff8741aabf9746ba8eee351532,"['android', 'crash']",Risky_resource_management,{'crash': 100},
-809c72f8a9b09789e52ffc61dba5cfc313e6543d,"['topic', 'setting', 'crash']",Risky_resource_management,{'crash': 100},
-eca32025521013f5d2a5aecb94147e3ae5005311,"['dkaoster', 'insecure', 'warning']",General,{'insecure': 100},
-5ff56cc2b954a53adffdc3fa31110ffa20cc84fb,"['insecure', 'warning']",General,{'insecure': 100},
-55c91408a5e37da4153bb34bce57a6dfc3c2c04b,"['express', 'issue', 'security', 'version']",General,{'security': 100},
-7ddb602460df1bf474d190655fde3bfdb0fa6a79,"['mergegravatar', 'crash']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+809c72f8a9b09789e52ffc61dba5cfc313e6543d,"['crash', 'setting', 'undefined', 'link', 'topic']",General,{'crash': 100}
+eca32025521013f5d2a5aecb94147e3ae5005311,"['insecure', 'warning']",General,{'insecure': 100}
+5ff56cc2b954a53adffdc3fa31110ffa20cc84fb,"['insecure', 'warning', 'page']",General,{'insecure': 100}
+55c91408a5e37da4153bb34bce57a6dfc3c2c04b,"['express', 'version', 'security', 'issue']",General,{'security': 100}
+d0edc5e4c0c4d002916d91459da44efbf91af658,"['pull', 'request', 'democracyos', 'http', 'crash', 'http', 'mode']",General,{'crash': 100}
+7ddb602460df1bf474d190655fde3bfdb0fa6a79,"['http', 'crash', 'gravatar', 'http']",General,{'crash': 100}
+38b0597b294c7752cfaacd82e387ed3dea2e02d2,"['variable', 'redefinition', 'crash', 'http', 'mode']",General,{'crash': 100}
+a25d9fe8061d1e5b3841560e7c08b2269a82d857,"['setting', 'notification', 'show', 'notify', 'reply', 'argument', 'notification', 'toggle', 'citizen', 'preference']",Insecure_interaction_between_components,{'argument notification': 90}
+5d143e82d8e506ea919af100cfb35fce87a2b938,"['setting', 'notification', 'show', 'notify', 'reply', 'argument', 'notification', 'toggle', 'citizen', 'preference']",Insecure_interaction_between_components,{'argument notification': 90}
+5f21bb61f4c7d6a994a77a3cdc4075f816704ffe,"['setting', 'notification', 'show', 'notify', 'reply', 'argument', 'notification', 'toggle', 'citizen', 'preference']",Insecure_interaction_between_components,{'argument notification': 90}
+cf98f3ce8f30bb37b927251340dbfe64ecf0e05b,"['setting', 'notification', 'show', 'notify', 'reply', 'argument', 'notification', 'toggle', 'citizen', 'preference']",Insecure_interaction_between_components,{'argument notification': 90}
+2ee140acaf84effaccc25179f771eeb901be0fc0,"['setting', 'notification', 'show', 'notify', 'reply', 'argument', 'notification', 'toggle', 'citizen', 'preference']",Insecure_interaction_between_components,{'argument notification': 90}
+c70b6db351e0127c5b243f957b4a356b30e2d31f,"['setting', 'notification', 'show', 'notify', 'reply', 'argument', 'notification', 'toggle', 'citizen', 'preference']",Insecure_interaction_between_components,{'argument notification': 90}
+781e249e4eb7a0c6b95e7cfede34c1cb25cfde0a,"['csrf', 'protection']",Insecure_interaction_between_components,{'csrf': 100}
+782ad8a694e6aa2877f13f0cef84f115046ab409,"['setting', 'csrf', 'request', 'header', 'function']",Insecure_interaction_between_components,{'csrf': 100}
+fa143bcfe4c44668240b4a78d38fb869223415db,"['express', 'csrf', 'middleware', 'register', 'global', 'variable', 'template']",Insecure_interaction_between_components,{'csrf': 100}
+5ad30bcd6d4ae44ec73358db06faab87dbd57117,"['deps', 'installation', 'crash']",General,{'crash': 100}

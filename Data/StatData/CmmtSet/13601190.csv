@@ -1,4 +1,8 @@
-sha,message,catetory,matched,labels
-79fc9631ffa29146e3124ceaf99879b92e1ef24b,"['security', 'login', 'issue']",General,{'security': 100},
-24cb175bb6a42afc362a2705f88e0d71fd083edd,"['check', 'backend', 'security']",General,{'security': 100},
-96b04ac382c949f7e7607b1fbf10bda358b46376,"['cleanup', 'improvement', 'security']",General,{'security': 100},
+sha,message,catetory,matched
+4e790c7c3b60656a088ea32e3cf698e9d891f5d7,"['rename', 'csfr', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+f024ee64356d2bb0fbde1a8fbf4ba991fa889c9b,"['pull', 'request', 'raruto', 'csrf', 'rename', 'csfr', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+d4b41c9ceff09a738b0eac2ff3bf149d6f43e6dd,"['rename', 'csfr', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+79fc9631ffa29146e3124ceaf99879b92e1ef24b,"['possible', 'security', 'issue', 'login']",General,{'security': 100}
+77fb722e53e42a7b42f1ef5d899bcac970f6ac69,"['csrf', 'protection', 'login', 'form']",Insecure_interaction_between_components,{'csrf': 100}
+24cb175bb6a42afc362a2705f88e0d71fd083edd,"['security', 'check', 'backend']",General,{'security': 100}
+96b04ac382c949f7e7607b1fbf10bda358b46376,"['cleanup', 'security', 'improvement']",General,{'security': 100}

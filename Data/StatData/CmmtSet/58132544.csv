@@ -1,48 +1,125 @@
-sha,message,catetory,matched,labels
-176d5cfe44bdd02aa55f3a8543fa2d7269f94493,"['support', 'llapi', 'stopwordssupport', 'llapi', 'stopwordsclangprevent', 'place', 'crash', 'emptyenhancetoken', 'stopwordsreviewproperoption', 'stopwordsreview']",Risky_resource_management,{'crash': 100},
-521044b1864372fe87752f8e30bfd3f186f2db57,"['llapi', 'finalize', 'crash']",Risky_resource_management,{'crash': 100},
-e071d47fbfd523ac4001d7c03708e178d2a90a72,"['lastdocid', 'check', 'docidlastdocid', 'check', 'docidreproduce', 'crash']",Risky_resource_management,{'crash': 100},
-1ca607745765122d67d75478645f9a7fe4034faa,"['issue', 'reducer', 'value', 'exists', 'crash']",Risky_resource_management,{'crash': 100},
-351029cb1663852b665d13f721bd13370d0fecf7,"['iterator', 'union', 'crash', 'empty']",Risky_resource_management,{'crash': 100},
-b41dd1805f441cc8fc9b87e43f432012f622c29e,"['return', 'error', 'crash', 'config']",Risky_resource_management,{'crash': 100},
-428449ccd99016a541e362030f077f68b109350a,"['redismock', 'improvementfunction', 'utility', 'various', 'callreplydestruction', 'crash', 'ensure']",Risky_resource_management,{'crash': 100},
-ebb663540077b7befef4ab2bad7ce138d7b73279,"['conversion', 'error', 'field', 'crash', 'freeingfield']",Risky_resource_management,{'crash': 100},
-a1a06bc2ae9728a0955f04a83c483016b6675a10,"['aggregation', 'expression', 'absent', 'property', 'value', 'crash']",Risky_resource_management,{'crash': 100},
-4a1fb6fe3564d244c63e35f505d3b559eb9caf80,"['iterator', 'optional', 'index', 'crash', 'empty']",Risky_resource_management,{'crash': 100},
-5d94201c62e14110e491a220c5a8ba0d3345dc13,"['unioniterator', 'crash']",Risky_resource_management,{'crash': 100},
-f934ca676448cd2cf78d53736d40d38665a1a2c1,"['available', 'crash']",Risky_resource_management,{'crash': 100},
-fbc5b38e7cf1f821d46c4f7431aea8b7eb8c4a5e,"['sugget', 'argument', 'array', 'argparse', 'overrun']",Risky_resource_management,{'overrun': 100},
-7fde1603e92cf897736e38f7e889b52350bd5f58,"['mergemerge', 'stopword', 'crash', 'requeststopwords', 'search', 'crash', 'potential']",Risky_resource_management,{'crash': 100},
-e557d1b61ca2c5c67067c9c30962d0f949fb6586,"['stopwords', 'search', 'crash', 'potential']",Risky_resource_management,{'crash': 100},
-a79a37d507cc8c91de8579362c7de60fc20680f1,"['crash', 'groupbysortby', 'limit', 'message', 'error']",Risky_resource_management,{'crash': 100},
-73790c00c59bc7572ba0aa0178e8b2ff295602e2,"['search', 'crash']",Risky_resource_management,{'crash': 100},
-e6403b66fc67a973d71b506fabc45baac4695442,"['wrong', 'command', 'search', 'arity', 'crash']",Risky_resource_management,{'crash': 100},
-fd991b365dde72574c94b1f44acb93dd56b50720,"['string', 'crash', 'formatter']",Risky_resource_management,{'crash': 100},
-4db0154d539a3edb9e9a79aabb168f0f22d9d9b4,"['member', 'deref', 'fieldmatch', 'nosave', 'crash', 'otherwisecontent']",Risky_resource_management,{'crash': 100},
-22baac5ad0a007686f71399afc12bcf9ff9c0e7d,"['sizeof', 'malloc', 'crash']",Risky_resource_management,{'crash': 100},
-941f18246daf747953d52f13020840e7a8be3c09,"['number', 'check', 'sortkeysortkey', 'manifest', 'crash']",Risky_resource_management,{'crash': 100},
-a3a18857f7bcdc920706f7555d77d3ef07c7ab02,"['argument', 'nargs', 'return', 'crash']",Risky_resource_management,{'crash': 100},
-fdb5714a4479d9f29b6d7d351d38865692755a20,"['highlighter', 'length', 'faulty', 'estimation', 'crash', 'ensuretokenization', 'length', 'default', 'whitespacehighlightedchinese', 'languageevent', 'language', 'directive', 'howeversituation', 'overlap', 'length', 'currentlength', 'search', 'redis']",Risky_resource_management,{'crash': 100},
-df92f5d03b48cd6841dc54265b15903479c07a05,"['crash', 'potential']",Risky_resource_management,{'crash': 100},
-df550e1e83f09c9fe76bc57cead27526753d4a7e,"['number', 'unsignedsmaller', 'current', 'number', 'storeoverflow', 'previousleast', 'crash']",Risky_resource_management,{'crash': 100},
-202e3da236e4379d9f1bacbe19dcc0b54d1dc820,"['vector', 'noofsets', 'crash', 'writer']",Risky_resource_management,{'crash': 100},
-cffe0fddc369950f8a37936d69a4a3291e8ef20b,"['clause', 'union', 'multiple', 'crash']",Risky_resource_management,{'crash': 100},
-198ffcbc3f732ba58bdc4a672d484b98e7364a6e,"['iterator', 'intersect', 'crash', 'potential']",Risky_resource_management,{'crash': 100},
-206d31de6ccc5e40d43994f5a85fd92b7eafef4b,"['present', 'crash', 'field']",Risky_resource_management,{'crash': 100},
-0570b11cce6ed93b6f041cd72570b30d89423cdf,"['issue', 'crash', 'field']",Risky_resource_management,{'crash': 100},
-f01e1a3cdccb8e83c034b6d1fec4b2d5a2ffc1cd,"['issue', 'revert', 'crash', 'fieldcommit', 'revertscommit']",Risky_resource_management,{'crash': 100},
-dd89ee08aaa8d0d5bc2bbfc5674a887af132df41,"['issue', 'crash', 'field']",Risky_resource_management,{'crash': 100},
-09f52de7f583f23f450aaef84c8f142724126207,"['table', 'crash']",Risky_resource_management,{'crash': 100},
-6a374fe3bf8c1b26c17a20c25eee9a7e7090f5e3,"['modifier', 'search', 'prefix', 'crash', 'field']",Risky_resource_management,{'crash': 100},
-8c7251befc64acbf420dfeb025df70f7a17556a9,"['incompatible', 'version', 'crash', 'redis']",Risky_resource_management,{'crash': 100},
-957e6756e95a202163862f5b1f9ce37f6e4518b8,"['incompatible', 'version', 'crash', 'redis']",Risky_resource_management,{'crash': 100},
-da06c265076b90fbc451f6d37802fd4909e7fd38,"['mergemerge', 'patch', 'possible', 'realloc', 'depth', 'crash']",Risky_resource_management,{'crash': 100},
-1d49b9eecbbd1aec42dc9469c6adf9419a1706dc,"['possible', 'realloc', 'depth', 'crash']",Risky_resource_management,{'crash': 100},
-583b1a6d1fdd391dddf864ba0dd9cf262933c893,"['crash', 'potential']",Risky_resource_management,{'crash': 100},
-021fb32226f249b4ed99b8e2db33125a60525425,"['possible', 'table', 'memory', 'prefix', 'expansion', 'couplequery', 'expression', 'numeric', 'syntaxragel', 'tokenizeingpassingrebasetoken', 'propermessage', 'assertion', 'errortoken', 'number', 'token', 'strndupmodifier', 'memoryfilter', 'numeric', 'numeric', 'filter', 'crash', 'potentialmodifierquery', 'memorybreak', 'syntax', 'errorallocate', 'memory', 'query']",Risky_resource_management,{'crash': 100},
-ab99ee28cf43cca00267b223f9992356cf09bed7,"['possible', 'table', 'memory', 'prefix', 'expansion', 'crash']",Risky_resource_management,{'crash': 100},
-dc0364e6c1d226167cb6dd7154dae958293c15fd,"['numeric', 'range', 'crash']",Risky_resource_management,{'crash': 100},
-7c33b073552a89ea1a312684441df8f2544fd1ac,"['modifier', 'crash']",Risky_resource_management,{'crash': 100},
-6a6728e094f159507102b9c89ce81ea6e75d026e,"['token', 'bugfix', 'existent', 'crash', 'potential']",Risky_resource_management,{'crash': 100},
-d50e233156debe16007a98692962b5d21dd0e053,"['metadata', 'crash']",Risky_resource_management,{'crash': 100},
-f0d70da3464514b5c25735aecbaad597b5bc21ea,"['query', 'processing', 'crash']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+c60e14456a33612c733b1efc1bf047e4490e3d43,"['crash', 'coordinator', 'value', 'reducer']",General,{'crash': 100}
+176d5cfe44bdd02aa55f3a8543fa2d7269f94493,"['stopwords', 'list', 'support', 'stopwords', 'list', 'support', 'llapi', 'clang', 'place', 'empty', 'list', 'drop', 'crash', 'enhance', 'test', 'token', 'node', 'stopwords', 'list', 'meir', 'review', 'proper', 'test', 'copy', 'stopwords', 'option', 'meir', 'review']",General,{'crash': 100}
+521044b1864372fe87752f8e30bfd3f186f2db57,"['crash', 'finalize']",General,{'crash': 100}
+f2ebe8001d347d892e7176ada154727270cb85d9,"['numeric', 'range', 'parent', 'node', 'float', 'optimization', 'range', 'parent', 'float', 'encoder', 'test', 'benchmark', 'cleanup', 'test', 'return', 'optimization', 'balance', 'range', 'rstest', 'concurrentmode', 'test', 'config', 'param', 'boolean', 'snob', 'config', 'param', 'concurrent', 'protection', 'pipleline', 'rebalance', 'node', 'range', 'test', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+11a6218102008a092141f128299304450dc4fa25,['crash'],General,{'crash': 100}
+0ac5f6ba6f8ef97549c4bf6d9af8f573a2f895a1,"['support', 'reading', 'legacy', 'legacy', 'index', 'support', 'reading', 'legacy', 'legacy', 'index', 'test', 'failure', 'memory', 'leak', 'review', 'upgrade', 'config', 'test', 'exists', 'index', 'configuration', 'legacy', 'load', 'synonym', 'table', 'small', 'update', 'update', 'upgrade', 'document', 'update', 'update', 'update', 'itamar', 'haber', 'itamar', 'redislabs', 'update', 'itamar', 'haber', 'itamar', 'redislabs', 'update', 'itamar', 'haber', 'itamar', 'redislabs', 'update', 'itamar', 'haber', 'itamar', 'redislabs', 'update', 'itamar', 'haber', 'itamar', 'redislabs', 'update', 'itamar', 'haber', 'itamar', 'redislabs', 'update', 'itamar', 'haber', 'itamar', 'redislabs', 'update', 'itamar', 'haber', 'itamar', 'redislabs', 'update', 'itamar', 'haber', 'itamar', 'redislabs', 'update', 'itamar', 'haber', 'itamar', 'redislabs', 'pieter', 'cailliau', 'pieter', 'cailliau', 'gmail', 'itamar', 'haber', 'itamar', 'redislabs']",Risky_resource_management,{'memory leak': 100}
+e071d47fbfd523ac4001d7c03708e178d2a90a72,"['check', 'docid', 'lastdocid', 'check', 'docid', 'lastdocid', 'reproduce', 'crash', 'test']",General,{'crash': 100}
+ea92f0ebc9e37919d6586f8d866922b71e5bb3f7,"['leak', 'rlookup', 'clean', 'safectx', 'destructor', 'free', 'submit', 'original', 'free', 'prefix', 'node', 'memory', 'leak', 'conflict', 'meir', 'redislabs', 'meir', 'redislabs']",Risky_resource_management,{'memory leak': 100}
+1ca607745765122d67d75478645f9a7fe4034faa,"['issue', 'reducer', 'crash', 'value', 'exists']",General,{'crash': 100}
+2b6aaba5979cb954d43aed188775c49e5ccb0191,"['memory', 'leak', 'search', 'pointer', 'owner', 'memory', 'leak', 'search', 'pointer', 'ownership', 'test', 'review']",Risky_resource_management,{'memory leak': 100}
+351029cb1663852b665d13f721bd13370d0fecf7,"['crash', 'empty', 'iterator', 'union', 'iterator']",General,{'crash': 100}
+a9b0a50cf1227e44cdb78421147bc741377ee0b1,"['code', 'crash', 'error', 'memory', 'leak', 'code', 'leak', 'shouldfreeraw', 'string', 'memory', 'leak', 'date', 'error', 'success', 'error', 'message', 'coverage', 'parallel', 'string', 'math', 'expression', 'return', 'parallel', 'coverage', 'self', 'review', 'comment', 'expression', 'error', 'array', 'value', 'format', 'additional', 'response', 'tact']",Risky_resource_management,{'memory leak': 100}
+d55f73610b30e53b89159e1ff5ecd728be863e9a,"['pull', 'request', 'redisearch', 'asan', 'memory', 'leak', 'corruptin']",Risky_resource_management,{'memory leak': 100}
+ee4e1ee1be5ca0547c2e44f3ee29b6e8a3db9fb8,"['pull', 'request', 'redisearch', 'crash', 'table']",General,{'crash': 100}
+b41dd1805f441cc8fc9b87e43f432012f622c29e,"['crash', 'config', 'return', 'error']",General,{'crash': 100}
+83d1de65901035482c32f7a72d5f7fb71fc4f64b,"['test', 'failure', 'robust', 'test', 'data', 'race', 'synchronization', 'issue', 'active', 'index', 'catch', 'issue', 'frequency', 'execution', 'case', 'interval', 'stall', 'test']",Risky_resource_management,{'data race': 100}
+89ce3bdabf20f40e602027f3103169d9c5e5b1b9,"['threadsanitizer', 'data', 'race', 'detection']",Risky_resource_management,{'data race': 100}
+ce6a9a401ce1b666b6c68376a13a88029924dce7,"['crash', 'test']",General,{'crash': 100}
+2a1158c4a7c633a3d7d3558f2cfbc9e418587d97,"['crash', 'table']",General,{'crash': 100}
+b480f7e202bb026c852477ced21fd0407bd51ec4,"['crash', 'numeric', 'filter', 'crash', 'numeric', 'filter', 'review']",General,{'crash': 100}
+428449ccd99016a541e362030f077f68b109350a,"['redismock', 'improvement', 'rmck', 'hset', 'rmck', 'flushdb', 'utility', 'function', 'function', 'crash', 'destruction', 'ensure', 'global', 'dtor']",General,{'crash': 100}
+36a0d8b1c0e2a5a69cd8b11c3ddc5a5541c85c7b,"['misc', 'function', 'spec', 'keyless', 'redis', 'keyspace', 'static', 'library', 'name', 'libredisearch', 'memory', 'leak', 'newbuffer', 'function', 'test', 'source', 'leak', 'function', 'retrieve', 'type', 'iterator', 'function', 'redismock', 'leak', 'automemory', 'leak', 'index', 'iterators', 'fixup', 'leak', 'free', 'rlookup', 'name', 'global', 'module', 'cleanup', 'function', 'completion', 'avert', 'memory', 'leak', 'iterators', 'term', 'memory']",Risky_resource_management,{'memory leak': 100}
+b790eebc035a0f747819c63fcac546bd79ddd553,"['pull', 'request', 'redisearch', 'crash', 'load']",General,{'crash': 100}
+403c0319eda2b6ffe71741b2a99c0d70512eeca2,"['crash', 'load']",General,{'crash': 100}
+ebb663540077b7befef4ab2bad7ce138d7b73279,"['crash', 'conversion', 'error', 'field', 'zero']",General,{'crash': 100}
+a1a06bc2ae9728a0955f04a83c483016b6675a10,"['crash', 'property', 'value', 'absent', 'aggregation', 'expression']",General,{'crash': 100}
+4a1fb6fe3564d244c63e35f505d3b559eb9caf80,"['crash', 'optional', 'iterator', 'index', 'empty']",General,{'crash': 100}
+b09aed3eb2bdf5ab47c407673185d4e74c4656fb,"['memory', 'leak', 'indexer', 'field']",Risky_resource_management,{'memory leak': 100}
+5d94201c62e14110e491a220c5a8ba0d3345dc13,"['crash', 'unioniterator']",General,{'crash': 100}
+c5d2190bad295f20e75c8852305261fdc81331c1,"['crash', 'document', 'name', 'index', 'possible', 'kind', 'attempt', 'failure']",General,{'crash': 100}
+515769cd873fc41099097b2b9b3347baf68b4e34,"['free', 'memory', 'leak', 'intersection', 'iterators', 'semantics', 'multiple', 'child', 'iterators', 'iterators', 'newxxx', 'iterator', 'child', 'iterator', 'responsibility']",Risky_resource_management,{'memory leak': 100}
+300f669e8fff7a6d1ffb1969719c0a7dab40e9f2,"['crash', 'optional', 'iterator', 'child', 'theory', 'possible', 'object', 'index']",General,{'crash': 100}
+0906a5719890c27e4b9c1e5ee3cc38339ba4fc71,"['string', 'byte', 'case', 'input', 'byte', 'function', 'buffer', 'overrun', 'buffer', 'size']",Risky_resource_management,{'overrun': 100}
+f934ca676448cd2cf78d53736d40d38665a1a2c1,"['crash', 'sortkey']",General,{'crash': 100}
+c63a93f50d704e8fd6a1b9d56886c1fe44862332,"['memory', 'leak', 'grouper']",Risky_resource_management,{'memory leak': 100}
+a9ac9b23d9122dcd172c45d3d77a9621b7706147,"['crash', 'fieldmask', 'assignment']",General,{'crash': 100}
+4e4357be2b0e403e5e9f077e51066659fbf2805a,"['memory', 'leak', 'additional', 'overall', 'improvments', 'phonetic', 'expansion', 'node', 'field', 'support', 'phonetic', 'memory', 'leak', 'expanders', 'return', 'error', 'clean', 'concurrent', 'context', 'memory', 'management', 'assumption', 'expansion', 'query', 'register', 'single', 'single', 'index', 'field', 'keyspace', 'directory', 'source', 'directory', 'reference', 'fmtxxx', 'function', 'spec', 'field', 'cache', 'implementation', 'hgetall']",Risky_resource_management,{'memory leak': 100}
+9837b423aeae55e1d90fcf10f153bfe9b4567945,"['memory', 'leak', 'temporary', 'index', 'memory', 'leak', 'temporary', 'index', 'review']",Risky_resource_management,{'memory leak': 100}
+a331c77296b75679521ac6712fe89124f164fe58,"['crash', 'cursor', 'setting', 'test', 'cursor', 'setting']",General,{'crash': 100}
+5046995868e5f0fde3b1716fb81eb1a6a81be211,"['pull', 'request', 'memory', 'leak', 'mempool']",Risky_resource_management,{'memory leak': 100}
+6a0ac263c56bc51c2d03b7a1a454bc020d527c95,"['memory', 'leak', 'mempool']",Risky_resource_management,{'memory leak': 100}
+fbc5b38e7cf1f821d46c4f7431aea8b7eb8c4a5e,"['null', 'argument', 'terminator', 'sugget', 'argparse', 'function', 'overrun', 'array']",Risky_resource_management,{'overrun': 100}
+c95fa1d2f4195031f10a192edc7ea7456a8d189b,"['issue', 'double', 'free', 'single', 'filter', 'argument', 'nonstandard']",Risky_resource_management,{'double free': 100}
+3bbaf6e4e5412a26872c963b0c5fe642a95e0f96,"['double', 'free', 'single', 'filter', 'argument']",Risky_resource_management,{'double free': 100}
+531b304e8a4d5a3165b0a5f20353c7024e5c4964,"['memory', 'leak', 'numeric', 'index']",Risky_resource_management,{'memory leak': 100}
+f106a1ada1ed539da9f59f6f3511ad0b799d686b,"['memory', 'leak', 'aggregation']",Risky_resource_management,{'memory leak': 100}
+7fde1603e92cf897736e38f7e889b52350bd5f58,"['pull', 'request', 'stopword', 'crash', 'potential', 'crash', 'stopwords', 'search', 'term']",General,{'crash': 100}
+e557d1b61ca2c5c67067c9c30962d0f949fb6586,"['potential', 'crash', 'stopwords', 'search', 'term']",General,{'crash': 100}
+20d59eacd3e6cc577ac4cbb9f48345a8675847d6,"['pull', 'request', 'check', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+cfc16f0f781687132e012bb0e0fba3a680288bee,"['check', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+bf8a41fef8d2c46d8385104e58412b4f82ef496e,"['free', 'index', 'data', 'leak', 'field', 'free', 'actual', 'string']",Risky_resource_management,{'data leak': 100}
+66227da1e6ba7f88708aed77ce592d5ef6b035c5,"['table', 'capacity', 'crash', 'document']",General,{'crash': 100}
+2d703a8d0ca04c2d6c5ab1ee47df476e90b62089,"['redisearch', 'crash', 'invocation', 'redisearch', 'crash', 'invocation', 'index', 'thread', 'stage', 'cond', 'lock', 'timeout', 'etimedout', 'index', 'name', 'moment', 'recreate', 'index', 'reopen', 'garbage', 'unique', 'index', 'index', 'creation', 'iteration', 'drop', 'thread', 'redisearch', 'crash', 'invocation', 'index', 'review']",General,{'crash': 100}
+3a74104d937038bb48228188a4c000f7e1e5b223,"['memory', 'leak', 'optimize', 'allocation', 'group', 'reducer']",Risky_resource_management,{'memory leak': 100}
+73790c00c59bc7572ba0aa0178e8b2ff295602e2,"['crash', 'search', 'context']",General,{'crash': 100}
+c3efaee141cc8f1bc8e93f3e2fc0601af7eb921f,['overrun'],Risky_resource_management,{'overrun': 100}
+1d86119929fb29b461c51fa265f6dbc9e8cf427e,"['rewrite', 'code', 'module', 'rewrite', 'logic', 'favor', 'simple', 'handler', 'crash', 'mode', 'load', 'module']",General,{'crash': 100}
+3a5eb138ebfca0a797e143c426c360b2f2de4d78,"['memry', 'leak', 'groupby', 'processor']",Risky_resource_management,{'memry leak': 95}
+e70c1425d40133daecdc0766ebffae6b68e18d17,"['memory', 'leak', 'function', 'expression', 'string', 'type']",Risky_resource_management,{'memory leak': 100}
+bf20f04b39e0c9a68812c863e864bd92041c9c7f,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+334b85e79e22dafafbf0ddb2ae1427cb2ea90dd8,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+5a37e4be164ceb3327b4350f232dfcdc6c03a56c,"['memory', 'leak', 'cmdparse']",Risky_resource_management,{'memory leak': 100}
+f59970fe72b75882b4bbb5cbb9f1874d15f53644,"['test', 'aggregate', 'crash', 'group']",General,{'crash': 100}
+fd991b365dde72574c94b1f44acb93dd56b50720,"['string', 'formatter', 'crash']",General,{'crash': 100}
+c7887c1593243234b8eefe3fd60840cf081ccc64,"['crash', 'test', 'string', 'format', 'date']",General,{'crash': 100}
+6680a760d950c80bfdcb9543aea8698d84f6c062,"['crash', 'expr', 'eval']",General,{'crash': 100}
+104876493267d12fc9292f35df86ae6d6450ba68,"['memory', 'leak', 'aggregation', 'pipeline']",Risky_resource_management,{'memory leak': 100}
+d321240936d08544926889546d30a4d27adc0d1e,"['optimization', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+4db0154d539a3edb9e9a79aabb168f0f22d9d9b4,"['deref', 'field', 'member', 'null', 'crash', 'nosave', 'test']",General,{'crash': 100}
+7a18353fa0204316fca202b392c03938fa0a04f9,['crash'],General,{'crash': 100}
+941f18246daf747953d52f13020840e7a8be3c09,"['check', 'sortkey', 'type', 'string', 'number', 'crash', 'manifest', 'present', 'document']",General,{'crash': 100}
+a3a18857f7bcdc920706f7555d77d3ef07c7ab02,"['crash', 'return', 'nargs']",General,{'crash': 100}
+bb3b6231cfb0e1a45a7881277d8c02072bb20bca,['crash'],General,{'crash': 100}
+fdb5714a4479d9f29b6d7d351d38865692755a20,"['ensure', 'faulty', 'term', 'length', 'estimation', 'crash', 'highlighter', 'whitespace', 'tokenization', 'default', 'term', 'work', 'chinese', 'user', 'language', 'chinese', 'event', 'language', 'directive', 'situation', 'length', 'current', 'term', 'overlap', 'length', 'test', 'search', 'redis', 'case']",General,{'crash': 100}
+6c45951ed79e45946f4e184f885e7dfabb29856a,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+eb36f6e843e8bbc4469d548e6534db8bee438983,"['memory', 'leak', 'index']",Risky_resource_management,{'memory leak': 100}
+df92f5d03b48cd6841dc54265b15903479c07a05,"['potential', 'crash']",General,{'crash': 100}
+c4d6359de920adc73ce8412483b603ce801c6c05,"['crash', 'document', 'byte', 'offset']",General,{'crash': 100}
+e77cbcf84c539379f31f9178b7bef9292aed22d8,"['crash', 'nooffsets', 'index', 'offset', 'term', 'vector', 'byte', 'offset']",General,{'crash': 100}
+3938686b3b586c57aa1a166e5a3e2b2e203fcf05,"['memory', 'leak', 'pager']",Risky_resource_management,{'memory leak': 100}
+07d8de1dba624ccda38bdc0f1b8e66bf3e6696be,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+013b1b0c90dee824479acc7a66a3dc30c16b9697,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+846c5a4b1af9ed0cbdc42babd70e561377e3e3ab,"['memory', 'leak', 'field']",Risky_resource_management,{'memory leak': 100}
+eea2951f569f2dc63eb2c00938fb025c07010f0c,"['memory', 'leak', 'field']",Risky_resource_management,{'memory leak': 100}
+202e3da236e4379d9f1bacbe19dcc0b54d1dc820,"['crash', 'noofsets', 'vector', 'writer', 'null']",General,{'crash': 100}
+af8c4db1df690d4b71e8dd29f58849da3c4f2eeb,"['simplify', 'allocation', 'logic', 'field', 'index', 'data', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+a2818b76879ade1ba6f7912571e84e884bdc6991,"['proper', 'validation', 'limit', 'parameter']",Risky_resource_management,{'proper validation': 94}
+14715f34b773258581212c4c38c510c324728441,"['regression', 'crash']",General,{'crash': 100}
+b996e4621fdd65c287c07c4fe61675a340862e6a,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+f6cf6b4ce8f3285a836113800d5b1f3166b7cda5,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+7d99c49975ef43394f6193fff73ba1350540875d,"['memory', 'corruption', 'trie', 'random', 'walk']",Risky_resource_management,{'memory corruption': 100}
+198ffcbc3f732ba58bdc4a672d484b98e7364a6e,"['potential', 'crash', 'intersect', 'iterator']",General,{'crash': 100}
+206d31de6ccc5e40d43994f5a85fd92b7eafef4b,"['issue', 'crash', 'present', 'field']",General,{'crash': 100}
+0570b11cce6ed93b6f041cd72570b30d89423cdf,"['issue', 'crash', 'field']",General,{'crash': 100}
+f01e1a3cdccb8e83c034b6d1fec4b2d5a2ffc1cd,"['revert', 'issue', 'crash', 'field']",General,{'crash': 100}
+dd89ee08aaa8d0d5bc2bbfc5674a887af132df41,"['issue', 'crash', 'field']",General,{'crash': 100}
+2c39d99f03c92e7c9d86588b7ab301afb874c878,"['stack', 'overflow']",Risky_resource_management,{'stack overflow': 100}
+6a374fe3bf8c1b26c17a20c25eee9a7e7090f5e3,"['crash', 'prefix', 'search', 'field', 'modifier']",General,{'crash': 100}
+8c7251befc64acbf420dfeb025df70f7a17556a9,"['crash', 'incompatible', 'redis', 'version']",General,{'crash': 100}
+957e6756e95a202163862f5b1f9ce37f6e4518b8,"['crash', 'incompatible', 'version', 'redis']",General,{'crash': 100}
+30ded87a7f958ba8e8f2cdd4ec70ff7ef83d31b5,"['searchrequest', 'struct', 'request', 'struct', 'unit', 'test', 'request', 'object', 'concurrent', 'execution', 'print', 'filter', 'pool', 'size', 'iteration', 'thread', 'safe', 'optimization', 'code', 'refactor', 'concurrent', 'context', 'test', 'crash', 'crash', 'making', 'context', 'side', 'thread', 'query', 'unit', 'test', 'free', 'mismatch', 'memory', 'leak', 'memory', 'leak', 'search', 'allocation']",Risky_resource_management,{'memory leak': 100}
+e9753e5fcbb54b41e647753050e17ac31db0d6ee,"['memory', 'leak', 'stopwords', 'test']",Risky_resource_management,{'memory leak': 100}
+da06c265076b90fbc451f6d37802fd4909e7fd38,"['pull', 'request', 'possible', 'crash', 'realloc', 'iterator', 'depth']",General,{'crash': 100}
+1d49b9eecbbd1aec42dc9469c6adf9419a1706dc,"['possible', 'crash', 'realloc', 'iterator', 'depth']",General,{'crash': 100}
+583b1a6d1fdd391dddf864ba0dd9cf262933c893,"['potential', 'crash', 'trie']",General,{'crash': 100}
+021fb32226f249b4ed99b8e2db33125a60525425,"['memory', 'leak', 'possible', 'crash', 'table', 'prefix', 'expansion', 'unit', 'test', 'numeric', 'expression', 'query', 'syntax', 'work', 'ragel', 'test', 'token', 'position', 'free', 'error', 'message', 'free', 'string', 'number', 'free', 'parser', 'node', 'free', 'memory', 'modifier', 'list', 'free', 'numeric', 'filter', 'free', 'spec', 'error', 'potential', 'crash', 'numeric', 'filter', 'free', 'modifier', 'memory', 'query', 'test', 'syntax', 'error', 'memory', 'leak', 'query']",Risky_resource_management,{'memory leak': 100}
+ab99ee28cf43cca00267b223f9992356cf09bed7,"['memory', 'leak', 'possible', 'crash', 'table', 'prefix', 'expansion']",Risky_resource_management,{'memory leak': 100}
+dc0364e6c1d226167cb6dd7154dae958293c15fd,"['crash', 'numeric', 'range']",General,{'crash': 100}
+7c33b073552a89ea1a312684441df8f2544fd1ac,"['crash', 'modifier', 'test']",General,{'crash': 100}
+6a6728e094f159507102b9c89ce81ea6e75d026e,"['bugfix', 'potential', 'crash', 'existent']",General,{'crash': 100}
+3eb0f89e04c549a30b4daca3f062077639afc0e8,"['memory', 'leak', 'result', 'iteration']",Risky_resource_management,{'memory leak': 100}
+3b6b1e23ed79ca7163f91afddc395f12c8541e35,"['work', 'crash']",General,{'crash': 100}
+4a4beb15423aa5d70527406e5e736bf4716b7089,"['index', 'load', 'crash', 'term', 'allocation', 'triemap', 'rename', 'rsalloc', 'rmalloc']",General,{'crash': 100}
+a7b29f3b792a457a8d0e7a6c2b6355a28b481650,"['warning', 'clang', 'normalizefunc', 'duplicate', 'integer', 'overflow', 'vector', 'slen', 'safe', 'length', 'test', 'random', 'nums', 'different', 'result', 'linux', 'environment', 'test', 'relies', 'value', 'order', 'dvirsky', 'pseudo', 'random', 'number', 'generator']",Risky_resource_management,{'integer overflow': 100}
+17865069f958e182bf3dba1e76315da3f1a8f8a6,"['crash', 'test']",General,{'crash': 100}
+f960043b8c3f152ce0223581f03fe533ed3020bd,"['table', 'memory', 'leak', 'spec']",Risky_resource_management,{'memory leak': 100}
+3391f16bab4ccba1d62b3af2985ce4460e1a138e,"['crash', 'load']",General,{'crash': 100}
+61457cdb81e7112393ae70d694752d6ad49948fb,"['memory', 'leak', 'trie']",Risky_resource_management,{'memory leak': 100}
+94bc02e2918c5b682d3c97f6545d3e99458a6945,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+d50e233156debe16007a98692962b5d21dd0e053,"['crash', 'metadata']",General,{'crash': 100}
+75bb55b7bd383af2e47cf4ca61f4fe71d7531810,"['unit', 'test', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+ebdad27a5950bf6f67171dbeb03fa74c05f9d53a,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+146b70c08db7ffbb4049e3e8382b70f330d559d7,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+f0d70da3464514b5c25735aecbaad597b5bc21ea,"['query', 'processing', 'crash']",General,{'crash': 100}

@@ -1,26 +1,56 @@
-sha,message,catetory,matched,labels
-306671e8b9d8a983cd638f40bd169fd28cf8b2bb,"['update', 'activerecord', 'dependencyactiverecord', 'issue', 'security']",General,{'security': 100},
-3a85d4ba8695f2da5128bb610e9c0d533596d94f,"['unknown', 'crash', 'filter']",Risky_resource_management,{'crash': 100},
-418f0fb94e18a7f95115198f9558b5a94f00445d,"['update', 'devise', 'dependencyversion', 'security']",General,{'security': 100},
-1a515e0ea0fad5908a71a3a6aefdae1c5e401f41,"['deacb', 'mergerequest', 'publify', 'bundler', 'nokogiri', 'dependabotnokogiri', 'security']",General,{'security': 100},
-47054ed44fd3eefb3e6666b171a2ba9008ec0632,"['redcloth', 'update', 'versionensures', 'security']",General,{'security': 100},
-4070f6b6f38ac9b405a96bcb3f5ce7471c42965f,"['requestbrakeman', 'security']",General,{'security': 100},
-1d4724646ca684494066652c34007e28d14b32ed,"['analysis', 'brakeman', 'security']",General,{'security': 100},
-ef2bcd1309289bfaf54d5fd9cade364efb9f2bcb,"['patch', 'upgrade', 'security']",General,{'security': 100},
-c7d7b3dd24c36cbb8afcb4769c19e279a6133e76,"['jquery', 'update', 'security']",General,{'security': 100},
-feffc7a74d0341804c62aef66c6e10d07d199cea,"['bulkop', 'crash']",Risky_resource_management,{'crash': 100},
-c061bc7024806652ab6572adf57424d3cf681a66,"['update', 'security', 'various', 'dependencyexecution', 'remoteremote', 'command', 'execution']",General,{'security': 100},
-adc322fb224fdcf016d69eeca91238db78a5ce43,"['release', 'issue', 'security', 'passenger']",General,{'security': 100},
-cb22ad8c192ad1a509483b309361c35c8d0fa13c,"['upgradefound', 'issue', 'security']",General,{'security': 100},
-acad340c0743dfab5fb0ed64ec9cfb9cb3b5c9fd,"['image', 'resize', 'magick', 'crash']",Risky_resource_management,{'crash': 100},
-7fae2e094203129f8ba6e17f2aef05a4d921eb97,"['select', 'calendar', 'passenger', 'crash']",Risky_resource_management,{'crash': 100},
-76738bb05e9d1b64ea1514bd18e4c25a4a60f00a,"['default', 'theme', 'helper', 'crash']",Risky_resource_management,{'crash': 100},
-7642356301625cae6e360c6cfbf8faba0ca90ef2,"['update', 'security']",General,{'security': 100},
-8ec45786de786804960d0b6aa037bc30fc310ddc,"['admin', 'creation', 'delete', 'usercontroller', 'bunch', 'security', 'edition']",General,{'security': 100},
-38941b6ca6b945d511f0a3146be72ebd5420e3a4,"['dummy', 'implementation', 'crash']",Risky_resource_management,{'crash': 100},
-e4b131f5d80b7e66b74f49147ec1c094284abfec,"['admin', 'crash', 'production', 'plugin', 'content']",Risky_resource_management,{'crash': 100},
-52d951fa3014fdaf42a3507a7adceabefcc96dd1,"['delete', 'article', 'security', 'feedback', 'publisher']",General,{'security': 100},
-a9b4f31a42b2a319acce4141d1eef07f0bec7e41,"['crash', 'productiontrunk']",Risky_resource_management,{'crash': 100},
-5c3652159736cb6e31ccefe8921add5b1247e10d,"['article', 'controller', 'crash', 'productionclose', 'ticketbranch']",Risky_resource_management,{'crash': 100},
-f3f4a7dd488cf0a5185b68dacaf1e54db37fa9c7,"['crash', 'productionbranch']",Risky_resource_management,{'crash': 100},
-967d779cccdb9ed89905989035449a06bd25b33b,"['previous', 'security', 'falsetrunk']",General,{'security': 100},
+sha,message,catetory,matched
+306671e8b9d8a983cd638f40bd169fd28cf8b2bb,"['update', 'activerecord', 'dependency', 'security', 'issue', 'activerecord']",General,{'security': 100}
+cc9ad321fb6d8001a58ff129197a17328f43f84f,"['rail', 'security', 'release']",General,{'security': 100}
+418f0fb94e18a7f95115198f9558b5a94f00445d,"['update', 'devise', 'dependency', 'version', 'security', 'issue']",General,{'security': 100}
+1a515e0ea0fad5908a71a3a6aefdae1c5e401f41,"['pull', 'request', 'publify', 'dependabot', 'bundler', 'nokogiri', 'security', 'bump', 'nokogiri']",General,{'security': 100}
+9deac8b578b830cd94c6a82eb2f419f0f3dfebc7,"['security', 'bump', 'nokogiri', 'bump', 'nokogiri', 'http', 'github', 'sparklemotion', 'nokogiri', 'update', 'security', 'release', 'note', 'http', 'github', 'sparklemotion', 'nokogiri', 'release', 'changelog', 'http', 'github', 'sparklemotion', 'nokogiri', 'blob', 'master', 'changelog', 'commits', 'http', 'github', 'sparklemotion', 'nokogiri', 'dependabot', 'support', 'dependabot']",General,{'security': 100}
+35fc1cb5cf3c26334842e6df2183ec9564ce64f3,"['html', 'security', 'reason', 'default']",General,{'security': 100}
+2ddc7ea79bd3f5b77cdbb10eccab3e0b45300a20,"['csrf', 'remote', 'form', 'work']",Insecure_interaction_between_components,{'csrf': 100}
+47054ed44fd3eefb3e6666b171a2ba9008ec0632,"['update', 'redcloth', 'version', 'ensures', 'security']",General,{'security': 100}
+b73f03a1d49f88c1ae20d04e736f7efc262f79d8,"['ensure', 'minimal', 'version', 'rail', 'jquery', 'rail', 'console', 'rail', 'possible', 'denial', 'service', 'attack', 'active', 'support', 'vulnerability', 'activesupport', 'json', 'encode', 'jquery', 'rail', 'csrf', 'vulnerability', 'console', 'whitelist', 'console']",Insecure_interaction_between_components,{'csrf': 100}
+4070f6b6f38ac9b405a96bcb3f5ce7471c42965f,"['pull', 'request', 'publify', 'security', 'brakeman']",General,{'security': 100}
+1d4724646ca684494066652c34007e28d14b32ed,"['high', 'security', 'risk', 'brakeman', 'analysis']",General,{'security': 100}
+e1fc3645f9c8d9aa3b6eb557b1c35b7235b7281f,['security'],General,{'security': 100}
+ef2bcd1309289bfaf54d5fd9cade364efb9f2bcb,"['upgrade', 'rail', 'security', 'patch']",General,{'security': 100}
+58cd655bf750487920cf860e0dfa3142b58b4eb3,"['pull', 'request', 'publify', 'update', 'rail', 'security', 'patch']",General,{'security': 100}
+2426b52a7830933cd49bf03d3cf7823e9a693ba9,"['update', 'rail', 'security', 'patch']",General,{'security': 100}
+c7d7b3dd24c36cbb8afcb4769c19e279a6133e76,"['update', 'rail', 'security', 'jquery']",General,{'security': 100}
+feffc7a74d0341804c62aef66c6e10d07d199cea,"['crash', 'full', 'list', 'spam']",General,{'crash': 100}
+353894911de9bb850eb0e8ee759cbf8a3f5a857f,"['profile', 'controller', 'spec', 'ensure', 'crash', 'error', 'file']",General,{'crash': 100}
+f0b9bc88272fb018248045939a59fd8582d4710b,"['redirect', 'admin', 'edit', 'crash', 'application', 'admin', 'notescontroller', 'edit', 'issue', 'admin', 'notescontroller', 'inherits', 'admin', 'basecontroller', 'admin', 'admin', 'pagecontroller', 'private', 'method', 'admin', 'admin', 'basecontroller', 'code', 'duplication']",General,{'crash': 100}
+e44cd45e4bb04bccdbaf79db10014b0d80388717,"['redirect', 'admin', 'edit', 'crash', 'application', 'admin', 'notescontroller', 'edit', 'issue', 'admin', 'notescontroller', 'inherits', 'admin', 'basecontroller', 'admin', 'admin', 'pagecontroller', 'private', 'method', 'admin', 'admin', 'basecontroller', 'code', 'duplication']",General,{'crash': 100}
+d6b2a09306f39eaa58a33c31b0b041bb23af573a,"['feedback', 'bulkops', 'mark', 'spam', 'mark', 'culprit', 'strike', 'spec', 'becaus', 'reason', 'comment', 'reload', 'reload', 'comment', 'state', 'test', 'spammy', 'comment', 'spam', 'status', 'spec', 'crash', 'issue', 'spec', 'bulkops', 'case']",General,{'crash': 100}
+98d41455af021bb4ece5233b043d8487b329bf21,"['akismet', 'reason', 'machine', 'akismet', 'issue', 'comment', 'state', 'application', 'crash']",General,{'crash': 100}
+358da4c882907211a721637bcb7fb29d01f364ae,"['preview', 'crash', 'theme', 'sanitizes']",General,{'crash': 100}
+c061bc7024806652ab6572adf57424d3cf681a66,"['various', 'dependency', 'security', 'flaw', 'remote', 'code', 'execution', 'source', 'command', 'remote', 'code', 'execution', 'character', 'version', 'identifier', 'source', 'http', 'vapid', 'advisory', 'minimagick', 'html', 'http', 'show', 'osvdb']",General,{'security': 100}
+29272a2b91080bb70e04991231d63dbb98397d47,"['factor', 'access', 'control', 'edit', 'update', 'action']",Porous_defenses,{'access control': 100}
+e092160e6f598ad8f2025266092282eeb7432e9f,"['typo', 'news', 'date', 'format', 'blog', 'typo', 'news', 'feed', 'dashboard', 'crash', 'assumes', 'time', 'object', 'responds', 'partial', 'date', 'object', 'sense', 'format', 'date', 'need', 'update', 'translation', 'date', 'format', 'page', 'browser', 'locale', 'date', 'format', 'irrelevant', 'crash']",General,{'crash': 100}
+adc322fb224fdcf016d69eeca91238db78a5ce43,"['time', 'release', 'security', 'issue', 'rail']",General,{'security': 100}
+cb22ad8c192ad1a509483b309361c35c8d0fa13c,"['upgrade', 'rail', 'security', 'issue']",General,{'security': 100}
+acad340c0743dfab5fb0ed64ec9cfb9cb3b5c9fd,"['mini', 'magick', 'mini', 'magick', 'crash', 'resize', 'image']",General,{'crash': 100}
+f34070a137d6ca42a41ad5ca48bd227395d215ab,"['account', 'link', 'login', 'page', 'typo', 'french', 'translation', 'making', 'account', 'confirmation', 'crash', 'style', 'error', 'information', 'message', 'account', 'creation', 'confirmation', 'login', 'page']",General,{'crash': 100}
+7fae2e094203129f8ba6e17f2aef05a4d921eb97,"['calendar', 'date', 'select', 'rail', 'bundle', 'passenger', 'crash']",General,{'crash': 100}
+27400fe13a0f5aef54528c7c0685efb2caabde81,"['nasty', 'security', 'vuln', 'fighter']",General,{'security': 100}
+76738bb05e9d1b64ea1514bd18e4c25a4a60f00a,"['crash', 'theme', 'helper']",General,{'crash': 100}
+7642356301625cae6e360c6cfbf8faba0ca90ef2,"['update', 'rail', 'security']",General,{'security': 100}
+8ec45786de786804960d0b6aa037bc30fc310ddc,"['user', 'edition', 'admin', 'usercontroller', 'admin', 'user', 'creation', 'edition', 'part', 'admin', 'setting', 'admins', 'huge', 'security', 'hole', 'delete', 'user', 'admin', 'credential', 'unnecessary', 'hazardous', 'condition']",General,{'security': 100}
+b0be710c1dc86812706236603bd98e1f43a4c659,"['crash', 'post', 'feed']",General,{'crash': 100}
+d7b769588d3c9f08477af7a783797f219fd37a27,"['error', 'control', 'sidebar', 'frontend', 'backend', 'sidebar', 'plugin', 'whole', 'thing', 'crash', 'appropriate', 'error', 'message', 'ticket']",General,{'crash': 100}
+128e09815c5d94e740fb4397df374b693b42750f,"['cross', 'site', 'issue', 'feedback', 'view', 'state']",Insecure_interaction_between_components,{'cross site': 100}
+e4b131f5d80b7e66b74f49147ec1c094284abfec,"['autocomplete', 'plugin', 'admin', 'content', 'helper', 'plugin', 'crash', 'production', 'mode']",General,{'crash': 100}
+544a67e012f2cdc1dacfba1e614a0a2154d69705,"['crtash', 'blog', 'default']",General,{'crtash': 91}
+52d951fa3014fdaf42a3507a7adceabefcc96dd1,"['security', 'publisher', 'delete', 'feedback', 'article', 'spec']",General,{'security': 100}
+3e9ad5e6df0fc365fb9f0decbfaaf6a259189140,"['various', 'issue', 'style', 'time', 'typo', 'interface', 'edit', 'body', 'content', 'article', 'different', 'type', 'text', 'body', 'field', 'database', 'patch', 'attempt', 'address', 'design', 'implementation', 'issue', 'number', 'minor', 'problem', 'method', 'callable', 'user', 'kind', 'helper', 'method', 'private', 'controller', 'method', 'discard', 'data', 'user', 'copy', 'article', 'method', 'extra', 'newlines', 'time', 'code', 'article', 'model', 'data', 'loss', 'sure', 'article', 'number', 'unit', 'test']",Risky_resource_management,{'data loss': 100}
+a9b4f31a42b2a319acce4141d1eef07f0bec7e41,"['crash', 'production', 'mode', 'http', 'typo', 'trunk', 'eebf']",General,{'crash': 100}
+52079404a5dbb46e2193384d87eed2cbc7fa2a5a,"['stupid', 'behaviour', 'force', 'display', 'name', 'name', 'display', 'page', 'transformation', 'stupid', 'typo', 'crash', 'edition', 'display', 'name', 'admin', 'http', 'typo', 'trunk', 'eebf']",General,{'crash': 100}
+acd075e006f070e274a49e1f06fb4e3fe6bd904a,"['crash', 'forgery', 'reqest', 'protection', 'deprecation', 'warning', 'plugins', 'default', 'theme', 'http', 'typo', 'trunk', 'eebf']",General,{'crash': 100}
+04117a99d28b62a1dd73ed9ecf0d38950736125b,"['major', 'security', 'version', 'http', 'typo', 'trunk', 'eebf']",General,{'security': 100}
+5c3652159736cb6e31ccefe8921add5b1247e10d,"['typo', 'article', 'controller', 'crash', 'production', 'mode', 'close', 'ticket', 'http', 'typo', 'eebf']",General,{'crash': 100}
+f3f4a7dd488cf0a5185b68dacaf1e54db37fa9c7,"['making', 'typo', 'crash', 'production', 'mode', 'http', 'typo', 'eebf']",General,{'crash': 100}
+e023a6aeb68c895efbd76ddf852e97ca33c8ad1c,"['text', 'filter', 'design', 'destination', 'menu', 'theme', 'sidebar', 'reverts', 'changeset', 'whole', 'content', 'table', 'idea', 'post', 'crash', 'decent', 'blog', 'http', 'typo', 'trunk', 'eebf']",General,{'crash': 100}
+6c5de854a2f1a305e54ef41345f3d47e7acb4b96,"['controller', 'action', 'default', 'route', 'work', 'nasty', 'rail', 'security', 'hole', 'strange', 'place', 'typo', 'release', 'http', 'typo', 'trunk', 'eebf']",General,{'security': 100}
+dc1c21eb52fb5c7f4c82c311072e650e1af15ff8,"['major', 'memory', 'leak', 'filter', 'filter', 'free', 'filter', 'action', 'cache', 'filter', 'page', 'cache', 'filter', 'check', 'cache', 'leak', 'sieve', 'authentication', 'tricky', 'close', 'http', 'typo', 'trunk', 'eebf']",Risky_resource_management,{'memory leak': 100}
+967d779cccdb9ed89905989035449a06bd25b33b,"['false', 'alarm', 'security', 'issue', 'http', 'typo', 'trunk', 'eebf']",General,{'security': 100}
+93d17b2dd98f0c17a3b1e29eb360fcd1d1d31db1,"['security', 'http', 'typo', 'trunk', 'eebf']",General,{'security': 100}
+f3825a3a93812bc780ffbb016da456d7122ff5b8,"['possible', 'security', 'issue', 'sparklines', 'http', 'typo', 'trunk', 'eebf']",General,{'security': 100}
+d668f1d276fbb462a2f8e5930ce0936150b00ef2,"['security', 'vulnerability', 'themecontroller', 'sanitization', 'filename', 'parameter', 'catch', 'disallow', 'valid', 'filename', 'window', 'system', 'order', 'timely', 'window', 'window', 'machine', 'likely', 'people', 'typo', 'installation', 'window', 'people', 'consequtive', 'period', 'http', 'typo', 'trunk', 'eebf']",General,{'security': 100}

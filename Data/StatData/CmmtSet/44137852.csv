@@ -1,27 +1,53 @@
-sha,message,catetory,matched,labels
-2adc4e4fa417459f152eb679e21caeef92a59a97,"['crash', 'component']",Risky_resource_management,{'crash': 100},
-6899c44838399c715bf1013102158079ecd975d0,"['crashlabel', 'crash', 'section', 'empty', 'string', 'header', 'avoidinglabel', 'section', 'check']",Risky_resource_management,{'crash': 100},
-f4a99aeb0252068ee78bf2158fb01fef6f4599ca,"['address', 'issue', 'multiple', 'minor', 'scanner', 'security', 'reportedgmtime', 'usage', 'version', 'localtimeissueunnecessary', 'comparisonsuppress', 'global', 'useful', 'header', 'check', 'shortoverflow', 'reflect', 'integer', 'check', 'range', 'value']",General,{'security': 100},
-9f409435a43a04a6853ce7948e88d1dbe6f5eb7b,"['potential', 'crash', 'driverd']",Risky_resource_management,{'crash': 100},
-2d9eecc44e92055e1168123e953cbd49145c9cc9,"['crash', 'option', 'attribute', 'duplex']",Risky_resource_management,{'crash': 100},
-59a8560a52b4a6c8d8bd79c6d3456be040c3f42e,"['scheduler', 'crash']",Risky_resource_management,{'crash': 100},
-9dcb503fa1639c08f84a89d905175b6ed938848c,"['issue', 'crash', 'accesslog']",Risky_resource_management,{'crash': 100},
-7e041a5e5569fdb339906eeb00e6706d562e228a,"['issue', 'crash', 'driver', 'epson']",Risky_resource_management,{'crash': 100},
-d0bfbc98b68a8859611ee336b259dd06d5d71100,"['avahi', 'crash']",Risky_resource_management,{'crash': 100},
-561e0647a8494eda6ce73176b5f02153003a80c4,"['avahi', 'crash']",Risky_resource_management,{'crash': 100},
-ca75cc1354a4156cee6d9f228949e6b3e5b15e16,"['scheduler', 'crash', 'everywhere', 'issue', 'printer']",Risky_resource_management,{'crash': 100},
-49fa4983f25b64ec29d548ffa3b9782426007df3,"['scheduler', 'crash', 'issue', 'notification', 'couldscheduler']",Risky_resource_management,{'crash': 100},
-c0a47c11015a45534bd48c8f7f52733cd8e7ea2c,"['crash', 'debug']",Risky_resource_management,{'crash': 100},
-b337f966e85ec2ae65769ee6bab12f78edcfafa5,"['scheduler', 'crash', 'issue', 'avahi', 'relatedpointer', 'avahi', 'check', 'assertion', 'production']",Risky_resource_management,{'crash': 100},
-5c476bf970766279bfba6b5535968e9b233c0ba0,"['mergemerge', 'cupstestppdbof', 'request', 'psychomariocupstestppd', 'buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100},
-de4966cb9be6a70609128bef9895fb04d6a845bb,"['issue', 'linux', 'crash']",Risky_resource_management,{'crash': 100},
-de8c34f8bdc66b758dea98dfef90dd204ea57aff,"['framework', 'compiler', 'version', 'header', 'check', 'security']",General,{'security': 100},
-ee6226a5cbe12e80205659984bfcc663375b27e6,"['enable', 'hellman', 'exchange', 'ssloptions', 'diffie', 'disableknown', 'support', 'issue', 'short', 'security', 'sincedisable', 'numberknown', 'support', 'disableacaaef', 'dfaabe', 'trunk']",General,{'security': 100},
-dc991142c4fcf3f32fcc4c90ec6d68bc8c69a010,"['crash', 'sample', 'driver', 'epson', 'couldacaaef', 'dfaabe', 'trunk']",Risky_resource_management,{'crash': 100},
-3644808db76f28b30ebc46fbc2436f497a60a878,"['scheduler', 'crash', 'avahi', 'shutdown', 'couldacaaef', 'dfaabe', 'trunk']",Risky_resource_management,{'crash': 100},
-108f75052df52a54c8d7c7eaf732dd100b5c949c,"['scheduler', 'crash', 'systemd', 'randomacaaef', 'dfaabe', 'trunk']",Risky_resource_management,{'crash': 100},
-cae3816ebe3458ea5453c162bea2d4068d3ce86c,"['crash', 'colordacaaef', 'dfaabe', 'trunk']",Risky_resource_management,{'crash': 100},
-9e92ab1978641b7d0982b924c15311377a592c66,"['security', 'symlinkedinterfaceacaaef', 'dfaabe', 'trunk']",General,{'security': 100},
-f627443d1bb7b5c290518692c7a3f12c07ff0745,"['scheduler', 'crash', 'circumstance', 'pointer', 'debian', 'couldpolicy', 'occurrence', 'default', 'cupsd', 'connection', 'happenacaaef', 'dfaabe', 'trunk']",Risky_resource_management,{'crash': 100},
-0cf0c416ec73f65d4631ec8e2b6409f95462c76e,"['scheduler', 'crash', 'issue', 'causedthread', 'apparentlyacaaef', 'dfaabe', 'trunk']",Risky_resource_management,{'crash': 100},
-2a241c9efcf4c422c64307e1034e156965e770d2,"['crash', 'backend', 'problem', 'libusb', 'basedacaaef', 'dfaabe', 'trunk']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+f4a99aeb0252068ee78bf2158fb01fef6f4599ca,"['multiple', 'minor', 'issue', 'lgtm', 'security', 'scanner', 'usage', 'localtime', 'gmtime', 'version', 'unnecessary', 'comparison', 'suppress', 'check', 'useful', 'header', 'guard', 'short', 'global', 'name', 'integer', 'overflow', 'check', 'reflect', 'actual', 'range', 'value']",Risky_resource_management,{'integer overflow': 100}
+2c030c7a06e0c2b8227c7e85f5c58dfb339731d0,"['multiple', 'security', 'disclosure', 'issue', 'snmp', 'buffer', 'overflow', 'rdar', 'buffer', 'overflow', 'rdar', 'memory', 'disclosure', 'issue', 'scheduler', 'rdar', 'issue', 'scheduler', 'rdar']",Risky_resource_management,{'buffer overflow': 100}
+db1c94f3a1720b26b46d91744d43bb3edb2765dd,"['memory', 'leak', 'ppdopen']",Risky_resource_management,{'memory leak': 100}
+c9b65dc4d956afe9790f25f886e13f8e7f9d0325,"['null', 'pointer', 'dereference', 'httpgetfield', 'issue']",Risky_resource_management,{'null pointer': 100}
+3e5092db04d61d342bfbf4fe35dd252a88459065,"['update', 'ippeveprinter', 'internal', 'copy', 'printer', 'crash']",General,{'crash': 100}
+fa26ab9573afab69475d60c3eb3e38be3b5a0587,"['private', 'macos', 'security', 'header', 'apis', 'issue', 'function', 'switch', 'private', 'header', 'availability', 'check']",General,{'security': 100}
+4b5a6914fb5155ad0452a78e0edc205e06f614a5,"['emulator', 'keywords', 'file', 'issue', 'potential', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+9f409435a43a04a6853ce7948e88d1dbe6f5eb7b,"['potential', 'crash', 'driverd', 'rdar']",General,{'crash': 100}
+2d9eecc44e92055e1168123e953cbd49145c9cc9,"['crash', 'duplex', 'option', 'attribute', 'rdar']",General,{'crash': 100}
+59a8560a52b4a6c8d8bd79c6d3456be040c3f42e,"['scheduler', 'crash', 'rdar']",General,{'crash': 100}
+3416fe952b3852bb7076d64b54048cc2fac1f80c,"['memory', 'leak', 'coverity', 'issue']",Risky_resource_management,{'memory leak': 100}
+9dcb503fa1639c08f84a89d905175b6ed938848c,"['crash', 'accesslog', 'null', 'issue']",General,{'crash': 100}
+7e041a5e5569fdb339906eeb00e6706d562e228a,"['crash', 'epson', 'driver', 'issue']",General,{'crash': 100}
+d47f6aec436e0e9df6554436e391471097686ecc,"['local', 'privilege', 'escalation', 'root', 'sandbox', 'scheduler', 'rdar', 'rdar', 'rdar', 'rdar']",Porous_defenses,{'privilege escalation': 100}
+656c109a1ca4009bf0a59c9f28b4fbe78d80ea79,"['local', 'printer', 'crash', 'issue']",General,{'crash': 100}
+d0bfbc98b68a8859611ee336b259dd06d5d71100,"['avahi', 'crash', 'issue']",General,{'crash': 100}
+561e0647a8494eda6ce73176b5f02153003a80c4,"['avahi', 'crash', 'issue']",General,{'crash': 100}
+49fa4983f25b64ec29d548ffa3b9782426007df3,"['dbus', 'notification', 'crash', 'scheduler', 'issue', 'scheduler', 'user', 'name', 'string', 'valid']",General,{'crash': 100}
+c0a47c11015a45534bd48c8f7f52733cd8e7ea2c,"['crash', 'debug', 'printf']",General,{'crash': 100}
+116c301f238c688b904713ac311eb01e4ba0264e,"['worker', 'thread', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+b908d72cace0a011612ba312c7b1a746b74cf80d,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+b337f966e85ec2ae65769ee6bab12f78edcfafa5,"['avahi', 'crash', 'scheduler', 'issue', 'issue', 'null', 'pointer', 'check', 'avahi', 'assertion', 'production', 'code']",Risky_resource_management,{'null pointer': 100}
+5c476bf970766279bfba6b5535968e9b233c0ba0,"['pull', 'request', 'psychomario', 'cupstestppdbof', 'cupstestppd', 'buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100}
+de4966cb9be6a70609128bef9895fb04d6a845bb,"['crash', 'linux', 'issue']",General,{'crash': 100}
+b0a1368dc23f1ab224c7a5c645d4d4aadf1514c6,['crash'],General,{'crash': 100}
+de8c34f8bdc66b758dea98dfef90dd204ea57aff,"['security', 'framework', 'header', 'version', 'compiler', 'error']",General,{'security': 100}
+3c0659cd0fb6a9ccfa1e432dea9cf5511c1e1464,"['integer', 'overflow', 'raster', 'data', 'rdar', 'problem', 'apple', 'trunk', 'acaaef', 'dfaabe']",Risky_resource_management,{'integer overflow': 100}
+e67e2f9e9fc479417e4afc0011c74b49f3796d7e,"['interface', 'script', 'security', 'reason', 'rdar', 'problem', 'apple', 'trunk', 'acaaef', 'dfaabe']",General,{'security': 100}
+f1ebe30e927ee20691beb8da3b556d95cb5ea37e,"['memory', 'leak', 'update', 'recent', 'interface', 'rdar', 'problem', 'apple', 'trunk', 'acaaef', 'dfaabe']",Risky_resource_management,{'memory leak': 100}
+5e6c3df7c0d322aa83a6c7bf94ab63a3f479a938,"['security', 'cert', 'dynamic', 'linker', 'apple', 'trunk', 'acaaef', 'dfaabe']",General,{'security': 100}
+87f8ade3e3ced7b74cefe1569cd393539e5ac04e,"['check', 'report', 'exit', 'status', 'cupsd', 'crash', 'hyperlink', 'major', 'section', 'apple', 'trunk', 'acaaef', 'dfaabe']",General,{'crash': 100}
+520fe1dee43977f641a0254f00b40cf64664ab30,"['memory', 'leak', 'cupsconnectdest', 'apple', 'trunk', 'acaaef', 'dfaabe']",Risky_resource_management,{'memory leak': 100}
+ee6226a5cbe12e80205659984bfcc663375b27e6,"['enable', 'diffie', 'hellman', 'exchange', 'support', 'security', 'issue', 'short', 'parameter', 'minimum', 'number', 'default', 'support', 'security', 'issue', 'apple', 'trunk', 'acaaef', 'dfaabe']",General,{'security': 100}
+dc991142c4fcf3f32fcc4c90ec6d68bc8c69a010,"['sample', 'epson', 'driver', 'crash', 'apple', 'trunk', 'acaaef', 'dfaabe']",General,{'crash': 100}
+50752acba9df1a5f5ee750c4ea8cd1fd7ee664c2,"['potential', 'buffer', 'overflow', 'rastertohp', 'apple', 'trunk', 'acaaef', 'dfaabe']",Risky_resource_management,{'buffer overflow': 100}
+8326c129217aa30a7ca20219dd9e107b1a0c5623,"['potential', 'buffer', 'overflow', 'apple', 'trunk', 'acaaef', 'dfaabe']",Risky_resource_management,{'buffer overflow': 100}
+f8e5a7b4988a506d284a2a286167fd5d76764d8a,"['potential', 'buffer', 'overflow', 'apple', 'trunk', 'acaaef', 'dfaabe']",Risky_resource_management,{'buffer overflow': 100}
+94d5dc48147b6071a22aca97f664bb9de2daa8b6,"['buffer', 'overflow', 'rastertopwg', 'apple', 'trunk', 'acaaef', 'dfaabe']",Risky_resource_management,{'buffer overflow': 100}
+1ec50c42bd01ca5476c2a91250d0e4f0f365f99f,"['memory', 'leak', 'environment', 'string', 'execution', 'apple', 'trunk', 'acaaef', 'dfaabe']",Risky_resource_management,{'memory leak': 100}
+3644808db76f28b30ebc46fbc2436f497a60a878,"['crash', 'shutdown', 'avahi', 'shutdown', 'apple', 'trunk', 'acaaef', 'dfaabe']",General,{'crash': 100}
+62bd8d91877f4f6f528195192e3d351c60d42e14,"['potential', 'buffer', 'overflow', 'raster', 'data', 'apple', 'trunk', 'acaaef', 'dfaabe']",Risky_resource_management,{'buffer overflow': 100}
+108f75052df52a54c8d7c7eaf732dd100b5c949c,"['random', 'crash', 'scheduler', 'systemd', 'apple', 'trunk', 'acaaef', 'dfaabe']",General,{'crash': 100}
+cae3816ebe3458ea5453c162bea2d4068d3ce86c,"['dbus', 'crash', 'colord', 'apple', 'trunk', 'acaaef', 'dfaabe']",General,{'crash': 100}
+cfeac714b41e4098b7c7cadccc7959a862b3c6c6,"['memory', 'leak', 'label', 'printer', 'driver', 'sure', 'free', 'compbuffer', 'lastbuffer', 'endpage', 'apple', 'trunk', 'acaaef', 'dfaabe']",Risky_resource_management,{'memory leak': 100}
+f627443d1bb7b5c290518692c7a3f12c07ff0745,"['scheduler', 'crash', 'unknown', 'circumstance', 'null', 'policy', 'pointer', 'patch', 'debian', 'ubuntu', 'occurrence', 'default', 'policy', 'policy', 'null', 'null', 'client', 'connection', 'crash', 'apple', 'trunk', 'acaaef', 'dfaabe']",General,{'crash': 100}
+0cf0c416ec73f65d4631ec8e2b6409f95462c76e,"['scheduler', 'crash', 'thread', 'safe', 'default', 'apple', 'trunk', 'acaaef', 'dfaabe']",General,{'crash': 100}
+83bc2aac57ce01384e694603aaa72f166d740a32,"['security', 'lppasswd', 'program', 'setting', 'client', 'conf', 'home', 'environment', 'setuid', 'setgid', 'root', 'apple', 'trunk', 'acaaef', 'dfaabe']",General,{'security': 100}
+2bf2b8e94aaedcf4334d64b1958bb1ccce043d59,"['crash', 'apple', 'trunk', 'acaaef', 'dfaabe']",General,{'crash': 100}
+81441dd34a8a0be7aa4f20c86a6013b006d5614a,"['memory', 'leak', 'regular', 'expression', 'apple', 'trunk', 'acaaef', 'dfaabe']",Risky_resource_management,{'memory leak': 100}
+f902c56223a592d4c485bab3f5f5afb3ec66e0fb,"['couple', 'memory', 'leak', 'ippfind', 'clang', 'apple', 'trunk', 'acaaef', 'dfaabe']",Risky_resource_management,{'memory leak': 100}
+4ffc419764a736cd489c21dd6895b2bf162cbf4e,"['rdar', 'problem', 'pwgmediaforpwg', 'fractional', 'portion', 'integer', 'overflow', 'apple', 'trunk', 'acaaef', 'dfaabe']",Risky_resource_management,{'integer overflow': 100}
+2a241c9efcf4c422c64307e1034e156965e770d2,"['rdar', 'problem', 'libusb', 'backend', 'crash', 'bios', 'apple', 'trunk', 'acaaef', 'dfaabe']",General,{'crash': 100}

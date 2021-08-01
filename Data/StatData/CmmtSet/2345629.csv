@@ -1,12 +1,21 @@
-sha,message,catetory,matched,labels
-418cece8913d54769bd55490fee0c5027d118874,"['strategy', 'robbin', 'concurrency', 'support', 'security']",General,{'security': 100},
-879480c2e010e203008816cb7b9fb827743a48a5,"['strategy', 'robbin', 'concurrency', 'support', 'security']",General,{'security': 100},
-6b093104794148fe496ce0ad16dd8e858627d36c,"['ebdafd', 'mergeyeswalrus', 'request', 'crash', 'mergefailure', 'connection', 'crash']",Risky_resource_management,{'crash': 100},
-1013aa89bcdd0fd62be25cec5a982b0a81ca0beb,"['logger', 'shutdownshutdown', 'crash', 'usingexternal', 'websocketpp', 'drive', 'reproducedconstboost', 'ioserviceboost', 'ioservice', 'ioserviceworkioservicethread', 'boost', 'ioservice', 'threadconfig', 'websocketpp', 'serverioservice', 'serverlisten', 'serverserverserverreturnobject', 'pointer', 'crash', 'object', 'ensures']",Risky_resource_management,{'crash': 100},
-e44463583b4a3b3ea435cfacbec9e64aa1036efa,"['header', 'crash']",Risky_resource_management,{'crash': 100},
-2fa6e6f4d43ea6f1cb7f45ac263319bd5c688a64,"['handler', 'policy', 'socket', 'security']",General,{'security': 100},
-8dad7aba457d9213e60a373bb6e41cb684d98438,"['propogate', 'setting', 'policy', 'security']",General,{'security': 100},
-6561a9be2088d0d3e2971d480ebb3baba450ef4c,"['policy', 'documentation', 'interface', 'security']",General,{'security': 100},
-a6002dadddcf4b507de522d86f78a9523bb057d1,"['category', 'security']",General,{'security': 100},
-cdb1beb9472a6ca7493a86013450903867682d89,"['client', 'crash']",Risky_resource_management,{'crash': 100},
-048e57baa5bdbc0dbccb4b0a2851a25c9c904280,"['reference', 'crash']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+6b093104794148fe496ce0ad16dd8e858627d36c,"['pull', 'request', 'yeswalrus', 'crash', 'crash', 'connection', 'failure']",General,{'crash': 100}
+1013aa89bcdd0fd62be25cec5a982b0a81ca0beb,"['shutdown', 'shutdown', 'crash', 'external', 'drive', 'websocketpp', 'server', 'crash', 'code', 'main', 'argc', 'const', 'char', 'argv', 'boost', 'asio', 'ioservice', 'boost', 'asio', 'work', 'ioservicework', 'asio', 'work', 'ioservice', 'thread', 'ioservicethread', 'boost', 'bind', 'boost', 'asio', 'ioservice', 'auto', 'server', 'websocketpp', 'server', 'websocketpp', 'config', 'asio', 'websocketpp', 'server', 'websocketpp', 'config', 'asio', 'server', 'ioservice', 'server', 'server', 'server', 'pointer', 'alog', 'elog', 'object', 'endpoint', 'object', 'ensures', 'alive', 'able']",General,{'crash': 100}
+a4a79f6bf6b445d7981ca4738cce2705c9b26724,"['validator', 'asan', 'error', 'heap', 'buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100}
+15c78afbf447e567c30a1c8c226fda427fd69add,"['crash', 'malicious', 'client', 'websocketpp', 'server', 'invalid', 'string']",General,{'crash': 100}
+55827fc825595e3f3b8781e24afeab0e9bfaed45,"['failure', 'empty', 'parameter', 'flag', 'list', 'fstack', 'protector', 'param', 'buffer', 'size', 'wformat', 'werror', 'format', 'security', 'obvious', 'real', 'fatal', 'error', 'input', 'file', 'error', 'message']",General,{'security': 100}
+3ca53d006407fd3d85604432d38fa42153b3732c,"['server', 'connection', 'object', 'result', 'memory', 'leak', 'connection', 'handler', 'connection']",Risky_resource_management,{'memory leak': 100}
+fe00a84f7bce96a3616b4f02c7c9e5764649f6c8,"['pull', 'request', 'aydany', 'master', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+337bf2fb0a86145e8c745d57c2db46cf5904e14b,"['memory', 'leak', 'initialize', 'init', 'handler', 'connection', 'circular', 'reference', 'connection', 'handler', 'check', 'error', 'code', 'reset', 'handler', 'error']",Risky_resource_management,{'memory leak': 100}
+c5b5492e5ce16bd7ab2ae5f37ef432d12437aa98,"['memory', 'leak', 'connection']",Risky_resource_management,{'memory leak': 100}
+2d2312a1d7dea5055ba96738c93b82fc83071e11,"['socket', 'security', 'policy', 'asio', 'websocketpp', 'error', 'code', 'reason', 'socket', 'policy', 'error', 'code', 'information', 'header', 'library', 'certain', 'socket', 'policy', 'example', 'socket', 'policy']",General,{'security': 100}
+bb431ee0d21bc60c412c7cc352202d3bcc3cf45d,['crash'],General,{'crash': 100}
+e44463583b4a3b3ea435cfacbec9e64aa1036efa,"['crash', 'empty', 'http', 'header']",General,{'crash': 100}
+e91d6f6a4564a9fe61c524d75286743d53269ea9,"['refactor', 'iostream', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+2fa6e6f4d43ea6f1cb7f45ac263319bd5c688a64,"['security', 'policy', 'handler', 'socket', 'stream', 'type', 'socket']",General,{'security': 100}
+8dad7aba457d9213e60a373bb6e41cb684d98438,"['setting', 'security', 'policy']",General,{'security': 100}
+6561a9be2088d0d3e2971d480ebb3baba450ef4c,"['security', 'policy', 'interface', 'documentation']",General,{'security': 100}
+9ebd169675d287fca259c2cf4288d03bbfcbe4f2,"['crash', 'strftime']",General,{'crash': 100}
+a6002dadddcf4b507de522d86f78a9523bb057d1,"['security', 'category']",General,{'security': 100}
+cdb1beb9472a6ca7493a86013450903867682d89,"['crash', 'message', 'hybi', 'client']",General,{'crash': 100}
+048e57baa5bdbc0dbccb4b0a2851a25c9c904280,"['crash', 'connection', 'reference']",General,{'crash': 100}

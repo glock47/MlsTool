@@ -1,17 +1,21 @@
-sha,message,catetory,matched,labels
-a3ef6dcbb1243bb3a9de2e1c89ddcb3cfa31986d,"['deadlock', 'executor', 'errorchange', 'ensures', 'deadlock', 'executorsupport', 'example', 'ascii']",Risky_resource_management,{'deadlock': 100},
-72806dd4ef8952a27310c9bc0bc0c8bd93b816d1,"['revision', 'dependencydealingplace', 'immutable', 'revision', 'dependencyresolve', 'dependency', 'check', 'exclusive', 'mutuallybranch', 'movingproper', 'place', 'revision', 'ensurechange', 'dependencyensures', 'security', 'revision', 'reproducibilityrevision']",General,{'security': 100},
-d1f9842f649ce4e3af8e60346874093c385c4c80,"['security', 'request', 'extraalpha', 'poetry', 'master', 'recentpackage', 'request', 'securitytwice', 'package', 'request', 'optional', 'dependencyproperlychange', 'ensureselement', 'constraintorder']",General,{'security': 100},
-81c6fdfb1ade4e646563a64a5f16664bf643a2f9,"['crash', 'dependency']",Risky_resource_management,{'crash': 100},
-5fa7ca9377154a54c8a5ddc24f503bd6a17bfd60,"['crash', 'fetch', 'image', 'catch']",Risky_resource_management,{'crash': 100},
-552ec2e5a5e9ed18341f7757f810aa5e09c46f4d,"['storage', 'local', 'storeitem', 'purpose', 'explanation', 'security']",General,{'security': 100},
-12ed3053b42f72ba6dfbece2a543362a19036103,"['daedbspongman', 'custom', 'request', 'geometrycustom', 'geometrywindow', 'spongman', 'crash', 'spending', 'overflow', 'browser', 'memory', 'example', 'rjoojachange', 'array', 'overflow', 'memory', 'filling', 'positive', 'false', 'vector', 'algorithm', 'computenormalscheck', 'normalize', 'vector', 'calculation', 'float', 'error', 'angle', 'overflow']",Risky_resource_management,{'crash': 100},
-3b2a13917e93f462e7b5162081cc828aeb6763ac,"['dbedbmerge', 'request', 'shader', 'spongmanshaderfailure', 'webgl', 'phantomjs', 'attribute', 'crashe', 'check', 'uniform', 'renderer', 'webgl', 'update', 'renderers', 'property', 'state']",Risky_resource_management,{'crashe': 91},
-51916897e6834f86d4a951ac175ce28400eb5615,"['bfecamerge', 'request', 'spongman', 'setuniformarray', 'crash', 'empty']",Risky_resource_management,{'crash': 100},
-8f0317ebe711d6e4adf72b4c3f1bae0a05c38e81,"['beafa', 'mergemerge', 'request', 'spongman', 'creategraphicswebgl', 'crash', 'creategraphics']",Risky_resource_management,{'crash': 100},
-5532d0fc4556e62a0b17e376107b81d84093ee92,"['javascript', 'crash', 'array', 'matrix', 'input']",Risky_resource_management,{'crash': 100},
-ce1f09f6788b917eef80b7ec4fa0e5499b543e23,"['crash', 'property']",Risky_resource_management,{'crash': 100},
-8041e8fac8ce0df0f00c8bc3ca1f866766568dac,"['mergemerge', 'request', 'master', 'kaganjdconnecti', 'local', 'getusermedia', 'security']",General,{'security': 100},
-904681b428a9e2eae8d80601879980e7fec89877,"['local', 'connection', 'getusermedia', 'security']",General,{'security': 100},
-239fdc655290b28ca94610845ff638dac60700f8,"['check', 'crash']",Risky_resource_management,{'crash': 100},
-1043a957e204814e77e3efcfc4089a64ac0c9745,"['stack', 'overflow']",Risky_resource_management,{'stack overflow': 100},
+sha,message,catetory,matched
+5fa7ca9377154a54c8a5ddc24f503bd6a17bfd60,"['catch', 'crash', 'fetch']",General,{'crash': 100}
+552ec2e5a5e9ed18341f7757f810aa5e09c46f4d,"['explanation', 'local', 'storage', 'purpose', 'security', 'storeitem']",General,{'security': 100}
+7270041f259b17b54dfad8955c8a52ce5a294a3e,"['pull', 'request', 'processing', 'sound', 'sound', 'memory', 'leak', 'soundfile']",Risky_resource_management,{'memory leak': 100}
+c23b5a57d09c70ab38a36fc2bb68c418f2a7f4d7,"['sound', 'memory', 'leak', 'soundfile', 'info', 'http', 'github', 'processing', 'sound', 'pull']",Risky_resource_management,{'memory leak': 100}
+1633fe194914453ac26f8b8d34ce3fb404070a56,"['stack', 'overflow', 'code', 'snippet']",Risky_resource_management,{'stack overflow': 100}
+47c6f5132a9362139672886eb98afc08a3c44a96,"['graphic', 'memory', 'leak', 'github', 'meiamsome']",Risky_resource_management,{'memory leak': 100}
+12ed3053b42f72ba6dfbece2a543362a19036103,"['pull', 'request', 'spongman', 'custom', 'geometry', 'custom', 'geometry', 'example', 'http', 'codepen', 'spongman', 'rjooja', 'crash', 'browser', 'window', 'memory', 'overflow', 'spending', 'issue', 'geometry', 'array', 'memory', 'overflow', 'vector', 'version', 'false', 'positive', 'error', 'computenormals', 'algorithm', 'vector', 'normalize', 'method', 'sqrt', 'check', 'float', 'overflow', 'error', 'angle', 'calculation', 'error']",Risky_resource_management,{'memory overflow': 100}
+3b2a13917e93f462e7b5162081cc828aeb6763ac,"['pull', 'request', 'spongman', 'shader', 'test', 'shader', 'test', 'failure', 'webgl', 'test', 'browser', 'webgl', 'test', 'dont', 'phantomjs', 'shader', 'uniform', 'attribute', 'need', 'shader', 'browser', 'code', 'check', 'crashe', 'browser', 'webgl', 'test', 'able', 'webgl', 'renderer', 'state', 'property', 'flag', 'update', 'test']",General,{'crashe': 91}
+51916897e6834f86d4a951ac175ce28400eb5615,"['pull', 'request', 'spongman', 'setuniform', 'crash', 'empty', 'array']",General,{'crash': 100}
+8f0317ebe711d6e4adf72b4c3f1bae0a05c38e81,"['pull', 'request', 'spongman', 'creategraphics', 'creategraphics', 'webgl', 'crash']",General,{'crash': 100}
+5532d0fc4556e62a0b17e376107b81d84093ee92,"['javascript', 'array', 'input', 'matrix', 'function', 'crash', 'singularity']",General,{'crash': 100}
+ca7f322b1bb213aaa7d26e580900ee1920af8f00,"['pull', 'request', 'meiamsome', 'bugfix', 'memoryleak', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+50e40f6e9c80bd3f7f133d476e983cde6ab7ae26,"['memory', 'leak', 'sketch', 'thing']",Risky_resource_management,{'memory leak': 100}
+10d883e51ee25c5a486f91724d2bde853d4455aa,"['text', 'texture', 'text', 'texture', 'comment', 'example', 'texture', 'function', 'image', 'video', 'offscreen', 'graphic', 'renderers', 'clean', 'texture', 'function', 'unnecessary', 'texture', 'creation', 'potential', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+935ec94a5ed4cc84d6d6327bba18f3c790e8504e,"['clean', 'texture', 'function', 'unnecessary', 'texture', 'creation', 'potential', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+3e02356eab02da87f3901449fced3cc85a07e197,"['master', 'http', 'github', 'processing', 'geometry', 'refactor', 'master', 'http', 'github', 'processing', 'createcheckbox', 'input', 'label', 'security', 'note', 'getusermedia', 'work', 'local', 'connection', 'http', 'behaviour', 'noloop', 'setup', 'class', 'hide', 'unhide', 'canvas', 'setup', 'touch', 'keyboard', 'input', 'typo', 'dfault', 'default', 'init', 'registermethod', 'type', 'strip', 'tooltip', 'description']",General,{'security': 100}
+8041e8fac8ce0df0f00c8bc3ca1f866766568dac,"['pull', 'request', 'kaganjd', 'master', 'security', 'note', 'getusermedia', 'work', 'local', 'connecti']",General,{'security': 100}
+904681b428a9e2eae8d80601879980e7fec89877,"['security', 'note', 'getusermedia', 'work', 'local', 'connection', 'http']",General,{'security': 100}
+239fdc655290b28ca94610845ff638dac60700f8,"['check', 'nodewebkit', 'crash', 'issue']",General,{'crash': 100}
+1043a957e204814e77e3efcfc4089a64ac0c9745,"['stack', 'overflow']",Risky_resource_management,{'stack overflow': 100}

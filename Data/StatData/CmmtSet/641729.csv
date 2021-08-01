@@ -1,6 +1,27 @@
-sha,message,catetory,matched,labels
-8080f183d65beb8ca7413a0dee3625742bf7d22c,"['filesystem', 'mount', 'memory']",Risky_resource_management,{'mount memory': 91},
-50cabd53b1c66f4c24c4cb92d5d00d6a4dd355c5,"['repository', 'deadlock']",Risky_resource_management,{'deadlock': 100},
-a728daa8dd277a3e34ae0e990f04d787bd273c00,"['ancient', 'likewisemight', 'invalid', 'crash']",Risky_resource_management,{'crash': 100},
-d8abc81d258b55f626c43938d0175e35cd9bcdb5,"['crashosmpgsql', 'delete', 'crash', 'wouldthough', 'providedstill', 'crash']",Risky_resource_management,{'crash': 100},
-5c4952cef20861208c0b3c45a137bafce61698ec,"['osmpgsql', 'structure', 'processing', 'array', 'member', 'generic', 'xnodes', 'crash']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+e3780601fbeebd1b7cb270ae727764b6d2435d30,"['clean', 'ewkb', 'check', 'buffer', 'overflow', 'version', 'check']",Risky_resource_management,{'buffer overflow': 100}
+0d8b6dcd34f624e33ba2afad5153230e280639a7,"['pull', 'request', 'joto', 'bugfix', 'memory', 'leak', 'memory', 'leak', 'node', 'cache']",Risky_resource_management,{'memory leak': 100}
+8f18d952556c2d2c93b60b2bc8b9067f41e85574,"['memory', 'leak', 'node', 'cache']",Risky_resource_management,{'memory leak': 100}
+c3298d8dba702e1156beaaaa2aed037dba0c1f75,"['pull', 'request', 'lonvia', 'segfault', 'errmsg', 'check', 'null', 'pointer', 'error', 'message']",Risky_resource_management,{'null pointer': 100}
+4c579b53c267bba4a5d0ba716ac5320141a739f9,"['check', 'null', 'pointer', 'error', 'message']",Risky_resource_management,{'null pointer': 100}
+a728daa8dd277a3e34ae0e990f04d787bd273c00,"['geos', 'support', 'geos', 'likewise', 'code', 'path', 'idea', 'crash', 'invalid', 'geometry']",General,{'crash': 100}
+196cfc85fc133f35b6f212ddf44968d7bb07e3d8,"['gazetteer', 'ignore', 'landuse', 'tiny', 'memory', 'leak', 'landuses']",Risky_resource_management,{'memory leak': 100}
+d8abc81d258b55f626c43938d0175e35cd9bcdb5,"['deletion', 'delete', 'node', 'osmpgsql', 'crash']",General,{'crash': 100}
+39e468578460bbf2c2d34b2e90c9679c860e7ffe,"['memory', 'leak', 'extra', 'attribute', 'user', 'name']",Risky_resource_management,{'memory leak': 100}
+220c27a6d7b74733ce5645587c7569868f5ba000,"['integration', 'test', 'suit', 'test', 'test', 'number', 'object', 'database', 'different', 'option', 'number', 'option', 'different', 'result', 'crash', 'test', 'suit', 'parameter', 'check', 'cumulative', 'length', 'area']",General,{'crash': 100}
+be87250e5d4b8b62a5ce8820fd11548e4d662bbd,"['memory', 'leak', 'dense', 'block', 'cache', 'static', 'allocation', 'program', 'major', 'issue', 'thanks', 'valgrind']",Risky_resource_management,{'memory leak': 100}
+98aca00467e1f06852e48443629ab45baa4af878,"['osmpgsql', 'memory', 'leak', 'node', 'persistent', 'cache', 'reader', 'coverity', 'scan', 'issue']",Risky_resource_management,{'memory leak': 100}
+ed9faedf97a5c076a9ef0080aa7c824467c62f2e,"['osmpgsql', 'memory', 'leak', 'error', 'path', 'coverity', 'scan', 'issue']",Risky_resource_management,{'memory leak': 100}
+8636409e9cf4fa4c5b1d396bf3fc7f6fea190a8f,"['osmpgsql', 'minor', 'memory', 'leak', 'primitive', 'parser', 'file', 'coverity', 'scan', 'issue']",Risky_resource_management,{'memory leak': 100}
+c513cdb74f639731d5c056764ee48aea9ad40d88,"['couple', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+700ff39bac4b3d378b3540978dae21f3790c1716,"['introduction', 'parallelisation', 'pending', 'phase', 'phase', 'pending', 'separate', 'transaction', 'rate', 'postgresql', 'critical', 'performance', 'default', 'postgresql', 'parameter', 'fsync', 'massive', 'performance', 'degredation', 'report', 'http', 'pipermail', 'december', 'html', 'setting', 'parameter', 'performance', 'data', 'main', 'data', 'potential', 'loss', 'transaction', 'crash', 'database', 'acceptable', 'full', 'import', 'need', 'diff', 'import', 'diff', 'import']",General,{'crash': 100}
+af61f1c020612656af5fb049797690c3728a8f03,"['osmpgsql', 'memory', 'corruption', 'slim', 'mode']",Risky_resource_management,{'memory corruption': 100}
+34103c5c5b6e8314297f13c678e6fd4141d2faff,"['memory', 'corruption', 'index', 'tablespace', 'name', 'length', 'data', 'tablespace', 'name', 'length']",Risky_resource_management,{'memory corruption': 100}
+2e866ed6045f4d26ec933b4b5a5dbd356de3ddf5,"['char', 'static', 'char', 'dynamic', 'allocation', 'reason', 'hstore', 'dynamic', 'allocation', 'prevents', 'likely', 'buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100}
+eb2c4834413428bbb5458054ab5a2572e1c31a82,"['buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100}
+5c4952cef20861208c0b3c45a137bafce61698ec,"['osmpgsql', 'crash', 'relation', 'list', 'member', 'member', 'node', 'relation', 'processing', 'array', 'member', 'structure']",General,{'crash': 100}
+eba533843206c01c98c55e8d0151621cd3f7eeea,"['update', 'osmpgsql', 'minor', 'memory', 'leak', 'style', 'data', 'free', 'layer', 'memory', 'final', 'step', 'touch', 'boundary', 'data', 'road', 'table', 'document', 'road', 'table', 'zoom', 'final', 'step', 'multi', 'update', 'default', 'style', 'work', 'mapnik', 'code', 'string', 'integer', 'comparison']",Risky_resource_management,{'memory leak': 100}
+b985eb16f796e354605def42f383073157c8b908,"['osmpgsql', 'check', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+5cecad95e8ff5ef7e2a4dbb74580e01e62867115,"['osmpgsql', 'memory', 'leak', 'debug', 'output']",Risky_resource_management,{'memory leak': 100}
+962b405dd64198671d2b3b363777e6db36078d0e,"['osmpgsql', 'version', 'polygon', 'hole', 'minor', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+2c436147f302327ded73eefc668ae1ae5ec9b881,"['duplicate', 'suppression', 'code', 'benefit', 'tiger', 'data', 'duplicate', 'data', 'removal', 'code', 'field', 'node', 'segment', 'sctrucutres', 'memory', 'simplifies', 'code', 'memory', 'leak', 'forgot', 'free', 'segment', 'item', 'maximum', 'node', 'segment', 'assert', 'check', 'white', 'space']",Risky_resource_management,{'memory leak': 100}

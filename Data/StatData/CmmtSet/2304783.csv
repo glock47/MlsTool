@@ -1,51 +1,123 @@
-sha,message,catetory,matched,labels
-7e00520cf5b2c5c177a2ea475025061cb7493e8a,"['backdoor', 'signature']",Insecure_interaction_between_components,{'backdoor': 100},
-b0602efa70ce1b9722aea2f80789e266c6e0acfd,"['reproduce', 'crash']",Risky_resource_management,{'crash': 100},
-58eb36434845ab7338ed0011ff21e6dd87816af3,"['override', 'issue', 'security', 'definition']",General,{'security': 100},
-503b85fd8d61ecf2e94ea6aaa3747d36f253681e,"['propagate', 'precise', 'original', 'traceback', 'string', 'crash']",Risky_resource_management,{'crash': 100},
-23f77b5906a48648e0c82148645a81c23bcf3a17,"['possible', 'generic', 'application', 'detect', 'objectaudit', 'insecure', 'plugin', 'utils', 'functionregular']",General,{'insecure': 100},
-f56eb9e4971fdbad735dcc1578cb6101d10c05ce,"['initial', 'audit', 'insecure', 'plugin']",General,{'insecure': 100},
-5e33dc09c54c21f9d2c1012bcf33771812d21003,"['crash', 'dotcodepprint', 'issue', 'debug', 'dotcode']",Risky_resource_management,{'crash': 100},
-fbbb77240d71fc1eaacfce32ee07e6ac8617a92c,"['clear', 'crash']",Risky_resource_management,{'crash': 100},
-c014440209c40e2e46caba3eeafe17767ef3b50e,"['header', 'security']",General,{'security': 100},
-8f18894f4a344a51822dd6ac4a76a2c559d78ab7,"['positive', 'debug', 'cookie', 'insecure', 'message', 'value']",General,{'insecure': 100},
-447fc4863ffed17b11dcd93c36b92db9164a969c,"['false', 'backdoor']",Insecure_interaction_between_components,{'backdoor': 100},
-e9d5acc7abb932b5bc4968acbe3c7f4025956779,"['report', 'exception', 'crash']",Risky_resource_management,{'crash': 100},
-0d45d65ae6b3df05940f2ec48f6962f9b2e3c64a,"['error', 'debug', 'deadlock']",Risky_resource_management,{'deadlock': 100},
-a29ea70a9066a0ca46bd121e40031abc06441f1f,"['similar', 'error', 'crash']",Risky_resource_management,{'crash': 100},
-87d5de3f1d3182d8a1dcfde20ebc21545803d3c6,"['error', 'crash']",Risky_resource_management,{'crash': 100},
-816dcd53aa310f6ca0294fe5cae7b1b3a7026559,"['startup', 'overflow', 'stack', 'workaround', 'blocker', 'crash']",Risky_resource_management,{'crash': 100},
-772131847ba129a706a5589d8acf94b26e39f5c8,"['clamav', 'making', 'crash']",Risky_resource_management,{'crash': 100},
-614ff6029d6420750cf31cbfdf78de637a15f444,"['stager', 'backdoor', 'minor', 'docroot', 'language']",Insecure_interaction_between_components,{'backdoor': 100},
-f22fd396ef882b97c82f1dc938d4bf8a9a311bef,"['stage', 'crash']",Risky_resource_management,{'crash': 100},
-3512f09c8a81a344371f32e7192e7dc556ddc8d2,"['parser', 'invalid', 'crash']",Risky_resource_management,{'crash': 100},
-0b71c85d9585cf580704892b01f79b2b485a0ac9,"['method', 'issue', 'security', 'header', 'implementation']",General,{'security': 100},
-3d9779ffd495ca3546d555653adf1075bc052b88,"['method', 'security', 'restful', 'response', 'consistent', 'header']",General,{'security': 100},
-52431402dd11b549c5463c69f2952b20e6223736,"['backdoor', 'upload', 'cleanup']",Insecure_interaction_between_components,{'backdoor': 100},
-61ad3b999aa948fbede2069c4c1a60d24cc08eec,"['union', 'partial', 'crash']",Risky_resource_management,{'crash': 100},
-af7af0a1dfce3596c5aa086ad3e7335bfee291f1,"['python', 'version', 'crash']",Risky_resource_management,{'crash': 100},
-cd6ceb733e5f892138440f8e50f449ff7cb15e03,"['backdoor', 'takeover', 'adjustment']",Insecure_interaction_between_components,{'backdoor': 100},
-9730865430e8cc1329e0c72bf9f278bbc3144253,"['crash', 'fixedthanks']",Risky_resource_management,{'crash': 100},
-e17eebd770bfd871aabc5199cda46646b1ac7627,"['potential', 'insecure', 'valueerror', 'pickle', 'stringticket']",General,{'insecure': 100},
-c0233dcd4f341a999581fbb6486303726f586869,"['output', 'crash']",Risky_resource_management,{'crash': 100},
-bf5ca4bd9a4b37d85d7f3eb7d1447ac4e45a044f,"['payload', 'parameter', 'quote', 'suffixquery', 'point', 'sqlmap', 'injection', 'expression', 'value', 'string']",Insecure_interaction_between_components,{'sqlmap injection': 90},
-61b6ad64e3f31a636b43532649d86f888fd8fff6,"['backdoor', 'blank']",Insecure_interaction_between_components,{'backdoor': 100},
-6335762d9e36483c888c409caaaba5970984caf2,"['security', 'wafagentendinteraction', 'renamedtransfer', 'check', 'integrity', 'handler']",General,{'security': 100},
-96df5e6c1791feea8b3d8a9ef1bf6197db5afa08,"['security', 'shortcut', 'wrapper', 'metasploit']",General,{'security': 100},
-f82e0368f8ab16e3807a5bfbaae4ee42e41e9193,"['msfpayload', 'version', 'workingrefactor', 'application', 'security']",General,{'security': 100},
-d003283939083550ba995c8c68b9349c4c2faf6f,"['backdoor', 'xampp']",Insecure_interaction_between_components,{'backdoor': 100},
-0b9511df9ce183b9f8120be7ff490826b7ff4a25,"['penetration', 'tester']",General,{'penetration': 100},
-070ccc30e955e462275d5ca48e7dba1eb982a385,"['payload', 'backdoor', 'support', 'stager', 'upload', 'query', 'injection', 'instance', 'metasploit', 'mysql', 'uploaderupdatedmajor']",Insecure_interaction_between_components,{'backdoor': 100},
-236ca9b952fdf673d50b421f07ea94c67e000d80,"['changeset', 'backdoor', 'shell', 'functionality']",Insecure_interaction_between_components,{'backdoor': 100},
-f1a7d095aabdfea723851857ef9275152cafda7d,"['minor', 'backdoor', 'patch', 'window']",Insecure_interaction_between_components,{'backdoor': 100},
-516fdb9356c4e56881bcfe4cbe866045ca9ef920,"['backdoor', 'upload', 'empty', 'directory']",Insecure_interaction_between_components,{'backdoor': 100},
-8e7282f7c7bb389522283a6597aa5ae83fe9f003,"['proxy', 'httplib', 'level', 'python', 'major', 'crash']",Risky_resource_management,{'crash': 100},
-c5d20b8a86ad0a4718ef0c71364ebf59b732a9da,"['support', 'backdoor', 'initial', 'functionality']",Insecure_interaction_between_components,{'backdoor': 100},
-57b8bb4c8e616838479670eebdfd0886909aa86a,"['backdoor', 'syntax', 'minor', 'functionality', 'adjustment']",Insecure_interaction_between_components,{'backdoor': 100},
-1d7de719b953a7c217d88df8170257f87ab89f18,"['backdoor', 'functionality']",Insecure_interaction_between_components,{'backdoor': 100},
-1826e872ac97c890d3a32798a5bd599a73170f27,"['insecure', 'exception', 'fixingextension', 'configurationremote', 'uploaddetail', 'tracker']",General,{'insecure': 100},
-b6c68c2015beaf370d3c3da2ccf5462c40935e6f,"['insecure', 'exception', 'fixingextension', 'configurationremote', 'uploaddetail', 'tracker']",General,{'insecure': 100},
-c2e0072d3d1fca96265b2c0940974f58e40e3450,"['captcha', 'security', 'secret', 'email']",General,{'security': 100},
-5326ac190a65c95a65e8fa46eba3fdb5030abb39,"['asociate', 'crash', 'fixeddetail', 'tracker']",Risky_resource_management,{'crash': 100},
-67e1be07a4c08a10b5e1426b93bab9d1387f9769,"['backdoor', 'command']",Insecure_interaction_between_components,{'backdoor': 100},
-d283abeabf6c79dcc43f8964c234414b8c1e15b4,"['sensitive', 'oklahoma', 'security']",General,{'security': 100},
+sha,message,catetory,matched
+7e00520cf5b2c5c177a2ea475025061cb7493e8a,"['pull', 'request', 'backdoor', 'signature', 'backdoor', 'signature']",Insecure_interaction_between_components,{'backdoor': 100}
+b0602efa70ce1b9722aea2f80789e266c6e0acfd,"['test', 'reproduce', 'crash']",General,{'crash': 100}
+58eb36434845ab7338ed0011ff21e6dd87816af3,"['issue', 'security', 'definition', 'override']",General,{'security': 100}
+503b85fd8d61ecf2e94ea6aaa3747d36f253681e,"['propagate', 'original', 'traceback', 'string', 'crash', 'file', 'precise', 'traceback']",General,{'crash': 100}
+92a661dedc5a70f20927da986d20f6f012a53363,['crash'],General,{'crash': 100}
+fcd0deb1003043bbcd387008b1fb057022904ca4,"['false', 'positive', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+23f77b5906a48648e0c82148645a81c23bcf3a17,"['generic', 'payload', 'grep', 'plugin', 'detect', 'application', 'manual', 'analysis', 'insecure', 'deserialization', 'audit', 'plugin', 'grep', 'plugin', 'unittests', 'base', 'function', 'plugin', 'utils', 'regular', 'expression']",General,{'insecure': 100}
+f56eb9e4971fdbad735dcc1578cb6101d10c05ce,"['insecure', 'deserialization', 'audit', 'plugin', 'work', 'todo', 'list', 'test', 'plugin', 'structure']",General,{'insecure': 100}
+423a72a360a6b4b2a205b63d22627320c84bf81c,"['aggressive', 'lock', 'numerous', 'thread', 'time', 'http', 'request', 'server', 'blind', 'sqli', 'eval', 'user', 'delay', 'scan']",Insecure_interaction_between_components,{'sqli': 100}
+c67a434d8a75ba12559d4c6362e4421390977de8,"['unicode', 'decode', 'error', 'csrf', 'plugin']",Insecure_interaction_between_components,{'csrf': 100}
+f39a9885b3b2db9bb508af035bd2ffeace0329fa,"['confirmation', 'round', 'blind', 'sqli', 'response', 'diff', 'algorithm']",Insecure_interaction_between_components,{'sqli': 100}
+fce2f2c055ab82ae27da93f0d2f0e9660bacb9b2,"['blind', 'sqli', 'search', 'disamb']",Insecure_interaction_between_components,{'sqli': 100}
+5e33dc09c54c21f9d2c1012bcf33771812d21003,"['crash', 'xdot', 'process', 'debug', 'issue', 'dotcode', 'pprint', 'node']",General,{'crash': 100}
+04c2c3baf3a147eb4f82747c54cc30b13e37ed1e,"['plugins', 'attack', 'sqlmap', 'hard', 'limit', 'dump', 'scenario', 'acbc', 'critical', 'message', 'wrong', 'connection', 'bade', 'patch', 'issue', 'switch', 'force', 'thread', 'request', 'force', 'multi', 'sqli', 'proxy', 'file', 'python', 'exception', 'case', 'search', 'column', 'couple', 'bdcf', 'aaaa', 'look', 'technical', 'tamper', 'script', 'equaltolike', 'problem', 'mssql', 'patch', 'retrieval', 'column', 'dump', 'minor', 'cosmetic', 'common', 'table', 'case', 'mssql', 'sybase', 'minor', 'cosmetic', 'minor', 'adjustment', 'minor', 'patch', 'minor', 'patch', 'connection', 'check', 'fedc', 'patch', 'update', 'pull', 'request', 'daremon', 'client', 'minor', 'enhancement', 'flush', 'command', 'list', 'command', 'cead', 'patch', 'python', 'syntaxerror', 'update', 'list', 'client', 'tamper', 'script', 'issue', 'patch', 'minor', 'patch', 'import', 'case', 'thanks', 'update', 'update', 'bfdbe', 'pull', 'request', 'daremon', 'client', 'minor', 'minimal', 'client', 'minor', 'patch', 'exception', 'string', 'aeec', 'minor', 'language', 'patch', 'minor', 'consistency', 'patch', 'language', 'fbac', 'support', 'empty', 'post', 'body', 'method', 'minor', 'patch', 'close', 'close', 'minor', 'patch', 'subtree', 'plugins', 'attack', 'sqlmap', 'subtree']",Insecure_interaction_between_components,{'sqli': 100}
+82c57c1d805827ffa9d1450b4b7f19565a20972a,"['wavsep', 'sqli']",Insecure_interaction_between_components,{'sqli': 100}
+da93be41990bd83fcc395d9ea26318a6165dae2b,"['wavsep', 'sqli']",Insecure_interaction_between_components,{'sqli': 100}
+fbbb77240d71fc1eaacfce32ee07e6ac8617a92c,"['clear', 'crash']",General,{'crash': 100}
+256bed92d63b35056a30fdb62464858661e5ed4f,"['show', 'crash']",General,{'crash': 100}
+c014440209c40e2e46caba3eeafe17767ef3b50e,"['security', 'header']",General,{'security': 100}
+495cbc681cf3d97d15e360645abc30ebce1f54ad,"['minimize', 'impact', 'lxml', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+8f18894f4a344a51822dd6ac4a76a2c559d78ab7,"['debug', 'cookie', 'value', 'insecure', 'channel']",General,{'insecure': 100}
+e30e8662ab3e2fd546d3236a8712d6617f381fb4,"['lxml', 'parser', 'phishtank', 'identify', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+690fe710d4e138f8ead23ae1628b4746d1e2d5a2,"['math', 'domain', 'error', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+447fc4863ffed17b11dcd93c36b92db9164a969c,['backdoor'],Insecure_interaction_between_components,{'backdoor': 100}
+e9d5acc7abb932b5bc4968acbe3c7f4025956779,"['crash', 'report']",General,{'crash': 100}
+c2f5e580f181f858112618c9ea547f0e654920ed,['deadlock'],Risky_resource_management,{'deadlock': 100}
+0d45d65ae6b3df05940f2ec48f6962f9b2e3c64a,"['debug', 'deadlock']",Risky_resource_management,{'deadlock': 100}
+a29ea70a9066a0ca46bd121e40031abc06441f1f,"['crash', 'connection']",General,{'crash': 100}
+87d5de3f1d3182d8a1dcfde20ebc21545803d3c6,"['problem', 'socket', 'error', 'crash', 'user']",General,{'crash': 100}
+8061e945be08eb03e09833fbe794b95733befb62,"['access', 'control', 'helper', 'case', 'able', 'hook', 'specific', 'http', 'method']",Porous_defenses,{'access control': 100}
+816dcd53aa310f6ca0294fe5cae7b1b3a7026559,"['workaround', 'stack', 'overflow', 'crash', 'startup', 'blocker']",Risky_resource_management,{'stack overflow': 100}
+772131847ba129a706a5589d8acf94b26e39f5c8,"['sure', 'test', 'crash']",General,{'crash': 100}
+8fe1dc1a0e6a54bbc9441699fa5be642c5c62502,"['crash', 'todo']",General,{'crash': 100}
+614ff6029d6420750cf31cbfdf78de637a15f444,"['case', 'dont', 'backdoor', 'file', 'stager', 'language', 'message', 'minor', 'docroot']",Insecure_interaction_between_components,{'backdoor': 100}
+e5bfa1142b22589050e6024c78352fffc6d72281,"['carlos', 'pantelides', 'csrf', 'data']",Insecure_interaction_between_components,{'csrf': 100}
+0d46d6cb06f1731cd053f2ce237bd1b131384d56,"['csrf', 'parameter', 'name', 'issue']",Insecure_interaction_between_components,{'csrf': 100}
+c8482d7106c69bf802ef2888f8ccfe15aa40ee37,"['beta', 'version', 'csrf', 'plugin', 'false', 'negative', 'audit', 'csrf', 'vulnerable', 'false', 'positive', 'audit', 'csrf', 'audit', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+c62fe856b9a95f7b88ef3c6e4e8872f615c48de7,"['bunch', 'test', 'csrf', 'issue']",Insecure_interaction_between_components,{'csrf': 100}
+dea15b5892e2448329947ba8d5da655f67ff03f9,"['notify', 'user', 'query', 'sqli']",Insecure_interaction_between_components,{'sqli': 100}
+f22fd396ef882b97c82f1dc938d4bf8a9a311bef,"['test', 'case', 'name', 'test', 'case', 'crash', 'test', 'case']",General,{'crash': 100}
+0e78fbef563341a6b8d66d45467210b55accce2c,"['format', 'sqli', 'payload', 'inline', 'query', 'technique']",Insecure_interaction_between_components,{'sqli': 100}
+3464a70ac2407b20c0cced436aa6940003ce468a,"['generic', 'concatenation', 'string', 'concatquery', 'detection', 'union', 'query', 'sqli', 'technique', 'page', 'disclose', 'dbms', 'error', 'message', 'mysql', 'union', 'sqli', 'specific', 'payload']",Insecure_interaction_between_components,{'sqli': 100}
+c155c6df84bd5ea6cdd369892e3a2c235412dd8d,"['minor', 'user', 'limit', 'statement', 'technique', 'full', 'union', 'sqli']",Insecure_interaction_between_components,{'sqli': 100}
+3512f09c8a81a344371f32e7192e7dc556ddc8d2,"['parser', 'crash', 'invalid']",General,{'crash': 100}
+282aeb734fe5d74db492a4898075d98e3af17e58,"['order', 'play', 'union', 'query', 'sqli']",Insecure_interaction_between_components,{'sqli': 100}
+0b71c85d9585cf580704892b01f79b2b485a0ac9,"['code', 'cleanup', 'security', 'scan', 'method', 'implementation', 'issue']",General,{'security': 100}
+3d9779ffd495ca3546d555653adf1075bc052b88,"['improvement', 'restful', 'security', 'header', 'http', 'response', 'consistent', 'response']",General,{'security': 100}
+ec25deeb393b3eb66c23b471a6f5f6f41a706a73,"['plugin', 'rename', 'check', 'insecure', 'cookie', 'http', 'minor', 'rewrite']",General,{'insecure': 100}
+db8609e34364f078bbd7cddb56ae61b58454b36f,"['name', 'xsrf', 'plugin', 'csrf', 'vulnerability', 'name']",Insecure_interaction_between_components,{'csrf': 100}
+27c956cfe3b282c4baf983bfef30bbd077123519,"['initial', 'test', 'xsrf', 'plugin', 'internal', 'function']",Insecure_interaction_between_components,{'xsrf': 100}
+212c3e99d7a9559f7152469954340bbc95eb5766,"['tara', 'code', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+52431402dd11b549c5463c69f2952b20e6223736,"['minor', 'cleanup', 'backdoor', 'upload']",Insecure_interaction_between_components,{'backdoor': 100}
+d165d5d5febf61bab91b6aecdb753a94514a0239,"['heuristic', 'method', 'sqli']",Insecure_interaction_between_components,{'sqli': 100}
+0702dd70b59437449bb5265e5b64adcdaaeb0949,['backdoor'],Insecure_interaction_between_components,{'backdoor': 100}
+03845acb47f26adcbd7310bcc458f62a9d77d0f5,"['test', 'case', 'buffer', 'overflow', 'moth', 'performance', 'thread', 'unsafe', 'code']",Risky_resource_management,{'buffer overflow': 100}
+2c68b63b399856c9009b3014cd9ef86ed6c5c5e1,"['basic', 'setup', 'threadpool', 'work', 'script', 'sqli', 'printuniq', 'todo', 'basic', 'test', 'error']",Insecure_interaction_between_components,{'sqli': 100}
+ad23edcd74daa7e7d5561f1ae09a24797bde5ac7,"['sqli', 'plugin', 'analyze', 'injection', 'phase']",Insecure_interaction_between_components,{'sqli': 100}
+1cd3c3f7afc16ffebeb2bed28aa97f5f5380456a,"['update', 'data', 'retrieval', 'mechanism', 'sqli']",Insecure_interaction_between_components,{'sqli': 100}
+02f75773923245dca915402c3366ec2b41bbf580,"['sqli', 'plugin', 'multire']",Insecure_interaction_between_components,{'sqli': 100}
+e88687b1f08d8a67dc4ffc8a1a4a7c4810940025,"['sure', 'sure', 'clever', 'default', 'sqli', 'detection']",Insecure_interaction_between_components,{'sqli': 100}
+61ad3b999aa948fbede2069c4c1a60d24cc08eec,"['crash', 'partial', 'union']",General,{'crash': 100}
+cc66e790aa2917b170bee766e5f5c6593cc1aed9,"['sqli', 'plugin', 'signature', 'thanks', 'ignacio', 'garrido', 'code', 'improvement', 'rewritten', 'sqli', 'test', 'script', 'unittest', 'format', 'test', 'script']",Insecure_interaction_between_components,{'sqli': 100}
+af4bda2fe16638f798550afae4987ae68f28f91e,"['replication', 'sqli', 'blindsqli', 'vulns', 'slight', 'code']",Insecure_interaction_between_components,{'sqli': 100}
+27785d1c4100e09c8376e4dcd786fed12224ef86,"['command', 'injection', 'vulnerability', 'claudio', 'salazar', 'thanks']",Insecure_interaction_between_components,{'command injection': 100}
+2975bbc9396deaaff44d36da52fe6326a6987dac,"['weak', 'csrf', 'configuration', 'symfony', 'framework', 'thanks', 'carlos', 'pantelides', 'great', 'plugin']",Insecure_interaction_between_components,{'csrf': 100}
+af7af0a1dfce3596c5aa086ad3e7335bfee291f1,"['version', 'check', 'crash', 'python']",General,{'crash': 100}
+cd6ceb733e5f892138440f8e50f449ff7cb15e03,['backdoor'],Insecure_interaction_between_components,{'backdoor': 100}
+5b932941fe5a4cd31dd0d3139fea4057359531d8,['backdoor'],Insecure_interaction_between_components,{'backdoor': 100}
+26aba79ccd0833c6ee981dc6870e79f26de494eb,"['generic', 'unit', 'test', 'test', 'grep', 'plugins', 'crash']",General,{'crash': 100}
+26d2b11cf2602bb573287add1194ab5b9d177777,"['report', 'crash', 'report']",General,{'crash': 100}
+9730865430e8cc1329e0c72bf9f278bbc3144253,"['crash', 'function', 'thanks', 'ulisesk', 'report']",General,{'crash': 100}
+e17eebd770bfd871aabc5199cda46646b1ac7627,"['potential', 'valueerror', 'insecure', 'string', 'pickle', 'http', 'sourceforge', 'apps', 'trac', 'ticket']",General,{'insecure': 100}
+99f268b7b374929b016b15b3aeb413a7df0f7f41,"['payload', 'usage', 'crash', 'moment']",General,{'crash': 100}
+05f447daffaab2b1f5b6b1a985a2b1624fa84784,"['checkout', 'crash', 'test', 'case']",General,{'crash': 100}
+f27f05308a19158571856bc23ac3ceea75fcb24d,"['minor', 'update', 'sensitive', 'data', 'error', 'report']",Porous_defenses,{'sensitive data': 100}
+c0233dcd4f341a999581fbb6486303726f586869,"['crash', 'output']",General,{'crash': 100}
+096efea282acbe045a007014d4b76735456a443d,"['crash', 'output']",General,{'crash': 100}
+a5a648f4fea15a03b4eecd226426a287f441e708,"['query', 'union', 'query', 'injection', 'file', 'mysql', 'injection', 'technique', 'mysql']",Insecure_interaction_between_components,{'mysql injection': 93}
+c1145c244e37d2a27860f1200bf671572d00a443,"['user', 'agent', 'injection']",Insecure_interaction_between_components,{'agent injection': 91}
+2d361cb3599c4305f2cc06c0b03a134879419230,"['minor', 'update', 'stager', 'backdoor', 'rewritten', 'stager', 'aspx']",Insecure_interaction_between_components,{'backdoor': 100}
+f3fe19c4e5ce25338fbcfa4e1e1a143467f4ca8e,['backdoor'],Insecure_interaction_between_components,{'backdoor': 100}
+09836dc5687d88f4c6d942208c3843cd22e485da,"['backdoor', 'aspx']",Insecure_interaction_between_components,{'backdoor': 100}
+61b6ad64e3f31a636b43532649d86f888fd8fff6,"['backdoor', 'space', 'blank', 'line']",Insecure_interaction_between_components,{'backdoor': 100}
+35edd0a1282febdd5ed0a6d3b070f770b812fec7,['security'],General,{'security': 100}
+60c282285f7b8b4af4bb2e3d506c8bc00e76f228,"['report', 'sqli', 'vulns']",Insecure_interaction_between_components,{'sqli': 100}
+6335762d9e36483c888c409caaaba5970984caf2,"['wafagent', 'application', 'security', 'payload', 'endinteraction', 'exit', 'integrity', 'check', 'sure', 'wafagent']",Risky_resource_management,{'integrity check': 100}
+96df5e6c1791feea8b3d8a9ef1bf6197db5afa08,"['application', 'security', 'payload', 'different', 'wrapper', 'shortcut']",General,{'security': 100}
+f82e0368f8ab16e3807a5bfbaae4ee42e41e9193,"['vdaemon', 'msfpayload', 'msfcli', 'step', 'refactor', 'application', 'security', 'payload']",General,{'security': 100}
+d003283939083550ba995c8c68b9349c4c2faf6f,"['backdoor', 'script']",Insecure_interaction_between_components,{'backdoor': 100}
+506403dd9d68abd76e2da9975daf04bc6a002452,['backdoor'],Insecure_interaction_between_components,{'backdoor': 100}
+0b9511df9ce183b9f8120be7ff490826b7ff4a25,"['penetration', 'tester']",General,{'penetration': 100}
+ce6dedd2cd42bf186a4a0f4ea6488806853b0024,"['program', 'crash', 'http', 'sourceforge', 'tracker', 'func', 'detail', 'atid']",General,{'crash': 100}
+070ccc30e955e462275d5ca48e7dba1eb982a385,"['automatic', 'support', 'uploader', 'backdoor', 'upload', 'metasploit', 'payload', 'stager', 'query', 'injection', 'instance', 'mysql', 'mysql', 'changelog', 'major', 'code']",Insecure_interaction_between_components,{'backdoor': 100}
+09b60bbb5052f64cf91a9ca1d5a2df00fdce5b56,"['reason', 'test', 'framework', 'crash']",General,{'crash': 100}
+236ca9b952fdf673d50b421f07ea94c67e000d80,"['major', 'shell', 'backdoor', 'functionality', 'changeset']",Insecure_interaction_between_components,{'backdoor': 100}
+83a8999d697e037c08eecbb1021d820e191bb450,"['full', 'audit', 'crash', 'http', 'sourceforge', 'tracker', 'index', 'func', 'detail', 'atid']",General,{'crash': 100}
+f1a7d095aabdfea723851857ef9275152cafda7d,"['minor', 'patch', 'backdoor', 'work']",Insecure_interaction_between_components,{'backdoor': 100}
+89c43893d4f3002b7f53baffa01f3512989db93b,"['trunk', 'major', 'enhancement', 'microsoft', 'server', 'procedure', 'heap', 'buffer', 'overflow', 'memory', 'protection', 'support', 'mysql', 'postgresql', 'metasploit', 'shellcode', 'memory', 'forensics', 'technique', 'option', 'standalone', 'payload', 'stager', 'option', 'mysql', 'postgresql', 'microsoft', 'server', 'delete', 'window', 'registry', 'option', 'mysql', 'postgresql', 'custom', 'user', 'granularity', 'enumerate', 'query', 'output', 'minor', 'enhancement', 'session', 'default', 'output', 'hostname', 'session', 'file', 'option', 'minor', 'improvement', 'temporary', 'file', 'dbms', 'file', 'system', 'minor', 'major', 'code']",Risky_resource_management,{'buffer overflow': 100}
+516fdb9356c4e56881bcfe4cbe866045ca9ef920,"['upload', 'backdoor', 'empty', 'name', 'directory']",Insecure_interaction_between_components,{'backdoor': 100}
+c399ecdf6966651ef823c25f31a0cb4afd72304c,"['full', 'audit', 'profile', 'crash', 'http', 'sourceforge', 'tracker', 'func', 'detail', 'atid']",General,{'crash': 100}
+d08e7369271b3a2f5f3028a59dc24c1dc002e6e8,"['crash', 'sqlmap', 'http', 'sourceforge', 'tracker', 'func', 'detail', 'atid']",General,{'crash': 100}
+8e7282f7c7bb389522283a6597aa5ae83fe9f003,"['major', 'http', 'request', 'http', 'proxy', 'work', 'python', 'python', 'crash', 'httplib', 'level', 'python']",General,{'crash': 100}
+c5d20b8a86ad0a4718ef0c71364ebf59b732a9da,"['initial', 'support', 'backdoor', 'functionality']",Insecure_interaction_between_components,{'backdoor': 100}
+57b8bb4c8e616838479670eebdfd0886909aa86a,"['minor', 'syntax', 'adjustment', 'backdoor', 'functionality']",Insecure_interaction_between_components,{'backdoor': 100}
+1d7de719b953a7c217d88df8170257f87ab89f18,"['backdoor', 'functionality']",Insecure_interaction_between_components,{'backdoor': 100}
+16b4530bbe806aa0e6e8154ebc97f5ce60458f8c,"['minor', 'shell', 'altought', 'backdoor', 'functionality', 'minor', 'common', 'library', 'code', 'code', 'cleanup', 'default', 'user', 'agent', 'sqlmap', 'comparison', 'algorithm', 'reason']",Insecure_interaction_between_components,{'backdoor': 100}
+1826e872ac97c890d3a32798a5bd599a73170f27,"['exception', 'exception', 'insecure', 'configuration', 'frontpage', 'user', 'upload', 'file', 'remote', 'server', 'http', 'sourceforge', 'tracker', 'func', 'detail', 'atid']",General,{'insecure': 100}
+b6c68c2015beaf370d3c3da2ccf5462c40935e6f,"['exception', 'exception', 'insecure', 'configuration', 'frontpage', 'user', 'upload', 'file', 'remote', 'server', 'http', 'sourceforge', 'tracker', 'func', 'detail', 'atid']",General,{'insecure': 100}
+c2e0072d3d1fca96265b2c0940974f58e40e3450,"['secret', 'email', 'security', 'captcha']",General,{'security': 100}
+88e2a2223e7a25bdc2aa60de08058c0117c565d1,"['crash', 'wizard', 'http', 'sourceforge', 'tracker', 'func', 'detail', 'atid']",General,{'crash': 100}
+5326ac190a65c95a65e8fa46eba3fdb5030abb39,"['crash', 'asociate', 'pwaf', 'http', 'sourceforge', 'tracker', 'func', 'detail', 'atid']",General,{'crash': 100}
+fe101bdfec895f076fc60ba2298b108e2c1aed1f,"['strange', 'crash']",General,{'crash': 100}
+4fcb380a503185ac362ce411ff00eaa1e7d0e7ee,"['signature', 'detect', 'buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100}
+67e1be07a4c08a10b5e1426b93bab9d1387f9769,"['backdoor', 'backdoor', 'command', 'long', 'term']",Insecure_interaction_between_components,{'backdoor': 100}
+ed4b964265fb2a6a1f0578d975a90723d2b2ecef,"['method', 'implementation', 'strange', 'case', 'parser', 'crash']",General,{'crash': 100}
+6cb53bdda89c917f33c1a8cd779cdff5cab4a9e0,"['pykto', 'crash', 'console']",General,{'crash': 100}
+63924fd90fb5dd44df9da71a991e40eb8fc64cb5,"['version', 'info', 'crash', 'file']",General,{'crash': 100}
+64676f4c62441c803db87dbc5462743175d2b3fb,"['xsrf', 'problem', 'type', 'gtkui', 'database']",Insecure_interaction_between_components,{'xsrf': 100}
+d283abeabf6c79dcc43f8964c234414b8c1e15b4,"['detects', 'http', 'thedailywtf', 'article', 'oklahoma', 'leak', 'social', 'security', 'number', 'sensitive', 'data', 'aspx']",Porous_defenses,{'sensitive data': 100}
+b391828cfa60ff1f117507006e37764d67b39d48,"['icon', 'vulnerability', 'information']",Porous_defenses,{'icon vulnerability': 91}
+b05288abfd26cc39c43fc1c39272eb17209ff599,"['saveprofile', 'saveasprofile', 'status', 'core', 'startscan', 'core', 'crash']",General,{'crash': 100}
+0ae12b916a3220f63338c4fe939c394d1ebe1844,"['icon', 'vulnerability', 'severity', 'vuln', 'finish', 'task']",Porous_defenses,{'icon vulnerability': 91}

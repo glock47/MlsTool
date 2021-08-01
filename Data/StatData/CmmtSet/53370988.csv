@@ -1,23 +1,19 @@
-sha,message,catetory,matched,labels
-099715312ee161d20adf441f034e4d21f9e94f85,"['unexpected', 'empty', 'custom', 'dictionary', 'crash']",Risky_resource_management,{'crash': 100},
-4c9e134d6f814cc5d0e89ff870b27a1f381f0bd2,"['default', 'specialchars']",Insecure_interaction_between_components,{'specialchars': 96},
-5b84f3d0a9d37bc837d5f2f914c2c75b4b6776e5,"['reflect', 'update', 'specialchars', 'default']",Insecure_interaction_between_components,{'specialchars': 96},
-bef43ea825f5fdc865ce1942a046cd0a1fc63aeb,"['ascii', 'specialchars', 'control', 'includespace']",Insecure_interaction_between_components,{'specialchars': 96},
-2c6e5539977b25f42af9ae86f26165f7097acec4,"['reflect', 'option', 'specialchars', 'default', 'manualissue']",Insecure_interaction_between_components,{'specialchars': 96},
-eab52760ffe9baa44eb4175059f24f720da7cdd8,"['everystate', 'crash']",Risky_resource_management,{'crash': 100},
-f0610e60c3b220814d80c133326adebc7339a35f,"['specialchars', 'optionissue']",Insecure_interaction_between_components,{'specialchars': 96},
-00504d8a36c1cd4cb5699601bc49ca1012c2fe78,"['getmode', 'crash']",Risky_resource_management,{'crash': 100},
-cf92ba0ac846a5973ed146cec0cd3048e1aef245,"['crash', 'safari', 'setdragimage', 'aroundclose']",Risky_resource_management,{'crash': 100},
-716b45d54054a82c55525c917abab3cfb4d58132,"['command', 'crash']",Risky_resource_management,{'crash': 100},
-5608cbdd7d32e57326872247e043e8115d3f0df0,"['quiet', 'security', 'alert', 'dependency']",General,{'security': 100},
-0efa37e8ce1965416720c0c1deedab6acfec70d3,"['content', 'policy', 'security']",General,{'security': 100},
-93387cd83db3f713125d0d515000f85b37607e23,"['pageload', 'security', 'error', 'fatal', 'driver']",General,{'security': 100},
-f63c523a72f2bab6498af7509674d4390d611639,"['reword', 'error', 'message', 'insecure']",General,{'insecure': 100},
-fb3bda46aa0156eb8527bebccedd7c7d0c289e7a,"['cryptographic', 'scheme', 'security', 'state', 'driver']",General,{'security': 100},
-c64675ceab962a6e502601737903d055d2ac53eb,"['security', 'readme', 'lighthouse']",General,{'security': 100},
-017574be143532436ff5ac5506a3461d2ddc1dcc,"['timeout', 'certificate', 'insecure']",General,{'insecure': 100},
-42091b24829b9137d33336c8c2676192e80a70f3,"['certification', 'insecure']",General,{'insecure': 100},
-2d2206b874524a8b9facf02b3f5f708acab7a7d9,"['randomness', 'insecure']",General,{'insecure': 100},
-d7b27761b4b35a8a4c721a62d9b02356c4bc2458,"['security', 'server', 'harden', 'static']",General,{'security': 100},
-6fc39e44937f83065a62e7c7ecefd504378814ce,"['insecure', 'audit']",General,{'insecure': 100},
-9437c02dc67b43dd6588342d80a58b90da13db8a,"['updateupdateenabler', 'security', 'beforepageload', 'domain']",General,{'security': 100},
+sha,message,catetory,matched
+5608cbdd7d32e57326872247e043e8115d3f0df0,"['deps', 'bump', 'various', 'dependency', 'quiet', 'security']",General,{'security': 100}
+0efa37e8ce1965416720c0c1deedab6acfec70d3,"['content', 'security', 'policy']",General,{'security': 100}
+a1bf2aff8aaf68b50840ba45fc17c19651e234c5,"['deps', 'security', 'bump']",General,{'security': 100}
+93387cd83db3f713125d0d515000f85b37607e23,"['core', 'driver', 'security', 'error', 'fatal', 'pageload', 'error']",General,{'security': 100}
+f63c523a72f2bab6498af7509674d4390d611639,"['core', 'reword', 'insecure', 'error', 'message']",General,{'insecure': 100}
+fb3bda46aa0156eb8527bebccedd7c7d0c289e7a,"['core', 'driver', 'security', 'state', 'scheme', 'cryptographic']",General,{'security': 100}
+c64675ceab962a6e502601737903d055d2ac53eb,"['readme', 'lighthouse', 'security', 'project']",General,{'security': 100}
+017574be143532436ff5ac5506a3461d2ddc1dcc,"['core', 'driver', 'exit', 'page', 'insecure', 'certificate', 'test', 'page', 'insecure', 'certificate', 'page', 'load', 'timeout']",General,{'insecure': 100}
+42091b24829b9137d33336c8c2676192e80a70f3,"['core', 'bail', 'insecure', 'certification']",General,{'insecure': 100}
+2d2206b874524a8b9facf02b3f5f708acab7a7d9,"['insecure', 'randomness', 'vuln']",General,{'insecure': 100}
+d7b27761b4b35a8a4c721a62d9b02356c4bc2458,"['harden', 'security', 'static', 'server']",General,{'security': 100}
+0d0e93f3458488a5155ea0d5b4bf280f4b0f1255,"['flag', 'blob', 'insecure', 'flag', 'blob', 'insecure', 'test']",General,{'insecure': 100}
+bd7f862df5bab6ae70ce534f9aaf32d522eabb49,"['update', 'array', 'critical', 'resource', 'type']",Risky_resource_management,{'critical resource': 100}
+1eea2a393230da62cac47e3f5c86a30a3704c8f3,"['feat', 'candidate', 'increase', 'robustness', 'screenshots', 'additional', 'candidate', 'visual', 'completeness', 'window', 'percentile', 'window', 'percentile', 'trace', 'minimum', 'window', 'fall', 'speedline', 'screenshots', 'trace', 'timing', 'data', 'trace', 'candidate', 'trace', 'event']",Risky_resource_management,{'data trace': 95}
+69568d2d74c701fd944b34ac5ebd6271c6b77026,"['pull', 'request', 'googlechrome', 'http', 'http', 'audit', 'insecure']",General,{'insecure': 100}
+6fc39e44937f83065a62e7c7ecefd504378814ce,"['http', 'audit', 'insecure']",General,{'insecure': 100}
+9437c02dc67b43dd6588342d80a58b90da13db8a,"['update', 'http', 'gatherer', 'update', 'http', 'gatherer', 'security', 'domain', 'enabler', 'beforepageload']",General,{'security': 100}
+09bc980fa660cd1000fb27d2516f3899cb323033,"['pull', 'request', 'googlechrome', 'othertests', 'test', 'security', 'viewport']",General,{'security': 100}

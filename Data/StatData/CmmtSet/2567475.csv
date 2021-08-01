@@ -1,21 +1,88 @@
-sha,message,catetory,matched,labels
-47b2c1b34abf171bc5b012643f8384d6282a80c4,"['security', 'update']",General,{'security': 100},
-3e362cd00f9f547e78b3a6923323dfb89a743d92,"['crash', 'string']",Risky_resource_management,{'crash': 100},
-c91d4afc22545292f298a5c333b3c8311888df41,"['crash', 'disconnect', 'android', 'gamepads']",Risky_resource_management,{'crash': 100},
-703527ea6391d042c40b8f0ab090b3b4faef240d,"['crash', 'terrain']",Risky_resource_management,{'crash': 100},
-9830b7aae6858338c9b8a252785c31ec4ed36164,"['rgngl', 'patchlogger', 'crash']",Risky_resource_management,{'crash': 100},
-061b3b83f528f8fad5d3e4a7985c51cb5f6728c1,"['destructor', 'crash', 'audiobuffer']",Risky_resource_management,{'crash': 100},
-224b1d335ba05faca505e762239779964f81611f,"['mergerequest', 'master', 'issue', 'crash']",Risky_resource_management,{'crash': 100},
-46c472bcd5d392264964d4ea363250fdffdd1449,"['issue', 'condition', 'crash', 'context', 'order']",Risky_resource_management,{'crash': 100},
-6a0fbbc5b4cba921c8f9571bcfd31cc8d915e2ca,"['release', 'crash']",Risky_resource_management,{'crash': 100},
-4f1a5253b4fd398612f1251b5bf1e6907f104aa0,"['issue', 'renderstate', 'release', 'specific', 'crash', 'couldscene', 'issue', 'modelmultiple', 'scene', 'visit', 'effect', 'joint', 'possible', 'complex', 'scene', 'material', 'issue']",Risky_resource_management,{'crash': 100},
-db93d108da606a2d8d0c55def38d488b12234a61,"['mergerequest', 'kwhatmough', 'mergeandroid', 'intermittent', 'rewind', 'crash']",Risky_resource_management,{'crash': 100},
-370bd76e71883a32d7e4d225d59560f67f2db97c,"['android', 'intermittent', 'rewind', 'crash']",Risky_resource_management,{'crash': 100},
-581ba34522b55b41bdb029d94830e78c91157607,"['gamepadbutton', 'member', 'clunky', 'value', 'orderthanks', 'shutdown', 'steve', 'crash']",Risky_resource_management,{'crash': 100},
-a6cbb5a010e3dfc53aa63635d2b576f1a0f524b8,"['bbcae', 'mergerequest', 'pooerh', 'mergedestroy', 'platform', 'linux', 'window', 'crash']",Risky_resource_management,{'crash': 100},
-eb7dc7f167cb4ecf64acbe63aedd0e537c99609a,"['platform', 'button', 'window', 'crash', 'manager']",Risky_resource_management,{'crash': 100},
-a58358f42e7aa61f35d27d6563ae977613375201,"['crash', 'hittingplatform', 'signalshutdown', 'objectplatform', 'occurs', 'seperateshutdown', 'signal', 'emphasis', 'schedule']",Risky_resource_management,{'crash': 100},
-8ded3d729f42d35b00b54975a7bf4daafd485c8b,"['animationevent', 'result', 'crash', 'method', 'listeneronend', 'sense', 'listener', 'calledremove', 'destructor', 'unschedule', 'animationclip', 'animationevent', 'callinganimationclip', 'controller', 'listeneranimationclip', 'getduration']",Risky_resource_management,{'crash': 100},
-d43df7b6581605e6dc7eeffbe991f576305ccb0a,"['mergemerge', 'kcunney', 'blackberry', 'request', 'crash', 'animationclip']",Risky_resource_management,{'crash': 100},
-2894f78989731ad14066a6a3e8af3469dd0bd9ef,"['crash', 'animationclip', 'playingcheck', 'current', 'durationstart', 'animationclip', 'duration']",Risky_resource_management,{'crash': 100},
-71deec3749e0d63f9ed7f6bbe4c4f1612129af2b,"['crash', 'animationclip', 'playinganimationclip', 'unschedule', 'variable', 'possible', 'false', 'member']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+5f873b097102dfc1c7f3adcbf2a689dac8a19ecc,"['pull', 'request', 'seanpaultaylor', 'gamepads', 'disconnect', 'crash', 'android']",General,{'crash': 100}
+c91d4afc22545292f298a5c333b3c8311888df41,"['gamepads', 'disconnect', 'crash', 'android']",General,{'crash': 100}
+f13282ebba590c892c9c0db6a294113dbb5304f7,"['clean', 'stack', 'leak', 'eventual', 'crash', 'number', 'problematic', 'unsafe', 'usage', 'scenario', 'subclass', 'object', 'function', 'base', 'class', 'crash', 'automatic', 'safe', 'conversion', 'base', 'class', 'subclass', 'vice', 'versa', 'object', 'function', 'manual', 'object', 'base', 'class', 'subclass', 'access', 'subclass', 'specific', 'interface', 'safe', 'type', 'function', 'polymorphic', 'class', 'type', 'conversion', 'function', 'suitable', 'conversion', 'exists', 'incompatible', 'object', 'type', 'function', 'function', 'script', 'error']",General,{'crash': 100}
+c1893ab50a7394cbb967b0e14a9d5b026cc2ba68,"['pull', 'request', 'benloong', 'findnode', 'mesh', 'skin', 'stack', 'overflow']",Risky_resource_management,{'stack overflow': 100}
+bf3d18236893eebec6803656b712b99c419fca92,"['findnode', 'mesh', 'skin', 'stack', 'overflow', 'extra', 'parameter', 'skipskin', 'mesh', 'skin', 'hierarchy']",Risky_resource_management,{'stack overflow': 100}
+7c45feed7ed80db50c4be2e47508d31d949001bd,"['empty', 'model', 'bundle', 'vcxproj', 'user', 'file', 'model', 'dump', 'mesh', 'object', 'blender', 'crash', 'encoder', 'specific', 'file']",General,{'crash': 100}
+6d8c0dac50ca5180ede509016b91f662e10da6be,"['pull', 'request', 'jimduchek', 'crash', 'terrain', 'node']",General,{'crash': 100}
+703527ea6391d042c40b8f0ab090b3b4faef240d,"['crash', 'terrain', 'node']",General,{'crash': 100}
+f812e61da5bae10f22f80bdb24036701838a7423,"['pull', 'request', 'seanpaultaylor', 'font', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+1249cf134846fc1a1b0cb662a570fc572d059f87,"['font', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+3c825cc256826077155b1735d342ec3429a7e6b0,"['pull', 'request', 'rgngl', 'patch', 'crash']",General,{'crash': 100}
+0deb28b479c0eaca6ef1fe040094dea2ddc06b11,"['crash', 'object']",General,{'crash': 100}
+9830b7aae6858338c9b8a252785c31ec4ed36164,"['pull', 'request', 'rgngl', 'patch', 'logger', 'crash']",General,{'crash': 100}
+f03fc6c9fc15ca398d54265a16e7d1434f7e3417,"['logger', 'crash', 'structure', 'need']",General,{'crash': 100}
+061b3b83f528f8fad5d3e4a7985c51cb5f6728c1,"['crash', 'audiobuffer', 'destructor']",General,{'crash': 100}
+c614a497ff6ecf06c8cdc408e9574bb9ad8aa25e,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+7645c19dff3f3f56c0b8f59b05581953ee3ed4c1,"['memory', 'leak', 'audiolistener', 'camera']",Risky_resource_management,{'memory leak': 100}
+c6013784398addca270266f429674172f2b3982f,"['game', 'crash', 'default', 'theme', 'theme', 'image']",General,{'crash': 100}
+bb8f2b43ec67a960e9802aedf56b3754918c4bdc,"['pull', 'request', 'dgough', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+bedd0e691d86827f7a5be8bc1fc4b34e70a75e85,"['memory', 'leak', 'form']",Risky_resource_management,{'memory leak': 100}
+224b1d335ba05faca505e762239779964f81611f,"['pull', 'request', 'consuuume', 'master', 'crash', 'null']",General,{'crash': 100}
+e7cd166e3fd770b2a9a67abcd018a0198da5f323,"['compile', 'error', 'linux', 'crash', 'font']",General,{'crash': 100}
+46c472bcd5d392264964d4ea363250fdffdd1449,"['issue', 'platformwindows', 'context', 'current', 'condition', 'order', 'crash', 'null']",General,{'crash': 100}
+12264128652386f329ef1ec837707cb68f272098,"['keyboard', 'event', 'control', 'container', 'navigation', 'memory', 'leak', 'theme']",Risky_resource_management,{'memory leak': 100}
+6a0fbbc5b4cba921c8f9571bcfd31cc8d915e2ca,"['matrix', 'project', 'file', 'crash', 'release']",General,{'crash': 100}
+4f1a5253b4fd398612f1251b5bf1e6907f104aa0,"['specific', 'renderstate', 'crash', 'original', 'node', 'node', 'copy', 'issue', 'scene', 'nest', 'model', 'joint', 'hierarchy', 'side', 'effect', 'joint', 'scene', 'visit', 'possible', 'joint', 'complex', 'node', 'multiple', 'model', 'certain', 'material', 'auto', 'crash', 'node', 'part', 'scene']",General,{'crash': 100}
+8399ee50cfadc8b18f5ada39fbb6e666e84abc61,"['pull', 'request', 'sgrenier', 'memory', 'leak', 'terrain']",Risky_resource_management,{'memory leak': 100}
+bbb5ee1a92e3442634be5d7522cc25e684ff7337,"['memory', 'leak', 'terrain', 'incorrect', 'default', 'state', 'setting', 'depth']",Risky_resource_management,{'memory leak': 100}
+170098c56ff761bb4a0353679e74c290bd34e6c9,"['memory', 'leak', 'billboardtest']",Risky_resource_management,{'memory leak': 100}
+190ad83fb43966d838a9f78cd736679bf9a327ae,"['memory', 'leak', 'lighttest']",Risky_resource_management,{'memory leak': 100}
+db93d108da606a2d8d0c55def38d488b12234a61,"['pull', 'request', 'kwhatmough', 'intermittent', 'android', 'crash', 'startup', 'rewind']",General,{'crash': 100}
+370bd76e71883a32d7e4d225d59560f67f2db97c,"['intermittent', 'android', 'crash', 'startup', 'rewind']",General,{'crash': 100}
+535515751d962bfc5a43a0057533f260a55c0d76,"['pull', 'request', 'ablake', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+bad067b85453a38ad829773b7577eb7b97101e8a,"['http', 'github', 'blackberry', 'gameplay', 'memory', 'leak', 'gamepad', 'conflict', 'gameplay', 'test', 'testsgame']",Risky_resource_management,{'memory leak': 100}
+75d90cec1220f83e6942796774d4c80304962b4b,"['memory', 'leak', 'postprocesstest']",Risky_resource_management,{'memory leak': 100}
+581ba34522b55b41bdb029d94830e78c91157607,"['member', 'button', 'enum', 'value', 'order', 'slow', 'thing', 'crash', 'game', 'shutdown', 'steve', 'thanks', 'pointer', 'null', 'gamepad', 'joystick', 'normalization', 'window']",General,{'crash': 100}
+979c8e2e9d48b211a242abf0c0b5bce71d006693,"['gamepad', 'class', 'gamepad', 'support', 'gamepad', 'support', 'gamepad', 'various', 'test', 'sample', 'generator', 'doxygen', 'includeelement', 'file', 'clamp', 'percentage', 'animationclip', 'crash', 'animation', 'racergame', 'gamepadevent', 'bluetooth', 'setting', 'screen']",General,{'crash': 100}
+138bb45f516f467f5211d9c982c24b06f0311c7e,"['terrain', 'support', 'terrain', 'class', 'terrain', 'terrain', 'similar', 'model', 'terrain', 'support', 'multiple', 'surface', 'layer', 'texture', 'flexible', 'heightfield', 'size', 'full', 'transform', 'scale', 'support', 'physic', 'header', 'file', 'additional', 'documentation', 'sample', 'heightfield', 'collision', 'shape', 'image', 'error', 'terrain', 'heightfield', 'class', 'construct', 'heightfield', 'collision', 'shape', 'object', 'space', 'normal', 'generation', 'gameplay', 'encoder', 'normal', 'option', 'generate', 'normal', 'heightmap', 'image', 'support', 'setting', 'depth', 'support', 'texture', 'sampler', 'array', 'minor', 'memory', 'leak', 'physic', 'code', 'typo', 'parameter', 'constructor', 'initializer', 'erratic', 'behavior', 'rigid', 'body', 'issue', 'physic', 'debug', 'drawing', 'large', 'scene', 'internal', 'meshbatch', 'enormous', 'size', 'large', 'amount', 'memory', 'support', 'preprocessor', 'directive', 'gameplay', 'project', 'omit', 'inclusion', 'compilation', 'runtime', 'speed', 'compile', 'time', 'making', 'gameplay', 'header', 'file', 'recompile', 'order', 'work', 'file', 'project']",Risky_resource_management,{'memory leak': 100}
+281ed51e158e1be876bf1eab912249218c55ed82,"['memory', 'leak', 'opacity', 'animation', 'test', 'formstest']",Risky_resource_management,{'memory leak': 100}
+30d3a8821b419cda413195cef5548b6b81bd38e6,"['font', 'opacity', 'control', 'opacity', 'animation', 'test', 'note', 'self', 'submit', 'pull', 'request', 'memory', 'leak', 'test']",Risky_resource_management,{'memory leak': 100}
+a6cbb5a010e3dfc53aa63635d2b576f1a0f524b8,"['pull', 'request', 'pooerh', 'linux', 'platform', 'crash', 'game', 'exit', 'window']",General,{'crash': 100}
+6fd8aadef8b0f51cb7dab29aa565b5742cefa12d,"['check', 'form', 'setsize', 'framebuffer', 'width', 'height', 'game', 'crash', 'overrode', 'control', 'setwidth', 'control', 'setheight', 'form', 'form', 'setsize', 'order', 'size', 'framebuffer']",General,{'crash': 100}
+a8429d3ab95d6cfae4e633bda6497774bfd89e50,"['pull', 'request', 'kwhatmough', 'memory', 'leak', 'issue']",Risky_resource_management,{'memory leak': 100}
+a217f29f09f68d7fdca9a0ce62833a5bc584694a,"['memory', 'leak', 'issue']",Risky_resource_management,{'memory leak': 100}
+ab8094c58db1ff56d0153d3f095471b0bdea4173,"['pull', 'request', 'sgrenier', 'master', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+1c9f7a27817f3d082004ff6702bb804baa408a29,"['memory', 'leak', 'system', 'memory', 'certain', 'object', 'array']",Risky_resource_management,{'memory leak': 100}
+d5b1cb42e38e42cdd679e1bb9be0d610f0955857,"['pull', 'request', 'sgrenier', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+31ae00ce14f123fbfb15d6257303398b693e91cc,"['number', 'memory', 'leak', 'system', 'memory', 'object', 'array']",Risky_resource_management,{'memory leak': 100}
+472697581089225518cee000fb5a3e60ba1ed821,"['pull', 'request', 'blackberry', 'null', 'pointer', 'scripttarget']",Risky_resource_management,{'null pointer': 100}
+fffa4cb68aeb7c463379d422f2e25ae25b111282,"['null', 'pointer', 'scripttarget']",Risky_resource_management,{'null pointer': 100}
+fc49fae4d6ac7c570363f13a492bc9c1675b8c9e,"['false', 'memory', 'leak', 'game', 'result', 'vector', 'gamepads', 'store', 'pointer', 'vector', 'game', 'clean', 'game', 'finalize', 'collision', 'object', 'transform', 'physic', 'collision', 'object', 'bool', 'listener', 'collision', 'object', 'asserts', 'note', 'collision', 'object', 'listener', 'collisionevent', 'callback', 'physic', 'object', 'physic', 'world']",Risky_resource_management,{'memory leak': 100}
+4a73e88c954db13c2f3588b86866218d13db3730,"['certain', 'complex', 'node', 'bundle', 'file', 'incorrect', 'file', 'pointer', 'rest', 'node', 'rendertarget', 'memory', 'leak', 'framebuffer']",Risky_resource_management,{'memory leak': 100}
+123454a01255651effafcb3a49d4dbfad704cf39,"['memory', 'leak', 'effect']",Risky_resource_management,{'memory leak': 100}
+e137e948bb0f119de17f990291c654cdfa6d5133,"['gamepad', 'class', 'gameplay', 'store', 'gamepad', 'object', 'game', 'gamepad', 'creategamepad', 'const', 'char', 'gamepadformpath', 'game', 'gamepad', 'getgamepad', 'playerindex', 'game', 'void', 'gamepadevent', 'gamepad', 'gamepadevent', 'gamepad', 'gamepad', 'index', 'event', 'callback', 'game', 'const', 'char', 'gettype', 'control', 'child', 'control', 'name', 'class', 'string', 'camel', 'concept', 'contact', 'index', 'control', 'level', 'active', 'focus', 'refactor', 'control', 'touchevents', 'setting', 'contactindex', 'event', 'memory', 'leak', 'framebuffer', 'code', 'cleanup']",Risky_resource_management,{'memory leak': 100}
+93c477d6445cc30b78c3385c4025f5e9aefb1d5a,"['focus', 'switch', 'focus', 'control', 'container', 'memory', 'leak', 'form', 'empty', 'style', 'unneccessary', 'comment', 'spritebatch', 'crash', 'textbox', 'mouse', 'event', 'handler', 'slider']",Risky_resource_management,{'memory leak': 100}
+15aafb3c21579361e30159fd373edcb1c97c5c20,"['mouse', 'event', 'support', 'control', 'mouse', 'event', 'container', 'scroll', 'different', 'input', 'event', 'form', 'touch', 'mouse', 'flowlayout', 'destructor', 'memory', 'leak', 'control', 'style', 'unspecified', 'opacity', 'animation', 'container']",Risky_resource_management,{'memory leak': 100}
+9736fa587deb3647b2a2f294debe0ebce3a5222f,"['property', 'optimization', 'issue', 'sceneloader', 'memory', 'leak', 'bundle', 'texture', 'compilation', 'warning', 'matrix']",Risky_resource_management,{'memory leak': 100}
+91103a3dc06064c2893a9aa7aed201fb43aeb6ee,"['pull', 'request', 'blackberry', 'ablake', 'memory', 'leak', 'debugmem', 'error']",Risky_resource_management,{'memory leak': 100}
+2ecb9b90465ef08034b17a09bfcdf72c0a94778e,"['potential', 'memory', 'leak', 'theme', 'particle', 'sample', 'leak', 'particle', 'sample', 'debugmem', 'print', 'statement', 'debugnew']",Risky_resource_management,{'memory leak': 100}
+51f7af7e43384f93a91770acf12e139507363aff,"['memory', 'leak', 'animation']",Risky_resource_management,{'memory leak': 100}
+a58358f42e7aa61f35d27d6563ae977613375201,"['crash', 'signalshutdown', 'platform', 'object', 'platform', 'oppertunity', 'occurs', 'seperate', 'thread', 'schedule', 'signal', 'shutdown', 'emphasis', 'schedule']",General,{'crash': 100}
+43d81c3364175d1d11d81d614872d600d1fc611e,"['memory', 'leak', 'character', 'game', 'texture', 'character', 'model']",Risky_resource_management,{'memory leak': 100}
+79fc82be043e01cc2da54a1e38e5cc18b9bbaf5a,"['pull', 'request', 'blackberry', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+51e0741b2d78c2dc790f2c07eac364e0624aae76,"['memory', 'leak', 'copy', 'constructor', 'assignment', 'operator']",Risky_resource_management,{'memory leak': 100}
+35f2d5128c2d6c66845bfddf1df2a5e27b0a403b,"['warning', 'comment', 'game', 'false', 'memory', 'leak', 'documentation', 'displaysplash', 'macro', 'ability', 'track', 'stack', 'trace', 'debugmem', 'mode']",Risky_resource_management,{'memory leak': 100}
+4c19de919bbaaf472772c05a22b941a927a4315e,"['audiosource', 'memory', 'leak', 'audiolistener', 'variable', 'game']",Risky_resource_management,{'memory leak': 100}
+e7b74fea81c294593a4402f40fa14f69972ae6d4,"['pull', 'request', 'blackberry', 'memory', 'leak', 'heightfield', 'collision', 'shape']",Risky_resource_management,{'memory leak': 100}
+208d2128f1171b1cd67090955b4b191c5acbd6f7,"['memory', 'leak', 'heightfield', 'collision', 'shape', 'heightfield', 'collision', 'shape', 'creation', 'shape', 'consistency']",Risky_resource_management,{'memory leak': 100}
+b4e01fba279262256b533433c118dab853f47e23,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+a9fc4bb7d17bffbd696124cce5265b6049f94703,"['audiobuffer', 'buffer', 'global', 'cache', 'space', 'game', 'updateonce', 'audiosource', 'particleemitter', 'model', 'object', 'node', 'object', 'lifetime', 'minor', 'optimization', 'particleemitter', 'distance', 'parameter', 'implementation', 'slider', 'general', 'work', 'theme', 'need', 'memory', 'leak', 'issue', 'spritebatch']",Risky_resource_management,{'memory leak': 100}
+2b19085e6a94deeb4cf70dfb1d2cd6b2554cf0e4,"['issue', 'reference', 'rigid', 'body', 'function', 'spritebatch', 'boolean', 'flag', 'destination', 'position', 'center', 'quad', 'memory', 'leak', 'spritebatch', 'const', 'ness', 'getnode', 'user', 'modify', 'node', 'situation', 'node', 'available', 'example', 'collision', 'listener', 'isactive', 'function', 'particleemitter', 'return', 'active', 'particle', 'destination', 'position', 'center']",Risky_resource_management,{'memory leak': 100}
+5f5eea693f31b7e88d27ba56f843e2fcb3f4d682,"['memory', 'leak', 'animation', 'animation', 'animation', 'data', 'animation', 'data']",Risky_resource_management,{'memory leak': 100}
+e3d061a1c59175bfa8338d655dc53dea6d4b9419,"['theme', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+8ded3d729f42d35b00b54975a7bf4daafd485c8b,"['play', 'listener', 'animationevent', 'method', 'result', 'crash', 'gameplay', 'listener', 'clip', 'animation', 'destructor', 'reference', 'clip', 'flag', 'mark', 'clip', 'animationclip', 'listener', 'animationevent', 'play', 'animationclip', 'controller', 'clip', 'clip', 'queue', 'eventtime', 'overridden', 'listener', 'time', 'listener', 'getduration', 'animationclip', 'class']",General,{'crash': 100}
+d43df7b6581605e6dc7eeffbe991f576305ccb0a,"['pull', 'request', 'blackberry', 'kcunney', 'crash', 'pose', 'animationclip']",General,{'crash': 100}
+2894f78989731ad14066a6a3e8af3469dd0bd9ef,"['crash', 'pose', 'animationclip', 'check', 'current', 'time', 'animationclip', 'pose', 'animationclip', 'clip', 'duration', 'frame']",General,{'crash': 100}
+7041246ec283a741c367aa2cdabd8f62733eb561,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+bf19baa4fab494b5123588592cf7d8592108f988,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+703b6dba0f0c0e1ccb7c792847d2f097e9c04f3f,"['pull', 'request', 'blackberry', 'kcunney', 'crash', 'animationclip', 'exit', 'game']",General,{'crash': 100}
+71deec3749e0d63f9ed7f6bbe4c4f1612129af2b,"['crash', 'animationclip', 'game', 'exit', 'possible', 'animationclip', 'member', 'queue', 'unschedule']",General,{'crash': 100}
+7d12e1878d666b2eb40b70e104b1efe9d37b9d5a,"['crash', 'clip', 'exit', 'game']",General,{'crash': 100}
+2f846925aefa6ee9ad32ceda7ac873f72c6eea78,"['support', 'heightfield', 'collision', 'shape', 'debugnew', 'couple', 'sceneloader', 'physic', 'element', 'scene', 'file', 'memory', 'leak', 'node', 'wireframe', 'drawing', 'model', 'index', 'type', 'index', 'index', 'refactors', 'functionality', 'texture', 'class', 'texture', 'image', 'class', 'support', 'image', 'data', 'function', 'transform']",Risky_resource_management,{'memory leak': 100}
+94838d5fe154a7559466e23f2f3c7c45b4a23b06,"['debug', 'memory', 'configuration', 'physic', 'subsystem', 'memory', 'leak', 'physic', 'debug', 'drawing', 'warning', 'triangle', 'mesh', 'rigid', 'body']",Risky_resource_management,{'memory leak': 100}
+70a837a1cd5de67c4c1c3daf2bf93f1c57834a06,"['null', 'pointer', 'exception', 'getclip', 'play', 'string', 'clip', 'default', 'clip']",Risky_resource_management,{'null pointer': 100}
+86cc372e1025c00f3db069a5c60abdb2e2b45c65,"['code', 'test', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+b8b9ef9cd674d369717ca2e28c116b56559811c7,"['pull', 'request', 'blackberry', 'sgrenier', 'memory', 'leak', 'detection']",Risky_resource_management,{'memory leak': 100}
+420da906ac8519980ad82a4e7dc223a5fd3e167e,"['memory', 'leak', 'detection', 'support', 'delete', 'allocation', 'gameplay', 'allocation', 'debugmem', 'configuration', 'visual', 'studio', 'project', 'window', 'platform', 'memory', 'leak', 'detection', 'number', 'memory', 'leak', 'memory', 'corruption', 'issue', 'gameplay', 'library', 'sample', 'particleemitter', 'stateblock', 'default', 'state']",Risky_resource_management,{'memory corruption': 100}

@@ -1,0 +1,208 @@
+sha,message,catetory,matched
+f79334c12440f5a8a52bcbe4e5978a4f13381aec,"['image', 'list', 'presence', 'verification', 'issue', 'crash', 'image', 'present', 'original', 'list', 'empty']",General,{'crash': 100}
+bf4c7340f32c1e673e6a37b91fc65305757f52d1,"['undefined', 'behavour', 'sanitizer', 'integer', 'overflow', 'runtime', 'error', 'core', 'part', 'circle', 'ubsan', 'enable', 'ubsans', 'check', 'runtime', 'error', 'ubsan', 'blacklist', 'ignore', 'system', 'library', 'ignore', 'vendor', 'library', 'implicit', 'conversion', 'runtime', 'error', 'core', 'division', 'zero', 'runtime', 'error', 'error', 'ubsan', 'blacklist', 'error', 'revert', 'division', 'zero', 'error', 'fixme', 'prefix', 'implicit', 'conversion', 'rename', 'style', 'test', 'json', 'file', 'name', 'address', 'review']",Risky_resource_management,{'integer overflow': 100}
+a70b33be8bd64630bc0b67f0595b3576112e0723,"['core', 'crash', 'placement']",General,{'crash': 100}
+25c8d0ecc8abdcaf302a2abdef4d244beb66a21d,"['default', 'possible', 'crash', 'runloop', 'wake']",General,{'crash': 100}
+28ccb0ccc08416b9e8ced25ae938a50ca4a00151,"['core', 'offline', 'download', 'clear', 'batch', 'buffer', 'load', 'stale', 'buffer', 'data', 'various', 'problem', 'load', 'completion', 'notification', 'crash', 'observer', 'instance']",General,{'crash': 100}
+6d425f8a7e7e4d210bd6e81d656245d0b1b80266,"['integer', 'overflow', 'implicit', 'conversion']",Risky_resource_management,{'integer overflow': 100}
+00d133239e22fc6df84f81596820ca46afb351bb,"['core', 'blacklist', 'adreno', 'gpus', 'blacklist', 'order', 'crash', 'driver']",General,{'crash': 100}
+a1f124c39442d76af77a5aa63bba5afa4f4d6d26,"['crash', 'simulator', 'crash', 'simulator', 'update', 'macos', 'function']",General,{'crash': 100}
+426da3a6af88f32a6d68d9c1990ac06a4e540f50,"['android', 'crash', 'cameraposition', 'navigate', 'snapshotter', 'activity', 'reproduce', 'android', 'crash', 'camera', 'position']",General,{'crash': 100}
+2b08c1d7bf9e867d6450feb6a246ce36dcdf2cd3,"['macos', 'mglofflinepack', 'invalidate', 'crash']",General,{'crash': 100}
+81e62c8cc03a3e8002a58c1f473309ae28374a99,"['core', 'update', 'changelog', 'integer', 'overflow', 'update', 'changelog', 'extra', 'space']",Risky_resource_management,{'integer overflow': 100}
+f53143f1a1018050a2104f9afd929c963951527d,"['core', 'integer', 'overflow', 'tilecoordinates', 'latlon', 'core', 'integer', 'overflow', 'core']",Risky_resource_management,{'integer overflow': 100}
+47f498e642ca4a1f92e0912267978c38e53c4435,"['wake', 'runloop', 'wake', 'pending', 'flood', 'runloop', 'wake', 'socket', 'buffer', 'overflow', 'context', 'switch']",Risky_resource_management,{'buffer overflow': 100}
+c523391b2024bfa6ab5d60c8a86fe3bf735c588f,"['macos', 'rare', 'crash', 'reference', 'object', 'race', 'condition', 'crash', 'response', 'tile', 'request']",General,{'crash': 100}
+abf60753cb4671099053e6ad8a8c90535d66ccdc,"['assert', 'deconstructor', 'deconstructor', 'assert', 'check', 'sure', 'scheduler', 'null', 'setting', 'null', 'rare', 'scenario', 'scheduler', 'null', 'deconsturctor', 'unnecessary', 'crash', 'scheduler', 'null', 'matter', 'state', 'scheduler', 'function']",General,{'crash': 100}
+da69a88c04fcd7e93507dde74ffbc4e0fbd57210,"['android', 'changelog', 'kitkat', 'crash', 'info']",General,{'crash': 100}
+58696a0704503837014bf6612eba6d537075c15e,"['android', 'rework', 'test', 'query', 'activity', 'attempt', 'surface', 'crash']",General,{'crash': 100}
+06541b261a3ed9b2410f79e032441ac98d0bf3f3,"['android', 'reproduce', 'navigation', 'crash']",General,{'crash': 100}
+2f0af0e8f4e1f0fc0dbc4a6b13ab2f098adad0af,"['deactivate', 'mglmapview', 'ibdesignable', 'attribute', 'view', 'attribute', 'making', 'crash', 'deactivate', 'mglmapview', 'ibdesignable', 'agent', 'code', 'macos', 'nsprocessinfo', 'category']",General,{'crash': 100}
+37a886570345ea00d705c3cbe58059be33dda130,"['memory', 'leak', 'making', 'static', 'inner', 'class']",Risky_resource_management,{'memory leak': 100}
+1388f3a502220b32b7eb00ad57e6c048e99b9fcd,"['macos', 'conditional', 'expression', 'conditional', 'expression', 'crash', 'conditional', 'parameter', 'conditional', 'expression']",General,{'crash': 100}
+1fadf563688785a51ce4fe935a7865d05e3e72a9,"['lock', 'scope', 'deadlock', 'simplify']",Risky_resource_management,{'deadlock': 100}
+4db55c3ace71fcc07c3ba4de99d411bf59d46397,"['null', 'pointer', 'activity', 'attribution', 'click']",Risky_resource_management,{'null pointer': 100}
+253ba55f1f05a16e90102191e0e8adf636eb198a,"['crash', 'filesource', 'opening', 'style', 'request', 'sprite', 'json', 'filesource', 'simultaneous', 'request', 'mapbox', 'sprite', 'json', 'filesource', 'queue', 'sprite', 'json', 'arrives', 'filesource', 'callback', 'mapbox', 'request', 'filesource', 'request', 'sprite', 'json', 'request', 'request', 'iterator', 'corrupts', 'iterator', 'crash', 'item', 'qvector', 'empty']",General,{'crash': 100}
+200ba355b58b7f74c397d496bed1deff1b394582,"['crash', 'mapview', 'intialization', 'srccompat', 'crash', 'mapview', 'initialization']",General,{'crash': 100}
+7ae171c6f93cf41cff77b4e16444e2df1b57e9d3,"['crash', 'nullary', 'vararg', 'expression', 'function', 'equate', 'nullary', 'unary', 'form', 'vararg', 'style', 'aftermarket', 'expression', 'function', 'json', 'object']",General,{'crash': 100}
+80bdbebdfebe0f3291a73ccefc5c5956640533e3,"['crash', 'expression', 'pattern', 'evaluates', 'source', 'expression', 'property', 'evaluates', 'null', 'default', 'pattern', 'value', 'empty', 'string', 'sure', 'attribute', 'buffer']",General,{'crash': 100}
+a938c3ef68af249bb3199bde2818436a0bff0952,"['macos', 'offline', 'region', 'offline', 'region', 'macos', 'update', 'changelogs', 'macos', 'offline', 'pack', 'content', 'macos', 'update', 'content', 'file', 'documentation', 'macos', 'test', 'case', 'file', 'content', 'macos', 'test', 'database', 'macos', 'pack', 'parameter', 'core', 'query', 'mege', 'duplication', 'macos', 'unnecessary', 'pack', 'iteration', 'macos', 'pack', 'update', 'notification', 'macos', 'localization', 'string', 'core', 'query', 'readability', 'macos', 'cleanup', 'cache', 'database', 'test', 'macos', 'offline', 'pack', 'trigger', 'crash']",General,{'crash': 100}
+9efdc4c6c32d37c9fa680c301a60442b50348941,"['update', 'event', 'library', 'update', 'eventssdk', 'patch', 'crash', 'offline']",General,{'crash': 100}
+15c9ed465ec4de295b1955fb590efbeeb622ecc4,"['update', 'event', 'crash', 'update', 'event', 'crash']",General,{'crash': 100}
+369e6880dbca54c115bbfdf84ff41f80badbde93,"['android', 'update', 'changelog', 'security', 'vulnerability']",General,{'security': 100}
+59cdb144b4b4c67fa6b0bc43a95cfde41369fd02,"['macos', 'update', 'release', 'macos', 'update', 'security', 'vulnerability', 'detail', 'changelogs', 'reference']",General,{'security': 100}
+99a365d7b7459a4092dfa9e0bdec60280aecf57a,"['update', 'event', 'submodule', 'crash', 'update', 'event', 'submodule', 'location', 'manager', 'event', 'manager', 'update', 'changelog']",General,{'crash': 100}
+284dd23ca4bf90d6f51bff5204844de7dafdf6b2,"['delimiter', 'crash', 'gesture', 'drift', 'animation', 'previous', 'gesture']",General,{'crash': 100}
+07b0021ce3f92bdca3821381c026751a17d6565e,"['fuzz', 'test', 'tilecover', 'access', 'crash']",General,{'crash': 100}
+ca5b36ba80312766b694dabb32f8788125bff8ae,"['core', 'crash', 'parse', 'legacy', 'filter', 'legacy', 'filter', 'part', 'style', 'specification', 'generate', 'legacy', 'filter', 'stylesheet']",General,{'crash': 100}
+acbcf7e7e6b1575c1461354c807d4ca3ebfc7fb8,"['bcsymbolmap', 'file', 'cocoapods', 'bitcode', 'symbol', 'file', 'bcsymbolmap', 'conjunction', 'dsyms', 'symbolicate', 'crash', 'cocoapods', 'xcarchive', 'developer', 'need', 'copy', 'phase']",General,{'crash': 100}
+eb70b8984901d8113f3a29d26cc355d5b3ed46fd,"['tile', 'timing', 'refactor', 'scope', 'messagestream', 'message', 'clear', 'crash', 'issue', 'null']",General,{'crash': 100}
+ed7623092515f264ab4dc8e8dc7f493ecfd67a6c,"['crash', 'mglstyle']",General,{'crash': 100}
+2da57bd1576c99ff4305cab7b6ad8c1a39ac2fa7,"['core', 'crash', 'legacy', 'filter', 'expression', 'crash', 'legacy', 'filter', 'expression', 'case', 'invalid', 'legacy', 'filter', 'syntax', 'expression', 'syntax', 'failure', 'propagate', 'filter', 'expression', 'error', 'part', 'conversion', 'function', 'expression', 'value', 'vector', 'thereof', 'error', 'core', 'expression', 'class', 'expression', 'parseresult', 'optional', 'expression', 'conversion', 'failure', 'rest', 'expression', 'system', 'clang', 'issue']",General,{'crash': 100}
+6eee8729554ed778491c52bda46cdcbec61b9c95,"['multiple', 'mapsnapshotter', 'test', 'simultaneous', 'mapsnapshotter', 'test', 'deadlock', 'simulator', 'increase', 'timeouts', 'chance', 'spurious', 'test', 'failure']",Risky_resource_management,{'deadlock': 100}
+bef2a7ccb6e800d2ca6f2bac5c863b49fbba103d,"['macos', 'infinite', 'loop', 'crash', 'setting', 'shape', 'method']",General,{'crash': 100}
+c0191535eba64813baff7141a33343c9893360cc,"['changelog', 'entry', 'crash']",General,{'crash': 100}
+a1195f6a9dc57910f7c3e6c9217e3041929a01fb,"['exception', 'flow', 'control', 'database', 'creation', 'exception', 'return', 'file', 'database', 'case', 'developer', 'misinterpret', 'exception', 'crash', 'common', 'case']",General,{'crash': 100}
+c3346f473ac7e3d49219c8dbc381d92f8fe3f017,"['core', 'crash', 'attribute']",General,{'crash': 100}
+0eb58278f21c7d767b07449b6b167c6859283d5d,"['crash', 'example', 'multiple', 'window', 'need', 'valid', 'context']",General,{'crash': 100}
+b414c607c3369641fca23c79dfaff231a66a89cf,"['renderable', 'glyph', 'issue', 'close', 'relative', 'issue', 'glyph', 'server', 'valid', 'invalid', 'bitmap', 'case', 'glyph', 'present', 'glyphmap', 'present', 'glyphpositions', 'getglyphquads', 'symbolinstance', 'hastext', 'actual', 'quad', 'project', 'label', 'crash']",General,{'crash': 100}
+8c6abaf3fab0e88fde24693127615bd7f39d1ac1,"['heap', 'buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100}
+e5a3a7a4510bbbf2fc97363ab0084fb4bc3dd448,"['core', 'potential', 'race', 'condition', 'crash', 'symbol', 'half', 'issue', 'global', 'placement', 'place', 'time', 'tile', 'symbol', 'layout', 'symbol', 'bucket', 'featureindex', 'global', 'collisionindex', 'symbolbuckets', 'mismatch', 'featureindex']",General,{'crash': 100}
+f9b6d5f09c844ad367c54d34677d71c9da757bba,"['core', 'potential', 'race', 'condition', 'crash', 'symbol', 'half', 'issue', 'pendingdata', 'work', 'data', 'update', 'update', 'data', 'tile', 'null', 'case', 'tile', 'featureindex', 'tile', 'data', 'member', 'unchanged', 'case', 'tile', 'data', 'bucketlayerids', 'data', 'pending', 'onplacement', 'case', 'range', 'exception']",General,{'crash': 100}
+6d2cbb0a403b9faada81a756afa111e35618500b,"['macos', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+7097e04fb359e8351e330e248bb876bc84c4513b,"['core', 'node', 'hold', 'nodemap', 'request', 'potential', 'crash', 'garbage', 'collection', 'nodemap', 'request', 'eligible', 'issue']",General,{'crash': 100}
+8e1fc8ff384cc7dd19707ba5168603c171d14571,"['core', 'node', 'hold', 'nodemap', 'request', 'potential', 'crash', 'garbage', 'collection', 'nodemap', 'request', 'eligible', 'issue']",General,{'crash': 100}
+a386cac452b333d3e9656efd04e98035cd6b1c57,"['maxzoom', 'uniform', 'raster', 'tilesets', 'maxzoom', 'uniform', 'support', 'external', 'tilesets', 'update', 'android', 'crash', 'name', 'default', 'maxzoom']",General,{'crash': 100}
+024e75bd560cdf2be58322e127f92c81f06cfe0c,"['macos', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+057af7e75f78a7a8ddd12e4df0f1bd688eaf31fa,"['core', 'crash', 'line', 'label', 'glyph', 'issue']",General,{'crash': 100}
+62ae0738e8a3d1b3e4b661fa7e8d8bb1d6339c51,"['core', 'crash', 'line', 'label', 'glyph', 'issue']",General,{'crash': 100}
+d3deb6d71bdf837c3d82078630dbd11710a03d32,"['core', 'crash', 'line', 'label', 'glyph', 'issue']",General,{'crash': 100}
+3f7c30f9d3716bcf1ebea617a38aebe1401e20a1,"['core', 'style', 'crash', 'layer', 'paint', 'property', 'object']",General,{'crash': 100}
+d4ed8d1a4474e43241e42610001403261353466f,"['core', 'style', 'crash', 'layer', 'paint', 'property', 'object']",General,{'crash': 100}
+d0193c5b2b7140f54d6f166fa4e8a711a045915e,"['restores', 'memory', 'crash', 'revert', 'integration', 'test']",General,{'crash': 100}
+7ca62ec602f6141d67559698a3d04e035e916437,"['special', 'case', 'heatmap', 'color', 'crash', 'style', 'code']",General,{'crash': 100}
+1b407e85e9ee03124e24b71a856045c254775e6e,"['test', 'crash', 'asynchronous', 'snapshot', 'test', 'liner', 'style', 'remote', 'resource', 'example', 'code', 'look', 'weird']",General,{'crash': 100}
+177afa9a0d0e97257c86d9f0e8cb91e34e8afe2d,"['interface', 'builder', 'crash', 'ibinspectable', 'property']",General,{'crash': 100}
+43d96cd1b969f328af60ed0d1e0775de3a6f8b13,"['core', 'crash', 'window', 'angle', 'support']",General,{'crash': 100}
+30e59ce738c05e128398ef5109fdc08d208c2cf1,"['monkey', 'crash', 'android', 'null', 'trackballevent', 'android', 'fixup', 'marker', 'test', 'activity', 'monkey', 'android', 'harden', 'nativemapview', 'android', 'harden', 'wrapper', 'activity', 'touch', 'pointer', 'android', 'harden', 'bulk', 'marker', 'activity', 'monkey', 'runner', 'android', 'harden', 'scale', 'gesture', 'event', 'null', 'velocity', 'tracker', 'android', 'invalid', 'mapboxmap', 'invocation', 'android', 'reset', 'test', 'setup']",General,{'crash': 100}
+a47f8245dacffad2b7f8f71a38b7eb41ee28b0b5,"['monkey', 'crash', 'android', 'null', 'trackballevent', 'android', 'fixup', 'marker', 'test', 'activity', 'monkey', 'android', 'harden', 'nativemapview', 'android', 'harden', 'wrapper', 'activity', 'touch', 'pointer', 'android', 'harden', 'bulk', 'marker', 'activity', 'monkey', 'runner', 'android', 'harden', 'scale', 'gesture', 'event', 'null', 'velocity', 'tracker', 'android', 'invalid', 'mapboxmap', 'invocation', 'android', 'reset', 'test', 'setup']",General,{'crash': 100}
+b5140cb3426595646f39aee298ca8306d3bd0a6f,"['android', 'cherry', 'agua', 'android', 'snapshotter', 'marker', 'example', 'reference', 'mapsnapshotter', 'need', 'duration', 'snapshot', 'weak', 'reference', 'table', 'overflow', 'device', 'weak', 'reference', 'table', 'weak', 'reference', 'stack', 'crash', 'clear', 'reference', 'peer', 'hold', 'global', 'queue', 'java', 'peer', 'release']",General,{'crash': 100}
+c30161e4c8d7cbc95b84f1b8dea8f5c7abe242a2,"['weak', 'reference', 'table', 'overflow', 'device', 'weak', 'reference', 'table', 'weak', 'reference', 'stack', 'crash', 'clear', 'reference', 'peer', 'hold', 'global', 'queue', 'java', 'peer', 'release']",General,{'crash': 100}
+b8d5798beacfa7d3d8d904336005ac2976f02ff3,"['null', 'pointer', 'instance', 'state']",Risky_resource_management,{'null pointer': 100}
+bf9c1fb1b3f6121d4c939757ee043a70bef560e4,"['core', 'blacklist', 'usage', 'adreno', 'crash', 'usage', 'glbuffer', 'data']",General,{'crash': 100}
+ab3547a21614605f8acef606226b33c874b4c2dd,"['core', 'crash', 'geojson', 'tile']",General,{'crash': 100}
+45dc313009de80da3b4ba988b133c69b6057bec1,"['core', 'blacklist', 'usage', 'adreno', 'crash', 'usage', 'glbuffer', 'data']",General,{'crash': 100}
+c9d7951e0d0ab85614ab296573e583ed44dbe7c0,"['core', 'crash', 'geojson', 'tile']",General,{'crash': 100}
+d49c4cd61c0d5b29bf21c029e4a3201563de1671,"['android', 'zoom', 'position', 'crash']",General,{'crash': 100}
+761f506578ce8e32451d1980ed84d3bd0a05a504,"['core', 'polymorphic', 'lambda', 'crash', 'automotive', 'http', 'bugzilla']",General,{'crash': 100}
+23210cb15c39c3742defe11338d85edbcc2c8220,"['android', 'bump', 'okhttp', 'dependency', 'null', 'pointer', 'exception', 'android']",Risky_resource_management,{'null pointer': 100}
+aca2e7984f197b38dca8d1e551b4601a6aa9a061,"['android', 'bump', 'okhttp', 'dependency', 'null', 'pointer', 'exception', 'android']",Risky_resource_management,{'null pointer': 100}
+9068c90fc4b1b8b4938d89028fc3f7b46beeac29,"['android', 'crash', 'runtime', 'style', 'test']",General,{'crash': 100}
+b2f277ac620cc41883dad8e06bb45458c18ffe72,"['null', 'check', 'custom', 'location', 'engine', 'activity', 'null', 'pointer', 'exception']",Risky_resource_management,{'null pointer': 100}
+52eba423aecca51dd65c15d2d3dbffe2f06856ba,"['android', 'cherry', 'android', 'mode', 'camera', 'race', 'condition', 'android', 'mode', 'camera', 'race', 'condition', 'current', 'camera', 'position', 'target', 'camera', 'position', 'cherry', 'update', 'changelog', 'null', 'check', 'null', 'pointer', 'exception']",Risky_resource_management,{'null pointer': 100}
+b353f45fed45846a213d2f2b60a6936295b17c87,"['thread', 'mailbox', 'crash', 'self']",General,{'crash': 100}
+b71d86599d5e7c265b320300b18cfc0ea082c6d2,"['android', 'polygon', 'hole', 'hole', 'support', 'polygon', 'class', 'hole', 'crash', 'triangle', 'hole', 'shape', 'example', 'multiple', 'hole']",General,{'crash': 100}
+e3cc5ddfddf991369f088a02cb278e5fac50d0ae,"['android', 'crash', 'runtime', 'exception']",General,{'crash': 100}
+803c1c46fe7092548b53c99b7ee3607b7fd9a312,"['android', 'harden', 'null', 'pointer', 'exception']",Risky_resource_management,{'null pointer': 100}
+86300ccedfc5ccdace551ce76f9185513d736127,"['pause', 'resume', 'thread', 'class', 'process', 'message', 'message', 'queue', 'resume', 'sync', 'message', 'thread', 'result', 'deadlock', 'thread', 'trigger', 'resume']",Risky_resource_management,{'deadlock': 100}
+2c62f0a15bed02bc6ca014fd113d5e62d9808624,"['null', 'expression', 'crash', 'nsnull', 'mbgl', 'null', 'value']",General,{'crash': 100}
+b42494570e8ebbda69ddce2144a8b7edf889d1b6,"['android', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+20b958301eb208fe9ed0ae8edfb14b6f3741d8f2,"['gradlew', 'path', 'testapp', 'checkstyle', 'violation', 'variable', 'test', 'checkstyle', 'annotation', 'checkstyle', 'round', 'package', 'checkstyle', 'rest', 'checkstyle', 'checkstyle', 'gesture', 'library', 'checkstyle', 'test', 'rest', 'test', 'checkstyle', 'checkstyle', 'error', 'class', 'name', 'test', 'file', 'camera', 'postion', 'test', 'native', 'crash']",General,{'crash': 100}
+2d52dd8c0f964715d44ac51ec2491f24a9c8cb5a,"['crash', 'launch', 'iosapp', 'nslocale', 'languagecode', 'minimum', 'deployment', 'target']",General,{'crash': 100}
+a39f53df22246cc85be17933b6c99897786d2222,"['macos', 'migrate', 'style', 'layer', 'macos', 'custom', 'style', 'layer', 'custom', 'style', 'layer', 'mglmapview', 'unsupported', 'nonetheless', 'consistent', 'broader', 'runtime', 'styling', 'compatible', 'macos', 'selector', 'crash', 'wrapping', 'layer', 'mbgl', 'macos', 'lime', 'green', 'layer', 'demo', 'macosapp', 'iosapp', 'macos', 'mglstyle', 'reference', 'object', 'easy', 'layer', 'drawing', 'code', 'information', 'view', 'callback', 'block', 'overridable', 'instance', 'method', 'internal', 'documentation', 'method', 'addtomapview', 'addtomapview', 'belowlayer', 'ensure', 'bottom', 'stack', 'core', 'main', 'thread', 'macos', 'layer', 'removal', 'circumvent', 'relies', 'synchronize', 'style', 'array']",General,{'crash': 100}
+5f29c3ba26f84c8aea6f70640c348b32cdf397bf,"['full', 'support', 'line', 'bidirectional', 'text', 'bidi', 'functionality', 'whitespace', 'label', 'width', 'alignment', 'crash', 'label', 'line', 'single', 'character', 'whitespace']",General,{'crash': 100}
+644ca74906af9488ecd6008c59085133e46e2471,"['android', 'null', 'pointer', 'camera', 'position', 'available', 'initialisation']",Risky_resource_management,{'null pointer': 100}
+44e398865e7fa2b0186b9b93c9efcfa53e985566,"['vector', 'mglmultipoint', 'storage', 'refactor', 'previous', 'array', 'implementation', 'vector', 'potential', 'safety', 'security', 'issue', 'previous', 'approach']",General,{'security': 100}
+8bf63ddb9c271f909d699e06e70816a6c7af7ebf,"['revert', 'core', 'band', 'crash', 'unbound', 'element', 'buffer', 'reverts']",General,{'crash': 100}
+1afd9931848f79a03864be5248e0dc36ec5dec4b,"['core', 'initialize', 'duration', 'arithmetic', 'overflow', 'framehistory', 'needsanimation', 'time', 'previoustime', 'duration', 'integer', 'overflow', 'invalid', 'value']",Risky_resource_management,{'integer overflow': 100}
+bb6e39a1cfcbd5c478c4b221f723ba948d576e61,"['core', 'depth', 'stencil', 'visualization', 'previous', 'code', 'buffer', 'overrun', 'debug', 'code']",Risky_resource_management,{'overrun': 100}
+38ee3408c224194054f7e4941a22dfd8b65f0d6f,"['null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+057b7b75cec08a2d65e714bb52655cf3960c20f1,"['core', 'band', 'crash', 'unbound', 'element', 'buffer']",General,{'crash': 100}
+67ffc9685e573b10e4761b0bdb9962c79139f5da,"['source', 'ownership', 'consistent', 'geojson', 'content', 'property', 'writable', 'common', 'initialization', 'logic', 'unique', 'pointer', 'mbgl', 'source', 'object', 'front', 'source', 'pointer', 'unique', 'pointer', 'mbgl', 'source', 'instance', 'source', 'source', 'identifier', 'mglstyle', 'ownership', 'mbgl', 'source', 'unique', 'null', 'pointer', 'future', 'work', 'involves', 'geojsondata', 'content', 'property', 'mglgeojson', 'source', 'writable', 'valid', 'data', 'source', 'update', 'reflect', 'data']",Risky_resource_management,{'null pointer': 100}
+bda0e94af2a6f6ddb7e61f2aecdf6a50479a6b32,"['markerview', 'robust', 'update', 'asynchronous', 'android', 'viewmarkers', 'crash', 'show', 'view', 'cache', 'size', 'test', 'activity', 'mapboxmap', 'future', 'update', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+1165a408fbee37a0892b07b5c35e1a36d7aa0063,"['predicate', 'operator', 'mbgl', 'filter', 'translation', 'translation', 'data', 'loss']",Risky_resource_management,{'data loss': 100}
+0ae941d2a8a89276e1f0c2cf3870104d0e94fbc4,"['memory', 'leak', 'animator', 'location', 'listener']",Risky_resource_management,{'memory leak': 100}
+d9145f504b11217816d27dcfcf9c93aa56f4c239,"['android', 'custom', 'layer', 'crash', 'test', 'case']",General,{'crash': 100}
+b4c51dd79220470fc0f890229460faceeb5809d8,"['android', 'crash', 'dalvik']",General,{'crash': 100}
+850b2e29889091684b088ad64741aa469a8db628,"['crash', 'drawing', 'compass']",General,{'crash': 100}
+03ebae0f2ed0e5ff2c4fe284d8d3db8960ae4938,"['core', 'crash', 'version', 'number', 'number']",General,{'crash': 100}
+a07fbe8e34a31fd28266cede03162258efe642c3,"['core', 'crash', 'style', 'json', 'object', 'root']",General,{'crash': 100}
+9387523376fc6154dda58698fd743150c32858b4,"['android', 'fragment', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+3ccda590992df15a4b37ffe1fd1a1ef3254f9635,"['android', 'crash', 'line', 'polygon', 'annotation']",General,{'crash': 100}
+a5476346bf8dd696c6b7108d61dcc4928f8304e7,"['android', 'crash', 'mode']",General,{'crash': 100}
+e503f9279fd1079e12772c6a9d8b8d4ee64a53f3,"['crash', 'analyzer', 'warning', 'array', 'analyzer', 'warning', 'analyzer', 'warning']",General,{'crash': 100}
+680fcd09b145b56dd6112eb9be901e5b558ab94d,"['revert', 'core', 'release', 'reset', 'raster', 'data', 'release', 'free', 'reset', 'huge', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+2f25c1ac43b1fc43fb32a094815b809cae8c6a70,"['update', 'changelog', 'raster', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+842de0e85994c957ffa851149812dbbe32f43cf4,"['point', 'shape', 'typo', 'crash', 'http', 'github', 'mapbox', 'mapbox', 'native', 'pull', 'different', 'array', 'point', 'shape', 'point', 'array']",General,{'crash': 100}
+39669243b742a399818e5152c873ca71fa971648,"['introduce', 'support', 'view', 'annotation', 'uiview', 'subclass', 'base', 'class', 'client', 'uiviews', 'annotation', 'able', 'display', 'annotation', 'view', 'view', 'fall', 'strategy', 'annotation', 'image', 'default', 'image', 'reuse', 'queue', 'store', 'annotation', 'view', 'offscreen', 'queue', 'application', 'developer', 'reuse', 'queue', 'identifer', 'view', 'queue', 'annotation', 'view', 'view', 'reuse', 'performance', 'gain', 'offscreen', 'iosapp', 'native', 'view', 'playground', 'workspace', 'facilitate', 'experimentation', 'framework', 'exists', 'workspace', 'initial', 'playground', 'demonstrates', 'annotation', 'view', 'crash', 'nullptr', 'annotation', 'array', 'annotation', 'method', 'user', 'callout', 'view', 'userdot', 'annotation', 'null', 'annotation', 'context', 'crash', 'null', 'pointer', 'array', 'protects', 'null', 'annotation']",Risky_resource_management,{'null pointer': 100}
+a64fe5062f48b6aa4b98b382734856e1005480fb,"['core', 'simplify', 'filterevaluator', 'crash', 'previous', 'implementation', 'temporary', 'filterevaluator', 'extractor']",General,{'crash': 100}
+0339639e3d7ac9dafda22a7f44d3d03780cf1470,"['crash', 'launch']",General,{'crash': 100}
+bf313b0c5fb17569ba69be63bfc8af41fd5cffa6,"['direction', 'formatter', 'edge', 'case', 'crash', 'compass', 'direction']",General,{'crash': 100}
+1039f215273d8fb39d857bd6f82601f946d832c6,"['observer', 'crash', 'mglmapview', 'point', 'annotation', 'annotation', 'view', 'observer', 'annotation']",General,{'crash': 100}
+268884368a15cae285c1ffd2654b1e25a25ded7f,"['multipoint', 'duplicate', 'annotation', 'polyline', 'polygon', 'path', 'annotation', 'mglmultipoints', 'annotation', 'observation', 'context', 'crash', 'annotation', 'view']",General,{'crash': 100}
+b3a2c0d53f97b0444f23a7e4ee1139db58e4e567,"['transport', 'security', 'exception', 'server', 'test', 'application']",General,{'security': 100}
+23a0e2a84e6c1c9d7d861e00d5160ca09313e707,"['crash', 'trace']",General,{'crash': 100}
+2d580364a6cfa28477d66a5197afe373ce8823aa,"['core', 'mapcontext', 'cleanup', 'libuv', 'behavior', 'main', 'loop', 'message', 'deadlock', 'exit', 'exit', 'support', 'multiple', 'main', 'loop', 'implementation', 'different', 'platform', 'cleanup', 'sure', 'platform', 'behavior', 'exit']",Risky_resource_management,{'deadlock': 100}
+8c7dc19e3f3656d56de82952aed06c5ac8879d50,"['print', 'crash', 'diagnostics']",General,{'crash': 100}
+b4d365c3c8d09792b4e7a44e51a4e15d4d08c687,"['android', 'nativemapview', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+def2c804e522dde6bd32fa845d6343530036722c,"['test', 'crash', 'offline', 'binary']",General,{'crash': 100}
+d04d6d8f9394ebef856e1822acdd57b33954c26b,"['androd', 'polyline', 'activity', 'crash']",General,{'crash': 100}
+4cb75a5c36e5e82053c9dd5fae626596aee6136b,"['android', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+b318903ab96f80de4e73dbbffb0f19be028b44ff,"['android', 'crash', 'offlineregion', 'delete']",General,{'crash': 100}
+4a3beeddba279f29ce32b172868aa907c9333e6b,"['crash', 'nativemapview']",General,{'crash': 100}
+661e9e7f49d6aadbd9c14a99b213d8fa0653b469,"['package', 'offline', 'proguard', 'crash', 'runtime']",General,{'crash': 100}
+9955087767d226c09816d562be39be1f1a1e84c5,"['core', 'potential', 'precision', 'data', 'loss']",Risky_resource_management,{'data loss': 100}
+11d3eff173b5a596b8f0683a93658cbd4ca1eb95,"['invoke', 'deleteglobalref', 'client', 'crash']",General,{'crash': 100}
+f9fd748547ce49d6e1b7174d7f511ccc2264166a,"['core', 'abort', 'child', 'tile', 'parent', 'tile', 'child', 'tile', 'child', 'tile', 'case', 'child', 'tile', 'child', 'tile', 'case', 'child', 'parent', 'tile', 'child', 'tile', 'child', 'child', 'tile', 'current', 'algorithm', 'number', 'tile', 'main', 'tile', 'pyramid', 'current', 'number', 'recursive', 'descent', 'android', 'recursive', 'descent', 'crash', 'patch', 'making', 'sure', 'number', 'child', 'tile']",General,{'crash': 100}
+7b40cbcfd949371e04944a23ffe08b69862f6a1a,"['android', 'crash', 'polygon', 'polylines', 'empty', 'point']",General,{'crash': 100}
+18380708cd123fc6e9bc191d843791d60c14c02c,"['android', 'crash', 'http', 'data']",General,{'crash': 100}
+026e6a75600f7109828fc33ff97b117a3a5090a7,"['memory', 'leak', 'list', 'method', 'check', 'list', 'mapview']",Risky_resource_management,{'memory leak': 100}
+86691a08de77a5cfee2ba715b0b5cd138fbf9de4,"['node', 'patch', 'memory', 'leak', 'nodemap', 'request', 'function', 'getfunction', 'leak', 'function', 'http', 'code', 'google', 'chromium', 'issue', 'detail']",Risky_resource_management,{'memory leak': 100}
+1295ba7017e67c6047b98bc0001cae8e03cd62fc,"['android', 'crash', 'internet', 'connection']",General,{'crash': 100}
+07f6dee616cda17e020b32a2f0b8caca76aa621d,"['crash', 'vendorid']",General,{'crash': 100}
+06e420939f1dc172260adc2a7a8ee1a4e5ba62fc,"['android', 'polyline', 'activity', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+f9574e350c9634b5a4f9849fdfe66fbd84747b12,"['core', 'crash', 'callback', 'tricky', 'lambda', 'member', 'lambda', 'function', 'point', 'valid', 'memory', 'location', 'work', 'compiler', 'undefined', 'thing', 'callback', 'behaves', 'delete', 'class', 'method']",General,{'crash': 100}
+a6a3b8a80a94ae8e5bdfea1ecb33ee0ecfa8dd0c,"['crash', 'startup', 'implementation', 'bind', 'chrono']",General,{'crash': 100}
+1738a9e200f20c4b382271376cd69a7b0d53ed7c,"['android', 'crash', 'location', 'listener']",General,{'crash': 100}
+fd248c18947267142eabef71ec7ef9d9b029494f,"['core', 'crash']",General,{'crash': 100}
+f67ceec8c24d58dc2c976db8b1c2d0a3e8a68efc,"['coretelephony', 'crash']",General,{'crash': 100}
+e5f136a16a9482d6ae4df65166a353e8ecd2f03f,"['coretelephony', 'crash']",General,{'crash': 100}
+af2d034e9d1ea9d55d022025ce0f99005ca3af58,"['okhttp', 'update', 'crash', 'onfailure', 'onreponse', 'request']",General,{'crash': 100}
+1a68241bb0dc916f1fc1a780f7eddddf42bf892a,"['android', 'crash', 'tidy']",General,{'crash': 100}
+a7219a77aaa4a0c60d7604c32cebfb017cde271a,"['core', 'crash', 'shape', 'annotation']",General,{'crash': 100}
+43dde0f204ac770feae0ef22c7a4ea67585deb12,"['android', 'crash', 'marshmallow']",General,{'crash': 100}
+46e2f13e683048ea206110cb2b6f0af36db2782f,"['core', 'integer', 'overflow', 'high', 'maximum', 'zoom', 'level']",Risky_resource_management,{'integer overflow': 100}
+45a8aa6a8fb920438d651108ec15cdf00eabb18d,"['crash', 'ipod', 'touch', 'carrier', 'vendor', 'reverts']",General,{'crash': 100}
+17121563ac807fbc68a203ac08c64de5711d8b92,"['simulator', 'crash', 'optional', 'coretelephony', 'code']",General,{'crash': 100}
+19e7d154bb540302339eb984f5350c20e9001020,"['http', 'request', 'memory', 'leak', 'nativemapview', 'java', 'object']",Risky_resource_management,{'memory leak': 100}
+8cf927f6c423ad5e5ce9c8931002ee1c1dce1d9d,"['http', 'request', 'memory', 'leak', 'nativemapview', 'java', 'object']",Risky_resource_management,{'memory leak': 100}
+991b1a28fb777ec6d9c27f166bddd75f6dbafe43,"['crash', 'mapview', 'access', 'token', 'constructor']",General,{'crash': 100}
+d80d2d5eeed01b0ca2f0031ea26741c7da2f12fa,"['nodemap', 'nodefilesource', 'multiple', 'request', 'resource', 'code', 'path', 'pending', 'request', 'resource', 'reason', 'resource', 'hold', 'reference', 'mbgl', 'request', 'deadlock', 'mutex', 'arbitrary', 'thread', 'mbgl', 'main', 'thread', 'javascript', 'engine', 'nodefilesource', 'notify', 'main', 'thread', 'nodefilesource', 'request', 'nodefilesource', 'access', 'data', 'structure']",Risky_resource_management,{'deadlock': 100}
+0fd9fe78dbb27cdd8cdea1d664596c226a6273b5,"['defer', 'initialization', 'enters', 'foreground', 'defer', 'creation', 'eaglecontext', 'glkview', 'glkview', 'drive', 'background', 'crash', 'apple', 'documentation', 'warns', 'initialize', 'eaglcontext', 'background', 'safe', 'client', 'code', 'avail', 'public', 'method', 'mglmapview']",General,{'crash': 100}
+1a3ae887868e9ecd6f0fd69add4b7b504d941b95,"['defer', 'initialization', 'enters', 'foreground', 'defer', 'creation', 'eaglecontext', 'glkview', 'glkview', 'drive', 'background', 'crash', 'apple', 'documentation', 'warns', 'initialize', 'eaglcontext', 'background', 'safe', 'client', 'code', 'avail', 'public', 'method', 'mglmapview']",General,{'crash': 100}
+ec93fba84a7ad8440db79e1567dbffd350d5387f,"['crash', 'launch', 'compass', 'container', 'constraint', 'parent', 'view', 'compass', 'container', 'content', 'size', 'constraint', 'code', 'path', 'result', 'crash', 'launch', 'unprepared', 'view', 'hierarchy']",General,{'crash': 100}
+d37e22b9c26e4665cb173d055a1d525a5e1209ce,"['bump', 'mapbox', 'native', 'pull', 'style', 'crash']",General,{'crash': 100}
+57c34747a24bc2c3e5b27e17c1991d6b9a4aa68c,"['report', 'error', 'renderstill', 'misuse', 'callback', 'callback', 'exception', 'problem', 'exception', 'thread', 'impossible', 'user', 'catch', 'crash', 'scenario', 'callback', 'print', 'error']",General,{'crash': 100}
+b602835626dfc1532bf5c26b9d2c34054a2d8fac,"['invalid', 'noderequest', 'reference', 'code', 'path', 'node', 'invalid', 'reference', 'noderequest', 'pending', 'list', 'crash', 'need', 'access', 'mbgl', 'resource', 'vector', 'http', 'code', 'google', 'issue', 'detail', 'solution', 'node', 'node', 'clear', 'implementation']",General,{'crash': 100}
+34ef7ac003b1f44fd1a1a1db052b0905b9a4a77c,"['synchronous', 'request', 'cancellation', 'request', 'filesource', 'group', 'resource', 'native', 'implementation', 'file', 'source', 'reuse', 'response', 'request', 'observer', 'list', 'noderequest', 'reference', 'mbgl', 'request', 'nodemap', 'resource', 'pending', 'request', 'main', 'thread', 'nodemap', 'release', 'main', 'thread', 'mbgl', 'main', 'thread', 'block', 'thread', 'thread', 'mbgl', 'request', 'thread', 'nodefilesource', 'post', 'main', 'thread', 'deadlock', 'thread', 'mbgl', 'request', 'hold', 'reference', 'thread', 'main', 'loop', 'main', 'thread', 'main', 'thread', 'nodemap', 'release', 'main', 'thread', 'mbgl', 'main', 'thread', 'block', 'thread', 'thread', 'request', 'thread', 'nodefilesource', 'destroys', 'mbgl', 'request', 'main', 'thread', 'thread', 'thread', 'main', 'thread', 'nodemap', 'release', 'return', 'main', 'thread', 'noderequest', 'noderequest', 'reply']",Risky_resource_management,{'deadlock': 100}
+63ea3d4befe7f2a8958cf3496d31d2a71561801b,"['crash', 'available']",General,{'crash': 100}
+c85df38bbb25806822db95ed93ddd31069d14802,"['pull', 'request', 'mapbox', 'integer', 'overflow', 'coverity', 'unintentional', 'integer', 'overflow']",Risky_resource_management,{'integer overflow': 100}
+fc74f8dcd55fe2cf1e4d3097ebaecbac20bac423,"['pull', 'request', 'mapbox', 'line', 'atlas', 'overflow', 'potential', 'integer', 'overflow']",Risky_resource_management,{'integer overflow': 100}
+d4fcb5bb98ed932f2bfe9d1fec09990ef6377253,"['pull', 'request', 'mapbox', 'android', 'crash', 'android', 'crash']",General,{'crash': 100}
+04c73e5ae13a1cc223e3be817d1c4220457aff25,"['integer', 'overflow']",Risky_resource_management,{'integer overflow': 100}
+a7df0781f823606ac439ba0e2769abac5f82c421,"['crash', 'resourceloader', 'null']",General,{'crash': 100}
+5475f3138bea139dd86a75ddd774051889a398c7,"['potential', 'crash', 'declaration', 'stack', 'ensure', 'thread']",General,{'crash': 100}
+5780b676b04baf67670a5f53a69b78f056da73d7,"['test', 'breakage', 'crash', 'apis', 'crash', 'launch']",General,{'crash': 100}
+6197763780db237933de3f90c71c6eea9cfbff6d,"['http', 'request', 'crash']",General,{'crash': 100}
+8d34d216852b16ff7f4c7a08a8a9d195fb21e89d,"['pull', 'request', 'mapbox', 'method', 'array', 'size', 'android', 'testapp', 'crash', 'startup']",General,{'crash': 100}
+0bb2e05063436202cbd5e657f5cf87a4819da397,"['weakself', 'need', 'strongself', 'weakself', 'dance', 'strongself', 'trivial', 'block', 'case', 'weakself', 'block', 'crash', 'setting', 'value']",General,{'crash': 100}
+ce32e9f92ba5e9994ea1e8fb4dc09275db193ab2,"['release', 'mode', 'performance', 'reason', 'look', 'crash', 'purpose', 'reverts']",General,{'crash': 100}
+2e4d583d3cac794ea89563f5fc2691b8267a359e,"['pull', 'request', 'mapbox', 'worker', 'dispatch', 'crash', 'httprequest', 'handleresponse']",General,{'crash': 100}
+2990f388240e6de586de6ebf20258503e68dad6a,"['pull', 'request', 'mapbox', 'crash', 'debug']",General,{'crash': 100}
+0603d8f5e3e152c40bd833b08d9ea4b6630f6e7a,"['crash', 'debug', 'request', 'reference', 'stack', 'scope']",General,{'crash': 100}
+84d472833d9304bc7e5404316169f07ac1df54e9,"['pull', 'request', 'mapbox', 'coalesce', 'opengl', 'object', 'deletion', 'crash']",General,{'crash': 100}
+61fa43619334ac68c66d45d38aaf681f2a21fa96,"['coalesce', 'buffer', 'deletion', 'bulk', 'main', 'thread', 'framebuffer', 'operation', 'request', 'rerender', 'view', 'content', 'operation', 'thread', 'crash', 'operation', 'main', 'thread', 'deletion', 'release', 'opengl', 'object', 'delete', 'bulk', 'main', 'thread', 'permission', 'opengl']",General,{'crash': 100}
+622b331cd507633a89e8ad238941c327d7759dea,"['pull', 'request', 'mapbox', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+1ffe2dd615a9cdca3cd785e19dd5a63fb1b5181c,"['reference', 'valgrind', 'suppresion', 'file', 'memory', 'leak', 'access', 'violation', 'opengl', 'buffer', 'management', 'file', 'attempt', 'filter', 'false', 'positive', 'note', 'open', 'source', 'radeon', 'driver', 'list', 'accommodate', 'setup', 'valgrind', 'suppression', 'file', 'memory', 'leak', 'valgrind', 'leak', 'check', 'full', 'track', 'origin', 'suppression', 'path', 'valgrind', 'mapbox']",Risky_resource_management,{'memory leak': 100}
+490c172b35c9f48d95b4c1a38003a00520ba27b8,"['delete', 'glfwview', 'object', 'exit', 'harmless', 'nice', 'cleanup', 'serious', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+74ef8840ce93f8ceb204bbe787f00a460ff51229,"['case', 'request', 'sprite', 'json', 'image', 'crash', 'program', 'image', 'sprite', 'sprite', 'image']",General,{'crash': 100}
+6da0ef3d6df9fa559252d4922f22f0c160c50fa2,"['pull', 'request', 'mapbox', 'request', 'double', 'free', 'request', 'double']",Risky_resource_management,{'double free': 100}
+5d2ed0326ed27f32c4a8ec5e95ec9fc57139c7ec,"['double', 'free', 'race', 'condition', 'notify']",Risky_resource_management,{'double free': 100}
+31a0d18ca1961b1cfb0785a1921b1f093167ebda,"['circular', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+1fe545aee4c28f3a74dc365ca69b4725cd8daa77,"['crash', 'continuous', 'mode']",General,{'crash': 100}
+772f154e4d0c61ec467d5d3658f213081883a32e,"['android', 'crash']",General,{'crash': 100}
+6bfc6a2b1065bc4e82552f451e670948478a6445,"['deadlock', 'test']",Risky_resource_management,{'deadlock': 100}
+51bcbbcc701c164f1f48174f212fd83bb9036e54,"['crash', 'coord']",General,{'crash': 100}
+69d42411ab10e352d16ebb618d94170edc9e7af8,"['hand', 'crash', 'pause']",General,{'crash': 100}
+e52cf05ac3f404762988fcbda9bc3d4facb417e1,"['json', 'string', 'crash']",General,{'crash': 100}
+900f6e87fa7a98c4b6e91f4809268295549797a8,"['null', 'string', 'crash']",General,{'crash': 100}
+7877d0505e25dd4d2f636b3dba8605a8519c9e9e,['crash'],General,{'crash': 100}
+f01428b697e58d2f65e70ae687d09ce3182fefcc,"['gamma', 'crash']",General,{'crash': 100}
+3b397c56ed2b851b07bca3a7c7d38cb0e7cb53f3,"['print', 'core', 'dump', 'application', 'crash']",General,{'crash': 100}
+91f40daa6911f57f3dca534080241b46844c71b7,"['concurrent', 'access', 'static', 'member', 'variable', 'situation', 'renderer', 'multiple', 'thread', 'memory', 'corruption', 'mapbox', 'node', 'mapbox', 'native']",Risky_resource_management,{'memory corruption': 100}
+9dc48b773fe1c614655b5c7a7645b3ee9f1fa557,"['crash', 'style', 'glyph']",General,{'crash': 100}
+fb151b3fbe2ed25d5255c4b532a041e868086011,"['sprite', 'data', 'race']",Risky_resource_management,{'data race': 100}
+ff571fabcfe967b503358689359398678571d4d2,"['exit', 'crash']",General,{'crash': 100}
+552b9a0f1bc86b617fd6d8163c5164eceeb01641,"['potential', 'crash', 'line', 'wrapping', 'huge', 'number']",General,{'crash': 100}
+42c233b8b45c25dc41a989c68bd71a3ced3ac2b5,"['wformat', 'security', 'warning', 'dodgy', 'fprintf']",General,{'security': 100}
+67fc1634045049041d0830c4381096cdd1641a7c,"['libcurl', 'crash']",General,{'crash': 100}

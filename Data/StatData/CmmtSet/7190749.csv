@@ -1,6 +1,18 @@
-sha,message,catetory,matched,labels
-b00a6b895738e13e426315f3f939f8659d5f9709,"['mergerequest', 'mergesecurity', 'command', 'injection']",Insecure_interaction_between_components,{'command injection': 100},
-8af4c351e7a7be452463a6d1bd8903ebaf088835,"['access', 'controller', 'property', 'controller']",Porous_defenses,{'access controller': 90},
-c27110fe61ac3fc73b4e20c081953d514439cdff,"['cebcee', 'mergerequest', 'process', 'crash', 'debug', 'inspect']",Risky_resource_management,{'crash': 100},
-cebce48e809490489ffd01023631e4cde0d0274c,"['process', 'crash', 'debug', 'inspect']",Risky_resource_management,{'crash': 100},
-7fd9c31fa805378ed464091cdf72bf785e261d66,"['security', 'luisf', 'figueiredo']",General,{'security': 100},
+sha,message,catetory,matched
+887b0fa9e162ef7a2dd9cec20a5ca122726373b3,"['security', 'issue']",General,{'security': 100}
+84e6d02a1f066a423e7e5be3ea6a33babcda60ed,"['security', 'issue', 'query', 'argument']",General,{'security': 100}
+7004957fd830aa78d30b25dc2cac2effda1a6a3b,"['insecure', 'flag', 'request', 'method']",General,{'insecure': 100}
+b00a6b895738e13e426315f3f939f8659d5f9709,"['pull', 'request', 'total', 'security', 'command', 'injection', 'huntr']",Insecure_interaction_between_components,{'command injection': 100}
+76986a62245a2b85bcd2c8b3800dc2357f372ac1,"['pull', 'request', 'hethvik', 'patch', 'command', 'injection', 'image', 'pipe']",Insecure_interaction_between_components,{'command injection': 100}
+98cb702859875a20485d7f4bd0da2c2365e018d8,"['command', 'injection', 'image', 'pipe', 'image', 'stream']",Insecure_interaction_between_components,{'command injection': 100}
+65ab02908d8ebb95f4f3fea868e969bf2ed6ca5e,"['command', 'injection', 'image', 'pipe']",Insecure_interaction_between_components,{'command injection': 100}
+6192491ab2631e7c1d317c221f18ea613e2c18a5,"['command', 'injection', 'image', 'stream', 'sanoop']",Insecure_interaction_between_components,{'command injection': 100}
+fa6a0d7e3c256ae9b892a30273c5fe77fc99ffb5,"['path', 'traversal', 'vulnerability']",Risky_resource_management,{'path traversal': 100}
+89bec64547b455eafc1a406849ed306d25905f91,"['pull', 'request', 'miguelavaqrod', 'master', 'modificators', 'access', 'controller']",Porous_defenses,{'access controller': 90}
+8af4c351e7a7be452463a6d1bd8903ebaf088835,"['modificators', 'access', 'controller', 'available', 'controller', 'modificator', 'access', 'property']",Porous_defenses,{'access controller': 90}
+c27110fe61ac3fc73b4e20c081953d514439cdff,"['pull', 'request', 'temasm', 'worker', 'crash', 'main', 'process', 'inspect', 'debug']",General,{'crash': 100}
+cebce48e809490489ffd01023631e4cde0d0274c,"['worker', 'crash', 'main', 'process', 'inspect', 'debug']",General,{'crash': 100}
+25e20525424cfdde7fa7f3573fae11d9c1044ba5,['security'],General,{'security': 100}
+840636a07e0a7236be4d572d88f1eea24b920c00,"['memory', 'leak', 'nosql', 'worker']",Risky_resource_management,{'memory leak': 100}
+7fd9c31fa805378ed464091cdf72bf785e261d66,"['critical', 'security', 'hank', 'luis', 'figueiredo', 'luisf']",General,{'security': 100}
+24a6a3b86520a365c218b0f337be547a045e29ee,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}

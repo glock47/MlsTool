@@ -1,6 +1,25 @@
-sha,message,catetory,matched,labels
-96607604fcd9ce8f679e40224f1b7fd33ee775ef,"['potential', 'crash', 'commandreallocate', 'functioncurrent', 'request', 'pointer']",Risky_resource_management,{'crash': 100},
-d0bd7b9bfa96644d5837a90ec152ebae0a412ee3,"['crash', 'terminal', 'progressjonas', 'address']",Risky_resource_management,{'crash': 100},
-754b9f24e4e7b01f741a5201d7b65e285e005439,"['buffer', 'overflow', 'graph']",Risky_resource_management,{'buffer overflow': 100},
-718c6e94fcc111e5607d6ca0bf3d15271adc0d97,"['array', 'crash', 'accessprompt', 'search', 'matchretrieve', 'attempt', 'enterexistent', 'entry', 'index', 'emptyboundary', 'conditionsunshine', 'signedfonseca', 'jonas']",Risky_resource_management,{'crash': 100},
-b3c0164105c0dfc63ef04f06ac321a9f23e17577,"['tigrc', 'crash', 'absentbuilt', 'tigrc', 'regressionerror', 'custom', 'loadederror', 'custom', 'source', 'handler', 'commandcustom', 'error', 'output', 'errno']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+96607604fcd9ce8f679e40224f1b7fd33ee775ef,"['potential', 'crash', 'current', 'request', 'occasional', 'crash']",General,{'crash': 100}
+c6a7bdd606eed8df8b6e0a0e2d0f66f38758a3ad,"['memory', 'leak', 'diff', 'unit', 'line', 'context', 'array', 'pointer', 'line']",Risky_resource_management,{'memory leak': 100}
+2ccf551817d108e48cc9201e168d66b9117bfcba,"['crash', 'line', 'view', 'occurs', 'diff', 'chunk', 'memmove', 'view', 'line', 'element', 'chunk', 'memory']",General,{'crash': 100}
+6202c6032f17438a2facb23f02e330b9d0566d9d,"['segmentation', 'fault', 'maxim', 'zhukov', 'memory', 'leak', 'main', 'view', 'stage', 'unstage', 'current', 'line', 'stage', 'view', 'null', 'pointer', 'dereference']",Risky_resource_management,{'null pointer': 100}
+9ca77109dfdd3969420ac3420ea24a00abdd6773,"['memory', 'leak', 'main', 'view', 'free', 'graph', 'graph', 'pointer', 'struct', 'graph', 'struct', 'graph', 'point', 'hash', 'table', 'color', 'free', 'graph']",Risky_resource_management,{'memory leak': 100}
+3b5bded69944c61711122d8ad8332ceb09d53459,"['memory', 'leak', 'grep', 'argv', 'array', 'string', 'allocation', 'need']",Risky_resource_management,{'memory leak': 100}
+4d045874f50d5fd11eff8c46ac562f0f96156a57,"['workaround', 'potential', 'null', 'pointer', 'dereferences']",Risky_resource_management,{'null pointer': 100}
+c2e2a0fde0dac41c88a84403061865adb1cec320,"['empty', 'string', 'distinction', 'null', 'pointer', 'string', 'length', 'zero', 'input', 'empty', 'input', 'input', 'boundary', 'distinction', 'setting', 'flag', 'readline', 'signal', 'handler']",Risky_resource_management,{'null pointer': 100}
+d0bd7b9bfa96644d5837a90ec152ebae0a412ee3,"['crash', 'terminal', 'search', 'progress', 'address', 'jonas']",General,{'crash': 100}
+754b9f24e4e7b01f741a5201d7b65e285e005439,"['heap', 'buffer', 'overflow', 'graph', 'code']",Risky_resource_management,{'buffer overflow': 100}
+718c6e94fcc111e5607d6ca0bf3d15271adc0d97,"['crash', 'array', 'access', 'search', 'string', 'file', 'finder', 'file', 'list', 'empty', 'attempt', 'retrieve', 'existent', 'entry', 'index', 'empty', 'list', 'crash', 'boundary', 'condition', 'error', 'eric', 'sunshine', 'sunshine', 'sunshineco', 'jonas', 'fonseca', 'jonas', 'fonseca', 'gmail']",General,{'crash': 100}
+bc4f8e83c590058641c9e1654db300798e9cd106,"['segfault', 'initial', 'view', 'dereference', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+b3c0164105c0dfc63ef04f06ac321a9f23e17577,"['crash', 'tigrc', 'absent', 'regression', 'custom', 'error', 'code', 'custom', 'error', 'message', 'tigrc', 'source', 'command', 'handler', 'output', 'custom', 'error', 'errno', 'enoent']",General,{'crash': 100}
+d091c5337e706171d73533a159161d692f9c00ef,"['private', 'state', 'view', 'state', 'contains', 'data', 'reflogs', 'certain', 'view', 'furthermore', 'memory', 'leak', 'view']",Risky_resource_management,{'memory leak': 100}
+6ca344f3c4f7830dcb77f1a653beb39b909f2cc0,"['blame', 'opening', 'diff', 'view', 'part', 'regression', 'memory', 'corruption', 'nullable']",Risky_resource_management,{'memory corruption': 100}
+98f6b9bbe270eb996091601c9943cfb9c0f5e430,"['memory', 'corruption', 'tree', 'entry', 'mode', 'tree', 'entry', 'subdirectory', 'directory', 'name', 'memmove', 'length', 'argument', 'operation', 'offset', 'tree', 'path', 'output', 'tree', 'display', 'blob', 'size', 'tree', 'offset', 'tree', 'path', 'result', 'mode', 'entry', 'buffer']",Risky_resource_management,{'memory corruption': 100}
+b812b89e8f0aaf3a9df1a1a10b840e9926475c8c,"['check', 'filename', 'null', 'empty', 'null', 'pointer', 'exception', 'wsegfault']",Risky_resource_management,{'null pointer': 100}
+374d9dc1f98b881f224de80aa0704edbacc3055d,"['link', 'question', 'thanks', 'vincent', 'scheib', 'paul', 'kinlan', 'stack', 'overflow', 'karma']",Risky_resource_management,{'stack overflow': 100}
+20b7a5d7c6767a9a2ba8ebca3d4413c72c84cd71,"['refactor', 'line', 'allocation', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+9d7281d114548bf491d00c9aa207f280b9e658e2,"['memory', 'leak', 'cleanup', 'update']",Risky_resource_management,{'memory leak': 100}
+2ae980f4dec0c8f239fa00544c29a4869117db7c,"['introduce', 'plug', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+2fba3c2052ce600a16bc6d5899966734cc67a5e3,"['memory', 'corruption']",Risky_resource_management,{'memory corruption': 100}
+91521b9da4337f6d7f5dc29b02fb04cf7f0ccd02,"['crash', 'opening', 'mergetool', 'line']",General,{'crash': 100}
+32553785b929e5d9f5da012b555291fff2824640,"['plug', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}

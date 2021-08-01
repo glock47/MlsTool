@@ -1,12 +1,20 @@
-sha,message,catetory,matched,labels
-434ba6c360208b91d848561e311fc66543a38f2e,"['content', 'policy', 'local', 'security']",General,{'security': 100},
-1065ef5d4c0616e13598ec707fb736d7fd9ec8d4,"['policy', 'oodoc', 'ooslide', 'security']",General,{'security': 100},
-e4231956a391f1ea8c89cb2e246b090a2d762d08,"['integrity', 'check']",Risky_resource_management,{'integrity check': 100},
-cc4e6d9a1e56bd1e05f3daf02d6e4f3558b449ef,"['integrity', 'check']",Risky_resource_management,{'integrity check': 100},
-c9be2fae363c9adce794243098b39bc5e99431e1,"['context', 'insecure', 'notification', 'warning']",General,{'insecure': 100},
-ac3a58cc3873e1d3b2c278951aefd79389226a08,"['channel', 'ephemeral', 'clearing', 'deadlock']",Risky_resource_management,{'deadlock': 100},
-11eb5661586f27ec811b13628b7a6f432a263aaf,"['server', 'crash', 'invalid']",Risky_resource_management,{'crash': 100},
-c22f610d5c4b72c748070abc9613eba4dea80848,"['integrity', 'check', 'drive']",Risky_resource_management,{'integrity check': 100},
-91eda5fa83f35628f04a632abf11cc5615efdf4a,"['implement', 'content', 'policy', 'security', 'strongerloader', 'number', 'versioncontrol']",General,{'security': 100},
-72fc2e70685c4dcaa91437d7d80f0f2efdd67723,"['super', 'header', 'duper', 'chuck', 'security']",General,{'security': 100},
-12cdd1e76b80be18efbe550b5ffa51dd1ff1fd57,"['content', 'cryptpad', 'policy', 'security']",General,{'security': 100},
+sha,message,catetory,matched
+926edc7e5e8cc1a83ca70c4d190fe69889ba6a2d,"['data', 'loss']",Risky_resource_management,{'data loss': 100}
+c43c1a447d520a4f37adb65939cdda7ec75b917e,"['possible', 'memory', 'leak', 'inner', 'worker']",Risky_resource_management,{'memory leak': 100}
+434ba6c360208b91d848561e311fc66543a38f2e,"['content', 'security', 'policy', 'local', 'development', 'server']",General,{'security': 100}
+9f1f01f3b4ce3e576dbf3101e2f57a29b6798ee7,"['worker', 'task', 'probable', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+09bf0a54d81ca2fe651d22df0fc60c8c5b1c2d4a,"['access', 'control', 'header']",Porous_defenses,{'access control': 100}
+1065ef5d4c0616e13598ec707fb736d7fd9ec8d4,"['security', 'policy', 'ooslide', 'oodoc', 'wasm']",General,{'security': 100}
+e4231956a391f1ea8c89cb2e246b090a2d762d08,"['integrity', 'check']",Risky_resource_management,{'integrity check': 100}
+cc4e6d9a1e56bd1e05f3daf02d6e4f3558b449ef,"['integrity', 'check']",Risky_resource_management,{'integrity check': 100}
+c9be2fae363c9adce794243098b39bc5e99431e1,"['notification', 'insecure', 'context']",General,{'insecure': 100}
+ac3a58cc3873e1d3b2c278951aefd79389226a08,"['deadlock', 'lock', 'clearing', 'ephemeral', 'channel']",Risky_resource_management,{'deadlock': 100}
+11eb5661586f27ec811b13628b7a6f432a263aaf,"['crash', 'server', 'line', 'invalid']",General,{'crash': 100}
+8213d0d9265ec26468f2e316963bf07f70789c62,"['guard', 'null', 'pointer', 'exception']",Risky_resource_management,{'null pointer': 100}
+c22f610d5c4b72c748070abc9613eba4dea80848,"['drive', 'integrity', 'check']",Risky_resource_management,{'integrity check': 100}
+c9040997d5e9ce7a511b1802f91ab6ebddac1653,"['security', 'xwiki', 'cryptpad', 'security']",General,{'security': 100}
+6b8d0c8bc75dd8d65a0d7326533127d7d15c7816,"['security', 'xwiki', 'cryptpad', 'security']",General,{'security': 100}
+91eda5fa83f35628f04a632abf11cc5615efdf4a,"['content', 'security', 'policy', 'version', 'number', 'cache', 'control']",General,{'security': 100}
+412815b0426d308cb30e70b4af3f21a2230361e1,"['security', 'xwiki', 'cryptpad', 'security']",General,{'security': 100}
+72fc2e70685c4dcaa91437d7d80f0f2efdd67723,"['super', 'duper', 'security', 'header']",General,{'security': 100}
+12cdd1e76b80be18efbe550b5ffa51dd1ff1fd57,"['content', 'security', 'policy', 'work', 'cryptpad']",General,{'security': 100}

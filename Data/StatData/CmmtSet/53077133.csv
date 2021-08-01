@@ -1,5 +1,7 @@
-sha,message,catetory,matched,labels
-bed3570bdefddcc092f77b636dcd0627af8c8adb,"['context', 'crash', 'creation']",Risky_resource_management,{'crash': 100},
-ae73dd1e7428161476ea6d1063fee01ed1301613,"['context', 'crash', 'release']",Risky_resource_management,{'crash': 100},
-2425be953b4e61fb4f143b3f799411c2666032e8,"['stack', 'overflow']",Risky_resource_management,{'stack overflow': 100},
-d89a98e0606c6f9dbff4ccf459a8f4830e68126c,"['setuniform', 'support', 'crash', 'matrix']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+bed3570bdefddcc092f77b636dcd0627af8c8adb,"['crash', 'context', 'creation']",General,{'crash': 100}
+ae73dd1e7428161476ea6d1063fee01ed1301613,"['context', 'release', 'crash']",General,{'crash': 100}
+257f1b0f51dbab1542e9f9b5a30e1803f250df1e,"['program', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+2425be953b4e61fb4f143b3f799411c2666032e8,"['stack', 'overflow', 'parameter']",Risky_resource_management,{'stack overflow': 100}
+d89a98e0606c6f9dbff4ccf459a8f4830e68126c,"['setuniform', 'crash', 'support', 'matrix']",General,{'crash': 100}
+d745fd256cef0258ee602dab3e9190f391f1aee4,"['load', 'crash']",General,{'crash': 100}

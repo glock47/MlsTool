@@ -1,15 +1,36 @@
-sha,message,catetory,matched,labels
-907ab65056312a2a6926b1db1d11fcc71168c90c,"['system', 'error', 'criticalcause', 'opening', 'critical', 'loggingsystem', 'security']",General,{'security': 100},
-b03bc6deb777ca538b84c5983fbde221188c18c9,"['coverage', 'creation', 'instance', 'deadlock', 'synchronize']",Risky_resource_management,{'deadlock': 100},
-299206a1145578b38b8091df24eac81265d45bc8,"['dadbbmerge', 'opentripplanner', 'version', 'dependency', 'security', 'requestdependency', 'security']",General,{'security': 100},
-3451026b59341501e639b0356c67724d797f1626,"['version', 'dependency', 'security']",General,{'security': 100},
-fc9b39b71770817a8d36a1cf286ede3aa9b2808f,"['version', 'dependency', 'security']",General,{'security': 100},
-2c586dc854e6147cf3c819bdbf8b2a8fb0de1116,"['close', 'response', 'dependency', 'security']",General,{'security': 100},
-362a998a5bfa226d07f87ad103c96cdc77b3605c,"['update', 'security', 'config']",General,{'security': 100},
-8550b5a44f7a66707db7166e360dddb0d530082c,"['correctlylocalhost', 'router', 'insecure']",General,{'insecure': 100},
-8ff3e77ababd7d4f3b5f14d7dd96f79ca0204a77,"['keystorekeytool', 'genkey', 'czech', 'dname', 'keystore', 'alias', 'serverconnect', 'localhost', 'openssl', 'issueapplication', 'router', 'insecure', 'localhost']",General,{'insecure': 100},
-31467da499c1d95b62ce2d9d102cea4bee5a497b,"['comment', 'section', 'unsure', 'security']",General,{'security': 100},
-bd1c769143ed8c47d50da68070ab1d1061c5f500,"['spring', 'security']",General,{'security': 100},
-6fe00a2bdedad09d08b14caf38605f60db3d7467,"['rental', 'crash']",Risky_resource_management,{'crash': 100},
-f0cba0d762006268a59cee85bffa3ab14b97df85,"['complex', 'crash', 'invalid']",Risky_resource_management,{'crash': 100},
-f52484fb8f09eb8fb85b4b929efa488adae5da43,"['unmatchable', 'route', 'crash']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+c1b14e65063625bf2e266553c98c354369c259a3,"['gitignore', 'intellj', 'crash', 'invalid', 'index', 'delete', 'idea', 'folder', 'configuration', 'config', 'forlder']",General,{'crash': 100}
+e337be4f6acf53964fd69b91ab7cd8c141f389e0,"['update', 'security', 'page', 'router']",General,{'security': 100}
+907ab65056312a2a6926b1db1d11fcc71168c90c,"['system', 'error', 'stacktrace', 'error', 'critical', 'able', 'system', 'security', 'risk']",General,{'security': 100}
+299206a1145578b38b8091df24eac81265d45bc8,"['pull', 'request', 'opentripplanner', 'dependency', 'security', 'bump', 'version', 'dependency', 'security']",General,{'security': 100}
+3451026b59341501e639b0356c67724d797f1626,"['dependency', 'security', 'bump', 'version']",General,{'security': 100}
+fc9b39b71770817a8d36a1cf286ede3aa9b2808f,"['dependency', 'security', 'bump', 'version']",General,{'security': 100}
+2c586dc854e6147cf3c819bdbf8b2a8fb0de1116,"['bump', 'dependency', 'version', 'response', 'security']",General,{'security': 100}
+fc5fda4a55f48584510d2a92edc0e6bef47348c6,"['null', 'pointer', 'exception', 'edge', 'method', 'transit']",Risky_resource_management,{'null pointer': 100}
+65a64563425c3756dfc3ac46708a8082fd159d5a,"['pull', 'request', 'entur', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+5c9634cff3f115cd3e2acc746b9a2aeb795bdb01,"['memory', 'leak', 'cleanup', 'test', 'test']",Risky_resource_management,{'memory leak': 100}
+1c7da261642662b9e6679e9f73b5af3ad585eec7,"['code', 'cleanup', 'dispose', 'class', 'temp', 'recursion', 'loop', 'stack', 'overflow']",Risky_resource_management,{'stack overflow': 100}
+648ba648ddb9d5bec99f8152690cfea0269231ad,"['memory', 'leak', 'street', 'splitter', 'travel', 'search', 'lead', 'memory', 'leak', 'cleanup', 'vertex', 'graph', 'reset', 'original', 'state', 'search']",Risky_resource_management,{'memory leak': 100}
+aa7756e5942c6531e37acf222b0985c8979859ba,"['stack', 'overflow']",Risky_resource_management,{'stack overflow': 100}
+362a998a5bfa226d07f87ad103c96cdc77b3605c,"['update', 'config', 'page', 'security']",General,{'security': 100}
+4a8ecfa7a953ada803acea51ecde4ad39563de1e,"['memory', 'leak', 'failsafe', 'profilerouter', 'finalizer']",Risky_resource_management,{'memory leak': 100}
+60da3b3b68e384e40718f6151477b71bc09397e6,"['null', 'pointer', 'exception']",Risky_resource_management,{'null pointer': 100}
+8550b5a44f7a66707db7166e360dddb0d530082c,"['guava', 'base', 'encoder', 'auth', 'curl', 'http', 'localhost', 'router', 'router', 'insecure']",General,{'insecure': 100}
+8ff3e77ababd7d4f3b5f14d7dd96f79ca0204a77,"['http', 'support', 'basic', 'authentication', 'cert', 'java', 'keystore', 'keytool', 'genkey', 'keystore', 'alias', 'serverkey', 'dname', 'localhost', 'jersey', 'microsystem', 'prague', 'czech', 'republic', 'test', 'localhost', 'issue', 'http', 'curl', 'insecure', 'user', 'router', 'application', 'json', 'http', 'localhost', 'router']",General,{'insecure': 100}
+dfb5f14141411610a90a415e31457a5b695e12df,"['integer', 'overflow', 'stateeditor']",Risky_resource_management,{'integer overflow': 100}
+41d1d53ef7d710182a31a62c06a6fd0a5e169747,"['pull', 'request', 'gcamp', 'master', 'street', 'name', 'crash', 'street', 'name']",General,{'crash': 100}
+386b69e424c157870ededc7559a606affc85a01c,"['crash', 'street', 'name']",General,{'crash': 100}
+31467da499c1d95b62ce2d9d102cea4bee5a497b,"['security', 'comment', 'section']",General,{'security': 100}
+bd1c769143ed8c47d50da68070ab1d1061c5f500,"['note', 'spring', 'security', 'need', 'work']",General,{'security': 100}
+ed0d5c1e9289d3f332d4ca078299fd4c840c3b73,"['null', 'pointer', 'issue']",Risky_resource_management,{'null pointer': 100}
+01db686d9b7046ef2b525c438b1b7665c4c63182,"['frank', 'geometry', 'crash', 'catch', 'geometry']",General,{'crash': 100}
+6fe00a2bdedad09d08b14caf38605f60db3d7467,"['bike', 'rental', 'crash']",General,{'crash': 100}
+f0cba0d762006268a59cee85bffa3ab14b97df85,"['crash', 'invalid', 'area', 'invalid', 'complex', 'area']",General,{'crash': 100}
+a879b2ba869993c2e47330d3b8c37947355a41fa,"['access', 'control', 'issue']",Porous_defenses,{'access control': 100}
+b0454a793a81138b3fe0aa5945b635eb1ba1599a,"['component', 'annotation', 'contraction', 'compilation', 'error', 'crash', 'injection']",General,{'crash': 100}
+2fa1fd87bbdcbd4c588de1559b8d735eccc0ca53,"['integer', 'overflow', 'fare', 'service']",Risky_resource_management,{'integer overflow': 100}
+07af63243b24438baaea164a27c8f40a229ad39a,['crash'],General,{'crash': 100}
+0728a662c270bb815df60d31d0a758e715135196,"['spring', 'security', 'patch', 'apis', 'sorry', 'brian']",General,{'security': 100}
+3fbef10f497a43e50f73021444987de75106a41e,"['null', 'pointer', 'exception', 'networklinker']",Risky_resource_management,{'null pointer': 100}
+9fc566069bec65e0ebf73406ca3d391ecbdd04f3,"['compile', 'problem', 'wrong', 'fare', 'class', 'null', 'pointer', 'check', 'code', 'npes', 'streetvertex', 'coord', 'search']",Risky_resource_management,{'null pointer': 100}
+c6130fe649be5164445faa4d6b5bca501192e152,"['testkao', 'feed', 'graph', 'test', 'null', 'pointer', 'exception', 'stoptable', 'iterator', 'course', 'part', 'test', 'part', 'test']",Risky_resource_management,{'null pointer': 100}

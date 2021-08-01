@@ -1,16 +1,30 @@
-sha,message,catetory,matched,labels
-78275f40d87ef8184d8a843910425e1fec09e765,"['crash', 'output', 'failsafe', 'switch', 'determines', 'module', 'state']",Risky_resource_management,{'crash': 100},
-150dddc6efbf81b15effb153db81d70f4103eba2,"['crash', 'turning']",Risky_resource_management,{'crash': 100},
-a36d03410c9aed5519ca9b4721d7cadec2259d16,"['blank', 'crash', 'illegal', 'checksum', 'numberissue']",Risky_resource_management,{'crash': 100},
-4d5d80504d71cd468eb6fcd4c0eb4608e1465715,"['enable', 'drivermodule', 'driver', 'message', 'errorenable', 'driver', 'crash', 'setting']",Risky_resource_management,{'crash': 100},
-3c74260ce9696e3c334840c39db21a064a4bf0a5,"['overrun', 'array', 'potential']",Risky_resource_management,{'overrun': 100},
-8b261cdc73d47b1c0c79cdcbfc3291f453214722,"['delete', 'module', 'releasemoduoes', 'crash', 'setting', 'memory', 'chance', 'config', 'memory', 'config']",Risky_resource_management,{'crash': 100},
-43a5e01a77ffe67d2045efc0266781d3db8b91c4,"['beffcf', 'mergeupstreamedge', 'wolfmanjm', 'requestobject', 'delete', 'crash']",Risky_resource_management,{'crash': 100},
-2beffcf3020c8e0b5c567f027a7b6a0f33c99ae6,"['object', 'delete', 'crash']",Risky_resource_management,{'crash': 100},
-a97d38c6f2bf93900541ad28aea14234946c7081,"['wolfmanjm', 'requestoccasional', 'crash']",Risky_resource_management,{'crash': 100},
-f09ef845f1c5e08f5256799a874346121505b9d9,"['crash', 'queue', 'request']",Risky_resource_management,{'crash': 100},
-3b1acdaa8ca4c7e5fcb2b8671003e2c3ec9e9f65,"['deadlock', 'condition']",Risky_resource_management,{'deadlock': 100},
-3eadcfeef32633821ffea1c7e454d9a617992c49,"['minimum', 'counter', 'speedinterrupt', 'timer', 'overrun', 'number', 'memory', 'actual', 'motor', 'config', 'default']",Risky_resource_management,{'overrun': 100},
-f2f0dfedaae98ab84256e5049bab3b1e65b57e7d,"['append', 'intead', 'filestream', 'crash']",Risky_resource_management,{'crash': 100},
-90034d8e4b63cb964a3f6b3ac3431d8d46989ea4,"['crash', 'compiles']",Risky_resource_management,{'crash': 100},
-b00f1a6b586fd2cfae439b3f0dd1c170d8db73a2,"['configureusage', 'smoothie', 'executes', 'crash', 'encountereduseable', 'single', 'thingvariable', 'changedebug', 'experience']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+36ee3c61195da91910f3db1225e652f375794f20,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+78275f40d87ef8184d8a843910425e1fec09e765,"['switch', 'module', 'determines', 'state', 'output', 'failsafe', 'crash']",General,{'crash': 100}
+3d5eae21af9f12a5c7827acf516774ea8e01a9c5,"['pull', 'request', 'wolfmanjm', 'upstreamedge', 'occasional', 'crash']",General,{'crash': 100}
+94c42487d3c5a0474c6d94512b6de43d87dc25d7,"['occasional', 'crash', 'grid']",General,{'crash': 100}
+150dddc6efbf81b15effb153db81d70f4103eba2,['crash'],General,{'crash': 100}
+a36d03410c9aed5519ca9b4721d7cadec2259d16,"['crash', 'illegal', 'line', 'blank', 'line', 'line', 'number', 'checksum', 'issue']",General,{'crash': 100}
+4d5d80504d71cd468eb6fcd4c0eb4608e1465715,"['enable', 'motor', 'driver', 'error', 'message', 'driver', 'module', 'enable', 'driver', 'crash']",General,{'crash': 100}
+3c74260ce9696e3c334840c39db21a064a4bf0a5,"['potential', 'array', 'overrun']",Risky_resource_management,{'overrun': 100}
+3ceea65b390d0afe536102b6540c0ed2b7695af1,"['pull', 'request', 'wolfmanjm', 'upstreamedge', 'potential', 'stack', 'overflow']",Risky_resource_management,{'stack overflow': 100}
+12cfaeae5ea1cf9ffcc1035eb6a81d08c61b4437,"['access', 'control', 'origin', 'header']",Porous_defenses,{'access control': 100}
+8b261cdc73d47b1c0c79cdcbfc3291f453214722,"['module', 'release', 'dosn', 'crash', 'moduoes', 'chance', 'memory', 'crash', 'config', 'setting', 'config', 'file']",General,{'crash': 100}
+43a5e01a77ffe67d2045efc0266781d3db8b91c4,"['pull', 'request', 'wolfmanjm', 'upstreamedge', 'delete', 'crash', 'object']",General,{'crash': 100}
+2beffcf3020c8e0b5c567f027a7b6a0f33c99ae6,"['delete', 'crash', 'object']",General,{'crash': 100}
+807b9b572d27e0ae943bfb0f550089efdfbfed2f,"['author', 'morris', 'morris', 'wolfman', 'date', 'global', 'offset', 'offset', 'display', 'zero', 'accf', 'daec', 'author', 'morris', 'morris', 'wolfman', 'date', 'nmotors', 'http', 'github', 'author', 'date', 'author', 'date', 'upstream', 'edge', 'edge', 'author', 'date', 'remote', 'smoothieware', 'edge', 'author', 'date', 'remote', 'smoothieware', 'edge', 'edge', 'date', 'robot', 'checksum', 'array', 'const', 'date', 'rest', 'removal', 'pauser', 'author', 'date', 'remote', 'smoothieware', 'edge', 'conflict', 'module', 'robot', 'stepper', 'fbda', 'author', 'date', 'remote', 'smoothieware', 'edge', 'dada', 'author', 'date', 'remote', 'smoothieware', 'edge', 'conflict', 'module', 'tool', 'scaracal', 'scaracal', 'date', 'robot', 'config', 'code', 'review', 'default', 'robot', 'actuator', 'default', 'robot', 'actuator', 'checksum', 'array', 'checksum', 'array', 'compile', 'time', 'checksum', 'array', 'printf', 'warning', 'solution', 'date', 'limit', 'robot', 'actuator', 'default', 'multicartesian', 'solution', 'code', 'review', 'date', 'limit', 'code', 'manipulation', 'actuator', 'setting', 'code', 'review', 'date', 'code', 'review', 'date', 'zeta', 'default', 'default', 'table', 'robot', 'default', 'separate', 'table', 'zeta', 'default', 'date', 'array', 'overrun', 'actuator', 'thanks', 'wolfmanjm', 'actuator', 'letter', 'robot', 'warning', 'cleanup', 'comment', 'robot', 'cleanup', 'code', 'review', 'reference', 'actuator', 'loop', 'conditional', 'robot', 'date', 'nmotor', 'code', 'config', 'name', 'robot', 'solution', 'config', 'name', 'overload', 'rotate', 'ecde', 'author', 'remote', 'smoothieware', 'edge', 'author', 'remote', 'smoothieware', 'edge', 'digit', 'actuator', 'digit', 'axis', 'author', 'date', 'remote', 'smoothieware', 'edge', 'date', 'support', 'robot', 'actuator', 'multi', 'cartesian', 'solution', 'rough', 'code', 'solution', 'report', 'number', 'actuator', 'subject', 'compile', 'time', 'limit', 'endstops', 'zprobe', 'actuator', 'multi', 'cartesian', 'solution', 'drive', 'pair', 'motor']",Risky_resource_management,{'overrun': 100}
+a97d38c6f2bf93900541ad28aea14234946c7081,"['pull', 'request', 'wolfmanjm', 'upstreamedge', 'occasional', 'crash']",General,{'crash': 100}
+44ad06891d6662a192c7c1879d84c385bb3a3e0a,"['switch', 'module', 'config', 'crash', 'default', 'crash', 'failsafe', 'value', 'default']",General,{'crash': 100}
+6100791e6ba75e4e65c3c148af8bf1aedcc1eb19,"['zgrid', 'null', 'pointer', 'deallocation', 'richard', 'marko', 'rmarko']",Risky_resource_management,{'null pointer': 100}
+3b1acdaa8ca4c7e5fcb2b8671003e2c3ec9e9f65,"['deadlock', 'race', 'condition']",Risky_resource_management,{'deadlock': 100}
+3eadcfeef32633821ffea1c7e454d9a617992c49,"['uint', 'counter', 'minimum', 'speed', 'tick', 'adjustment', 'timer', 'overrun', 'number', 'motor', 'config', 'setting', 'actual', 'number', 'motor', 'number', 'default']",Risky_resource_management,{'overrun': 100}
+fb877329ea7e0d0ed674961ea06d39d94177ed73,"['readdir', 'stack', 'overrun', 'extern', 'sdcard', 'detect', 'panel', 'configure', 'extern', 'sdcard', 'extern', 'sdcard', 'directory', 'play', 'screen', 'switch', 'sdcard', 'remembers', 'frequency', 'device']",Risky_resource_management,{'overrun': 100}
+561e913f9d3759b8ad5f1fd72edfddbd4f8d2dcb,"['pull', 'request', 'wolfmanjm', 'upstreamedge', 'acceleration', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+6bb45cd11f486ab3e94d346d29bc1c79925ce525,"['acceleration', 'extruder', 'calculate', 'trapezoid', 'partial', 'memory', 'leak', 'block', 'gocde', 'vector']",Risky_resource_management,{'memory leak': 100}
+f2f0dfedaae98ab84256e5049bab3b1e65b57e7d,"['filestream', 'intead', 'append', 'file', 'stream', 'crash', 'string']",General,{'crash': 100}
+90034d8e4b63cb964a3f6b3ac3431d8d46989ea4,"['compiles', 'crash']",General,{'crash': 100}
+6476be0a7d402ebc7f38b506b0c38c1ad44970f3,"['issue', 'leak', 'gcodes', 'block', 'chance', 'code', 'overwrite', 'ring', 'buffer', 'becaues', 'queue', 'queue', 'size', 'return', 'null', 'pointer', 'method', 'method', 'ringbuffer', 'return', 'pointer', 'note', 'conveyor', 'code', 'path']",Risky_resource_management,{'null pointer': 100}
+b3e1627c0137b56fb09d66c1f9dde9415e718db2,"['check', 'double', 'free', 'enable', 'wrap', 'free', 'call']",Risky_resource_management,{'double free': 100}
+b00f1a6b586fd2cfae439b3f0dd1c170d8db73a2,"['configure', 'makefile', 'default', 'mode', 'usage', 'smoothie', 'executes', 'crash', 'useable', 'thing', 'variable', 'switch', 'debug', 'experience', 'init', 'opportunity']",General,{'crash': 100}
+2f7d3dbad7773d8b7a9b867121c5fb812d10b14e,"['acceleration', 'curve', 'synchronization', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+11450ef782115acccfe9a3d9c9496ba33c213966,"['config', 'system', 'version', 'cache', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}

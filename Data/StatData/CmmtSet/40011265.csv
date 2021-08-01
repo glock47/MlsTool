@@ -1,186 +1,425 @@
-sha,message,catetory,matched,labels
-8df1f0bf416261a6dce2667df76be0deb8d48c1f,"['crash', 'method', 'header']",Risky_resource_management,{'crash': 100},
-d2407c4e9d92f5c1017204f721f70cc0abfab692,"['ccaaecmerge', 'request', 'experimental', 'crash']",Risky_resource_management,{'crash': 100},
-5f15414e65ef19d9a2427ed9724d955f6ffc50d9,"['experimental', 'crash']",Risky_resource_management,{'crash': 100},
-7a4bd87fe9bc7eb6ad947ef8221c1c93e16f7274,"['attempt', 'crash', 'board', 'random']",Risky_resource_management,{'crash': 100},
-b5b490067bf39f6958b5eb49027824f96bae097b,"['crash', 'forum', 'random', 'search']",Risky_resource_management,{'crash': 100},
-f794925595bfeb9193d7fcd42190b4cdbc68bd4b,"['default', 'popup', 'default', 'popup', 'connectionenable', 'notify', 'setting', 'security', 'checbox']",General,{'security': 100},
-feecf7c76380de3dc2056c94e935777a80199b0e,"['crash', 'safeguard']",Risky_resource_management,{'crash': 100},
-5fc3108533b2471817543e5a7a507b3ba2275be4,"['crash', 'double', 'delete']",Risky_resource_management,{'crash': 100},
-453c656570886f3852d548b8d8f5013f14e51f62,"['deadlock', 'making', 'status']",Risky_resource_management,{'deadlock': 100},
-33c5cc86b6b1583d8c1bd92b38fcadf63bba3b61,"['ddcfcbmerge', 'request', 'csolerintegrity', 'mutexes', 'deadlock', 'check']",Risky_resource_management,{'deadlock': 100},
-ed5f8618b6fd18d28a828dae80d58be89b33b9df,"['integrity', 'mutexes', 'deadlock', 'check']",Risky_resource_management,{'deadlock': 100},
-26c5ce4ed2bbd369cd8b046ad920a98962a2f591,"['comment', 'crash']",Risky_resource_management,{'crash': 100},
-c32f90f84d884204b28086ca071ab748b61b87df,"['crash', 'comment', 'limit', 'refers', 'check', 'security']",Risky_resource_management,{'crash': 100},
-335cd9a7c25644b77d098607bd3a9986e3889f7f,"['network', 'crash']",Risky_resource_management,{'crash': 100},
-89fc77ef8e3af4a520ab5ca65fc5ec575d491f35,"['crash', 'channel']",Risky_resource_management,{'crash': 100},
-2bfaadce0b46a3ebcd09543e8101c001b09018fa,"['attempt', 'crash', 'revoke', 'circle']",Risky_resource_management,{'crash': 100},
-d7dab2ae88182ba5f421882793ce82226c22c6ae,"['crash', 'memory', 'sehraf']",Risky_resource_management,{'crash': 100},
-76e93874676705054d0a2a9bc3fd54a45b87b10a,"['crash', 'client', 'memory', 'deserialiser', 'wrapper']",Risky_resource_management,{'crash': 100},
-86897b60de3f81d08ed5a5fb67d01d5d3808b1d1,"['crash', 'memory']",Risky_resource_management,{'crash': 100},
-0d1524aa12c30ed96dd218132fd7681202a58bf2,"['pointer', 'crash', 'uninitializedsignal', 'sigsegvtrace', 'stackxbbdda', 'retroshare', 'xccfadaretroshare', 'aborthandler', 'crashstacktrace', 'xccfccxfeffacfxfeffffef', 'reallocretroshare', 'xccfcddadconst', 'allocator', 'retroshare', 'xccfbdaxccffba', 'retrosharexccfcde', 'deserialise', 'retroshare', 'unsignedxccfbaa', 'retroshare', 'deserialise', 'rsserialiserreadpkt', 'pqisslstore', 'rsitem', 'retroshare', 'xccfadfgetitem', 'retroshare', 'pqisslstore', 'xccfaddfpqisslstore', 'rsitem', 'allocator', 'retroshare', 'xccfadcconst', 'pconfig', 'xccfabd', 'rsitem', 'allocator', 'retroshare', 'loadattemptpconfig', 'xccfabd', 'retroshare', 'loadconfigpconfig', 'retroshare', 'rsgenericidtype', 'xccfabccpconfigmgr', 'xccfabf', 'retroshare', 'loadconfigpconfigmgr', 'xccfab', 'retrosharexccfbfab', 'retroshare', 'rsserverretroshare', 'xccfdxfeffebretroshare', 'xccfcaretrodb', 'closedb', 'returnretrodb', 'closedb', 'returnmemory', 'program']",Risky_resource_management,{'crash': 100},
-449f9cb804f27662919bcc2cfcf8d8f0321beb4e,"['dddbf', 'bdffesehraf', 'request', 'deadlockipbob', 'deadlock', 'shutdown']",Risky_resource_management,{'deadlock': 100},
-ddd6b91f71b75e7d6cf725e601af1059bfe33a68,"['ipbob', 'deadlock', 'shutdown']",Risky_resource_management,{'deadlock': 100},
-70d0c7b1b31211757e074b25d7f087facb597ffa,"['loadcircles', 'crash']",Risky_resource_management,{'crash': 100},
-8a2508109aecdbdd398eb2360fb6c75ea5239928,"['mergemerge', 'request', 'csolerattempt', 'crash', 'iddialog', 'loadcircles']",Risky_resource_management,{'crash': 100},
-e5b53e56461ec751c3047196602db237f3e93fe8,"['mergemerge', 'requestreference', 'crash']",Risky_resource_management,{'crash': 100},
-b62b3ec54b536830ec2510a63a9e7747d937e3ae,"['reference', 'crash', 'debug', 'reference', 'scope', 'object', 'returnedtricky', 'happenedincorrect', 'formallystack', 'overflowsentry', 'infinitum', 'flush', 'functioninclude', 'flush', 'android', 'ostream', 'sourceinclude', 'sentry', 'android', 'ostream', 'sourceinclude', 'flush', 'android', 'ostream', 'sourceinclude', 'sentry', 'android', 'ostream', 'sourceinclude', 'android', 'ostream', 'xcaac', 'sourceinclude', 'android', 'ostream', 'operator', 'sourcedevelopment', 'operator', 'libretroshareconst', 'development', 'jsonapiserver', 'callback', 'session', 'allocator', 'operator', 'xbbeec', 'libretroshare', 'registerhandler', 'function']",Risky_resource_management,{'crash': 100},
-9c658365035dcab7a3bed6bd50d3b401cadda4b4,"['mergemerge', 'request', 'sslfix', 'csoleropenssl', 'level', 'security', 'debian']",General,{'security': 100},
-afdf917188fe0f7f5faba440840f8d047d551b05,"['openssl', 'default', 'level', 'security', 'debian']",General,{'security': 100},
-5df7f7667f820a009a3d1e0dd2bd8a0a2f0c44ad,"['crash', 'widget', 'identifier']",Risky_resource_management,{'crash': 100},
-c96223a2a84136e10233fde64c3c55cc966ee1bb,"['secnotification', 'notification', 'system', 'security']",General,{'security': 100},
-11c520d28061a889db12bc24735b5a16e71921a1,"['crash', 'class', 'string', 'output', 'feeditem']",Risky_resource_management,{'crash': 100},
-d8569d813c833a82c5a22d5d45503d0aeeb506d6,"['security', 'system', 'notification']",General,{'security': 100},
-438966979bb9b80687a85efcdf7d3ae252f7256a,"['mergemerge', 'requestpqissludp', 'crash', 'double']",Risky_resource_management,{'crash': 100},
-63b787a504e4e56fca281238256d7e09b73b9bba,"['pqissludp', 'crash', 'doublemember', 'intitializationcleanup', 'clutter', 'bunch']",Risky_resource_management,{'crash': 100},
-398c943f4090b6d6f95611f04f944fcb7e0acd81,"['crash', 'forum']",Risky_resource_management,{'crash': 100},
-b539ebe82650e83d8cf2470eea5566af38b3ccab,"['mergemerge', 'requestinvalid', 'channel', 'crash']",Risky_resource_management,{'crash': 100},
-3b8f6997bb2e74ed971fb3c8e777de5d932027d4,"['channel', 'crash', 'couple', 'compiler']",Risky_resource_management,{'crash': 100},
-32b431272504ff5d98a5d82dc168542be0cb9def,"['security', 'authssl']",General,{'security': 100},
-362e0a975a510d4e2b04cd81dd64dc8e2a8fbbb8,"['mergemerge', 'requestexception', 'crash', 'rscertificate']",Risky_resource_management,{'crash': 100},
-8300e65cadfe10bf6fdce84eb29dc21475b58282,"['rscertificate', 'crash', 'exception', 'fromstringconstructor', 'usage', 'rspeerid']",Risky_resource_management,{'crash': 100},
-97633ec8db958479e1c874494718c416b62e539f,"['crash', 'object', 'rsserializablesolve', 'crash']",Risky_resource_management,{'crash': 100},
-6fae40d417fafcb2c0573a7755a1cb57d44b0338,"['insert', 'crash']",Risky_resource_management,{'crash': 100},
-fb962c4b5bc05b365c45962c44861f72634afa49,"['model', 'crash', 'forum', 'collide', 'attempt', 'thread']",Risky_resource_management,{'crash': 100},
-b8d2d9cade4449d0b3fc86a93573b156423cb631,"['print', 'crash', 'trace', 'stack']",Risky_resource_management,{'crash': 100},
-cfb194a8efd3083a8133f02ea0774aad071d55c0,"['mergemerge', 'requestattempt', 'crash', 'pqissludp']",Risky_resource_management,{'crash': 100},
-c0ca1a5aad4fafd89bcaf48ae837575561f0447c,"['print', 'crash', 'trace', 'stack']",Risky_resource_management,{'crash': 100},
-7d6fba7e8cbebdb184a0f9822fb68d942e2e67b2,"['attempt', 'crash', 'pqissludppointer', 'causedcrash', 'reproduce', 'managedhappens', 'report', 'ilario', 'documentedcomplete']",Risky_resource_management,{'crash': 100},
-abcd68741666e782d0260818ed437c1cbdb81676,"['request', 'csolerpatch', 'deadlock']",Risky_resource_management,{'deadlock': 100},
-37c515bcb5dff500d5795a9cbe3ca08a5187b710,"['patch', 'deadlock']",Risky_resource_management,{'deadlock': 100},
-1c7f02655ec390b0a04b0c6c137e5643f9f4fff5,"['crash', 'startup', 'jsonapi']",Risky_resource_management,{'crash': 100},
-bf981661975b2dda594d17ae367adeb6f873ec71,"['callback', 'crash', 'rsserver', 'shutdown']",Risky_resource_management,{'crash': 100},
-b7f5d4286f166d25dbf812e9ec2826a96ebdf10c,"['deadlock', 'rsgxsnetserviceavoid', 'result', 'mutex']",Risky_resource_management,{'deadlock': 100},
-82c9084ca43128c752bb1a86fc67aa608d62250c,"['abaefrequest', 'csoler', 'distsync', 'turtlesearchclient', 'servic', 'addvirtualpeer', 'deadlock', 'turtle']",Risky_resource_management,{'deadlock': 100},
-2ab12a2ef57a59fb603cb6ff2f3be03443ef97c2,"['client', 'addvirtualpeer', 'service', 'mutex', 'deadlock', 'turtle']",Risky_resource_management,{'deadlock': 100},
-4be73b7049ec29355c12af4bfd1b65498686e9fb,"['mergemerge', 'security', 'request', 'beardogattack']",General,{'security': 100},
-8c21bfcd54df967d8fed9138a5ba85cdda0908f5,"['crash', 'apiserverlocal', 'avoiddestruction', 'qthread', 'destructor', 'socket', 'avoidcrash']",Risky_resource_management,{'crash': 100},
-4c626e04a1b23e54bf8f588170acf8c392c25414,"['mergemerge', 'securityfixes', 'request', 'csolerpossible', 'crash', 'database', 'memory']",Risky_resource_management,{'crash': 100},
-841fee6799d00162cb5791694b7f1440c4373d41,"['possible', 'crash', 'database', 'memory', 'cache']",Risky_resource_management,{'crash': 100},
-89c538deb169e7314263c70fb56bd458377a1b11,"['crash', 'problem', 'double']",Risky_resource_management,{'crash': 100},
-a81956c390ad6987cbb32e324f188cb24a681e08,"['crash', 'request', 'button', 'hunbernd', 'startupcrash']",Risky_resource_management,{'crash': 100},
-0c39b5c021ea535a7a65aca845ed5f16ae8fae1b,"['crash', 'toolbar', 'startupplugins', 'example']",Risky_resource_management,{'crash': 100},
-79825eb2e2a5fb73fdd3193bf73fe3d0b6a5b39b,"['crash', 'issue', 'thread', 'random']",Risky_resource_management,{'crash': 100},
-8b9c447063a13f4b2c567e8be378a8c270487003,"['possible', 'crash', 'kotyara', 'value', 'rsgethostbyname', 'return']",Risky_resource_management,{'crash': 100},
-987b5a1cdcdddf4d3abb765324ee43c6fd48dab2,"['crash', 'deadlock', 'notificationcrash', 'dbefcbbccdedb', 'introducedtricky', 'activity', 'onnewintentintent', 'runningintent', 'different', 'thread', 'guaranteereacheable', 'intentattention', 'beetweenandroid', 'thread', 'activity', 'notificationnasty', 'android', 'threaderror', 'avoidintent', 'manifest', 'point', 'activity']",Risky_resource_management,{'deadlock': 100},
-4abf2c6bf151d10b731620681324bc7c51150721,"['crash', 'option', 'button']",Risky_resource_management,{'crash': 100},
-d1bf977b1543d786386d8571bac1e871e0c14d4f,"['crash', 'decryption', 'group']",Risky_resource_management,{'crash': 100},
-cda3c744af2cc63371fcbbb5ee57055530f0e400,"['attempt', 'crash']",Risky_resource_management,{'crash': 100},
-a8782f0612ae7ea58af95626f5d0545988c44225,"['crash', 'checkingbecome', 'check']",Risky_resource_management,{'crash': 100},
-d2118c5329fa725849e3c7f566e1faccbb74122b,"['deadlock', 'ftcontroller']",Risky_resource_management,{'deadlock': 100},
-15f69b223689e02e0a005d609c54c4e5ba9f1235,"['crash', 'debug', 'pfilelists', 'output']",Risky_resource_management,{'crash': 100},
-3beaa974b08d84a01c2a688ae1cd3440d2392a32,"['potential', 'crash', 'entry']",Risky_resource_management,{'crash': 100},
-b36d0fad4aff1ffa92775a93919d5d9da2c217a6,"['crash', 'wayland']",Risky_resource_management,{'crash': 100},
-95915fa31de10703adc12cce5419f4a2f54939f8,"['pgxsreputation', 'cross', 'deadlock', 'pidservice']",Risky_resource_management,{'deadlock': 100},
-07bda26192aff044a802a0c0b1640eb36d18d893,"['crash', 'widget', 'permission']",Risky_resource_management,{'crash': 100},
-1c1b7acef6a2f8a5d656a08b5e13bd10484e3ef8,"['crash', 'memory', 'attempt', 'allocator', 'operator']",Risky_resource_management,{'crash': 100},
-ae5929e9adabfa17191c302f69200d931cc8ae30,"['possible', 'crash']",Risky_resource_management,{'crash': 100},
-8fdf8f81a8fe0f11e74345b987bfb3ae2a26fc8e,"['possible', 'crash']",Risky_resource_management,{'crash': 100},
-cf746f160c610a41418c591b0e2896a286938c7d,"['possible', 'crash']",Risky_resource_management,{'crash': 100},
-80aaf30a01a24d1a479e10b13e6fbb93b2c60ccf,"['crash', 'usage', 'potential', 'update']",Risky_resource_management,{'crash': 100},
-8dde723e90dd620a9d7caec696ebc9ea944235e2,"['window', 'security', 'protection']",General,{'security': 100},
-9b64b96811e29cb4e8bd784c30e2602514772ee5,"['potential', 'pqisslstore', 'crash']",Risky_resource_management,{'crash': 100},
-4916496008a48007b20055968449866ad746eb58,"['mergemerge', 'request', 'csoler', 'securityreviewreview', 'security']",General,{'security': 100},
-98b27d6a2b163ba26f27ee7b4d93b98e348f5616,"['notify', 'rsgenexchange', 'deadlock']",Risky_resource_management,{'deadlock': 100},
-e2542a6c50ecffa0fa6bf7517a722901e9a161ca,"['deserialisation', 'crash', 'check', 'grouter']",Risky_resource_management,{'crash': 100},
-e56ba457fe37e5f7c8f7bd29c98eb299d4a88487,"['management', 'crash', 'memory', 'attempt', 'thread']",Risky_resource_management,{'crash': 100},
-9158ed64ef6f68b927fd012577ce62f78aebcf0f,"['potential', 'guesswho', 'overrun']",Risky_resource_management,{'overrun': 100},
-e83ae7632082bf5a5217df8992dade2acc6931bc,"['pointer', 'crash', 'pqiconnect', 'check']",Risky_resource_management,{'crash': 100},
-6b2ed2fb2d84d7e48b15fa917aa4eb8015922d15,"['crash', 'plugin', 'window', 'config', 'patch', 'setting', 'shutdown', 'hunbernd', 'plugins']",Risky_resource_management,{'crash': 100},
-737da1201d4149db5cce4365da2b41b2a53eff6a,"['crash', 'removeitem', 'chatmsgitem', 'mparentretroshare', 'badcc', 'trunk']",Risky_resource_management,{'crash': 100},
-090148cea2ef415b83edd1ebbd977d9ba677068f,"['possible', 'crash', 'value', 'returnretroshare', 'badcc', 'trunk']",Risky_resource_management,{'crash': 100},
-e53f531271455978473e11daaba2a60b2af5be69,"['possible', 'crash', 'pgrouter', 'value', 'returnretroshare', 'badcc', 'trunk']",Risky_resource_management,{'crash': 100},
-8691a911aa3a5424dd289a4beb3f96792a412de3,"['possible', 'crash', 'value', 'setfilehash', 'returnretroshare', 'badcc', 'trunk']",Risky_resource_management,{'crash': 100},
-865a45f29425c45f770bdc883948c0e1bf5040bb,"['possible', 'crash', 'value', 'returnretroshare', 'badcc', 'trunk']",Risky_resource_management,{'crash': 100},
-3abec3363d631a2d9ad68daba47d8bc72db767c0,"['possible', 'crash', 'value', 'returnretroshare', 'badcc', 'trunk']",Risky_resource_management,{'crash': 100},
-014e78dd8c58acb5a9fc7c069ac089b0f2176f09,"['possible', 'crash', 'value', 'returnretroshare', 'badcc', 'trunk']",Risky_resource_management,{'crash': 100},
-63d85f80777fc57a265de599296c8c112524c851,"['possible', 'crash', 'value', 'returnretroshare', 'badcc', 'trunk']",Risky_resource_management,{'crash': 100},
-86a5c2e6566c6caba18a2a2506a036e67450f457,"['possible', 'crash', 'value', 'chatlobbydialog', 'returnretroshare', 'badcc', 'trunk']",Risky_resource_management,{'crash': 100},
-65bdc96b88c01eab01afaff9bd8c813b73b0e0d2,"['possible', 'crash', 'value', 'returnretroshare', 'badcc', 'trunk']",Risky_resource_management,{'crash': 100},
-70d35496ef34d0ec1309efa88231e5c8386fe205,"['whitelist', 'check', 'security', 'sendingretroshare', 'badcc', 'trunk']",General,{'security': 100},
-d71d26f026f174045d8d7dbddf77b96426d014e8,"['crash', 'context', 'iddialogretroshare', 'badcc', 'trunk']",Risky_resource_management,{'crash': 100},
-5fd9ab59d7adf01fec4473c049abb9fb866912e6,"['crash', 'whitelist', 'setting', 'filterretroshare', 'badcc', 'trunk']",Risky_resource_management,{'crash': 100},
-96d45e72379768e3d03aa5615cd3610ae7d39b77,"['webui', 'crash', 'stoppingretroshare', 'badcc', 'trunk']",Risky_resource_management,{'crash': 100},
-3641a6c87c4675bcabfd1ab3d8e6168f460a2b57,"['crash', 'shoult', 'attempt', 'happenretroshare', 'badcc', 'trunk']",Risky_resource_management,{'crash': 100},
-a0631e399107f5b3b1d91715fb46f9d18868fa3c,"['gxsiddetails', 'process', 'crash', 'global', 'instance', 'minstanceretroshare', 'badcc', 'trunk']",Risky_resource_management,{'crash': 100},
-b0b986efff460089af526c8eaf9a71df7dc836ea,"['identity', 'catch', 'deadlock', 'deletion', 'print', 'cleaningretroshare', 'badcc', 'trunk']",Risky_resource_management,{'deadlock': 100},
-2664cf2f9ae413f27af83d8a34e043ca95e930f5,"['possible', 'crash', 'rsidentity', 'checkitnretroshare', 'badcc', 'trunk']",Risky_resource_management,{'crash': 100},
-83f2ee4c957124ef2e17dc1f044dc12a6656317f,"['possible', 'crash', 'rsgxsnetservice', 'handleretroshare', 'badcc', 'trunk']",Risky_resource_management,{'crash': 100},
-6cad38bd7c1f7398177a1e8fbf945722e0b66903,"['patch', 'rsgraphwidget', 'deadlock', 'cyrilretroshare', 'badcc', 'trunk']",Risky_resource_management,{'deadlock': 100},
-7cfd50f8602b950467aa4222f46646039d60249b,"['crash', 'avatar', 'createid', 'ideditdialogretroshare', 'badcc', 'trunk']",Risky_resource_management,{'crash': 100},
-4cab5dc743487673b544b44ff9a985da3413aa25,"['crash', 'updateid', 'avater', 'ideditdialogretroshare', 'badcc', 'trunk']",Risky_resource_management,{'crash': 100},
-e04ee3f446ebb841ff6efe01a20be72c4259e571,"['crash', 'request', 'rsgenexchange', 'cyrilretroshare', 'badcc', 'trunk']",Risky_resource_management,{'crash': 100},
-85515f0a62dc0eef0f6de19df0c40263a71cf18e,"['deadlock', 'pqisslretroshare', 'badcc', 'trunk']",Risky_resource_management,{'deadlock': 100},
-0738121a9071a3e59f68fb32ed1535a2e0110ccc,"['deadlock', 'cyrilretroshare', 'badcc', 'trunk']",Risky_resource_management,{'deadlock': 100},
-756b9acf414421e21e1e5b60fa2479e5605f42ea,"['security', 'warning', 'causedretroshare', 'badcc', 'trunk']",General,{'security': 100},
-39e123dbf2420dcbdcf830da9def20c33ae853d9,"['check', 'security', 'pqisslretroshare', 'badcc', 'trunk']",General,{'security': 100},
-9752fb9698ed8f43fc4afdab0f6c3bf5cd90f9a6,"['number', 'check', 'length', 'security', 'wrong', 'encryptionretroshare', 'badcc', 'trunk']",General,{'security': 100},
-6085ccd43f7b2b6e3889557a0bf8ab734079055e,"['tokenqueue', 'crash', 'fixedretroshare', 'badcc', 'trunk']",Risky_resource_management,{'crash': 100},
-1bf3e2967f67212d2ff26ccef0895c1d34aead2e,"['security', 'generationretroshare', 'badcc', 'trunk']",General,{'security': 100},
-9aba04982ed31a392f96792e96ecc1a1c1c308b0,"['security', 'cipherretroshare', 'badcc', 'trunk']",General,{'security': 100},
-bce35d26e35b597da6386f45ccf8f5443beedf4e,"['deadlock', 'phenomretroshare', 'badcc', 'trunk']",Risky_resource_management,{'deadlock': 100},
-7f71619c9381076761d6e92a89cfc25ce2f311b7,"['color', 'default', 'stylesheet', 'security', 'changedretroshare', 'badcc', 'trunk']",General,{'security': 100},
-a6f62caef455bd864c1d5b2bfb03f14d83319a8a,"['group', 'issue', 'update', 'updatefound', 'update', 'sturdy', 'groupprevent', 'client', 'crash', 'librsmessage', 'removal', 'passphrase', 'reset', 'clearbranch', 'retroshare', 'badcc']",Risky_resource_management,{'crash': 100},
-7ba1827b4c5929008ee266f391a99a96f7f4005f,"['potential', 'notify', 'method', 'deadlock', 'calledretroshare', 'badcc', 'trunk']",Risky_resource_management,{'deadlock': 100},
-2109c05d26ceda67dbef61cc19c5f34c433546dc,"['security', 'collectionretroshare', 'badcc', 'trunk']",General,{'security': 100},
-14887d98e8142bd82c6388e589b0c2c75a5b028b,"['anounces', 'crash', 'enormous', 'image', 'avatar', 'largestretroshare', 'badcc', 'trunk']",Risky_resource_management,{'crash': 100},
-3865c14583c7e1bc6a533a673661a5743a4b18e9,"['laugh', 'message', 'security', 'forwardedretroshare', 'badcc', 'trunk']",General,{'security': 100},
-ff2f436d578b9ff1217ec423158194d41d6e4cd7,"['mistake', 'crash', 'supid', 'distant', 'window', 'sendingretroshare', 'badcc', 'trunk']",Risky_resource_management,{'crash': 100},
-e95725ea2c98a5431730b130a39fcd156189c9bf,"['memory', 'crash', 'overwritearray', 'static', 'small', 'rsdiscspaceconstant', 'fclose', 'pgphandlerinsteadwindow', 'stillretroshare', 'badcc', 'trunk']",Risky_resource_management,{'crash': 100},
-c3303a1969069dbf3f7bf6372b52a846c56c2d23,"['possible', 'crash', 'fixedmemory', 'pgxscircles', 'fixedretroshare', 'badcc', 'trunk']",Risky_resource_management,{'crash': 100},
-f5218cdfc30dd28739600dcf7196fda7958f4965,"['commitpossible', 'crash', 'memory', 'getgroupdatapgxschannelspgxscirclespgxsforumspidserviceppostedpphotoserviceretroshare', 'badcc', 'trunk']",Risky_resource_management,{'crash': 100},
-e9db631f8fd87aff3ae219f5eed85022b16b77af,"['crash', 'completer', 'mimetextedit', 'phenom', 'patch', 'fixedretroshare', 'badcc', 'trunk']",Risky_resource_management,{'crash': 100},
-33f4e5b779410d2cd9e1391bf0d070de98ec5fd9,"['deadlock', 'reportedretroshare', 'badcc', 'trunk']",Risky_resource_management,{'deadlock': 100},
-e6c02178015aed0770ac58cdb6d6fef3ad7190d6,"['deadlock', 'cyrilretroshare', 'badcc', 'trunk']",Risky_resource_management,{'deadlock': 100},
-9fcb18553ad25829e67c6c854fa499bff9bbdcfb,"['window', 'crash', 'method', 'copyfilew', 'rsfiles', 'copyfilecopyfilew', 'copyfile', 'defineretroshare', 'badcc', 'trunk']",Risky_resource_management,{'crash': 100},
-bb916ad1cc7ddbc2b83f30bd7c895daabedf61e4,"['methodprivate', 'callback', 'insertconnect', 'disallow', 'possible', 'deadlock', 'passphraserecompile', 'qmakeretroshare', 'badcc', 'trunk']",Risky_resource_management,{'deadlock': 100},
-2485f9fffd2475933ee11630c2f32b9e3395c312,"['deadlock', 'ongoingbranch', 'retroshare', 'badcc']",Risky_resource_management,{'deadlock': 100},
-3240b1f71b7b7d8fbd72100aee0fd94284533188,"['henry', 'confcertdialog', 'patch', 'security', 'morganretroshare', 'badcc', 'trunk']",General,{'security': 100},
-d6328c8123f6fd0601b13addc1220deb89ce1b25,"['phase', 'changeclean', 'defaultclean', 'message', 'group', 'unsubscriptioncheckstats', 'function', 'retrieve', 'addedactiveauthen', 'forumcreate', 'author', 'variable', 'policy', 'initialiseddelete', 'addeddeserialisation', 'crash', 'empty', 'resilience', 'binary', 'rstlvbinarydata', 'iface', 'rstokenservice', 'recompileretroshare', 'badcc', 'trunk']",Risky_resource_management,{'crash': 100},
-a850b18be2f5d91a571f4c00d4406307bdba7e12,"['usable', 'current', 'security', 'manager', 'sinceretroshare', 'badcc', 'trunk']",General,{'security': 100},
-e397560654967206049fcf36afe6c01e9f84ef1b,"['crash', 'foran', 'lobby', 'invitationretroshare', 'badcc', 'trunk']",Risky_resource_management,{'crash': 100},
-7413bdc50cfb6092447e6fa69bdcdf83237e3780,"['retrievenxsgrps', 'crash', 'accessingretroshare', 'badcc', 'trunk']",Risky_resource_management,{'crash': 100},
-4804f950aff683587d3e7c1877b0648955421e45,"['feedreaderstartup', 'crash', 'fixedtoolbar', 'addedqtimer', 'navigation', 'message', 'addedretroshare', 'badcc', 'trunk']",Risky_resource_management,{'crash': 100},
-f74a328d61c2fb481a7e3beeee01f8690d396dd0,"['optionrather', 'crash', 'logic', 'rsgenexchange', 'thread', 'closefunction', 'request', 'addedfunction', 'functionfunction', 'forum', 'changebranch', 'retroshare', 'badcc']",Risky_resource_management,{'crash': 100},
-c518bd2f19ca30604b3ba021abb61f3f50138216,"['crash', 'class', 'gxsgroupdialog', 'postedveg', 'reference', 'tokenqueue', 'rstokreqoptions', 'service', 'initialisation', 'statusbranch', 'retroshare', 'badcc']",Risky_resource_management,{'crash': 100},
-02f8d27b6e367938fa8a931fc35789eaa0734576,"['pointer', 'crash', 'rssshderror', 'compile', 'fixedbranch', 'retroshare', 'badcc']",Risky_resource_management,{'crash': 100},
-e7ff4bbab8d49fdc34f2cf57a6ce2584d7ea901c,"['crash', 'fixedprocess', 'fixedretroshare', 'badcc', 'trunk']",Risky_resource_management,{'crash': 100},
-e6db506cb24936d99d51db7b3677cabe7731b9ab,"['memory', 'crash', 'audiowizard', 'fixedretrosshare', 'qtbug', 'plugin', 'pleaseretroshare', 'badcc', 'trunk']",Risky_resource_management,{'crash': 100},
-9049440253ea2c958781580c9a74d9d337814a85,"['crash', 'forum', 'channel', 'fixedretroshare', 'badcc', 'trunk']",Risky_resource_management,{'crash': 100},
-64500289b6b669140741665f201bcc60de11edee,"['crash', 'nasty', 'syncingretroshare', 'badcc', 'trunk']",Risky_resource_management,{'crash': 100},
-1d72bd646b69a0a08f3b61c08206db28dabb63bc,"['format', 'newbees', 'security', 'switch', 'checkboxretroshare', 'badcc', 'trunk']",General,{'security': 100},
-24b38baf6b8a59ec8d0c234b343910e79a4942b0,"['crash', 'couple', 'assertretroshare', 'badcc', 'trunk']",Risky_resource_management,{'crash': 100},
-ef3ae10c63878e5f7ae51996a7752c71d84b35e3,"['backend', 'mutex', 'deadlock', 'doubleperiodic', 'bandwidth', 'print', 'disableretroshare', 'badcc', 'trunk']",Risky_resource_management,{'deadlock': 100},
-47d652b4ec5b95f92fd5d1821afbbe0fd0e27e4f,"['possible', 'crash', 'fixedretroshare', 'badcc', 'trunk']",Risky_resource_management,{'crash': 100},
-9389849e539ffb4455c6984f8af2efd36ab1b0d1,"['crash', 'friend', 'browser', 'detail', 'secondretroshare', 'badcc', 'trunk']",Risky_resource_management,{'crash': 100},
-af19809ef7b448b65218b285673d56158185f421,"['memory', 'crash', 'fixedbreak', 'rsinit', 'addedbranch', 'retroshare', 'openpgp', 'badcc']",Risky_resource_management,{'crash': 100},
-94729aae4bb9d08baf58d09a70d9062696c5f708,"['deserialisation', 'crash', 'image', 'assumes', 'avatar', 'valid', 'causedretroshare', 'badcc', 'trunk']",Risky_resource_management,{'crash': 100},
-ec501c6d6a398d23ac080361fe7ca450f83888ec,"['crash', 'issue', 'retroshare', 'pending', 'downloadsretroshare', 'badcc', 'trunk']",Risky_resource_management,{'crash': 100},
-9f627783aa145210f956f35ca891a5a24ce489fa,"['history', 'message', 'deadlock', 'receivingretroshare', 'badcc', 'trunk']",Risky_resource_management,{'deadlock': 100},
-aa4eecf467d633b92f07074aa01d81c426345622,"['calculation', 'issue', 'usable', 'receiver', 'connexion', 'point', 'lobby', 'security', 'challengeretroshare', 'badcc', 'trunk']",General,{'security': 100},
-a3a0690cb4fdaacfc30e875ada38139ece6b4c5c,"['crash', 'fixedretroshare', 'badcc', 'trunk']",Risky_resource_management,{'crash': 100},
-97ed1d534fa8487644c17e0260ebd6449e7a2e28,"['directory', 'rsdiscspace', 'trigger', 'ftcontroller', 'rsfiles', 'module', 'crash', 'appropriate', 'function', 'changedretroshare', 'badcc', 'trunk']",Risky_resource_management,{'crash': 100},
-526f71bebde1c722252c8ac07d95a374ed48ab19,"['crash', 'readpkt', 'pqisslstore', 'deserialise', 'rsserialiser', 'returnretroshare', 'badcc', 'trunk']",Risky_resource_management,{'crash': 100},
-663ce506302c549d6196b8d686f00594fe66cf22,"['crash', 'asamk', 'patch', 'startupretroshare', 'badcc', 'trunk']",Risky_resource_management,{'crash': 100},
-96b4651b7c7b860b0fc3416425f90b7d25d13b8c,"['additional', 'security', 'updatedbranch', 'retroshare', 'badcc', 'netupgrade']",General,{'security': 100},
-e77913914dc258e925cb9e25f208b91e04c0fe0d,"['crash', 'deserialization', 'searchretroshare', 'badcc', 'trunk']",Risky_resource_management,{'crash': 100},
-31b950a8fee3101a142b41c15915ce599fc3df4a,"['correctedavoids', 'rschatmsgitem', 'message', 'backward', 'thanks', 'crash', 'deletedretroshare', 'badcc', 'trunk']",Risky_resource_management,{'crash': 100},
-a337941555b26bd67c07d93ff103130a9d832df8,"['potential', 'remotedirmodel', 'attempt', 'deadlock', 'sourceretroshare', 'badcc', 'trunk']",Risky_resource_management,{'deadlock': 100},
-f9c896c3acd0f528bd25707da3027725a19d21a0,"['crash', 'cache', 'shutdownauthgpg', 'pdistrib', 'instance', 'threadretroshare', 'badcc', 'trunk']",Risky_resource_management,{'crash': 100},
-d9847e262296e9ec6f67444e1c0eb12e6440bf7f,"['deadlock', 'pconnmgr', 'libbitdhtstats', 'pconnmgr', 'shiftedfunction', 'callbackoppositepotentialretroshare', 'badcc', 'trunk']",Risky_resource_management,{'deadlock': 100},
-f4bbd3e933ab5973b7353a8b3b1d69492b85a269,"['concurrent', 'limit', 'attempt', 'window', 'connectionproblemconnects', 'connection', 'limit', 'concurrent', 'incomplete', 'window', 'retroshare', 'subsequent', 'limit', 'service', 'stack', 'number', 'incomplete', 'window', 'attempt', 'queue', 'limit', 'result', 'usage', 'error', 'system', 'followinggerman', 'gleichzeitiger', 'anzahl', 'festgelegtconcurrent', 'limit', 'number', 'incomplete', 'english', 'security', 'program', 'retroshare', 'runtime', 'connection', 'causeretroshare', 'badcc', 'trunk']",General,{'security': 100},
-49320c2ed9e8b2926d0d2ce724c2009c25afcc06,"['history', 'browserhistory', 'crash', 'messageretroshare', 'badcc', 'trunk']",Risky_resource_management,{'crash': 100},
-c12ec062a2f14a15d7f3caacbf791c2f2e395271,"['deadlock', 'message', 'savingretroshare', 'badcc', 'trunk']",Risky_resource_management,{'deadlock': 100},
-00ef48b45dab4a6fa66fe2580578287df253e93a,"['crash', 'fixedrsrandom', 'rndmtx', 'mutex', 'initializedretroshare', 'badcc', 'trunk']",Risky_resource_management,{'crash': 100},
-38be555332ff736f2319f23fe56187435be9373a,"['specific', 'security', 'single', 'filerequestretroshare', 'badcc', 'trunk']",General,{'security': 100},
-531567997df3b03e5d5ddc8dfe346029ea427969,"['situation', 'multiplex', 'deadlock', 'branchretroshare', 'badcc', 'trunk']",Risky_resource_management,{'deadlock': 100},
-ec6c252d62cad5134b7eb4fe3e9a28cacab027c3,"['crash', 'parallel', 'assertsauthgpg', 'rsstackmutex', 'changedretroshare', 'badcc', 'trunk']",Risky_resource_management,{'crash': 100},
-0cc8fcdbacba7e8ca60d6f4c4d915e707c13fa5f,"['crash', 'client', 'determination', 'suppresses', 'reaction', 'security', 'small', 'causedretroshare', 'badcc', 'trunk']",Risky_resource_management,{'crash': 100},
-946d09cb727cea85c6bc118940bdf46791d1bbdc,"['crash', 'refill', 'forum', 'endlesretroshare', 'badcc', 'trunk']",Risky_resource_management,{'crash': 100},
-7b183f41a18286aad475d6a3a4f0c519c03611b9,"['deadlock', 'thread', 'lockedretroshare', 'badcc', 'trunk']",Risky_resource_management,{'deadlock': 100},
-f1a056dd93eff7ea1fae26b8883df862bf86b479,"['crash', 'uninitialisedupdatedisplay', 'function', 'semanticspixmap', 'function', 'henceretroshare', 'badcc', 'trunk']",Risky_resource_management,{'crash': 100},
-d9d1f15c7f5f35993f7eb0a565ef115b5da980c9,"['crash', 'style', 'disabledretroshare', 'badcc', 'trunk']",Risky_resource_management,{'crash': 100},
-02234325cc8b3dbaec637b5f4e036899bbcfc49c,"['deadlock', 'passwd', 'startupretroshare', 'badcc', 'trunk']",Risky_resource_management,{'deadlock': 100},
-e77064eaf19d26ae01c1d319017c35bf49ac5364,"['getdetails', 'shoul', 'trylock', 'result', 'deadlock', 'returnretroshare', 'badcc', 'trunk']",Risky_resource_management,{'deadlock': 100},
-6a48284c31e712a5d52d6cd2cd1d6c4a0943e9eb,"['deadlock', 'removeretroshare', 'badcc', 'trunk']",Risky_resource_management,{'deadlock': 100},
-9c65c694c52e6a13cb88b47993a152d2c8a51594,"['public', 'option', 'security', 'exportretroshare', 'badcc', 'trunk']",General,{'security': 100},
+sha,message,catetory,matched
+1a07f61f35f1e93a4c9314413524a7a9b25b5de2,"['pull', 'request', 'defnax', 'stylesheet', 'issue', 'security', 'feed', 'item']",General,{'security': 100}
+4c7a9a52a66c7d19f49dd480a30556f80baf2ad0,"['stylesheet', 'issue', 'security', 'feed', 'item']",General,{'security': 100}
+7a4bd87fe9bc7eb6ad947ef8221c1c93e16f7274,"['attempt', 'random', 'crash', 'board']",General,{'crash': 100}
+b5b490067bf39f6958b5eb49027824f96bae097b,"['random', 'crash', 'forum', 'search']",General,{'crash': 100}
+f794925595bfeb9193d7fcd42190b4cdbc68bd4b,"['connection', 'default', 'connection', 'default', 'enable', 'show', 'notify', 'setting', 'security', 'checbox']",General,{'security': 100}
+feecf7c76380de3dc2056c94e935777a80199b0e,"['safeguard', 'crash']",General,{'crash': 100}
+5fc3108533b2471817543e5a7a507b3ba2275be4,"['crash', 'exit', 'double', 'delete']",General,{'crash': 100}
+9a6835bf060d2f4b8746ba7d0e8f56f6e6060035,"['memory', 'leak', 'rsgenexchange']",Risky_resource_management,{'memory leak': 100}
+e3c2b644b3cf6e8df3d2364c84dfa2967cd21aff,"['pull', 'request', 'csoler', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+758aaffbd00cd7246b908690a5554a9b2f24f5df,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+33c5cc86b6b1583d8c1bd92b38fcadf63bba3b61,"['pull', 'request', 'csoler', 'mutexes', 'deadlock', 'integrity', 'check']",Risky_resource_management,{'deadlock': 100}
+ed5f8618b6fd18d28a828dae80d58be89b33b9df,"['mutexes', 'deadlock', 'integrity', 'check']",Risky_resource_management,{'deadlock': 100}
+c32f90f84d884204b28086ca071ab748b61b87df,"['security', 'check', 'comment', 'comment', 'refers', 'post', 'sync', 'limit']",General,{'security': 100}
+deaba61eecceef37bc9562e59aea370e3c9c524f,"['pull', 'request', 'csoler', 'crash', 'friendlist', 'filelists']",General,{'crash': 100}
+335cd9a7c25644b77d098607bd3a9986e3889f7f,"['hack', 'crash', 'network', 'list']",General,{'crash': 100}
+243ba595f05fd3311368ab8b8be5f727acd94d09,"['virtual', 'destructors', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+98edbc55d2e30c9726234bff20e1a6bfcfb5b110,"['memory', 'leak', 'destructor', 'tree', 'model']",Risky_resource_management,{'memory leak': 100}
+9ae790e80bd00b4a0cbe1675ee4e2271494c57ee,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+5f06651e54eab99d9176e60e1ce9ce66322329d1,"['pull', 'request', 'ghck', 'extrafilehash', 'check', 'integer', 'overflow']",Risky_resource_management,{'integer overflow': 100}
+295ecf368ee841392d40191176ac830758369882,"['extrafilehash', 'check', 'integer', 'overflow', 'large', 'period', 'problem', 'time', 'fileinfo', 'erratic', 'behaviour', 'extra', 'file', 'timeout', 'period', 'large', 'error', 'deprecate', 'filedetails', 'dummy', 'wrapper', 'fileinfo', 'ftextralist', 'cleanupentry', 'deadcode']",Risky_resource_management,{'integer overflow': 100}
+2bfaadce0b46a3ebcd09543e8101c001b09018fa,"['attempt', 'crash', 'revoke', 'circle']",General,{'crash': 100}
+76e93874676705054d0a2a9bc3fd54a45b87b10a,"['deserialiser', 'rawwrapper', 'crash', 'wrapper', 'memory']",General,{'crash': 100}
+86897b60de3f81d08ed5a5fb67d01d5d3808b1d1,"['crash', 'turtle', 'item']",General,{'crash': 100}
+0d1524aa12c30ed96dd218132fd7681202a58bf2,"['crash', 'signal', 'sigsegv', 'stack', 'trace', 'retroshare', 'xbbdda', 'xccfada', 'retroshare', 'crashstacktrace', 'aborthandler', 'xccfcc', 'libc', 'xfeffacf', 'libc', 'realloc', 'xfeffffef', 'retroshare', 'serializejob', 'xccfcddad', 'retroshare', 'rsserializable', 'value', 'void', 'type', 'serializejob', 'char', 'char', 'allocator', 'char', 'const', 'xccfbda', 'retroshare', 'serializejob', 'xccffba', 'retroshare', 'deserialise', 'void', 'xccfcde', 'retroshare', 'rsserialiser', 'deserialise', 'void', 'xccfbaa', 'retroshare', 'pqisslstore', 'readpkt', 'rsitem', 'xccfadf', 'retroshare', 'pqisslstore', 'getitem', 'xccfaddf', 'retroshare', 'pqisslstore', 'list', 'rsitem', 'allocator', 'rsitem', 'xccfadc', 'retroshare', 'pconfig', 'loadattempt', 'char', 'char', 'allocator', 'char', 'const', 'char', 'char', 'allocator', 'char', 'const', 'list', 'rsitem', 'allocator', 'rsitem', 'xccfabd', 'retroshare', 'pconfig', 'loadconfig', 'xccfabd', 'retroshare', 'pconfig', 'false', 'rsgenericidtype', 'xccfabcc', 'retroshare', 'pconfigmgr', 'loadconfig', 'xccfabf', 'retroshare', 'pconfigmgr', 'xccfab', 'retroshare', 'rsserver', 'xccfbfab', 'retroshare', 'main', 'xccfd', 'libc', 'xfeffeb', 'retroshare', 'xccfca', 'void', 'retrodb', 'closedb', 'return', 'void', 'retrodb', 'closedb', 'return', 'memory', 'program', 'byte']",General,{'crash': 100}
+449f9cb804f27662919bcc2cfcf8d8f0321beb4e,"['pull', 'request', 'sehraf', 'deadlock', 'ipbob', 'deadlock', 'shutdown']",Risky_resource_management,{'deadlock': 100}
+ddd6b91f71b75e7d6cf725e601af1059bfe33a68,"['ipbob', 'deadlock', 'shutdown']",Risky_resource_management,{'deadlock': 100}
+70d0c7b1b31211757e074b25d7f087facb597ffa,"['quick', 'workaround', 'crash', 'loadcircles']",General,{'crash': 100}
+8a2508109aecdbdd398eb2360fb6c75ea5239928,"['pull', 'request', 'csoler', 'attempt', 'crash', 'iddialog', 'loadcircles']",General,{'crash': 100}
+e5b53e56461ec751c3047196602db237f3e93fe8,"['pull', 'request', 'ghck', 'crash', 'android']",General,{'crash': 100}
+b62b3ec54b536830ec2510a63a9e7747d937e3ae,"['crash', 'android', 'reference', 'json', 'debug', 'lambda', 'reference', 'android', 'tricky', 'android', 'code', 'incorrect', 'platform', 'stack', 'overflow', 'function', 'sentry', 'flush', 'infinitum', 'xcba', 'char', 'char', 'flush', 'xebc', 'android', 'source', 'llvm', 'libc', 'ostream', 'xcad', 'char', 'char', 'sentry', 'sentry', 'android', 'source', 'llvm', 'libc', 'ostream', 'xcba', 'char', 'char', 'flush', 'xebc', 'android', 'source', 'llvm', 'libc', 'ostream', 'xcad', 'char', 'char', 'sentry', 'sentry', 'android', 'source', 'llvm', 'libc', 'ostream', 'xcaac', 'char', 'char', 'user', 'android', 'source', 'llvm', 'libc', 'ostream', 'xcaa', 'operator', 'char', 'user', 'android', 'source', 'llvm', 'libc', 'ostream', 'operator', 'char', 'xebc', 'development', 'libretroshare', 'util', 'rsdebug', 'xbbeec', 'jsonapiserver', 'registerhandler', 'char', 'char', 'allocator', 'char', 'const', 'function', 'void', 'session', 'const', 'bool', 'operator', 'session', 'function', 'void', 'session', 'const', 'const', 'session', 'callback', 'development', 'libretroshare', 'jsonapi', 'jsonapi']",Risky_resource_management,{'stack overflow': 100}
+8bfc960137ce5d08a68770209b63bb202b169d8b,"['pull', 'request', 'csoler', 'tokenqueue', 'iddetailsdialog', 'attempt', 'crash']",General,{'crash': 100}
+a050669a93fd8bdb839205ab7f00f8662f03f13d,"['tokenqueue', 'iddetailsdialog', 'attempt', 'crash', 'circle']",General,{'crash': 100}
+9c658365035dcab7a3bed6bd50d3b401cadda4b4,"['pull', 'request', 'csoler', 'sslfix', 'openssl', 'debian', 'security', 'level']",General,{'security': 100}
+afdf917188fe0f7f5faba440840f8d047d551b05,"['openssl', 'debian', 'security', 'level']",General,{'security': 100}
+c96223a2a84136e10233fde64c3c55cc966ee1bb,"['security', 'item', 'notification', 'system', 'csoler', 'secnotification']",General,{'security': 100}
+93cd6a5df1a561b327aa20b906be8f20ee29327b,"['possible', 'data', 'race', 'mnotifications']",Risky_resource_management,{'data race': 100}
+11c520d28061a889db12bc24735b5a16e71921a1,"['output', 'feeditem', 'class', 'string', 'random', 'crash']",General,{'crash': 100}
+d8569d813c833a82c5a22d5d45503d0aeeb506d6,"['security', 'item', 'notification', 'system']",General,{'security': 100}
+438966979bb9b80687a85efcdf7d3ae252f7256a,"['pull', 'request', 'ghck', 'double', 'free', 'crash', 'pqissludp']",Risky_resource_management,{'double free': 100}
+63b787a504e4e56fca281238256d7e09b73b9bba,"['double', 'free', 'crash', 'pqissludp', 'type', 'member', 'intitialization', 'cleanup', 'bunch', 'clutter']",Risky_resource_management,{'double free': 100}
+b7e3300689d0672fecedc286084cfebef3e9c3f8,"['pull', 'request', 'csoler', 'distsync', 'crash', 'forum']",General,{'crash': 100}
+398c943f4090b6d6f95611f04f944fcb7e0acd81,"['crash', 'forum']",General,{'crash': 100}
+32b431272504ff5d98a5d82dc168542be0cb9def,"['security', 'check', 'authssl']",General,{'security': 100}
+1bf07f72c438111228ce7151a5d553259ba71684,"['destructor', 'rstickingthread', 'fullstop', 'prevents', 'crash']",General,{'crash': 100}
+7d9db1fc227b7f51619dbc12ffc89053f2eacd6f,"['destructor', 'rstickingthread', 'fullstop', 'prevents', 'crash']",General,{'crash': 100}
+76dfa04bb51a989f9ae0f526fb384e129587cbf2,"['pull', 'request', 'ghck', 'sporadic', 'crash', 'json', 'async']",General,{'crash': 100}
+85ef0e0940202d2bdeb1600648b2e6ea1c8edd9a,"['pbanlist', 'mutex', 'method', 'sporadic', 'crash', 'caought', 'android', 'retroshare', 'forum', 'name', 'backtrace', 'msgid']",General,{'crash': 100}
+9b8d0afacb9f0bf513f0b24cb94d7f9ac161c240,"['sporadic', 'crash', 'json', 'async', 'session', 'yield', 'retroshare', 'json', 'async', 'session', 'yield', 'thread', 'retroshare', 'time', 'crash', 'case', 'json', 'socket', 'session', 'yield', 'problem', 'session', 'yield', 'async', 'insto', 'mservice', 'schedule', 'ensure', 'right', 'thread', 'rsevents', 'const', 'reference', 'case', 'event', 'need', 'thread', 'case', 'const', 'reference', 'rsevent', 'value', 'thread', 'process', 'copy', 'value', 'process', 'information', 'original', 'specific', 'type', 'data', 'method', 'general', 'rsevents', 'handler', 'tricky', 'stuff', 'type', 'coercion', 'limitation', 'event', 'const', 'rsevent', 'elegant', 'solution']",General,{'crash': 100}
+f2fb0d7cfc4b218dfd4838dcc1dc4f03c3b107e4,"['fingerprint', 'broadcast', 'discovery', 'fingerprint', 'trough', 'broadcast', 'discovery', 'term', 'security', 'packet', 'fingerprint', 'verification', 'packet', 'size', 'wrong', 'usage']",General,{'security': 100}
+f9f7e0df18aeb735263bcdd30a9bd019c342bfcd,"['free', 'cert', 'memory', 'leak', 'behaviour', 'code', 'exit', 'return']",Risky_resource_management,{'memory leak': 100}
+362e0a975a510d4e2b04cd81dd64dc8e2a8fbbb8,"['pull', 'request', 'ghck', 'crash', 'rscertificate']",General,{'crash': 100}
+8300e65cadfe10bf6fdce84eb29dc21475b58282,"['crash', 'rscertificate', 'exception', 'warning', 'rspeerid', 'constructor', 'usage']",General,{'crash': 100}
+97633ec8db958479e1c874494718c416b62e539f,"['crash', 'json', 'object', 'deserialization', 'case', 'object', 'rsserializable', 'json', 'deserialization', 'code', 'crash', 'corner', 'case']",General,{'crash': 100}
+fb962c4b5bc05b365c45962c44861f72634afa49,"['attempt', 'crash', 'thread', 'collide', 'forum', 'model']",General,{'crash': 100}
+d8f9559b0e207e333c7b2b1bd761344c17d35c75,"['memory', 'corruption', 'gxsforummodel']",Risky_resource_management,{'memory corruption': 100}
+b8d2d9cade4449d0b3fc86a93573b156423cb631,"['print', 'stack', 'trace', 'crash']",General,{'crash': 100}
+cfb194a8efd3083a8133f02ea0774aad071d55c0,"['pull', 'request', 'ghck', 'attempt', 'crash', 'pqissludp']",General,{'crash': 100}
+09f92642d684ff0c94a0084cc6f3aeb81ac5e54d,"['memory', 'leak', 'gxsnettunnel']",Risky_resource_management,{'memory leak': 100}
+f976e1c525aaf1ee02cb7c637dbb8f8db2043813,"['memory', 'leak', 'handlign', 'lobby', 'item']",Risky_resource_management,{'memory leak': 100}
+18e02c9f4a2af1fad4e67b0fa27b502b1a55c867,"['stack', 'overflow', 'internal', 'structure', 'openssl', 'wrong', 'pointer', 'kudos', 'cyril', 'notice', 'internal', 'struct', 'pointer']",Risky_resource_management,{'stack overflow': 100}
+c0ca1a5aad4fafd89bcaf48ae837575561f0447c,"['print', 'stack', 'trace', 'crash']",General,{'crash': 100}
+7d6fba7e8cbebdb184a0f9822fb68d942e2e67b2,"['attempt', 'crash', 'pqissludp', 'pointer', 'usage', 'careful', 'reproduce', 'crash', 'test', 'multiple', 'user', 'report', 'ilario', 'report', 'complete']",General,{'crash': 100}
+89082f3420e0b0771d3dd1d615ca08413d670714,"['warning', 'retrosharelink', 'retroshare', 'warning', 'statement', 'fall', 'wimplicit', 'fallthrough', 'retroshare', 'warning', 'implicit', 'conversion', 'integer', 'precision', 'qulonglong', 'retroshare', 'warning', 'style', 'cast', 'retroshare', 'warning', 'fall', 'switch', 'label', 'retroshare', 'warning', 'implicit', 'conversion', 'signedness', 'char', 'char', 'retroshare', 'warning', 'implicit', 'conversion', 'signedness', 'char', 'char', 'retroshare', 'warning', 'implicit', 'conversion', 'signedness', 'char', 'char', 'retroshare', 'warning', 'implicit', 'conversion', 'signedness', 'char', 'char', 'retroshare', 'warning', 'implicit', 'conversion', 'signedness', 'retroshare', 'warning', 'zero', 'null', 'pointer', 'constant', 'retroshare', 'warning', 'zero', 'null', 'pointer', 'constant', 'retroshare', 'warning', 'zero', 'null', 'pointer', 'constant', 'retroshare', 'warning', 'zero', 'null', 'pointer', 'constant', 'retroshare', 'warning', 'zero', 'null', 'pointer', 'constant', 'retroshare', 'warning', 'implicit', 'conversion', 'signedness', 'retroshare', 'warning', 'implicit', 'conversion', 'signedness', 'retroshare', 'warning', 'fall', 'switch', 'label']",Risky_resource_management,{'null pointer': 100}
+358f27be06263c91873070476d4704ae8f799c61,"['warning', 'messagepage', 'retroshare', 'setting', 'messagepage', 'warning', 'object', 'polymorphic', 'class', 'type', 'msgtagtype', 'virtual', 'destructor', 'undefined', 'behavior', 'wdelete', 'virtual', 'dtor', 'retroshare', 'setting', 'messagepage', 'warning', 'delete', 'final', 'msgtagtype', 'virtual', 'function', 'virtual', 'destructor', 'retroshare', 'setting', 'messagepage', 'warning', 'style', 'cast', 'retroshare', 'setting', 'messagepage', 'warning', 'zero', 'null', 'pointer', 'constant', 'retroshare', 'setting', 'messagepage', 'warning', 'implicit', 'conversion', 'signedness', 'retroshare', 'setting', 'messagepage', 'warning', 'zero', 'null', 'pointer', 'constant', 'retroshare', 'setting', 'messagepage', 'warning', 'implicit', 'conversion', 'signedness', 'retroshare', 'setting', 'messagepage', 'warning', 'implicit', 'conversion', 'signedness', 'libretroshare', 'retroshare', 'rsmsgs', 'warning', 'messageinfo', 'virtual', 'function', 'virtual', 'destructor', 'libretroshare', 'retroshare', 'rsmsgs', 'warning', 'messageinfo', 'line', 'virtual', 'method', 'definition', 'translation', 'unit', 'libretroshare', 'retroshare', 'rsmsgs', 'warning', 'msginfosummary', 'virtual', 'function', 'virtual', 'destructor', 'libretroshare', 'retroshare', 'rsmsgs', 'warning', 'msginfosummary', 'line', 'virtual', 'method', 'definition', 'translation', 'unit', 'libretroshare', 'retroshare', 'rsmsgs', 'warning', 'msgtaginfo', 'virtual', 'function', 'virtual', 'destructor', 'libretroshare', 'retroshare', 'rsmsgs', 'warning', 'chatid', 'virtual', 'function', 'virtual', 'destructor', 'libretroshare', 'retroshare', 'rsmsgs', 'warning', 'chatlobbyinvite', 'virtual', 'function', 'virtual', 'destructor', 'libretroshare', 'retroshare', 'rsmsgs', 'warning', 'virtual', 'function', 'virtual', 'destructor', 'libretroshare', 'retroshare', 'rsmsgs', 'warning', 'line', 'virtual', 'method', 'definition', 'translation', 'unit', 'libretroshare', 'retroshare', 'rsmsgs', 'warning', 'chatlobbyinfo', 'virtual', 'function', 'virtual', 'destructor', 'libretroshare', 'retroshare', 'rsmsgs', 'warning', 'rsmsgs', 'line', 'virtual', 'method', 'definition', 'translation', 'unit', 'vtable', 'http', 'question', 'meaning', 'clang', 'wweak', 'vtables', 'http', 'question', 'vtable', 'warning', 'class', 'source', 'file']",Risky_resource_management,{'null pointer': 100}
+da6778934d6af101da5753321a061bd1e73074b8,"['warning', 'libretroshare', 'rsserver', 'warning', 'initializer', 'member', 'secretschema', 'field', 'initializers', 'libretroshare', 'rsserver', 'warning', 'initializer', 'member', 'secretschema', 'field', 'initializers', 'libretroshare', 'rsserver', 'warning', 'initializer', 'member', 'secretschema', 'field', 'initializers', 'libretroshare', 'rsserver', 'warning', 'initializer', 'member', 'secretschema', 'field', 'initializers', 'libretroshare', 'rsserver', 'warning', 'initializer', 'member', 'secretschema', 'field', 'initializers', 'libretroshare', 'rsserver', 'warning', 'initializer', 'member', 'secretschema', 'field', 'initializers', 'libretroshare', 'rsserver', 'warning', 'initializer', 'member', 'secretschema', 'field', 'initializers', 'libretroshare', 'rsserver', 'warning', 'initializer', 'member', 'secretschema', 'field', 'initializers', 'libretroshare', 'rsserver', 'warning', 'zero', 'null', 'pointer', 'constant', 'libretroshare', 'rsserver', 'warning', 'zero', 'null', 'pointer', 'constant', 'libretroshare', 'rsserver', 'warning', 'style', 'cast', 'libretroshare', 'rsserver', 'warning', 'initializer', 'libretroshare', 'rsserver', 'warning', 'zero', 'null', 'pointer', 'constant', 'libretroshare', 'rsserver', 'warning', 'zero', 'null', 'pointer', 'constant', 'libretroshare', 'rsserver', 'warning', 'zero', 'null', 'pointer', 'constant', 'libretroshare', 'rsserver', 'warning', 'zero', 'null', 'pointer', 'constant', 'libretroshare', 'rsserver', 'warning', 'return', 'libretroshare', 'rsserver', 'warning', 'return', 'libretroshare', 'rsserver', 'warning', 'zero', 'null', 'pointer', 'constant', 'libretroshare', 'rsserver', 'warning', 'style', 'cast', 'libretroshare', 'rsserver', 'warning', 'cast', 'const', 'char', 'char', 'drop', 'const', 'qualifier', 'libretroshare', 'rsserver', 'warning', 'style', 'cast', 'libretroshare', 'rsserver', 'warning', 'cast', 'const', 'char', 'char', 'drop', 'const', 'qualifier', 'libretroshare', 'rsserver', 'warning', 'zero', 'null', 'pointer', 'constant', 'libretroshare', 'rsserver', 'warning', 'zero', 'null', 'pointer', 'constant', 'libretroshare', 'rsserver', 'warning', 'return', 'libretroshare', 'rsserver', 'warning', 'zero', 'null', 'pointer', 'constant', 'libretroshare', 'rsserver', 'warning', 'zero', 'null', 'pointer', 'constant', 'libretroshare', 'rsserver', 'warning', 'zero', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+abcd68741666e782d0260818ed437c1cbdb81676,"['pull', 'request', 'csoler', 'improvedgui', 'patch', 'deadlock', 'forum']",Risky_resource_management,{'deadlock': 100}
+37c515bcb5dff500d5795a9cbe3ca08a5187b710,"['patch', 'deadlock', 'forum']",Risky_resource_management,{'deadlock': 100}
+15b729b35cdf8c21770cdab6303b4bb7cad8c3c8,"['crash', 'ppeers', 'function', 'part', 'public', 'safe', 'call', 'input', 'empty', 'certificate', 'radix', 'string']",General,{'crash': 100}
+1c7f02655ec390b0a04b0c6c137e5643f9f4fff5,"['crash', 'startup', 'jsonapi']",General,{'crash': 100}
+bf981661975b2dda594d17ae367adeb6f873ec71,"['rsserver', 'crash', 'shutdown', 'callback']",General,{'crash': 100}
+76d16f61efbd847479d28b86c81192c4c1e191ca,"['crash', 'item', 'unban', 'file', 'list']",General,{'crash': 100}
+b7f5d4286f166d25dbf812e9ec2826a96ebdf10c,"['rsgxsnetservice', 'deadlock', 'observer', 'mutex', 'temporary']",Risky_resource_management,{'deadlock': 100}
+4be73b7049ec29355c12af4bfd1b65498686e9fb,"['pull', 'request', 'beardog', 'security', 'attack']",General,{'security': 100}
+952ff03a13d9cd371a24770689a115642092cae3,"['pull', 'request', 'csoler', 'securityfixes', 'security']",General,{'security': 100}
+aad9397ef87d277c12c4031f4f912665cad6d722,"['memory', 'leak', 'pgxstunnel']",Risky_resource_management,{'memory leak': 100}
+062e00d96093759a74782f72639a623c54600a27,"['pull', 'request', 'csoler', 'securityfixes', 'security']",General,{'security': 100}
+ede51ab33d50135a3da0f5f5036977a10aba3ddd,"['pull', 'request', 'csoler', 'securityfixes', 'security']",General,{'security': 100}
+8afa127ed55f4198a56ef6702655b55cee22e987,"['crash', 'rscollection', 'creation']",General,{'crash': 100}
+4c626e04a1b23e54bf8f588170acf8c392c25414,"['pull', 'request', 'csoler', 'securityfixes', 'possible', 'crash', 'memory', 'database', 'cach']",General,{'crash': 100}
+841fee6799d00162cb5791694b7f1440c4373d41,"['possible', 'crash', 'memory', 'database', 'cache', 'access']",General,{'crash': 100}
+553ab93f07dfdd6f187f2ced9d628e13fd2ec039,"['pull', 'request', 'csoler', 'securityfixes', 'security']",General,{'security': 100}
+0a92710b0c022a43e28ba4789ef76140e8b83465,"['pull', 'request', 'csoler', 'securityfixes', 'security']",General,{'security': 100}
+a81956c390ad6987cbb32e324f188cb24a681e08,"['pull', 'request', 'hunbernd', 'crash', 'startup', 'button', 'crash', 'startup']",General,{'crash': 100}
+0c39b5c021ea535a7a65aca845ed5f16ae8fae1b,"['crash', 'startup', 'icon', 'toolbar', 'example']",General,{'crash': 100}
+181a824d11fb6c7a5ab190b747dabcbf23d1210c,"['memory', 'leak', 'bwgraphsource']",Risky_resource_management,{'memory leak': 100}
+a382a0f5cead0d3ac8914f8e86bb129f6bb3f71a,"['memory', 'leak', 'ppeermgr', 'config', 'load']",Risky_resource_management,{'memory leak': 100}
+461ccf3b84dfe257eeda51206d7832ce877a9ae2,"['storemessages', 'storegroups', 'memory', 'leak', 'unittests', 'auto', 'delete', 'structure', 'rsgxsutil', 'deletion', 'member', 'rsgenexchange', 'pointer', 'unittests', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+ef24459c5e6da5e6ea7283aab4ed7cfdb98fc1d5,"['memory', 'leak', 'gxssecurity', 'test']",Risky_resource_management,{'memory leak': 100}
+79779b8056d7bc565bead0c481986221c7ba3662,"['memory', 'leak', 'gxssecurity']",Risky_resource_management,{'memory leak': 100}
+70f72db0aa9993a3a05aff64902675a4e8f7fdd7,"['memory', 'leak', 'gxssecurity']",Risky_resource_management,{'memory leak': 100}
+df691bd2d75bbfcc7ba51c4722c7a0e4e1b276a9,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+764fadf0ee2c02b9f8ee7b959f4f088ebc1a9072,"['memory', 'leak', 'serialisation', 'test', 'code']",Risky_resource_management,{'memory leak': 100}
+880eb5815547e9144a1f73d72ddaf2ada8b7217d,"['memory', 'leak', 'serialisation', 'test', 'code']",Risky_resource_management,{'memory leak': 100}
+9e2241a940e413992ff40b148cdaee2457e31ea2,"['attempt', 'memory', 'leak', 'rsgenexchange']",Risky_resource_management,{'memory leak': 100}
+733f81269ccbc45c8d5e5f5807a94e685ce0c0d4,"['cppcheck', 'error', 'supportlibs', 'pegmarkdown', 'error', 'cppcheck', 'memleak', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+36e3772d5915e3e3d5fc0bf8453b3f594a90bc77,"['cppcheck', 'error', 'retroshare', 'advsearch', 'error', 'cppcheck', 'memleak', 'memory', 'leak', 'wholeexpression']",Risky_resource_management,{'memory leak': 100}
+2afc1bf423899da56aecb367ed6f76cf4a677f2a,"['cppcheck', 'error', 'contentvalue', 'libretroshare', 'util', 'contentvalue', 'error', 'cppcheck', 'memleak', 'memory', 'leak', 'dest']",Risky_resource_management,{'memory leak': 100}
+1491a051dc1e3b17417bb6cc3729bf25f24cef41,"['deadlock', 'situation', 'multiple', 'lock', 'file', 'list', 'file', 'lock', 'module', 'direct', 'source']",Risky_resource_management,{'deadlock': 100}
+8ebd0f770f5b58bf28e2dc0b1b72320b0fa90f75,"['crash', 'toolbar', 'loader']",General,{'crash': 100}
+2bb49f6925df050ba440e4796b47b17ae9dbc14b,"['pull', 'request', 'csoler', 'gxstransport', 'memory', 'leak', 'gxstrans']",Risky_resource_management,{'memory leak': 100}
+0f99647a869339463d72b32371226d031c4bc26d,"['memory', 'leak', 'gxstrans']",Risky_resource_management,{'memory leak': 100}
+79825eb2e2a5fb73fdd3193bf73fe3d0b6a5b39b,"['thread', 'issue', 'random', 'crash']",General,{'crash': 100}
+e726bd1061bd819ee51027190fc6e354282f0a6e,"['attempt', 'crash', 'datastore']",General,{'crash': 100}
+593c0cb7e65b13a2e07d74fdc15d563e93f78e75,"['warning', 'object', 'pointer', 'null', 'logic', 'error', 'object', 'pointer', 'null', 'null', 'pointer', 'value', 'field', 'home', 'phenom', 'retroshare', 'trunk', 'retroshare', 'gxsgroupdialog', 'init', 'home', 'phenom', 'retroshare', 'trunk', 'retroshare', 'gxsgroupdialog', 'initmode', 'home', 'phenom', 'retroshare', 'trunk', 'retroshare', 'gxsgroupdialog', 'requestgroup', 'home', 'phenom', 'retroshare', 'trunk', 'retroshare', 'object', 'pointer', 'null', 'home', 'phenom', 'retroshare', 'trunk', 'retroshare']",Risky_resource_management,{'null pointer': 100}
+1f16f46aad3769457561e5a5d0d26fef81beec3c,"['warning', 'object', 'pointer', 'null', 'logic', 'error', 'object', 'pointer', 'null', 'pointer', 'value', 'null', 'home', 'phenom', 'retroshare', 'trunk', 'retroshare', 'object', 'pointer', 'null', 'home', 'phenom', 'retroshare', 'trunk', 'retroshare']",Risky_resource_management,{'null pointer': 100}
+90cd6233d8b3e446984ddc1b68b2e89fbf35995d,"['warning', 'potential', 'leak', 'memory', 'toaster', 'memory', 'error', 'memory', 'leak', 'potential', 'leak', 'memory', 'toaster', 'memory', 'phenom', 'retroshare', 'trunk', 'plugins', 'voip']",Risky_resource_management,{'memory leak': 100}
+8b9c447063a13f4b2c567e8be378a8c270487003,"['possible', 'crash', 'return', 'value', 'rsgethostbyname', 'thanks', 'kotyara']",General,{'crash': 100}
+987b5a1cdcdddf4d3abb765324ee43c6fd48dab2,"['crash', 'notification', 'deadlock', 'crash', 'tricky', 'different', 'part', 'unexpected', 'behaviour', 'activity', 'intent', 'data', 'different', 'thread', 'intent', 'data', 'intent', 'data', 'deadlock', 'beetween', 'thread', 'android', 'thread', 'notification', 'intent', 'flag', 'nasty', 'interaction', 'android', 'thread', 'thread', 'proper', 'soup', 'manifest', 'intent', 'flag', 'point', 'link', 'deadlock', 'crash']",Risky_resource_management,{'deadlock': 100}
+76f75736598c1e1ce7fca9741bc7b34ccef0185b,"['clang', 'warning', 'comparison', 'array', 'null', 'pointer', 'true', 'warning', 'comparison', 'array', 'tzname', 'equal', 'null', 'pointer', 'true', 'wtautological', 'pointer', 'tzname']",Risky_resource_management,{'null pointer': 100}
+cf2edb50b42b399965e1754d679b7c424e001846,"['memory', 'leak', 'deletegroup', 'unnecessary', 'pointer', 'function']",Risky_resource_management,{'memory leak': 100}
+a545481daa4c4a6173e48f6aaee5e6376d75c617,"['memory', 'leak', 'multi', 'chunk', 'file', 'list']",Risky_resource_management,{'memory leak': 100}
+5b819ebd7a761bd6bd85de175993c32b8e7f8734,"['virtual', 'destructor', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+d5f2ae83e58c3787cc9c602f64ede8199dfa352c,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+0316c8c5aeaf692dc460b7aaeeef18d8e892f0a8,"['workaround', 'crash', 'window', 'version', 'getprocaddress', 'openssl', 'cryptlib', 'function', 'pointer']",General,{'crash': 100}
+dec5c5c4b4784b5971dc1a5b6a4d2067da0100c4,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+b14e4d50cfd0b438b2088961c26c948251d7296c,"['memory', 'leak', 'delete', 'bwgraph']",Risky_resource_management,{'memory leak': 100}
+0bd005657d064fa07649527f991f04c2bb94b47e,"['memory', 'leak', 'rsgxsnetservice']",Risky_resource_management,{'memory leak': 100}
+7111579954793c9891f65e67cb566a4f4d8d76aa,"['memory', 'leak', 'config', 'msgservice']",Risky_resource_management,{'memory leak': 100}
+d1bf977b1543d786386d8571bac1e871e0c14d4f,"['decryption', 'group', 'data', 'crash']",General,{'crash': 100}
+65a383afeaa58f9167b2c6d33e92f3cc72dcf6bc,"['crash', 'openpgp']",General,{'crash': 100}
+77c430d553bbb83513a8c7c996da3f09f58b6edc,"['possibility', 'malicious', 'node', 'memory', 'leak', 'smash', 'item', 'queue', 'others', 'node']",Risky_resource_management,{'memory leak': 100}
+cda3c744af2cc63371fcbbb5ee57055530f0e400,"['crash', 'pfilelists']",General,{'crash': 100}
+873fbf98ad9886cd5e22de65cad2c2528135a32c,"['responsible', 'small', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+deea1b53447e5c32474369830be3f37db03aa5db,"['temporary', 'object', 'structure', 'rsgxsutil', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+0a02419a297bdb0e8ab025116ff2f48ad1b479c5,"['memory', 'leak', 'hash', 'cache', 'storage', 'load', 'code', 'memory', 'file', 'reading']",Risky_resource_management,{'memory leak': 100}
+5b9b63efcde345161e983e4789d578c5f2f80c93,"['pull', 'request', 'crash', 'file', 'storage']",General,{'crash': 100}
+a8782f0612ae7ea58af95626f5d0545988c44225,"['crash', 'file', 'storage', 'check', 'file', 'error', 'crash']",General,{'crash': 100}
+d2118c5329fa725849e3c7f566e1faccbb74122b,"['deadlock', 'ftcontroller', 'ftserver', 'ftcontroller']",Risky_resource_management,{'deadlock': 100}
+15f69b223689e02e0a005d609c54c4e5ba9f1235,"['crash', 'debug', 'output', 'pfilelists']",General,{'crash': 100}
+3beaa974b08d84a01c2a688ae1cd3440d2392a32,"['potential', 'crash', 'entry', 'null']",General,{'crash': 100}
+19b1c4f5d9350b0bdea85de8f7d5417710a1a41c,"['potential', 'crash', 'empty', 'pfilelists']",General,{'crash': 100}
+c12cfd60b8dfb48c654b824d2f84f3da19f5b955,"['login', 'retroshare', 'android', 'login', 'work', 'retroshare', 'android', 'service', 'crash', 'local', 'address', 'generic', 'login', 'button', 'view', 'retroshare', 'android', 'service', 'separate', 'android', 'system']",General,{'crash': 100}
+e985a2c9271555f13ec0399d255332934045ee9d,"['workaround', 'crash']",General,{'crash': 100}
+93818f6088db01ee36fd22ca2f7477634c4a44e9,"['code', 'crash']",General,{'crash': 100}
+ea380b2578f296d2adab095da4bf13ee6b46035f,"['pull', 'request', 'asamk', 'crash']",General,{'crash': 100}
+b36d0fad4aff1ffa92775a93919d5d9da2c217a6,['crash'],General,{'crash': 100}
+95202d648b5fa457a65c9c2922b8cb6c8cf09543,"['possible', 'double', 'free', 'suggestion', 'guesswho']",Risky_resource_management,{'double free': 100}
+95915fa31de10703adc12cce5419f4a2f54939f8,"['cross', 'deadlock', 'pgxsreputation', 'pidservice']",Risky_resource_management,{'deadlock': 100}
+9f7ef8b46b7d0e45c939c42168e66e0ba1dc043b,"['possible', 'cross', 'deadlock', 'rsgxsnetservice']",Risky_resource_management,{'deadlock': 100}
+07bda26192aff044a802a0c0b1640eb36d18d893,"['permission', 'matrix', 'widget', 'crash']",General,{'crash': 100}
+7627bd96ca87f52ce3d3c6ec674970faeb9b93f2,"['pull', 'request', 'csoler', 'securitykeys', 'security']",General,{'security': 100}
+ae5929e9adabfa17191c302f69200d931cc8ae30,"['possible', 'crash']",General,{'crash': 100}
+f3aed813af9c04a15e0142bb1d10df7cbf82e268,"['test', 'signature', 'size', 'possible', 'memory', 'corruption', 'anonymous', 'source']",Risky_resource_management,{'memory corruption': 100}
+383e40324d59c897d01a3efcaf2699fd8b0fa8ec,"['rssemaphore', 'class', 'display', 'info', 'deadlock', 'problem']",Risky_resource_management,{'deadlock': 100}
+e891e2be2e907793dfe8c93e52dbc8538450446c,"['crash', 'connection']",General,{'crash': 100}
+8fdf8f81a8fe0f11e74345b987bfb3ae2a26fc8e,"['possible', 'crash', 'rsnet']",General,{'crash': 100}
+1f7a94d49e1bd33010436829c0a4c19dab4c8f51,"['crash', 'pqistreamer']",General,{'crash': 100}
+acd059bdf0abe9311b77eff03c45d242a3cdced6,"['potential', 'memory', 'leak', 'transfersdialog']",Risky_resource_management,{'memory leak': 100}
+52cf66a536ace7142e914fe24ee4807ceaae8ff1,"['memory', 'leak', 'menu']",Risky_resource_management,{'memory leak': 100}
+e9fa9eb317f871602b13f27753146bfb8005d85e,"['tricky', 'memory', 'leak', 'partial', 'message']",Risky_resource_management,{'memory leak': 100}
+fba3d37126fdfaf6bab71914c14b7a07b17c8aca,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+0c711a4c61359044010d45a6cd49d2596e7bf505,"['release', 'memory', 'decryption', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+aba3d2fb35d17bd5025c3271d20717b16ab4008f,"['memory', 'leak', 'purpose', 'data', 'chunk', 'grouter']",Risky_resource_management,{'memory leak': 100}
+971f8e0c1271bbdca498c9f615719ec538437566,"['potential', 'crash', 'entry']",General,{'crash': 100}
+cf746f160c610a41418c591b0e2896a286938c7d,"['possible', 'crash', 'gxsiddetails']",General,{'crash': 100}
+57f4463864dda1e402d0003fb309be109bdc70f5,"['potential', 'crash']",General,{'crash': 100}
+b13292bb804bc1f932e2fae597a3aef9e1e92298,"['error', 'cppchecker', 'libretroshare', 'erreur', 'cppcheck', 'libretroshare', 'gxstunnel', 'pgxstunnel', 'erreur', 'cppcheck', 'invalid', 'usage', 'output', 'stream', 'cerr', 'libretroshare', 'util', 'contentvalue', 'erreur', 'cppcheck', 'memory', 'leak', 'dest', 'openpgpsdk', 'openpgpsdk', 'erreur', 'cppcheck', 'common', 'realloc', 'mistake', 'failure', 'retroshare', 'filetransfer', 'erreur', 'cppcheck', 'array', 'byteunits', 'retroshare', 'filetransfer', 'erreur', 'cppcheck', 'array', 'byteunits', 'retroshare', 'filetransfer', 'erreur', 'cppcheck', 'array', 'byteunits', 'retroshare', 'filetransfer', 'erreur', 'cppcheck', 'array', 'byteunits', 'retroshare', 'filetransfer', 'erreur', 'cppcheck', 'array', 'byteunits', 'retroshare', 'people', 'erreur', 'cppcheck', 'variable', 'layout', 'retroshare', 'people', 'erreur', 'cppcheck', 'variable', 'layout', 'retroshare', 'common', 'erreur', 'cppcheck', 'variable', 'status', 'retroshare', 'nogui', 'proto', 'erreur', 'cppcheck', 'memory', 'leak', 'buffer', 'supportlibs', 'pegmarkdown', 'glibfacade', 'erreur', 'cppcheck', 'args', 'openpgpsdk', 'openpgpsdk', 'erreur', 'cppcheck', 'common', 'realloc', 'mistake', 'failure', 'test', 'unittests', 'libretroshare', 'serialiser', 'erreur', 'cppcheck', 'return', 'value', 'allocation', 'function']",Risky_resource_management,{'memory leak': 100}
+2e9d22c580095bae871a877ea7a8bcdcd40570c5,"['memory', 'leak', 'case', 'error', 'gxstunnels']",Risky_resource_management,{'memory leak': 100}
+80aaf30a01a24d1a479e10b13e6fbb93b2c60ccf,"['potential', 'crash', 'usage', 'update']",General,{'crash': 100}
+9b64b96811e29cb4e8bd784c30e2602514772ee5,"['potential', 'crash', 'pqisslstore']",General,{'crash': 100}
+4916496008a48007b20055968449866ad746eb58,"['pull', 'request', 'csoler', 'securityreview', 'security', 'review']",General,{'security': 100}
+46520b0e221279b8c321dc2fc3f11b71260da470,"['potential', 'integer', 'overflow']",Risky_resource_management,{'integer overflow': 100}
+8e666fcec37297b12017ff18736b19eb85a15db6,"['potential', 'integer', 'overflow']",Risky_resource_management,{'integer overflow': 100}
+6e9d96efd85876b0ff472b8603e406d56cd2ad85,"['potential', 'integer', 'overflow']",Risky_resource_management,{'integer overflow': 100}
+98f0c101b93c70e297c317369f3a05bb26c199f1,"['potential', 'integer', 'overflow', 'grouteritems']",Risky_resource_management,{'integer overflow': 100}
+3094b52e8f86598c76ca5f1e61e548f4689bffc7,"['potential', 'integer', 'overflow', 'rsbaseserial', 'error', 'output']",Risky_resource_management,{'integer overflow': 100}
+3d5042b8f44b35f9e4e86beee0cc8aad2add16d7,"['pull', 'request', 'ghck', 'master', 'optimize', 'checkfilter', 'memory', 'leak', 'removi']",Risky_resource_management,{'memory leak': 100}
+05fd33b87e2694fa0735754c73b2d66f61f8e165,"['optimize', 'checkfilter', 'memory', 'leak', 'mserialiser', 'code', 'cleanup']",Risky_resource_management,{'memory leak': 100}
+ab3939cd9ad9f2f9ef6812cc33412f15ad0ade85,"['memory', 'leak', 'inconsistency']",Risky_resource_management,{'memory leak': 100}
+3b2eae4f4979e1492853c56167a2b213123bb77e,"['memory', 'leak', 'stack', 'memory', 'heap', 'memory']",Risky_resource_management,{'memory leak': 100}
+ae16fc887d8ded0c8c1b41037894f46a20f3661a,"['pull', 'request', 'ghck', 'master', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+9c242030825a0327910f38d04a2b9d5446ab7cab,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+f12b4a1474c4ddddf55fc54b74e3ce645c711aa5,"['pull', 'request', 'csoler', 'gxsdebug', 'number', 'memory', 'leak', 'gxsnetservice', 'class']",Risky_resource_management,{'memory leak': 100}
+d4926cbc6167af3cdf0172c251724360a9480832,"['number', 'memory', 'leak', 'gxsnetservice', 'class', 'auto', 'deletes']",Risky_resource_management,{'memory leak': 100}
+e56ba457fe37e5f7c8f7bd29c98eb299d4a88487,"['attempt', 'crash', 'exit', 'memory', 'memory', 'management', 'structure']",General,{'crash': 100}
+9158ed64ef6f68b927fd012577ce62f78aebcf0f,"['potential', 'buffer', 'overrun']",Risky_resource_management,{'overrun': 100}
+e83ae7632082bf5a5217df8992dade2acc6931bc,"['null', 'pointer', 'check', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+3084d2a5ee41db5e5dade5e5b59761a6dbce14e5,"['security', 'message', 'console']",General,{'security': 100}
+6b2ed2fb2d84d7e48b15fa917aa4eb8015922d15,"['crash', 'shutdown', 'plugins', 'setting', 'window', 'leak', 'plugin', 'config', 'page', 'patch', 'hunbernd']",General,{'crash': 100}
+737da1201d4149db5cce4365da2b41b2a53eff6a,"['crash', 'chatmsgitem', 'removeitem', 'mparent', 'null', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+090148cea2ef415b83edd1ebbd977d9ba677068f,"['possible', 'crash', 'return', 'value', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+e53f531271455978473e11daaba2a60b2af5be69,"['possible', 'crash', 'pgrouter', 'return', 'value', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+8691a911aa3a5424dd289a4beb3f96792a412de3,"['possible', 'crash', 'detailsdialog', 'setfilehash', 'return', 'value', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+865a45f29425c45f770bdc883948c0e1bf5040bb,"['possible', 'crash', 'ftserver', 'return', 'value', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+3abec3363d631a2d9ad68daba47d8bc72db767c0,"['possible', 'crash', 'ftserver', 'return', 'value', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+014e78dd8c58acb5a9fc7c069ac089b0f2176f09,"['possible', 'crash', 'return', 'value', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+63d85f80777fc57a265de599296c8c112524c851,"['possible', 'crash', 'return', 'value', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+86a5c2e6566c6caba18a2a2506a036e67450f457,"['possible', 'crash', 'chatlobbydialog', 'init', 'return', 'value', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+65bdc96b88c01eab01afaff9bd8c813b73b0e0d2,"['possible', 'crash', 'return', 'value', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+c97dae0652c317bab5ef89b73e75a6ef4d666c28,"['unintentional', 'integer', 'overflow', 'recordevent', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'integer overflow': 100}
+0b66b36a46b1b43162773ebf5283f77d1a7ed8cb,"['memory', 'leak', 'gxssecurity', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+a0c0b9afa5d234b605d158cfab0ac40b388de7ea,"['memory', 'leak', 'guiexprelement', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+15bb95a3984f5f576d5be471bb0fac9a20e85ff0,"['potential', 'memory', 'leak', 'pgphandler', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+72033c0efad3840922dcc3b5fb33ea3e1a05d263,"['memory', 'leak', 'fileindexstore', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+d3f33b029e336f26d81a6078eafc21a888006008,"['label', 'security', 'security', 'feed', 'setting', 'patch', 'henry', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'security': 100}
+0ac3be47a14f941248200cf68e55c4959b33b5d0,"['unload', 'plugins', 'crash', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+6adeb52e93adbd122d8fe3f84d90970890e94578,"['possible', 'dereference', 'null', 'pointer', 'notifypage', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'null pointer': 100}
+b6e0f7c5a44d7ac32e2037b4a43e3921107468f8,"['possible', 'fread', 'null', 'pointer', 'hashcache', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'null pointer': 100}
+6e61a3321a8c52c30fe4d3f4522a1be249e535ba,"['possible', 'null', 'pointer', 'access', 'pbitdht', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'null pointer': 100}
+504bbc00f15f2a2bf0bbef3ae6a09588ca6148a2,"['memory', 'leak', 'processxpath', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+d5b2f7dd02cce464458b2cc782ea6e2c53823c38,"['memory', 'leak', 'rsgenexchange', 'publishgrps', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+8cc2c921ed88581bc3a84e6d0a26c262d606eb6f,"['memory', 'leak', 'rsgenexchange', 'publishmsgs', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+5af0716a162e6045cff2a881f6baa61be4c575d1,"['memory', 'leak', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+b61355e8946f896e1ef3049c1de905caa0dad110,"['memory', 'leak', 'rsrecogn', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+c187c03758c14d189467fe1eaf80131cf4fc817f,"['memory', 'leak', 'lobby', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+e8b5ab9faeca4228200bbdb775805fcea5ae36fe,"['memory', 'leak', 'lookupdnsaddr', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+87758c40432877cd4495760ddbff74773cd8fac2,"['momory', 'leak', 'rsdirutil', 'getfilehash', 'file', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'momory leak': 91}
+7563cb02d0bd658f571435f91b48f415c6da636b,"['memory', 'leak', 'deserialise', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+ad4f57d7561e63cbd7910322a40dc56dfe723b0c,"['checkbox', 'setting', 'security', 'feed', 'item', 'addunique', 'securityipitem', 'address', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'security': 100}
+70d35496ef34d0ec1309efa88231e5c8386fe205,"['check', 'whitelist', 'security', 'item', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'security': 100}
+44de13c94f903aa26f2817fe0071df7ff4f9d575,"['security', 'item', 'tooltip', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'security': 100}
+d71d26f026f174045d8d7dbddf77b96426d014e8,"['crash', 'context', 'menu', 'list', 'iddialog', 'active', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+d69e03efd647e4c2211c1c11fbe4de0bdbf570bc,"['tooltip', 'security', 'item', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'security': 100}
+399340ef38a77e86aa2aac8aa19684ae7dcbe9c8,"['layout', 'security', 'feed', 'item', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'security': 100}
+5fd9ab59d7adf01fec4473c049abb9fb866912e6,"['crash', 'setting', 'filter', 'whitelist', 'blacklist', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+25c0dfe69edaeb5deab9013d854de5aad729be8b,"['friend', 'wizard', 'page', 'friend', 'request', 'conclusion', 'page', 'conclusion', 'page', 'security', 'item', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'security': 100}
+3db9655c56098fa6667771b334d79ac7c739c48a,"['memory', 'leak', 'voip', 'plugin', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+f803f1552cc65f4879da4d1cf7cc502423023ab1,"['memory', 'corruption', 'voip', 'plugin', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory corruption': 100}
+96d45e72379768e3d03aa5615cd3610ae7d39b77,"['crash', 'webui', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+90d6ac66975c33af36be2a6aa6c20088d3ca41e5,"['memory', 'leak', 'potential', 'crash', 'load', 'grouter', 'outgoing', 'message', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+03afc77f65ee8e32467b6d69895bfaf289a457a1,"['stupid', 'random', 'crash', 'grouter', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+3641a6c87c4675bcabfd1ab3d8e6168f460a2b57,"['crash', 'shoult', 'rsgxsutil', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+36506ea1e8d17685451d613b1683f86dc5ef6ca4,"['security', 'byte', 'limit', 'nickname', 'getiddetails', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'security': 100}
+a0631e399107f5b3b1d91715fb46f9d18868fa3c,"['crash', 'gxsiddetails', 'process', 'gxsiddetails', 'minstance', 'null', 'global', 'instance', 'gxsiddetails', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+b6ce3ab7b29a8e5b78d52c05804f0ddc2c0575e6,"['attempt', 'deadlock', 'situation', 'solves', 'crash', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'deadlock': 100}
+2664cf2f9ae413f27af83d8a34e043ca95e930f5,"['possible', 'crash', 'checkitn', 'rsidentity', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+83f2ee4c957124ef2e17dc1f044dc12a6656317f,"['possible', 'crash', 'method', 'rsgxsnetservice', 'dynamic', 'cast', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+a7e0fd8345ff901494a5b617a6b1e4ae255e6b85,"['double', 'feed', 'publication', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'double feed': 91}
+5ae5d4f0a196daa7e6b24f44535e610cfaac3d55,"['avatar', 'gxsid', 'tooltip', 'thread', 'data', 'race', 'multiple', 'thread', 'static', 'data', 'member', 'avatar', 'show', 'clean', 'solution', 'restore', 'cache', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'data race': 100}
+6cad38bd7c1f7398177a1e8fbf945722e0b66903,"['deadlock', 'rsgraphwidget', 'patch', 'cyril', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'deadlock': 100}
+7cfd50f8602b950467aa4222f46646039d60249b,"['crash', 'ideditdialog', 'createid', 'avatar', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+4cab5dc743487673b544b44ff9a985da3413aa25,"['crash', 'ideditdialog', 'updateid', 'avater', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+e04ee3f446ebb841ff6efe01a20be72c4259e571,"['crash', 'rsgenexchange', 'request', 'cyril', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+301e8e7019cbe0b24fcf7f25db0d96389dd57d2b,"['memory', 'leak', 'request', 'destructor', 'request', 'class', 'gxsrequest', 'delete', 'result', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+483934100aba2c7001ecf919b9151a065c5d6956,"['clean', 'security', 'feed', 'item', 'message', 'context', 'menu', 'action', 'identity', 'list', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'security': 100}
+c83d27924e93f4a172c1fd86b3f74623b4b84276,"['security', 'breach', 'private', 'public', 'cache', 'incompatible', 'type', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'security': 100}
+85515f0a62dc0eef0f6de19df0c40263a71cf18e,"['cross', 'deadlock', 'pqissl', 'atomic', 'operation', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'deadlock': 100}
+756b9acf414421e21e1e5b60fa2479e5605f42ea,"['security', 'warning', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'security': 100}
+b25f6f30ef87d4efe590af6bb1a4fbda055dceaf,"['memory', 'leak', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+39e123dbf2420dcbdcf830da9def20c33ae853d9,"['security', 'check', 'pqissl', 'senddata', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'security': 100}
+bec735b60a498444ac3eb9055c158c4be09670ac,"['delete', 'tokenqueue', 'destructors', 'crash', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+9752fb9698ed8f43fc4afdab0f6c3bf5cd90f9a6,"['security', 'check', 'encryption', 'length', 'wrong', 'number', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'security': 100}
+0c536c3f4ccdd0e6d9ec3046eaaf232995d4ddb6,"['deadlock', 'connection', 'stream', 'need', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'deadlock': 100}
+3bee80c8070c47217354cf5c093a8486b788a92b,"['possible', 'dereference', 'null', 'pointer', 'patch', 'vaio', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'null pointer': 100}
+b83a1f18d89238ef203fa4a71844862d4b8551ee,"['memory', 'leak', 'fclose', 'patch', 'vaio', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+86126dea25fb595b8af47cafb8726f6edee758a9,"['small', 'memory', 'leak', 'chunk', 'data', 'electron', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+6085ccd43f7b2b6e3889557a0bf8ab734079055e,"['crash', 'gxsidchooser', 'tokenqueue', 'destructor', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+b85459ee02dc17aa2e3c0ae541b3cf123101f2a6,"['member', 'rsgenexchange', 'pidservice', 'memory', 'leak', 'ppostbase', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+c87efec81bd693e76052e6d4a601c9146798f7da,"['relay', 'deadlock', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'deadlock': 100}
+b56df2d045ce5cdd8bfbb4f931d5bc843e4a334f,"['test', 'security', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'security': 100}
+1bf3e2967f67212d2ff26ccef0895c1d34aead2e,"['security', 'hole', 'generation', 'fingerprint', 'fingerprint', 'backward', 'compatible', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'security': 100}
+9aba04982ed31a392f96792e96ecc1a1c1c308b0,"['cipher', 'string', 'security', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'security': 100}
+8420d27a024d4c8fc647ffaa1bb42d46abcad6cb,"['distant', 'crash', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+e3c681671340dc2ba4b2efeaacf38ae2824e4f58,"['null', 'pointer', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'null pointer': 100}
+ae5942733ebf1d83d920e1f11e615c18159953b8,"['ppostbase', 'iterator', 'overflow', 'mutex', 'deadlock', 'pqiperson', 'code', 'compile', 'warning', 'constructor', 'http', 'code', 'retroshare', 'code', 'initdev', 'badcc']",Risky_resource_management,{'deadlock': 100}
+8594d6898597fbe2a1b3193956b27402193896a1,"['text', 'security', 'item', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'security': 100}
+bbdc978d00ca1bae9741aab45f064281a375cedb,"['security', 'item', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'security': 100}
+7f71619c9381076761d6e92a89cfc25ce2f311b7,"['default', 'stylesheet', 'color', 'security', 'feed', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'security': 100}
+2dcf0acef31f5034e514fa0f5676543f1f75024c,"['missign', 'cleanup', 'small', 'memory', 'leak', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+2a9a6f8a75c1e24fc655d21e45e240b63d747b57,"['order', 'shutdown', 'crash', 'webui', 'plugin', 'plugins', 'service', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+a6f62caef455bd864c1d5b2bfb03f14d83319a8a,"['update', 'issue', 'actual', 'group', 'item', 'open', 'file', 'mode', 'update', 'update', 'sturdy', 'group', 'client', 'crash', 'librs', 'unit', 'test', 'grps', 'message', 'data', 'base', 'removal', 'reset', 'rekey', 'passphrase', 'clear', 'http', 'code', 'retroshare', 'code', 'badcc']",General,{'crash': 100}
+7ba1827b4c5929008ee266f391a99a96f7f4005f,"['potential', 'deadlock', 'method', 'notify', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'deadlock': 100}
+4559b48a9d7c588901672f673ac61124ed79a4db,"['friend', 'request', 'security', 'item', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'security': 100}
+750dd526c27bc6bcf5f807de26c92176340e2806,"['release', 'group', 'update', 'admin', 'publish', 'security', 'http', 'code', 'retroshare', 'code', 'badcc']",General,{'security': 100}
+14887d98e8142bd82c6388e589b0c2c75a5b028b,"['hard', 'limit', 'byte', 'size', 'avatar', 'image', 'crash', 'peer', 'anounces', 'avatar', 'enormous', 'size', 'limit', 'possible', 'image', 'file', 'size', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+aeb430cabbb613b376a83310b68f342368be4ada,"['security', 'check', 'possible', 'multi', 'part', 'reconstruction', 'multiple', 'part', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'security': 100}
+3865c14583c7e1bc6a533a673661a5743a4b18e9,"['message', 'security', 'issue', 'laugh', 'bomb', 'message', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'security': 100}
+ff2f436d578b9ff1217ec423158194d41d6e4cd7,"['supid', 'mistake', 'crash', 'window', 'distant', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+3f86a707b725a917722d3ebcc382211f46dd9a63,"['distant', 'message', 'code', 'distant', 'message', 'crash', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+e95725ea2c98a5431730b130a39fcd156189c9bf,"['crash', 'memory', 'overwrite', 'static', 'array', 'rsdiscspace', 'small', 'fclose', 'pgphandler', 'open', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+b84930b157bcebe50ae8de142213b2192ad1b7bb,"['multiple', 'security', 'test', 'quota', 'copy', 'file', 'rename', 'check', 'disk', 'file', 'sync', 'rsdirutil', 'fileexists', 'method', 'check', 'system', 'disk', 'space', 'directory', 'rspgpdirectory', 'method', 'rsinit', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'security': 100}
+d6104c0aa79d7f2c5cb12dec73075981980deb32,"['memory', 'leak', 'distrib', 'item', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+fced5af60c6bb9d69a3fde2b9dd8c0ff9c6fa6a9,"['memory', 'leak', 'signature', 'verification', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+7330ab894ce2b726538bccc4ac8f473ea794d48f,"['memory', 'leak', 'rsdataservice', 'retrievenxsgrps', 'group', 'available', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+9d61832a863496e59aa4a39120de736708f2c72f,"['memory', 'leak', 'double', 'free', 'rsgxsnetservice', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+6dc9dcd49da72be2cbb85a38074559a97f0889f4,"['memory', 'leak', 'rsgxsnetservice', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+c3303a1969069dbf3f7bf6372b52a846c56c2d23,"['possible', 'crash', 'memory', 'leak', 'pgxscircles', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+a42b3fdbd45d57edf16597efcb872758458492c2,"['memory', 'leak', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+b1bc66b319b87698f627a3a1983e6bd959c88eac,"['service', 'permission', 'memory', 'leak', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+f5218cdfc30dd28739600dcf7196fda7958f4965,"['pidservice', 'memory', 'leak', 'possible', 'crash', 'getgroupdata', 'pgxschannels', 'pgxscircles', 'pgxsforums', 'pidservice', 'pphotoservice', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+11cfb1dc5c508e1852b9d29d1783bcae9e3bab07,"['memory', 'leak', 'group', 'item', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+2b9a211184278f828cd3307675a3e6ad669af10b,"['memory', 'leak', 'cert', 'signature', 'verification', 'patch', 'phenom', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+e36557d542188325e62c67a4ab43be8f3f320837,"['timer', 'class', 'passwd', 'deadlock', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'deadlock': 100}
+e9db631f8fd87aff3ae219f5eed85022b16b77af,"['crash', 'completer', 'mimetextedit', 'patch', 'phenom', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+e6c02178015aed0770ac58cdb6d6fef3ad7190d6,"['deadlock', 'patch', 'cyril', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'deadlock': 100}
+42db43e590045c27b12fec3d8fb3f5ba1347dcec,"['possible', 'deadlock', 'wrong', 'window', 'need', 'work', 'link', 'creation', 'window', 'clipboard', 'copy', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'deadlock': 100}
+d5c645e3838e838191d210592eff7ab1125edf52,"['assert', 'crash', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+9fcb18553ad25829e67c6c854fa499bff9bbdcfb,"['crash', 'window', 'compile', 'method', 'rsfiles', 'copyfile', 'rsfiles', 'copyfile', 'copyfile', 'copyfilew', 'window', 'window', 'copyfile', 'copyfilew', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+bb916ad1cc7ddbc2b83f30bd7c895daabedf61e4,"['method', 'private', 'disallow', 'callback', 'notifyqt', 'possible', 'deadlock', 'passphrase', 'full', 'recompile', 'qmake', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'deadlock': 100}
+a497157110da27f1ee34be6af9386e9812e072cc,"['setting', 'config', 'background', 'slow', 'system', 'memory', 'leak', 'pfeedreader', 'savelist', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+2485f9fffd2475933ee11630c2f32b9e3395c312,"['invite', 'link', 'deadlock', 'http', 'code', 'retroshare', 'code', 'badcc']",Risky_resource_management,{'deadlock': 100}
+3240b1f71b7b7d8fbd72100aee0fd94284533188,"['patch', 'henry', 'morgan', 'confcertdialog', 'security', 'item', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'security': 100}
+d6328c8123f6fd0601b13addc1220deb89ce1b25,"['clean', 'default', 'unsubscription', 'group', 'clean', 'check', 'function', 'retrieve', 'stats', 'forum', 'authen', 'flag', 'need', 'author', 'delete', 'flag', 'resilience', 'peer', 'null', 'binary', 'data', 'deserialisation', 'peer', 'crash', 'peer', 'empty', 'rstlvbinarydata', 'rstokenservice', 'iface', 'full', 'recompile', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+a850b18be2f5d91a571f4c00d4406307bdba7e12,"['security', 'page', 'profile', 'profile', 'manager', 'profile', 'current', 'session', 'work', 'profile', 'manager', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'security': 100}
+c74a36fff8060d2a9fc08edd6dd86f2baef28817,"['memory', 'leak', 'rsgenexchange', 'group', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+e397560654967206049fcf36afe6c01e9f84ef1b,"['crash', 'invitation', 'lobby', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+7413bdc50cfb6092447e6fa69bdcdf83237e3780,"['crash', 'rsdataservice', 'retrievenxsgrps', 'iterator', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+72e5d10bcd70b007f6e7a91f45f4c96160dc65f1,"['patch', 'anonym', 'unknow', 'user', 'attempt', 'show', 'name', 'security', 'item', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'security': 100}
+13f286356990201de6933795f1089729f3f7143f,"['memory', 'leak', 'xpath', 'processing', 'preview', 'dialog', 'shutdown', 'drag', 'drop', 'xpath', 'list', 'preview', 'dialog', 'xpaths', 'list', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+4804f950aff683587d3e7c1877b0648955421e45,"['crash', 'startup', 'toolbar', 'icon', 'qtimer', 'message', 'navigation', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+799cf155558c49c77949a4f1de98a4beec3bf0af,"['crash', 'gxsgroupdialog', 'mode', 'gxsgroupdialog', 'enum', 'different', 'header', 'text', 'mode', 'wikigroupdialog', 'file', 'gxsforums', 'http', 'code', 'retroshare', 'code', 'badcc']",General,{'crash': 100}
+ab26059570c04ac53a469b406ee5df93316ba4f8,"['mutex', 'destructor', 'ftfileprovider', 'responsible', 'random', 'crash', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+6edb9eb4f8debc204c05e271aa1540e8ca99b666,"['file', 'permission', 'user', 'sort', 'peer', 'group', 'friend', 'list', 'attribute', 'flag', 'parent', 'group', 'directory', 'share', 'manager', 'flag', 'meaning', 'order', 'browsable', 'peer', 'parent', 'group', 'backward', 'compatibility', 'browsable', 'network', 'sensitive', 'data', 'significant', 'improvement', 'flag', 'incompatible', 'type', 'sort', 'inconsistency', 'flag', 'usage', 'process', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Porous_defenses,{'sensitive data': 100}
+6f6f55c166d27fd53a01e75e3b97f20fb23f1973,"['signature', 'creation', 'security', 'pdistrib', 'creation', 'method', 'gxsviewgroup', 'service', 'http', 'code', 'retroshare', 'code', 'badcc']",General,{'security': 100}
+cc9e933362787e0d9a8cf6d364b8caa1c46956dc,"['history', 'storage', 'specify', 'long', 'store', 'cleanup', 'timeline', 'storage', 'enable', 'bdnode', 'crash', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+c518bd2f19ca30604b3ba021abb61f3f50138216,"['reference', 'postedveg', 'gxsgroupdialog', 'class', 'posteddialog', 'work', 'crash', 'reference', 'tokenqueuev', 'tokenqueue', 'rstokreqoptions', 'status', 'flag', 'http', 'code', 'retroshare', 'code', 'badcc']",General,{'crash': 100}
+b166fe0c990dcc97235fd2ce1eea2629abb74186,"['photo', 'slide', 'show', 'time', 'stamp', 'comment', 'photo', 'item', 'store', 'real', 'image', 'rsdataservice', 'stack', 'overflow', 'large', 'photo', 'http', 'code', 'retroshare', 'code', 'badcc']",Risky_resource_management,{'stack overflow': 100}
+e6db506cb24936d99d51db7b3677cabe7731b9ab,"['crash', 'memory', 'leak', 'audiowizard', 'voip', 'plugin', 'retrosshare', 'voip', 'plugin', 'qtbug', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+15caadff6b12e108451b05e544af7dc43d0a569a,"['patch', 'asamk', 'crash', 'uids', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+9049440253ea2c958781580c9a74d9d337814a85,"['crash', 'forum', 'channel', 'forum', 'channel', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+1d72bd646b69a0a08f3b61c08206db28dabb63bc,"['cert', 'format', 'security', 'page', 'switch', 'format', 'default', 'newbees', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'security': 100}
+f835e83ff9fd9b9c11df877d83f53628e77f4bb0,"['memory', 'leak', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+24b38baf6b8a59ec8d0c234b343910e79a4942b0,"['couple', 'assert', 'crash', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+ef3ae10c63878e5f7ae51996a7752c71d84b35e3,"['deadlock', 'test', 'backend', 'double', 'mutex', 'lock', 'periodic', 'print', 'bandwidth', 'control', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'deadlock': 100}
+47d652b4ec5b95f92fd5d1821afbbe0fd0e27e4f,"['possible', 'crash', 'startup', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+7e226558e4a06851c66d2d409403b046b057b46f,"['memory', 'leak', 'config', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+f000a05c0976e088d09b4e79fa46b6562b31cb9b,"['crash', 'rsloginhandler', 'fclose', 'invalid', 'file', 'http', 'code', 'retroshare', 'code', 'openpgp', 'badcc']",General,{'crash': 100}
+ef424a1e11d753868fcb2152be9982453ced9e97,"['crash', 'transfersdialog', 'trunk', 'http', 'code', 'retroshare', 'code', 'openpgp', 'badcc']",General,{'crash': 100}
+af19809ef7b448b65218b285673d56158185f421,"['crash', 'memory', 'leak', 'rsinit', 'initretroshare', 'http', 'code', 'retroshare', 'code', 'openpgp', 'badcc']",Risky_resource_management,{'memory leak': 100}
+f50edd228f7e730cd8ae41d65bf431d9d214a261,"['compile', 'window', 'type', 'file', 'check', 'file', 'pointer', 'pgphandler', 'fclose', 'passphrase', 'file', 'rsloginhandler', 'pgphandler', 'check', 'possible', 'memory', 'leak', 'http', 'code', 'retroshare', 'code', 'openpgp', 'badcc']",Risky_resource_management,{'memory leak': 100}
+94729aae4bb9d08baf58d09a70d9062696c5f708,"['avatar', 'item', 'deserialisation', 'valid', 'image', 'length', 'crash', 'window', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+c0088f3e8fd72bcb9e23f927f3bc757a400c121e,"['data', 'race', 'qobject', 'notifyqt', 'signal', 'notification', 'signal', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'data race': 100}
+ba56f5f611f0a62d406bf97c738c82dca2e53635,"['memory', 'leak', 'http', 'code', 'retroshare', 'code', 'openpgp', 'badcc']",Risky_resource_management,{'memory leak': 100}
+02a7548de4712bddcccce7bbab3b93c7dd66fdd7,"['possible', 'data', 'race', 'boolean', 'value', 'critical', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'data race': 100}
+ec501c6d6a398d23ac080361fe7ca450f83888ec,"['downloads', 'retroshare', 'exit', 'crash', 'load', 'file', 'pending', 'list', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+16501f62dda646a648169e962aa09354c47a1137,"['responsible', 'random', 'crash', 'code', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+33a37054e8dff1720354305b5cd117181d939007,"['memory', 'leak', 'http', 'code', 'retroshare', 'code', 'openpgp', 'badcc']",Risky_resource_management,{'memory leak': 100}
+117d10eb44ecb1dc905a45efab3f70453c30299e,"['crash', 'transfersdialog', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+afb0a1ba422fa804d6b040a0eb9abdc357b01555,"['stupid', 'setting', 'crash', 'plugin', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+363c7d8f412a74ecb0d5c044b92f34a915c74bda,"['character', 'file', 'name', 'crash', 'opening', 'collection', 'thanks', 'asamk', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+aa4eecf467d633b92f07074aa01d81c426345622,"['hash', 'calculation', 'lobby', 'connexion', 'challenge', 'usable', 'receiver', 'point', 'security', 'issue', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'security': 100}
+00ff694e105e79b3a6de62a906c01351a3aac9ff,"['default', 'data', 'rate', 'sensible', 'option', 'certificate', 'successful', 'creation', 'null', 'pointer', 'vector', 'data', 'vector', 'linuxism', 'radix', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'null pointer': 100}
+e9d6940b095df74601bc91023ec0b5d086e9a054,"['generic', 'method', 'item', 'generic', 'object', 'lobby', 'item', 'lobby', 'message', 'proper', 'message', 'different', 'message', 'lobby', 'message', 'public', 'lobby', 'friend', 'public', 'lobby', 'load', 'persistent', 'lobby', 'autoremove', 'inactive', 'lobby', 'warning', 'lobby', 'message', 'item', 'version', 'incompatible', 'previous', 'version', 'crash', 'message', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+85ea54395bbdf31b3efb434a9efa5c9193d73f5e,"['improvement', 'banpeers', 'pbanlist', 'service', 'interface', 'communicate', 'address', 'debug', 'pbanlist', 'addentry', 'condense', 'mutex', 'deadlock', 'improvement', 'dsdv', 'code', 'pdsdv', 'service', 'test', 'service', 'http', 'code', 'retroshare', 'code', 'dhtmods', 'badcc']",Risky_resource_management,{'deadlock': 100}
+97ed1d534fa8487644c17e0260ebd6449e7a2e28,"['download', 'partial', 'directory', 'rsdiscspace', 'class', 'lock', 'recvfiledata', 'crash', 'name', 'function', 'appropriate', 'help', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+526f71bebde1c722252c8ac07d95a374ed48ab19,"['crash', 'pqisslstore', 'readpkt', 'rsserialiser', 'deserialise', 'return', 'null', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+663ce506302c549d6196b8d686f00594fe66cf22,"['patch', 'asamk', 'crash', 'startup', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+216be04d83dcad3158b52488f802b208ab649234,"['type', 'window', 'global', 'pointer', 'delete', 'crash', 'relaunch', 'window', 'http', 'code', 'retroshare', 'code', 'netupgrade', 'badcc']",General,{'crash': 100}
+96b4651b7c7b860b0fc3416425f90b7d25d13b8c,"['type', 'security', 'http', 'code', 'retroshare', 'code', 'netupgrade', 'badcc']",General,{'security': 100}
+aa71b9320d9e535694f13eafed0a2ca90e052328,"['crash', 'forumsdialog', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+8011a55763456a8dbb05e1ed51ef5b4173060449,"['crash', 'forumsdialog', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+2efa6b5b060c3caec430c29eefe79c27da4de380,"['function', 'forumsdialog', 'qthread', 'memory', 'leak', 'thread', 'history', 'browser', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+a337941555b26bd67c07d93ff103130a9d832df8,"['attempt', 'making', 'remotedirmodel', 'intentive', 'potential', 'deadlock', 'source', 'searchdialog', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'deadlock': 100}
+f9c896c3acd0f528bd25707da3027725a19d21a0,"['crash', 'shutdown', 'retroshare', 'cache', 'pdistrib', 'thread', 'instance', 'authgpg', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+1027621e07a6f5ae492ae438f201a9d2105c11a2,"['missign', 'destructors', 'parasitic', 'memory', 'leak', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+dd73fe3a9af9fa052e424ea2fc3358a699fd37a6,"['memory', 'leak', 'rsitem', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+3ae378d9b988d06042705343df96dd3e3d94d368,"['memory', 'leak', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+c448e82987d1d6be27e12d44a03e5787a1db10f6,"['harmless', 'data', 'race', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'data race': 100}
+a1154b6935c8c333470d6b55a5e4046d370c6efe,"['memory', 'leak', 'construction', 'packet', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+8de9d39cc0754d920ddc49d6b6cb7f2c720f543c,"['memory', 'leak', 'authssl', 'item', 'pqisslstore', 'rsdir', 'rsinit', 'opendir', 'withoug', 'closedir', 'addition', 'udplayer', 'buffer', 'loop', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+a79d2a8e53d6c00c18a9f489c4b74f735977a7ef,"['memory', 'leak', 'online', 'toaster', 'avatar', 'data', 'online', 'toaster', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+dc764eaf0ed89a5ba25c805829b22ade67630b46,"['calculation', 'minimum', 'available', 'space', 'hash', 'status', 'string', 'window', 'memory', 'leak', 'hash', 'status', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+d9847e262296e9ec6f67444e1c0eb12e6440bf7f,"['deadlock', 'pconnmgr', 'libbitdht', 'stats', 'pconnmgr', 'callback', 'function', 'hold', 'lock', 'lock', 'pconnectmgr', 'lock', 'pconnmgr', 'potential', 'deadlock', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'deadlock': 100}
+b7badd980f12a6a426abe3b7cc5f7a2a8ce60ebe,"['data', 'race', 'bdnodemanager', 'iteration', 'bdnodemanager', 'incomingmsg', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'data race': 100}
+f6e4257442c7c370efe995367b072231f235502b,"['patch', 'apoapo', 'crash', 'remotedirmodel', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+2122dd8351fe3a0317903688667aa703abd90a3f,"['friend', 'storm', 'update', 'connection', 'time', 'peeritem', 'show', 'real', 'connection', 'time', 'memory', 'leak', 'peeritems', 'item', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+10aa75d2c6d7bb236763df57d89f8f2cab0f604e,"['potential', 'memory', 'leak', 'authsslimpl', 'encrypt', 'decrypt', 'case', 'error', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+c2c52a81ec8b27f8d8e8f491cc87fd1d6e9b11ef,"['crash', 'load', 'config', 'attempt', 'load', 'rsitem', 'list', 'clear', 'delete', 'item', 'attempt', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+f4bbd3e933ab5973b7353a8b3b1d69492b85a269,"['limit', 'concurrent', 'connection', 'attempt', 'window', 'hack', 'problem', 'retroshare', 'connects', 'window', 'connection', 'limit', 'concurrent', 'incomplete', 'connection', 'quote', 'stack', 'window', 'service', 'pack', 'limit', 'number', 'concurrent', 'incomplete', 'outbound', 'connection', 'attempt', 'limit', 'subsequent', 'connection', 'attempt', 'number', 'connection', 'incomplete', 'state', 'result', 'high', 'usage', 'pool', 'limit', 'result', 'error', 'system', 'german', 'erreicht', 'anzahl', 'gleichzeitiger', 'festgelegt', 'wurde', 'english', 'security', 'limit', 'number', 'concurrent', 'incomplete', 'runtime', 'retroshare', 'high', 'usage', 'pool', 'connection', 'connection', 'blue', 'screen', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'security': 100}
+fc0ff382063adc52cc5aa6a7d408ab70008ff69a,"['unread', 'state', 'channel', 'service', 'forum', 'service', 'test', 'rsitems', 'notifier', 'channel', 'channel', 'tree', 'show', 'unread', 'message', 'channel', 'tree', 'memory', 'leak', 'context', 'menu', 'show', 'tray', 'icon', 'action', 'icon', 'mainwindow', 'channel', 'message', 'available', 'recompile', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+49320c2ed9e8b2926d0d2ce724c2009c25afcc06,"['history', 'browser', 'crash', 'delete', 'history', 'item', 'load', 'message', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+baac505c153e06658bbd725e7c1415f0b06a7ecd,"['memory', 'leak', 'initretroshare', 'msgservice', 'onstructor', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+00ef48b45dab4a6fa66fe2580578287df253e93a,"['crash', 'window', 'mutex', 'rndmtx', 'rsrandom', 'seed', 'startup', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+16b1dd7eb165fcf66b14798b0892b8c3b55c83a7,"['memory', 'leak', 'pchatservice', 'peer', 'avatar', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+c4167ba0acd5bf5fcfbdb4f46d41e0d1e4b4b6ac,"['memory', 'leak', 'certificate', 'char', 'string', 'char', 'return', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+e71b1c249ffe171b8f804c28edea859fae091d4b,"['member', 'mtid', 'class', 'bdthread', 'retroshare', 'crash', 'initial', 'address', 'port', 'thread', 'udplayer', 'opensocket', 'member', 'mtid', 'udplayer', 'reset', 'load', 'configuration', 'crash', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+38be555332ff736f2319f23fe56187435be9373a,"['flag', 'retrosharelink', 'security', 'specific', 'context', 'filerequest', 'link', 'place', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'security': 100}
+de57423733dc742dff1a199071688af51579f229,"['memory', 'leak', 'context', 'menu', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+daf0ea50ee8dcfd0abfa0b69f8899f8bdd6fe290,"['peersdialog', 'messengerwindow', 'friend', 'message', 'paste', 'friend', 'retroshare', 'person', 'clipboard', 'retroshare', 'link', 'type', 'retroshare', 'person', 'name', 'hash', 'processing', 'link', 'retrosharelink', 'rslinkclipboard', 'link', 'clipboard', 'clickable', 'link', 'retrosharelink', 'processurl', 'qurl', 'retroshare', 'link', 'memory', 'leak', 'qaction', 'context', 'menu', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+36a91598840b9804533795ad5927ca22f2c6ec1f,"['compiler', 'warning', 'generalpage', 'null', 'pointer', 'false', 'decomposition', 'suspicious', 'line', 'safe', 'expression', 'problem', 'sequence', 'point', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'null pointer': 100}
+863a29fda1b8eb75953a00d4493d97cb7811b845,"['network', 'rework', 'cont', 'rework', 'authssl', 'cleanup', 'independent', 'function', 'sslfns', 'sslfns', 'certificate', 'storage', 'signdatabin', 'verifydatabin', 'memory', 'leak', 'funny', 'code', 'cert', 'pkey', 'null', 'code', 'mutex', 'usage', 'authssl', 'random', 'certificate', 'tlvsignature', 'serialiser', 'certificate', 'pdistrib', 'message', 'parameter', 'compiler', 'warning', 'libretroshare', 'compile', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+825ba0af79855cd862035565fec38913fb092633,"['memory', 'leak', 'case', 'error', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+5045e720b2fa0d48d37c5dd55d8119ba55098fca,"['harmful', 'tunnel', 'connexion', 'code', 'memory', 'leak', 'data', 'packet', 'data', 'item', 'zero', 'size', 'undetermined', 'behavior', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+531567997df3b03e5d5ddc8dfe346029ea427969,"['deadlock', 'situation', 'data', 'multiplex', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'deadlock': 100}
+19674c4d862ba7d30869099601ce849df6341dc7,"['memory', 'leak', 'authgpg', 'authgpg', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+ec6c252d62cad5134b7eb4fe3e9a28cacab027c3,"['crash', 'asserts', 'parallel', 'rsstackmutex', 'authgpg', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+0d1eaba89081765aaee7f6857987c52c1bd6224d,"['pstatusservice', 'getstatusqueue', 'memory', 'leak', 'rsitem', 'item', 'return', 'list', 'parameter', 'return', 'return', 'copy', 'list', 'necessary', 'pstatusservice', 'getstatus', 'memory', 'leak', 'item', 'list', 'rsstatusitem', 'potential', 'crash', 'unknown', 'peer', 'ppeers', 'getpeerdetails', 'authssl', 'getauthssl', 'ownid', 'ipaddresslist', 'peersdialog', 'insertpeers', 'possible', 'crash', 'child', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+2af2b056f449a1ec66f6cb46890dda9c06372b23,"['memory', 'leak', 'unnecessary', 'conversion', 'code', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+21efccfdd6c849825e526ec8d077909fa22be080,"['memory', 'leak', 'compiler', 'warning', 'memory', 'leak', 'cleanupxpgp', 'char', 'delete', 'order', 'char', 'construct', 'variable', 'type', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+0cc8fcdbacba7e8ca60d6f4c4d915e707c13fa5f,"['security', 'size', 'determination', 'file', 'list', 'suppresses', 'small', 'chain', 'reaction', 'crash', 'client', 'peer', 'file', 'list', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'security': 100}
+f7305de3020727b1e9bf6e5bc2321a668ab9845e,"['workaround', 'cache', 'system', 'file', 'size', 'result', 'division', 'zero', 'ftchunkmap', 'time', 'workaroudn', 'crash', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+48d2007f81d33a734f8a67bcd47a014d9f3c2cf6,"['messengerwindow', 'insertpeers', 'memory', 'leak', 'return', 'takechild', 'possible', 'crash', 'child', 'window', 'state', 'forgot', 'name', 'window', 'setting', 'class', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+c3c6480f4bf92a4672078c8812bac69da1b39672,"['usage', 'qmenu', 'local', 'qmenu', 'qmouseevent', 'memory', 'leak', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+48556396ee8ed6192c053dfbecffdc388ce0a1be,"['rare', 'data', 'race', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'data race': 100}
+946d09cb727cea85c6bc118940bdf46791d1bbdc,"['crash', 'endles', 'loop', 'refill', 'forum', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+b242b73f31e7aad03c0eb9185b33db68ffad3a88,"['memory', 'leak', 'ftcontroller', 'copyfile', 'buffer', 'file', 'pointer', 'leak', 'case', 'error', 'peersdialog', 'insertsendlist', 'qtreewidgetitem', 'online', 'peer', 'function', 'peersdialog', 'insertpeers', 'qtreewidgetitem', 'case', 'connection', 'pqissl', 'reset', 'return', 'intropage', 'nextid', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+faace1f322664c8a15bf3b141eac47fb44e7760b,"['memory', 'leak', 'instantiate', 'smiley', 'window', 'button', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+0c46da0dd24e55803586a29e7e5e082ee5fe899d,"['setting', 'local', 'variable', 'pointer', 'class', 'rsharesettings', 'setting', 'setting', 'value', 'memory', 'usage', 'memory', 'leak', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+465cd424633100163cc79743e833a5f4bcd77890,"['memory', 'leak', 'iptable', 'malloc', 'dwsize', 'main', 'rsharesettings', 'rsharesettings', 'extaddrfinder', 'extaddrfinder', 'free', 'pointer', 'malloc', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+a64099529882a8cf2453b5121768a94ff5f3588a,"['memomry', 'leak', 'member', 'setting', 'page', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memomry leak': 96}
+c3d92dc472a33c0e4c21bf52a59032f884d64d8d,"['source', 'code', 'maintenance', 'memory', 'leak', 'notifyqt', 'updategui', 'popup', 'message', 'toaster', 'stay', 'memory', 'pdisc', 'rsdischeartbeat', 'memory', 'leak', 'tick', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+5bb023104d582252a2e59b0ea257778f419bd642,"['source', 'code', 'maintenance', 'memory', 'leak', 'sendlinktocloud', 'addlinksdialog', 'addlinktocloud', 'addlinksdialog', 'qaction', 'createchannel', 'blogsdialog', 'openmsg', 'blogsdialog', 'createblog', 'createblog', 'blogsdialog', 'openmsg', 'blogsdialog', 'createmsg', 'createblogmsg', 'deletefeeditem', 'feed', 'item', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+4e1395a14a65b024928c68ab06be0e5ee0fe901c,"['source', 'code', 'maintenance', 'memory', 'leak', 'transfersdialog', 'inserttransfers', 'takerow', 'improvement', 'display', 'detailsdialog', 'transferdialog', 'todo', 'show', 'summary', 'transfersdialog', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+fb58beef4f26164ec6444e5939c565bc87f0301c,"['source', 'code', 'maintenance', 'memory', 'leak', 'peersdialog', 'insertpeers', 'takechild', 'activate', 'forum', 'channel', 'peersdialog', 'problem', 'static', 'method', 'activate', 'page', 'mainwindow', 'activatepage', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+8ce338c49c600291a3583f275a1eee3e6066c9ab,"['source', 'code', 'maintenance', 'memory', 'leak', 'networkdialog', 'loadcert', 'qfiledialog', 'networkdialog', 'insertconnect', 'networkdialog', 'qfiledialog', 'main', 'startdialog', 'gencertdialog', 'info', 'pointer', 'startdialog', 'qmainwindow', 'qdialog', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+78644a2441608890b2fd355a3f1c7133a161bcd2,"['harmful', 'deadlock', 'code', 'ifdef', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'deadlock': 100}
+695226301a1012b82951d785dd52d25c987c1675,"['security', 'check', 'packet', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'security': 100}
+c4de9f021983b991e3604b33c00fd71d5388edd5,"['security', 'check', 'core', 'dump', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'security': 100}
+abeb4c92ee1d3a64dfe17821866dceb332d15b62,"['free', 'delete', 'avatar', 'item', 'random', 'crash', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+38463c905e5a86cd86fa289a9389ad6650abb988,"['deadlock', 'passwd', 'callback', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'deadlock': 100}
+7b183f41a18286aad475d6a3a4f0c519c03611b9,"['deadlock', 'mutex', 'thread', 'exit', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'deadlock': 100}
+84cad6a7b0f465b6f5f6107efdc7f33ae602f48f,"['memory', 'leak', 'search', 'checkboxes', 'friend', 'list', 'file', 'work', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+dd114e54d774c52cf1007c6beb3e721ef273c5cf,"['security', 'xprogressbar', 'display', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'security': 100}
+f1a056dd93eff7ea1fae26b8883df862bf86b479,"['variable', 'lead', 'crash', 'macosx', 'semantics', 'updatedisplay', 'function', 'wrong', 'maxheight', 'pixmap', 'size', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+d9d1f15c7f5f35993f7eb0a565ef115b5da980c9,"['style', 'button', 'crash', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+a8cdbfbde116074d389971d66a4688ac8a37b37e,"['security', 'check', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'security': 100}
+3e921bb25487548540f6e3676c1529786477cc87,"['security', 'check', 'turtle', 'router', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'security': 100}
+15e3a0d075f8c44f7a1fb62e4e1ba916a2849f61,"['null', 'pointer', 'update', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'null pointer': 100}
+906cc25379ab3823f12c644fd0529ad615e23912,"['null', 'pointer', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'null pointer': 100}
+5fd9dba51562a283def51b03b949f34806a826f9,"['null', 'pointer', 'string', 'authgpg', 'certificate', 'string', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'null pointer': 100}
+02234325cc8b3dbaec637b5f4e036899bbcfc49c,"['startup', 'password', 'deadlock', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'deadlock': 100}
+38df8b54a67653da9be3bbdcb8d907f3d18b1180,"['mutex', 'lock', 'authgpg', 'deadlock', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'deadlock': 100}
+6a48284c31e712a5d52d6cd2cd1d6c4a0943e9eb,"['deadlock', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'deadlock': 100}
+ab07042510ba0e9c87a05086baccf340be567389,"['cert', 'null', 'pointer', 'reverts', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'null pointer': 100}
+af0b56836f14a7c53628b3643df343ce7150fcf1,"['cert', 'null', 'pointer', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'null pointer': 100}
+9c65c694c52e6a13cb88b47993a152d2c8a51594,"['security', 'page', 'option', 'view', 'copy', 'public', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'security': 100}
+211acc6adfc35cb64b4ee053232b3456bdd20d37,"['file', 'download', 'memory', 'leak', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+28df9841487471830c14ef7689d2251a709e3c63,"['authssl', 'openpgp', 'authentication', 'standard', 'authentication', 'base', 'openpgp', 'authenticator', 'tweak', 'debug', 'statement', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Porous_defenses,{'authentication base': 90}
+543e27a1daa1f40fabc09a599ce18e78be69678b,"['premods', 'postmods', 'function', 'signal', 'notifyqt', 'function', 'data', 'race', 'callback', 'libretroshare', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'data race': 100}
+4610d1ddac1404ccbfda7cdd8c33c769f481b4ab,"['mutex', 'protection', 'core', 'comms', 'pqihandler', 'pqipersongrp', 'mutex', 'serviceserver', 'random', 'crash', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",General,{'crash': 100}
+aee6cb85b42dacc9075679566c79bbadbe6fa715,"['bugfixes', 'file', 'extralist', 'channel', 'mutex', 'deadlock', 'check', 'filerequest', 'accumulate', 'peer', 'extralist', 'callback', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'deadlock': 100}
+3f5966f2c06177f19e760dc0c889f6e9908dacdd,"['null', 'pointer', 'noone', 'thanks', 'jarret', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'null pointer': 100}
+99aab9cea4dbf7880a0f893c88131c05df8e665b,"['memory', 'leak', 'debug', 'output', 'load', 'code', 'pface', 'server', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}
+d69c2f72f137e01bea86187b7ef69e5d4b4108dc,"['various', 'memory', 'leak', 'serialiser', 'cleanup', 'proper', 'thread', 'cleanup', 'linux', 'http', 'code', 'retroshare', 'code', 'trunk', 'badcc']",Risky_resource_management,{'memory leak': 100}

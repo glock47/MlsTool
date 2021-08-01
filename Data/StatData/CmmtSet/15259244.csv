@@ -1,13 +1,22 @@
-sha,message,catetory,matched,labels
-38d6a34dd282abfa10f7d083a3f8161f0649acea,"['buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100},
-b074af3357d610f27b6ec4f8d5a5b1056c20cd3c,"['present', 'block', 'crash']",Risky_resource_management,{'crash': 100},
-c27e0f94cccd5cc51e67a12e19114afd91fe4a3c,"['security', 'update']",General,{'security': 100},
-df65f7c5ea5d9a645de5567dc30aa68e30ecfa0d,"['security', 'update']",General,{'security': 100},
-318fa17184d430e2277b6208ddaccc301a06c695,"['security', 'dependency', 'vulnerability']",General,{'security': 100},
-12b6d924cf41d4df8e3aa88982236becfefd7116,"['mergeheader', 'access', 'request', 'control', 'cmgustavo', 'mergeheader', 'access', 'control']",Porous_defenses,{'access control': 100},
-5788f191b118d3e44e56f3767cc43f1e39dd4dc1,"['client', 'header', 'access', 'control']",Porous_defenses,{'access control': 100},
-96659894405968b856192ff1a0aaba90d7bc6f34,"['security', 'update', 'warning', 'header']",General,{'security': 100},
-9f9e2f1d41bdf0b55e1021c96985900bc8ce21e9,"['security', 'guess', 'value', 'easierwithin', 'wouldrecommend', 'interface', 'bitcore', 'difficult', 'everythingclass', 'refactor', 'auditable', 'easilycrypto', 'audit']",General,{'security': 100},
-d190067fe68c25bf5a611e415c536a4e8557f825,"['insecure', 'criticalbitpay', 'bitcore']",General,{'insecure': 100},
-92271bceeb206749ff50c83915237f733d784483,"['cebde', 'mergemaraoz', 'address', 'request', 'forkey', 'featuremethod', 'convenience']",Insecure_interaction_between_components,{'request forkey': 90},
-b141e20ec951f804507e8ff891dc35f6e110a9b9,"['cdbedmaraoz', 'bitcoind', 'request', 'crash', 'mergecrash', 'bitcoind']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+01aa0c447e754e0eae8469bb9a2a00dd1d13d9a2,['crash'],General,{'crash': 100}
+ea59b2f3170f5357f73ec20efe0dd3dd291d68f4,['crash'],General,{'crash': 100}
+d256e5ca2dd4c0984d8a3451fa45e599d27f4985,"['node', 'stream', 'memory', 'leak', 'event', 'emitter', 'event', 'emitter', 'line', 'intention']",Risky_resource_management,{'memory leak': 100}
+b074af3357d610f27b6ec4f8d5a5b1056c20cd3c,"['crash', 'block', 'page', 'scriptsig']",General,{'crash': 100}
+c27e0f94cccd5cc51e67a12e19114afd91fe4a3c,"['security', 'update']",General,{'security': 100}
+9b4d2967499e1012ad2b29572f94b5a506e9b977,"['pull', 'request', 'nitsujlangston', 'dependency', 'security', 'vulnerability']",General,{'security': 100}
+df65f7c5ea5d9a645de5567dc30aa68e30ecfa0d,"['security', 'update']",General,{'security': 100}
+318fa17184d430e2277b6208ddaccc301a06c695,"['dependency', 'security', 'vulnerability']",General,{'security': 100}
+b024e7e2d06b6a1e8e20616040c311a1b5ced6b3,"['pull', 'request', 'sonicwizard', 'master', 'memory', 'leak', 'clearing', 'interval']",Risky_resource_management,{'memory leak': 100}
+31de1cb1334bf3eee033d30b73fd892ba517a45a,"['memory', 'leak', 'clearing', 'interval']",Risky_resource_management,{'memory leak': 100}
+51faf1acf37376fc0b322bab33f78954b3796d38,"['update', 'storage', 'mongodb', 'credential', 'security', 'reason']",General,{'security': 100}
+12b6d924cf41d4df8e3aa88982236becfefd7116,"['pull', 'request', 'cmgustavo', 'access', 'control', 'header', 'access', 'control', 'header']",Porous_defenses,{'access control': 100}
+5788f191b118d3e44e56f3767cc43f1e39dd4dc1,"['access', 'control', 'header', 'client']",Porous_defenses,{'access control': 100}
+05e5c37230faebe3748e62b66b4ececa5ec0a78c,"['frelay', 'param', 'version', 'request', 'optional', 'rangeerror', 'index', 'range', 'crash', 'node', 'bitcore', 'relay', 'property', 'peer', 'object', 'version', 'message']",General,{'crash': 100}
+96659894405968b856192ff1a0aaba90d7bc6f34,"['update', 'header', 'security', 'warning']",General,{'security': 100}
+9f9e2f1d41bdf0b55e1021c96985900bc8ce21e9,"['byte', 'byte', 'security', 'implication', 'guess', 'value', 'byte', 'range', 'private', 'cryptography', 'interface', 'bitcore', 'code', 'difficult', 'little', 'benefit', 'refactor', 'crypto', 'auditable', 'bignum', 'point', 'ecdsa', 'class', 'audit', 'crypto']",General,{'security': 100}
+d190067fe68c25bf5a611e415c536a4e8557f825,"['critical', 'insecure', 'http', 'github', 'bitpay', 'bitcore', 'pull']",General,{'insecure': 100}
+ba692aaa20841e3d41d902578fb16d0f74d1ea05,"['securerandom', 'class', 'random', 'number', 'getrandombuffer', 'method', 'insufficient', 'entropy', 'class']",Porous_defenses,{'insufficient entropy': 100}
+b141e20ec951f804507e8ff891dc35f6e110a9b9,"['pull', 'request', 'maraoz', 'bitcoind', 'crash', 'bitcoind', 'crash']",General,{'crash': 100}
+39cd42bedc7b7825b4b1830e89fef5b1a176079c,"['bitcoind', 'crash']",General,{'crash': 100}
+5fdd7ded14da3927fe6f8d56703e7075e6d2fba3,"['util', 'encfile', 'wallet', 'file', 'format', 'gain', 'hmac', 'checksum', 'standard', 'security', 'practice', 'encrypt']",General,{'security': 100}

@@ -1,29 +1,79 @@
-sha,message,catetory,matched,labels
-bcf5275a01557fbd114d5969c3dccc582a656088,"['prediction', 'crash']",Risky_resource_management,{'crash': 100},
-98ce107e954edee0453ea86356fc658b9e232566,"['pseye', 'video', 'crash', 'error']",Risky_resource_management,{'crash': 100},
-c1ae0d8f66746cca27d6758d3fa2563204c4e8f5,"['cmake', 'enablestartup', 'qfusion', 'crash']",Risky_resource_management,{'crash': 100},
-bc179804008c05821bccf52482eeee11ddb7f465,"['potential', 'crash', 'process']",Risky_resource_management,{'crash': 100},
-48b80fb28b9e6e44267c9d1edb8a9968ff81fea5,"['deadlock', 'tracker', 'point', 'buffer', 'color', 'extract']",Risky_resource_management,{'deadlock': 100},
-f8e54403c3c30bf87491d310afd827a2d7cb7f16,"['video', 'crash', 'opencv', 'backends', 'obscureissue']",Risky_resource_management,{'crash': 100},
-0fa7b7372c80edc40c5ec140b665a21ebad6bba2,"['accela', 'overrun', 'buffer', 'filterclang']",Risky_resource_management,{'overrun': 100},
-7994c4141367eb5f0128d2bbc2ab9abe96f00a2d,"['window', 'crash']",Risky_resource_management,{'crash': 100},
-1b01642dda7ae8bbf3e74a979ffcf7941a8ae2b9,"['option', 'refcount', 'usingremove', 'deleter', 'custom', 'simplifies', 'orderingscope', 'crash', 'thing', 'static']",Risky_resource_management,{'crash': 100},
-e712a6eea96d381d2f1e3c0f8328d870321b31de,"['deadlock', 'compat', 'curthread', 'conditionalwayscurthread', 'removedreference', 'rvalue']",Risky_resource_management,{'deadlock': 100},
-fc24671937724beb3fde6c6edfc1c124fbb0ef75,"['crash', 'filter']",Risky_resource_management,{'crash': 100},
-6844ab95d9e1908831e97df4db9fdc7776e34489,"['tracker', 'sinceminor', 'crash', 'includeemton', 'reportedemton']",Risky_resource_management,{'crash': 100},
-fda9c90a547a88861d167a1c37beb40bd457018c,"['tracker', 'camerastart', 'quick', 'crash', 'filter']",Risky_resource_management,{'crash': 100},
-4cc0ce7fd0e55b5f7c13d63defdb127f189c25a5,"['option', 'compat', 'overload', 'qobject', 'connection', 'thread', 'target', 'crash', 'anomalysafety', 'invariant', 'thread', 'crashautoconnection']",Risky_resource_management,{'crash': 100},
-841b33bd05d384c0f3a642ee2ad2c78bf98e876c,"['shortcut', 'linux', 'crash']",Risky_resource_management,{'crash': 100},
-cdbe9e8ea3283dde4667098e8b35f09b94cbcfc4,"['camera', 'dialog', 'crash', 'conditioncapture', 'threesecond']",Risky_resource_management,{'crash': 100},
-8d85ec4d3107c4c9868c12cc04fbc518e5fede17,"['qlibrary', 'crash', 'simconnect']",Risky_resource_management,{'crash': 100},
-6aa89934e8f22a580dc8a63cec61fb9ea9d14f23,"['crash', 'simconnect']",Risky_resource_management,{'crash': 100},
-aa0549fd18134f5d8fc4046ab32b46352ad379a3,"['crash', 'highgui', 'opencv', 'close', 'startup']",Risky_resource_management,{'crash': 100},
-8574e7e62a9675eeed2de06d3f8af08044fe5176,"['setting', 'crash', 'filter']",Risky_resource_management,{'crash': 100},
-d8ef79a624305605ae18051315ef111b20d875e0,"['startup', 'crash']",Risky_resource_management,{'crash': 100},
-d74b99391bbdfb25f9559834082ae7ee6d30720d,"['decruft', 'crash']",Risky_resource_management,{'crash': 100},
-d6855de1a83fd54c43384de218d61252de7a7a1b,"['double', 'float', 'crash']",Risky_resource_management,{'crash': 100},
-985f2199c8ae3879d831a43ca0b92633eccc1855,"['crash', 'linux']",Risky_resource_management,{'crash': 100},
-04095d79a2c6079fb6018807ce1f5133b67655e4,"['potential', 'crash']",Risky_resource_management,{'crash': 100},
-9cc964b09e2b6076ad759485022dfdc48a22d9e1,"['frame', 'crash']",Risky_resource_management,{'crash': 100},
-22cf655f0b1380cb0e948302f4a73bbfb5ec919b,"['crash', 'ftreportname', 'delphi', 'translationfacetracknoir']",Risky_resource_management,{'crash': 100},
-56286cb8e5f2e9b1b8808da79ac9c26d64698d0d,"['crash', 'mergefacetracknoir']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+bcf5275a01557fbd114d5969c3dccc582a656088,['crash'],General,{'crash': 100}
+9a959381f412bbc8e761cdceb9237aa5ba664e48,"['revert', 'video', 'pseye', 'reset', 'sensor', 'crash', 'timer', 'subsystem', 'reverts']",General,{'crash': 100}
+98ce107e954edee0453ea86356fc658b9e232566,"['video', 'pseye', 'crash', 'error', 'path']",General,{'crash': 100}
+c1ae0d8f66746cca27d6758d3fa2563204c4e8f5,"['enable', 'rtti', 'rtti', 'lead', 'crash', 'qfusion', 'startup']",General,{'crash': 100}
+ea7386f9f98075905bf92fdfc030451ead3ed2e0,"['easy', 'crash', 'quick', 'exit', 'crash', 'destroywindow', 'tracker', 'tick']",General,{'crash': 100}
+9e036ed903406f11d875bf73b459222b6b051a28,"['race', 'crash', 'exit', 'destroywindow', 'imshow', 'progress', 'thread', 'moreover', 'waitkey', 'work', 'check', 'preview', 'enablement', 'crash', 'destroywindow']",General,{'crash': 100}
+f8e54403c3c30bf87491d310afd827a2d7cb7f16,"['video', 'opencv', 'crash', 'obscure', 'backends', 'issue']",General,{'crash': 100}
+3e56f47a9cef709d4a099a0ac6ff43e361fe4a43,"['easy', 'tracker', 'rework', 'custom', 'model', 'vertex', 'setting', 'restart', 'tracker', 'deadlock', 'issue']",Risky_resource_management,{'deadlock': 100}
+70156963a8f65d21231de88460e6559bd78f770c,"['massive', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+997df9f3cbc9ef04c666e404b96ac4b02097b4f3,"['basic', 'video', 'preview', 'massive', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+07b45ca4578ccaed91f7f3c70e82dc7ffbdf47ab,"['spline', 'deadlock', 'logic', 'error', 'wrong', 'bundle', 'accela', 'spline']",Risky_resource_management,{'deadlock': 100}
+fd3eb4515639e000b899544827b5fd4ff9473937,"['init', 'xinitthreads', 'function', 'enable', 'thread', 'obsolete', 'mini', 'place', 'arbitrary', 'crash']",General,{'crash': 100}
+25b7bf6a9750f92bd75850740002d32dcf08470e,"['tracker', 'mingw', 'module', 'warning', 'module', 'warning', 'memset', 'struct', 'return', 'null', 'pointer', 'dependence', 'msvc', 'specific', 'pragmas', 'external', 'library', 'lack', 'header', 'guard', 'usage', 'trigraph', 'syntax', 'warning', 'wiiyourself', 'library', 'possible', 'patch', 'code', 'quality', 'awful', 'builtin', 'debug', 'functionality', 'usage']",Risky_resource_management,{'null pointer': 100}
+0fa7b7372c80edc40c5ec140b665a21ebad6bba2,"['filter', 'accela', 'buffer', 'overrun', 'clang', 'analyzer', 'clazy', 'clang', 'tidy']",Risky_resource_management,{'overrun': 100}
+9df0a0cf266cf1afac8170ca36aadbf2e5014191,"['tracker', 'work', 'thread', 'need', 'crash']",General,{'crash': 100}
+7994c4141367eb5f0128d2bbc2ab9abe96f00a2d,"['main', 'window', 'crash', 'tray']",General,{'crash': 100}
+a2ec81696de98151bfdf1913042a739ef6d8a36c,"['contrib', 'npclient', 'dataid', 'race', 'race', 'freetrack', 'protocol', 'http', 'github', 'opentrack', 'opentrack', 'issue', 'issuecomment']",Risky_resource_management,{'dataid race': 90}
+4a2d23c14089cb98901e3df535037f7d8095e9a7,"['main', 'workaround', 'crash', 'exit']",General,{'crash': 100}
+52e73f03f27104c094a9b8e66076a9c593a3c869,"['plane', 'buffer', 'overflow', 'lock', 'release', 'logic']",Risky_resource_management,{'buffer overflow': 100}
+45e6b4f1539b4ed68ff1d4136897827111d00396,"['tracker', 'sbot', 'double', 'leaf', 'compatibility', 'sender', 'software', 'buffer', 'overflow', 'index', 'array', 'mutex', 'scope', 'necessary', 'code', 'copy', 'freepie', 'tracker', 'buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100}
+e7cdb5b6a0e0152297369d57774caae307e1be77,"['tracker', 'test', 'quick', 'crash', 'application']",General,{'crash': 100}
+007f8c41475ddbad34f29593bf0b744ebbca4a2a,"['coverity', 'main', 'implausible', 'null', 'pointer', 'dereference', 'guard', 'null', 'improbable', 'case', 'path', 'variable', 'process', 'environment']",Risky_resource_management,{'null pointer': 100}
+ef9f0f7a29b0e11646030e1a8455740e442f0def,"['coverity', 'dinput', 'possible', 'null', 'pointer', 'dereference']",Risky_resource_management,{'null pointer': 100}
+77cf9ec80947da8d82f8a9d514c98595765454d6,"['tracker', 'crash', 'resize', 'hotfix', 'bust']",General,{'crash': 100}
+1b01642dda7ae8bbf3e74a979ffcf7941a8ae2b9,"['option', 'bundle', 'refcount', 'custom', 'deleter', 'cleanup', 'simplifies', 'code', 'crash', 'object', 'scope', 'main', 'qapplication', 'argc', 'argv', 'thing', 'static', 'destructors']",General,{'crash': 100}
+e712a6eea96d381d2f1e3c0f8328d870321b31de,"['deadlock', 'race', 'scope', 'case', 'signal', 'true', 'empty', 'cvar', 'false', 'cvar', 'notification', 'arrives', 'course', 'semaphore', 'code', 'mutex', 'base', 'curthread', 'condition', 'curthread', 'code', 'path', 'rvalue', 'reference']",Risky_resource_management,{'deadlock': 100}
+24117ee74b7c4dfd982af9b94915cba505fd64e6,"['main', 'crash', 'exit']",General,{'crash': 100}
+fc24671937724beb3fde6c6edfc1c124fbb0ef75,"['crash', 'filter']",General,{'crash': 100}
+6844ab95d9e1908831e97df4db9fdc7776e34489,"['tracker', 'aruco', 'crash']",General,{'crash': 100}
+fda9c90a547a88861d167a1c37beb40bd457018c,"['tracker', 'delay', 'camera', 'filter', 'crash']",General,{'crash': 100}
+29406db336d00a223fec9035044a5ca46ade1d3f,"['camera', 'setting', 'tech', 'camera', 'crash', 'issue']",General,{'crash': 100}
+18393d3579d01c20e6536dcd60010e49babfaa47,"['cmake', 'link', 'highgui', 'runtime', 'crash']",General,{'crash': 100}
+24d1898c41fd559279827b64cc16dabeb132b0e1,"['main', 'msvc', 'crash', 'exit', 'load', 'plugins', 'install', 'prefix', 'main', 'exit', 'unloads', 'qgif', 'crash', 'install', 'prefix', 'plugins', 'directory', 'content']",General,{'crash': 100}
+31ee772e33e7f46dd4734e3014699f56e8d2c517,"['crash', 'exit', 'msvc', 'damichel', 'http', 'github', 'damichel', 'opentrack']",General,{'crash': 100}
+8b9f88d4ed1482ed508826801e559962970dbc96,"['tracker', 'aruco', 'crash', 'opencv', 'update', 'matrix', 'element', 'type', 'requirement', 'opencv', 'update', 'switch', 'matrix', 'function', 'readability', 'member', 'local', 'ensure', 'heap', 'allocation', 'breakage', 'unknown', 'element', 'type', 'release', 'mode', 'symbol', 'fstack', 'protector', 'show', 'error', 'kblomster', 'look', 'fipa', 'miscompilation', 'kblomster', 'issue']",General,{'crash': 100}
+4cc0ce7fd0e55b5f7c13d63defdb127f189c25a5,"['compat', 'option', 'auto', 'connection', 'type', 'context', 'object', 'qobject', 'enum', 'support', 'connection', 'target', 'thread', 'silent', 'meantime', 'crash', 'thread', 'safety', 'invariant', 'immediate', 'crash', 'beforehand']",General,{'crash': 100}
+f36c13846be43cd54f3000cb48a04d02da1d8730,"['tracker', 'crash', 'true', 'case', 'protocol', 'failure']",General,{'crash': 100}
+841b33bd05d384c0f3a642ee2ad2c78bf98e876c,"['shortcut', 'crash', 'linux']",General,{'crash': 100}
+6319cc457adf63c55920963a7a7cbb1398b8bbac,"['potential', 'memory', 'leak', 'valgrind', 'setmenu', 'ownership', 'qmenu', 'ensure']",Risky_resource_management,{'memory leak': 100}
+3d78a3cb97ed470f331c5cdf7a3f3b2714a92f78,"['plug', 'race', 'camera', 'release', 'crash']",General,{'crash': 100}
+513ef3ab3ad8231b783905f7ddd7a83d6ef1ae1f,"['cleanup', 'data', 'race']",Risky_resource_management,{'data race': 100}
+cdbe9e8ea3283dde4667098e8b35f09b94cbcfc4,"['camera', 'dialog', 'crash', 'race', 'condition', 'idea']",General,{'crash': 100}
+8d85ec4d3107c4c9868c12cc04fbc518e5fede17,"['qlibrary', 'static', 'crash']",General,{'crash': 100}
+6aa89934e8f22a580dc8a63cec61fb9ea9d14f23,['crash'],General,{'crash': 100}
+c759dc6f494b45fc4a9b4a7f5dbd4ff9e24e0b43,"['crash', 'msvc']",General,{'crash': 100}
+44d0136cb4b532c957d6c037ea6a862a1e371cd9,"['crash', 'dlopen']",General,{'crash': 100}
+1661572fcc8eed78d5cb20edf5e8478d4616ce36,"['opencv', 'videoio', 'deactivate', 'file', 'cmake', 'pragma', 'crash', 'dshow', 'machinery', 'libovr', 'duplicate', 'symbol', 'error']",General,{'crash': 100}
+409a7a1741e8849cf1560b5130952d82c20a12d5,"['fipa', 'aruco', 'crash']",General,{'crash': 100}
+b99efdf3196bb7687dd4ad8f188d9e2ec12f0683,"['delete', 'qlibrary', 'force', 'unload', 'issue', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+aa0549fd18134f5d8fc4046ab32b46352ad379a3,"['crash', 'startup', 'close', 'opencv', 'highgui', 'libvl']",General,{'crash': 100}
+8574e7e62a9675eeed2de06d3f8af08044fe5176,"['crash', 'filter', 'setting', 'filter']",General,{'crash': 100}
+d8ef79a624305605ae18051315ef111b20d875e0,"['crash', 'startup']",General,{'crash': 100}
+e79d33c5eeecf12d6777fe2d5619f1e5d6c782c2,"['crash', 'exit']",General,{'crash': 100}
+d74b99391bbdfb25f9559834082ae7ee6d30720d,"['decruft', 'crash']",General,{'crash': 100}
+041d34fe4eb2f3cde6bab9313c6c2f63e3db4776,"['data', 'race', 'atomic', 'usage', 'window', 'grabbing', 'exchange', 'method', 'atomic', 'fashion', 'stanislaw', 'halik', 'sthalik', 'misaki']",Risky_resource_management,{'data race': 100}
+de354eaca23e275386b3b2365cb4d4e0531377e1,"['hatire', 'tracker', 'hatire', 'tracker', 'obvious', 'crash', 'line', 'data', 'long', 'code', 'contains', 'arbitrary', 'offset', 'dereference', 'obvious', 'code', 'compile']",General,{'crash': 100}
+80c43ba62517d1228423f9d1992999edda612616,"['revert', 'crash', 'float', 'double', 'reverts']",General,{'crash': 100}
+d6855de1a83fd54c43384de218d61252de7a7a1b,"['crash', 'float', 'double']",General,{'crash': 100}
+5d51487b70a07f1853f1cbcf84ac5eb635e38bbe,"['crash', 'rift']",General,{'crash': 100}
+502daa65f45952893060a70f5f95d1626d53050a,"['crash', 'camera', 'lackage', 'issue', 'stanislaw', 'halik', 'sthalik', 'misaki']",General,{'crash': 100}
+8c762f5143efe2cc3437ae5b3d8d5159c6593957,"['aruco', 'crash', 'exit', 'stanislaw', 'halik', 'sthalik', 'misaki']",General,{'crash': 100}
+66a84f555958a47dbaff4c3fb6898f02122b5006,"['crash', 'macosx', 'stanislaw', 'halik', 'sthalik', 'misaki']",General,{'crash': 100}
+ef0d7dcf585a7a6b807d2a287dfbdc59657a30cc,"['potential', 'crash', 'stanislaw', 'halik', 'sthalik', 'misaki']",General,{'crash': 100}
+25e19a66f165835816034d61e98801312b91a4a3,"['rift', 'crash', 'device', 'stanislaw', 'halik', 'sthalik', 'misaki']",General,{'crash': 100}
+60519897a43be9aba177f6a0f542851510322c8e,"['google', 'breakpad', 'crash', 'dump', 'stanislaw', 'halik', 'sthalik', 'misaki']",General,{'crash': 100}
+f50036627c4175ad307552fa40a78042934139f2,"['camera', 'name', 'crash', 'stanislaw', 'halik', 'sthalik', 'misaki']",General,{'crash': 100}
+c58db6e1df2a47bd10bcbd82624604d05ccd28b3,"['update', 'libovr', 'crash', 'device', 'stanislaw', 'halik', 'sthalik', 'misaki', 'absence', 'mmzct']",General,{'crash': 100}
+747dcf7cfbc2498312bdcdbd89eb741493dfb44b,"['tracker', 'protocol', 'filter', 'dialog', 'modal', 'tracker', 'protocol', 'filter', 'combobox', 'free', 'nasty', 'crash']",General,{'crash': 100}
+8b4061609304743e4082e02f8c91e5ba0fd3c2a3,"['data', 'race', 'tracker', 'thread']",Risky_resource_management,{'data race': 100}
+985f2199c8ae3879d831a43ca0b92633eccc1855,"['linux', 'crash', 'dead', 'code']",General,{'crash': 100}
+0275a4a171d49229cf7987cafa94adf525f1787b,"['plug', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+04095d79a2c6079fb6018807ce1f5133b67655e4,"['potential', 'crash']",General,{'crash': 100}
+9cc964b09e2b6076ad759485022dfdc48a22d9e1,"['crash', 'video', 'frame']",General,{'crash': 100}
+22cf655f0b1380cb0e948302f4a73bbfb5ec919b,"['translation', 'delphi', 'crash', 'arma', 'ftreportname', 'work', 'code', 'facetracknoir', 'code', 'edfb']",General,{'crash': 100}
+f0272ffb89f7197b706b395728c4f885f24c9b33,"['bugfix', 'crash', 'code', 'facetracknoir', 'code', 'edfb']",General,{'crash': 100}
+56286cb8e5f2e9b1b8808da79ac9c26d64698d0d,"['crash', 'code', 'facetracknoir', 'code', 'edfb']",General,{'crash': 100}
+10cd8cb106639b82b53be4726e8e6d7e9922b524,"['memory', 'leak', 'code', 'facetracknoir', 'code', 'edfb']",Risky_resource_management,{'memory leak': 100}
+63ce1b5dc62e5c1a079f8a675c0a4371adb27d29,"['headpose', 'data', 'crash', 'update', 'timer', 'code', 'facetracknoir', 'code', 'edfb']",General,{'crash': 100}

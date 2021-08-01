@@ -1,13 +1,18 @@
-sha,message,catetory,matched,labels
-9d72aa2cd04e9efcc3395644f21f20a4a2d6e927,"['security', 'developer', 'github']",General,{'security': 100},
-6358e7e7264944f4ca3e4ba47139efb5f0c5ba1f,"['security', 'upgrade', 'vulnerability']",General,{'security': 100},
-4cf468b5135e78858d8cc30f97024aba316d2ec5,"['vulnerability', 'security', 'dependency']",General,{'security': 100},
-975466e5c07c5f5043f9af60fa48b1282b2c66e8,"['filter', 'crash', 'value', 'liquid', 'input']",Risky_resource_management,{'crash': 100},
-0bcca18c18fd5c98011368ffe298ecaf421d531c,"['security', 'account', 'point', 'conflict', 'suite']",General,{'security': 100},
-34bc455d7d20635cbc0dd6c5ab88fa1eeab1ea9f,"['liquid', 'crash']",Risky_resource_management,{'crash': 100},
-360ee73e1b781be84c1bdaf8445d58e95d6f35d7,"['security', 'consume']",General,{'security': 100},
-f6827bce08109dd986a5034545c021eb95767c1d,"['liquid', 'security']",General,{'security': 100},
-4d9495daefc86c08788a669eb1853dd66e91656e,"['bulgarian', 'crash', 'office', 'javascript', 'locale']",Risky_resource_management,{'crash': 100},
-0534c5504fdc3eb3a6e04da72a91a5136c9b49fa,"['message', 'flash', 'crash']",Risky_resource_management,{'crash': 100},
-7dac567cbcca3b466a505f8acc486a004cf3c09c,"['security', 'theme', 'visible', 'asset', 'reason']",General,{'security': 100},
-6b0dafc2233a8ee711c8f5bbe074f339fb93aa70,"['content', 'refactor', 'option', 'complete', 'translation', 'security', 'english']",General,{'security': 100},
+sha,message,catetory,matched
+9d72aa2cd04e9efcc3395644f21f20a4a2d6e927,"['github', 'security', 'developer', 'machine']",General,{'security': 100}
+6358e7e7264944f4ca3e4ba47139efb5f0c5ba1f,"['upgrade', 'couple', 'security', 'vulnerability']",General,{'security': 100}
+c1409652806a40ce7422ee79d36f67bdb795cbc4,"['memory', 'leak', 'open', 'window', 'picker']",Risky_resource_management,{'memory leak': 100}
+4cf468b5135e78858d8cc30f97024aba316d2ec5,"['security', 'vulnerability', 'dependency']",General,{'security': 100}
+88a1c3bb7ced136e5e76436a8b4a4eb1b3163cf5,"['expose', 'sensitive', 'data', 'account']",Porous_defenses,{'sensitive data': 100}
+975466e5c07c5f5043f9af60fa48b1282b2c66e8,"['liquid', 'filter', 'crash', 'value', 'input']",General,{'crash': 100}
+0bcca18c18fd5c98011368ffe298ecaf421d531c,"['test', 'suite', 'name', 'conflict', 'security', 'site', 'account', 'point']",General,{'security': 100}
+34bc455d7d20635cbc0dd6c5ab88fa1eeab1ea9f,"['crash', 'source']",General,{'crash': 100}
+360ee73e1b781be84c1bdaf8445d58e95d6f35d7,"['rail', 'security', 'consume', 'work']",General,{'security': 100}
+f6827bce08109dd986a5034545c021eb95767c1d,"['method', 'liquid', 'drop', 'security', 'hole']",General,{'security': 100}
+4d9495daefc86c08788a669eb1853dd66e91656e,"['bulgarian', 'locale', 'crash', 'javascript']",General,{'crash': 100}
+d90123e3212dfbd4dba6bd95ec2d9ecd68ec47e6,"['public', 'form', 'csrf', 'attack']",Insecure_interaction_between_components,{'csrf': 100}
+0534c5504fdc3eb3a6e04da72a91a5136c9b49fa,"['crash', 'flash', 'message', 'resource', 'page']",General,{'crash': 100}
+09171555a76f6abca3e599b0b0cb6818b5a2323a,"['csrf', 'issue', 'tinymce', 'ajax', 'action', 'work', 'role', 'cancan', 'progress']",Insecure_interaction_between_components,{'csrf': 100}
+7dac567cbcca3b466a505f8acc486a004cf3c09c,"['show', 'hide', 'font', 'theme', 'asset', 'security', 'reason']",General,{'security': 100}
+b7e1cd092606b44fe811309fad69abf9464d8bc8,"['category', 'content', 'type', 'cross', 'site', 'session', 'meta', 'description', 'site', 'clean', 'code']",Insecure_interaction_between_components,{'cross site': 100}
+6b0dafc2233a8ee711c8f5bbe074f339fb93aa70,"['refactor', 'complete', 'translation', 'english', 'security', 'option', 'content', 'type']",General,{'security': 100}

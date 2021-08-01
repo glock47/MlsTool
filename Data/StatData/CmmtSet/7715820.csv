@@ -1,9 +1,40 @@
-sha,message,catetory,matched,labels
-825fe4ae58e169f92ce940b672054e9fbdefb1ad,"['script', 'input', 'custom', 'crash']",Risky_resource_management,{'crash': 100},
-d4cfb5bb4ba94199871475c3faea015670a53fda,"['dialog', 'error', 'crash']",Risky_resource_management,{'crash': 100},
-65eb9b7505253df8df9737289ba13c4ee83bb4b7,"['script', 'crash']",Risky_resource_management,{'crash': 100},
-96d8a23fde4955e79fd0bd7a538b7c3b51a04263,"['script', 'crash']",Risky_resource_management,{'crash': 100},
-f65dc350364d1ae0898ad26941804176cfabf149,"['argument', 'memcpy', 'crash']",Risky_resource_management,{'crash': 100},
-1b425c7bd0a2e424c2e5a7488334748d0cce9b8f,"['entry', 'crash', 'deletingcustom']",Risky_resource_management,{'crash': 100},
-10cdd0e48e936d9c35ee3446e2540c4636c814aa,"['empty', 'crash']",Risky_resource_management,{'crash': 100},
-169c05cc1529d3165aaa5d14a41e45db6a75b48a,"['history', 'crash']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+c3e70d4e1abd3d0b75a6c0dfeca56179b18b77cf,"['update', 'helper', 'prefix', 'regex', 'memory', 'leak', 'prefix', 'regex', 'memory', 'leak', 'francis', 'oxfrancis', 'outlook']",Risky_resource_management,{'memory leak': 100}
+24dde5801930342a177457ad862b375884630840,"['pango', 'markup', 'window', 'format', 'pango', 'markup', 'window', 'format', 'sure', 'role', 'null', 'code', 'address', 'review', 'comment', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+f63da72ea6fab13279e0fe437929ce4434f63c9f,"['dmenu', 'possible', 'crash', 'empty', 'string', 'issue']",General,{'crash': 100}
+825fe4ae58e169f92ce940b672054e9fbdefb1ad,"['script', 'crash', 'custom', 'input', 'custom']",General,{'crash': 100}
+618d1396eefea6ea26d954e44015c1fa422801f3,"['issue', 'issue', 'listview', 'widget', 'tree', 'code', 'textbox', 'icon', 'typo', 'wrong', 'widget', 'offset', 'textbox', 'mouse', 'column', 'boolean', 'option', 'listview', 'inversion', 'option', 'listview', 'code', 'textbox', 'null', 'pointer', 'width', 'listview', 'crasher', 'element', 'backwards', 'compatibility', 'listview', 'structure', 'scrollbar', 'test', 'test', 'theme', 'update']",Risky_resource_management,{'null pointer': 100}
+964af7ad358ed948209858fc0621266df3bb611e,"['drun', 'small', 'memory', 'leak', 'desktop', 'file']",Risky_resource_management,{'memory leak': 100}
+0dfc671bcc9fa74f6c999399e507da429a7098cb,"['grammarparser', 'memory', 'leak', 'property', 'config', 'entry']",Risky_resource_management,{'memory leak': 100}
+b77a48c628b5cd6a2c1c939e2f813542c7255030,"['test', 'initialize', 'char', 'mode', 'test', 'test', 'initialize', 'char', 'mode', 'test', 'undefined', 'behavior', 'test', 'pointer', 'null', 'test', 'failure', 'fedora', 'setting', 'pointer', 'null', 'pointer', 'empty', 'string', 'behavior', 'test', 'architecture', 'mode', 'input', 'pointer', 'check', 'check', 'input', 'char', 'input', 'point', 'null', 'input', 'null', 'test', 'char', 'input', 'modifiable', 'function', 'modifiable', 'char', 'initialize', 'argument']",Risky_resource_management,{'null pointer': 100}
+d4cfb5bb4ba94199871475c3faea015670a53fda,"['crash', 'error', 'dialog', 'test']",General,{'crash': 100}
+a81e96fee7e17f0abe04da306b781f3e93328c48,"['small', 'memory', 'leak', 'history']",Risky_resource_management,{'memory leak': 100}
+65eb9b7505253df8df9737289ba13c4ee83bb4b7,"['crash', 'script', 'modi']",General,{'crash': 100}
+96d8a23fde4955e79fd0bd7a538b7c3b51a04263,"['crash', 'script', 'modi']",General,{'crash': 100}
+d6af6d29fcac2b962f85abbf9e2d069d2a258896,"['small', 'memory', 'leak', 'theme', 'config', 'parser']",Risky_resource_management,{'memory leak': 100}
+27339bf9bfebe34539ace0a27f67aa947f8540f2,"['possible', 'buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100}
+898b5466f0ba83dbe098ca40bf0d3bdda47f5033,"['memory', 'leak', 'parser']",Risky_resource_management,{'memory leak': 100}
+e3af1efaef75dba3104edc2b75c99bb37cff2534,['crash'],General,{'crash': 100}
+ed6cb59b5d6122295c640c95b6103a9a4fa02589,"['crash', 'viewstate', 'teto']",General,{'crash': 100}
+7b3b68462e039d540ad029d94c3b8fb876887472,"['memory', 'leak', 'listview', 'widget', 'target', 'ggcov', 'lcov']",Risky_resource_management,{'memory leak': 100}
+0e176199fcc05cf0eac3d43e0e4d9e679a74960c,"['possible', 'null', 'pointer', 'dereference', 'clang', 'check']",Risky_resource_management,{'null pointer': 100}
+3c64507f02b36a541c9893dd21b0a45e19a8ba9e,"['widget', 'initial', 'support', 'capitalization', 'consistent', 'widget', 'subdirectory', 'resize', 'function', 'small', 'cleanup', 'mode', 'reuse', 'view', 'reduces', 'artifact', 'need', 'argument', 'simplify', 'switcher', 'code', 'notion', 'parent', 'trigger', 'parent', 'update', 'resize', 'wrapper', 'crash', 'size', 'separator', 'width', 'height', 'indent', 'todo', 'version', 'listview', 'scrollbar', 'listview', 'widget', 'option', 'global', 'config', 'widget', 'listview', 'access', 'global', 'config', 'click', 'support', 'mode', 'button', 'introduce', 'mouse', 'list', 'view', 'todo', 'draggin', 'scrollbar', 'multi', 'select', 'warning']",General,{'crash': 100}
+ce822a3bbf9f5cae61739b1eb34636c50e0f8920,"['memory', 'leak', 'dialog']",Risky_resource_management,{'memory leak': 100}
+90c6c1125fd809ce153720e52796b06dc3707f17,"['memory', 'leak', 'overlay', 'widget']",Risky_resource_management,{'memory leak': 100}
+604b4cb6192192a0ce68b1a24a630e9775134fb1,"['memory', 'leak', 'indent']",Risky_resource_management,{'memory leak': 100}
+85d95c4f8f2553b1a354de3cd9ddb311258729b5,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+7c9f5e01fd3250cfe1c9bcb83f1d87038fe867b5,"['test', 'crash']",General,{'crash': 100}
+cbf625ec9fe2603457e900639d0b84de0bd99bd6,"['crash', 'echo', 'error', 'stderr']",General,{'crash': 100}
+a125f6d515a205f2ca4bc16f4a31311aedb540af,['crash'],General,{'crash': 100}
+f65dc350364d1ae0898ad26941804176cfabf149,"['pull', 'request', 'jasperla', 'memmove', 'crash', 'argument', 'memcpy']",General,{'crash': 100}
+b2bc07e51dbd2fd0f8455c73759ef5db8c2af746,"['crash', 'argument', 'memcpy', 'memcpy', 'memory', 'region', 'undefined', 'openbsd', 'memcpy', 'trigger', 'abort', 'case']",General,{'crash': 100}
+696d0a2fa09fc52ee888178dc8f43161cb9d13ce,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+1b425c7bd0a2e424c2e5a7488334748d0cce9b8f,"['crash', 'entry', 'custom']",General,{'crash': 100}
+ca602383f155f6f2d050cdd3ebecacb54b18c667,"['small', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+79909cd807784e463c21436112bf0936da32608b,"['possible', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+10cdd0e48e936d9c35ee3446e2540c4636c814aa,"['crash', 'empty', 'list', 'dialog']",General,{'crash': 100}
+7ee64b258d91868e0336986dd2a4614f3048f6e3,"['memory', 'leak', 'sidebar', 'mode', 'switcher']",Risky_resource_management,{'memory leak': 100}
+169c05cc1529d3165aaa5d14a41e45db6a75b48a,"['crash', 'history']",General,{'crash': 100}
+30051c8e80c9c5fe1f40b6c5ce79e21f3ace7f4e,"['issue', 'crash', 'empty', 'list', 'reproducable', 'part', 'empty', 'list', 'check', 'dereference', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+05cf49a8800777db8351f7120474c0405c4cfdf8,"['small', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+0084ba8707d8ac155bf26910181d172d6573d548,"['memory', 'leak', 'array', 'element', 'free', 'array']",Risky_resource_management,{'memory leak': 100}

@@ -1,22 +1,33 @@
-sha,message,catetory,matched,labels
-4f6128d57b7199c243908f9b06d37dd16af2562c,"['dadab', 'mergespectacle', 'patrickboesch', 'requestallow', 'security', 'example', 'spectacle', 'definition', 'topic']",General,{'security': 100},
-f363b951fd6c19f74eaa83ddc69194e35a92aff7,"['topic', 'exampledefinition', 'exmaples', 'security']",General,{'security': 100},
-07f609ef4fa8c5bb94fc529d338937c3d3220759,"['partial', 'update', 'security']",General,{'security': 100},
-6e1855cf560bb59f60fe6d568fdedc6b4960d80c,"['check', 'replacerefsreplacerefs', 'crash', 'valuecheck', 'object', 'typeofobject', 'typeofcheck', 'explicit', 'crash', 'replacerefs', 'addingspectacle', 'sourcey']",Risky_resource_management,{'crash': 100},
-17417bc334f584735649d03625c4f2ff4af60f06,"['mergerequest', 'security', 'botje', 'definition', 'markdownsecurity', 'definition', 'description']",General,{'security': 100},
-f3962dd4629fd55cb9cc2f3c952ed0b090c53639,"['security', 'definition', 'description']",General,{'security': 100},
-3b0d4cfc9b1c4e2b3bda86d1e3f297b4611b5c9e,"['crash', 'trello']",Risky_resource_management,{'crash': 100},
-44516700e50d74a983cc4a76c2436918f917b66b,"['crash', 'monitor', 'process', 'window']",Risky_resource_management,{'crash': 100},
-d829094a1cc1b52f27e4cc0b79d022fad191df1a,"['crash', 'product']",Risky_resource_management,{'crash': 100},
-9058cb9dc727d9d8acdaaafa7982d038609ad901,"['crash', 'reporter', 'linux']",Risky_resource_management,{'crash': 100},
-b534cc57f9c5c5ffff165c39653a8711820d3b64,"['crash', 'thread', 'guest']",Risky_resource_management,{'crash': 100},
-4cbcbacc6c268f5564e5d9c8559b8eedc72ad263,"['crash', 'update', 'linux', 'generate']",Risky_resource_management,{'crash': 100},
-6fc73717ea0d563915d38726767212ebf49d7c07,"['crash', 'crashreporter']",Risky_resource_management,{'crash': 100},
-b32384c564510a075af7a5360f03d8799dc0dcf3,"['aware', 'sandbox', 'crash', 'webview', 'account', 'partition']",Risky_resource_management,{'crash': 100},
-9eca5e66701ba304f40bddfacdb71468e9caad98,"['macosmojave', 'electron', 'crash']",Risky_resource_management,{'crash': 100},
-e87970a9058336a7d190c1eb7598b20724322ebd,"['crash', 'library']",Risky_resource_management,{'crash': 100},
-d52d0b08855569cc6ccd941fd3bba9071c831d4c,"['crash', 'notification', 'panel', 'guard']",Risky_resource_management,{'crash': 100},
-1326ebebb117b94a6fe058545ea716cc34aecc33,"['mailboxid', 'migrate', 'display', 'crash', 'servicetype', 'traypopout', 'opening', 'account']",Risky_resource_management,{'crash': 100},
-f7b0731edd1db903e2d7889441fc48e4e634f3ae,"['process', 'teardown', 'crash', 'whilst', 'guard', 'stage']",Risky_resource_management,{'crash': 100},
-59ea85623bc1975b78184495e5731309959f9bc2,"['crash', 'update']",Risky_resource_management,{'crash': 100},
-9aa0e7edc0204f76a45eb9e9b5f8dbd862bab5c1,"['overwrite', 'crash', 'behaviour', 'window', 'opening']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+1351990a7e42e071d4dc067b822d46b6e65a22a1,"['slack', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+3b0d4cfc9b1c4e2b3bda86d1e3f297b4611b5c9e,"['crash', 'trello']",General,{'crash': 100}
+9816b141c1e553df7b9527f05dd327690465ba00,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+44516700e50d74a983cc4a76c2436918f917b66b,"['crash', 'process', 'monitor', 'window']",General,{'crash': 100}
+865f277f6ece94b347b14b912795f78391eddc29,"['window', 'teardown', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+855fb48c80eb1796acb880a3628e04800964efa6,"['minute', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+d829094a1cc1b52f27e4cc0b79d022fad191df1a,"['product', 'name', 'crash', 'reporter']",General,{'crash': 100}
+1261d11dd51e96f74e82911a4c3b194389145aaa,"['possible', 'crash', 'case']",General,{'crash': 100}
+9058cb9dc727d9d8acdaaafa7982d038609ad901,"['crash', 'reporter', 'linux']",General,{'crash': 100}
+9181c663317d08e02cb256cba5bb9ad418c1638d,"['vibrancy', 'crash']",General,{'crash': 100}
+d875f34d957d9009f526ae283a0c4fcb4c06f607,"['crash', 'reporter', 'patch', 'work']",General,{'crash': 100}
+4cbcbacc6c268f5564e5d9c8559b8eedc72ad263,"['update', 'crash', 'identifier', 'crash', 'generate', 'linux', 'snap']",General,{'crash': 100}
+6fc73717ea0d563915d38726767212ebf49d7c07,"['hard', 'crash']",General,{'crash': 100}
+e4622d292181e9f48a9a3ccb35e4a01fd44f35f0,"['memory', 'leak', 'request', 'deps', 'update', 'deprecate', 'private', 'apis']",Risky_resource_management,{'memory leak': 100}
+b32384c564510a075af7a5360f03d8799dc0dcf3,"['auth', 'partition', 'aware', 'sandbox', 'account', 'webview', 'crash']",General,{'crash': 100}
+9eca5e66701ba304f40bddfacdb71468e9caad98,"['macosmojave', 'electron', 'hard', 'crash']",General,{'crash': 100}
+e87970a9058336a7d190c1eb7598b20724322ebd,"['crash', 'color', 'library']",General,{'crash': 100}
+d52d0b08855569cc6ccd941fd3bba9071c831d4c,"['guard', 'crash', 'notification', 'panel']",General,{'crash': 100}
+1326ebebb117b94a6fe058545ea716cc34aecc33,"['migrate', 'account', 'display', 'name', 'traypopout', 'crash', 'account', 'update', 'opening', 'mailboxid', 'servicetype']",General,{'crash': 100}
+e838e149be148630e41912cfe5f34f98009b8d16,"['retry', 'storage', 'bucket', 'integrity', 'check', 'cleanup', 'failure']",Risky_resource_management,{'integrity check': 100}
+0a4782d7af0fb7f723f7497bdef4c7dec5dfb6fb,"['soft', 'crash', 'isvisible', 'detection']",General,{'crash': 100}
+59ea85623bc1975b78184495e5731309959f9bc2,"['crash', 'update']",General,{'crash': 100}
+9aa0e7edc0204f76a45eb9e9b5f8dbd862bab5c1,"['open', 'overwrite', 'customize', 'open', 'behaviour', 'hard', 'crash', 'window', 'opening']",General,{'crash': 100}
+e3c011de212f57510c461385a4a3390710667cd2,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+12801de84127fe3bfdae838dc16545f795143e50,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+338620f5a4f1fa6843c61a691899a06e31e71b23,"['runaway', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+84233d646690a7f9af9813cefad6210ada15f98e,"['gcalendar', 'alert', 'overwrite', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+3d3681905ba090b4f24b997884d337632e902fc9,"['temporary', 'memory', 'leak', 'open', 'file', 'descriptor', 'root']",Risky_resource_management,{'memory leak': 100}
+719ad8bd940a13d6e3ea65ae0023d271e8092d08,"['memory', 'leak', 'startup', 'time', 'window']",Risky_resource_management,{'memory leak': 100}
+b5c8f642d60f3434ce0810df79ffb4477f2e3bf6,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+b07d9c6ae634650ee427c1e6de31ac97f6debec3,"['skype', 'apis', 'guest', 'window', 'ovibase', 'open', 'crash', 'experimental', 'window', 'code']",General,{'crash': 100}
+d47c263f14a4e641b3bf1bfde04bbcbfba22d82b,"['deps', 'update', 'data', 'integrity', 'check', 'database', 'cyclic', 'database', 'backup']",Risky_resource_management,{'integrity check': 100}

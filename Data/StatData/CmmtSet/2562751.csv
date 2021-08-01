@@ -1,5 +1,28 @@
-sha,message,catetory,matched,labels
-19835af7b1dc208e4a7f5e9a7630325372a74bed,"['version', 'jquery', 'example', 'updaterecent', 'security', 'version']",General,{'security': 100},
-17658873158c82db088f72346c1bb1d04075666d,"['intent', 'invalid', 'crash']",Risky_resource_management,{'crash': 100},
-e0ea32f2174796a763b56a38b6058ef444c33792,"['state', 'input', 'crash']",Risky_resource_management,{'crash': 100},
-a4af21a0fe05a96f53019bc30189bcbe8482a033,"['property', 'system', 'security', 'potential', 'exception']",General,{'security': 100},
+sha,message,catetory,matched
+17658873158c82db088f72346c1bb1d04075666d,"['book', 'search', 'crash', 'invalid', 'intent']",General,{'crash': 100}
+fa691c238f735f61b959eeecc662359df7a234ea,"['null', 'pointer', 'exception']",Risky_resource_management,{'null pointer': 100}
+da4e333d66cb55e610e83df5811539af605acc4b,"['wifi', 'mangager', 'memory', 'leak', 'device', 'androidstudio', 'error', 'error', 'application', 'context', 'memory', 'leak', 'device', 'android']",Risky_resource_management,{'memory leak': 100}
+e0ea32f2174796a763b56a38b6058ef444c33792,"['rare', 'crash', 'input', 'state']",General,{'crash': 100}
+955a9e8a8d31ff7dcd3a4a5c3b97b4277f4279c9,"['decode', 'html', 'entity', 'title', 'page', 'title', 'html', 'entity', 'display', 'entity', 'prevents', 'string', 'length', 'check', 'replicate', 'scan', 'image', 'http', 'question', 'android', 'title', 'frequent', 'android', 'question', 'stack', 'overflow', 'display', 'frequent', 'android', 'question', 'stack', 'overflow']",Risky_resource_management,{'stack overflow': 100}
+a4af21a0fe05a96f53019bc30189bcbe8482a033,"['system', 'property', 'potential', 'security', 'exception']",General,{'security': 100}
+a0acb1ef1f5db04b0d5646563ad29175d6a868ef,"['crash', 'camera', 'restrctions', 'code', 'http', 'trunk', 'bbffbcc']",General,{'crash': 100}
+e5d060bfe749a9bbafe3b773a3091b4eb381b076,"['stack', 'overflow', 'case', 'multiple', 'barcode', 'detection', 'multiple', 'thread', 'image', 'command', 'line', 'http', 'trunk', 'bbffbcc']",Risky_resource_management,{'stack overflow': 100}
+030208013973eea71b70948836ce9cef76ca9b95,"['weird', 'crash', 'android', 'server', 'response', 'http', 'trunk', 'bbffbcc']",General,{'crash': 100}
+6c2c27cb3955c923da1eecdfed2e6aad1d0bdb14,"['issue', 'memory', 'leak', 'http', 'trunk', 'bbffbcc']",Risky_resource_management,{'memory leak': 100}
+1acddf28a755c85403ab8651d8713e3419d49d8a,"['issue', 'crash', 'crop', 'rectangle', 'http', 'trunk', 'bbffbcc']",General,{'crash': 100}
+1fbad444ee9fc3ef232d24b82882f6d01d712a60,"['small', 'corner', 'case', 'error', 'crash', 'http', 'trunk', 'bbffbcc']",General,{'crash': 100}
+3e2dce9bd757349bc9c13ea7ae4d39c353c7dc45,"['crash', 'clearing', 'empty', 'message', 'http', 'trunk', 'bbffbcc']",General,{'crash': 100}
+a3ec3038dd59896b9f3fc0bc5b05303876b93ea6,"['issue', 'barcode', 'scanner', 'crash', 'rectangle', 'dimension', 'page', 'android', 'version', 'http', 'trunk', 'bbffbcc']",General,{'crash': 100}
+9371cc293018c105bb305617749a30c6492e9598,"['crash', 'device', 'camera', 'http', 'trunk', 'bbffbcc']",General,{'crash': 100}
+55e3c2418cd6f0f14f559acce756ac862955a27d,"['minor', 'memory', 'leak', 'http', 'trunk', 'bbffbcc']",Risky_resource_management,{'memory leak': 100}
+5a4f5c901d9a87716bffdf0b3570f2484e640c57,"['port', 'memory', 'leak', 'cleanup', 'close', 'issue', 'issue', 'http', 'trunk', 'bbffbcc']",Risky_resource_management,{'memory leak': 100}
+f7392b3ffebd6c281e543914057b85922757f3d5,"['port', 'memory', 'leak', 'luminancesource', 'getmatrix', 'http', 'trunk', 'bbffbcc']",Risky_resource_management,{'memory leak': 100}
+c2e3604aeaac506aaa456796f977b90239635dc7,"['load', 'browser', 'ssid', 'incorrect', 'network', 'type', 'string', 'user', 'creative', 'todos', 'localize', 'string', 'incorrect', 'ssid', 'code', 'crash', 'wifi', 'winder', 'secret', 'badjunk', 'open', 'network', 'password', 'crash', 'wifi', 'winder', 'nopass', 'ssid', 'http', 'trunk', 'bbffbcc']",General,{'crash': 100}
+c938a5d196259334905ef87e4285de6f87419bca,"['initial', 'checkin', 'wifi', 'generator', 'todo', 'semicolon', 'need', 'android', 'code', 'need', 'incorrect', 'barcodes', 'crash', 'barcode', 'scanner', 'network', 'type', 'nopass', 'android', 'code', 'ready', 'separate', 'checkin', 'http', 'trunk', 'bbffbcc']",General,{'crash': 100}
+0fb17b7e791e1793f170dde52de8d6e989a185b1,"['iphone', 'memory', 'leak', 'minor', 'http', 'trunk', 'bbffbcc']",Risky_resource_management,{'memory leak': 100}
+dc8f256848b4863dc633cfab0929927ef06d549d,"['iphone', 'memory', 'leak', 'widget', 'crash', 'memory', 'warning', 'http', 'trunk', 'bbffbcc']",Risky_resource_management,{'memory leak': 100}
+9f9096b98eac7d276433788b95e8ed9d6ac4c0d7,"['memory', 'leak', 'memory', 'leak', 'http', 'trunk', 'bbffbcc']",Risky_resource_management,{'memory leak': 100}
+04ffa9374293b5edd69f4f560b02f512a8fa9442,"['sporadic', 'crash', 'http', 'trunk', 'bbffbcc']",General,{'crash': 100}
+24580d6bac93a70f6cb253d7e3293df4b755b3f3,"['version', 'number', 'robust', 'book', 'search', 'user', 'agent', 'class', 'need', 'translation', 'catch', 'block', 'intent', 'error', 'dialog', 'crash', 'intent', 'core', 'http', 'trunk', 'bbffbcc']",General,{'crash': 100}
+f21c34ae16ff74e6483b249fe04fda81a912c1ba,"['code', 'share', 'button', 'menu', 'lead', 'choice', 'contact', 'bookmark', 'clipboard', 'content', 'full', 'screen', 'bookmark', 'picker', 'crash', 'permission', 'problem', 'http', 'trunk', 'bbffbcc']",General,{'crash': 100}
+bef3c750482dd2afb7664e7bc378a858e51a06c9,"['crash', 'calendar', 'illegal', 'vevent', 'newlines', 'http', 'trunk', 'bbffbcc']",General,{'crash': 100}

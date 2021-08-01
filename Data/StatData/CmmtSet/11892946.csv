@@ -1,19 +1,25 @@
-sha,message,catetory,matched,labels
-52826036c22244f25c07a99039f6d40186958b46,"['loaddatabases', 'treeoperations', 'deadlock']",Risky_resource_management,{'deadlock': 100},
-fe0c4d0989b7cce516d4f722380c2db64bcc8df0,"['connection', 'crash']",Risky_resource_management,{'crash': 100},
-5ddf32405c38d6ff924e5fa92665424287aa5aa6,"['mergeuglide', 'request', 'mergeremoval', 'crash']",Risky_resource_management,{'crash': 100},
-6d4f7128941329ef53d0084af85c2b6a2c45555c,"['removal', 'crash']",Risky_resource_management,{'crash': 100},
-1ef26da087f1ac8999466567d3eeb63ac88c9492,"['crash', 'connection']",Risky_resource_management,{'crash': 100},
-8d684dbb79f0bfa7711cac274f32d0c7416b9953,"['transporter', 'crash']",Risky_resource_management,{'crash': 100},
-602c899c3045098eaa7d2c47ac3fdb3167aeafb7,"['responseemitter', 'issue', 'crash']",Risky_resource_management,{'crash': 100},
-b3b3ddd61e41eb6a512f137ab5c22425f0410437,"['value', 'model', 'crash']",Risky_resource_management,{'crash': 100},
-3d55c15aff4db439784aa5b451551c460a7bb1bb,"['cddcd', 'efdda', 'mergeuglide', 'request', 'mergeconnection', 'crash']",Risky_resource_management,{'crash': 100},
-567862e2bc42f0b9a2618bf15eba5a797b491019,"['reporter', 'update', 'crash']",Risky_resource_management,{'crash': 100},
-331950e244e1ac0b78beab4da361c928f94f6f96,"['parameter', 'reporter', 'crash']",Risky_resource_management,{'crash': 100},
-ab579f5476364832a5e704981ca3ba134cd5c22a,"['handler', 'crash']",Risky_resource_management,{'crash': 100},
-80b526259702b542281fdea9a3f93aab00365d3c,"['handler', 'linux', 'crash']",Risky_resource_management,{'crash': 100},
-b9a3b65025aa79f421ca75dbff5ead98a9ec25ba,"['reporter', 'linux', 'crash']",Risky_resource_management,{'crash': 100},
-54bf2a63a11a461e2474fa04ecf07478bb830d57,"['travis', 'reporter', 'crash']",Risky_resource_management,{'crash': 100},
-364a440c7e3ed5e3d47885c217de917a81854fc6,"['creator', 'project', 'reporter', 'crash']",Risky_resource_management,{'crash': 100},
-b3044984827219aaf4a53e415c82eed26686a0a2,"['installer', 'window', 'reporter', 'crash']",Risky_resource_management,{'crash': 100},
-55daffcdbcc8caffadf434a7b19c77ab4ba0f05d,"['reporter', 'crash']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+52826036c22244f25c07a99039f6d40186958b46,"['deadlock', 'treeoperations', 'loaddatabases']",Risky_resource_management,{'deadlock': 100}
+1a92d303df25560d63155a7d873b688a62c4fb9b,"['crash', 'delete', 'error', 'lambda', 'callback', 'value', 'sigsegv', 'case', 'lambda', 'object', 'duplicate', 'error', 'notification']",General,{'crash': 100}
+8e8aff22f2656792255154dcdbd678b197adb0b4,"['stream', 'support', 'page', 'load', 'value', 'demand', 'hash', 'crash', 'zset', 'dialog']",General,{'crash': 100}
+fe0c4d0989b7cce516d4f722380c2db64bcc8df0,"['crash', 'connection', 'tree']",General,{'crash': 100}
+5ddf32405c38d6ff924e5fa92665424287aa5aa6,"['pull', 'request', 'uglide', 'crash', 'removal']",General,{'crash': 100}
+6d4f7128941329ef53d0084af85c2b6a2c45555c,"['crash', 'removal']",General,{'crash': 100}
+5f06b3ecf3357ccee11d94fb120eefe9b2190fce,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+8d684dbb79f0bfa7711cac274f32d0c7416b9953,"['crash', 'transporter']",General,{'crash': 100}
+602c899c3045098eaa7d2c47ac3fdb3167aeafb7,"['issue', 'crash', 'responseemitter']",General,{'crash': 100}
+b3b3ddd61e41eb6a512f137ab5c22425f0410437,"['crash', 'value', 'model']",General,{'crash': 100}
+3d55c15aff4db439784aa5b451551c460a7bb1bb,"['pull', 'request', 'uglide', 'crash', 'connection', 'tree']",General,{'crash': 100}
+cd850dcd0aeaaf1e8bd44b92b108202291387919,"['default', 'crash']",General,{'crash': 100}
+567862e2bc42f0b9a2618bf15eba5a797b491019,"['update', 'crash', 'reporter']",General,{'crash': 100}
+331950e244e1ac0b78beab4da361c928f94f6f96,"['crash', 'reporter', 'parameter']",General,{'crash': 100}
+ab579f5476364832a5e704981ca3ba134cd5c22a,"['crash', 'handler']",General,{'crash': 100}
+80b526259702b542281fdea9a3f93aab00365d3c,"['crash', 'handler', 'linux']",General,{'crash': 100}
+2edab7baff7aa6834aca49be0f03e00dc9fbe133,"['issue', 'reload', 'crash']",General,{'crash': 100}
+363caff5303a4c51436250b89a6a301bc9ff143b,"['memory', 'leak', 'updater', 'class', 'additional', 'check']",Risky_resource_management,{'memory leak': 100}
+b9a3b65025aa79f421ca75dbff5ead98a9ec25ba,"['crash', 'reporter', 'linux']",General,{'crash': 100}
+54bf2a63a11a461e2474fa04ecf07478bb830d57,"['crash', 'reporter']",General,{'crash': 100}
+364a440c7e3ed5e3d47885c217de917a81854fc6,"['creator', 'project', 'file', 'crash', 'reporter']",General,{'crash': 100}
+b3044984827219aaf4a53e415c82eed26686a0a2,"['installer', 'window', 'crash', 'reporter']",General,{'crash': 100}
+55daffcdbcc8caffadf434a7b19c77ab4ba0f05d,"['crash', 'reporter']",General,{'crash': 100}
+eb3df82053486bcaea5c3e028b7457e8fbc27239,"['crash', 'handler']",General,{'crash': 100}

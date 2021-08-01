@@ -1,49 +1,84 @@
-sha,message,catetory,matched,labels
-9f3cd53c59205abde366dcf243fc719a9b2616fa,"['mergerequest', 'grosser', 'zendesk', 'mergerequest', 'template', 'patch', 'crash', 'argument']",Risky_resource_management,{'crash': 100},
-6c7862ea9d0ba3225c621888e24f8b0f5d5cf0c2,"['conflic', 'template', 'patch', 'crash', 'argument']",Risky_resource_management,{'crash': 100},
-2720b73319a744baba32921176e096cd919d81e9,"['security', 'doorkeeper', 'issue']",General,{'security': 100},
-11fe83e4169a6a7968e1ad85498846d5cb233853,"['bdcbb', 'mergerequest', 'grosser', 'zendeskserver', 'template', 'valid', 'crash']",Risky_resource_management,{'crash': 100},
-4b9d09cbb2219f95d59c94d9aaabdb6541a83ea5,"['server', 'template', 'valid', 'crash']",Risky_resource_management,{'crash': 100},
-684448dfcf237919340abadd0a0a2387fefb960b,"['mergerequest', 'grosser', 'zendesk', 'error', 'rollbar', 'crash']",Risky_resource_management,{'crash': 100},
-9d35a916912789e62082a73e7213c0c10a5bb536,"['error', 'rollbar', 'crash']",Risky_resource_management,{'crash': 100},
-1d00300e65f3eb5cc73f2a8bd923303f9a353e1d,"['service', 'config', 'connectclient', 'bucket', 'security', 'requiresinstead', 'service', 'config']",General,{'security': 100},
-fd4c3264953654f2f4f3e3e1fef7e488bbb1318b,"['request', 'grosser', 'revert', 'reversingchangecheck', 'crash', 'restartrefuse', 'update', 'field', 'statefulset']",Risky_resource_management,{'crash': 100},
-be8631ace3e339b68074191574a6f1fdb1abd8b0,"['token', 'access', 'controller']",Porous_defenses,{'access controller': 90},
-15b5a02b4ad9f1b7ed114b96fd1650e617690c7f,"['security', 'warning']",General,{'security': 100},
-60c214e9cc76de6faab2dad1db7de690a7de6bf6,"['security', 'update']",General,{'security': 100},
-d475162b2980d63db8c37618c1ce22951d850c44,"['samson', 'security', 'credentialapireference', 'latestvariable', 'expose', 'environment', 'credentialspecify', 'stage', 'setting', 'amazon', 'resource']",General,{'security': 100},
-ac232617becfecf8a89ac3dab03c3eac2e796150,"['security', 'loofahupdate', 'flavorjones', 'loofah', 'securityrelease', 'loofah', 'flavorjonesmaster', 'loofah', 'changelog', 'flavorjonescompare', 'loofah', 'commits', 'flavorjonesdependabot']",General,{'security': 100},
-d608d27683d5354fd4d4fee8714a9ab70f64a55b,"['security', 'nokogiriupdate', 'sparklemotion', 'nokogiri', 'securityrelease', 'nokogiri', 'sparklemotionnokogiri', 'sparklemotion', 'changelog', 'mastercompare', 'nokogiri', 'sparklemotion', 'commitsdependabot']",General,{'security': 100},
-2f06e8a79c85388af8ad211e6a612fc102c46545,"['ceafb', 'mergerequest', 'grosser', 'disrupt', 'absolu', 'deadlock', 'setting']",Risky_resource_management,{'deadlock': 100},
-96640a62e701fc06e02ae46ba461bcfa065671a2,"['absolute', 'deadlock']",Risky_resource_management,{'deadlock': 100},
-52fa7e271557df842f7a5312d8b812cd683e6775,"['security', 'obfuscate']",General,{'security': 100},
-7db37a9a9c8e5b43f1a48205204800028d0ec7af,"['mergerequest', 'grosser', 'zendesk', 'reporter', 'crash']",Risky_resource_management,{'crash': 100},
-04de44bd2b7c9c4987f24f6b34d424e2fbf4eea9,"['reporter', 'crash']",Risky_resource_management,{'crash': 100},
-c09dbfca532d9930e0291f22d9e870102a7c568e,"['mergerequest', 'docker', 'grosser', 'zendeskserver', 'docker', 'issue', 'crash']",Risky_resource_management,{'crash': 100},
-a0565a0d8b7d351357dbba32715c2dda4ab8d20e,"['mergerequest', 'grosser', 'zendesk', 'mergesetup', 'crash']",Risky_resource_management,{'crash': 100},
-a803e1f1d1a4686eed5420de9108ab260ebed690,"['setup', 'crash']",Risky_resource_management,{'crash': 100},
-0d2327b9943e5c852f32c680aa6b3645dbd2078b,"['action', 'release', 'crash']",Risky_resource_management,{'crash': 100},
-61dc22a0cd8e2da10e8ae51e9c2aad7370f7b59d,"['fbcaab', 'mergerequest', 'grosser', 'zendesk', 'mergecleanup', 'request', 'logic', 'access', 'controller', 'reuse']",Porous_defenses,{'access controller': 90},
-10fbca3ab7c723c19ca232be2ba0e4124067d039,"['cleanup', 'request', 'logic', 'access', 'controller', 'reuse']",Porous_defenses,{'access controller': 90},
-22379203690b2414a4348841d58002559480867a,"['mergerequest', 'jmoter', 'crash', 'access']",Risky_resource_management,{'crash': 100},
-dc0dc19b611893b806a29203cc8055603c4aeb35,"['eager', 'issue', 'thread', 'solvethink', 'autoloadsomehow', 'thread', 'deadlock', 'sleepbunch']",Risky_resource_management,{'deadlock': 100},
-b124dae3c81701d32e1be2f9b23dcdacd79fc6e4,"['clair', 'kubernets', 'security', 'pipeline', 'scannerclair', 'kubernets', 'security', 'pipeline', 'scannersimilar', 'check', 'excludeforgot', 'registrybetter', 'adjustmentclose', 'otherwisecleanup', 'simplify']",General,{'security': 100},
-ab21ee7c979d313f006e2b0a0a302f8fca3a9bd4,"['ddeab', 'mergerequest', 'jenkins', 'roman', 'round', 'zendeskfound', 'thing', 'keyerrors', 'jenkins', 'crash']",Risky_resource_management,{'crash': 100},
-29a2ecb24315802bc9d57de8e2243be21254975a,"['thing', 'keyerrors', 'jenkins', 'crash']",Risky_resource_management,{'crash': 100},
-c84d0ca97d87ed38bc3e72f723fcb1e163a3e662,"['eacaf', 'mergerequest', 'roman', 'zendesk', 'mergeerror', 'plugin', 'experience', 'entire', 'jenkins', 'crash']",Risky_resource_management,{'crash': 100},
-1d8556e7cfa82ed5cc3ecad988598ecfc08f3007,"['error', 'plugin', 'experience', 'entire', 'jenkins', 'crash']",Risky_resource_management,{'crash': 100},
-41c84c0373a3ec2ec3c58c7e0f2fdced85c70384,"['security', 'vulnerability']",General,{'security': 100},
-1f4f897081b0413d54aaafcf0810640d7d4ea2b3,"['mergecleanup', 'request', 'grosser', 'zendeskcleanup', 'config', 'deploy', 'group', 'crash', 'index']",Risky_resource_management,{'crash': 100},
-f84ea745a05e65d03b05a025487b86d986af911f,"['cleanup', 'config', 'project', 'deploy', 'group', 'crash']",Risky_resource_management,{'crash': 100},
-83f40298f36cdd6af3e815747d2bd2957a7c225d,"['request', 'crash']",Risky_resource_management,{'crash': 100},
-37ac3d0f8aeb37f050d3785a7cacc277d151c2a0,"['eaabe', 'mergerequest', 'kubeconfig', 'crash', 'jonmoter', 'zendeskkubeconfig', 'crash']",Risky_resource_management,{'crash': 100},
-e5566aabeaf5ea0e4ccb1ced36fa5f8965d6e833,"['kubeconfig', 'crash']",Risky_resource_management,{'crash': 100},
-193e732d22d1a8676acae6f2349b75992027b8a0,"['deadlock', 'potential']",Risky_resource_management,{'deadlock': 100},
-b60d9124339c352a01b46bcc26a9fd388e39a8cb,"['security', 'nokogirinokogiriversionadvisoryunknown', 'criticalitynokogiri', 'sparklemotion', 'issuetitle', 'vulnerability', 'libxml', 'contains', 'nokogiri', 'libxsltupgrade', 'solution']",General,{'security': 100},
-82dda7dad0fd1b4648ac93d6175bde592c5ce6e6,"['request', 'access', 'controller']",Porous_defenses,{'access controller': 90},
-fc1adada1736a638d9f9b8616c20736bf25575e7,"['request', 'access', 'controller']",Porous_defenses,{'access controller': 90},
-89de193f4d40ddb4b58d5bd7c2767d007e3f4030,"['request', 'cmckni', 'crash', 'client', 'mergeclient', 'disconnect', 'crash']",Risky_resource_management,{'crash': 100},
-c6ec4bb9c159b8d00e448ff632d96e58a7d0c51b,"['client', 'disconnect', 'crash']",Risky_resource_management,{'crash': 100},
-b907f9d036a540dc546b30f5b8b2c8dd5de0db75,"['docker', 'jonmoter', 'docker', 'crash']",Risky_resource_management,{'crash': 100},
-08a3bd6f0800293f5a5f1337aa29f199e39cf485,"['docker', 'crash']",Risky_resource_management,{'crash': 100},
-fd016bd3957a1e18e770daa841ad7f38d6bab1ff,"['address', 'concern', 'security', 'samsonsamson']",General,{'security': 100},
+sha,message,catetory,matched
+9f3cd53c59205abde366dcf243fc719a9b2616fa,"['pull', 'request', 'zendesk', 'grosser', 'patch', 'request', 'template', 'argument', 'crash']",General,{'crash': 100}
+6c7862ea9d0ba3225c621888e24f8b0f5d5cf0c2,"['patch', 'request', 'template', 'argument', 'crash', 'conflic']",General,{'crash': 100}
+b5264d517ff6bbc2b53058c25723012cc2319096,"['pull', 'request', 'zendesk', 'grosser', 'door', 'bump', 'doorkeeper', 'security', 'issue']",General,{'security': 100}
+2720b73319a744baba32921176e096cd919d81e9,"['bump', 'doorkeeper', 'security', 'issue']",General,{'security': 100}
+d452bb3ccd88c41bc7e92fb5942aecd7bb6d19d4,"['pull', 'request', 'zendesk', 'grosser', 'revert', 'crash', 'server', 'side']",General,{'crash': 100}
+d891acac8502cf5a6c55a19fc9388523ed551c6c,"['pull', 'request', 'zendesk', 'grosser', 'rail', 'bump', 'rail', 'security']",General,{'security': 100}
+fadbb540a019747138b01b07df547c40e17ef1ef,"['bump', 'rail', 'security']",General,{'security': 100}
+11fe83e4169a6a7968e1ad85498846d5cb233853,"['pull', 'request', 'zendesk', 'grosser', 'valid', 'valid', 'template', 'server', 'side', 'crash']",General,{'crash': 100}
+4b9d09cbb2219f95d59c94d9aaabdb6541a83ea5,"['valid', 'template', 'server', 'side', 'crash']",General,{'crash': 100}
+77c377b46f25da780f72efc2ec2cfd9035a513ca,"['bump', 'rack', 'name', 'rack', 'version', 'advisory', 'criticality', 'unknown', 'http', 'github', 'rack', 'rack', 'security', 'advisory', 'ghsa', 'hrqr', 'hxpp', 'title', 'possible', 'information', 'leak', 'session', 'hijack', 'vulnerability', 'solution', 'upgrade']",General,{'security': 100}
+95eae1bfa7e9836465962bdb972eabba9d2cbbc0,"['pull', 'request', 'zendesk', 'grosser', 'namespace', 'crash', 'error']",General,{'crash': 100}
+fbadcd19e947c46c17a911355e7515e041ede3cd,"['crash', 'error', 'namespace', 'resource', 'namespace']",General,{'crash': 100}
+684448dfcf237919340abadd0a0a2387fefb960b,"['pull', 'request', 'zendesk', 'grosser', 'real', 'crash', 'error', 'rollbar']",General,{'crash': 100}
+9d35a916912789e62082a73e7213c0c10a5bb536,"['real', 'crash', 'error', 'rollbar']",General,{'crash': 100}
+1d00300e65f3eb5cc73f2a8bd923303f9a353e1d,"['config', 'config', 'service', 'security', 'config', 'service', 'bucket', 'plain', 'http']",General,{'security': 100}
+fd4c3264953654f2f4f3e3e1fef7e488bbb1318b,"['pull', 'request', 'zendesk', 'grosser', 'roll', 'reverts', 'restart', 'crash', 'refuse', 'update', 'statefulset', 'field']",General,{'crash': 100}
+b6d06e591c8b91d86f3286667bb187a1d1f47285,"['ensure', 'actionmailer', 'work', 'gmail', 'smtp', 'setting', 'user', 'symbol', 'parse', 'smtp', 'localhost', 'user', 'test', 'gmail', 'process', 'crash', 'parse', 'variable', 'string', 'process', 'crash', 'user', 'configure', 'smtp', 'gmails', 'smtp', 'server', 'backwards', 'compatible']",General,{'crash': 100}
+cf98429776cdb7dd7fa664d3292a98cfd7dbe723,"['pull', 'request', 'zendesk', 'grosser', 'crash', 'mktmpdir']",General,{'crash': 100}
+8bee8b406915c6da544a52cdf30ec738964995e9,"['crash', 'mktmpdir', 'return', 'ruby', 'ruby', 'fileutils', 'path', 'errornotifier', 'implicit', 'conversion', 'string', 'notify', 'silence', 'test', 'runtimeerror', 'ruby', 'ruby', 'fileutils', 'model', 'ensure']",General,{'crash': 100}
+7e878fb8053e47b032fdb571a7c542861b8fa868,"['pull', 'request', 'zendesk', 'grosser', 'bumpy', 'bump', 'rail', 'security', 'warning']",General,{'security': 100}
+15b5a02b4ad9f1b7ed114b96fd1650e617690c7f,"['bump', 'rail', 'security', 'warning']",General,{'security': 100}
+83799569927cf6bb4f3bddf5691e9ac84c53e45d,"['pull', 'request', 'rata', 'patch', 'ruby', 'security', 'update']",General,{'security': 100}
+60c214e9cc76de6faab2dad1db7de690a7de6bf6,"['ruby', 'security', 'update']",General,{'security': 100}
+d475162b2980d63db8c37618c1ce22951d850c44,"['temporary', 'security', 'credential', 'role', 'plugin', 'role', 'http', 'expose', 'credential', 'environment', 'variable', 'specify', 'amazon', 'resource', 'name', 'role', 'stage', 'setting', 'page']",General,{'security': 100}
+cd126c21db5674a4fa796ea339b3dde366007f50,"['pull', 'request', 'greysteil', 'dependabot', 'bundler', 'rack', 'security', 'bump', 'rack']",General,{'security': 100}
+b05135cdd44e4dd811b796465d66e0dfd6c540ca,"['security', 'bump', 'rack', 'bump', 'rack', 'http', 'github', 'rack', 'rack', 'update', 'security', 'release', 'note', 'http', 'github', 'rack', 'rack', 'release', 'changelog', 'http', 'github', 'rack', 'rack', 'blob', 'master', 'changelog', 'commits', 'http', 'github', 'rack', 'rack', 'dependabot', 'support', 'dependabot']",General,{'security': 100}
+3eb97281aa3e422a58081a600f95c6ad0907849b,"['pull', 'request', 'greysteil', 'dependabot', 'bundler', 'loofah', 'security', 'bump', 'loofah']",General,{'security': 100}
+ac232617becfecf8a89ac3dab03c3eac2e796150,"['security', 'bump', 'loofah', 'bump', 'loofah', 'http', 'github', 'flavorjones', 'loofah', 'update', 'security', 'release', 'note', 'http', 'github', 'flavorjones', 'loofah', 'release', 'changelog', 'http', 'github', 'flavorjones', 'loofah', 'blob', 'master', 'changelog', 'commits', 'http', 'github', 'flavorjones', 'loofah', 'dependabot', 'support', 'dependabot']",General,{'security': 100}
+e62763a020c4747595e6f217439a7c66bb21b567,"['pull', 'request', 'greysteil', 'dependabot', 'bundler', 'nokogiri', 'security', 'bump', 'nokogiri']",General,{'security': 100}
+d608d27683d5354fd4d4fee8714a9ab70f64a55b,"['security', 'bump', 'nokogiri', 'bump', 'nokogiri', 'http', 'github', 'sparklemotion', 'nokogiri', 'update', 'security', 'release', 'note', 'http', 'github', 'sparklemotion', 'nokogiri', 'release', 'changelog', 'http', 'github', 'sparklemotion', 'nokogiri', 'blob', 'master', 'changelog', 'commits', 'http', 'github', 'sparklemotion', 'nokogiri', 'dependabot', 'support', 'dependabot']",General,{'security': 100}
+2f06e8a79c85388af8ad211e6a612fc102c46545,"['pull', 'request', 'zendesk', 'grosser', 'disrupt', 'deadlock', 'setting', 'absolu']",Risky_resource_management,{'deadlock': 100}
+96640a62e701fc06e02ae46ba461bcfa065671a2,"['deadlock', 'setting', 'absolute', 'value']",Risky_resource_management,{'deadlock': 100}
+52fa7e271557df842f7a5312d8b812cd683e6775,"['obfuscate', 'security', 'tool']",General,{'security': 100}
+7db37a9a9c8e5b43f1a48205204800028d0ec7af,"['pull', 'request', 'zendesk', 'grosser', 'boom', 'crash']",General,{'crash': 100}
+c09dbfca532d9930e0291f22d9e870102a7c568e,"['pull', 'request', 'zendesk', 'grosser', 'docker', 'crash', 'server', 'docker', 'issue']",General,{'crash': 100}
+cd31529bac01dd4ee4af28fd4ac95bf65db622c2,"['crash', 'server', 'docker', 'issue', 'binary', 'builder', 'plugin']",General,{'crash': 100}
+03e22a5ae5acd73a20590f3b8b1ea5f2465fc86a,"['pull', 'request', 'zendesk', 'grosser', 'scan', 'vulnerability']",Porous_defenses,{'scan vulnerability': 91}
+d07949d8ead11810294d1a68051c23e9f888a2ea,"['pull', 'request', 'zendesk', 'grosser', 'plugins', 'hook', 'access', 'control']",Porous_defenses,{'access control': 100}
+e713bca291dd7e36dda7d4527dae42f7fe3a8b4f,"['plugins', 'hook', 'access', 'control']",Porous_defenses,{'access control': 100}
+21c405608af69e86354b40d79281998c070b218a,"['deploy', 'timeout', 'timeout', 'local', 'iamge', 'builder', 'executor', 'docker', 'kind', 'command', 'injection', 'accidental']",Insecure_interaction_between_components,{'command injection': 100}
+d64701bb318d111e1ae00be99e94f34c28c40331,"['pull', 'request', 'zendesk', 'grosser', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+ef3a7a0fa0c633fa79d899e27e3926e2824fbbfc,"['error', 'regular', 'error', 'page', 'good', 'crash']",General,{'crash': 100}
+f4f3ff0ee205dfceb3613cee33dac115954fa7de,"['stability', 'lead', 'stability', 'test', 'crash', 'sanity', 'check', 'nice', 'error']",General,{'crash': 100}
+a0565a0d8b7d351357dbba32715c2dda4ab8d20e,"['pull', 'request', 'zendesk', 'grosser', 'slow', 'real', 'repo', 'proper', 'setup', 'crash']",General,{'crash': 100}
+a803e1f1d1a4686eed5420de9108ab260ebed690,"['real', 'repo', 'proper', 'setup', 'crash']",General,{'crash': 100}
+167444eaec170b2234d398aa53ef62669d0ccc21,"['simplify', 'execution', 'logic', 'clearer', 'name', 'jobqueue', 'internals', 'memory', 'leak', 'jobqueue', 'reuse', 'restart', 'logic', 'inactive', 'unnecessary', 'deploy', 'queue', 'unique']",Risky_resource_management,{'memory leak': 100}
+22379203690b2414a4348841d58002559480867a,"['pull', 'request', 'zendesk', 'jmoter', 'access', 'helper', 'crash', 'crash', 'alert', 'user']",General,{'crash': 100}
+dc0dc19b611893b806a29203cc8055603c4aeb35,"['eager', 'load', 'thread', 'issue', 'rail', 'need', 'lock', 'autoload', 'deadlock', 'thread', 'sleep', 'bunch', 'time', 'rail', 'year', 'http', 'github', 'rail', 'rail', 'issue']",Risky_resource_management,{'deadlock': 100}
+b124dae3c81701d32e1be2f9b23dcdacd79fc6e4,"['clair', 'security', 'scanner', 'kubernets', 'pipeline', 'paas', 'clair', 'security', 'scanner', 'kubernets', 'pipeline', 'paas', 'exclude', 'similar', 'code', 'check', 'paas', 'forgot', 'registry', 'paas', 'code', 'adjustment', 'busy', 'cleanup', 'simplify']",General,{'security': 100}
+ab21ee7c979d313f006e2b0a0a302f8fca3a9bd4,"['pull', 'request', 'zendesk', 'roman', 'jenkins', 'round', 'dont', 'crash', 'keyerrors', 'jenkins', 'thing']",General,{'crash': 100}
+29a2ecb24315802bc9d57de8e2243be21254975a,"['dont', 'crash', 'keyerrors', 'jenkins', 'thing']",General,{'crash': 100}
+c84d0ca97d87ed38bc3e72f723fcb1e163a3e662,"['pull', 'request', 'zendesk', 'roman', 'dont', 'crash', 'entire', 'page', 'jenkins', 'plugin', 'experience', 'error']",General,{'crash': 100}
+1d8556e7cfa82ed5cc3ecad988598ecfc08f3007,"['dont', 'crash', 'entire', 'page', 'jenkins', 'plugin', 'experience', 'error']",General,{'crash': 100}
+045e10c633faab2bf3149df2d6f4316b6372bded,"['pull', 'request', 'zendesk', 'grosser', 'bump', 'bump', 'mini', 'profiler', 'security', 'vulnerability', 'spam']",General,{'security': 100}
+41c84c0373a3ec2ec3c58c7e0f2fdced85c70384,"['bump', 'mini', 'profiler', 'security', 'vulnerability', 'spam']",General,{'security': 100}
+c377227dd9384aa526b86b1ba761863e6c28ce2c,"['update', 'user', 'report', 'user', 'update', 'user', 'report', 'report', 'user', 'option', 'specify', 'project', 'effective', 'permission', 'option', 'specify', 'report', 'effective', 'permission', 'project', 'option', 'specify', 'specific', 'user', 'effect', 'permission', 'project', 'link', 'project', 'user', 'page', 'redirect', 'admin', 'user', 'user', 'user', 'generate', 'user', 'report', 'sensitive', 'data', 'present', 'update', 'test']",Porous_defenses,{'sensitive data': 100}
+375ce0da0787b362f0257081341dfb17d816312f,"['pull', 'request', 'zendesk', 'jonmoter', 'cluster', 'view', 'crash', 'show', 'page']",General,{'crash': 100}
+48c3279de855dab0f6034ee284493ab43450b34c,"['crash', 'show', 'page']",General,{'crash': 100}
+1f4f897081b0413d54aaafcf0810640d7d4ea2b3,"['pull', 'request', 'zendesk', 'grosser', 'cleanup', 'cleanup', 'deploy', 'group', 'config', 'deploy', 'group', 'index', 'crash']",General,{'crash': 100}
+f84ea745a05e65d03b05a025487b86d986af911f,"['cleanup', 'deploy', 'group', 'config', 'deploy', 'group', 'index', 'crash', 'project']",General,{'crash': 100}
+be47242252427133a0e9482001c0248a7380a362,"['injection', 'sidecar', 'dynamic', 'insertion', 'secret', 'sidecar', 'error', 'condition', 'docker', 'output', 'json', 'parse', 'error', 'label', 'template', 'right', 'validate', 'deploy', 'template', 'service', 'label', 'sync', 'validate', 'label', 'service', 'deploy', 'unique', 'show', 'inspect', 'status', 'release', 'client', 'deploy', 'group', 'fetch', 'role', 'crash', 'request', 'indent', 'simpler', 'test', 'client', 'expectation', 'rubocop', 'test', 'rubocop', 'rubocop', 'document', 'auto', 'route', 'hack', 'daemon', 'label', 'logic', 'rubocop', 'validation', 'docker', 'registry', 'test', 'rubocop', 'rubocop', 'volume', 'primary', 'container', 'volume', 'definition', 'access', 'object', 'favor', 'concat', 'return', 'value', 'code', 'readability', 'line', 'check', 'space', 'indent', 'reuse', 'secret', 'resolution', 'rubocop', 'code', 'test', 'style', 'issue', 'redundant', 'code', 'test']",General,{'crash': 100}
+83f40298f36cdd6af3e815747d2bd2957a7c225d,"['crash', 'request']",General,{'crash': 100}
+37ac3d0f8aeb37f050d3785a7cacc277d151c2a0,"['pull', 'request', 'zendesk', 'jonmoter', 'kubeconfig', 'crash', 'crash', 'kubeconfig', 'file', 'user']",General,{'crash': 100}
+e5566aabeaf5ea0e4ccb1ced36fa5f8965d6e833,"['crash', 'kubeconfig', 'file', 'user']",General,{'crash': 100}
+97b4381bceba9c15e49695101306aedac26961e6,"['multiple', 'samson', 'base', 'domain', 'csrf', 'error']",Insecure_interaction_between_components,{'csrf': 100}
+d9b19658c60ff66976c3882cba376ea81d241e98,"['small', 'improvement', 'docker', 'builder', 'workflow', 'logic', 'work', 'docker', 'image', 'docker', 'builder', 'output', 'progress', 'output', 'samson', 'crash']",General,{'crash': 100}
+45790e33235e96ec1986770aa21ee60218f315bc,"['small', 'improvement', 'docker', 'builder', 'workflow', 'logic', 'work', 'docker', 'image', 'docker', 'builder', 'output', 'progress', 'output', 'samson', 'crash']",General,{'crash': 100}
+d339cfc6484a9ceb2c50bbfeaf04af1d5451d32e,"['issue', 'kubernetes', 'crash', 'docker', 'crash', 'kubernetes', 'info', 'deploygroup', 'docker', 'image']",General,{'crash': 100}
+71abdd4dbc2733a333c7df2847ec1cbf0e68baeb,"['code', 'climate', 'silence', 'command', 'injection', 'warning']",Insecure_interaction_between_components,{'command injection': 100}
+18c06b296006b59cb676bd2c14012a33af312a77,"['extra', 'metadata', 'deployment', 'resource', 'deploywatcher', 'dashboard', 'deploywatcher', 'deployment', 'making', 'deploywatcher', 'unexpected', 'crash', 'code', 'review', 'comment', 'event', 'date', 'current', 'number', 'time', 'cluster', 'event', 'error', 'soft', 'deletion', 'previous', 'role', 'deployment', 'resource', 'selector', 'role', 'unable', 'select', 'role']",General,{'crash': 100}
+193e732d22d1a8676acae6f2349b75992027b8a0,"['sure', 'listener', 'outputbuffer', 'test', 'potential', 'deadlock']",Risky_resource_management,{'deadlock': 100}
+d136acc454226f05f3a75ecfd087ebf11708c79d,"['pull', 'request', 'zendesk', 'grosser', 'noko', 'security', 'bump', 'nokogiri']",General,{'security': 100}
+b60d9124339c352a01b46bcc26a9fd388e39a8cb,"['security', 'bump', 'nokogiri', 'name', 'nokogiri', 'version', 'advisory', 'criticality', 'unknown', 'http', 'github', 'sparklemotion', 'nokogiri', 'issue', 'title', 'nokogiri', 'contains', 'vulnerability', 'libxml', 'libxslt', 'solution', 'upgrade']",General,{'security': 100}
+357380e42b5013cf7a2a575fec972d17f6a46b6e,"['pull', 'request', 'zendesk', 'sbrnunes', 'project', 'level', 'access', 'control', 'introduce', 'project', 'level', 'access', 'control', 'samson']",Porous_defenses,{'access control': 100}
+89de193f4d40ddb4b58d5bd7c2767d007e3f4030,"['pull', 'request', 'cmckni', 'client', 'crash', 'crash', 'client', 'disconnect']",General,{'crash': 100}
+c6ec4bb9c159b8d00e448ff632d96e58a7d0c51b,"['crash', 'client', 'disconnect']",General,{'crash': 100}
+b907f9d036a540dc546b30f5b8b2c8dd5de0db75,"['pull', 'request', 'zendesk', 'jonmoter', 'dont', 'docker', 'crash', 'startup', 'docker']",General,{'crash': 100}
+08a3bd6f0800293f5a5f1337aa29f199e39cf485,"['crash', 'startup', 'docker']",General,{'crash': 100}
+4cca04ca2fdbf42477e9de92fbdd7822d5608f3d,"['simplify', 'system', 'command', 'injection']",Insecure_interaction_between_components,{'command injection': 100}
+86e3c4152d44e9f8fdc5aeb74e300bed874707f0,"['pull', 'request', 'zendesk', 'grosser', 'tempfile', 'simplify', 'system', 'command', 'injection']",Insecure_interaction_between_components,{'command injection': 100}
+a4d91265b3719fc94681b066faae33211c7c58a7,"['simplify', 'system', 'command', 'injection']",Insecure_interaction_between_components,{'command injection': 100}
+f2d978291abf8840d26b501bcb1178de548c868a,"['pull', 'request', 'zendesk', 'pobrien', 'security', 'shell', 'injection']",General,{'security': 100}
+fd016bd3957a1e18e770daa841ad7f38d6bab1ff,"['samson', 'security', 'concern', 'jira', 'item', 'samson', 'samson']",General,{'security': 100}

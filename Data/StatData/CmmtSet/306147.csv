@@ -1,10 +1,21 @@
-sha,message,catetory,matched,labels
-6f451eec355ff94807ce14181f63e43e791a8e11,"['pretty', 'crash']",Risky_resource_management,{'crash': 100},
-aae4650b9517ae0a4e1f075fa06800edafeee75c,"['previous', 'crash']",Risky_resource_management,{'crash': 100},
-75ccb8ca4f63a0276a61811f21030ebe69242a5e,"['window', 'layout', 'small', 'crash']",Risky_resource_management,{'crash': 100},
-24aa8cfd616afe377f25cc7fad9d3a48db14b450,"['debug', 'string', 'format', 'logfileresolve', 'startup', 'freebsd', 'crash']",Risky_resource_management,{'crash': 100},
-7f5916d4809fa48df53cc960618772e5dba86989,"['endwin', 'crash']",Risky_resource_management,{'crash': 100},
-7063c01988848ee7f22576eaa51e7859727fe8b7,"['future', 'crash']",Risky_resource_management,{'crash': 100},
-7033b51b416e6d8fc60a761f95f90d2038a49864,"['potential', 'crash']",Risky_resource_management,{'crash': 100},
-f0f819b119ef5a6c56130d47fca0229b5d0f71db,"['state', 'crash']",Risky_resource_management,{'crash': 100},
-63c6855a997ad42986a8ad7739cfc61c077071ae,"['empty', 'crash']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+6ec90c521b7913eee2ffecd3ddf71c7b0bb466e0,"['dump', 'crash']",General,{'crash': 100}
+e8f4020c670ef1330dc99dd5c4d0eb62eb35239e,['crash'],General,{'crash': 100}
+6f451eec355ff94807ce14181f63e43e791a8e11,"['pretty', 'crash']",General,{'crash': 100}
+aae4650b9517ae0a4e1f075fa06800edafeee75c,"['hotkeys', 'crash']",General,{'crash': 100}
+d805dee15f4e869f0749b3bad51f1019a6b8d442,"['crash', 'binary', 'file']",General,{'crash': 100}
+75ccb8ca4f63a0276a61811f21030ebe69242a5e,"['layout', 'crash', 'small', 'window']",General,{'crash': 100}
+24aa8cfd616afe377f25cc7fad9d3a48db14b450,"['logfile', 'format', 'string', 'debug', 'crash', 'startup', 'freebsd']",General,{'crash': 100}
+7f5916d4809fa48df53cc960618772e5dba86989,"['endwin', 'crash']",General,{'crash': 100}
+7063c01988848ee7f22576eaa51e7859727fe8b7,"['overlay', 'crash', 'overlay']",General,{'crash': 100}
+7033b51b416e6d8fc60a761f95f90d2038a49864,"['potential', 'crash']",General,{'crash': 100}
+14755f6f750c7d344a8a7d45699b14cb2a0193f9,"['pull', 'request', 'sureshsundriyal', 'coverity', 'coverity', 'buffer', 'overrun']",Risky_resource_management,{'overrun': 100}
+b4f2c1683a8d0caa8887b96257841f154e08acb3,"['buffer', 'overrun', 'shove', 'character', 'null', 'terminator', 'string', 'buffer', 'overrun']",Risky_resource_management,{'overrun': 100}
+2981357ed4de02d22da6f2ac87db91c10f9f60b7,"['pull', 'request', 'sureshsundriyal', 'coverity', 'buffer', 'overrun']",Risky_resource_management,{'overrun': 100}
+13337a75a5e9d6362a924b54cba748ee0119ec43,"['coverity', 'buffer', 'overrun']",Risky_resource_management,{'overrun': 100}
+f0f819b119ef5a6c56130d47fca0229b5d0f71db,"['dump', 'state', 'crash']",General,{'crash': 100}
+06ed04cea93f396c2a26869cf772ef952d5a8892,"['pull', 'request', 'sureshsundriyal', 'coverity', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+6567b53266e84700b3ddf1fcc6c680d40b97ede6,"['null', 'pointer', 'possibility', 'name']",Risky_resource_management,{'null pointer': 100}
+0859f69c9fb10e71a4020d5044b558e4fbe0f168,['crash'],General,{'crash': 100}
+63c6855a997ad42986a8ad7739cfc61c077071ae,"['crash', 'empty', 'file']",General,{'crash': 100}
+9872d5937d86291fa349528b675d71185431e631,"['valgrind', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}

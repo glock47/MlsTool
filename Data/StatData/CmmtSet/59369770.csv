@@ -1,27 +1,70 @@
-sha,message,catetory,matched,labels
-350d695f7c249005935c4006a1ecdcf3f50b2818,"['cargo', 'dependencyjwalk', 'detect', 'crash', 'single', 'computer']",Risky_resource_management,{'crash': 100},
-bbd5d4975f0e75b69f01193bc9a1b281ec1f3d36,"['refactor', 'deadlock']",Risky_resource_management,{'deadlock': 100},
-8d0ea0683bd38039323fbe96bfec80226a9d732e,"['deadlock', 'semaphore']",Risky_resource_management,{'deadlock': 100},
-08724e38fd16f2c0855132005dd3ff1405a8cc89,"['deadlock', 'mutableproperty', 'barrier']",Risky_resource_management,{'deadlock': 100},
-26896e4766e5f187e9e8cb8d77816f9e6f332a59,"['deadlock', 'async', 'mitigate', 'random', 'failure', 'mutableproperty']",Risky_resource_management,{'deadlock': 100},
-2dfa7cb8f38161dc353b55da89e6751910e8f3c4,"['condition', 'fixeddeinitialize', 'explicit', 'terminal', 'snapshot', 'state', 'updatelock', 'result', 'event', 'guard', 'deadlock', 'ensure']",Risky_resource_management,{'deadlock': 100},
-c94c31a4196b366282622c07974821df34f1c0f5,"['fdaacmerge', 'taquitos', 'requestproducer', 'timer', 'crash', 'interval']",Risky_resource_management,{'crash': 100},
-0d2cee3ec25fc6243989fb2ae094440e4403193e,"['crash', 'unwrappingproducer']",Risky_resource_management,{'crash': 100},
-03eef2516d99c77187d6145710e416af835c405e,"['signalproducer', 'crash', 'propertyof', 'signal']",Risky_resource_management,{'crash': 100},
-e973ceb0542e3f31372b1965b1573c9062423e9a,"['crash', 'workaround', 'optimization', 'compiler']",Risky_resource_management,{'crash': 100},
-13fe954f7216e55e755efd997586619877912fc5,"['deadlock', 'switchtolatest', 'naive']",Risky_resource_management,{'deadlock': 100},
-1f175d9395b071bc71be12bca975b936e3a20534,"['insteadimplementation', 'cocoaactions', 'insideresolve', 'device', 'crash', 'release', 'runtime']",Risky_resource_management,{'crash': 100},
-99b999509ad1b8647d86e66aa005eb9def0a76c4,"['signalproducer', 'noescape', 'signalhowever', 'crash', 'signal', 'memory']",Risky_resource_management,{'crash': 100},
-00caffff5d4b16baaa729a8edd080f4089a3ea06,"['uncurryswift', 'crash']",Risky_resource_management,{'crash': 100},
-433201bcb19c69f57555ca1c217e8be515d0a938,"['uncurry', 'combinepreviousswift', 'crash']",Risky_resource_management,{'crash': 100},
-4be5ea319ab67f4bcb2c8cb51d9bd6b1eb1e583a,"['fbcfc', 'mergemerge', 'reactivecocoa', 'crash', 'requestcrash']",Risky_resource_management,{'crash': 100},
-3d7d240876ed0b56270e2d4f153fe26ce98f1fb4,"['crash', 'uncurry']",Risky_resource_management,{'crash': 100},
-55e2a3d8c6c7a743c5efb57c64fa97af5ec095ff,"['swift', 'crash', 'starton']",Risky_resource_management,{'crash': 100},
-43808aaf3e3034dcb96857f44291296786caa2c4,"['function', 'refactor', 'curriedunless', 'crash', 'runtime', 'function']",Risky_resource_management,{'crash': 100},
-ae0209016216d298f904a30256e2ca7054676e63,"['propertyswift', 'crash', 'compiler', 'signalproducers', 'property']",Risky_resource_management,{'crash': 100},
-ddd31c75e3939544397c999442aedfac4b43cffd,"['crash', 'racbacktrace']",Risky_resource_management,{'crash': 100},
-3f030047b12448327371b520aaf669961addf2cc,"['state', 'completerather', 'deadlock', 'timeout']",Risky_resource_management,{'deadlock': 100},
-f7fa93806546c70a53137ddc164e4bd71f1f577f,"['mergebacktrace', 'request', 'lifetime', 'reactivecocoaracbacktrace', 'crash', 'lifetime']",Risky_resource_management,{'crash': 100},
-6bd05211b299144b13257adc06b8369f2936e3e0,"['mergeflatten', 'crash', 'request', 'reactivecocoaflatten', 'refactor', 'crash']",Risky_resource_management,{'crash': 100},
-a761f75da656bb8a3c2fe1b8d6f1300be85bcdf5,"['flatten', 'crash', 'disposal', 'refactor', 'compound']",Risky_resource_management,{'crash': 100},
-d305c045093339a4e784f0a331ddaac53e259435,"['mergemerge', 'github', 'crash', 'requestcrash']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+bbd5d4975f0e75b69f01193bc9a1b281ec1f3d36,"['refactor', 'mutableproperty', 'deadlock', 'test']",Risky_resource_management,{'deadlock': 100}
+91fd3f15664b6e57c43e6959c05162de22c106ca,"['integer', 'overflow', 'foundation', 'integer', 'overflow', 'foundation', 'overflow', 'test', 'case', 'note', 'value', 'limit', 'operator', 'changelog', 'http', 'travis', 'reactivecocoa', 'reactiveswift', 'update', 'changelog', 'syntax', 'equality', 'matcher']",Risky_resource_management,{'integer overflow': 100}
+aace40fcc55519736fdf124525c769df820a8f41,"['pull', 'request', 'reactivecocoa', 'aggregate', 'builder', 'deadlock']",Risky_resource_management,{'deadlock': 100}
+291a9142673fa583a8b4bb1a1572661ea9107cea,"['pull', 'request', 'reactivecocoa', 'mutableproperty', 'test', 'mitigate', 'random', 'failure', 'mutableproperty', 'async', 'deadlock', 'test', 'action', 'infinite', 'feedback', 'test']",Risky_resource_management,{'deadlock': 100}
+8d0ea0683bd38039323fbe96bfec80226a9d732e,"['semaphore', 'mutableproperty', 'deadlock', 'test']",Risky_resource_management,{'deadlock': 100}
+08724e38fd16f2c0855132005dd3ff1405a8cc89,"['barrier', 'mutableproperty', 'deadlock', 'test']",Risky_resource_management,{'deadlock': 100}
+26896e4766e5f187e9e8cb8d77816f9e6f332a59,"['mitigate', 'random', 'failure', 'mutableproperty', 'async', 'deadlock', 'test']",Risky_resource_management,{'deadlock': 100}
+5ae1247b4213c0f7642fc376390fd909e1e974d5,"['data', 'race', 'disposable', 'array']",Risky_resource_management,{'data race': 100}
+ded5801c1a583ab37421bde7add33f496ac44c39,"['pull', 'request', 'reactivecocoa', 'signal', 'deadlock', 'race', 'condition', 'signal', 'terminal', 'event']",Risky_resource_management,{'deadlock': 100}
+b9b7ea7e9f9d2020e2d38b8fc9cb451bf8509252,"['hotfix', 'signal', 'deadlock']",Risky_resource_management,{'deadlock': 100}
+403e4c74db5bbba4aad3ad417e0584b5d3d5b1dc,"['deadlock', 'test', 'case']",Risky_resource_management,{'deadlock': 100}
+2dfa7cb8f38161dc353b55da89e6751910e8f3c4,"['race', 'condition', 'signal', 'observe', 'explicit', 'guard', 'signal', 'state', 'snapshot', 'deinitialize', 'updatelock', 'deadlock', 'case', 'signal', 'terminal', 'event', 'result', 'snapshot']",Risky_resource_management,{'deadlock': 100}
+c94c31a4196b366282622c07974821df34f1c0f5,"['pull', 'request', 'taquitos', 'arch', 'crash', 'timer', 'producer']",General,{'crash': 100}
+46706115beeacbfaea2ac6e4e03c1fef795f1cfe,"['pull', 'request', 'github', 'user', 'master', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+0d2cee3ec25fc6243989fb2ae094440e4403193e,"['crash', 'anyproperty', 'property', 'producer']",General,{'crash': 100}
+ff8e1ca0dcf5a0b619a7da4cbaf21721abe03085,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+d60daa535a5762e7fb824f8133281c786f1923d5,"['pull', 'request', 'reactivecocoa', 'buffer', 'deadlock', 'reimplement', 'single']",Risky_resource_management,{'deadlock': 100}
+c4cc6b957dfb46ab06029dbcca7093b8a65b6867,"['test', 'case', 'issue', 'deadlock', 'pair']",Risky_resource_management,{'deadlock': 100}
+d4f35c457eac6fd8c54f96a51fa7e3a48c9db968,"['pull', 'request', 'reactivecocoa', 'tzongw', 'master', 'memory', 'leak', 'racsubject']",Risky_resource_management,{'memory leak': 100}
+5285148e737ff6b5091bb841aaead8e3d4e7753a,"['test', 'case', 'memory', 'leak', 'racsubject']",Risky_resource_management,{'memory leak': 100}
+5db31f45bdbd71db10868d4d93971e393e22f2a5,"['pull', 'request', 'reactivecocoa', 'leak', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+d77e8cae12874d717a704a76f877f8aa4b28b276,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+9ee27dae40b6b9f8766ac21adfe4ed893aac69aa,"['pull', 'request', 'vagase', 'uicontrol', 'memory', 'leak', 'memory', 'leak', 'disposable', 'object']",Risky_resource_management,{'memory leak': 100}
+aea7cf585b9e25a2bbc6d57cc6aa979bf407af08,"['memory', 'leak', 'disposable', 'object']",Risky_resource_management,{'memory leak': 100}
+6f63eb6569772a90f0b4358acb33b93a4f8105b2,['crash'],General,{'crash': 100}
+f2f17739b6f71dada0b1c8acfb65493018ac422b,"['multiple', 'operator', 'replay', 'cache', 'http', 'reactivex', 'documentation', 'operator', 'replay', 'html', 'multicast', 'http', 'reactivex', 'documentation', 'operator', 'publish', 'html', 'easy', 'misuse', 'common', 'pattern', 'final', 'behaviorsubject', 'integer', 'subject', 'final', 'observable', 'integer', 'final', 'lastnumber', 'compile', 'time', 'deadlock', 'block', 'current', 'thread', 'pattern', 'compile', 'time', 'sort', 'thing', 'stackoverflow', 'http', 'question', 'observe', 'signal', 'event', 'alrea', 'party', 'solution', 'detail', 'codebase', 'semantics', 'result', 'operator', 'side', 'effect', 'consistency', 'rest', 'signalproducer', 'semantics', 'side', 'effect', 'subsequent', 'subscriber', 'point', 'weird', 'signalproducer', 'value', 'semantics', 'reference', 'semantics', 'producer', 'side', 'effect', 'different', 'observer', 'different', 'version', 'producer', 'subsequent', 'observer', 'producer', 'observer', 'complete', 'subscription', 'signalproducer', 'stay', 'observer', 'disposes', 'observer', 'signalproducer', 'scope', 'result', 'operator', 'different', 'version', 'truth', 'operator', 'sense', 'multicast', 'signal', 'notice', 'multicast', 'element', 'single', 'source', 'thanks', 'implementation', 'possible', 'part', 'case', 'optimization', 'multiple', 'time', 'framework', 'http', 'github', 'nachosoto', 'asyncimageview', 'blob', 'master', 'asyncimageview', 'renderers', 'case', 'producer', 'multiple', 'time', 'part', 'operator', 'chain', 'example', 'able', 'thing', 'combinelatest', 'filter', 'filter', 'subscription', 'signalproducer', 'question', 'common', 'case', 'lead', 'implementation', 'minimizes', 'room', 'error', 'controversial', 'operator', 'hearing', 'people', 'idea', 'case', 'sure', 'right', 'semantics']",Risky_resource_management,{'deadlock': 100}
+3ea66b7ebfc6210c4c4d71c1781b9b7887f54189,"['simplify', 'modernize', 'queuescheduler', 'behavior', 'libdispatch', 'support', 'class', 'serial', 'queue', 'strange', 'deadlock', 'research', 'queuescheduler', 'class', 'behaves', 'warning', 'potential', 'issue', 'comfortable', 'approach', 'complex', 'prone', 'error', 'queue', 'init', 'queue', 'name', 'fact', 'serial', 'caller']",Risky_resource_management,{'deadlock': 100}
+03eef2516d99c77187d6145710e416af835c405e,"['propertyof', 'signal', 'signalproducer', 'test', 'crash']",General,{'crash': 100}
+e973ceb0542e3f31372b1965b1573c9062423e9a,"['optimization', 'workaround', 'compiler', 'crash']",General,{'crash': 100}
+9be74dbb4d16637ebcfb3e5380c82c418b9917ee,"['enable', 'swift', 'optimization', 'risk', 'stack', 'overflow']",Risky_resource_management,{'stack overflow': 100}
+3ab3601baa0488db80c6357d0e791dd470ba947d,"['pull', 'request', 'reactivecocoa', 'deadlock', 'refactor', 'switchtolatest', 'deadlock']",Risky_resource_management,{'deadlock': 100}
+13fe954f7216e55e755efd997586619877912fc5,"['naive', 'switchtolatest', 'deadlock']",Risky_resource_management,{'deadlock': 100}
+1f175d9395b071bc71be12bca975b936e3a20534,"['cocoaactions', 'implementation', 'runtime', 'crash', 'device', 'release']",General,{'crash': 100}
+a01ab1ecc8c0752e20b543890ac5f6db24ac3913,"['pull', 'request', 'reactivecocoa', 'memory', 'corruption', 'workaround', 'workarounds', 'swift', 'runtime', 'memory', 'corruption']",Risky_resource_management,{'memory corruption': 100}
+3cfda588b26b97db795aaefaa1f38207ca0ea965,"['swift', 'development', 'memory', 'corruption', 'workaround']",Risky_resource_management,{'memory corruption': 100}
+73563818f337634981bc3645338f28c410ba5567,"['pull', 'request', 'reactivecocoa', 'noescape', 'signal', 'producer', 'noescape', 'signal', 'signalproducer', 'memory', 'corruption', 'time']",Risky_resource_management,{'memory corruption': 100}
+c325d0650c890af2df14cc92612d318a91805acf,"['memory', 'corruption', 'time', 'error']",Risky_resource_management,{'memory corruption': 100}
+99b999509ad1b8647d86e66aa005eb9def0a76c4,"['noescape', 'signal', 'signalproducer', 'signal', 'time', 'completion', 'test', 'crash', 'memory', 'corruption']",Risky_resource_management,{'memory corruption': 100}
+042a471431ba3ed7d3652be277b45726eef1b30e,"['swift', 'development', 'memory', 'corruption', 'workaround']",Risky_resource_management,{'memory corruption': 100}
+00caffff5d4b16baaa729a8edd080f4089a3ea06,"['uncurry', 'scan', 'runtime', 'crash']",General,{'crash': 100}
+433201bcb19c69f57555ca1c217e8be515d0a938,"['uncurry', 'combineprevious', 'runtime', 'crash']",General,{'crash': 100}
+e48350edad88fa39db07c3120bbe5a36f7b00dad,"['swift', 'development', 'memory', 'corruption', 'workaround', 'conflict', 'reactivecocoa']",Risky_resource_management,{'memory corruption': 100}
+85be02a931f02760ffda4ae62f4b3dd72e827e46,"['dictionary', 'generator', 'form', 'result', 'crash']",General,{'crash': 100}
+3d7d240876ed0b56270e2d4f153fe26ce98f1fb4,"['uncurry', 'crash']",General,{'crash': 100}
+55e2a3d8c6c7a743c5efb57c64fa97af5ec095ff,"['starton', 'crash', 'swift']",General,{'crash': 100}
+43808aaf3e3034dcb96857f44291296786caa2c4,"['function', 'crash', 'runtime', 'function', 'function']",General,{'crash': 100}
+04af6caf65005eac312d42fbf02090deb62ace0e,"['runtime', 'crash', 'function', 'syntax', 'crash', 'test']",General,{'crash': 100}
+57fb5d7ea710abb260d7ba8952ad56a223a4f321,"['compiler', 'crash']",General,{'crash': 100}
+eed14853b884d8e0e78c6166b7c5612288f7b46c,"['runtime', 'crash']",General,{'crash': 100}
+8bbd5b98e9624116b9f9de4e79bb821c11c91008,"['pull', 'request', 'kkazuo', 'patch', 'memory', 'leak', 'issue']",Risky_resource_management,{'memory leak': 100}
+4d6d5e2a009756624403d6e51a060d71c4b8f294,"['memory', 'leak', 'issue', 'autorelease', 'guard', 'manage', 'autorelease', 'pool', 'http', 'library', 'documentation', 'general', 'conceptual', 'operationqueues']",Risky_resource_management,{'memory leak': 100}
+ae0209016216d298f904a30256e2ca7054676e63,"['property', 'test', 'test', 'signalproducers', 'property', 'swift', 'compiler', 'crash']",General,{'crash': 100}
+b5b909a5aefd4ec403252a44e74572b977c3c9bf,"['deadlock', 'await', 'observation', 'synchronize', 'signal', 'object', 'nscondition', 'deadlock', 'signal', 'private', 'queue', 'dispatch', 'semaphore', 'need', 'mutex', 'notify', 'awaiter', 'value']",Risky_resource_management,{'deadlock': 100}
+7afe2d8286e9453dc4ce80bc6c3ffc79c9fbbc7b,"['pull', 'request', 'equinux', 'master', 'crash', 'racbacktrace']",General,{'crash': 100}
+ddd31c75e3939544397c999442aedfac4b43cffd,"['crash', 'racbacktrace']",General,{'crash': 100}
+0db546112fead8e0d4e90cec15dd7f121c5f7f21,"['prefix', 'underscore', 'private', 'functionality', 'thanks', 'real', 'access', 'control']",Porous_defenses,{'access control': 100}
+cec5a21d807c8018fb59a8f328362029754ff4e3,"['duplicative', 'access', 'control']",Porous_defenses,{'access control': 100}
+37adba6d2b09c1603aefceb7d6d4856ad05055ce,"['belated', 'addition', 'public', 'stuff', 'initial', 'access', 'control']",Porous_defenses,{'access control': 100}
+2a36630306dcd5208adf88fb1935178d45f53a34,"['refactor', 'signal', 'initial', 'value', 'backdoor', 'constructor', 'initial', 'value']",Insecure_interaction_between_components,{'backdoor': 100}
+56202da53506a4eb77c92fdfed51fc10cc14533c,"['pull', 'request', 'reactivecocoa', 'backtrace', 'stack', 'overflow', 'stack', 'overflow', 'long', 'backtrace', 'chain']",Risky_resource_management,{'stack overflow': 100}
+33164d548a53ec1250b128f46e098545e53664c6,"['information', 'object', 'introduce', 'crash', 'method', 'issue', 'unclear', 'global', 'machinery']",General,{'crash': 100}
+f7fa93806546c70a53137ddc164e4bd71f1f577f,"['pull', 'request', 'reactivecocoa', 'backtrace', 'lifetime', 'racbacktrace', 'lifetime', 'crash']",General,{'crash': 100}
+6bd05211b299144b13257adc06b8369f2936e3e0,"['pull', 'request', 'reactivecocoa', 'flatten', 'crash', 'refactor', 'flatten', 'crash']",General,{'crash': 100}
+a761f75da656bb8a3c2fe1b8d6f1300be85bcdf5,"['refactor', 'flatten', 'crash', 'compound', 'disposal']",General,{'crash': 100}
+35d4f5e08f6dbfc045f37c5fb236eccf3ae2e7d5,"['fishhook', 'racbacktrace', 'clang', 'static', 'analyzer', 'report', 'false', 'memory', 'leak', 'target']",Risky_resource_management,{'memory leak': 100}
+6610e433917c726232a6e0ebff07c1509f563b39,"['integer', 'underflow', 'index', 'arithmetic']",Risky_resource_management,{'integer underflow': 100}
+f003cfc770ede85aad959beb0097f672a7f17b52,"['stack', 'overflow']",Risky_resource_management,{'stack overflow': 100}
+850820ab9522cb0f4a64ac57ab0544b24a00ebf6,"['unit', 'test', 'crash', 'application', 'level']",General,{'crash': 100}
+d305c045093339a4e784f0a331ddaac53e259435,"['pull', 'request', 'github', 'crash', 'crash']",General,{'crash': 100}

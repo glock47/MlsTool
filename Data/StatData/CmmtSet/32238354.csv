@@ -1,15 +1,19 @@
-sha,message,catetory,matched,labels
-81b9d2459c4dcf36d6b7cad994241efec2db5b3a,"['crash', 'module', 'entrypoint', 'import', 'package']",Risky_resource_management,{'crash': 100},
-d903477f4e31be71e016f8af56cbe2a8d4f11c9c,"['tsconfig', 'crash', 'exportmap']",Risky_resource_management,{'crash': 100},
-dd4e416939f83de61298610c0bee455b25063915,"['crash', 'syntax', 'loader', 'webpack']",Risky_resource_management,{'crash': 100},
-a5a277ff3463cd7666b2ca119bd3575d5bff1ab9,"['default', 'crash']",Risky_resource_management,{'crash': 100},
-b22a183b37859162d86048df4e0654a8103b21a6,"['default', 'crash', 'jordan', 'harband']",Risky_resource_management,{'crash': 100},
-4ce280a0e1527380c25c7ca7d83767326d972442,"['crash', 'module']",Risky_resource_management,{'crash': 100},
-4ff9b923c60621ade9dd944584a0ca0112bb5b53,"['crash', 'typescript']",Risky_resource_management,{'crash': 100},
-4665ec5a687d068e4e4ab19e3dbde7d0c65bbee4,"['absolute', 'crash', 'invalid', 'syntax', 'import']",Risky_resource_management,{'crash': 100},
-3908e6d349f04b5726b09479f67f937783bb7c1b,"['invalid', 'crash']",Risky_resource_management,{'crash': 100},
-f63dd261809de6883b13b6b5b960e6d7f42a7813,"['requestfolder', 'crash', 'module']",Risky_resource_management,{'crash': 100},
-bb686defa4199d5c1f77980b165907b9d3c0971b,"['folder', 'crash', 'module']",Risky_resource_management,{'crash': 100},
-404f5068158bc176bd108d1b179c13b4c111fef1,"['static', 'crash']",Risky_resource_management,{'crash': 100},
-59520ff8245219763a38d54d1d5156899d26afbb,"['static', 'crash', 'patch', 'origin']",Risky_resource_management,{'crash': 100},
-e282c426407f2df9fece05bffc6b98c6ec64ea3f,"['crash', 'number']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+81b9d2459c4dcf36d6b7cad994241efec2db5b3a,"['import', 'module', 'crash', 'package', 'entrypoint']",General,{'crash': 100}
+d903477f4e31be71e016f8af56cbe2a8d4f11c9c,"['exportmap', 'crash', 'tsconfig', 'lack']",General,{'crash': 100}
+8d7ec179c2ba2672d4d06200166ab64e1821527c,"['newline', 'import', 'crash', 'syntax']",General,{'crash': 100}
+cc604c1ed9267427c50dd8e598f6a1e136867173,"['order', 'crash', 'typescript', 'import', 'syntax']",General,{'crash': 100}
+4665ec5a687d068e4e4ab19e3dbde7d0c65bbee4,"['absolute', 'path', 'crash', 'invalid', 'import', 'syntax']",General,{'crash': 100}
+3908e6d349f04b5726b09479f67f937783bb7c1b,"['invalid', 'code', 'name', 'crash']",General,{'crash': 100}
+0cd5e438728a44b15899e0029865dfa6752170be,"['module', 'crash']",General,{'crash': 100}
+7ffbf03fc832df41c4e90ffd27fee43de3685224,"['memory', 'overflow']",Risky_resource_management,{'memory overflow': 100}
+bcd06ba6532ed7b064d00283eb7634ea112a2299,['security'],General,{'security': 100}
+f63dd261809de6883b13b6b5b960e6d7f42a7813,"['pull', 'request', 'rfermann', 'module', 'crash', 'lint', 'file', 'folder']",General,{'crash': 100}
+bb686defa4199d5c1f77980b165907b9d3c0971b,"['module', 'crash', 'lint', 'file', 'folder']",General,{'crash': 100}
+158f4e8276a9d7c2298d2409c0a1022e45e5e349,"['pull', 'request', 'preco', 'namespace', 'crash', 'crash', 'object', 'rest', 'property', 'namespace', 'rule']",General,{'crash': 100}
+2efc41a7c8d3879eeda0806cfda69a7a9b60462a,"['null', 'pointer', 'exception', 'ignore', 'import']",Risky_resource_management,{'null pointer': 100}
+de0dbe535a35c7918b203ca56451dc1f0fcd9820,"['newline', 'import', 'decorator', 'newline', 'import', 'crash', 'decorator', 'report', 'newline', 'import', 'decorator', 'line', 'update', 'changelog']",General,{'crash': 100}
+59520ff8245219763a38d54d1d5156899d26afbb,"['origin', 'static', 'crash', 'release', 'patch']",General,{'crash': 100}
+e282c426407f2df9fece05bffc6b98c6ec64ea3f,['crash'],General,{'crash': 100}
+f4d145818566a3615ed59afe456ef1a0e03465ee,"['namespace', 'rule', 'runtime', 'crash', 'namespace', 'rule', 'runtime', 'crash', 'namespace', 'changelog', 'note']",General,{'crash': 100}
+a7d627ede2e4b4b7edce116b92b73703af886de5,"['crash', 'newline', 'import', 'switch', 'case']",General,{'crash': 100}

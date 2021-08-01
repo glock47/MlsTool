@@ -1,25 +1,28 @@
-sha,message,catetory,matched,labels
-c64d1438732032f450f7c3f4bc2f2ad8ba2451b4,"['crash', 'compiler', 'workaround']",Risky_resource_management,{'crash': 100},
-5615d6bf1bc5d724a2b6751c99f11f427c5c3f50,"['crash', 'geometry', 'multiple', 'avoidsstill', 'geometry', 'multiple', 'scene']",Risky_resource_management,{'crash': 100},
-772502d8777ca8746ea7aa1a88230bf24d03ea4d,"['invalid', 'scene', 'crash']",Risky_resource_management,{'crash': 100},
-79c9f4a1b8cc8a883aa74ce12bcbb03030112ec1,"['crash', 'curve']",Risky_resource_management,{'crash': 100},
-46c9952cd593cedd51db10c11e03406a150c531b,"['crash', 'error']",Risky_resource_management,{'crash': 100},
-04ed0b9a7fae8778ba94faefc74cac0851fdc678,"['invalid', 'crash']",Risky_resource_management,{'crash': 100},
-4f5814142e4f41efbbef5001576fe3dfc0a7045d,"['invalid', 'crash']",Risky_resource_management,{'crash': 100},
-9d666f3c60ff7d638dfc2debb8913c65f6ea8120,"['crash', 'print', 'bugfix', 'statistic']",Risky_resource_management,{'crash': 100},
-5101201e40813bbabc2e5997f3bd663a8fce1bcf,"['deadlock', 'bugfix', 'parallel', 'statistic']",Risky_resource_management,{'deadlock': 100},
-7e9decae1f9a0e33ee864484d1fba4656bd83e56,"['packet', 'crash']",Risky_resource_management,{'crash': 100},
-4101f94dceda2c841cf22c2c523813e1e8800d34,"['packet', 'crash']",Risky_resource_management,{'crash': 100},
-97c27362337f721b2b20706e6862f8523c3a964c,"['packet', 'crash']",Risky_resource_management,{'crash': 100},
-b0dae8cfa28fbff2f22c12364581fb9ed96e924c,"['stack', 'overflow', 'potential', 'block', 'fastallocator']",Risky_resource_management,{'stack overflow': 100},
-2d0e2887117125b66c04532121552ea415ed7817,"['stack', 'overflow', 'potential', 'block', 'fastallocator']",Risky_resource_management,{'stack overflow': 100},
-14ccd7d3f2fdce1f1e3890699a97aca757f956c5,"['check', 'texture', 'width', 'security']",General,{'security': 100},
-501ef9218a633e90b276f8b431a5d5e943235325,"['check', 'security', 'array', 'binary']",General,{'security': 100},
-4b1c63c21ff5a0c66581146fb3547490b358c870,"['multiple', 'geometry', 'crash']",Risky_resource_management,{'crash': 100},
-a2259e8ae01efb73d5b749ffd3e6291f273d0220,"['multiple', 'geometry', 'crash']",Risky_resource_management,{'crash': 100},
-0be53fc0024a2c35c20a804e62436c96f1a2f9ee,"['internal', 'stacksize', 'linux', 'crash']",Risky_resource_management,{'crash': 100},
-974d8715da39be02835fb89ae94d6a54be303ead,"['deadlock', 'rtccommit']",Risky_resource_management,{'deadlock': 100},
-e447e07a75c86a1bfd32da45f9e3e76bae0c686c,"['crash', 'update', 'multiple', 'subdiv']",Risky_resource_management,{'crash': 100},
-0473047cacdb180d2af8e44ad8c10f400767277d,"['weird', 'opengl', 'tutorial', 'crash', 'machine', 'camera']",Risky_resource_management,{'crash': 100},
-74c18a0cd2b5cb2eba2e7726360e6898713c53b1,"['crash', 'bvhhair', 'builder']",Risky_resource_management,{'crash': 100},
-e4a3267a874d6557b7e9c353249f0d06b706e588,"['generation', 'crash']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+2a8a136b04eb9874b9ddcd858d505f57a58c57f1,"['database', 'integrity', 'check', 'shuts', 'corrupt', 'database', 'fatal', 'loggger', 'function', 'critical', 'error', 'exit', 'application']",Risky_resource_management,{'integrity check': 100}
+79d9ea150c48f3c5015bdafc3328ed18409eac20,"['issue', 'database', 'integrity', 'check']",Risky_resource_management,{'integrity check': 100}
+d07667815b5b2cb4a5e0dc4d37eaccd7c8edf76a,"['request', 'security', 'request', 'requirement', 'issue', 'synology', 'device']",General,{'security': 100}
+b8fabca0c3a51a973ab8b69f5fbd7440c0060bd0,"['request', 'security', 'requirement']",General,{'security': 100}
+e1c6cdc50522f95da75391f833642d0fd22ebd8d,"['sensitive', 'data']",Porous_defenses,{'sensitive data': 100}
+7f4b64248b11eaf84c1960680e415562bca5026b,['insecure'],General,{'insecure': 100}
+eabff6e8ec8c61dce13ac20670b111f97fe318b2,"['integrity', 'check', 'database', 'auto', 'delete', 'corrupt', 'index', 'marshal', 'error', 'episode', 'date', 'date', 'episode']",Risky_resource_management,{'integrity check': 100}
+099e0ad08d621f434af836cbd80493bfb643b825,"['python', 'fanart', 'requirement', 'check', 'user', 'certain', 'libs', 'overall', 'performance', 'security', 'update']",General,{'security': 100}
+125a0c7489bc11abf9a15ed274e7a0ec35934028,"['memory', 'leak', 'queue', 'apscheduler', 'ioloop', 'event']",Risky_resource_management,{'memory leak': 100}
+8384e29ef1f95a36a70a916b1373e92f290d92ba,"['anime', 'setting', 'page', 'detour', 'subtitle', 'history', 'view', 'unicodeencode', 'error', 'corrects', 'others', 'unicodeencode', 'issue', 'mako', 'template', 'engine', 'mako', 'template', 'able', 'improper', 'variable', 'context', 'button', 'episode', 'status', 'manager', 'backlog', 'overviewer', 'subtitle', 'manager', 'config', 'post', 'processing', 'issue', 'config', 'subtitle', 'issue', 'file', 'console', 'variable', 'check', 'schedule', 'viewer', 'username', 'password', 'sensitive', 'data', 'miigotu']",Porous_defenses,{'sensitive data': 100}
+719072342eecb4050e64c98d6566a55d7500ae6e,"['pull', 'request', 'raver', 'patch', 'xthor', 'crash', 'ratio']",General,{'crash': 100}
+c7baabb709e8fdc407369e93fe92b035f75c5b3d,"['xthor', 'crash', 'ratio', 'error', 'xthorprovider', 'instance', 'attribute', 'ratio', 'aarelease', 'group', 'addiction', 'aasize', 'aaname', 'addiction', 'aaquality', 'hdtv', 'aaepisode', 'object', 'xedcb', 'aaextra', 'info', 'debug', 'searchqueue', 'search', 'transmission', 'exception', 'torrent', 'xthor', 'http', 'xthor', 'download', 'torrent', 'xthorprovider', 'instance', 'attribute', 'ratio', 'return', 'self', 'ratio', 'file', 'sickrage', 'sickbeard', 'provider', 'xthor', 'line', 'seedratio', 'result', 'ratio', 'file', 'sickrage', 'sickbeard', 'client', 'generic', 'line', 'sendtorrent', 'aatraceback', 'recent', 'call', 'error', 'searchqueue', 'search', 'transmission']",General,{'crash': 100}
+d74e45d0879a2fad98ac73c197f90b7e00c0a653,"['pull', 'request', 'sickragetv', 'wrong', 'permission', 'incorrect', 'permission']",Porous_defenses,{'incorrect permission': 100}
+cbe9f1ea99f233f89071bda87a552a9074b8aed4,"['incorrect', 'permission']",Porous_defenses,{'incorrect permission': 100}
+6b075cfc1f000899112259058df111aba9093309,"['pull', 'request', 'miigotu', 'patch', 'lock', 'deadlock']",Risky_resource_management,{'deadlock': 100}
+a78c6a27e8105c82340ae76b9f4d3bc0f5de6659,"['lock', 'deadlock']",Risky_resource_management,{'deadlock': 100}
+1b3b10903b8e3fec58941036b0084d9cd8e743dc,"['command', 'injection', 'command', 'injection', 'command', 'system']",Insecure_interaction_between_components,{'command injection': 100}
+e9affae8f8085e30099eafe943e10f503a9c6ec4,"['sensitive', 'data', 'filter', 'logger']",Porous_defenses,{'sensitive data': 100}
+628f2fed1fe5ae325c102df3cccd9087f5e76b95,"['code', 'logger', 'class', 'sensitive', 'data', 'logger', 'class', 'logger', 'logger', 'class', 'finer', 'control', 'whats']",Porous_defenses,{'sensitive data': 100}
+0030c87d044d45dfd36ca7e04249c64429388629,"['catch', 'error', 'speical', 'charactor', 'crash', 'email']",General,{'crash': 100}
+27daf8b46cb79f6eb4546722e163b7b79abe42de,"['catch', 'error', 'speical', 'charactor', 'crash', 'email']",General,{'crash': 100}
+e6389e47b12573154d9b77c64817290e0a04bdd7,"['feedparser', 'feedcache', 'code', 'performance', 'reliability', 'shove', 'module', 'sensitive', 'data', 'usernames', 'password', 'replaces', 'asterisk', 'file', 'console', 'versionchecker', 'module', 'updater', 'class', 'nonetype', 'error']",Porous_defenses,{'sensitive data': 100}
+d5daa14dc0463e53964461e16a8bcd60f12e5a50,"['crash', 'general', 'setting', 'page', 'output']",General,{'crash': 100}
+4a294764152c3878927095f5c7efe955489ec7f9,"['disposal', 'class', 'garbage', 'collection', 'afterwards', 'memory', 'leak', 'issue']",Risky_resource_management,{'memory leak': 100}
+0a80d0c3dd9194a5a98ab44256f861eb2c4c1e42,"['memory', 'leak', 'scene', 'exception']",Risky_resource_management,{'memory leak': 100}
+d73cc1cbbd22c706d5fc77862dedafc1c0b04133,"['cherrypy', 'tornado', 'memory', 'leak', 'issue']",Risky_resource_management,{'memory leak': 100}
+89ad4bccc3415190f193e70027c05cade6cb6ff4,"['show', 'season', 'episode', 'cache', 'show', 'class', 'circular', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}

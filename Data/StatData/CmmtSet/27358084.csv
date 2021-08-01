@@ -1,39 +1,116 @@
-sha,message,catetory,matched,labels
-bd703d4ea84e768eb1bdb6c6d5e82d59d428ba19,"['mergerequest', 'sysown', 'mergeupdate', 'address', 'checker', 'issue', 'security']",General,{'security': 100},
-47b0a917286214662a89512328394e0aeccfa829,"['cadaa', 'mergerequest', 'bskllzh', 'mergeclose', 'invalid', 'table', 'crash']",Risky_resource_management,{'crash': 100},
-8f243ab2713dc5950cb052e301b6510eb3efa69c,"['mergerequest', 'sysown', 'crash', 'proxysql', 'close', 'invalid', 'memory']",Risky_resource_management,{'crash': 100},
-a6724cb1efbe03b28bc7a3807ea56ac479b6e746,"['mergerequest', 'sysown', 'mergereboot', 'crash', 'infinite', 'return']",Risky_resource_management,{'crash': 100},
-a5628ebdb4f4d2a66abd4d22fd7edb7868dd39b5,"['babba', 'mergerequest', 'sysown', 'crash', 'restapi', 'close', 'exception']",Risky_resource_management,{'crash': 100},
-f48170914fdef94a40c5831dd63fd7eb77493dff,"['stack', 'overflow', 'array', 'memory', 'favor']",Risky_resource_management,{'stack overflow': 100},
-cbf11dfcff93993cca5f3ce6719f0a7eb48eb8d4,"['thread', 'access', 'initialization', 'stage', 'crash', 'shutdown']",Risky_resource_management,{'crash': 100},
-a829ca9104ea7e784b634b303ddc0073dfeb76ae,"['backtrace', 'crash']",Risky_resource_management,{'crash': 100},
-16e71a7df320d4c5f587533dc609274c6d6d0027,"['abeefrequest', 'sysown', 'mergetraffic', 'mirror', 'crash']",Risky_resource_management,{'crash': 100},
-abe78ef1600c87f7829f16265f6dc0fa557aa1d8,"['traffic', 'mirror', 'crash']",Risky_resource_management,{'crash': 100},
-868f70903d83bdec6aaa79a1253ebcb570562673,"['resultset', 'largeseveral', 'fixedcause', 'crash', 'resultset', 'wouldcause', 'corruption', 'crash', 'memorycommitimproves', 'large', 'usage', 'resultset', 'memoryheartbeat', 'generates', 'crash']",Risky_resource_management,{'crash': 100},
-3b031f3518f60176fd308121e30f0d76e0e6aa79,"['index', 'crash']",Risky_resource_management,{'crash': 100},
-3ad899c75889a941634deccb55a947aa79c58366,"['library', 'crash']",Risky_resource_management,{'crash': 100},
-197a46ea0da38b940c32366886b3787fe0753959,"['variableoutput', 'extendedcause', 'crash', 'logic']",Risky_resource_management,{'crash': 100},
-ee5b54d9838f29989272efaebfe992652c5a0393,"['internal', 'crash']",Risky_resource_management,{'crash': 100},
-d65f7016b39533c3903d19e7db7ade2ec893f879,"['crash', 'statement', 'execution']",Risky_resource_management,{'crash': 100},
-cfbdfb1134b112b2b0274f23b73c524fa328f385,"['query', 'crash', 'proxysql', 'tableexecute', 'function', 'adminadmin', 'module', 'query', 'crash', 'proxysqlproxysql', 'issue', 'sysown']",Risky_resource_management,{'crash': 100},
-676fd93836477b51a591b1725cb40d9ba0e5835d,"['query', 'crash', 'proxysql', 'tableexecute', 'proxysqlfunction', 'creates', 'glomthadmin', 'module', 'query', 'crash', 'proxysqlcause', 'sysown', 'similar', 'proxysql', 'issueproxysql', 'issue', 'sysown']",Risky_resource_management,{'crash': 100},
-4280b84e6a1fadc168474f94547cfb5e4cf4aa8a,"['startup', 'crash']",Risky_resource_management,{'crash': 100},
-49f7f19e85d191e86d41d9fc1a1d4f0328f30b6b,"['preventcause', 'crash']",Risky_resource_management,{'crash': 100},
-8757134d35d7a1e11c1034495473ece34a8d8e36,"['mergerequest', 'sysown', 'mergewithout', 'login', 'password', 'crash']",Risky_resource_management,{'crash': 100},
-91b02c7186b4bef27ee153afdcf672f4412e6a96,"['login', 'password', 'crash']",Risky_resource_management,{'crash': 100},
-ff8eef7c7a404d2dc65f56820ec412cd9811ec67,"['mergerequest', 'sysown', 'mergeconnection', 'shutdown', 'crash']",Risky_resource_management,{'crash': 100},
-a1a7997bdc8ab0d99a1dfcb24155eca354f038b0,"['connection', 'shutdown', 'crash']",Risky_resource_management,{'crash': 100},
-be0843c051a3122cb8eb7955a82213b2494fc00d,"['integer', 'overflow']",Risky_resource_management,{'integer overflow': 100},
-1069f82cbd1a04a6b88b1e207dfe1ea5c194318d,"['mirror', 'processlist', 'crash']",Risky_resource_management,{'crash': 100},
-fcfa5682bc1b627d96007393deb735555e05aa2f,"['short', 'mysql', 'query', 'crash']",Risky_resource_management,{'crash': 100},
-597130e367ceaf2ba3033812eea9f981ac86b69a,"['integer', 'overflow', 'mysql']",Risky_resource_management,{'integer overflow': 100},
-3cb6101dd40d678998b871cd90bc7378d5ff9b77,"['mysql', 'validatewithout', 'crash', 'statement', 'pointer', 'mysql']",Risky_resource_management,{'crash': 100},
-8e9bbde6edef837d5d834cac69a5cfc3b8315993,"['usage', 'crash']",Risky_resource_management,{'crash': 100},
-9419d3462ea7eb96d3a092fcdc837d891205b978,"['alwayscause', 'crash', 'mirror', 'session']",Risky_resource_management,{'crash': 100},
-4df53c69f41396343e19a1fe2452d109cccd7ea1,"['alwayscause', 'crash', 'mirror', 'session']",Risky_resource_management,{'crash': 100},
-2bcc1451b6a77a67cfbb32a2204368d8afa79c5c,"['alwayscause', 'crash', 'mirror', 'session']",Risky_resource_management,{'crash': 100},
-adc7a8d367aa76c53f8707754e5b9e8522256369,"['mergemerge', 'request', 'aismail', 'crash', 'proxysqldetector', 'proxysql', 'crash']",Risky_resource_management,{'crash': 100},
-5f5b639249d8e02ca5522fc780a47f45cb8ecce4,"['thread', 'suite', 'crash']",Risky_resource_management,{'crash': 100},
-555da2f9178d7b40cb19a9220568e5eb5b5912f1,"['gdbserver', 'exposeremote', 'proxysql', 'debuggingwhenever', 'crash', 'instaince', 'order', 'debug']",Risky_resource_management,{'crash': 100},
-4ebd9e15d2e4e60a555e652c352db8854aee1ad5,"['configuration', 'betterconfig', 'crash', 'proxysql', 'module', 'mysql']",Risky_resource_management,{'crash': 100},
-e8d50d9f0a0cb104ea12281d9473253c0acf2d17,"['connection', 'improvementissuestatus', 'server', 'online', 'return', 'connectionconnection', 'return', 'weightbackend', 'crash']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+bd703d4ea84e768eb1bdb6c6d5e82d59d428ba19,"['pull', 'request', 'sysown', 'address', 'update', 'checker', 'security', 'issue']",General,{'security': 100}
+47b0a917286214662a89512328394e0aeccfa829,"['pull', 'request', 'bskllzh', 'close', 'crash', 'mmsd', 'null', 'invalid', 'host', 'name', 'table']",General,{'crash': 100}
+65e8caf9b6edab066cec80dc86745f2c80b20c8a,"['memory', 'corruption', 'free', 'query']",Risky_resource_management,{'memory corruption': 100}
+8f243ab2713dc5950cb052e301b6510eb3efa69c,"['pull', 'request', 'sysown', 'close', 'proxysql', 'crash', 'invalid', 'memory']",General,{'crash': 100}
+a6724cb1efbe03b28bc7a3807ea56ac479b6e746,"['pull', 'request', 'sysown', 'close', 'return', 'null', 'infinite', 'crash', 'reboot']",General,{'crash': 100}
+a5628ebdb4f4d2a66abd4d22fd7edb7868dd39b5,"['pull', 'request', 'sysown', 'close', 'crash', 'enable', 'restapi', 'centos']",General,{'crash': 100}
+ca3499054e8bdedbee1396f262b02d75ce04ff15,"['pull', 'request', 'sysown', 'close', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+6de72f34b9286c20be3417aeff3745338a6615ab,"['pull', 'request', 'sysown', 'close', 'crash', 'memory', 'error', 'valgrind']",General,{'crash': 100}
+31419e8c61a6623f89c38e130423237d255bcd99,"['pull', 'request', 'sysown', 'close', 'crash', 'invalid']",General,{'crash': 100}
+f48170914fdef94a40c5831dd63fd7eb77493dff,"['dangerous', 'stack', 'array', 'favor', 'stack', 'overflow']",Risky_resource_management,{'stack overflow': 100}
+fd5c21156ca5f29aa27181138a34bf2426f60c97,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+2e47e42af42d79b93a3534abbe07765ba207de98,"['pull', 'request', 'sysown', 'close', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+566d3191144a9a2c24548c6d3b6ba7c5cc77d2dc,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+e1a1ba4277b8559e7b359f5b86596de46b2e6a85,"['pull', 'request', 'sysown', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+40448a58fc5839f55cd0f8184232699060fd8f35,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+f85be00e653e7d08ca2ca13fcacea6a096765594,"['pull', 'request', 'sysown', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+ef53973018b61920cdaf00f530d04cd7d9a2bb2e,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+cbf11dfcff93993cca5f3ce6719f0a7eb48eb8d4,"['crash', 'access', 'worker', 'thread', 'initialization', 'shutdown', 'stage']",General,{'crash': 100}
+460d75efc81b1df336f680c96868180195de29fc,"['cache', 'size', 'calculation', 'integer', 'overflow', 'mark', 'knapp', 'mknapp', 'hudson']",Risky_resource_management,{'integer overflow': 100}
+a829ca9104ea7e784b634b303ddc0073dfeb76ae,"['backtrace', 'crash']",General,{'crash': 100}
+65e55a4b3545a9b48dfeae88791dc7eb52a01963,"['check', 'possible', 'buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100}
+33ab791b49b4459b4ea0d7888c3d76ac3f16883a,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+8ba928bfdc97bd88cf7dea976f9a00481e047b8b,"['pull', 'request', 'sysown', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+3d49fb5864fc223b3bb5234b87e64b78ec011731,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+16e71a7df320d4c5f587533dc609274c6d6d0027,"['pull', 'request', 'sysown', 'crash', 'mirror', 'traffic']",General,{'crash': 100}
+abe78ef1600c87f7829f16265f6dc0fa557aa1d8,"['crash', 'mirror', 'traffic']",General,{'crash': 100}
+befca502032293c7839cf03ec01d5c1968c3a788,"['memory', 'corruption']",Risky_resource_management,{'memory corruption': 100}
+a6debf5126b9ec5bf2822fd47273ffc11ecc1cb0,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+868f70903d83bdec6aaa79a1253ebcb570562673,"['large', 'resultset', 'resultset', 'crash', 'large', 'crash', 'memory', 'corruption', 'improves', 'memory', 'usage', 'large', 'resultset', 'generates', 'heartbeat', 'data']",Risky_resource_management,{'memory corruption': 100}
+3b031f3518f60176fd308121e30f0d76e0e6aa79,"['crash', 'index']",General,{'crash': 100}
+acf60cd502c8372a09e326f21328ad44622511c4,"['pull', 'request', 'sysown', 'fire', 'implementation', 'sqli', 'fingerprint', 'whitelist']",Insecure_interaction_between_components,{'sqli': 100}
+e9dc7a9b60a4090e2426659c7c1055913294eb7e,"['implementation', 'sqli', 'fingerprint', 'whitelist', 'libsqlinjection', 'generates', 'table', 'table', 'list', 'fingerprint', 'libsqlinjection', 'fingerprint', 'table', 'proxysql', 'sqli', 'algorithm', 'query']",Insecure_interaction_between_components,{'sqli': 100}
+d71d01cb63e03926972eb3a82dcf144fb6d13683,"['event', 'audit', 'coredump', 'event', 'logfile', 'audit', 'logfile', 'null', 'pointer', 'description', 'benchmark', 'test', 'sysbench', 'version', 'proxysql', 'mysql', 'error', 'info', 'error', 'signal', 'proxysql', 'libc', 'xbde', 'libstdc', 'xbdf', 'libstdc', 'proxysql', 'proxysql', 'proxysql', 'proxysql', 'proxysql', 'proxysql', 'proxysql', 'proxysql', 'xcbe', 'proxysql', 'xafb', 'libpthread', 'xbcdae', 'libc', 'clone', 'xbdefd', 'main', 'error', 'proxysql', 'analyze', 'coredump', 'proxysql', 'debug', 'version', 'variable', 'event', 'logfile', 'null', 'pointer', 'function', 'event', 'logfile', 'sess', 'xbfdf', 'sess', 'xbac', 'ostream', 'sentry', 'sentry', 'ostream', 'libstdc', 'ostream', 'char', 'const', 'long', 'libstdc', 'xbfdf', 'xbfdf', 'sess', 'xbac', 'sess', 'xbac', 'myds', 'logquery', 'xbac', 'myds', 'requestend', 'xbac', 'myds', 'handler', 'xbac', 'xbef', 'main', 'libpthread', 'clone', 'libc', 'line', 'code', 'function', 'file', 'check', 'event', 'logfile', 'null', 'pointer', 'void', 'sess', 'myds', 'event', 'false', 'return', 'event', 'logfile', 'null', 'return', 'event', 'logfile', 'null', 'event', 'logfile', 'null', 'sess', 'myconn', 'userinfo', 'benchmark', 'test', 'proxysql', 'debug', 'version', 'coredump', 'proxysql', 'print', 'info', 'proxysql', 'root', 'xxxxx', 'proxysql', 'grep', 'event', 'logfile', 'null', 'proxysql', 'info', 'event', 'logfile', 'null', 'info', 'event', 'logfile', 'null', 'event', 'audit', 'coredump', 'proxysql', 'null', 'pointer', 'variable', 'audit', 'logfile']",Risky_resource_management,{'null pointer': 100}
+19e7c3f1e265e51fa1690e476995c72a11172cf4,"['memory', 'leak', 'gtid']",Risky_resource_management,{'memory leak': 100}
+41459e4c70c1e2740297f5c8e03640ff833aedd6,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+b29a434d1d888eab6e9bb3e33d485a3b69fc410d,"['pull', 'request', 'sysown', 'buffer', 'overflow', 'long', 'gtid']",Risky_resource_management,{'buffer overflow': 100}
+b8e4effbcffd66dd8101d761bad5c7fc9d13b333,"['buffer', 'overflow', 'long', 'gtid']",Risky_resource_management,{'buffer overflow': 100}
+eb98030df5b6529a68a69f2808d9fd94fa20c1b1,"['pull', 'request', 'leak', 'memory', 'leak', 'queue', 'monitor']",Risky_resource_management,{'memory leak': 100}
+67ae1ee3bd1c63aecf428cc080d7dbc22dd2d873,"['memory', 'leak', 'server', 'monitor', 'connection', 'pool']",Risky_resource_management,{'memory leak': 100}
+edf427689acc2199e20b7abe5007e6a2e66bfcf2,"['memory', 'leak', 'proxysql', 'configfile', 'pointer', 'valgrind', 'crash']",Risky_resource_management,{'memory leak': 100}
+51ac79959ca520e4c6c2162377329a39e08edfb0,"['memory', 'leak', 'queue', 'monitor']",Risky_resource_management,{'memory leak': 100}
+23752ac70385ae0c5955ec965e8b8eda4e322f00,"['memory', 'leak', 'generation']",Risky_resource_management,{'memory leak': 100}
+9a315ddbdf8ba6ad0251100328857ee9a84e495f,"['memory', 'leak', 'thread', 'object']",Risky_resource_management,{'memory leak': 100}
+35c85fe6b54e26e27f4cf1bd688be124105b1ee5,"['pull', 'request', 'leak', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+1536d232793b1351eae2f2efb9c91bd0ed37b7f9,"['pull', 'request', 'idle', 'leak', 'memory', 'leak', 'idle', 'thread']",Risky_resource_management,{'memory leak': 100}
+d8928dd8968d8d2886bbea0524290ac251cb56d5,"['memory', 'leak', 'idle', 'thread']",Risky_resource_management,{'memory leak': 100}
+a4df794a4ca9f06fbd49e045338e4542b0776271,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+d52a771e5022aa6e6bd1f70e1f10aca07b441ace,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+6aa550df0513ee893000caf5457b40dcb26324e8,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+3ad899c75889a941634deccb55a947aa79c58366,"['crash', 'json', 'library', 'invalid']",General,{'crash': 100}
+e85c34b2952f5a05d3f02a8afca30c0de334d898,['crash'],General,{'crash': 100}
+197a46ea0da38b940c32366886b3787fe0753959,"['json', 'output', 'crash', 'need']",General,{'crash': 100}
+0db0604423102a12f7c9b1402b663c70a9d6521b,"['incorrect', 'length', 'gtid']",Risky_resource_management,{'incorrect length': 100}
+2c154a2bab0c53dd0fb102611564866be85d3122,"['pull', 'request', 'mount', 'possible', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+54e7e8550b254e35032c9d33028e44c3d1dd4cd5,"['update', 'possible', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+1857090e05beed2ed0b302083eef4c94f1d3ba39,"['support', 'json', 'enum', 'geometry', 'field', 'type', 'statement', 'nodejs', 'mysql', 'module', 'json', 'type', 'object', 'value', 'statement', 'parameter', 'order', 'type', 'consistent', 'mysql', 'mysql', 'crash', 'case', 'reference', 'http', 'mysql', 'internals', 'binary', 'protocol', 'value', 'html']",General,{'crash': 100}
+ae80f153159ca587f8ddc0bb9d8003265ab87635,"['crash', 'proxysql', 'restart', 'insert', 'connection', 'mysrvc', 'lead', 'double', 'deallocation', 'http', 'github', 'sysown', 'proxysql', 'issue']",General,{'crash': 100}
+cfbdfb1134b112b2b0274f23b73c524fa328f385,"['crash', 'query', 'table', 'admin', 'module', 'admin', 'module', 'crash', 'query', 'http', 'github', 'sysown', 'proxysql', 'issue']",General,{'crash': 100}
+676fd93836477b51a591b1725cb40d9ba0e5835d,"['crash', 'query', 'table', 'function', 'creates', 'glomth', 'admin', 'module', 'crash', 'query', 'http', 'github', 'sysown', 'proxysql', 'issue', 'http', 'github', 'sysown', 'proxysql', 'issue']",General,{'crash': 100}
+9bfd45bd3222390e99746c59b69aba0aed210365,"['crash', 'http', 'github', 'sysown', 'proxysql', 'issue']",General,{'crash': 100}
+4280b84e6a1fadc168474f94547cfb5e4cf4aa8a,"['crash', 'startup']",General,{'crash': 100}
+b8f6e0ff80a21c8a1c3db85900a1f8385db3360e,"['integer', 'overflow', 'query', 'cache', 'size']",Risky_resource_management,{'integer overflow': 100}
+6ccec129e4b3be296cb91cdb5501a92178835dca,"['buffer', 'overflow', 'http', 'server']",Risky_resource_management,{'buffer overflow': 100}
+8757134d35d7a1e11c1034495473ece34a8d8e36,"['pull', 'request', 'sysown', 'crash', 'login']",General,{'crash': 100}
+d2f8952a83cfe6f36711e4223bf0e388d59c2c86,['crash'],General,{'crash': 100}
+91b02c7186b4bef27ee153afdcf672f4412e6a96,"['crash', 'login']",General,{'crash': 100}
+8dd1bf096798e9926cd8aaa216a34dc1da8a5089,"['crash', 'ldap', 'plugin']",General,{'crash': 100}
+c1c0617995162178ff020fb47a0d998ba7198968,"['mysql', 'protocol', 'field', 'crash', 'code', 'path', 'reading', 'parameter']",General,{'crash': 100}
+a143b50a7d47c0cb28be22b2c8362b5a8f591ff0,"['memory', 'leak', 'client', 'disconnect', 'resultset', 'memory', 'network', 'buffer']",Risky_resource_management,{'memory leak': 100}
+96f179f943954f3e04e1f1d65ba9ecbb3d0bd320,"['buffer', 'overflow', 'select', 'version']",Risky_resource_management,{'buffer overflow': 100}
+5d3b571e4cca5e968805302a8f2097970178bbd5,"['buffer', 'overflow', 'select', 'version']",Risky_resource_management,{'buffer overflow': 100}
+a058d5cc9bfebbf9febb07dc0770d1def357cb5a,"['connection', 'work', 'security', 'check', 'user', 'connection', 'query']",General,{'security': 100}
+d694d2942e373040988fabfcee4db0382cd45d64,"['buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100}
+6c2721607b42f78cc37d47daab1dd53d2889901c,"['valgrind', 'error', 'flag', 'ensure', 'initialize', 'memory', 'structure', 'valgrind', 'error']",Risky_resource_management,{'initialize memory': 92}
+0fdd52b46dcef090d4e5a743d4f77fdcdfb71b26,"['minor', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+dd0981bf9507797fc781ca6d1d313838c24aee12,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+acf49f80b8c9d11738c875c05b3352ad9d77b5ab,"['possible', 'crash', 'backend', 'shutdown', 'behavior', 'real']",General,{'crash': 100}
+ff8eef7c7a404d2dc65f56820ec412cd9811ec67,"['pull', 'request', 'sysown', 'crash', 'shutdown', 'connection', 'null']",General,{'crash': 100}
+a1a7997bdc8ab0d99a1dfcb24155eca354f038b0,"['crash', 'shutdown', 'connection', 'null']",General,{'crash': 100}
+28b9fc1f333067065786f047d65979e87e6ea9ae,"['memory', 'leak', 'load', 'mysql', 'server', 'runtime']",Risky_resource_management,{'memory leak': 100}
+be0843c051a3122cb8eb7955a82213b2494fc00d,"['integer', 'overflow']",Risky_resource_management,{'integer overflow': 100}
+703ee8ef0f9c00ccb35151273437b59dab86877d,"['reset', 'connection', 'memory', 'leak', 'code']",Risky_resource_management,{'memory leak': 100}
+895055f5ffef3aadb59e46e35a05157cbb2f24d0,"['admin', 'crash']",General,{'crash': 100}
+b688120b252b1c960fdd7740da24066f7e45b49a,"['memory', 'corruption', 'stmt']",Risky_resource_management,{'memory corruption': 100}
+e3c4cb9964aea2b40f8d98374c29037c234cb695,"['cluster', 'class', 'function', 'sync', 'remote', 'node', 'global', 'variable', 'admin', 'different', 'check', 'remote', 'configuration', 'remote', 'sync', 'disk', 'table', 'disk', 'memory', 'runtime', 'startup', 'admin', 'command', 'load', 'proxysql', 'server', 'config', 'load', 'config', 'file', 'memory', 'runtime', 'internal', 'structure', 'credential', 'ensure', 'checksum', 'config', 'file', 'support', 'address', 'hostname', 'lock', 'lock', 'option', 'deadlock', 'cluster', 'module']",Risky_resource_management,{'deadlock': 100}
+eda8ab478e63df33fe1fc78d701275716d862258,"['memory', 'leak', 'auxiliary', 'thread']",Risky_resource_management,{'memory leak': 100}
+2193152cb1cbb5fa2a675a954d52dba9922d1134,"['data', 'loss']",Risky_resource_management,{'data loss': 100}
+05f55d347a3d57cb3310a570a30870d7df5c4c1a,"['crash', 'connection', 'timeout', 'conflict']",General,{'crash': 100}
+1069f82cbd1a04a6b88b1e207dfe1ea5c194318d,"['crash', 'processlist', 'mirror']",General,{'crash': 100}
+0def85ee4a6485fc41146d94f47eda1d0780e612,"['crash', 'mirror']",General,{'crash': 100}
+fcfa5682bc1b627d96007393deb735555e05aa2f,"['crash', 'mysql', 'false', 'mysql', 'true', 'short', 'query']",General,{'crash': 100}
+215473ea827aa24a29baa2a2d0d7a5015473752c,"['crash', 'multiple', 'user']",General,{'crash': 100}
+196fd0a474e4f97a78dfc39850ff57a887eda5ac,"['memory', 'leak', 'error']",Risky_resource_management,{'memory leak': 100}
+909d2d57a39469bba94f287330c0c093906bb98c,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+597130e367ceaf2ba3033812eea9f981ac86b69a,"['integer', 'overflow', 'mysql']",Risky_resource_management,{'integer overflow': 100}
+e5531843ef75b7cd09ebccb46914935207c0e1ad,"['memory', 'leak', 'root']",Risky_resource_management,{'memory leak': 100}
+9419d3462ea7eb96d3a092fcdc837d891205b978,"['mirror', 'session', 'random', 'crash']",General,{'crash': 100}
+4df53c69f41396343e19a1fe2452d109cccd7ea1,"['mirror', 'session', 'random', 'crash']",General,{'crash': 100}
+2bcc1451b6a77a67cfbb32a2204368d8afa79c5c,"['mirror', 'session', 'random', 'crash']",General,{'crash': 100}
+a4ece505e566829f58893b6fd6adb4b1a7b12a3a,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+2d541fb275fe4512bed664b74a729b32d49a69a2,"['memory', 'leak', 'memory', 'leak', 'statement', 'resultset']",Risky_resource_management,{'memory leak': 100}
+ff3411f56212e50fe7dbd69a355a9b92097176aa,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+f4242378d4388f3635700a9d3b6577190e3c9e68,"['memory', 'leak', 'allocation']",Risky_resource_management,{'memory leak': 100}
+a3c90e1fc6dc6972c258a8d5671658dc347b995d,"['improvement', 'monitor', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+338b82636341180b3922bf53027541f3a3d7b336,"['async', 'mysql', 'connection', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+a285b2ce94f450c0dc076d2f6955aed8b110dcce,"['query', 'digest', 'table', 'attempt', 'track', 'possible', 'memory', 'leak', 'fragmentation']",Risky_resource_management,{'memory leak': 100}
+ec48ff7c9c64f5c735ef48405f69e00b6660de07,"['regression', 'severe', 'memory', 'corruption']",Risky_resource_management,{'memory corruption': 100}
+66e148c10b6213a1b9eb6be464d1d5c8ed7a5e34,"['http', 'browse', 'conc', 'memory', 'leak', 'active', 'need']",Risky_resource_management,{'memory leak': 100}
+00c906de1df031cf22c6319401d0f77a3d716b6b,"['large', 'packet', 'memory', 'leak', 'query', 'cache']",Risky_resource_management,{'memory leak': 100}
+1a43eb0aeafdacd93ee6ab81300abdc79caa7df0,"['bugfixes', 'memory', 'leak', 'error']",Risky_resource_management,{'memory leak': 100}
+adc7a8d367aa76c53f8707754e5b9e8522256369,"['pull', 'request', 'aismail', 'proxysql', 'crash', 'proxysql', 'crash']",General,{'crash': 100}
+5f5b639249d8e02ca5522fc780a47f45cb8ecce4,"['proxysql', 'crash', 'thread', 'test', 'suite']",General,{'crash': 100}
+555da2f9178d7b40cb19a9220568e5eb5b5912f1,"['expose', 'gdbserver', 'port', 'case', 'proxysql', 'instaince', 'order', 'debug', 'problem', 'whenever', 'crash']",General,{'crash': 100}
+e8d50d9f0a0cb104ea12281d9473253c0acf2d17,"['improvement', 'connection', 'pool', 'issue', 'connection', 'pool', 'return', 'connection', 'server', 'status', 'online', 'connection', 'pool', 'return', 'connection', 'weight', 'crash', 'backend']",General,{'crash': 100}
+a85bc447157d0f8192e71062ff14c71a5dca2387,"['table', 'issue', 'command', 'description', 'thread', 'storage', 'variable', 'wrapper', 'update', 'counter', 'return', 'value', 'show', 'command', 'libinjection']",Insecure_interaction_between_components,{'command libinjection': 92}

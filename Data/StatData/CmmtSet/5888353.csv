@@ -1,17 +1,29 @@
-sha,message,catetory,matched,labels
-9b265335dd076a22acdb34d188412824fa6dae4b,"['crash', 'catch']",Risky_resource_management,{'crash': 100},
-6121c19b7890c2be087a110a88155ed34297b8d6,"['proxy', 'security', 'vulnerability']",General,{'security': 100},
-9d629bb76e56315abc13668196425935191bf130,"['exists', 'schema', 'redshiftallow', 'schema', 'existsassumption', 'wouldbehaviorpotential', 'crash', 'sayingtable', 'schema']",Risky_resource_management,{'crash': 100},
-1787d827e90d9226e63d4b7c5f9b5b1534765770,"['dangerous', 'function', 'variable', 'default']",Risky_resource_management,{'dangerous function': 100},
-def9ecaca6b2df4908afb8eaa730506b6deed12c,"['project', 'migration', 'readthedocs', 'convertchange', 'project', 'email', 'subdomainschange', 'project', 'domain', 'concern', 'address', 'security']",General,{'security': 100},
-7d14a7c7830ed3ebe1024c5be4a79e79c07f6afd,"['bugfix', 'crash', 'function', 'empty', 'default']",Risky_resource_management,{'crash': 100},
-b79bb931d70f335bc6b7b70f353a5bec12580485,"['ebabbmerge', 'request', 'tarraschbugfix', 'scheduler', 'crash', 'configs']",Risky_resource_management,{'crash': 100},
-43f2de2646c8e1efd6e17ffabbb11accc21e70b6,"['bugfix', 'scheduler', 'crash', 'practice', 'followintparameters', 'value']",Risky_resource_management,{'crash': 100},
-dd37d973cfef2a1f93aad816c17a6e834705eb46,"['crash', 'execution', 'uncomparables', 'important', 'spotify', 'luigi']",Risky_resource_management,{'crash': 100},
-13673fd488c25325db633b1d49e664fb937fabc2,"['basicsimple', 'crash']",Risky_resource_management,{'crash': 100},
-4462cc0233f8f0fe3774d309ddfac2103e3dc857,"['mergesocket', 'timeout', 'request', 'jooon', 'mergelater', 'crash', 'catch', 'remotescheduler']",Risky_resource_management,{'crash': 100},
-078c893d4b57d1074c3b8abc5b5289534536c636,"['crash', 'catch', 'remoteschedulerpython', 'timeoutlater']",Risky_resource_management,{'crash': 100},
-978d0c663dc170af1c0cff13e8b94d6ea5ae1f04,"['kwargs', 'crash']",Risky_resource_management,{'crash': 100},
-e40f6b26506ea80f70c1e5b270b82ca44edce329,"['crash', 'pickle', 'statecrash', 'startup', 'pickle', 'store', 'luigi', 'reason']",Risky_resource_management,{'crash': 100},
-252331c318e0e23db640396308579e81b44226a8,"['potential', 'deadlock', 'stdout', 'fixedspotify', 'luigi']",Risky_resource_management,{'deadlock': 100},
-14a18297783a7b78610a2ae58c5469a974b5fc31,"['crash', 'abort', 'notification', 'complete', 'scheduling', 'process', 'entirechangegerrit', 'reviewedcompile', 'teamcityanders', 'nyman']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+9d629bb76e56315abc13668196425935191bf130,"['schema', 'exists', 'redshift', 'schema', 'part', 'table', 'name', 'current', 'implementation', 'code', 'exists', 'table', 'exists', 'fair', 'assumption', 'behavior', 'schema', 'potential', 'crash', 'schema', 'schema', 'table', 'name', 'exists']",General,{'crash': 100}
+6a93001adf09ce3fdb1f04024931c594906d79c9,"['flake', 'test', 'rename', 'method', 'variable', 'code', 'clarity', 'check', 'filepaths', 'instance', 'type', 'memory', 'leak', 'issue', 'iterator']",Risky_resource_management,{'memory leak': 100}
+695079822e6329614d16595c626f466c75446b70,"['vulnerability', 'usage', 'append', 'http', 'jquery', 'append', 'point', 'append', 'introduce', 'cross', 'site', 'particular', 'case', 'spin', 'luigi', 'instance', 'navigate', 'static', 'visualiser', 'index', 'html', 'graph', 'vistype', 'taskid', 'cscript', 'ealert', 'fscript', 'alert', 'append']",Insecure_interaction_between_components,{'cross site': 100}
+1787d827e90d9226e63d4b7c5f9b5b1534765770,"['clean', 'dangerous', 'function', 'default']",Risky_resource_management,{'dangerous function': 100}
+1afb37adfff235ddac506d38ea4d91ad8338501a,"['crash', 'test', 'luigi']",General,{'crash': 100}
+e124e75e6d54fbb1f86e7432d46ba5519a32605d,"['ensure', 'dictparameter', 'outstanding', 'particular', 'dictparameters', 'normal', 'frozen', 'dicts', 'execution', 'summary', 'crash']",General,{'crash': 100}
+def9ecaca6b2df4908afb8eaa730506b6deed12c,"['readthedocs', 'link', 'migration', 'project', 'subdomains', 'project', 'subdomains', 'domain', 'readthedocs', 'readthedocs', 'address', 'security', 'concern', 'site', 'cooky', 'data', 'domain', 'dashboard', 'test', 'plan']",General,{'security': 100}
+a3fe8179442470b7064d36bf46465dfdf1f8c222,"['nose', 'xunit', 'nosetest', 'xunit', 'test', 'crash', 'external', 'project', 'similar', 'traceback', 'recent', 'call', 'file', 'python', 'site', 'package', 'luigi', 'mock', 'line', 'stderrbytes', 'attributeerror', 'object', 'attribute', 'buffer', 'becuase', 'xunit', 'override', 'stderr', 'class', 'buffer', 'attribute', 'nose', 'source', 'http', 'github', 'nose', 'devs', 'nose', 'blob', 'master', 'nose', 'plugins', 'xunit']",General,{'crash': 100}
+7d14a7c7830ed3ebe1024c5be4a79e79c07f6afd,"['bugfix', 'crash', 'default', 'value', 'empty', 'string', 'conf', 'file']",General,{'crash': 100}
+b79bb931d70f335bc6b7b70f353a5bec12580485,"['pull', 'request', 'tarrasch', 'bugfix', 'scheduler', 'crash', 'configs']",General,{'crash': 100}
+43f2de2646c8e1efd6e17ffabbb11accc21e70b6,"['bugfix', 'scheduler', 'crash', 'configs', 'value', 'default']",General,{'crash': 100}
+9d79cbd6283716739f5abf4f55fb9b79416606c3,"['pull', 'request', 'tarrasch', 'execution', 'summary', 'crash', 'uncomparables']",General,{'crash': 100}
+dd37d973cfef2a1f93aad816c17a6e834705eb46,"['execution', 'summary', 'crash', 'uncomparables', 'spotify', 'luigi', 'enumparameters']",General,{'crash': 100}
+07f59adb6002e2ea3fa3ca1d479c158e18f65eec,"['format', 'conversion', 'code', 'spotify', 'luigi', 'scheduler', 'task', 'attribute', 'code', 'assumes', 'scheduler', 'crash', 'load', 'pickle', 'file', 'state', 'file', 'test', 'work', 'unit', 'test', 'compatibility', 'code', 'base', 'format', 'conversion', 'code']",General,{'crash': 100}
+13673fd488c25325db633b1d49e664fb937fabc2,"['basic', 'test', 'simple', 'crash']",General,{'crash': 100}
+4462cc0233f8f0fe3774d309ddfac2103e3dc857,"['pull', 'request', 'jooon', 'socket', 'timeout', 'catch', 'socket', 'timeout', 'remotescheduler', 'crash']",General,{'crash': 100}
+078c893d4b57d1074c3b8abc5b5289534536c636,"['catch', 'socket', 'timeout', 'remotescheduler', 'crash', 'timeout', 'python', 'socket', 'timeout']",General,{'crash': 100}
+978d0c663dc170af1c0cff13e8b94d6ea5ae1f04,"['kwargs', 'crash']",General,{'crash': 100}
+d9cd0ee9749be5e5f0e8980f0a250f49e2c598e9,"['lock', 'process', 'fork', 'deadlock', 'lookup', 'case', 'obvious', 'problem', 'approach', 'moment', 'fork', 'critical', 'section', 'code', 'atomic', 'operation', 'mutexes', 'child', 'process', 'thread', 'disappears', 'possibility', 'data', 'consistent', 'moreover', 'state', 'mutexes', 'unusable', 'child', 'usable', 'state', 'implementation', 'dependent', 'mutexes', 'behave', 'fork', 'linux', 'machine', 'child', 'http', 'thread', 'fork', 'thread', 'fork', 'issue', 'background', 'thread', 'main', 'thread', 'child', 'process', 'getaddrinfo', 'timing', 'dependent', 'child', 'process', 'state', 'example', 'script', 'http', 'gist', 'github', 'andpol']",Risky_resource_management,{'deadlock': 100}
+90137add64386414d92d008daa2e0f5ed5fe07ed,"['taskprocess', 'catch', 'exception', 'exception', 'catch', 'type', 'exception', 'block', 'case', 'error', 'crash', 'reason']",General,{'crash': 100}
+de267002f944887d574c40395277a1533c1c4e99,['security'],General,{'security': 100}
+c5bafaaf93e7a7557f9146309b3d85ae9422f7b1,"['pull', 'request', 'spotify', 'freider', 'crash', 'corrupt', 'pickle', 'state', 'file']",General,{'crash': 100}
+e40f6b26506ea80f70c1e5b270b82ca44edce329,"['corrupt', 'pickle', 'state', 'file', 'luigi', 'server', 'crash', 'startup', 'pickle', 'file', 'store', 'state', 'corrupt', 'reason']",General,{'crash': 100}
+fe7c6f144c4675ae07ceaa1430d62ab1f6451352,"['pull', 'request', 'master', 'crash']",General,{'crash': 100}
+4c8ef5cf5642ca17eefc504b20db10d062ee90a4,['crash'],General,{'crash': 100}
+9741d304d618f1b45570d298cdeac981bd384d66,"['wrap', 'ioloop', 'fetcher', 'unit', 'test', 'function', 'ioloop', 'instance', 'main', 'loop', 'separate', 'thread', 'sporadic', 'deadlock', 'unit', 'test']",Risky_resource_management,{'deadlock': 100}
+252331c318e0e23db640396308579e81b44226a8,"['potential', 'deadlock', 'data', 'stdout', 'http', 'github', 'spotify', 'luigi', 'pull']",Risky_resource_management,{'deadlock': 100}
+14a18297783a7b78610a2ae58c5469a974b5fc31,"['notification', 'email', 'crash', 'complete', 'abort', 'entire', 'scheduling', 'process', 'http', 'gerrit', 'compile', 'test', 'teamcity', 'teamcity', 'teamcity', 'spotify', 'anders', 'nyman', 'nyman', 'spotify', 'elia', 'freider', 'freider', 'spotify']",General,{'crash': 100}

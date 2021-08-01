@@ -1,109 +1,110 @@
-sha,message,catetory,matched,labels
-d0d35f3cb63f69add3db7ccb922af965c54fa747,"['corrupt', 'overrun', 'record']",Risky_resource_management,{'overrun': 100},
-1dd19a4dc274739f8578364227ab3ff58226c221,"['implication', 'security', 'unnecessarychange']",General,{'security': 100},
-a212ebaf65e2ae0cdd3afb9ea3f440ee8a12bd9d,"['memdb', 'deadlock', 'conditiondatabase', 'thread', 'moment']",Risky_resource_management,{'deadlock': 100},
-4e2bfd7462032484e2cd0e90fafa39e1b7e25c85,"['window', 'potential', 'crash']",Risky_resource_management,{'crash': 100},
-903d9e6be6ad77aa40b1110a6e4d78240271f1e6,"['dbsqlfuzz', 'insert', 'crash', 'assert', 'clause']",Risky_resource_management,{'crash': 100},
-2b789b664c8681f821d50779bf5433e810c882ab,"['expression', 'order', 'window', 'crash', 'clause']",Risky_resource_management,{'crash': 100},
-b77cb995990169a2ab950ee7f6eed7d97eb83bfb,"['crash', 'processing']",Risky_resource_management,{'crash': 100},
-36c9c00a81626747b69ae944fe1235d5d0a58812,"['mergeavoid', 'deadlock']",Risky_resource_management,{'deadlock': 100},
-86a3e7c15d1eba9638b38b0ff9a14f4a89d192c4,"['multiple', 'modification', 'deadlock', 'single', 'thread', 'process']",Risky_resource_management,{'deadlock': 100},
-ebf450cba93430fbc37d641a3a508b4844af9b89,"['design', 'security', 'option']",General,{'security': 100},
-e8b3d36d48724f2b3f9dc495a9a884e9cdfcefbe,"['experimental', 'possible', 'option', 'database', 'security', 'reading', 'application']",General,{'security': 100},
-99efc5827f7101031e3871fbb0b14df588ab5ff8,"['value', 'order', 'window', 'integer', 'constant', 'processing', 'clausedisable', 'check', 'definition', 'eeadfeebfinvalid', 'pointer', 'dereference', 'value', 'expression', 'constant', 'avoidyongheng', 'report', 'crash']",Risky_resource_management,{'crash': 100},
-ba631a1e1832f84c6600bd33d26b7c3b762ece88,"['query', 'function', 'potential', 'special', 'crash']",Risky_resource_management,{'crash': 100},
-30452a2c4c2b5894de72e62b7ad40921724361f8,"['buffer', 'database', 'potential', 'overrun']",Risky_resource_management,{'overrun': 100},
-7b047284f61ea0f82b72b9066926a2c440cae7c9,"['buffer', 'database', 'corrupt', 'potential', 'overrun']",Risky_resource_management,{'overrun': 100},
-285665d04026b418ed6be8d03eca681c1345c17e,"['database', 'crash']",Risky_resource_management,{'crash': 100},
-09d0e74a3212477a5d0741f9bf202bdb70f758f5,"['reconstruct', 'buffer', 'overrun', 'initializeharmless', 'overflow']",Risky_resource_management,{'overrun': 100},
-63c2271c4eb35055f3b65f9edfd797b7229c3b64,"['buffer', 'database', 'potential', 'overrun']",Risky_resource_management,{'overrun': 100},
-da1473da1f9086d5ede1ac9d204f92742145284a,"['definition', 'refers', 'expression', 'crash', 'outer']",Risky_resource_management,{'crash': 100},
-15ddc86f7a55adcdfa0e23c0117913096933e419,"['extra', 'buffer', 'overrun', 'pagerdatabase', 'processing']",Risky_resource_management,{'overrun': 100},
-850b66a5848d73428951382ca909c3663b905a9e,"['corrupt', 'overrun', 'operation']",Risky_resource_management,{'overrun': 100},
-64a2e3704ddeecff5abcf7729345e1e0bd2f6dbd,"['database', 'crash']",Risky_resource_management,{'crash': 100},
-ec2409b34e42389034ecf6ae616a85de97c0fd8c,"['buffer', 'prefix', 'corrupt', 'overrun']",Risky_resource_management,{'overrun': 100},
-cdfa649c5375a3e5d3128976d6f5f73039df013a,"['changeset', 'crash']",Risky_resource_management,{'crash': 100},
-3c466245904c5621c65b88cb0dcc205d0dd0d8ae,"['crash', 'causedchangeset']",Risky_resource_management,{'crash': 100},
-69e85f0bd0703e9c59357c8ea915c253a2af1e98,"['potential', 'crash']",Risky_resource_management,{'crash': 100},
-0569d3c1cdc05f0f3931d1f15749126986eb359f,"['potential', 'system', 'shell', 'crash']",Risky_resource_management,{'crash': 100},
-dddd2959dc202be2f3cba62072745ea68075ec15,"['xwrite', 'outcome', 'process', 'method', 'crash']",Risky_resource_management,{'crash': 100},
-40b533b1e588124a7ad4d39dd2b85e6b27ad1709,"['unionvtab', 'crash']",Risky_resource_management,{'crash': 100},
-37dbac85fe328df2ec211a58fb813f9eeee1eda3,"['mergepointer', 'parameterpointerpointer', 'strcmp', 'static', 'security', 'measure', 'crossingdifferent']",General,{'security': 100},
-25d159cd85342f49c41612622082a68eae712342,"['stack', 'overflow', 'parser']",Risky_resource_management,{'stack overflow': 100},
-fd76ca74d5b47a46daa2d0ba43faf1d9fdf3eaa7,"['lemon', 'security', 'comment', 'documentation', 'regardingcommand']",General,{'security': 100},
-a323fd6a18f7ef0c5fa9a7a3e8b91c623bf937f6,"['preventassert', 'crash', 'misuse', 'value']",Risky_resource_management,{'crash': 100},
-c498b4c6f67df7eda1bbe59fa6b7126f35891dee,"['crash', 'querymatch', 'phrase']",Risky_resource_management,{'crash': 100},
-50df2900aa5a496652411851a1acfc1682dc13b4,"['query', 'problem', 'function', 'auxiliary', 'crash']",Risky_resource_management,{'crash': 100},
-05948cfd1bb8dcd367da2a584c8ee060401b010d,"['buffer', 'operator', 'column', 'overrun']",Risky_resource_management,{'overrun': 100},
-9ed37c39e391b8c8a87791cde5bd5ca10a48d2a1,"['frame', 'problem', 'transaction', 'power', 'system', 'sector', 'synchronous', 'occurs', 'pragma', 'xsync', 'failure', 'crash', 'support']",Risky_resource_management,{'crash': 100},
-3f388f34019654a8e41e1b9bc8e10cb6dc996320,"['index', 'primary', 'integerticket', 'crash', 'ccebawrong', 'investigation']",Risky_resource_management,{'crash': 100},
-524168e6e83ecffecb2f1aa06273aac75141347e,"['buffer', 'statement', 'potential', 'overrun', 'avoidfuzzcheck']",Risky_resource_management,{'overrun': 100},
-d566582ee26192ad3bdaafd398c5949d61348760,"['database', 'crash']",Risky_resource_management,{'crash': 100},
-0757dcf0d003e6ff2ba5fc47ae96450f212b088c,"['problem', 'function', 'accepts', 'crash', 'processing']",Risky_resource_management,{'crash': 100},
-cbf8c984aef6c8cd7d84420523ab9b927f91ae42,"['security', 'memcpy']",General,{'security': 100},
-12dcaab8b7ab9ef3ffd5210267bc8c1185a05808,"['problem', 'target', 'program', 'sqlite', 'crash', 'utility']",Risky_resource_management,{'crash': 100},
-87744879c4d9e2bb1641d983a51fab52b5be95cc,"['table', 'statement', 'virtual', 'crash']",Risky_resource_management,{'crash': 100},
-33a6a74c79a1b99e1681cf4845312a5bef9fde66,"['crash', 'problemaaeeea', 'ticket']",Risky_resource_management,{'crash': 100},
-4b7cbd5197754f6c3b06624309a6e78b264f1b93,"['update', 'statement', 'rowid', 'column', 'crash', 'clause']",Risky_resource_management,{'crash': 100},
-f756a70bb1ef229ef7d684aaa10beb97abccd161,"['previous', 'buffer', 'overrun']",Risky_resource_management,{'overrun': 100},
-36d00b5a6d46ad599cd6c92a8696216ffad97a68,"['trunk', 'crash']",Risky_resource_management,{'crash': 100},
-81655ed15f43cf7e04524cd5c0b317cd0abd791b,"['eeacbmerge', 'crash', 'trunk']",Risky_resource_management,{'crash': 100},
-2fe9ff262013214ead6504839fd5c1dc67f92072,"['crash', 'clause']",Risky_resource_management,{'crash': 100},
-336e98955e7a099339b11463a2967a63685d2304,"['pending', 'order', 'block', 'assert', 'reading', 'version', 'crash']",Risky_resource_management,{'crash': 100},
-22dccbca0d578b285f32e401bef58b2b673edec8,"['alignment', 'harness', 'crash', 'problemcause', 'problem']",Risky_resource_management,{'crash': 100},
-54d306c0590d581eb56453af42734a4f490bf1b1,"['dataset', 'phrase', 'incremental', 'crash', 'processing']",Risky_resource_management,{'crash': 100},
-52053ff458ac5bcc1a1a78890db370d0af10d48c,"['query', 'obscure', 'crash', 'assert']",Risky_resource_management,{'crash': 100},
-55cdb3758701b39976fdfa12c2d08cca7508891f,"['crash', 'table']",Risky_resource_management,{'crash': 100},
-dbd8fdc132f9010092980b07c1b3fa59e4630091,"['crash', 'assert']",Risky_resource_management,{'crash': 100},
-cbb084cdf6e587dfaff99d0acf0a390617d4ea85,"['corner', 'database', 'prevents', 'potential', 'deadlock', 'cache', 'mutex', 'backup', 'crash']",Risky_resource_management,{'deadlock': 100},
-3b59e580177f484988f17874c60be7d3db28c435,"['result', 'check', 'integrity', 'checksum', 'modify']",Risky_resource_management,{'integrity checksum': 91},
-3582b706b5a3f7ccbb997dde5e75eb588be02ce5,"['invalid', 'obscure', 'certain', 'crash']",Risky_resource_management,{'crash': 100},
-13c1530610cc2b794341f460ecd4d34b02c89538,"['impact', 'buffer', 'overrun']",Risky_resource_management,{'overrun': 100},
-f20af778b0f35c3ffa5711a8f37a1eff49842053,"['btreemutexarray', 'object', 'fieldcounter', 'btree', 'mutexes', 'generation', 'order', 'assertrange', 'mutexes', 'order', 'neveravoidance', 'deadlock', 'btreesprogram']",Risky_resource_management,{'deadlock': 100},
-353ed503abd0370524e60aea00b8589404d8581a,"['session', 'crash']",Risky_resource_management,{'crash': 100},
-0c38cbc355f2f381595519897c61858be08e56ec,"['content', 'database', 'crash', 'couple']",Risky_resource_management,{'crash': 100},
-39d55e32610183ecfbc337c87219bd3eb17913de,"['crash', 'query']",Risky_resource_management,{'crash': 100},
-1e6403026ca9f9818ae8874aad86fb15f8df5229,"['corrupt', 'encounter', 'inconsistent', 'crash']",Risky_resource_management,{'crash': 100},
-e8dc60f1426ead2977f7c997714f999f38ccd366,"['buffer', 'overrun', 'problem']",Risky_resource_management,{'overrun': 100},
-d9cb6251d9b706290b1e83278892a9ec76bdef4d,"['crash', 'method', 'xshmpage']",Risky_resource_management,{'crash': 100},
-3a687853258026be2ab42d1cbc1f92469bfe908a,"['invariant', 'deadlock', 'operationcheck', 'assert', 'invariant']",Risky_resource_management,{'deadlock': 100},
-45c7e8832287cb3366974636374349e422977b87,"['implemention', 'rework', 'deadlock', 'mutexes']",Risky_resource_management,{'deadlock': 100},
-f6f80e806d25172702226759e2e9b185ad48e7a9,"['default', 'trigger', 'value', 'ticket', 'insert', 'crash']",Risky_resource_management,{'crash': 100},
-91ba4a8396ee1f4916511ea4cfd85632cc7aaae9,"['extra', 'crash']",Risky_resource_management,{'crash': 100},
-07fdb674b86ea874baad4b9c22b464805383cf63,"['journal', 'masterbuffer', 'overrun', 'process', 'strlen']",Risky_resource_management,{'overrun': 100},
-fe0f3fe7c169665ab1ea4b825dc194964e715b58,"['function', 'crash']",Risky_resource_management,{'crash': 100},
-e825e54b524e94befce01e93f9382c1d2c34cb85,"['header', 'occurs', 'buffer', 'overrun']",Risky_resource_management,{'overrun': 100},
-371898dae749114535f9ca6bd2ae979ab68fa7a6,"['return', 'check', 'modify', 'malloc', 'crash']",Risky_resource_management,{'crash': 100},
-8d02b9fab66646e319b3f18b099e105e2807b813,"['genfkey', 'buffer', 'overrun']",Risky_resource_management,{'overrun': 100},
-6412ca990d2063e61de09f6c368f0c6c69d3d64d,"['detection', 'overrun']",Risky_resource_management,{'overrun': 100},
-f5d98eeb15c8ad051e7e5795cb7112400e227d0a,"['simulation', 'slows', 'crash', 'thing']",Risky_resource_management,{'crash': 100},
-1cb4387ce0ba16d8b876f90f873978363c3da3be,"['switch', 'savepoint', 'script', 'crash']",Risky_resource_management,{'crash': 100},
-24ddad3daec79955eb2cb5d1e8f46a5a1c548e78,"['extra', 'stress', 'corruption', 'savepoint', 'mechanism', 'crash']",Risky_resource_management,{'crash': 100},
-c97e3f3ab5c51cdf50361f20b9a3fd74cc35d3d0,"['crash', 'update']",Risky_resource_management,{'crash': 100},
-eb0d165da77a35d408beb2a49da3aff788672153,"['crash', 'offset', 'update']",Risky_resource_management,{'crash': 100},
-74f33a6b08e08adf6f063ea41d7ff43fe8c13541,"['ticket', 'malloc', 'failure', 'crash']",Risky_resource_management,{'crash': 100},
-5ad45fab58eccea07b2012c24a819dab9176f39a,"['zfullcp', 'crash']",Risky_resource_management,{'crash': 100},
-0016a3b87ac5f1f55c9f658e7730cc01471395b8,"['avoidance', 'deadlock', 'scriptmutex', 'btree']",Risky_resource_management,{'deadlock': 100},
-ed163c1047abf411e4c4c0fe44dda7fc7cd712d6,"['flattensubquery', 'crash']",Risky_resource_management,{'crash': 100},
-d4d81bd663b0418a7bd7c7e998be3ec94c2e10f6,"['buffer', 'overrun', 'unixgettempname']",Risky_resource_management,{'overrun': 100},
-fe41eea9d54552af70a8c233022d2d790bc976ce,"['potential', 'buffer', 'overrun', 'terminatedprecision', 'number']",Risky_resource_management,{'overrun': 100},
-b1904e0c086a8fb3d2b1a7310177c825a7c0656c,"['crash', 'failure']",Risky_resource_management,{'crash': 100},
-f2c7a69e03f750fdd5c51c4a9409d7b2e21aadfa,"['additional', 'crash']",Risky_resource_management,{'crash': 100},
-84c6cf694e7beb335e3aa8e06af690253eba25ab,"['additional', 'crash']",Risky_resource_management,{'crash': 100},
-205ffec151d09cad8c62436e944d90e3487c0874,"['simulator', 'diagnostics', 'crash', 'bettermemory']",Risky_resource_management,{'crash': 100},
-bbe0106af7272bd12622cc53b0b06aed27075a24,"['table', 'compiles', 'initial', 'attempt', 'crash']",Risky_resource_management,{'crash': 100},
-a2d453276cefbe483d47cc3a80892e53a9c89340,"['crash', 'problem']",Risky_resource_management,{'crash': 100},
-939d2da04d652d4c6f438b26a791dba62b5d34a3,"['backend', 'crash']",Risky_resource_management,{'crash': 100},
-514c864caf818557b04458c7bd2d5e9f60ca8b65,"['modify', 'recovery', 'crash', 'thing']",Risky_resource_management,{'crash': 100},
-afdbcb4b8e3ec6af7229a086aacdf32ba1e9eccd,"['module', 'comment', 'crash']",Risky_resource_management,{'crash': 100},
-1c9196401fe8cd2996a69c55099ff5411539047e,"['lookupname', 'result', 'reference', 'table', 'logic', 'alias', 'expression', 'crash', 'clause']",Risky_resource_management,{'crash': 100},
-464326eb015356694bcaa04d9da5bd5ac52e40fc,"['causedmalloc', 'overrun']",Risky_resource_management,{'overrun': 100},
-d75d48c0e1819a8967f2fef58be4d0613a59904a,"['potential', 'buffer', 'overrun']",Risky_resource_management,{'overrun': 100},
-eb5e6e829310e249bb67c619e801c2562e976ca8,"['unexpected', 'internal', 'crash']",Risky_resource_management,{'crash': 100},
-380d35c4353b075d18eeff7d0d804b57ae661f8b,"['table', 'error', 'xsync', 'virtual', 'crash']",Risky_resource_management,{'crash': 100},
-44c1cab7a535b70d627f5bae23d51fbb442a4580,"['stack', 'buffer', 'overrun', 'problem']",Risky_resource_management,{'overrun': 100},
-a7805e63bf6620f1ef14d936e031a007548267a0,"['storage', 'medium', 'sector', 'crash']",Risky_resource_management,{'crash': 100},
-7c84c2e84e23e612a30a3d3c9ca628c35b6c14b8,"['modification', 'crash']",Risky_resource_management,{'crash': 100},
-15809fb23579b2ad17f5fa86d9c9f2f39e93ca6d,"['index', 'database', 'corrupt', 'contains', 'crash']",Risky_resource_management,{'crash': 100},
-9591dddecefab229bc7dad97c420134c84e94d3c,"['empty', 'ticket', 'crash']",Risky_resource_management,{'crash': 100},
-de2006655f627efa7305065bb3ce983270330c50,"['enabledproblem', 'prevents', 'security', 'ticket', 'legacy']",General,{'security': 100},
+sha,message,catetory,matched
+d0d35f3cb63f69add3db7ccb922af965c54fa747,"['corrupt', 'overrun', 'record']",Risky_resource_management,{'overrun': 100}
+1dd19a4dc274739f8578364227ab3ff58226c221,"['implication', 'security', 'unnecessarychange']",General,{'security': 100}
+a212ebaf65e2ae0cdd3afb9ea3f440ee8a12bd9d,"['memdb', 'deadlock', 'conditiondatabase', 'thread', 'moment']",Risky_resource_management,{'deadlock': 100}
+4e2bfd7462032484e2cd0e90fafa39e1b7e25c85,"['window', 'potential', 'crash']",General,{'crash': 100}
+dbea47fecdc6d4ce0806010b22a34608c3ac6487,"['memory', 'corruption', 'error', 'routine', 'detection']",Risky_resource_management,{'memory corruption': 100}
+903d9e6be6ad77aa40b1110a6e4d78240271f1e6,"['dbsqlfuzz', 'insert', 'crash', 'assert', 'clause']",General,{'crash': 100}
+2b789b664c8681f821d50779bf5433e810c882ab,"['expression', 'order', 'window', 'crash', 'clause']",General,{'crash': 100}
+b77cb995990169a2ab950ee7f6eed7d97eb83bfb,"['crash', 'processing']",General,{'crash': 100}
+36c9c00a81626747b69ae944fe1235d5d0a58812,"['mergeavoid', 'deadlock']",Risky_resource_management,{'deadlock': 100}
+86a3e7c15d1eba9638b38b0ff9a14f4a89d192c4,"['multiple', 'modification', 'deadlock', 'single', 'thread', 'process']",Risky_resource_management,{'deadlock': 100}
+ebf450cba93430fbc37d641a3a508b4844af9b89,"['design', 'security', 'option']",General,{'security': 100}
+e8b3d36d48724f2b3f9dc495a9a884e9cdfcefbe,"['experimental', 'possible', 'option', 'database', 'security', 'reading', 'application']",General,{'security': 100}
+99efc5827f7101031e3871fbb0b14df588ab5ff8,"['value', 'order', 'window', 'integer', 'constant', 'processing', 'clausedisable', 'check', 'definition', 'eeadfeebfinvalid', 'pointer', 'dereference', 'value', 'expression', 'constant', 'avoidyongheng', 'report', 'crash']",General,{'crash': 100}
+ba631a1e1832f84c6600bd33d26b7c3b762ece88,"['query', 'function', 'potential', 'special', 'crash']",General,{'crash': 100}
+30452a2c4c2b5894de72e62b7ad40921724361f8,"['buffer', 'database', 'potential', 'overrun']",Risky_resource_management,{'overrun': 100}
+7b047284f61ea0f82b72b9066926a2c440cae7c9,"['buffer', 'database', 'corrupt', 'potential', 'overrun']",Risky_resource_management,{'overrun': 100}
+285665d04026b418ed6be8d03eca681c1345c17e,"['database', 'crash']",General,{'crash': 100}
+09d0e74a3212477a5d0741f9bf202bdb70f758f5,"['reconstruct', 'buffer', 'overrun', 'initializeharmless', 'overflow']",Risky_resource_management,{'overrun': 100}
+63c2271c4eb35055f3b65f9edfd797b7229c3b64,"['buffer', 'database', 'potential', 'overrun']",Risky_resource_management,{'overrun': 100}
+da1473da1f9086d5ede1ac9d204f92742145284a,"['definition', 'refers', 'expression', 'crash', 'outer']",General,{'crash': 100}
+15ddc86f7a55adcdfa0e23c0117913096933e419,"['extra', 'buffer', 'overrun', 'pagerdatabase', 'processing']",Risky_resource_management,{'overrun': 100}
+850b66a5848d73428951382ca909c3663b905a9e,"['corrupt', 'overrun', 'operation']",Risky_resource_management,{'overrun': 100}
+64a2e3704ddeecff5abcf7729345e1e0bd2f6dbd,"['database', 'crash']",General,{'crash': 100}
+ec2409b34e42389034ecf6ae616a85de97c0fd8c,"['buffer', 'prefix', 'corrupt', 'overrun']",Risky_resource_management,{'overrun': 100}
+cdfa649c5375a3e5d3128976d6f5f73039df013a,"['changeset', 'crash']",General,{'crash': 100}
+3c466245904c5621c65b88cb0dcc205d0dd0d8ae,"['crash', 'causedchangeset']",General,{'crash': 100}
+69e85f0bd0703e9c59357c8ea915c253a2af1e98,"['potential', 'crash']",General,{'crash': 100}
+0569d3c1cdc05f0f3931d1f15749126986eb359f,"['potential', 'system', 'shell', 'crash']",General,{'crash': 100}
+dddd2959dc202be2f3cba62072745ea68075ec15,"['xwrite', 'outcome', 'process', 'method', 'crash']",General,{'crash': 100}
+40b533b1e588124a7ad4d39dd2b85e6b27ad1709,"['unionvtab', 'crash']",General,{'crash': 100}
+37dbac85fe328df2ec211a58fb813f9eeee1eda3,"['mergepointer', 'parameterpointerpointer', 'strcmp', 'static', 'security', 'measure', 'crossingdifferent']",General,{'security': 100}
+25d159cd85342f49c41612622082a68eae712342,"['stack', 'overflow', 'parser']",Risky_resource_management,{'stack overflow': 100}
+fd76ca74d5b47a46daa2d0ba43faf1d9fdf3eaa7,"['lemon', 'security', 'comment', 'documentation', 'regardingcommand']",General,{'security': 100}
+a323fd6a18f7ef0c5fa9a7a3e8b91c623bf937f6,"['preventassert', 'crash', 'misuse', 'value']",General,{'crash': 100}
+c498b4c6f67df7eda1bbe59fa6b7126f35891dee,"['crash', 'querymatch', 'phrase']",General,{'crash': 100}
+50df2900aa5a496652411851a1acfc1682dc13b4,"['query', 'problem', 'function', 'auxiliary', 'crash']",General,{'crash': 100}
+05948cfd1bb8dcd367da2a584c8ee060401b010d,"['buffer', 'operator', 'column', 'overrun']",Risky_resource_management,{'overrun': 100}
+9ed37c39e391b8c8a87791cde5bd5ca10a48d2a1,"['frame', 'problem', 'transaction', 'power', 'system', 'sector', 'synchronous', 'occurs', 'pragma', 'xsync', 'failure', 'crash', 'support']",General,{'crash': 100}
+3f388f34019654a8e41e1b9bc8e10cb6dc996320,"['index', 'primary', 'integerticket', 'crash', 'ccebawrong', 'investigation']",General,{'crash': 100}
+524168e6e83ecffecb2f1aa06273aac75141347e,"['buffer', 'statement', 'potential', 'overrun', 'avoidfuzzcheck']",Risky_resource_management,{'overrun': 100}
+d566582ee26192ad3bdaafd398c5949d61348760,"['database', 'crash']",General,{'crash': 100}
+0757dcf0d003e6ff2ba5fc47ae96450f212b088c,"['problem', 'function', 'accepts', 'crash', 'processing']",General,{'crash': 100}
+cbf8c984aef6c8cd7d84420523ab9b927f91ae42,"['security', 'memcpy']",General,{'security': 100}
+12dcaab8b7ab9ef3ffd5210267bc8c1185a05808,"['problem', 'target', 'program', 'sqlite', 'crash', 'utility']",General,{'crash': 100}
+87744879c4d9e2bb1641d983a51fab52b5be95cc,"['table', 'statement', 'virtual', 'crash']",General,{'crash': 100}
+33a6a74c79a1b99e1681cf4845312a5bef9fde66,"['crash', 'problemaaeeea', 'ticket']",General,{'crash': 100}
+4b7cbd5197754f6c3b06624309a6e78b264f1b93,"['update', 'statement', 'rowid', 'column', 'crash', 'clause']",General,{'crash': 100}
+f756a70bb1ef229ef7d684aaa10beb97abccd161,"['previous', 'buffer', 'overrun']",Risky_resource_management,{'overrun': 100}
+36d00b5a6d46ad599cd6c92a8696216ffad97a68,"['trunk', 'crash']",General,{'crash': 100}
+81655ed15f43cf7e04524cd5c0b317cd0abd791b,"['eeacbmerge', 'crash', 'trunk']",General,{'crash': 100}
+2fe9ff262013214ead6504839fd5c1dc67f92072,"['crash', 'clause']",General,{'crash': 100}
+336e98955e7a099339b11463a2967a63685d2304,"['pending', 'order', 'block', 'assert', 'reading', 'version', 'crash']",General,{'crash': 100}
+22dccbca0d578b285f32e401bef58b2b673edec8,"['alignment', 'harness', 'crash', 'problemcause', 'problem']",General,{'crash': 100}
+54d306c0590d581eb56453af42734a4f490bf1b1,"['dataset', 'phrase', 'incremental', 'crash', 'processing']",General,{'crash': 100}
+52053ff458ac5bcc1a1a78890db370d0af10d48c,"['query', 'obscure', 'crash', 'assert']",General,{'crash': 100}
+55cdb3758701b39976fdfa12c2d08cca7508891f,"['crash', 'table']",General,{'crash': 100}
+dbd8fdc132f9010092980b07c1b3fa59e4630091,"['crash', 'assert']",General,{'crash': 100}
+cbb084cdf6e587dfaff99d0acf0a390617d4ea85,"['corner', 'database', 'prevents', 'potential', 'deadlock', 'cache', 'mutex', 'backup', 'crash']",Risky_resource_management,{'deadlock': 100}
+3b59e580177f484988f17874c60be7d3db28c435,"['result', 'check', 'integrity', 'checksum', 'modify']",Risky_resource_management,{'integrity checksum': 91}
+3582b706b5a3f7ccbb997dde5e75eb588be02ce5,"['invalid', 'obscure', 'certain', 'crash']",General,{'crash': 100}
+13c1530610cc2b794341f460ecd4d34b02c89538,"['impact', 'buffer', 'overrun']",Risky_resource_management,{'overrun': 100}
+f20af778b0f35c3ffa5711a8f37a1eff49842053,"['btreemutexarray', 'object', 'fieldcounter', 'btree', 'mutexes', 'generation', 'order', 'assertrange', 'mutexes', 'order', 'neveravoidance', 'deadlock', 'btreesprogram']",Risky_resource_management,{'deadlock': 100}
+353ed503abd0370524e60aea00b8589404d8581a,"['session', 'crash']",General,{'crash': 100}
+0c38cbc355f2f381595519897c61858be08e56ec,"['content', 'database', 'crash', 'couple']",General,{'crash': 100}
+39d55e32610183ecfbc337c87219bd3eb17913de,"['crash', 'query']",General,{'crash': 100}
+1e6403026ca9f9818ae8874aad86fb15f8df5229,"['corrupt', 'encounter', 'inconsistent', 'crash']",General,{'crash': 100}
+e8dc60f1426ead2977f7c997714f999f38ccd366,"['buffer', 'overrun', 'problem']",Risky_resource_management,{'overrun': 100}
+d9cb6251d9b706290b1e83278892a9ec76bdef4d,"['crash', 'method', 'xshmpage']",General,{'crash': 100}
+3a687853258026be2ab42d1cbc1f92469bfe908a,"['invariant', 'deadlock', 'operationcheck', 'assert', 'invariant']",Risky_resource_management,{'deadlock': 100}
+45c7e8832287cb3366974636374349e422977b87,"['implemention', 'rework', 'deadlock', 'mutexes']",Risky_resource_management,{'deadlock': 100}
+f6f80e806d25172702226759e2e9b185ad48e7a9,"['default', 'trigger', 'value', 'ticket', 'insert', 'crash']",General,{'crash': 100}
+91ba4a8396ee1f4916511ea4cfd85632cc7aaae9,"['extra', 'crash']",General,{'crash': 100}
+07fdb674b86ea874baad4b9c22b464805383cf63,"['journal', 'masterbuffer', 'overrun', 'process', 'strlen']",Risky_resource_management,{'overrun': 100}
+fe0f3fe7c169665ab1ea4b825dc194964e715b58,"['function', 'crash']",General,{'crash': 100}
+e825e54b524e94befce01e93f9382c1d2c34cb85,"['header', 'occurs', 'buffer', 'overrun']",Risky_resource_management,{'overrun': 100}
+371898dae749114535f9ca6bd2ae979ab68fa7a6,"['return', 'check', 'modify', 'malloc', 'crash']",General,{'crash': 100}
+8d02b9fab66646e319b3f18b099e105e2807b813,"['genfkey', 'buffer', 'overrun']",Risky_resource_management,{'overrun': 100}
+6412ca990d2063e61de09f6c368f0c6c69d3d64d,"['detection', 'overrun']",Risky_resource_management,{'overrun': 100}
+f5d98eeb15c8ad051e7e5795cb7112400e227d0a,"['simulation', 'slows', 'crash', 'thing']",General,{'crash': 100}
+1cb4387ce0ba16d8b876f90f873978363c3da3be,"['switch', 'savepoint', 'script', 'crash']",General,{'crash': 100}
+24ddad3daec79955eb2cb5d1e8f46a5a1c548e78,"['extra', 'stress', 'corruption', 'savepoint', 'mechanism', 'crash']",General,{'crash': 100}
+c97e3f3ab5c51cdf50361f20b9a3fd74cc35d3d0,"['crash', 'update']",General,{'crash': 100}
+eb0d165da77a35d408beb2a49da3aff788672153,"['crash', 'offset', 'update']",General,{'crash': 100}
+74f33a6b08e08adf6f063ea41d7ff43fe8c13541,"['ticket', 'malloc', 'failure', 'crash']",General,{'crash': 100}
+5ad45fab58eccea07b2012c24a819dab9176f39a,"['zfullcp', 'crash']",General,{'crash': 100}
+0016a3b87ac5f1f55c9f658e7730cc01471395b8,"['avoidance', 'deadlock', 'scriptmutex', 'btree']",Risky_resource_management,{'deadlock': 100}
+ed163c1047abf411e4c4c0fe44dda7fc7cd712d6,"['flattensubquery', 'crash']",General,{'crash': 100}
+d4d81bd663b0418a7bd7c7e998be3ec94c2e10f6,"['buffer', 'overrun', 'unixgettempname']",Risky_resource_management,{'overrun': 100}
+fe41eea9d54552af70a8c233022d2d790bc976ce,"['potential', 'buffer', 'overrun', 'terminatedprecision', 'number']",Risky_resource_management,{'overrun': 100}
+b1904e0c086a8fb3d2b1a7310177c825a7c0656c,"['crash', 'failure']",General,{'crash': 100}
+f2c7a69e03f750fdd5c51c4a9409d7b2e21aadfa,"['additional', 'crash']",General,{'crash': 100}
+84c6cf694e7beb335e3aa8e06af690253eba25ab,"['additional', 'crash']",General,{'crash': 100}
+205ffec151d09cad8c62436e944d90e3487c0874,"['simulator', 'diagnostics', 'crash', 'bettermemory']",General,{'crash': 100}
+bbe0106af7272bd12622cc53b0b06aed27075a24,"['table', 'compiles', 'initial', 'attempt', 'crash']",General,{'crash': 100}
+a2d453276cefbe483d47cc3a80892e53a9c89340,"['crash', 'problem']",General,{'crash': 100}
+939d2da04d652d4c6f438b26a791dba62b5d34a3,"['backend', 'crash']",General,{'crash': 100}
+514c864caf818557b04458c7bd2d5e9f60ca8b65,"['modify', 'recovery', 'crash', 'thing']",General,{'crash': 100}
+afdbcb4b8e3ec6af7229a086aacdf32ba1e9eccd,"['module', 'comment', 'crash']",General,{'crash': 100}
+1c9196401fe8cd2996a69c55099ff5411539047e,"['lookupname', 'result', 'reference', 'table', 'logic', 'alias', 'expression', 'crash', 'clause']",General,{'crash': 100}
+464326eb015356694bcaa04d9da5bd5ac52e40fc,"['causedmalloc', 'overrun']",Risky_resource_management,{'overrun': 100}
+d75d48c0e1819a8967f2fef58be4d0613a59904a,"['potential', 'buffer', 'overrun']",Risky_resource_management,{'overrun': 100}
+eb5e6e829310e249bb67c619e801c2562e976ca8,"['unexpected', 'internal', 'crash']",General,{'crash': 100}
+380d35c4353b075d18eeff7d0d804b57ae661f8b,"['table', 'error', 'xsync', 'virtual', 'crash']",General,{'crash': 100}
+44c1cab7a535b70d627f5bae23d51fbb442a4580,"['stack', 'buffer', 'overrun', 'problem']",Risky_resource_management,{'overrun': 100}
+a7805e63bf6620f1ef14d936e031a007548267a0,"['storage', 'medium', 'sector', 'crash']",General,{'crash': 100}
+7c84c2e84e23e612a30a3d3c9ca628c35b6c14b8,"['modification', 'crash']",General,{'crash': 100}
+15809fb23579b2ad17f5fa86d9c9f2f39e93ca6d,"['index', 'database', 'corrupt', 'contains', 'crash']",General,{'crash': 100}
+9591dddecefab229bc7dad97c420134c84e94d3c,"['empty', 'ticket', 'crash']",General,{'crash': 100}
+de2006655f627efa7305065bb3ce983270330c50,"['enabledproblem', 'prevents', 'security', 'ticket', 'legacy']",General,{'security': 100}

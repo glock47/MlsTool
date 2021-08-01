@@ -1,22 +1,38 @@
-sha,message,catetory,matched,labels
-924f243b4669a60d7f4c4b32e7c716effea57038,"['reading', 'exception', 'catch', 'security']",General,{'security': 100},
-ce2c4403d69549c8c1e86a893a730dab00480edd,"['crash', 'foreground', 'activity']",Risky_resource_management,{'crash': 100},
-59afd9ec98cc8d456ea2e7409dc4c61efa44e68e,"['crash', 'block']",Risky_resource_management,{'crash': 100},
-1aeb0f81e22d5ac36650874e65d075538e291ce4,"['folder', 'crash', 'fiexd']",Risky_resource_management,{'crash': 100},
-4718aa5ab57d215951033f806a9feabef210c4c7,"['crash', 'setting']",Risky_resource_management,{'crash': 100},
-af8bc56047523d9b7f8f273c3db73f61fc0400e7,"['crash', 'foreground', 'activity']",Risky_resource_management,{'crash': 100},
-43a7ec12efe5cafca7577995af548afae6ec53c6,"['crash', 'import', 'bugfix']",Risky_resource_management,{'crash': 100},
-69842012859c6cfac0d32c8108bfb76c251c0de6,"['crash', 'bugfix']",Risky_resource_management,{'crash': 100},
-a0d037063e6acee769274d9ef000f4365f6af396,"['crash', 'bugfix']",Risky_resource_management,{'crash': 100},
-f665b0cd3e1be1431779dec10ead8bd62420caed,"['crash', 'clearing', 'bugfix']",Risky_resource_management,{'crash': 100},
-8636aa75e9fe603c485ed21e1fecdb0eda16a4b4,"['crash', 'bugfix']",Risky_resource_management,{'crash': 100},
-0a96f5542feba725584db231cb67da11e66c4699,"['crash', 'bugfix']",Risky_resource_management,{'crash': 100},
-e4a61e0a4dbeb287e6287225579eae6e0290480b,"['crash', 'bugfix']",Risky_resource_management,{'crash': 100},
-947dcc90565a9889455ecc6b9475891806a55a42,"['android', 'check', 'permission', 'marshmallow', 'crash']",Risky_resource_management,{'crash': 100},
-a7939813045995991a5b72dc30828bc6ec76eec3,"['crash', 'issue', 'androidthnaks', 'others', 'bildin', 'helpingissue', 'workaround', 'stillfixedpatch', 'possibleandroid', 'devic', 'combination']",Risky_resource_management,{'crash': 100},
-7b561a975b23430d52e015f6076f93d69a2bf047,"['issue', 'crash']",Risky_resource_management,{'crash': 100},
-8934b8f9518c4258589d9515ba1cb6312303bc23,"['crash', 'issue']",Risky_resource_management,{'crash': 100},
-ba5d22fcd014821c1675c1cc3c90fc7bb5e33ecd,"['hotfix', 'update', 'crash', 'colorissue']",Risky_resource_management,{'crash': 100},
-86ff8157d37fae5fbad242bca62f8e2b2938397f,"['crash', 'nullpointer']",Risky_resource_management,{'crash': 100},
-4a9afcb562f523252459bf58808996c401c374a6,"['crash', 'issue']",Risky_resource_management,{'crash': 100},
-f52746183fce17b34290c0dfd9b4307b2d04b73c,"['crash', 'issue']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+eb9b26c8233ef1903b6e5d537c2fe85612e19257,"['possible', 'null', 'pointer', 'exception']",Risky_resource_management,{'null pointer': 100}
+949ef9b4ab7d2bffe939b04659b9431550cf1d5a,"['possible', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+924f243b4669a60d7f4c4b32e7c716effea57038,"['catch', 'security', 'exception', 'reading', 'uris']",General,{'security': 100}
+e7c54d40677ea6c9397396f8e076c170bb529dbf,"['crash', 'support', 'unknown', 'info', 'tool']",General,{'crash': 100}
+896655444198200d78b1a1a31eab875695e2600e,"['note', 'uninstall', 'data', 'loss']",Risky_resource_management,{'data loss': 100}
+ce2c4403d69549c8c1e86a893a730dab00480edd,"['crash', 'activity', 'foreground']",General,{'crash': 100}
+59afd9ec98cc8d456ea2e7409dc4c61efa44e68e,"['crash', 'block', 'valid', 'data']",General,{'crash': 100}
+1aeb0f81e22d5ac36650874e65d075538e291ce4,"['fiexd', 'crash', 'folder', 'dump', 'directory']",General,{'crash': 100}
+4718aa5ab57d215951033f806a9feabef210c4c7,"['crash', 'setting', 'incorrect']",General,{'crash': 100}
+af8bc56047523d9b7f8f273c3db73f61fc0400e7,"['crash', 'activity', 'foreground']",General,{'crash': 100}
+2ea36c0f59055d091d60d6f09e182be54ec1549c,"['catch', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+87574a066b22e121f7d7cff18f151238de0f542d,"['catch', 'null', 'pointer', 'empty']",Risky_resource_management,{'null pointer': 100}
+886386d285d78109b2c3afa071a7c09afa534ee5,"['catch', 'null', 'pointer', 'invalid', 'path', 'file', 'chooser']",Risky_resource_management,{'null pointer': 100}
+c7cbe2b692343ba22b5bf7699ab2ff6649c50bfd,"['catch', 'null', 'pointer', 'null']",Risky_resource_management,{'null pointer': 100}
+17469e2455a66aeafbfcffb80de23d4cc2adf225,"['catch', 'null', 'pointer', 'hexascii', 'tool']",Risky_resource_management,{'null pointer': 100}
+43a7ec12efe5cafca7577995af548afae6ec53c6,"['bugfix', 'crash', 'file', 'import']",General,{'crash': 100}
+69842012859c6cfac0d32c8108bfb76c251c0de6,"['bugfix', 'crash']",General,{'crash': 100}
+a0d037063e6acee769274d9ef000f4365f6af396,"['bugfix', 'crash', 'file']",General,{'crash': 100}
+53cf583f2ea39375bf6ac116ffa72211f9a2a775,"['bugfix', 'crash', 'main', 'menu']",General,{'crash': 100}
+f665b0cd3e1be1431779dec10ead8bd62420caed,"['bugfix', 'crash', 'clearing', 'directory']",General,{'crash': 100}
+8636aa75e9fe603c485ed21e1fecdb0eda16a4b4,"['bugfix', 'crash', 'reader', 'object']",General,{'crash': 100}
+0a96f5542feba725584db231cb67da11e66c4699,"['bugfix', 'crash']",General,{'crash': 100}
+69ab9c104f644e47dc2f38e373b83249b0aecd0a,"['bugfix', 'crash', 'file']",General,{'crash': 100}
+e4a61e0a4dbeb287e6287225579eae6e0290480b,"['bugfix', 'crash', 'dump', 'file']",General,{'crash': 100}
+67e8467fc4fe893b485833db9d4f140f23ea6db3,"['bugfix', 'crash']",General,{'crash': 100}
+947dcc90565a9889455ecc6b9475891806a55a42,"['crash', 'android', 'marshmallow', 'permission', 'check']",General,{'crash': 100}
+a7939813045995991a5b72dc30828bc6ec76eec3,"['crash', 'issue', 'android', 'thnaks', 'bildin', 'real', 'issue', 'possible', 'patch', 'work', 'combination', 'devic', 'android', 'version']",General,{'crash': 100}
+4ed5a71b6bf8d473b78bdd416063c4dc1e5644bf,"['exit', 'return', 'method', 'finish', 'activity', 'finish', 'code', 'afther', 'crash', 'keymapcreator', 'null', 'happes', 'useres', 'activity', 'null']",General,{'crash': 100}
+edab4a6ed319729d5307cd0b659db52c5b9c2302,"['code', 'code', 'crash', 'issure', 'workaround', 'code']",General,{'crash': 100}
+db4ac763bfb330944602f838051b333203cd7228,"['real', 'attempt', 'crash']",General,{'crash': 100}
+7b561a975b23430d52e015f6076f93d69a2bf047,"['strange', 'crash', 'issue', 'device', 'samsung', 'galaxy']",General,{'crash': 100}
+8934b8f9518c4258589d9515ba1cb6312303bc23,"['crash', 'issue']",General,{'crash': 100}
+e2cee21c4678aa711b62ecb82e90ea7720210563,"['crash', 'reader']",General,{'crash': 100}
+86ff8157d37fae5fbad242bca62f8e2b2938397f,"['nullpointer', 'crash', 'issue']",General,{'crash': 100}
+d0f33f42fcf368c9cf5b7fcf02334a6cf496207b,"['release', 'progouard', 'crash', 'report', 'version', 'number']",General,{'crash': 100}
+4a9afcb562f523252459bf58808996c401c374a6,"['crash', 'issue', 'dump']",General,{'crash': 100}
+f52746183fce17b34290c0dfd9b4307b2d04b73c,"['crash', 'issue', 'dump', 'test']",General,{'crash': 100}

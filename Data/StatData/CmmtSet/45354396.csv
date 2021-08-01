@@ -1,19 +1,19 @@
-sha,message,catetory,matched,labels
-935016df2693590cb4fd2264c7ca9b129fae200c,"['special', 'theme', 'characteryellow', 'texspecialchar', 'htmlspecialcharchange', 'yellow', 'specialchar', 'highlightingcharacter', 'specialacross', 'consistentlyresolveclose']",Insecure_interaction_between_components,{'specialchar': 100},
-33d130f74cefe466180161bdd86a2c864475f0ac,"['crash', 'interface']",Risky_resource_management,{'crash': 100},
-a823ae815645e90b386919ca950641d8613ef5d5,"['memory', 'icmpv', 'upstream', 'changesetfreebsd', 'security', 'advisory']",General,{'security': 100},
-6757379bb83a3a7a4f41c461fbc553430153ccc3,"['upstream', 'changesetfreebsd', 'security', 'advisoryrefer']",General,{'security': 100},
-2d72fc9054f08078d72e22543dee790b98640c6f,"['resource', 'fragment', 'upstream', 'changesetfreebsd', 'security', 'advisory']",General,{'security': 100},
-a98418af326d431720c9a5790620ce52f352effb,"['upstream', 'changesetfreebsd', 'security', 'advisory']",General,{'security': 100},
-da6a6342a933bed209355ae7f522e550809dd5f5,"['stack', 'disclosure', 'upstream', 'changesetfreebsd', 'security', 'advisory']",General,{'security': 100},
-d0b1b30af0552c0b1ea36e5f2d43aebfc409707d,"['upstream', 'changesetfreebsd', 'security', 'advisory']",General,{'security': 100},
-73e135b80c14a984c603f93ad39036caa130bc26,"['crash', 'netstat']",Risky_resource_management,{'crash': 100},
-8891572376e7b0a52a7e6fdc0de614ea48cf049d,"['driver', 'crash']",Risky_resource_management,{'crash': 100},
-19edad7fbc5957d934dd1629416209fe67042c75,"['driver', 'crash']",Risky_resource_management,{'crash': 100},
-141f33b513af3fdef3b32f58e3cae7f4e00effa1,"['driver', 'crash']",Risky_resource_management,{'crash': 100},
-74860237ddf181d413533b9b4a68025366e3bbb3,"['driver', 'crash']",Risky_resource_management,{'crash': 100},
-54e1dbca130c73c44db8e37cc196016e659e5705,"['crash', 'sysctl']",Risky_resource_management,{'crash': 100},
-e272b945ad745af7c0b575a73b2766f903eb7e2f,"['crash', 'sysctl']",Risky_resource_management,{'crash': 100},
-ee61971c95be773a62fc7cb2ab9bcef3256564ca,"['nginx', 'crash', 'reload', 'worker']",Risky_resource_management,{'crash': 100},
-b1bb619a9064c729ffbbd4d58e202c1d59aab529,"['nginx', 'crash', 'reload', 'worker']",Risky_resource_management,{'crash': 100},
-a7348b25932f603f716322acf147d8d34ffa45fb,"['access', 'control']",Porous_defenses,{'access control': 100},
+sha,message,catetory,matched
+935016df2693590cb4fd2264c7ca9b129fae200c,"['special', 'theme', 'characteryellow', 'texspecialchar', 'htmlspecialcharchange', 'yellow', 'specialchar', 'highlightingcharacter', 'specialacross', 'consistentlyresolveclose']",Insecure_interaction_between_components,{'specialchar': 100}
+33d130f74cefe466180161bdd86a2c864475f0ac,"['crash', 'interface']",General,{'crash': 100}
+a823ae815645e90b386919ca950641d8613ef5d5,"['memory', 'icmpv', 'upstream', 'changesetfreebsd', 'security', 'advisory']",General,{'security': 100}
+6757379bb83a3a7a4f41c461fbc553430153ccc3,"['upstream', 'changesetfreebsd', 'security', 'advisoryrefer']",General,{'security': 100}
+2d72fc9054f08078d72e22543dee790b98640c6f,"['resource', 'fragment', 'upstream', 'changesetfreebsd', 'security', 'advisory']",General,{'security': 100}
+a98418af326d431720c9a5790620ce52f352effb,"['upstream', 'changesetfreebsd', 'security', 'advisory']",General,{'security': 100}
+da6a6342a933bed209355ae7f522e550809dd5f5,"['stack', 'disclosure', 'upstream', 'changesetfreebsd', 'security', 'advisory']",General,{'security': 100}
+d0b1b30af0552c0b1ea36e5f2d43aebfc409707d,"['upstream', 'changesetfreebsd', 'security', 'advisory']",General,{'security': 100}
+73e135b80c14a984c603f93ad39036caa130bc26,"['crash', 'netstat']",General,{'crash': 100}
+8891572376e7b0a52a7e6fdc0de614ea48cf049d,"['driver', 'crash']",General,{'crash': 100}
+19edad7fbc5957d934dd1629416209fe67042c75,"['driver', 'crash']",General,{'crash': 100}
+141f33b513af3fdef3b32f58e3cae7f4e00effa1,"['driver', 'crash']",General,{'crash': 100}
+74860237ddf181d413533b9b4a68025366e3bbb3,"['driver', 'crash']",General,{'crash': 100}
+54e1dbca130c73c44db8e37cc196016e659e5705,"['crash', 'sysctl']",General,{'crash': 100}
+e272b945ad745af7c0b575a73b2766f903eb7e2f,"['crash', 'sysctl']",General,{'crash': 100}
+ee61971c95be773a62fc7cb2ab9bcef3256564ca,"['nginx', 'crash', 'reload', 'worker']",General,{'crash': 100}
+b1bb619a9064c729ffbbd4d58e202c1d59aab529,"['nginx', 'crash', 'reload', 'worker']",General,{'crash': 100}
+a7348b25932f603f716322acf147d8d34ffa45fb,"['access', 'control']",Porous_defenses,{'access control': 100}

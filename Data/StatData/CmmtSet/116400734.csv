@@ -1,84 +1,23 @@
-sha,message,catetory,matched,labels
-102c64f399af87567a6b50f1aad08dece70691d6,"['process', 'ignite', 'crash', 'environment']",Risky_resource_management,{'crash': 100},
-c037f0f671bdeb02ed663e7835c8494122d6ae65,"['ignite', 'crash', 'recoverychugunov']",Risky_resource_management,{'crash': 100},
-905e573bc33841318a6cc94fc30f3f37ae4a6d7f,"['deadlock', 'ignite']",Risky_resource_management,{'deadlock': 100},
-d5048ba1e37d8f2bf4d90780cdaa8604ac3bbe32,"['parallel', 'worker', 'deadlock', 'issue', 'ignite', 'causedslava']",Risky_resource_management,{'deadlock': 100},
-0b6fd9f660d873949ed3eb073eb8f802e65aa3bf,"['security', 'context', 'operation', 'bulkload', 'ignite']",General,{'security': 100},
-7fb6e0723df7c0a05d42c44764319f48ee1efc7c,"['possible', 'deadlock', 'igniteslava']",Risky_resource_management,{'deadlock': 100},
-2eaabd94ef5e06a6e3f788aa6aa5114b4eca439b,"['crash', 'query', 'ignite', 'incorrect']",Risky_resource_management,{'crash': 100},
-12ab7e0de6cb5a579f7350079aeb53ea8706b0f2,"['operation', 'deadlock', 'putall', 'cache', 'ignite', 'introduce', 'detection', 'atomicaleksey']",Risky_resource_management,{'deadlock': 100},
-636227e5705f1051647a081e1705589ec9a5e707,"['security', 'snapshot', 'permission', 'ignite']",General,{'security': 100},
-b79f9f585ccf1fdd0a9870af2bdd88d4b5f11abc,"['security', 'context', 'sandbox', 'appropriate', 'ignitescheduleraleksey']",General,{'security': 100},
-aa4e8f7e097a93dd96c1d941eb47a7972c18537b,"['deadlock', 'ignitechugunov']",Risky_resource_management,{'deadlock': 100},
-9b8e9cc384ab92d9811e158344516c927ddcaebc,"['worker', 'deadlock', 'opening', 'thread', 'ignite', 'communication', 'timeoutslava']",Risky_resource_management,{'deadlock': 100},
-6b716bb0a97c5407ead6a534351d8a4fa37b6ddb,"['absence', 'worker', 'deadlock', 'coverage', 'ignite', 'updatealexey']",Risky_resource_management,{'deadlock': 100},
-b31e11b1ff33ede81cf5bc810f7e5485b21f004c,"['runner', 'deadlock', 'checkpoint', 'thread', 'ignitealexey']",Risky_resource_management,{'deadlock': 100},
-6955ac291352dd67c1f84a006cda512ee54f38bb,"['deadlock', 'topology', 'ignite', 'updatealexey']",Risky_resource_management,{'deadlock': 100},
-e5dd754b054cab2c3e58b6087d460b61d8c94575,"['deadlock', 'ignore', 'ignite']",Risky_resource_management,{'deadlock': 100},
-336a7eda0d7123d2de93371b1beb304db3a3c9be,"['certificate', 'security', 'client', 'ignite']",General,{'security': 100},
-19ffc883d7cb25c0b998f9437cd6a927ff477b1f,"['certificate', 'security', 'client']",General,{'security': 100},
-14dd160f906d46ddd51563b817cc573dfc16b945,"['message', 'security', 'processing', 'rakov', 'irakov']",General,{'security': 100},
-281b41ed6d25d0ea95585ca44ff62095a5135534,"['deadlock', 'gridneartxlocal', 'ignite']",Risky_resource_management,{'deadlock': 100},
-e975a0f6a5589df093027e5f3af3f468c3d300a7,"['security', 'context', 'ignite']",General,{'security': 100},
-5f0d4a715bc27c3cc8e90474d9eb35373a56dec5,"['deadlock', 'archiver']",Risky_resource_management,{'deadlock': 100},
-c402a49d73c736350cbbe712eab59b46817afb6d,"['crash', 'client', 'igniteexception', 'server', 'supportprotocolversion', 'connection', 'check', 'operation', 'client', 'exactprotocolversion', 'check', 'operation', 'expiry', 'cacheprotocolversion', 'check']",Risky_resource_management,{'crash': 100},
-b694fd103354d827800b3e830ad5619bd27574b0,"['concurrent', 'deadlock', 'cache', 'ignite', 'rakov', 'irakov']",Risky_resource_management,{'deadlock': 100},
-250f4a0eda21149efdc32cee5a125ac27c4383ab,"['default', 'security', 'ignite']",General,{'security': 100},
-1bb32a7d5a86f31f77bd2d729b083e1f75be78d9,"['security', 'context', 'ignite']",General,{'security': 100},
-64d3f0071be11be318e5ff278c10f2264a9a9a07,"['security', 'phase', 'ignite', 'engine']",General,{'security': 100},
-aaa37fc4d25e691200fdbc5bd5adb73941f099c1,"['security', 'check']",General,{'security': 100},
-0282210b01691dd268ce66e650dfd25f54c261c1,"['deadlock', 'potential', 'ignite', 'topologyalexey']",Risky_resource_management,{'deadlock': 100},
-3a775313747211869cba9bb828cde87b8fb7c75f,"['ignite', 'crash', 'assertion', 'correctlydmitriy', 'pavlov', 'dpavlov']",Risky_resource_management,{'crash': 100},
-07a0a6a76e768f36d4caaa5ba7ea5ff48fc1983c,"['public', 'deadlock', 'ignite', 'detection']",Risky_resource_management,{'deadlock': 100},
-457ffc1584b7808b9ab2270f8541976ec3c2f022,"['deadlock', 'ignite']",Risky_resource_management,{'deadlock': 100},
-47d7c6d4c011c0e8df03461d6fcf001c28927e15,"['ignite', 'crash', 'recoveryalexey']",Risky_resource_management,{'crash': 100},
-fe8c8cc5816872ba58bbd2401698b9e847788ea0,"['frequent', 'possible', 'deadlock', 'cache', 'ignite', 'coverpavel', 'kovalenko']",Risky_resource_management,{'deadlock': 100},
-5b656e2f3b2157200d650923e5aca800c4d61635,"['integrity', 'check', 'partition', 'memory', 'cache', 'ignite', 'indexalexey']",Risky_resource_management,{'integrity check': 100},
-acfdcdaa0f667b1ebebc26cea90df030804056a7,"['deadlock', 'ignitedmitriy']",Risky_resource_management,{'deadlock': 100},
-0f387681b81d41ba2f56f186eca3308ccd11d4b9,"['check', 'deadlock', 'disallow']",Risky_resource_management,{'deadlock': 100},
-e1601f2d3f47438d6c0d963c0b213fa4b8585926,"['pending', 'transactional', 'future', 'deadlock', 'ignite', 'client']",Risky_resource_management,{'deadlock': 100},
-754c7337de123ac44e2816d2a55ab6f76cd03eac,"['active', 'concurrent', 'deadlock']",Risky_resource_management,{'deadlock': 100},
-bd07c83583807714757ed033901bf885c9a77b24,"['manager', 'deadlock', 'ignitealexey']",Risky_resource_management,{'deadlock': 100},
-186b2d6f9d8ae57f75a2dc006392343d7e8cc10f,"['ignite', 'crash', 'queryclose']",Risky_resource_management,{'crash': 100},
-2eb5d47a19ff7f9da6a68a00947a5d0faf5a5b45,"['deadlock', 'priority', 'ignite', 'comment', 'possiblershtykh']",Risky_resource_management,{'deadlock': 100},
-18cb5c571c7e352f982af22cb11e2ef93a8711fd,"['suite', 'deadlock', 'cache', 'ignite', 'detectiondmitriy', 'pavlov', 'dpavlov']",Risky_resource_management,{'deadlock': 100},
-3980e1ef408d1aa57af1d3165e8b471eccca47af,"['concurrent', 'deadlock', 'modification', 'ignite', 'registration', 'metadata']",Risky_resource_management,{'deadlock': 100},
-5e9d3c25f7c50a59e3a9a0f7e540e344ec00bb4a,"['dynamic', 'ignite', 'crash', 'clientconfigclose']",Risky_resource_management,{'crash': 100},
-56975c266e7019f307bb9da42333a6db4e47365e,"['partition', 'eviction', 'progress', 'cache', 'ignite', 'crash', 'causedalexey']",Risky_resource_management,{'crash': 100},
-b37f8a207d881f4f1f88c0217fd5b96cb2e3b418,"['suite', 'master', 'ignite', 'basic', 'crash', 'rakov', 'irakov']",Risky_resource_management,{'crash': 100},
-79ca7a25a3d23a9b92ca3b76b2c3ed17b12120c0,"['proper', 'validation', 'warning', 'ignitealexey', 'akuznetsov', 'kuznetsov']",Risky_resource_management,{'proper validation': 94},
-c2369ff70a5c19f4931039e3fd45d6db758fdb0e,"['security', 'issue', 'corresponding', 'cache']",General,{'security': 100},
-5a29276355c4eb8966e5825883e1232ee2a80509,"['security', 'ignite']",General,{'security': 100},
-0cf65adc12f355c223f0577618e2223adade057d,"['partition', 'deadlock', 'ignite', 'evictionagura']",Risky_resource_management,{'deadlock': 100},
-778fd5d598434816daa52d50b864c278b9913cc3,"['flaky', 'deadlock', 'ignite', 'detectionagura']",Risky_resource_management,{'deadlock': 100},
-24306badde225ee4b3edec53b2ae8d3e1c0bff8d,"['mapper', 'suite', 'simple', 'ignite', 'basic', 'binary', 'crash', 'objectagura']",Risky_resource_management,{'crash': 100},
-48f29943efa9cbfc1e2c4068f7e16373dec2b0b9,"['explicit', 'pending', 'exchange', 'deadlock']",Risky_resource_management,{'deadlock': 100},
-7db925c1c445260ffe45a8ede54d24d99db0fddd,"['sequence', 'deadlock', 'transaction', 'ignite', 'update']",Risky_resource_management,{'deadlock': 100},
-07bf0f6f3ab5333ba42808c6b39000cf13b77f5c,"['deadlock', 'detection', 'ignite']",Risky_resource_management,{'deadlock': 100},
-df121b553d3e9810d9931f76ddb42c32a75d6fc3,"['parameter', 'invalid', 'ignite', 'crash', 'memcpy']",Risky_resource_management,{'crash': 100},
-601722a3937bbc4d1305436d36739519ca645f5e,"['deadlock', 'acquires']",Risky_resource_management,{'deadlock': 100},
-6236b5f7721f92acceb1b3b814d6ce0987178033,"['security', 'support', 'ignite', 'service', 'permission']",General,{'security': 100},
-746f8ebc2e56720b50873af1b4ee2a320ca58793,"['deadlock', 'detection']",Risky_resource_management,{'deadlock': 100},
-607f4eb7cea1e7392fac584772b3b86851eaf57c,"['transaction', 'deadlock']",Risky_resource_management,{'deadlock': 100},
-9905ff32c420a6d656106750f18be0f83ba517c7,"['transaction', 'deadlock']",Risky_resource_management,{'deadlock': 100},
-699398afd0ffd791c078ec69ff63aeac29f48cbc,"['deadlock', 'concurrent', 'ignite', 'activate']",Risky_resource_management,{'deadlock': 100},
-b70b2c02bd90e32a8e1c247bbae7690243d08760,"['partition', 'deadlock']",Risky_resource_management,{'deadlock': 100},
-9ab1fea338df81376f68db3985745d7aa4a1cc75,"['bplustree', 'deadlock']",Risky_resource_management,{'deadlock': 100},
-1fb4549ed05b45b689c29cedc30ff7ff5c00f836,"['backup', 'deadlock']",Risky_resource_management,{'deadlock': 100},
-97d576187b91a8439057dc7ff7440ab7d8e74bc9,"['client', 'deadlock']",Risky_resource_management,{'deadlock': 100},
-0f2b7532d47230946b4991ac2211949f9b8d37b6,"['pessimistic', 'deadlock', 'transaction', 'ignite', 'detection']",Risky_resource_management,{'deadlock': 100},
-718cf78b626d45e29f02e0ba8e50ecc1d0f27676,"['deadlock', 'ignite']",Risky_resource_management,{'deadlock': 100},
-4079a65dc277b0187aa7727a0a0ce2ad1d325a74,"['ignite', 'crash', 'destroycache']",Risky_resource_management,{'crash': 100},
-70746cbd17b4c7b4e3e218d288d82b8f4546b568,"['notification', 'deadlock', 'listener']",Risky_resource_management,{'deadlock': 100},
-f7fdc185250fbe77417b0165566f44b6eee34955,"['ignite', 'incorrect', 'crash']",Risky_resource_management,{'crash': 100},
-178e91390e58786791bbd12c6a2f460ae240fa73,"['ignite', 'incorrect', 'crash']",Risky_resource_management,{'crash': 100},
-a7631980ef5c0c359e8d74ae77f5d085287da139,"['message', 'processing', 'deadlock', 'platform', 'discovery', 'ignite']",Risky_resource_management,{'deadlock': 100},
-67706063d2e8d8cc3ed8d55cdfffccc0a21005c6,"['deadlock', 'ignite']",Risky_resource_management,{'deadlock': 100},
-9afd0f0ff7af477fb4689961a13ceea8b3e3eee6,"['security', 'datastreamer', 'cache', 'ignite', 'populatingcherry']",General,{'security': 100},
-5288b2d8b882bbb86d69e1019821d51803685861,"['security', 'datastreamer', 'cache', 'ignite']",General,{'security': 100},
-8d063095c5b1ef1126737e5e01cd91d9832c5765,"['security', 'ignite']",General,{'security': 100},
-2d4a3fb790e64df897247820013d80cb4fefbbae,"['security', 'devnotes']",General,{'security': 100},
-7f06ab0d1dc2b6676c60472cee83c37a7ee80404,"['security', 'check']",General,{'security': 100},
-f9f7134b1441c9d566c6f28a6482e4d4a606bb9e,"['security', 'securesession', 'ignite', 'package']",General,{'security': 100},
-70c8eeb6d73a77018945fa47690cd1c07ebf2f91,"['security', 'facede']",General,{'security': 100},
-ce0c3047557768221ea0623878e9f62513e561d0,"['security', 'check', 'ignore', 'command', 'sprint']",General,{'security': 100},
+sha,message,catetory,matched
+5d1c05e8097c40e033fe17b2ebfe57157ce71701,"['security', 'policy', 'jenkins', 'project', 'github', 'security', 'policy']",General,{'security': 100}
+140e8d52084bf8ae30d23721514ae33e6887279c,"['crash', 'controller', 'error', 'legacy', 'resource', 'label', 'value', 'invalid', 'value', 'label', 'andrew', 'bayer', 'andrew', 'bayer', 'gmail']",General,{'crash': 100}
+7f17d7f47c57832ea5238ddfaeee517b05553051,"['cert', 'letsencrypt', 'test', 'need', 'enable', 'insecure', 'james', 'rawlings', 'rawlingsj', 'gmail']",General,{'insecure': 100}
+d93214311981c1c5c6d82bde4509bd7bf4616dbc,"['pull', 'request', 'abayer', 'backdoor', 'syntax', 'feat', 'container', 'configuration', 'pipeline', 'yaml']",Insecure_interaction_between_components,{'backdoor': 100}
+c4eac206e5dc7c9293aa43c0d2bcdaa8bd54c8de,"['possible', 'crash']",General,{'crash': 100}
+4c0f7c0526a1616ddade254b7cea61c629ac8fed,"['pull', 'request', 'markawm', 'buildnum', 'refactor', 'simplify', 'number', 'controller', 'chance', 'deadlock']",Risky_resource_management,{'deadlock': 100}
+8438ce746e2cbe7315519dfa566a61a78b5a3a0d,"['pull', 'request', 'stephenwangasg', 'bfix', 'import', 'crash']",General,{'crash': 100}
+58405cf1556aa7fc5bac19268edb5204fc2f13ed,"['pointer', 'crash']",General,{'crash': 100}
+f8cea27727540474f72c3995d0716456ea04016e,"['modern', 'security', 'realm']",General,{'security': 100}
+f974bd5cb85950a5e6f4ce3b7767c78b1dad5447,"['csrf', 'crumb']",Insecure_interaction_between_components,{'csrf': 100}
+8ce6b93ea12362b7900f786a5cf5850e406a62ab,"['jenkins', 'legacy', 'security', 'realm', 'crumb']",General,{'security': 100}
+91c5dce06dc3b6935f9b58172b77c4cbd0909ad3,"['test', 'status', 'test', 'parallel', 'pegomock', 'crash']",General,{'crash': 100}
+91f3f8a32ed886b15828f080487dbfbcafaec54f,"['null', 'pointer', 'exception']",Risky_resource_management,{'null pointer': 100}
+1a512a972a8a67858545366fe5873d05b0262de2,"['pull', 'request', 'ccojocar', 'scan', 'cluster', 'feat', 'command', 'scan', 'cluster', 'potential', 'security', 'vulnerability']",General,{'security': 100}
+0f16367086b72878ae47089a5423f704cac42d91,"['pull', 'request', 'ccojocar', 'security', 'scanner', 'makefile']",General,{'security': 100}
+da3f4567793d3d889f4eaf6e7aa887e6afa9922e,"['security', 'scanner', 'makefile']",General,{'security': 100}
+c7e11fe4c9578d8047002944cc8d30ac966438d8,"['feat', 'anchore', 'nice', 'vulnerability', 'table']",Porous_defenses,{'nice vulnerability': 91}
+0b282be25ad026f2c4f1f6e71a2b8609e372272d,"['pull', 'request', 'jstrachan', 'malarkey', 'crash', 'core', 'dump', 'error']",General,{'crash': 100}
+91195d49abddb897aa737cb48cc5e46efc6da766,"['crash', 'core', 'dump', 'error']",General,{'crash': 100}
+5335a01d13c63a68b97a3d5002abdc29b9f3f97e,"['range', 'insecure', 'registry']",General,{'insecure': 100}
+71e328a1ccc300081d393cd8128d492363a508e6,"['diagnostics', 'docker', 'insecure', 'registry']",General,{'insecure': 100}
+2b7a3ea4db02c6deb66c497b573a909910c266be,"['insecure', 'registry']",General,{'insecure': 100}

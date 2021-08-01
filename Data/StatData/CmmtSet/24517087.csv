@@ -1,15 +1,44 @@
-sha,message,catetory,matched,labels
-d3ae48534e182936423dbef93f503bc054065744,"['mergemerge', 'request', 'filter', 'mapbox', 'pointer', 'crash', 'option']",Risky_resource_management,{'crash': 100},
-0acdeef525c3acbc2e02be7ebe4ae32a93aa20ae,"['pointer', 'output', 'filter', 'extent', 'crash']",Risky_resource_management,{'crash': 100},
-ca028dd1ccd6756050a0b226609e0a790b1b60b1,"['mergemerge', 'request', 'crash', 'wrong', 'check']",Risky_resource_management,{'crash': 100},
-eb8ab1dd588f517c940d255c394b858ea73f724a,"['crash', 'value', 'attribute']",Risky_resource_management,{'crash': 100},
-30a987d9ba1158ffb151292a8eb0f2c4f834280e,"['mergemerge', 'request', 'mapbox', 'multilayer', 'crashlayer', 'clean', 'crash']",Risky_resource_management,{'crash': 100},
-218a2fc75ee5053f5f3d7ce8b15592047e6edf6a,"['clean', 'crash']",Risky_resource_management,{'crash': 100},
-9d48d6a93d04c800c3736e679992dd12f0f3acdc,"['mergemerge', 'request', 'simplify', 'mapbox', 'crashsimplification', 'point', 'single', 'degenerate', 'crash', 'segment']",Risky_resource_management,{'crash': 100},
-acb97361a00b746a12d76a165480c4d6453835f2,"['simplification', 'point', 'single', 'degenerate', 'crash', 'segment']",Risky_resource_management,{'crash': 100},
-4df95df637d09d2b4c61da06ae23c879435e25e8,"['multiple', 'crash', 'input']",Risky_resource_management,{'crash': 100},
-cc05f46fb7e5365cbc2fb154c6648d4d8d762fd6,"['crash', 'layer']",Risky_resource_management,{'crash': 100},
-e01ea076edf99f962717bc859f5af1360b8e0b06,"['unsupported', 'property', 'crash', 'double']",Risky_resource_management,{'crash': 100},
-fd8de691ebaedc69227ad9921d304df804bf61a1,"['standard', 'reading', 'input', 'crash']",Risky_resource_management,{'crash': 100},
-3ad8a919d989d38eae3eea2b52c173e5c650126f,"['geometry', 'crash']",Risky_resource_management,{'crash': 100},
-264abd48de5a8d2ddbbf3f0bfb6b3c632d61800d,"['comma', 'crash', 'colon']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+065cc1d78d662ec21620596e07749c02a941337f,"['pull', 'request', 'mapbox', 'decode', 'crash', 'guard', 'null', 'data', 'mbtiles', 'file']",General,{'crash': 100}
+d3ae48534e182936423dbef93f503bc054065744,"['pull', 'request', 'mapbox', 'filter', 'crash', 'null', 'pointer', 'crash', 'option']",Risky_resource_management,{'null pointer': 100}
+0acdeef525c3acbc2e02be7ebe4ae32a93aa20ae,"['null', 'pointer', 'crash', 'extent', 'filter', 'output']",Risky_resource_management,{'null pointer': 100}
+262fbf26f0e74cd399eaf305c62629ecaad39bd1,"['null', 'pointer', 'check']",Risky_resource_management,{'null pointer': 100}
+6b29966e4ae339881c795d5cd9a9d45d9c34fe6e,"['pull', 'request', 'mapbox', 'integrity', 'check', 'check', 'integrity', 'sqlite', 'file']",Risky_resource_management,{'integrity check': 100}
+d49606babfd7be18cf9c63eda188a074184138e1,"['opportunity', 'integer', 'overflow']",Risky_resource_management,{'integer overflow': 100}
+ca028dd1ccd6756050a0b226609e0a790b1b60b1,"['pull', 'request', 'mapbox', 'bare', 'geom', 'crash', 'null', 'pointer', 'check', 'bare', 'geometry']",Risky_resource_management,{'null pointer': 100}
+8ac7c4678802a4ca8e157e05b36d4796a88ad12b,"['null', 'pointer', 'jsontool', 'geojson']",Risky_resource_management,{'null pointer': 100}
+9964784e778be01fdc555666d503515154cd9c38,"['null', 'pointer', 'check', 'bare', 'geometry', 'geojson']",Risky_resource_management,{'null pointer': 100}
+8d502eb805c300fe1f29d669c25b367d349bfa91,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+e8e949fac9a8e4c64cc0f2964e2c8f588959f074,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+5db7b504e81d4d50e26234bf5fcba8a0b9c2c13f,"['pull', 'request', 'mapbox', 'long', 'attribute', 'crash', 'long', 'attribute', 'value']",General,{'crash': 100}
+eb8ab1dd588f517c940d255c394b858ea73f724a,"['crash', 'long', 'attribute', 'value']",General,{'crash': 100}
+30a987d9ba1158ffb151292a8eb0f2c4f834280e,"['pull', 'request', 'mapbox', 'multilayer', 'crash', 'clean', 'layer', 'name', 'layer']",General,{'crash': 100}
+3e4fcd22ecee90a84a2eb3417bd6ea24059400db,"['pull', 'request', 'mapbox', 'sanitize', 'integer', 'integer', 'overflow', 'fsanitize', 'integer']",Risky_resource_management,{'integer overflow': 100}
+af3d48e5b34305b262ee5d1ba35d1ad9ff79794d,"['integer', 'overflow', 'fsanitize', 'integer']",Risky_resource_management,{'integer overflow': 100}
+7a30aeaa6b6f9b1337eea3b617cceb68853b8257,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+d4e1ee06279c5b76af710cf6da000583b93ab79b,"['free', 'delete', 'parallel', 'reading', 'crash']",General,{'crash': 100}
+8c7ac58ba1b880603461b9c1f215744f7dfeff77,"['memory', 'leak', 'questionable', 'arithmetic', 'memory', 'leak', 'questionable', 'arithmetic']",Risky_resource_management,{'memory leak': 100}
+02050868861d3f7d04b26dddc0b124ebbf7fe183,"['memory', 'leak', 'temporary', 'filename']",Risky_resource_management,{'memory leak': 100}
+9d48d6a93d04c800c3736e679992dd12f0f3acdc,"['pull', 'request', 'mapbox', 'simplify', 'crash', 'line', 'simplification', 'crash', 'segment', 'degenerate', 'single', 'point']",General,{'crash': 100}
+acb97361a00b746a12d76a165480c4d6453835f2,"['line', 'simplification', 'crash', 'segment', 'degenerate', 'single', 'point']",General,{'crash': 100}
+333956ce42e60c66c80873ff165b8b4c1d6dc964,['crash'],General,{'crash': 100}
+4df95df637d09d2b4c61da06ae23c879435e25e8,"['tile', 'crash', 'multiple', 'input', 'file']",General,{'crash': 100}
+b4339b2f75d05f9d5b79b385fdafdf53fee36374,"['pull', 'request', 'mapbox', 'memleak', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+10e35c43008a6578a7eec79f65f071e7f9d2f280,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+32179b7ad6f3e09f55b90500bc4b7915448cd527,"['pull', 'request', 'mapbox', 'manylayers', 'crash', 'layer']",General,{'crash': 100}
+cc05f46fb7e5365cbc2fb154c6648d4d8d762fd6,"['crash', 'layer']",General,{'crash': 100}
+e01ea076edf99f962717bc859f5af1360b8e0b06,"['double', 'free', 'crash', 'unsupported', 'property', 'type']",Risky_resource_management,{'double free': 100}
+506c801c658128f97725c2d4f30221f754c7297f,"['pull', 'request', 'mapbox', 'overflow', 'buffer', 'overflow', 'length', 'temporary', 'file', 'name']",Risky_resource_management,{'buffer overflow': 100}
+9d25afa41f8982cd6aeca0c61bd934eb47989d50,"['buffer', 'overflow', 'length', 'temporary', 'file', 'name']",Risky_resource_management,{'buffer overflow': 100}
+4bb88e228a6283f32f4fa929b6c38278d59d7261,"['buffer', 'overflow', 'tile']",Risky_resource_management,{'buffer overflow': 100}
+d64328ac3575ff657a610e3dc2a44a8b0dfec1d4,"['crash', 'boolean', 'property']",General,{'crash': 100}
+fd8de691ebaedc69227ad9921d304df804bf61a1,"['layer', 'name', 'crash', 'reading', 'standard', 'input']",General,{'crash': 100}
+3e3fdcbab4c38d6f52de27e9c51888c5e0ca83a1,"['multistage', 'sort', 'datamaps', 'crash']",General,{'crash': 100}
+b292b66a7c1c175a2233d746910dca303bc04127,"['small', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+7df269219cc55be7ef86e558d04c266fa6879268,"['memory', 'leak', 'field', 'name']",Risky_resource_management,{'memory leak': 100}
+3ad8a919d989d38eae3eea2b52c173e5c650126f,"['crash', 'geometry']",General,{'crash': 100}
+a2fd84c0a3363fc42fff317365ce14bce7350025,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+c6077f7e5406a7a99035876e826a296ba08dd25f,"['memory', 'leak', 'error', 'reading', 'string', 'number']",Risky_resource_management,{'memory leak': 100}
+b72bb6f1f44579118323fcd4c19349e6717d4b65,"['clean', 'error', 'wrong', 'object', 'error', 'object', 'parent', 'crash', 'hash', 'value']",General,{'crash': 100}
+264abd48de5a8d2ddbbf3f0bfb6b3c632d61800d,"['crash', 'comma', 'colon', 'level']",General,{'crash': 100}
+2a7fa98a3aa3faab7682862f65ee46323826038a,"['number', 'buffer', 'overflow', 'risk']",Risky_resource_management,{'buffer overflow': 100}

@@ -1,18 +1,21 @@
-sha,message,catetory,matched,labels
-17f4af18d5c88c71e6d36e2b96cb6493266085bd,"['mergemerge', 'request', 'iamgdprotocol', 'duplicate', 'cluster', 'security']",General,{'security': 100},
-cea3b57afcaf769a208a2e2b6a87157f28f8f541,"['protocol', 'duplicate', 'cluster', 'security']",General,{'security': 100},
-49a2052b4c2fa308d902468a228a9ac1693fda0c,"['security', 'support', 'protocol']",General,{'security': 100},
-86d0840e6c789d115cc7e2be257c9e6c72bb6043,"['mergemerge', 'yahoo', 'requestcluster', 'config', 'protocol', 'security']",General,{'security': 100},
-57ac5ac062be6c15a3c8abad533c6943ed132d8b,"['cluster', 'config', 'protocol', 'security']",General,{'security': 100},
-9eca0309399a5a3ad440bf977c8708ccc733604a,"['class', 'security', 'loader', 'manager']",General,{'security': 100},
-6627e8c0ecae8b5c598fddd5d72b1d4652891b2b,"['large', 'attachment', 'crash']",Risky_resource_management,{'crash': 100},
-dcc477acbc0735c04cb555c708b916a18e115d5a,"['browser', 'content', 'policy', 'security', 'script', 'keeweb']",General,{'security': 100},
-19a42b7463649fa28bf8bab73f695c81460255bf,"['crash', 'device']",Risky_resource_management,{'crash': 100},
-b8dd7b0f713d1b0ae68e3dddfbd8e270f42033e2,"['crash', 'module', 'window']",Risky_resource_management,{'crash': 100},
-fc1b2fbbaa47af46db3f9209b649d9c0d86e6c84,"['version', 'electron', 'crash', 'window']",Risky_resource_management,{'crash': 100},
-b2a6e1180c8dea18a5d865d9d676643f2137fc4a,"['renderer', 'native', 'process', 'crash']",Risky_resource_management,{'crash': 100},
-f7eab861666d7052a7b015e83d2600b121abee10,"['option', 'insecure']",General,{'insecure': 100},
-280ed45199002d7a10c28894705c79dff880334d,"['content', 'policy', 'security']",General,{'security': 100},
-b7f020f69c5db2e2b1121fe9573ed637c1d0a1e8,"['crash', 'desktop', 'argon']",Risky_resource_management,{'crash': 100},
-f3e6caaa465ea10feda3ccee570e002218c8237a,"['popupnotifier', 'event', 'crash']",Risky_resource_management,{'crash': 100},
-1c17bcc8c55814ecc3e8b5cb64b3b4028acd8359,"['configurable', 'warning', 'security']",General,{'security': 100},
+sha,message,catetory,matched
+6627e8c0ecae8b5c598fddd5d72b1d4652891b2b,"['crash', 'file', 'large', 'attachment', 'kdbx']",General,{'crash': 100}
+7a35ebec735e06268bda0e3c38e5f3191384a8df,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+dcc477acbc0735c04cb555c708b916a18e115d5a,"['content', 'security', 'policy', 'script', 'keeweb']",General,{'security': 100}
+19a42b7463649fa28bf8bab73f695c81460255bf,"['crash', 'device', 'linux']",General,{'crash': 100}
+b8dd7b0f713d1b0ae68e3dddfbd8e270f42033e2,"['crash', 'module', 'window']",General,{'crash': 100}
+fc1b2fbbaa47af46db3f9209b649d9c0d86e6c84,"['crash', 'window', 'version']",General,{'crash': 100}
+b2a6e1180c8dea18a5d865d9d676643f2137fc4a,"['renderer', 'process', 'native', 'module', 'crash']",General,{'crash': 100}
+374f4bc1167f971d4dbdbba9b8b256569f4ef132,['security'],General,{'security': 100}
+f7eab861666d7052a7b015e83d2600b121abee10,"['insecure', 'option', 'popups']",General,{'insecure': 100}
+280ed45199002d7a10c28894705c79dff880334d,"['content', 'security', 'policy']",General,{'security': 100}
+b7f020f69c5db2e2b1121fe9573ed637c1d0a1e8,"['desktop', 'apps', 'crash', 'argon']",General,{'crash': 100}
+3c6c929854ec1897893d096ea6076c0875564dde,"['crash', 'auto']",General,{'crash': 100}
+ae2d54f454d4147c7cbf7f2e80186a1925f35db5,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+9312fd105b7ae9f7b5433875fc7fd6afcbc00e8e,"['link', 'security']",General,{'security': 100}
+e51bb2ae6e5eb8c698652146cde8f57e27400a71,"['tray', 'icon', 'crash']",General,{'crash': 100}
+b7475a8d4c46ccae978aa422586637c9e6c4aaeb,"['tray', 'icon', 'crash']",General,{'crash': 100}
+6fe7d129b14cbfb7b1c98d33fb30dee1c69a5d5d,"['data', 'loss', 'exit']",Risky_resource_management,{'data loss': 100}
+1c17bcc8c55814ecc3e8b5cb64b3b4028acd8359,"['configurable', 'security', 'warning']",General,{'security': 100}
+1df736d85bd5395d525380ff2457171036e344c3,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+6b301d804071742e0996b878ccb8531b65b15669,"['data', 'loss', 'group']",Risky_resource_management,{'data loss': 100}

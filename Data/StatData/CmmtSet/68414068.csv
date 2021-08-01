@@ -1,6 +1,9 @@
-sha,message,catetory,matched,labels
-ed1cdf7abaf0d836518b09db7d6cb4fa7d9f7f9c,"['dependency', 'update', 'insecure']",General,{'insecure': 100},
-4118f1d9dc9a0410f4e35de708acd2bff5662ff2,"['localhost', 'insecure', 'warning', 'runningupdatecache', 'application']",General,{'insecure': 100},
-d40254cee89e5660ae4d1de0390a4ef55c65e57a,"['localhost', 'insecure', 'warning']",General,{'insecure': 100},
-6888f45ff3d46f7c37e886fd8b3ceefa89016ee5,"['mergewebhook', 'sridharavinash', 'crash', 'requestcrash', 'webhook']",Risky_resource_management,{'crash': 100},
-05049822df60175599207c5725e14ba10edfb389,"['catch', 'error', 'webhook', 'valid', 'domain', 'failserror', 'crash', 'server']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+ed1cdf7abaf0d836518b09db7d6cb4fa7d9f7f9c,"['update', 'insecure', 'dependency']",General,{'insecure': 100}
+fcd1e9201e946ef06c5e0fe87fe2fdf442eb8813,"['package', 'octokit', 'webhooks', 'security', 'update']",General,{'security': 100}
+4118f1d9dc9a0410f4e35de708acd2bff5662ff2,"['jest', 'test', 'yarn', 'insecure', 'localhost', 'warning', 'update', 'integration', 'nock', 'test', 'application', 'auth', 'cache', 'test', 'comment', 'typo', 'clean', 'global', 'variable', 'auth', 'cache', 'test']",General,{'insecure': 100}
+d40254cee89e5660ae4d1de0390a4ef55c65e57a,"['jest', 'test', 'insecure', 'localhost', 'warning']",General,{'insecure': 100}
+94b138305d4531b8def858e53bf5a68636f5400c,"['function', 'test', 'warning', 'potential', 'memory', 'leak', 'multiple', 'time']",Risky_resource_management,{'memory leak': 100}
+6888f45ff3d46f7c37e886fd8b3ceefa89016ee5,"['pull', 'request', 'sridharavinash', 'dont', 'crash', 'webhook', 'dont', 'crash', 'webhook']",General,{'crash': 100}
+9412b63c9587657292fd61f23fcd112db270bee8,"['master', 'dont', 'crash', 'webhook']",General,{'crash': 100}
+05049822df60175599207c5725e14ba10edfb389,"['webhook', 'error', 'message', 'catch', 'error', 'domain', 'check', 'valid', 'hook', 'error', 'crash', 'server']",General,{'crash': 100}

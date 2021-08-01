@@ -1,3 +1,23 @@
-sha,message,catetory,matched,labels
-907d54f5224b396831494415ae32923dba785cee,"['crash', 'message', 'reflog']",Risky_resource_management,{'crash': 100},
-735510f14d09c2c3bcb2d6aeb1e0f1b8aeb5fe36,"['crash', 'repositoryobject', 'decode', 'stringdependency', 'introducesclose']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+48c7212ca2f52ff9174061c610f83debd832e9db,"['memory', 'leak', 'repr', 'object', 'pytest', 'leak']",Risky_resource_management,{'memory leak': 100}
+0c93a62f4c776ed62a649e4e5f29b7038ebb8db9,"['odbbackend', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+c841a5d8c5b56dd0ab4510deeefc1e1e31cd2adf,"['review', 'small', 'memory', 'leak', 'rename', 'helper', 'function', 'prefix']",Risky_resource_management,{'memory leak': 100}
+f0724c5861ed69c65f056b9ea23a694c469ef353,"['review', 'memory', 'issue', 'valgrind', 'update', 'valgrind', 'suppression', 'file', 'python', 'memory', 'leak', 'option', 'todo', 'review']",Risky_resource_management,{'memory leak': 100}
+907d54f5224b396831494415ae32923dba785cee,"['crash', 'reflog', 'entry', 'message', 'deprecation', 'warning']",General,{'crash': 100}
+735510f14d09c2c3bcb2d6aeb1e0f1b8aeb5fe36,"['repository', 'crash', 'path', 'decode', 'string', 'object', 'byte', 'introduces']",General,{'crash': 100}
+eadc2a320fadb8c6ba9ec5aecb66494dd0189b7c,"['null', 'pointer', 'dereference', 'message', 'empty', 'case', 'return', 'null', 'check', 'argument', 'nullness', 'empty', 'message', 'segfaults', 'python']",Risky_resource_management,{'null pointer': 100}
+b37d1c9c1f055e5f08ad20f71d9ade9f25ac03f1,"['plug', 'memory', 'leak', 'patch', 'sure', 'free', 'copy', 'sure', 'free', 'indexentry', 'forgot', 'free', 'path', 'pointer', 'python', 'time', 'mergeresult', 'deallocator', 'signature', 'need', 'owner', 'memory', 'case', 'default', 'signature', 'repository', 'need', 'reference', 'object', 'list', 'progress', 'callback', 'need', 'decref', 'stats', 'object']",Risky_resource_management,{'memory leak': 100}
+0e4a27284f64a390911316cc48f2c4b344099a49,"['diff', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+d388d1ab2168cac517d1d3e29c441fab6ef8a3b0,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+a626b3c2974778f8ab2db958d7d240e607f7275d,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+769775435c504cb0bea98f4366997cfa83014a54,['crash'],General,{'crash': 100}
+8cb053985857ae04cf9ddc963034254c0e5f55d0,"['memory', 'leak', 'pygit', 'counter', 'issue', 'whole', 'refactorization', 'config', 'need', 'repository', 'pointer', 'need', 'cyclic', 'garbage', 'collecter', 'support']",Risky_resource_management,{'memory leak': 100}
+8827ea2312ec9bb535334578a46930433015eba7,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+6caf65915db48ecd801930e54cd97c4e013a2663,"['double', 'free', 'case', 'treebuilder', 'tree', 'object']",Risky_resource_management,{'double free': 100}
+35ed84cf444f644dc777d218fe416c06576c4de3,"['bare', 'repository', 'unit', 'test', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+1eb0c6a9f02c06a2d33c597ccc17529f67d8c54e,"['memory', 'leak', 'free', 'signature']",Risky_resource_management,{'memory leak': 100}
+3851f725f90adf1f1262f8d87fb0e97beee7fdcf,"['memory', 'leak', 'free', 'signature']",Risky_resource_management,{'memory leak': 100}
+73af642b8f9b0819f67ad12a07bcbe0b373c8aa6,"['dealloc', 'memory', 'leak', 'refcount', 'repo', 'finish']",Risky_resource_management,{'memory leak': 100}
+a139335098d3265dc962b921723a9db18e652f5a,"['memory', 'leak', 'issue']",Risky_resource_management,{'memory leak': 100}
+a0975f78d597730a0b40ed17a4642edb256e1a2b,"['memory', 'leak', 'free', 'object', 'object', 'usage']",Risky_resource_management,{'memory leak': 100}
+b7fe1f90d0d4c33240e12fd1bf67a34bb9aa935d,"['script', 'obviate', 'nasty', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}

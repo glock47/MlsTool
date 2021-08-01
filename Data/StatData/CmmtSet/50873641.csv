@@ -1,50 +1,50 @@
-sha,message,catetory,matched,labels
-49a0aa9c5090d5ef4b619bf50afd0cc2111b453c,"['redis', 'crash', 'transient', 'possible', 'failure', 'cluster']",Risky_resource_management,{'crash': 100},
-cf4ab3d73d24c68d91b2cf07f14dcf85062d4635,"['worker', 'hostname', 'crash', 'nchan', 'empty', 'cluster']",Risky_resource_management,{'crash': 100},
-97e8319e3916cbaddd7c702569bc9bd7a44821b7,"['redis', 'server', 'security', 'access', 'invalid', 'memory', 'result']",General,{'security': 100},
-be0782242e279f802d1c57ea2763dffde7c286f4,"['worker', 'crash', 'noaddr', 'incorrect', 'result']",Risky_resource_management,{'crash': 100},
-7b5e6f7d24f10a2ba0a6a38e2b16e0886ec644b0,"['proxy', 'crash']",Risky_resource_management,{'crash': 100},
-ad8804e79fe8e351fa44b1abfbcdd65a2f814562,"['longpoll', 'worker', 'crash', 'result', 'multipart']",Risky_resource_management,{'crash': 100},
-7ad6a4b6129522f569263c300d8fa2dd2693f937,"['redis', 'disconnect', 'keepalives', 'channel', 'crash', 'result', 'cluster']",Risky_resource_management,{'crash': 100},
-e0d35302d95a0e5ca413bfb4ae3ad5bf2eedea54,"['unable', 'websocket', 'worker', 'message', 'crash', 'permessage', 'deflate']",Risky_resource_management,{'crash': 100},
-954edb1f86652fe1580ae3945791a35c12b94bdc,"['worker', 'msgid', 'crash', 'invalid', 'subscriber', 'security']",Risky_resource_management,{'crash': 100},
-90134c63b732bb4ddd8e820a4674115ab6f9d32c,"['channel', 'crash', 'worker', 'length']",Risky_resource_management,{'crash': 100},
-5744ea572959b4b56be5892ae95275010e942674,"['redis', 'websocket', 'worker', 'message', 'crash']",Risky_resource_management,{'crash': 100},
-57cd5d2e5e360ebb3966bde6e020f5ab36a5d2c0,"['worker', 'crash', 'result']",Risky_resource_management,{'crash': 100},
-73a3e259fce1bcd11f6c669ff68f89fd5db67aef,"['redis', 'worker', 'message', 'crash']",Risky_resource_management,{'crash': 100},
-6cd0834a2886b2033d8a8d7529dcd0905e1baff0,"['worker', 'message', 'crash', 'result']",Risky_resource_management,{'crash': 100},
-1ab3fec6d46debb3e00c99600cddaf78462f0a37,"['redis', 'crash']",Risky_resource_management,{'crash': 100},
-9b3efe1a62b796e15290535059b32bb3745f8ef5,"['message', 'crash', 'subscriber', 'multipart', 'empty']",Risky_resource_management,{'crash': 100},
-486bc99f58613e5f4ee43bad85a3995147c016c8,"['worker', 'header', 'channel', 'crash', 'nchan']",Risky_resource_management,{'crash': 100},
-908530e7fef74b71d9db973231f354b3935229f9,"['access', 'control']",Porous_defenses,{'access control': 100},
-4b11cabbdb2b66cb0c5f03c49b40ddfc4383ffb4,"['crash', 'instance']",Risky_resource_management,{'crash': 100},
-57f0a7024e4f4048aa32f93d08b9c4cb4530f39c,"['crash', 'overflow']",Risky_resource_management,{'crash': 100},
-6650ae0f639268ca956b2ffb293c6044a6fa44f2,"['nginx', 'crash']",Risky_resource_management,{'crash': 100},
-f2c159df4e442e67e5b69a9b744621ea1516a9c7,"['websocket', 'message', 'crash', 'nchan', 'large', 'security']",Risky_resource_management,{'crash': 100},
-c14eac650119b5f38fce7dc04d26463d1007ed0b,"['response', 'delete', 'crash', 'request', 'connection']",Risky_resource_management,{'crash': 100},
-e50f849efc87d0e6031302777ebddb21a7c434ea,"['crash', 'content', 'publisher']",Risky_resource_management,{'crash': 100},
-d6a991ace95ca0be6021c1a8de39d2499d3b9f8d,"['report', 'crashy', 'callback', 'error', 'multimsg']",Risky_resource_management,{'crashy': 91},
-3e439ed4594ca14934b7c90631b8125050da75de,"['channel', 'crash', 'nginx']",Risky_resource_management,{'crash': 100},
-2ed7a74d886f29856b3cedf23deceee201df3fe3,"['sigabrt', 'crash', 'empty', 'receiver']",Risky_resource_management,{'crash': 100},
-2f279b6623bcdeb5a2af9213389a0d42f613418a,"['window', 'crash']",Risky_resource_management,{'crash': 100},
-b5ebf008619987f3b2bb702a7652336b6ded643c,"['crash', 'layoutsubviews', 'lnpopupbarcrash']",Risky_resource_management,{'crash': 100},
-a4bb28806266bc1a2d4a482b6feb35aa46b0fcf7,"['condition', 'crash', 'certainclose']",Risky_resource_management,{'crash': 100},
-e50f07687ba4c2410786e983b4493435ad9e9a29,"['careless', 'crash', 'swizzlingcloseclose']",Risky_resource_management,{'crash': 100},
-c27b7d4d45bc6be56670b314b5a67bb2b63026d6,"['mergevalidation', 'jsonrpc', 'request', 'liskhq', 'crash', 'request', 'close', 'application']",Risky_resource_management,{'crash': 100},
-a9041fa4e9df7e763a9730b4bb410f4f332d7fdd,"['mergerequest', 'liskhq', 'childapplication', 'crash', 'plugin']",Risky_resource_management,{'crash': 100},
-ddcd618f15de6b75b1fc1e14b5b599173c94f2a5,"['peerserver', 'update', 'event', 'recycle', 'security']",General,{'security': 100},
-474cbfdd83c5b389801051d798672d4875e37f9c,"['seedpeersseedpeers', 'reason', 'trust', 'security']",General,{'security': 100},
-107884d70549ad6c1e30f314f6f3f80bbe76e4e6,"['chainrename', 'previousblock', 'previousblockid', 'storage', 'savingblock', 'event', 'object', 'savetempblock', 'delete', 'variabletable', 'block', 'crash', 'restore', 'temporary', 'application']",Risky_resource_management,{'crash': 100},
-a5598f784370c8503e0a74112f67ea4a78aa6998,"['critical', 'security', 'severity']",General,{'security': 100},
-6c0d34aa97b522b6bfdaf112f8349c0db0f375a5,"['mergerequest', 'liskhq', 'action', 'securityimprove', 'security', 'action']",General,{'security': 100},
-559464be30f325a4ac8d328e18cc60135f036070,"['action', 'security']",General,{'security': 100},
-682665b2aaca667f93101df3f7cae544fdbbf618,"['fabdcffd', 'fafaaliskhq', 'action', 'security']",General,{'security': 100},
-f25a5faa940807a50eac6396736779129f2c6463,"['dfecfe', 'eedaddrelease', 'action', 'security']",General,{'security': 100},
-9c3b8b2e708e23149483e6b40626bbb212fa4ec9,"['action', 'security', 'network', 'update']",General,{'security': 100},
-c18c629e775d20d48ba7344731520444de47fe41,"['field', 'option', 'custom', 'crash', 'legacy']",Risky_resource_management,{'crash': 100},
-a9132164ba6f7b0f3c44d6c0f17f40b51373344f,"['request', 'liskhq', 'crash', 'process', 'application', 'child']",Risky_resource_management,{'crash': 100},
-df6677ff4a252eec8ec34653ba6eaa8ecd0ee6b7,"['socket', 'childparent', 'crash', 'prevents', 'process', 'child']",Risky_resource_management,{'crash': 100},
-e439aa3f9292a14d56193f762dca6485d54f3719,"['requestremove', 'insecure', 'action', 'close', 'chain']",General,{'insecure': 100},
-9836973659d8b1a92579329e2fd433aad943ca26,"['network', 'scenario', 'crash']",Risky_resource_management,{'crash': 100},
-60eba9ce2d3b53211987c8b6bc650bb72483ec00,"['response', 'crash']",Risky_resource_management,{'crash': 100},
-e8c54358122332af69077f47d4fa68388f818bd7,"['scenario', 'security', 'network']",General,{'security': 100},
+sha,message,catetory,matched
+49a0aa9c5090d5ef4b619bf50afd0cc2111b453c,"['redis', 'crash', 'transient', 'possible', 'failure', 'cluster']",General,{'crash': 100}
+cf4ab3d73d24c68d91b2cf07f14dcf85062d4635,"['worker', 'hostname', 'crash', 'nchan', 'empty', 'cluster']",General,{'crash': 100}
+97e8319e3916cbaddd7c702569bc9bd7a44821b7,"['redis', 'server', 'security', 'access', 'invalid', 'memory', 'result']",General,{'security': 100}
+be0782242e279f802d1c57ea2763dffde7c286f4,"['worker', 'crash', 'noaddr', 'incorrect', 'result']",General,{'crash': 100}
+7b5e6f7d24f10a2ba0a6a38e2b16e0886ec644b0,"['proxy', 'crash']",General,{'crash': 100}
+ad8804e79fe8e351fa44b1abfbcdd65a2f814562,"['longpoll', 'worker', 'crash', 'result', 'multipart']",General,{'crash': 100}
+7ad6a4b6129522f569263c300d8fa2dd2693f937,"['redis', 'disconnect', 'keepalives', 'channel', 'crash', 'result', 'cluster']",General,{'crash': 100}
+e0d35302d95a0e5ca413bfb4ae3ad5bf2eedea54,"['unable', 'websocket', 'worker', 'message', 'crash', 'permessage', 'deflate']",General,{'crash': 100}
+954edb1f86652fe1580ae3945791a35c12b94bdc,"['worker', 'msgid', 'crash', 'invalid', 'subscriber', 'security']",General,{'security': 100}
+90134c63b732bb4ddd8e820a4674115ab6f9d32c,"['channel', 'crash', 'worker', 'length']",General,{'crash': 100}
+5744ea572959b4b56be5892ae95275010e942674,"['redis', 'websocket', 'worker', 'message', 'crash']",General,{'crash': 100}
+57cd5d2e5e360ebb3966bde6e020f5ab36a5d2c0,"['worker', 'crash', 'result']",General,{'crash': 100}
+73a3e259fce1bcd11f6c669ff68f89fd5db67aef,"['redis', 'worker', 'message', 'crash']",General,{'crash': 100}
+6cd0834a2886b2033d8a8d7529dcd0905e1baff0,"['worker', 'message', 'crash', 'result']",General,{'crash': 100}
+1ab3fec6d46debb3e00c99600cddaf78462f0a37,"['redis', 'crash']",General,{'crash': 100}
+9b3efe1a62b796e15290535059b32bb3745f8ef5,"['message', 'crash', 'subscriber', 'multipart', 'empty']",General,{'crash': 100}
+486bc99f58613e5f4ee43bad85a3995147c016c8,"['worker', 'header', 'channel', 'crash', 'nchan']",General,{'crash': 100}
+908530e7fef74b71d9db973231f354b3935229f9,"['access', 'control']",Porous_defenses,{'access control': 100}
+4b11cabbdb2b66cb0c5f03c49b40ddfc4383ffb4,"['crash', 'instance']",General,{'crash': 100}
+57f0a7024e4f4048aa32f93d08b9c4cb4530f39c,"['crash', 'overflow']",General,{'crash': 100}
+6650ae0f639268ca956b2ffb293c6044a6fa44f2,"['nginx', 'crash']",General,{'crash': 100}
+f2c159df4e442e67e5b69a9b744621ea1516a9c7,"['websocket', 'message', 'crash', 'nchan', 'large', 'security']",General,{'security': 100}
+c14eac650119b5f38fce7dc04d26463d1007ed0b,"['response', 'delete', 'crash', 'request', 'connection']",General,{'crash': 100}
+e50f849efc87d0e6031302777ebddb21a7c434ea,"['crash', 'content', 'publisher']",General,{'crash': 100}
+d6a991ace95ca0be6021c1a8de39d2499d3b9f8d,"['report', 'crashy', 'callback', 'error', 'multimsg']",General,{'crashy': 91}
+3e439ed4594ca14934b7c90631b8125050da75de,"['channel', 'crash', 'nginx']",General,{'crash': 100}
+2ed7a74d886f29856b3cedf23deceee201df3fe3,"['sigabrt', 'crash', 'empty', 'receiver']",General,{'crash': 100}
+2f279b6623bcdeb5a2af9213389a0d42f613418a,"['window', 'crash']",General,{'crash': 100}
+b5ebf008619987f3b2bb702a7652336b6ded643c,"['crash', 'layoutsubviews', 'lnpopupbarcrash']",General,{'crash': 100}
+a4bb28806266bc1a2d4a482b6feb35aa46b0fcf7,"['condition', 'crash', 'certainclose']",General,{'crash': 100}
+e50f07687ba4c2410786e983b4493435ad9e9a29,"['careless', 'crash', 'swizzlingcloseclose']",General,{'crash': 100}
+c27b7d4d45bc6be56670b314b5a67bb2b63026d6,"['mergevalidation', 'jsonrpc', 'request', 'liskhq', 'crash', 'request', 'close', 'application']",General,{'crash': 100}
+a9041fa4e9df7e763a9730b4bb410f4f332d7fdd,"['mergerequest', 'liskhq', 'childapplication', 'crash', 'plugin']",General,{'crash': 100}
+ddcd618f15de6b75b1fc1e14b5b599173c94f2a5,"['peerserver', 'update', 'event', 'recycle', 'security']",General,{'security': 100}
+474cbfdd83c5b389801051d798672d4875e37f9c,"['seedpeersseedpeers', 'reason', 'trust', 'security']",General,{'security': 100}
+107884d70549ad6c1e30f314f6f3f80bbe76e4e6,"['chainrename', 'previousblock', 'previousblockid', 'storage', 'savingblock', 'event', 'object', 'savetempblock', 'delete', 'variabletable', 'block', 'crash', 'restore', 'temporary', 'application']",General,{'crash': 100}
+a5598f784370c8503e0a74112f67ea4a78aa6998,"['critical', 'security', 'severity']",General,{'security': 100}
+6c0d34aa97b522b6bfdaf112f8349c0db0f375a5,"['mergerequest', 'liskhq', 'action', 'securityimprove', 'security', 'action']",General,{'security': 100}
+559464be30f325a4ac8d328e18cc60135f036070,"['action', 'security']",General,{'security': 100}
+682665b2aaca667f93101df3f7cae544fdbbf618,"['fabdcffd', 'fafaaliskhq', 'action', 'security']",General,{'security': 100}
+f25a5faa940807a50eac6396736779129f2c6463,"['dfecfe', 'eedaddrelease', 'action', 'security']",General,{'security': 100}
+9c3b8b2e708e23149483e6b40626bbb212fa4ec9,"['action', 'security', 'network', 'update']",General,{'security': 100}
+c18c629e775d20d48ba7344731520444de47fe41,"['field', 'option', 'custom', 'crash', 'legacy']",General,{'crash': 100}
+a9132164ba6f7b0f3c44d6c0f17f40b51373344f,"['request', 'liskhq', 'crash', 'process', 'application', 'child']",General,{'crash': 100}
+df6677ff4a252eec8ec34653ba6eaa8ecd0ee6b7,"['socket', 'childparent', 'crash', 'prevents', 'process', 'child']",General,{'crash': 100}
+e439aa3f9292a14d56193f762dca6485d54f3719,"['requestremove', 'insecure', 'action', 'close', 'chain']",General,{'insecure': 100}
+9836973659d8b1a92579329e2fd433aad943ca26,"['network', 'scenario', 'crash']",General,{'crash': 100}
+60eba9ce2d3b53211987c8b6bc650bb72483ec00,"['response', 'crash']",General,{'crash': 100}
+e8c54358122332af69077f47d4fa68388f818bd7,"['scenario', 'security', 'network']",General,{'security': 100}

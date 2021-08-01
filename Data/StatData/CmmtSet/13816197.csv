@@ -1,13 +1,28 @@
-sha,message,catetory,matched,labels
-bbf85713a6bf1dfbef35c6694aa341a6f7fc097e,"['crash', 'error', 'window']",Risky_resource_management,{'crash': 100},
-e216dad4a7f7bc133d0f959f74e6e5903c0b939f,"['crash', 'indexbuffers']",Risky_resource_management,{'crash': 100},
-83e11c4be32d9bd9213dadeaf842cd34a6419ccf,"['startup', 'crash']",Risky_resource_management,{'crash': 100},
-dcc800a14da1dfcd0b117655df804af40f46d518,"['mergecaiopsouza', 'master', 'requeststorage', 'crash', 'local', 'chrome']",Risky_resource_management,{'crash': 100},
-dc4c9e940991e7f31c2ac224335fec21cd1a87d4,"['storage', 'crash', 'local', 'chrome']",Risky_resource_management,{'crash': 100},
-57a9bfcc54f968eee3ce6efdb7bf96568196b829,"['crash', 'startup']",Risky_resource_management,{'crash': 100},
-3a339a9673b29f2a5872a6266740d05423bdcb87,"['crash', 'network', 'access', 'return']",Risky_resource_management,{'crash': 100},
-3aded3a59bf6868903217df75a0c3d2cd36f1fa1,"['crash', 'server']",Risky_resource_management,{'crash': 100},
-f7fcc9012303f3282b29021148d4fe0e37244850,"['crash', 'empty']",Risky_resource_management,{'crash': 100},
-dec2a7dd0508013522bc48a542f9dc0a9746f32e,"['small', 'crash', 'flash', 'window']",Risky_resource_management,{'crash': 100},
-7aaabd42047af340035c122a4997ae54ea5435d6,"['crash', 'storage']",Risky_resource_management,{'crash': 100},
-74aec1d1907adbbd8381d1e84752c0372ecbce36,"['crash', 'window']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+bbf85713a6bf1dfbef35c6694aa341a6f7fc097e,"['show', 'crash', 'error', 'window', 'window']",General,{'crash': 100}
+e216dad4a7f7bc133d0f959f74e6e5903c0b939f,"['possible', 'crash', 'vertex', 'indexbuffers']",General,{'crash': 100}
+70ca4ac8a481cf9330901d7407702b2a52dbb277,"['pull', 'request', 'dave', 'cleanup', 'memory', 'leak', 'cleanup', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+83e11c4be32d9bd9213dadeaf842cd34a6419ccf,"['rare', 'startup', 'crash']",General,{'crash': 100}
+e3ffa5d10290fcc46343fc843ec21f1ad0287609,"['pull', 'request', 'psmtec', 'html', 'crash']",General,{'crash': 100}
+cd2ee44cf1a5e29fdf9368fff038c41f7b654f2d,['crash'],General,{'crash': 100}
+ae143cc5137f0de6c6623ea0af95a1b009a9c761,"['memory', 'corruption', 'audio', 'mixer']",Risky_resource_management,{'memory corruption': 100}
+dcc800a14da1dfcd0b117655df804af40f46d518,"['pull', 'request', 'caiopsouza', 'master', 'crash', 'chrome', 'local', 'storage']",General,{'crash': 100}
+dc4c9e940991e7f31c2ac224335fec21cd1a87d4,"['crash', 'chrome', 'local', 'storage']",General,{'crash': 100}
+76717376dd50b8e16917826dda03c847653a8867,"['possible', 'crash', 'windowwidth', 'height', 'mainwindow', 'openwindow', 'option']",General,{'crash': 100}
+ea9b5741ba5fabc67e4210e3bb9eec36b9b8c901,"['security', 'macos']",General,{'security': 100}
+57a9bfcc54f968eee3ce6efdb7bf96568196b829,"['startup', 'crash', 'graphic']",General,{'crash': 100}
+3a339a9673b29f2a5872a6266740d05423bdcb87,"['crash', 'network', 'access', 'return', 'error']",General,{'crash': 100}
+d15bd5a60b50c2a8177f486ec176b70a82157548,"['crash', 'audio', 'mixer']",General,{'crash': 100}
+60008bc86e897cd10c521eedebf54df21773d50a,"['small', 'crash', 'hack']",General,{'crash': 100}
+3aded3a59bf6868903217df75a0c3d2cd36f1fa1,"['crash', 'server', 'game']",General,{'crash': 100}
+f51da96e9909150d9f39e67ce0152cd9d9a3c0bd,"['typo', 'html', 'sound', 'loader', 'crash', 'browser']",General,{'crash': 100}
+bbe9869cec532a64ef4fad4f8fe8b041f9447a01,"['kore', 'audio', 'crash']",General,{'crash': 100}
+f7fcc9012303f3282b29021148d4fe0e37244850,"['crash', 'empty', 'blob']",General,{'crash': 100}
+dec2a7dd0508013522bc48a542f9dc0a9746f32e,"['crash', 'flash', 'small', 'value']",General,{'crash': 100}
+7aaabd42047af340035c122a4997ae54ea5435d6,"['kore', 'crash', 'storage', 'file']",General,{'crash': 100}
+d321856a2f3af17ceafbe46dcfafceb199259c1a,"['possible', 'crash', 'color']",General,{'crash': 100}
+e9a68ebab9395663f44ef502f8b5990f2a27df6e,"['crash', 'shader', 'painter']",General,{'crash': 100}
+974353a17dd9f2fa37dcd4a2268544f2b1a40708,"['crash', 'backend']",General,{'crash': 100}
+1c931b7420457fd167deb8fb8ba7e81bdd8f5fce,"['crash', 'null']",General,{'crash': 100}
+74aec1d1907adbbd8381d1e84752c0372ecbce36,"['window', 'creation', 'crash']",General,{'crash': 100}
+432b0c42119eb0e0dbeccd71b87c37eb6410db9a,"['check', 'null', 'pointer', 'collision', 'detection']",Risky_resource_management,{'null pointer': 100}

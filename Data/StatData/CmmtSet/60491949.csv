@@ -1,7 +1,40 @@
-sha,message,catetory,matched,labels
-ee974fd1132ecbf55174ff0eb8e95f2be744750e,"['anotehr', 'security']",General,{'security': 100},
-1649a0417a51c3eb3624b1e73b014ec7d6f03b88,"['final', 'tweak', 'security']",General,{'security': 100},
-8fc20e6c9262dde6bb9f5a13b24bcb83417b1a37,"['chapter', 'playbook', 'snippet', 'security']",General,{'security': 100},
-9d97644bb7860c91177a5186811140eebd42c39b,"['mitigate', 'version', 'update', 'github', 'notice', 'express', 'security']",General,{'security': 100},
-c2cce4bbe419d0ad63102e7faefdbb6257cde4d3,"['mitigate', 'version', 'update', 'github', 'express', 'security']",General,{'security': 100},
-23b83291f4af12198985631215fed2ff94edeba6,"['configuration', 'update', 'vagrant', 'insecure', 'issue']",General,{'insecure': 100},
+sha,message,catetory,matched
+a9dd52e9cd1e3bf36b695695a33cc3cd4f2df2fd,"['appserver', 'cross', 'domain', 'access', 'control']",Porous_defenses,{'access control': 100}
+c2b85d1cbafdde79ad75483ca3ccd02e3a1aebdc,"['appserver', 'cross', 'domain', 'access', 'control']",Porous_defenses,{'access control': 100}
+37de07a010d2df88be8b610fdb17acf504cb9a31,"['appserver', 'cross', 'domain', 'access', 'control']",Porous_defenses,{'access control': 100}
+1cfb0aea9d5d7496377513180e4e331dc1c67bde,"['favorite', 'review', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+caf1eeed6fa8b37ba4dd99230981b56080afb26c,"['favorite', 'review', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+6ae709cf0b9e56605ab21215fcc7bba4f4db7d60,"['customer', 'contact', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+08332ebf034f5cb32c4410d45e576822d065f1f9,"['apphtml', 'product', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+dd9da2080bf6d286f0a46d561d968e1d789ed6f3,"['apphtml', 'customer', 'account', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+e7a7c21cb5fc12fc792b25e88f7338c16658af35,"['apphtml', 'customer', 'address', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+c588423a0c2eab7a48926a5d5e12e9ea00920e06,"['apphtml', 'checkout', 'cart', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+d30287281b7e4b6f727ed65bd82259a7fd73ddd6,"['apphtml', 'checkout', 'onepage', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+b7068172d1757f7c172edd1cfeef5df4e384a6a4,"['apphtml', 'customer', 'product', 'favorite', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+c4a8519d2250c9b582d49683cc9cb863bd9f84d7,"['apphtml', 'customer', 'address', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+56d7116668db41122f0613a637dbc12dadbfdf86,"['csrf', 'post', 'function']",Insecure_interaction_between_components,{'csrf': 100}
+23328d5fb4f78e9c66e02ddd55accbc1b932a4eb,"['appfront', 'product', 'favorite', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+fb83bdc4cd4b44a4df58cbfed1d5666d306093f3,"['customer', 'contact', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+8c479645c325087f569591be50662d8fb2bf0d31,"['appfront', 'checkout', 'onepage', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+92c646616bbb5bc0f0cc29916ec3900987cb6a0e,"['appfront', 'product', 'page', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+e6bbafc016543a4bdc867e654279dd944d2b8071,"['account', 'edit', 'facebook', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+5d06b67ab39301ce54503b1377630399c44ce016,"['appfront', 'account', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+2f6c397cce85310ff42ddb58abc4cf51c9e0b4cf,"['appfront', 'account', 'address', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+b333202984b1a25fbfdf3be328ef4e942366bdf2,"['checkout', 'cart', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+747f239ee32599803d5a7f0a22b2fb5edd5aa9b6,"['favorite', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+8e9dbf1bf3490cb39295a9081e5545ecde26dc3c,"['admin', 'cache', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+9e021e87fe9da8cab080d097ebd5c7f77f0e58bb,"['admin', 'static', 'block', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+2b44db958b61883f2bc8cc6665f41017b30bd332,"['admin', 'article', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+fac674b3e3ac0a813992eeac00fa3146a21e7061,"['admin', 'customer', 'newsletter', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+0183ab4e029cac290695bbb4b43954708abaf2f7,"['admin', 'account', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+b04249aed76911dcc2d0160876037cec624ab99f,"['admin', 'language', 'base', 'block', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+41921238f6cdc4f4854dd00b7cdaaa0d0eaee197,"['admin', 'order', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+e98eaf51e7ed045c32299c655bea468ba62a77a4,"['admin', 'cart', 'coupon', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+3b62071c7d9335e6c90c7f514b790ebf9dd05d04,"['admin', 'coupon', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+3597add624119f4d698e5f5c0c2e4a1ee5bf7371,"['admin', 'cache', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+6926961b4a329e5e17940e2a6d4f66622b49a8de,"['product', 'search', 'rewrite', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+2d34ac0012f3db62829b77943cd5b82201ad5175,"['admin', 'product', 'favorite', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+b079304bd67cd463373ee0873adbca90bb3f1159,"['admin', 'category', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+713820cd53ae27d932ccae26fb5bb7c2d2961123,"['product', 'review', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+b0a3104bdf31729772323aa7d50b3b19181855a6,"['login', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+7abcd67549175db2a92ec6383771375a5feaad95,"['logout', 'controller', 'post', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}

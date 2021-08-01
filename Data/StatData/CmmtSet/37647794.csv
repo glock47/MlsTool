@@ -1,7 +1,40 @@
-sha,message,catetory,matched,labels
-ddc2dadd9ed796056ee1a1e9146ceee81526a30e,"['insecure', 'request']",General,{'insecure': 100},
-c5b2c1db686c30d437053e94fd877d5657e46783,"['randompass', 'updateframework', 'security', 'character', 'number', 'infrastructure']",General,{'security': 100},
-8d6d638a411068b1bb6104e4bf2b085ef1bef1dd,"['token', 'security']",General,{'security': 100},
-a91718618e5501976fcb02c4ad3c380179445b66,"['token', 'option', 'security']",General,{'security': 100},
-0fa2cbd013e1fc0acf17d067b53bba135ec6cba6,"['inclusion', 'security', 'issue']",General,{'security': 100},
-45d1b266c302ae210ec7f54634af2a206e94b393,"['phpmailer', 'security', 'deactivate', 'autotls']",General,{'security': 100},
+sha,message,catetory,matched
+cc49b6ae6bc5d152e8786b524d41cd361ab71b74,"['dumpster', 'fire', 'block', 'issue', 'phpipam', 'backward', 'incompatible', 'vscode', 'language', 'server', 'crash', 'xdebug', 'work', 'support', 'block', 'master', 'release']",General,{'crash': 100}
+c5b2c1db686c30d437053e94fd877d5657e46783,"['update', 'magic', 'randompass', 'number', 'character', 'character', 'meet', 'infrastructure', 'security', 'framework', 'checklist']",General,{'security': 100}
+847cf71da874e07045c213972c824397ee532291,"['bugfix', 'invalid', 'csrf', 'cookie', 'editing', 'rack', 'item', 'regenerate', 'csrf', 'cookie', 'rack', 'item']",Insecure_interaction_between_components,{'csrf': 100}
+7c42b481877be89ed707319b0bc99066accbfb4a,"['bugfix', 'invalid', 'scan', 'type', 'canary', 'test', 'detect', 'csrf', 'cookie', 'html', 'form', 'cleanup', 'csrf', 'check']",Insecure_interaction_between_components,{'csrf': 100}
+fe6f9f04a9405b3030cfe76dc6318e205045e2f6,"['security', 'access', 'user', 'configurable', 'message', 'login', 'case', 'default', 'failban', 'nginx', 'apache', 'auth', 'rule']",General,{'security': 100}
+8d6d638a411068b1bb6104e4bf2b085ef1bef1dd,"['bugfix', 'security']",General,{'security': 100}
+01acc97ae8d6e1dd607736515e80c10786e053a2,"['bugfix', 'editing', 'widget', 'dashboard', 'csrf', 'check', 'user', 'widget']",Insecure_interaction_between_components,{'csrf': 100}
+314a3531b6a3618d7befd6a8901cacde0a587541,"['switch', 'hash', 'csrf', 'token', 'generation', 'replaces', 'class', 'crypto', 'robust', 'openssl', 'error', 'condition']",Insecure_interaction_between_components,{'csrf': 100}
+5f39d065c502f399bfc62c92829e21303f6e58c7,"['bugfix', 'invalid', 'csrf', 'cookie', 'subnet']",Insecure_interaction_between_components,{'csrf': 100}
+75e851c9888c7586c56d13830efa060e10586dcf,"['csrf', 'check', 'snmp', 'vlans', 'scan']",Insecure_interaction_between_components,{'csrf': 100}
+5092a9609b33d3d0c801b17b3e5bdb0202d5c725,"['bugfix', 'route', 'subnet', 'snmp', 'subnet', 'snmp', 'scan', 'validate', 'csrf', 'cooky']",Insecure_interaction_between_components,{'csrf': 100}
+f13b86962cdff67df3433aef80effedbf39de0d8,"['csrf', 'cookie', 'exists', 'return', 'current', 'cookie', 'generates']",Insecure_interaction_between_components,{'csrf': 100}
+fd37bd8fb2b9c306079db505e0e3fe79a096c31c,"['bugfix', 'subnet', 'scan', 'telnet', 'csrf', 'subnet', 'scan']",Insecure_interaction_between_components,{'csrf': 100}
+1d96a5d6eaabfc0a43f5209a7fed674bb2e390de,"['csrf', 'check', 'user', 'menu', 'widget']",Insecure_interaction_between_components,{'csrf': 100}
+552fbb0fc7ecb84bda4a131b4f290a3de9980040,"['bugfix', 'print', 'user', 'csrf', 'user', 'edit']",Insecure_interaction_between_components,{'csrf': 100}
+a91718618e5501976fcb02c4ad3c380179445b66,"['token', 'security', 'option']",General,{'security': 100}
+f823b08e41d798130070de43e3c4859dfe693f8c,"['update', 'class', 'crypto', 'support', 'mcrypt', 'openssl', 'encryption', 'mode', 'reuse', 'class', 'client', 'default', 'security', 'provider', 'crypt', 'openssl', 'mcrypt', 'removal', 'enable', 'mcrypt', 'backwards', 'compatibility', 'config', 'mcrypt']",General,{'security': 100}
+27f0c6fd0d770b58aeeb9276259ea9b678293ca4,"['bugfix', 'posible', 'memory', 'leak', 'tool', 'circuit', 'circuit', 'patch']",Risky_resource_management,{'memory leak': 100}
+6189ae469a1267274783a369d2c18fe63bcd57cd,"['csrf', 'function', 'crypto', 'class']",Insecure_interaction_between_components,{'csrf': 100}
+b2368658af948c50985b40209d4cfcdef541b90a,"['csrf', 'preview']",Insecure_interaction_between_components,{'csrf': 100}
+0fd3c6a31ff8e88316a59a32925bd3dbfa2b24f3,"['bugfix', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+7a6fe99bf201e5128eeea7521b04fd6953f48ab5,"['bugfix', 'ensure', 'csrf', 'cookie']",Insecure_interaction_between_components,{'csrf': 100}
+bec4bc65219e71a911cfa9cbbe9f52e656fa0731,"['bugfix', 'protocol', 'relative', 'open', 'redirect']",Insecure_interaction_between_components,{'open redirect': 100}
+52d36da581e2ec7906e9aeefce95870123550116,"['bugfix', 'patch', 'integer', 'overflow', 'platform', 'ensure', 'subnets', 'empty', 'list', 'subnet', 'slave']",Risky_resource_management,{'integer overflow': 100}
+ec284bd2196859fc33b64df9b12e05653a7204f0,"['cross', 'site', 'script']",Insecure_interaction_between_components,{'cross site': 100}
+d3d3e24a2af0f0a10858f0868680785b36368b1a,"['csrf', 'cookie', 'device', 'rack']",Insecure_interaction_between_components,{'csrf': 100}
+eb39b7d8c807b748e48cde38a2f4d38b03927ce5,"['invalid', 'csrf', 'cookie']",Insecure_interaction_between_components,{'csrf': 100}
+11f830f282f73fde08b7a9e233ec822ec8d067e4,"['automatic', 'location', 'assignment', 'device', 'rack', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+66d0e19ebea1fd6e670a75a5cfb9897f7010d6e6,"['csrf', 'error', 'subnet', 'scan']",Insecure_interaction_between_components,{'csrf': 100}
+46bae99cbadeaeae22f254ac1fc14e8118a3d1e2,"['separate', 'csrf', 'cooky', 'address', 'subnet', 'pstn', 'object']",Insecure_interaction_between_components,{'csrf': 100}
+a1f711c97ccf29257112a1f87a02bf27b1f8f31a,"['subnet', 'telnet', 'scan', 'vulnerability']",Porous_defenses,{'scan vulnerability': 91}
+0fa2cbd013e1fc0acf17d067b53bba135ec6cba6,"['possible', 'file', 'inclusion', 'security', 'issue']",General,{'security': 100}
+21896c66f9151c2ab2f72ccd71df82e3bfca8bd6,"['issue', 'invalid', 'csrf', 'cookie', 'device', 'rack']",Insecure_interaction_between_components,{'csrf': 100}
+bd00fb3b599a34d11d6601e68c3a1860ad87dd2d,"['csrf', 'cookie']",Insecure_interaction_between_components,{'csrf': 100}
+45d1b266c302ae210ec7f54634af2a206e94b393,"['deactivate', 'autotls', 'phpmailer', 'security', 'user']",General,{'security': 100}
+b524701fe80490de64827761686c7db2ac7dde6c,"['pull', 'request', 'aronparsons', 'crypt', 'crypt', 'security']",General,{'security': 100}
+f7665ae6639ea89244846bda95122ca6eb615175,"['crypt', 'security', 'client', 'encrypts', 'request', 'parameter', 'value', 'value', 'client', 'example', 'code']",General,{'security': 100}
+62dc07f73dcca0c2ab2b2bc031f31e8ea932d332,"['csrf', 'cookie', 'error']",Insecure_interaction_between_components,{'csrf': 100}
+cf2320b710c3718bafe7567d2b27bc9019becd8d,"['csrf', 'cookie', 'vlan', 'edit']",Insecure_interaction_between_components,{'csrf': 100}

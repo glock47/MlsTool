@@ -1,3 +1,9 @@
-sha,message,catetory,matched,labels
-ad793e9aa18ee42b6474c2f7143ba80c2c1f81fe,"['localstorage', 'issue', 'security', 'ignore', 'firefox']",General,{'security': 100},
-44cf2570a74c6484eb7a2adf48790ee94c87e7de,"['disallow', 'security', 'request', 'header', 'reason']",General,{'security': 100},
+sha,message,catetory,matched
+242dd5d87086f7b19a302dca01f166ffa5694955,"['login', 'csrf', 'protection']",Insecure_interaction_between_components,{'csrf': 100}
+ebc85a79077de64fa8b45ce4cb379b3471ae3d11,"['data', 'loss']",Risky_resource_management,{'data loss': 100}
+ad793e9aa18ee42b6474c2f7143ba80c2c1f81fe,"['ignore', 'security', 'issue', 'localstorage', 'firefox']",General,{'security': 100}
+44cf2570a74c6484eb7a2adf48790ee94c87e7de,"['request', 'disallow', 'header', 'security', 'reason']",General,{'security': 100}
+14a48e0eeea80335cb9716bd4aeac242227eb200,"['potential', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+7649b90468ce6fca6e78b48a11883bf764438451,"['popup', 'memory', 'leak', 'tree']",Risky_resource_management,{'memory leak': 100}
+3b01ebe09bd0f46af3daba602c40f7f821040d95,"['option', 'memory', 'leak', 'tree']",Risky_resource_management,{'memory leak': 100}
+5cf4cd97269507c817c4fdbbcf63a7d3049083f4,"['potential', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}

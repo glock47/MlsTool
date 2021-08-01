@@ -1,9 +1,14 @@
-sha,message,catetory,matched,labels
-ac19803d03538c0202ac5d96ea1b02fe7480b45a,"['mergerequest', 'deadlock', 'filenamedeadlock', 'thanks', 'filename']",Risky_resource_management,{'deadlock': 100},
-0b86d6a451ce74adcb79d72b567f40ea04b26092,"['deadlock', 'filename']",Risky_resource_management,{'deadlock': 100},
-afb949a417ce61787a449dfe9de52dd40816d14c,"['cmake', 'security', 'wanrnings']",General,{'security': 100},
-a446f187c19efc22d4d275ae397cdfc62c60ad1e,"['mutex', 'deadlock', 'recursive']",Risky_resource_management,{'deadlock': 100},
-8bfec30d48a4c1d2b93b3417f2fcf5d7d83f1958,"['async', 'issue', 'logger', 'deadlock', 'mingw']",Risky_resource_management,{'deadlock': 100},
-94a7152afc7ba38249ba204be9dfd388010bb505,"['queue', 'async', 'overrun', 'option', 'policy', 'oldsest']",Risky_resource_management,{'overrun': 100},
-039b34e83aaadce84ec2513c35db678485e964ed,"['exception', 'rethrow', 'unwindcause', 'sigabort', 'crash', 'pthread', 'spdlog', 'linux', 'librarythread', 'catch', 'specific', 'application', 'cancellationexception', 'execution', 'catch', 'block', 'phase', 'criticalspdlog', 'detailexception', 'general', 'catch']",Risky_resource_management,{'crash': 100},
-268222e496d32e3c6f450f7242655cf014dc93e8,"['crash', 'async', 'member', 'logger']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+ac35dd5a6f8312005ab0d86cc4db28c20083af46,"['integer', 'overflow']",Risky_resource_management,{'integer overflow': 100}
+ac19803d03538c0202ac5d96ea1b02fe7480b45a,"['pull', 'request', 'iife', 'filename', 'deadlock', 'deadlock', 'filename', 'thanks', 'iife']",Risky_resource_management,{'deadlock': 100}
+0b86d6a451ce74adcb79d72b567f40ea04b26092,"['deadlock', 'filename']",Risky_resource_management,{'deadlock': 100}
+f1b4f15dbbcb069e733a0b2ae23ebcea2f568457,"['pull', 'request', 'zyansheep', 'zyansheep', 'patch', 'yaourt', 'insecure', 'readme']",General,{'insecure': 100}
+7c34859e0cff24f2c5f8ac1bee18a1126475e69c,"['insecure', 'http', 'archlinux', 'yaourt', 'community', 'repo', 'http', 'package', 'community', 'spdlog']",General,{'insecure': 100}
+afb949a417ce61787a449dfe9de52dd40816d14c,"['fatal', 'security', 'wanrnings', 'msvc']",General,{'security': 100}
+a446f187c19efc22d4d275ae397cdfc62c60ad1e,"['deadlock', 'recursive', 'mutex']",Risky_resource_management,{'deadlock': 100}
+c543985cf4a060c4c038b303c3c8bcc6db13657c,"['overrun', 'counter']",Risky_resource_management,{'overrun': 100}
+8bfec30d48a4c1d2b93b3417f2fcf5d7d83f1958,"['deadlock', 'issue', 'mingw', 'async', 'logger']",Risky_resource_management,{'deadlock': 100}
+94a7152afc7ba38249ba204be9dfd388010bb505,"['async', 'queue', 'overrun', 'oldsest', 'policy', 'option']",Risky_resource_management,{'overrun': 100}
+039b34e83aaadce84ec2513c35db678485e964ed,"['rethrow', 'unwind', 'exception', 'linux', 'pthread', 'library', 'spdlog', 'sigabort', 'crash', 'application', 'case', 'catch', 'thread', 'specific', 'cancellation', 'exception', 'critical', 'execution', 'phase', 'catch', 'block', 'spdlog', 'detail', 'exception', 'general', 'catch', 'clause', 'rethrown', 'kind', 'exception']",General,{'crash': 100}
+268222e496d32e3c6f450f7242655cf014dc93e8,"['crash', 'async', 'logger', 'static', 'member', 'impl']",General,{'crash': 100}
+26ab30aba57c55c13cfea5a9945b0d6144522aa4,"['forgot', 'reset', 'null', 'pointer', 'bind']",Risky_resource_management,{'null pointer': 100}

@@ -1,0 +1,478 @@
+sha,message,catetory,matched
+f1782d73e5d6e943d0d75ded07fb7cb7cac6115b,"['physic', 'crash', 'physicsnode']",General,{'crash': 100}
+bdb2ef16310c34d5e3c2cdd6342469839e9826f6,"['pipeline', 'crash', 'exception', 'custom', 'thread', 'valid', 'thread', 'state', 'custom', 'thread']",General,{'crash': 100}
+e348d216e5ffcdf545326bfc5ca08995025b9f1f,"['event', 'memory', 'leak', 'future', 'result', 'case']",Risky_resource_management,{'memory leak': 100}
+08f344b00c8ac25867a46974e9bc7254960890da,"['dtool', 'memory', 'leak', 'oencryptstream', 'idecryptstream']",Risky_resource_management,{'memory leak': 100}
+3e1d4aa6b5921c918ae1e8bcffbdc59e60fde2af,"['interrogate', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+8d22b80698805b4cb69108863786244a3daf3592,"['display', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+90fb31ac219f7fb5e314686fed03cb069ef81554,"['ffmpeg', 'crash', 'audio', 'video', 'context']",General,{'crash': 100}
+55d43a1d57369dd689db523156b0801eff8d0a05,"['device', 'macos', 'crash', 'pipeline']",General,{'crash': 100}
+ae3d8c2663d41600acdf5c50127a50fd42136169,"['elegant', 'neverfreememory', 'memory', 'leak', 'switch', 'multimap', 'risk']",Risky_resource_management,{'memory leak': 100}
+f7ab42da56041fa458b8a2e27baaadd44863aeb2,"['putil', 'memory', 'leak', 'simplehashmap']",Risky_resource_management,{'memory leak': 100}
+74983d19a41d5fbf006cb269d6b1adc9f705dc99,"['dtoolbase', 'small', 'memory', 'leak', 'neverfreememory', 'exact', 'number']",Risky_resource_management,{'memory leak': 100}
+fa8c8e71b53f161d48b28492b156ab821d9bd8fb,"['gobj', 'assert', 'crash', 'primitive', 'reference']",General,{'crash': 100}
+5fdbc97499baf4e5b0474da8533e20c635ee55e1,"['direct', 'texmemwatcher', 'crash', 'graphic', 'memory', 'name']",General,{'crash': 100}
+86cfbc22b1cebdde998f9705a7a7b8aba94b5b7e,"['direct', 'error', 'function', 'choice', 'function', 'ternary', 'expression', 'sanity', 'check', 'crash', 'default']",General,{'crash': 100}
+a9b158192f2f0d4c57b4f26aa7256c17ec185e8e,"['putil', 'crash', 'bitarray']",General,{'crash': 100}
+9159fc1029aaa62102b8d7920919d3aea445035c,"['operator', 'delete', 'check', 'null', 'pointer', 'pervasive', 'belief', 'delete', 'null', 'pointer', 'safe', 'custom', 'delete', 'operator', 'regression']",Risky_resource_management,{'null pointer': 100}
+68d094dba460871c21d86778fe698cdfa3366567,"['dtoolutil', 'buffer', 'overrun', 'freebsd', 'long', 'cmdline', 'args', 'cmake', 'long', 'command', 'line']",Risky_resource_management,{'overrun': 100}
+b5d0e9eafce608ab12825b830a5d598c98db5319,"['task', 'memory', 'leak', 'panda']",Risky_resource_management,{'memory leak': 100}
+088a1f3774834bff229492aa4d6d70c0de074c60,"['display', 'crash', 'array', 'regression', 'faec']",General,{'crash': 100}
+c5c1d4557bf63d9a9343ea76a1ae3f1be5d36639,"['pgraph', 'double', 'free', 'weak', 'state']",Risky_resource_management,{'double free': 100}
+eccfce4606aa1d6a9ea6ecf3799cb821d03344bd,"['task', 'memory', 'leak', 'python', 'signal', 'python', 'signal', 'support', 'custom', 'signal', 'handler', 'exception', 'memory', 'application']",Risky_resource_management,{'memory leak': 100}
+8bf63856279f55a18164352a30605b6aa8cc857e,"['char', 'deadlock', 'regression']",Risky_resource_management,{'deadlock': 100}
+17dddeedc43c844f0df3a36db859c4c8cd7a833c,"['device', 'segfault', 'hotplug', 'reason', 'work', 'crash', 'poll', 'device', 'alternative', 'solution', 'callback', 'code', 'track', 'connection', 'iohiddevicerefs']",General,{'crash': 100}
+bf6dbefdd2d5744e712eff7cafbd784733b05846,"['display', 'crash', 'macos', 'graphicspipe', 'condition', 'python', 'credit', 'cfsworks']",General,{'crash': 100}
+791be4766a07d0da7ee971ed57101114a77d3f04,"['macos', 'crash', 'element']",General,{'crash': 100}
+ccca3cca3aa9fd26aff982bf6f3d6d3ff3d19c55,"['gobj', 'crash', 'residency', 'tracker']",General,{'crash': 100}
+9201d75bbe7d6cb91375c320b0e37ff520054442,"['gobj', 'crash', 'shutdown', 'buffer', 'context', 'regression']",General,{'crash': 100}
+78c3db379c7108b9d231baf3c52d4869eb6428be,"['gobj', 'test', 'crash', 'shaderbuffer', 'context', 'death']",General,{'crash': 100}
+210780f0218123ffa97aef70d617da8b2e54faec,"['array', 'overrun', 'pfmfile', 'resize']",Risky_resource_management,{'overrun': 100}
+c6990b9f9b3144a82134bdc65105976ef8b31357,"['possible', 'stack', 'overflow', 'streamreader']",Risky_resource_management,{'stack overflow': 100}
+8b0256e0f9ad0c7430a20e9028a10a9323c2b611,"['glgsg', 'driver', 'crash', 'deletion', 'buffer', 'generic', 'attribute', 'index', 'glsl', 'shader']",General,{'crash': 100}
+8c40ff39d7ef7278878b4da4a55f67d69b62be57,"['bullet', 'contact', 'callback', 'behavior', 'global', 'setting', 'crash', 'shutdown', 'python', 'interpreter']",General,{'crash': 100}
+c54f964a3b7c95899a52d5339e1624ae7528d0af,"['bullet', 'workaround', 'deadlock']",Risky_resource_management,{'deadlock': 100}
+932e9815726182b332c52d4d4e8be1e0d2642507,"['device', 'deadlock', 'building', 'getmessage', 'block', 'need', 'alternative', 'message', 'pump']",Risky_resource_management,{'deadlock': 100}
+bfb50ab7ff85b409b93908e14897a3abd2a4a032,"['device', 'crash', 'linux', 'device']",General,{'crash': 100}
+239dc400325fa530316fbc40a60987eca353ff89,"['device', 'crash', 'certain', 'device', 'macos']",General,{'crash': 100}
+5530074945d6b94f02b5a89edfc835009abcb726,"['cocoa', 'crash', 'rime', 'input', 'method']",General,{'crash': 100}
+5d3499dc6483bcf5c3069f3b92240143cad1e250,"['xdisplay', 'crash', 'fullscreen', 'linux']",General,{'crash': 100}
+eda709bbfc1ade68754feb2e9432b2a31dd98e4d,"['deploy', 'work', 'python', 'crash', 'apps']",General,{'crash': 100}
+6eb112a13a24af5d13661dbb238926e3944d1b9b,"['fftw', 'module', 'cmake', 'crash', 'folk', 'system']",General,{'crash': 100}
+12eeff0dec48784ea551c37d8d9d833d24db4a31,"['memory', 'leak', 'property']",Risky_resource_management,{'memory leak': 100}
+c337e58f4dbc02fb7bb1b60c7525c0ef518cee3a,"['crash', 'game']",General,{'crash': 100}
+8ba6a0d844ead43032cd917c639ffd4fe51eb68a,"['assimp', 'reuse', 'importer', 'object', 'multiple', 'model', 'work', 'crash', 'file', 'sequence', 'assimp', 'master']",General,{'crash': 100}
+ba3a826bff20035ad408dcbfdb095bc40fd8df85,"['gobj', 'crash', 'reading', 'float', 'column', 'model', 'vertex', 'color']",General,{'crash': 100}
+ff2fbe60efa6eff584441b3537cf195877748555,"['pipeline', 'revert', 'shutdown', 'crash', 'need', 'leak', 'lock', 'need', 'static', 'destruction', 'time', 'static', 'destruction', 'order', 'reverts']",General,{'crash': 100}
+22cac1cdf937047dabb26498d845449a70437e80,"['device', 'stack', 'corruption', 'crash', 'window']",General,{'crash': 100}
+376cef51c494fa2e4514d757b88eec9f069445cd,"['interrogate', 'python', 'crash', 'optional', 'pointer', 'default', 'argument']",General,{'crash': 100}
+3e5f2cf67215adf36d4b7fc26098f84483f9e967,"['crash', 'macos', 'libc', 'istream', 'version', 'libc', 'return', 'proper', 'behavior', 'return', 'past', 'stream', 'case', 'reading', 'past', 'length', 'stream', 'trust', 'result']",General,{'crash': 100}
+818fdbd232f3c53af04ec3d8c3974c0b05a68a78,"['interrogate', 'tidy', 'function', 'main', 'motivation', 'integer', 'overflow', 'prime', 'multiplication', 'step', 'undefined', 'behavior', 'function', 'negative', 'value', 'behavior', 'function', 'integer', 'overflow', 'behave', 'fact', 'point', 'math']",Risky_resource_management,{'integer overflow': 100}
+ebef9f3de8d2eb1c3628a25fe3bd08aa59c8804d,"['invalid', 'transformstate', 'crash', 'code', 'system', 'transformstate', 'object']",General,{'crash': 100}
+3124564040b186c3ed40ddb4cc7f756ec092690a,"['deploy', 'crash', 'local', 'logfile', 'writable']",General,{'crash': 100}
+cf277ebf6c706215b127de4b2bf191bc4f74a0e0,"['mayaegg', 'potential', 'crash']",General,{'crash': 100}
+32df05b5286d3e798576c4ea2ff026c94dce90fa,"['crash', 'multifile', 'stream', 'open', 'stream', 'multifile', 'stream', 'streamwrapper', 'reference']",General,{'crash': 100}
+da079c5ffea85c110627044a920a3ffcd147bba0,"['lock', 'dtor', 'crash', 'shutdown']",General,{'crash': 100}
+544ef137ee927ea51c3ed697578732d965668512,"['xdisplay', 'crash', 'nvidia', 'driver']",General,{'crash': 100}
+e32388c2f83e79dadf8b2b8b23fd34649eb1f7ce,"['interrogate', 'crash', 'reading', 'static', 'property']",General,{'crash': 100}
+ad3b145951654a76c90bd001c0b1e10dc02d3e87,"['property', 'getter', 'copy', 'case', 'public', 'buttonhandle', 'member', 'const', 'reference', 'outlive', 'struct', 'recipe', 'obscure', 'crash', 'criterium']",General,{'crash': 100}
+afc994b2fb6ed6258be8529e8e9ecd43d11948f7,"['display', 'crash', 'perfect', 'solution', 'entire', 'pipeline']",General,{'crash': 100}
+fb52a8e15efd0d358f4b2ba29237b8cc25ddeb54,"['text', 'deadlock', 'textnode']",Risky_resource_management,{'deadlock': 100}
+a05e928a75ab34f58e11395b0bb3d7681b69b849,"['chan', 'crash', 'certain', 'case', 'animcontrol', 'destruction']",General,{'crash': 100}
+bea15cd39a9507a9cf572c6ff582c2e19a25307a,"['pgraph', 'crash', 'modifies', 'node']",General,{'crash': 100}
+5ae38a8a924d839cba7a5d0a99112909c533787c,"['crash', 'search', 'path', 'possible']",General,{'crash': 100}
+3ac50a23473ce251019da9fe3a880763cf9471bf,"['movie', 'crash', 'audio', 'video', 'load']",General,{'crash': 100}
+cf4f8b35b689d487c90e7f0d85ccc2dc7db3252d,"['pgui', 'deadlock', 'pgscrollframe', 'pgsliderbar']",Risky_resource_management,{'deadlock': 100}
+9dec2aafb5a3b6f2f57c6028d7a79466558749bb,"['static', 'init', 'crash', 'static', 'pview']",General,{'crash': 100}
+ee318a73f3df14eccdefca1f5db34c354e94063a,"['hypothetical', 'stack', 'overflow']",Risky_resource_management,{'stack overflow': 100}
+668a093c26f3b4f7873d65c224d38f1b751646e9,"['deadlock', 'order', 'geom']",Risky_resource_management,{'deadlock': 100}
+10fe8659c656c5ce33a35897baa5c2cd12ee7f3f,"['gobj', 'work', 'deadlock', 'flush']",Risky_resource_management,{'deadlock': 100}
+fbce833aae112d1bc3c99a8d851337de7575d0c8,"['pgitem', 'deadlock', 'scene', 'graph', 'need']",Risky_resource_management,{'deadlock': 100}
+e2b4353800532b6396ffbf8348cf450aca28a2a6,"['null', 'pointer', 'nullptr', 'exception', 'replacement', 'file', 'header', 'file', 'string', 'comment']",Risky_resource_management,{'null pointer': 100}
+57602d750f16e5b7029385fa5f5fcf52147f5f70,"['cocoadisplay', 'crash', 'window', 'buffer']",General,{'crash': 100}
+3d49986ce26652871847594de2592f1452f5536d,"['char', 'crash', 'character', 'destructor', 'regression', 'regression', 'edge', 'case', 'mind', 'weak', 'pointer', 'object', 'destruction', 'issue', 'return', 'null', 'need', 'separate', 'method', 'check', 'efficient']",General,{'crash': 100}
+5c9705c21c551c072dc0861965d6e8f4b7cbe657,"['pgraph', 'crash', 'dict', 'property']",General,{'crash': 100}
+3653413cd4902b729e2b2e05405c715605b3a39a,"['bullet', 'deadlock']",Risky_resource_management,{'deadlock': 100}
+6175e79c5797c3be3ff67a33eac3fe3e6f909be7,"['cppparser', 'infinite', 'recursion', 'stack', 'overflow', 'enum', 'class']",Risky_resource_management,{'stack overflow': 100}
+549301d0f01976eb321055dc2a168368089050ef,"['reference', 'object', 'prevents', 'crash', 'reference']",General,{'crash': 100}
+e6e39cce0e9140de96febc3aba3d709cdffe8de1,"['bullet', 'deadlock']",Risky_resource_management,{'deadlock': 100}
+9ca0d089a669f3f3e63f58f329d354055917700b,"['event', 'crash']",General,{'crash': 100}
+95bffa8503714ba84091893adeb97c6557183afa,"['crash', 'unicode', 'character', 'text', 'field', 'altgr', 'directentry', 'macos']",General,{'crash': 100}
+63b1e4497776509d3ead67c4d4e2f0015b894ad4,"['framework', 'pview', 'crash', 'exit', 'system', 'event', 'macos', 'trigger', 'common', 'error', 'proper', 'global', 'scope']",General,{'crash': 100}
+a5beccc99eb9224c3e632530f8acaa2e6e28d609,"['chan', 'crash', 'animcontrol']",General,{'crash': 100}
+9afdb78d947e51ce84e09a4885ff3c3895f8bc4e,"['global', 'lock', 'mechanism', 'address', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+8a7b47d501d46fbc9e37aa86f3a010ee733187d3,"['audio', 'memory', 'leak', 'openal']",Risky_resource_management,{'memory leak': 100}
+3977b9c57c349a591a6db46fb0d8ef51a86e744d,"['collide', 'pipeline', 'crash']",General,{'crash': 100}
+84bdce01f291fb9b19b64655dda3265bb0a4252b,"['crash', 'iterator']",General,{'crash': 100}
+7ee9467f8da4211b82e9f40dd194f8204271cf78,"['shadow', 'shadow', 'buffer', 'creation', 'deadlock', 'pipeline']",Risky_resource_management,{'deadlock': 100}
+e04ddbef9a49c84823d8a172f75bff283c81864e,"['pipeline', 'pipeline', 'deadlock', 'deadlock', 'thread', 'hold', 'cycler', 'lock', 'attempt', 'pipeline', 'pipeline', 'cycle', 'main', 'thread', 'problem', 'threefold', 'cycle', 'progress', 'cycle', 'block', 'dirty', 'cycler', 'main', 'thread', 'information', 'http', 'github', 'pandad', 'pandad', 'issue']",Risky_resource_management,{'deadlock': 100}
+8a94a0d4390c4d769eca417f0ff2dcc8756bd80e,"['loader', 'crash', 'result', 'async', 'load']",General,{'crash': 100}
+540122e7031452bc8b8e38791f86e2b94122d050,"['gobj', 'crash', 'shaderbuffer']",General,{'crash': 100}
+bdd53d60fc1729ba310251a78d8ae5156a1b0ee7,"['crash', 'showbase', 'renderdp', 'setting']",General,{'crash': 100}
+feb36d98185ea08aba0168ea4168b402c8c92a9a,"['mirror', 'demo', 'mirror', 'camera', 'roll', 'mirror', 'model', 'mirror', 'mirror', 'corner', 'camera', 'distance', 'crash']",General,{'crash': 100}
+b8bf8bd64124748ccbb781c79b7ea351c0abb5c6,"['interrogate', 'crash']",General,{'crash': 100}
+1b690e528fdea15c7290e015f3ec14fa03e69c6c,"['crash', 'open', 'output', 'file']",General,{'crash': 100}
+2e5051ac04b07e5f8618dfc186bb9d6c951e5088,"['bullet', 'crash', 'geomtriangles', 'trimesh']",General,{'crash': 100}
+e07e5d02033eeb4306db11633d7e814bbe9fe938,"['assert', 'macro', 'crash', 'debug']",General,{'crash': 100}
+257311cc0cf5496e8d4552df69388fab563393d9,"['physic', 'crash', 'edge', 'case', 'physicalnode', 'assertion', 'check']",General,{'crash': 100}
+efd25e98a5efb858cbeab9640f3cff0082057118,"['deploy', 'stub', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+603f0eb3b18b72b8fe85b6710c8c63fbb80330c8,"['occasional', 'crash', 'pnmimage']",General,{'crash': 100}
+0c742d59e58dd4c7a5a608e5d243d42319a7357a,"['crash', 'incorrect', 'alignment', 'building', 'eigen', 'byte', 'alignment', 'building', 'eigen']",General,{'crash': 100}
+59c3aa3ef6a090592b7ee32e7b4ca229c6ffe649,"['cocoa', 'crash', 'display', 'server', 'display', 'mode']",General,{'crash': 100}
+2ac1734566dbe5174a72b878a429b581421461ad,"['crash', 'tiff', 'file', 'note', 'tifs', 'panda', 'crash', 'downsamples']",General,{'crash': 100}
+056ea94765aeccd659e3905fa46ccc4556eaa9e8,"['pythonthread', 'crash']",General,{'crash': 100}
+e8fbd2f9dac83c7ff1e3085efbd50718714563ab,"['potential', 'crash', 'shader', 'preprocess', 'code']",General,{'crash': 100}
+637767fec893b43c4e6201a434fa435991ffe543,"['flush', 'nout', 'crash', 'assert', 'abort']",General,{'crash': 100}
+23645cc407a04034bef457a9a3ab62dc62b94a94,"['load', 'crash', 'certain', 'format', 'support']",General,{'crash': 100}
+c422f5952fdf4a11ba19a83c6431f13bed2aa22c,"['increase', 'default', 'alignment', 'word', 'size', 'efficient', 'neverfreememory', 'performs', 'alignment', 'bullet', 'crash', 'need', 'check']",General,{'crash': 100}
+a0b2a981783a63fb91e71fa9599a27d7d7b5b7cd,['crash'],General,{'crash': 100}
+47d1b4e220e4e3e78748dafe12830a936b055139,"['pythontask', 'crash', 'repr', 'owner', 'error', 'owner']",General,{'crash': 100}
+54819dbcde1c1e4f31f205a51f97b51eaa7f0795,"['crash', 'textgraphic', 'text']",General,{'crash': 100}
+c7dbf193f1ffb43c4257e8a9611a4cc4e12a9650,"['linux', 'crash', 'xbox', 'controller', 'compile', 'warning']",General,{'crash': 100}
+9b5ff080113bf0d2f987fe6fa9b785084d475160,"['crash', 'null', 'audio', 'manager']",General,{'crash': 100}
+0821bec2d0f9664b9a84f9789f37ad918e648e26,"['backport', 'random', 'crash', 'module', 'initialization']",General,{'crash': 100}
+1974b3e692a1d817d837bd34a02d6e2971ada5a1,"['deadlock', 'python', 'task', 'program']",Risky_resource_management,{'deadlock': 100}
+ba919b0948cefca030ce19933bfec34fe2db063b,['crash'],General,{'crash': 100}
+e9c76328fb1a562e66792e4bf3bb2d8689c00565,"['crash', 'pythontask', 'destructor']",General,{'crash': 100}
+d53b2ca80eeb249f825ebcd4400ee4de8ced49a1,"['various', 'bugfixes', 'master', 'window', 'pbuffer', 'crash', 'intel', 'card', 'crash', 'unsupported', 'format', 'glsl', 'diagnostics', 'mesa', 'gles', 'compiler', 'warning', 'severity', 'immutable', 'storage', 'texture', 'print', 'debug', 'info', 'insufficient', 'file', 'contains', 'object', 'unknown', 'type', 'movingpart', 'lmatrixf', 'memory', 'leak', 'pmerge', 'python']",Risky_resource_management,{'memory leak': 100}
+910a50de165f519d386bbf274d7293480331ea1d,"['crash', 'unsupported', 'format', 'minor', 'issue']",General,{'crash': 100}
+facb1cca31c0a628c061a3810c64c06f662df14b,"['sequence', 'crash', 'tuple', 'list', 'parameter', 'name', 'python', 'sequence', 'altogether']",General,{'crash': 100}
+bffe3bf55abef55132adb2f908cd4cf2d8d6a67a,"['bullet', 'plug', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+320f3414676d76a4526e6196ef3a8cc007647657,"['pbuffer', 'crash', 'window', 'intel', 'driver']",General,{'crash': 100}
+2f0bc01b682f4a7cb2f905fef82b3811e71abed1,"['random', 'crash', 'module', 'initialization']",General,{'crash': 100}
+e4b032ea21d6b28b279f16593ee79c4191c6d848,"['crash', 'reading', 'camera', 'object', 'file']",General,{'crash': 100}
+9300bca1a4579d5780e0236c77974eb575b82b15,"['direct', 'string', 'check', 'python', 'unicode', 'python', 'crash', 'unicode']",General,{'crash': 100}
+40739c6b5f314cd1aea4e0e66cc0f8f3ca40f8f3,"['link', 'issue', 'crash', 'android']",General,{'crash': 100}
+9b4ce5ec0a4cf65fa5cc4d01105d622d0f8b1887,"['crash', 'compute', 'node', 'state']",General,{'crash': 100}
+ad238ad9950425e106a7cbcb4a735a9f2f4188f9,"['crash', 'assimp', 'assertion']",General,{'crash': 100}
+7d9b5d61f932cc6c1f1ed5631a713fe1e9dfcbfe,['crash'],General,{'crash': 100}
+86eef299744d6908e1899834b56d06663a5220ed,"['crash', 'spawn', 'template', 'present', 'thanks', 'tobspr']",General,{'crash': 100}
+81691e31031fe6b9548e343f3b6c9a905ea2d58d,"['crash', 'invalid', 'tangent', 'rope', 'node', 'invalid', 'tangent', 'certain', 'vector']",General,{'crash': 100}
+c2b44b57c9f07b574a2edd340a68a096523ad74a,"['crash', 'opengl', 'version']",General,{'crash': 100}
+c80fd202086c83f94f410d3c4210ddb591a7ef26,['crash'],General,{'crash': 100}
+f9add1879822c2ee98b2c25dfb80af857458ec26,"['crash', 'shutdown']",General,{'crash': 100}
+6a263746cd0a7fad2e9cc745e54c009737cf6e9b,"['crash', 'shutdown']",General,{'crash': 100}
+bd354a9cde3bc455a3ec8d547308c394d0ac6c89,"['crash', 'shutdown', 'buffer']",General,{'crash': 100}
+d3494edf2c325093e136d7b33382fcfa192fc2e7,"['rare', 'crash', 'shutdown']",General,{'crash': 100}
+433ed001fa79c0456c7b0830d18ed9e07c67d58d,"['strong', 'cmpxch', 'crash']",General,{'crash': 100}
+5736e7a4b07fc4ef2f3719f42b4807356c67f011,"['crash', 'filename', 'constructor']",General,{'crash': 100}
+2ea3e3f65a6454f003cae25f441df451a185be63,"['occasional', 'crash']",General,{'crash': 100}
+9396f998fb386ab6749fa5d40c4675379e11e764,"['crash', 'ptinydisplay', 'initial', 'window']",General,{'crash': 100}
+0ee972a822a1c5e64f5af4808ecb8896d49039d5,"['pallocator', 'panda', 'allocator', 'linux', 'crash', 'runtime']",General,{'crash': 100}
+265bf42f81225febdc60f9797e51125c080331a0,['crash'],General,{'crash': 100}
+4206e349c94dea9bc2bb31b9bd15746deea4f31f,"['obscure', 'crash']",General,{'crash': 100}
+221507437a4be6d3b9c0b3295d67f05b5ebad2e2,"['crash', 'array', 'glsl', 'array', 'input']",General,{'crash': 100}
+69b8d6a4b505d4ac5d55983a35415f3e6856396c,"['memory', 'leak', 'tuple']",Risky_resource_management,{'memory leak': 100}
+fe058dfb3270492b9dd6887db15b03ce4eb4b145,"['reference', 'cursor', 'double', 'free', 'shutdown']",Risky_resource_management,{'double free': 100}
+945d3c40357e6714b7bac932122543e3db261a0d,"['compiler', 'error', 'crash', 'assimp', 'loader']",General,{'crash': 100}
+f152c238d5e8eda1fee8713d4b8278e93eaf7881,"['display', 'error', 'message', 'mysterious', 'crash', 'unknown', 'bamobjectcode']",General,{'crash': 100}
+586c067d69a381b4e45479c00a8e6858d63e4071,"['shader', 'generator', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+82b3268786b4b5540f2649a638fe8cb6ced1c431,"['crash', 'openal', 'device', 'creation']",General,{'crash': 100}
+97c24c9ef01e263c6497ae92b2261f17e15122c8,"['crash', 'color', 'array', 'nvidia', 'card', 'time']",General,{'crash': 100}
+6b10409890ae5f9bdc6ce412a6bda5b996418a74,['crash'],General,{'crash': 100}
+c2aa6991d61504eb4ca7e8f27269686d9a47d6fb,"['globjectlabel', 'error', 'crash', 'shutdown', 'pstats', 'timing']",General,{'crash': 100}
+f68e8cdee471b44747e5f468045603eb099326af,"['crashy', 'libpdtool', 'location']",General,{'crashy': 91}
+763727fbb1bef79ef3e97b72bb6ab1426cd04638,['crash'],General,{'crash': 100}
+b19ff5b10e5ebcdef13c7279efe26d204a9087bc,"['crash', 'renderer', 'tinydisplay', 'renderer']",General,{'crash': 100}
+fe3f4a6d2a5ec5cfed0621785357cfbd95c66442,"['linear', 'crash', 'tinydisplay']",General,{'crash': 100}
+3490be94b783a0c0fc3ac878e704bbd880972a9f,"['deadlock', 'issue', 'type', 'registry']",Risky_resource_management,{'deadlock': 100}
+d3947d4b010eea33ff5f29220c2097546460ba08,"['crash', 'glsl']",General,{'crash': 100}
+3ed7ae0bd95196f977f3295e7fc3659a7157481d,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+902bedc3145052a79dfe0023917bb22bbfbd4ea6,"['python', 'crash', 'window', 'python', 'compile', 'error']",General,{'crash': 100}
+4ffb512faefbe8c6be8e7e95183a6e036ee03160,"['error', 'crash', 'tinydisplay']",General,{'crash': 100}
+0e785de0ff180736d09c0cb0799357dd99ca825a,['crash'],General,{'crash': 100}
+e468b293d162536a13cf6206bb5c9b6909d62b32,"['longstanding', 'memory', 'leak', 'certain', 'interrogate', 'exception', 'handler', 'memoryerror', 'constructor', 'return', 'null', 'check', 'argument']",Risky_resource_management,{'memory leak': 100}
+caad44773b473f3002f682a1236006171ed7f3ce,"['patch', 'cfsworks', 'double', 'free', 'issue', 'ffmpeg']",Risky_resource_management,{'double free': 100}
+3070f18c24133f546a7f2866daaa9a24ee912224,"['assertion', 'case', 'occasional', 'crash']",General,{'crash': 100}
+bf4221da1e57579e073a18afdd1eef5f43c278c0,"['crash', 'borks', 'vorbis', 'loader']",General,{'crash': 100}
+b8935be2c320722526e1748602604d77d9394e2f,"['meshdrawer', 'crash', 'setbudget']",General,{'crash': 100}
+52e4acc0ce82716b723e2bfe64ab32a6616ac895,"['crash', 'python', 'python', 'interface', 'maker']",General,{'crash': 100}
+bb6f151ea74636f9fe86aad0f4118f1876b31199,"['crash', 'transform', 'cache']",General,{'crash': 100}
+400f22693adaeb9c6aca19329cc83421eb6c665f,"['crash', 'display']",General,{'crash': 100}
+232821a0b1a71f28853341f7ec9ce712408e50e2,"['minor', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+29871ed63ab5ef97d3226e73ee5ac63f0bcf572a,"['crash', 'android']",General,{'crash': 100}
+d3d69aca6062f4ffb9aff7bff01bd6f9be6d4df0,['crash'],General,{'crash': 100}
+b83c81bee46d7b7a844064e89ece760c16ecc29c,"['crash', 'xrandr']",General,{'crash': 100}
+61ceee2e7359c2dd813325f5d8942a2928a2a52f,"['crash', 'version', 'upgrade']",General,{'crash': 100}
+4546fb9e770cda94f9dcddc715ecd0e41bab983c,"['bulletcontact', 'crash', 'linux']",General,{'crash': 100}
+9dcc7a5e352f40bef0f804525a24ed024c0bcb29,['crash'],General,{'crash': 100}
+e1a136a21e7b4bc4d102da2131a173c855c67962,"['minor', 'crash', 'input', 'error']",General,{'crash': 100}
+6b3c53e1155f88656e6e376f78e7890c3a4e315a,['crash'],General,{'crash': 100}
+6e5dd2cc63635a775669d3948a2ac76d1bbc65fe,"['memory', 'crash']",General,{'crash': 100}
+ae76495d75190f3e2cd30dab37affa78972ee3ba,"['self', 'deadlock']",Risky_resource_management,{'deadlock': 100}
+dca824b5de68c1f5fc42fc4ce3379a0255b663d2,"['time', 'ffmpeg', 'crash']",General,{'crash': 100}
+b8497a04786751c7e93c3249dfabf53c82e84c20,['deadlock'],Risky_resource_management,{'deadlock': 100}
+59f5b1cadfc0cd998201d56ae642bbeda4bd1bc3,"['ffmpeg', 'crash']",General,{'crash': 100}
+8dc21c8caea5232301b5610de412e189b91d052a,"['hashmap', 'crash']",General,{'crash': 100}
+be85a6ada1e38b3c612a5235413a3f6d6b8eff03,['crash'],General,{'crash': 100}
+ac0a33e65c5f61b8c898712933d166653e7dc73c,"['cast', 'null', 'pointer', 'type']",Risky_resource_management,{'null pointer': 100}
+c6296add0b2684dcb47bdd956da056b3f96554be,"['python', 'crash']",General,{'crash': 100}
+068732418316b5ba5ff729222476f740e56852cd,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+369f93951ffcf63dbadadd437f848883536add96,"['memory', 'leak', 'garbage', 'state', 'case']",Risky_resource_management,{'memory leak': 100}
+007b7d3f9e6a588525d92b76004c2e0a2733c47f,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+6b3cc48bb63de89c0428bd6522244b2e21deb885,"['static', 'init', 'crash']",General,{'crash': 100}
+ae38a4eb4491fe9a1c34276011aad6747c757697,"['crash', 'exit']",General,{'crash': 100}
+e53e8311425efd34c9e67dd2404886892ea03910,"['crash', 'implementation', 'support', 'fbconfig']",General,{'crash': 100}
+db7484513904f9d1ad748c959200d7c7ddd99eff,"['crash', 'debug', 'notify', 'null', 'anim', 'trivial']",General,{'crash': 100}
+124942a13b842f287b531f20fef30e2e6de768ef,"['darn', 'maya', 'crash']",General,{'crash': 100}
+95b8f46895c523f7530729f7389b186a47dbfd69,"['crash', 'linux']",General,{'crash': 100}
+e69958cfe93129ba32a64aafac86dd10ed06aa0f,"['segmentation', 'fault', 'buildbot', 'master', 'shell', 'environment', 'suppose', 'crash', 'manifest', 'environment', 'getlogin']",General,{'crash': 100}
+544b1009081ffd22282a04856ff4ef7184fac46c,"['plugin', 'crash', 'host', 'directory']",General,{'crash': 100}
+debb5223ccdd93ac794c6bf4b6945a1012b1ae53,"['crash', 'page', 'refresh', 'address', 'jira', 'potcoweb', 'browser', 'crash', 'account']",General,{'crash': 100}
+570ffe14e2a449afc7f9f93b9d0d853c494e9e88,"['interface', 'page', 'load', 'crash', 'respondcustom']",General,{'crash': 100}
+5823ecc588fc069bac0fbc28a5627bbc35c5b595,['crash'],General,{'crash': 100}
+2630c3bd5077917ef3e5724226b70fb8cb946b25,"['import', 'front', 'crash', 'publish']",General,{'crash': 100}
+e2d7f9a871f2c89eae3981dae80a5468d9f2689d,"['occasional', 'crash', 'friend']",General,{'crash': 100}
+da0908002cea260dd6e7e5c2ec03b6f104c4a6f6,"['crash', 'python', 'level', 'maximum', 'buffer', 'size']",General,{'crash': 100}
+8c56527a4937dd958e4bd2b8b69853ec31563157,"['recursion', 'crash']",General,{'crash': 100}
+c7ba043f5494469db5f544e986e047b7c02a0cfc,"['plan', 'crash']",General,{'crash': 100}
+6d21f840bd9d901ccd13d94c1a6f03fa0cec77ba,"['crash', 'default', 'font']",General,{'crash': 100}
+430800a43ecae0ea0fbf9d11dbfdc9bca86005be,"['attempt', 'deadlock', 'pirate', 'launch']",Risky_resource_management,{'deadlock': 100}
+e775c9f3071577b46fa16a6182088db6c249dcb6,"['safari', 'crash']",General,{'crash': 100}
+41ad9b2776e618ce9c057bf68ef9a076f7933f2f,"['leak', 'crash', 'shutdown', 'linux']",General,{'crash': 100}
+dbc4e3edf4d5115c4335dc690588dca58899caa1,"['parentmgr', 'crash']",General,{'crash': 100}
+d8c08f51709c1954032deb8b59e6832bd6a5ecd8,"['crash', 'logout', 'diff', 'toon']",General,{'crash': 100}
+93726b88c160625e17850f62559d095a1d3ebdb4,"['reload', 'crash']",General,{'crash': 100}
+52b1a2af6723d5ce51ce84c54a32cfcf07ac47c7,"['crash', 'page', 'reload']",General,{'crash': 100}
+a180898666bcf6a8f8707ee88a7676a40d58e5c4,"['crash', 'shutdown']",General,{'crash': 100}
+478909b7645b7dc712591dfb4ba0ffa492c5e29a,"['crash', 'exit']",General,{'crash': 100}
+045459f848af79ca13e85ae55e99509b24cc0541,"['false', 'logout', 'fullscreen', 'crash']",General,{'crash': 100}
+029eb75f78cdcc405efa6c01a9b66a684d9902ac,"['crash', 'exit']",General,{'crash': 100}
+83b78b6587e67eea37275ad383aa519fc911cc3b,"['click', 'menu', 'deadlock']",Risky_resource_management,{'deadlock': 100}
+3e91321b54f4991041de5f1a2a72a686164428a2,['crash'],General,{'crash': 100}
+d6539855a19b43925dc0b31b44608cab17edebca,"['obscure', 'crash']",General,{'crash': 100}
+7747bab0246b851cc53dd6b571f5f32ddde636b8,"['event', 'logout', 'crash']",General,{'crash': 100}
+3f2f1f487704005190dfde5b6c3ed945b646730a,"['splash', 'window', 'crash', 'startup']",General,{'crash': 100}
+166f966441da05990d4e0a44af9cec7f32e9b5e8,"['shadowtraverser', 'crash']",General,{'crash': 100}
+daadba7e4ee91996e30160a3696957678f89df7a,"['crash', 'game']",General,{'crash': 100}
+fbf0d87592ef9e6f6cecf8d69e3bcb52fa9c4123,"['framebuffer', 'multisample', 'multisamples', 'setting', 'crash']",General,{'crash': 100}
+b495586f64516a425bdfc97b42602c32ca7730b3,['crash'],General,{'crash': 100}
+aa719e845c4469f6741c2f1ab15f4bc7e930087f,"['workaround', 'pdcert', 'crash', 'pdcert', 'optimize', 'level']",General,{'crash': 100}
+4a22b8f104b09f3239abab7df98b250768b16acf,"['nppandad', 'crash', 'hope']",General,{'crash': 100}
+a784967166568651ddcd4db3e9b53cfae6015155,"['plugin', 'crash']",General,{'crash': 100}
+0a44c215572b617d894f5c0f5a7ea27a05a82cd7,"['subprocbuffer', 'plugin', 'crash', 'hope']",General,{'crash': 100}
+3977a68842b1602b66188b89b2555eddd234c4a9,"['obscure', 'firefox', 'crash']",General,{'crash': 100}
+7e565c2a490038af32467e5871bc1fca56c1755b,"['safari', 'crash']",General,{'crash': 100}
+10e44278602ef34e4e5cd2a8c9ae47cd57231ce6,"['firefox', 'crash']",General,{'crash': 100}
+ae0ced7c2c5ecc21c424d979e09666955c2dcd03,"['anim', 'control', 'crash']",General,{'crash': 100}
+f2e3cef83b98c15ff864bc2dcf9b61c687c5470a,['crash'],General,{'crash': 100}
+843bc110c4be75740131a9e5aeb01d68e0df635a,"['crash', 'exit']",General,{'crash': 100}
+af7f3f7e28590678098e6a0866c15a2e210fc6ec,"['crash', 'pandagl', 'freebsd', 'panda', 'work', 'freebsd']",General,{'crash': 100}
+b52dfe14ddf6c88f9c10b45539f4e303449e347b,"['security', 'work']",General,{'security': 100}
+4aef327d79fba467eb489a760c4a5d05d038365e,"['crash', 'shader', 'generator', 'texgen', 'stage', 'texgen', 'stage']",General,{'crash': 100}
+35bf03caf1eec6b6b8ae6fdd4e5f8cb8d0030d64,"['crash', 'mount', 'startup']",General,{'crash': 100}
+87a4dbdf8b355ba9300efa41fee53553a1fba6b6,['crash'],General,{'crash': 100}
+3dbd0672f7a31f1538c4468bba0b91e210b4d662,"['compilation', 'error', 'constant', 'integer', 'overflow']",Risky_resource_management,{'integer overflow': 100}
+c1fea52cabec98b55e85b0e43aab8ee7e82452af,"['firefox', 'crash']",General,{'crash': 100}
+a457d59aae3715cf0c807b60558cdfa6ae3fba69,"['crash', 'fltegg']",General,{'crash': 100}
+8585dd6cb3ea97e9bd4f65d5599f492e39d2a330,"['plugin', 'force', 'logfile', 'temp', 'user', 'specify', 'security', 'leak']",General,{'security': 100}
+c3b3113a1a80cfe1cfebc3d33f0492551ce0ff89,"['particle', 'system', 'crash', 'window', 'system']",General,{'crash': 100}
+68228e91985addbb6fa91dbe1c129e3351d973f8,['crash'],General,{'crash': 100}
+bc0d953ab51ca2f912b99f7c13bfe75fee4d677e,"['window', 'crash', 'splash', 'window', 'drawing']",General,{'crash': 100}
+7a00a8cab07d2e209d574defa68ceda23ff4751c,"['crash', 'exit']",General,{'crash': 100}
+1d896fcbb7f65f60ab630106563925ef478c3d66,"['copy', 'constructor', 'crash']",General,{'crash': 100}
+a663c348d362732f379e7e4a9b41dc581ebba726,['crash'],General,{'crash': 100}
+b2906cda8bb0a3087d985065ca96c38d5fea6259,"['window', 'crashy']",General,{'crashy': 91}
+c9aee0fa5bccfa2998f61eaeb3d01e64e127fe50,"['version', 'ffmpeg', 'ffmpeg', 'code', 'support', 'libswscale', 'undef', 'config', 'couple', 'deadlock', 'ffmpegtexture']",Risky_resource_management,{'deadlock': 100}
+71dcf4bc553f8db1082fe25f5f1dee6e9e3e8e39,"['crash', 'opengl']",General,{'crash': 100}
+909b86d68e7d16437db30a12c0461f63c11dfc61,"['panda', 'compile', 'crash']",General,{'crash': 100}
+ab2737ac1a10c6d421d5c9b89e5e0137656483f2,"['crash', 'glsl', 'shader']",General,{'crash': 100}
+07ce815f64434eb2b3eb7359ec9490f63b20bdc7,"['particle', 'panel', 'crash']",General,{'crash': 100}
+638e46d489dce1184c58da390c5e23b50191e5f7,"['coercion', 'memory', 'leak', 'part']",Risky_resource_management,{'memory leak': 100}
+70e1e46a61e9bbe49eb43c360ced144c0492579f,"['coercion', 'memory', 'leak', 'part']",Risky_resource_management,{'memory leak': 100}
+9f094d495a777b054d77bd6cf8c35d285deaaa29,"['crash', 'real', 'time']",General,{'crash': 100}
+6f8c011bb389404cc7fd25e3240b46d3c8cfa4de,['crash'],General,{'crash': 100}
+1fe0e144c9a1cd9d7e6ca7327dc5e8b4b68ac81b,"['weird', 'crash']",General,{'crash': 100}
+2deb24b2331562a15f2b9d663a1784141f12c11e,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+165fe027f0e4eb4ee753865f0910336391168e49,['deadlock'],Risky_resource_management,{'deadlock': 100}
+5fc21e0779c11ee2e1a77c8eebdea282ced90f17,"['deadlock', 'hope']",Risky_resource_management,{'deadlock': 100}
+8370d2be12fdac4beaa621ac8041e6af26a3545e,"['crash', 'pirate']",General,{'crash': 100}
+682e5608e7e8f2e3eddf4be14ce296c0ea84eb42,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+5292623b94d4c172dcea9de4768e3d73387be4dd,"['store', 'contact', 'geoms', 'collision', 'point', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+92927fd25fc633265100acfb4a65a58239bd92b4,['deadlock'],Risky_resource_management,{'deadlock': 100}
+1e2849fad1b4283dd51f3d7c0702e7ed96901134,"['tinydisplay', 'crash']",General,{'crash': 100}
+d2df9f361829cfc44189919b1e966bf3020a68c9,"['crash', 'window', 'creation', 'event']",General,{'crash': 100}
+c1dd337f86452a614aa3d058e283edaef9cf2ef3,['crash'],General,{'crash': 100}
+3d8079f054e5514e2a0ab79189051c122282f4da,"['crash', 'window', 'destruction']",General,{'crash': 100}
+babf0163e5e5354770008766be062ecc90aadc4b,"['crash', 'window', 'type', 'offscreen']",General,{'crash': 100}
+e52bf510580134cb3cc9728f373de9cfac84a5d2,"['crash', 'shutdown']",General,{'crash': 100}
+0fe9e0587add3bb16cd950c021beaf6e361b43fe,['crash'],General,{'crash': 100}
+c0b420a74a3ae2135cb660bc2f8b923418fb7b92,"['crash', 'texture']",General,{'crash': 100}
+7f3c5d660fbb7f916ddbdbee28b7479f58c67792,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+d4e22c07958feeed71b1f979c4a007281cdbebc2,"['crash', 'previous', 'checkin']",General,{'crash': 100}
+d5d23c2fa7c4beb89ad3132f305e85d4816c179f,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+f29f5297f68ddba165a0b57699154ff846c9f9f7,"['crash', 'exit']",General,{'crash': 100}
+eb78e3bfaac8a443ae1f87c375138f89e37de69d,"['occasional', 'hard', 'crash']",General,{'crash': 100}
+2c710020650ca49b942885dd0f24b124d7913217,"['client', 'crash']",General,{'crash': 100}
+87d3e20bcac50126a94881b5e2aa6f8ba2eca664,"['self', 'deadlock']",Risky_resource_management,{'deadlock': 100}
+82a071864c01c66450cfff6e549c28bae39ba46b,['crash'],General,{'crash': 100}
+eccea893f3a98412a75fd93993fbc7c855f5881b,"['crash', 'active', 'task']",General,{'crash': 100}
+e31be8e3f003f09ca31e5b9524f1c52cbbeb3d22,"['flatten', 'crash']",General,{'crash': 100}
+c7f970655344ee07063099784c6e7765664a970e,"['crash', 'identity', 'state']",General,{'crash': 100}
+f9f21384db09357b5850fb01b588687d412dfe15,"['crash', 'degenerate', 'polys']",General,{'crash': 100}
+bce545c9584a88c2ed8fb053ceff0f67171cbe07,"['thread', 'deadlock', 'problem']",Risky_resource_management,{'deadlock': 100}
+b2000566222e5866f76b9824181e4e6ad46db0e2,"['revert', 'investigation', 'deadlock']",Risky_resource_management,{'deadlock': 100}
+17483cdbdacf42df927969a1a6dbd54f8984b49b,"['crash', 'clock', 'mode']",General,{'crash': 100}
+dffead09645c62c85fc0cffc0b45ea3ee3b9e987,"['aggressive', 'attempt', 'crash']",General,{'crash': 100}
+b9cb301df927a8402e9f071637d7adcddf3e58f8,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+c740062d29dbbc204154562cfd98813d33e40d07,"['deadlock', 'exit', 'pstats']",Risky_resource_management,{'deadlock': 100}
+24b0ce64e2180207540827acf5565e73cb1d7647,"['darren', 'scratch', 'dummy', 'task', 'crash']",General,{'crash': 100}
+db18c32b23ab3ea13a25fbac65f4a09f17ffec45,"['crash', 'building', 'model']",General,{'crash': 100}
+f5e0ba66ba6b75ba0cef8f7900dca3a53212c08b,"['crash', 'point']",General,{'crash': 100}
+7583ac48619995fd2b02eb1a696214a082fc8f31,"['print', 'stacktrace', 'variable', 'dump', 'case', 'process', 'crash', 'variable', 'dump']",General,{'crash': 100}
+189626a483f892ffd9ea96f516ee722057117784,"['garbage', 'report', 'crash']",General,{'crash': 100}
+f8d1a5e008c9f5f2c3e251f8168b68fcbfe968b5,['crash'],General,{'crash': 100}
+ea16d659028e22eefbe1e7bb37fcfaf08e5a9ec9,['crash'],General,{'crash': 100}
+63f0e86da0b1a9b6437f13aa1676d20d51cb4a95,['crash'],General,{'crash': 100}
+ea863f74c288b567694b2f237cb7e583ad0b161e,"['crash', 'crash', 'report', 'battle']",General,{'crash': 100}
+ba790dbba1d46faca06dfa267098ebf706259086,"['crash', 'duplicate', 'owner', 'generate']",General,{'crash': 100}
+a232e570d8b31e63c737cc40f9a646da36da48ac,"['toontown', 'crash', 'game', 'exit']",General,{'crash': 100}
+3d322b73942abde46c6681e44e94507b7d36ae77,"['rockdebris', 'effect', 'crash', 'client']",General,{'crash': 100}
+5b7e57a9dad6810862b5a504f245a6fbfc3afe4f,"['temp', 'code', 'track', 'client', 'crash']",General,{'crash': 100}
+a88673a24a5dd8a9de4191fd0f49c7456654775a,"['memory', 'leak', 'task']",Risky_resource_management,{'memory leak': 100}
+b6371a6b12ed0bb50a2fae71c9ed0d8c9f6f6d4f,"['crash', 'spam']",General,{'crash': 100}
+7d4e6800026128dee3d855ffd997d3821831995c,"['temporary', 'hack', 'client', 'crash', 'undo', 'proper']",General,{'crash': 100}
+8fba5dd807cc5bff95033d6dbf11bff4d3601580,"['temporary', 'hack', 'client', 'crash', 'undo', 'proper']",General,{'crash': 100}
+180e3f5cd1c85a61b8a9dfd96e7144701ed5db5f,"['crash', 'dlerror']",General,{'crash': 100}
+9a0cfd2725967aa54e8c519381ed45171911dc65,"['location', 'table', 'duplicate', 'generate', 'client', 'crash']",General,{'crash': 100}
+41457534fe8aa4a2a56954407b20dc338b28d1af,"['crash', 'getspeeds', 'currentcontrols']",General,{'crash': 100}
+fa0f621c9323c2f34bbe161434499d1f7925d463,"['crash', 'getcurrentanim', 'anims', 'animcontroldict']",General,{'crash': 100}
+c380227fb4078a20ca00f95102ff31e5d02cc724,"['compile', 'crash', 'pandatool']",General,{'crash': 100}
+80c18644bec54815a4667a3c525f366f5990663c,"['class', 'security', 'username', 'password', 'protection']",General,{'security': 100}
+dbe9ec8337097b4c2f88c17988a03d202df3ec9a,"['ioerror', 'unpack', 'crash']",General,{'crash': 100}
+5dde973966420421eb8de5050c46f673e221b47b,"['crash', 'removealltasks']",General,{'crash': 100}
+7041778657fdd8b9acea62321b6a3e9c161fa408,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+b7a15f13c846955f0f3309bf9c029253fbee6ce4,['crash'],General,{'crash': 100}
+3e4e3248e72ab15e69c78f42258d000e41dafcdb,"['order', 'thread', 'cleanup', 'python', 'crash']",General,{'crash': 100}
+ad9deb8eb48c36f76a3014d7b26571288573d9cc,"['reset', 'crash']",General,{'crash': 100}
+9d619556920bb7e17335d35a91a2a09c460b2d8e,"['crash', 'text', 'default', 'font']",General,{'crash': 100}
+5e1ac15ba8de9ebd4d02cff8e6202571165d531c,"['crash', 'dobydistance']",General,{'crash': 100}
+ab3b45eb59bfe855b6faa14bab77252fcffc0604,"['self', 'deadlock']",Risky_resource_management,{'deadlock': 100}
+a44e8e3b302671a44075f5e4e9e5dbc2e6190776,"['assertion', 'crash']",General,{'crash': 100}
+62a072273b1888e933d229c928eed43a3cfd4f49,"['crash', 'deadlock']",Risky_resource_management,{'deadlock': 100}
+20d03e0992337c7c3332de1addf5edbc59ae3885,"['crash', 'exit']",General,{'crash': 100}
+ed91ab6162261d90dd3d2ae11d86ba24c64adcad,"['lightattrib', 'crash']",General,{'crash': 100}
+5d6bbfa3833df6a17b169e7978e63d0850897de2,"['buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100}
+b1809444c2e995e439511216980eb35d11298351,['crash'],General,{'crash': 100}
+05e24493fc4643c07a93d0920912edfae7bbf073,"['crash', 'interrogate']",General,{'crash': 100}
+d700bf85abe138f235902805f36db0e7f26d1c16,"['crash', 'case']",General,{'crash': 100}
+e9184fe61fb54957804683db7d8338752843a86e,"['deadlock', 'exit']",Risky_resource_management,{'deadlock': 100}
+9f2e1596fd602c359bb91dcfdc347b6895715df7,"['deadlock', 'exit']",Risky_resource_management,{'deadlock': 100}
+0b73035d5df9c3041d31ed5cbf54273ba196aac5,['crash'],General,{'crash': 100}
+9bec17d962e20045a896c97974ffefa96ff4ad61,"['crash', 'optimize']",General,{'crash': 100}
+515d96ab174cfd0dee8894801258b8ff46e44c62,"['self', 'deadlock', 'issue']",Risky_resource_management,{'deadlock': 100}
+36dfcf2437c693b525418e39ee2a3d6bd440047f,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+f89ef1f257235efc555a711ec35d7e0286c362a7,"['crash', 'return', 'sensible', 'value']",General,{'crash': 100}
+4af740cebe47886c391a6c885f2be641a8466b81,"['crash', 'startup']",General,{'crash': 100}
+7e54ae47b7d4a9c35365767bba2c4a5ee0f85ea2,"['startup', 'crash']",General,{'crash': 100}
+a9259e89649fe02473f55e36a9ff51283def7065,"['crash', 'leveleditor']",General,{'crash': 100}
+12d0fc68c0c3b2ed01562fb616a417b2b0cdd1a1,"['crash', 'production']",General,{'crash': 100}
+59b7f35caddd1adabb57a31c3236cc3201fd5c48,"['parentid', 'crash']",General,{'crash': 100}
+590b711680661ce7b87481bc902516d002815762,"['crash', 'jobid', 'timeslicesleft']",General,{'crash': 100}
+da6d5fc3b920df601a123c644bde5e533e96c4b8,"['catch', 'exception', 'subjobs', 'crash']",General,{'crash': 100}
+a0d32f9e298b71a0c6e463ed7ed3c40d04d6d3b9,"['saferepr', 'catch', 'crash']",General,{'crash': 100}
+47008cd9505a530220259d792c80126029e3b41c,['crash'],General,{'crash': 100}
+53a3560e972b653d26659965bce9320adeabb6cd,"['toontown', 'crash']",General,{'crash': 100}
+ad030f1b18d9c1f4acf3198418c0b283f9342a77,"['default', 'numgarbage', 'zero', 'toontown', 'crash', 'exit']",General,{'crash': 100}
+3f030819a16d8575b31e1953ff96e9a36ed32aa9,"['crash', 'cleartoinitial']",General,{'crash': 100}
+4888072b58dabd42e40cb6a02b71b1c91ff8ab16,"['possible', 'crash']",General,{'crash': 100}
+5764447ba6f61761a55dcca876464383820eb9b0,"['workaround', 'apple', 'driver', 'crash']",General,{'crash': 100}
+76242876c30272aef354a8059ee1503220003331,"['toontown', 'crash']",General,{'crash': 100}
+a08852341c9fe53afe2be309dcf960235cd44a7e,"['crash', 'file']",General,{'crash': 100}
+7698e4801b0d6c119fca5e3cfa62beeb345c8f91,"['ship', 'crash']",General,{'crash': 100}
+f5c32e7f2895b0df54382112dfe8dd25e5d84c30,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+0ca5963d3b757b9470f752a60d6ec118d96c45d7,"['crash', 'duplicate', 'doid']",General,{'crash': 100}
+6cf3110653670eec481cef8cf77ea9b29e4ddf46,"['note', 'stacktrace', 'crash']",General,{'crash': 100}
+729004da44211a94b5c3452a9af9a8ae7db94290,"['toontown', 'crash']",General,{'crash': 100}
+b97985557d7e0956185ca93e66b2c9d0f8c3631f,"['debug', 'statement', 'track', 'crash']",General,{'crash': 100}
+93a66498c268f48f98490cdea421054be7666a6b,['crash'],General,{'crash': 100}
+5db62c7cb944c563b308e1e4e7a387cefea41377,"['timer', 'task', 'removal', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+5972918101481ab5e3a28f11a55aff3894427470,"['crash', 'toontown', 'tutorial']",General,{'crash': 100}
+074afb48f59cc2e0c41f22da9f5756f8b72589d6,"['crash', 'actor', 'subpart']",General,{'crash': 100}
+2a3ee47c799b51481d2f8642664ead7f3cdc0a73,"['crash', 'invalid', 'video']",General,{'crash': 100}
+7d90cd61a30814094d2e259d2d64d854a54af842,['crash'],General,{'crash': 100}
+d3a036d2c946a6602f822dbdcdbee7952a08e222,"['crash', 'fullreport']",General,{'crash': 100}
+ca70808c255a9462c237b22132425c64ee851896,"['crash', 'static', 'init']",General,{'crash': 100}
+ab3fe7e180ec3073302a30bab9c934659282995a,"['deadlock', 'issue']",Risky_resource_management,{'deadlock': 100}
+e33e5281924966eaa91cd89036ae35d35ff689f9,"['uberdog', 'crash']",General,{'crash': 100}
+0f20f625f39ca9ec04919150906079a4cd83a65d,"['self', 'deadlock']",Risky_resource_management,{'deadlock': 100}
+55e11a329a992f4bdece1bd2a04dfd4ac2f2793f,"['null', 'pointer', 'thingy']",Risky_resource_management,{'null pointer': 100}
+2e005bf840efe3b47bb9b17ae14d5346e6c8b25b,"['typo', 'crash']",General,{'crash': 100}
+522fa09f1adb069436e23c112f1170790dbecc8d,['crash'],General,{'crash': 100}
+eb0757e5f76fa65861475081175098ef03227232,"['hard', 'crash']",General,{'crash': 100}
+6a007533fd8545edee78169d4c23c9bb903c6da7,"['crash', 'startup']",General,{'crash': 100}
+859fc08886eeb6d2561ef45bd0e21c222e24d3db,"['small', 'memory', 'leak', 'multiple', 'defines']",Risky_resource_management,{'memory leak': 100}
+686bff860f8b427acb1cc68218ec4f163ba5ff1d,"['memory', 'leak', 'certain', 'particle', 'effect']",Risky_resource_management,{'memory leak': 100}
+e8acdc34b45ce0c4a1c399e09d1da486b0f9d21d,"['client', 'crash']",General,{'crash': 100}
+d23f90f9cdeb8c42191e05584664a8bff0b7ffd0,"['deadlock', 'defense']",Risky_resource_management,{'deadlock': 100}
+7f49d412848fece4016f10b1eb07e562532a9736,['crash'],General,{'crash': 100}
+da9e4f8906779d7d9e9f2a3aad12612af86b676f,"['crash', 'sprite', 'renderer']",General,{'crash': 100}
+4bcde63bde8744fab87d0c9d73a7b2e28f347e63,"['particle', 'crash']",General,{'crash': 100}
+a5e9ab5f10cbe7feb4d5b5fab1b647540b735538,['crash'],General,{'crash': 100}
+6119598f6374291e53c5e512c7c5e4d9e4d5e7c5,"['crash', 'pview', 'exit']",General,{'crash': 100}
+d1e65cd52d63a9f344747ee34f353f3a263a8de8,['crash'],General,{'crash': 100}
+392bffee4e80224ef376566c93970d63b2e936e1,"['crash', 'texture', 'load']",General,{'crash': 100}
+5b2e37764a9216ad9ef57776747fbc7599559dc7,"['crash', 'physicsmanager', 'destructs']",General,{'crash': 100}
+0a675eae039878d77b19aa5b241feb4031f3286e,"['crash', 'file']",General,{'crash': 100}
+cd0b12a41bf6157291b5fabc537c3f9552bb65b3,"['case', 'lrupages', 'check', 'system', 'memory', 'leak', 'code', 'partial', 'update', 'unit', 'test', 'ifdef']",Risky_resource_management,{'memory leak': 100}
+9e82e17ae7b91c042ea37849e32ebe09cd0871c8,"['crash', 'file']",General,{'crash': 100}
+7a9d0c11adf42fc67043c6d3455fd6cd960299ce,"['ship', 'collision', 'sphere', 'penetration', 'ship']",General,{'penetration': 100}
+d4f5097fbd0b46591dd265042edd0095c2b39f6d,['crash'],General,{'crash': 100}
+168d499af6cb81337aeca9a8c5e4f2f4b1970598,"['crash', 'sprite', 'particle', 'renderer']",General,{'crash': 100}
+f0862e7d8c227ecd9c7688cca30fec5bc9af2ca3,['crash'],General,{'crash': 100}
+9af0d907b7a55522d6d192eba2d8ceb8b26b01a4,['crash'],General,{'crash': 100}
+d2d94fd2f5d2751715d71cccc3b0b00553515b51,['crash'],General,{'crash': 100}
+c4b11604ecc858d7e67267298f519353c543a213,"['crash', 'exit']",General,{'crash': 100}
+6a788dd95822c033cbcc10ae3e5776f9262d2c5f,"['crash', 'drawmaskattrib', 'hide', 'object', 'decal']",General,{'crash': 100}
+be0edea1909b58d0f17d13fda9fcf99df4150ca6,"['crash', 'multiple']",General,{'crash': 100}
+2c09d3b95a9458e510af04ec57b8dc86c2ecf5fb,['crash'],General,{'crash': 100}
+acddbc1997ab44531c1d8d4a797c72011b398512,"['channel', 'range', 'check', 'deallocation', 'channel', 'pirate', 'tutorial', 'crash']",General,{'crash': 100}
+c282655222596b0e26d273b0a5727d0a1a8278b5,"['previous', 'checkin', 'crash', 'multiple', 'time']",General,{'crash': 100}
+af49897d5e72adb259edb067c2bef6024000f663,"['resize', 'crash', 'cube', 'support']",General,{'crash': 100}
+0bfd8ed6f92f9c8235ced94c4fd9a5003e49c5be,['crash'],General,{'crash': 100}
+effdbb24afabea84e1262edee99ae9ae4a949f10,['crash'],General,{'crash': 100}
+8f74a2ee575a29c0339b5c4b50b2315d5b99b955,"['crash', 'window']",General,{'crash': 100}
+7080e735efb02e298ce10db866a8dbc85e0ae490,"['startup', 'crash']",General,{'crash': 100}
+9b23f1a89ce6d28e628adb3e6b6b020cb703eeb8,['crash'],General,{'crash': 100}
+8ddc7227aba269e6d8714f67e0326cc9f188559e,['crash'],General,{'crash': 100}
+5c8d1a7e3390aaffaf59b31806b1e8a542127028,"['drose', 'crash', 'work']",General,{'crash': 100}
+1ec142d675af03e69b3862a28be8b438b9637b8a,"['crash', 'simple', 'animation']",General,{'crash': 100}
+dab9fd6d2709a36393714516cb2b95505b94fc7f,"['renderstate', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+4ef35cf5b17082bf60b5bb4c90badca950243e3f,"['drwr', 'crash', 'partial', 'transform']",General,{'crash': 100}
+f49a8620371e9914602017294c055e578ce92601,"['nvidia', 'crash']",General,{'crash': 100}
+f80d6245732649458dfe6ddf1497c54fe4c4e895,['crash'],General,{'crash': 100}
+4f6c012c778325bd01a91fa2003823e7eb2ffa53,"['crash', 'file']",General,{'crash': 100}
+f660bfc9fc9fae0907c1f40b3acf8fc7f72b8a88,['crash'],General,{'crash': 100}
+9b5ca04b9ed442faf11702758a0f2d29051f99ec,"['spawn', 'tkloop', 'import', 'people', 'tkpanels', 'crash', 'specify']",General,{'crash': 100}
+43768bf3fd62fb83e9e6e60253f4415aed31b370,"['crash', 'file', 'morphs', 'dart']",General,{'crash': 100}
+03e766a9ab8d665f25d3b04edbe66b0ee0c8f17b,"['crash', 'show', 'buffer']",General,{'crash': 100}
+6a284981193869b16c2756993335d5ae4e363cab,"['crash', 'show', 'buffer']",General,{'crash': 100}
+47e094a9dacb12f41ddce0bb311c0afdb2ff7886,['crash'],General,{'crash': 100}
+0bcbaa60562e363141d5c1ab99c7cfa1584ba846,"['driver', 'crash']",General,{'crash': 100}
+6ef748f7abd896043a2f01ea7fd81a65c48cc452,"['crash', 'mesher']",General,{'crash': 100}
+58e093303cb043dbfb68d9dd4f2812417db3e599,"['crash', 'degenerate']",General,{'crash': 100}
+1058f0fa68d2b05b1ed8517ef3e8c9582cc981e5,"['crash', 'exit']",General,{'crash': 100}
+6b54ff8fb97bb48ffdf21cc5ddd1994614d495ab,['crash'],General,{'crash': 100}
+5181b69662cf668a1253b4bae0e678e4ad56e70d,"['crash', 'system']",General,{'crash': 100}
+94194f6703455cfc2cc5c53328856f8e0ec784c3,"['shader', 'care', 'null', 'pointer', 'situation']",Risky_resource_management,{'null pointer': 100}
+b9009141e1eba55e03c41784dbf9f68b54e647fa,"['occasional', 'crash', 'code']",General,{'crash': 100}
+e91e72e6c5b2366d2a1a684b6e544b0d5a51857e,"['memory', 'leak', 'state', 'cache']",Risky_resource_management,{'memory leak': 100}
+024da67802d85d5adb1e31ec426b592eb8d23738,"['crash', 'invalid', 'tiff']",General,{'crash': 100}
+1328a4d9bab60e144a49a6f7eefbd008a6c7844f,"['crash', 'spec']",General,{'crash': 100}
+b01c703cca8f8d71d0ffcfc0e2991818853ad258,['crash'],General,{'crash': 100}
+d582986396034c0b9ff45e2d9976417858691a70,"['support', 'reflection', 'crash', 'windo', 'fullscreen', 'mode', 'switch']",General,{'crash': 100}
+e10c64cdb3c89784edc6f634834c5ece820dc93b,"['element', 'path', 'building', 'hole', 'security']",General,{'security': 100}
+316e4e29a1de10be620e2facff7a3ee956bc4216,"['comment', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+201eedf7bc8372d25676aa36162d2024ac73513d,"['enum', 'crash']",General,{'crash': 100}
+13391938bb2ffed25226e4e6bb2f9d3a69953888,"['datagram', 'buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100}
+08ea68e8ab3589d6badfa7611fe559f8f99cbc54,"['crash', 'glob', 'version']",General,{'crash': 100}
+1c5385b973589f0340d2920c976b7de9d4cb4a0b,"['previous', 'check', 'crash', 'toontown']",General,{'crash': 100}
+91a65b3a56fe5b530d332daf121302cc1dbc2bfd,"['window', 'fullscreen', 'toggle', 'crash', 'card']",General,{'crash': 100}
+95f8fa1fb806d73eb5eb2c9a5f371e4ca15e1aeb,"['crash', 'certain', 'model']",General,{'crash': 100}
+849c2c5c7d36b46481d2e82d9af0ca38a7052d4b,"['crash', 'stats']",General,{'crash': 100}
+1ed5d5c0e3350e2c9ffe42f698c68f13b1232a3e,"['crash', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+4f1334176b597adce297665e5740d84903e291ab,"['crash', 'window']",General,{'crash': 100}
+48371c589d6d72d1cdcf454c3e95322029d1f2dc,"['default', 'crash', 'exit']",General,{'crash': 100}
+a2c74532b6e59a711bbb8586b0e01c7279dee7e2,"['crash', 'mouse']",General,{'crash': 100}
+673a29c71bb010f11ba3dce913da374740f35f6f,"['crash', 'failure', 'open', 'minor', 'correction', 'output']",General,{'crash': 100}
+3e8f0ebac2a3c40aca66296855cdb017882ad95e,"['crash', 'window']",General,{'crash': 100}
+7032f7548e10176cbe7e82830d60b69184c9c7b6,"['crash', 'component', 'texture']",General,{'crash': 100}
+19364486e73f142d6e90392704e6c79c29379857,"['crash', 'client', 'reset']",General,{'crash': 100}
+d1b2691371e286f6c76bd443abe2b2beb00b46dd,"['dogll', 'pupil', 'problem', 'crash', 'morph', 'check']",General,{'crash': 100}
+5cd64e3a4d5192ad1f56592153f1aeeaa67348b4,['crash'],General,{'crash': 100}
+6a636ddc9e4fa3d0915316868d53d511bfb34526,"['crash', 'orphand', 'dolater']",General,{'crash': 100}
+3cb8d8bba0d623a107f56291b6408193c77b4012,"['crash', 'minnie']",General,{'crash': 100}
+ed854b2343f723773f862839f720e75559140b65,"['zone', 'dealloc', 'crash']",General,{'crash': 100}
+b52892ac41785ecd21b91d989bbdab74f01fd002,"['battleblocker', 'entid', 'crash']",General,{'crash': 100}
+bb917a4b2f0fbe3f44a14b9ea5bdbe1105f28408,"['security', 'ecrashes']",General,{'security': 100}
+70f8a82a0d325d13b39fba316ea4bb3dd18d4278,"['crash', 'multiple', 'maya', 'file']",General,{'crash': 100}
+577c5ac28c62867b3bf846db17f51eb55bbe7ad8,"['security', 'enhancement', 'toontown', 'client', 'server']",General,{'security': 100}
+49b96335e9fcd992ee70110fa1891db66b5bf2ac,"['deadlock', 'input', 'stream']",Risky_resource_management,{'deadlock': 100}
+458d86dcbf18ee28bc4ad30194ef71a8481e5588,"['crash', 'certain', 'card', 'support', 'stencil', 'buffer', 'crash', 'frame', 'example', 'card', 'powervr', 'kyro']",General,{'crash': 100}
+8163057588a738669c240d065f0e6cefad3fddab,"['crash', 'default', 'font']",General,{'crash': 100}
+b15a2ae9fc3effa10708d0ed90e92f581a6e2d9b,['crash'],General,{'crash': 100}
+00679ad733fe423a771cf9b79825533e5097f115,['crash'],General,{'crash': 100}
+5c93c5290d8fdccdf674ed0f1c438635aca7bd46,"['crash', 'texture']",General,{'crash': 100}
+a9c233b5c35907f5bd7b81e4ca1e258ff18592e9,"['shaderless', 'crash']",General,{'crash': 100}
+1c9a2aec666a58293d2567f28557562765f49ddc,['crash'],General,{'crash': 100}
+97711d14d944637596ccb91485ecf129b93e788c,['crash'],General,{'crash': 100}

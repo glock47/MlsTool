@@ -1,181 +1,181 @@
-sha,message,catetory,matched,labels
-16aba7eb35b2a6f0c88b53da00539a5d875ebfdf,"['executeexpression', 'generator', 'crash', 'python', 'function', 'cythonissue', 'close', 'cython']",Risky_resource_management,{'crash': 100},
-c7ea3c1b4d8371b92455c76b24b6e819d54e43e7,"['memoryview', 'assignment', 'crashmemoryview', 'assignment', 'crash', 'fixeddecref', 'memoryview', 'rename', 'function']",Risky_resource_management,{'crash': 100},
-ba6cbed8193775c80402bc5112cbaf16246ee6bd,"['common', 'crash', 'warning', 'close', 'cython']",Risky_resource_management,{'crash': 100},
-474573b324fdd4e2e113043efe326971e652769b,"['crash', 'fixedreturn', 'unspecializable', 'error']",Risky_resource_management,{'crash': 100},
-d77f79c25b27dc11917a5e5ed13c60c0c3b48d7a,"['integer', 'overflow']",Risky_resource_management,{'integer overflow': 100},
-f639e6d435cb240c5c21afe91a71915c4af23b7c,"['integer', 'overflow']",Risky_resource_management,{'integer overflow': 100},
-f293ef4baf86e396983deb4418d4d56f711cfd0f,"['default', 'directivesignature', 'normal', 'python', 'function', 'unicode', 'function', 'crash', 'keyword', 'functioncover']",Risky_resource_management,{'crash': 100},
-445f055ca9748e0b716aaab900a5244e980aab67,"['crash', 'exclude']",Risky_resource_management,{'crash': 100},
-f7ca5efbc97d22466b8e85eb3f5aae5d96cc8837,"['crash', 'visit', 'simulateissue', 'close', 'cython']",Risky_resource_management,{'crash': 100},
-b2868f923a7276c3f86d2733db96424e8fb1d101,"['crash', 'visit', 'simulateissue', 'close', 'cython']",Risky_resource_management,{'crash': 100},
-3bdba45be6855d0586aadefc535c2fe2021dd188,"['default', 'crash']",Risky_resource_management,{'crash': 100},
-4b604aa633ce021bfa6c3f70370338ca03e02a83,"['default', 'crash']",Risky_resource_management,{'crash': 100},
-d8dbd7609283bcccf52f359da550bc6d5d29bd3e,"['regression', 'error', 'crash']",Risky_resource_management,{'crash': 100},
-297d7c2bf3f023ddea8cc98080d6998efee4007f,"['compiler', 'string', 'crash', 'ascii']",Risky_resource_management,{'crash': 100},
-566fc5c0f8da48b3bc6d1277173b7c958e589a45,"['generate', 'crash', 'reference', 'builtins', 'cleanup', 'module']",Risky_resource_management,{'crash': 100},
-1fa613d53ad174a27afd5098b28aaca3595cd2f6,"['support', 'crash']",Risky_resource_management,{'crash': 100},
-990e1a1517ff3456b91c0c6d7026aaa87f1c3d16,"['attribute', 'crash', 'special', 'accessingclose']",Risky_resource_management,{'crash': 100},
-d055de85dbe8297849d12bd04dc6c76407bf7c99,"['example', 'crash']",Risky_resource_management,{'crash': 100},
-134e7acc30a6886d54acc23244110e1dd17bb818,"['buffer', 'pythran', 'check', 'contiguity', 'crash']",Risky_resource_management,{'crash': 100},
-9a0acc05beb8283144e3bf745d3eb2ca05a56a5e,"['assertion', 'compiler', 'crash', 'safety', 'betterclose']",Risky_resource_management,{'crash': 100},
-e3d06a4350c3526a4553e5567ebd149af6fe9ad2,"['crash', 'describedclose']",Risky_resource_management,{'crash': 100},
-15ce8b91510117c2a25e08659c33ee3966d5131c,"['complex', 'compiler', 'crash', 'sizeof', 'analysis']",Risky_resource_management,{'crash': 100},
-c09f9afe218c6d6d9a3db674cb1cf91284ef236b,"['compiler', 'index', 'crash', 'entry']",Risky_resource_management,{'crash': 100},
-2a160845954851e7411d883b217ccc5c9931f693,"['compiler', 'declaration', 'crash']",Risky_resource_management,{'crash': 100},
-b5f8b688896f9047187569ed0d61cdaf69b30416,"['compiler', 'error', 'crash', 'contains']",Risky_resource_management,{'crash': 100},
-91f2c2ed6dec088d4f3f14b582fa2908149abc24,"['callable', 'crash', 'keyword', 'functionclose']",Risky_resource_management,{'crash': 100},
-99dde7d84b206e60510d97c5d1b9f0078f8d6f98,"['crash', 'shutdown', 'finaliser']",Risky_resource_management,{'crash': 100},
-0d6be44209379e5924a42b8f752bf0bfbca42337,"['inference', 'crash']",Risky_resource_management,{'crash': 100},
-7998f0af9b369d7da477351ea693739aece64587,"['compiler', 'crash', 'memoryview']",Risky_resource_management,{'crash': 100},
-42f4f139353855cdb32434690602626ec9dada18,"['compiler', 'crash', 'memoryview']",Risky_resource_management,{'crash': 100},
-7f882783dfbd1a62b221a7d402a096cc002a7864,"['string', 'crash', 'repair']",Risky_resource_management,{'crash': 100},
-a5ec19b6260b530c1845098e20fd61759fe65e5b,"['paremeter', 'compiler', 'crash']",Risky_resource_management,{'crash': 100},
-a0bbb940c847dfe92cac446c8784c34c28c92836,"['garbage', 'crash']",Risky_resource_management,{'crash': 100},
-331ef9d0c12c5982dd89199be9529ddbcd518c20,"['method', 'compiler', 'crash', 'cpdef', 'repair']",Risky_resource_management,{'crash': 100},
-d672f6f0abb6e5cc06079d9eb9147463accb9ef4,"['attribute', 'compiler', 'error', 'crash', 'repair']",Risky_resource_management,{'crash': 100},
-736e7bda35d2ecbd28dddd90302f83f7f18f0471,"['mergelinkmauve', 'check', 'cclass', 'request', 'class', 'crash']",Risky_resource_management,{'crash': 100},
-6f83687d31e0d3b5d375de74cb10196c0e2384b2,"['class', 'crash']",Risky_resource_management,{'crash': 100},
-2d7f307c89e29d3b1c62b776ffbe538f1cc52f7f,"['state', 'recursion', 'control', 'compiler', 'crash', 'object', 'deepcopy']",Risky_resource_management,{'crash': 100},
-5fa766ac25a31b0c1addd08efd19d2d34661317b,"['state', 'recursion', 'control', 'compiler', 'crash', 'object', 'deepcopy']",Risky_resource_management,{'crash': 100},
-5a40d5459aad1c6f15fb8526f0144d3c0f1dfe76,"['compiler', 'crash', 'clause']",Risky_resource_management,{'crash': 100},
-554b2a4785197f4b1f2e9c5411a6117f4e994106,"['deallocation', 'trigger', 'object', 'crash', 'warning', 'python', 'print', 'coroutine']",Risky_resource_management,{'crash': 100},
-e5a86777bb836f438f9c69e5a898df5b28e71865,"['deallocation', 'trigger', 'object', 'crash', 'warning', 'python', 'print', 'coroutine']",Risky_resource_management,{'crash': 100},
-3740a86b28e95dedd1dd0c6111e005fdd8822ba6,"['compiler', 'crash']",Risky_resource_management,{'crash': 100},
-86859c518d96d23f9a487b2fe171a96da64a0f26,"['argument', 'annotation', 'expression', 'yield', 'support', 'default', 'crash', 'compiler', 'syntax', 'function']",Risky_resource_management,{'crash': 100},
-28a086ea58603cb277fe81b4d94590adcfbc9046,"['argument', 'annotation', 'expression', 'yield', 'support', 'default', 'crash', 'compiler', 'syntax', 'function']",Risky_resource_management,{'crash': 100},
-7a57ab27b799dbb3be1c00ceaf2a0a1b3328e959,"['compiler', 'crash']",Risky_resource_management,{'crash': 100},
-a737fd2dfef0c8ff2eab34fe0e7558ef7ed919b6,"['compiler', 'error', 'crash']",Risky_resource_management,{'crash': 100},
-353869f6064b5ff2b28331dc01d2e9b5d43c6416,"['crash', 'reference']",Risky_resource_management,{'crash': 100},
-2dbbe5a27fd3e02cb6e560bfa5584c507bbee2c7,"['compiler', 'string', 'parser', 'crash', 'identifier']",Risky_resource_management,{'crash': 100},
-4af42443bd37f6207143f8870904f780a65bb3e3,"['value', 'return', 'yield', 'generator', 'crash', 'cpython', 'stopiteration', 'exception', 'implementation']",Risky_resource_management,{'crash': 100},
-94234c13f6c3dc62c187c3a7da6f5fbb46f8f205,"['deadlock', 'exclude', 'cpyext']",Risky_resource_management,{'deadlock': 100},
-3c47097312a8da567c35b2d0a7de8058dd3fea76,"['deadlock', 'exclude', 'cpyext']",Risky_resource_management,{'deadlock': 100},
-6d9596b71b7ba0ee26b9586d8594644e0a7e668d,"['deadlock', 'exclude', 'cpyext']",Risky_resource_management,{'deadlock': 100},
-05661b9a8a6ec5544256de361dc420e75930b9df,"['crash', 'exclude']",Risky_resource_management,{'crash': 100},
-1474652441b18a2763e07fad72ed00b67f70a24e,"['subtype', 'compiler', 'crash', 'signature']",Risky_resource_management,{'crash': 100},
-8af9ce4121e4dfc8b5b0ca6d3f368e5ee4cf73e0,"['style', 'compiler', 'optimise', 'crash', 'division', 'integer']",Risky_resource_management,{'crash': 100},
-21a06f933ef31fc5bdbe47e8b2a26053e0cbcaf0,"['subexprs', 'crash', 'transform', 'typedexprnode']",Risky_resource_management,{'crash': 100},
-bede41020da98d4de50415e50659d6d2b8d76432,"['optimiser', 'compiler', 'crash']",Risky_resource_management,{'crash': 100},
-31d5d476b5a9363badd5bcb45aefebaf27b4c5a6,"['crash', 'python', 'assignment']",Risky_resource_management,{'crash': 100},
-6aa5a11ef01aaaa7f2df29a660caf09200c20fcc,"['compiler', 'crash', 'ctuples', 'inference']",Risky_resource_management,{'crash': 100},
-1d0e82131115ae0836f6f5a736fba5e9dfb11fa5,"['method', 'inconsistent', 'compiler', 'signature', 'crash']",Risky_resource_management,{'crash': 100},
-871377b440f7d43fdd8e225f74d18876f5a040e7,"['stale', 'import', 'crash', 'module', 'failure', 'exception', 'reference', 'module', 'object', 'drawback']",Risky_resource_management,{'crash': 100},
-7a47dfdabcb9a9861480b1437f092c5f84911558,"['conditional', 'expression', 'crash', 'ternary', 'memoryviews']",Risky_resource_management,{'crash': 100},
-4e7ec931836e481b1d3c86c764857a1c69ed6c01,"['compiler', 'crash']",Risky_resource_management,{'crash': 100},
-24dfb78488475efa0b8450834fb3504c8f366bba,"['crash', 'reference', 'debug', 'reuse']",Risky_resource_management,{'crash': 100},
-c6951de846091503c41349e2a7e700c46a92621b,"['verbose', 'compiler', 'crash']",Risky_resource_management,{'crash': 100},
-457c0ee4440e4447304b4be26b2c48d6c19a122a,"['compiler', 'statement', 'crash']",Risky_resource_management,{'crash': 100},
-135dc33c32a43f44a86a6349540728ae081949ac,"['message', 'error', 'crash']",Risky_resource_management,{'crash': 100},
-3104c156fc4711c5107fa4a4db881dc03ebe4c7a,"['compiler', 'crash']",Risky_resource_management,{'crash': 100},
-e7ffd0a21599a68879d2b5c469cc9e04c430cfd8,"['compiler', 'crash', 'property']",Risky_resource_management,{'crash': 100},
-09aac374638357a3b01acacda835efa00ebadcfc,"['compiler', 'crash']",Risky_resource_management,{'crash': 100},
-d2aff824dd0900982a420ebaaa1dac6120a9d72e,"['freelists', 'crash']",Risky_resource_management,{'crash': 100},
-d929ac0889b93703b704460bcff7433a93b8f0f4,"['string', 'crash', 'python', 'conversion', 'objectaeabbbfead']",Risky_resource_management,{'crash': 100},
-b5d83dee848e7596347e97cd8f9254441cc7e363,"['parallel', 'state', 'inconsistent', 'crash']",Risky_resource_management,{'crash': 100},
-89e7e32c561306a41b1388346d540fd7d9391606,"['compiler', 'crash']",Risky_resource_management,{'crash': 100},
-a6b0a201ce190b42ef856f6f7904cbcb099985ca,"['compiler', 'crash']",Risky_resource_management,{'crash': 100},
-53a48ee0a60a0870fd95424dd9086725b0ea0c14,"['inference', 'class', 'crash']",Risky_resource_management,{'crash': 100},
-7577a28d81a31401b9fd95c301722a9b6adcf308,"['compiler', 'isinstance', 'crash']",Risky_resource_management,{'crash': 100},
-b64bf1bac7e136c28a3608193e85e8c86046f856,"['value', 'compiler', 'crash', 'coercion', 'float']",Risky_resource_management,{'crash': 100},
-64cb66ddedaebcd66c396c99bb5f72067e5baa50,"['qualname', 'calculation', 'crash', 'function', 'class']",Risky_resource_management,{'crash': 100},
-0c6fdf066588732f96d0f90eeace517de7a91f42,"['useless', 'crash', 'lookup', 'encodingextra']",Risky_resource_management,{'crash': 100},
-4d5c1c4ee88e34d504bf452a5797649cc7c8c9b9,"['useless', 'crash', 'lookup']",Risky_resource_management,{'crash': 100},
-d46eb8743d7dc87084d3f780bce4a395ed655f52,"['buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100},
-bcba92512d63f02a6711e0e2307eb395562d8540,"['fixedreturn', 'expression', 'operator', 'allowwhole', 'array', 'objectreturn', 'operator', 'index', 'containerwould', 'crash', 'reference', 'cythonexample', 'contains', 'crashedauthor', 'gerald', 'dalley']",Risky_resource_management,{'crash': 100},
-ea9ca9d4ce658fb002e7f344113b2abd7f4becf3,"['complex', 'compiler', 'crash', 'modnode', 'analysis', 'phase', 'directive']",Risky_resource_management,{'crash': 100},
-fd7ebea1a4c1e2c646bc3b61eea70a5185b6a2c6,"['compiler', 'crash']",Risky_resource_management,{'crash': 100},
-c70e7c55c2239f1794c3ebc2962b32911803d1b8,"['compiler', 'crash']",Risky_resource_management,{'crash': 100},
-df367231d9b61009693e0049e5185f0428847322,"['argument', 'positional', 'crash', 'staticmethods', 'explicit', 'ticket']",Risky_resource_management,{'crash': 100},
-a9b69669039cd6ff2bb9c4beadeb6dc1fa832d7e,"['compiler', 'crash']",Risky_resource_management,{'crash': 100},
-3dbffcfd51e26092afa7bd5ef3014912152b6b82,"['compiler', 'error', 'crash']",Risky_resource_management,{'crash': 100},
-0526d1b8dcd8b56be1f0b60b2bc8e2af478cf680,"['compiler', 'crash']",Risky_resource_management,{'crash': 100},
-8541d7be70846c6ae6b32bc7e69121ebd23f1606,"['crash', 'cleanup']",Risky_resource_management,{'crash': 100},
-84b1de27d9c2b2edc64fa9de7010d79b69165a14,"['compiler', 'crash']",Risky_resource_management,{'crash': 100},
-ae0b93d90bd4cb616705f79bee8fdcf318b56203,"['expression', 'compiler', 'generator', 'crash', 'constant', 'condition']",Risky_resource_management,{'crash': 100},
-402dc50d1867fe544f4ea2433095830d8a79eec5,"['compiler', 'invalid', 'crash']",Risky_resource_management,{'crash': 100},
-a1d5c022625b4c76460356bd1a35ffa641aec0f3,"['expression', 'compiler', 'generator', 'crash', 'nestedextra']",Risky_resource_management,{'crash': 100},
-b9bfa4985090eb93eec464e45ab3d7177e07ca6e,"['expression', 'compiler', 'generator', 'crash', 'constant', 'condition', 'falseextra']",Risky_resource_management,{'crash': 100},
-42a7ea8971f62377ea9658d2f569d4bdf9600323,"['expression', 'compiler', 'generator', 'crash']",Risky_resource_management,{'crash': 100},
-61d06109280afe0b480d650141778fca69b419a2,"['parser', 'crash']",Risky_resource_management,{'crash': 100},
-665e0420da330baaf8ff388e066b6cc829593c63,"['suppress', 'trial', 'cythonize', 'compiler', 'error', 'crash']",Risky_resource_management,{'crash': 100},
-293a9b51c1dddb1cc03595ad2b26627522dda7f7,"['optimiser', 'compiler', 'dispatch', 'crash']",Risky_resource_management,{'crash': 100},
-9a3027f22859737e16d4ddf1340e9048779aed62,"['clean', 'compiler', 'crash']",Risky_resource_management,{'crash': 100},
-002b2148153ae29850d1cd46bbd1c16d16ff494c,"['minor', 'output', 'crash', 'cleanup']",Risky_resource_management,{'crash': 100},
-dab872a752720af73bdf25f55ef16e0043189b1d,"['instantiate', 'crash', 'instance', 'exception']",Risky_resource_management,{'crash': 100},
-79fbb9ad5e43949dd5e5a6a51c130f6eb8245c48,"['crash', 'infinite', 'recursion']",Risky_resource_management,{'crash': 100},
-239de7a4897dabc2efa51348e1d192393fe6c754,"['pyregr', 'crash', 'stdlib']",Risky_resource_management,{'crash': 100},
-8e1db2a361be253230b3fd619b5ac6a482ee6d12,"['variable', 'method', 'compiler', 'crash', 'inference', 'python', 'pyregr']",Risky_resource_management,{'crash': 100},
-aedb1769fedd66305db14e0aa69f61380557ca16,"['stdlib', 'ctypes', 'crash', 'compilation', 'pyregr']",Risky_resource_management,{'crash': 100},
-084b04a31366c5a8262d079761c7cb5886d0fd17,"['compiler', 'crash']",Risky_resource_management,{'crash': 100},
-7551bd228685329e4309a56939b11d3c98791ede,"['buffer', 'compiler', 'crash', 'place', 'division']",Risky_resource_management,{'crash': 100},
-297ce83352ce9ce2ecebdba0f673c38286502a50,"['trigger', 'handler', 'crash', 'cleanup', 'module', 'pyregr']",Risky_resource_management,{'crash': 100},
-fd6380ab37d32ec67d5cc818c93b8d317f139e4d,"['lisandro', 'crash', 'instance', 'patch', 'dalcin', 'module']",Risky_resource_management,{'crash': 100},
-a4e6c41fc0dff70df19117df466a18b7133ae3b1,"['compiler', 'crash', 'optimiser', 'unicode']",Risky_resource_management,{'crash': 100},
-f80fe6d721694b70eb2bb28d2f787c9c60b54df4,"['utility', 'crash']",Risky_resource_management,{'crash': 100},
-a9e6033ac8677172b44a8f50f76b204ce31a280c,"['compiler', 'analysis', 'declaration', 'crash']",Risky_resource_management,{'crash': 100},
-7258ac95b2d2bc9196903eb0f644b2dca5f4df93,"['compiler', 'error', 'crash']",Risky_resource_management,{'crash': 100},
-5aac8caf1ba21933cc85a51af3319c78fc08d675,"['trigger', 'crash', 'reason']",Risky_resource_management,{'crash': 100},
-6cfd781c4d4ca7a88091ceea41b450edb7ac9df1,"['compiler', 'importlib', 'crash']",Risky_resource_management,{'crash': 100},
-219efb47b533a45cd8cbb4d28709a2e0fb9da474,"['assumption', 'tuples', 'crash', 'incorrect']",Risky_resource_management,{'crash': 100},
-5ab068d91363ecd25e8c59c14c0a5519c84e7ddd,"['compiler', 'generator', 'crash']",Risky_resource_management,{'crash': 100},
-60be9a7bad5a2bdfc9a830db7b223ef837dedc9f,"['variable', 'compiler', 'declaration', 'crash', 'module']",Risky_resource_management,{'crash': 100},
-fa9c5bd1106a29071e83070074071260c8ba30b5,"['compiler', 'crash', 'processing']",Risky_resource_management,{'crash': 100},
-ec9e1b3c2519540b9c5aeff64a90c6f3c07249aa,"['check', 'compiler', 'crash', 'operation', 'place']",Risky_resource_management,{'crash': 100},
-695dc278c661ba759394aa1676a4201407e07e3e,"['method', 'runtime', 'crash', 'ticket', 'closure']",Risky_resource_management,{'crash': 100},
-a1d98255ae41438322821db884a9d95a15c4a875,"['arounds', 'compiler', 'crash', 'local']",Risky_resource_management,{'crash': 100},
-f3f5cd7ed6a5d30597075b9e580213033985334c,"['expression', 'compiler', 'generator', 'crash', 'function', 'local']",Risky_resource_management,{'crash': 100},
-2ab3982735bb75119aedcb14a002d30d08c9a1fe,"['expression', 'compiler', 'generator', 'crash', 'function', 'local', 'usingextra']",Risky_resource_management,{'crash': 100},
-e4d366eef99ab1cd19b8e9cbeeb9ea7289a2f65f,"['argument', 'prange', 'compiler', 'crash', 'numeric']",Risky_resource_management,{'crash': 100},
-4a8ce7c11c3bfc5930ba2935cdebaacd4ca81914,"['minor', 'compiler', 'crash', 'cleanup', 'iteration']",Risky_resource_management,{'crash': 100},
-a571f97c31015a1423ea6ce7273bcb4a1ca4d6c7,"['iteration', 'rewrite', 'partialempty', 'dicts', 'crash', 'iterationraise', 'iteration', 'exception']",Risky_resource_management,{'crash': 100},
-ebffb4efde01ebafb9031b683454bbec2683f586,"['compiler', 'crash']",Risky_resource_management,{'crash': 100},
-a068e66f2bcaed0cd63204a96c6a48d3b7869a5c,"['iteration', 'rewrite', 'partialempty', 'dicts', 'crash', 'iterationraise', 'iteration', 'exception']",Risky_resource_management,{'crash': 100},
-ac7755f649b02ae008f4ec1bba6eec956a0d1ad6,"['compiler', 'crash']",Risky_resource_management,{'crash': 100},
-ae59c5a0eb187701e88644c10511c3b05060563e,"['crash', 'utils']",Risky_resource_management,{'crash': 100},
-6247adc53b08ce138df1eee526971a2bcfb334e5,"['trivial', 'crash', 'expression']",Risky_resource_management,{'crash': 100},
-fddf37edf88e8dcee264132a1cbd876e5ea3bc3d,"['trivial', 'crash', 'expression']",Risky_resource_management,{'crash': 100},
-5b5613fa7cb144af71f33a4dd735b5b59eeefef5,"['compiler', 'crash', 'uncachable', 'builtins']",Risky_resource_management,{'crash': 100},
-cde4a3713409351e41c46716cc1cd12e5fefc568,"['compiler', 'crash', 'uncachable', 'builtins']",Risky_resource_management,{'crash': 100},
-37d4884476b43b38536d47190a24e2d67f9252cf,"['compiler', 'redefinition', 'crash']",Risky_resource_management,{'crash': 100},
-4e6939e997952985cd66e4a44be4bc97adef9ae7,"['crash', 'nonlocal']",Risky_resource_management,{'crash': 100},
-c71adccb3e687952aacf4244fdf4610da3e40102,"['redeclaration', 'error', 'crash', 'compiler']",Risky_resource_management,{'crash': 100},
-5cdb7ba3d86bbe9b4e7956823848e779cd6e32f7,"['compiler', 'crash', 'unicode', 'invalid', 'reject']",Risky_resource_management,{'crash': 100},
-e8d4299fa4f5da3bd0732dabf58bfc69bbaf0d9b,"['compile', 'crash']",Risky_resource_management,{'crash': 100},
-7637fcfc7e574bd82609ad0efc44429505a42d63,"['compiler', 'crash']",Risky_resource_management,{'crash': 100},
-e5453979aa6b90c49d14cd55de59890b09ea1e45,"['compiler', 'crash']",Risky_resource_management,{'crash': 100},
-0a3773418d683fdded3950f76e1e18525a566b13,"['crash', 'compilation']",Risky_resource_management,{'crash': 100},
-f90c4d3f337b2256cb831670d9f23e41d9a44aca,"['compiler', 'crash', 'debugtransform']",Risky_resource_management,{'crash': 100},
-d1170ab8540f6d7f2fdbc4862fac01bad5aaa263,"['negative', 'compiler', 'crash', 'octal', 'integer']",Risky_resource_management,{'crash': 100},
-2b8bff70e1a631806fac71b211e9b35996e09897,"['compiler', 'buffer', 'invalid', 'crash']",Risky_resource_management,{'crash': 100},
-59d44445c6c87cab1a4c010b7d80d318a99b820d,"['compiler', 'crash', 'inference']",Risky_resource_management,{'crash': 100},
-333b8c79fa61deded46ea93a30536d85002af771,"['compiler', 'crash', 'template']",Risky_resource_management,{'crash': 100},
-4915f2adc769a1c207aa895c6beb1a6439627145,"['pyregr', 'crash']",Risky_resource_management,{'crash': 100},
-2b4aa4cc8d1ed3e6370e60b01afd030a5d710ec8,"['crash', 'stupid']",Risky_resource_management,{'crash': 100},
-666be97c24d5db680a886e698b7795ccdc323d86,"['compiler', 'crash']",Risky_resource_management,{'crash': 100},
-0a0e72a79b9c4f3608b0a520590e42ed4247eefc,"['compiler', 'crash']",Risky_resource_management,{'crash': 100},
-ff35cf52cc5404eb0023b4880e89f281a5e7d4c0,"['trivial', 'crash', 'constructor']",Risky_resource_management,{'crash': 100},
-59f8fe734900a21df67a851ae764de915038be90,"['expression', 'typeof', 'crash', 'typeofnode']",Risky_resource_management,{'crash': 100},
-0a33f1e60428979747d0a8051cd226be35b94414,"['unknown', 'crash', 'function']",Risky_resource_management,{'crash': 100},
-51d1bd1c2ee154aec17e5e9328725b5d713d6c46,"['crash', 'struct']",Risky_resource_management,{'crash': 100},
-413d1d3955461f58dc10cb19ced6162f072b68fd,"['comment', 'compiler', 'problem', 'crash']",Risky_resource_management,{'crash': 100},
-a5e866b164ab5f814398bf2ed3fd8777f7fb4696,"['compiler', 'cimport', 'crash', 'function']",Risky_resource_management,{'crash': 100},
-02e5e8e76d7d349a0878479f9f1aafcead18f10f,"['crash', 'ctypedef']",Risky_resource_management,{'crash': 100},
-5dbb42b3c4a770a03c54689b6f0cf09f989f6cef,"['cpdef', 'crash', 'method', 'argumentrename', 'error']",Risky_resource_management,{'crash': 100},
-25a506e32def758da1e8884d8b4864f332ffb146,"['ticket', 'crash', 'exception']",Risky_resource_management,{'crash': 100},
-a74288bc92f185c294ad8ad26a2e25be4cc45d48,"['crash', 'pyfinalize', 'refnanny']",Risky_resource_management,{'crash': 100},
-75c4202187c905c6ed62b0f2392201b6c214ff50,"['compiler', 'error', 'crash', 'normal', 'report']",Risky_resource_management,{'crash': 100},
-1931d3b9ce56fadd0e977b77ac1aa42e3d6544ff,"['compiler', 'crash', 'context', 'transforms']",Risky_resource_management,{'crash': 100},
-972b304861402fa6428293ffbe3a37530e8b23f8,"['statement', 'trigger', 'crash']",Risky_resource_management,{'crash': 100},
-7b49db410006992dd518370989123d1fe1afc0ea,"['parameter', 'crash']",Risky_resource_management,{'crash': 100},
-f61e9124c9f485e429aecda28427e10a8a48e426,"['recursive', 'crash', 'typedef', 'structcompile']",Risky_resource_management,{'crash': 100},
-a81796ca29538714ff5a86a512fe2bd3587e159c,"['crash', 'declaration']",Risky_resource_management,{'crash': 100},
-d28e4bffd6c3fa7aefed69c1b748a069e608b59f,"['crash', 'declaration']",Risky_resource_management,{'crash': 100},
-310140c7515718a665f13d7921a71b1257c95059,"['compiler', 'crash']",Risky_resource_management,{'crash': 100},
-b52aa7db58ee858d70be1f91730e4a86effc2abd,"['ticket', 'array', 'crash', 'compiler']",Risky_resource_management,{'crash': 100},
-e48bc77a49447eedb8d753fd293509e7f934956f,"['ticket', 'crash', 'compiler']",Risky_resource_management,{'crash': 100},
-90a46cc8944e41a05d18129c8fde4fd6542efc5e,"['compiler', 'signature', 'crash']",Risky_resource_management,{'crash': 100},
-112e74e48cbba1da8c4ed7511544133286e9af2a,"['member', 'default', 'struct', 'union', 'disallowwould', 'compiler', 'crash']",Risky_resource_management,{'crash': 100},
-59367485d8a60a80fa5eea98302a470727c119ae,"['literal', 'crash', 'compilation', 'scope', 'strict']",Risky_resource_management,{'crash': 100},
-9b11884b7e5b7039fe448d850ded78fb69ddb700,"['compile', 'unicode', 'crash']",Risky_resource_management,{'crash': 100},
-e4d09f3d6335c9947c0e02b6f5097fc1d424e7d5,"['builtin', 'crash']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+16aba7eb35b2a6f0c88b53da00539a5d875ebfdf,"['executeexpression', 'generator', 'crash', 'python', 'function', 'cythonissue', 'close', 'cython']",General,{'crash': 100}
+c7ea3c1b4d8371b92455c76b24b6e819d54e43e7,"['memoryview', 'assignment', 'crashmemoryview', 'assignment', 'crash', 'fixeddecref', 'memoryview', 'rename', 'function']",General,{'crash': 100}
+ba6cbed8193775c80402bc5112cbaf16246ee6bd,"['common', 'crash', 'warning', 'close', 'cython']",General,{'crash': 100}
+474573b324fdd4e2e113043efe326971e652769b,"['crash', 'fixedreturn', 'unspecializable', 'error']",General,{'crash': 100}
+d77f79c25b27dc11917a5e5ed13c60c0c3b48d7a,"['integer', 'overflow']",Risky_resource_management,{'integer overflow': 100}
+f639e6d435cb240c5c21afe91a71915c4af23b7c,"['integer', 'overflow']",Risky_resource_management,{'integer overflow': 100}
+f293ef4baf86e396983deb4418d4d56f711cfd0f,"['default', 'directivesignature', 'normal', 'python', 'function', 'unicode', 'function', 'crash', 'keyword', 'functioncover']",General,{'crash': 100}
+445f055ca9748e0b716aaab900a5244e980aab67,"['crash', 'exclude']",General,{'crash': 100}
+f7ca5efbc97d22466b8e85eb3f5aae5d96cc8837,"['crash', 'visit', 'simulateissue', 'close', 'cython']",General,{'crash': 100}
+b2868f923a7276c3f86d2733db96424e8fb1d101,"['crash', 'visit', 'simulateissue', 'close', 'cython']",General,{'crash': 100}
+3bdba45be6855d0586aadefc535c2fe2021dd188,"['default', 'crash']",General,{'crash': 100}
+4b604aa633ce021bfa6c3f70370338ca03e02a83,"['default', 'crash']",General,{'crash': 100}
+d8dbd7609283bcccf52f359da550bc6d5d29bd3e,"['regression', 'error', 'crash']",General,{'crash': 100}
+297d7c2bf3f023ddea8cc98080d6998efee4007f,"['compiler', 'string', 'crash', 'ascii']",General,{'crash': 100}
+566fc5c0f8da48b3bc6d1277173b7c958e589a45,"['generate', 'crash', 'reference', 'builtins', 'cleanup', 'module']",General,{'crash': 100}
+1fa613d53ad174a27afd5098b28aaca3595cd2f6,"['support', 'crash']",General,{'crash': 100}
+990e1a1517ff3456b91c0c6d7026aaa87f1c3d16,"['attribute', 'crash', 'special', 'accessingclose']",General,{'crash': 100}
+d055de85dbe8297849d12bd04dc6c76407bf7c99,"['example', 'crash']",General,{'crash': 100}
+134e7acc30a6886d54acc23244110e1dd17bb818,"['buffer', 'pythran', 'check', 'contiguity', 'crash']",General,{'crash': 100}
+9a0acc05beb8283144e3bf745d3eb2ca05a56a5e,"['assertion', 'compiler', 'crash', 'safety', 'betterclose']",General,{'crash': 100}
+e3d06a4350c3526a4553e5567ebd149af6fe9ad2,"['crash', 'describedclose']",General,{'crash': 100}
+15ce8b91510117c2a25e08659c33ee3966d5131c,"['complex', 'compiler', 'crash', 'sizeof', 'analysis']",General,{'crash': 100}
+c09f9afe218c6d6d9a3db674cb1cf91284ef236b,"['compiler', 'index', 'crash', 'entry']",General,{'crash': 100}
+2a160845954851e7411d883b217ccc5c9931f693,"['compiler', 'declaration', 'crash']",General,{'crash': 100}
+b5f8b688896f9047187569ed0d61cdaf69b30416,"['compiler', 'error', 'crash', 'contains']",General,{'crash': 100}
+91f2c2ed6dec088d4f3f14b582fa2908149abc24,"['callable', 'crash', 'keyword', 'functionclose']",General,{'crash': 100}
+99dde7d84b206e60510d97c5d1b9f0078f8d6f98,"['crash', 'shutdown', 'finaliser']",General,{'crash': 100}
+0d6be44209379e5924a42b8f752bf0bfbca42337,"['inference', 'crash']",General,{'crash': 100}
+7998f0af9b369d7da477351ea693739aece64587,"['compiler', 'crash', 'memoryview']",General,{'crash': 100}
+42f4f139353855cdb32434690602626ec9dada18,"['compiler', 'crash', 'memoryview']",General,{'crash': 100}
+7f882783dfbd1a62b221a7d402a096cc002a7864,"['string', 'crash', 'repair']",General,{'crash': 100}
+a5ec19b6260b530c1845098e20fd61759fe65e5b,"['paremeter', 'compiler', 'crash']",General,{'crash': 100}
+a0bbb940c847dfe92cac446c8784c34c28c92836,"['garbage', 'crash']",General,{'crash': 100}
+331ef9d0c12c5982dd89199be9529ddbcd518c20,"['method', 'compiler', 'crash', 'cpdef', 'repair']",General,{'crash': 100}
+d672f6f0abb6e5cc06079d9eb9147463accb9ef4,"['attribute', 'compiler', 'error', 'crash', 'repair']",General,{'crash': 100}
+736e7bda35d2ecbd28dddd90302f83f7f18f0471,"['mergelinkmauve', 'check', 'cclass', 'request', 'class', 'crash']",General,{'crash': 100}
+6f83687d31e0d3b5d375de74cb10196c0e2384b2,"['class', 'crash']",General,{'crash': 100}
+2d7f307c89e29d3b1c62b776ffbe538f1cc52f7f,"['state', 'recursion', 'control', 'compiler', 'crash', 'object', 'deepcopy']",General,{'crash': 100}
+5fa766ac25a31b0c1addd08efd19d2d34661317b,"['state', 'recursion', 'control', 'compiler', 'crash', 'object', 'deepcopy']",General,{'crash': 100}
+5a40d5459aad1c6f15fb8526f0144d3c0f1dfe76,"['compiler', 'crash', 'clause']",General,{'crash': 100}
+554b2a4785197f4b1f2e9c5411a6117f4e994106,"['deallocation', 'trigger', 'object', 'crash', 'warning', 'python', 'print', 'coroutine']",General,{'crash': 100}
+e5a86777bb836f438f9c69e5a898df5b28e71865,"['deallocation', 'trigger', 'object', 'crash', 'warning', 'python', 'print', 'coroutine']",General,{'crash': 100}
+3740a86b28e95dedd1dd0c6111e005fdd8822ba6,"['compiler', 'crash']",General,{'crash': 100}
+86859c518d96d23f9a487b2fe171a96da64a0f26,"['argument', 'annotation', 'expression', 'yield', 'support', 'default', 'crash', 'compiler', 'syntax', 'function']",General,{'crash': 100}
+28a086ea58603cb277fe81b4d94590adcfbc9046,"['argument', 'annotation', 'expression', 'yield', 'support', 'default', 'crash', 'compiler', 'syntax', 'function']",General,{'crash': 100}
+7a57ab27b799dbb3be1c00ceaf2a0a1b3328e959,"['compiler', 'crash']",General,{'crash': 100}
+a737fd2dfef0c8ff2eab34fe0e7558ef7ed919b6,"['compiler', 'error', 'crash']",General,{'crash': 100}
+353869f6064b5ff2b28331dc01d2e9b5d43c6416,"['crash', 'reference']",General,{'crash': 100}
+2dbbe5a27fd3e02cb6e560bfa5584c507bbee2c7,"['compiler', 'string', 'parser', 'crash', 'identifier']",General,{'crash': 100}
+4af42443bd37f6207143f8870904f780a65bb3e3,"['value', 'return', 'yield', 'generator', 'crash', 'cpython', 'stopiteration', 'exception', 'implementation']",General,{'crash': 100}
+94234c13f6c3dc62c187c3a7da6f5fbb46f8f205,"['deadlock', 'exclude', 'cpyext']",Risky_resource_management,{'deadlock': 100}
+3c47097312a8da567c35b2d0a7de8058dd3fea76,"['deadlock', 'exclude', 'cpyext']",Risky_resource_management,{'deadlock': 100}
+6d9596b71b7ba0ee26b9586d8594644e0a7e668d,"['deadlock', 'exclude', 'cpyext']",Risky_resource_management,{'deadlock': 100}
+05661b9a8a6ec5544256de361dc420e75930b9df,"['crash', 'exclude']",General,{'crash': 100}
+1474652441b18a2763e07fad72ed00b67f70a24e,"['subtype', 'compiler', 'crash', 'signature']",General,{'crash': 100}
+8af9ce4121e4dfc8b5b0ca6d3f368e5ee4cf73e0,"['style', 'compiler', 'optimise', 'crash', 'division', 'integer']",General,{'crash': 100}
+21a06f933ef31fc5bdbe47e8b2a26053e0cbcaf0,"['subexprs', 'crash', 'transform', 'typedexprnode']",General,{'crash': 100}
+bede41020da98d4de50415e50659d6d2b8d76432,"['optimiser', 'compiler', 'crash']",General,{'crash': 100}
+31d5d476b5a9363badd5bcb45aefebaf27b4c5a6,"['crash', 'python', 'assignment']",General,{'crash': 100}
+6aa5a11ef01aaaa7f2df29a660caf09200c20fcc,"['compiler', 'crash', 'ctuples', 'inference']",General,{'crash': 100}
+1d0e82131115ae0836f6f5a736fba5e9dfb11fa5,"['method', 'inconsistent', 'compiler', 'signature', 'crash']",General,{'crash': 100}
+871377b440f7d43fdd8e225f74d18876f5a040e7,"['stale', 'import', 'crash', 'module', 'failure', 'exception', 'reference', 'module', 'object', 'drawback']",General,{'crash': 100}
+7a47dfdabcb9a9861480b1437f092c5f84911558,"['conditional', 'expression', 'crash', 'ternary', 'memoryviews']",General,{'crash': 100}
+4e7ec931836e481b1d3c86c764857a1c69ed6c01,"['compiler', 'crash']",General,{'crash': 100}
+24dfb78488475efa0b8450834fb3504c8f366bba,"['crash', 'reference', 'debug', 'reuse']",General,{'crash': 100}
+c6951de846091503c41349e2a7e700c46a92621b,"['verbose', 'compiler', 'crash']",General,{'crash': 100}
+457c0ee4440e4447304b4be26b2c48d6c19a122a,"['compiler', 'statement', 'crash']",General,{'crash': 100}
+135dc33c32a43f44a86a6349540728ae081949ac,"['message', 'error', 'crash']",General,{'crash': 100}
+3104c156fc4711c5107fa4a4db881dc03ebe4c7a,"['compiler', 'crash']",General,{'crash': 100}
+e7ffd0a21599a68879d2b5c469cc9e04c430cfd8,"['compiler', 'crash', 'property']",General,{'crash': 100}
+09aac374638357a3b01acacda835efa00ebadcfc,"['compiler', 'crash']",General,{'crash': 100}
+d2aff824dd0900982a420ebaaa1dac6120a9d72e,"['freelists', 'crash']",General,{'crash': 100}
+d929ac0889b93703b704460bcff7433a93b8f0f4,"['string', 'crash', 'python', 'conversion', 'objectaeabbbfead']",General,{'crash': 100}
+b5d83dee848e7596347e97cd8f9254441cc7e363,"['parallel', 'state', 'inconsistent', 'crash']",General,{'crash': 100}
+89e7e32c561306a41b1388346d540fd7d9391606,"['compiler', 'crash']",General,{'crash': 100}
+a6b0a201ce190b42ef856f6f7904cbcb099985ca,"['compiler', 'crash']",General,{'crash': 100}
+53a48ee0a60a0870fd95424dd9086725b0ea0c14,"['inference', 'class', 'crash']",General,{'crash': 100}
+7577a28d81a31401b9fd95c301722a9b6adcf308,"['compiler', 'isinstance', 'crash']",General,{'crash': 100}
+b64bf1bac7e136c28a3608193e85e8c86046f856,"['value', 'compiler', 'crash', 'coercion', 'float']",General,{'crash': 100}
+64cb66ddedaebcd66c396c99bb5f72067e5baa50,"['qualname', 'calculation', 'crash', 'function', 'class']",General,{'crash': 100}
+0c6fdf066588732f96d0f90eeace517de7a91f42,"['useless', 'crash', 'lookup', 'encodingextra']",General,{'crash': 100}
+4d5c1c4ee88e34d504bf452a5797649cc7c8c9b9,"['useless', 'crash', 'lookup']",General,{'crash': 100}
+d46eb8743d7dc87084d3f780bce4a395ed655f52,"['buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100}
+bcba92512d63f02a6711e0e2307eb395562d8540,"['fixedreturn', 'expression', 'operator', 'allowwhole', 'array', 'objectreturn', 'operator', 'index', 'containerwould', 'crash', 'reference', 'cythonexample', 'contains', 'crashedauthor', 'gerald', 'dalley']",General,{'crash': 100}
+ea9ca9d4ce658fb002e7f344113b2abd7f4becf3,"['complex', 'compiler', 'crash', 'modnode', 'analysis', 'phase', 'directive']",General,{'crash': 100}
+fd7ebea1a4c1e2c646bc3b61eea70a5185b6a2c6,"['compiler', 'crash']",General,{'crash': 100}
+c70e7c55c2239f1794c3ebc2962b32911803d1b8,"['compiler', 'crash']",General,{'crash': 100}
+df367231d9b61009693e0049e5185f0428847322,"['argument', 'positional', 'crash', 'staticmethods', 'explicit', 'ticket']",General,{'crash': 100}
+a9b69669039cd6ff2bb9c4beadeb6dc1fa832d7e,"['compiler', 'crash']",General,{'crash': 100}
+3dbffcfd51e26092afa7bd5ef3014912152b6b82,"['compiler', 'error', 'crash']",General,{'crash': 100}
+0526d1b8dcd8b56be1f0b60b2bc8e2af478cf680,"['compiler', 'crash']",General,{'crash': 100}
+8541d7be70846c6ae6b32bc7e69121ebd23f1606,"['crash', 'cleanup']",General,{'crash': 100}
+84b1de27d9c2b2edc64fa9de7010d79b69165a14,"['compiler', 'crash']",General,{'crash': 100}
+ae0b93d90bd4cb616705f79bee8fdcf318b56203,"['expression', 'compiler', 'generator', 'crash', 'constant', 'condition']",General,{'crash': 100}
+402dc50d1867fe544f4ea2433095830d8a79eec5,"['compiler', 'invalid', 'crash']",General,{'crash': 100}
+a1d5c022625b4c76460356bd1a35ffa641aec0f3,"['expression', 'compiler', 'generator', 'crash', 'nestedextra']",General,{'crash': 100}
+b9bfa4985090eb93eec464e45ab3d7177e07ca6e,"['expression', 'compiler', 'generator', 'crash', 'constant', 'condition', 'falseextra']",General,{'crash': 100}
+42a7ea8971f62377ea9658d2f569d4bdf9600323,"['expression', 'compiler', 'generator', 'crash']",General,{'crash': 100}
+61d06109280afe0b480d650141778fca69b419a2,"['parser', 'crash']",General,{'crash': 100}
+665e0420da330baaf8ff388e066b6cc829593c63,"['suppress', 'trial', 'cythonize', 'compiler', 'error', 'crash']",General,{'crash': 100}
+293a9b51c1dddb1cc03595ad2b26627522dda7f7,"['optimiser', 'compiler', 'dispatch', 'crash']",General,{'crash': 100}
+9a3027f22859737e16d4ddf1340e9048779aed62,"['clean', 'compiler', 'crash']",General,{'crash': 100}
+002b2148153ae29850d1cd46bbd1c16d16ff494c,"['minor', 'output', 'crash', 'cleanup']",General,{'crash': 100}
+dab872a752720af73bdf25f55ef16e0043189b1d,"['instantiate', 'crash', 'instance', 'exception']",General,{'crash': 100}
+79fbb9ad5e43949dd5e5a6a51c130f6eb8245c48,"['crash', 'infinite', 'recursion']",General,{'crash': 100}
+239de7a4897dabc2efa51348e1d192393fe6c754,"['pyregr', 'crash', 'stdlib']",General,{'crash': 100}
+8e1db2a361be253230b3fd619b5ac6a482ee6d12,"['variable', 'method', 'compiler', 'crash', 'inference', 'python', 'pyregr']",General,{'crash': 100}
+aedb1769fedd66305db14e0aa69f61380557ca16,"['stdlib', 'ctypes', 'crash', 'compilation', 'pyregr']",General,{'crash': 100}
+084b04a31366c5a8262d079761c7cb5886d0fd17,"['compiler', 'crash']",General,{'crash': 100}
+7551bd228685329e4309a56939b11d3c98791ede,"['buffer', 'compiler', 'crash', 'place', 'division']",General,{'crash': 100}
+297ce83352ce9ce2ecebdba0f673c38286502a50,"['trigger', 'handler', 'crash', 'cleanup', 'module', 'pyregr']",General,{'crash': 100}
+fd6380ab37d32ec67d5cc818c93b8d317f139e4d,"['lisandro', 'crash', 'instance', 'patch', 'dalcin', 'module']",General,{'crash': 100}
+a4e6c41fc0dff70df19117df466a18b7133ae3b1,"['compiler', 'crash', 'optimiser', 'unicode']",General,{'crash': 100}
+f80fe6d721694b70eb2bb28d2f787c9c60b54df4,"['utility', 'crash']",General,{'crash': 100}
+a9e6033ac8677172b44a8f50f76b204ce31a280c,"['compiler', 'analysis', 'declaration', 'crash']",General,{'crash': 100}
+7258ac95b2d2bc9196903eb0f644b2dca5f4df93,"['compiler', 'error', 'crash']",General,{'crash': 100}
+5aac8caf1ba21933cc85a51af3319c78fc08d675,"['trigger', 'crash', 'reason']",General,{'crash': 100}
+6cfd781c4d4ca7a88091ceea41b450edb7ac9df1,"['compiler', 'importlib', 'crash']",General,{'crash': 100}
+219efb47b533a45cd8cbb4d28709a2e0fb9da474,"['assumption', 'tuples', 'crash', 'incorrect']",General,{'crash': 100}
+5ab068d91363ecd25e8c59c14c0a5519c84e7ddd,"['compiler', 'generator', 'crash']",General,{'crash': 100}
+60be9a7bad5a2bdfc9a830db7b223ef837dedc9f,"['variable', 'compiler', 'declaration', 'crash', 'module']",General,{'crash': 100}
+fa9c5bd1106a29071e83070074071260c8ba30b5,"['compiler', 'crash', 'processing']",General,{'crash': 100}
+ec9e1b3c2519540b9c5aeff64a90c6f3c07249aa,"['check', 'compiler', 'crash', 'operation', 'place']",General,{'crash': 100}
+695dc278c661ba759394aa1676a4201407e07e3e,"['method', 'runtime', 'crash', 'ticket', 'closure']",General,{'crash': 100}
+a1d98255ae41438322821db884a9d95a15c4a875,"['arounds', 'compiler', 'crash', 'local']",General,{'crash': 100}
+f3f5cd7ed6a5d30597075b9e580213033985334c,"['expression', 'compiler', 'generator', 'crash', 'function', 'local']",General,{'crash': 100}
+2ab3982735bb75119aedcb14a002d30d08c9a1fe,"['expression', 'compiler', 'generator', 'crash', 'function', 'local', 'usingextra']",General,{'crash': 100}
+e4d366eef99ab1cd19b8e9cbeeb9ea7289a2f65f,"['argument', 'prange', 'compiler', 'crash', 'numeric']",General,{'crash': 100}
+4a8ce7c11c3bfc5930ba2935cdebaacd4ca81914,"['minor', 'compiler', 'crash', 'cleanup', 'iteration']",General,{'crash': 100}
+a571f97c31015a1423ea6ce7273bcb4a1ca4d6c7,"['iteration', 'rewrite', 'partialempty', 'dicts', 'crash', 'iterationraise', 'iteration', 'exception']",General,{'crash': 100}
+ebffb4efde01ebafb9031b683454bbec2683f586,"['compiler', 'crash']",General,{'crash': 100}
+a068e66f2bcaed0cd63204a96c6a48d3b7869a5c,"['iteration', 'rewrite', 'partialempty', 'dicts', 'crash', 'iterationraise', 'iteration', 'exception']",General,{'crash': 100}
+ac7755f649b02ae008f4ec1bba6eec956a0d1ad6,"['compiler', 'crash']",General,{'crash': 100}
+ae59c5a0eb187701e88644c10511c3b05060563e,"['crash', 'utils']",General,{'crash': 100}
+6247adc53b08ce138df1eee526971a2bcfb334e5,"['trivial', 'crash', 'expression']",General,{'crash': 100}
+fddf37edf88e8dcee264132a1cbd876e5ea3bc3d,"['trivial', 'crash', 'expression']",General,{'crash': 100}
+5b5613fa7cb144af71f33a4dd735b5b59eeefef5,"['compiler', 'crash', 'uncachable', 'builtins']",General,{'crash': 100}
+cde4a3713409351e41c46716cc1cd12e5fefc568,"['compiler', 'crash', 'uncachable', 'builtins']",General,{'crash': 100}
+37d4884476b43b38536d47190a24e2d67f9252cf,"['compiler', 'redefinition', 'crash']",General,{'crash': 100}
+4e6939e997952985cd66e4a44be4bc97adef9ae7,"['crash', 'nonlocal']",General,{'crash': 100}
+c71adccb3e687952aacf4244fdf4610da3e40102,"['redeclaration', 'error', 'crash', 'compiler']",General,{'crash': 100}
+5cdb7ba3d86bbe9b4e7956823848e779cd6e32f7,"['compiler', 'crash', 'unicode', 'invalid', 'reject']",General,{'crash': 100}
+e8d4299fa4f5da3bd0732dabf58bfc69bbaf0d9b,"['compile', 'crash']",General,{'crash': 100}
+7637fcfc7e574bd82609ad0efc44429505a42d63,"['compiler', 'crash']",General,{'crash': 100}
+e5453979aa6b90c49d14cd55de59890b09ea1e45,"['compiler', 'crash']",General,{'crash': 100}
+0a3773418d683fdded3950f76e1e18525a566b13,"['crash', 'compilation']",General,{'crash': 100}
+f90c4d3f337b2256cb831670d9f23e41d9a44aca,"['compiler', 'crash', 'debugtransform']",General,{'crash': 100}
+d1170ab8540f6d7f2fdbc4862fac01bad5aaa263,"['negative', 'compiler', 'crash', 'octal', 'integer']",General,{'crash': 100}
+2b8bff70e1a631806fac71b211e9b35996e09897,"['compiler', 'buffer', 'invalid', 'crash']",General,{'crash': 100}
+59d44445c6c87cab1a4c010b7d80d318a99b820d,"['compiler', 'crash', 'inference']",General,{'crash': 100}
+333b8c79fa61deded46ea93a30536d85002af771,"['compiler', 'crash', 'template']",General,{'crash': 100}
+4915f2adc769a1c207aa895c6beb1a6439627145,"['pyregr', 'crash']",General,{'crash': 100}
+2b4aa4cc8d1ed3e6370e60b01afd030a5d710ec8,"['crash', 'stupid']",General,{'crash': 100}
+666be97c24d5db680a886e698b7795ccdc323d86,"['compiler', 'crash']",General,{'crash': 100}
+0a0e72a79b9c4f3608b0a520590e42ed4247eefc,"['compiler', 'crash']",General,{'crash': 100}
+ff35cf52cc5404eb0023b4880e89f281a5e7d4c0,"['trivial', 'crash', 'constructor']",General,{'crash': 100}
+59f8fe734900a21df67a851ae764de915038be90,"['expression', 'typeof', 'crash', 'typeofnode']",General,{'crash': 100}
+0a33f1e60428979747d0a8051cd226be35b94414,"['unknown', 'crash', 'function']",General,{'crash': 100}
+51d1bd1c2ee154aec17e5e9328725b5d713d6c46,"['crash', 'struct']",General,{'crash': 100}
+413d1d3955461f58dc10cb19ced6162f072b68fd,"['comment', 'compiler', 'problem', 'crash']",General,{'crash': 100}
+a5e866b164ab5f814398bf2ed3fd8777f7fb4696,"['compiler', 'cimport', 'crash', 'function']",General,{'crash': 100}
+02e5e8e76d7d349a0878479f9f1aafcead18f10f,"['crash', 'ctypedef']",General,{'crash': 100}
+5dbb42b3c4a770a03c54689b6f0cf09f989f6cef,"['cpdef', 'crash', 'method', 'argumentrename', 'error']",General,{'crash': 100}
+25a506e32def758da1e8884d8b4864f332ffb146,"['ticket', 'crash', 'exception']",General,{'crash': 100}
+a74288bc92f185c294ad8ad26a2e25be4cc45d48,"['crash', 'pyfinalize', 'refnanny']",General,{'crash': 100}
+75c4202187c905c6ed62b0f2392201b6c214ff50,"['compiler', 'error', 'crash', 'normal', 'report']",General,{'crash': 100}
+1931d3b9ce56fadd0e977b77ac1aa42e3d6544ff,"['compiler', 'crash', 'context', 'transforms']",General,{'crash': 100}
+972b304861402fa6428293ffbe3a37530e8b23f8,"['statement', 'trigger', 'crash']",General,{'crash': 100}
+7b49db410006992dd518370989123d1fe1afc0ea,"['parameter', 'crash']",General,{'crash': 100}
+f61e9124c9f485e429aecda28427e10a8a48e426,"['recursive', 'crash', 'typedef', 'structcompile']",General,{'crash': 100}
+a81796ca29538714ff5a86a512fe2bd3587e159c,"['crash', 'declaration']",General,{'crash': 100}
+d28e4bffd6c3fa7aefed69c1b748a069e608b59f,"['crash', 'declaration']",General,{'crash': 100}
+310140c7515718a665f13d7921a71b1257c95059,"['compiler', 'crash']",General,{'crash': 100}
+b52aa7db58ee858d70be1f91730e4a86effc2abd,"['ticket', 'array', 'crash', 'compiler']",General,{'crash': 100}
+e48bc77a49447eedb8d753fd293509e7f934956f,"['ticket', 'crash', 'compiler']",General,{'crash': 100}
+90a46cc8944e41a05d18129c8fde4fd6542efc5e,"['compiler', 'signature', 'crash']",General,{'crash': 100}
+112e74e48cbba1da8c4ed7511544133286e9af2a,"['member', 'default', 'struct', 'union', 'disallowwould', 'compiler', 'crash']",General,{'crash': 100}
+59367485d8a60a80fa5eea98302a470727c119ae,"['literal', 'crash', 'compilation', 'scope', 'strict']",General,{'crash': 100}
+9b11884b7e5b7039fe448d850ded78fb69ddb700,"['compile', 'unicode', 'crash']",General,{'crash': 100}
+e4d09f3d6335c9947c0e02b6f5097fc1d424e7d5,"['builtin', 'crash']",General,{'crash': 100}

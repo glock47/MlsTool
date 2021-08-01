@@ -1,8 +1,12 @@
-sha,message,catetory,matched,labels
-50b2507720d484be2e11b9fe6fa88a81603ae68e,"['ignore', 'local', 'check', 'security']",General,{'security': 100},
-0441fa36beb8394b472fd888f6bbc8b3956d5dd4,"['thread', 'issue', 'safetythread', 'safetycause', 'deadlock', 'synchronizedmap']",Risky_resource_management,{'deadlock': 100},
-df1cb9d80d4f31ced75ab52f0abd84c807dbbfae,"['issue', 'provider', 'security', 'gradlecipher', 'ecdhepleaseissue', 'gradle']",General,{'security': 100},
-c8db41f5fe110dc395862e13c4c3fca0d03e462c,"['mergemerge', 'benmccann', 'request', 'patchmaven', 'repos', 'security']",General,{'security': 100},
-0b067439bacee95918b65573334be6de3daaf63f,"['mergemerge', 'issue', 'request', 'juherrissue', 'crash', 'xmlreporter', 'parameter']",Risky_resource_management,{'crash': 100},
-7af0825868579cf1dbac57baf7d0c5328f49d8e6,"['parameter', 'crash', 'xmlreporter']",Risky_resource_management,{'crash': 100},
-932fc2c50cda61a86f70204e95ef8f6f151b5102,"['class', 'crash', 'return', 'provider', 'empty', 'array']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+50b2507720d484be2e11b9fe6fa88a81603ae68e,"['ignore', 'local', 'security', 'check']",General,{'security': 100}
+1f172b2c5e529d18a07fac0d7b1c55cc0cd6de9a,"['pull', 'request', 'kanaduchi', 'patch', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+3a87a10991268c53936f829145fa1105ff8bed34,"['memory', 'leak', 'testng', 'generates', 'garbage', 'file', 'directory', 'file', 'execution']",Risky_resource_management,{'memory leak': 100}
+0441fa36beb8394b472fd888f6bbc8b3956d5dd4,"['helper', 'getmap', 'thread', 'safety', 'issue', 'thread', 'safety', 'issue', 'deadlock', 'synchronizedmap']",Risky_resource_management,{'deadlock': 100}
+df1cb9d80d4f31ced75ab52f0abd84c807dbbfae,"['openjdk', 'failure', 'security', 'provider', 'issue', 'ecdhe', 'cipher', 'java', 'detail', 'http', 'github', 'gradle', 'gradle', 'issue']",General,{'security': 100}
+c8db41f5fe110dc395862e13c4c3fca0d03e462c,"['pull', 'request', 'benmccann', 'patch', 'security', 'maven', 'repos']",General,{'security': 100}
+77723009fcdbcae17252be93a8db4f0ad4ba676f,"['security', 'maven', 'repos', 'http', 'detail', 'http', 'blog', 'java', 'developer']",General,{'security': 100}
+0b067439bacee95918b65573334be6de3daaf63f,"['pull', 'request', 'juherr', 'issue', 'issue', 'xmlreporter', 'crash', 'test', 'parameter']",General,{'crash': 100}
+7af0825868579cf1dbac57baf7d0c5328f49d8e6,"['xmlreporter', 'crash', 'test', 'parameter']",General,{'crash': 100}
+932fc2c50cda61a86f70204e95ef8f6f151b5102,"['test', 'class', 'crash', 'data', 'provider', 'return', 'empty', 'array']",General,{'crash': 100}
+e9c9ea077a8b72509d22457aaace3598179190e1,"['name', 'people', 'configure', 'suite', 'file', 'multiple', 'time', 'performance', 'resiliency', 'memory', 'leak', 'name', 'suite', 'name', 'suite', 'name']",Risky_resource_management,{'memory leak': 100}

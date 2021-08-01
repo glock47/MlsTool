@@ -1,9 +1,10 @@
-sha,message,catetory,matched,labels
-b3e788e2a6362f984bcf7d67f816075ccb11641e,"['rutine', 'interruption', 'latersignal', 'cleanup', 'processmalloc', 'signal', 'handler', 'asyncsignal', 'funtion', 'deadlock', 'function', 'redisavoid']",Risky_resource_management,{'deadlock': 100},
-8e16e2588368e01a9cd01408bc14bf148e46131e,"['sigpipe', 'raisesigpipe', 'signal', 'handleprogram', 'epipe', 'crash', 'error', 'stillsigpipe']",Risky_resource_management,{'crash': 100},
-d7c4c69ac5c8e86e2895967a2b2c94287ece99d3,"['crash', 'nvticache', 'pluginhappen']",Risky_resource_management,{'crash': 100},
-4ca61a3e99dd9783c714112524ddfd60b1c7843b,"['security', 'ovaldiensure', 'place', 'directory', 'privilege', 'ovaldiopenvas', 'ddbef', 'scanner', 'trunk']",General,{'security': 100},
-b272499121e3a287c00c8fa6dba4bc28feb056d0,"['silent', 'default', 'naive', 'value', 'dependency', 'suppression', 'security', 'issue', 'messagedepend', 'servervalue', 'openvasd', 'defaultopenvas', 'ddbef', 'trunk', 'server']",General,{'security': 100},
-c93f7b975c2c750c74c96cfba6aa182beab5e3f7,"['insufficient', 'memory', 'openvasd', 'fixedallocation', 'xrefsmemory', 'ignore', 'allocation', 'strcatenough', 'warning', 'memory', 'beforehand', 'likely', 'system', 'compile', 'snprintfpotential', 'usage', 'security', 'snprintfopenvas', 'ddbef', 'trunk', 'server']",General,{'security': 100},
-e5f0fbf70630045790303761e683365118425886,"['memory', 'crash', 'issueopenvas', 'ddbef', 'trunk', 'server']",Risky_resource_management,{'crash': 100},
-9fd0915cfc3b5276a421d0b2ca9c833506aff4c9,"['socket', 'support', 'client', 'communicationsupport', 'anymoreconsiderable', 'security', 'performanceconnection', 'socket', 'loopbackanyway', 'implementation', 'suboptimalcompile', 'selectdomain', 'handlingremove', 'occurance', 'socketopenvasd', 'removeopenvas', 'ddbef', 'trunk', 'server']",General,{'security': 100},
+sha,message,catetory,matched
+b3e788e2a6362f984bcf7d67f816075ccb11641e,"['rutine', 'interruption', 'latersignal', 'cleanup', 'processmalloc', 'signal', 'handler', 'asyncsignal', 'funtion', 'deadlock', 'function', 'redisavoid']",Risky_resource_management,{'deadlock': 100}
+8e16e2588368e01a9cd01408bc14bf148e46131e,"['sigpipe', 'raisesigpipe', 'signal', 'handleprogram', 'epipe', 'crash', 'error', 'stillsigpipe']",General,{'crash': 100}
+d7c4c69ac5c8e86e2895967a2b2c94287ece99d3,"['crash', 'nvticache', 'pluginhappen']",General,{'crash': 100}
+ace14668e5aed1a33d0ebedb831d1509dfe9f880,"['openvas', 'redirect', 'stderr', 'stdout', 'managecerttool', 'error', 'invocationmessageopenvas', 'ddbef', 'scanner', 'trunk']",Insecure_interaction_between_components,{'openvas redirect': 90}
+4ca61a3e99dd9783c714112524ddfd60b1c7843b,"['security', 'ovaldiensure', 'place', 'directory', 'privilege', 'ovaldiopenvas', 'ddbef', 'scanner', 'trunk']",General,{'security': 100}
+b272499121e3a287c00c8fa6dba4bc28feb056d0,"['silent', 'default', 'naive', 'value', 'dependency', 'suppression', 'security', 'issue', 'messagedepend', 'servervalue', 'openvasd', 'defaultopenvas', 'ddbef', 'trunk', 'server']",General,{'security': 100}
+c93f7b975c2c750c74c96cfba6aa182beab5e3f7,"['insufficient', 'memory', 'openvasd', 'fixedallocation', 'xrefsmemory', 'ignore', 'allocation', 'strcatenough', 'warning', 'memory', 'beforehand', 'likely', 'system', 'compile', 'snprintfpotential', 'usage', 'security', 'snprintfopenvas', 'ddbef', 'trunk', 'server']",General,{'security': 100}
+e5f0fbf70630045790303761e683365118425886,"['memory', 'crash', 'issueopenvas', 'ddbef', 'trunk', 'server']",General,{'crash': 100}
+9fd0915cfc3b5276a421d0b2ca9c833506aff4c9,"['socket', 'support', 'client', 'communicationsupport', 'anymoreconsiderable', 'security', 'performanceconnection', 'socket', 'loopbackanyway', 'implementation', 'suboptimalcompile', 'selectdomain', 'handlingremove', 'occurance', 'socketopenvasd', 'removeopenvas', 'ddbef', 'trunk', 'server']",General,{'security': 100}

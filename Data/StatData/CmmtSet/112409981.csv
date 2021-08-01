@@ -1,24 +1,21 @@
-sha,message,catetory,matched,labels
-bf442eddd2d79d0af9f0973b5b677ec4b3e709bd,"['fread', 'crash']",Risky_resource_management,{'crash': 100},
-ec05f8b1665ee889ee22ff98925733d3c6cfff6c,"['writeint', 'crash']",Risky_resource_management,{'crash': 100},
-9eceb27373b2943d085ff6ce894dbb29cd0a3ec5,"['point', 'crash', 'window', 'number']",Risky_resource_management,{'crash': 100},
-01eacc4848677c9bf6b706521d3589cd2008ff5a,"['ubsan', 'integer', 'overflow']",Risky_resource_management,{'integer overflow': 100},
-c0f636797887a9a90227317130b7554ad632b7e5,"['crash', 'regression', 'close', 'empty', 'subset']",Risky_resource_management,{'crash': 100},
-e09a93cdff2568e68bc038ee92cf231a0899434e,"['integer', 'overflow', 'setrange', 'segfault']",Risky_resource_management,{'integer overflow': 100},
-2282a356c2c9738e6684b39aa11071aa9e2bb053,"['getrversion', 'behaviour', 'replacedmaintain', 'backwards', 'package', 'dependentinteger', 'overflow', 'rbindlist', 'fread', 'crash', 'empty', 'failedreturn', 'package']",Risky_resource_management,{'crash': 100},
-70933eafe07fbfd8796162932f995785ecf28b58,"['integer', 'overflow', 'thanks', 'fread']",Risky_resource_management,{'integer overflow': 100},
-9a3c96ff37b8b2457238878ea3f4f217b2a8883d,"['comma', 'crash']",Risky_resource_management,{'crash': 100},
-4d15d161a87593a8539567f9f04319c8cb38d417,"['crash', 'length']",Risky_resource_management,{'crash': 100},
-c4b1186a9d81391c5893903a810872eca49e535f,"['symbolchris', 'crash']",Risky_resource_management,{'crash': 100},
-ed1b374d3d2d7c4cede09f09642d57947a9ce64d,"['consistencychris', 'crash']",Risky_resource_management,{'crash': 100},
-7f7fbbfd18b495453a9f7fc639909b07295b7bd8,"['crash', 'character']",Risky_resource_management,{'crash': 100},
-3ce489959ec0e43f789a5d58cdb70d0a057849a8,"['setkey', 'crash']",Risky_resource_management,{'crash': 100},
-4a45fb76eb38627060ded0b12222c4352e78aef9,"['return', 'crash', 'empty']",Risky_resource_management,{'crash': 100},
-840f666cd37243f9c4082dec4c468d1d9e40666f,"['crash', 'harish', 'fixedfeature', 'contrary', 'rbind', 'harish', 'consistency', 'columncolumn']",Risky_resource_management,{'crash': 100},
-ef0d1a213ff918c695591287677bbb521aeb7ca7,"['method', 'security', 'cleanup', 'helper']",General,{'security': 100},
-242333b511414c3179eafe2cc71ea6e9bbeed505,"['security', 'update']",General,{'security': 100},
-888f14ed789a4e51094a9674212f61a1e12551eb,"['security', 'independentsaftey', 'check', 'testingreduce', 'chance', 'failurewould', 'issue']",General,{'security': 100},
-1997e47f7f259e4963d690b493eb01f9424bbac6,"['update', 'security', 'comment']",General,{'security': 100},
-a3f2e79a5e6862aedc676d73f47279e2ec23f480,"['function', 'security']",General,{'security': 100},
-6e367c76d8515798ac864de6e3e733186b77ed29,"['security', 'patchplugins', 'inline']",General,{'security': 100},
-a558b05a910a7fb26900591b71458a8354a5666f,"['security', 'patch']",General,{'security': 100},
+sha,message,catetory,matched
+ef0d1a213ff918c695591287677bbb521aeb7ca7,"['cleanup', 'security', 'helper', 'method']",General,{'security': 100}
+242333b511414c3179eafe2cc71ea6e9bbeed505,"['update', 'security', 'test']",General,{'security': 100}
+888f14ed789a4e51094a9674212f61a1e12551eb,"['independent', 'security', 'workflow', 'saftey', 'check', 'chance', 'test', 'failure', 'security', 'issue', 'dependency']",General,{'security': 100}
+1997e47f7f259e4963d690b493eb01f9424bbac6,"['comment', 'update', 'security', 'test']",General,{'security': 100}
+58eda393fb72aa8cfbf0c89d92ac91b19b1bab39,"['test', 'security', 'module']",General,{'security': 100}
+5762b9e2259249e68b833f2a642b6ac6c71f9f89,"['virts', 'command', 'injection', 'vulnerability', 'server', 'config', 'command', 'caldera', 'config', 'yaml', 'internal', 'python', 'code', 'user', 'place', 'arbitrary', 'command', 'rest', 'user', 'main', 'config']",Insecure_interaction_between_components,{'command injection': 100}
+a3f2e79a5e6862aedc676d73f47279e2ec23f480,"['security', 'function', 'decorator']",General,{'security': 100}
+653f0f3cad64ca1a388f6501fdd9207635aeff3a,['security'],General,{'security': 100}
+854f72ca2363e2f018a241a036e2afb95cb32f42,"['config', 'auto', 'generate', 'random', 'value', 'config', 'file', 'issue', 'default', 'config', 'current', 'config', 'file', 'obvious', 'update', 'test', 'insecure', 'ignore', 'local', 'default', 'consolidate', 'loop', 'kwarg', 'name', 'clearer', 'refactor', 'config', 'generation', 'utility', 'module', 'update', 'test', 'david', 'privateducky']",General,{'insecure': 100}
+773b19241a9d9da2e339adc491551e9c36752280,"['virts', 'object', 'schema', 'potential', 'agent', 'modification', 'agent', 'object', 'agent', 'schema', 'schema', 'validate', 'input', 'logic', 'return', 'invalid', 'comment', 'consolidate', 'test', 'httpexception', 'argument', 'schema', 'dict', 'style']",Insecure_interaction_between_components,{'agent modification': 92}
+6e367c76d8515798ac864de6e3e733186b77ed29,"['security', 'security', 'security', 'security', 'inline', 'plugins']",General,{'security': 100}
+a558b05a910a7fb26900591b71458a8354a5666f,"['security', 'security', 'security', 'security']",General,{'security': 100}
+7f7fd134932dae3b1b6737af1b8aea892fae0523,"['auto', 'installer', 'addition', 'auto', 'installer', 'addition', 'ubuntu', 'support', 'small', 'centos', 'insecure', 'functional', 'installer']",General,{'insecure': 100}
+8ef090c8c014d84eced0f13d593c5b7e19bb3a46,['security'],General,{'security': 100}
+26c0a250363eb6e854deeb37b33e54382dbf54e7,"['yaml', 'security']",General,{'security': 100}
+045fc81b0f7788f08bcb40f40a44ea8c2d838c7f,"['yaml', 'security']",General,{'security': 100}
+3ac5c416d6eecbc7b7523b364f4fdbd3b3217462,"['command', 'injection', 'platform', 'value', 'ability', 'data', 'service', 'async', 'init', 'server', 'download', 'function', 'extra', 'line', 'newline', 'file']",Insecure_interaction_between_components,{'command injection': 100}
+555f6d8ad1c77fec8e7cc0de93202ad00cb9c038,"['virts', 'patch', 'force', 'load', 'potential', 'crash', 'exfil', 'ability', 'load', 'link', 'stockpile', 'virts', 'update', 'stockpile']",General,{'crash': 100}
+c7eba0f8781c9e801d32064c40167ebf641617eb,"['pull', 'request', 'mitre', 'simpleauth', 'aiohttp', 'security']",General,{'security': 100}
+1681c33aab9f53bc4584b694909e59a12c302c32,"['aiohttp', 'security']",General,{'security': 100}

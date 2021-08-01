@@ -1,146 +1,227 @@
-sha,message,catetory,matched,labels
-f60899dd1b8a0a15c3a62432c51009a3d9d90f8b,"['crash', 'winforms', 'background', 'color']",Risky_resource_management,{'crash': 100},
-77d86385a5d1cd92cc7e955266339071d4316bb1,"['warningconsideration', 'security']",General,{'security': 100},
-03be21090b2876def26353dea7642c247a844f48,"['requestsubthread', 'deadlock', 'window']",Risky_resource_management,{'deadlock': 100},
-2e75620ff909f51a918a2aea90b7cfec2cad6885,"['deadlock', 'winforms', 'window']",Risky_resource_management,{'deadlock': 100},
-c3f95a5a25c7f4a97ac3ef9aef1b8c39e522e9f2,"['deadlock', 'window', 'subthread', 'linuxclosedeadlock', 'semaphoresolution', 'webviewwebview', 'script', 'release', 'semaphore', 'manuallymethod', 'webview', 'check', 'window', 'multibecome']",Risky_resource_management,{'deadlock': 100},
-318c71227da0af44cfad0ff8f4adcc720704ffbf,"['issue', 'crash', 'window', 'pyinstaller']",Risky_resource_management,{'crash': 100},
-669ae05ecddaa8ddfe5c0325cc0a56b28832a710,"['vulnerability', 'security', 'flask']",General,{'security': 100},
-9343bdd85d70625a90e0c952897957a102c2421b,"['crash', 'login', 'tobiaskaminsky', 'tobias']",Risky_resource_management,{'crash': 100},
-ebdf716e11f8f88d7f643eaa571bd2425b55d3b3,"['mergemerge', 'nextcloud', 'requestmultiple', 'crash', 'editor']",Risky_resource_management,{'crash': 100},
-211786c226da45c51f184bfebd53a68678d890e3,"['multiple', 'crash', 'editor', 'tobiaskaminsky', 'tobias']",Risky_resource_management,{'crash': 100},
-af2891a4a799be6c2280d5e31f8814ba0f40180b,"['mergerequest', 'status', 'ezaquarii', 'nextcloud', 'crash', 'dialogcrash']",Risky_resource_management,{'crash': 100},
-e9198313fd7ced1d3e02350ca258e238943c90c0,"['mergemerge', 'nextcloud', 'themecrash', 'theme', 'medium', 'crash']",Risky_resource_management,{'crash': 100},
-f8c83e9e6fb52b0e1e8f0dcc121a96ec22e1660e,"['crash', 'previewtext']",Risky_resource_management,{'crash': 100},
-e8870334d2e89df4a898909f1a9faa362dbc0781,"['ischilddocument', 'performancesolution', 'parent', 'iterates', 'childparent', 'storage', 'givenempirical', 'expensiveefficient', 'introduces', 'solution', 'simplychild', 'givenparent', 'ensures', 'child', 'belongreviewer', 'extra', 'introduceissue', 'child', 'security', 'document', 'parent', 'claimingreallygrote']",General,{'security': 100},
-dcf7455e575c6bf99b5ebc1d6ba2c4ef2d5b4499,"['mergemerge', 'nextcloud', 'passworttoshare', 'requestpassword', 'crash', 'setting']",Risky_resource_management,{'crash': 100},
-886d42dc0fabbf39b53eeba84372f2c54c4004b7,"['password', 'crash', 'tobiaskaminsky', 'tobias']",Risky_resource_management,{'crash': 100},
-6f38bf7a8b28c7977351591d66897283e78b9758,"['mergemerge', 'nextcloud', 'friendlyname', 'friendly', 'default', 'crash', 'storage']",Risky_resource_management,{'crash': 100},
-60b1f3702ea65d43c46690b8806d084c5c76e9f9,"['friendly', 'default', 'crash', 'tobiaskaminsky', 'tobias']",Risky_resource_management,{'crash': 100},
-6fda99a6336b7a133993c22709ae8e6878819d22,"['aadbd', 'mergemerge', 'nextcloud', 'fabcrash', 'requestfolder', 'crash']",Risky_resource_management,{'crash': 100},
-a3487adbdf64567925310ab14d87882c0e894783,"['folder', 'crash', 'tobiaskaminsky', 'tobias']",Risky_resource_management,{'crash': 100},
-07dc18339a214b03851bcc61773d46615bb75004,"['crash', 'client', 'tobiaskaminsky', 'tobias']",Risky_resource_management,{'crash': 100},
-34c05c9d0eb21dd465b79a6e1231eedae20e165d,"['ezaquarii', 'account', 'nextcloud', 'crash', 'crash', 'account']",Risky_resource_management,{'crash': 100},
-949a5c3a4f1a759ad0fd62be82951d1f699243c9,"['crash', 'conflictdialog', 'tobiaskaminsky', 'tobias']",Risky_resource_management,{'crash': 100},
-7b5e3607aa2fcb09d7f91629412011a961586057,"['mergemerge', 'nextcloud', 'sortcrash', 'requestfolder', 'crash']",Risky_resource_management,{'crash': 100},
-221d3cc3273c51749aea0f2a838a995ba07eb4db,"['folder', 'crash', 'tobiaskaminsky', 'tobias']",Risky_resource_management,{'crash': 100},
-3ae41ec9fa43cf329331e663b575aee4b62fd2d4,"['debfcbugfix', 'borcsok', 'endre', 'crash', 'activity']",Risky_resource_management,{'crash': 100},
-c243453168f9187954ae82963916e1b9d69325f7,"['mergeautosync', 'request', 'nextcloud', 'folder', 'autosync', 'folder', 'crash', 'creation']",Risky_resource_management,{'crash': 100},
-20b910a64643681891209bd9fb566b9e44c99216,"['ezaquarii', 'nextcloud', 'crash', 'creationcrash', 'creation']",Risky_resource_management,{'crash': 100},
-36294785cf97097b1429c1e9f074bc833757d77d,"['nextcloud', 'requestremove', 'supportrequest', 'ezaquarii', 'nextcloud', 'crash', 'storage', 'managerrequest', 'ezaquarii', 'making', 'nextcloud', 'glitch', 'request', 'ezaquarii', 'nextcloudmerge', 'nextcloud', 'catch', 'fcecaea', 'catch', 'removedmaster', 'adjustedmarkdown', 'preview', 'hyperlink', 'clickablemarkdown', 'preview', 'hyperlink', 'clickablerobot', 'transifex', 'updatedrobot', 'transifex', 'updatedrobot', 'transifex', 'updatedrobot', 'transifex', 'updatedjunit', 'dependabot', 'request', 'nextcloud', 'gradlerobot', 'transifex', 'updatedjunit', 'ccaeerobot', 'transifex', 'updateddaggerversion', 'dependabot', 'request', 'nextcloud', 'gradledaggerversion', 'abfaerobot', 'cbfce', 'transifex', 'glitch', 'detailcrash', 'cfebdplugin', 'detekt', 'dependabot', 'request', 'nextcloud', 'gradleplugin', 'detekt', 'gradlerobot', 'transifex', 'updatedrobot', 'transifex', 'updatedrobot', 'transifex']",Risky_resource_management,{'crash': 100},
-d7d1c475aebb7b7e92b98c3d36dbf66c7a244d86,"['ezaquarii', 'nextcloud', 'crash', 'storage', 'managercrash', 'startup', 'storage', 'manager']",Risky_resource_management,{'crash': 100},
-3cf3e3bd71edf481faa5de2f86d27bb36b62fb97,"['crash', 'addingcallback', 'async', 'crash', 'firingfragment', 'attachedfragment', 'chris', 'narkiewicz', 'hello']",Risky_resource_management,{'crash': 100},
-1caf02a0f5d75e1388634cde4c09aafb3b8e07d6,"['nextcloud', 'requestthumbnail', 'grote', 'requestdependabot', 'screengrab', 'request', 'featuremaster', 'brancheccfef', 'editing', 'direct', 'support', 'editorwebview', 'abstract', 'enableonlyoffice', 'ddffafb', 'custom', 'agentstatic', 'string', 'unneededrevert', 'master', 'direct', 'parameterandroid', 'interface', 'security', 'texteditor', 'javascript', 'direct', 'support', 'editorwebview', 'abstract', 'endpointoverride', 'minsdkscreengrabfbedbd', 'request']",General,{'security': 100},
-300abba48ba6f3447b426b12d44d6550a0e4d1c1,"['android', 'interface', 'security', 'texteditor', 'javascript', 'tobiaskaminsky', 'tobias']",General,{'security': 100},
-3f3c5a1951d83489348bfafd366227373efc87be,"['crash', 'startup', 'storage', 'chris', 'narkiewicz', 'hello']",Risky_resource_management,{'crash': 100},
-0dbee8aa954878bf8371a2df1a2945ea79c3e533,"['releaseprocess', 'bfacbeeb', 'nextcloudhotfix', 'security', 'releasemerge', 'nextcloud', 'requestafbfbf', 'nextcloud', 'requestfixrelativepath', 'nextcloud', 'requestafdac', 'function', 'subfolders', 'logic', 'doublefound', 'fileid', 'virtual', 'search', 'photo', 'ocfiles', 'folder', 'parent', 'manuallytablet', 'fancy', 'layout', 'material', 'cfdabd', 'legacy', 'regular', 'textview', 'button', 'login']",General,{'security': 100},
-fe07963299eae9a15c93063a2cebf4b4618d59ae,"['hotfix', 'security']",General,{'security': 100},
-f10843e03c6ffaa991304a2f39c4a6089e735d63,"['ezaquarii', 'account', 'nextcloud', 'registrationrequest', 'speculative', 'ezaquarii', 'nextcloudrequest', 'ezaquarii', 'nextcloud', 'crashbeeee', 'robot', 'transifex', 'updatedcausedaction', 'crash', 'destroyedfirst', 'registration', 'account', 'seconddependabot', 'request', 'nextcloud', 'glide']",Risky_resource_management,{'crash': 100},
-f64485f27908364b73e76f038389e2fadd6e5395,"['beeee', 'mergerequest', 'ezaquarii', 'nextcloud', 'crashaction', 'crash']",Risky_resource_management,{'crash': 100},
-551c4d3f1a09e2a42f6076c65e229a019f24aad5,"['action', 'crash', 'chris', 'narkiewicz', 'hello']",Risky_resource_management,{'crash': 100},
-59239ec3fb9b2a15a1bde5a4cabcb463c172ab7e,"['dailymerge', 'nextcloud', 'requestmultiple', 'crash', 'account', 'sharingmerge', 'nextcloud', 'requestccaca', 'notification', 'dismissbfbdbe', 'showbuildnumber', 'request', 'nextcloud', 'requestmerge', 'nextcloud', 'androiddocker', 'requestrobot', 'transifex']",Risky_resource_management,{'crash': 100},
-2dd34a786fe10d0d47478a946b64e84f3fbcce18,"['mergemerge', 'nextcloud', 'requestmultiple', 'crash', 'account']",Risky_resource_management,{'crash': 100},
-e9c99a41ef2e6a07decc9bc8ed50dd90495e7248,"['multiple', 'crash', 'account', 'tobiaskaminsky', 'tobias']",Risky_resource_management,{'crash': 100},
-492d70345eee182431ddc09d4db41f79a8a2e737,"['mergemerge', 'nextcloud', 'requestfolder', 'crash', 'local']",Risky_resource_management,{'crash': 100},
-0a277608726668c9e4bd8bcdb257a120f1dd6c0f,"['folder', 'crash', 'local', 'tobiaskaminsky', 'tobias']",Risky_resource_management,{'crash': 100},
-d1848fab7d9368e214845547adb1dde84806b900,"['mergemerge', 'nextcloud', 'requestthemeutils', 'crash', 'context']",Risky_resource_management,{'crash': 100},
-6625d4f3b7c2599c2eddac120a401f4419c6d9a6,"['crash', 'credential']",Risky_resource_management,{'crash': 100},
-a028232d9cd8f041f1ac3e0da87d33c767c893b3,"['mergemerge', 'nextcloud', 'requestresume', 'crash', 'activity', 'check']",Risky_resource_management,{'crash': 100},
-73115c09a3341f66241178a4b03a027e0877c05e,"['crash', 'activity', 'tobiaskaminsky', 'tobias']",Risky_resource_management,{'crash': 100},
-873f7333cdc0c61f6dfe2ff2ad23eec7b23da51c,"['crash', 'drawer', 'tobiaskaminsky', 'tobias']",Risky_resource_management,{'crash': 100},
-f3cbe44635be3a45812c853397b0bc7a7c5b0ad1,"['mergemerge', 'nextcloud', 'sendsharecrash', 'requestshare', 'crash']",Risky_resource_management,{'crash': 100},
-981934a4c5ff57b8eb46ce645ecbf88f9f1ac33b,"['mergemerge', 'nextcloud', 'requestexception', 'error', 'crash']",Risky_resource_management,{'crash': 100},
-fa976159b74abe6f88fa0ab3208dc5821378bab5,"['exception', 'error', 'crash']",Risky_resource_management,{'crash': 100},
-812ad18881bbb507d95104d861471d667df1bcec,"['crash', 'rotationdanic', 'mario']",Risky_resource_management,{'crash': 100},
-13b841b67f323ddd1caff850fbbd714d051f3bc1,"['mergemerge', 'nextcloud', 'requestfilepath', 'crash', 'upload']",Risky_resource_management,{'crash': 100},
-febd1435de48961e0b4aa1cee61d9d0db43aca75,"['mergemerge', 'nextcloud', 'crash', 'empty', 'string']",Risky_resource_management,{'crash': 100},
-6c2d881dfeb0c256290a5638cf76f68078334f2f,"['crash', 'rotation', 'search']",Risky_resource_management,{'crash': 100},
-f9b6417f48a9bcee075b3f5334acb7724384283d,"['crash', 'rotation', 'search']",Risky_resource_management,{'crash': 100},
-c19644f86b8f4ec73f6d8df0d2232f2e46283c7c,"['mergemerge', 'nextcloud', 'search', 'event', 'crash']",Risky_resource_management,{'crash': 100},
-9c1339b1e408976ee08a49de2d8acc32933e61d6,"['search', 'event', 'crash']",Risky_resource_management,{'crash': 100},
-e883ac19f3fe6b546a99bb79e0dfe6dc378af308,"['fbbbb', 'mergerequest', 'nextcloud', 'crash', 'quotacrash', 'quota']",Risky_resource_management,{'crash': 100},
-657dbcd03ef7d4fefc6eea108ce417cd537bb469,"['crash', 'quota']",Risky_resource_management,{'crash': 100},
-ead3c16ec4afbe3f567acb0c2da40cfe290b349d,"['crash', 'tobias']",Risky_resource_management,{'crash': 100},
-68bd78177f20a8ae78c7cf65e16c169a95b84e28,"['dialogfragments', 'rotation', 'string', 'screen', 'crash']",Risky_resource_management,{'crash': 100},
-aa0e4b8cc801fbc332ca10bcd6bd23a031deebbc,"['crash', 'opening', 'android', 'sendingconflictvalueowncloud', 'activity', 'android']",Risky_resource_management,{'crash': 100},
-e96607889e9270de25fbd9866c6599bec76805f3,"['acfafmerge', 'nextcloud', 'androidstudio', 'requestgradle', 'update', 'security']",General,{'security': 100},
-6bf8b79831f3a1f0d8ea4a700fe1dbb5c9771470,"['plugin', 'android', 'update', 'security', 'gradle']",General,{'security': 100},
-81de65d1a2a7b11f7e9a201cd94785c2826b66ba,"['crash', 'dialog', 'opening', 'upload']",Risky_resource_management,{'crash': 100},
-7631bc24d3a65a4f14379160358ed821bd00c821,"['patch', 'crash']",Risky_resource_management,{'crash': 100},
-301ec578bc6b5f324be3c3effba4591eca1717cb,"['crash', 'obsolete', 'string', 'resource']",Risky_resource_management,{'crash': 100},
-a3aaca9ca322b5d9c7f1e2b7ce9b4295c7eea215,"['crash', 'connection']",Risky_resource_management,{'crash': 100},
-a827cfa791c6dbd9f87330bf7674b1895d87bece,"['cdcfba', 'mergeowncloud', 'category', 'security', 'detail']",General,{'security': 100},
-491a8b71a2eb4e812d91d64222550a3709b448eb,"['access', 'crash']",Risky_resource_management,{'crash': 100},
-5b7f44e0f7d13bb08497a812163231b6de2ea9ae,"['category', 'security', 'detailposition']",General,{'security': 100},
-49f593ecd148ef5e5bd64dcb2d8bcc7e394e6ef2,"['crash', 'share']",Risky_resource_management,{'crash': 100},
-c7a29bc07bb4f24a3a22530f0f51175ff688b76b,"['crash', 'weird', 'default', 'static', 'value']",Risky_resource_management,{'crash': 100},
-b7dfc0aa41f54869799a54619ed68f9152ed37a1,"['device', 'rotate', 'image', 'crash']",Risky_resource_management,{'crash': 100},
-d4c14f8b29baa8a9d61fee3eeac46499d88a0fe5,"['problem', 'support', 'library', 'crash']",Risky_resource_management,{'crash': 100},
-eb5b37efb203d3afea872c9684fca7927c8de677,"['deadlock', 'library']",Risky_resource_management,{'deadlock': 100},
-4fbce341beee83e770b491a44ad869d6c047b343,"['crash', 'android', 'accesibility']",Risky_resource_management,{'crash': 100},
-5d843eec5dee5d7acc568d714ad464ee16e74ccb,"['rotate', 'device', 'folder', 'crash', 'upload']",Risky_resource_management,{'crash': 100},
-d55c21ccfbfccf545ceee5eb038171dc86054e40,"['crash', 'navigate', 'upload']",Risky_resource_management,{'crash': 100},
-b3147346eb3ee5befbbb1cec025eb4c0892feb7e,"['crash', 'navigation', 'filelist']",Risky_resource_management,{'crash': 100},
-e54866589772a6b984c55c23fc51e3d4a90a88e4,"['folder', 'crash']",Risky_resource_management,{'crash': 100},
-77554b2b5156c00ac230071f8bfe32039c5b4a29,"['rotation', 'fragment', 'crash', 'invisible']",Risky_resource_management,{'crash': 100},
-0f39ff841a65d49778abf915b8730bce734bd960,"['removal', 'folder', 'crash']",Risky_resource_management,{'crash': 100},
-6224f73544405ed645dd00d136ad167e4c235876,"['whole', 'android', 'refresh', 'account', 'crash', 'lollipop']",Risky_resource_management,{'crash': 100},
-dbd981f0121f0e199ea9713c38e736c3f78f838c,"['multiple', 'account', 'crash', 'location']",Risky_resource_management,{'crash': 100},
-f68139619b86ca71169dfd0e759344c5c6ed8b1e,"['crash', 'upload']",Risky_resource_management,{'crash': 100},
-d5625e6cccd85dfb0f9e66a2da8f844341c96e2b,"['crash', 'setting']",Risky_resource_management,{'crash': 100},
-e72555f2bde1165a5afa9c32f3baeae6ea0b0e38,"['thumbnail', 'opening', 'crash', 'cache']",Risky_resource_management,{'crash': 100},
-53740c0a8cec323605394f3ddd7ce71ee25ddd90,"['crash', 'creation']",Risky_resource_management,{'crash': 100},
-71e64fdd455d5b1ff0f8ac0e627f8393b46afa1a,"['security', 'blanket']",General,{'security': 100},
-f029363e477deda53815f92035317e2153e893f2,"['rotate', 'device', 'crash']",Risky_resource_management,{'crash': 100},
-24ffdc2c2f892f2facb7baef74b3428cd4760f00,"['selection', 'device', 'folder', 'crash']",Risky_resource_management,{'crash': 100},
-5205fe22ae8ca124ee1582abcdb062f9869b9f38,"['crash', 'broadcast']",Risky_resource_management,{'crash': 100},
-36abdd9d0ae479323644604b1cc030bb7f0cb18a,"['owncloud', 'crash', 'storage']",Risky_resource_management,{'crash': 100},
-3fb28ceae432223e99150884609285644ed8b536,"['video', 'crash']",Risky_resource_management,{'crash': 100},
-37b44a551a19a275eba4097b8eeffcc36a9a98e9,"['instantuploads', 'folder', 'crash']",Risky_resource_management,{'crash': 100},
-ffdc77f8d8836376157414ca9a611ae685ec74b8,"['wrong', 'notification', 'credential', 'error', 'crash']",Risky_resource_management,{'crash': 100},
-086985ad26583ffa93e1519383d716f55d0c1d19,"['folder', 'crash']",Risky_resource_management,{'crash': 100},
-2628eceb6b7548d151ab61c42969b42064e586bd,"['result', 'crash', 'modify']",Risky_resource_management,{'crash': 100},
-4bb987e7b76d117c98269ff9b356050159a877df,"['crash', 'thing']",Risky_resource_management,{'crash': 100},
-2bf0864806b056b8d95a95dbc717fde0c42eee7a,"['issue', 'account', 'different', 'crash']",Risky_resource_management,{'crash': 100},
-b228f472c00fbae1127ae15177de7f4d6842d309,"['folder', 'crash']",Risky_resource_management,{'crash': 100},
-0e4c56f3161cefc49c0eb91eea2a84a02e2775a3,"['crash', 'installation', 'firstconflictowncloud', 'activity', 'android']",Risky_resource_management,{'crash': 100},
-92650603b342affdf3b3dc022455a5120f3ae705,"['crash', 'installation']",Risky_resource_management,{'crash': 100},
-f780062616bd9fec5eae37affff04d697befc795,"['server', 'internet', 'folder', 'crash', 'connection']",Risky_resource_management,{'crash': 100},
-552a34689c79cf6159807b4e5850117bde5228e8,"['occasional', 'update', 'event', 'synchronization', 'previous', 'crash']",Risky_resource_management,{'crash': 100},
-0aef684087c266b5e79a2693592748a53cc87a56,"['folder', 'crash', 'refresh']",Risky_resource_management,{'crash': 100},
-31615a24ce0bacc28a4edc602678282cfc31af35,"['crash', 'account']",Risky_resource_management,{'crash': 100},
-863f3f68d20b34dce2a1a7cb5230a23983da1f30,"['account', 'crash']",Risky_resource_management,{'crash': 100},
-2402e9ed4cdb6857c8d245ba652dfcb7bb88d120,"['account', 'crash']",Risky_resource_management,{'crash': 100},
-002e1bf9e3872734f050638c7291540879cd42e8,"['issueowncloud', 'crash', 'content']",Risky_resource_management,{'crash': 100},
-7d1ea9819ce0e08cf17b3d0aeef0211c8ef304c8,"['access', 'refresh', 'login', 'rename', 'activity', 'account', 'crash', 'delete']",Risky_resource_management,{'crash': 100},
-5f8b6362886b2ac5dbee55e909a665a73d0b4284,"['ukranian', 'format', 'crash']",Risky_resource_management,{'crash': 100},
-5c37e0c10e152ba1c2e969d6b84c8af1bf28e9e4,"['ukranian', 'device', 'successfull', 'crash', 'download']",Risky_resource_management,{'crash': 100},
-d19d985c0a27ed4a1d22a78c5d2133449abc287c,"['foreground', 'actitivity', 'setting', 'account', 'brough', 'crash', 'detail', 'system']",Risky_resource_management,{'crash': 100},
-4b46b17fcb395ae41a2796ffa2de5db3001c4a5c,"['store', 'crash']",Risky_resource_management,{'crash': 100},
-afa58b8ac6e08784b67942cc6938fb0a290c3aab,"['crash', 'detail']",Risky_resource_management,{'crash': 100},
-a1a31b68d989f0f9ac7d9ae101d149211008c06b,"['crash', 'upload']",Risky_resource_management,{'crash': 100},
-7fa988573879b20ecb457f8739bbd02efbd4bf7d,"['folder', 'crash']",Risky_resource_management,{'crash': 100},
-9c3dc6d8503fad94b2bbfdfc26ecd0153f6e0e00,"['crash', 'initialization']",Risky_resource_management,{'crash': 100},
-cf27417e546f273d7408eb92852ad739af7bb437,"['instantupload', 'account', 'folder', 'crash']",Risky_resource_management,{'crash': 100},
-b416f87c9201b63cb162a5ff3a059a2de81863a4,"['crash', 'download']",Risky_resource_management,{'crash': 100},
-557126eecf185d6b537e4bb05393b6c37ab261f8,"['method', 'review', 'general', 'crash']",Risky_resource_management,{'crash': 100},
-c7dc13598737ff21a5d358f5fa4d1f38e2d70fb9,"['crash', 'google', 'report']",Risky_resource_management,{'crash': 100},
-eda724313028d60437c509d59fee7ebef8c6cfbf,"['server', 'certificate', 'crash', 'dialog']",Risky_resource_management,{'crash': 100},
-3b0692cb38bd470c5f433133487a5cdee233762e,"['content', 'invalid', 'multiple', 'activity', 'crash', 'upload']",Risky_resource_management,{'crash': 100},
-fbd720e8874d5adcfd0dcc5aa8c602ecb54ef83c,"['crash', 'login']",Risky_resource_management,{'crash': 100},
-4e57c008b7c3975745a637780687bee7ad1563e8,"['prettier', 'crash', 'uploader']",Risky_resource_management,{'crash': 100},
-38ece35da5372d828e79a9ba31bdcd828cb5cd52,"['error', 'login', 'crash', 'connection']",Risky_resource_management,{'crash': 100},
-ff0803c3eead5a8b42b9a6f3fc4d351be076c081,"['wrong', 'login', 'finish', 'crash']",Risky_resource_management,{'crash': 100},
-463b30c46a57df8c298be9d5b196e8e0330a0b73,"['selection', 'external', 'response', 'crash', 'upload']",Risky_resource_management,{'crash': 100},
-146f7969b3be30754aca10395fa39f68928a392e,"['preview', 'image', 'crash', 'logger', 'backwards', 'compatibility']",Risky_resource_management,{'crash': 100},
-baf003a555afed17457401d9061002fa3dfd75c0,"['crash', 'adapter', 'mimetype']",Risky_resource_management,{'crash': 100},
-d8e0387aef0b538c31cf095fd9637472bb9a0572,"['crash', 'synchronization']",Risky_resource_management,{'crash': 100},
-6c6d3a601bab6fb4d13a44eb6f04fab9919b8988,"['droidcloud', 'crash', 'duplicate']",Risky_resource_management,{'crash': 100},
-fcf40b4423731d708d6eb294bef3eeafcfacfaad,"['crash', 'candidate']",Risky_resource_management,{'crash': 100},
-fc59d2c4f66846a9d049db645633ab9788c72b46,"['crash', 'workaround', 'system']",Risky_resource_management,{'crash': 100},
-a674df97dac8f9fff874689b64c5e3a09b3abb1a,"['crash', 'directory']",Risky_resource_management,{'crash': 100},
-6e3b5f488c3047424acb0aa47b3d5a16287556b1,"['crash', 'dialog', 'upload', 'dummy']",Risky_resource_management,{'crash': 100},
-5a382ca42146e62e1b8899e4444415c2b029dd07,"['crash', 'upload']",Risky_resource_management,{'crash': 100},
-fbfdcfceeb30322fc648e725e69fce4320eff3e1,"['crash', 'creation']",Risky_resource_management,{'crash': 100},
-d8e4a87c421840ff6f1b46e1441f88921347a181,"['crash', 'space', 'download']",Risky_resource_management,{'crash': 100},
-32b09ab78ffd18a5a07752982883813ccecfb80d,"['crash', 'account']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+7b7d5af6f124b65d3ac8b770f96854a2f4f1a171,"['pull', 'request', 'nextcloud', 'security', 'security']",General,{'security': 100}
+2e98dcd11dd264a0f5d370495eca829f97b84d18,['security'],General,{'security': 100}
+33945b880bdab610fe78ef3901dd22abb70cf114,"['pull', 'request', 'nextcloud', 'parseloginurl', 'crash', 'wrong', 'deep', 'login']",General,{'crash': 100}
+ebdf716e11f8f88d7f643eaa571bd2425b55d3b3,"['pull', 'request', 'nextcloud', 'crash', 'multiple', 'editor']",General,{'crash': 100}
+211786c226da45c51f184bfebd53a68678d890e3,"['crash', 'multiple', 'editor', 'tobiaskaminsky', 'tobias', 'kaminsky']",General,{'crash': 100}
+af2891a4a799be6c2280d5e31f8814ba0f40180b,"['pull', 'request', 'nextcloud', 'ezaquarii', 'crash', 'status', 'dialog', 'crash']",General,{'crash': 100}
+2fc47c243aba839502232122852f468a7e90fcf9,"['crash', 'chris', 'narkiewicz', 'hello', 'ezaquarii']",General,{'crash': 100}
+e9198313fd7ced1d3e02350ca258e238943c90c0,"['pull', 'request', 'nextcloud', 'themecrash', 'crash', 'medium', 'pane']",General,{'crash': 100}
+0ad1af7717c87b75bba4db6fd7f5af5db6bc7e9e,"['crash', 'medium', 'pane', 'tobiaskaminsky', 'tobias', 'kaminsky']",General,{'crash': 100}
+f8c83e9e6fb52b0e1e8f0dcc121a96ec22e1660e,"['pull', 'request', 'nextcloud', 'detailcrash', 'crash', 'opening', 'detail']",General,{'crash': 100}
+b1e69426c7a8225e7ea7aaf49b61c2149efb723b,"['crash', 'opening', 'detail', 'tobiaskaminsky', 'tobias', 'kaminsky']",General,{'crash': 100}
+501eb7de89bc9bfac535b505b81aa7a5dcfc39b0,"['pull', 'request', 'nextcloud', 'firebase', 'crash']",General,{'crash': 100}
+b66adb91990a1d254f5a5375fdaeaa0a4e143def,"['firebase', 'crash', 'http', 'analytics', 'configure', 'data', 'collection', 'platform', 'android', 'tobiaskaminsky', 'tobias', 'kaminsky']",General,{'crash': 100}
+e8870334d2e89df4a898909f1a9faa362dbc0781,"['performance', 'ischilddocument', 'solution', 'iterates', 'parent', 'child', 'parent', 'storage', 'root', 'show', 'expensive', 'empirical', 'test', 'efficient', 'solution', 'file', 'path', 'child', 'ensures', 'parent', 'child', 'account', 'reviewer', 'need', 'extra', 'care', 'introduce', 'security', 'issue', 'document', 'child', 'parent', 'torsten', 'grote', 'grobox']",General,{'security': 100}
+64ec7053989e16f5353204ddb79c1a58beb90baa,"['sync', 'date', 'file', 'sync', 'operation', 'detects', 'timestamps', 'millisecond', 'local', 'modification', 'time', 'precision', 'sync', 'operation', 'detect', 'upload', 'file', 'data', 'loss', 'close', 'listener', 'thread', 'appropriate', 'thread', 'torsten', 'grote', 'grobox']",Risky_resource_management,{'data loss': 100}
+dcf7455e575c6bf99b5ebc1d6ba2c4ef2d5b4499,"['pull', 'request', 'nextcloud', 'passworttoshare', 'crash', 'setting', 'password']",General,{'crash': 100}
+886d42dc0fabbf39b53eeba84372f2c54c4004b7,"['crash', 'setting', 'password', 'tobiaskaminsky', 'tobias', 'kaminsky']",General,{'crash': 100}
+6f38bf7a8b28c7977351591d66897283e78b9758,"['pull', 'request', 'nextcloud', 'friendlyname', 'crash', 'default', 'storage', 'friendly', 'name']",General,{'crash': 100}
+60b1f3702ea65d43c46690b8806d084c5c76e9f9,"['crash', 'default', 'storage', 'friendly', 'name', 'tobiaskaminsky', 'tobias', 'kaminsky']",General,{'crash': 100}
+6fda99a6336b7a133993c22709ae8e6878819d22,"['pull', 'request', 'nextcloud', 'fabcrash', 'crash', 'folder', 'picker']",General,{'crash': 100}
+a3487adbdf64567925310ab14d87882c0e894783,"['crash', 'folder', 'picker', 'tobiaskaminsky', 'tobias', 'kaminsky']",General,{'crash': 100}
+faab13ca928dc01b6369168d9d8b0d8d4d79da6f,"['pull', 'request', 'nextcloud', 'authcrash', 'crash']",General,{'crash': 100}
+9a07418e519fbcefccf75b02d15327fc492367c5,"['crash', 'tobiaskaminsky', 'tobias', 'kaminsky']",General,{'crash': 100}
+3965af0cfc98bac65a557257715fc6331e984244,"['pull', 'request', 'nextcloud', 'fixods', 'crash']",General,{'crash': 100}
+352cdb6332270bf998d5d2fb27ea4d16d3089de2,"['pull', 'request', 'nextcloud', 'action', 'mode', 'crash', 'relative', 'actionmode', 'actionmode', 'behaviour']",General,{'crash': 100}
+07dc18339a214b03851bcc61773d46615bb75004,"['crash', 'tobiaskaminsky', 'tobias', 'kaminsky']",General,{'crash': 100}
+23f1c74e1df045feb5fdc255c99cd1fe2ebc1c62,"['pull', 'request', 'nextcloud', 'crash']",General,{'crash': 100}
+3d951e16c60cd262c13d1d7743232996d0edfa2f,"['crash', 'tobiaskaminsky', 'tobias', 'kaminsky']",General,{'crash': 100}
+34c05c9d0eb21dd465b79a6e1231eedae20e165d,"['pull', 'request', 'nextcloud', 'ezaquarii', 'kilian', 'account', 'crash', 'crash', 'account', 'auth']",General,{'crash': 100}
+5942e4e6617470824037e48bcdba49e064bb23b2,"['crash', 'account', 'auth', 'kilian', 'risset', 'kilian', 'perisset', 'infomaniak', 'chris', 'narkiewicz', 'hello', 'ezaquarii']",General,{'crash': 100}
+ade73c3e5718d357f9030261bf4306b9df5fbf63,"['pull', 'request', 'nextcloud', 'conflicttoast', 'crash']",General,{'crash': 100}
+949a5c3a4f1a759ad0fd62be82951d1f699243c9,"['crash', 'tobiaskaminsky', 'tobias', 'kaminsky']",General,{'crash': 100}
+7b5e3607aa2fcb09d7f91629412011a961586057,"['pull', 'request', 'nextcloud', 'sortcrash', 'crash', 'folder', 'picker']",General,{'crash': 100}
+221d3cc3273c51749aea0f2a838a995ba07eb4db,"['crash', 'folder', 'picker', 'tobiaskaminsky', 'tobias', 'kaminsky']",General,{'crash': 100}
+3ae41ec9fa43cf329331e663b575aee4b62fd2d4,"['pull', 'request', 'endre', 'borcsok', 'bugfix', 'crash', 'activity']",General,{'crash': 100}
+bf7d33066bfd9d32982997f0586b4270732e88b8,"['crash', 'activity', 'maketext', 'method', 'endre', 'borcsok', 'ebsoftmobile', 'gmail']",General,{'crash': 100}
+c243453168f9187954ae82963916e1b9d69325f7,"['pull', 'request', 'nextcloud', 'folder', 'crash', 'autosync', 'crash', 'folder', 'creation', 'autosync']",General,{'crash': 100}
+20b910a64643681891209bd9fb566b9e44c99216,"['pull', 'request', 'nextcloud', 'ezaquarii', 'crash', 'text', 'file', 'creation', 'crash', 'text', 'file', 'creation']",General,{'crash': 100}
+0977c37916079f984d500dc700a19c76a9862d76,"['crash', 'text', 'file', 'creation', 'chris', 'narkiewicz', 'hello', 'ezaquarii', 'tobiaskaminsky', 'tobias', 'kaminsky']",General,{'crash': 100}
+2d6e73dd3136d67f0e145f3705dd50545b235665,"['pull', 'request', 'nextcloud', 'fixcontactcrash', 'crash']",General,{'crash': 100}
+6048243f4181d615d51d6c20c5ab21ae95dc7009,"['crash', 'cast', 'java', 'lang', 'void', 'tobiaskaminsky', 'tobias', 'kaminsky']",General,{'crash': 100}
+5d868e47fce5daa7bbc8efffeddc32f6b192940d,"['pull', 'request', 'nextcloud', 'lolipop', 'webview', 'crash', 'appcompat', 'alpha']",General,{'crash': 100}
+e0beda807dc87ba1c32ce523146f7f1036f1f76e,"['pull', 'request', 'nextcloud', 'spinner', 'dbda', 'spinner', 'primary', 'color', 'white', 'grey', 'pull', 'request', 'nextcloud', 'bump', 'pull', 'request', 'nextcloud', 'fastlane', 'eeeceb', 'fastlane', 'pull', 'request', 'nextcloud', 'ecbf', 'clickable', 'rich', 'workspace', 'area', 'crash', 'aaedf', 'bump', 'alpha', 'pull', 'request', 'nextcloud', 'whiteheader', 'pull', 'request', 'nextcloud', 'createtext', 'transifex']",General,{'crash': 100}
+1ec8b067f09e1000136ac05b401be9111558727c,"['clickable', 'rich', 'workspace', 'area', 'crash', 'tobiaskaminsky', 'tobias', 'kaminsky']",General,{'crash': 100}
+36294785cf97097b1429c1e9f074bc833757d77d,"['pull', 'request', 'nextcloud', 'removenc', 'support', 'ddca', 'pull', 'request', 'nextcloud', 'ezaquarii', 'crash', 'storage', 'manager', 'pull', 'request', 'nextcloud', 'ezaquarii', 'crash', 'making', 'file', 'ebef', 'pull', 'request', 'nextcloud', 'ezaquarii', 'null', 'glitch', 'pull', 'request', 'nextcloud', 'fcecaea', 'catch', 'master', 'clickable', 'markdown', 'preview', 'clickable', 'markdown', 'preview', 'cdfa', 'robot', 'transifex', 'abef', 'robot', 'transifex', 'ddcd', 'robot', 'transifex', 'robot', 'transifex', 'pull', 'request', 'nextcloud', 'dependabot', 'gradle', 'junit', 'junit', 'bebb', 'robot', 'transifex', 'ccaee', 'bump', 'junit', 'robot', 'transifex', 'fcdd', 'pull', 'request', 'nextcloud', 'dependabot', 'gradle', 'daggerversion', 'abfae', 'bump', 'daggerversion', 'cbfce', 'robot', 'transifex', 'null', 'glitch', 'file', 'detail', 'view', 'cfebd', 'crash', 'file', 'pull', 'request', 'nextcloud', 'dependabot', 'gradle', 'detekt', 'gradle', 'plugin', 'bump', 'detekt', 'gradle', 'plugin', 'transifex', 'fdcb', 'robot', 'transifex', 'robot', 'transifex']",General,{'crash': 100}
+d7d1c475aebb7b7e92b98c3d36dbf66c7a244d86,"['pull', 'request', 'nextcloud', 'ezaquarii', 'crash', 'storage', 'manager', 'crash', 'startup', 'storage', 'manager']",General,{'crash': 100}
+9b79b85ff5894789568932267a93a03f5d1e03a7,"['pull', 'request', 'nextcloud', 'ezaquarii', 'crash', 'making', 'file', 'crash', 'file']",General,{'crash': 100}
+3cf3e3bd71edf481faa5de2f86d27bb36b62fb97,"['crash', 'file', 'crash', 'async', 'task', 'callback', 'activity', 'check', 'fragment', 'callback', 'logic', 'chris', 'narkiewicz', 'hello', 'ezaquarii']",General,{'crash': 100}
+1caf02a0f5d75e1388634cde4c09aafb3b8e07d6,"['pull', 'request', 'nextcloud', 'pull', 'request', 'grote', 'thumbnail', 'pull', 'request', 'nextcloud', 'dependabot', 'gradle', 'tool', 'fastlane', 'screengrab', 'dadd', 'warning', 'master', 'direct', 'editing', 'support', 'abstract', 'editorwebview', 'support', 'direct', 'editing', 'endpoint', 'ddffafb', 'custom', 'user', 'agent', 'onlyoffice', 'static', 'string', 'revert', 'master', 'snapshot', 'afec', 'editor', 'editor', 'file', 'path', 'parameter', 'open', 'direct', 'editing', 'file', 'abba', 'sure', 'texteditor', 'android', 'security', 'reason', 'javascript', 'interface', 'direct', 'editing', 'info', 'endpoint', 'bcee', 'direct', 'editing', 'support', 'abstract', 'editorwebview', 'support', 'direct', 'editing', 'endpoint', 'override', 'minsdk', 'bump', 'screengrab', 'fbedbd', 'pull', 'request', 'nextcloud', 'uicomparison']",Insecure_interaction_between_components,{'open direct': 92}
+d05de9855a98697128237c8e82be5d4fca3c2a04,"['file', 'path', 'parameter', 'open', 'direct', 'editing', 'file', 'tobiaskaminsky', 'tobias', 'kaminsky']",Insecure_interaction_between_components,{'open direct': 92}
+300abba48ba6f3447b426b12d44d6550a0e4d1c1,"['sure', 'texteditor', 'android', 'security', 'reason', 'javascript', 'interface', 'tobiaskaminsky', 'tobias', 'kaminsky']",General,{'security': 100}
+3f3c5a1951d83489348bfafd366227373efc87be,"['crash', 'startup', 'storage', 'manager', 'chris', 'narkiewicz', 'hello', 'ezaquarii']",General,{'crash': 100}
+0dbee8aa954878bf8371a2df1a2945ea79c3e533,"['bfacbeeb', 'pull', 'request', 'nextcloud', 'releaseprocess', 'imfo', 'hotfix', 'security', 'release', 'fcfa', 'pull', 'request', 'nextcloud', 'afbfbf', 'pull', 'request', 'nextcloud', 'pull', 'request', 'nextcloud', 'fixrelativepath', 'afdac', 'double', 'subfolders', 'fcee', 'ocfiles', 'photo', 'search', 'parent', 'fileid', 'virtual', 'file', 'parent', 'folder', 'search', 'file', 'path', 'cfdabd', 'fancy', 'material', 'header', 'textinput', 'regular', 'textview', 'show', 'button', 'legacy', 'login', 'layout', 'tablet', 'mode']",General,{'security': 100}
+fe07963299eae9a15c93063a2cebf4b4618d59ae,"['imfo', 'hotfix', 'security', 'release', 'andy', 'scherzinger', 'info', 'andy', 'scherzinger']",General,{'security': 100}
+ff1d95008e284bfe2383db1d1785660077d8255b,"['pull', 'request', 'nextcloud', 'gridcrash', 'cacab', 'pull', 'request', 'nextcloud', 'ezaquarii', 'favorite', 'eaaa', 'crash', 'grid', 'column', 'dcaab', 'robot']",General,{'crash': 100}
+1b6b909a8c7bac1fd196f88c88c0072ca18c7853,"['pull', 'request', 'nextcloud', 'gridcrash', 'crash', 'grid', 'column']",General,{'crash': 100}
+02eaa886ae97f01b3247208149b4945f06058606,"['crash', 'grid', 'column', 'tobiaskaminsky', 'tobias', 'kaminsky']",General,{'crash': 100}
+f10843e03c6ffaa991304a2f39c4a6089e735d63,"['bcabb', 'pull', 'request', 'nextcloud', 'ezaquarii', 'account', 'registration', 'aafb', 'pull', 'request', 'nextcloud', 'ezaquarii', 'speculative', 'pull', 'request', 'nextcloud', 'ezaquarii', 'crash', 'beeee', 'robot', 'transifex', 'crash', 'action', 'mode', 'registration', 'pull', 'request', 'nextcloud', 'dependabot', 'gradle', 'glide']",General,{'crash': 100}
+f64485f27908364b73e76f038389e2fadd6e5395,"['pull', 'request', 'nextcloud', 'ezaquarii', 'crash', 'crash', 'action', 'mode']",General,{'crash': 100}
+551c4d3f1a09e2a42f6076c65e229a019f24aad5,"['crash', 'action', 'mode', 'chris', 'narkiewicz', 'hello', 'ezaquarii']",General,{'crash': 100}
+c02f79e05a0da2c2d80c6fe4ad9badea2a39c584,"['service', 'crash', 'device', 'jobservice', 'proper', 'issue', 'chris', 'narkiewicz', 'hello', 'ezaquarii']",General,{'crash': 100}
+d9a24cb348caa3a6d07a19145fd988aa7a4392e4,"['pull', 'request', 'nextcloud', 'ezaquarii', 'crash', 'video', 'ffcfb', 'pull', 'request', 'nextcloud', 'dependabot', 'gradle', 'bump', 'abeaddfa', 'pull', 'request', 'nextcloud', 'dependabot', 'gradle', 'dagger', 'bump', 'dagger', 'bump', 'dagger', 'efdc', 'pull', 'request', 'nextcloud', 'dependabot', 'gradle', 'contrib', 'contrib', 'robot', 'transifex', 'robot', 'transifex']",General,{'crash': 100}
+b5458818c74f97e8a7db8be269f6b12f53662903,"['pull', 'request', 'nextcloud', 'ezaquarii', 'crash', 'video', 'crash', 'video', 'file']",General,{'crash': 100}
+38c7605ef5b2394b48a54702d6d67a1a2ac0b7fa,"['crash', 'video', 'file', 'bitmap', 'decoder', 'work', 'vector', 'drawables', 'dependency', 'injection', 'chris', 'narkiewicz', 'hello', 'ezaquarii']",General,{'crash': 100}
+59239ec3fb9b2a15a1bde5a4cabcb463c172ab7e,"['pull', 'request', 'nextcloud', 'ecae', 'crash', 'multiple', 'account', 'pull', 'request', 'nextcloud', 'ccaca', 'notification', 'bfbdbe', 'pull', 'request', 'nextcloud', 'showbuildnumber', 'show', 'pull', 'request', 'nextcloud', 'preventnpe', 'pull', 'request', 'nextcloud', 'androiddocker', 'robot', 'transifex', 'faaa']",General,{'crash': 100}
+2dd34a786fe10d0d47478a946b64e84f3fbcce18,"['pull', 'request', 'nextcloud', 'crash', 'multiple', 'account']",General,{'crash': 100}
+e9c99a41ef2e6a07decc9bc8ed50dd90495e7248,"['crash', 'multiple', 'account', 'tobiaskaminsky', 'tobias', 'kaminsky']",General,{'crash': 100}
+09cca69c93dfe85e8dabf468d11c5684f5c4d2e3,"['pull', 'request', 'nextcloud', 'ezaquarii', 'crash', 'text', 'preview', 'fragment', 'afaef', 'crash', 'robot', 'transifex']",General,{'crash': 100}
+81993eee1994710e32f9cabe5625daa887c81645,"['pull', 'request', 'nextcloud', 'ezaquarii', 'crash', 'text', 'preview', 'fragment', 'crash']",General,{'crash': 100}
+30af6a9efb472425e97b61dde9a78f13eb52267a,"['crash', 'chris', 'narkiewicz', 'hello', 'ezaquarii']",General,{'crash': 100}
+b0f9c5ea68cd7113e2e1033e47be007740b8a549,"['check', 'note', 'empty', 'string', 'crash', 'report', 'google', 'tobiaskaminsky', 'tobias', 'kaminsky']",General,{'crash': 100}
+505be999468ff2a70b14cc818faf823855e8a3fe,"['pull', 'request', 'nextcloud', 'filemenufilter', 'null', 'method', 'file', 'possible', 'dereference', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+b96414d794bc2183765d1928491d36dc956a892f,"['possible', 'dereference', 'null', 'pointer', 'capability', 'object', 'null', 'case', 'idea', 'null', 'object', 'ardevd', 'edvard', 'holst', 'gmail']",Risky_resource_management,{'null pointer': 100}
+0b96ae76f42d1519da55e92e0729d04d37f741ed,"['pull', 'request', 'nextcloud', 'fixgcm', 'crash', 'evernote']",General,{'crash': 100}
+7c7447d9892857b3767369cacab816e4b7a0ecb3,"['crash', 'evernote', 'tobiaskaminsky', 'tobias', 'kaminsky']",General,{'crash': 100}
+492d70345eee182431ddc09d4db41f79a8a2e737,"['pull', 'request', 'nextcloud', 'crash', 'local', 'folder']",General,{'crash': 100}
+0a277608726668c9e4bd8bcdb257a120f1dd6c0f,"['crash', 'local', 'folder', 'tobiaskaminsky', 'tobias', 'kaminsky']",General,{'crash': 100}
+2fa06874931f108867ce18d595022e84e498329f,"['propfind', 'mkcol', 'method', 'inputstream', 'post', 'method', 'crash', 'httpstream', 'null', 'phie', 'phie', 'phie', 'tobiaskaminsky', 'tobias', 'kaminsky']",General,{'crash': 100}
+c3269e66395034d58ba67aff95eea4ebe115ac86,"['pull', 'request', 'blackhat', 'master', 'crash', 'file', 'nextcloud']",General,{'crash': 100}
+d1848fab7d9368e214845547adb1dde84806b900,"['pull', 'request', 'nextcloud', 'themeutils', 'crash', 'context', 'null']",General,{'crash': 100}
+26591e30af14654d0b46ccb3eb387f75aaa66cc7,"['crash', 'context', 'null', 'tobiaskaminsky', 'tobias', 'kaminsky']",General,{'crash': 100}
+2f68a6ef850ec4272d341c710ea8f48d44c2c3f0,"['pull', 'request', 'nextcloud', 'crash', 'preference', 'check']",General,{'crash': 100}
+6625d4f3b7c2599c2eddac120a401f4419c6d9a6,"['crash', 'credential']",General,{'crash': 100}
+a028232d9cd8f041f1ac3e0da87d33c767c893b3,"['pull', 'request', 'nextcloud', 'resume', 'activity', 'crash', 'grid', 'view', 'check']",General,{'crash': 100}
+7b44f3b29688771cd7dcdb2908c7c992b1c9422a,"['pull', 'request', 'nextcloud', 'crash']",General,{'crash': 100}
+0b94dea7b94d7b207db34b2f93ad2b912c12b3f0,"['pull', 'request', 'nextcloud', 'crash', 'device']",General,{'crash': 100}
+df2f999fd43e4e233b95b083e84a5d812fed0fb2,"['crash', 'device', 'tobiaskaminsky', 'tobias', 'kaminsky']",General,{'crash': 100}
+268b08fef8231c895f65833f94e75b1edf602dad,"['pull', 'request', 'nextcloud', 'crash', 'opening', 'drawer']",General,{'crash': 100}
+873f7333cdc0c61f6dfe2ff2ad23eec7b23da51c,"['crash', 'opening', 'drawer', 'tobiaskaminsky', 'tobias', 'kaminsky']",General,{'crash': 100}
+f3cbe44635be3a45812c853397b0bc7a7c5b0ad1,"['pull', 'request', 'nextcloud', 'sendsharecrash', 'share', 'crash']",General,{'crash': 100}
+1ecf056967dd67fab614e1c163c753e1ded114c0,"['pull', 'request', 'nextcloud', 'fallback', 'setting', 'span', 'text', 'crash']",General,{'crash': 100}
+628073fe0ebde14daab8de6cb8f379ccc0857917,"['crash', 'mario', 'danic', 'mario', 'lovelyhq']",General,{'crash': 100}
+812ad18881bbb507d95104d861471d667df1bcec,"['rotation', 'crash', 'mario', 'danic', 'mario', 'lovelyhq']",General,{'crash': 100}
+d8cf4f84645a7de268e612d000c752424ee2f6a4,"['application', 'context', 'memory', 'leak', 'device', 'android']",Risky_resource_management,{'memory leak': 100}
+13b841b67f323ddd1caff850fbbd714d051f3bc1,"['pull', 'request', 'nextcloud', 'auto', 'upload', 'crash', 'filepath', 'null']",General,{'crash': 100}
+5c9870d3f3a6b2903935e4baa771488e0718013c,"['support', 'version', 'conflict', 'library', 'exact', 'version', 'specification', 'version', 'lead', 'runtime', 'crash']",General,{'crash': 100}
+febd1435de48961e0b4aa1cee61d9d0db43aca75,"['pull', 'request', 'nextcloud', 'crash', 'empty', 'string']",General,{'crash': 100}
+6c2d881dfeb0c256290a5638cf76f68078334f2f,"['search', 'view', 'show', 'data', 'crash', 'rotation', 'search', 'view']",General,{'crash': 100}
+54eba4142ae84bf974a753fa4f96ae36a9b5339e,"['pull', 'request', 'nextcloud', 'crash', 'login', 'delete', 'account']",General,{'crash': 100}
+f9b6417f48a9bcee075b3f5334acb7724384283d,"['search', 'view', 'show', 'data', 'crash', 'rotation', 'search', 'view']",General,{'crash': 100}
+674b20364ac470a2d02b37f24e9504a9fa9f6c6c,['crash'],General,{'crash': 100}
+20bb144533576ce0a4c116f998e33b85afd1d8ef,"['pull', 'request', 'nextcloud', 'search', 'crash', 'crash']",General,{'crash': 100}
+b801310ce2f5cfb22a91f14f7298a4a4e3ffc1a4,['crash'],General,{'crash': 100}
+e883ac19f3fe6b546a99bb79e0dfe6dc378af308,"['pull', 'request', 'nextcloud', 'quota', 'crash', 'quota', 'crash']",General,{'crash': 100}
+657dbcd03ef7d4fefc6eea108ce417cd537bb469,"['quota', 'crash']",General,{'crash': 100}
+ead3c16ec4afbe3f567acb0c2da40cfe290b349d,"['tobias', 'crash']",General,{'crash': 100}
+bfb0fdf763f6efd8bd5a0eadc0abde1a0db86593,"['pull', 'request', 'carstendev', 'rotation', 'crash', 'rotation', 'crash']",General,{'crash': 100}
+d038fd72601fe12f17f92498767d0f2b7719b73d,"['rotation', 'crash']",General,{'crash': 100}
+68bd78177f20a8ae78c7cf65e16c169a95b84e28,"['string', 'resource', 'dialogfragments', 'crash', 'screen', 'rotation']",General,{'crash': 100}
+d8f07d3abc1ade0fb6cc4be4629a0abce35948a0,"['pull', 'request', 'nextcloud', 'fixsendlogcrash', 'crash', 'android']",General,{'crash': 100}
+73b8220df0676a5d1126651581c504571fdf0c6c,"['crash', 'android']",General,{'crash': 100}
+c3eb12caef0ddcfbe092d29d85d895929a245c98,"['crash', 'android']",General,{'crash': 100}
+aa0e4b8cc801fbc332ca10bcd6bd23a031deebbc,"['crash', 'opening', 'file', 'android', 'conflict', 'value', 'setup', 'owncloud', 'android', 'activity']",General,{'crash': 100}
+66f909291f0e90acc7772ca34d1f111768fb7d6f,"['pull', 'request', 'nextcloud', 'crash']",General,{'crash': 100}
+6c06147f4e664ba5b08e0b707427ca77975d6599,"['pull', 'request', 'nextcloud', 'logsendcrash', 'crash']",General,{'crash': 100}
+00684cd339c618e1d667d18910ffc44de8a13f73,['crash'],General,{'crash': 100}
+1dd27dda88bfe1360f916fd574c8d25cb243885c,['crash'],General,{'crash': 100}
+e96607889e9270de25fbd9866c6599bec76805f3,"['pull', 'request', 'nextcloud', 'gradle', 'update', 'security']",General,{'security': 100}
+6bf8b79831f3a1f0d8ea4a700fe1dbb5c9771470,"['gradle', 'update', 'android', 'plugin', 'update', 'security']",General,{'security': 100}
+655bb6335bc8c4b300ad11998d021f4e3c1c98c6,"['pull', 'request', 'nextcloud', 'fixsamlcrash', 'crash', 'saml', 'account']",General,{'crash': 100}
+1a1d50f8b61a06791188ff8251327826c2b3e99d,"['crash', 'saml', 'account']",General,{'crash': 100}
+81de65d1a2a7b11f7e9a201cd94785c2826b66ba,"['crash', 'opening', 'upload', 'dialog']",General,{'crash': 100}
+301ec578bc6b5f324be3c3effba4591eca1717cb,"['crash', 'obsolete', 'string', 'resource']",General,{'crash': 100}
+89870064dc613775c0c2d9458ebae273405c3ff5,"['pull', 'request', 'owncloud', 'crash', 'login', 'view']",General,{'crash': 100}
+a827cfa791c6dbd9f87330bf7674b1895d87bece,"['pull', 'request', 'owncloud', 'prefdetails', 'security', 'category', 'detail', 'setting']",General,{'security': 100}
+491a8b71a2eb4e812d91d64222550a3709b448eb,"['crash', 'clear', 'data']",General,{'crash': 100}
+5b7f44e0f7d13bb08497a812163231b6de2ea9ae,"['security', 'category', 'detail']",General,{'security': 100}
+49f593ecd148ef5e5bd64dcb2d8bcc7e394e6ef2,"['crash', 'share', 'link']",General,{'crash': 100}
+5384f6ff86ff7468a7be6f35cdae23314b9a36ae,"['grant', 'listener', 'devide', 'crash', 'password']",General,{'crash': 100}
+c7a29bc07bb4f24a3a22530f0f51175ff688b76b,"['default', 'static', 'value', 'weird', 'crash']",General,{'crash': 100}
+b7dfc0aa41f54869799a54619ed68f9152ed37a1,"['crash', 'rotate', 'device']",General,{'crash': 100}
+d4c14f8b29baa8a9d61fee3eeac46499d88a0fe5,"['crash', 'edit', 'problem', 'android', 'support', 'library']",General,{'crash': 100}
+2fcffbd3d580f41ecc114248f4d74a19a34b622b,"['pull', 'request', 'owncloud', 'crash', 'invalid']",General,{'crash': 100}
+98f73400ca3aa5c872d2e8461ab0ecb472c5f760,"['time', 'crash']",General,{'crash': 100}
+4fbce341beee83e770b491a44ad869d6c047b343,"['crash', 'android', 'accesibility', 'code']",General,{'crash': 100}
+2a9aae2ed15ba33ace939c71dfdd32322844063f,"['pull', 'request', 'owncloud', 'crash', 'android', 'gridview']",General,{'crash': 100}
+5d843eec5dee5d7acc568d714ad464ee16e74ccb,"['crash', 'upload', 'file', 'folder', 'rotate', 'device']",General,{'crash': 100}
+d55c21ccfbfccf545ceee5eb038171dc86054e40,"['crash', 'navigate', 'upload', 'file']",General,{'crash': 100}
+b3147346eb3ee5befbbb1cec025eb4c0892feb7e,"['crash', 'navigation', 'filelist']",General,{'crash': 100}
+e54866589772a6b984c55c23fc51e3d4a90a88e4,"['crash', 'folder', 'upload', 'view']",General,{'crash': 100}
+e409b5afb647f5af6fbe26618bb8448040560f59,"['couple', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+1f796350b0a3fac88222265ebdd1e84e14ebbac6,"['pull', 'request', 'owncloud', 'user', 'chooser', 'loghistory', 'crash']",General,{'crash': 100}
+77554b2b5156c00ac230071f8bfe32039c5b4a29,"['load', 'task', 'fragment', 'invisible', 'crash', 'rotation']",General,{'crash': 100}
+7d0723261a7bccdf2d5d8c10d18c2d7454e94ef7,['crash'],General,{'crash': 100}
+0f39ff841a65d49778abf915b8730bce734bd960,"['crash', 'local', 'removal', 'folder']",General,{'crash': 100}
+6224f73544405ed645dd00d136ad167e4c235876,"['crash', 'android', 'lollipop', 'whole', 'account']",General,{'crash': 100}
+2790c2379df2a4fcf01c9f3894eb90b6ab7d0415,['crash'],General,{'crash': 100}
+7283f541587bc3c9a1c8642dbc292b6a275de483,['crash'],General,{'crash': 100}
+9709593ccf1f97e1b21b204934283785eb0e8e76,"['crash', 'android']",General,{'crash': 100}
+c8d2d466276ed23d101a153c048a7eda0ba6bb80,"['open', 'galaxy', 'mini', 'crash']",General,{'crash': 100}
+ad291624a3f8d44472dcb56dbd5bd87d078d8711,"['crash', 'file', 'list', 'rename', 'method']",General,{'crash': 100}
+d5625e6cccd85dfb0f9e66a2da8f844341c96e2b,"['crash', 'setting', 'path']",General,{'crash': 100}
+e72555f2bde1165a5afa9c32f3baeae6ea0b0e38,"['crash', 'opening', 'thumbnail', 'cache']",General,{'crash': 100}
+53740c0a8cec323605394f3ddd7ce71ee25ddd90,"['crash', 'creation', 'thumbnail']",General,{'crash': 100}
+6c55a20389285cad8eda06ff1a665f97caf59e46,"['file', 'support', 'tiff', 'crash']",General,{'crash': 100}
+71e64fdd455d5b1ff0f8ac0e627f8393b46afa1a,"['pull', 'request', 'owncloud', 'user', 'pull', 'list', 'file', 'security', 'blanket']",General,{'security': 100}
+31bd59d681d64d9a6e08104a03a47180af9b5d68,['crash'],General,{'crash': 100}
+f029363e477deda53815f92035317e2153e893f2,"['crash', 'opening', 'rotate', 'device']",General,{'crash': 100}
+5205fe22ae8ca124ee1582abcdb062f9869b9f38,"['crash', 'obsolete', 'broadcast', 'intent']",General,{'crash': 100}
+36abdd9d0ae479323644604b1cc030bb7f0cb18a,"['pull', 'request', 'owncloud', 'crash', 'file', 'owncloud', 'local', 'storage']",General,{'crash': 100}
+3fb28ceae432223e99150884609285644ed8b536,"['crash', 'video', 'rotate']",General,{'crash': 100}
+086985ad26583ffa93e1519383d716f55d0c1d19,['crash'],General,{'crash': 100}
+2628eceb6b7548d151ab61c42969b42064e586bd,"['result', 'callback', 'crash']",General,{'crash': 100}
+571fdba15e9638087d2164c5fc5280f6b62fa7e4,"['crash', 'update']",General,{'crash': 100}
+1b8b4cf3b722311b52f364bb7652a8fc0ab24709,"['android', 'support', 'library', 'crash', 'android', 'device', 'notification']",General,{'crash': 100}
+aa598936f7617d1babdcbc687fd4a352dfe9a295,['crash'],General,{'crash': 100}
+4bb987e7b76d117c98269ff9b356050159a877df,"['crash', 'thing']",General,{'crash': 100}
+6d8e8ca0726a7bfb279b59d466ab540ebbed5ac3,['crash'],General,{'crash': 100}
+2bf0864806b056b8d95a95dbc717fde0c42eee7a,"['issue', 'crash', 'apps', 'account', 'name', 'different', 'type']",General,{'crash': 100}
+b228f472c00fbae1127ae15177de7f4d6842d309,['crash'],General,{'crash': 100}
+195256194e761d7858e5186194c1f626f4556867,"['crash', 'synchronization', 'sync', 'file']",General,{'crash': 100}
+f780062616bd9fec5eae37affff04d697befc795,"['crash', 'folder', 'server', 'internet', 'connection']",General,{'crash': 100}
+552a34689c79cf6159807b4e5850117bde5228e8,"['occasional', 'crash', 'update', 'previous', 'synchronization']",General,{'crash': 100}
+0aef684087c266b5e79a2693592748a53cc87a56,"['crash', 'refresh', 'current', 'folder']",General,{'crash': 100}
+a8fade7369bc8d1752dc4ba5fe07935cac84e96f,['crash'],General,{'crash': 100}
+292870c3005c4332e8d04cfd8ed9f2edd4b1cfab,"['pull', 'request', 'owncloud', 'dialog', 'crash']",General,{'crash': 100}
+31615a24ce0bacc28a4edc602678282cfc31af35,"['crash', 'account', 'file']",General,{'crash': 100}
+6ca1e170f7518e69dbebb4393e7899729c042ac6,"['crash', 'error']",General,{'crash': 100}
+002e1bf9e3872734f050638c7291540879cd42e8,"['issue', 'issue', 'crash', 'content', 'apps', 'owncloud']",General,{'crash': 100}
+92dc4c568c6157b2fe20b8d13ac5ca679a88f0c7,"['null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+7d1ea9819ce0e08cf17b3d0aeef0211c8ef304c8,"['crash', 'rename', 'delete', 'file', 'login', 'activity', 'refresh', 'account']",General,{'crash': 100}
+5c37e0c10e152ba1c2e969d6b84c8af1bf28e9e4,"['crash', 'download', 'successfull', 'device', 'ukranian']",General,{'crash': 100}
+f91d3ce792e6338725b9a64efd4f932103dda381,"['null', 'pointer', 'initialization']",Risky_resource_management,{'null pointer': 100}
+afa58b8ac6e08784b67942cc6938fb0a290c3aab,"['update', 'detail', 'view', 'file', 'finish', 'file', 'server', 'name', 'subsequent', 'crash']",General,{'crash': 100}
+35b25f04ebb3c8ef78349c18b98e98ac6257a6ea,"['crash', 'test', 'file']",General,{'crash': 100}
+a1a31b68d989f0f9ac7d9ae101d149211008c06b,"['crash', 'upload']",General,{'crash': 100}
+082c11a1e3bf555139072b534c3e1f2b714e62f8,"['movement', 'file', 'parent', 'folder', 'extra', 'check', 'null', 'pointer', 'dialog']",Risky_resource_management,{'null pointer': 100}
+80448dc19218e243872ba04a960661e29f86c67b,"['null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+b59784af890d90ccca1674ea176f9171bd60198b,"['null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+e81a7790eb434bbf4627e86aae14de4b7561c8a6,"['null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+7fa988573879b20ecb457f8739bbd02efbd4bf7d,"['crash', 'folder']",General,{'crash': 100}
+9c3dc6d8503fad94b2bbfdfc26ecd0153f6e0e00,"['crash', 'initialization']",General,{'crash': 100}
+7fead3cb22a70f8b2bb23a7e981c5ee3708dd523,"['null', 'pointer', 'execution']",Risky_resource_management,{'null pointer': 100}
+b416f87c9201b63cb162a5ff3a059a2de81863a4,"['crash', 'download', 'notification', 'landscape', 'mode']",General,{'crash': 100}
+557126eecf185d6b537e4bb05393b6c37ab261f8,"['crash', 'general', 'review', 'method']",General,{'crash': 100}
+c7dc13598737ff21a5d358f5fa4d1f38e2d70fb9,"['crash', 'handler', 'google', 'play', 'report']",General,{'crash': 100}
+eda724313028d60437c509d59fee7ebef8c6cfbf,"['crash', 'device', 'warning', 'dialog', 'server', 'certificate']",General,{'crash': 100}
+afe0c3715893bf2ae08258e10e6a6192b06ab7cd,"['null', 'pointer', 'connection', 'check']",Risky_resource_management,{'null pointer': 100}
+fbd720e8874d5adcfd0dcc5aa8c602ecb54ef83c,"['rare', 'crash', 'login', 'page']",General,{'crash': 100}
+38ece35da5372d828e79a9ba31bdcd828cb5cd52,"['crash', 'whitespaces', 'login', 'page', 'user', 'info', 'connection']",General,{'crash': 100}
+393bcd6869d4d77b2048c9c625e36eaeb6963ef3,"['null', 'pointer', 'exception', 'file', 'detail', 'view', 'message', 'download', 'service']",Risky_resource_management,{'null pointer': 100}
+9d3208ea0372294f606df5ddb543b2062d1eacac,"['explicit', 'default', 'value', 'network', 'timeouts', 'null', 'pointer', 'message', 'download', 'finish']",Risky_resource_management,{'null pointer': 100}
+ff0803c3eead5a8b42b9a6f3fc4d351be076c081,"['crash', 'login', 'page', 'connection', 'wrong', 'test', 'finish']",General,{'crash': 100}
+935a7b093454f12826d51b9357bec52d145cda3c,"['null', 'pointer', 'synchronization']",Risky_resource_management,{'null pointer': 100}
+463b30c46a57df8c298be9d5b196e8e0330a0b73,"['crash', 'external', 'response', 'selection', 'file', 'upload']",General,{'crash': 100}
+45f89711be3eda7e677ed5e8fdc9c13daca6dcc9,"['special', 'character', 'opening', 'file', 'null', 'pointer', 'exception', 'preview']",Risky_resource_management,{'null pointer': 100}
+271a4ba1dfdea914b70ef3b10f6930de68d39d68,"['null', 'pointer', 'exception', 'detail', 'fragment', 'empty']",Risky_resource_management,{'null pointer': 100}
+146f7969b3be30754aca10395fa39f68928a392e,"['backwards', 'compatibility', 'crash', 'logger', 'image', 'preview']",General,{'crash': 100}
+494ebd608fb3f69afd58310cfe1eb1ab9a136447,"['null', 'pointer', 'mime', 'type']",Risky_resource_management,{'null pointer': 100}
+121a462bdf08707c2518a9c4a438d8d723c2fbf5,"['possible', 'error', 'remote', 'mime', 'type', 'value', 'crash', 'mime', 'type']",General,{'crash': 100}
+baf003a555afed17457401d9061002fa3dfd75c0,"['crash', 'list', 'adapter', 'file', 'mimetype']",General,{'crash': 100}
+d8e0387aef0b538c31cf095fd9637472bb9a0572,"['dont', 'crash', 'synchronization']",General,{'crash': 100}
+f6ef3f8214feed4267ea91f5e719f174f40423ca,"['dont', 'crash', 'file', 'unspecified', 'type']",General,{'crash': 100}
+b2264dcfa1ac8d5095aa66e2980fa1d32c7650da,"['null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+a06e99c5064bd2807ffebda8f453375f0f79fb82,"['null', 'pointer', 'exception']",Risky_resource_management,{'null pointer': 100}
+6c6d3a601bab6fb4d13a44eb6f04fab9919b8988,"['crash', 'duplicate']",General,{'crash': 100}
+194490b3b81d748f8905d177260aa8d45eb1be69,"['crash', 'uploads', 'downloads', 'android']",General,{'crash': 100}
+fcf40b4423731d708d6eb294bef3eeafcfacfaad,"['dont', 'crash', 'candidate', 'open', 'file']",General,{'crash': 100}
+fc59d2c4f66846a9d049db645633ab9788c72b46,"['workaround', 'system', 'crash']",General,{'crash': 100}
+a674df97dac8f9fff874689b64c5e3a09b3abb1a,"['dont', 'crash', 'main', 'directory']",General,{'crash': 100}
+6e3b5f488c3047424acb0aa47b3d5a16287556b1,"['dummy', 'crash', 'upload', 'dialog']",General,{'crash': 100}
+5a382ca42146e62e1b8899e4444415c2b029dd07,"['ocfile', 'uploader', 'upload', 'crash']",General,{'crash': 100}
+1c9ed8cdcbb2b65159dc770c1eb9f7dc39cc60d7,"['crash', 'clean', 'setup']",General,{'crash': 100}
+fbfdcfceeb30322fc648e725e69fce4320eff3e1,"['crash', 'account', 'creation']",General,{'crash': 100}
+d8e4a87c421840ff6f1b46e1441f88921347a181,"['crash', 'download', 'file', 'space']",General,{'crash': 100}
+32b09ab78ffd18a5a07752982883813ccecfb80d,['crash'],General,{'crash': 100}

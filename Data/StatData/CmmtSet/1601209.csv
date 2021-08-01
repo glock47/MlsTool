@@ -1,12 +1,14 @@
-sha,message,catetory,matched,labels
-1ac37a9ebaa54cc23179d365ce1c41808eb1bf4c,"['buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100},
-e6eb26ad8b668d9874c8b64447963e226f092002,"['upgrade', 'issue', 'client', 'security', 'apache']",General,{'security': 100},
-33cb41667954b681256dfe67b1abde45179102b1,"['jackson', 'security']",General,{'security': 100},
-658d16327578b5cd30630cf9a6039916dcee7345,"['update', 'jackson', 'security']",General,{'security': 100},
-3aefddac3406af7dff6bc67b155aa652c013d2b4,"['update', 'dependency', 'security', 'issue']",General,{'security': 100},
-2d6672983b5111281288ec9a19ba1e9c5922443f,"['security', 'comment', 'apache']",General,{'security': 100},
-63a6a5adb8faea2ed983b0271c0e104f40a2162a,"['mapper', 'issue', 'security', 'checkstyle', 'project', 'object']",General,{'security': 100},
-3a34495f554a11c4dd0e486c280d8b10d305290a,"['update', 'issue', 'security', 'checkstyle']",General,{'security': 100},
-42926dd78e0792fbb3e3a36088577bd974044a64,"['upgrade', 'dependency', 'issue', 'jackson', 'security']",General,{'security': 100},
-6adfed4395e4bd1b4e5022f750c2a27526a6cf73,"['security', 'enforcer']",General,{'security': 100},
-ca08a56da8be4d9ffed8573b96873213d939c1e1,"['security', 'apache', 'patch']",General,{'security': 100},
+sha,message,catetory,matched
+e6eb26ad8b668d9874c8b64447963e226f092002,"['upgrade', 'apache', 'client', 'security', 'issue']",General,{'security': 100}
+857179fb3c62aa6df27d283a87edc037288e9e86,['security'],General,{'security': 100}
+33cb41667954b681256dfe67b1abde45179102b1,"['bump', 'jackson', 'security']",General,{'security': 100}
+658d16327578b5cd30630cf9a6039916dcee7345,"['update', 'jackson', 'security']",General,{'security': 100}
+3aefddac3406af7dff6bc67b155aa652c013d2b4,"['update', 'test', 'dependency', 'security', 'issue']",General,{'security': 100}
+2d6672983b5111281288ec9a19ba1e9c5922443f,"['vulnerable', 'apache', 'thing', 'security']",General,{'security': 100}
+63a6a5adb8faea2ed983b0271c0e104f40a2162a,"['bump', 'checkstyle', 'security', 'issue', 'object', 'mapper', 'project']",General,{'security': 100}
+3a34495f554a11c4dd0e486c280d8b10d305290a,"['update', 'checkstyle', 'security', 'issue']",General,{'security': 100}
+42926dd78e0792fbb3e3a36088577bd974044a64,"['upgrade', 'jackson', 'test', 'dependency', 'security', 'issue']",General,{'security': 100}
+6adfed4395e4bd1b4e5022f750c2a27526a6cf73,"['security', 'enforcer']",General,{'security': 100}
+ca08a56da8be4d9ffed8573b96873213d939c1e1,"['patch', 'apache', 'security', 'issue']",General,{'security': 100}
+1fbc4a6e9f96d8830e4849f1a7333783550b0869,"['null', 'pointer', 'check']",Risky_resource_management,{'null pointer': 100}
+3beae8f3373537aed80be0f0fcabdac87c431f2b,"['null', 'pointer', 'query', 'auth', 'method', 'parameter']",Risky_resource_management,{'null pointer': 100}

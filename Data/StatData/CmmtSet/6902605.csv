@@ -1,0 +1,76 @@
+sha,message,catetory,matched
+9de56dc9d6c8ef0209286ddcc44e4e18a157b308,"['repair', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+36a7742fe65e4f5f87e84f2e5b25534468ccc40d,"['potential', 'data', 'race']",Risky_resource_management,{'data race': 100}
+862f8e9a427fdf5c0e47b6de686ffd2cabc8c055,"['crash', 'depacketizer']",General,{'crash': 100}
+57965d8621fa025eff42dd51b06dbf20100ae7d5,"['memory', 'leak', 'optimize', 'code']",Risky_resource_management,{'memory leak': 100}
+ad4af20d8644430d865715951d8f92d8969e90c1,"['check', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+5af72467cc22acf51f1cf33fb11ff4de1a456dae,"['crash', 'local']",General,{'crash': 100}
+89c0d8e8333538f69c97116a69351abddb6d235b,"['dtls', 'multi', 'thread', 'crash', 'issue']",General,{'crash': 100}
+d92f97308b819de38dd7fefbbf939820c7d675d0,"['memory', 'corruption']",Risky_resource_management,{'memory corruption': 100}
+b1ec15301d078636c1737ced13ea015483909d87,"['crash', 'subscriber']",General,{'crash': 100}
+72af8841e9e98faf8a329d2f8d10a75148db3c32,['crash'],General,{'crash': 100}
+01a684cfdc6cfab30ce2c45008f99918f3bc6537,"['crash', 'single', 'peer', 'connection']",General,{'crash': 100}
+d694a996c481a762dcd57494f71c294307965828,"['crash', 'erizo']",General,{'crash': 100}
+77bcd680715ecf03431817a354d7d3cd512e543a,"['addon', 'crash']",General,{'crash': 100}
+6989eff5e799cfe8d7d6afdda76b043eda299826,['crash'],General,{'crash': 100}
+25c1e6adc6194c4265c4851d1ef6a052e9d5e2eb,"['temporary', 'mutex', 'data', 'race', 'nicerconnection']",Risky_resource_management,{'data race': 100}
+e19125503cb30d66a3f1ca3ca0c89b2ff7b63cf0,"['docker', 'crash']",General,{'crash': 100}
+45611319ce35cdcd47d5ca61ebeb8898b8b28e51,"['erizo', 'crash', 'client']",General,{'crash': 100}
+749101157b0290300f66621a762f2224a3060f24,"['crash', 'stream', 'stats', 'room']",General,{'crash': 100}
+33c7f5a148fcd0b5ff139f7e685e5d3b1e2803e6,"['crash', 'client']",General,{'crash': 100}
+e0b41bb2089a8fbd459ad77d0ca3db4cc5d3233a,['crash'],General,{'crash': 100}
+c03202350df5defbb0136dc520aba3b0156cbfe6,"['crash', 'nackgeneration']",General,{'crash': 100}
+ecf369c7c97d9135d218f7c8b62ca76f259902b2,"['crash', 'firefox', 'erizo']",General,{'crash': 100}
+b75a8eeea91c2be35a4efbd1693ccb9bd3654570,"['potential', 'crash']",General,{'crash': 100}
+6bc455235a35f99a4b888b3d6e564d10120d4d9e,"['crash', 'erizo']",General,{'crash': 100}
+71f05d8e8ddbc2a9819f5ff1282eeee01571f0d3,"['crash', 'database', 'return', 'null', 'nuve']",General,{'crash': 100}
+9ad0177abcb757bda84be2ab9b157d2625a9961b,"['crash', 'externaloutput']",General,{'crash': 100}
+4517a91abe00959550044124deedb3d2088f0020,"['crash', 'object', 'metadata']",General,{'crash': 100}
+ad1b2cd1b1eebd1fdb4597c22957178f5c8c4c26,"['nuve', 'crash']",General,{'crash': 100}
+0ffa651ff9a24d8be3265d9c20b77742247bc610,"['pull', 'request', 'lodoyun', 'master', 'nuve', 'crash']",General,{'crash': 100}
+2c20c759836418fba1dd9aedec7c3af4eb4c74a8,"['nuve', 'crash']",General,{'crash': 100}
+5126c44b1dba6ffa128b2dce942a5fc441a34e24,"['crash', 'subscriber', 'publisher', 'list']",General,{'crash': 100}
+55eb871b6135978e9291f68e1fd5d70668e478f9,"['pull', 'request', 'kekkokk', 'memory', 'leak', 'externaloutput']",Risky_resource_management,{'memory leak': 100}
+a495536224285909a4269f51f757bb0d2aa8f7d4,"['memory', 'leak', 'externaloutput', 'frame', 'dimension', 'resolution', 'frame', 'erizojs', 'crash']",Risky_resource_management,{'memory leak': 100}
+80c9187b5c1a19eef21b7004e2d360d63b9162c6,['crash'],General,{'crash': 100}
+1ef3fe6427c986b25fd1cbcefabfdb70574e4d8a,"['potential', 'crash', 'erizojs']",General,{'crash': 100}
+9db51546580e9d95fdfd4df214ac3f8f5b39c577,"['memory', 'leak', 'slideshowmode']",Risky_resource_management,{'memory leak': 100}
+f1eef2b4993521a740aace62c17e4b18a28c4c5f,"['potential', 'crash']",General,{'crash': 100}
+f341fd10f03973424b294c0b223fa28b7fd6bec4,"['crash', 'video', 'firefox']",General,{'crash': 100}
+b76c22d3432ef8e1364e80a986296629f5ca8ba7,"['audio', 'spec', 'video', 'crash', 'setmaxbw', 'video', 'medium', 'stream', 'line']",General,{'crash': 100}
+c623be1045727dea521d3a0fe839a4da769a1321,"['memory', 'leak', 'cleanup', 'return', 'pointer', 'gchar', 'need', 'constructor', 'mutex']",Risky_resource_management,{'memory leak': 100}
+2535090d1bfce9fe94f94c8b0e46c21c68fed0e5,"['pull', 'request', 'master', 'crash', 'deadlock']",Risky_resource_management,{'deadlock': 100}
+b4a3f4b97d248923c272f431b6c6e05818920262,"['crash', 'deadlock', 'subscriber', 'need', 'portion', 'code', 'audio', 'video', 'data', 'tear', 'webrtc', 'connection', 'lock', 'prevents']",Risky_resource_management,{'deadlock': 100}
+5a64bd551b2ca4ed39e354401b213eabb52c5a57,"['segfaults', 'native', 'module', 'native', 'code', 'crash', 'kind', 'stack', 'trace', 'dump', 'stack', 'trace', 'note', 'specific', 'node', 'segfault', 'handler', 'version', 'work', 'node']",General,{'crash': 100}
+1b41eb36fc21b46d2f9f99b50c247116762f94d0,"['deadlock', 'sdestransport', 'queuedata', 'attempt', 'hold', 'mutex', 'recursive', 'queue', 'hold', 'lock', 'child', 'class']",Risky_resource_management,{'deadlock': 100}
+57941157f763bc43fbaae9482c15191743fcda14,"['lock', 'destructors', 'pattern', 'implies', 'problem', 'need', 'thing', 'result', 'deadlock']",Risky_resource_management,{'deadlock': 100}
+71ca8e806d3a8c041aaacd46cf1de0ffc799f0f2,"['pull', 'request', 'master', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+4617bfb9041296785f2660c8067e7a630bce1008,"['pull', 'request', 'master', 'mutex', 'cleanup', 'deadlock']",Risky_resource_management,{'deadlock': 100}
+f579c7eb3f42e2d9e7b5c7f5e5c9903beffd3d31,"['memory', 'leak', 'dtlssocket', 'style', 'variable', 'declaration']",Risky_resource_management,{'memory leak': 100}
+518ec41fe4badf264ed0df9d593dda2fdf40879b,"['address', 'deadlock', 'negotiation', 'updateicestate', 'fire', 'event', 'lock', 'class', 'clean', 'vestigial', 'junk', 'lock', 'check', 'state', 'example', 'state', 'issue']",Risky_resource_management,{'deadlock': 100}
+93f2c07a52a7750e4748ff09ad2ed3346c35beed,"['pull', 'request', 'master', 'crash', 'destructor', 'external', 'output']",General,{'crash': 100}
+76d4602d92183ada10cdde9511a5336a5e7d1942,"['crash', 'destructor', 'external', 'output', 'party', 'foul', 'party', 'foul']",General,{'crash': 100}
+807f737308a8c0e11a77c238f62124786751a86d,"['erizo', 'controller', 'crash', 'scenario']",General,{'crash': 100}
+ce2467911790d361e7f2156f11a5b7fbff3962b0,"['crash', 'free', 'point', 'original', 'location', 'blow', 'leak']",General,{'crash': 100}
+7d800616d5c12edbc7e13db66ef3930419f6def6,"['memory', 'leak', 'rename', 'variable', 'clear', 'member', 'variable', 'class', 'unnecessary', 'memcpy', 'time', 'buffer', 'case', 'mutex', 'appropriate']",Risky_resource_management,{'memory leak': 100}
+543e857905eddbb6ddb73b00bdfd545c46e3af0d,"['memory', 'leak', 'srtpsessionkey', 'srtpsessionkeys', 'class', 'allocation', 'deallocation']",Risky_resource_management,{'memory leak': 100}
+ac8db5fd463784aea015d34b546069d0a4bf08c5,"['memory', 'leak', 'stuff', 'life', 'null', 'life', 'null']",Risky_resource_management,{'memory leak': 100}
+710563b25cd1f8b83ce1bd879988652b49a1c283,"['potential', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+5eb46e7a769fc8f0a76544a2fc1b1092443a8e16,"['memory', 'leak', 'case', 'error']",Risky_resource_management,{'memory leak': 100}
+e0cee3d73fe025a087dcaf1c7fc51d5b7a3fcc53,"['shutdown', 'erizojs', 'room', 'crash']",General,{'crash': 100}
+e27eb438b2b532f8aaf699eb18098aa5a9c2771a,"['audio', 'video', 'sync', 'crash']",General,{'crash': 100}
+4afc7b2ee4aed75f360d4d68d25646b482bb4426,"['crash', 'audio', 'codec']",General,{'crash': 100}
+60f8c9e16dd6648470bffc8a41aae1e4bfba530f,"['memory', 'leak', 'candidate', 'allocation', 'candidate', 'libnice']",Risky_resource_management,{'memory leak': 100}
+8f8aee7dccd60570fa856d1158fb6e851ca930e2,"['crash', 'destructor']",General,{'crash': 100}
+b496d4c444ddf574c3958f91368a7f42e9c7e361,"['enqueue', 'packet', 'connection', 'ready', 'possible', 'source', 'crash']",General,{'crash': 100}
+17439fa8407f988a83d8a62f6ce06585d9972c38,"['enqueue', 'packet', 'connection', 'ready', 'possible', 'source', 'crash']",General,{'crash': 100}
+a352708a23eeb97517803a2a52039aa3873978de,"['crash', 'detection', 'work']",General,{'crash': 100}
+ea9a937f5f9facbf36a360695a59e68a2467a16e,"['potential', 'crash', 'externaloutput', 'recorder']",General,{'crash': 100}
+3c1b8822d1603757b3b3bbc262dbbcb4fc7dd111,"['potential', 'crash', 'erizocontroller']",General,{'crash': 100}
+9d1c636efa57b44db0ffea089fcc7b251550f42d,"['possible', 'memory', 'leak', 'externalinput', 'mediaprocessor']",Risky_resource_management,{'memory leak': 100}
+80cc89542a85191208c8853160eecd94fe40b994,['crash'],General,{'crash': 100}
+8c0dd018cfe688e9360f9d85214233b46c06cd86,"['possible', 'crash']",General,{'crash': 100}
+97c39e2e410563ded7fa3455e047346d3547cd49,"['crash', 'srtp']",General,{'crash': 100}
+fd53a78103c310ab1b94191f3629c7e63ffb784d,['crash'],General,{'crash': 100}
+952e756dd944d8b30d9e58526573686bc9dbef68,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+d1e43b6879c25caede9e89b6e7a73086a946b138,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}

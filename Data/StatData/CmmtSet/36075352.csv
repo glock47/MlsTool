@@ -1,57 +1,116 @@
-sha,message,catetory,matched,labels
-46fd982371e95dd52c363a0f6ea186967ffcec79,"['deadlock', 'elimination']",Risky_resource_management,{'deadlock': 100},
-c6408557bf43c09d4b13a71d6918bd1d360500f6,"['mergerequest', 'deadlock', 'poanetwork', 'query', 'mergedeadlock', 'table', 'query']",Risky_resource_management,{'deadlock': 100},
-6326d3eb256cfe3217763aed2b8dceb47a2118ee,"['mergequery', 'deadlock']",Risky_resource_management,{'deadlock': 100},
-4e2b629e6a77a164e12cb7afad8d229ba52d79ae,"['deadlock', 'table', 'query']",Risky_resource_management,{'deadlock': 100},
-c8531fa4e49a03219bd98377e29a571432827741,"['ddaddsharelock', 'request', 'poanetwork', 'order', 'mergetransaction', 'deadlock']",Risky_resource_management,{'deadlock': 100},
-810dc48a2c7f236c7a4ab48e317b4ac26946a2bc,"['transaction', 'deadlock', 'table', 'order']",Risky_resource_management,{'deadlock': 100},
-a8cd5058cf72897264981072bd3ee5fe316e884c,"['transaction', 'deadlock', 'ordersharelock', 'postgresql', 'transaction', 'deadlock', 'possible', 'mechanism', 'problem', 'incur', 'multiplesharelock', 'solution', 'consistent', 'order', 'acquisition', 'relevantdocumentation']",Risky_resource_management,{'deadlock': 100},
-b020b696a543e16241e5bcbc44ac7054aff2c322,"['alert', 'request', 'poanetwork', 'security', 'mergesecurity']",General,{'security': 100},
-c0ddf5963416fdfc690859034ecd95baf66be821,"['browswerrequire', 'browserdevelopment', 'enableblockscoutblockscoutallow', 'chrome', 'insecure', 'enableletsencrypt', 'infrastructurevariable', 'environmentmigration', 'phoenix', 'cowboy']",General,{'insecure': 100},
-fc075e735a4d14cc10b1c2ded61df0af81fbb814,"['ffcdcba', 'eccee', 'mergerequest', 'minimum', 'period', 'poanetwork', 'mergeminimum', 'overrun', 'interval']",Risky_resource_management,{'overrun': 100},
-ec6c24e3e51575a1bb0e8e6e5d00e9307aa081b3,"['minimum', 'overrun', 'interval']",Risky_resource_management,{'overrun': 100},
-f016475f1dd4f27b132a4f56db60674de928da83,"['transaction', 'insert', 'select', 'ordertransaction', 'deadlock', 'select', 'orderdifferingorder']",Risky_resource_management,{'deadlock': 100},
-e88fb5c999e8ad5953e77c498428c1c8e3b39754,"['mergemerge', 'poanetwork', 'requestinsert', 'deadlock', 'token', 'balance']",Risky_resource_management,{'deadlock': 100},
-df8673242e277e34fbeb6cbffcac66f2ed0f61cd,"['insert', 'deadlock', 'token', 'balance']",Risky_resource_management,{'deadlock': 100},
-4e93979a578af894bd95c1c9fbac092d3d431729,"['bdcbbe', 'mergeevent', 'crash', 'request', 'poanetwork', 'mergematch']",Risky_resource_management,{'crash': 100},
-b8d9cbbe06d85422f72d9f84df7066438104586b,"['mergeevent', 'crash']",Risky_resource_management,{'crash': 100},
-5bb0a5a62ea1031e145b17aec57e472dcd925a51,"['mergevulnerability', 'request', 'poanetwork', 'security', 'mergealert', 'vulnerability', 'clear', 'security', 'upgrade']",General,{'security': 100},
-b281134d6498d2778340541d9d87bab441772b68,"['alert', 'vulnerability', 'clear', 'security', 'upgrade']",General,{'security': 100},
-63d509f93ca51a2a2f7aab3ee2bda0cc2c4788d3,"['increase', 'crash', 'retry', 'bufferedtask', 'timeoutflaky', 'increase', 'timeout']",Risky_resource_management,{'crash': 100},
-eb624fdad3c48811891f044a4947446ebb18af4a,"['security', 'content', 'policy', 'google']",General,{'security': 100},
-88652b7d84e997ef5c180caab0b6108507a5de13,"['various', 'adviseeitherconsistent', 'deadlock', 'orderimplicit', 'sharelock', 'sinceconsistent', 'eliminatesserialize', 'blockimporter']",Risky_resource_management,{'deadlock': 100},
-98248a33c3ca7efebe47ee4f6b62d5be3a5adf7f,"['security', 'strict', 'transportsecure', 'browser', 'strict', 'header', 'production', 'preload', 'transport', 'instructs', 'enable', 'vendor', 'security', 'response']",General,{'security': 100},
-2cc24ab62bded71bdd8a7951bedbc4aecf97664c,"['translatable', 'security']",General,{'security': 100},
-17a7f1830ce60f57f60dec7a30553bea5ca05724,"['security', 'prune']",General,{'security': 100},
-e2320f47987312b10b6b4f53f7f893f4f323b6f0,"['security', 'update']",General,{'security': 100},
-a4d71ee9b671a4b4c559a7f82e54e53623e6945a,"['jinja', 'security', 'release', 'upgrade']",General,{'security': 100},
-401d0aacf4a3d57618e0078260498bb59c600c44,"['clean', 'optimizefallback', 'liberapay', 'insecure', 'thinkversion', 'machine', 'string']",General,{'insecure': 100},
-da597b7c9a3ff4150d6eecb98f1849775fad2215,"['mergepolicy', 'request', 'liberapay', 'security', 'mergesecurity']",General,{'security': 100},
-5b2e3b271757a0aa605e41093a1c75e417bd8b8d,"['security', 'policy', 'modification']",General,{'security': 100},
-02e59da90fb3654a9150be7d4a8b247e52055f6f,"['security', 'policy', 'reword', 'reorganize']",General,{'security': 100},
-fa97bfbc10d0f42a920979dfb20c0cb91c3f06f8,"['security', 'policy', 'liberpay', 'liberapay']",General,{'security': 100},
-2fba0a38c371578b506c3721b21410729a7ed50e,"['order', 'deadlock', 'avoidright']",Risky_resource_management,{'deadlock': 100},
-3bb47f28e858cff18642a16f895301ecf5863fcd,"['abecbbc', 'mergerequest', 'liberapay', 'update', 'security', 'mergesecurity', 'update']",General,{'security': 100},
-6065c12ed44ab8fa96a21d95ff145ef727224d83,"['fdcbb', 'mergeenforce', 'liberapay', 'enforceable', 'content', 'report', 'switch', 'security']",General,{'security': 100},
-ab74740b9c30078341c5e76d94e3c64a8af175fc,"['restart', 'crash', 'payday']",Risky_resource_management,{'crash': 100},
-31069038c6b59825a6790bfa88e08641716908db,"['security', 'requirement', 'requestproblem']",General,{'security': 100},
-b79cfe8c381b3a2050d883f173a071ca162a721e,"['security', 'install', 'request', 'equivalentrequire', 'setting', 'mastodon', 'extra', 'package', 'instance']",General,{'security': 100},
-590f7842936149d8e3dbddd57b1131d8dc303464,"['security', 'issue']",General,{'security': 100},
-45cf3d93e667eb099e8cc9179ec32738c58edfb5,"['regroup', 'chain', 'state', 'security', 'function']",General,{'security': 100},
-39bd0667a639706bdd03d911fe267ded531823d1,"['security', 'edoverflow']",General,{'security': 100},
-002498a577c7020fa940f188da109e27db021c40,"['prune', 'liberapay', 'security', 'function']",General,{'security': 100},
-00ab38d10d8383979cc0eda15648452f3c23c707,"['bcede', 'mergegratipay', 'update', 'requestclose', 'security', 'update', 'email']",General,{'security': 100},
-bc38ede9554972d360da8fdbf27392c6cc1a2e85,"['security', 'update', 'email']",General,{'security': 100},
-199251c6f10e6d2be6487f857b0c45468271b185,"['security', 'policy']",General,{'security': 100},
-15592b4ec66022e2191feb7c256b4634bd9b2547,"['revert', 'security']",General,{'security': 100},
-47e56c5fdfcc44fbedbe4401c4be7fce5a4995a4,"['cookie', 'insecure', 'connection']",General,{'insecure': 100},
-70f1a460ad8364850b22f686efa9d45bb4675d24,"['mergerequest', 'email', 'security', 'gratipaysecurity', 'email']",General,{'security': 100},
-55a6057b2bf6049739af612c062e108f07892b1a,"['security', 'address', 'email']",General,{'security': 100},
-7f85abd0d4b267901a03d9c8b18abad123e63c32,"['disclosure', 'security', 'clean', 'markup']",General,{'security': 100},
-b67adf38ef5a4f227d7ea06aa7823a7ab63c5fe7,"['ebacarequest', 'deadlock', 'close', 'account']",Risky_resource_management,{'deadlock': 100},
-827480cbc3e48206d05d94723fbd9d2ad7fc1fcd,"['mergetracebacks', 'payday', 'request', 'gratipaybetter', 'traceback', 'crash', 'payday']",Risky_resource_management,{'crash': 100},
-90d39f0b93e95e385c70f2cf03b610f677ba4057,"['traceback', 'crash', 'payday']",Risky_resource_management,{'crash': 100},
-2c869d1f9a320645cd406bfd07bcf821bba286f3,"['header', 'limit', 'absence', 'crash']",Risky_resource_management,{'crash': 100},
-99897af04e8ceddee82577f908ee9ed884c79c82,"['security', 'benhc']",General,{'security': 100},
-679362054c53cef249e336ea8709bbf140ae3c9d,"['security', 'callahan']",General,{'security': 100},
-e0f465023f2d067d6aca84de2663bfb6a3d48003,"['version', 'crash']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+98248a33c3ca7efebe47ee4f6b62d5be3a5adf7f,"['http', 'strict', 'transport', 'security', 'strict', 'transport', 'security', 'header', 'response', 'connection', 'production', 'server', 'header', 'instructs', 'browser', 'enable', 'hsts', 'subdomains', 'browser', 'vendor', 'preload', 'policy', 'changaco', 'changaco', 'changaco']",General,{'security': 100}
+dac407f5f4cde0cbc97dffc994c365201200c6c4,"['throttle', 'password', 'request', 'password', 'slow', 'design', 'potential', 'denial', 'service', 'attack', 'vector']",General,{'denial service': 100}
+a08834b01c4a282d8755117f6c67c0ed85f51fdf,"['extra', 'protection', 'privilege', 'escalation']",Porous_defenses,{'privilege escalation': 100}
+d1ee3399916a308af7f46ec6a1b262483393b801,"['execution', 'order', 'state', 'function', 'csrf', 'token', 'regression']",Insecure_interaction_between_components,{'csrf': 100}
+70f23e64c55e2882cedd12f93e5857f2e7f85fc0,"['extract', 'generate', 'return', 'csrf', 'csrf', 'mechanism', 'extract', 'generate', 'return', 'token', 'demand', 'form', 'page', 'good', 'step', 'http', 'github', 'liberapay', 'liberapay', 'issue', 'dynamic', 'page', 'homepage', 'http', 'github', 'liberapay', 'liberapay', 'issue']",Insecure_interaction_between_components,{'csrf': 100}
+f146f85357b3275fd9170057247f377b265295f7,"['pull', 'request', 'liberapay', 'security', 'file']",General,{'security': 100}
+2cc24ab62bded71bdd8a7951bedbc4aecf97664c,"['security', 'page']",General,{'security': 100}
+17a7f1830ce60f57f60dec7a30553bea5ca05724,"['prune', 'hall', 'fame', 'security']",General,{'security': 100}
+e2320f47987312b10b6b4f53f7f893f4f323b6f0,"['update', 'security', 'page']",General,{'security': 100}
+e2f2ce5328e0679f47735d4da0673088654df5e3,"['security', 'file', 'security', 'file', 'directory', 'liberapay', 'file', 'contact', 'acknowledgment', 'directive']",General,{'security': 100}
+cbf9a42027d18d3b7f8156e273a5e03e736e3073,"['frame', 'http', 'stripe', 'security', 'content', 'security', 'policy']",General,{'security': 100}
+984150ee2d28cd1904fe68d6c75bf950b3214e21,"['security', 'file', 'http', 'hackerone', 'policy', 'builder']",General,{'security': 100}
+f06439ff2682cc47a1c021bf3f1ca0a9a33f5769,"['privilege', 'escalation', 'session', 'upgrade']",Porous_defenses,{'privilege escalation': 100}
+a4d71ee9b671a4b4c559a7f82e54e53623e6945a,"['upgrade', 'jinja', 'security', 'release']",General,{'security': 100}
+063f3482b1787f63da4155aba5e56bd36f8bbc12,"['pull', 'request', 'liberapay', 'csrf', 'cleanup', 'csrf', 'mechanism']",Insecure_interaction_between_components,{'csrf': 100}
+ec8c5d11badfa5475f5b62822c7ad3b7fb618fad,"['relax', 'csrf', 'cookie', 'check', 'regexp', 'overkill']",Insecure_interaction_between_components,{'csrf': 100}
+401d0aacf4a3d57618e0078260498bb59c600c44,"['clean', 'optimize', 'function', 'liberapay', 'insecure', 'fallback', 'machine', 'version', 'time', 'string', 'char']",General,{'insecure': 100}
+6430235e8482b1aebb35548887de4db7dc1a74ae,"['refactor', 'csrf', 'state', 'chain', 'function']",Insecure_interaction_between_components,{'csrf': 100}
+2dd544f8e85a42f48d06327303def839cae94c6c,"['risk', 'deadlock']",Risky_resource_management,{'deadlock': 100}
+0a7cc43b148dbc8cb0be3bc3bcd1d84bee35b8f8,"['access', 'control', 'user', 'admin', 'page']",Porous_defenses,{'access control': 100}
+da597b7c9a3ff4150d6eecb98f1849775fad2215,"['pull', 'request', 'liberapay', 'security', 'policy', 'security', 'policy']",General,{'security': 100}
+5b2e3b271757a0aa605e41093a1c75e417bd8b8d,"['modification', 'security', 'policy']",General,{'security': 100}
+02e59da90fb3654a9150be7d4a8b247e52055f6f,"['reorganize', 'reword', 'security', 'policy']",General,{'security': 100}
+fa97bfbc10d0f42a920979dfb20c0cb91c3f06f8,"['typo', 'security', 'policy', 'liberpay', 'liberapay']",General,{'security': 100}
+fb6afb8dadac30c9490dd67de84b9f0792bb78a5,"['security', 'header', 'html']",General,{'security': 100}
+87edaa282ff75537e57f0bbb5a8c2e226a5fb021,"['security', 'policy']",General,{'security': 100}
+3bb47f28e858cff18642a16f895301ecf5863fcd,"['pull', 'request', 'liberapay', 'update', 'security', 'page', 'update', 'security', 'page']",General,{'security': 100}
+abe4c0bbc809f2cbff9aefc235cf4ecb85ac5d9f,"['update', 'security']",General,{'security': 100}
+f34d92b487adc209ee47558fa30ebaf5ec565178,"['drop', 'security']",General,{'security': 100}
+6065c12ed44ab8fa96a21d95ff145ef727224d83,"['pull', 'request', 'liberapay', 'switch', 'content', 'security', 'policy', 'report']",General,{'security': 100}
+ab74740b9c30078341c5e76d94e3c64a8af175fc,"['test', 'payday', 'restart', 'crash']",General,{'crash': 100}
+a37549f45de25437192ca514fdb73df0be6db7ed,"['payday', 'crash']",General,{'crash': 100}
+31069038c6b59825a6790bfa88e08641716908db,"['request', 'security', 'deps', 'requirement', 'install']",General,{'security': 100}
+b79cfe8c381b3a2050d883f173a071ca162a721e,"['equivalent', 'install', 'request', 'security', 'mastodon', 'instance', 'setting', 'extra', 'package', 'side']",General,{'security': 100}
+590f7842936149d8e3dbddd57b1131d8dc303464,"['issue', 'security', 'page']",General,{'security': 100}
+2a8b6f098fb369c07fb49f7ce2f9251c4b07afb2,"['pull', 'request', 'liberapay', 'content', 'security', 'policy', 'header']",General,{'security': 100}
+1050f9a1a420c1e7f2732d1ffc2eddb6e02fe655,"['pull', 'request', 'edoverflow', 'master', 'content', 'security', 'policy']",General,{'security': 100}
+45cf3d93e667eb099e8cc9179ec32738c58edfb5,"['regroup', 'state', 'chain', 'security', 'function']",General,{'security': 100}
+64f43239a1783efa1355b06aa7f8d819d09d7928,"['pull', 'request', 'liberapay', 'open', 'redirects', 'open', 'redirects']",Insecure_interaction_between_components,{'open redirects': 96}
+39bd0667a639706bdd03d911fe267ded531823d1,"['edoverflow', 'security', 'hall', 'fame']",General,{'security': 100}
+7f1e7132f83e040ca01e3be975c5e9491479b9d1,"['open', 'redirects']",Insecure_interaction_between_components,{'open redirects': 96}
+44c27b00846ccddb503529d8f88c480092d717d5,"['pull', 'request', 'liberapay', 'auth', 'csrf', 'auth', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+b938c35e92733259d6cb60e4ae9b068f0c333912,"['clarify', 'csrf', 'protection']",Insecure_interaction_between_components,{'csrf': 100}
+69156bfa2278f2ccfb55c6562ad15d661d10051d,"['special', 'case', 'csrf', 'check']",Insecure_interaction_between_components,{'csrf': 100}
+b32bd8e74ea866c5801cd2aa35e7601bad033a20,"['test', 'csrf', 'protection', 'direct', 'sign']",Insecure_interaction_between_components,{'csrf': 100}
+8e6257c2a3d6d7429c96670ec5383b06804b3609,"['complete', 'security', 'page']",General,{'security': 100}
+002498a577c7020fa940f188da109e27db021c40,"['function', 'liberapay', 'security', 'crypto']",General,{'security': 100}
+00ab38d10d8383979cc0eda15648452f3c23c707,"['pull', 'request', 'gratipay', 'update', 'update', 'security', 'email']",General,{'security': 100}
+bc38ede9554972d360da8fdbf27392c6cc1a2e85,"['update', 'security', 'email']",General,{'security': 100}
+8514dea198f41229e92ddf04733e6f46a1562092,"['pull', 'request', 'gratipay', 'security', 'security', 'researcher']",General,{'security': 100}
+b0c4b2409122804233f4de7594c0f198a50a963d,"['security', 'researcher', 'http', 'github', 'gratipay', 'security', 'issue']",General,{'security': 100}
+1a5b3549c8bf228a4906948efc3bc64e8cc1a2db,"['csrf', 'cookie', 'asset', 'callback']",Insecure_interaction_between_components,{'csrf': 100}
+b56fc4c403677b2e62988651f5c44e11fa99387c,"['clean', 'csrf', 'implementation', 'csrf', 'implementation', 'django', 'particular', 'call', 'work', 'unicode', 'token', 'idiomatic', 'aspen', 'algorithm', 'function', 'byproduct', 'method', 'cast', 'unicode', 'value', 'bytestrings', 'csrf', 'utils', 'module']",Insecure_interaction_between_components,{'csrf': 100}
+77dc6a1affad6c64abb409d93437912d806eb4a5,"['pull', 'request', 'gratipay', 'benhc', 'patch', 'security', 'policy']",General,{'security': 100}
+199251c6f10e6d2be6487f857b0c45468271b185,"['security', 'policy', 'security']",General,{'security': 100}
+44af8c1261372ca13d4eaead0676cfe1a657ea54,"['security', 'policy', 'security', 'policy', 'gratipay']",General,{'security': 100}
+c012620f95df59d9e9f8f951be32902fb8df80da,"['revert', 'return', 'idiom', 'csrf', 'reverts']",Insecure_interaction_between_components,{'csrf': 100}
+d856adcfbc9d643175806dcea579b39a3d155aa2,"['csrf', 'test']",Insecure_interaction_between_components,{'csrf': 100}
+9760b337f3a7c37a7f9fbf1fff34bbf5259080bc,"['return', 'idiom', 'csrf', 'bcfe', 'test']",Insecure_interaction_between_components,{'csrf': 100}
+15592b4ec66022e2191feb7c256b4634bd9b2547,"['gratipay', 'security', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+12e80b65fe2302946f6e3060cfb8d2ce0892a793,"['test', 'csrf', 'protection']",Insecure_interaction_between_components,{'csrf': 100}
+47e56c5fdfcc44fbedbe4401c4be7fce5a4995a4,"['test', 'leak', 'csrf', 'cookie', 'insecure', 'connection']",Insecure_interaction_between_components,{'csrf': 100}
+12e2336cb4f3b3c824b37c2f13215267634ae87e,"['drop', 'csrf', 'referer', 'check']",Insecure_interaction_between_components,{'csrf': 100}
+70f1a460ad8364850b22f686efa9d45bb4675d24,"['pull', 'request', 'gratipay', 'security', 'email', 'security', 'email']",General,{'security': 100}
+55a6057b2bf6049739af612c062e108f07892b1a,"['typo', 'email', 'address', 'security', 'page']",General,{'security': 100}
+7f85abd0d4b267901a03d9c8b18abad123e63c32,"['clean', 'markup', 'security', 'disclosure', 'page']",General,{'security': 100}
+d0d8fe7d4244ffdb1ed08c4e374ec54edbc06e3e,"['security', 'page']",General,{'security': 100}
+cf68fa4e3e27b86ba6487e29d83674d019bacf1d,"['private', 'data', 'leak']",Risky_resource_management,{'data leak': 100}
+b67adf38ef5a4f227d7ea06aa7823a7ab63c5fe7,"['pull', 'request', 'gratipay', 'account', 'close', 'deadlock', 'deadlock']",Risky_resource_management,{'deadlock': 100}
+827480cbc3e48206d05d94723fbd9d2ad7fc1fcd,"['pull', 'request', 'gratipay', 'payday', 'tracebacks', 'traceback', 'payday', 'crash']",General,{'crash': 100}
+90d39f0b93e95e385c70f2cf03b610f677ba4057,"['traceback', 'payday', 'crash']",General,{'crash': 100}
+55382d8f0beba4915b0d25f1bd66edc6c96327f8,"['document', 'need', 'access', 'control', 'origin', 'issue']",Porous_defenses,{'access control': 100}
+3c37c5f4c5934546a4e4ad1b25e5d28dea22e1fe,"['access', 'control', 'origin', 'reverts', 'gratipay', 'static', 'file', 'origin', 'policy', 'need', 'access', 'control', 'origin', 'issue', 'http', 'wiki']",Porous_defenses,{'access control': 100}
+eb6e401b37c70e3c5da9cc8ecf78003faa9a4958,"['post', 'mandrill', 'crash']",General,{'crash': 100}
+2c869d1f9a320645cd406bfd07bcf821bba286f3,"['crash', 'absence', 'rate', 'limit', 'header']",General,{'crash': 100}
+99897af04e8ceddee82577f908ee9ed884c79c82,"['benhc', 'security', 'page']",General,{'security': 100}
+679362054c53cef249e336ea8709bbf140ae3c9d,"['callahan', 'security']",General,{'security': 100}
+d31b6c5db9cf1de6bbb31e7930dee586fea66fde,"['hover', 'statement', 'community', 'page', 'http', 'github', 'gratipay', 'security', 'issue']",General,{'security': 100}
+22045e36e1bac9a71c61b91d798a3b3acba78994,"['pull', 'request', 'benhc', 'patch', 'security']",General,{'security': 100}
+14e14d01dcfd8540c70d1a6299ebab20e1913fa4,"['pull', 'request', 'benhc', 'patch', 'delete', 'security']",General,{'security': 100}
+c58a1f456cf82858ee21808a5b4a92fc62ab2879,"['delete', 'security']",General,{'security': 100}
+81149945fdfa04ba4c8d92c3f9260224ef50538d,"['update', 'security']",General,{'security': 100}
+35dc383dec1ec38af7dad12707053f8d58f3ad93,"['security', 'text']",General,{'security': 100}
+6e6c6a2ded0aae7cab80a54b60ac1784a429c08d,['security'],General,{'security': 100}
+c397f7752c3ac33fd05c82ac566e1002f577a68e,"['access', 'control', 'gratipay']",Porous_defenses,{'access control': 100}
+032f23af3691755d0cf418c6565e4dd1e91d4838,"['check', 'access', 'control', 'origin', 'shuffle', 'line', 'clearer', 'comment']",Porous_defenses,{'access control': 100}
+0bb9611777421b7a99d4230c3d245cc24fd74b58,"['csrf', 'inbound', 'outbound']",Insecure_interaction_between_components,{'csrf': 100}
+ed34c6f64f969e678f48789d8025b83724d8dd71,"['pull', 'request', 'gratipay', 'font', 'issue', 'access', 'control']",Porous_defenses,{'access control': 100}
+52394e37368d9d6799935308d27a1587e099eb31,"['access', 'control']",Porous_defenses,{'access control': 100}
+53fa6b64bb486b4b48f6902c7213873f3b17fa96,"['workaround', 'wart', 'facebook', 'security', 'measure']",General,{'security': 100}
+4bef62dd77e0315755be5a69bec5be3e904b5c69,"['pull', 'request', 'gittip', 'payday', 'deadlock', 'payday', 'deadlock']",Risky_resource_management,{'deadlock': 100}
+2068e399747cad743cff9d58099cc6a7bd8f4bdc,"['pull', 'request', 'gittip', 'security', 'hole']",General,{'security': 100}
+8cf2b081bad8fc668f8d2356701682fec586bf41,"['security', 'hole']",General,{'security': 100}
+4b2080604a43a42d3eaa3aa97ffdc3c5b1f6267d,"['test', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+6e82888dbc85be5892318e100983f9eeb1c30b63,"['csrf', 'inbound', 'hook', 'keyerror', 'block', 'keyerror', 'return']",Insecure_interaction_between_components,{'csrf': 100}
+d1b9e76d32731020e7fa170079d674d3a5fc4b00,"['csrf', 'check']",Insecure_interaction_between_components,{'csrf': 100}
+b6ca8b599c8811b903f1c01d65b8ccf1b3e5d295,"['crash', 'rerun', 'stage']",General,{'crash': 100}
+3d3068e19bcd0ac15e34067a603082aa8e4e1263,"['pull', 'request', 'gittip', 'csrf', 'cookie', 'csrf', 'cookie']",Insecure_interaction_between_components,{'csrf': 100}
+0a47b371b2b6420b6681945f94bde18f377edf56,"['false', 'csrf', 'cookie', 'need']",Insecure_interaction_between_components,{'csrf': 100}
+74eff1b3c7dda3ae724456eb3268f0a733f6273b,"['clean', 'comment', 'genparticipants', 'payday', 'crash']",General,{'crash': 100}
+16a113bcd6c9571e86445af22448c2a2a6094b6a,"['generate', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+0e06d379a450867bb0f3902aeaaf19af8dc52ae2,"['gittip', 'security', 'configure', 'aspen']",General,{'security': 100}
+ad339d35f8ea7ba532000bfa5861165e993d3de9,"['pull', 'request', 'gittip', 'danishtariq', 'security']",General,{'security': 100}
+4c1bfdcc2d1a5f02933da41325c7c9be130f62b7,"['danishtariq', 'security']",General,{'security': 100}
+845ef55d0f06dd40d636391797abc1767fe4b112,"['point', 'security', 'file', 'contributor', 'page']",General,{'security': 100}
+460d98578e88dbf3eb59ce9ba9cd3badfc462069,"['csrf', 'referer']",Insecure_interaction_between_components,{'csrf': 100}
+bc643cd078f0cdbc35a822d6dc9d7adf7e3697d1,"['csrf', 'request', 'good']",Insecure_interaction_between_components,{'csrf': 100}
+04caeda96e3649b6b532f6b1bf9239805b691c53,"['drive', 'mixpanel', 'metric', 'client', 'side', 'json', 'amount', 'body', 'csrf', 'safety', 'belt']",Insecure_interaction_between_components,{'csrf': 100}
+20c648490d500410fe1087945599eacac3360574,"['security', 'dstufft']",General,{'security': 100}
+e36f4d442ce30b7381c28bb4429f529abc5ef959,"['people', 'security']",General,{'security': 100}
+7373cb548dc3f9a040d53f42beec26f1f7cd0ea2,"['potential', 'security', 'hole', 'token', 'generates', 'null', 'need', 'null', 'arbitrary', 'user', 'sqlalchemy', 'opts', 'idiomatic', 'python', 'idiomatic']",General,{'security': 100}
+261ec966aa25507c4dabc6ad2129d4ca86859d15,"['security', 'file', 'text', 'file', 'site', 'root']",General,{'security': 100}
+f88eb02e55a80a71be75f21f19fba1abca16e235,"['regression', 'credit', 'card', 'button', 'delete', 'credit', 'card', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+6fb8ddea80ff9b4a9c49ec61c53064128c0e0fe1,"['borrow', 'django', 'csrf', 'implementation']",Insecure_interaction_between_components,{'csrf': 100}
+cb3d16a0736301c6b082d13898bf451c3dbc3508,"['csrf', 'json']",Insecure_interaction_between_components,{'csrf': 100}

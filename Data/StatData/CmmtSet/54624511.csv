@@ -1,189 +1,252 @@
-sha,message,catetory,matched,labels
-8da4517c39d76e92c2754ee993e3a9b0e8aabe69,"['attribute', 'crash', 'namepattern', 'runtime', 'enumeration']",Risky_resource_management,{'crash': 100},
-55a22c4b8d5772c910279d7b271caf959f07a916,"['annotation', 'crash', 'inspector', 'entity']",Risky_resource_management,{'crash': 100},
-e3ef7c1bd05b665c1341c1f00ed9a15636d0f040,"['mechanism', 'platform', 'column', 'security']",General,{'security': 100},
-af045df0939a0548eee1aa52564e4571afc35235,"['design', 'constraint', 'security', 'group']",General,{'security': 100},
-faa4d575cee5bb2cdd9aa570b63d06fe95ba107b,"['policy', 'security', 'javadoc']",General,{'security': 100},
-c9b4ca09ed00b07f1c5108fd674f2fbb75496475,"['design', 'securityconstraint', 'design', 'memory', 'security']",General,{'security': 100},
-7ab6869f93bc0812962300aabf3af5d4d8eac3dd,"['design', 'constraint', 'security', 'groupcreate', 'group']",General,{'security': 100},
-904745b8a61e91dedd9340148bc9e40ccb5b210f,"['anonymous', 'session', 'return', 'scope', 'security']",General,{'security': 100},
-c6bb7dd21aeee70db128d6ed88ad340880b41afe,"['anonymous', 'session', 'return', 'scope', 'security', 'differentanonymous', 'store', 'session', 'scope']",General,{'security': 100},
-f64c3e3bd09ffceeaa50b8a77581ebbd807d36ac,"['design', 'constraint', 'security', 'grouperror', 'table', 'column']",General,{'security': 100},
-ef137ed994de00d9dd095a84ce7c17c363f9f2fe,"['support', 'security']",General,{'security': 100},
-d24f0e0adf41628385dbf5a1209cbbd2bc4e819a,"['design', 'constraint', 'security', 'groupconstraint', 'operation', 'memory', 'entity']",General,{'security': 100},
-036ee4580097e8af9aba03221fd97539e0ffb4e2,"['design', 'constraint', 'security', 'grouphandle']",General,{'security': 100},
-eea31764b9e0c4a5c2086c010049dcba3bebff80,"['design', 'constraint', 'security', 'group']",General,{'security': 100},
-a4ada79ff63ebf364bee6ea667f73c1e1a8c499e,"['level', 'security', 'field', 'reset']",General,{'security': 100},
-c40e35b82c204794e98dbd67096584bed9876903,"['deadlock', 'scary', 'scheduling']",Risky_resource_management,{'deadlock': 100},
-a1393038919cacd85f1608f283d7f35cc3fc6e15,"['constraint', 'error', 'opening', 'security', 'localization']",General,{'security': 100},
-0a6add267b46ecbc91dcabda43510632e5cb752f,"['unavailable', 'property', 'constraint', 'security']",General,{'security': 100},
-ad385807a1c4b1932b982e4b80d6e4a8c4d4a3eb,"['creates', 'import', 'group', 'duplicate', 'grouphierarchy', 'record', 'check', 'security']",General,{'security': 100},
-3fbec7e741c2e6ae9164365038021b87f3ffc58b,"['creates', 'import', 'group', 'duplicate', 'grouphierarchy', 'record', 'security']",General,{'security': 100},
-31d1eb3a36cd1d42134e53d96780e17f3b67c4ac,"['unnecessary', 'allocation', 'memoryattribute', 'dynamic', 'traverse', 'security']",General,{'security': 100},
-82002358989c5a075335dd7c0dc78eb98786fd46,"['support', 'security', 'state']",General,{'security': 100},
-883bbee8054cb849ac8fe88fc941119d6a951970,"['support', 'security', 'statesupport', 'security', 'statefinal', 'javadoc', 'keyword']",General,{'security': 100},
-e621614b545ed70abcd25538d3abdfc8deeef438,"['composition', 'security', 'state']",General,{'security': 100},
-d5f56e90d79a77bdcb9c7a138628aeec07cf8b41,"['variable', 'query', 'constraint', 'security', 'occurs', 'rebind', 'alias', 'executionstringutils']",General,{'security': 100},
-22323100db8a4f18c03f395fb5db6677c0ad522c,"['variable', 'query', 'constraint', 'security', 'occurs', 'rebind', 'alias', 'execution']",General,{'security': 100},
-30f51869e14350781f5aa302da7e62a9679fdd39,"['class', 'method', 'incorrect', 'getter', 'event', 'security', 'subsystem']",General,{'security': 100},
-06a934643e71af0c3a5f40ad69419ce0937b9765,"['macro', 'query', 'constraint', 'contains', 'security']",General,{'security': 100},
-d315092016ddc3c2de05c2080180964e44221e52,"['restriction', 'security', 'entity']",General,{'security': 100},
-5541dc5cc8a119dacfca8bb5c846b80383a93483,"['supportupdate', 'security', 'spring', 'version']",General,{'security': 100},
-40c17555bb355976ce45b5924a223fc765ade4ca,"['unnecessary', 'spring', 'security', 'exclude', 'oauth']",General,{'security': 100},
-e7d58acea745d1047622f7ab5b003acf8bd1a219,"['security', 'constraint', 'identity', 'entity']",General,{'security': 100},
-7bafde32fde203ae3550cb5ee5f8de0a70298aa4,"['token', 'property', 'constraint', 'application', 'ability', 'security', 'entity']",General,{'security': 100},
-a499ca3dbbdb80c49024d6ace55dc21940700fd4,"['token', 'constraint', 'ability', 'security', 'entity']",General,{'security': 100},
-4408c77c274940550fe06980548d9dcf9c55cf8b,"['attribute', 'onetomany', 'restriction', 'security', 'field']",General,{'security': 100},
-82e2208afbebf86f9f1118c01020ac3c464578d1,"['manytomany', 'security', 'entity']",General,{'security': 100},
-4ee8317f1c5121f33aec744d3f551a7d29a3c415,"['constraint', 'update', 'security', 'entity']",General,{'security': 100},
-91e7d694630d9917d8e154aa879168d6236ef2e0,"['security', 'context', 'systemserver', 'session', 'separatelogin', 'server', 'session', 'authenticatewithout']",General,{'security': 100},
-8169d52dea0d5647e1727c35b345b5d43f5169f1,"['security', 'context', 'system']",General,{'security': 100},
-fef509c10ad0d3b666f7b96cb295b96d0e9c2e5c,"['security', 'context', 'system']",General,{'security': 100},
-286015e4ef11c126c6730c380513d6069f04ba6a,"['store', 'attribute', 'collection', 'token', 'relationship', 'information', 'security']",General,{'security': 100},
-7d958ca1575367b47784da2746cb8e23b1edd55e,"['store', 'attribute', 'collection', 'token', 'relationship', 'information', 'security']",General,{'security': 100},
-2c16f2f4737412f0bd6dad4ef163d9cac60f892b,"['platform', 'buttonspanel', 'screen', 'security', 'alwaysvisible']",General,{'security': 100},
-542bb62cb9a23b97f623c907ce0b2223c6c4ba73,"['reload', 'security', 'constraint', 'entity']",General,{'security': 100},
-64c69fc96a31429cfccf47d8b3e315de11d77698,"['order', 'security', 'constraint', 'clause']",General,{'security': 100},
-ccdf8024faa203455b52b5cd7719dc90a42b31e2,"['repository', 'constraint', 'wizard', 'groovy', 'security']",General,{'security': 100},
-43500a17cc1b6e508fce0ea9501dae4ba9003763,"['wizard', 'groovy', 'security']",General,{'security': 100},
-ff7fa0d616860196df20841a96dcae76ba2a9588,"['wizard', 'groovy', 'security']",General,{'security': 100},
-ffc62e684cf48484e9592bc1a37168a87bd7a449,"['component', 'permission', 'datagrid', 'support', 'security']",General,{'security': 100},
-160599faa7af35dc1e4327f4c9ff6aa24187fb80,"['constraint', 'verbosive', 'usage', 'groovy', 'security']",General,{'security': 100},
-86ed5c65b81825c9bf9976ae3a94daa09907ec53,"['constraint', 'verbosive', 'usage', 'groovy', 'security']",General,{'security': 100},
-64af9631795f0c7c164c19338e93e12473df8d06,"['condition', 'property', 'parent', 'dialog', 'security', 'entity']",General,{'security': 100},
-856571c02e5d39a2166465c467642f3ba066cf35,"['screen', 'check', 'opening', 'security', 'toplevelwindow']",General,{'security': 100},
-29826194b99e46218abce6ab499aef6622aa46da,"['notification', 'level', 'security', 'desktop']",General,{'security': 100},
-799a668be00d3c7f67addfbf233ef37f13509322,"['level', 'security', 'support']",General,{'security': 100},
-cb807423415e45c4c9cc4ff46b02b1fe0a41313c,"['level', 'security', 'support']",General,{'security': 100},
-5576b390f30dc21649636deac457140ae75aec83,"['ability', 'security']",General,{'security': 100},
-317225acab8ba3419515b3bee78877488e916dbb,"['portal', 'context', 'security', 'spring', 'register']",General,{'security': 100},
-c24e5d0db932139e59dcbf70df27ada0a2dadc05,"['constraint', 'security']",General,{'security': 100},
-5b07e316aa2d5fc5ffaa7d87fba755612e227ded,"['security', 'placeholder']",General,{'security': 100},
-e34d41f16450d1c4f4bd908d9dca06de338483ea,"['portal', 'dependency', 'module', 'property', 'context', 'jackson', 'configuration', 'security', 'spring']",General,{'security': 100},
-99e82de932068c6ac7f8e2982511b709bc5a6cf0,"['memory', 'project', 'level', 'security', 'entity']",General,{'security': 100},
-09f3cee06ff7eb0b81bb08dcc611498e9ec0add5,"['memory', 'project', 'level', 'security', 'entity']",General,{'security': 100},
-035dadd4bddf6a553ab5a3291df0ed4cdc063f3d,"['memory', 'security']",General,{'security': 100},
-16ed3c736e1a511b8fd1fbe0889d006e49553e11,"['memory', 'review', 'security']",General,{'security': 100},
-a24e7c3cfcaa5349b087be940a784b2da890538b,"['memory', 'security']",General,{'security': 100},
-262eae75822c832892c4f6e8018750b5d8e2ecf5,"['memory', 'security']",General,{'security': 100},
-8a9d8f98f357b3b70e2790aa7501ec893476130e,"['persistence', 'security', 'interface']",General,{'security': 100},
-c36d51f6c85b8fa081c2c6e8d6123d8bc91715be,"['panel', 'group', 'button', 'security', 'browser']",General,{'security': 100},
-6b21d5fd910755c51e53d6ff6984166628179b2f,"['editor', 'class', 'constraint', 'error', 'check', 'serialization', 'security']",General,{'security': 100},
-e722f0f9c5a9c87b4d2d6b7e9e994a48fa8f93bf,"['integration', 'thymeleaf', 'spring', 'security']",General,{'security': 100},
-961c8536914196f0396d9b5ac472de984beba5ae,"['security', 'datamanager']",General,{'security': 100},
-cc4617167d83f1a7a3824ec56c88084fd8f9b2de,"['crash', 'module', 'tomcat', 'contains', 'exception', 'automatic', 'update']",Risky_resource_management,{'crash': 100},
-f9e4f3aab83de740d8961d94c1279bfbb9e0766e,"['crash', 'module', 'tomcat', 'contains', 'exception', 'automatic', 'update']",Risky_resource_management,{'crash': 100},
-cb098321dd4b69f3e71bc16634a40cb21238861e,"['problem', 'message', 'construct', 'security', 'logback']",General,{'security': 100},
-9837aa1d8b27fa45f0f80b817ee4c6965bba8270,"['serialization', 'security', 'cluster', 'problem']",General,{'security': 100},
-929f4e7804d0a90178dc9cfb093e524bfd9e41c3,"['security', 'problem']",General,{'security': 100},
-5526ba2ec965d32314f987655f7c1015eaa6e6ba,"['operation', 'context', 'security']",General,{'security': 100},
-fbf756544fc2b924cb0c726b761ef6758f1ba748,"['background', 'deadlock', 'client']",Risky_resource_management,{'deadlock': 100},
-11310ec6de8cb8275f097d5ca3e102c01690087f,"['default', 'exception', 'check', 'security', 'datamanager']",General,{'security': 100},
-34eea7d37e855edd2f90ad64511a5a1b9bf60029,"['middleware', 'default', 'compilation', 'check', 'security', 'datamanager']",General,{'security': 100},
-36a43fcf10ea6cd811d569f8feddb1b1ec10e36d,"['middleware', 'default', 'check', 'security', 'datamanager']",General,{'security': 100},
-e40dee96749a6270908d1cdc2e6f8f2e1b41945e,"['active', 'security', 'constraint']",General,{'security': 100},
-4d5a3f2231e5b5e633a8055b78905fdc895c1537,"['constraint', 'member', 'incorrect', 'security', 'operator']",General,{'security': 100},
-318f89d58e97433983c3aefd62b20c5dfa32e687,"['active', 'security', 'constraint']",General,{'security': 100},
-70da0603b2d11d361bd857812dfe6d927779ce9a,"['active', 'security', 'constraint']",General,{'security': 100},
-ca62255ca2d8356ec6498380e881acaf6e92fe2d,"['security', 'constraint', 'improvementdefault', 'value']",General,{'security': 100},
-df9ab8d0fcc24d5fb421e3795aa7efaa19332d99,"['security', 'constraint', 'improvementimprovement', 'generation']",General,{'security': 100},
-4b4fc998a280ccdb055db133bdcf4a8e079d5a00,"['security', 'constraint']",General,{'security': 100},
-ca3b165afb7c92b2396f9be0fab64a40a7bd510b,"['security', 'constraint', 'improvementaction']",General,{'security': 100},
-b02c1312a619a32b99f533715a7d7c2db014248b,"['security', 'constraint', 'improvementreview']",General,{'security': 100},
-56d31e312dd09e1b7b0bd57ebf1419e67206674e,"['security', 'constraint', 'component', 'level', 'support', 'security']",General,{'security': 100},
-47e1141fb57418d807b8320beadc5193fefb06e6,"['security', 'constraint', 'improvement']",General,{'security': 100},
-9a552ee9f8366375b63ed10a48a57776a09d3472,"['security', 'constraint', 'improvementchange', 'reviewsupport']",General,{'security': 100},
-92e2473ed048d2d3c2be789ad669751c5274fde2,"['security', 'constraint', 'improvement']",General,{'security': 100},
-2a5c72c00fe9c6baddf96752f8580fc20ca8cc0b,"['security', 'constraint', 'improvementdraft']",General,{'security': 100},
-fc6a2d8140801edbe09370a5a4f063b3bd105c9e,"['security', 'constraint', 'improvement']",General,{'security': 100},
-7d7861262f5518b3caafa116f06ada0c3bca732e,"['security', 'constraint', 'improvement']",General,{'security': 100},
-3824e4f56cdf037d6399e868a9da8ee329d6d3cc,"['security', 'constraint', 'improvement']",General,{'security': 100},
-66d9a954d599cea0c0a1f0b5ac56eb8231019d5e,"['security', 'constraint', 'improvement']",General,{'security': 100},
-9a9a2751a075f1082c63505ee6619982871c3f11,"['security', 'constraint', 'improvementdraft']",General,{'security': 100},
-5413aea7f15f3b3c03816a55b9018c1aecb00031,"['security', 'constraint', 'improvementdraft']",General,{'security': 100},
-61bb7c866881497e1ea58bf161e9fa5c071b054c,"['security', 'constraint', 'improvementdraft']",General,{'security': 100},
-1262363e857d26d49f7636691cd9a99c2b6b20af,"['security', 'constraint', 'improvementdraft']",General,{'security': 100},
-02ae15e43956f273fd8d68c4fafa810b55a45ab0,"['security', 'constraint', 'improvementdraft']",General,{'security': 100},
-f62eb6d234c31c0cd1d6a717ada00555f8e51bcc,"['entity', 'security']",General,{'security': 100},
-6fdc62a5da23633afe0d464db196264827f53854,"['eclipselink', 'framework', 'security', 'spring', 'upgrade']",General,{'security': 100},
-e163502760010cdea05df20090f7cf1e3c5d31db,"['revision', 'mergedquery', 'parameter', 'constraint', 'report', 'security']",General,{'security': 100},
-12bd06bf57197d29f2aee31dfda7dc638bfc9772,"['security', 'package']",General,{'security': 100},
-2b884690632bfca9f7da985774a3a3ba7b6044be,"['support', 'attribute', 'dynamic', 'security']",General,{'security': 100},
-e13ac27880f21b5b861b49674985387f836e232d,"['action', 'support', 'state', 'convenient', 'class', 'security']",General,{'security': 100},
-006c5eb5a418965ddafcf0ac433ce401c966301f,"['action', 'support', 'state', 'convenient', 'class', 'security']",General,{'security': 100},
-083020aa98d34b02d474d2d7d10e8165caa06c97,"['action', 'support', 'state', 'convenient', 'class', 'security']",General,{'security': 100},
-aea1d633a1cd7683e25498d5c584858f771706be,"['action', 'support', 'state', 'convenient', 'class', 'security']",General,{'security': 100},
-fdbd9408d66e4d3149d522d502f95cfab03d71ab,"['action', 'support', 'state', 'convenient', 'class', 'security']",General,{'security': 100},
-f37117e08712eb48a9774241c9ed15d3d2358818,"['action', 'support', 'state', 'convenient', 'class', 'security']",General,{'security': 100},
-5b77b8321e6f00e800e822c85d6c3f3fb0b2407e,"['action', 'support', 'state', 'convenient', 'class', 'security']",General,{'security': 100},
-222cb4754ba0c7bba2f6216c202d5a74fce4c742,"['component', 'security', 'pickerfield', 'permission']",General,{'security': 100},
-867418bd1444c9fda8860a3c885daae748632711,"['filter', 'issue', 'security']",General,{'security': 100},
-2ba4128c2b0bde1bd4ebec192fce71e49ce0787a,"['message', 'security', 'entity']",General,{'security': 100},
-771ae43ddacdb3f475eaa8c1188685f486dad27f,"['component', 'property', 'metaclass', 'check', 'security']",General,{'security': 100},
-6dcf08331363f6f649c72bdc40117d60554b2bc6,"['component', 'property', 'metaclass', 'check', 'security']",General,{'security': 100},
-a1fc44d203ca1404095e79b63f9ee27848214115,"['source', 'security']",General,{'security': 100},
-00ff65f9a955657ed757e4a6c456cf1a2a6a5ca5,"['component', 'property', 'metaclass', 'check', 'security']",General,{'security': 100},
-321604ede6a0868dcdd368def1ce7fe156df8d8d,"['security', 'spring']",General,{'security': 100},
-2c536710870fdd3e68679f943d48b800e7c980a1,"['loadcontext', 'constraint', 'entity', 'security']",General,{'security': 100},
-c131e50ad2974981195143b73e9de7be2b004684,"['column', 'comment', 'security']",General,{'security': 100},
-404c1dfeb8d02d66b61257b42805c237be5b7b10,"['column', 'error', 'table', 'security']",General,{'security': 100},
-e0423b6007ec591869fffb6fcdaf16f259a7c2eb,"['security', 'clienttype']",General,{'security': 100},
-34578d9741f587ca19c8ce3e9b0e225f1e0034f1,"['component', 'progress', 'access', 'control']",Porous_defenses,{'access control': 100},
-9b04dcc4aa9a7c2a46df1c90846d0731a2c3a009,"['security', 'function', 'password', 'reset']",General,{'security': 100},
-eb094e8174a91568dc3cf4aa359c6a0f5f2a9df1,"['strange', 'security', 'desktop', 'screen']",General,{'security': 100},
-a566fe66bed7a95428214faa17870d60a069f8a5,"['strange', 'security', 'desktop', 'screen']",General,{'security': 100},
-27294fff14249014ceb0ae17bfefdbb47892543b,"['visibility', 'attribute', 'desktop', 'column', 'table', 'security']",General,{'security': 100},
-d8b8d848b8d5387dc1700eb541e28d94775055ef,"['documentation', 'security']",General,{'security': 100},
-eae0937f843f0e157ce49210e7e552f6eb04a2bc,"['documentation', 'security']",General,{'security': 100},
-db77c5c648192743bb5908e5b29994727d5c18a3,"['documentation', 'security']",General,{'security': 100},
-3076a13099551ed964e1021005d677c5711b8227,"['documentation', 'security']",General,{'security': 100},
-96259822ed70b4649dc3061f8c696bdcc7407035,"['documentation', 'security']",General,{'security': 100},
-437e6c4504d263b37e54c04b804355d0a40ba3f2,"['documentation', 'security']",General,{'security': 100},
-7e9ec52a36ccfee029519f79f6991bb734122a11,"['level', 'security', 'attribute']",General,{'security': 100},
-d6f146e5a6982433bc7e09203d3eb73db4f1c2f5,"['result', 'empty', 'filter', 'notification', 'search', 'security']",General,{'security': 100},
-218c7cda995bd5d3b09bf4b35ee2d341b419324b,"['component', 'permission', 'fieldgroup', 'security', 'tabsheet']",General,{'security': 100},
-5cd01602b18ac7f83c48ac7a8ed2f9cdb4efeb70,"['documentation', 'security']",General,{'security': 100},
-69ac6ceafd05486ae366b565d44eae834f76a21f,"['documentation', 'security']",General,{'security': 100},
-04f17e2702b3ce9c76deb22e695502e86a5a0589,"['security', 'paramprototypes', 'constraint']",General,{'security': 100},
-2df43382c5faf6aa17bbdd539e8cd813c0a33194,"['desktop', 'security']",General,{'security': 100},
-8b2f0a54e1824d94c7dafcbb25785e222033e8fe,"['security', 'login']",General,{'security': 100},
-afbe8c30d27dbbe5ace22cdd65e84f240d98bed8,"['security', 'login']",General,{'security': 100},
-a1f32ddfcfbe6096d8dfd091e70ca09d796b6455,"['security', 'cleanup']",General,{'security': 100},
-35bbadddaf8f339af17054a2aca59eae9cfadfcf,"['security', 'cleanup']",General,{'security': 100},
-83c1a2b9397d9ff72d7fbf2f5458e9b98890bc41,"['action', 'permission', 'refactor', 'target', 'security', 'invoke']",General,{'security': 100},
-7712d5c17629fd1ad8a9285b9a3cd97732caa318,"['button', 'security', 'locale']",General,{'security': 100},
-47b5c1fa72b7ae4f36443291170dba3327e4c2d7,"['frame', 'security', 'permission']",General,{'security': 100},
-a1a518f045629a01d20c7d3775e9dbfea015ed8d,"['security', 'usereditor', 'button', 'permission']",General,{'security': 100},
-dc1f1f5792f14071ceefdf2b88b5755ed795af3e,"['specific', 'security', 'permission']",General,{'security': 100},
-68b19649cb64abd3e379c6b9d07b497d9c8a21f7,"['security', 'attribute', 'screen', 'permission']",General,{'security': 100},
-fe468fef987fe121b2712a1a4efc47d52c66baaa,"['compatibility', 'operation', 'check', 'security', 'entity']",General,{'security': 100},
-60540f407df589e7fd44722275f54863434f47f3,"['operation', 'security', 'entity', 'screen']",General,{'security': 100},
-2e00762b0e76941e8de9d15eb51ba075f15cdd83,"['security', 'screen', 'entity', 'permission']",General,{'security': 100},
-e32b46bb95aff8af728cfc972c1d0336272d09d5,"['security', 'screen', 'entity', 'permission']",General,{'security': 100},
-50f5540e6fdf324dfa05fe1c7ddecf69630ff3c8,"['security', 'screen', 'entity', 'permission']",General,{'security': 100},
-fa1fe01a383e10aaa4a3c3707d5d722f08d94467,"['permission', 'security', 'screen']",General,{'security': 100},
-1fcb9050b4af5903587b9715be6ac0780ff093fe,"['permission', 'security', 'screen']",General,{'security': 100},
-17f54b318710dd7ad08c70059a998cce2e443153,"['clear', 'security']",General,{'security': 100},
-79ea48abde6e9dfdecf85efcb203d29adc8662e4,"['permission', 'component', 'desktop', 'security']",General,{'security': 100},
-ea70b8118fdcdec2b8a9db1aa6daaf64d0f11e94,"['permission', 'component', 'desktop', 'security']",General,{'security': 100},
-2588ab19bc7fd460c1af7cd78db402cc8c91500d,"['entityversions', 'check', 'security']",General,{'security': 100},
-545216abc25bfce1e9adc60d513282741b3d3974,"['component', 'permission', 'graphic', 'class', 'security']",General,{'security': 100},
-c0e5a0160cbd16e16032960e66b428d18144c741,"['component', 'permission', 'graphic', 'class', 'security']",General,{'security': 100},
-e93a6b7bcee1134427091c963414adc54f2b52fc,"['editor', 'constraint', 'ability', 'security']",General,{'security': 100},
-628f4d705ffc62295b261c63d27ba388cff53094,"['problem', 'gorup', 'restriction', 'security', 'field']",General,{'security': 100},
-c5b9a90c86e7c86a8fa0f9ef458f998b8946614d,"['database', 'startup', 'context', 'server', 'script', 'update', 'security', 'groovy']",General,{'security': 100},
-db32a251dfab4bbd81221a296b5c54b4e0b59dd3,"['collection', 'relationship', 'mistake', 'security', 'datasources']",General,{'security': 100},
-02e9e7fc3c7b20e161645b4d7dda8f2b156eb41f,"['security', 'attribute']",General,{'security': 100},
-a725dceeb6aa3178ce01e360bb8e604e064845c3,"['security', 'attribute']",General,{'security': 100},
-42d0e84edf5f9737d1e3dd3eb8eb6ccdedd7b39f,"['clause', 'ability', 'security', 'alias']",General,{'security': 100},
-3e64d00e88b77b9dcfe831686806f88b1e3f3e24,"['common', 'placeholder', 'constraint', 'security', 'alias', 'entity']",General,{'security': 100},
-9f2312e41b6dbb98a091745b8b4edd8cbd1dfca3,"['default', 'security']",General,{'security': 100},
-d6f1dd32b259c5c725f0233894a2d8556eee4452,"['security', 'field']",General,{'security': 100},
-979d0ce51ea39730ef38e7fe089ccca371a1ef27,"['access', 'control']",Porous_defenses,{'access control': 100},
-7d1533bfca9d085d92883a2bd3a89e9bf4768cac,"['access', 'control']",Porous_defenses,{'access control': 100},
-11fe9d7e875230747251969af64d5ea1ce50f0ea,"['subject', 'security', 'profile']",General,{'security': 100},
-ff2d63c3a6ef09975e88d71d4e82d1b246a61a35,"['security', 'association', 'login']",General,{'security': 100},
-e751b3c60e05ed392fb691855c308251e77f9eb6,"['security', 'constraint']",General,{'security': 100},
-3ecc5aea9dba8ca339db3efb77f8ff5ecea4b0aa,"['security', 'permission']",General,{'security': 100},
-7fcfc8f908cf6470f94e742177169f4cf372f883,"['security', 'group', 'hierarchy']",General,{'security': 100},
-d32a410b758da83c06456c5ddc0a1f71eb376ca0,"['model', 'security', 'domain']",General,{'security': 100},
+sha,message,catetory,matched
+8da4517c39d76e92c2754ee993e3a9b0e8aabe69,"['runtime', 'crash', 'namepattern', 'attribute', 'enumeration']",General,{'crash': 100}
+55a22c4b8d5772c910279d7b271caf959f07a916,"['crash', 'entity', 'inspector', 'entity']",General,{'crash': 100}
+e3ef7c1bd05b665c1341c1f00ed9a15636d0f040,"['security', 'mechanism', 'cuba', 'platform', 'cuba']",General,{'security': 100}
+af045df0939a0548eee1aa52564e4571afc35235,"['design', 'time', 'security', 'group', 'constraint']",General,{'security': 100}
+faa4d575cee5bb2cdd9aa570b63d06fe95ba107b,"['role', 'security', 'policy', 'javadoc']",General,{'security': 100}
+8847edea0f078a3f837f46b0fda622a690d69bc1,"['security', 'role', 'policy', 'issuper', 'property', 'roledefinition', 'role']",General,{'security': 100}
+061ea84be51bdd4577464ff51619cff336873549,"['security', 'role', 'policy', 'field', 'default', 'permission', 'role', 'entity', 'application', 'property', 'defines', 'role', 'policy', 'mode', 'default', 'access', 'annotation', 'wildcard', 'support', 'access', 'annotation', 'role', 'definition', 'wildcard', 'permission', 'role', 'editor', 'issuper', 'attribute', 'role', 'annotation', 'role', 'editor']",General,{'security': 100}
+c9b4ca09ed00b07f1c5108fd674f2fbb75496475,"['design', 'time', 'security', 'memory', 'security', 'constraint', 'design', 'time', 'role']",General,{'security': 100}
+7ab6869f93bc0812962300aabf3af5d4d8eac3dd,"['design', 'time', 'security', 'group', 'constraint']",General,{'security': 100}
+904745b8a61e91dedd9340148bc9e40ccb5b210f,"['different', 'anonymous', 'session', 'different', 'security', 'scope']",General,{'security': 100}
+c6bb7dd21aeee70db128d6ed88ad340880b41afe,"['different', 'anonymous', 'session', 'different', 'security', 'scope', 'store', 'anonymous', 'session', 'security', 'scope', 'method']",General,{'security': 100}
+00e4df9cf8b482acb7873570315c08eb0ba0742f,"['design', 'time', 'security', 'javadoc']",General,{'security': 100}
+e42a1be9d5d2d9cd2e56d9b48c886bcf607b11db,"['design', 'time', 'security', 'javadoc']",General,{'security': 100}
+f64c3e3bd09ffceeaa50b8a77581ebbd807d36ac,"['design', 'time', 'security', 'group', 'constraint', 'hsql', 'error', 'column', 'drop', 'null']",General,{'security': 100}
+d24f0e0adf41628385dbf5a1209cbbd2bc4e819a,"['design', 'time', 'security', 'group', 'constraint', 'memory', 'constraint', 'entity', 'operation']",General,{'security': 100}
+65617c9d2e580ba16c6497f01d497f0baea909e0,"['design', 'time', 'security', 'rename']",General,{'security': 100}
+036ee4580097e8af9aba03221fd97539e0ffb4e2,"['design', 'time', 'security', 'group', 'constraint', 'entity']",General,{'security': 100}
+eea31764b9e0c4a5c2086c010049dcba3bebff80,"['design', 'time', 'security', 'group', 'constraint']",General,{'security': 100}
+4d39b982f0c84357ca33d99ecf6c14eb92574696,"['design', 'time', 'security', 'rename', 'permission']",General,{'security': 100}
+d258da1f92d59e3bb3e1f7d9476fb5d10c185cf1,"['attribute', 'middleware', 'strict', 'security', 'setup']",General,{'security': 100}
+0228f43c06c6e21da1c8559e5631d2eb9280f3f6,"['design', 'time', 'security', 'rename', 'roledef', 'roledefinition']",General,{'security': 100}
+a4ada79ff63ebf364bee6ea667f73c1e1a8c499e,"['flag', 'field', 'level', 'security']",General,{'security': 100}
+858b2056aef8bcb0a002d7f31ab57252daf4dd9c,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+c40e35b82c204794e98dbd67096584bed9876903,"['deadlock', 'scheduling', 'scary']",Risky_resource_management,{'deadlock': 100}
+a1393038919cacd85f1608f283d7f35cc3fc6e15,"['error', 'opening', 'localization', 'security', 'constraint']",General,{'security': 100}
+0a6add267b46ecbc91dcabda43510632e5cb752f,"['empty', 'property', 'unavailable', 'security', 'constraint']",General,{'security': 100}
+ad385807a1c4b1932b982e4b80d6e4a8c4d4a3eb,"['initial', 'import', 'security', 'group', 'creates', 'duplicate', 'grouphierarchy', 'record', 'check']",General,{'security': 100}
+3fbec7e741c2e6ae9164365038021b87f3ffc58b,"['initial', 'import', 'security', 'group', 'creates', 'duplicate', 'grouphierarchy', 'record']",General,{'security': 100}
+31d1eb3a36cd1d42134e53d96780e17f3b67c4ac,"['unnecessary', 'memory', 'allocation', 'traverse', 'entity', 'tree', 'dynamic', 'attribute', 'security']",General,{'security': 100}
+8261d51f74a5d21bb0ffbd23607ee5b90634beb1,"['update', 'kryo', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+82002358989c5a075335dd7c0dc78eb98786fd46,"['security', 'state', 'support', 'test']",General,{'security': 100}
+883bbee8054cb849ac8fe88fc941119d6a951970,"['security', 'state', 'support', 'security', 'state', 'support', 'final', 'keyword']",General,{'security': 100}
+e621614b545ed70abcd25538d3abdfc8deeef438,"['copy', 'security', 'state', 'composition', 'copy']",General,{'security': 100}
+1e239a2d83d8dd9056edfd511f537337ad7e4e1e,"['security', 'constraint', 'jpql', 'query', 'entity', 'self', 'reference', 'unit', 'test']",General,{'security': 100}
+d5f56e90d79a77bdcb9c7a138628aeec07cf8b41,"['variable', 'occurs', 'execution', 'query', 'alias', 'security', 'constraint', 'stringutils']",General,{'security': 100}
+22323100db8a4f18c03f395fb5db6677c0ad522c,"['variable', 'occurs', 'execution', 'query', 'alias', 'security', 'constraint']",General,{'security': 100}
+30f51869e14350781f5aa302da7e62a9679fdd39,"['incorrect', 'getter', 'method', 'security', 'subsystem', 'event', 'class']",General,{'security': 100}
+06a934643e71af0c3a5f40ad69419ce0937b9765,"['query', 'extract', 'security', 'constraint', 'query', 'contains', 'macro']",General,{'security': 100}
+5541dc5cc8a119dacfca8bb5c846b80383a93483,"['support', 'java', 'cuba', 'update', 'spring', 'version', 'spring', 'security', 'version']",General,{'security': 100}
+40c17555bb355976ce45b5924a223fc765ade4ca,"['unnecessary', 'spring', 'security', 'exclude', 'spring', 'oauth', 'dependency']",General,{'security': 100}
+e7d58acea745d1047622f7ab5b003acf8bd1a219,"['identity', 'entity', 'security', 'constraint']",General,{'security': 100}
+f4fff9f1c042772a620c0a1b991f9cdbdcf10d41,"['memory', 'leak', 'background', 'task', 'extract', 'unregister', 'method']",Risky_resource_management,{'memory leak': 100}
+ec543056a583324bbf6a8de1d8712987d8578a74,"['memory', 'leak', 'background', 'task']",Risky_resource_management,{'memory leak': 100}
+4408c77c274940550fe06980548d9dcf9c55cf8b,"['onetomany', 'field', 'null', 'security', 'attribute', 'restriction']",General,{'security': 100}
+4ee8317f1c5121f33aec744d3f551a7d29a3c415,"['rest', 'update', 'entity', 'security', 'security', 'constraint']",General,{'security': 100}
+f6e6dfcb67cbad07cefe9a9a87fca9c1cef3f2df,"['system', 'securitycontext', 'event', 'system', 'security', 'context']",General,{'security': 100}
+91e7d694630d9917d8e154aa879168d6236ef2e0,"['system', 'security', 'context', 'separate', 'session', 'user', 'server', 'authenticate', 'login', 'processing', 'server', 'session', 'login', 'procedure']",General,{'security': 100}
+8169d52dea0d5647e1727c35b345b5d43f5169f1,"['system', 'security', 'context']",General,{'security': 100}
+fef509c10ad0d3b666f7b96cb295b96d0e9c2e5c,"['system', 'security', 'context']",General,{'security': 100}
+33f3a59823b0efe4f68ce537359be36ef9043148,"['dynamic', 'attribute', 'access', 'control']",Porous_defenses,{'access control': 100}
+9be6f0a7f5ab5d6201984fb2616ee47e455d1074,"['memory', 'leak', 'modify']",Risky_resource_management,{'memory leak': 100}
+c19f2cfa857c62ce4d07c911da77ba98c4e421a2,"['dynamic', 'attribute', 'access', 'control', 'show', 'attribute', 'null', 'attribute', 'security']",Porous_defenses,{'access control': 100}
+6149bf3771cbe10dc92640e487366035eac9bd01,"['dynamic', 'attribute', 'access', 'control', 'rest', 'support', 'update']",Porous_defenses,{'access control': 100}
+ac388bfad399c64b09f9568c6fbdb00a82f37681,"['dynamic', 'attribute', 'access', 'control', 'refactor', 'update', 'client']",Porous_defenses,{'access control': 100}
+8b8023ea5f24a25395139ab5ca92b010e89bf7bb,"['memory', 'leak', 'modify', 'object', 'revert']",Risky_resource_management,{'memory leak': 100}
+8d6da49cc4e9e1bba76083a30b8f3e788e7ba4fd,"['memory', 'leak', 'modify']",Risky_resource_management,{'memory leak': 100}
+286015e4ef11c126c6730c380513d6069f04ba6a,"['store', 'information', 'collection', 'security', 'token', 'collection', 'attribute', 'relationship']",General,{'security': 100}
+7d958ca1575367b47784da2746cb8e23b1edd55e,"['store', 'information', 'collection', 'security', 'token', 'collection', 'attribute', 'relationship']",General,{'security': 100}
+2c16f2f4737412f0bd6dad4ef163d9cac60f892b,"['buttonspanel', 'alwaysvisible', 'true', 'platform', 'security', 'screen']",General,{'security': 100}
+542bb62cb9a23b97f623c907ce0b2223c6c4ba73,"['reload', 'entity', 'security', 'constraint']",General,{'security': 100}
+64c69fc96a31429cfccf47d8b3e315de11d77698,"['jpql', 'order', 'clause', 'security', 'constraint']",General,{'security': 100}
+ccdf8024faa203455b52b5cd7719dc90a42b31e2,"['groovy', 'security', 'constraint', 'enums', 'repository']",General,{'security': 100}
+43500a17cc1b6e508fce0ea9501dae4ba9003763,"['groovy', 'security', 'constraint']",General,{'security': 100}
+ff7fa0d616860196df20841a96dcae76ba2a9588,"['groovy', 'security', 'constraint']",General,{'security': 100}
+ffc62e684cf48484e9592bc1a37168a87bd7a449,"['support', 'security', 'permission', 'datagrid', 'component']",General,{'security': 100}
+160599faa7af35dc1e4327f4c9ff6aa24187fb80,"['verbosive', 'usage', 'groovy', 'security', 'constraint']",General,{'security': 100}
+86ed5c65b81825c9bf9976ae3a94daa09907ec53,"['verbosive', 'usage', 'groovy', 'security', 'constraint']",General,{'security': 100}
+64af9631795f0c7c164c19338e93e12473df8d06,"['condition', 'dialog', 'hide', 'role', 'security', 'property', 'current', 'entity']",General,{'security': 100}
+856571c02e5d39a2166465c467642f3ba066cf35,"['check', 'screen', 'security', 'toplevelwindow', 'opening']",General,{'security': 100}
+29826194b99e46218abce6ab499aef6622aa46da,"['level', 'security', 'notification', 'desktop']",General,{'security': 100}
+b8c7f0de46140f6e5d952def0ae2b7c708f48360,"['memory', 'leak', 'cubatabsheet']",Risky_resource_management,{'memory leak': 100}
+799a668be00d3c7f67addfbf233ef37f13509322,"['level', 'security', 'support', 'rest']",General,{'security': 100}
+cb807423415e45c4c9cc4ff46b02b1fe0a41313c,"['level', 'security', 'support', 'rest']",General,{'security': 100}
+62d9ba0d3fbab08f3c3b3154a2a0519e92b53cf2,"['partial', 'view', 'link', 'eclipselink', 'session', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+5576b390f30dc21649636deac457140ae75aec83,"['ability', 'copy', 'security', 'role']",General,{'security': 100}
+317225acab8ba3419515b3bee78877488e916dbb,"['register', 'spring', 'security', 'portal', 'root', 'context']",General,{'security': 100}
+b8d5b46b5448038676a4ef36e9829363fb39f50a,"['cuba', 'rest', 'security', 'spring', 'cuba', 'rest', 'dispatcher', 'spring']",General,{'security': 100}
+c24e5d0db932139e59dcbf70df27ada0a2dadc05,"['security', 'constraint']",General,{'security': 100}
+d286ec857e3f516cb9a0145f4d65c3e05d17bc50,"['security', 'group']",General,{'security': 100}
+5b07e316aa2d5fc5ffaa7d87fba755612e227ded,"['rest', 'security', 'spring', 'placeholder']",General,{'security': 100}
+e34d41f16450d1c4f4bd908d9dca06de338483ea,"['rest', 'work', 'portal', 'module', 'configuration', 'rest', 'security', 'spring', 'property', 'jackson', 'dependency', 'portal', 'spring', 'context', 'root', 'spring', 'context']",General,{'security': 100}
+99e82de932068c6ac7f8e2982511b709bc5a6cf0,"['level', 'security', 'entity', 'update', 'memory', 'work', 'test', 'project']",General,{'security': 100}
+09f3cee06ff7eb0b81bb08dcc611498e9ec0add5,"['level', 'security', 'entity', 'update', 'memory', 'work', 'test', 'project']",General,{'security': 100}
+c8899805ac97c129e49b5bcc05b503f33501cada,"['memory', 'leak', 'perfj', 'async', 'stats', 'appender']",Risky_resource_management,{'memory leak': 100}
+035dadd4bddf6a553ab5a3291df0ed4cdc063f3d,"['work', 'memory', 'security', 'constraint']",General,{'security': 100}
+11ff8d8a9afbe6ee11dabc2d0900b44506622870,"['work', 'memory', 'security', 'constraint', 'error', 'data']",General,{'security': 100}
+9b5299899eabe26126e791cf5d50613271916ff6,"['work', 'memory', 'security', 'constraint', 'error', 'data']",General,{'security': 100}
+16ed3c736e1a511b8fd1fbe0889d006e49553e11,"['work', 'memory', 'security', 'constraint', 'review']",General,{'security': 100}
+a24e7c3cfcaa5349b087be940a784b2da890538b,"['work', 'memory', 'security', 'constraint']",General,{'security': 100}
+262eae75822c832892c4f6e8018750b5d8e2ecf5,"['work', 'memory', 'security', 'constraint']",General,{'security': 100}
+8a9d8f98f357b3b70e2790aa7501ec893476130e,"['persistence', 'security', 'interface']",General,{'security': 100}
+db0a8479c134ca1d5738c9a34910048cbf3f2390,"['security', 'configuration']",General,{'security': 100}
+c36d51f6c85b8fa081c2c6e8d6123d8bc91715be,"['button', 'panel', 'security', 'group', 'browser']",General,{'security': 100}
+6b21d5fd910755c51e53d6ff6984166628179b2f,"['kryo', 'serialization', 'error', 'editor', 'check', 'security', 'constraint', 'java', 'class']",General,{'security': 100}
+e722f0f9c5a9c87b4d2d6b7e9e994a48fa8f93bf,"['thymeleaf', 'integration', 'spring', 'security']",General,{'security': 100}
+961c8536914196f0396d9b5ac472de984beba5ae,"['platform', 'code', 'data', 'datamanager', 'security', 'context']",General,{'security': 100}
+8df65c4d901781a12449325ae7cae8a6c2e56a59,"['memory', 'leak', 'resource', 'release']",Risky_resource_management,{'memory leak': 100}
+14ab7f110b731b4138a43ea730ad87780a59a031,"['memory', 'leak', 'resource', 'release', 'demo', 'screen']",Risky_resource_management,{'memory leak': 100}
+966b881fd01352f2625c4fdcc2c41788d34432ef,"['memory', 'leak', 'resource', 'release']",Risky_resource_management,{'memory leak': 100}
+04d869007641f921eda369eafc21e3d9ac752d96,"['memory', 'leak', 'resource', 'release']",Risky_resource_management,{'memory leak': 100}
+cc4617167d83f1a7a3824ec56c88084fd8f9b2de,"['automatic', 'update', 'crash', 'exception', 'path', 'tomcat', 'contains']",General,{'crash': 100}
+f9e4f3aab83de740d8961d94c1279bfbb9e0766e,"['automatic', 'update', 'crash', 'exception', 'path', 'tomcat', 'contains']",General,{'crash': 100}
+d846bc319e9b08b74373ca0c88fcde09c1988e17,"['memory', 'leak', 'resource', 'release']",Risky_resource_management,{'memory leak': 100}
+cb098321dd4b69f3e71bc16634a40cb21238861e,"['krio', 'security', 'problem', 'logback', 'construct', 'message']",General,{'security': 100}
+9837aa1d8b27fa45f0f80b817ee4c6965bba8270,"['krio', 'security', 'problem', 'serialization', 'cluster']",General,{'security': 100}
+929f4e7804d0a90178dc9cfb093e524bfd9e41c3,"['krio', 'security', 'problem']",General,{'security': 100}
+5526ba2ec965d32314f987655f7c1015eaa6e6ba,"['operation', 'security', 'context']",General,{'security': 100}
+fbf756544fc2b924cb0c726b761ef6758f1ba748,"['deadlock', 'client', 'background', 'task']",Risky_resource_management,{'deadlock': 100}
+11310ec6de8cb8275f097d5ca3e102c01690087f,"['check', 'security', 'datamanager', 'middleware', 'default', 'exception']",General,{'security': 100}
+34eea7d37e855edd2f90ad64511a5a1b9bf60029,"['check', 'security', 'datamanager', 'middleware', 'default', 'test', 'compilation']",General,{'security': 100}
+36a43fcf10ea6cd811d569f8feddb1b1ec10e36d,"['check', 'security', 'datamanager', 'middleware', 'default']",General,{'security': 100}
+ed28bdd36ffa32629f06f51e60474ea54e68b4fe,"['memory', 'leak', 'cherry']",Risky_resource_management,{'memory leak': 100}
+ee9dff5aa177c834278038309b6db5a43a43bd04,"['exception', 'error', 'security', 'constraint']",General,{'security': 100}
+e40dee96749a6270908d1cdc2e6f8f2e1b41945e,"['active', 'flag', 'security', 'constraint']",General,{'security': 100}
+4d5a3f2231e5b5e633a8055b78905fdc895c1537,"['jpql', 'member', 'operator', 'security', 'constraint']",General,{'security': 100}
+318f89d58e97433983c3aefd62b20c5dfa32e687,"['active', 'flag', 'security', 'constraint', 'typo']",General,{'security': 100}
+70da0603b2d11d361bd857812dfe6d927779ce9a,"['active', 'flag', 'security', 'constraint']",General,{'security': 100}
+ca62255ca2d8356ec6498380e881acaf6e92fe2d,"['security', 'constraint', 'improvement', 'default', 'value']",General,{'security': 100}
+df9ab8d0fcc24d5fb421e3795aa7efaa19332d99,"['security', 'constraint', 'improvement', 'jpql', 'generation', 'improvement']",General,{'security': 100}
+4b4fc998a280ccdb055db133bdcf4a8e079d5a00,"['security', 'constraint', 'improvement']",General,{'security': 100}
+ca3b165afb7c92b2396f9be0fab64a40a7bd510b,"['security', 'constraint', 'improvement', 'test', 'item', 'action', 'integration']",General,{'security': 100}
+b02c1312a619a32b99f533715a7d7c2db014248b,"['security', 'constraint', 'improvement', 'review']",General,{'security': 100}
+56d31e312dd09e1b7b0bd57ebf1419e67206674e,"['security', 'constraint', 'improvement', 'component', 'support', 'level', 'security']",General,{'security': 100}
+47e1141fb57418d807b8320beadc5193fefb06e6,"['security', 'constraint', 'improvement', 'test']",General,{'security': 100}
+9a552ee9f8366375b63ed10a48a57776a09d3472,"['security', 'constraint', 'improvement', 'review', 'rest', 'support', 'rest', 'test']",General,{'security': 100}
+92e2473ed048d2d3c2be789ad669751c5274fde2,"['security', 'constraint', 'improvement']",General,{'security': 100}
+2a5c72c00fe9c6baddf96752f8580fc20ca8cc0b,"['security', 'constraint', 'improvement']",General,{'security': 100}
+fc6a2d8140801edbe09370a5a4f063b3bd105c9e,"['security', 'constraint', 'improvement', 'test']",General,{'security': 100}
+7d7861262f5518b3caafa116f06ada0c3bca732e,"['security', 'constraint', 'improvement', 'test']",General,{'security': 100}
+3824e4f56cdf037d6399e868a9da8ee329d6d3cc,"['security', 'constraint', 'improvement', 'test']",General,{'security': 100}
+66d9a954d599cea0c0a1f0b5ac56eb8231019d5e,"['security', 'constraint', 'improvement', 'test']",General,{'security': 100}
+9a9a2751a075f1082c63505ee6619982871c3f11,"['security', 'constraint', 'improvement']",General,{'security': 100}
+5413aea7f15f3b3c03816a55b9018c1aecb00031,"['security', 'constraint', 'improvement']",General,{'security': 100}
+61bb7c866881497e1ea58bf161e9fa5c071b054c,"['security', 'constraint', 'improvement']",General,{'security': 100}
+1262363e857d26d49f7636691cd9a99c2b6b20af,"['security', 'constraint', 'improvement']",General,{'security': 100}
+02ae15e43956f273fd8d68c4fafa810b55a45ab0,"['security', 'constraint', 'improvement']",General,{'security': 100}
+89bf2eb0720840c10d441c50e7e19bd072ec2aae,"['query', 'transformer', 'security', 'constraint']",General,{'security': 100}
+af48258ef6ca5134ef1d6600982fd1c452617ee1,"['stack', 'overflow', 'exception', 'possible', 'generate', 'message']",Risky_resource_management,{'stack overflow': 100}
+f62eb6d234c31c0cd1d6a717ada00555f8e51bcc,"['ability', 'load', 'entity', 'security', 'constraint']",General,{'security': 100}
+6fdc62a5da23633afe0d464db196264827f53854,"['eclipselink', 'upgrade', 'spring', 'framework', 'spring', 'security']",General,{'security': 100}
+e163502760010cdea05df20090f7cf1e3c5d31db,"['revision', 'auto', 'complete', 'jpql', 'parameter', 'name', 'security', 'constraint', 'report', 'query']",General,{'security': 100}
+12bd06bf57197d29f2aee31dfda7dc638bfc9772,"['security', 'package']",General,{'security': 100}
+2b884690632bfca9f7da985774a3a3ba7b6044be,"['support', 'security', 'dynamic', 'attribute']",General,{'security': 100}
+e13ac27880f21b5b861b49674985387f836e232d,"['convenient', 'base', 'class', 'action', 'state', 'security', 'support']",General,{'security': 100}
+006c5eb5a418965ddafcf0ac433ce401c966301f,"['convenient', 'base', 'class', 'action', 'state', 'security', 'support']",General,{'security': 100}
+083020aa98d34b02d474d2d7d10e8165caa06c97,"['convenient', 'base', 'class', 'action', 'state', 'security', 'support']",General,{'security': 100}
+aea1d633a1cd7683e25498d5c584858f771706be,"['convenient', 'base', 'class', 'action', 'state', 'security', 'support']",General,{'security': 100}
+fdbd9408d66e4d3149d522d502f95cfab03d71ab,"['convenient', 'base', 'class', 'action', 'state', 'security', 'support']",General,{'security': 100}
+f37117e08712eb48a9774241c9ed15d3d2358818,"['convenient', 'base', 'class', 'action', 'state', 'security', 'support']",General,{'security': 100}
+5b77b8321e6f00e800e822c85d6c3f3fb0b2407e,"['convenient', 'base', 'class', 'action', 'state', 'security', 'support']",General,{'security': 100}
+222cb4754ba0c7bba2f6216c202d5a74fce4c742,"['security', 'permission', 'work', 'pickerfield', 'component']",General,{'security': 100}
+867418bd1444c9fda8860a3c885daae748632711,"['filter', 'security', 'issue']",General,{'security': 100}
+8b5626cca4ff67703779e0eef45eb073424c60dc,"['stack', 'overflow', 'exception', 'filter', 'operation', 'equal', 'list']",Risky_resource_management,{'stack overflow': 100}
+2ba4128c2b0bde1bd4ebec192fce71e49ce0787a,"['cuba', 'security', 'entity']",General,{'security': 100}
+b4511a0a231f2cc43ea88de7bb5f0e743b9a501c,"['memory', 'leak', 'editable', 'column', 'lookup', 'field']",Risky_resource_management,{'memory leak': 100}
+771ae43ddacdb3f475eaa8c1188685f486dad27f,"['check', 'security', 'component', 'real', 'property', 'metaclass']",General,{'security': 100}
+d9422a661d3c4087f5c8a2ff523be1f5e81eb298,"['mock', 'security']",General,{'security': 100}
+6dcf08331363f6f649c72bdc40117d60554b2bc6,"['check', 'security', 'component', 'real', 'property', 'metaclass']",General,{'security': 100}
+a1fc44d203ca1404095e79b63f9ee27848214115,"['security', 'source']",General,{'security': 100}
+00ff65f9a955657ed757e4a6c456cf1a2a6a5ca5,"['check', 'security', 'component', 'real', 'property', 'metaclass']",General,{'security': 100}
+2d298417561f4c85257c18f1cc533ef9c64e2e5f,"['null', 'pointer', 'exception', 'data', 'recovery', 'screen']",Risky_resource_management,{'null pointer': 100}
+321604ede6a0868dcdd368def1ce7fe156df8d8d,"['spring', 'spring', 'security']",General,{'security': 100}
+e2f54d95ead99c13bc1faf7e165ceb8f187ff6e2,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+9e1f95c6ec53d7be26fdb0fb4aba314d96033413,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+8e7ff40e29218db6be78534daaf32811e9af62b3,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+680fd5360f80db4d67e4877b4c07347190f51b9b,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+2c536710870fdd3e68679f943d48b800e7c980a1,"['security', 'constraint', 'jpql', 'entity', 'regardless', 'loadcontext', 'entity', 'type']",General,{'security': 100}
+7c74c8244a0b63dbd84a417820ce2e056cb62f00,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+e0423b6007ec591869fffb6fcdaf16f259a7c2eb,"['security', 'clienttype']",General,{'security': 100}
+7526ff206e47b03c1f35d51323505ed75739ee33,"['entity', 'hide', 'security']",General,{'security': 100}
+34578d9741f587ca19c8ce3e9b0e225f1e0034f1,"['access', 'control', 'component']",Porous_defenses,{'access control': 100}
+edde404b3b6d2a3a50186e053c2b8c8e45b6dbc2,"['security', 'configuration']",General,{'security': 100}
+4386d8e1f090225f7a9f28a0cb3be6d02b75ce34,"['null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+9b04dcc4aa9a7c2a46df1c90846d0731a2c3a009,"['security', 'mass', 'password', 'reset', 'function']",General,{'security': 100}
+b78a7a353455cdcd44c42594136ef2ee41b07c1e,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+952bd974a5dedc64d83b3577a4a3cbc4e77190c2,"['lookup', 'window', 'memory', 'leak', 'listener', 'javadocs']",Risky_resource_management,{'memory leak': 100}
+27294fff14249014ceb0ae17bfefdbb47892543b,"['desktop', 'security', 'table', 'column', 'visibility', 'attribute']",General,{'security': 100}
+d8b8d848b8d5387dc1700eb541e28d94775055ef,"['security', 'documentation']",General,{'security': 100}
+eae0937f843f0e157ce49210e7e552f6eb04a2bc,"['security', 'documentation']",General,{'security': 100}
+db77c5c648192743bb5908e5b29994727d5c18a3,"['security', 'documentation']",General,{'security': 100}
+54777673e5e3c4e02c3e3ca6ae3407d5f5cdded5,"['button', 'panel', 'access', 'control', 'component']",Porous_defenses,{'access control': 100}
+3076a13099551ed964e1021005d677c5711b8227,"['security', 'documentation']",General,{'security': 100}
+96259822ed70b4649dc3061f8c696bdcc7407035,"['security', 'documentation']",General,{'security': 100}
+437e6c4504d263b37e54c04b804355d0a40ba3f2,"['security', 'documentation']",General,{'security': 100}
+7e9ec52a36ccfee029519f79f6991bb734122a11,"['attribute', 'level', 'security']",General,{'security': 100}
+79f5a3d92f2ce811ec018bdf95d6e85da1dad5f5,"['security', 'documentation', 'kerberos']",General,{'security': 100}
+d6f146e5a6982433bc7e09203d3eb73db4f1c2f5,"['security', 'notification', 'empty', 'search', 'result', 'filter']",General,{'security': 100}
+218c7cda995bd5d3b09bf4b35ee2d341b419324b,"['security', 'component', 'permission', 'tabsheet', 'fieldgroup']",General,{'security': 100}
+aaab4c19d169b4bad46dd51950eedbc3a18f9114,"['security', 'documentation', 'section', 'active', 'directory', 'integration']",General,{'security': 100}
+5cd01602b18ac7f83c48ac7a8ed2f9cdb4efeb70,"['security', 'documentation']",General,{'security': 100}
+69ac6ceafd05486ae366b565d44eae834f76a21f,"['building', 'security', 'documentation']",General,{'security': 100}
+04f17e2702b3ce9c76deb22e695502e86a5a0589,"['security', 'constraint', 'paramprototypes']",General,{'security': 100}
+b736f1fcabf72c07e3ef7b1ae1b2db3a2abda4de,"['memory', 'leak', 'jquery', 'text', 'selection', 'pack']",Risky_resource_management,{'memory leak': 100}
+fb7829489c0d8acf723dc02ba12025787cc414bd,"['memory', 'leak', 'code', 'jquery', 'cache', 'table']",Risky_resource_management,{'memory leak': 100}
+db19248b2e777bdb4f06a8481513ed3b15b490e2,"['memory', 'leak', 'code', 'dialog', 'window']",Risky_resource_management,{'memory leak': 100}
+2df43382c5faf6aa17bbdd539e8cd813c0a33194,"['desktop', 'security']",General,{'security': 100}
+8b2f0a54e1824d94c7dafcbb25785e222033e8fe,"['security', 'login']",General,{'security': 100}
+afbe8c30d27dbbe5ace22cdd65e84f240d98bed8,"['security', 'login']",General,{'security': 100}
+f1da37133ccc5107efe208a5a0b4adf24f215be4,"['background', 'worker', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+a1f32ddfcfbe6096d8dfd091e70ca09d796b6455,"['security', 'cleanup']",General,{'security': 100}
+35bbadddaf8f339af17054a2aca59eae9cfadfcf,"['security', 'cleanup']",General,{'security': 100}
+53364a4abec16ac8023b7ce9c9eea5527f9ed843,['security'],General,{'security': 100}
+83c1a2b9397d9ff72d7fbf2f5458e9b98890bc41,"['security', 'invoke', 'action', 'button', 'refactor', 'permission', 'target']",General,{'security': 100}
+7712d5c17629fd1ad8a9285b9a3cd97732caa318,"['security', 'locale']",General,{'security': 100}
+d83fe202702d64104aaae473a67300dadde5f3be,"['security', 'permission']",General,{'security': 100}
+47b5c1fa72b7ae4f36443291170dba3327e4c2d7,"['security', 'permission', 'frame']",General,{'security': 100}
+a1a518f045629a01d20c7d3775e9dbfea015ed8d,"['security', 'hide', 'permission', 'show', 'button', 'usereditor']",General,{'security': 100}
+68b19649cb64abd3e379c6b9d07b497d9c8a21f7,"['security', 'attribute', 'permission', 'screen']",General,{'security': 100}
+fe468fef987fe121b2712a1a4efc47d52c66baaa,"['security', 'check', 'compatibility', 'entity', 'operation', 'edit', 'pane']",General,{'security': 100}
+60540f407df589e7fd44722275f54863434f47f3,"['security', 'entity', 'operation', 'screen']",General,{'security': 100}
+2e00762b0e76941e8de9d15eb51ba075f15cdd83,"['security', 'entity', 'permission', 'screen']",General,{'security': 100}
+e32b46bb95aff8af728cfc972c1d0336272d09d5,"['security', 'entity', 'permission', 'screen']",General,{'security': 100}
+50f5540e6fdf324dfa05fe1c7ddecf69630ff3c8,"['security', 'entity', 'permission', 'screen']",General,{'security': 100}
+fa1fe01a383e10aaa4a3c3707d5d722f08d94467,"['security', 'screen', 'permission']",General,{'security': 100}
+1fcb9050b4af5903587b9715be6ac0780ff093fe,"['security', 'screen', 'permission']",General,{'security': 100}
+17f54b318710dd7ad08c70059a998cce2e443153,"['clear', 'security', 'permission']",General,{'security': 100}
+01c3e46f905dffedd5cb1045cfca4a56490f42cd,"['todo', 'clearing', 'security', 'assoc']",General,{'security': 100}
+79ea48abde6e9dfdecf85efcb203d29adc8662e4,"['desktop', 'security', 'permission', 'component']",General,{'security': 100}
+ea70b8118fdcdec2b8a9db1aa6daaf64d0f11e94,"['desktop', 'security', 'permission', 'component']",General,{'security': 100}
+a49ff339c09f1fdd1d43e75fdb45d68def5583a8,"['null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+2588ab19bc7fd460c1af7cd78db402cc8c91500d,"['security', 'check']",General,{'security': 100}
+545216abc25bfce1e9adc60d513282741b3d3974,"['security', 'permission', 'graphic', 'component']",General,{'security': 100}
+c0e5a0160cbd16e16032960e66b428d18144c741,"['security', 'permission', 'graphic', 'component']",General,{'security': 100}
+e93a6b7bcee1134427091c963414adc54f2b52fc,"['open', 'editor', 'security', 'constraint']",General,{'security': 100}
+628f4d705ffc62295b261c63d27ba388cff53094,"['problem', 'security', 'restriction', 'field', 'gorup']",General,{'security': 100}
+c5b9a90c86e7c86a8fa0f9ef458f998b8946614d,"['security', 'context', 'groovy', 'script', 'server', 'startup', 'database', 'update']",General,{'security': 100}
+db32a251dfab4bbd81221a296b5c54b4e0b59dd3,"['security', 'mistake', 'relationship', 'collection', 'datasources']",General,{'security': 100}
+5d427d96ff2a9bd3073090a3a01107f24e9139da,['security'],General,{'security': 100}
+02e9e7fc3c7b20e161645b4d7dda8f2b156eb41f,"['security', 'attribute']",General,{'security': 100}
+a725dceeb6aa3178ce01e360bb8e604e064845c3,"['security', 'attribute']",General,{'security': 100}
+42d0e84edf5f9737d1e3dd3eb8eb6ccdedd7b39f,"['security', 'constraint', 'clause', 'alias', 'placeholder', 'ability']",General,{'security': 100}
+3e64d00e88b77b9dcfe831686806f88b1e3f3e24,"['common', 'entity', 'alias', 'placeholder', 'security', 'constraint']",General,{'security': 100}
+9f2312e41b6dbb98a091745b8b4edd8cbd1dfca3,"['default', 'security', 'role']",General,{'security': 100}
+d6f1dd32b259c5c725f0233894a2d8556eee4452,"['additional', 'field', 'security', 'role']",General,{'security': 100}
+3b4100981fffc7c0b1270158b21f71c80e7529c4,"['stack', 'overflow', 'field', 'entity']",Risky_resource_management,{'stack overflow': 100}
+213eacca72bcb7d7c8d9b54a8df6a139e5ef0f86,"['stack', 'overflow', 'field', 'entity']",Risky_resource_management,{'stack overflow': 100}
+979d0ce51ea39730ef38e7fe089ccca371a1ef27,"['card', 'access', 'control']",Porous_defenses,{'access control': 100}
+7d1533bfca9d085d92883a2bd3a89e9bf4768cac,"['card', 'access', 'control']",Porous_defenses,{'access control': 100}
+37bc9ddca4a214202a2be8d0eb08a9236c51b274,"['check', 'user', 'building', 'screen', 'security']",General,{'security': 100}
+7e372e28fcaa6e647a7c63f3ee87f1bc43713314,"['haulmont', 'cuba', 'security', 'haulmont', 'cuba', 'security']",General,{'security': 100}
+2881d8dbe6c4eab875da819c6bca509f0cf19e67,"['memory', 'leak', 'applog']",Risky_resource_management,{'memory leak': 100}
+42a9a8f3c53d5a1cc66b3ae23d75f202f9fafb9c,"['memory', 'leak', 'file', 'upload']",Risky_resource_management,{'memory leak': 100}
+715d830d84491d895af0004844468b292cfba2f0,"['memory', 'leak', 'resource']",Risky_resource_management,{'memory leak': 100}
+fce158ad4f2235a98ada5fa148094ed1c09e88ba,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+5a57945ede0e0907abd95cb9f2ee1f5766b613c6,"['custom', 'datasources', 'security']",General,{'security': 100}
+11fe9d7e875230747251969af64d5ea1ce50f0ea,"['security', 'profile', 'subject']",General,{'security': 100}
+ff2d63c3a6ef09975e88d71d4e82d1b246a61a35,"['security', 'association']",General,{'security': 100}
+e751b3c60e05ed392fb691855c308251e77f9eb6,"['security', 'constraint']",General,{'security': 100}
+3ecc5aea9dba8ca339db3efb77f8ff5ecea4b0aa,"['security', 'permission']",General,{'security': 100}
+7fcfc8f908cf6470f94e742177169f4cf372f883,"['security', 'group', 'hierarchy']",General,{'security': 100}
+d32a410b758da83c06456c5ddc0a1f71eb376ca0,"['security', 'domain', 'model']",General,{'security': 100}

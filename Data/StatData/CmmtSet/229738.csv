@@ -1,6 +1,13 @@
-sha,message,catetory,matched,labels
-d3cf8ebc330a8a6e8dbbdd02f9d890f3d18df720,"['addressissue', 'address', 'jackson', 'update', 'security']",General,{'security': 100},
-a3a92bd7f295dbad835015c280a136a7d74fa0ae,"['jackson', 'update', 'securityjackson', 'issue', 'security']",General,{'security': 100},
-83e8bd2740104af9ee1c035e3792f7af75df77c1,"['readme', 'setting', 'security']",General,{'security': 100},
-2b4a7247aa2b773d7914809def94520bfa0655a0,"['sqlobject', 'demand', 'mapper', 'iterator', 'connection', 'crash']",Risky_resource_management,{'crash': 100},
-c1f58f8ef9f985679779c5cab7b5cd9c741999e2,"['sqlobject', 'demand', 'query', 'iterator', 'connection', 'crash']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+36d796beb5d3cb46d9da341803eae84cd1e6d4d0,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+d3cf8ebc330a8a6e8dbbdd02f9d890f3d18df720,"['address', 'update', 'jackson', 'address', 'security', 'issue']",General,{'security': 100}
+a3a92bd7f295dbad835015c280a136a7d74fa0ae,"['security', 'update', 'jackson', 'security', 'issue', 'jackson']",General,{'security': 100}
+cd3a443063973c89056105c09333c21e788016e2,['security'],General,{'security': 100}
+f5648a923d91ce77d1d8415885e8b16904c5af8b,"['comment', 'sqlstatement', 'definelist', 'null', 'pointer', 'check']",Risky_resource_management,{'null pointer': 100}
+b6627527b4a5b52f88b06dc7b2c5415f5af78ff9,"['stringtemplate', 'thread', 'local', 'group', 'author', 'steven', 'schlansker', 'sschlansker', 'opentable', 'date', 'update', 'release', 'note', 'aeae', 'author', 'matthew', 'hall', 'qualidafial', 'gmail', 'date', 'pull', 'request', 'jarlah', 'concurrent', 'load', 'suggestion', 'template', 'author', 'jarl', 'andr', 'hbenthal', 'moller', 'thread', 'local', 'author', 'jarl', 'andr', 'hbenthal', 'moller', 'date', 'author', 'jarl', 'andr', 'hbenthal', 'moller', 'date', 'author', 'jarl', 'andr', 'hbenthal', 'moller', 'date', 'javadoc', 'author', 'jarl', 'andr', 'hbenthal', 'moller', 'date', 'author', 'jarl', 'andr', 'hbenthal', 'moller', 'date', 'rename', 'verbose', 'variable', 'name', 'author', 'jarl', 'andr', 'hbenthal', 'moller', 'silly', 'comment', 'author', 'jarl', 'andr', 'hbenthal', 'moller', 'null', 'pointer', 'exception', 'author', 'jarl', 'andr', 'hbenthal', 'moller', 'suggestion', 'template', 'author', 'steven', 'schlansker', 'sschlansker', 'opentable', 'date', 'stringtemplate', 'load', 'template']",Risky_resource_management,{'null pointer': 100}
+ce74e4abbee0846acacdfb8907c66e40f6f8ce3b,"['pull', 'request', 'cskr', 'master', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+337802ddcec64c596d111024a6eccc127c7f6344,"['memory', 'leak', 'instance', 'explicit', 'group', 'template', 'lead', 'leak', 'everytime', 'query', 'instance', 'stgroup', 'everytime', 'instance', 'reclaim', 'template']",Risky_resource_management,{'memory leak': 100}
+83e8bd2740104af9ee1c035e3792f7af75df77c1,"['readme', 'travis', 'setting', 'security', 'file']",General,{'security': 100}
+250df8bf04ce8e9ef072a625d2b7ca572a213cae,"['stack', 'overflow', 'rare', 'case']",Risky_resource_management,{'stack overflow': 100}
+2b4a7247aa2b773d7914809def94520bfa0655a0,"['iterator', 'demand', 'sqlobject', 'connection', 'leak', 'mapper', 'crash']",General,{'crash': 100}
+c1f58f8ef9f985679779c5cab7b5cd9c741999e2,"['iterator', 'demand', 'sqlobject', 'connection', 'leak', 'query', 'crash']",General,{'crash': 100}

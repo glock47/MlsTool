@@ -1,2 +1,7 @@
-sha,message,catetory,matched,labels
-ff4ad58f56aebd8b6069f45c1b630f7667bfffc0,"['private', 'backdoor']",Insecure_interaction_between_components,{'backdoor': 100},
+sha,message,catetory,matched
+cce580cf44ac2b76465cab8fec7f8c2e88e0f04e,"['memory', 'leak', 'test']",Risky_resource_management,{'memory leak': 100}
+a89a39173230dea7e71336ca981bf656a806871e,"['memory', 'leak', 'test']",Risky_resource_management,{'memory leak': 100}
+ff4ad58f56aebd8b6069f45c1b630f7667bfffc0,"['riot', 'backdoor', 'riot', 'private', 'compiler', 'test']",Insecure_interaction_between_components,{'backdoor': 100}
+4c404ffe783303cc79a25bcf1cc66c83aa2b9024,"['observable', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+d10d111860b7dd30f6e3359b0762f4ce88a22d02,"['possible', 'null', 'pointer', 'exception']",Risky_resource_management,{'null pointer': 100}
+50fe14c57c4b8d246c9f578a3372cbe541b72121,"['array', 'test', 'detect', 'possible', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}

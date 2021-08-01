@@ -1,184 +1,381 @@
-sha,message,catetory,matched,labels
-2511318e06e1bcbfc5ce39e8333d5f6fd2364c2a,"['external', 'countingmismatch', 'crash', 'versionbeyond', 'statepeople', 'stronglydisclaim']",Risky_resource_management,{'crash': 100},
-3e72de3ad878e9185a61450d0e36e5854fb7e092,"['usage', 'helperclosure', 'existgradle', 'groovy', 'versiongradle', 'project', 'crash']",Risky_resource_management,{'crash': 100},
-cd05a686c946c7b412e952c345bad5c6968d01b7,"['exception', 'crash']",Risky_resource_management,{'crash': 100},
-50e2c8c88ebb31014babd0de4bbc8873bdf8052a,"['threadoccur', 'deadlock', 'threadcreate', 'attempt', 'objectnative', 'execution']",Risky_resource_management,{'deadlock': 100},
-a3f713e393cb32081170869d48ee334b20d4c31e,"['default', 'crash', 'resolver']",Risky_resource_management,{'crash': 100},
-c13d36c1c5a166d684ed448a7d3bc0d5c7af732e,"['integer', 'overflow', 'clang']",Risky_resource_management,{'integer overflow': 100},
-d2fab1d6f5c7fa5bd39ede30690d596221b58940,"['potential', 'deadlock']",Risky_resource_management,{'deadlock': 100},
-feaa79c88257b97fa436a558efd80faea586774f,"['crash', 'assembly']",Risky_resource_management,{'crash': 100},
-fb4f83d9033c8349e8e55433a735f3c8132bdceb,"['crash', 'object', 'occurhandler', 'memory', 'strand']",Risky_resource_management,{'crash': 100},
-1ea309de5ec446295e86329137346fbaf2f19d0c,"['result', 'deadlock']",Risky_resource_management,{'deadlock': 100},
-43c44082131117145708a5e3d48ab5822f0490ff,"['service', 'crash', 'comparison']",Risky_resource_management,{'crash': 100},
-adbdd4c29b0089d52d93389d4d127df8bb95efc3,"['thread', 'crash', 'multiple', 'occurs']",Risky_resource_management,{'crash': 100},
-24c0747e957e9c71e02680182a3134cab7ed105b,"['compiler', 'crash', 'workaround']",Risky_resource_management,{'crash': 100},
-00acdadebd550bc0b287c9f0ae08310789d53ca9,"['handler', 'destructor', 'potential', 'deadlock']",Risky_resource_management,{'deadlock': 100},
-953af362d56546452461074683c17b25a53ae1c1,"['crash', 'boost', 'borland', 'system']",Risky_resource_management,{'crash': 100},
-def862bae4c1253f7ed6f162c1123a2507336975,"['conditionallyinstruction', 'enablewithin', 'crash', 'properlyparseissue', 'gnome']",Risky_resource_management,{'crash': 100},
-039be5d00e0368fa2c0830fd7db86e3cd81ff280,"['flathub', 'commitbuild', 'gnome', 'runtime', 'mastercommit', 'crash', 'different', 'cleanupmaybe']",Risky_resource_management,{'crash': 100},
-f959726b5dd501e21a28847a91f4e67447fcfab3,"['locale', 'installer', 'crash', 'window', 'causeeabdcfccececc', 'cherry']",Risky_resource_management,{'crash': 100},
-4ee3a9caa110ab41a5985ae5497c18dfab27016d,"['gimppdbdialog', 'crashdisappear', 'processus', 'dialogparty', 'crash', 'thirdanytime', 'dialog', 'dialogcheck', 'dialog', 'availability', 'accountcaller', 'pointer', 'value', 'adjustment', 'connectcrash', 'adjustmentcrash', 'hardersignal', 'proper', 'backtraces', 'cleanerpublic', 'object']",Risky_resource_management,{'crash': 100},
-2967ab7f82fe6bc2d538042cc752a06c4921065a,"['libgimp', 'annotationleast', 'crash', 'callback']",Risky_resource_management,{'crash': 100},
-7fb696206e72b8ea61f74e56f36adbfc6b9b0f17,"['crash', 'qbistspecific', 'content', 'regenerate', 'limit', 'patternrandomization', 'goingexpect', 'savingexact', 'pattern', 'savingrandomization', 'result', 'woulddefinition', 'chance']",Risky_resource_management,{'crash': 100},
-97739af6431a51244a615207226aee610fa2138a,"['libtiff', 'warning', 'crash', 'causeamount', 'certain', 'image', 'warning', 'window', 'causeavarage']",Risky_resource_management,{'crash': 100},
-b8abac1777c55ef1680e0b9b28ad8e64edb15097,"['channel', 'crash']",Risky_resource_management,{'crash': 100},
-c21859ebc4f70f6a563b7c04f70c2beeb3905f6c,"['issue', 'plugin', 'crash', 'exportingissue', 'mutex', 'stack', 'simplydispose']",Risky_resource_management,{'crash': 100},
-f6f94836c1291a2be25313aa63b40bd5e3b68105,"['input', 'custom', 'methodinput', 'mostlyuseless', 'option', 'default', 'redundant', 'straightworse', 'option', 'desktop', 'crash', 'crash', 'normalwayland', 'clientsince', 'anywayinput', 'method', 'propertynowadays', 'false', 'settingsubmenu', 'additional', 'reason', 'furthermoremethod', 'default', 'engine', 'input', 'systemlinux', 'leastdesktop']",Risky_resource_management,{'crash': 100},
-a048c8f2a47e1311d4339f872515457328e912e0,"['metadata', 'crash', 'licensor', 'editor', 'phone']",Risky_resource_management,{'crash': 100},
-b3fc24268a39212b21b292655e609f7f9a477a7a,"['brush', 'crash', 'issue', 'usingmember', 'variable', 'dolayerblendconstructor', 'struct', 'wouldvariableblend', 'composite', 'space', 'hencevalid', 'operation', 'allocateconstructor', 'unref', 'pointer', 'otherwiseconstructor', 'default', 'wouldpointer']",Risky_resource_management,{'crash': 100},
-d11e59fc4274df9f128f1d2610254f45ccfa3fb8,"['drawablesallow', 'layer', 'object', 'array', 'allocatemanagement', 'crash']",Risky_resource_management,{'crash': 100},
-146c234350d63f2366ee47abf9498412894fe1c9,"['performance', 'progressiverecord', 'performance', 'option', 'progressiveinformation', 'progressive', 'stream', 'outputallows', 'completefreeze', 'crash', 'properlymiddlesince', 'progressivetoggle', 'increase']",Risky_resource_management,{'crash': 100},
-d3ef6cfb1841f5215a64e184abec5ca2dc21f888,"['playgroundexperimental', 'option', 'monthchange', 'crash', 'experience', 'forgotwould', 'somethingcrazy', 'disableimportant', 'opencl', 'option', 'normal', 'movingmight', 'playgroundopencl', 'preference', 'system', 'resourcevisible', 'condition']",Risky_resource_management,{'crash': 100},
-f3f8d3a54e011db536ae15086a6533e2da923014,"['crash', 'component', 'issue', 'decompose', 'colorcompose']",Risky_resource_management,{'crash': 100},
-452924dbe962f2c7710ed4ac8415783d2034f910,"['possible', 'issue', 'overrun', 'arraychange', 'situationsmall', 'improvement']",Risky_resource_management,{'overrun': 100},
-19c0d43c25b49d83be17b344dc47cc5e737f0e19,"['filter', 'crash', 'issue', 'inputincomingpspec', 'accessingnotifyobject', 'config']",Risky_resource_management,{'crash': 100},
-6bae5d8cf7f8bcca648c746fef9234f91ccc4712,"['crash', 'issue', 'sourcewidget', 'segfault']",Risky_resource_management,{'crash': 100},
-2c1efdedf089f97bc8f849f49e4db86796b7ccf0,"['allocatedissue', 'unseen', 'desktop', 'connectionnever', 'crash', 'finallyunrefeasier', 'output', 'stderrmight']",Risky_resource_management,{'crash': 100},
-52cb2edd9e7cdfd376f39c35620df34cfbf75f5b,"['issue', 'crash', 'brush']",Risky_resource_management,{'crash': 100},
-666d0845e152618245bf9fcb31957678e16af4bd,"['drawable', 'select', 'offset', 'crash', 'issue', 'usingdrawable', 'foreground', 'trimap', 'segfault']",Risky_resource_management,{'crash': 100},
-df492fa89891f290d958c426d67fe19e729e7e20,"['debian', 'gitlabpackage', 'custom', 'archlinux', 'brokenverification', 'signature', 'obviouslyreason', 'security', 'debian', 'opportunitydependency', 'support', 'distribution', 'sense', 'testingadditional', 'someonethink', 'archlinux', 'whateverarchlinux', 'debian']",General,{'security': 100},
-b314437d4dde72909aa74804edc6c46c260e717a,"['additional', 'openblas', 'patchreport', 'crash', 'sophos', 'previous', 'openblas', 'startup', 'slowdown', 'timeoutchange', 'startup', 'openblas', 'timeout', 'upstream', 'patchreporter', 'crashstartupxianyi', 'openblas']",Risky_resource_management,{'crash': 100},
-f051e6d238da82c098d0e2a6179277b946b17b09,"['issue', 'crash', 'exportingprevious', 'commitplatform', 'version', 'libheifplatform', 'independent', 'libheif', 'versionexcept', 'versionresort', 'support']",Risky_resource_management,{'crash': 100},
-5da252ca18418bf349354db0baf4987d3a30a68c,"['debian', 'crash', 'issue', 'libmypaint', 'stretchknown', 'libmypaint', 'fixeddebian', 'testingpackagers', 'issue']",Risky_resource_management,{'crash': 100},
-fdf5c7edce35456e44ec776baf58add0459c6dc2,"['meson', 'wformat', 'warning', 'securitywformat', 'useless', 'security']",General,{'security': 100},
-85c004edcc3d31198bd7cb0a3ce9a13a03ce3787,"['failure', 'armvhllpango', 'undefined', 'lbabl', 'lpangocairo', 'libgimpcolor', 'libgimpbase', 'ljson', 'libgimpwidgets', 'march', 'wreturn', 'lfontconfig', 'lfreetype', 'pthread', 'wformat', 'mfloat', 'libtool', 'lgegl', 'dtags', 'lcairo', 'lpangoft', 'statement', 'prototype', 'limit', 'image', 'libgimpui', 'libgimpmath', 'attribute', 'enable', 'winit', 'option', 'thumb', 'dynamic', 'werror', 'libgimp', 'common', 'security', 'lglib', 'arith', 'libgimpconfig', 'ljpeg', 'layer', 'lharfbuzz', 'format', 'lgmodule', 'wdeclaration', 'wtype', 'wpointer', 'lgobject', 'fdiagnostics', 'wlogical', 'reference', 'floor', 'error', 'command', 'symbolstatus', 'error', 'returnedmakefile', 'errorseems', 'thing']",General,{'security': 100},
-63e0e7679ba44c9feba898a4ee00b9ebb3605023,"['crash', 'repeatobject', 'image']",Risky_resource_management,{'crash': 100},
-8ef87b09222f4044bb8f25052710fa6c3c3dd51a,"['bfeaf', 'crash', 'libgimp', 'introducedtwice', 'stuff']",Risky_resource_management,{'crash': 100},
-a09b7a9c92a2a8dfddf31023898f1b8de4e7d081,"['crash', 'workingunderstood', 'procedurecreate', 'maybegimpvaluearraysource', 'dialoginterpreter', 'checkedissue', 'configure', 'figurecommit']",Risky_resource_management,{'crash': 100},
-c059839e7800c16d6e23b56e4934fd652cd9a6da,"['libgimpbase', 'allocatingwrite', 'parameter', 'number', 'basicallywhatever', 'allocateallows', 'crash', 'party', 'thirdreturn', 'insteadprint', 'parameter']",Risky_resource_management,{'crash': 100},
-febc1a843d23566e86696d9996d166d21a1524c8,"['plugininfo', 'struct', 'crash', 'reason', 'setting', 'propertypythonunless', 'proper', 'likelyannotation', 'foundpygobject', 'issue', 'gnomehence', 'callback', 'settingasync', 'scope', 'notedimportant', 'function', 'withoutbecome', 'function', 'pointer']",Risky_resource_management,{'crash': 100},
-a6ad02a60a35cef748b02e1cf09804a5375b447c,"['crash', 'layerimplicit', 'value', 'avoidnumberator', 'conversion', 'integer', 'insteadnegativefound', 'massimo']",Risky_resource_management,{'crash': 100},
-a813b1489caa451ffbd28757e888d338b5fc850e,"['location', 'crash', 'invalid', 'issue', 'dialog', 'characterstill']",Risky_resource_management,{'crash': 100},
-cf8148df5e0eb91ada451d8aae9f35b0e832f138,"['location', 'crash', 'invalid', 'issue', 'dialog']",Risky_resource_management,{'crash': 100},
-400b5646489a69767ba498648fc3be202724740b,"['description', 'crash']",Risky_resource_management,{'crash': 100},
-b01113741e35f68e3a40b792e0daa2676f7eafd2,"['crash', 'issue']",Risky_resource_management,{'crash': 100},
-5d5ced88a8f057172c57eebf216775871a99e182,"['crash', 'issue', 'detection', 'thanks', 'massimo']",Risky_resource_management,{'crash': 100},
-be7906c05cc0437428d157cdd2db2cf208670d7c,"['issue', 'transform', 'crash', 'usingcoordinate', 'finite', 'producingangle', 'crashresult']",Risky_resource_management,{'crash': 100},
-1e739675a4b0c6787b49c3fb32d583b511645964,"['transform', 'crash', 'issue', 'selection', 'transforminginitialization', 'pointerboundary', 'critical', 'canvas', 'transform', 'selection', 'fullysegfault']",Risky_resource_management,{'crash': 100},
-8e0135362e4da74e171ebb2515b1f472fc61ba35,"['libgimpbase', 'threadreport', 'macosdisplay', 'hexadecimal', 'macosdisplay', 'linux', 'whereas', 'decimalreport', 'crash', 'experience', 'threadcould', 'approximation', 'imaginewhatever', 'common', 'macosstill', 'conversion', 'error']",Risky_resource_management,{'crash': 100},
-9b25611857c75e922dd10f3d933807b0c7cd44ed,"['issue', 'tablet', 'crash', 'usingpointer', 'track', 'modifiermotion', 'eventevent', 'haltingevent', 'matchingrequire', 'paintevent', 'matchedfinish', 'order']",Risky_resource_management,{'crash': 100},
-19320235f1ce7a8279258ec6aeab9f5e5c7e38db,"['issue', 'crash', 'openingprofilesince', 'issue', 'poppler', 'fixeddepend', 'poppler']",Risky_resource_management,{'crash': 100},
-fc4add7c2b1e91d3721db6cf068cea059aacc19b,"['crash', 'issue', 'imagearound', 'imageclose', 'arounddisplay']",Risky_resource_management,{'crash': 100},
-b9265e7cde21cd6416dd18f338b87a7a66e21006,"['layer', 'crash', 'issue', 'distributingcorrect', 'range', 'offset', 'simplystill']",Risky_resource_management,{'crash': 100},
-ea2c9eefb3accd317cd457c7fdf681284977a756,"['crash', 'activatecherry', 'ccdddecfebcdd']",Risky_resource_management,{'crash': 100},
-0cdbe91e5ad0ae22e69ef5eb4f8e76a80c99a724,"['issue', 'canvas', 'crash', 'downsizingoverflow', 'preview', 'drawable', 'large', 'falsegimptempbuf', 'creation', 'largememory']",Risky_resource_management,{'crash': 100},
-c55f2308e174439c08fe4992722934ea1b7ed2fa,"['issue', 'crash', 'savingalways', 'failure', 'errorcheck', 'exists']",Risky_resource_management,{'crash': 100},
-7adb6c26e5913b70decfcd7119354a4f59feb216,"['present', 'crash', 'issue', 'startup', 'mousearrayalwaysgimpdeviceinfo', 'gdkdevice']",Risky_resource_management,{'crash': 100},
-a5baba55396a90f49701966138bb50df144508ed,"['intelligent', 'crash', 'issue', 'scissors', 'usingpoint', 'erasingpoint', 'iscissors', 'active', 'emptyresult', 'segfault', 'segment', 'erasingsegment', 'entire', 'remainingsegment', 'point']",Risky_resource_management,{'crash': 100},
-9420805525b086f47dea52b9c42bac2936361835,"['issue', 'crash', 'portion', 'cuttinglatter', 'remnant', 'layertransform', 'correspond', 'guaranteedcorrect']",Risky_resource_management,{'crash': 100},
-04bbe941d5eb60d7547f7c66cd482f5fe91471e6,"['trigger', 'issue', 'preference', 'xcode', 'dialoguepopup', 'checkhence', 'function', 'check', 'crash', 'unlikeleast', 'unacceptable', 'behaviorfreebsd']",Risky_resource_management,{'crash': 100},
-753523c4d137774e99f94603b8e2f4ba414ddf3a,"['profile', 'crash', 'conversion', 'issue', 'coloracrossmight', 'unref', 'conversion']",Risky_resource_management,{'crash': 100},
-49dfc6143d66d10be4cd1f8ba288729342521f6a,"['transform', 'crash', 'issue', 'selection', 'drawable', 'filteroffset']",Risky_resource_management,{'crash': 100},
-e27e783f8836ca44ffd17d4c5190244dd024eb55,"['currupt', 'crash', 'preset', 'issue', 'parsingoption']",Risky_resource_management,{'crash': 100},
-7db59e7af93f690f954ebde16af8d52ccde583c4,"['issue', 'crash', 'pluginrc', 'invalidcrash']",Risky_resource_management,{'crash': 100},
-c6aa613f9c9b35f11ad198663269ec4822e0cda3,"['issue', 'crash', 'pluginrc', 'invalidcheck', 'value', 'returnreturn', 'error']",Risky_resource_management,{'crash': 100},
-a6e77355d8dfc62119eddc9d7c13a279c74367da,"['revert', 'issue', 'crash', 'immediatelycommit', 'revertssince']",Risky_resource_management,{'crash': 100},
-7886bdc2a9863a783348fcb01576bda0e673588a,"['issue', 'crash', 'immediatelypresent', 'color', 'crash', 'wouldsuccessfullystandard', 'relevant', 'output', 'check', 'errordefault', 'colorcherry', 'dbbdfcebfafbbac']",Risky_resource_management,{'crash': 100},
-eaddef595e9c4df688e0d64656c7df75eb316db7,"['image', 'crash', 'savingincrease', 'simplylayerwhatever', 'system']",Risky_resource_management,{'crash': 100},
-58c96f596e588a0d123d71fec282b207e7f45635,"['select', 'crash', 'issue', 'drawable', 'defaultaccess', 'initialize', 'result', 'segfaultiscissors']",Risky_resource_management,{'crash': 100},
-ea6d997e56300e213be341ef6d2b4c7d8684615e,"['palette', 'crash', 'import', 'issue', 'fatalformat', 'palette', 'variousvalidation', 'accidental', 'argumentinput']",Risky_resource_management,{'crash': 100},
-23dab4311abe94504d09cf3c7939a6340eb9e991,"['dynamic', 'paint', 'crash', 'symmetry', 'stamp', 'assumesoriginal', 'originsince', 'commitsymmetry', 'clearempty', 'origin', 'resultingsymmetry', 'originactive', 'segfaultorigin', 'coords', 'symmetry']",Risky_resource_management,{'crash': 100},
-d58f131b59346964171192407f3470dcadc5ecc7,"['crash', 'startsimilar', 'assertion', 'checkstill', 'fontsetleast', 'wouldwould']",Risky_resource_management,{'crash': 100},
-d094ab7e5618c0e751057bbbed17cc5e27326269,"['crash', 'insidedetermine', 'trace', 'inaccurateleast', 'check', 'basic', 'function', 'exactrobust', 'thingeasier']",Risky_resource_management,{'crash': 100},
-45c172a885dfa1684e3b0fad1a6e5cde5a1ccb0f,"['fault', 'segmentation', 'crash', 'clone', 'usingcommit', 'performedgeneration', 'synchrony', 'brush', 'gimppainttoolstill', 'paint', 'gimpsourcetool', 'sincedirectlygimpdrawtool', 'condition', 'leadingpaint', 'gimppainttoolfunction', 'gimppainttool', 'updatepaint', 'threadallows', 'subclass', 'thread', 'performaction', 'threadbrush', 'function', 'override', 'cacheboundary', 'flush', 'cachedavoidfunction']",Risky_resource_management,{'crash': 100},
-4bc982b84abdf95e00f994b0bcf07aaa3f9cd760,"['crash', 'startsince']",Risky_resource_management,{'crash': 100},
-f5cb1fed85341a9d0a46fb1391b19fa9ea3ccb42,"['brush', 'crash', 'dynamic', 'usingplace', 'brush', 'generationfunctionpaint', 'brush', 'generationdisplay', 'gimppainttool', 'updatepaint', 'thread']",Risky_resource_management,{'crash': 100},
-ba06a0fe86088b37cef3eeb3db1ce5bb39f2257c,"['plugin', 'crash', 'openinglatin', 'unicodesometimes', 'window', 'solution']",Risky_resource_management,{'crash': 100},
-fa02a2c64f5fcaaceff34cea2bd02c5e558c63ca,"['libgimp', 'handler', 'exceptionhandler', 'generates', 'drmingw', 'crash', 'exceptionadditional', 'handler', 'traceallows', 'drmingw', 'handler', 'thingcould', 'particular', 'content', 'debug', 'debug', 'traceparty', 'developer']",Risky_resource_management,{'crash': 100},
-9c8a8ae57645ec60f1e072b4f7cb51917d14379d,"['fatal', 'handler', 'crash', 'errorcontinue', 'feedback', 'normalorder']",Risky_resource_management,{'crash': 100},
-a6fd24a953655e3e65f797bfde56da5177a4c768,"['crash', 'externalreturn', 'check', 'value', 'error', 'function', 'printstderr', 'message']",Risky_resource_management,{'crash': 100},
-25af765fe656c2757ac86fc9dab7b09166ec1a1b,"['image', 'dialogfeature', 'possible', 'backupfeature', 'opening', 'finish', 'dialogsalvagedsince', 'crash', 'dirtycorrespond', 'people']",Risky_resource_management,{'crash': 100},
-7ca38c54f602e794065562602fb1987ce1dd8f6f,"['chroma', 'prophotorgb', 'crash', 'image']",Risky_resource_management,{'crash': 100},
-a1b4f4aef55f7978bfab04f200d6bb482a5e1eb8,"['stroke', 'crash', 'consolepaint', 'contextpaint', 'standard', 'gimpcontext', 'initializedalways', 'ensure']",Risky_resource_management,{'crash': 100},
-6975188d6f8fcb1e84e4e7a2632bc3ebf620ea55,"['check', 'versionseems', 'versionparticular', 'information', 'debug', 'common', 'dwarfproblem', 'wouldstill', 'linux', 'freebsdlicense', 'available', 'reason', 'default', 'problemkernel', 'freebsd', 'reporter', 'likelyeffect', 'particular', 'seriouslycould', 'fatal', 'debug', 'error', 'dialogeffect', 'killingdynamic', 'happenprone', 'crash', 'state', 'memory', 'unstable', 'handlingallocationpublic']",Risky_resource_management,{'crash': 100},
-6c93228718e5fe2efe63ae4e5cef131dab4ef446,"['gradient', 'directory', 'firstinitialization', 'shuffle', 'orderbackup', 'crash', 'folderconfiguration', 'foldercreate', 'function', 'creation', 'earliercheck', 'latersince', 'simplyterminal', 'handler', 'error', 'backup', 'point', 'anywaycreate', 'directoryminimum', 'crash', 'strict']",Risky_resource_management,{'crash': 100},
-ec14e1006e3dc47b4c6e245fef50285d48b5e955,"['avoidseems', 'parameter', 'crash', 'firstvalue', 'outputbetter', 'criticals', 'quantity']",Risky_resource_management,{'crash': 100},
-68e37f28c2490d6a3a66e20eaa2721b24ce9fc33,"['crashresult', 'crash', 'unmatchedmatchingselection']",Risky_resource_management,{'crash': 100},
-7bfab7150c8d304bf8a85e2162b36d6256cae4f0,"['layer', 'paste', 'crash']",Risky_resource_management,{'crash': 100},
-4a26d4a3e680504f68e43f24722a38475c77c17d,"['crash', 'imagefilter', 'imageshadow', 'highlight']",Risky_resource_management,{'crash': 100},
-ee6e981c042f1394ba93a071ddf5853ba6912a5e,"['obviouslyfatal', 'crash', 'bogusattempt', 'backup']",Risky_resource_management,{'crash': 100},
-fe3cf080949c15030d143426a4a288592136506b,"['dialog', 'capitalize', 'title', 'debugcontinuable', 'rename', 'crash', 'debugfatal', 'error']",Risky_resource_management,{'crash': 100},
-b118e8242bb8490042e7dc9aee6bcda8df7eef0b,"['graph', 'option', 'crash', 'debug', 'criticals', 'debug', 'patchimagebenchmark', 'projection', 'member', 'pluginmanager', 'memsize', 'usingfunction', 'gobjects']",Risky_resource_management,{'crash': 100},
-62ee5d3c7ed79886fcac71ca93ab7206c170417e,"['metadata', 'crash', 'strtok', 'important', 'checkindicate', 'strtok', 'special', 'meaning', 'previous', 'string', 'imaginemetadata', 'search', 'stringcheck', 'strstrfunction', 'haystack', 'requiresvalidity', 'likelysimilar']",Risky_resource_management,{'crash': 100},
-cc47597aaef295ba5f6196fe8c27f7a7fa40814f,"['selection', 'crash', 'floatingforbid']",Risky_resource_management,{'crash': 100},
-d613842eba7fb1f96a2389e46fe795fb3e5d264e,"['crash', 'truncatedmiddle', 'selection', 'truncatedchannel', 'unrefunref', 'image']",Risky_resource_management,{'crash': 100},
-b2b6552f1fe60ad2f276c537ca4cede3d2a1c362,"['fault', 'segmentation', 'crash', 'histogram', 'negativeleast', 'performance']",Risky_resource_management,{'crash': 100},
-12df7960ad461d3c4e6fe7fab01ce2db7eacd150,"['operation', 'crash', 'usingpointer', 'properlyparent']",Risky_resource_management,{'crash': 100},
-6dfe04e9283f8435979758ac7a1519481bc73694,"['group', 'layer', 'crash', 'image', 'empty', 'duplicategorup', 'empty', 'layer', 'extentleast', 'whenever', 'projectionforgotten', 'safeguard']",Risky_resource_management,{'crash': 100},
-0d9a85a20730e40d21c43af141c8bdb2774beb07,"['transform', 'crash', 'usingoverflow', 'buffer']",Risky_resource_management,{'crash': 100},
-84b099342c0dbdf10f1bba0693986c5c5f445d05,"['field', 'metadata', 'crash', 'editor', 'empty']",Risky_resource_management,{'crash': 100},
-bc708fb2fba6779824a61a60b16e6747d5afa55d,"['curve', 'crash', 'level']",Risky_resource_management,{'crash': 100},
-ff915b68c967c6d3f83119e5e5bf4840ef710446,"['warning', 'crash', 'rectangle', 'propertygbindings', 'optionmiddle', 'emission', 'signalcallback', 'rectangle', 'bindingrectangleunset', 'highlight', 'forgot', 'rectangle', 'displayselection']",Risky_resource_management,{'crash': 100},
-937900d6187ce21ed0ce395d27aa7c2d966be3be,"['script', 'selector', 'crash', 'colorlibgimpwidgets', 'color']",Risky_resource_management,{'crash': 100},
-13ed12d2b3b191b577a6b35beeadb4cf2d461236,"['malicious', 'avoidallow', 'boundary', 'integer', 'overflow', 'readingnecessary', 'check', 'gsizeimportant', 'addedstill', 'calculation', 'precision', 'withoutallowingtobias', 'stoeckmann']",Risky_resource_management,{'integer overflow': 100},
-c585c99e8084998b3203b6ebf854499d074f3ee4,"['picker', 'crash', 'multiple', 'monitor', 'window', 'screenmonitor']",Risky_resource_management,{'crash': 100},
-7704b6100e410ceba9634fd92bd7ee7a45dd0e25,"['crash', 'mergingsmall', 'stack', 'possiblynumber', 'sample', 'limitoverflow', 'buffer', 'stack', 'alloca']",Risky_resource_management,{'crash': 100},
-adae3882d2c9955f9dd62482f9bcdb8456679701,"['filter', 'crash', 'import', 'resolution', 'image']",Risky_resource_management,{'crash': 100},
-c8ebd043aa361fbd966cf206130611bdc728e679,"['crash', 'python', 'workaroundcrash', 'issue', 'upstream', 'pythonothers', 'issue', 'introspection', 'usefulbelieve', 'gdbus', 'temporary', 'flatpak', 'codegenbuild', 'script', 'python', 'forceenvironment', 'python', 'webkit', 'variable', 'globallydependency', 'python']",Risky_resource_management,{'crash': 100},
-571f5c86b3b12d4637849a702c2c921c9b2970ef,"['crash', 'invalid', 'value', 'selectionselection', 'value', 'limit', 'selection']",Risky_resource_management,{'crash': 100},
-e3115f1565c1b3c17df6daa8a3649770898e2a5c,"['configuration', 'crash']",Risky_resource_management,{'crash': 100},
-46bcd82800e37b0f5aead76184430ef2fe802748,"['dependent', 'contextdenial', 'crash', 'service', 'causeheight', 'infoheader', 'height', 'error']",Risky_resource_management,{'crash': 100},
-1e69bbdef6d076960237a1a6302fbb8d92e24f91,"['gfile', 'libgimpconfig', 'unrefreturnrandom', 'profile', 'crash', 'gimptemplate', 'image', 'prefs']",Risky_resource_management,{'crash': 100},
-b5934625de2bede256350b4ae14912e29e5a86b2,"['cursor', 'crash', 'hangul', 'inputcommit', 'function', 'culprit', 'reintroducedprocessedinconsistency', 'resultinglayout', 'pangoforce', 'pending', 'commits']",Risky_resource_management,{'crash': 100},
-cf3b6903c012c74b787de6eeaa1670adb63ecba2,"['crash', 'invalid', 'commentparasite', 'validate', 'reject', 'comment']",Risky_resource_management,{'crash': 100},
-a41b4a0436a186325360e65e749836c3c0d40282,"['color', 'crash', 'layer', 'droppinggimprgb', 'addressentire']",Risky_resource_management,{'crash': 100},
-4f99c7294a8ea279549e5b5a2e267ce64b88005e,"['check', 'value', 'returnseveral', 'messagechange', 'check', 'value', 'returnstill', 'warning', 'crash', 'error']",Risky_resource_management,{'crash': 100},
-d9e608f7226cb27a168ac09c797282e615f6067f,"['cleanup', 'crash', 'property', 'config']",Risky_resource_management,{'crash': 100},
-cdc7542d46a6d3c6b2c223d14f63e7d29d9571ec,"['crash', 'creation', 'layer', 'fullscreensupport', 'orderoption', 'fullscreenfullscreen', 'support', 'migrate', 'style']",Risky_resource_management,{'crash': 100},
-0fcfd4f7b70db99b19a47e442e9162b1b0f0ba58,"['cursor', 'crash', 'hangul', 'inputimprove', 'method', 'unreadablestill', 'input', 'methodweirdness', 'crash', 'hangul']",Risky_resource_management,{'crash': 100},
-1e4cbd3232ee6cc5ede1442505071d6d4f9caace,"['final', 'unref', 'image', 'laterleast', 'crash', 'imagegimpactions', 'reference', 'image']",Risky_resource_management,{'crash': 100},
-cb76253c6739d3286e158f4759689641fe4a56c7,"['screenshot', 'gnome', 'crash', 'backend', 'errorgnome', 'backend', 'check', 'shell', 'error', 'gnome', 'detection', 'shell', 'creatingalways']",Risky_resource_management,{'crash': 100},
-6a6604871fe9493cb0f7ec331d0629a4a4764973,"['support', 'crash', 'mingw', 'window']",Risky_resource_management,{'crash': 100},
-4446954e277d030a13392628d9ba804da8b82e75,"['filter', 'crash', 'gimpdrawable', 'usinggimpdrawabl']",Risky_resource_management,{'crash': 100},
-10085b118a6e83e022573c7ecbd9b4d450f7d05c,"['crash', 'pointer', 'dialoggimpcursorview', 'reference']",Risky_resource_management,{'crash': 100},
-cc9c7aa3b39383bb1bcc1442e1b07a2ca698ff78,"['fractal', 'traceselection', 'height', 'crash', 'computinginstead', 'widthselection', 'corner', 'crash']",Risky_resource_management,{'crash': 100},
-6fe0a42c5d7c643bf1d0ac781dfa5a60f428328b,"['crash', 'redundantremove', 'redundant']",Risky_resource_management,{'crash': 100},
-1243e1f93b071dc5056997d33b8dc11f27712c0a,"['format', 'exists', 'extrablack', 'crash', 'bigtiffwhatever']",Risky_resource_management,{'crash': 100},
-a0e48ad29e93e2dc259879abeb2dedc9a420b8f6,"['insateaddestroy', 'local', 'dialog', 'weird', 'crash']",Risky_resource_management,{'crash': 100},
-e58bf5138fa875442cdba39c882b1f4c71f00776,"['cursor', 'method', 'crash', 'hangul']",Risky_resource_management,{'crash': 100},
-31aa1269ecc5dc9501a9ef09c2241a50076bc8e1,"['gradient', 'script', 'current', 'deletingpossible', 'crash', 'segfault', 'restoringunderstand', 'reallybetter']",Risky_resource_management,{'crash': 100},
-ae708d6419d6cd37c75547d86fcad35a09ce7a1f,"['gradient', 'script', 'current', 'deletingpossible', 'crash', 'segfault', 'errorgimptagentry', 'object']",Risky_resource_management,{'crash': 100},
-93414342c3b2019f787a90c7da2100f3da398bc6,"['selection', 'layer', 'crash', 'outsiderotate', 'selectedrefuse', 'message', 'transform', 'error', 'startselection', 'intersect']",Risky_resource_management,{'crash': 100},
-7c4f3f02c7a9919551eb038956a8545e79ba1b06,"['processing', 'development', 'crash', 'versionissue', 'pixel', 'layer', 'alpha']",Risky_resource_management,{'crash': 100},
-0d7d96d09ff0fca4a90d24fff2555fe9b8f64c9d,"['processing', 'development', 'crash', 'versionformat', 'layer', 'imagegrayscale', 'format']",Risky_resource_management,{'crash': 100},
-bd75ed6bf0e167cbf401b27ae47a4fd49533547a,"['point', 'crash', 'initial', 'iscissors']",Risky_resource_management,{'crash': 100},
-06797982ba9e4e99df0187fdbeb42062a62ccdf2,"['crash', 'cleanup']",Risky_resource_management,{'crash': 100},
-d4dba427acbf6f0c4f17343b6431c2e461110810,"['compression', 'crash', 'openingcompression', 'fractal', 'planning', 'earliernever', 'situation']",Risky_resource_management,{'crash': 100},
-b663b8058f8828493f3a3b4c5c0bd131daf025a6,"['crash', 'image', 'colorinsteadhandle', 'return', 'format']",Risky_resource_management,{'crash': 100},
-ebdb803c33d3f8e4764225567c61a332b406b20a,"['gfile', 'crash', 'opening']",Risky_resource_management,{'crash': 100},
-86988e7d6752074392ccb15b0348036c60fd2e12,"['gimpgegltool', 'crash']",Risky_resource_management,{'crash': 100},
-bfd8d002826aaee0686395fd50ea5b9823211612,"['crash', 'openinglinux', 'interface', 'graphic']",Risky_resource_management,{'crash': 100},
-7fca15c27dd944890a67bb6db90c0b1fd4238f2f,"['crash', 'paletteaccess', 'value', 'comparisoncontinueremove', 'matchingbecome', 'elementmember', 'reference', 'aroundreference', 'entry', 'droppedreference', 'removesafety', 'paranoia']",Risky_resource_management,{'crash': 100},
-f0b3c76c9d1b8a2e1ae8960fad108d5f63687700,"['language', 'crash', 'parserstupid']",Risky_resource_management,{'crash': 100},
-37372555e5820f7f0c3a98ce9975ef66c2d8422c,"['number', 'entry', 'crash', 'colormapactual', 'unset', 'place', 'sense', 'unsettingplace', 'palette']",Risky_resource_management,{'crash': 100},
-7e513faa50a1b45f2b216a721c0dce938d0dd52a,"['switch', 'crash', 'window', 'single', 'multicanvas', 'window', 'travel', 'shell', 'positiontherefore', 'specific', 'window', 'shell', 'image', 'trackwhatever', 'current', 'shelldifferent']",Risky_resource_management,{'crash': 100},
-3cc923d5a50287b2a7ab77dce381aabab3e37418,"['crash', 'imageimage', 'spinninggroup', 'generation', 'layer', 'preview', 'startaccess']",Risky_resource_management,{'crash': 100},
-785436f32e46f6d5cafb9575effe050e069fce4a,"['crash', 'clickinternal', 'transform', 'specialclear', 'transform', 'state', 'anywaycheck', 'precondition']",Risky_resource_management,{'crash': 100},
-814c47b0b94424e222fa8951e648d359d7c8196a,"['pointer', 'crash', 'danglingdestroyingprevious', 'operationwidget', 'table']",Risky_resource_management,{'crash': 100},
-775ba72d7e80751e8d24e540cc99bc01363690b6,"['crash', 'seemscleanup', 'formattingremove', 'comment']",Risky_resource_management,{'crash': 100},
-8940b25c6dd6e9a280f93db4bad95e7447975b2c,"['quality', 'crash', 'exportpreview']",Risky_resource_management,{'crash': 100},
-7a671d3157a7d2bd84e334c9e84b96c454bdec49,"['possible', 'crash', 'failure']",Risky_resource_management,{'crash': 100},
-804313bbecf92e099952ef0b9e12824d57100ccd,"['crash', 'fault', 'segmentationpointerstrcmp', 'specialinconsistent', 'commentmassimo', 'original', 'patch']",Risky_resource_management,{'crash': 100},
-b109e0580650b4b49b6f00b15fec4bcd330fb045,"['popup', 'objectobject', 'crash', 'accessedpopup']",Risky_resource_management,{'crash': 100},
-35cc644765c553b6feb24bd56133b6f9f74ed5e4,"['radius', 'crash', 'unsharp', 'largerange', 'image']",Risky_resource_management,{'crash': 100},
-ed2849cd5245a4f4f259a261e5d58a1e4fa637ba,"['script', 'crash', 'gradient', 'causearray', 'color', 'value']",Risky_resource_management,{'crash': 100},
-69c897a1187f68e74614e6e5eca11464debcd2ba,"['specific', 'crash', 'combo', 'settingconfig']",Risky_resource_management,{'crash': 100},
-1c00c2e4f831a16dbba15e605dc19151a3a0246c,"['immediatelyotherwise', 'crash', 'executedpurpose', 'existsfontconfig']",Risky_resource_management,{'crash': 100},
-c262fee2445734c015aafe527cb681eed6941ec4,"['crash', 'segfault']",Risky_resource_management,{'crash': 100},
-20c86f821df507e2067b892abd9cdd63950ebbed,"['style', 'bootstrap', 'value', 'editor', 'initialfirst', 'issue', 'visual', 'styledefault', 'crash', 'stylechange']",Risky_resource_management,{'crash': 100},
-2e54d88ef284bb99a0f0876b7a0554c75d66fa01,"['format', 'modelstats', 'crash']",Risky_resource_management,{'crash': 100},
-acdf9bb29bba5c3016ea3dfedb82a13dc6f320a8,"['infinite', 'crash', 'recursionposition']",Risky_resource_management,{'crash': 100},
-6a33951aa6f7292b7c652d14052eefd8e61d1365,"['crash', 'desaturate', 'colorinstall', 'frame', 'timeout', 'resuminginstallation', 'accidential', 'timeoutwhatever', 'dispose']",Risky_resource_management,{'crash': 100},
-eac70cc513ef3a073b6f3d2fe3794d13d97b204c,"['crash', 'system', 'procedurecancel', 'button', 'window', 'progresschance']",Risky_resource_management,{'crash': 100},
-d4f85b24b14f9bb5f3601ea4f2c7a440e09fa8ca,"['module', 'crash']",Risky_resource_management,{'crash': 100},
-4aaaa1a7fa9d5f80121f07a01adb79d41ab77684,"['plugins', 'crash', 'signal', 'image', 'connectexist', 'imagecombo', 'reinitialize', 'selectmacro', 'lackinginternal', 'introduces', 'classcommon']",Risky_resource_management,{'crash': 100},
-191c2c15efe25d9dde5770262621b1788022c4bc,"['specific', 'crash', 'corruption', 'middleheader', 'parasite']",Risky_resource_management,{'crash': 100},
-9d42df5fa2d2ce598c5896cb0f023a5db65c7f2a,"['profile', 'crash', 'information', 'color']",Risky_resource_management,{'crash': 100},
-96ce2c936dd2fb8cfbfcbadf95d667b7d6d47ca2,"['robust', 'thumbnail', 'crash', 'imagegenerate', 'palette', 'specify']",Risky_resource_management,{'crash': 100},
-09be89a24ea9354f161746c3a9258e5dd8aadbb9,"['rotate', 'crash']",Risky_resource_management,{'crash': 100},
-2f10aee65df240d5da8e88bf54be6b1f5db878e4,"['report', 'crash', 'false', 'plugin']",Risky_resource_management,{'crash': 100},
-c1786fe753174a92a271a1acfe729c88495012c1,"['dispatch', 'source', 'eventaround', 'crash', 'order']",Risky_resource_management,{'crash': 100},
-92a3944442aac649d3825f5186e441c6dfa9cbe2,"['window', 'layerhandler', 'crash', 'container', 'addedhandler']",Risky_resource_management,{'crash': 100},
-27a767ee5499f862d481fb4c49bb51041b8325ad,"['crash', 'situation']",Risky_resource_management,{'crash': 100},
-bf9627bdda897c8592b55132655d081bc5117d44,"['gimpimagemap', 'deadlock']",Risky_resource_management,{'deadlock': 100},
-ff6c2807bea09d8e0488658b74ac5d903a9a6bb4,"['smudge', 'headroom', 'buffer', 'littlefedora', 'crash']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+df7e319bc6ad75edf84efdd4c41900563d51f3f4,"['meson', 'comment', 'building', 'specific', 'instruction', 'particular', 'comment', 'comment', 'scanner', 'crash']",General,{'crash': 100}
+def862bae4c1253f7ed6f162c1123a2507336975,"['enable', 'buildtype', 'enable', 'instruction', 'lead', 'crash', 'parse', 'instruction', 'http', 'gnome', 'gimp', 'issue']",General,{'crash': 100}
+f8320ce5356334dc2d2a43b5524a0993865669a3,"['minor', 'memleak', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+f959726b5dd501e21a28847a91f4e67447fcfab3,"['thai', 'locale', 'crash', 'window', 'cherry']",General,{'crash': 100}
+4ee3a9caa110ab41a5985ae5497c18dfab27016d,"['core', 'crash', 'plug', 'gimppdbdialog', 'crash', 'part', 'core', 'dialog', 'processus', 'crash', 'party', 'plug', 'dialog', 'signal', 'plug', 'plug', 'manager', 'implies', 'dialog', 'destruction', 'account', 'check', 'dialog', 'availability', 'weak', 'pointer', 'return', 'info', 'caller', 'adjustment', 'crash', 'case', 'adjustment', 'crash', 'code', 'proper', 'signal', 'public', 'object', 'crash', 'note', 'python', 'code', 'plug', 'callback', 'core', 'crash', 'part']",General,{'crash': 100}
+2967ab7f82fe6bc2d538042cc752a06c4921065a,"['annotation', 'callback', 'work', 'python', 'plug', 'crash', 'callback']",General,{'crash': 100}
+fe228a6f6f6b4b1fef1dc1fb5e5cf409fa6a36be,"['plug', 'gimp', 'load', 'image', 'luminosity', 'sense', 'format', 'luminance', 'channel', 'addition', 'security', 'value', 'rmask', 'case', 'detail', 'identify', 'type', 'image', 'need']",General,{'security': 100}
+c8020c20a5af439a317b309767687948b930b7e0,"['print', 'null', 'insensitive', 'action', 'reason', 'print', 'empty', 'string', 'display', 'null', 'clean', 'code', 'null', 'pointer', 'printf', 'format']",Risky_resource_management,{'null pointer': 100}
+34c1dbde1307d3de1dc319ad03d4e19b29c1f049,"['brush', 'select', 'crash', 'gimparray', 'data', 'gimparray', 'issue', 'brush', 'pattern', 'gradient']",General,{'crash': 100}
+2f46dfb354e3498d2fd02e80279a3943d44fbdbc,"['plug', 'jpeg', 'tiff', 'plug', 'function', 'widget', 'sensitivity', 'note', 'part', 'abdb', 'gimp', 'making', 'geotiff', 'data', 'checkbox', 'insensitive', 'data']",Porous_defenses,{'insensitive data': 93}
+7fb696206e72b8ea61f74e56f36adbfc6b9b0f17,"['plug', 'crash', 'qbist', 'file', 'content', 'array', 'specific', 'range', 'work', 'regenerate', 'index', 'crash', 'sure', 'plug', 'data', 'load', 'pattern', 'source', 'data', 'exact', 'pattern', 'result', 'randomization', 'chance', 'slim', 'definition', 'right', 'behave', 'kind', 'random', 'seed', 'load', 'pattern', 'purpose', 'file']",General,{'crash': 100}
+184b803811edfb5a8c75a9fa5c99718fb544ecb0,"['plug', 'memory', 'leak', 'metadata', 'editor']",Risky_resource_management,{'memory leak': 100}
+97739af6431a51244a615207226aee610fa2138a,"['plug', 'libtiff', 'warning', 'crash', 'window', 'tiff', 'image', 'huge', 'amount', 'warning', 'window', 'gimp', 'resource', 'crash', 'avarage', 'user']",General,{'crash': 100}
+b8abac1777c55ef1680e0b9b28ad8e64edb15097,['crash'],General,{'crash': 100}
+ef3d4cddc43f07478828767dbc38b46998716904,"['crash', 'opening', 'file', 'dialog', 'core', 'gimp']",General,{'crash': 100}
+6b65998bf7a54304852dde0221b8f04ebb245a0a,"['stack', 'overflow', 'able', 'reproduce', 'stack', 'overflow', 'file', 'large', 'dimension', 'window', 'reading', 'window', 'stack', 'size', 'linux']",Risky_resource_management,{'stack overflow': 100}
+1873f0d65cccb6b639f1038f2981ff8667c44464,"['libgimpbase', 'memory', 'leak', 'argh', 'return', 'value']",Risky_resource_management,{'memory leak': 100}
+823ae50cc57d8c714c212d2324357c252c78808b,"['plug', 'crash', 'jpeg']",General,{'crash': 100}
+691548579ac40eb7fc2d116a878eef0bfd6bfe77,"['blue', 'channel', 'image', 'information', 'issue', 'default', 'value', 'blue', 'channel', 'negative', 'effect', 'format', 'code', 'initialize', 'memory', 'block', 'image', 'data']",Risky_resource_management,{'initialize memory': 92}
+029ffd5778a623940c48d59574acaa0a68fffdaf,"['screenshot', 'crash']",General,{'crash': 100}
+c21859ebc4f70f6a563b7c04f70c2beeb3905f6c,"['issue', 'plugin', 'crash', 'issue', 'stack', 'trace', 'finalize', 'code']",General,{'crash': 100}
+aa151a08a06d0a65ae0ba19fcb24f30571004eb3,"['dialog', 'gettext', 'null', 'string', 'null', 'pointer', 'gettext', 'documentation', 'point', 'undefined', 'behavior', 'musl', 'libc', 'implementation', 'gettext', 'segfaults', 'case', 'http', 'software', 'gettext', 'manual', 'gettext', 'html', 'interface', 'gettext']",Risky_resource_management,{'null pointer': 100}
+2b75b63ab7e662a5feb22204e8523308caeb5c12,"['error', 'dialog', 'case', 'error', 'dialog', 'window', 'stay', 'various', 'platform', 'possible', 'data', 'loss', 'error', 'making', 'whole', 'process', 'kind', 'meaningless', 'hard', 'debug', 'error', 'message']",Risky_resource_management,{'data loss': 100}
+f6f94836c1291a2be25313aa63b40bd5e3b68105,"['menu', 'custom', 'input', 'method', 'menu', 'input', 'menu', 'redundant', 'system', 'default', 'useless', 'option', 'straight', 'wide', 'input', 'system', 'unstable', 'option', 'wayland', 'crash', 'gimp', 'desktop', 'crash', 'normal', 'wayland', 'client', 'show', 'input', 'method', 'menu', 'property', 'setting', 'nowadays', 'default', 'show', 'submenu', 'additional', 'text', 'tool', 'submenu', 'furthermore', 'reason', 'default', 'system', 'input', 'method', 'engine', 'work', 'linux', 'desktop', 'wayland']",General,{'crash': 100}
+a048c8f2a47e1311d4339f872515457328e912e0,"['plug', 'crash', 'metadata', 'editor', 'licensor', 'phone', 'data', 'null']",General,{'crash': 100}
+b2649daf11a152394f61fd742a45bc4837b8c8f3,"['image', 'dbus', 'service', 'image', 'crash', 'command', 'line', 'image', 'reason', 'dbus', 'image', 'double', 'command', 'line', 'process', 'dbus', 'service', 'data', 'queue', 'fifo', 'image', 'switch', 'timeout', 'handler', 'problem', 'idle', 'handler', 'startup', 'user', 'event', 'good', 'action', 'unsure', 'program', 'availability', 'schedule', 'startup', 'handler', 'slow', 'startup', 'gimp', 'timeout', 'handler', 'switch', 'idle', 'handler', 'timely', 'manner']",General,{'crash': 100}
+b3fc24268a39212b21b292655e609f7f9a477a7a,"['issue', 'gimp', 'crash', 'variable', 'member', 'dolayerblend', 'class', 'constructor', 'variable', 'gobject', 'pointer', 'memory', 'struct', 'initialization', 'function', 'variable', 'null', 'composite', 'blend', 'space', 'valid', 'gegloperation', 'class', 'member', 'pointer', 'copy', 'constructor', 'pointer', 'unref', 'default', 'copy', 'constructor', 'copy', 'pointer']",General,{'crash': 100}
+f336f86f604302fefa17187783ce2a6a8ff0b240,"['plug', 'data', 'loss', 'discussion', 'jehan', 'report', 'data', 'loss', 'message', 'user']",Risky_resource_management,{'data loss': 100}
+949d7eee3bbc17a48f4e3b8c6b095a5d0b3f8718,"['backup', 'creation', 'crash', 'gimp', 'drawable', 'array', 'gfile', 'drawable', 'array', 'dummy', 'argument', 'argument', 'check']",General,{'crash': 100}
+d11e59fc4274df9f128f1d2610254f45ccfa3fb8,"['number', 'drawables', 'gimp', 'object', 'array', 'layer', 'memory', 'management', 'crash']",General,{'crash': 100}
+146c234350d63f2366ee47abf9498412894fe1c9,"['progressive', 'performance', 'option', 'record', 'progressive', 'performance', 'progressive', 'complete', 'information', 'partial', 'address', 'sample', 'address', 'sample', 'furthermore', 'progressive', 'output', 'stream', 'complete', 'gimp', 'crash', 'middle', 'progressive', 'toggle', 'file', 'dialog', 'environment', 'varaible']",General,{'crash': 100}
+aea69dc16588fa7e12d0ac15770fd1b621a45176,"['plug', 'file', 'fatal', 'error', 'main', 'gerror', 'function', 'fatal', 'warning', 'aware', 'instance', 'load', 'data', 'data', 'loss', 'error', 'format', 'error', 'nice', 'output', 'error', 'standard', 'error', 'need', 'bother', 'people', 'popups', 'clean', 'style', 'comment', 'style', 'style', 'note', 'ddsread', 'continuation', 'similar', 'issue', 'look']",Risky_resource_management,{'data loss': 100}
+a3a88bf6b92639ab194228c2a133326340979801,"['file', 'path', 'tiff', 'documentnames', 'file', 'path', 'confidential', 'information', 'usernames', 'directory', 'structure', 'making', 'previous', 'behaviour', 'potential', 'privacy', 'security', 'risk']",General,{'security': 100}
+d3ef6cfb1841f5215a64e184abec5ca2dc21f888,"['show', 'playground', 'experimental', 'tool', 'show', 'playground', 'preference', 'option', 'experience', 'crash', 'whatnot', 'forgot', 'important', 'opencl', 'normal', 'option', 'playground', 'option', 'playground', 'preference', 'system', 'resource', 'playground', 'visible', 'condition', 'unstable', 'version', 'gimp', 'show', 'playground', 'option', 'playground', 'option']",General,{'crash': 100}
+f3f8d3a54e011db536ae15086a6533e2da923014,"['issue', 'color', 'component', 'decompose', 'crash', 'model', 'compose', 'decompose', 'right', 'component', 'name']",General,{'crash': 100}
+452924dbe962f2c7710ed4ac8415783d2034f910,"['possible', 'array', 'overrun', 'code', 'test', 'code', 'small', 'improvement']",Risky_resource_management,{'overrun': 100}
+19c0d43c25b49d83be17b344dc47cc5e737f0e19,"['issue', 'crash', 'filter', 'input', 'pspec', 'null', 'emit', 'notify', 'config', 'object', 'null', 'pspec']",General,{'crash': 100}
+6bae5d8cf7f8bcca648c746fef9234f91ccc4712,"['issue', 'crash', 'dockable', 'dialog', 'signal', 'dockbook', 'multiple', 'time', 'drag', 'sure', 'leak', 'corresponding', 'idle', 'source', 'case', 'lead', 'segfault', 'widget', 'idle']",General,{'crash': 100}
+d76c8e8cc36cf77c83f0cc97853b89ed910117a4,"['tool', 'gimp', 'debug', 'tool', 'null', 'crash', 'dialog', 'version', 'gimp']",General,{'crash': 100}
+2c1efdedf089f97bc8f849f49e4db86796b7ccf0,"['free', 'dbus', 'manager', 'issue', 'unseen', 'common', 'desktop', 'machine', 'unit', 'test', 'connection', 'crash', 'exit', 'unref', 'stderr', 'output', 'possible', 'error', 'case']",General,{'crash': 100}
+15438c58d2a2625c40b33536910e2823b696b617,"['issue', 'memory', 'corruption', 'file', 'plug', 'check', 'failure', 'buffer', 'user']",Risky_resource_management,{'memory corruption': 100}
+52cb2edd9e7cdfd376f39c35620df34cfbf75f5b,"['issue', 'invalid', 'brush', 'crash', 'gimp', 'brush', 'error', 'negative', 'scan', 'line', 'length', 'huge', 'buffer', 'entire', 'code', 'whole', 'unsignedness']",General,{'crash': 100}
+782e209a33fe4a2ec2990258080211104cb42649,"['null', 'scratch', 'buffer', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+666d0845e152618245bf9fcb31957678e16af4bd,"['issue', 'crash', 'select', 'tool', 'offset', 'drawable', 'foreground', 'select', 'tool', 'offset', 'trimap', 'buffer', 'extent', 'rest', 'code', 'gegl', 'global', 'segfault', 'drawable', 'trimap']",General,{'crash': 100}
+f1c448e0f46d3816cccaf0f43099bb1d099dbcb5,"['integer', 'overflow', 'operation', 'progress', 'gint', 'large', 'image']",Risky_resource_management,{'integer overflow': 100}
+0a28534a905baaf395d29b16b6b82a176ebc9e47,"['segmentation', 'fault', 'crash', 'null', 'case', 'opening', 'menu', 'bottom', 'tool', 'option', 'restore', 'tool', 'preset', 'menu']",General,{'crash': 100}
+5b664ecbec8840b7e2177e9d6d3aefcc225f5651,"['release', 'version', 'date', 'gimp', 'debug', 'tool', 'information', 'debug', 'dialog', 'warning', 'criticals', 'information', 'crash', 'people', 'update', 'gimp', 'version']",General,{'crash': 100}
+df492fa89891f290d958c426d67fe19e729e7e20,"['gitlab', 'port', 'main', 'debian', 'custom', 'archlinux', 'package', 'signature', 'verification', 'security', 'reason', 'opportunity', 'port', 'debian', 'gimp', 'base', 'distribution', 'support', 'dependency', 'version', 'additional', 'test', 'additional', 'worthy', 'test', 'free']",General,{'security': 100}
+ff32fe9f5d6aab977cd024fdad7d4049635813a7,"['issue', 'gimp', 'crash', 'assertion', 'mypaint', 'brush', 'dialog', 'temporary', 'deep', 'copy', 'list', 'iterate', 'copy']",General,{'crash': 100}
+bb7f229b97e5ef8dd5f5c0b64bfebfdf4867de02,"['overflow', 'warning', 'mingw', 'warning', 'integer', 'overflow', 'expression', 'type', 'long', 'result', 'woverflow']",Risky_resource_management,{'integer overflow': 100}
+b314437d4dde72909aa74804edc6c46c260e717a,"['additional', 'patch', 'openblas', 'startup', 'previous', 'openblas', 'patch', 'crash', 'sophos', 'huge', 'slowdown', 'startup', 'timeout', 'likely', 'openblas', 'various', 'verification', 'patch', 'reasonable', 'reporter', 'gimp', 'long', 'startup', 'http', 'github', 'xianyi', 'openblas', 'pull']",General,{'crash': 100}
+506a0476f4b6615a6a578e8926a856a5db435de0,"['check', 'gimp', 'release', 'gimp', 'gimp', 'process', 'remote', 'json', 'file', 'look', 'version', 'gimp', 'initial', 'code', 'commits', 'characteristic', 'internet', 'access', 'checkbox', 'available', 'preference', 'dialog', 'version', 'check', 'note', 'important', 'security', 'deactivatable', 'remote', 'access', 'async', 'operation', 'block', 'startup', 'output', 'error', 'need', 'internet', 'access', 'image', 'program', 'check', 'successful', 'check', 'frequent', 'useless', 'check', 'timer', 'week']",General,{'security': 100}
+f051e6d238da82c098d0e2a6179277b946b17b09,"['issue', 'plug', 'file', 'heif', 'crash', 'heif', 'heic', 'previous', 'test', 'platform', 'libheif', 'version', 'test', 'platform', 'libheif', 'version', 'profile', 'support', 'profile', 'support', 'version', 'output', 'warning']",General,{'crash': 100}
+5da252ca18418bf349354db0baf4987d3a30a68c,"['issue', 'gimp', 'open', 'debian', 'libmypaint', 'crash', 'libmypaint', 'dependency', 'warning', 'packagers', 'aware', 'issue', 'update']",General,{'crash': 100}
+fdf5c7edce35456e44ec776baf58add0459c6dc2,"['common', 'cflags', 'warning', 'generation', 'warning', 'wformat', 'security', 'wformat', 'wformat', 'security', 'useless', 'wformat', 'security', 'wformat']",General,{'security': 100}
+85c004edcc3d31198bd7cb0a3ce9a13a03ce3787,"['file', 'plug', 'rint', 'floor', 'failure', 'armvhl', 'libtool', 'link', 'pipe', 'wformat', 'werror', 'format', 'security', 'march', 'armv', 'mfloat', 'hard', 'mfpu', 'vfpv', 'wall', 'wdeclaration', 'statement', 'prototype', 'werror', 'declaration', 'winit', 'self', 'wpointer', 'arith', 'format', 'attribute', 'wformat', 'security', 'wlogical', 'wtype', 'limit', 'common', 'fdiagnostics', 'option', 'wreturn', 'type', 'undefined', 'relro', 'enable', 'dtags', 'libs', 'file', 'util', 'load', 'thumb', 'load', 'image', 'load', 'layer', 'load', 'dynamic', 'pthread', 'dynamic', 'pthread', 'libgimp', 'libs', 'libgimpui', 'libgimpwidgets', 'libs', 'libgimpwidgets', 'libgimpconfig', 'libs', 'libgimpconfig', 'libgimp', 'libs', 'libgimp', 'libgimpcolor', 'libs', 'libgimpcolor', 'libgimpmath', 'libs', 'libgimpmath', 'libgimpbase', 'libs', 'libgimpbase', 'lgtk', 'lgdk', 'lpangocairo', 'latk', 'lcairo', 'lpangoft', 'lpango', 'lharfbuzz', 'lfontconfig', 'lfreetype', 'lgegl', 'lgegl', 'lgmodule', 'ljson', 'glib', 'lgio', 'lgobject', 'lglib', 'lbabl', 'ljpeg', 'pthread', 'undefined', 'reference', 'symbol', 'floor', 'libm', 'symbol', 'command', 'line', 'exit', 'status', 'makefile', 'file', 'error', 'right', 'thing', 'cherry']",General,{'security': 100}
+cb40cfd10eb769b0aa24441dccd3cf5122bdb83e,"['issue', 'return', 'null', 'pointer', 'whilst', 'libgimp', 'gimp', 'type', 'system']",Risky_resource_management,{'null pointer': 100}
+63e0e7679ba44c9feba898a4ee00b9ebb3605023,"['plug', 'film', 'crash', 'repeat', 'object', 'struct', 'image']",General,{'crash': 100}
+8ef87b09222f4044bb8f25052710fa6c3c3dd51a,"['libgimp', 'crash', 'stuff', 'good']",General,{'crash': 100}
+46608393c3abc13fd7d2e79506e44fe88b9da28b,"['libgimp', 'horrible', 'hack', 'sure', 'object', 'array', 'leak', 'libgimp', 'wrapper', 'return', 'object', 'array', 'reference', 'object', 'caller', 'container', 'copy', 'libgimp', 'proxy', 'object', 'user', 'code', 'memdup', 'return', 'gimpobjectarray', 'array', 'memory', 'leaf', 'object', 'pointer']",Risky_resource_management,{'memory leaf': 91}
+a09b7a9c92a2a8dfddf31023898f1b8de4e7d081,"['goat', 'crash', 'gimpvaluearray', 'hand', 'dialog', 'show', 'source', 'interpreter', 'configure', 'issue', 'figure', 'meantime', 'work', 'progress']",General,{'crash': 100}
+35fb6ca71634dcb04dc4ce8b25ff035bbb5187e8,"['null', 'array', 'crash']",General,{'crash': 100}
+888c42fbb8ba4a7b109472e14dadc738a29f7593,"['gimp', 'protocol', 'mutex', 'protocol', 'lock', 'deadlock', 'situation', 'wire', 'protocol']",Risky_resource_management,{'deadlock': 100}
+c059839e7800c16d6e23b56e4934fd652cd9a6da,"['libgimpbase', 'number', 'parameter', 'crap', 'wire', 'case', 'python', 'plug', 'gimp', 'party', 'plug', 'crash', 'gimp', 'core', 'parameter', 'allocation', 'print', 'info', 'stderr', 'output', 'warning', 'critical', 'core', 'error', 'plug', 'error', 'glib', 'error', 'gmem']",General,{'crash': 100}
+febc1a843d23566e86696d9996d166d21a1524c8,"['alternative', 'plug', 'callback', 'plugininfo', 'struct', 'property', 'reason', 'setting', 'gimp', 'proc', 'property', 'crash', 'plug', 'likely', 'pygobject', 'proper', 'annotation', 'http', 'gnome', 'pygobject', 'issue', 'setting', 'callback', 'code', 'work', 'scope', 'async', 'important', 'part', 'function', 'annotation', 'annotation', 'function', 'pointer', 'invalid', 'plug', 'crash', 'possible', 'value', 'wrong', 'necessary', 'time']",General,{'crash': 100}
+d93e92870333955d187fdbfbf2a2ceb4ff97b07f,"['crash', 'initialize', 'shell', 'height']",General,{'crash': 100}
+a6ad02a60a35cef748b02e1cf09804a5375b447c,"['issue', 'crash', 'value', 'gint', 'implicit', 'type', 'conversion', 'negative', 'integer', 'numberator']",General,{'crash': 100}
+bbcc7ca5f55e62404bd69bf2e5b198039ad3f568,"['issue', 'postscript', 'plugin', 'crash', 'pointer', 'null', 'pointer', 'initialize', 'void', 'instance', 'null']",Risky_resource_management,{'null pointer': 100}
+a813b1489caa451ffbd28757e888d338b5fc850e,"['issue', 'invalid', 'character', 'open', 'location', 'dialog', 'crash', 'gimp']",General,{'crash': 100}
+998bd04bd4a329fc80f81a7457d038bc7057cb4c,"['issue', 'crash', 'gimpcolorpanel', 'interface']",General,{'crash': 100}
+6c033317ac06103932f83f376a9a5d75148d5e67,"['issue', 'screenshot', 'plugin', 'crash']",General,{'crash': 100}
+cf8148df5e0eb91ada451d8aae9f35b0e832f138,"['issue', 'invalid', 'character', 'open', 'location', 'dialog', 'crash', 'gimp', 'guard', 'null', 'error', 'null']",General,{'crash': 100}
+08ebcce2fa43be8e14de459bdeb2ae18568446e9,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+679fd5f23105f4dc3f4de140fa82470731bc9acf,"['issue', 'gimp', 'crash', 'file', 'open', 'edit', 'preference', 'window', 'dstinguish', 'fatal', 'fatal', 'exception', 'abort', 'minor', 'hickup']",General,{'crash': 100}
+400b5646489a69767ba498648fc3be202724740b,"['crash', 'description']",General,{'crash': 100}
+84e183e5ed1842199f0a2af03abce0d316b07e4b,"['issue', 'memory', 'leak', 'crop', 'tool', 'free', 'inner', 'region', 'outer', 'region']",Risky_resource_management,{'memory leak': 100}
+e8c915af939ce8ac5697975b99f7d2e74faf4a6d,"['null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+b01113741e35f68e3a40b792e0daa2676f7eafd2,"['issue', 'crash', 'opening', 'image', 'image', 'weak', 'pointer', 'current', 'image', 'active', 'image', 'time', 'open', 'action']",General,{'crash': 100}
+91c69b782ca4aa94217d12b3361648b83e04473f,"['null', 'pointer', 'destruction', 'sure', 'pointer', 'case']",Risky_resource_management,{'null pointer': 100}
+5d5ced88a8f057172c57eebf216775871a99e182,"['line', 'detection', 'fatal', 'error', 'crash', 'typo', 'thanks', 'massimo']",General,{'crash': 100}
+be7906c05cc0437428d157cdd2db2cf208670d7c,"['issue', 'crash', 'transform', 'tool', 'finite', 'angle', 'value', 'particular', 'crash', 'result', 'angle', 'value', 'negative', 'integer']",General,{'crash': 100}
+1e739675a4b0c6787b49c3fb32d583b511645964,"['issue', 'crash', 'transform', 'tool', 'selection', 'weak', 'pointer', 'initialization', 'selection', 'boundary', 'canvas', 'item', 'tool', 'transform', 'selection', 'mode', 'subsequent', 'segfault']",General,{'crash': 100}
+636b77f7d341af74e9d0b19478644c74664a9e69,"['point', 'exception', 'crash', 'gtkwidget', 'style', 'possible', 'case', 'division', 'zero', 'crash', 'software', 'rare', 'occasion', 'image', 'ctrl', 'ctrl', 'hold', 'message', 'click', 'image', 'foreground', 'color', 'statusbar', 'race', 'condition', 'occurs', 'signal', 'handler', 'message', 'multiple', 'test']",General,{'crash': 100}
+72d4977574fd0cfff2dce2be02079fa4fc97211d,"['gimpbrushcore', 'loop', 'memory', 'corruption', 'width', 'height']",Risky_resource_management,{'memory corruption': 100}
+8e0135362e4da74e171ebb2515b1f472fc61ba35,"['libgimpbase', 'display', 'thread', 'thread', 'hexadecimal', 'macos', 'debugger', 'lldb', 'report', 'lldb', 'display', 'hexadecimal', 'macos', 'whereas', 'lldb', 'display', 'decimal', 'linux', 'consistent', 'crash', 'report', 'experience', 'copy', 'search', 'order', 'look', 'decimal', 'hexa', 'approximation', 'macos', 'edge', 'case', 'good', 'common', 'case', 'base', 'conversion']",General,{'crash': 100}
+0a952a3429b01223d7db5ccdbdb2fef0235bb516,"['crash', 'bucket', 'cbaf', 'forgot', 'disconnect', 'signal', 'bucket', 'option', 'finalization', 'software', 'crash']",General,{'crash': 100}
+9b25611857c75e922dd10f3d933807b0c7cd44ed,"['issue', 'crash', 'tablet', 'gimptool', 'track', 'modifier', 'state', 'event', 'time', 'motion', 'event', 'synthesize', 'event', 'tool', 'tool', 'paint', 'tool', 'event', 'order', 'finish', 'operation']",General,{'crash': 100}
+19320235f1ce7a8279258ec6aeab9f5e5c7e38db,"['issue', 'file', 'load', 'crash', 'opening', 'color', 'profile', 'issue', 'master', 'poppler', 'poppler', 'data']",General,{'crash': 100}
+fc4add7c2b1e91d3721db6cf068cea059aacc19b,"['issue', 'crash', 'image', 'file', 'image', 'close', 'display', 'meantime']",General,{'crash': 100}
+b9265e7cde21cd6416dd18f338b87a7a66e21006,"['issue', 'crash', 'load', 'range', 'item', 'offset', 'file', 'original', 'crash', 'image']",General,{'crash': 100}
+70b7316ebc49b4b5e1681b45f7c67d734905e42b,"['luminance', 'mode', 'vlas', 'gimp', 'scratch', 'luminance', 'layer', 'mode', 'scratch', 'allocator', 'temporary', 'buffer', 'allocates', 'data', 'stack', 'overflow', 'stack', 'platform', 'descendant', 'buffer', 'stack', 'risky']",Risky_resource_management,{'stack overflow': 100}
+e9200d2c00493606aff2b0ce4927f5dcfe859c00,"['webpmux', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+ea2c9eefb3accd317cd457c7fdf681284977a756,"['activate', 'menu', 'test', 'crash', 'cherry']",General,{'crash': 100}
+0cdbe91e5ad0ae22e69ef5eb4f8e76a80c99a724,"['issue', 'crash', 'overflow', 'preview', 'area', 'calculation', 'prevents', 'drawable', 'large', 'amount', 'lead', 'creation', 'large', 'gimptempbuf', 'preview', 'memory', 'allocation']",General,{'crash': 100}
+c55f2308e174439c08fe4992722934ea1b7ed2fa,"['issue', 'crash', 'error', 'failure', 'check', 'error', 'exists']",General,{'crash': 100}
+7adb6c26e5913b70decfcd7119354a4f59feb216,"['issue', 'gimp', 'crash', 'startup', 'mouse', 'present', 'gimpdeviceinfo', 'sure', 'info', 'info', 'array', 'info', 'info', 'member', 'sync', 'gdkdevice', 'gimpdeviceinfo']",General,{'crash': 100}
+85b16b9eaa954d4b759b5c07511b9af969188954,"['deadlock', 'implementation', 'finish', 'input', 'pipe', 'async', 'operation', 'busy', 'dialog', 'plug', 'terminates', 'async', 'callback', 'function', 'main', 'thread', 'gimp', 'parallel', 'async', 'operation']",Risky_resource_management,{'deadlock': 100}
+a5baba55396a90f49701966138bb50df144508ed,"['issue', 'crash', 'intelligent', 'scissors', 'tool', 'point', 'iscissors', 'tool', 'active', 'empty', 'curve', 'result', 'segfault', 'point', 'segment', 'entire', 'segment', 'point', 'initial', 'point', 'effect', 'point', 'segment']",General,{'crash': 100}
+ea67537d859ee415e7cc0c0666a152b29e458d09,"['free', 'profile', 'free', 'null', 'pointer', 'critical', 'assertion', 'object']",Risky_resource_management,{'null pointer': 100}
+9420805525b086f47dea52b9c42bac2936361835,"['issue', 'crash', 'flip', 'tool', 'portion', 'layer', 'transformation', 'transform', 'tool', 'code', 'valid', 'drawable', 'wrong', 'result', 'segfault']",General,{'crash': 100}
+04bbe941d5eb60d7547f7c66cd482f5fe91471e6,"['issue', 'opening', 'preference', 'dialogue', 'trigger', 'xcode', 'warning', 'absent', 'trigger', 'popup', 'install', 'xcode', 'macos', 'check', 'presence', 'function', 'allocates', 'memory', 'need', 'check', 'lldb', 'crash', 'unacceptable', 'behavior']",General,{'crash': 100}
+753523c4d137774e99f94603b8e2f4ba414ddf3a,"['issue', 'crash', 'color', 'profile', 'conversion', 'need']",General,{'crash': 100}
+49dfc6143d66d10be4cd1f8ba288729342521f6a,"['issue', 'gimp', 'crash', 'cage', 'transform', 'selection', 'null', 'bail', 'identity', 'vector', 'crash', 'drawable', 'filter', 'region', 'offset', 'selection']",General,{'crash': 100}
+b3c9089ea2561c5d807fd5556f6750e1f0b77b22,"['memory', 'leak', 'thanks', 'massimo']",Risky_resource_management,{'memory leak': 100}
+50221e143826fd7b84e97c88ca374dc68b43c782,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+2912fe7c1765dfc8d2e3f4858dc03ef4178e1c70,"['issue', 'memory', 'leak', 'gimpimage', 'previous', 'part', 'macro', 'macro', 'function', 'time', 'prepend', 'list', 'thanks', 'massimo']",Risky_resource_management,{'memory leak': 100}
+0ab682b0f5bd2ddf8e6a8f8915967a60fb99a4f9,"['issue', 'memory', 'leak', 'gimpimage', 'macro', 'string', 'return', 'value', 'null', 'care', 'version', 'reason', 'reason', 'string', 'list']",Risky_resource_management,{'memory leak': 100}
+9b56ca8c1d556a051d9a4a04907f08f04da914a6,"['issue', 'file', 'crash', 'gimp', 'introduce', 'validate', 'pattern', 'dimension', 'pattern', 'name', 'length', 'sure', 'name']",General,{'crash': 100}
+e27e783f8836ca44ffd17d4c5190244dd024eb55,"['issue', 'crash', 'currupt', 'tool', 'preset', 'bail', 'error', 'tool', 'option', 'type', 'name', 'empty']",General,{'crash': 100}
+7db59e7af93f690f954ebde16af8d52ccde583c4,"['issue', 'gimp', 'crash', 'invalid', 'pluginrc', 'crash']",General,{'crash': 100}
+ff679c66a10828c0adc107dfb14b65ef334b5ffe,"['gimp', 'parallel', 'async', 'thread', 'shutdown', 'potential', 'deadlock']",Risky_resource_management,{'deadlock': 100}
+b3de0bb7a5bbb84a6851b3b5455de5d1eb271c55,"['issue', 'file', 'crash', 'gimp', 'brush', 'gimpbrush', 'validate', 'size']",General,{'crash': 100}
+47163717bafea299504e1126b995703b581d2aec,"['issue', 'file', 'crash', 'gimp', 'flag', 'track', 'array', 'string', 'static', 'others', 'array', 'boolean', 'public', 'string', 'selection', 'array', 'boolean', 'flag', 'useless', 'cherry']",General,{'crash': 100}
+c6aa613f9c9b35f11ad198663269ec4822e0cda3,"['issue', 'gimp', 'crash', 'invalid', 'pluginrc', 'check', 'return', 'value', 'error', 'return', 'null']",General,{'crash': 100}
+a6e77355d8dfc62119eddc9d7c13a279c74367da,"['revert', 'issue', 'gimp', 'crash', 'return', 'null']",General,{'crash': 100}
+7886bdc2a9863a783348fcb01576bda0e673588a,"['issue', 'gimp', 'crash', 'color', 'gimp', 'default', 'color', 'present', 'theme', 'relevant', 'check', 'output', 'standard', 'error', 'default', 'color', 'area', 'invisible', 'cherry']",General,{'crash': 100}
+eaddef595e9c4df688e0d64656c7df75eb316db7,"['sure', 'crash', 'open', 'image', 'increase', 'gimp', 'busy', 'layer', 'busy', 'cursor']",General,{'crash': 100}
+58c96f596e588a0d123d71fec282b207e7f45635,"['issue', 'crash', 'select', 'tool', 'gimptool', 'clear', 'tool', 'tool', 'drawable', 'default', 'implementation', 'pointer', 'result', 'segfault', 'initialize', 'tool', 'function', 'iscissors', 'tool']",General,{'crash': 100}
+ea6d997e56300e213be341ef6d2b4c7d8684615e,"['fatal', 'crash', 'palette', 'file', 'import', 'various', 'palette', 'format', 'accidental', 'file', 'argument', 'validation', 'input']",General,{'crash': 100}
+0ff95b66b74fcefb3dffdf673332ec195539d3a9,"['issue', 'gimp', 'crash', 'colour', 'mode', 'image', 'color', 'mono', 'black', 'white', 'palette']",General,{'crash': 100}
+367399e5c018b379cf69a234c5027659180ee676,"['issue', 'crash', 'file', 'default', 'stack', 'size', 'thread', 'macos', 'making', 'limit', 'stack', 'buffer', 'high']",General,{'crash': 100}
+e0b3e893d273fc3008d9b3920e81660f426264fb,"['gdkaxisuse', 'value', 'crash', 'note', 'rotation', 'support', 'report', 'rotation', 'value', 'valuator', 'wheel', 'wacom', 'valuator', 'proper', 'support']",General,{'crash': 100}
+e7e7f005280ac5075889b10dbbcb55cad19dcb63,"['revert', 'canvas', 'tablet', 'stylus', 'crash', 'reverts', 'hack']",General,{'crash': 100}
+23dab4311abe94504d09cf3c7939a6340eb9e991,"['airbrush', 'paint', 'timeout', 'crash', 'airbrush', 'timeout', 'stamp', 'airbrush', 'assumes', 'symmetry', 'origin', 'original', 'call', 'clear', 'symmetry', 'origin', 'empty', 'symmetry', 'null', 'origin', 'result', 'active', 'dynamic', 'symmetry', 'origin', 'coords']",General,{'crash': 100}
+bc09c718186de42795b7cd9562766c5dc01cbe5e,"['multiple', 'image', 'crash', 'gimp', 'gimpsymmetry', 'strong', 'reference', 'selection', 'past', 'destruction', 'image', 'mask', 'image', 'destruction', 'result', 'null', 'mask', 'pointer', 'selection', 'part', 'destructor', 'clear', 'origin', 'drawable', 'call', 'painting', 'drawable']",General,{'crash': 100}
+98a575370c4595d44acfc6806ef848f25653d427,"['check', 'null', 'string', 'possible', 'crash', 'case', 'segfaults', 'implementation', 'look', 'return', 'null', 'worth', 'double', 'load', 'font']",General,{'crash': 100}
+d58f131b59346964171192407f3470dcadc5ecc7,"['gimp', 'crash', 'assertion', 'check', 'code', 'robust', 'null', 'pointer', 'null', 'fontset']",Risky_resource_management,{'null pointer': 100}
+00dcd50a6c70ef5107d83187d6ccfd95d3f84fda,"['gimp', 'crash', 'font', 'permission', 'readable', 'hand', 'font', 'list', 'unstable', 'state']",General,{'crash': 100}
+45c172a885dfa1684e3b0fad1a6e5cde5a1ccb0f,"['segmentation', 'fault', 'crash', 'clone', 'tool', 'generation', 'gimppainttool', 'synchrony', 'paint', 'thread', 'race', 'condition', 'paint', 'thread', 'flush', 'virtual', 'function', 'paint', 'thread', 'display', 'update', 'timeout', 'main', 'thread', 'paint', 'thread', 'thread', 'safe', 'action', 'thread', 'override', 'function', 'gimpbrushtool', 'cache', 'brush', 'boundary', 'flush', 'function', 'boundary', 'painting', 'race', 'condition', 'function', 'gimppainttool', 'gimpsourcetool']",General,{'crash': 100}
+4bc982b84abdf95e00f994b0bcf07aaa3f9cd760,"['plug', 'crash', 'caae', 'quits', 'plug', 'sure', 'gimp']",General,{'crash': 100}
+f5cb1fed85341a9d0a46fb1391b19fa9ea3ccb42,"['crash', 'dynamic', 'gimppainttool', 'brush', 'painting', 'function', 'paint', 'thread', 'race', 'conidition', 'brush', 'mask', 'paint', 'thread', 'brush', 'boundary', 'main', 'thread', 'generation', 'painting', 'gimppainttool', 'paint', 'display', 'update', 'timeout', 'main', 'thread', 'paint', 'thread']",General,{'crash': 100}
+ba06a0fe86088b37cef3eeb3db1ce5bb39f2257c,"['plugin', 'crash', 'opening', 'jpeg', 'tiff', 'latin', 'unicode', 'path', 'null', 'path', 'window', 'null', 'value', 'load', 'metadata', 'occurs', 'metadata', 'support', 'window', 'proper', 'solution']",General,{'crash': 100}
+fa02a2c64f5fcaaceff34cea2bd02c5e558c63ca,"['exception', 'handler', 'window', 'drmingw', 'exception', 'handler', 'generates', 'crash', 'trace', 'text', 'file', 'plug', 'additional', 'handler', 'drmingw', 'handler', 'display', 'content', 'debug', 'trace', 'print', 'stderr', 'stable', 'release', 'test', 'look', 'gimp', 'output', 'console', 'debug', 'dialog', 'core', 'purpose', 'party', 'plug', 'trace', 'possibility', 'point', 'debug', 'core', 'plug', 'party', 'plug', 'developer']",General,{'crash': 100}
+9c8a8ae57645ec60f1e072b4f7cb51917d14379d,"['libgimp', 'fatal', 'signal', 'handler', 'error', 'dialog', 'good', 'crash', 'feedback', 'plug', 'normal', 'order', 'error', 'dialog']",General,{'crash': 100}
+e98b937643b005b9698ee042dc2250a5247fac23,"['various', 'crash']",General,{'crash': 100}
+caa3a98f04334152dbc378bb85bea3bab021c69f,"['layer', 'group', 'lead', 'deadlock', 'align', 'tile', 'grid', 'validate', 'handler', 'dirty', 'region', 'subsequent', 'operation', 'entire', 'tile', 'need', 'validate', 'area', 'subsequent', 'operation', 'lead', 'deadlock']",Risky_resource_management,{'deadlock': 100}
+a6fd24a953655e3e65f797bfde56da5177a4c768,"['crash', 'external', 'apis', 'check', 'return', 'value', 'function', 'error', 'print', 'message', 'stderr']",General,{'crash': 100}
+25af765fe656c2757ac86fc9dab7b09166ec1a1b,"['output', 'dialog', 'dfedf', 'gimp', 'salvage', 'image', 'possible', 'crash', 'backup', 'folder', 'path', 'case', 'image', 'image', 'dirty', 'image', 'content', 'crash', 'time', 'people', 'correspond', 'relevant']",General,{'crash': 100}
+f4972878373a5b830ca6dba0d7ba568064a896f7,"['show', 'fatal', 'error', 'default', 'stable', 'release', 'debug', 'dialog', 'awesome', 'default', 'experience', 'stable', 'raise', 'case', 'crash', 'dialog', 'people', 'duplicate', 'available', 'preference', 'activate', 'option', 'stable', 'release']",General,{'crash': 100}
+7ca38c54f602e794065562602fb1987ce1dd8f6f,"['crash', 'chroma', 'prophotorgb', 'image']",General,{'crash': 100}
+a1b4f4aef55f7978bfab04f200d6bb482a5e1eb8,"['gimp', 'edit', 'stroke', 'crash', 'gimp', 'console', 'gimp', 'context', 'paint', 'method', 'standard', 'paint', 'info', 'time', 'ensure']",General,{'crash': 100}
+c6e8dd888cd92a473bbb8d6d23ccd92101032e8f,"['buffer', 'overflow', 'command', 'line', 'argument', 'args', 'array']",Risky_resource_management,{'buffer overflow': 100}
+c9d9b5535bc5f67016c973dfcbf3d2cb3b3606c8,"['double', 'free', 'case', 'error', 'pointer', 'string', 'thanks', 'massimo', 'raising', 'issue']",Risky_resource_management,{'double free': 100}
+40df83ad71353a28a983900f42f6e19ddddd60f9,"['double', 'free', 'thanks', 'massimo', 'raising', 'issue']",Risky_resource_management,{'double free': 100}
+6c93228718e5fe2efe63ae4e5cef131dab4ef446,"['gimp', 'gradient', 'directory', 'shuffle', 'order', 'initialization', 'folder', 'crash', 'backup', 'configuration', 'folder', 'creation', 'migration', 'folder', 'function', 'possible', 'signal', 'error', 'handler', 'terminal', 'error', 'handler', 'possible', 'backup', 'backup', 'point', 'strict', 'minimum', 'crash']",General,{'crash': 100}
+d916fedf921281834d79ddecdc0f6d06fb388fb1,"['auto', 'backup', 'current', 'work', 'progress', 'image', 'crash', 'logical', 'step', 'dirty', 'image', 'course', 'backup', 'file', 'config', 'directory', 'original', 'path', 'recovery', 'hint', 'gimp', 'detect', 'file', 'backup', 'directory', 'typical', 'dialog', 'sure', 'system', 'various', 'test', 'case', 'case', 'image', 'others', 'backup', 'sure', 'memory', 'allocation']",General,{'crash': 100}
+68e37f28c2490d6a3a66e20eaa2721b24ce9fc33,"['crash', 'ctrl', 'selection', 'crash', 'result', 'unmatched', 'call', 'error', 'drag', 'selection', 'revert', 'unmatched', 'call']",General,{'crash': 100}
+d9987ea7f13b22237e745b661713d6b47a477abf,"['crash', 'ctrl', 'selection', 'regression', 'symmetric', 'instance', 'mouse', 'button', 'ctrl', 'click', 'check', 'layer', 'null']",General,{'crash': 100}
+7bfab7150c8d304bf8a85e2162b36d6256cae4f0,"['crash', 'sure', 'editing', 'corresponding', 'tree', 'view']",General,{'crash': 100}
+d5a67cb162d9328fcc49dbd3992763fc1bfa1a82,"['preference', 'finer', 'boolean', 'property', 'generate', 'backtrace', 'enum', 'debug', 'policy', 'property', 'debug', 'warning', 'critical', 'fatal', 'crash', 'stable', 'release', 'debug', 'critical', 'crash', 'warning', 'reason', 'setting', 'stumble', 'workflow', 'major', 'data', 'corruption', 'release', 'point', 'debug', 'dialog', 'debug', 'info', 'lesser', 'issue', 'gimp', 'project', 'info', 'software', 'force', 'people']",General,{'crash': 100}
+5de7aab482885f1e82c8818ef7db75cfbbbf40d2,"['stacktrace', 'terminal', 'option', 'particular', 'developer', 'glib', 'trace', 'debug', 'info', 'trace', 'case', 'trace', 'information', 'note', 'string', 'type', 'crash', 'segmentation', 'fault', 'pipe', 'file', 'descriptor']",General,{'crash': 100}
+4a26d4a3e680504f68e43f24722a38475c77c17d,"['gimp', 'crash', 'image', 'filter', 'command', 'need', 'image', 'drawable', 'sensitivity', 'shadow', 'highlight', 'action']",General,{'crash': 100}
+ee6e981c042f1394ba93a071ddf5853ba6912a5e,"['work', 'restart', 'advice', 'fatal', 'error', 'step', 'bogus', 'crash', 'case', 'step', 'fatal', 'error', 'automatic', 'attempt', 'backup', 'file', 'crash', 'backup', 'file']",General,{'crash': 100}
+fe3cf080949c15030d143426a4a288592136506b,"['tool', 'title', 'capitalize', 'debug', 'dialog', 'title', 'rename', 'gimp', 'debug', 'gimp', 'crash', 'debug', 'continuable', 'error', 'fatal', 'error']",General,{'crash': 100}
+ae3cd00fbd369f3d28c61390ff789739dd656001,"['tool', 'support', 'exchndl', 'drmingw', 'exists', 'code', 'crash', 'file', 'difference', 'file', 'content', 'debug', 'dialog', 'work', 'debug', 'info', 'visible', 'people', 'difference', 'lldb', 'backtraces', 'random', 'point', 'error', 'function', 'particular', 'exchndlinit', 'unload', 'page', 'preference', 'switch', 'option', 'point', 'code', 'unsure', 'exchndl', 'backtrace', 'file', 'gimpdebug']",General,{'crash': 100}
+beede1718a90a9913c9859abef8064ba79206a0b,"['tool', 'backtrace', 'crash', 'fatal', 'signal', 'action', 'gimp', 'crash', 'memory', 'allocation', 'return', 'output', 'main', 'process', 'separate', 'program', 'gimpdebug', 'dialog', 'separate', 'binary', 'gimp', 'fatal', 'error', 'reason', 'gimp', 'bundle', 'fatal', 'error', 'backtrace', 'fatal', 'error', 'return', 'main', 'process']",General,{'crash': 100}
+f87bc3fe090f6565a7e1d9d7bc2228bce11ea8ef,"['code', 'core', 'gimp', 'creative', 'work', 'hour', 'crash', 'purpose', 'return', 'warning', 'code', 'path', 'report', 'crash', 'data', 'loss', 'core', 'code', 'note', 'assert', 'acceptable', 'plug', 'crash']",Risky_resource_management,{'data loss': 100}
+36dd16c6c63ac479fd50104cd72d0f30d21efb3c,"['gimp', 'crash', 'action', 'insensitive', 'current', 'layer', 'invisible']",General,{'crash': 100}
+af2cb761de23945c673d7f84af636f4092a3cbe6,"['gimp', 'crash', 'layer', 'return', 'error', 'current', 'layer']",General,{'crash': 100}
+b9577a783d2d43fbe2eb65523f1199ccc1a66972,"['gimp', 'crash', 'layer', 'actual', 'crash', 'gimp', 'output', 'warning', 'actual']",General,{'crash': 100}
+a8bc8d202cdca2bb8832de36362cbeee9f5762e0,"['canvas', 'tablet', 'stylus', 'crash', 'show', 'ruler', 'sure', 'ruler', 'crash']",General,{'crash': 100}
+5e3d4cf1315b99e446aebaf49979aae8a9a9802f,"['libgimp', 'update', 'description', 'available', 'work', 'image', 'security', 'risk']",General,{'security': 100}
+b118e8242bb8490042e7dc9aee6bcda8df7eef0b,"['crash', 'debug', 'option', 'show', 'image', 'graph', 'debug', 'action', 'image', 'open', 'projection', 'benchmark', 'image', 'memsize', 'pluginmanager', 'member', 'function', 'gobjects']",General,{'crash': 100}
+62ee5d3c7ed79886fcac71ca93ab7206c170417e,"['plug', 'metadata', 'editor', 'crash', 'strtok', 'time', 'need', 'null', 'check', 'string', 'important', 'null', 'special', 'meaning', 'strtok', 'search', 'string', 'stateful', 'metadata', 'editor', 'plug', 'case', 'previous', 'search', 'metadata', 'content', 'edge', 'case', 'null', 'search', 'string', 'strstr', 'check', 'function', 'null', 'haystack', 'argument', 'validity', 'check', 'likely', 'similar', 'issue', 'whole', 'code', 'part']",General,{'crash': 100}
+a5b2139ca31fbc52dd28d449cc74bc4a69c0038b,"['file', 'load', 'crash', 'extra', 'layer', 'mask', 'crash']",General,{'crash': 100}
+84fab474a7dac59b2566212c89082b6e5e6e22e6,"['gimp', 'crash', 'forgot', 'guard', 'place', 'decoder', 'byte', 'buffer', 'bogus', 'offset']",General,{'crash': 100}
+221e18ab0924e0ed2f1c676579472d7c83e2b34a,"['brush', 'dimension', 'depth', 'compression', 'sanity', 'check', 'brush', 'sure', 'overrun', 'decoder', 'destination', 'buffer', 'reject', 'brush']",Risky_resource_management,{'overrun': 100}
+f98d1b3a76e7031410d7b26bb74da23a1bb20a6c,"['core', 'integer', 'overflow', 'system', 'language', 'promotes', 'data', 'value', 'data', 'type', 'calculation', 'multiplication', 'variable', 'type', 'gsize', 'lead', 'possible', 'integer', 'overflow', 'dimension', 'byte', 'boundary', 'access', 'possible', 'code', 'execution', 'information', 'leakage', 'pixel', 'value', 'return', 'null', 'tobias', 'stoeckmann', 'tobias', 'stoeckmann']",Risky_resource_management,{'integer overflow': 100}
+cc47597aaef295ba5f6196fe8c27f7a7fa40814f,"['selection', 'crash', 'gimp']",General,{'crash': 100}
+f658ea407153b0676f8e6cbb5010baeab5e93b0d,"['file', 'default', 'crash', 'file', 'plug', 'line', 'param', 'data', 'plug', 'register', 'parameterless', 'procedure']",General,{'crash': 100}
+f14be48e744dc889f6b477a9fb60f76472e94be8,"['infinite', 'recursivity', 'risk', 'infinite', 'recursivity', 'particular', 'symbolic', 'link', 'data', 'level', 'directory', 'security', 'risk']",General,{'security': 100}
+28e95fbeb5720e6005a088fa811f5bf3c1af48b8,"['heap', 'buffer', 'overflow', 'importer', 'check', 'block', 'length', 'valid', 'actual', 'file']",Risky_resource_management,{'buffer overflow': 100}
+4e4c1cd57e3bcd8970def72e9cbaabc215f5f1a2,"['layer', 'group', 'lead', 'deadlock', 'gimp', 'buffer', 'source', 'validate', 'source', 'node', 'gimpdrawables', 'issue', 'layer', 'group', 'drawables', 'buffer', 'making', 'sure', 'buffer', 'thread', 'parent', 'composition', 'restore']",Risky_resource_management,{'deadlock': 100}
+2ff52af5a9e8ea621068c560fd3c1ca9e1a61dff,"['layer', 'group', 'lead', 'deadlock', 'deadlock', 'environment', 'variable', 'reenable', 'sake']",Risky_resource_management,{'deadlock': 100}
+d228e76ebee69373c23e11883660dd62ce112bae,"['memory', 'leak', 'gmatchinfo', 'data']",Risky_resource_management,{'memory leak': 100}
+30d29e03f8c12fd1a66781e287cf500f722784b2,"['heap', 'overflow', 'pattern', 'possible', 'trigger', 'heap', 'overflow', 'opening', 'malicious', 'pattern', 'integer', 'overflow', 'validation', 'plugin', 'parser', 'proper', 'cast', 'gsize', 'integer', 'overflow', 'size', 'calculation']",Risky_resource_management,{'integer overflow': 100}
+d613842eba7fb1f96a2389e46fe795fb3e5d264e,"['gimp', 'crash', 'middle', 'selection', 'mask', 'data', 'unref', 'channel', 'unref', 'image', 'selection']",General,{'crash': 100}
+b2b6552f1fe60ad2f276c537ca4cede3d2a1c362,"['crash', 'segmentation', 'fault', 'value', 'histogram', 'calculation', 'negative', 'value', 'value', 'pessimize', 'performance', 'histogram', 'time', 'calculation', 'result']",General,{'crash': 100}
+9a073508f760fe100ea1864c07dfaadd90aaf30e,"['boundary', 'file', 'malicious', 'file', 'invalid', 'system', 'integer', 'overflow', 'error', 'occurs', 'thumbnail', 'creation', 'tobias', 'stoeckmann', 'tobias', 'stoeckmann']",Risky_resource_management,{'integer overflow': 100}
+12df7960ad461d3c4e6fe7fab01ce2db7eacd150,"['gimp', 'crash', 'gegl', 'operation', 'tool', 'pointer', 'weak', 'pointer', 'parent', 'class']",General,{'crash': 100}
+6dfe04e9283f8435979758ac7a1519481bc73694,"['duplicate', 'image', 'crash', 'empty', 'layer', 'group', 'empty', 'gorup', 'layer', 'extent', 'fake', 'extent', 'whenever', 'projection', 'buffer', 'drawable', 'safeguard', 'forgotten', 'image', 'duplicate']",General,{'crash': 100}
+0d9a85a20730e40d21c43af141c8bdb2774beb07,"['crash', 'transform', 'tool', 'buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100}
+bb93e3401f0481dba8be80a387f04e7e8a76db07,"['gimp', 'crash', 'gegl', 'filter', 'need', 'access', 'gimpsettings', 'time', 'property']",General,{'crash': 100}
+0cb3e75f791c16206db791fb27edbbc8c248221a,"['line', 'code', 'instance', 'member', 'instance', 'member', 'instance', 'member', 'null', 'pointer', 'instance', 'member']",Risky_resource_management,{'null pointer': 100}
+84b099342c0dbdf10f1bba0693986c5c5f445d05,"['crash', 'metadata', 'editor', 'field', 'empty']",General,{'crash': 100}
+3f6e9e429dfb0ea4b557027a9b1e023e3cbf476f,"['crash', 'elle', 'stone']",General,{'crash': 100}
+bc708fb2fba6779824a61a60b16e6747d5afa55d,"['curve', 'level', 'tool', 'crash', 'gimpfiltertool', 'work', 'tool', 'dialog', 'sure', 'pointer', 'time', 'dialog']",General,{'crash': 100}
+ff915b68c967c6d3f83119e5e5bf4840ef710446,"['warning', 'crash', 'rectangle', 'select', 'crop', 'property', 'gbindings', 'tool', 'option', 'middle', 'signal', 'emission', 'callback', 'return', 'tool', 'option', 'shut', 'rectangle', 'forgot', 'unset', 'display', 'highlight', 'rectangle', 'selection', 'tool']",General,{'crash': 100}
+9d8f94375e664d57496b8ba9466d42b559c0f86c,"['null', 'point', 'function']",Risky_resource_management,{'null point': 91}
+937900d6187ce21ed0ce395d27aa7c2d966be3be,"['script', 'color', 'selector', 'crash', 'libgimpwidgets', 'need', 'babl', 'color', 'selector']",General,{'crash': 100}
+ea7f1ba0242acaaecb9959bfd8cb4e848d467e22,"['indentation', 'depth', 'plug', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+bb196607693b2a8fa95f033966506cbf3c377d81,"['code', 'test', 'libsoup', 'configure', 'test', 'hard', 'dependency', 'http', 'nowadays', 'website', 'http', 'default', 'http', 'penalty', 'browser', 'various', 'security', 'warning', 'http', 'website', 'support', 'help', 'browser', 'various', 'remote', 'file', 'note', 'test', 'case', 'display', 'warning', 'packagers', 'aware', 'dependency']",General,{'security': 100}
+3f7b135a2a5e468149b873974a93e65340ff0451,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+13ed12d2b3b191b577a6b35beeadb4cf2d461236,"['malicious', 'file', 'integer', 'overflow', 'reading', 'file', 'check', 'file', 'necessary', 'gsize', 'cast', 'file', 'important', 'system', 'cast', 'precision', 'calculation', 'tobias', 'stoeckmann', 'tobias', 'stoeckmann']",Risky_resource_management,{'integer overflow': 100}
+c585c99e8084998b3203b6ebf854499d074f3ee4,"['color', 'picker', 'crash', 'multiple', 'monitor', 'window', 'screen', 'pixel', 'work', 'kind', 'monitor', 'layout']",General,{'crash': 100}
+7704b6100e410ceba9634fd92bd7ee7a45dd0e25,"['gimp', 'crash', 'stack', 'limit', 'number', 'sample', 'overflow', 'stack', 'alloca', 'buffer']",General,{'crash': 100}
+adae3882d2c9955f9dd62482f9bcdb8456679701,"['import', 'filter', 'crash', 'large', 'image', 'high', 'resolution']",General,{'crash': 100}
+c8ebd043aa361fbd966cf206130611bdc728e679,"['workaround', 'python', 'crash', 'flatpak', 'upstream', 'issue', 'python', 'crash', 'platform', 'others', 'http', 'github', 'flatpak', 'flatpak', 'issue', 'introspection', 'gegl', 'useful', 'flatpak', 'wrap', 'gdbus', 'codegen', 'script', 'gimp', 'force', 'python', 'force', 'python', 'environment', 'webkit', 'gimp', 'need', 'python', 'dependency']",General,{'crash': 100}
+38c79600f15402fd126aa572eafd444b775f56c1,"['metadata', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+f8e291bf3110098ed03e858d13b22296ec1068a4,"['metadata', 'window', 'exif', 'long', 'value', 'display', 'entirety', 'truncate', 'value', 'proper', 'indication', 'private', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+571f5c86b3b12d4637849a702c2c921c9b2970ef,"['crash', 'selection', 'invalid', 'value', 'limit', 'selection', 'sense', 'limit', 'selection']",General,{'crash': 100}
+e3115f1565c1b3c17df6daa8a3649770898e2a5c,"['gimp', 'crash', 'grid', 'configuration', 'grid']",General,{'crash': 100}
+46bcd82800e37b0f5aead76184430ef2fe802748,"['gimp', 'dependent', 'attacker', 'denial', 'service', 'crash', 'file', 'infoheader', 'height', 'zero', 'load', 'bail', 'zero', 'width', 'height', 'icon']",General,{'denial service': 100}
+1e69bbdef6d076960237a1a6302fbb8d92e24f91,"['libgimpconfig', 'unref', 'gfile', 'return', 'reference', 'random', 'crash', 'profile', 'gimptemplate', 'image', 'prefs']",General,{'crash': 100}
+61530c74a41b1a43fbdf8710102afa24ac1e726a,"['plug', 'memory', 'leak', 'output', 'path', 'direct', 'leak', 'byte', 'object', 'xfdd', 'realloc', 'libasan', 'xfdadf', 'glib', 'glib', 'gmem', 'gimp', 'widget', 'xfdec', 'glib', 'gobject', 'gobject', 'xfdec', 'glib', 'gobject', 'gobject', 'glib', 'gobject', 'gobject', 'xfdc', 'glib', 'gobject', 'gobject']",Risky_resource_management,{'memory leak': 100}
+cc02ee1160bf0c6c6ba10122c93f63f9feaafeab,"['devel', 'style', 'standard', 'rule', 'http', 'wiki', 'show', 'column', 'expands', 'space', 'rule', 'highlight', 'everywhere', 'easy', 'spot', 'file', 'whole', 'gimp', 'tree', 'advise', 'setting', 'locale', 'vimrc', 'possible', 'high', 'security', 'risk', 'party', 'vimrc', 'random', 'shell', 'command']",General,{'security': 100}
+e4a2f220e0e7a868fa6f56b0cb82c0ee97ab1ba6,"['crash', 'webp', 'file', 'free', 'data']",General,{'crash': 100}
+23d5944ef8fa9585dae7210ca344eeb473601541,"['gimp', 'gradient', 'segment', 'range', 'crash', 'gimp', 'segment']",General,{'crash': 100}
+a93cea0ef5bc810647689ae05ee2fc4760799a39,"['rapid', 'sequence', 'command', 'crash', 'access', 'progress', 'object', 'destruction', 'silence', 'warning', 'glib', 'gobject', 'warning', 'gsignal', 'instance', 'handler', 'gimp', 'gimp', 'plug', 'critical', 'assertion', 'progress', 'null', 'progress']",General,{'crash': 100}
+b5934625de2bede256350b4ae14912e29e5a86b2,"['crash', 'cursor', 'ibus', 'hangul', 'input', 'method', 'crash', 'culprit', 'idle', 'function', 'inconsistency', 'text', 'text', 'tool', 'pango', 'layout', 'buffer', 'force', 'pending', 'text', 'commits']",General,{'crash': 100}
+cf3b6903c012c74b787de6eeaa1670adb63ecba2,"['invalid', 'comment', 'string', 'crash', 'validate', 'gimp', 'comment', 'parasite', 'reject', 'failure']",General,{'crash': 100}
+062cf1a5ab7f83837d25a7f85a2309de475633b1,"['dump', 'procedure', 'argument', 'trigger', 'segmentation', 'fault', 'initialize', 'babl', 'gimp', 'brush', 'crash']",General,{'crash': 100}
+ff3e9d76ac784624942e9d6257e845a4ac770e78,"['cmyk', 'format', 'cmyk', 'color', 'selector', 'crash']",General,{'crash': 100}
+022439e4633083df7533de767e48e854fcf23282,"['memory', 'leak', 'unit', 'track', 'list', 'length']",Risky_resource_management,{'memory leak': 100}
+a41b4a0436a186325360e65e749836c3c0d40282,"['gimp', 'crash', 'color', 'text', 'layer', 'gimprgb', 'address', 'entire', 'struct']",General,{'crash': 100}
+4f99c7294a8ea279549e5b5a2e267ce64b88005e,"['need', 'check', 'return', 'value', 'null', 'pointer', 'crash', 'initial', 'update', 'print', 'message', 'check', 'return', 'value', 'gimp', 'error', 'warning', 'crash']",Risky_resource_management,{'null pointer': 100}
+d9e608f7226cb27a168ac09c797282e615f6067f,"['crash', 'config', 'property', 'cleanup']",General,{'crash': 100}
+cdc7542d46a6d3c6b2c223d14f63e7d29d9571ec,"['crash', 'layer', 'creation', 'fullscreen', 'mode', 'style', 'fullscreen', 'mode', 'need', 'support', 'order', 'work', 'available', 'fullscreen', 'option', 'view', 'fullscreen', 'work', 'fine', 'plan', 'migrate', 'style', 'fullscreen', 'support']",General,{'crash': 100}
+0fcfd4f7b70db99b19a47e442e9162b1b0f0ba58,"['crash', 'cursor', 'ibus', 'hangul', 'input', 'method', 'input', 'method', 'overlay', 'frame', 'display', 'preedit', 'text', 'text', 'tool', 'text', 'rest', 'text', 'overlay', 'current', 'text', 'making', 'unreadable', 'input', 'method', 'issue', 'main', 'weirdness', 'crash', 'hangul']",General,{'crash': 100}
+cb76253c6739d3286e158f4759689641fe4a56c7,"['crash', 'screenshot', 'gnome', 'shell', 'backend', 'screenshot', 'backends', 'gnome', 'shell', 'backend', 'check', 'dbus', 'detection', 'gnome', 'shell']",General,{'crash': 100}
+a8a214ffcbb23649dad691bc84cdeb2c2baaf54a,"['difference', 'cloud', 'memory', 'leak', 'undo', 'cloud', 'layer', 'gimp', 'image', 'undo', 'group']",Risky_resource_management,{'memory leak': 100}
+c8ee9f951dd4407c3604f426b896c88732d93b38,['crash'],General,{'crash': 100}
+6a6604871fe9493cb0f7ec331d0629a4a4764973,"['crash', 'backtraces', 'mingw']",General,{'crash': 100}
+4446954e277d030a13392628d9ba804da8b82e75,"['filter', 'edge', 'detect', 'neon', 'crash']",General,{'crash': 100}
+10085b118a6e83e022573c7ecbd9b4d450f7d05c,"['gimp', 'crash', 'pointer', 'dialog', 'reference', 'gimpcursorview', 'context', 'long', 'widget']",General,{'crash': 100}
+cc9c7aa3b39383bb1bcc1442e1b07a2ca698ff78,"['plug', 'fractal', 'trace', 'crash', 'selection', 'height', 'width', 'crash', 'selection']",General,{'crash': 100}
+e3b24af3d06f6a77372c330f371afaae1979d3ac,"['plug', 'crash', 'blur', 'gauss', 'selective']",General,{'crash': 100}
+6fe0a42c5d7c643bf1d0ac781dfa5a60f428328b,"['redundant', 'crash', 'gimp']",General,{'crash': 100}
+02d119275362b9f9e3834f3a770427ef41b12239,"['return', 'null', 'string', 'array', 'zero', 'element', 'thing', 'return', 'string', 'array', 'element', 'array', 'null', 'pointer', 'zero', 'length', 'array', 'code', 'return', 'null', 'zero', 'length', 'array']",Risky_resource_management,{'null pointer': 100}
+1243e1f93b071dc5056997d33b8dc11f27712c0a,"['file', 'tiff', 'load', 'crash', 'open', 'bigtiff', 'file', 'babl', 'format', 'extra', 'channel', 'plug', 'load', 'black', 'page', 'rome', 'bigtiff', 'plug', 'crash', 'bigtiff', 'image']",General,{'crash': 100}
+456d535232ce781ffbb5f28d68dc91308154c0f8,"['paint', 'tool', 'text', 'tool', 'click', 'drag', 'font', 'brush', 'pattern', 'gradient', 'tool', 'option', 'crash', 'gimp', 'target', 'list']",General,{'crash': 100}
+765975dfd69cc53876a1242fe450ef267f46050d,"['plug', 'specific', 'crash']",General,{'crash': 100}
+a0e48ad29e93e2dc259879abeb2dedc9a420b8f6,"['crash', 'unref', 'dialog', 'image', 'insatead', 'local', 'dialog', 'variable', 'destruction', 'weird', 'crash', 'fedora']",General,{'crash': 100}
+e58bf5138fa875442cdba39c882b1f4c71f00776,"['crash', 'cursor', 'ibus', 'hangul', 'input', 'method']",General,{'crash': 100}
+31aa1269ecc5dc9501a9ef09c2241a50076bc8e1,"['current', 'gradient', 'script', 'lead', 'error', 'possible', 'gimp', 'crash', 'core', 'segfault']",General,{'crash': 100}
+ae708d6419d6cd37c75547d86fcad35a09ce7a1f,"['current', 'gradient', 'script', 'lead', 'error', 'possible', 'gimp', 'crash', 'core', 'segfault', 'object', 'gimptagentry']",General,{'crash': 100}
+93414342c3b2019f787a90c7da2100f3da398bc6,"['gimp', 'crash', 'selection', 'layer', 'boundary', 'rotate', 'tool', 'refuse', 'transform', 'tool', 'error', 'message', 'selection', 'intersect', 'layer']",General,{'crash': 100}
+7c4f3f02c7a9919551eb038956a8545e79ba1b06,"['gimp', 'development', 'version', 'crash', 'processing', 'mask', 'psds', 'pixel', 'format', 'issue', 'function', 'channel', 'right', 'drawable', 'type', 'alpha', 'parameter', 'psdimage', 'struct']",General,{'crash': 100}
+0d7d96d09ff0fca4a90d24fff2555fe9b8f64c9d,"['gimp', 'development', 'version', 'crash', 'processing', 'mask', 'psds', 'image', 'layer', 'format', 'load', 'layer', 'mask', 'channel', 'grayscale', 'format']",General,{'crash': 100}
+7f67c431b7bc345b1441818df5f31f64662975d4,"['revert', 'force', 'action', 'search', 'dialog', 'parent', 'window', 'crash', 'window', 'reverts']",General,{'crash': 100}
+bd75ed6bf0e167cbf401b27ae47a4fd49533547a,"['iscissors', 'crash', 'initial', 'point']",General,{'crash': 100}
+06797982ba9e4e99df0187fdbeb42062a62ccdf2,"['crash', 'cleanup']",General,{'crash': 100}
+09c5fcc32bb0ee8d068ccaed7ef4761881747df2,"['crash', 'editing', 'text', 'certain', 'font']",General,{'crash': 100}
+af64a104c39551534ac9c90bd8b6c624502e95d7,"['cage', 'tool', 'crash']",General,{'crash': 100}
+d4dba427acbf6f0c4f17343b6431c2e461110810,"['crash', 'opening', 'file', 'compression', 'code', 'planning', 'zlib', 'fractal', 'compression', 'crash', 'file', 'crash', 'opening', 'legit', 'file', 'compression', 'fatale']",General,{'crash': 100}
+ac45213ccd4572fa453de0b37c812a68035ee19b,"['possible', 'crash', 'file', 'version', 'offical', 'version', 'tinyscheme']",General,{'crash': 100}
+b663b8058f8828493f3a3b4c5c0bd131daf025a6,"['crash', 'color', 'mode', 'format', 'return', 'null']",General,{'crash': 100}
+66ea9e7ebdd4bb1f930487f67de661db41dd2418,"['double', 'free', 'plugin']",Risky_resource_management,{'double free': 100}
+ebdb803c33d3f8e4764225567c61a332b406b20a,"['port', 'gfile', 'file', 'crash']",General,{'crash': 100}
+87596258d0f14d62f1411b5c421fc5671ac5371e,"['gimp', 'crash']",General,{'crash': 100}
+a64a319d78455a13d51fc7983fa18ce7ce5549d8,"['gimp', 'crash', 'validity', 'check', 'file']",General,{'crash': 100}
+86988e7d6752074392ccb15b0348036c60fd2e12,"['crash', 'gimpgegltool']",General,{'crash': 100}
+ae331bc7ac24a30d61c18246dc196618b3a70356,"['wilber', 'builtin', 'icon', 'return', 'pixbuf', 'gimp', 'crash']",General,{'crash': 100}
+0bc827cb69e611eb7c59a0a02acf9b33aa0edd5c,"['gimp', 'crash', 'large', 'tiff', 'file', 'cairo', 'surface', 'width', 'height']",General,{'crash': 100}
+251dd91395d5d3b99ab799b6711189012534634d,"['module', 'memory', 'leak', 'color', 'selector', 'cmyk', 'clean', 'profile', 'label', 'tooltip', 'show', 'profile', 'summary']",Risky_resource_management,{'memory leak': 100}
+bfd8d002826aaee0686395fd50ea5b9823211612,"['opening', 'file', 'lead', 'crash', 'graphic', 'interface', 'linux']",General,{'crash': 100}
+7fca15c27dd944890a67bb6db90c0b1fd4238f2f,"['crash', 'palette', 'clean', 'access', 'small', 'glitch', 'value', 'comparison', 'loop', 'list', 'element', 'invalid', 'gimptagentry', 'member', 'entry', 'sure', 'reference', 'list', 'paranoia', 'safety', 'reason']",General,{'crash': 100}
+2e6af22686cba732a10dce3a066349083a4f1498,"['initialize', 'length', 'appease', 'cppcheck', 'code', 'length', 'placeholder', 'overwrite', 'confuse', 'tool', 'people', 'code', 'besides', 'length', 'file', 'payload', 'crash', 'code']",General,{'crash': 100}
+d0f7e713bb4478f2da3a688abf89adfdc2a935ee,"['null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+961d03d795e1ab32923f31e7f979f601403cdf41,"['plugin', 'crash', 'profile', 'check', 'return', 'value', 'config', 'builtin', 'srgb', 'profile', 'return', 'null']",General,{'crash': 100}
+514f22f53d61fd9e8105c495745503a63efdd8b0,"['crash', 'visible', 'layer']",General,{'crash': 100}
+f0b3c76c9d1b8a2e1ae8960fad108d5f63687700,"['crash', 'language', 'parser', 'stupid']",General,{'crash': 100}
+37372555e5820f7f0c3a98ce9975ef66c2d8422c,"['crash', 'invalid', 'number', 'plte', 'entry', 'colormap', 'case', 'null', 'colormap', 'colormap', 'null', 'sense', 'unset', 'place', 'palette', 'colormaps', 'zero', 'entry']",General,{'crash': 100}
+7e513faa50a1b45f2b216a721c0dce938d0dd52a,"['crash', 'switch', 'multi', 'single', 'window', 'mode', 'shell', 'travel', 'canvas', 'position', 'code', 'track', 'image', 'window', 'specific', 'shell', 'current', 'window', 'shell', 'issue', 'mode', 'switch']",General,{'crash': 100}
+3cc923d5a50287b2a7ab77dce381aabab3e37418,"['gimp', 'crash', 'image', 'image', 'rescale', 'main', 'loop', 'layer', 'group', 'preview', 'generation', 'access', 'tile']",General,{'crash': 100}
+785436f32e46f6d5cafb9575effe050e069fce4a,"['crash', 'flip', 'tool', 'click', 'internal', 'transform', 'tool', 'undo', 'special', 'case', 'click', 'transform', 'clear', 'tool', 'state', 'precondition', 'check']",General,{'crash': 100}
+ac98dd47511c422e170bc2aac934dd47ae4d1d3f,"['opening', 'file', 'stack', 'buffer', 'overflow', 'increase', 'buflen', 'terminator', 'past']",Risky_resource_management,{'buffer overflow': 100}
+814c47b0b94424e222fa8951e648d359d7c8196a,"['crash', 'previous', 'operation', 'null', 'widget', 'table']",General,{'crash': 100}
+8940b25c6dd6e9a280f93db4bad95e7447975b2c,"['crash', 'jpeg', 'preview']",General,{'crash': 100}
+7a671d3157a7d2bd84e334c9e84b96c454bdec49,"['file', 'possible', 'crash']",General,{'crash': 100}
+0909a30b06f4cf856792a27fecc606e674b72716,"['histogram', 'typo', 'offset', 'mask', 'crash', 'gray', 'image', 'selection', 'integer', 'division']",General,{'crash': 100}
+804313bbecf92e099952ef0b9e12824d57100ccd,"['gimp', 'segmentation', 'fault', 'segfault', 'crash', 'color', 'null', 'pointer', 'strcmp', 'return', 'null', 'different', 'font', 'span', 'inconsistent', 'size', 'comment', 'color', 'original', 'patch', 'massimo', 'valentini']",Risky_resource_management,{'null pointer': 100}
+b109e0580650b4b49b6f00b15fec4bcd330fb045,"['popup', 'object', 'crash', 'object', 'popup', 'object']",General,{'crash': 100}
+35cc644765c553b6feb24bd56133b6f9f74ed5e4,"['unsharp', 'mask', 'crash', 'large', 'radius', 'image', 'range']",General,{'crash': 100}
+ed2849cd5245a4f4f259a261e5d58a1e4fa637ba,"['gradient', 'script', 'drop', 'gimp', 'crash', 'free', 'color', 'value', 'array']",General,{'crash': 100}
+096c636b67abd7967da645699948c2bd3f8273fb,"['error', 'case', 'error', 'profile', 'plug', 'function', 'error', 'object', 'grayscale', 'image', 'crash', 'caller', 'return', 'value']",General,{'crash': 100}
+69c897a1187f68e74614e6e5eca11464debcd2ba,"['crash', 'gegl', 'tool', 'operation', 'specific', 'tool', 'setting', 'combo', 'config', 'object']",General,{'crash': 100}
+931ea102f8de78b24a2a3a6f1edf82e8d2898f01,"['gimp', 'crash', 'text', 'preset', 'preset', 'overwrites', 'tool', 'option', 'property', 'name', 'name', 'option', 'text', 'proxy', 'object', 'inherits', 'gimpobject', 'name', 'sure', 'queue', 'name', 'text', 'layer', 'text', 'object', 'code', 'property', 'gimptext']",General,{'crash': 100}
+1c00c2e4f831a16dbba15e605dc19151a3a0246c,"['crash', 'place', 'exists', 'purpose', 'fontconfig', 'library']",General,{'crash': 100}
+2999e30901a4c1344d19900f82bcf1564ff10c85,"['plug', 'memory', 'leak', 'file', 'html', 'table', 'clang', 'scan']",Risky_resource_management,{'memory leak': 100}
+0357f83658252952770a79ab17c7056fb5dd0416,"['plug', 'memory', 'leak', 'file', 'clang', 'scan']",Risky_resource_management,{'memory leak': 100}
+c262fee2445734c015aafe527cb681eed6941ec4,"['gimp', 'crash', 'segfault', 'context', 'font', 'context', 'context', 'unavailable', 'object']",General,{'crash': 100}
+a9b014c3dd150f156dafabf7eb0ed1ad27b926de,"['plug', 'memory', 'leak', 'file', 'clang', 'scan']",Risky_resource_management,{'memory leak': 100}
+0f6044ef2bb442bff8c104bd28068051493f9faf,"['plug', 'memory', 'leak', 'clang', 'scan']",Risky_resource_management,{'memory leak': 100}
+14bb38da3ff18aef87d14c2a704ba811d9a0c70c,"['plug', 'memory', 'leak', 'file', 'clang', 'scan']",Risky_resource_management,{'memory leak': 100}
+f4bf93dac9e1e21cf7bb6c9122c35c1662cef359,"['plug', 'memory', 'leak', 'file', 'tiff', 'clang', 'scan']",Risky_resource_management,{'memory leak': 100}
+2fc0c768f172137b13792e26c29357db65060b73,"['leak', 'reference', 'bunch', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+7d6f6a2692d39295de51d60022b3fd0232bd6bc5,"['plug', 'memory', 'leak', 'file', 'tiff', 'load', 'clang', 'scan']",Risky_resource_management,{'memory leak': 100}
+e87971e85063fd28ef89a0edf9475e98e32dba21,"['plug', 'memory', 'leak', 'edge', 'neon', 'clang', 'scan']",Risky_resource_management,{'memory leak': 100}
+4d36a1fdf8ff7026119578a127215fc5c3baf0b1,"['memory', 'leak', 'widget', 'clang', 'scan']",Risky_resource_management,{'memory leak': 100}
+57740d107d7e9b07e8590f8358931d3106c26ffe,"['plug', 'memory', 'leak', 'flame', 'rect', 'clang', 'scan']",Risky_resource_management,{'memory leak': 100}
+20c86f821df507e2067b892abd9cdd63950ebbed,"['data', 'bootstrap', 'initial', 'value', 'text', 'style', 'editor', 'construction', 'visual', 'issue', 'style', 'editor', 'default', 'font', 'size', 'style', 'instanciation', 'crash', 'user', 'font', 'size', 'style', 'bold', 'italic']",General,{'crash': 100}
+6d09237ca15bc2b5ccf8100622769e9114bcc7ab,"['file', 'palette', 'transparency', 'buffer', 'overflow', 'colormap', 'buffer', 'image', 'alpha', 'colormap', 'rgba', 'conversion']",Risky_resource_management,{'buffer overflow': 100}
+2e54d88ef284bb99a0f0876b7a0554c75d66fa01,"['babl', 'model', 'format', 'babl', 'stats', 'crash']",General,{'crash': 100}
+acdf9bb29bba5c3016ea3dfedb82a13dc6f320a8,"['infinite', 'recursion', 'crash', 'item', 'position']",General,{'crash': 100}
+0b35f6a082a0b3c372c568ea6bde39a4796acde2,"['memory', 'corruption', 'vulnerability', 'reading', 'file', 'patch', 'andres', 'file', 'detect', 'kind', 'file', 'corruption', 'abort', 'error', 'message']",Risky_resource_management,{'memory corruption': 100}
+6a33951aa6f7292b7c652d14052eefd8e61d1365,"['gimp', 'crash', 'color', 'desaturate', 'install', 'frame', 'rate', 'active', 'accidential', 'timeout', 'installation', 'tool', 'dispose', 'code']",General,{'crash': 100}
+eac70cc513ef3a073b6f3d2fe3794d13d97b204c,"['system', 'gimp', 'crash', 'sure', 'leak', 'temporary', 'procedure', 'plug', 'progress', 'window', 'button', 'click', 'user', 'chance']",General,{'crash': 100}
+d4f85b24b14f9bb5f3601ea4f2c7a440e09fa8ca,"['edit', 'module', 'crash']",General,{'crash': 100}
+0a5059da519ce4831e485ecee37863306c445c73,"['color', 'alpha', 'plugin', 'crash', 'sure', 'free', 'libgimp', 'tile', 'data', 'case', 'reproduce', 'pretty', 'sure', 'gimpprotocol', 'cleanup']",General,{'crash': 100}
+9b58e2ba0ccbcd8108f576ac0aea4573f13875e0,"['text', 'tool', 'crash', 'double', 'undo', 'action', 'reverts', 'text', 'mark', 'notification', 'value', 'notification', 'null', 'result', 'text', 'mark', 'text', 'mark', 'markup', 'text', 'markup', 'present', 'matter', 'notification', 'markup', 'text']",General,{'crash': 100}
+20279d6fd6df8fe024f0f740e4da7cae84f85d1d,"['edit', 'module', 'crash', 'gimp', 'crash', 'module', 'dialog', 'list', 'item']",General,{'crash': 100}
+4aaaa1a7fa9d5f80121f07a01adb79d41ab77684,"['plugins', 'image', 'drop', 'list', 'crash', 'image', 'image', 'item', 'combo', 'image', 'item', 'reinitialize', 'combo', 'type', 'macro', 'internal', 'class', 'hold', 'common', 'functionality']",General,{'crash': 100}
+8e5beb6d83896da421180f4d76693b5c3ae02990,"['script', 'refresh', 'crash', 'script', 'script', 'stupid', 'procedure', 'script', 'refresh', 'script', 'case', 'warrant', 'code']",General,{'crash': 100}
+52c00faad5a9383730c08646d0e4dfac6358a7da,"['tiff', 'loader', 'crash', 'window', 'tile', 'segment', 'width', 'height', 'byte', 'large', 'width', 'height', 'clue', 'system']",General,{'crash': 100}
+191c2c15efe25d9dde5770262621b1788022c4bc,"['file', 'crash', 'specific', 'corruption', 'middle', 'parasite', 'header']",General,{'crash': 100}
+9d42df5fa2d2ce598c5896cb0f023a5db65c7f2a,"['crash', 'color', 'profile', 'information']",General,{'crash': 100}
+a0221bc5602d6b749f78f62768cd6cee3999678d,"['plug', 'memory', 'leak', 'blend', 'tool', 'shape', 'efficient', 'opaque', 'layer', 'eeeeeeeek', 'geglbuffers']",Risky_resource_management,{'memory leak': 100}
+96ce2c936dd2fb8cfbfcbadf95d667b7d6d47ca2,"['file', 'thumbnail', 'robust', 'file', 'crash', 'image', 'generate', 'thumbnail', 'specify', 'palette', 'file', 'case']",General,{'crash': 100}
+c7b9728cc8b9c5af28ac04e021246ab23d8f1eba,"['input', 'driver', 'initialize', 'array', 'zero', 'pressure', 'curve', 'interpolate', 'shit', 'crash']",General,{'crash': 100}
+d3e68fc995066075686157a49a9fd5b67a77d5af,"['plug', 'crash', 'text', 'chunk', 'case', 'glibc', 'plug', 'file', 'double', 'free', 'corruption']",Risky_resource_management,{'double free': 100}
+f58518dd70ccaf8787506c4018f75513cbc4c20f,"['plug', 'memory', 'leak', 'byte', 'block', 'loss', 'record', 'malloc', 'builddir', 'valgrind', 'coregrind', 'xfde', 'glib', 'glib', 'gmem', 'glib', 'glib', 'gslice', 'xebfd', 'glib', 'glib', 'glist', 'gimp', 'core', 'gimpitemstack', 'gimp', 'core', 'gimpimage', 'precision', 'gimp', 'action', 'image', 'command']",Risky_resource_management,{'memory leak': 100}
+09be89a24ea9354f161746c3a9258e5dd8aadbb9,"['crash', 'rotate', 'tool']",General,{'crash': 100}
+9514cf4871efbb0b13fc808c1277dbc467e43cac,"['available', 'application', 'approach', 'place', 'code', 'crash']",General,{'crash': 100}
+ace45631595e8781a1420842582d67160097163c,"['file', 'file', 'format', 'patch', 'buffer', 'overflow', 'file']",Risky_resource_management,{'buffer overflow': 100}
+1bbf9ca4409905d3761c751667ec03d6ef6a059b,"['crash', 'font', 'permission']",General,{'crash': 100}
+2f10aee65df240d5da8e88bf54be6b1f5db878e4,"['gimp', 'report', 'false', 'positive', 'plugin', 'crash', 'python', 'console']",General,{'crash': 100}
+c1786fe753174a92a271a1acfe729c88495012c1,"['idle', 'source', 'dispatch', 'menu', 'event', 'menu', 'order', 'work', 'crash']",General,{'crash': 100}
+92a3944442aac649d3825f5186e441c6dfa9cbe2,"['drag', 'layer', 'window', 'layer', 'handler', 'setting', 'null', 'container', 'crash', 'handler', 'paranoia']",General,{'crash': 100}
+7d280abd9a657ba3a649a8823aeaf9d877e8d21e,"['gimp', 'crash', 'right', 'arrow', 'check', 'index', 'layout', 'access', 'memory']",General,{'crash': 100}
+27a767ee5499f862d481fb4c49bb51041b8325ad,"['crash', 'situation']",General,{'crash': 100}
+d9ba8b81da85ea88300ed3e5b83f3d1879c61af4,"['cage', 'cage', 'transform', 'tool', 'gimp', 'crash', 'check']",General,{'crash': 100}
+5edf1b1972926ec2a1d103dc6557c4ea961e52f5,"['shot', 'gegl', 'work', 'pngs', 'weird', 'crash', 'libgimp', 'pixel', 'region', 'suboptimal', 'gegl', 'advantage']",General,{'crash': 100}
+85ee13dd7d8ac9a41cad783782713ad11f799665,"['crash', 'mask', 'null']",General,{'crash': 100}
+a34afd63d8cc134821ac0b18299802e8f950da36,"['format', 'image', 'format', 'legacy', 'code', 'crash']",General,{'crash': 100}
+bf9627bdda897c8592b55132655d081bc5117d44,"['gegl', 'code', 'path', 'gegl', 'deadlock', 'gimpimagemap', 'stuff']",Risky_resource_management,{'deadlock': 100}
+24e6b20be83f9242ada2e03ddb17dab5145386cf,"['mask', 'size', 'making', 'gimp', 'crash', 'sure', 'clip', 'layer', 'mask', 'channel', 'original', 'extent']",General,{'crash': 100}
+ff6c2807bea09d8e0488658b74ac5d903a9a6bb4,"['headroom', 'smudge', 'buffer', 'crash', 'fedora', 'rhbz']",General,{'crash': 100}
+16584605231fbc19f84ad3845b89077aa386b730,"['error', 'script', 'gimp', 'file', 'load', 'layer', 'image', 'notexists', 'crash', 'gimp', 'message', 'gimp', 'error', 'gimpprocedure', 'code']",General,{'crash': 100}
+fbd746f95a56b45508d4d29932f2c0c2d1493076,"['parent', 'parent', 'child', 'relation', 'dock', 'widget', 'arbitrary', 'code', 'reference', 'accessibility', 'module', 'whatnot', 'likely', 'unclear', 'crash', 'accessibility', 'code', 'crash']",General,{'crash': 100}
+a1d7a4dba4bc6ba44f0f07416e3a8236bbd96620,"['layer', 'gimpimagetype', 'useless', 'unreachable', 'code', 'path', 'dereference', 'null', 'pointer', 'style', 'name', 'white', 'space', 'default', 'style']",Risky_resource_management,{'null pointer': 100}
+39368a410dc69fe952a6fe7afb909a9919e4ecdd,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+ea49a7b466ec32fcad3b366a5bc63365e1744260,"['ignore', 'button', 'event', 'canvas', 'button', 'dangerous', 'warning', 'likely', 'weird', 'crash']",General,{'crash': 100}
+88befd308292c23b83405f9236c9085cf7be72e9,"['spyrogimp', 'script', 'crash', 'gimp', 'tool', 'option', 'reset', 'name', 'null']",General,{'crash': 100}
+02038d5dd3092e09831f9a86cd85577bb7ce7a6d,"['check', 'matrix', 'array', 'size', 'crash', 'gimp']",General,{'crash': 100}
+3b6ab5a48cd366ede815f31dddf11a36c4a9217a,"['gimp', 'crash', 'wacom', 'tablet', 'unplug', 'null', 'name', 'unplug', 'name', 'null', 'need']",General,{'crash': 100}
+c3c40fd45f2c40c26aee5d1947d7cc8f0a577586,"['crash', 'font', 'search', 'explicit', 'search', 'entry', 'treeview', 'automatic', 'search', 'popup', 'dialog', 'middle', 'setting', 'serach', 'popup']",General,{'crash': 100}
+e8f64664c90b124b609cebd3b3ddf7a89f225658,"['selection', 'dispose', 'crash', 'selection', 'gegl', 'projection']",General,{'crash': 100}
+5c8ded8960350905e6b66181322e34b323fbe82d,"['selection', 'image', 'parameter', 'cleanup', 'crash']",General,{'crash': 100}
+27feccc4a4e405795fc9e3555226562b652d01b4,"['access', 'transform', 'tool', 'null', 'stales', 'example', 'warning', 'console', 'window', 'manager', 'focus', 'mode', 'possible', 'crash', 'gimp']",General,{'crash': 100}
+b74c7d0ff602c27a6eb7fbcf2d6a25ccf6eab89c,"['gimp', 'crash', 'file', 'property']",General,{'crash': 100}
+376ad788c1a1c31d40f18494889c383f6909ebfc,"['file', 'load', 'heap', 'corruption', 'buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100}
+dd0042f76bb7fd941a70c9d85968d9c2523cdedc,"['crash', 'async', 'operation']",General,{'crash': 100}
+b1a2c736bf7e6c75ca1af4b4c3330172dddb269e,"['guard', 'crash', 'shell', 'display', 'null', 'user', 'quits', 'application', 'drag', 'drop', 'action', 'main', 'loop', 'execution', 'function']",General,{'crash': 100}
+63cc68561a7f5ec55454a1c7365a287afe5be0a6,"['siox', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+1f78e8e0c6a3172b16b091c93978083763c2f796,"['plug', 'screenshot', 'null', 'crash', 'display', 'keymap']",General,{'crash': 100}
+afa8a416c9e2b3aa65eb9dde75b838360cb2e0d6,"['crash', 'gimpbrushtool', 'dynamic', 'paint', 'brush', 'cursor', 'brush']",General,{'crash': 100}
+7eda388fec73c963aad97dbfe71c869c36130635,"['possible', 'gimptagentry', 'crash']",General,{'crash': 100}
+ee6a0290405878d3be6b21023a4e8f617c06df9e,"['common', 'cflags', 'error', 'multiple', 'definition', 'gimp', 'crash', 'usual', 'crash', 'head', 'doctor']",General,{'crash': 100}
+1c8149a553c5cc4532cffe9c7266298de502c3bf,"['gimp', 'drawable', 'transform', 'rotate', 'gimp', 'crash', 'case', 'patch', 'massimo', 'sure', 'negative', 'width', 'height', 'source', 'dest', 'region', 'overlap']",General,{'crash': 100}
+0d0ffd12650cac3154bf6762bf3364ab1116bde1,"['ctrl', 'crash', 'gimp', 'freak', 'setting', 'gimpimage', 'corresponding', 'getter', 'massimo']",General,{'crash': 100}
+ebe4b4102f734c8f0e256c62a0b91103da490ca5,"['opening', 'vector', 'crash', 'gimp', 'crash', 'warning']",General,{'crash': 100}
+7fb0300e1cfdb98a3bde54dbc73a0f3eda375162,"['buffer', 'overflow', 'problem']",Risky_resource_management,{'buffer overflow': 100}
+20279459ddb005f2243768346df7e0269c8d016a,"['gimp', 'crash', 'editing', 'high', 'image', 'blob', 'overflow', 'problem']",General,{'crash': 100}
+36de5a2ab1f4917d4c28baa08167bbce80252868,"['crash', 'text', 'layer', 'text', 'tool', 'stay', 'canvas', 'text', 'info', 'tool', 'text', 'layer', 'text', 'disappears']",General,{'crash': 100}
+32d5d1681bc3a5dbe23e5f34060350180e0fa766,"['crash', 'palette', 'null']",General,{'crash': 100}
+b072e7583351171bae8297b8cd191ccd958bc6aa,"['file', 'jpeg', 'cinfo', 'struct', 'static', 'asynchronous', 'crash', 'plug', 'copy', 'cinfo', 'struct', 'asynchronous', 'cinfo', 'pointer', 'point', 'region', 'struct', 'pointer', 'function', 'return']",General,{'crash': 100}
+49988638067c3d66262b34b79ffa7a1e6c43919f,"['file', 'jpeg', 'crash', 'setting', 'preview', 'mode', 'patch', 'free', 'resource', 'multiple', 'gsources', 'setup', 'result', 'crash']",General,{'crash': 100}
+1130e8c8908c7d011948bac9ae65c7f57b18e8dd,"['crash', 'critical', 'file', 'open', 'check', 'return', 'value']",General,{'crash': 100}
+8e0dd56feb3aa6deba752aec44f8fde96ae611d7,"['crash', 'navigate', 'null', 'layout', 'boolean', 'return', 'value', 'check', 'navigation', 'code']",General,{'crash': 100}
+852196eb3dc29d5568f63f51a451b5c188757a04,"['insert', 'overwrite', 'cursor', 'text', 'right', 'function', 'figure', 'location', 'kind', 'cursor', 'crash', 'cursor', 'movement', 'check', 'error', 'value', 'buffer', 'boundary']",General,{'crash': 100}
+6b30250353ac7db7f71e8b77c493529c6b2faece,"['libgimpconfig', 'crash', 'return', 'null']",General,{'crash': 100}
+c5658da09c946c485c19c4ca6f8ff40cf05642f9,"['need', 'check', 'return', 'value', 'plugins', 'gimpressionist', 'check', 'selection', 'opening', 'dialog', 'return', 'error', 'string', 'patch', 'plugin', 'dialog', 'black', 'preview', 'user', 'chooses', 'assertion', 'plugin', 'effect', 'crash']",General,{'crash': 100}
+ac33ead19d9d321accd2bb787a40c598309f3ada,"['widget', 'plug', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+f1d89f712dd75a5e759f5923119500296ed9bd25,"['segfaults', 'argument', 'need', 'standard', 'tool', 'preset', 'object', 'gimpdata', 'object', 'crash', 'startup', 'interactive', 'mode']",General,{'crash': 100}
+9bde117b055cf7e2989e14ce7c10103232aee399,"['memory', 'leak', 'gimp', 'oversight']",Risky_resource_management,{'memory leak': 100}
+e14c50aaefb41d077455b4cec1fa708cc14a3e7c,"['memory', 'leak', 'gimp', 'plug', 'leak', 'data', 'stack']",Risky_resource_management,{'memory leak': 100}
+4fea27ec1d1743a588bb2f06ec6240f17d95b748,"['memory', 'leak', 'gimp', 'free', 'call']",Risky_resource_management,{'memory leak': 100}
+9ddbc55a086a546b2967f16a2b51056e7cf57584,"['warning', 'time', 'error', 'message', 'gimp', 'core', 'crash', 'script', 'libgimpbase', 'warning', 'script', 'error']",General,{'crash': 100}
+991210c0f94ed8e88eab7ebf19438bad85931930,"['gimp', 'crash', 'combo', 'popup', 'popup', 'widget', 'popup']",General,{'crash': 100}
+a4ccfcee72e13228ced79185d1116c846df63892,"['default', 'default', 'crash', 'meta', 'data', 'plug', 'process', 'fall', 'default', 'property']",General,{'crash': 100}
+19d4ad70f939ca173e32f0e65fc34e69f11a9ac3,"['memory', 'leak', 'plug', 'common', 'curve', 'bend']",Risky_resource_management,{'memory leak': 100}
+2f5d2bc85f7316b58d8c8227d6360e77acba4c02,"['gimp', 'crash', 'startup', 'contextrc', 'file', 'timeout', 'gobject', 'dispose']",General,{'crash': 100}
+9de1d97fb3d22a30173cdc560723311557aa9334,"['invalid', 'menu', 'path', 'crash', 'gimp', 'check', 'gimp', 'plugin', 'menu', 'register']",General,{'crash': 100}
+304db468d2fc0b96a5591d74d32c3275f4b74f83,"['invalid', 'menu', 'path', 'crash', 'gimp', 'crash', 'proper']",General,{'crash': 100}
+381088b4b8e521e39991c717f0a98cc9e5ec7b72,"['crash', 'gradient', 'tool', 'dialog', 'multiple', 'selection', 'view', 'default']",General,{'crash': 100}
+cbb815c20303c94fcfea221a55d528ba93ac7d90,"['blur', 'gauss', 'selective', 'crash', 'instruction']",General,{'crash': 100}
+8fb846160af35a9fca2ea85a0a2754d879875326,"['crash', 'activate', 'item', 'code', 'path', 'multiselection', 'parent', 'class']",General,{'crash': 100}
+98a2b0210f9fdf4acb5c5632e0607ee978e5a869,"['crash', 'layout', 'offset', 'function', 'selection']",General,{'crash': 100}
+6d4f2c3431e8d3c229ecd3ac5952b287d10983fb,"['text', 'tool', 'crash', 'edit', 'version', 'need', 'text', 'text', 'unit']",General,{'crash': 100}

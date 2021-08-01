@@ -1,0 +1,51 @@
+sha,message,catetory,matched
+88733d007668f9ac4a52ef91e6dae9b2c01684cf,"['failure', 'autopkgtest', 'flaky', 'fine', 'crash', 'exit', 'code', 'exit', 'code', 'failure', 'report', 'warning', 'info', 'autopkgtest']",General,{'crash': 100}
+225091992bb48f61ebd27d6d7b6411c1a6935d09,"['travis', 'configuration', 'subdirs', 'travis', 'configuration', 'subdirs', 'script', 'home', 'directory', 'debug', 'information', 'setup', 'configures', 'apport', 'crash', 'executables', 'default', 'executables', 'ubuntu', 'package', 'crash', 'dump', 'backtrace', 'need', 'debug', 'symbol', 'travis']",General,{'crash': 100}
+a328d724189fc48c602335cd7818443669c85188,"['shutdown', 'data', 'race', 'listner', 'race', 'exists', 'shutdown', 'dtor', 'shutdown', 'check', 'return', 'false', 'notify', 'shutdownfd', 'bind', 'shutdown', 'block', 'thread', 'notification', 'shutdownfd', 'bind', 'thread', 'execution']",Risky_resource_management,{'data race': 100}
+c2ac7133ad7c93ba08ddfe603a3c9c77bd71df8c,"['pull', 'request', 'kiplingw', 'reactor', 'buffer', 'overflow', 'stack', 'corruption', 'asyncimpl', 'large', 'number', 'worker', 'thread']",Risky_resource_management,{'buffer overflow': 100}
+a81d3ade5bae5db70ec86f5b03f2927629b7d64d,"['common', 'reactor', 'stack', 'corruption', 'asyncimpl', 'worker', 'thread', 'common', 'reactor', 'semantics', 'worker', 'thread', 'construction', 'common', 'reactor', 'simpler', 'decodekey', 'return', 'value', 'test', 'test', 'suite', 'pistache', 'reactor', 'common', 'reactor', 'array', 'safer', 'container', 'cmakelists', 'general', 'detection', 'buffer', 'overflow', 'stack', 'protection', 'debian', 'changelog', 'version']",Risky_resource_management,{'buffer overflow': 100}
+275f066198c415d8bfd78e7329a604bbdf710812,"['crash', 'unit', 'test', 'thread']",General,{'crash': 100}
+41d3304f58a39b6de67fd9dfadf24c1d23d74c29,"['pull', 'request', 'knowledgeigor', 'memory', 'leak', 'client', 'lambda', 'hold']",Risky_resource_management,{'memory leak': 100}
+f89d28f936025555f8c30808f8277546751f721f,"['memory', 'leak', 'client', 'lambda', 'hold', 'memory']",Risky_resource_management,{'memory leak': 100}
+981c588a08ae1adff8b733646d10fd5430d9e6db,"['pull', 'request', 'knowledgeigor', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+364ce2f61ee9c78866321e6073ddf9cdd804f0b2,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+a36aa1e8d44b59bece992de8ac1bbe7e4da4ddbe,"['pull', 'request', 'arthurafarias', 'arthurafarias', 'payload', 'test', 'memory', 'leak', 'payload', 'test', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+5fd8f700100ed9a51c2f1022aecf8c2b1ef7dd2d,"['pull', 'request', 'knowledgeigor', 'memory', 'leak', 'client', 'case']",Risky_resource_management,{'memory leak': 100}
+15a39c2a3600f3f369b2e2c2ad721600bebf2d84,"['memory', 'leak', 'client', 'case']",Risky_resource_management,{'memory leak': 100}
+9249e4a0437061effceb5d2b11102060c08f51f8,"['pull', 'request', 'knowledgeigor', 'data', 'race', 'async', 'whenall', 'whenany', 'input', 'args']",Risky_resource_management,{'data race': 100}
+d25f65bdd3f19ee79fb1df2ff7cf972aad812b6a,"['data', 'race', 'async', 'whenall', 'whenany', 'args']",Risky_resource_management,{'data race': 100}
+207e366e58cb06d85b7cd68ed15817506e5a6e2f,"['pull', 'request', 'knowledgeigor', 'data', 'race', 'async', 'whenall', 'flaky', 'test']",Risky_resource_management,{'data race': 100}
+c297abbac10fa0144db7ca8f2c7ba80a7aa01600,"['data', 'race', 'async', 'whenall', 'tiny', 'test', 'improvement']",Risky_resource_management,{'data race': 100}
+2fdbe5709111fa81d68f9ad7cc3ee684b50ce102,"['pull', 'request', 'arthurafarias', 'arthurafarias', 'buffer', 'memory', 'leak', 'buffer', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+59d9d7aa7f1b19b8b35dfa57d80213e9233ef2de,"['buffer', 'memory', 'leak', 'http', 'github', 'oktal', 'pistache', 'issue', 'issuecomment']",Risky_resource_management,{'memory leak': 100}
+4a8ed93f075c4a112eaee80e497ea05b69a9daad,"['pull', 'request', 'arthurafarias', 'arthurafarias', 'memory', 'leak', 'timer', 'arthurafarias', 'memory', 'leak', 'timer']",Risky_resource_management,{'memory leak': 100}
+6cef43f06cd1dae870c080cf4720d4d9780ad599,"['pull', 'request', 'arthurafarias', 'arthurafarias', 'cmake', 'custom', 'target', 'memcheck', 'test', 'valgrind', 'memory', 'leak', 'check', 'custom', 'target']",Risky_resource_management,{'memory leak': 100}
+4c81d8373d5f9441cefcad66980dd96d54a69c1c,"['pull', 'request', 'arthurafarias', 'arthurafarias', 'memory', 'leak', 'timer', 'memory', 'leak', 'timer']",Risky_resource_management,{'memory leak': 100}
+2dcb7587bf56947e4f6f64017a8d134786eea0ce,"['memory', 'leak', 'timer']",Risky_resource_management,{'memory leak': 100}
+7b4255ff3ff2cb4619b00c45274028a325870f4f,"['pull', 'request', 'arthurafarias', 'arthurafarias', 'memory', 'leak', 'peer', 'memory', 'leak', 'peer']",Risky_resource_management,{'memory leak': 100}
+72acf944ae18c1a57eaf32b590702f2db96f0f4b,"['memory', 'leak', 'peer']",Risky_resource_management,{'memory leak': 100}
+6c42f8f69ef1d66d07f68afcfe889bbd9245f313,"['pull', 'request', 'arthurafarias', 'arthurafarias', 'cmake', 'custom', 'target', 'memcheck', 'test', 'valgrind', 'memory', 'leak', 'check', 'custom', 'target']",Risky_resource_management,{'memory leak': 100}
+8e55a7a8d38fa20528070b6c6d60a9888a88e15a,"['memory', 'leak', 'check', 'custom', 'target']",Risky_resource_management,{'memory leak': 100}
+9b2a7a5b5ae8ebd9694f5ee1eb4230abb7537767,"['pull', 'request', 'knowledgeigor', 'memory', 'leak', 'client']",Risky_resource_management,{'memory leak': 100}
+d114e6614c6eb4ac677fa3981ce6775a67da776d,"['memory', 'leak', 'client']",Risky_resource_management,{'memory leak': 100}
+ded5e71ec022d243724f45ab31c5f7fc2fd9d954,"['pull', 'request', 'knowledgeigor', 'memory', 'leak', 'client']",Risky_resource_management,{'memory leak': 100}
+35298e3c077d260532f953b14b795ac7e571c6f6,"['memory', 'leak', 'client']",Risky_resource_management,{'memory leak': 100}
+0a950855fea7b9d81d168968ef7f3994ef0362e7,"['pull', 'request', 'knowledgeigor', 'data', 'race', 'client', 'desctruction']",Risky_resource_management,{'data race': 100}
+347378e6d7b102421f6989e7bea3813db0c3b046,"['data', 'race', 'client', 'desctruction']",Risky_resource_management,{'data race': 100}
+fcf8f910d6b3f80021f3726fc55a488c9c3eb53b,"['pull', 'request', 'knowledgeigor', 'data', 'race', 'client', 'connection', 'state', 'logic']",Risky_resource_management,{'data race': 100}
+e1784bf685ad238d27baedacd0936f647fc56063,"['data', 'race', 'client', 'connection', 'state', 'logic']",Risky_resource_management,{'data race': 100}
+2be5c97ded7fc1b189bc2f403ffbe88a3c919a78,"['memory', 'leak', 'struct', 'addrinfo', 'getaddrinfo', 'listener', 'bind']",Risky_resource_management,{'memory leak': 100}
+981c3320e440820febe73c9e1166c0732d8495ec,"['pull', 'request', 'flynn', 'master', 'buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100}
+0c875a95502284d3c4a1ecc3650433f695dd9073,"['buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100}
+740cde8966d5de51bb1a3666bd356b6a26951562,"['pull', 'request', 'knowledgeigor', 'data', 'race']",Risky_resource_management,{'data race': 100}
+358bffdfbce71d75b3cecabf5b75050f46070ddb,"['data', 'race']",Risky_resource_management,{'data race': 100}
+5f6295611861aeb09b74812fb74b3d0f45579fbf,"['pull', 'request', 'knowledgeigor', 'data', 'race', 'segfault', 'issue']",Risky_resource_management,{'data race': 100}
+28f4c437274810ffb7528957a57975e8758c8878,"['data', 'race', 'segfault', 'issue']",Risky_resource_management,{'data race': 100}
+8e612353ec1350a55cb999ff475851e1e29c864e,"['pull', 'request', 'knowledgeigor', 'server', 'crash', 'abort', 'multiple', 'memory', 'deletion']",General,{'crash': 100}
+238b64dd4dc6e2957e5eb19a5440ce52f2273941,"['server', 'crash', 'abort', 'multiple', 'memory', 'deletion', 'server', 'test']",General,{'crash': 100}
+cbf23d747767dd42411cda17fec8a22af11129e0,"['regression', 'test', 'issue', 'regression', 'test', 'ensure', 'init', 'listener', 'server', 'crash']",General,{'crash': 100}
+1931d9042ad0daaeaa80465e65d2217311c07acc,"['pull', 'request', 'lcinacio', 'master', 'access', 'control']",Porous_defenses,{'access control': 100}
+3dac915d1317bdc07b2b605d084ed5818f5ac808,"['access', 'control', 'header', 'test']",Porous_defenses,{'access control': 100}
+6b43f1576ae59f6ddd4a5894fbda694c3a71711b,"['access', 'control']",Porous_defenses,{'access control': 100}
+aff7f672acfe67461fc495b9e55d998df0ccdba0,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+e673be32fbafe19f7725ee2dfe47ddc145681565,"['client', 'architecture', 'data', 'race', 'async']",Risky_resource_management,{'data race': 100}

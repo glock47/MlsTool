@@ -1,0 +1,127 @@
+sha,message,catetory,matched
+e7bff5537329fd28a598af0ba101a5bedb57ffb9,"['local', 'session', 'fromm', 'file', 'system', 'local', 'session', 'startup', 'time', 'session', 'load', 'local', 'session', 'startup', 'local', 'session', 'leftover', 'reason', 'crash', 'failure', 'logic', 'whatnot']",General,{'crash': 100}
+89ba83d75206232690fd8383ed37fe636b43f214,"['proper', 'format', 'string', 'integer', 'overflow']",Risky_resource_management,{'integer overflow': 100}
+fbc700ce5a66d85643e699e8fed56561ca068298,"['null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+e659ee2c17755b7985d2b64bb9b3da01da976174,"['pull', 'request', 'vespa', 'engine', 'arnej', 'deadlock', 'signal', 'handler', 'deadlock', 'signal', 'lock']",Risky_resource_management,{'deadlock': 100}
+6d906737aee7f156dea8d9540ac5b94b76c3b75c,"['deadlock', 'signal', 'lock', 'signal', 'handler', 'thread', 'main', 'thread', 'hold', 'lock', 'signal', 'handler', 'thread', 'deadlock']",Risky_resource_management,{'deadlock': 100}
+2a2d4abdf3dd9e2983f50ebe3920dcb89835f28c,"['import', 'javax', 'package', 'security', 'utils']",General,{'security': 100}
+989c8ffe4eb4fcea733731f89fbb389cf12c2370,"['pull', 'request', 'vespa', 'engine', 'bjorncs', 'response', 'support', 'class', 'response', 'security', 'response', 'filter', 'systemtest']",General,{'security': 100}
+8b0d8d7020e68fb6b0dce176608e0d1419534b49,"['support', 'class', 'response', 'security', 'response', 'filter', 'security', 'response', 'filter', 'request', 'handler', 'security', 'request', 'filter', 'response', 'class', 'httpresponse']",General,{'security': 100}
+c0e6ffc00e63ca6adec1c16f60273ef591a4e28d,"['pull', 'request', 'vespa', 'engine', 'toregge', 'null', 'pointer', 'dereference', 'null', 'pointer', 'dereference']",Risky_resource_management,{'null pointer': 100}
+4934646fe27a1200332fa9952e3a5f4e3f049f58,"['null', 'pointer', 'dereference']",Risky_resource_management,{'null pointer': 100}
+3f87c52b7d9d43e9ba5ac466a1623cef7b30efb1,"['pull', 'request', 'vespa', 'engine', 'revert', 'revert', 'mortent', 'client', 'auth', 'override', 'flag', 'flag', 'access', 'control', 'client', 'authentication']",Porous_defenses,{'access control': 100}
+6259b6d23c43ab82461c98882fa8ec4f17013dc9,"['revert', 'revert', 'flag', 'access', 'control', 'client', 'authentication']",Porous_defenses,{'access control': 100}
+64e14f8d092d09a839124862d075a1fa52e4af15,"['pull', 'request', 'vespa', 'engine', 'revert', 'mortent', 'client', 'auth', 'override', 'flag', 'revert', 'flag', 'access', 'control', 'client', 'authentication']",Porous_defenses,{'access control': 100}
+6e4bfd692bace98a667d0be97b4b5a2783ac94cf,"['flag', 'access', 'control', 'client', 'authentication']",Porous_defenses,{'access control': 100}
+a8fee2a21a93fa1a8acb072c03a3cb94b0b0e87f,"['pull', 'request', 'vespa', 'engine', 'mortent', 'client', 'auth', 'override', 'flag', 'flag', 'access', 'control', 'client', 'authentication']",Porous_defenses,{'access control': 100}
+2791e1a4fb16dc74a1c74ae35d3a09414668f506,"['flag', 'access', 'control', 'client', 'authentication']",Porous_defenses,{'access control': 100}
+a66ebb8e7ade065d2fe78169301f1989da2001b4,"['client', 'port', 'server', 'dynamic', 'reconfiguration', 'logic', 'assumes', 'insecure', 'client', 'port', 'exists', 'connection', 'factory', 'override', 'flag', 'configure', 'insecure', 'client', 'port']",General,{'insecure': 100}
+710e3a0828d8f4847df8cb787d1cacb9fee8fb39,"['pull', 'request', 'vespa', 'engine', 'bjorncs', 'config', 'definition', 'rule', 'config', 'definition', 'rule', 'security', 'filter']",General,{'security': 100}
+c8b34a40b9bb785913cb5460042d367a75730e51,"['config', 'definition', 'rule', 'security', 'filter']",General,{'security': 100}
+1fa989eb236d1fecb60d4cdefe98d46803499297,"['pull', 'request', 'vespa', 'engine', 'mortent', 'accesscontrol', 'statev', 'access', 'control', 'state']",Porous_defenses,{'access control': 100}
+c82c93a7b13491353e850c13ff3f861fc05cd66c,"['access', 'control', 'state']",Porous_defenses,{'access control': 100}
+2b01b49d4f9fa0338c00a113daf7e61e10041646,"['origin', 'master', 'ogronnesby', 'trial', 'tenant', 'limit', 'conflict', 'controller', 'server', 'main', 'java', 'yahoo', 'vespa', 'controller', 'restapi', 'user', 'controller', 'server', 'main', 'java', 'yahoo', 'vespa', 'controller', 'security', 'flag', 'main', 'java', 'yahoo', 'vespa', 'flag', 'flag', 'java']",General,{'security': 100}
+9e79166d5d53fc7afdf66828af697010381cb1ba,"['pull', 'request', 'vespa', 'engine', 'bjorncs', 'jdisc', 'http', 'service', 'access', 'control', 'chain', 'default', 'request', 'chain', 'port']",Porous_defenses,{'access control': 100}
+301252bba0c1c17d5e962091191ed4187be038c1,"['access', 'control', 'chain', 'default', 'request', 'chain', 'port']",Porous_defenses,{'access control': 100}
+bc5622d890eeefd7a180f1c057a6a41ca9614ed5,"['thread', 'lock', 'detection', 'effect', 'deadlock', 'long', 'current', 'thread', 'situation', 'thread', 'equal', 'thread']",Risky_resource_management,{'deadlock': 100}
+aded443066847841b349afc7abea627b47778484,"['support', 'sans', 'extraction', 'peer', 'credential', 'handshake', 'process', 'field', 'transport', 'security', 'option', 'peer', 'policy', 'section', 'implementation', 'conformant', 'support', 'case', 'insensitive', 'scheme', 'host', 'good']",General,{'security': 100}
+88330f8df080a9204aa13b5668e2e9754f6e279d,"['pull', 'request', 'vespa', 'engine', 'vekterli', 'mergehandler', 'spam', 'level', 'crash', 'access', 'container', 'element']",General,{'crash': 100}
+46f5dd7d8eeb1393635ebcd5e5f5f08358b3cc1b,"['pull', 'request', 'vespa', 'engine', 'hakonhall', 'cumulative', 'deadlock', 'counter', 'cumulative', 'deadlock', 'counter']",Risky_resource_management,{'deadlock': 100}
+6c4ffbdb3d0b70fbe4b7329b44d78c943d95f6f5,"['cumulative', 'deadlock', 'counter']",Risky_resource_management,{'deadlock': 100}
+bd1cdc00cdf97a01cdf82e082728f519f3f53572,"['number', 'janitor', 'thread', 'scale', 'janitor', 'threadpool', 'number', 'core', 'completion', 'handler', 'deadlock', 'scenario', 'size']",Risky_resource_management,{'deadlock': 100}
+8037d48200b191192d0350fa4473e15f3af21c40,"['pull', 'request', 'vespa', 'engine', 'hakonhall', 'deadlock', 'detection', 'deadlock', 'detection']",Risky_resource_management,{'deadlock': 100}
+7c04dcf468ffb100bc1d6bda87058b442ed5cce1,"['deadlock', 'avoidance', 'metric']",Risky_resource_management,{'deadlock': 100}
+d27f881027a5fddeefe336da0d84f2e160c01eb1,"['flag', 'access', 'control', 'client', 'authentication']",Porous_defenses,{'access control': 100}
+ef16ddcca082541a9c5b36d66cb45d405f5e8630,"['client', 'authentication', 'attribute', 'access', 'control', 'element']",Porous_defenses,{'access control': 100}
+c2ae38b9706a85760c5d3abbe527eaca01294fcc,"['deadlock', 'detection', 'lock', 'current', 'thread', 'lock', 'path', 'lock', 'path', 'thread', 'current', 'thread', 'leaf', 'trace', 'refactor', 'code']",Risky_resource_management,{'deadlock': 100}
+322f2c1d29e55aa798037193a4f13a48a137484f,"['visitor', 'session', 'thread', 'deadlock', 'queue', 'size']",Risky_resource_management,{'deadlock': 100}
+6dc0bb4c6e4dce850aab63f789d5031203e17950,"['pull', 'request', 'vespa', 'engine', 'bjorncs', 'insecure', 'authz', 'mode', 'cleanup', 'flag', 'insecure', 'authorization', 'mode']",General,{'insecure': 100}
+855d870737e945a25f99ef9737eafc6e3521c964,"['flag', 'insecure', 'authorization', 'mode']",General,{'insecure': 100}
+79d2fe27d6568285b7c87991b5970125128eb447,"['pull', 'request', 'vespa', 'engine', 'bjorncs', 'access', 'control', 'response', 'filter', 'chain', 'ignore', 'response', 'filter', 'chain', 'access', 'contro']",Porous_defenses,{'access control': 100}
+0c96e5a85ffa61c5c922beeb18f84ddd1ae6599e,"['ignore', 'response', 'filter', 'chain', 'access', 'control', 'filter', 'chain']",Porous_defenses,{'access control': 100}
+84f53a3d79e4b2e47b88f5a1a06e401069257f44,"['pull', 'request', 'vespa', 'engine', 'bjorncs', 'access', 'control', 'bjorncs', 'access', 'control']",Porous_defenses,{'access control': 100}
+963b19783ae9518c0eeed9d4063065d0ced65a6d,"['ensure', 'access', 'control', 'chain', 'duplicate', 'user', 'filter', 'chain']",Porous_defenses,{'access control': 100}
+c7cb8032b3de3dba59a8462cbf4ab82fc7b93c97,"['pull', 'request', 'vespa', 'engine', 'bjorncs', 'access', 'control', 'bjorncs', 'access', 'control']",Porous_defenses,{'access control': 100}
+9e62ce17a3664043a39da61b6a809e701bd79291,"['expose', 'access', 'control', 'detail', 'internal', 'model', 'amender']",Porous_defenses,{'access control': 100}
+365c8e48f41f4d5693acd238c6e3a175dd76e42a,"['configuration', 'noop', 'filter', 'amender', 'open', 'source', 'model', 'configure', 'noop', 'filter', 'unit', 'test', 'application', 'framework', 'access', 'control', 'service']",Porous_defenses,{'access control': 100}
+507a729c1a824ff76e19161fab7db797a690e76d,"['ensure', 'access', 'control', 'chain']",Porous_defenses,{'access control': 100}
+dd60a06014b2d9410695db84c41f166ed30f1721,"['bind', 'access', 'control', 'filter', 'path', 'port', 'exclude', 'separate', 'filter', 'chain', 'bind', 'access', 'control', 'filter', 'port', 'simplify', 'accesscontrol', 'interface', 'configure', 'method']",Porous_defenses,{'access control': 100}
+045151edadc217d51f5a491e91c2f99cc20ef503,"['pull', 'request', 'vespa', 'engine', 'revert', 'bjorncs', 'athenz', 'access', 'control', 'revert', 'bjorncs', 'athenz', 'access', 'control']",Porous_defenses,{'access control': 100}
+320e626d482968bd0853e2841e5435530a3da174,"['revert', 'bjorncs', 'athenz', 'access', 'control']",Porous_defenses,{'access control': 100}
+2f15bb0b5c5f06df7fed1876f53c8fd5d7c3450c,"['pull', 'request', 'vespa', 'engine', 'bjorncs', 'athenz', 'access', 'control', 'bjorncs', 'athenz', 'access', 'control']",Porous_defenses,{'access control': 100}
+8373e8d51ff3019e94f82211df16efae23080fe6,"['configuration', 'noop', 'filter', 'amender', 'open', 'source', 'model', 'configure', 'noop', 'filter', 'unit', 'test', 'application', 'framework', 'access', 'control', 'service']",Porous_defenses,{'access control': 100}
+40b8fd053051bd0f462ca7d400f0407c7961969f,"['ensure', 'access', 'control', 'chain']",Porous_defenses,{'access control': 100}
+ca57e9c2cf1b72701f3ed2d454f0d59c7f56a63a,"['bind', 'access', 'control', 'filter', 'path', 'port', 'exclude', 'separate', 'filter', 'chain', 'bind', 'access', 'control', 'filter', 'port', 'simplify', 'accesscontrol', 'interface', 'configure', 'method']",Porous_defenses,{'access control': 100}
+8270f59c3e652b932c9c8b8cff7a735908402217,"['exclude', 'junit', 'vespa', 'osgi', 'testrunner', 'dependency', 'surefire', 'crash']",General,{'crash': 100}
+41f8e26a6e9faba8713b6c4c9d9c3f8990c7ef40,"['deadlock', 'field', 'value']",Risky_resource_management,{'deadlock': 100}
+a507d071f8c5f5922351e55fc23a7b12ab9c3968,"['deadlock', 'field', 'value']",Risky_resource_management,{'deadlock': 100}
+0e4a1ad6ed04f8b51e6c79b4b82b597bcdc38b0c,"['pull', 'request', 'vespa', 'engine', 'havardpe', 'compile', 'cache', 'deadlock', 'compile', 'cache']",Risky_resource_management,{'deadlock': 100}
+bfc6cfee7ea0dc4b8746573ab6e18fc5941c59c2,"['compile', 'cache', 'cache', 'lock', 'compile', 'task', 'destructor', 'cache', 'lock', 'compile', 'task', 'unit', 'test', 'provoke', 'deadlock', 'bonus', 'executor', 'implementation', 'work', 'thread', 'task', 'limit']",Risky_resource_management,{'deadlock': 100}
+847e0f303d3ff408d48acfc4c6f81e0ec7f0d1dc,"['pull', 'request', 'vespa', 'engine', 'jonmv', 'minute', 'expiry', 'athenz', 'access', 'control', 'cache', 'expiry']",Porous_defenses,{'access control': 100}
+7c4ec805157ce9f662377cfff2367e3711e47ac0,"['pull', 'request', 'vespa', 'engine', 'vekterli', 'data', 'race', 'pending', 'visitor', 'data', 'race', 'pending', 'visitor']",Risky_resource_management,{'data race': 100}
+a9301a966c228e55c38371df6a917db568c48e39,"['data', 'race', 'pending', 'visitor', 'possible', 'visitor', 'session', 'sufficient', 'number', 'document', 'early', 'exit', 'session', 'case', 'ensure', 'mutate', 'data', 'structure', 'session', 'client', 'thread', 'task', 'visibility', 'binary', 'serialization', 'method', 'progresstoken', 'binary', 'serialization', 'method', 'main', 'race', 'condition', 'compatibility']",Risky_resource_management,{'data race': 100}
+4a6858ec6f1cfd6517670b0d0132be51c625edac,"['pull', 'request', 'vespa', 'engine', 'vekterli', 'bucket', 'integrity', 'checker', 'bucket', 'integrity', 'checker']",Risky_resource_management,{'integrity checker': 94}
+5ab026fa9ddd6912800c136775ebe60faba8f0e1,"['pull', 'request', 'vespa', 'engine', 'balder', 'deadlock', 'synchrounous', 'execution', 'chain']",Risky_resource_management,{'deadlock': 100}
+b9ceb17637499dee9370c29443b0f0d85b09638b,"['deadlock', 'synchrounous', 'execution', 'chain']",Risky_resource_management,{'deadlock': 100}
+5a0989e6fa1bda32c0e16f2b31d98a0f868aa7da,"['pull', 'request', 'vespa', 'engine', 'toregge', 'relax', 'judy', 'array', 'test', 'null', 'pointer', 'output', 'check', 'library', 'print', 'null', 'void']",Risky_resource_management,{'null pointer': 100}
+f9fae000b09cf1457e280e95a95f8b775497211e,"['pull', 'request', 'vespa', 'engine', 'toregge', 'datastore', 'buffer', 'type', 'test', 'buffer', 'overflow', 'buffer', 'overflow', 'vespalib', 'datastore', 'buffer', 'type', 'test']",Risky_resource_management,{'buffer overflow': 100}
+10a34ffd6e29c0c396c56d315ef53f010a02a505,"['buffer', 'overflow', 'vespalib', 'datastore', 'buffer', 'type', 'test']",Risky_resource_management,{'buffer overflow': 100}
+8829b3f64c6a40ad3d9f4024fe707e645dce1787,"['invoke', 'subref', 'request', 'memory', 'leak', 'slip', 'crack', 'valgrind']",Risky_resource_management,{'memory leak': 100}
+448f5a09f05e0d17d58f9433d8fe78403f0ff78d,"['pull', 'request', 'vespa', 'engine', 'revert', 'revert', 'bjorncs', 'default', 'insecure']",General,{'insecure': 100}
+74e5177cf27e49b395ae915e6775f11ddcf3c81d,"['revert', 'revert', 'default', 'insecure']",General,{'insecure': 100}
+83f42c8c3a106f0685deb175d57d4f725185df5d,"['pull', 'request', 'vespa', 'engine', 'revert', 'bjorncs', 'revert', 'default', 'insecure']",General,{'insecure': 100}
+80a0854fdb50a800348dc2842cd49c9861af8173,"['default', 'insecure']",General,{'insecure': 100}
+9758bb9976df24095c42fe6646c4e013a172bfab,"['pull', 'request', 'vespa', 'engine', 'bjorncs', 'default', 'insecure']",General,{'insecure': 100}
+6d42296f3deb119135a3bc9f046298035db54f11,"['pull', 'request', 'vespa', 'engine', 'bjorncs', 'access', 'control', 'bjorncs', 'access', 'control']",Porous_defenses,{'access control': 100}
+80b9215ef6f273f1a9ed474cc6de5e7af114fe53,"['access', 'control']",Porous_defenses,{'access control': 100}
+b64c7cdae7d88d46f62e55778d5d2e65f4f7b4bf,"['pull', 'request', 'vespa', 'engine', 'bjorncs', 'access', 'control', 'bjorncs', 'access', 'control']",Porous_defenses,{'access control': 100}
+8799c19ab2f47f94cba428f9ca22781866c4b4c9,"['implicit', 'access', 'control', 'application', 'explicit', 'http']",Porous_defenses,{'access control': 100}
+4e34e8f2cc9258f9e2f08ec9f2e334a01eeaacc9,"['refactor', 'http', 'thread', 'mutable', 'guard', 'access', 'internal', 'state', 'monitor', 'access', 'control', 'field', 'null', 'return', 'value', 'getters', 'explicit', 'optional', 'return', 'type', 'filter', 'chain', 'constructor', 'simplify', 'modification', 'http']",Porous_defenses,{'access control': 100}
+79ef45abdd47586cf20c7d7372f14781e05f315b,"['cluster', 'size', 'lead', 'deadlock', 'host', 'admin', 'need', 'node', 'reduces', 'allocation', 'suspension', 'setting', 'storage', 'node', 'maintenance', 'distributor', 'cluster', 'controller', 'figure', 'cluster', 'container', 'node', 'storage', 'node', 'offline', 'state', 'health', 'cluster', 'node', 'container', 'host', 'admin', 'health', 'status', 'resume', 'good', 'option', 'content', 'node', 'size', 'care', 'availability', 'case', 'definition', 'container', 'rotation']",Risky_resource_management,{'deadlock': 100}
+44a7a2bafbbf38ab5c4a9fc56ce06378d0acb319,"['pull', 'request', 'vespa', 'engine', 'bjorncs', 'implicit', 'access', 'control', 'bjorncs', 'implicit', 'access', 'control']",Porous_defenses,{'access control': 100}
+b26879f73c31ace4f3ef8ab55dd093ae939b203e,"['pull', 'request', 'vespa', 'engine', 'revert', 'bjorncs', 'implicit', 'access', 'control', 'revert', 'bjorncs', 'implicit', 'access', 'control']",Porous_defenses,{'access control': 100}
+e6d74b114fc5f3fa1a35f534f1b8f12b4c541d34,"['revert', 'bjorncs', 'implicit', 'access', 'control']",Porous_defenses,{'access control': 100}
+476d295ec2d3a6e4d980d989a1747b5afec1b29b,"['pull', 'request', 'vespa', 'engine', 'bjorncs', 'implicit', 'access', 'control', 'bjorncs', 'implicit', 'access', 'control']",Porous_defenses,{'access control': 100}
+96808803dda3cc863056599b27656a3ee43ebcc7,"['test', 'access', 'control']",Porous_defenses,{'access control': 100}
+2ae2b42dc0c323e8965918078bee538f746cdf31,"['athenz', 'domain', 'deploy', 'property', 'domain', 'access', 'control', 'domain', 'deploy', 'property', 'domain', 'access', 'control', 'optional']",Porous_defenses,{'access control': 100}
+8c4c00e79390ce4d670ed1482e6f777e5c86461f,"['implicit', 'access', 'control', 'tenant', 'application']",Porous_defenses,{'access control': 100}
+5ec9ab5c95ad0ccd1d8c6fa72b199926b05bb5c3,"['pull', 'request', 'vespa', 'engine', 'bjorncs', 'application', 'override', 'access', 'control', 'application', 'access', 'control']",Porous_defenses,{'access control': 100}
+bcb71f4e17a72113d6270cd796218766a7d97f7a,"['application', 'access', 'control']",Porous_defenses,{'access control': 100}
+8d0508225ba8abdac695bd2f3a32418d869fd016,"['pull', 'request', 'vespa', 'engine', 'freva', 'security', 'privilege', 'security', 'option']",General,{'security': 100}
+734fe0e9a6efb5a8d6174d9313fbcca0b4c64cfb,"['privilege', 'security', 'option', 'container', 'flag']",General,{'security': 100}
+eba8b8ff1f82e7646b6ceb4904a56abe3b75733f,"['pull', 'request', 'vespa', 'engine', 'ogronnesby', 'client', 'security', 'client']",General,{'security': 100}
+c3ce97f55e6ed566e63f7b623c670c89672f76f7,"['access', 'control', 'validator']",Porous_defenses,{'access control': 100}
+c504788f5f61acdca835e97a56263d5f2af686b2,"['security', 'client', 'application', 'package']",General,{'security': 100}
+9b6b0c8e13fd688747fdc7abc5aad479f958e34e,"['pull', 'request', 'vespa', 'engine', 'freva', 'flag', 'docker', 'security', 'task', 'flag']",General,{'security': 100}
+9aa00adc797257d7eaad9ecd915b145354b34696,"['docker', 'security', 'task', 'flag']",General,{'security': 100}
+d44c49fbc6ad1f4901cd5a1b6c9ec4d43580f13c,"['parallellise', 'lookup', 'access', 'control', 'evaluation']",Porous_defenses,{'access control': 100}
+6fda3a1b3d550c454b59f3898ae23486d1b1ed4c,"['pull', 'request', 'vespa', 'engine', 'bjorncs', 'access', 'control', 'handler', 'accesscontrol']",Porous_defenses,{'access control': 100}
+6a39f2c585e08d64122f58e1a5546b6cd999dcb7,"['pull', 'request', 'vespa', 'engine', 'bjorncs', 'vespa', 'security', 'hostname', 'validation', 'bjorncs', 'vespa', 'security', 'hostname', 'validation']",General,{'security': 100}
+784d55f3fe2e517e8eccb931ea34e7917cb373ca,"['insecure', 'flag', 'vespa', 'curl', 'wrapper']",General,{'insecure': 100}
+b89cdf9c50e6294760a01d9d08698ef8bce17ec6,"['hostname', 'validation', 'vespa', 'security', 'vespa', 'curl', 'wrapper']",General,{'security': 100}
+9e7313708c0aac16bda48cced4c4d011a19e3f51,"['access', 'control', 'whitelist']",Porous_defenses,{'access control': 100}
+7c188852e4c7ca66a88446ba7045550157a67e90,"['access', 'control', 'whitelist']",Porous_defenses,{'access control': 100}
+747b0fa9b1c853dd54f4e32ab7c011bcc4d980fc,"['access', 'control', 'whitelist']",Porous_defenses,{'access control': 100}
+f708b3316695fda0487e8fadca7e91cb5604fafb,"['pull', 'request', 'vespa', 'engine', 'jvenstad', 'generate', 'access', 'control', 'tester', 'service', 'public', 'generate', 'access', 'control', 'element']",Porous_defenses,{'access control': 100}
+6c734d01e8ebfe578985dd590d32ffd703b29e11,"['generate', 'access', 'control', 'element']",Porous_defenses,{'access control': 100}
+a6df129da95d0271d83689467fa3da77dad360d8,"['pull', 'request', 'vespa', 'engine', 'revert', 'revert', 'bjorncs', 'access', 'control', 'validation', 'bjorncs', 'access', 'control', 'validation']",Porous_defenses,{'access control': 100}
+0a84d6fd6f9ea6ebb2eb584a0f207a0e8b5093ec,"['pull', 'request', 'vespa', 'engine', 'bjorncs', 'access', 'control', 'filter', 'bjorncs', 'access', 'control', 'filter']",Porous_defenses,{'access control': 100}
+4f854624759247d1125e0f6a5996911c5119eb48,"['revert', 'revert', 'bjorncs', 'access', 'control', 'validation', 'mergeok']",Porous_defenses,{'access control': 100}
+6d09bcb10d27f3980547cd5ea24cefdd6e115ee1,"['pull', 'request', 'vespa', 'engine', 'revert', 'bjorncs', 'access', 'control', 'validation', 'revert', 'bjorncs', 'access', 'control', 'validation', 'mergeok']",Porous_defenses,{'access control': 100}
+b9ef540883e10c5822476db2872a5ff7c4c8bbe2,"['revert', 'bjorncs', 'access', 'control', 'validation']",Porous_defenses,{'access control': 100}
+c8681f2b84f9f63d941ee64e359c7b9c1df07df9,"['pull', 'request', 'vespa', 'engine', 'bjorncs', 'access', 'control', 'validation', 'bjorncs', 'access', 'control', 'validation']",Porous_defenses,{'access control': 100}
+e4f98750a282bbd66482d0e7a1cd16e454728e85,"['validate', 'presence', 'http', 'filter', 'access', 'control', 'verifies', 'precense', 'http', 'filter', 'access', 'control', 'introduce', 'specific', 'test', 'access', 'control']",Porous_defenses,{'access control': 100}
+8a662f6c89dcb4f923625895f7e157057896585b,"['pull', 'request', 'vespa', 'engine', 'revert', 'bjorncs', 'access', 'control', 'element', 'opensource', 'revert', 'access', 'control']",Porous_defenses,{'access control': 100}
+d566bf9d5e966051da1d6d0a7e4ab9d9d42b224a,"['access', 'control']",Porous_defenses,{'access control': 100}
+921b86f4346e9c865ed2f803948afac719cb4852,"['pull', 'request', 'vespa', 'engine', 'bjorncs', 'access', 'control', 'element', 'opensource', 'access', 'control']",Porous_defenses,{'access control': 100}
+987306e8b6bcd6a207850f413acaed23f5afdb2b,"['access', 'control', 'vespa', 'application', 'application', 'framework', 'unit', 'test', 'application', 'access', 'control', 'test', 'config', 'model']",Porous_defenses,{'access control': 100}
+0fa0f41b4cf4e6f52e3120babdf88d6c7fb8362f,"['access', 'control']",Porous_defenses,{'access control': 100}
+ff9a9c0e15eca4b702d6ec3c8bb95228b2426415,"['pull', 'request', 'vespa', 'engine', 'bjorncs', 'security', 'utils', 'target', 'security', 'utils']",General,{'security': 100}
+39c902f023ba4356a5bc9fd525dacf23b977eb04,"['target', 'security', 'utils']",General,{'security': 100}
+4db268e909f05ab3003b4956f127ed21264cacb4,"['message', 'tracker', 'concurrent', 'main', 'distributor', 'thread', 'main', 'distributor', 'instance', 'pending', 'message', 'tracker', 'thread', 'unsafe', 'registration', 'reply', 'pipeline', 'silent', 'memory', 'leak', 'small', 'allocation', 'time', 'dispatch', 'storage', 'link', 'chain', 'component', 'leak', 'request', 'note', 'concurrent', 'issue', 'concurrent', 'node', 'shuts']",Risky_resource_management,{'memory leak': 100}
+00c98abad2d7a98e8a16c5cbd4d3773720a90a54,"['pull', 'request', 'vespa', 'engine', 'kkraune', 'link', 'link', 'security', 'model']",General,{'security': 100}
+ee397af0960e94b3ca0f3e30e6754a5cab512fb4,"['link', 'security', 'model']",General,{'security': 100}
+e2c0bfab328851a177c1ea4042a7fc9d79714979,"['pull', 'request', 'vespa', 'engine', 'bjorncs', 'system', 'flag', 'access', 'control', 'dryrun', 'access', 'control', 'system', 'flag']",Porous_defenses,{'access control': 100}
+0d0e4c109ab23e9db7185ffe690dcab325ac072a,"['access', 'control', 'system', 'flag']",Porous_defenses,{'access control': 100}
+c05b2eadd4e7d73a7e3c85b1ef8d56a1cfb5c05c,"['pull', 'request', 'vespa', 'engine', 'bjorncs', 'system', 'flag', 'access', 'control', 'access', 'control', 'system', 'flag', 'controller']",Porous_defenses,{'access control': 100}
+2754ea14075833be7500882e87b810350b2412ff,"['access', 'control', 'system', 'flag', 'controller']",Porous_defenses,{'access control': 100}

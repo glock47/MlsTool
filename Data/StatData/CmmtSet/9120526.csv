@@ -1,3 +1,16 @@
-sha,message,catetory,matched,labels
-20c02acd637eed8407fe5a77b49d0f5a459aba6e,"['deadlock', 'panic', 'copyfromsource']",Risky_resource_management,{'deadlock': 100},
-3c61b16776b3c1b1a75c690708936e6f001c1323,"['value', 'reading', 'array', 'empty', 'crash']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+a0028cbd0de2eb3c332aefff381bc7a852abb62c,"['transaction', 'null', 'connection', 'null', 'pointer', 'exception', 'unit', 'test']",Risky_resource_management,{'null pointer': 100}
+e7c61d382e727911d19da38027a58c3cb1472ecf,"['upgrade', 'pgtype', 'pull', 'pointer', 'pointer', 'scan']",Risky_resource_management,{'pull pointer': 92}
+af1beca9a5360f270a767d3d8772e19d8240ba6d,"['update', 'pgconn', 'batch', 'deadlock', 'issue']",Risky_resource_management,{'deadlock': 100}
+20c02acd637eed8407fe5a77b49d0f5a459aba6e,"['deadlock', 'copyfromsource', 'panic']",Risky_resource_management,{'deadlock': 100}
+6556ef67cbbac0750201f9286de951d7e9ede1ec,"['data', 'race', 'domain']",Risky_resource_management,{'data race': 100}
+f5c7ef09576a1316c609e509e9a7daa5970cfeaf,"['deadlock', 'potential']",Risky_resource_management,{'deadlock': 100}
+1a99c0e5c478b5c14472cfef7924caff4947e2d0,"['stdlib', 'lock', 'lock', 'counter', 'driver', 'name', 'data', 'race', 'multiple', 'goroutines', 'name', 'register', 'panic', 'driver', 'name']",Risky_resource_management,{'data race': 100}
+a3e771874392e5548b6eddc8a226d010a79173a5,"['stdlib', 'lock', 'lock', 'counter', 'driver', 'name', 'data', 'race', 'multiple', 'goroutines', 'name', 'register', 'panic', 'driver', 'name']",Risky_resource_management,{'data race': 100}
+a488fe026f4c375a1f3f043f01eefc97cb90e490,"['conn', 'connpool', 'data', 'race']",Risky_resource_management,{'data race': 100}
+7f9f79656b26cd4b77c8b35993c7f4b0ca4f9f00,"['typo', 'uint', 'data', 'loss', 'check', 'error']",Risky_resource_management,{'data loss': 100}
+0ea1a5245cdcbf4f309a50a1255e470ca4769bd1,"['error', 'uint', 'uint', 'possible', 'data', 'loss']",Risky_resource_management,{'data loss': 100}
+20d22a67e3f0f7f98d3c4ef9d4f2e8944b50f1c4,"['deadlock', 'reset', 'connection', 'available', 'pool', 'reset', 'connection', 'pool', 'pool', 'need']",Risky_resource_management,{'deadlock': 100}
+73135865e7cb541926865b7f6c01efa82e3e0883,"['benchmark', 'nullx', 'pointer', 'pointer']",Risky_resource_management,{'nullx pointer': 96}
+3c61b16776b3c1b1a75c690708936e6f001c1323,"['crash', 'reading', 'value', 'empty', 'array']",General,{'crash': 100}
+a68115fc039d51cdbc35e891710fb86532f845b8,"['data', 'race', 'connpool', 'effort', 'memory', 'allocation', 'race', 'condition', 'return', 'conn', 'pool', 'pool', 'conn', 'original']",Risky_resource_management,{'data race': 100}

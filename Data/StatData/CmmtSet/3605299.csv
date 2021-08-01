@@ -1,3 +1,6 @@
-sha,message,catetory,matched,labels
-d51305418ffc86930d3b158e5bc1bcbc1d1bd6b4,"['dependency', 'introduces', 'insecure']",General,{'insecure': 100},
-a3c23ad6948679b1810dcff70e7679f536567e29,"['undefined', 'crash', 'console']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+d51305418ffc86930d3b158e5bc1bcbc1d1bd6b4,"['bower', 'json', 'dependency', 'bower', 'json', 'validation', 'bower', 'json', 'introduces', 'insecure']",General,{'insecure': 100}
+29167906ebc2a02076aabee075c936281553bd8b,"['stack', 'overflow']",Risky_resource_management,{'stack overflow': 100}
+fdb9bdd4a2331277d5622b69e1b26b9bbc6430e1,"['signal', 'flag', 'stack', 'overflow']",Risky_resource_management,{'stack overflow': 100}
+e1633d604fe62fae79fd7bf9865f8b7433a7c9c8,"['stack', 'overflow', 'circular', 'setup']",Risky_resource_management,{'stack overflow': 100}
+a3c23ad6948679b1810dcff70e7679f536567e29,"['crash', 'console', 'console']",General,{'crash': 100}

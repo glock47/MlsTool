@@ -1,5 +1,12 @@
-sha,message,catetory,matched,labels
-c8a024100964b3238821940aa50bb0763206f4ea,"['server', 'default', 'crash', 'issue', 'qihoo']",Risky_resource_management,{'crash': 100},
-a27b261a84b47443ff7887cdece8b35b07487269,"['crash', 'localhost', 'issue', 'tcpclient', 'qihoo']",Risky_resource_management,{'crash': 100},
-f43de68443dc51c6542040cf164ba908e6f646ad,"['disconnect', 'crash', 'descrute', 'issue', 'tcpclient', 'qihoo', 'object']",Risky_resource_management,{'crash': 100},
-4941142f55d0bcfaae3d7714554adf8785963bfd,"['crash', 'issue', 'debug', 'tcpclient', 'qihoo']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+c8a024100964b3238821940aa50bb0763206f4ea,"['http', 'server', 'crash', 'default', 'handler', 'http', 'github', 'qihoo', 'evpp', 'issue']",General,{'crash': 100}
+67a76a887279a9555f24f3713243ef1a6e6f2408,"['memory', 'leak', 'example', 'recipe']",Risky_resource_management,{'memory leak': 100}
+3b4d9fd9897073f59cb30893ea10aa720a6dcea2,"['stability', 'testhttpserver', 'http', 'server', 'http', 'server', 'thread', 'exit', 'step', 'wakeup', 'logic', 'code', 'http', 'server', 'whole', 'http', 'server', 'object', 'thread', 'step', 'logic', 'crash']",General,{'crash': 100}
+fd395b3a24b6cdfdb9ba8bdd1dd20cc9a9adbd7b,"['serverstatus', 'delete', 'eventloop', 'status', 'eventloop', 'http', 'server', 'queueinloop', 'dispatch', 'http', 'response', 'thread', 'crash', 'evpp', 'notify', 'evpp', 'evpp', 'eventloop', 'queueinloop', 'evpp']",General,{'crash': 100}
+a27b261a84b47443ff7887cdece8b35b07487269,"['tcpclient', 'localhost', 'crash', 'http', 'github', 'qihoo', 'evpp', 'issue']",General,{'crash': 100}
+f43de68443dc51c6542040cf164ba908e6f646ad,"['tcpclient', 'crash', 'disconnect', 'descrute', 'object', 'http', 'github', 'qihoo', 'evpp', 'issue']",General,{'crash': 100}
+a7fdca836e9b53f82e4f867ac36e37a92ac75fe0,"['issue', 'delay', 'memory', 'leak', 'http', 'github', 'qihoo', 'evpp', 'issue']",Risky_resource_management,{'memory leak': 100}
+4941142f55d0bcfaae3d7714554adf8785963bfd,"['crash', 'tcpclient', 'debug', 'mode', 'http', 'github', 'qihoo', 'evpp', 'issue']",General,{'crash': 100}
+79af4139effa7fbcf88168314c7ec55ec08151eb,"['client', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+8777f9eec782920ba6bff98bfe72aca85809c1a9,"['invoketimer', 'memory', 'leak', 'eventwatcher', 'freeevent', 'callback', 'destructor']",Risky_resource_management,{'memory leak': 100}
+f3c6154155e05efb1149bcb539028923b1bf6af6,"['connector', 'connector', 'memory', 'leak', 'fdchannel']",Risky_resource_management,{'memory leak': 100}

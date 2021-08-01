@@ -1,6 +1,26 @@
-sha,message,catetory,matched,labels
-d66165232e5fa146bc968680d958c38ebe5b2880,"['newsfile', 'deadlock', 'openssl']",Risky_resource_management,{'deadlock': 100},
-a2dcf504b59bde5a7ffe0eefa875f24fe5602d0f,"['crash', 'datetimenotice']",Risky_resource_management,{'crash': 100},
-7022269b3dfc6640308ed4b878900fee45428af2,"['multiple', 'deadlock', 'connection', 'thread']",Risky_resource_management,{'deadlock': 100},
-f64cbeda4606d8af3ca063736f313f81506c56bb,"['statementrather', 'psycopgdaexception', 'check', 'checkingpsycopg', 'returnusingmessage', 'contains', 'error', 'couldserialize', 'deadlock', 'detectedremove', 'psycopglonger', 'store', 'pointerexception', 'referenceremove', 'functionremove', 'psycopg', 'exceptionmembermodify', 'psycopgmember', 'exception', 'attribute', 'object', 'connectionreducesimportpsycopg']",Risky_resource_management,{'deadlock': 100},
-ec877b0ef94b0827d04f1fafe670fc6787c381a1,"['final', 'securiy']",General,{'securiy': 93},
+sha,message,catetory,matched
+364b0e0563e04c0e297667eb7cff82f175d2125e,"['memory', 'leak', 'early', 'exit', 'release', 'string']",Risky_resource_management,{'memory leak': 100}
+f4144615f7425113a569afd43fcf601567f029a2,"['blacklist', 'docutils', 'crash', 'http', 'sourceforge', 'docutils']",General,{'crash': 100}
+46447151647dfd68002ca4e1621e800adc6ffd6f,"['weakref', 'return', 'null', 'possible', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+a15dfbbd4fd3e1d726b9dde11ee128700b4bf453,"['problem', 'window', 'window', 'look', 'window', 'floor', 'integer', 'overflow']",Risky_resource_management,{'integer overflow': 100}
+14fe3ad8c9f9e9ecf63e352b23dafe9da22a80ab,"['integer', 'overflow', 'interval', 'typecaster']",Risky_resource_management,{'integer overflow': 100}
+d66165232e5fa146bc968680d958c38ebe5b2880,"['openssl', 'deadlock']",Risky_resource_management,{'deadlock': 100}
+2d601ef157ffcd0d15749fbfb2d5e7fc684144fb,"['memory', 'leak', 'large', 'object', 'large', 'object', 'decrement', 'connection', 'refcount', 'fact', 'lobject', 'matter', 'refcount', 'issue', 'useful', 'script', 'refcounter', 'extra']",Risky_resource_management,{'memory leak': 100}
+921b676471fbee4540ca194c948a710222361a7e,"['untrack', 'connection', 'possible', 'double', 'free', 'gangadharan', 'issue']",Risky_resource_management,{'double free': 100}
+631883f62fb3303671bce9e7e6c26c25cfe25f82,"['window', 'msvc', 'data', 'loss', 'compiler', 'warning', 'msvc', 'compiler', 'warning', 'data', 'type', 'data', 'type', 'data', 'loss']",Risky_resource_management,{'data loss': 100}
+a2dcf504b59bde5a7ffe0eefa875f24fe5602d0f,"['crash', 'datetime', 'adapter', 'notice']",General,{'crash': 100}
+d601ab82390f0dd731602a0a16f5184cf782ba2a,"['crash', 'python', 'release']",General,{'crash': 100}
+1607f89bb16a4ca55b4923fce02a029953791434,"['lock', 'dance', 'reading', 'connection', 'socket', 'number', 'fast', 'critical', 'operation', 'lock', 'callback', 'creates', 'deadlock']",Risky_resource_management,{'deadlock': 100}
+85fdc828e7c32e981c4b586aa17dee6dcc1e14c4,"['double', 'free', 'segfault', 'cursor']",Risky_resource_management,{'double free': 100}
+5db66038fe47a34ef52be19a2e6e9f5933bfc094,"['double', 'free', 'segfault', 'connection']",Risky_resource_management,{'double free': 100}
+5480cf53328d78546e4c0b126e807535c4bc900f,"['memory', 'leak', 'lobject']",Risky_resource_management,{'memory leak': 100}
+607319331410a21111965727ebea9ac1d9dd8f23,"['memory', 'leak', 'executemany']",Risky_resource_management,{'memory leak': 100}
+5beef38bfc6b53eca3675c31fc635e589d99132b,"['double', 'free', 'case', 'pgresult', 'null']",Risky_resource_management,{'double free': 100}
+475df5ebd6bc8b83b32f7267d8f5004b6443c4e0,"['jason', 'erickson', 'jerickso', 'stickpeople', 'psycopg', 'pqpath', 'deadlock', 'serialisation', 'error', 'protocol', 'version']",Risky_resource_management,{'deadlock': 100}
+f64cbeda4606d8af3ca063736f313f81506c56bb,"['test', 'port', 'test', 'serialisation', 'deadlock', 'error', 'test', 'show', 'statement', 'timeouts', 'psycopgda', 'adapter', 'exception', 'message', 'check', 'psycopg', 'pqpath', 'return', 'error', 'error', 'server', 'error', 'message', 'contains', 'serialize', 'deadlock', 'psycopg', 'psycopgmodule', 'need', 'store', 'pointer', 'exception', 'connection', 'reference', 'leak', 'psycopg', 'connection', 'exception', 'member', 'struct', 'psycopg', 'modify', 'exception', 'attribute', 'connection', 'object', 'member', 'getsets', 'reduces', 'size', 'struct', 'extension', 'import', 'psycopg', 'psycopgmodule', 'exception']",Risky_resource_management,{'deadlock': 100}
+5e590d604f591075f352f6800a18349be8120224,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+ec877b0ef94b0827d04f1fafe670fc6787c381a1,"['final', 'securiy', 'patch']",General,{'securiy': 93}
+5f8eddfcabe12dbd08164a6dcc745085c4fca2d8,"['half', 'securiy', 'patch']",General,{'securiy': 93}
+929907364962c52f5652cf748f632850d97ad6f0,"['half', 'securiy', 'patch']",General,{'securiy': 93}
+94d663c6b6f69eb7066fc90e88e08f41a420ed49,"['memory', 'overflow']",Risky_resource_management,{'memory overflow': 100}
+65fe7db04d73c15b6fd4098c9caf97ca447b080b,['crash'],General,{'crash': 100}

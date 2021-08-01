@@ -1,4 +1,8 @@
-sha,message,catetory,matched,labels
-76ca344b7738ae39a7705833cbffdd28d9dc335f,"['compact', 'security']",General,{'security': 100},
-58b597591296f5b2567ca13131a9a467e879a09b,"['security', 'google']",General,{'security': 100},
-ecaf73835bce658de853991ba9b20597df1f439d,"['security', 'vulnerability']",General,{'security': 100},
+sha,message,catetory,matched
+58b597591296f5b2567ca13131a9a467e879a09b,"['google', 'security', 'rule']",General,{'security': 100}
+ecaf73835bce658de853991ba9b20597df1f439d,"['security', 'vulnerability']",General,{'security': 100}
+26dbe266e7b0afab9b249f41cd4a2bd6250aafc2,"['pull', 'request', 'thegoddessinari', 'insecure', 'content']",General,{'insecure': 100}
+8d808207c8633e36cf96e6e304e49169c524ac21,"['insecure', 'content']",General,{'insecure': 100}
+7dced6925d5766eeac3f0b8f13d77b183827fd10,"['uncheck', 'trust', 'invalid', 'authority', 'certificate', 'service', 'user', 'default', 'value', 'insecure', 'setup', 'result', 'middle', 'attack', 'rambox', 'user', 'default', 'setting']",General,{'insecure': 100}
+9c5895369839cdf4af1ddf2ba4503aa1cc1611dd,"['default', 'disallow', 'certificate', 'user', 'default', 'value', 'insecure', 'setup', 'result', 'middle', 'attack', 'rambox', 'user', 'default', 'setting']",General,{'insecure': 100}
+2342c2c95dc593397b7dbce5843caf6f97c041cb,"['code', 'injection', 'memory', 'leak', 'service']",Risky_resource_management,{'memory leak': 100}

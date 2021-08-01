@@ -1,0 +1,48 @@
+sha,message,catetory,matched
+4d04348b5278314d35333faf294733aafb551ec9,"['debian', 'default', 'overflow', 'unnecessary', 'multiplication', 'ubuntu', 'setting', 'proc', 'file', 'evaluates', 'default', 'kurento', 'medium', 'server', 'reason', 'proc', 'file', 'return', 'overrun', 'pipe', 'error', 'startup', 'kurento', 'medium', 'server', 'message', 'logfile', 'file', 'http', 'github', 'kurento', 'bugtracker', 'issue']",Risky_resource_management,{'overrun': 100}
+4e543d070771407e199897048f91cd06985b8b30,"['websocket', 'refactor', 'constructor', 'fallback', 'separate', 'insecure', 'websocket', 'initialization', 'method', 'hardcode', 'init', 'insecure', 'websocket', 'port', 'fall', 'default', 'environment', 'available', 'docker', 'http', 'github', 'kurento', 'kurento', 'medium', 'server', 'pull', 'custom', 'return', 'error', 'explanatory', 'comment', 'user', 'thanks', 'rjmunro', 'robert', 'jamie', 'munro', 'http', 'github', 'kurento', 'kurento', 'medium', 'server', 'pull', 'switch', 'close', 'http', 'github', 'kurento', 'kurento', 'medium', 'server', 'pull', 'http', 'github', 'kurento', 'bugtracker', 'issue', 'http', 'github', 'kurento', 'bugtracker', 'issue', 'http', 'github', 'kurento', 'bugtracker', 'issue']",General,{'insecure': 100}
+55438fce96b116723797015de78133d0db689f70,"['debian', 'default', 'force', 'crash', 'gstreamer', 'critical', 'glib', 'similar', 'macro', 'gstreamer', 'print', 'gstreamer', 'warning', 'gstreamer', 'critical', 'message', 'need', 'force', 'breakpoint', 'backtrace', 'kernel', 'core', 'dump', 'information', 'deduce']",General,{'crash': 100}
+aef8c78dfc3f2d0e35565dc5e05a9f7cd083c5c5,"['crash', 'file']",General,{'crash': 100}
+fe084ddc05ca8f2b875ca3645e13c3f80b6e0baa,"['print', 'stack', 'trace', 'program', 'crash']",General,{'crash': 100}
+d883ffd4a9a27772fb68ae0c56617801407ccc3a,"['memory', 'leak', 'session']",Risky_resource_management,{'memory leak': 100}
+866e382a0f00ce573bb05b6deaed2d48bda76bb4,"['security', 'problem']",General,{'security': 100}
+ce009c4dc602112709440f0ec03996cc77894adc,"['update', 'plugins', 'bugfixes', 'vpparse', 'style', 'vpparse', 'medium', 'element', 'agnosticbin', 'queue', 'webrtcendpoint', 'memory', 'leak', 'webrtcendpoint', 'different', 'temporal', 'directory', 'webrtcendpoint', 'development', 'iteration']",Risky_resource_management,{'memory leak': 100}
+26532b478167b0fdb3c39ef556faa331dc586af7,"['update', 'plugins', 'sumodule', 'valgrind', 'suppresion', 'agnosticbin', 'memory', 'leak', 'agnosticbin', 'constant', 'setting', 'object', 'data', 'agnosticbin', 'block', 'element', 'agnosticbin', 'block', 'input', 'data', 'agnosticbin', 'drop', 'reconfigure', 'event', 'agnosticbin', 'link', 'element', 'link', 'source', 'increase', 'test', 'timeout', 'slow', 'check', 'candidate', 'check', 'local', 'remote', 'ssrcs', 'update', 'dtls', 'plugins']",Risky_resource_management,{'memory leak': 100}
+00b1653cf94747df3a6dccf180895a0ad8f8221d,"['main', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+8ed34818aa0e237247a61fb3b2d464f025f64e1c,"['mediasourceimpl', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+1dab0c79b41db58d7f7bb3a34cf9fc82b3634874,"['kmshttpepserver', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+0481847258714b9a8b28de8b2246a59d349c14dd,"['signal', 'management', 'current', 'signal', 'handler', 'main', 'loop', 'current', 'source', 'patch', 'signalfd', 'pull', 'signal', 'event', 'file', 'descriptor', 'deadlock', 'source']",Risky_resource_management,{'deadlock': 100}
+31c5f67349aeb0e32a98477c2370cd95315c26cd,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+34685d2a6d937415023b9ac5aded2f57dba4d1ae,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+1004d1753770acbcbca8b04aa425c1c4eb4eb3be,"['access', 'control', 'header', 'request']",Porous_defenses,{'access control': 100}
+ac2cbd4b1d147829130021f3fbe45abb59a66e18,"['access', 'control', 'header', 'header', 'chrome', 'work']",Porous_defenses,{'access control': 100}
+5107b2bb782817df9c30fef29ae3ed6ecb9d36ba,"['kmshttpepserver', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+2e47b38581949b6147a47dc478b21803e63a006b,"['exception', 'method', 'side', 'effect', 'mock', 'implementation', 'segmentation', 'violation', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+a96f978c6b337c9ab1e71f3e30dcba18c3193c9b,"['memory', 'leak', 'http', 'point', 'server', 'test']",Risky_resource_management,{'memory leak': 100}
+b34afac396cbd25c599ac56821d7d4946c6d9c93,"['memory', 'leak', 'main', 'loop', 'middle', 'transaction']",Risky_resource_management,{'memory leak': 100}
+ef522ebca171bdda25a7876a3944a243b1d9dee7,"['test', 'check', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+d937288fd8dd5fe1d8a59cb75866960773b3243b,"['memory', 'leak', 'mediasink', 'store', 'connectedsrc', 'mediasrc', 'store', 'list', 'mediasinks', 'fixme', 'linkpad', 'mediasink', 'memory', 'leak', 'gstreamer', 'element']",Risky_resource_management,{'memory leak': 100}
+fa2c8f96b3e1d62005dacdee2c48f70a12795aba,"['plugin', 'path', 'server', 'memory', 'leak', 'test']",Risky_resource_management,{'memory leak': 100}
+bdde881ab99fa586bf9a783fe450519e3a50ad9b,"['refactor', 'memory', 'leak', 'detection', 'test', 'test', 'mediaelement', 'individuality', 'current', 'test', 'detects', 'memory', 'leak', 'rtpendpoint']",Risky_resource_management,{'memory leak': 100}
+c9e699110eca3338219f8af45ab83468666a8f36,"['memory', 'leak', 'mediaobject', 'mediaset', 'object', 'parent', 'issue', 'jose', 'antonio', 'santos', 'cadenas', 'santoscadenas', 'gmail', 'jose', 'antonio', 'santos', 'cadenas', 'santoscadenas', 'gmail']",Risky_resource_management,{'memory leak': 100}
+c82799e93af955e7f6a29425bdf16ebdfffe6bf3,"['memory', 'leak', 'free', 'option', 'context', 'free', 'gchar', 'text', 'issue', 'jose', 'antonio', 'santos', 'cadenas', 'santoscadenas', 'gmail', 'jose', 'antonio', 'santos', 'cadenas', 'santoscadenas', 'gmail']",Risky_resource_management,{'memory leak': 100}
+1120371cb35dc43f827fe858ce129affe07ab51e,"['workaoround', 'udpsrc', 'deadlock', 'state', 'null', 'thread', 'oppen']",Risky_resource_management,{'deadlock': 100}
+32a7e431c5044aea9987ae7cb99fbc2a83012df1,"['memory', 'corruption']",Risky_resource_management,{'memory corruption': 100}
+d116b2f1824e787a6894d4d766281bd6dbc61422,"['memory', 'leak', 'function']",Risky_resource_management,{'memory leak': 100}
+8b129db17d1af92534afe3c114e30276db12fbdc,"['possible', 'deadlock', 'connection']",Risky_resource_management,{'deadlock': 100}
+b6eb8e3d5872115e8ee59e08b4b9e2f54be3f47a,"['possible', 'deadlock', 'rtmp', 'connection']",Risky_resource_management,{'deadlock': 100}
+6b76c815f81412d178b0dddc440f162eccb4783c,"['deadlock', 'connection']",Risky_resource_management,{'deadlock': 100}
+82b1d6935c79ed28ec05f4e5dff3dc7a2a08678e,"['memory', 'leak', 'error', 'setting']",Risky_resource_management,{'memory leak': 100}
+41f983b14b2430c68ab62b31663c6cb0549a9d1a,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+2093542fae3ab33de69a796ba85a0bb5fe627451,"['memory', 'leak', 'unrefs']",Risky_resource_management,{'memory leak': 100}
+b9a3b257deb00e761207c70d10bfed965388e311,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+a77e2b9dbefa904f69f2d8582e3e4f3262bde016,"['problem', 'deadlock', 'action']",Risky_resource_management,{'deadlock': 100}
+641dc74c1cecf23e0ac03e2e44613d5c033e0277,"['static', 'lock', 'local', 'connection', 'object', 'lock', 'race', 'condition', 'deadlock', 'connection', 'mode']",Risky_resource_management,{'deadlock': 100}
+a88487389814d7d3cceb149a7862b877d73d3f27,"['null', 'pointer', 'function']",Risky_resource_management,{'null pointer': 100}
+6dfadcbaf4fe9cb58a182729ae92c7726c2f27b9,"['configure', 'detect', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+450d188e11de57a08a8b22a8b11f12e28bb13678,"['increment', 'iteration', 'detect', 'memory', 'leak', 'byte']",Risky_resource_management,{'memory leak': 100}
+c97bfcb0a860edc6b1a55f26a58b6e920d852907,"['deadlock', 'condition']",Risky_resource_management,{'deadlock': 100}
+c77aa2c3701d81d16bb4d05f45a26b89ad1fbb33,"['memory', 'leak', 'session']",Risky_resource_management,{'memory leak': 100}
+d1f305c1f273197fe7715053619d7ff0af941a26,"['possible', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+785c5fe3a81570563ec21724cedaea73a87eb822,"['null', 'pointer', 'payload']",Risky_resource_management,{'null pointer': 100}
+683cdec70923bf0010b4c7d5caa0014d4c0c0d32,"['memory', 'leak', 'test', 'program']",Risky_resource_management,{'memory leak': 100}

@@ -1,17 +1,57 @@
-sha,message,catetory,matched,labels
-b8b89cafc4fa48fc8285e4b5af5655f5abe65ded,"['security', 'permission']",General,{'security': 100},
-aae3a9b026a90aaae3442d8ae1d0a47f38a7048f,"['workflow', 'sarif', 'gosec', 'upload', 'security']",General,{'security': 100},
-2b63e5d12e674883f4fd3e342173724045406076,"['crash', 'optimiser']",Risky_resource_management,{'crash': 100},
-4100c3ed1c55359b90c559da666fd1a5fa43f7cb,"['negate', 'crash']",Risky_resource_management,{'crash': 100},
-b17b6ac9bd37cd10c64a1599b70bc38f425dd7ac,"['mergemerge', 'google', 'request', 'dependabotworkflow', 'recent', 'action', 'github', 'security']",General,{'security': 100},
-8aca8d27f65dbca559f09bb602f48de8dcbc0981,"['recent', 'action', 'github', 'security']",General,{'security': 100},
-730bd87c0e82335f9b0d813c2fbbcbdc1219e69c,"['bytecode', 'instruction', 'bytecode', 'crash']",Risky_resource_management,{'crash': 100},
-8d5cc740256bfe6bf15dd184b444b65f6c524a90,"['targetstacktrace', 'crash', 'mtail', 'reproducebytecode']",Risky_resource_management,{'crash': 100},
-7ef6caca1691867264eb0a8ba04c42c649824c15,"['crash', 'argument', 'strptime', 'string']",Risky_resource_management,{'crash': 100},
-8dc505e516c8ccad2a3db4bb63b8ef5841c51618,"['value', 'crash', 'settime']",Risky_resource_management,{'crash': 100},
-de286b1eb8978e2a74803e25afcb5a5a82283c8b,"['concatenate', 'crash']",Risky_resource_management,{'crash': 100},
-7f5b3b4b23a068f8f90408a844e283db8ac12228,"['check', 'decoratorscope', 'access', 'crash', 'decodecl', 'member']",Risky_resource_management,{'crash': 100},
-e908f0cac6564c1080500f1941273fca54581a6b,"['fsnotify', 'event', 'overrun', 'queue', 'probable', 'mtailqueue', 'message', 'processor', 'starves', 'tailer', 'obsoleteshandle', 'fsnotify', 'error', 'processnotification', 'error', 'process']",Risky_resource_management,{'overrun': 100},
-6c8a036240e6097a0abb38a8d0fae460ee0c0a42,"['beorn', 'requestwatch', 'deadlock', 'removal']",Risky_resource_management,{'deadlock': 100},
-3e12c7f763f9fbe162cc567c2d55c85d3ef11819,"['deadlock', 'removalfsnotify', 'inherent', 'method', 'problemstill', 'channel', 'relies', 'eventfsnotify', 'masterchannel', 'reading', 'mtail', 'right', 'certaintriggerissue', 'google', 'mtailmtail', 'original', 'setup', 'mtail', 'largecause', 'problemrecreateexact', 'event', 'coursethink', 'fsnotify', 'problem']",Risky_resource_management,{'deadlock': 100},
-6c10a14263b35bcbaf2c14c4295f7d5bf265e3f1,"['deadlock', 'exampe', 'channel']",Risky_resource_management,{'deadlock': 100},
+sha,message,catetory,matched
+5bd9d98c18e9a0bc7d1b8e5efdbe16992bebcf99,"['pull', 'request', 'google', 'overflow', 'integer', 'overflow', 'warning']",Risky_resource_management,{'integer overflow': 100}
+809df35f506bd3b2d305bfffceee2f5d0f068f11,"['integer', 'overflow', 'warning']",Risky_resource_management,{'integer overflow': 100}
+b8b89cafc4fa48fc8285e4b5af5655f5abe65ded,"['permission', 'unnecessary', 'environment', 'variable', 'security', 'scan']",General,{'security': 100}
+aae3a9b026a90aaae3442d8ae1d0a47f38a7048f,"['security', 'scan', 'workflow', 'upload', 'sarif', 'gosec', 'github']",General,{'security': 100}
+2b63e5d12e674883f4fd3e342173724045406076,"['pull', 'request', 'google', 'negate', 'crash', 'optimiser']",General,{'crash': 100}
+4100c3ed1c55359b90c559da666fd1a5fa43f7cb,['crash'],General,{'crash': 100}
+1e1396caa5c868220a41716dd9abd62034d268c3,"['pull', 'request', 'google', 'fuzz', 'repair', 'crash', 'regexp', 'pattern']",General,{'crash': 100}
+b17b6ac9bd37cd10c64a1599b70bc38f425dd7ac,"['pull', 'request', 'google', 'auto', 'dependabot', 'workflow', 'recent', 'github', 'action', 'security', 'update']",General,{'security': 100}
+8aca8d27f65dbca559f09bb602f48de8dcbc0981,"['workflow', 'recent', 'github', 'action', 'security', 'update']",General,{'security': 100}
+bbb550c7f62a0a7d23dd45e26d77398f497f4793,"['main', 'upstream', 'integration', 'test', 'subst', 'integer', 'conversion', 'document', 'subst', 'integration', 'test', 'final', 'test', 'full', 'bytecode', 'work', 'plumb', 'subst', 'parser', 'checker', 'subst', 'keyword', 'builtin', 'token', 'generate', 'code', 'subst', 'builtin', 'subst', 'opcode', 'refactor', 'datum', 'setting', 'instruction', 'test', 'subst', 'instruction', 'bump', 'github', 'prometheus', 'yeah', 'enable', 'github', 'automerge', 'action', 'automerge', 'automerge', 'action', 'name', 'substitution', 'benchmark', 'result', 'filename', 'automerge', 'workflow', 'enable', 'auto', 'poll', 'title', 'page', 'update', 'documentation', 'table', 'content', 'typo', 'reorder', 'test', 'deadlock', 'typo', 'progs', 'parameter', 'output']",Risky_resource_management,{'deadlock': 100}
+ee42f15b4d6a124ec59a5935aab08de32e657959,"['reorder', 'test', 'deadlock', 'test', 'golang', 'sure', 'writer']",Risky_resource_management,{'deadlock': 100}
+aa4ed684c4adce8278ca964481bad70cbcc6dac0,"['copy', 'testcase', 'data', 'race']",Risky_resource_management,{'data race': 100}
+e70a90fad8e050e29115a52cd7d9d0df28a9efad,"['data', 'race', 'test', 'exporter', 'oneshot']",Risky_resource_management,{'data race': 100}
+2c1c19c5d3852bde907ecca4056853b9ffd11f20,"['exporter', 'shutdown', 'complete', 'mtail', 'shutdown', 'exporter', 'shuts', 'context', 'test', 'mtail', 'deadlock', 'exporter', 'todo', 'figure', 'shut', 'mtail', 'shuts']",Risky_resource_management,{'deadlock': 100}
+b17c6f528c01f4c195e59e7c0d24bdf9b4ef4a78,"['support', 'shutdown', 'remote', 'denial', 'service']",General,{'denial service': 100}
+2103f53791b480ec46a4be641bf3416c9df9ec2f,"['shutdown', 'loader', 'producer', 'channel', 'close', 'loader', 'line', 'channel', 'channel', 'order', 'synchronise', 'shutdown', 'waitgroup', 'mtail', 'mtail', 'role', 'interface', 'line', 'channel', 'unit', 'test', 'deadlock', 'occurs']",Risky_resource_management,{'deadlock': 100}
+7a97dca36bfef009e9494895c1f2c6ec5e18edba,"['mark', 'golangci', 'lint', 'error', 'step', 'discussion', 'http', 'github', 'action', 'toolkit', 'issue', 'error', 'level', 'cross', 'step', 'level', 'right', 'golangci', 'lint', 'work', 'mtail', 'http', 'github', 'golangci', 'golangci', 'lint', 'issue']",Insecure_interaction_between_components,{'cross step': 90}
+8f6a9e3955c247e5f27ef8df838a50db8cf68ad0,"['print', 'loader', 'error', 'fuzz', 'crash']",General,{'crash': 100}
+730bd87c0e82335f9b0d813c2fbbcbdc1219e69c,"['emit', 'bytecode', 'instruction', 'pointer', 'fuzz', 'crash']",General,{'crash': 100}
+4e8b829b9333346fc82c8a5ee253c07c8a87e105,"['marshaljson', 'bucket', 'json', 'example', 'bucket', 'json', 'number', 'mtail', 'crash', 'stringifies', 'bucket', 'solves', 'issue']",General,{'crash': 100}
+cc74564f5212e41b7ca9e76c067b429a49277632,"['fuzz', 'crash']",General,{'crash': 100}
+8d5cc740256bfe6bf15dd184b444b65f6c524a90,"['fuzz', 'crash', 'reproduce', 'crash', 'mtail', 'emit', 'bytecode', 'type', 'figure']",General,{'crash': 100}
+7ef6caca1691867264eb0a8ba04c42c649824c15,"['crash', 'strptime', 'string', 'argument']",General,{'crash': 100}
+8dc505e516c8ccad2a3db4bb63b8ef5841c51618,"['settime', 'crash', 'value', 'timestamp']",General,{'crash': 100}
+85a713db1069a4600e104a5cc02b423f9588a473,"['document', 'debug', 'fuzz', 'crash']",General,{'crash': 100}
+6f3c27b76f90ca5d5ffcc06d92ee8c99925c645c,"['crash', 'issue']",General,{'crash': 100}
+7e4ce5ae171ab58f68de68bfd39e7fa70c19dbc6,"['fuzz', 'program', 'input', 'compiler', 'crash', 'figure', 'good', 'realise', 'difference', 'mtail', 'panic', 'detectable', 'error', 'program', 'input', 'flush', 'sort']",General,{'crash': 100}
+8d6e5e211398826b2c3201f4fc1ad354f3e89467,"['makefile', 'target', 'fuzz', 'crash']",General,{'crash': 100}
+3538ddd89c791fcde7ae063df9246dea3bd0c846,"['data', 'race', 'test']",Risky_resource_management,{'data race': 100}
+de286b1eb8978e2a74803e25afcb5a5a82283c8b,"['crash', 'concatenate', 'pattern', 'fragment']",General,{'crash': 100}
+a498e09d644824977d6515fd8dbf37dfa96ee46c,"['parser', 'crash']",General,{'crash': 100}
+e908f0cac6564c1080500f1941273fca54581a6b,"['fsnotify', 'update', 'rate', 'file', 'high', 'fsnotify', 'event', 'queue', 'overrun', 'mtail', 'processing', 'queue', 'probable', 'mtail', 'reading', 'file', 'tailer', 'starves', 'queue', 'processor', 'obsoletes', 'message', 'queue', 'fsnotify', 'user', 'process', 'error', 'process', 'notification', 'reconstruct', 'http', 'article', 'assumption', 'case', 'fsnotify', 'issue']",Risky_resource_management,{'overrun': 100}
+d651c6086e8f9657a013fc597f5da0eeaecb6dcb,['crash'],General,{'crash': 100}
+e16e4b78f78437200b60f9c471123b3869b3e943,"['lock', 'access', 'store', 'data', 'race']",Risky_resource_management,{'data race': 100}
+30a4c960db5982b82c57913a6c08f31b1c12ceb6,"['data', 'race', 'making', 'truncate', 'test', 'real', 'filesystem', 'afero', 'lock', 'access', 'file', 'truncate']",Risky_resource_management,{'data race': 100}
+8fa1482bfb674a98eee5a2215ce7ce2caf2c2104,"['data', 'race']",Risky_resource_management,{'data race': 100}
+d375209cc03509e19afcf9561ce3869743231103,"['test', 'crash', 'input']",General,{'crash': 100}
+063c3802472ca81e2d071cf83fd77bac309d6d09,"['event', 'slice', 'watcher', 'data', 'race']",Risky_resource_management,{'data race': 100}
+4151e265101378e4f3035d88900379aefa400e2a,"['deadlock', 'lock', 'acquisition', 'metric', 'exporter', 'function', 'hold', 'metric', 'lock', 'function', 'metric', 'function', 'hold', 'lock', 'loop', 'scope', 'function', 'exit']",Risky_resource_management,{'deadlock': 100}
+1ca7b3eb8c829d73c9f565c47aa885048e143f02,"['data', 'race', 'setting', 'global', 'deep', 'equal', 'state', 'test', 'fixture', 'test', 'fixture', 'setup']",Risky_resource_management,{'data race': 100}
+07102add8655bcfa472ad1ba7d80fc0727856aed,"['data', 'race', 'setting', 'concrete', 'type', 'instance', 'type']",Risky_resource_management,{'data race': 100}
+f2e4c4a85f73055c49f0b19d6b6caf0b4afd408c,"['data', 'race', 'unnecessary', 'test', 'kludge', 'need', 'thread', 'state', 'equal', 'comparator', 'migrate', 'racy', 'copy']",Risky_resource_management,{'data race': 100}
+163a77ba6ab83c378b68a9ed8f14d9ce45bebf7c,"['data', 'race', 'flag', 'value', 'need', 'value', 'mtaildebug', 'invocation', 'parse', 'global', 'initialize', 'flag', 'parse']",Risky_resource_management,{'data race': 100}
+5e2d9c9bfa4f21d6cfbf9aea6c579e183c3b2e26,"['upstream', 'fsnotify', 'shutdown', 'deadlock']",Risky_resource_management,{'deadlock': 100}
+464877353618a37ca1b8d072605eac49e503a1d9,"['glog', 'info', 'dump', 'crash']",General,{'crash': 100}
+eb6f125a325f7f6037e09e60104c06b547afbf17,"['repoint', 'afero', 'jaqxr', 'afero', 'work', 'data', 'race', 'upstream']",Risky_resource_management,{'data race': 100}
+395f58e10add9281191d65502ba5309e453d0b44,"['import', 'version', 'afero', 'data', 'race', 'reverts']",Risky_resource_management,{'data race': 100}
+c3d7488699aa5332fe6f1a7f2203c2c1892bddfd,"['import', 'version', 'afero', 'data', 'race', 'memory', 'filesystem']",Risky_resource_management,{'data race': 100}
+224e61af7017a8a8fc6e4f98b2492925b7a7252f,"['release', 'lock', 'enqueue', 'channel', 'deadlock', 'chan', 'receiver']",Risky_resource_management,{'deadlock': 100}
+a7f56a9781fbbc34d196c9f8a42203e7486b0e67,"['useful', 'crash', 'test', 'execution']",General,{'crash': 100}
+bb25a538bf5ca02eaae5a98b7b4b40366bf2d05f,"['data', 'race', 'partial', 'mutex', 'inode', 'goroutine']",Risky_resource_management,{'data race': 100}
+6c8a036240e6097a0abb38a8d0fae460ee0c0a42,"['pull', 'request', 'beorn', 'master', 'deadlock', 'removal']",Risky_resource_management,{'deadlock': 100}
+3e12c7f763f9fbe162cc567c2d55c85d3ef11819,"['deadlock', 'removal', 'inherent', 'problem', 'watcher', 'method', 'relies', 'event', 'event', 'channel', 'http', 'github', 'fsnotify', 'fsnotify', 'blob', 'master', 'inotify', 'mtail', 'code', 'reading', 'event', 'channel', 'watcher', 'certain', 'event', 'right', 'timing', 'trigger', 'deadlock', 'lead', 'http', 'github', 'google', 'mtail', 'issue', 'system', 'logfiles', 'problem', 'side', 'effect', 'large', 'scale', 'mtail', 'setup', 'soundcloud', 'original', 'problem', 'test', 'hard', 'recreate', 'exact', 'course', 'event', 'real', 'problem', 'fsnotify']",Risky_resource_management,{'deadlock': 100}
+7e3e2c0651d8005a87bf98b9229a03c5639b199b,"['creates', 'data', 'race']",Risky_resource_management,{'data race': 100}
+2be696412fdc521b140cfe9f71b2e92f6c92d371,"['lock', 'access', 'fake', 'watcher', 'data', 'race']",Risky_resource_management,{'data race': 100}
+6c10a14263b35bcbaf2c14c4295f7d5bf265e3f1,"['deadlock', 'exampe', 'program', 'test', 'channel', 'oneshot']",Risky_resource_management,{'deadlock': 100}

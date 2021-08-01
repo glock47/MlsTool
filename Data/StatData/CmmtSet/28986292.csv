@@ -1,20 +1,42 @@
-sha,message,catetory,matched,labels
-f36fc100795baa360a5c3c24ccb5c437359c995e,"['crash', 'websocket']",Risky_resource_management,{'crash': 100},
-95a521bad6f5cc17d6c40f888add262a6c40fc20,"['crash', 'request', 'torrent']",Risky_resource_management,{'crash': 100},
-874bba43f8e946efa5a2737c139f3d8dcd3f8d9d,"['message', 'connection', 'deadlock', 'writer', 'crash']",Risky_resource_management,{'deadlock': 100},
-63c5ca1f0188f73b696fb00bf61a4ca1d343a2b7,"['crash', 'bitfields', 'torrent']",Risky_resource_management,{'crash': 100},
-22ad6544200f9bca2b142d8b4136feba10d406f3,"['deadlock', 'writestatus']",Risky_resource_management,{'deadlock': 100},
-e8ff8709947042ec94574c8467bd2a46ec51e983,"['security', 'address', 'check', 'local', 'network']",General,{'security': 100},
-f09c0cd2ec75eb4f51944ab1f7d8aca9a0cca50d,"['security', 'function']",General,{'security': 100},
-f3317322f83a556d661a697c0290a02bd50fe0e7,"['message', 'crash']",Risky_resource_management,{'crash': 100},
-03e69c5464b3b92defdfd8b4e8b69661221f8170,"['handshake', 'crash']",Risky_resource_management,{'crash': 100},
-59d6b67c69a3758b963423adb0cbe5fb1b904a17,"['deadlock', 'partial']",Risky_resource_management,{'deadlock': 100},
-ac5715898293861dec5a328d4c510f33f8888d19,"['transaction', 'deadlock', 'partial', 'store']",Risky_resource_management,{'deadlock': 100},
-7eaef48f9efe2128ceb9e608f1c9c3d1bc6b886f,"['torrent', 'piece', 'crash']",Risky_resource_management,{'crash': 100},
-00a4e9bc1180cb8756ca5ac8689780b7e7261412,"['crash', 'metadata']",Risky_resource_management,{'crash': 100},
-3ae290fef62e0d4c8a3bff4d56e66c68d7461ee7,"['crash', 'client']",Risky_resource_management,{'crash': 100},
-e2fc96cc5a400a2c9aedf7071f26c0b1dab1df0d,"['valid', 'crash']",Risky_resource_management,{'crash': 100},
-9e8a72ff1d978295556ac3bfbb86b3888e81154a,"['crash', 'metadata']",Risky_resource_management,{'crash': 100},
-17acbb485caae6dafd26d724996830a436914463,"['crash', 'message', 'index']",Risky_resource_management,{'crash': 100},
-5e7fe0383b2bb26af9e3a2eedfcf0af028545768,"['torrent', 'crash', 'client']",Risky_resource_management,{'crash': 100},
-b4989a370f0823036cbc26b86b325746b0a862ba,"['crash', 'unset']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+b43987fcc8fb738e7fe36f52c0b40c250b741f10,"['crash', 'piece', 'availability']",General,{'crash': 100}
+ef75fa47f848275b5fb4d0fab143ab85f00963e2,['security'],General,{'security': 100}
+f36fc100795baa360a5c3c24ccb5c437359c995e,"['crash', 'torrent', 'websocket']",General,{'crash': 100}
+d4430e89b6888a433c262a16bb4a22eaa47c45c3,"['crash', 'conventional', 'tracker']",General,{'crash': 100}
+95a521bad6f5cc17d6c40f888add262a6c40fc20,"['crash', 'torrent', 'info']",General,{'crash': 100}
+a287d069a447cb7ac18eedcb3b213f70c24329da,"['crash', 'peer', 'torrent']",General,{'crash': 100}
+8b50f5fa7abf587f4d047e7f5e4426df1f568902,['deadlock'],Risky_resource_management,{'deadlock': 100}
+874bba43f8e946efa5a2737c139f3d8dcd3f8d9d,"['crash', 'deadlock', 'connection', 'writer', 'message']",Risky_resource_management,{'deadlock': 100}
+d8dc3ad239d71deeda0675bb8e1a919e9d796708,"['crash', 'info']",General,{'crash': 100}
+63c5ca1f0188f73b696fb00bf61a4ca1d343a2b7,"['crash', 'peer', 'torrent', 'info']",General,{'crash': 100}
+49a3c87a533b2d29ec13e655436a4790267429df,"['possible', 'deadlock']",Risky_resource_management,{'deadlock': 100}
+22ad6544200f9bca2b142d8b4136feba10d406f3,"['deadlock', 'writestatus']",Risky_resource_management,{'deadlock': 100}
+40150314208d991d2baf9a82977ee2a3ebdd6def,"['insecure', 'node']",General,{'insecure': 100}
+e8ff8709947042ec94574c8467bd2a46ec51e983,"['local', 'network', 'address', 'security', 'check']",General,{'security': 100}
+127fad47ddcc4a8b31e11954f3532d6103ff04ef,"['security', 'test', 'separate', 'file']",General,{'security': 100}
+f09c0cd2ec75eb4f51944ab1f7d8aca9a0cca50d,"['security', 'function', 'file']",General,{'security': 100}
+8949375bd6f8455f5124367a40fd0bf76f63dcd5,"['bencode', 'decode', 'large', 'integer', 'overflow']",Risky_resource_management,{'integer overflow': 100}
+288abb1c6b80fd488e2b5cc2a001b62307b8e63d,"['redundant', 'code', 'rare', 'crash']",General,{'crash': 100}
+f3317322f83a556d661a697c0290a02bd50fe0e7,"['crash', 'peer', 'sends']",General,{'crash': 100}
+a6b5ac60ad55b25be51a6867a586a1d1212bf830,"['rare', 'crash', 'node']",General,{'crash': 100}
+71f5a1882ad14fcef7e8af8d398da1396f64e97b,"['data', 'race']",Risky_resource_management,{'data race': 100}
+b7061506070cbe91d7116865d3d7d1cf8c66c8dc,['security'],General,{'security': 100}
+1ce84f664efce143409c2f384e844e54e26e5b4d,"['minor', 'data', 'race']",Risky_resource_management,{'data race': 100}
+03e69c5464b3b92defdfd8b4e8b69661221f8170,['crash'],General,{'crash': 100}
+59d6b67c69a3758b963423adb0cbe5fb1b904a17,"['partial', 'deadlock', 'peer', 'discovery']",Risky_resource_management,{'deadlock': 100}
+ac5715898293861dec5a328d4c510f33f8888d19,"['store', 'transaction', 'partial', 'deadlock']",Risky_resource_management,{'deadlock': 100}
+b1da5d0656de97bb40510f18c46a126830e2d62e,"['type', 'rare', 'crash']",General,{'crash': 100}
+7eaef48f9efe2128ceb9e608f1c9c3d1bc6b886f,"['crash', 'piece', 'hash']",General,{'crash': 100}
+5668582c8ed63c0533baa55051198bd065e6c01b,['crash'],General,{'crash': 100}
+7dd932bd5a24522d5ddd2500091c1a11ec6926f6,['crash'],General,{'crash': 100}
+00a4e9bc1180cb8756ca5ac8689780b7e7261412,"['crash', 'metadata', 'request', 'available', 'info', 'byte']",General,{'crash': 100}
+3ae290fef62e0d4c8a3bff4d56e66c68d7461ee7,"['crash', 'client', 'status']",General,{'crash': 100}
+e2fc96cc5a400a2c9aedf7071f26c0b1dab1df0d,"['crash', 'krpc', 'message', 'valid', 'field']",General,{'crash': 100}
+5cda3affb46bf8c85c1bd19ade8cb1658caf5aaf,"['memory', 'leak', 'peer', 'request']",Risky_resource_management,{'memory leak': 100}
+9e8a72ff1d978295556ac3bfbb86b3888e81154a,"['crash', 'metadata', 'piece']",General,{'crash': 100}
+ae45175015f9e13402960d21a22241371ab55d92,['crash'],General,{'crash': 100}
+17acbb485caae6dafd26d724996830a436914463,"['crash', 'peer', 'index', 'message']",General,{'crash': 100}
+f3bd288dd6a782672441a364f6730a3dd9ffc5f9,"['crash', 'torrent', 'status', 'priority']",General,{'crash': 100}
+5e7fe0383b2bb26af9e3a2eedfcf0af028545768,"['crash', 'client', 'status', 'torrent', 'info']",General,{'crash': 100}
+9ba3af19ba811a8513c235712a3dc8d7b990099a,"['file', 'suppress', 'explicit', 'timeout', 'initiate', 'connection', 'data', 'race', 'warning']",Risky_resource_management,{'data race': 100}
+b4989a370f0823036cbc26b86b325746b0a862ba,['crash'],General,{'crash': 100}

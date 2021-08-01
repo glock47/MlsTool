@@ -1,162 +1,247 @@
-sha,message,catetory,matched,labels
-651d29f7e5d20a0849d9da049d274e5994f42295,"['crash', 'plugin', 'download', 'lostfilmcrash', 'plugin', 'download', 'lostfilm']",Risky_resource_management,{'crash': 100},
-fb7651bc8c7acfc7cf66904dec50f9cf81da8758,"['crash', 'import', 'systray']",Risky_resource_management,{'crash': 100},
-db15d14c8fadd1ca8eed9bd2578bfe0d35f82b0a,"['potential', 'guessit', 'crash']",Risky_resource_management,{'crash': 100},
-5dd6a9701b281fa24b098e8c19ee5a45cfe90710,"['crash', 'detection', 'medium']",Risky_resource_management,{'crash': 100},
-7b7dde9ac436f477816fec8a20aaa24b12668f8a,"['crash', 'newznab']",Risky_resource_management,{'crash': 100},
-135254cbd628fab62c261428a74afde7e5c3d56b,"['crash', 'series']",Risky_resource_management,{'crash': 100},
-5c4af6a384d2fde82968b2de32c49b81a71d1b03,"['deluge', 'crash']",Risky_resource_management,{'crash': 100},
-acb1983d9e02d20d24b8f6c472c8b62912e772dc,"['crash', 'startup', 'pythonw']",Risky_resource_management,{'crash': 100},
-e56a40328b6cebbf3caf0a700bcfbfe37ad1fbc8,"['caplog', 'crash', 'pytest', 'loguru', 'report', 'update']",Risky_resource_management,{'crash': 100},
-46899806d170cb83154f6c3e04327a70ed95f698,"['username', 'deluge', 'crash', 'password']",Risky_resource_management,{'crash': 100},
-40c8f9653fd5ab02a5fcac7378d22f71d90ab0ea,"['crash', 'description', 'string']",Risky_resource_management,{'crash': 100},
-9e25b41010c3b038c63c5437a28da1f3ba1f115c,"['deluge', 'crash', 'plugin']",Risky_resource_management,{'crash': 100},
-b99f30101ff406442a5c48e1f05c2935360fbcc4,"['crash', 'estimator']",Risky_resource_management,{'crash': 100},
-4f5aaebfc2e17e3dfa2fe9dd65d5aaa514498eb3,"['potential', 'crash']",Risky_resource_management,{'crash': 100},
-d19af3d62b4926030448c1e96af2f022b0e16f57,"['crash', 'description', 'field']",Risky_resource_management,{'crash': 100},
-d9d8876b02c2b747f0972464248d8b5c07cbe945,"['crash', 'series', 'alternate', 'ascii', 'regression', 'python']",Risky_resource_management,{'crash': 100},
-f9454fcf5e06c86e1e7a377e564c2a474cd49297,"['address', 'jinja', 'version', 'update', 'vulnerability', 'security']",General,{'security': 100},
-2453fc98262a105541f5dfb1a344ed1a7ccf090f,"['crash', 'plugin', 'piratebay', 'search']",Risky_resource_management,{'crash': 100},
-f3fd804e69cecb2e3548ba6d7b4bda66235e5c2d,"['importerror', 'crash']",Risky_resource_management,{'crash': 100},
-245651a38b85215ec4855cf491b86a131fb2b390,"['transmissionrpc', 'crash', 'stupid']",Risky_resource_management,{'crash': 100},
-8e57e4c0ade64006849c9557aa7ab812635a5ad6,"['passthepopcorn', 'crash', 'cookie', 'invalid']",Risky_resource_management,{'crash': 100},
-2524c3ca35bf877350bea69a4ebc7e8806c8fdf7,"['guessit', 'force', 'valuepotential', 'guessit', 'crash']",Risky_resource_management,{'crash': 100},
-9a2845f04beabcc7961ef783c22f335048d0d78b,"['valid', 'content', 'returnseries', 'crash']",Risky_resource_management,{'crash': 100},
-8df71173082ee569ed8ac120a8cbe4c5279e3e72,"['deluge', 'client', 'issue', 'implementationclient', 'deluge', 'crash', 'plugin']",Risky_resource_management,{'crash': 100},
-e62f0e9237f92d47c85f8bdc42c770ed7fc69b8c,"['chardet', 'crash', 'guess', 'subliminal']",Risky_resource_management,{'crash': 100},
-8b96394818f7834eb395adc15bb52dd32a9ed773,"['pytest', 'crash']",Risky_resource_management,{'crash': 100},
-66079b3851898808f8dcd1167e9f9c03aac76b0c,"['crash', 'qbittorrent']",Risky_resource_management,{'crash': 100},
-9bdd8cb3c05b43145b7ef3d032adb4633d74fc73,"['variable', 'crash']",Risky_resource_management,{'crash': 100},
-2e09a92ffe642ae65d2afd35ff29cd4e99d5e476,"['crash', 'contains']",Risky_resource_management,{'crash': 100},
-8c46857d963f989acdcb8fee522236c4c5bf307b,"['crossmatch', 'directionalexact', 'crash', 'crossmatch', 'field']",Risky_resource_management,{'crash': 100},
-3db38b899fca84008fa655bd55609f4aecfaf04a,"['episode', 'crash']",Risky_resource_management,{'crash': 100},
-911df8ebfda07ddda1b784d40d8a4ae13ce78c67,"['crash', 'alias']",Risky_resource_management,{'crash': 100},
-6e8eafff565fc0ea812b6f4c2841b9edcd5f2bdc,"['concurrency', 'crash']",Risky_resource_management,{'crash': 100},
-87111e5a795dfb5a3d316c8d0930a637d3357b13,"['crash', 'occurs', 'multiple', 'actor']",Risky_resource_management,{'crash': 100},
-81b81b962424e16aa00c2a9373ebe730a3d5f297,"['serienjunkies', 'crash', 'urlrewriter']",Risky_resource_management,{'crash': 100},
-5d3fd5a94ed42a80e928764e0f6b3aa7d7def243,"['season', 'phasesupport', 'series', 'season', 'season', 'message', 'multiple', 'entity', 'delete', 'ability', 'forgetcatch', 'series', 'episode', 'logiclogic', 'addedfixedbegin', 'crash', 'serieswrong', 'assignment', 'fixedredundant', 'actual', 'plugins', 'separateearlier', 'checkprior', 'issue', 'season', 'check', 'reachedcheck', 'location', 'finalprobablylowerchangeparametrize', 'finallyissue', 'resolveseason', 'rangebegin', 'season', 'check', 'completedseason', 'beginepisode', 'beginadditionalseasonenabledissue', 'resolveseason', 'rangebegin', 'season', 'check', 'completedseason', 'beginepisode', 'beginadditional']",Risky_resource_management,{'crash': 100},
-47f746007101079e7a545d38df6c9a1204d6deac,"['crash', 'plugin', 'series', 'tryingconfig', 'disallows']",Risky_resource_management,{'crash': 100},
-2b19b90da9e9df267770e278ca64a96da2314500,"['crash', 'plugin', 'option', 'series']",Risky_resource_management,{'crash': 100},
-a88087abd1a024e376391459812951c7b60460a5,"['result', 'crash']",Risky_resource_management,{'crash': 100},
-f1045239209defba7529f78ecea45f30a2a06bef,"['season', 'support', 'phasesupport', 'season', 'parser', 'initialseason', 'basicaccount', 'season', 'exception', 'fixedexception', 'logic', 'correctcomparison', 'issue', 'season', 'respectaddedseason', 'formataddedbackfill', 'addedsplit', 'release', 'tableverification', 'episode', 'threshold', 'fixedbackfill', 'logic', 'fixedthreshold', 'addedcomparison', 'series', 'episode', 'identifier', 'entity', 'becomebegin', 'episode', 'identifier', 'changewrong', 'renamewrong', 'place', 'config', 'logic', 'series', 'season', 'episode', 'consideration', 'ability', 'ability', 'completedseason', 'uncompletedplugin', 'addedissue', 'fixedcheck', 'returnexclusive', 'addedepisode', 'issuecomparison', 'crash', 'fxiedminor', 'entry', 'reject', 'skippingavoid', 'issue', 'lookup', 'season', 'tvmaze', 'abilityseason', 'addedtweaklookup', 'estimator', 'fixedforgot', 'versionplugins', 'entityseason', 'schema', 'flexiblecassette', 'logic', 'fixedcassette', 'fixedbranch', 'flexgetconflictplugins', 'filter', 'versionproper', 'season', 'season', 'method', 'parse', 'guessfalse']",Risky_resource_management,{'crash': 100},
-72ecd059a73e9373c4f8cb836683f5d3fd923401,"['permission', 'crash']",Risky_resource_management,{'crash': 100},
-62c9ba3245a5ccba447efaf5e24c0da83d6c662c,"['vacuum', 'catch', 'crash']",Risky_resource_management,{'crash': 100},
-64e0f7b5ab06962ef5e250fe5fdd192454bf2bd3,"['crash', 'string', 'wrong', 'interpolation']",Risky_resource_management,{'crash': 100},
-5511d20148a2269d8966839a24b680af328feefc,"['crash', 'request']",Risky_resource_management,{'crash': 100},
-3215b605880b89bd4769896556dc92443c7de84e,"['return', 'crash']",Risky_resource_management,{'crash': 100},
-7023564c2abfd1adf9cc70a65d8c24d4008795f7,"['rtorrent', 'crash', 'scope']",Risky_resource_management,{'crash': 100},
-2f6f4f6bc4816a17c999e044b446b744990ba730,"['encounter', 'network', 'crash']",Risky_resource_management,{'crash': 100},
-e28e9a8c723179a7cc86b034d7069377f9691782,"['issue', 'crash']",Risky_resource_management,{'crash': 100},
-165d4a2f71d2e7dc01f619319dba5d86812ec776,"['bugfixeslibtorrent', 'version', 'compatibility', 'pluginpythonprevent', 'crash', 'plugin', 'certainrather', 'option']",Risky_resource_management,{'crash': 100},
-01eabe345b1ca91019889834438ec2f0e49d93e8,"['crash', 'email']",Risky_resource_management,{'crash': 100},
-b07530ec2c73f0cc76b409117dd7ae395abf3782,"['possible', 'crash', 'random', 'python']",Risky_resource_management,{'crash': 100},
-cceeea1619d8cffcaf4eb45b112c87699feeb0b7,"['crash', 'template']",Risky_resource_management,{'crash': 100},
-fe0d3be6e1a9a00aa5cf49bb4b3c393445cca5be,"['crash', 'notify']",Risky_resource_management,{'crash': 100},
-dbe18bcc2cb46357e2b3b1066377633022048804,"['crash', 'signature', 'usage', 'notify', 'keywords', 'kwargs', 'notifers', 'schema']",Risky_resource_management,{'crash': 100},
-836cb7f1f660acbd3b879e618f8bd04c8087323a,"['crash', 'traceback']",Risky_resource_management,{'crash': 100},
-09b7cb14119ed0517cb98c4505a6af215efa5cc7,"['crash', 'tracker', 'github']",Risky_resource_management,{'crash': 100},
-da2c6cdf55a8f8dcc76fc69d39b6bb0af5553296,"['release', 'crash']",Risky_resource_management,{'crash': 100},
-0f2753fc845a1ab83dc940c1053c67c23b02029d,"['crash', 'unicode', 'daemon', 'quote']",Risky_resource_management,{'crash': 100},
-280a5c2e31f721cb74b0c4dcacb461ab6e75467c,"['crash', 'genre', 'lookup', 'return']",Risky_resource_management,{'crash': 100},
-9e1d60df21c4052febbce08086e7907b92037840,"['serienjunkies', 'crash']",Risky_resource_management,{'crash': 100},
-d34d03eb68d7e98ed36b648fd35e73494c9ed14e,"['movie', 'crash']",Risky_resource_management,{'crash': 100},
-552499182f29241df275e783f9c21145ae4a1106,"['crash', 'retry', 'datetime']",Risky_resource_management,{'crash': 100},
-85714a8fdd31e9d628013b3cea7ba00d7b9bba5b,"['crash', 'table']",Risky_resource_management,{'crash': 100},
-aa106896a1f5542cd645e64d59bdc93c8d35da81,"['crash', 'piratebay']",Risky_resource_management,{'crash': 100},
-c437fef29a19c0bda1b1e720f0d62fbb63fef6ae,"['movie', 'crash']",Risky_resource_management,{'crash': 100},
-e4c5ff9a20202e3dd027d9545ddf51cb3bc87834,"['crash', 'movie', 'identifier']",Risky_resource_management,{'crash': 100},
-5a38d560c3fc2c2fc1a0513402602b25d8668799,"['crash', 'series', 'guessit', 'parser']",Risky_resource_management,{'crash': 100},
-4778a57abae0e6e10f7066b6516dafacc7506a4d,"['crash', 'error', 'jinja']",Risky_resource_management,{'crash': 100},
-b6aa128b3462ef4d1097c211ed29c8366c3305c0,"['crash', 'request', 'trakt', 'version']",Risky_resource_management,{'crash': 100},
-62d7c5715dcd5f4fa8ff09c356d1c2ec5248009f,"['crash', 'pushbullet', 'python']",Risky_resource_management,{'crash': 100},
-5ea59a40f153b9f3419b9d0a02e33e6b1ad1e909,"['input', 'crash', 'plugin', 'title']",Risky_resource_management,{'crash': 100},
-7dfd1ea4a3efc0919c9f558c15a1f0c89b100140,"['crash', 'archive', 'refactor', 'version', 'rarfile', 'present', 'excpetions']",Risky_resource_management,{'crash': 100},
-084731d07e0d9e800b5c8a96aba5b566fa42fe4e,"['crash', 'incorrect', 'movie']",Risky_resource_management,{'crash': 100},
-8dad44a3e82a26fe8c0b72282226411a9f798dc3,"['attempt', 'crash', 'jenkins']",Risky_resource_management,{'crash': 100},
-4a6a7759bb5ff612f506a10b451bf125310bce22,"['crash', 'plugin', 'invalid', 'download']",Risky_resource_management,{'crash': 100},
-c097561e5952f7163290a00d9f2834f20f975faf,"['module', 'crash']",Risky_resource_management,{'crash': 100},
-1412666332d14dd8bbfc73145dd63c593e3df37c,"['crash', 'flush', 'remotestream', 'proxy']",Risky_resource_management,{'crash': 100},
-287da31fa8fbcbb41972e2742e165e32526da942,"['local', 'crash', 'decompress']",Risky_resource_management,{'crash': 100},
-c653e8a42f464b58da3570d880fbe11f05bfca25,"['crash', 'clearing', 'movie', 'queue', 'duplicate']",Risky_resource_management,{'crash': 100},
-f545c3d1c19a6e968e872140afcecf0d1e80f228,"['block', 'crash', 'dependency', 'import', 'error']",Risky_resource_management,{'crash': 100},
-fbb13229c20190f5b118b9d7f3a030e6fd6a3599,"['crash', 'parser']",Risky_resource_management,{'crash': 100},
-b867ecc1d3f83ef450d0223e8a55d54014dc372f,"['crash', 'plugin', 'report', 'message']",Risky_resource_management,{'crash': 100},
-36d6c1ffb9eaa6d53081bcf4d8450b19fa20441d,"['whatcd', 'crash', 'plugin']",Risky_resource_management,{'crash': 100},
-491963ed7c36b22bbbf5d2ce297dfff7d568be4d,"['crash', 'report']",Risky_resource_management,{'crash': 100},
-33375fff1a11b7e64875034bf8214d759e63ae09,"['crash', 'trakt', 'lookup', 'episode']",Risky_resource_management,{'crash': 100},
-0fccfcaa36203e5404b94600170d8d5f820cd54a,"['crash', 'plugin']",Risky_resource_management,{'crash': 100},
-67d1e85c6a6038976830ca175d41f9ef3d15529f,"['crash', 'result', 'pending', 'torrent', 'contains', 'search']",Risky_resource_management,{'crash': 100},
-231e508c8c6af2b73120a5a55acacaec0e188177,"['crash', 'empty', 'estimator', 'tvmaze', 'return']",Risky_resource_management,{'crash': 100},
-18da9003d3292a04abf580dd98f9b9b6af5a8ac0,"['crash', 'cleanup']",Risky_resource_management,{'crash': 100},
-59ca07e7ec5254bf3ac7f781472bc6df57259930,"['crash', 'entry', 'estimator', 'series']",Risky_resource_management,{'crash': 100},
-f75f3af2448bd318d0a140ab9de714f94af0e2e5,"['ambiguous', 'crash', 'column', 'series']",Risky_resource_management,{'crash': 100},
-5f837f5a9fe26af3f29c1f2b02a4271fe830f6ee,"['exception', 'crash', 'unexpected', 'flexget']",Risky_resource_management,{'crash': 100},
-c92c898d9649996e3c296ca85b16ca6524554678,"['mergemerge', 'deluge', 'request', 'patsissonsdeluge', 'crash', 'plugin', 'unset']",Risky_resource_management,{'crash': 100},
-7ee530a6d40635ad295c822cc06e5af2eb3d1930,"['deluge', 'crash', 'plugin', 'config', 'value', 'presentissuecomment', 'flexget']",Risky_resource_management,{'crash': 100},
-c2d5a00a2bea90171d34cd7ca0767568e6073a4c,"['crash', 'plugin']",Risky_resource_management,{'crash': 100},
-607907ffb38fcaa2d2e9a400d6dd06ff22bbfa94,"['guessit', 'crash', 'parser', 'series']",Risky_resource_management,{'crash': 100},
-f87e164d2ddcb6304f15f19ff806c9cd4b4a195a,"['crash', 'issue']",Risky_resource_management,{'crash': 100},
-d9d3111052f175164a5a977af02060c8ee9ba331,"['crash', 'report']",Risky_resource_management,{'crash': 100},
-1430b084b70652e5207e7d06fe757bd73e85dc41,"['crash', 'title']",Risky_resource_management,{'crash': 100},
-5eec1dc5cb3bc20161ed3439a1ba341dc403f5e0,"['crash', 'plugin', 'secret', 'jinja']",Risky_resource_management,{'crash': 100},
-6d31981692aabd240924969d05839672c237ffcc,"['crash', 'series', 'release', 'timeframe']",Risky_resource_management,{'crash': 100},
-a191739f6f290ee8da6bc8d30a8cba37db966dbc,"['crash', 'invalid', 'config']",Risky_resource_management,{'crash': 100},
-fdf02dcc67f626f9defec5638e4643fe34fe8abb,"['crash', 'status']",Risky_resource_management,{'crash': 100},
-0a730da528e65e4121495b61d58c4e0385051569,"['invalid', 'crash']",Risky_resource_management,{'crash': 100},
-56e416a547bfc7a11997ace51ac430704f951032,"['command', 'crash', 'output', 'ascii']",Risky_resource_management,{'crash': 100},
-49b41e5a2e98d271024595946ab38356b90e0134,"['crash', 'output']",Risky_resource_management,{'crash': 100},
-31d2b563415e1f3b405b29555515b61a626fccf4,"['search', 'tweak', 'iptorrentsspace', 'searchprevent', 'crash']",Risky_resource_management,{'crash': 100},
-5d7de5e639f31a5fcf9852a3cef3f7f1d0e64886,"['crash', 'plugin']",Risky_resource_management,{'crash': 100},
-20041b06126577de09c85571164b62cc900643e1,"['crash', 'plugin', 'ascii']",Risky_resource_management,{'crash': 100},
-a0e5e22544543f1c3154909cd62a1889ff35b149,"['decodable', 'crash', 'pluginerror']",Risky_resource_management,{'crash': 100},
-003e510681372012fc9dcff74e4e02d8babbdc99,"['invalid', 'crash']",Risky_resource_management,{'crash': 100},
-d788ca9a10362771c66751ba3986867a6888a828,"['current', 'crash', 'directory']",Risky_resource_management,{'crash': 100},
-e2e1626582aad1bc02134215c3fd25627430100a,"['invalid', 'crash', 'plugin']",Risky_resource_management,{'crash': 100},
-727dd3682a73fee5aefcee38b2162b8561c0f05e,"['colon', 'crash', 'publichd', 'decimal', 'torrent']",Risky_resource_management,{'crash': 100},
-9ce0bc7c0a4597f1b3b5ae0853266799fa2f9cf7,"['crash', 'error', 'config', 'traceback', 'flexget', 'reportedticket']",Risky_resource_management,{'crash': 100},
-8b79e43abba9b57370e75d9a7dab6ee040bdf896,"['possible', 'crash']",Risky_resource_management,{'crash': 100},
-c84c9faafc6f630d5dc32a2731f48070f6fef1f1,"['release', 'crash']",Risky_resource_management,{'crash': 100},
-c0cceb23f8885a1d11e798fc22e0ac414c16a1e7,"['username', 'crash', 'password']",Risky_resource_management,{'crash': 100},
-b84482117887665da0bf8ada2c3c84d05b1bfd78,"['crash', 'series']",Risky_resource_management,{'crash': 100},
-6e26bd0c6616145c6de8de4d2b33ba2fbfed38ab,"['crash', 'requestbccfec', 'trunk']",Risky_resource_management,{'crash': 100},
-6dad015cd9e29a6bbaab3608eca8bcf1d7a4b03b,"['movie', 'crash', 'withoutbccfec', 'trunk']",Risky_resource_management,{'crash': 100},
-f676c46120a2aa59fe26e418b060f6c299a4f929,"['recent', 'crash', 'seriesbccfec', 'trunk']",Risky_resource_management,{'crash': 100},
-fe061ac5dbb05bf6319a248868732438448bebdd,"['input', 'crash', 'crossmatch', 'returnbccfec', 'trunk']",Risky_resource_management,{'crash': 100},
-eabf561d5d5e5d5d87ad2d3e89b0484fdd2d7b20,"['input', 'crash', 'pluginbccfec', 'trunk']",Risky_resource_management,{'crash': 100},
-519b12e4a55794c4ac0d962912992c78f382baa2,"['crash', 'incorrect', 'potential', 'password', 'catchbccfec', 'trunk']",Risky_resource_management,{'crash': 100},
-aa20acce0645282cc2bbaa89e61b50b8d001523b,"['crash', 'numericbccfec', 'trunk']",Risky_resource_management,{'crash': 100},
-3695938f01c3c0808d3e098ecd19b8eb67d09e7c,"['crash', 'entrybccfec', 'trunk']",Risky_resource_management,{'crash': 100},
-efc0a505b1ba928721d82fd6cb9a19ba989eb004,"['crash', 'returnbccfec', 'trunk']",Risky_resource_management,{'crash': 100},
-307f8713d74f5c8bff5cb1f83ccf6ad8e9b81b57,"['webui', 'quality', 'crash', 'moviebccfec', 'trunk']",Risky_resource_management,{'crash': 100},
-ee480c70b9f24ce8285adebc15ec512a0e643c30,"['crash', 'blankbccfec', 'trunk']",Risky_resource_management,{'crash': 100},
-22bb0318a312dbe632ec89c0f49121e7f20061d7,"['string', 'crash', 'sendinglookup', 'pluginbccfec', 'trunk']",Risky_resource_management,{'crash': 100},
-89b45b8e3eb87ed97405dd15bb4c1b7cbb907a24,"['crash', 'probablybccfec', 'trunk']",Risky_resource_management,{'crash': 100},
-008b272ccc27a5a0e50aae8c40a12a80f0684d6b,"['crash', 'pluginbccfec', 'trunk']",Risky_resource_management,{'crash': 100},
-6978ea92ccc6d770d75b1d0b0b45a247dab8e842,"['crash', 'deluge', 'plugin', 'string', 'replacement', 'movedonebccfec', 'trunk']",Risky_resource_management,{'crash': 100},
-de5f552a7a4d0c8cfdd9df789fc94f72ea722830,"['crash', 'emptybccfec', 'trunk']",Risky_resource_management,{'crash': 100},
-bb3d6c95ffe3cbe381f997369982c571f73c6d80,"['crash', 'plugin', 'populatebccfec', 'trunk']",Risky_resource_management,{'crash': 100},
-7738ad75fc012d98769a203afdcf0cacad1dc330,"['input', 'crash', 'plugin', 'cache', 'returndiscover', 'input', 'enable', 'cachebccfec', 'trunk']",Risky_resource_management,{'crash': 100},
-04a76d1890fc5ee3804c036f06788c2c47e338bc,"['crash', 'string', 'ascii', 'torrentz', 'searchbccfec', 'trunk']",Risky_resource_management,{'crash': 100},
-1b4d4576802b4976906f494311ddac5d6f0226ab,"['crash', 'favoritebccfec', 'trunk']",Risky_resource_management,{'crash': 100},
-19cea5a977a90666f1f991543b5ac4f70c85b82e,"['crash', 'plugin', 'language', 'entrybccfec', 'trunk']",Risky_resource_management,{'crash': 100},
-24ed11bb41be1bc97897d767ff280ab7d5c20afd,"['crash', 'season', 'episode', 'cache', 'number', 'changedbccfec', 'trunk']",Risky_resource_management,{'crash': 100},
-af7e06bd88b9488ebe559ed8aa99bff852b15992,"['crash', 'object', 'seriesparser', 'delay', 'attributebccfec', 'trunk']",Risky_resource_management,{'crash': 100},
-2b969743b566fdcda0775dbe21a69cdce6d3391b,"['movie', 'crash', 'windowserror', 'linuxbccfec', 'trunk']",Risky_resource_management,{'crash': 100},
-8196dbab77d7e0b077575b8334667231f0c4e7ad,"['input', 'crash', 'returnbccfec', 'trunk']",Risky_resource_management,{'crash': 100},
-744c6480341f0c969f0ed4177079a9a45d8ce160,"['crash', 'seriesbccfec', 'trunk']",Risky_resource_management,{'crash': 100},
-1502759d41a355630a0a31e381510e1d689874fe,"['crash', 'bugfix', 'urlencode', 'dirty', 'asciibccfec', 'trunk']",Risky_resource_management,{'crash': 100},
-eb2a862ccbda2dc04bd9de0afa632a00793240c3,"['movie', 'crash', 'foundbranch', 'webui', 'bccfec']",Risky_resource_management,{'crash': 100},
-8f2518ad75cef29855ce80d1579b17e17390799e,"['crash', 'entrybccfec', 'trunk']",Risky_resource_management,{'crash': 100},
-40b1ee122d2f12f1ef8a378e260274f4a7ed626e,"['crash', 'group', 'regexps', 'fixedbccfec', 'trunk']",Risky_resource_management,{'crash': 100},
-b0279b5f8ddceccc76ea1a0a610df0147b8809da,"['crash', 'timeframe', 'seriesbccfec', 'trunk']",Risky_resource_management,{'crash': 100},
-13fc89b6f423582d286a6774be42a23296582e09,"['previous', 'crash', 'message', 'debugbccfec', 'trunk']",Risky_resource_management,{'crash': 100},
-e336bcb4326c7001bec04f24f76dd2383cc11ce4,"['crash', 'rsslinkbccfec', 'trunk']",Risky_resource_management,{'crash': 100},
-ef51eae02af7ba053477bb0c42be33ca393bb490,"['crash', 'filtertvdb', 'causedbccfec', 'trunk']",Risky_resource_management,{'crash': 100},
-b78b596f0fe47a175fc618d30e09059bcd56060a,"['urlerror', 'crash', 'loggingbccfec', 'trunk']",Risky_resource_management,{'crash': 100},
-379b8690c51ee107c669de3ef1d78870bb8ed5d1,"['crash', 'error', 'messagebccfec', 'trunk']",Risky_resource_management,{'crash': 100},
-fd71a6e4479481cfc5b10ae99196977531bc5595,"['crash', 'fixedclean', 'changedbccfec', 'trunk']",Risky_resource_management,{'crash': 100},
-ab35efc9aac77bc9ddda4b3be7340dfbabc94daf,"['crash', 'entry', 'improvedbccfec', 'trunk']",Risky_resource_management,{'crash': 100},
-3946c8aa4607c3bf33c2586d3d7954c585a0cb5d,"['crash', 'download', 'introducedbccfec', 'trunk']",Risky_resource_management,{'crash': 100},
-b17f44671c8e6a178ca099305dbf08ee9ca3464e,"['crash', 'parsedbccfec', 'trunk']",Risky_resource_management,{'crash': 100},
-7397ea94d13f349e2941dac50540d84188ee9ab8,"['inputrss', 'crash', 'unicodebccfec', 'trunk']",Risky_resource_management,{'crash': 100},
-85062c56cf2dc39d6c7875aa05a5b2a25d12210b,"['module', 'crash', 'registeringbccfec', 'trunk']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+651d29f7e5d20a0849d9da049d274e5994f42295,"['crash', 'lostfilm', 'plugin', 'page', 'download', 'lostfilm', 'crash', 'lostfilm', 'plugin', 'page', 'download']",General,{'crash': 100}
+99fecd74294beb516fd96aca6ce12a5009b29bf5,"['tvdb', 'nonetype', 'name', 'error', 'crash', 'tvdb', 'name']",General,{'crash': 100}
+6818298b553b034ad0ee5bf4fe97314241a861ec,"['crash', 'sqlalchemy']",General,{'crash': 100}
+c0f9a70cf2ad9a93b53a52d80df70b8476f7a456,['crash'],General,{'crash': 100}
+2d36dfda2b25a9f7ca53cae1cfc32709245e1923,"['crash', 'time']",General,{'crash': 100}
+babca725a2a4f9c75dda50814e35b04a86a7123a,"['nameerror', 'name', 'crash', 'plugin', 'traceback', 'recent', 'call', 'file', 'python', 'site', 'package', 'flexget', 'task', 'line', 'result', 'method', 'args', 'kwargs', 'file', 'python', 'site', 'package', 'flexget', 'event', 'line', 'return', 'self', 'func', 'args', 'kwargs', 'file', 'python', 'site', 'package', 'flexget', 'plugins', 'input', 'line', 'return', 'config', 'entry', 'task', 'file', 'python', 'site', 'package', 'flexget', 'plugins', 'input', 'line', 'search', 'search', 'task', 'task', 'entry', 'entry', 'config', 'file', 'python', 'site', 'package', 'flexget', 'plugin', 'line', 'return', 'func', 'args', 'kwargs', 'file', 'python', 'site', 'package', 'flexget', 'component', 'site', 'site', 'line', 'search', 'params', 'update', 'extra', 'extra', 'config', 'extra', 'nameerror', 'name', 'simple', 'obvious']",General,{'crash': 100}
+180f9eb9668705623e842f8e7ad92e7cfc552c62,"['pull', 'request', 'crash', 'package']",General,{'crash': 100}
+fb7651bc8c7acfc7cf66904dec50f9cf81da8758,"['crash', 'systray']",General,{'crash': 100}
+db15d14c8fadd1ca8eed9bd2578bfe0d35f82b0a,"['guessit', 'potential', 'crash', 'name']",General,{'crash': 100}
+5dd6a9701b281fa24b098e8c19ee5a45cfe90710,"['crash', 'item', 'medium', 'type', 'detection']",General,{'crash': 100}
+a85efb54174b00dfa09af54dd7673dd93426acd0,"['return', 'empty', 'list', 'crash', 'empty', 'list']",General,{'crash': 100}
+7b7dde9ac436f477816fec8a20aaa24b12668f8a,"['newznab', 'crash']",General,{'crash': 100}
+65e50151612483efb99757f12e5e28453fa53093,"['utorrent', 'crash']",General,{'crash': 100}
+5c4af6a384d2fde82968b2de32c49b81a71d1b03,"['deluge', 'crash', 'error', 'magnet', 'deluge']",General,{'crash': 100}
+0f8b76536dd2f0e369083adf44ed0adf723e11de,"['sftp', 'crash', 'import']",General,{'crash': 100}
+139385d1b628c19f07f315bf9dc9d1280c67a955,"['crash', 'report', 'config', 'file']",General,{'crash': 100}
+acb1983d9e02d20d24b8f6c472c8b62912e772dc,"['crash', 'startup', 'stdout', 'pythonw']",General,{'crash': 100}
+e56a40328b6cebbf3caf0a700bcfbfe37ad1fbc8,"['update', 'crash', 'report', 'pytest', 'caplog', 'loguru']",General,{'crash': 100}
+46899806d170cb83154f6c3e04327a70ed95f698,"['deluge', 'crash', 'username', 'password']",General,{'crash': 100}
+40c8f9653fd5ab02a5fcac7378d22f71d90ab0ea,"['crash', 'string', 'description', 'field']",General,{'crash': 100}
+f8d5456fa6a3a8af84108d8fbc2f3653e1dd7d7f,"['error', 'piratebay', 'plugin', 'crash', 'piratebay', 'plugin']",General,{'crash': 100}
+7041c52dea85b38bae8903d163358a71f155a52f,"['pull', 'request', 'flexget', 'webui', 'deps', 'security', 'vulnerability']",General,{'security': 100}
+6ba09a2e1a24dd0d26c1df9e6278d12ef5ab218e,"['webui', 'deps', 'security', 'vulnerability']",General,{'security': 100}
+5d57ae943fbc5d851b20d5cb6c2fb7daae2c277c,['crash'],General,{'crash': 100}
+b99f30101ff406442a5c48e1f05c2935360fbcc4,"['estimator', 'crash', 'certain', 'movie']",General,{'crash': 100}
+4f5aaebfc2e17e3dfa2fe9dd65d5aaa514498eb3,"['potential', 'crash', 'option']",General,{'crash': 100}
+d19af3d62b4926030448c1e96af2f022b0e16f57,"['crash', 'description', 'field']",General,{'crash': 100}
+d9d8876b02c2b747f0972464248d8b5c07cbe945,"['series', 'regression', 'crash', 'python', 'ascii', 'alternate', 'name']",General,{'crash': 100}
+f9454fcf5e06c86e1e7a377e564c2a474cd49297,"['update', 'jinja', 'version', 'address', 'security', 'vulnerability']",General,{'security': 100}
+2453fc98262a105541f5dfb1a344ed1a7ccf090f,"['piratebay', 'crash', 'plugin', 'sort', 'search', 'result']",General,{'crash': 100}
+5c3b64d8d608cb5b5cb939f20de05302cc28facf,['crash'],General,{'crash': 100}
+f3fd804e69cecb2e3548ba6d7b4bda66235e5c2d,"['importerror', 'crash']",General,{'crash': 100}
+245651a38b85215ec4855cf491b86a131fb2b390,"['crash', 'transmissionrpc', 'stupid']",General,{'crash': 100}
+2defef44293eb5a6120a12cd4aa3f34a1b3b34c1,"['support', 'premium', 'filter', 'crash', 'entry', 'runtime']",General,{'crash': 100}
+8e57e4c0ade64006849c9557aa7ab812635a5ad6,"['passthepopcorn', 'crash', 'cookie', 'invalid']",General,{'crash': 100}
+2524c3ca35bf877350bea69a4ebc7e8806c8fdf7,"['force', 'single', 'value', 'guessit', 'test', 'potential', 'crash', 'guessit', 'parser']",General,{'crash': 100}
+9a2845f04beabcc7961ef783c22f335048d0d78b,"['page', 'return', 'valid', 'content', 'crash', 'series']",General,{'crash': 100}
+8df71173082ee569ed8ac120a8cbe4c5279e3e72,"['deluge', 'client', 'implementation', 'deluge', 'plugin', 'crash', 'deluge', 'client', 'implementation']",General,{'crash': 100}
+d165742c8827f025c531b5b34b07edd1341b0fe6,"['ugly', 'command', 'line', 'crash']",General,{'crash': 100}
+e62f0e9237f92d47c85f8bdc42c770ed7fc69b8c,"['subliminal', 'chardet', 'crash', 'plugin']",General,{'crash': 100}
+8b96394818f7834eb395adc15bb52dd32a9ed773,"['pytest', 'crash']",General,{'crash': 100}
+66079b3851898808f8dcd1167e9f9c03aac76b0c,"['qbittorrent', 'crash', 'path', 'empty']",General,{'crash': 100}
+9bdd8cb3c05b43145b7ef3d032adb4633d74fc73,"['series', 'variable', 'crash']",General,{'crash': 100}
+4a465861b604c3420b097ae2a2536078bc8b51d6,"['aria', 'crash', 'connection', 'socket', 'error']",General,{'crash': 100}
+a60fb9fa730c7adced0dcbc0766319b3f6e65894,"['crash', 'crash', 'response', 'schema', 'test', 'minor', 'version', 'bump']",General,{'crash': 100}
+2e09a92ffe642ae65d2afd35ff29cd4e99d5e476,"['crash', 'list', 'contains', 'item']",General,{'crash': 100}
+3db38b899fca84008fa655bd55609f4aecfaf04a,"['crash', 'episode', 'pack']",General,{'crash': 100}
+911df8ebfda07ddda1b784d40d8a4ae13ce78c67,"['crash', 'series', 'alias']",General,{'crash': 100}
+42b48fa9055ab8a5b4af4bed195700e66331b1e3,"['crash', 'filename', 'field']",General,{'crash': 100}
+d6e3036fee68c103750ca6d808af1485d7db5cf3,"['util', 'crash', 'year']",General,{'crash': 100}
+87111e5a795dfb5a3d316c8d0930a637d3357b13,"['crash', 'actor', 'occurs', 'multiple', 'time', 'json', 'response']",General,{'crash': 100}
+81b81b962424e16aa00c2a9373ebe730a3d5f297,"['serienjunkies', 'crash', 'serienjunkies', 'urlrewriter', 'plugin']",General,{'crash': 100}
+5d3fd5a94ed42a80e928764e0f6b3aa7d7def243,"['season', 'pack', 'phase', 'support', 'season', 'sort', 'show', 'entity', 'message', 'season', 'pack', 'pointless', 'property', 'multiple', 'entity', 'delete', 'catch', 'lookuperror', 'season', 'pack', 'series', 'show', 'sort', 'logic', 'emit', 'crash', 'series', 'series', 'show', 'wrong', 'assignment', 'redundant', 'unit', 'test', 'test', 'jawilson', 'additional', 'test', 'test', 'test', 'actual', 'plugins', 'check', 'series', 'issue', 'season', 'final', 'location', 'series', 'test', 'parametrize', 'test', 'issue', 'series', 'season', 'test', 'range', 'work', 'history', 'additional', 'test', 'season', 'pack', 'issue', 'series', 'season', 'test', 'range', 'work', 'history', 'additional', 'test', 'season', 'season', 'pack']",General,{'crash': 100}
+df66e2220b9a5c5d20b00cb09af1aab8daacff23,"['custom', 'header', 'javascript', 'browser', 'access', 'control', 'expose', 'header', 'header', 'javascript', 'xmlhttprequest', 'access', 'unsafe', 'header', 'custom', 'flask', 'cors', 'option', 'access', 'control', 'expose', 'header', 'header']",Porous_defenses,{'access control': 100}
+47f746007101079e7a545d38df6c9a1204d6deac,"['sure', 'series', 'plugin', 'crash', 'setting', 'disallows', 'dict', 'form', 'config']",General,{'crash': 100}
+2b19b90da9e9df267770e278ca64a96da2314500,"['crash', 'series', 'plugin', 'dict', 'form']",General,{'crash': 100}
+a88087abd1a024e376391459812951c7b60460a5,"['alpharatio', 'crash', 'result']",General,{'crash': 100}
+72ecd059a73e9373c4f8cb836683f5d3fd923401,"['crash', 'permission', 'error']",General,{'crash': 100}
+62c9ba3245a5ccba447efaf5e24c0da83d6c662c,"['catch', 'vacuum', 'crash']",General,{'crash': 100}
+5511d20148a2269d8966839a24b680af328feefc,"['morethantv', 'crash', 'login', 'request']",General,{'crash': 100}
+3215b605880b89bd4769896556dc92443c7de84e,"['crash', 'return', 'json', 'object']",General,{'crash': 100}
+7023564c2abfd1adf9cc70a65d8c24d4008795f7,"['rtorrent', 'python', 'crash']",General,{'crash': 100}
+2f6f4f6bc4816a17c999e044b446b744990ba730,"['crash', 'encounter', 'network', 'error']",General,{'crash': 100}
+e28e9a8c723179a7cc86b034d7069377f9691782,"['iptorrents', 'crash', 'issue']",General,{'crash': 100}
+513a7305b030e0b4483afbf45b0bad60b99234d5,"['webserver', 'config', 'support', 'quote', 'space', 'search', 'engine', 'support', 'file', 'parameter', 'full', 'episode', 'trailer', 'config', 'option', 'entry', 'conversion', 'reject', 'action', 'relplace', 'safe', 'zxcvbn', 'password', 'strenght', 'sickbeard', 'crash', 'support', 'support', 'improves', 'version', 'show', 'search', 'mode', 'search', 'page', 'login', 'page', 'incorrect', 'file', 'config', 'section', 'variable', 'configuration', 'support', 'identifier', 'series', 'parser', 'series', 'parser', 'support', 'identifier', 'anime', 'list', 'input', 'plugin', 'anime', 'list', 'input', 'plugin', 'review', 'python', 'value', 'list', 'variable', 'list', 'list', 'conversion', 'update', 'webserver', 'config', 'mandatory', 'update', 'check', 'exists', 'sure', 'page', 'leftover', 'print', 'series', 'movie', 'poster']",General,{'crash': 100}
+08a2bc1f7b86a1ac588b378e0d8adaef50125abb,"['sickbeard', 'crash']",General,{'crash': 100}
+165d4a2f71d2e7dc01f619319dba5d86812ec776,"['bugfixes', 'aria', 'plugin', 'compatibility', 'libtorrent', 'version', 'python', 'crash', 'aria', 'plugin', 'certain', 'configuration', 'aria', 'option', 'config', 'file', 'torrent', 'file']",General,{'crash': 100}
+64c9a769b04e9cf9163754f63748822b8dd94fc7,"['data', 'trace', 'level', 'content', 'content', 'trace', 'level', 'browser', 'process', 'javascript', 'iframes', 'flexget', 'actual', 'data', 'browser', 'result', 'collapse', 'line', 'http', 'github', 'flexget', 'flexget', 'issue']",Risky_resource_management,{'data trace': 95}
+01eabe345b1ca91019889834438ec2f0e49d93e8,"['email', 'crash', 'auth', 'type']",General,{'crash': 100}
+83fec8b7356acea2b9d4af9593219d330cfce720,"['pull', 'request', 'kolyagora', 'crash', 'random', 'python']",General,{'crash': 100}
+b07530ec2c73f0cc76b409117dd7ae395abf3782,"['possible', 'crash', 'random', 'python']",General,{'crash': 100}
+cceeea1619d8cffcaf4eb45b112c87699feeb0b7,"['crash', 'entry', 'task']",General,{'crash': 100}
+fe0d3be6e1a9a00aa5cf49bb4b3c393445cca5be,"['notify', 'crash', 'test']",General,{'crash': 100}
+64f09ee94efb4bca7d5f398621f4e4a2d0d87f9c,"['pull', 'request', 'flexget', 'notify', 'plugin', 'notify', 'crash', 'plugin', 'notifier', 'plugin', 'plugin', 'notifier', 'plugins']",General,{'crash': 100}
+836cb7f1f660acbd3b879e618f8bd04c8087323a,"['traceback', 'task', 'crash']",General,{'crash': 100}
+a1d693dd1c1f43a0038cd34d55f43480569a4273,"['pull', 'request', 'cvium', 'daemon', 'restart', 'task', 'queue', 'crash']",General,{'crash': 100}
+2342cd5ede9fac66007d2b15025feeff52c2400b,"['verification', 'certificate', 'verification', 'result', 'warning', 'http', 'request', 'http', 'request', 'certificate', 'verification', 'security', 'html', 'warning', 'user', 'verification', 'warning', 'beneficial']",General,{'security': 100}
+da2c6cdf55a8f8dcc76fc69d39b6bb0af5553296,"['crash', 'release', 'date', 'empty']",General,{'crash': 100}
+318b328ff6338edd0fd4b2261fba2f5bd7b676f6,"['pull', 'request', 'amiganer', 'amiganer', 'patch', 'crash', 'python']",General,{'crash': 100}
+66e94dab97b550f8cd980305cc78fa38af6c7862,"['download', 'crash', 'permission', 'error']",General,{'crash': 100}
+280a5c2e31f721cb74b0c4dcacb461ab6e75467c,"['crash', 'lookup', 'return', 'genre']",General,{'crash': 100}
+552499182f29241df275e783f9c21145ae4a1106,"['crash', 'datetime', 'overflow', 'retry']",General,{'crash': 100}
+85714a8fdd31e9d628013b3cea7ba00d7b9bba5b,"['crash', 'table', 'data']",General,{'crash': 100}
+19663621c6f640be8105ffeaaf5428709f4cec42,"['list', 'purge', 'crash']",General,{'crash': 100}
+bf361812756177b73708bfd44ec1b71a6c315480,"['crash', 'movie', 'contains', 'information']",General,{'crash': 100}
+ee82e286f638ca75048adaea20ac92d4338708ee,"['search', 'plugins', 'crash', 'integer', 'size']",General,{'crash': 100}
+5a38d560c3fc2c2fc1a0513402602b25d8668799,"['series', 'crash', 'guessit', 'parser', 'show', 'part', 'identifier']",General,{'crash': 100}
+4778a57abae0e6e10f7066b6516dafacc7506a4d,"['aria', 'crash', 'jinja']",General,{'crash': 100}
+fb6c2c3ec017b73aff805dfb133cbdb79bc886a5,"['bluray', 'lookup', 'estimator', 'crash', 'info']",General,{'crash': 100}
+b6aa128b3462ef4d1097c211ed29c8366c3305c0,"['crash', 'trakt', 'plugins', 'version', 'request', 'library']",General,{'crash': 100}
+1b40d01591729e2f319d22db434a59e310b4697b,"['file', 'subdirs', 'crash', 'single', 'string']",General,{'crash': 100}
+65b77991e129dcae13aad442cd718a35e8b1e580,"['file', 'subdirs', 'crash', 'single', 'string']",General,{'crash': 100}
+228933a49dabdd2e6b23ed1f20b3cc49f44b5fe3,"['pull', 'request', 'liiight', 'crash']",General,{'crash': 100}
+ef7092314c0c2e3bd7188206ac3b51dbb948881f,['crash'],General,{'crash': 100}
+62d7c5715dcd5f4fa8ff09c356d1c2ec5248009f,"['pushbullet', 'crash', 'python']",General,{'crash': 100}
+5ea59a40f153b9f3419b9d0a02e33e6b1ad1e909,"['crash', 'html', 'input', 'plugin', 'title']",General,{'crash': 100}
+7dfd1ea4a3efc0919c9f558c15a1f0c89b100140,"['archive', 'module', 'present', 'version', 'crash', 'excpetions', 'refactor', 'decompress', 'archive', 'module', 'file']",General,{'crash': 100}
+eb2db7add93a48b4a320b950c0127ffdd418c703,['crash'],General,{'crash': 100}
+084731d07e0d9e800b5c8a96aba5b566fa42fe4e,"['movie', 'list', 'crash', 'incorrect', 'movie', 'name', 'setting']",General,{'crash': 100}
+b616f11b959a2085629bbbaee8f1dc087f599465,"['trakt', 'alternate', 'language', 'test', 'crash']",General,{'crash': 100}
+8dad44a3e82a26fe8c0b72282226411a9f798dc3,"['attempt', 'jenkins', 'crash']",General,{'crash': 100}
+ba131ae1ab83cf5ce076ead5172b6d70ecdc021d,['crash'],General,{'crash': 100}
+6a8bfd4a4d0d50331ddb85a013b516c62ae602dc,"['error', 'crash', 'sabnzbd', 'plugin']",General,{'crash': 100}
+ca791fd1fba73c9362850f33cf3ffe9635e34e8e,"['bittorrent', 'util', 'crash']",General,{'crash': 100}
+4a6a7759bb5ff612f506a10b451bf125310bce22,"['download', 'plugin', 'crash', 'invalid', 'content']",General,{'crash': 100}
+a7bd6eaf6885bfe42c9d3e3396f97b0713678608,"['crash', 'result']",General,{'crash': 100}
+c097561e5952f7163290a00d9f2834f20f975faf,"['task', 'test', 'crash', 'module']",General,{'crash': 100}
+1412666332d14dd8bbfc73145dd63c593e3df37c,"['case', 'remotestream', 'proxy', 'crash', 'flush']",General,{'crash': 100}
+287da31fa8fbcbb41972e2742e165e32526da942,"['crash', 'decompress', 'local', 'file']",General,{'crash': 100}
+ef2638ce97cd04e0f321b17dc71ae04e4d7adc4c,['crash'],General,{'crash': 100}
+c653e8a42f464b58da3570d880fbe11f05bfca25,"['crash', 'clearing', 'movie', 'queue', 'duplicate', 'item']",General,{'crash': 100}
+9b35836c263bea38a0992070d4442d520ce506ce,"['crash', 'item', 'debug']",General,{'crash': 100}
+cff812af982a0bceb04ae7465871949bf893d5e0,"['pull', 'request', 'konubinix', 'crash', 'invalid', 'content', 'ascii', 'character']",General,{'crash': 100}
+f545c3d1c19a6e968e872140afcecf0d1e80f228,"['error', 'import', 'dependency', 'crash']",General,{'crash': 100}
+3ea1b29cc97d7ec0a68273f985d0208042b08889,"['space', 'crash', 'report', 'message']",General,{'crash': 100}
+54f93a93916b8d40d5649bc9de8f8e11dfa7bee3,"['current', 'flexget', 'version', 'crash', 'report']",General,{'crash': 100}
+fbb13229c20190f5b118b9d7f3a030e6fd6a3599,"['imdb', 'parser', 'crash', 'year']",General,{'crash': 100}
+b867ecc1d3f83ef450d0223e8a55d54014dc372f,"['plugin', 'crash', 'report', 'message']",General,{'crash': 100}
+a2770e7621162c6dd2b380d9a100df183b289400,['crash'],General,{'crash': 100}
+591fbbabcfb78c96fba0a5f51f6164607b7a1822,"['adhere', 'python', 'telegram', 'http', 'crash', 'report']",General,{'crash': 100}
+36d6c1ffb9eaa6d53081bcf4d8450b19fa20441d,"['crash', 'whatcd', 'plugin']",General,{'crash': 100}
+491963ed7c36b22bbbf5d2ce297dfff7d568be4d,"['unit', 'test', 'crash', 'report']",General,{'crash': 100}
+ff96b5d44b0b7c04041727c4656c6ca24fe7268c,"['quick', 'tvmaze', 'estimator', 'crash']",General,{'crash': 100}
+33375fff1a11b7e64875034bf8214d759e63ae09,"['trakt', 'lookup', 'crash', 'available', 'episode']",General,{'crash': 100}
+0fccfcaa36203e5404b94600170d8d5f820cd54a,"['crash', 'plugin', 'text']",General,{'crash': 100}
+67d1e85c6a6038976830ca175d41f9ef3d15529f,"['hack', 'crash', 'search', 'result', 'contains', 'pending', 'zone', 'torrent']",General,{'crash': 100}
+231e508c8c6af2b73120a5a55acacaec0e188177,"['crash', 'tvmaze', 'estimator', 'tvmaze', 'return', 'empty', 'airdate']",General,{'crash': 100}
+1e398d73103aeb05d6eacfbe55cc7551921a9bb3,"['update', 'pytvmaze', 'requirement', 'string', 'crash']",General,{'crash': 100}
+18da9003d3292a04abf580dd98f9b9b6af5a8ac0,"['crash', 'cleanup']",General,{'crash': 100}
+59ca07e7ec5254bf3ac7f781472bc6df57259930,"['sure', 'series', 'estimator', 'crash', 'series', 'entry']",General,{'crash': 100}
+b94068494fba1dda9efe8884511d6415cf827816,"['pull', 'request', 'ibrahimkarahan', 'crash', 'exec', 'plugin', 'autoescape']",General,{'crash': 100}
+a680ad90aaac7f51ba4cabae7c546f97406168be,"['crash', 'test', 'mode', 'entry']",General,{'crash': 100}
+f75f3af2448bd318d0a140ab9de714f94af0e2e5,"['ambiguous', 'column', 'crash', 'series', 'plugin']",General,{'crash': 100}
+25b7546573f868eeb17f7f6e12d1241e9d98593c,"['pull', 'request', 'chemondelay', 'letterboxd', 'plugin', 'crash', 'page', 'list']",General,{'crash': 100}
+3f1057e875e30e7e46dee2bd97d5beba5998d358,"['plugin', 'crash', 'page', 'list']",General,{'crash': 100}
+5f837f5a9fe26af3f29c1f2b02a4271fe830f6ee,"['crash', 'reporter', 'unexpected', 'exception']",General,{'crash': 100}
+c92c898d9649996e3c296ca85b16ca6524554678,"['pull', 'request', 'patsissons', 'deluge', 'deluge', 'plugin', 'crash']",General,{'crash': 100}
+7ee530a6d40635ad295c822cc06e5af2eb3d1930,"['deluge', 'plugin', 'crash', 'config', 'value', 'http', 'github', 'flexget', 'flexget', 'pull', 'issuecomment']",General,{'crash': 100}
+c2d5a00a2bea90171d34cd7ca0767568e6073a4c,"['crash', 'plugin']",General,{'crash': 100}
+607907ffb38fcaa2d2e9a400d6dd06ff22bbfa94,"['crash', 'guessit', 'series', 'parser']",General,{'crash': 100}
+494f2a466f914806abbf46d611be490b7cd1e7c4,"['crash', 'exit', 'certain', 'command']",General,{'crash': 100}
+6ead356e419702a9e7a87e4ce78f7f31bcbd16ca,"['pull', 'request', 'lugoues', 'plugin', 'crash', 'interval']",General,{'crash': 100}
+f87e164d2ddcb6304f15f19ff806c9cd4b4a195a,"['crash', 'interval']",General,{'crash': 100}
+026ff0b35cb6a67707b17400a879ea12a8ba5beb,"['unit', 'test', 'crash']",General,{'crash': 100}
+d9d3111052f175164a5a977af02060c8ee9ba331,"['crash', 'report', 'unit', 'test']",General,{'crash': 100}
+f0b83179a4fd0ebf2e3e3ad664062aa4bb127b30,"['pull', 'request', 'flexget', 'separate', 'crash', 'report']",General,{'crash': 100}
+da1b722ea0e3ed1bde2e3d84302d1afc97e7bd7a,"['loglevel', 'crash']",General,{'crash': 100}
+1430b084b70652e5207e7d06fe757bd73e85dc41,"['crash', 'title', 'item']",General,{'crash': 100}
+751a249ac9ed97d0f1668b8dfd9e438714e3095a,"['database', 'cleanup', 'crash']",General,{'crash': 100}
+7a8080f2177103ec3c5d62f83dbd6d842ce5f5e7,['crash'],General,{'crash': 100}
+2023f8ff3534b2bd70a4f31d247033b91dd76e79,"['crash', 'urlrewrite']",General,{'crash': 100}
+95e8edf3f5762ffddbbae4128dd2fd25bc4a6fe2,"['crash', 'unexpected', 'imdb', 'page', 'format']",General,{'crash': 100}
+6d31981692aabd240924969d05839672c237ffcc,"['sure', 'series', 'timeframe', 'crash', 'release']",General,{'crash': 100}
+a191739f6f290ee8da6bc8d30a8cba37db966dbc,"['crash', 'invalid', 'config', 'cronlike', 'schedule']",General,{'crash': 100}
+b80b2224e201d370b3ba0353adaa6e8fdd5ab7a5,"['catch', 'tvrage', 'library', 'crash']",General,{'crash': 100}
+3d34bbf84c880264265eeac5b2c65c44e548877d,"['pull', 'request', 'crawln', 'rendererror', 'crash']",General,{'crash': 100}
+09055c00e762af07657b2b5246c6583b7fd8d931,"['crash', 'dict', 'form']",General,{'crash': 100}
+72c49ebf20e4db7ee5fe64dfc7568a018c5d20af,"['scheduler', 'thread', 'crash']",General,{'crash': 100}
+fdf02dcc67f626f9defec5638e4643fe34fe8abb,"['crash', 'status', 'feedparser']",General,{'crash': 100}
+0a730da528e65e4121495b61d58c4e0385051569,"['crash', 'invalid']",General,{'crash': 100}
+8932a04b2cde0367f9e0eea1e7d5302da03ebd57,['crash'],General,{'crash': 100}
+56e416a547bfc7a11997ace51ac430704f951032,"['sure', 'ascii', 'output', 'command', 'crash', 'exec', 'plugin']",General,{'crash': 100}
+49b41e5a2e98d271024595946ab38356b90e0134,"['crash', 'output', 'plugin']",General,{'crash': 100}
+20041b06126577de09c85571164b62cc900643e1,"['plugin', 'crash', 'ascii']",General,{'crash': 100}
+a0e5e22544543f1c3154909cd62a1889ff35b149,"['plugin', 'crash', 'decodable', 'filename', 'error', 'message']",General,{'crash': 100}
+003e510681372012fc9dcff74e4e02d8babbdc99,"['crash', 'invalid', 'lock', 'file']",General,{'crash': 100}
+d788ca9a10362771c66751ba3986867a6888a828,"['sure', 'crash', 'current', 'directory']",General,{'crash': 100}
+e2e1626582aad1bc02134215c3fd25627430100a,"['plugin', 'crash', 'invalid', 'timestamps']",General,{'crash': 100}
+9ce0bc7c0a4597f1b3b5ae0853266799fa2f9cf7,"['config', 'error', 'flexget', 'crash', 'traceback', 'http', 'flexget', 'ticket']",General,{'crash': 100}
+61891351d05a813ffa24a919dff073d4d41ae385,"['crash', 'file', 'content', 'type', 'http', 'test', 'default']",General,{'crash': 100}
+8b79e43abba9b57370e75d9a7dab6ee040bdf896,"['possible', 'crash', 'quality', 'requirement']",General,{'crash': 100}
+9057175d757c6f131aee075ab79e231d54ddb5c5,"['crash', 'preset', 'plugin', 'config']",General,{'crash': 100}
+252c2e067c979d610f5c0045a4269ad13d982cd8,['crash'],General,{'crash': 100}
+9dc27834f53b5614df2c16d9f83264458b705a7c,"['crash', 'imdb', 'parser']",General,{'crash': 100}
+c84c9faafc6f630d5dc32a2731f48070f6fef1f1,"['sure', 'crash', 'release']",General,{'crash': 100}
+c0cceb23f8885a1d11e798fc22e0ac414c16a1e7,"['sure', 'crash', 'username', 'password']",General,{'crash': 100}
+b84482117887665da0bf8ada2c3c84d05b1bfd78,"['adjustment', 'series', 'crash', 'series', 'episode']",General,{'crash': 100}
+0aa6db9b6e31c02895eca134a3cf340c9108fc73,"['transmission', 'pathscrub', 'crash', 'encode']",General,{'crash': 100}
+ae55b770ccfb792816496ab0b8bdd5a3a48d9b6d,"['crash', 'imdb', 'mpaa']",General,{'crash': 100}
+a90db706c54aa85b3568225251a30ab3b77b4e4c,"['crash', 'minor', 'cleanup']",General,{'crash': 100}
+6e26bd0c6616145c6de8de4d2b33ba2fbfed38ab,"['sure', 'file', 'uris', 'crash', 'request', 'utility', 'http', 'flexget', 'trunk']",General,{'crash': 100}
+6dad015cd9e29a6bbaab3608eca8bcf1d7a4b03b,"['sure', 'crash', 'imdb', 'http', 'flexget', 'trunk']",General,{'crash': 100}
+35b59f7f4a69ddf0f3d2652bc5f92f3fc13c1955,"['crash', 'torrent', 'directory', 'unicode', 'character', 'http', 'flexget', 'trunk']",General,{'crash': 100}
+f676c46120a2aa59fe26e418b060f6c299a4f929,"['crash', 'series', 'recent', 'series', 'http', 'flexget', 'trunk']",General,{'crash': 100}
+fcdd9e6b72dcb41d21c247046c37b50594adc0b4,"['torrent', 'crash', 'self', 'usage', 'plugin', 'base', 'class', 'torrent', 'class', 'plugin', 'torrent', 'unit', 'test', 'http', 'flexget', 'trunk']",General,{'crash': 100}
+553f27b01f3c27352a0de93d44b271acf6daa20a,"['sure', 'series', 'crash', 'series', 'http', 'flexget', 'trunk']",General,{'crash': 100}
+fe061ac5dbb05bf6319a248868732438448bebdd,"['sure', 'crossmatch', 'crash', 'input', 'return', 'http', 'flexget', 'trunk']",General,{'crash': 100}
+eabf561d5d5e5d5d87ad2d3e89b0484fdd2d7b20,"['sure', 'input', 'plugin', 'crash', 'task', 'attribute', 'http', 'flexget', 'trunk']",General,{'crash': 100}
+2fc0f9af70abb8b3658db13ff1ff6918b3083a2f,"['unicode', 'crash', 'plugin', 'http', 'flexget', 'trunk']",General,{'crash': 100}
+7295a999d1337eb569a1334afaaeae193d6690a2,"['indent', 'html', 'template', 'crash', 'pushover', 'plugin', 'exists', 'http', 'flexget', 'trunk']",General,{'crash': 100}
+519b12e4a55794c4ac0d962912992c78f382baa2,"['catch', 'potential', 'crash', 'password', 'incorrect', 'user', 'http', 'flexget', 'trunk']",General,{'crash': 100}
+28420ea5dea715ed97c079707d2ed3eb7710c4c5,"['potential', 'crash', 'plugin', 'http', 'flexget', 'trunk']",General,{'crash': 100}
+aa20acce0645282cc2bbaa89e61b50b8d001523b,"['crash', 'numeric', 'task', 'name', 'http', 'flexget', 'trunk']",General,{'crash': 100}
+3695938f01c3c0808d3e098ecd19b8eb67d09e7c,"['crash', 'entry', 'repr', 'entry', 'task', 'http', 'flexget', 'trunk']",General,{'crash': 100}
+efc0a505b1ba928721d82fd6cb9a19ba989eb004,"['crash', 'feed', 'return', 'data', 'http', 'flexget', 'trunk']",General,{'crash': 100}
+58e711a3dba93583b04a889ffaa789879920d835,"['interval', 'plugin', 'feed', 'rerun', 'filter', 'phase', 'queue', 'plugin', 'priority', 'default', 'plugins', 'reject', 'entry', 'comparison', 'title', 'prevents', 'crash', 'http', 'flexget', 'trunk']",General,{'crash': 100}
+307f8713d74f5c8bff5cb1f83ccf6ad8e9b81b57,"['crash', 'quality', 'webui', 'movie', 'manager', 'http', 'flexget', 'trunk']",General,{'crash': 100}
+c24a7cda131536da4895255a0e01483c6b83871b,"['plugin', 'name', 'pubdate', 'field', 'plugin', 'crash', 'pubdate', 'update', 'feedparser', 'version', 'requirement', 'http', 'flexget', 'trunk']",General,{'crash': 100}
+de89589d11af642a721972a5c0fc9016cab03cae,"['upgrade', 'action', 'quality', 'issue', 'movie', 'detail', 'crash', 'http', 'flexget', 'trunk']",General,{'crash': 100}
+ee480c70b9f24ce8285adebc15ec512a0e643c30,"['crash', 'blank', 'series', 'http', 'flexget', 'trunk']",General,{'crash': 100}
+9eb846da7c44551a85f0fc053ccb401e9f37c5c0,"['crash', 'series', 'upgrade', 'http', 'flexget', 'trunk']",General,{'crash': 100}
+ccd293fed536045fd92973e663f6a49ad642c5a3,"['prowl', 'plugin', 'request', 'crash', 'prowl', 'plugin', 'unicode', 'data', 'need', 'server', 'http', 'flexget', 'trunk']",General,{'crash': 100}
+89b45b8e3eb87ed97405dd15bb4c1b7cbb907a24,"['crash', 'tmdb', 'http', 'flexget', 'trunk']",General,{'crash': 100}
+51767a09b4cc40236962797f1c4f5cdfda3b24c2,"['sure', 'feed', 'config', 'reset', 'feed', 'rerun', 'crash', 'plugin', 'http', 'flexget', 'trunk']",General,{'crash': 100}
+008b272ccc27a5a0e50aae8c40a12a80f0684d6b,"['crash', 'type', 'plugin', 'search', 'http', 'flexget', 'trunk']",General,{'crash': 100}
+6978ea92ccc6d770d75b1d0b0b45a247dab8e842,"['crash', 'deluge', 'plugin', 'movedone', 'string', 'replacement', 'http', 'flexget', 'trunk']",General,{'crash': 100}
+de5f552a7a4d0c8cfdd9df789fc94f72ea722830,"['crash', 'empty', 'presets', 'http', 'flexget', 'trunk']",General,{'crash': 100}
+bb3d6c95ffe3cbe381f997369982c571f73c6d80,"['crash', 'imdb', 'plugin', 'populate', 'field', 'http', 'flexget', 'trunk']",General,{'crash': 100}
+7738ad75fc012d98769a203afdcf0cacad1dc330,"['crash', 'input', 'cache', 'input', 'plugin', 'return', 'list', 'enable', 'input', 'cache', 'plugin', 'http', 'flexget', 'trunk']",General,{'crash': 100}
+04a76d1890fc5ee3804c036f06788c2c47e338bc,"['crash', 'torrentz', 'search', 'string', 'ascii', 'character', 'http', 'flexget', 'trunk']",General,{'crash': 100}
+1b4d4576802b4976906f494311ddac5d6f0226ab,"['crash', 'empy', 'favorite', 'list', 'http', 'flexget', 'trunk']",General,{'crash': 100}
+67fafc193b5985fac6f63b18f010067ee7726bf1,"['plugin', 'crash', 'image', 'present', 'http', 'flexget', 'trunk']",General,{'crash': 100}
+ca57c07f60a41ddaa8bd57a6cc8cf56d800fd5d2,"['crash', 'movieparser', 'lookps', 'search', 'year', 'keyword', 'parameter', 'lookup', 'method', 'year', 'movieparser', 'http', 'flexget', 'trunk']",General,{'crash': 100}
+19cea5a977a90666f1f991543b5ac4f70c85b82e,"['imdb', 'plugin', 'crash', 'entry', 'language', 'imdb', 'http', 'flexget', 'trunk']",General,{'crash': 100}
+24ed11bb41be1bc97897d767ff280ab7d5c20afd,"['crash', 'season', 'episode', 'number', 'item', 'cache', 'thetvdb', 'http', 'flexget', 'trunk']",General,{'crash': 100}
+af7e06bd88b9488ebe559ed8aa99bff852b15992,"['crash', 'delay', 'seriesparser', 'object', 'attribute', 'http', 'flexget', 'trunk']",General,{'crash': 100}
+2b969743b566fdcda0775dbe21a69cdce6d3391b,"['windowserror', 'crash', 'movie', 'page', 'linux', 'http', 'flexget', 'trunk']",General,{'crash': 100}
+8196dbab77d7e0b077575b8334667231f0c4e7ad,"['crash', 'input', 'return', 'http', 'flexget', 'trunk']",General,{'crash': 100}
+744c6480341f0c969f0ed4177079a9a45d8ce160,"['crash', 'series', 'name', 'http', 'flexget', 'trunk']",General,{'crash': 100}
+ae2f46f4d48e9c9200801b5a1bf4252f00b394b5,"['crash', 'invalid', 'configuration', 'http', 'flexget', 'trunk']",General,{'crash': 100}
+eb2a862ccbda2dc04bd9de0afa632a00793240c3,"['crash', 'movie', 'themoviedb', 'http', 'flexget', 'webui']",General,{'crash': 100}
+4129c2364d183e193751d37f1cf8b782ed332ed1,"['crash', 'thetvdb', 'lookup', 'http', 'flexget', 'trunk']",General,{'crash': 100}
+8f2518ad75cef29855ce80d1579b17e17390799e,"['crash', 'entry', 'valid', 'http', 'flexget', 'trunk']",General,{'crash': 100}
+40b1ee122d2f12f1ef8a378e260274f4a7ed626e,"['crash', 'regexps', 'group', 'value', 'http', 'flexget', 'trunk']",General,{'crash': 100}
+b0279b5f8ddceccc76ea1a0a610df0147b8809da,"['series', 'timeframe', 'crash', 'http', 'flexget', 'trunk']",General,{'crash': 100}
+13fc89b6f423582d286a6774be42a23296582e09,"['crash', 'debug', 'message', 'http', 'flexget', 'trunk']",General,{'crash': 100}
+be6addb6d3d730dd1ee25d2529fd891f670e7c1c,"['debug', 'problematic', 'pickletype', 'crash', 'http', 'flexget', 'trunk']",General,{'crash': 100}
+e336bcb4326c7001bec04f24f76dd2383cc11ce4,"['rsslink', 'crash', 'http', 'flexget', 'trunk']",General,{'crash': 100}
+ef51eae02af7ba053477bb0c42be33ca393bb490,"['crash', 'filtertvdb', 'http', 'flexget', 'trunk']",General,{'crash': 100}
+b78b596f0fe47a175fc618d30e09059bcd56060a,"['crash', 'urlerror', 'http', 'flexget', 'trunk']",General,{'crash': 100}
+379b8690c51ee107c669de3ef1d78870bb8ed5d1,"['rare', 'crash', 'error', 'message', 'http', 'flexget', 'trunk']",General,{'crash': 100}
+4fa842c671567601318607682b7f4da52dee0a87,"['crash', 'http', 'flexget', 'trunk']",General,{'crash': 100}
+fd71a6e4479481cfc5b10ae99196977531bc5595,"['crash', 'flexget', 'clean', 'task', 'look', 'flexget', 'info', 'http', 'flexget', 'trunk']",General,{'crash': 100}
+b13e11146ed7aa82223c9e47c06e526ecc3bf6fe,"['crash', 'filterimdb', 'http', 'flexget']",General,{'crash': 100}
+ab35efc9aac77bc9ddda4b3be7340dfbabc94daf,"['crash', 'entry', 'single', 'feed', 'verbosity', 'http', 'flexget', 'trunk']",General,{'crash': 100}
+08598c2d17a556c397280fc42dc36b6fc41b0e64,"['complete', 'crash', 'http', 'flexget', 'trunk']",General,{'crash': 100}
+3946c8aa4607c3bf33c2586d3d7954c585a0cb5d,"['crash', 'download', 'http', 'flexget', 'trunk']",General,{'crash': 100}
+f91df99c93b033ead33616c45450c37f43fd1416,"['lockfile', 'removal', 'block', 'crash', 'lock', 'http', 'flexget', 'trunk']",General,{'crash': 100}
+b17f44671c8e6a178ca099305dbf08ee9ca3464e,"['crash', 'feed', 'imdb', 'http', 'flexget', 'trunk']",General,{'crash': 100}
+b9d245b0ee369ec1a2e8d2386ba97308225ed260,"['filterexists', 'crash', 'option', 'guid', 'field', 'feed', 'http', 'flexget', 'trunk']",General,{'crash': 100}
+c4f0a2800b2b1a15643fe03df954f0da4afa3698,"['download', 'crash', 'modifytrackers', 'http', 'flexget', 'trunk']",General,{'crash': 100}
+7397ea94d13f349e2941dac50540d84188ee9ab8,"['inputrss', 'crash', 'unicode', 'http', 'flexget', 'trunk']",General,{'crash': 100}
+5af93e97d326916ea99c1e8b4c61a680c5e961f5,"['filterseries', 'crash', 'unknown', 'module', 'warning', 'routine', 'http', 'flexget', 'trunk']",General,{'crash': 100}
+000d750a694aaac28b13645526c766a040b090db,"['imdb', 'search', 'year', 'crash', 'http', 'flexget', 'trunk']",General,{'crash': 100}
+85062c56cf2dc39d6c7875aa05a5b2a25d12210b,"['crash', 'problem', 'http', 'flexget', 'trunk']",General,{'crash': 100}
+bcb870c2007ed8a4dde751e8e388e58258c28c93,"['session', 'session', 'dump', 'crash', 'http', 'flexget', 'trunk']",General,{'crash': 100}

@@ -1,107 +1,113 @@
-sha,message,catetory,matched,labels
-c77b4f03a25f75e0e502dcd5076d8eb0483b091a,"['libfwupdplugin', 'startup', 'check', 'version', 'libfwupddebug', 'crash', 'super', 'preventsofficial']",Risky_resource_management,{'crash': 100},
-248ea1b8a95d8ba082cfc322a31016a7449f46b1,"['crash', 'daemon', 'shuttinggtypes', 'plugin', 'gmodule', 'registeredplugins', 'method', 'unintentionallyclose', 'daemon', 'diffultissue', 'fwupd']",Risky_resource_management,{'crash': 100},
-7dac6198e7b05eae8fc4b46728acb876d583fcb7,"['possible', 'crash']",Risky_resource_management,{'crash': 100},
-119d260bd2d3781e9b24d1cc3dc1cbf11787e774,"['trivial', 'crash', 'alignment', 'fuzzingmeant', 'value', 'alignmentissue', 'detail']",Risky_resource_management,{'crash': 100},
-b4496cae81ce0087e4130addcac90c2900ad8bdf,"['possible', 'crash']",Risky_resource_management,{'crash': 100},
-6d656a940d5a24aa0234c03bada4a35b4281641a,"['metadata', 'building', 'binary', 'aarch', 'crash', 'pesign', 'metadata']",Risky_resource_management,{'crash': 100},
-a4e0de462c70efb2a04ebba5bfb2d16d3ea8835e,"['trivial', 'buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100},
-d4dbb29a6e390b2cd674c039ab58b66280f8769b,"['place', 'goodix', 'crash', 'plugin', 'mightissue', 'fwupd']",Risky_resource_management,{'crash': 100},
-9303fedae0382ac233bc38cce13a3eb64c4e4603,"['crash', 'master', 'trivial', 'fuzzingcommit', 'gnome']",Risky_resource_management,{'crash': 100},
-382524d82f99f6cf14461da5867495c742f26571,"['trivial', 'crazy', 'crash', 'thingcrash', 'value', 'feedingfirmware']",Risky_resource_management,{'crash': 100},
-e002f210667026d534ec82a0dbb94ade3d2b1d82,"['firmware', 'crash', 'corruptsafer', 'check', 'source']",Risky_resource_management,{'crash': 100},
-ef714053fe7ba91e2d4447867f38a45d0c747e62,"['crash', 'detect']",Risky_resource_management,{'crash': 100},
-05e3377d11efe84d4da7ab8a27f5e460ea2a4b72,"['trivialsafer', 'return', 'version', 'gerrorcritical', 'invalidpotential', 'warning', 'critical', 'prevents', 'crash']",Risky_resource_management,{'crash': 100},
-7713ae676f59a19cba8ab34ba98b85b6fe5776a0,"['reading', 'potential', 'goodix', 'crash', 'request']",Risky_resource_management,{'crash': 100},
-b7ca257c6d49f38ace06820a9e1eba66868ed4b3,"['crash', 'synaptics', 'setup']",Risky_resource_management,{'crash': 100},
-0b6f58394ba5edaa8c2c024c5e891de9476d0d40,"['potential', 'monitor', 'disposal', 'deadlock', 'cancelissue', 'fwupd']",Risky_resource_management,{'deadlock': 100},
-82c3e3471d5f106ef6d75defac8030e2fde0e6af,"['support', 'attribute', 'security', 'removerelevant', 'dbxtool', 'fwupd']",General,{'security': 100},
-4d2c0f804715308d9db563300fac22e09a031ad3,"['trivial', 'availableinstall', 'crash', 'version', 'fwupd', 'ninjaolder', 'fwupdtool']",Risky_resource_management,{'crash': 100},
-fb0a938f6c13dc1869531089aed0998a6c5d2f9f,"['fusecurityattrs', 'daemon', 'cachemoment', 'startup', 'fwupdtool', 'property', 'security', 'stringtwice', 'security', 'attribute']",General,{'security': 100},
-6269a839ebf770ecbef8700656426c0fe338f7bb,"['security', 'bootguard', 'attributeconfiguration']",General,{'security': 100},
-b99df2ef936b13d79bfe0055ca6cdba1795b1280,"['construct', 'security', 'attributeissue', 'fwupd']",General,{'security': 100},
-7b57ce226b9c908c30beb8b920985252fd176382,"['security', 'libfwupd', 'metadata']",General,{'security': 100},
-b1cf96abe184682bb7be6aa0547274fce3595ac7,"['systemfwupdmgr', 'security', 'fwupdtool', 'actuallysingle']",General,{'security': 100},
-b5638407533179dd4abb18c54eb317f7d2ad3ce4,"['reconstruction', 'command', 'security', 'errorlocation', 'useful', 'infrastructuresecurity']",General,{'security': 100},
-87143298cd212e6bf298a488e0eff359b90c1a9d,"['result', 'version', 'security']",General,{'security': 100},
-0f6d754d5a57c9ad9c74166841c8f615007c60a2,"['device', 'detect', 'security', 'issue']",General,{'security': 100},
-de8d40d602de07cacfb91d59d0b135eebaba9da6,"['return', 'device', 'security']",General,{'security': 100},
-d67a77cb9da1665486b03675e01777db5416e55d,"['support', 'trivialsupport', 'check', 'security']",General,{'security': 100},
-983263bc8d0bdeffbad79c90f89d8612bc083871,"['attribute', 'support', 'security', 'intelcheck', 'availablecheck', 'actuallyrequire', 'modification', 'kernel', 'accessforbidden', 'kernel', 'userland']",General,{'security': 100},
-c88d4eadf1770c3cf0df25ea2e961df60e2ac5b0,"['trivial', 'whitelist', 'runtime', 'plugin', 'engine', 'issuewhitelist', 'value', 'pluginfwupdtool', 'whitelist', 'plugin', 'security', 'force', 'buildloadingsecurityruntime', 'suffixsystem', 'update', 'device', 'firmwareruntime', 'suffixattestation', 'firmwareruntime', 'suffixplugins', 'fwupd']",General,{'security': 100},
-399859e48bfe3072a9d4e0b19f93ecdfdc9b1a52,"['trivial', 'plugins', 'security', 'status']",General,{'security': 100},
-173acd2e07d6e1508d435708cd851a879e5b9c3d,"['libfwupdstore', 'platform', 'security', 'attribute']",General,{'security': 100},
-f6b4d92daeec06e8bca9784364e78a195aefbc2d,"['device', 'parent', 'crash', 'revertdevice', 'child', 'removedevice', 'child', 'originalparentcommit', 'reverts']",Risky_resource_management,{'crash': 100},
-6c0e3d4efa8d138540e8c8447e0e87fb3de8b0a8,"['crash', 'daemon', 'pluginpluginfudevice', 'device', 'parentenough', 'valid', 'transferfudevice', 'print', 'daemon', 'critical', 'fudevice', 'detail', 'pointer', 'availabledevice', 'fudeviceitem', 'removebacktrace', 'place', 'criticals', 'fatalplugin']",Risky_resource_management,{'crash': 100},
-02b588c0351a522e882e72569f2cbc9990ccf3d7,"['parent', 'crash', 'device', 'removingedbcdfdccecdbc', 'conversion']",Risky_resource_management,{'crash': 100},
-252b0c704ed72908c74ee5528d2bb3ad126f4d19,"['leadingsecond', 'multi', 'startup', 'deadlock']",Risky_resource_management,{'deadlock': 100},
-1e571730d0b39574c3d7f2d0cc38e7c859205dbc,"['crash', 'daemon', 'child', 'removingdevice', 'childdevice', 'fudevicelist', 'child', 'device', 'parent', 'child', 'delayunique']",Risky_resource_management,{'crash': 100},
-dc01c717edbe89c373412e12a298ca2655255c71,"['trivial', 'crash', 'colorhug', 'occursreturn', 'value', 'callinggerrordevice', 'xfddbd', 'xffca', 'plugins', 'colorhug', 'errorxffca', 'errordevice', 'xffca', 'fuplugin', 'xdaabc', 'errorxdaafdevice', 'xffca', 'xdaaac', 'fuplugin', 'errordevice', 'xffca', 'xdaad', 'fuplugin', 'errorxdabccfuengine', 'xffca', 'errorprint']",Risky_resource_management,{'crash': 100},
-1dbb82d25efb3cdecca5364f7715861fbca7f823,"['character', 'newlineupdate', 'systemversionremotesummary', 'firmwarelicense', 'downgrade', 'versionrelease', 'issue', 'stable', 'description', 'followingoption', 'signatureaddress', 'firmware', 'security', 'advisory', 'intel', 'updateaddress', 'firmware', 'security', 'advisory', 'intel', 'option', 'behavior', 'adapter', 'configuration', 'system', 'thunderbolt', 'controlledservice', 'module', 'computrace', 'persistence', 'absolute', 'replaces', 'softwaresupport', 'stationupdate', 'systemversionremotesummary', 'firmwarelicense', 'downgrade', 'versionrelease', 'issue', 'stable', 'description', 'followingoption', 'signatureaddress', 'firmware', 'security', 'advisory', 'intel', 'updateaddress', 'firmware', 'security', 'advisory', 'intel', 'option', 'behavior', 'adapter', 'configuration', 'system', 'thunderbolt', 'controlledservice', 'module', 'computrace', 'persistence', 'absolute', 'replaces', 'softwaresupport', 'station']",General,{'security': 100},
-b106542aefca170a91ff1cb87f7863a9ce280b26,"['trivial', 'crash', 'fuplugin']",Risky_resource_management,{'crash': 100},
-dfaca2de2e0c125a71c83c9342e653fbc0f9f4b7,"['service', 'crash', 'fwupd', 'stoppingdebug', 'service', 'plugin', 'const', 'const', 'helper', 'pluginpotential', 'memory', 'logic', 'betterlogic', 'double', 'plugin']",Risky_resource_management,{'crash': 100},
-57816a7907e5f56c2136af31a4f1ae5186d87565,"['plugin', 'synapticsmst', 'blacklist', 'crash', 'kernel', 'kernel', 'amdgpu', 'versionwithin', 'kernel', 'amdgpuamdgpu', 'error', 'timeoutdisplay', 'amdgpu', 'warning', 'rfcomm', 'module', 'amdkfd', 'kvmgt', 'dcdbas', 'pcmcia', 'cryptd', 'chash', 'coretemp', 'uvcvideo', 'irqbypass', 'iwlmvm', 'amdgpuiwlwifi', 'video', 'option', 'usbserial', 'usbnet', 'btintel', 'btrtl', 'soundcore', 'sysimgblt', 'syscopyarea', 'sysfillrect', 'typec', 'medium', 'joydev', 'videodev', 'btusb', 'bluetooth', 'btbcmlibahci', 'ppdev', 'usbhid', 'parport', 'autofsfwupd', 'taintedlatitude', 'hardware', 'extremeamdgpueflags', 'ffffbdffffbefffffeeffffffff', 'ffffbdffffcfffffdbd', 'ffffffffedfffffdeadfffffee', 'knlgsfffefftraceamdgpuamdgpuamdgpufffaddf', 'eflagsfffaddfffaddfffadd', 'fdeaeb', 'fffaddctracekernel', 'pointer', 'dereferencefwupd', 'taintedlatitude', 'hardware', 'extremeamdgpueflags', 'ffffbdffffcffffffffcfffffffffcdeffffffff', 'ffffbdffffcfffffdbdffffbdffffddfffffee', 'knlgsfffefftraceamdgpuamdgpuamdgpufffaddf', 'eflagsfffaddfffaddfffadd', 'fdeaeb', 'rfcomm', 'module', 'amdkfd', 'kvmgt', 'dcdbas', 'pcmcia', 'cryptd', 'chash', 'coretemp', 'uvcvideo', 'irqbypass', 'iwlmvm', 'amdgpuiwlwifi', 'video', 'option', 'usbserial', 'usbnet', 'btintel', 'btrtl', 'soundcore', 'sysimgblt', 'syscopyarea', 'sysfillrect', 'typec', 'medium', 'joydev', 'videodev', 'btusb', 'bluetooth', 'btbcmlibahci', 'ppdev', 'usbhid', 'parport', 'autofstraceamdgpueflags', 'ffffbdffffcffffffffcfffffffffcdeffffffff', 'ffffbdffffcfffffdbdffffbdffffddfffffee', 'knlgsfffeff']",Risky_resource_management,{'crash': 100},
-206b70120da23c0475fa6a7345ba7ae3b8ef4b91,"['crash', 'invalid', 'parser', 'simplifyincrease', 'memory', 'splittingsimpler', 'parser']",Risky_resource_management,{'crash': 100},
-6dc8680e15be28f60a081c18749a823492fa3412,"['crash', 'response', 'empty', 'returnnever', 'integer', 'return', 'value', 'gerror']",Risky_resource_management,{'crash': 100},
-d6df0040c3e9145d2eeef2a33aa18d3006ce670b,"['potential', 'buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100},
-8a6fdf8e18cffe7e9ee4fb4b9b1816fa049cbe63,"['crash', 'device']",Risky_resource_management,{'crash': 100},
-5a878b2a08e542e1a4bac03b33658d3b83f2d175,"['crash', 'device', 'detail', 'libfwupdissue', 'hughsie', 'fwupd']",Risky_resource_management,{'crash': 100},
-86fdd975adbb725965d8a015994f023469e697d8,"['crash', 'invalid', 'client', 'daemonubuntu', 'source', 'fwupd']",Risky_resource_management,{'crash': 100},
-a667bfb76e792575d76a971ff18250043405f700,"['device', 'crash', 'command', 'downgradefwupdmgr', 'assertion', 'fwupdsignal', 'fwupdmgr', 'thread', 'segmentationoptimizedmessage', 'error']",Risky_resource_management,{'crash': 100},
-deea2da041ab728d89a3ad59fc1dbc1ef110b84d,"['version', 'thing', 'extractdirectory', 'cabinet', 'archive', 'fwupdinelegant', 'memory', 'awesome', 'privacy', 'security', 'gbytes', 'decompress', 'libgcabwithout', 'metainfospecific', 'helper', 'sensitive', 'security', 'fwupdinternal', 'libappstreamremain', 'metainfo', 'subdirectoryinstead', 'archive']",General,{'security': 100},
-8e2ca90509acb724cc53e0f4c3afd2d90afc8523,"['doublefunction', 'const', 'return', 'gchar', 'gudevwould', 'crash', 'autofree', 'causedcompiler', 'warning', 'observedqualifier', 'pointer', 'discard', 'wincompatiblewithnall']",Risky_resource_management,{'crash': 100},
-3164784d9e06858eb836b2eb81192a7b39b58425,"['capsulecapsule', 'crash', 'fwupdate', 'invalidates', 'request', 'bufferfwupdate', 'fwupd', 'libsmbiosubuntu', 'source', 'fwupd']",Risky_resource_management,{'crash': 100},
-9c028f06b5a68e5b96b497c11de448b2ca2d85d7,"['device', 'database', 'runtime', 'supportedbackport', 'support', 'distros', 'fwupdversion', 'hardwarereason', 'quirk', 'severalappstream', 'information', 'version', 'plugin', 'fwupd', 'device', 'plugin', 'mappingoften', 'fudevice', 'information', 'implication', 'plugins', 'security', 'handlequirk', 'additional', 'replacedirector', 'hardware', 'simple', 'formatstart', 'quirk', 'assumes', 'withoutissue', 'hughsie', 'fwupd']",General,{'security': 100},
-0dec274e56c23c4afdda75bb42d5b6c9928cb1b6,"['crash', 'usingdevice', 'reference', 'object', 'plugin', 'optionalarrange', 'hughsie', 'issue', 'fwupd', 'thing']",Risky_resource_management,{'crash': 100},
-c3c50fba4c7fe5513f502d80a7e553969cdec569,"['crash', 'libdfu']",Risky_resource_management,{'crash': 100},
-79acb58c7ed5b6ad4ffdd73b456252ded6ec97fb,"['crash', 'producthappen', 'thing', 'const']",Risky_resource_management,{'crash': 100},
-d82a6024e78604c7c7317ca4a11c83c92962def3,"['crash', 'device']",Risky_resource_management,{'crash': 100},
-26adb3c8192643b045c8093ca438733e447da3ab,"['trivial', 'controller', 'crash']",Risky_resource_management,{'crash': 100},
-d4184cf2c637b752e3763c484697bc8add64bce7,"['crash', 'repluggeddevice', 'ensure']",Risky_resource_management,{'crash': 100},
-208c8a819ef0ed624eb52529afc2fbe702bfccf7,"['firmware', 'crash', 'protector', 'fstackstack', 'pointer', 'protector']",Risky_resource_management,{'crash': 100},
-2cf8c4e43f47d804a54b5990210d3e8b6c684c36,"['firmware', 'crash']",Risky_resource_management,{'crash': 100},
-f3c1b56e73248ac3025cc1c75e8b660514b237ff,"['trivial', 'clang', 'crash']",Risky_resource_management,{'crash': 100},
-7774f815a784e2c4b0bc982acf954850b2b244ce,"['trivial', 'crash', 'clang']",Risky_resource_management,{'crash': 100},
-032596e80062522bc0ddb644367894b856d15d9d,"['libdfu', 'import', 'crash', 'inhex', 'severalwrite', 'simple', 'ability', 'intel']",Risky_resource_management,{'crash': 100},
-dc3ddc18d3b08e5dd36cf96d469d6ab355896abd,"['setting', 'crash', 'libdfu', 'image']",Risky_resource_management,{'crash': 100},
-8bbe21a6f881d7548a41ff043edb40aaacb19547,"['setting', 'crash', 'libdfu', 'target']",Risky_resource_management,{'crash': 100},
-7d7a2d3227449d0e59e17170efe3524005d8aeee,"['corrupt', 'crash', 'trivial', 'firmware']",Risky_resource_management,{'crash': 100},
-ac32a2a232ce6244565901eb6fb49c3b431f0551,"['invalid', 'crash', 'trivial', 'filename']",Risky_resource_management,{'crash': 100},
-9a38c03fe27d0c8f9a026a24c33a4bd414b04e2d,"['crash', 'device', 'return']",Risky_resource_management,{'crash': 100},
-d08dca72f66d010d675f5d7cde5397d49dd41ded,"['password', 'firmware', 'admin', 'scary', 'admin', 'security', 'pointkernel', 'install', 'glibc']",General,{'security': 100},
-e6455b4a4dcc9a1edd4fb55b7ae3eb7edf75b07a,"['mergedevel', 'request', 'crash', 'header', 'empty']",Risky_resource_management,{'crash': 100},
-bd214ee8e26543e1df41aa891ef1e5ea5d8f1306,"['conditional', 'statementapplication', 'crash', 'function', 'resultheader', 'empty']",Risky_resource_management,{'crash': 100},
-5fddf7112c19a53e57eaf26fc810b30abd5cef1e,"['comment', 'pylint', 'crash']",Risky_resource_management,{'crash': 100},
-f8d1b74d7893f2a76c356ef84fe5f311a4afc469,"['potential', 'crash']",Risky_resource_management,{'crash': 100},
-42f1e0bb5505e0476033eb6e17c02df724250d29,"['ensure', 'crash']",Risky_resource_management,{'crash': 100},
-611f557a25d47ef043495a4ccde196ee9cb1f4fe,"['crash', 'bridge']",Risky_resource_management,{'crash': 100},
-1aba559e25086e7bfcc4623751bac6d835fb841d,"['problemminibuffer', 'dialog', 'eithercorrect', 'crash']",Risky_resource_management,{'crash': 100},
-bc0f81c1b0df8e401ab570597ae883285d2276f8,"['crash', 'trace']",Risky_resource_management,{'crash': 100},
-0b074780863745ff99b30bd9071197abeef5846b,"['fstringify', 'crash']",Risky_resource_management,{'crash': 100},
-03b6b5361afd38110dd3dfc7a24d0b04e1fd0ce6,"['crash', 'startup']",Risky_resource_management,{'crash': 100},
-f89be7f8d0c2812a74b3d89756af56dabf052563,"['crash', 'command', 'blacken']",Risky_resource_management,{'crash': 100},
-634e9fca6e1d1252ee3cebad786301e7018acc4a,"['inspect', 'crash']",Risky_resource_management,{'crash': 100},
-75fa9b9e03d024865bbf99324f8fcd53efad37cb,"['startup', 'showdown', 'crash']",Risky_resource_management,{'crash': 100},
-b2db57fea5db91f919676dcd2e05026b90475571,"['partial', 'function', 'crash']",Risky_resource_management,{'crash': 100},
-04796e43806febf7d08ef9b5f51f7523650d78b6,"['restoremethodavoid', 'crash']",Risky_resource_management,{'crash': 100},
-67722264f9b6dbb61b496c54ea53d13b507a9e1f,"['recent', 'crasher', 'crash']",Risky_resource_management,{'crash': 100},
-6d544c393d52f26a531a54c98af1964e600880bf,"['crash', 'editor']",Risky_resource_management,{'crash': 100},
-f98fbb1c7aa6c028444fae9afc9c2996fe53a932,"['offensive', 'dangerous', 'style', 'brython']",Insecure_interaction_between_components,{'dangerous style': 90},
-64742bc164cb7edca11ba805e11ca808420a73c5,"['crash', 'optional']",Risky_resource_management,{'crash': 100},
-10742e68f7d35a3ed3b6a93e2aa41f6113dd27fa,"['crash', 'backlink']",Risky_resource_management,{'crash': 100},
-5be4bb68b47535eed8bae2644d539fd12a6bc71e,"['crash', 'globals']",Risky_resource_management,{'crash': 100},
-2b040e260d4205fe8ba4d4de306a400e7ebbc1c8,"['crash', 'command']",Risky_resource_management,{'crash': 100},
-f52f25c4137e482226f922222a66a33f0159a99b,"['crash', 'command', 'plugin', 'activebuild']",Risky_resource_management,{'crash': 100},
-1a54ca91158d1c3f60b61fe1cab56cadcc359bea,"['pyflakes', 'check', 'crash', 'importedbuild']",Risky_resource_management,{'crash': 100},
-46df3daa84cb08da410262b7f313f2e10149533e,"['button', 'script', 'crash', 'global', 'protectbuild']",Risky_resource_management,{'crash': 100},
-0f030065f880a8b3106387c62dbfa56a0037e009,"['value', 'plugin', 'security', 'restore', 'createdbuild']",General,{'security': 100},
-427edc0d122eef29ffd603ec9b8e23c39dbae521,"['crash', 'method', 'shutdown', 'dummybuild']",Risky_resource_management,{'crash': 100},
-16a73e70d40734a05d9116fcc9b2d751dc33b0ec,"['crash', 'graphcanvasgraph', 'restore', 'color', 'updatesourcebuild']",Risky_resource_management,{'crash': 100},
-d7a90c091f7e0fd2f461b520d6fc0452c0484d03,"['crash', 'click', 'canvas', 'graphbuild']",Risky_resource_management,{'crash': 100},
-ab45fbdb7fb2adcfd607d2bb561ddc003741d6c6,"['important', 'deprecate', 'improvmentscommand', 'pylint', 'printworstalways', 'clearer', 'callinginstead', 'pylint', 'invokepylint', 'dependency', 'reduceswould', 'greatalways', 'pylint', 'popen', 'shell', 'falseeliminates', 'security', 'differenceregardless', 'value', 'pylintcommandbetter', 'presentcommandbuild']",General,{'security': 100},
-a794384ca9d180598838f90219865d60a42576f4,"['ensure', 'crash', 'command']",Risky_resource_management,{'crash': 100},
-04571dbb4e7cec62be95be3d1acfa3bcf78de9c5,"['crash', 'python', 'shutdown', 'fixedaddedtrace', 'shutdown', 'nevercrucialcloseleowindow', 'framedestroywindowbuild']",Risky_resource_management,{'crash': 100},
-f54404759371aab97ebcf98376f2156b95980a9a,"['interaction', 'crash', 'declutterheadkey', 'result', 'search', 'headlinesecond', 'search', 'headlineheadline', 'leaveqlineedit', 'focus', 'updatebuild']",Risky_resource_management,{'crash': 100},
-41d9b87884d5075c060ed13b4b59af8d7d39927e,"['infrastructure', 'crash', 'deactivate', 'existscompletes', 'albeit', 'single']",Risky_resource_management,{'crash': 100},
-37a1c4d20a5a4061cd2218b291a331141fcd0b54,"['guard', 'plugins', 'crash']",Risky_resource_management,{'crash': 100},
-d0acc5bebcf5ebc0bffe0cebad65886e71330972,"['session', 'crash']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+e6455b4a4dcc9a1edd4fb55b7ae3eb7edf75b07a,"['pull', 'request', 'atikhonov', 'devel', 'crash', 'node', 'header', 'empty']",General,{'crash': 100}
+bd214ee8e26543e1df41aa891ef1e5ea5d8f1306,"['conditional', 'statement', 'crash', 'application', 'result', 'function', 'empty', 'node', 'header']",General,{'crash': 100}
+668f6de5eb2ef55c1dff5fc73c927dade50799c8,"['pull', 'request', 'editor', 'threadutil', 'crash', 'threadutil']",General,{'crash': 100}
+d3e609354462e4725f9ae5a6970be229a6c6dd9d,"['crash', 'threadutil']",General,{'crash': 100}
+5fddf7112c19a53e57eaf26fc810b30abd5cef1e,"['comment', 'line', 'pylint', 'crash']",General,{'crash': 100}
+3b4275185430b787e18dd1aa8b033540863cd1d7,"['pull', 'request', 'editor', 'crash']",General,{'crash': 100}
+f8d1b74d7893f2a76c356ef84fe5f311a4afc469,"['potential', 'crash', 'quickmove']",General,{'crash': 100}
+ac4ddbfe40b243b5b3ebe60bab3bc6f1c0aaea76,"['pull', 'request', 'editor', 'crash', 'leoflexx']",General,{'crash': 100}
+42f1e0bb5505e0476033eb6e17c02df724250d29,"['ensure', 'truncate', 'crash']",General,{'crash': 100}
+0043bebde391c2a158c350638cc6e87de60f0c35,"['workaround', 'recent', 'crash']",General,{'crash': 100}
+8a80a08b375ab8b51e26da31a49c3aac88583822,"['pull', 'request', 'editor', 'undo', 'crash']",General,{'crash': 100}
+7cedd9d95e2c55f9a91927213f9f6a7f22ef607a,['crash'],General,{'crash': 100}
+56c2f526a10adec7aa1ba5ab387754328cc3fdd1,"['pull', 'request', 'editor', 'quicksearch', 'crash', 'quicksearch', 'plugin']",General,{'crash': 100}
+611f557a25d47ef043495a4ccde196ee9cb1f4fe,"['crash', 'bridge']",General,{'crash': 100}
+bc0f81c1b0df8e401ab570597ae883285d2276f8,"['trace', 'crash']",General,{'crash': 100}
+52e53bd412964e316ebb24e71cffee34e834bb3c,"['hurray', 'crash']",General,{'crash': 100}
+808b97ccc742fbe5df0cb8800b866898e09dfc0c,"['crash', 'mystery']",General,{'crash': 100}
+812fa0dc301dc0d7b810b9ea9fb7015f3e78c2d9,"['crash', 'visit']",General,{'crash': 100}
+0b074780863745ff99b30bd9071197abeef5846b,"['file', 'command', 'fstringify', 'crash']",General,{'crash': 100}
+03b6b5361afd38110dd3dfc7a24d0b04e1fd0ce6,"['crash', 'startup']",General,{'crash': 100}
+f89be7f8d0c2812a74b3d89756af56dabf052563,"['crash', 'blacken', 'command', 'black']",General,{'crash': 100}
+37a04e5c4292d69dd33de14265d2d86c77cf99b4,"['reference', 'stack', 'overflow', 'discussion']",Risky_resource_management,{'stack overflow': 100}
+cbee02f1e25305a5b75c44608f89427975cf850c,"['show', 'setting', 'synonym', 'show', 'setting', 'synonym', 'filename', 'crash', 'mfilename']",General,{'crash': 100}
+2dd87cb068294a25add1de86e594b0b0ce035c70,"['crash', 'quicksearch']",General,{'crash': 100}
+9bc270fe4205b1471e94a982c4143703dee5d193,"['creates', 'qdockwidgets', 'dock', 'true', 'quicksearch', 'crash', 'straightforward']",General,{'crash': 100}
+634e9fca6e1d1252ee3cebad786301e7018acc4a,"['crash', 'inspect']",General,{'crash': 100}
+bc4f9692a71d2da1d003d664df7dcda384236e5e,"['sure', 'crash']",General,{'crash': 100}
+0493103ffec19603b3f9b9fd2e26f900efb4d503,"['work', 'delete', 'editor', 'legacy', 'code', 'hard', 'crash']",General,{'crash': 100}
+fd8c59414bd354d564f6f1e63c4d51a8d5232d2b,['crash'],General,{'crash': 100}
+b6c9e7b05a92bb4198c00ab90dc8c2281730c001,"['monkey', 'patch', 'debug', 'statechange', 'suppresses', 'crash', 'menu', 'false', 'furthermore', 'shell']",General,{'crash': 100}
+578adc29f4460634178c906d368bde9f5c90ae42,"['switch', 'crash']",General,{'crash': 100}
+b2f223aa5700ca4a50ef1113fb0e098a78ffd16b,"['patch', 'lexers', 'rule', 'patch', 'crash', 'diff', 'token', 'type']",General,{'crash': 100}
+49ed1b519ae8c1e8ecbb80fe08e78dcd8584790e,"['startup', 'crash', 'nullobjects', 'unusable']",General,{'crash': 100}
+04796e43806febf7d08ef9b5f51f7523650d78b6,"['restore', 'ratio', 'fastread', 'readfile', 'method', 'need', 'getpos', 'crash', 'startup']",General,{'crash': 100}
+67722264f9b6dbb61b496c54ea53d13b507a9e1f,"['recent', 'crasher', 'shadow', 'logic', 'shadow', 'crash']",General,{'crash': 100}
+6d544c393d52f26a531a54c98af1964e600880bf,"['crash', 'ctrl', 'editor']",General,{'crash': 100}
+0ab10ebcd9db7d18551a9faa71e9827a6f5d0596,"['work', 'minibuffer', 'minibuffer', 'wrapper', 'necessary', 'fullcommand', 'getarg', 'minibuffer', 'wrapper', 'subclass', 'nullminibuffer', 'class', 'crash', 'updatelabel', 'potential', 'crash']",General,{'crash': 100}
+083c27ee37ed43649e35d31a40c1c5a2f4021285,"['emitter', 'main', 'window', 'minibuffer', 'status', 'line', 'tree', 'item', 'nulllog', 'class', 'note', 'browser', 'crash', 'ctrl']",General,{'crash': 100}
+f2aba7098554c47d408caa6e6725a8b885d21693,"['problem', 'crash', 'crasher', 'report', 'update', 'experimental']",General,{'crash': 100}
+64742bc164cb7edca11ba805e11ca808420a73c5,"['framefactory', 'optional', 'ivar', 'crash', 'unit', 'test']",General,{'crash': 100}
+b7174413e7292bc42f3997d5aa34b29f9a69dff1,"['security', 'hole', 'local', 'file', 'data', 'http', 'script', 'function', 'simplify', 'nodewatch']",General,{'security': 100}
+10742e68f7d35a3ed3b6a93e2aa41f6113dd27fa,"['backlink', 'crash']",General,{'crash': 100}
+5be4bb68b47535eed8bae2644d539fd12a6bc71e,"['scanglobals', 'crash', 'globals']",General,{'crash': 100}
+d10a026010fcd701ba80ac8a9d01f1a61d15cf41,"['list', 'leoqtgui', 'class', 'ignorechars', 'specialchars', 'fkeys', 'list', 'leoqtgui', 'nullgui', 'class', 'test', 'isplainkey', 'check', 'symbol', 'nullgui', 'class', 'contains', 'empty', 'list']",Insecure_interaction_between_components,{'specialchars': 96}
+077587438605d7133c5b983220ca703b144a0035,"['ctrl', 'crash', 'weird']",General,{'crash': 100}
+57729ba83283063d72130847264b5dd5011386fd,"['special', 'work', 'ignorechars', 'specialchars', 'fkeys', 'logic', 'rewrote', 'isplainkey']",Insecure_interaction_between_components,{'specialchars': 96}
+f2c2d05e3847d103f88bef068abe915ec5062184,"['crash', 'show']",General,{'crash': 100}
+f52f25c4137e482226f922222a66a33f0159a99b,"['command', 'crash', 'plugin', 'active']",General,{'crash': 100}
+4db0907984945ec42a1cb0ab2279208664d2915a,"['command', 'crash']",General,{'crash': 100}
+1a54ca91158d1c3f60b61fe1cab56cadcc359bea,"['pyflakes', 'check', 'warning', 'crash', 'pyflakes']",General,{'crash': 100}
+1c1bfee33b4c96f485720767df4c4d51fbfda738,"['kind', 'recursion', 'core', 'file', 'crash']",General,{'crash': 100}
+0f030065f880a8b3106387c62dbfa56a0037e009,"['value', 'plugin', 'restore', 'value', 'security', 'warning']",General,{'security': 100}
+83d2370bb8e4a4dadc7cc5c9efe4f17347b94438,"['revert', 'security', 'warning', 'code', 'comment']",General,{'security': 100}
+23602085fddb22e04e6912ea226064cd9dfb39e0,"['security', 'warning', 'word', 'script', 'node']",General,{'security': 100}
+49076fe68c4fb477c4cd861bfa5f8123fde6e541,"['leolog', 'leologtextfield', 'class', 'pane', 'test', 'various', 'class', 'crash', 'exit']",General,{'crash': 100}
+427edc0d122eef29ffd603ec9b8e23c39dbae521,"['dummy', 'method', 'crash', 'shutdown']",General,{'crash': 100}
+6db27e23141bafc456ea00c062097e80313c380f,"['dummy', 'method', 'ctrl', 'ctrl', 'crash', 'ctrl', 'exit']",General,{'crash': 100}
+5ff0bd84676a3f8f5f78f30348a93c1fba3877f4,"['monkey', 'patch', 'show', 'ctrl', 'crash', 'report']",General,{'crash': 100}
+a503fe3738ceb5e69b40567f773dc6a205308d71,"['major', 'milestone', 'class', 'code', 'crash', 'frame', 'specific', 'code', 'wgwidget', 'cursesgui', 'print', 'logger', 'test']",General,{'crash': 100}
+0e9bc088fb2edfcf86c1fa4e0382fc53670eff83,"['cursesframe', 'cursesmenu', 'class', 'attribute', 'startup', 'crash']",General,{'crash': 100}
+67a758b7ead3a936a48308f8aa619fdec8031602,"['beautify', 'node', 'test', 'http', 'github', 'editor', 'editor', 'issue', 'function', 'stack', 'overflow', 'work', 'python']",Risky_resource_management,{'stack overflow': 100}
+16a73e70d40734a05d9116fcc9b2d751dc33b0ec,"['crash', 'graphcanvas', 'graph', 'update', 'node', 'color', 'tree', 'redraw', 'source']",General,{'crash': 100}
+d7a90c091f7e0fd2f461b520d6fc0452c0484d03,"['crash', 'click', 'graph', 'canvas', 'node']",General,{'crash': 100}
+ab45fbdb7fb2adcfd607d2bb561ddc003741d6c6,"['important', 'improvments', 'pylint', 'deprecate', 'pylint', 'command', 'print', 'pane', 'kind', 'wrapper', 'flexible', 'pylint', 'invoke', 'lint', 'reduces', 'dependency', 'pylint', 'great', 'need', 'pylint', 'false', 'popen', 'ctor', 'security', 'concern', 'difference', 'platform', 'pylintcommand', 'work', 'regardless', 'value', 'present', 'show', 'user', 'command', 'test']",General,{'security': 100}
+05f4fd3c7bbe3d7fd268c81deb8d81c543bf10e9,"['crash', 'core', 'forgot', 'update', 'hook']",General,{'crash': 100}
+a794384ca9d180598838f90219865d60a42576f4,"['ensure', 'crash', 'command', 'crash']",General,{'crash': 100}
+0dcce11065b401a27759ee4ec82c4b95fdde4096,"['delay', 'syntax', 'large', 'text', 'node', 'large', 'text', 'present', 'code', 'ultimate', 'source', 'delay', 'large', 'text', 'syntax', 'self', 'experiment', 'show', 'dummy', 'text', 'lead', 'data', 'loss', 'path', 'selection', 'logic', 'attemp', 'failure', 'load', 'body', 'widget', 'data', 'loss', 'slow', 'load', 'time']",Risky_resource_management,{'data loss': 100}
+80763c592993b1781ef64f35526930f258cb8938,"['full', 'ileo', 'error', 'show', 'ipython', 'console', 'http', 'github', 'editor', 'editor', 'issue', 'describe', 'stack', 'overflow', 'http', 'question', 'traceback', 'form', 'ipython', 'shell', 'code', 'bitty', 'piece', 'code', 'hour']",Risky_resource_management,{'stack overflow': 100}
+04571dbb4e7cec62be95be3d1acfa3bcf78de9c5,"['hard', 'crash', 'python', 'switch', 'trace', 'trace', 'shutdown', 'destroywindow']",General,{'crash': 100}
+dbf32fe775e4309ae8b58cd7e58d2ea2495b822e,"['large', 'file', 'crash', 'activepath', 'plugin', 'active', 'path', 'toggle', 'autoload', 'bool', 'active', 'path', 'autoload', 'control', 'active', 'path', 'directory', 'actual', 'problem', 'autoload']",General,{'crash': 100}
+f54404759371aab97ebcf98376f2156b95980a9a,"['hard', 'crash', 'declutter', 'interaction', 'search', 'result', 'headline', 'headkey', 'fire', 'headline', 'declutter', 'headline', 'edit', 'mode', 'crash', 'edit', 'mode', 'update', 'qlineedit', 'focus']",General,{'crash': 100}
+c2465dd0f7dafb994c6980ef9832e72be77ed987,"['dict', 'crash']",General,{'crash': 100}
+41d9b87884d5075c060ed13b4b59af8d7d39927e,"['deactivate', 'unit', 'test', 'hard', 'crash', 'bridge', 'infrastructure', 'exists', 'case', 'reasonable', 'single', 'unittest', 'completion', 'albeit']",General,{'crash': 100}
+baa01b14dade2c57120d367af6fba56b258157a5,"['file', 'open', 'crash', 'finish', 'file', 'command', 'line']",General,{'crash': 100}
+f61d4f3eae74f5cf13453331db9915aaf4d6982f,"['chapter', 'chapter', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+37a1c4d20a5a4061cd2218b291a331141fcd0b54,"['crash', 'plugins', 'cursesgui']",General,{'crash': 100}
+d0acc5bebcf5ebc0bffe0cebad65886e71330972,"['notepad', 'setting', 'afaik', 'session', 'crash', 'list']",General,{'crash': 100}
+77f31609e361975fe9c7c829ca15cfaf89dfa262,"['guard', 'wikiview', 'plugin', 'ctor', 'crash', 'unit', 'test']",General,{'crash': 100}
+c8fd2b25ed7c0c045cfd3a02091db5b841199d8f,"['file', 'association', 'crash', 'http', 'editor']",General,{'crash': 100}
+d80db278ab5f1ebf6c2e743a8b203d2a4b2e656f,"['attempt', 'crash', 'whoosh']",General,{'crash': 100}
+632f54e7ec5e29250c1b467e4967af082bc2db68,"['qcompleter', 'crash', 'weird', 'klass', 'hack', 'definition', 'getinsertpoint', 'frame', 'body', 'trace', 'assert', 'place', 'code']",General,{'crash': 100}
+ab65d710649c32813d9a61f78e219439791608e4,"['assertui', 'assertui', 'bookmark', 'bookmark', 'crash', 'bridge', 'class', 'flowlayout', 'level', 'init', 'method', 'method', 'version', 'history', 'section', 'message', 'sufficient']",General,{'crash': 100}
+718b8772b1fa701e20787db6d235a33ae9ac6e63,"['wrong', 'bookmark', 'plugin', 'crash', 'null', 'bridge']",General,{'crash': 100}
+b1e9e8c399835934d42df08b29b487366450c6cd,"['pylint', 'crash']",General,{'crash': 100}
+293ef9f914235e6d589ae5aa1ce4b79acaf637ec,"['pylint', 'crash']",General,{'crash': 100}
+086a7edc14de370709587fa9114f2f2052a85a51,"['comment', 'pylint', 'crash', 'leoqt']",General,{'crash': 100}
+e838b42e4a4f9ec8f3d0505a976e66ad95b00c18,"['comment', 'pylint', 'crash']",General,{'crash': 100}
+a74dfe1fb8b4bde9392bda672bbd443f7c02c2a0,"['pylint', 'crash', 'signal']",General,{'crash': 100}
+bd65e6ec3ed8ea0dec08065595128daa89dd006f,"['defensive', 'code', 'able', 'duplicate', 'crash']",General,{'crash': 100}
+cf98a9a173f6b5408baed12a0a83a1c4c388545c,"['work', 'leoqt', 'import', 'work', 'pylint', 'leoqt', 'module', 'basenativetree', 'strange', 'test', 'pylint', 'crash']",General,{'crash': 100}
+7f6c5bb42205d9ef1b3b30515b749979e93d7743,"['attempt', 'insecure', 'leoversion', 'code']",General,{'insecure': 100}
+06981d69a104cbdeeb1d45cb9189fcf91c15e4e5,"['important', 'security', 'reversion']",General,{'security': 100}
+3a45647a89fbc7777f253ce4066173c84b61b772,"['nodewatch', 'security', 'bool', 'valid', 'local', 'context']",General,{'security': 100}
+43f7feb9a7308dcd8ced0b58f5ec3cba92362a79,"['global', 'list', 'crash', 'level', 'vnode', 'code']",General,{'crash': 100}
+b466505618ca8b017effbd43d40a1fc9d4d2768d,"['guard', 'weird', 'crash']",General,{'crash': 100}
+0a9c6b90d5ad04d2e30c0d24887ce2688d9aeb4d,"['autocompletion', 'crash', 'setfilter']",General,{'crash': 100}
+a493e48b8555e700cce4547b3ac4ee9d0a3a2411,"['data', 'loss', 'command', 'line', 'somefile']",Risky_resource_management,{'data loss': 100}
+a6afe7034ab8dc0a4641eeeacba4ac3ca5fbd2c4,"['number', 'performance', 'reliability', 'improvement', 'crash', 'ctor', 'double', 'speed', 'python', 'colorizer', 'init', 'code']",General,{'crash': 100}
+5db47bd3260d9b773fe1628b867afd7fe6cca49c,"['hard', 'python', 'crash']",General,{'crash': 100}
+a9192fcb88aa31962225af4f3cf46424b879712f,"['crash', 'leobridge', 'readsettings', 'argument', 'global', 'dicts', 'true', 'false', 'unit', 'test', 'pylint']",General,{'crash': 100}
+01afa4dbc10690724d6071ae5a54bc5876eaf847,"['recent', 'open', 'logic', 'rclick', 'contextmenu', 'crash']",General,{'crash': 100}
+226a8f45004eac89b5af9bf03b10979ef3d3b211,"['kent', 'crash', 'comparetokens', 'ignore', 'case', 'html', 'infrastructure', 'html', 'token', 'comparison', 'unit', 'test', 'permissive', 'version', 'filtertokens']",General,{'crash': 100}
+00a9254c653e7754387d3df790282f63d28cb31a,"['import', 'file', 'file', 'crash', 'class']",General,{'crash': 100}
+62797bbba86746518d8ebd8e3e3c00611e83b5d4,"['event', 'args', 'keyhandler', 'method', 'python', 'crash']",General,{'crash': 100}
+a5055825deb4cef978d3a4f1dd4413366061cd82,"['file', 'association', 'crash', 'report', 'window', 'batch', 'file', 'http', 'edreamleo', 'html']",General,{'crash': 100}
+f3be7a292d40bf3650ed628cd00af5d599af5422,"['crash', 'valuespace']",General,{'crash': 100}
+4e94e5ff9f7fd2d1ec00bb0d2b668be15e2ea31f,"['stringlist', 'valuespace', 'crash', 'load']",General,{'crash': 100}
+59097cd66e1e513fe4aa7f1efae77f48785805c7,"['codewise', 'coerce', 'prefix', 'crash', 'python']",General,{'crash': 100}
+6646495bf5951e237ddf8b546cf78ab631666c6e,"['import', 'pythonk', 'crash']",General,{'crash': 100}
+7c07b9e3fc943bf137e572317a6e454a8fec9f5b,"['typeerror', 'crash', 'printgcall']",General,{'crash': 100}
+74cf402f99d53f0e2867597d12ab9dab0a49948c,"['graphcanvas', 'crash']",General,{'crash': 100}
+e0d17d651ed6990c386d468aad6bde0556cfb582,"['major', 'progress', 'installer', 'modern', 'interface', 'simplifies', 'installer', 'look', 'aspect', 'installer', 'custom', 'page', 'present', 'look', 'python', 'order', 'warns', 'note', 'python', 'executable', 'desktop', 'icon', 'menu', 'shortcut', 'case', 'problem', 'install', 'path', 'contains', 'space', 'problem', 'occurs', 'file', 'test', 'folder', 'symptom', 'checker', 'crash', 'path', 'spellpyx', 'invalid', 'figure']",General,{'crash': 100}

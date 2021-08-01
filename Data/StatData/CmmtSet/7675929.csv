@@ -1,12 +1,27 @@
-sha,message,catetory,matched,labels
-d6a2d4ebb8e7289da33eabe6442edc299c232ffc,"['session', 'crash']",Risky_resource_management,{'crash': 100},
-bdfef04c015f0b5898767f1aec46d652ffcded33,"['setterautologin', 'display', 'crash']",Risky_resource_management,{'crash': 100},
-2d22db89bacaf9a374ba33052bed98f7604a5b85,"['crash', 'potential', 'preventprocess']",Risky_resource_management,{'crash': 100},
-93db7c56f26eef00ae204a9d23ca07b4cfaf6e7c,"['character', 'entry', 'termination', 'strncpy', 'termination', 'charactersourceleavingentry', 'strncpy', 'makingissue', 'security']",General,{'security': 100},
-7fa6dd8e10e7f441b36c6c08e7c0e7f870530ed8,"['pointer', 'socketserverfails', 'crashingfails', 'changelog', 'crash']",Risky_resource_management,{'crash': 100},
-460ff6d97d33cbd5c77d64798f3e2b1d6a8e31b0,"['pointer', 'socketserverfails', 'crashingfails', 'changelog', 'crash']",Risky_resource_management,{'crash': 100},
-56f64173991204a1eea4bf6789d68555b94e3eae,"['configuration', 'crash', 'readingreference']",Risky_resource_management,{'crash': 100},
-4cfed6b0a625593fb43876f04badc4dd99799d86,"['hander', 'greeter', 'debug', 'loadingtheme', 'component', 'automaticallycrashgreeter', 'crash', 'wouldalbeit', 'plasma', 'theme', 'workspace', 'breezesafest', 'variable', 'theme', 'environment']",Risky_resource_management,{'crash': 100},
-c169cc2288bdc33b76f02495c077720212830236,"['backend', 'authentication', 'passwd', 'buildclose']",Porous_defenses,{'authentication passwd': 90},
-89e207bfd49dbe401959d70beb10ddd50bf4b4f5,"['crash', 'double']",Risky_resource_management,{'crash': 100},
-ef9c9b35b90b364af8eb36d5e4374b10ab400284,"['sessiontwice', 'login', 'crash', 'logout']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+d6a2d4ebb8e7289da33eabe6442edc299c232ffc,"['crash', 'test', 'mode']",General,{'crash': 100}
+bdfef04c015f0b5898767f1aec46d652ffcded33,"['initialise', 'greeter', 'setter', 'display', 'parent', 'crash', 'autologin', 'display', 'server']",General,{'crash': 100}
+2d22db89bacaf9a374ba33052bed98f7604a5b85,"['potential', 'crash', 'mode', 'process']",General,{'crash': 100}
+be202f533ab98a684c6a007e8d5b4357846bc222,"['access', 'control', 'startup', 'auth', 'file', 'empty', 'local', 'application', 'user', 'system', 'display', 'number', 'sddm', 'sddm', 'entry', 'file', 'work', 'chicken', 'problem', 'display', 'number', 'auth', 'file', 'successful']",Porous_defenses,{'access control': 100}
+74394fd1cff26b0516af87539906a31bf2f49825,"['abort', 'failure', 'display', 'server', 'sddm', 'fatal', 'error', 'trigger', 'abort', 'unclean', 'shutdown', 'core', 'dump', 'case', 'setup', 'lead', 'frequent', 'service', 'restarts', 'result', 'core', 'dump', 'seat', 'switchtogreeter', 'data', 'loss', 'critical', 'error']",Risky_resource_management,{'data loss': 100}
+ec16a2414961493d3e1e44e378395be61dca8cbe,"['sddm', 'service', 'limit', 'restarts', 'possible', 'sddm', 'crash', 'loop', 'systemd', 'default', 'block', 'restarts', 'sddm', 'slow', 'start', 'trigger', 'limit', 'restarts', 'work', 'slow', 'system', 'complex', 'theme', 'http']",General,{'crash': 100}
+93db7c56f26eef00ae204a9d23ca07b4cfaf6e7c,"['string', 'termination', 'character', 'utmp', 'entry', 'strncpy', 'character', 'termination', 'character', 'entry', 'char', 'long', 'source', 'byte', 'copy', 'null', 'termination', 'entry', 'construction', 'making', 'sure', 'strncpy', 'security', 'issue', 'utmp', 'safe', 'string']",General,{'security': 100}
+7fa6dd8e10e7f441b36c6c08e7c0e7f870530ed8,"['pointer', 'socketserver', 'sddm', 'load', 'changelog', 'auth', 'crash', 'xorg']",General,{'crash': 100}
+460ff6d97d33cbd5c77d64798f3e2b1d6a8e31b0,"['pointer', 'socketserver', 'sddm', 'load', 'changelog', 'auth', 'crash', 'xorg']",General,{'crash': 100}
+e41e2b4d24f0ac38f5a5b417df70ee5cc0f12ee1,"['potential', 'tiny', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+56f64173991204a1eea4bf6789d68555b94e3eae,"['crash', 'reading', 'list', 'configuration', 'check', 'line', 'string', 'reference', 'null', 'string']",General,{'crash': 100}
+4cfed6b0a625593fb43876f04badc4dd99799d86,"['debug', 'hander', 'theme', 'component', 'load', 'crash', 'handler', 'greeter', 'crash', 'handler', 'action', 'albeit', 'sddm', 'user', 'sddm', 'user', 'breeze', 'theme', 'plasma', 'workspace', 'variable', 'future', 'theme', 'library']",General,{'crash': 100}
+0622e7d24e7e0658dc43a5a1b8b1ccaa662f4486,"['pull', 'request', 'davidedmundson', 'memory', 'leak', 'sddm']",Risky_resource_management,{'memory leak': 100}
+a768f5f40682ce73c46cf848d0bbfdaeeca69c57,"['memory', 'leak', 'sddm']",Risky_resource_management,{'memory leak': 100}
+a3c30751cfd8b5ebe16680a916b1b13736044eb2,"['pull', 'request', 'martinbriza', 'pamcrash', 'crash', 'double']",General,{'crash': 100}
+89e207bfd49dbe401959d70beb10ddd50bf4b4f5,"['crash', 'double', 'free', 'sddm', 'sddm']",Risky_resource_management,{'double free': 100}
+9fca51657eebbd081c909d73be804408ad45cb85,"['pull', 'request', 'martinbriza', 'memory', 'leak', 'environment']",Risky_resource_management,{'memory leak': 100}
+41c5856df72e2ac0706772a191d30b3e6ddf6e11,"['memory', 'leak', 'environment']",Risky_resource_management,{'memory leak': 100}
+e707e22901049495818a9bedf71f0ba829564700,"['pull', 'request', 'martinbriza', 'memleak', 'memory', 'leak', 'system']",Risky_resource_management,{'memory leak': 100}
+a25b1bbb726bed8bc83146a7e57790056277fa48,"['memory', 'leak', 'system']",Risky_resource_management,{'memory leak': 100}
+ef9c9b35b90b364af8eb36d5e4374b10ab400284,"['session', 'user', 'session', 'crash', 'login', 'logout', 'systemd']",General,{'crash': 100}
+9e5f6dafd50f9e420b4fdc83683edfc0675bbaac,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+08be86f148f60216dc3e2199cebc03e0ea42ab6c,"['display', 'display', 'server', 'display', 'server', 'crash']",General,{'crash': 100}
+7c16088262e896a7075f34c9d893519b217cd88d,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+f25ccb1408c4f082855f0ebcc59e22cf16ab0c7e,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+ecb296c1aaff7050dd735f3c47825c3003bb49a0,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}

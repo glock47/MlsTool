@@ -1,11 +1,21 @@
-sha,message,catetory,matched,labels
-33aa349eadd810fe2db63fa2d93ec932b9834f49,"['mergemerge', 'request', 'deadlock', 'matthewloringdeadlock', 'group', 'handleerror', 'consumer']",Risky_resource_management,{'deadlock': 100},
-7f8505057ab96daf938460eea8c3dd6f93909518,"['deadlock', 'group', 'close', 'consumer']",Risky_resource_management,{'deadlock': 100},
-d6a75f307ac2d2191955ecd0ecc1c366d14dc287,"['mergemerge', 'request', 'bailu', 'masterconsumer', 'group', 'multi', 'instance', 'crash']",Risky_resource_management,{'crash': 100},
-fb79fb6ede75e500d2429cfa2dc36979db9427f6,"['consumer', 'group', 'multi', 'instance', 'crash']",Risky_resource_management,{'crash': 100},
-dca1ba6cd0489ab65e30802178f358d26a5b2848,"['aksdb', 'deadlock', 'requestheartbeat', 'potential', 'deadlock', 'request']",Risky_resource_management,{'deadlock': 100},
-6c949c05b23cb3eb7eef2623131d1f6b3c234978,"['heartbeat', 'potential', 'deadlock', 'request']",Risky_resource_management,{'deadlock': 100},
-587c5f694aa205b2eab61b1dceedf9d17250bee7,"['individual', 'idempotent', 'revert', 'retriesbatch', 'retries', 'idempotent', 'deadlock', 'avoidssequence', 'solveproof', 'idempotent', 'producer', 'concept', 'edoardo', 'comar', 'maison', 'mickael']",Risky_resource_management,{'deadlock': 100},
-f0f5b0ae1ae85915787dfc8fd196eeb874f7032d,"['channel', 'consumer', 'deadlock']",Risky_resource_management,{'deadlock': 100},
-527a3d33cb60fd9cb50e294f33232ce5f082af77,"['deadlock', 'shopify', 'requesthypothetical', 'attempt', 'consumer']",Risky_resource_management,{'deadlock': 100},
-b2e844a45f5e5fd43c9cd4b160a5d419beddc614,"['deadlock', 'shopify', 'requestalways', 'errorcb', 'flushrequest']",Risky_resource_management,{'deadlock': 100},
+sha,message,catetory,matched
+4ee86d9c4d49e2d434afa98c39f7db9276ff7d17,"['pull', 'request', 'darklore', 'memory', 'leak', 'memory', 'leak', 'broker', 'open', 'broker']",Risky_resource_management,{'memory leak': 100}
+ca7391280e661bc67489e57e45bf964315fd12c2,"['memory', 'leak', 'broker', 'open', 'broker']",Risky_resource_management,{'memory leak': 100}
+33aa349eadd810fe2db63fa2d93ec932b9834f49,"['pull', 'request', 'deadlock', 'deadlock', 'consumer', 'group', 'handleerror']",Risky_resource_management,{'deadlock': 100}
+7f8505057ab96daf938460eea8c3dd6f93909518,"['deadlock', 'consumer', 'group']",Risky_resource_management,{'deadlock': 100}
+9ba6d8e14f84c29788eb1e0cf8020c396a621182,"['test', 'logger', 'modification', 'data', 'racein', 'travis', 'warning', 'data', 'race', 'goroutine', 'github', 'shopify', 'sarama', 'broker', 'close', 'home', 'travis', 'gopath', 'github', 'shopify', 'sarama', 'broker', 'github', 'shopify', 'home', 'travis', 'gopath', 'github', 'shopify', 'sarama', 'utils', 'github', 'shopify', 'home', 'travis', 'gopath', 'github', 'shopify', 'sarama', 'utils', 'goroutine', 'github', 'shopify', 'home', 'travis', 'gopath', 'github', 'shopify', 'sarama', 'trunner', 'home', 'travis', 'version']",Risky_resource_management,{'data race': 100}
+3e595ba288eeda41347f26831fb94282024f8aeb,"['support', 'protocol', 'kafka', 'producer', 'performance', 'security', 'protocol', 'flag', 'plaintext', 'default', 'cert', 'client', 'cert', 'client', 'flag', 'configure', 'broker', 'client', 'mutual', 'authentication', 'verbose', 'flag', 'outgoing', 'byte', 'rate', 'metric', 'real', 'throughput']",General,{'security': 100}
+d6a75f307ac2d2191955ecd0ecc1c366d14dc287,"['pull', 'request', 'bailu', 'master', 'multi', 'consumer', 'group', 'instance', 'crash']",General,{'crash': 100}
+fb79fb6ede75e500d2429cfa2dc36979db9427f6,"['multi', 'consumer', 'group', 'instance', 'crash']",General,{'crash': 100}
+dca1ba6cd0489ab65e30802178f358d26a5b2848,"['pull', 'request', 'aksdb', 'heartbeat', 'deadlock', 'potential', 'deadlock', 'heartbeat', 'request']",Risky_resource_management,{'deadlock': 100}
+6c949c05b23cb3eb7eef2623131d1f6b3c234978,"['potential', 'deadlock', 'heartbeat', 'request']",Risky_resource_management,{'deadlock': 100}
+587c5f694aa205b2eab61b1dceedf9d17250bee7,"['individual', 'retries', 'idempotent', 'idempotent', 'batch', 'retries', 'goroutine', 'deadlock', 'race', 'lead', 'sequence', 'error', 'idempotent', 'producer', 'proof', 'concept', 'quality', 'edoardo', 'comar', 'ecomar', 'mickael', 'maison', 'mickael', 'maison', 'gmail']",Risky_resource_management,{'deadlock': 100}
+68958ef91f701d5402a33dc032536eac8fcabbb7,"['memory', 'alignment', 'atomic', 'test', 'crash', 'architecture', 'http', 'debian', 'bugreport', 'archive']",General,{'crash': 100}
+f0062da5ae1a62f7841e563a244e11a5ad9b96d7,"['sync', 'producer', 'config', 'constructor', 'thing', 'alexander', 'zhuravlev', 'data', 'race', 'async', 'producer', 'config', 'object', 'validate', 'return', 'config', 'error', 'user']",Risky_resource_management,{'data race': 100}
+94895118af045d13c7e576477276a53afccdd6b1,"['pull', 'request', 'channelmeter', 'timer', 'reset', 'logic', 'deadlock', 'timer', 'channel']",Risky_resource_management,{'deadlock': 100}
+f0f5b0ae1ae85915787dfc8fd196eeb874f7032d,"['consumer', 'deadlock', 'timer']",Risky_resource_management,{'deadlock': 100}
+527a3d33cb60fd9cb50e294f33232ce5f082af77,"['pull', 'request', 'shopify', 'consumer', 'deadlock', 'hypothetical', 'consumer', 'deadlock', 'attempt']",Risky_resource_management,{'deadlock': 100}
+4a7c496a1cae151de0f4d0971e05392ef0736d99,"['hypothetical', 'consumer', 'deadlock', 'attempt']",Risky_resource_management,{'deadlock': 100}
+c85d3d0d49b51d39d1bc828479428fe4cc6f6844,"['data', 'race', 'consumer', 'mock']",Risky_resource_management,{'data race': 100}
+b2e844a45f5e5fd43c9cd4b160a5d419beddc614,"['pull', 'request', 'shopify', 'producer', 'deadlock', 'errorcb', 'flushrequest']",Risky_resource_management,{'deadlock': 100}
+ed536f1ee51d66f95570bd151f451ff4f19c1846,"['original', 'error', 'value', 'data', 'loss']",Risky_resource_management,{'data loss': 100}

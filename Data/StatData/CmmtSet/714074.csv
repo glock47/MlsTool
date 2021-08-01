@@ -1,10 +1,24 @@
-sha,message,catetory,matched,labels
-d3db4e3f44aa09912c2973b105de58cdce016d87,"['request', 'stringcamelcase', 'crash', 'string', 'return', 'empty']",Risky_resource_management,{'crash': 100},
-6a109e75d07a13737d0af4337ccb4c79a5dc6fa6,"['camelcase', 'crash', 'string', 'return', 'empty']",Risky_resource_management,{'crash': 100},
-42ca86e17fea182aaf3695484a83595fb68a718d,"['crash', 'response', 'pouchdb', 'request', 'emptycrash', 'response', 'pouchdb', 'request', 'emptycrash', 'response', 'pouchdb', 'request', 'emptycrash', 'response', 'pouchdb', 'request', 'empty']",Risky_resource_management,{'crash': 100},
-e384f5558ce305400473adaff72dbf2f717ad15d,"['uglify', 'update', 'security', 'patch']",General,{'security': 100},
-f94a36ab3392f7b52ba569b5e117d1d222bd7b23,"['crash', 'leveldb']",Risky_resource_management,{'crash': 100},
-4a21e5c48b039e3e29795094674432be44103fef,"['crash', 'sauce', 'disconnect', 'process', 'ensure']",Risky_resource_management,{'crash': 100},
-6ecbea308352de7ebb701b5028594bbb8bb45f92,"['abedd', 'ccecabulkdocs', 'request', 'daleharveybulkdocs', 'crash']",Risky_resource_management,{'crash': 100},
-60cc4ecae64419e1e87c391fbd59874d124d3382,"['bulkdocs', 'crash']",Risky_resource_management,{'crash': 100},
-6b7b2d35e3b61f21865c47843ddaad559d67f6e5,"['dialog', 'vista', 'browser', 'security', 'minute']",General,{'security': 100},
+sha,message,catetory,matched
+42ca86e17fea182aaf3695484a83595fb68a718d,"['crash', 'empty', 'response', 'request', 'pouchdb', 'crash', 'empty', 'response', 'request', 'pouchdb', 'crash', 'empty', 'response', 'request', 'pouchdb', 'crash', 'empty', 'response', 'request', 'pouchdb']",General,{'crash': 100}
+01ba42da361cf2925cf12a81a8417935c66667f2,"['possible', 'eventemitter', 'memory', 'leak', 'problem', 'adapter', 'default', 'chrome', 'change', 'replicate', 'true', 'multiple', 'time', 'result', 'error', 'node', 'warning', 'possible', 'eventemitter', 'memory', 'leak', 'increase', 'limit', 'others', 'reproduce', 'plunkr', 'http', 'plnkr', 'edit', 'preview', 'change', 'feed', 'time', 'changeshandler', 'change', 'true', 'repeat', 'adapter', 'function', 'object', 'return', 'cleanup', 'function', 'core', 'module', 'test', 'check', 'presence', 'error', 'line', 'http', 'github', 'pouchdb', 'pouchdb', 'blob', 'package', 'pouchdb', 'adapter', 'index', 'http', 'github', 'pouchdb', 'pouchdb', 'blob', 'package', 'pouchdb', 'adapter', 'change', 'http', 'github', 'pouchdb', 'pouchdb', 'blob', 'package', 'pouchdb', 'core', 'change']",Risky_resource_management,{'memory leak': 100}
+4a6a23918efacb0538a5f8cabc35332ed1f6ec41,"['memleak', 'pouchdb', 'core', 'memleak', 'event', 'handler', 'memory', 'leak', 'close', 'http', 'github', 'pouchdb', 'pouchdb', 'issue', 'initial', 'code', 'memleak', 'test', 'heap', 'snapshot', 'file', 'name', 'chore', 'instrument', 'memleak', 'test', 'memleak', 'test', 'sure', 'emit', 'order', 'feat']",Risky_resource_management,{'memory leak': 100}
+52201f1307f8ab116fd04cabff01686ab2a060c5,"['attachment', 'mdsum', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+f1a7cbfe5b4070f693f777eb038396fd1ef2238c,"['constructor', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+e384f5558ce305400473adaff72dbf2f717ad15d,"['update', 'uglify', 'patch', 'security', 'vuln']",General,{'security': 100}
+f83e0e3b62fc7d4e28669fc128f3228d082d2d94,"['eventemitter', 'leak', 'test', 'module', 'maximum', 'number', 'listener', 'node', 'test', 'great', 'future', 'memory', 'leak', 'module', 'work']",Risky_resource_management,{'memory leak': 100}
+d8902a1825d3c60d0b0151b42569ee1bb6d283ff,"['retry', 'memory', 'leak', 'goal', 'memory', 'leak', 'test', 'master', 'checkout', 'origin', 'master', 'complete', 'error', 'event', 'reason', 'test', 'slow', 'configure', 'backoff', 'random', 'number', 'configure', 'backoff']",Risky_resource_management,{'memory leak': 100}
+3b84d256597e7ebfa459b8cba00966b07ced8a4f,"['typo', 'replication', 'test', 'pretty', 'dumb', 'mistake', 'http', 'github', 'pouchdb', 'pouchdb', 'commitcomment', 'point', 'test', 'stack', 'overflow', 'sense', 'test']",Risky_resource_management,{'stack overflow': 100}
+ca5dfd4571c9318345b4f32b573f27b2e48d09a3,"['verifyinfo', 'duck', 'type', 'info', 'sync', 'gateway', 'allowance', 'thing', 'access', 'control', 'sequence', 'lack', 'switch', 'issyncgateway', 'drop', 'assertion', 'whole', 'environment', 'info', 'sync', 'gateway', 'sure', 'lenient', 'environment', 'refactor', 'verifyinfo', 'function', 'look', 'switch', 'statement']",Porous_defenses,{'access control': 100}
+45908f4fe888797ae600e4f591da770cab22be38,"['couchdb', 'crash', 'return', 'response', 'request', 'existent', 'document', 'couchdb', 'return', 'matching', 'couchdb', 'behavior', 'error', 'condition', 'error', 'propagate', 'couchdb', 'behaviour']",General,{'crash': 100}
+57d0a8522665382109e77b906a9a7ea35882802d,"['compaction', 'test', 'couchdb', 'couchdb', 'expose', 'endpoint', 'public', 'interface', 'backdoor', 'admin', 'port']",Insecure_interaction_between_components,{'backdoor': 100}
+bf736eb69c6ec049b5dd692b3805b172002327dc,"['replication', 'event', 'listener', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+d31cd9f117d1635228ec034bd58e7d378d6cb663,"['small', 'leveldb', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+0ff464c77cc9d58f8a2dc4f60229165c9df4e2fb,"['cache', 'websql', 'safari', 'exception', 'crash', 'unit', 'test', 'constructor', 'method']",General,{'crash': 100}
+80776e387dfe212642bdcda2d1fb091d00dafbad,"['websql', 'data', 'loss', 'browser', 'websql', 'database', 'adapter', 'check', 'name', 'exists', 'websql', 'ensures', 'data', 'loss', 'occurs', 'browser', 'upgrade', 'websql', 'websql', 'android', 'additional', 'browser', 'migration', 'test']",Risky_resource_management,{'data loss': 100}
+9fbc51925afa9eef0ca2175c88981b13c636c84e,"['bulkdocs', 'websql', 'quote', 'crash', 'websql', 'wrapping', 'quote', 'websql', 'adapter', 'report', 'sqlerror', 'object', 'unhelpful', 'message']",General,{'crash': 100}
+f94a36ab3392f7b52ba569b5e117d1d222bd7b23,"['crash', 'leveldb']",General,{'crash': 100}
+4a21e5c48b039e3e29795094674432be44103fef,"['ensure', 'sauce', 'disconnect', 'process', 'crash']",General,{'crash': 100}
+6ecbea308352de7ebb701b5028594bbb8bb45f92,"['pull', 'request', 'daleharvey', 'bulkdocs', 'dont', 'crash', 'bulkdocs', 'http']",General,{'crash': 100}
+60cc4ecae64419e1e87c391fbd59874d124d3382,"['dont', 'crash', 'bulkdocs', 'http']",General,{'crash': 100}
+6b7b2d35e3b61f21865c47843ddaad559d67f6e5,"['minute', 'suacelabs', 'browser', 'security', 'dialog']",General,{'security': 100}
+e2eaf2aa892e16c4f2f8f99271985ef242f0ed23,"['post', 'crash', 'line']",General,{'crash': 100}

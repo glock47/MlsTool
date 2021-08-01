@@ -1,0 +1,337 @@
+sha,message,catetory,matched
+97a83f4dc4e6addfa672927c70d418b95922633d,"['crash', 'action', 'duration', 'fake', 'marker']",General,{'crash': 100}
+50219acaf950e287335d6065f8f713ce22f08fda,"['crash', 'test', 'linux']",General,{'crash': 100}
+ee73091d5402a324f6fb9b5a54f1a30ba95c47e2,"['crash', 'invalid', 'name', 'code', 'command', 'renderdoccmd', 'dsdsds', 'trigger', 'segmentation', 'fault', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+e5121198e395eee539d2f0d9c42e0b272972e0a9,"['deadlock', 'vulkan']",Risky_resource_management,{'deadlock': 100}
+065d7202b0216e5c39a0fd964509bbed8965f5cc,"['crash', 'param', 'fake', 'marker']",General,{'crash': 100}
+00efa28f2ff8b08cb67a78d3362db2fc930c72a1,"['crash', 'user', 'toggle', 'bookmark']",General,{'crash': 100}
+16937f160e2b99faa6717a831ac90899306a09bb,"['crash', 'insufficient', 'data']",General,{'crash': 100}
+71b6e2b321fd9d537fd351d6aa019cff01cdc07f,"['speculative', 'crash', 'invalid', 'index', 'cbuffer']",General,{'crash': 100}
+003ab7469c9792435ba662243a459aaaaaa900b2,"['crash', 'postvs', 'vulkan', 'null', 'vertex', 'buffer']",General,{'crash': 100}
+00e1f0056d9e00d99e0ff8942bb5661e4f919c7b,"['crash', 'table', 'widget', 'copy', 'shortcut', 'selection']",General,{'crash': 100}
+46e1f84f2e2211ff2ca47daa05efd30259848bc1,"['memory', 'leak', 'double', 'duplicate']",Risky_resource_management,{'memory leak': 100}
+aac9e762bca3ee44f86487bb704f1a929efcc653,"['test', 'empty', 'indirects', 'crash']",General,{'crash': 100}
+93f0997c1234938c48c78546604c5cc5542c3d01,"['crash', 'index', 'buffer', 'byte', 'size']",General,{'crash': 100}
+db210200009157720257b0bd62378f094f2ce4b4,"['ensure', 'overlay', 'test', 'crash', 'multiple', 'uavs']",General,{'crash': 100}
+c3ca732ab9d49d710922ce0243e7bd7b404415d1,"['crash', 'replay', 'issue', 'createdevice']",General,{'crash': 100}
+44db412b8dc84ce6ecaba0a9f12e7c4541bd3dd3,"['speculative', 'workaround', 'qwidgetprivate', 'crash']",General,{'crash': 100}
+20a60efd9897563f243ca28490f0772dbe5f012e,"['serialise', 'legacy', 'sparse', 'initial', 'content', 'crash', 'serialisation', 'sparse', 'resource']",General,{'crash': 100}
+7171350638eb10a5751e7c0b386721e1e03a9c21,"['heap', 'buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100}
+410bcf27448997a5682ba4a9d4121a4e5b71b235,"['crash', 'dxil', 'reference']",General,{'crash': 100}
+2ab4051140b787e4e03cb8741e6e77b513350e77,"['access', 'graphic', 'pipeline', 'info', 'compute', 'feedback', 'crash', 'renderpass']",General,{'crash': 100}
+a4fd53af8fab05ca601ec6997d9c631bddd5141b,"['crash', 'processing', 'setevent', 'particular', 'thumbnail']",General,{'crash': 100}
+ed50a0e01a65c5598ae68c301bfadf7a990017c4,"['workaround', 'qualcomm', 'driver', 'issue', 'compute', 'pipeline', 'crash', 'qualcomm', 'driver', 'need', 'prepopulate', 'dynamic', 'state', 'state', 'case', 'device']",General,{'crash': 100}
+086b038d0b4f81d7396fc5544f175ee4b9b79d0f,"['simple', 'check', 'large', 'memory', 'leak', 'memory', 'leak', 'differentiate', 'noise', 'noticable', 'time', 'frame']",Risky_resource_management,{'memory leak': 100}
+a544223f078706cf1d7401254e756e344e3a1217,"['crash', 'object']",General,{'crash': 100}
+d11c92d440c9778531582d387fe78a6b96cafe7d,"['crash', 'imageless', 'framebuffers']",General,{'crash': 100}
+ed813e25bb833d7a85e5fe536a6698db04306cf1,"['crash', 'vulkan', 'overlay', 'drawcall']",General,{'crash': 100}
+bd342e159686b84e155ad794a518b6b572d05a97,"['buffer', 'overrun']",Risky_resource_management,{'overrun': 100}
+ecafa4f1297d2497ef80d950cec4725e87b5cffe,"['tweak', 'lock', 'order', 'transition', 'lock', 'queue', 'lock', 'queue', 'lock', 'transition', 'lock', 'deadlock']",Risky_resource_management,{'deadlock': 100}
+efac5ad70a901e32af2cf37526d076317b45e108,"['runtime', 'security', 'check', 'development', 'decent', 'speed', 'boost', 'issue', 'asan', 'gflags', 'valgrind']",General,{'security': 100}
+38886ab54124d96b3a7eb5d953ca96e363cfd5d1,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+daaff29044844bfffe589b228585fbfa0ac6ef7b,"['crash', 'overlay', 'rasterizer', 'discard', 'rasterizer', 'discard']",General,{'crash': 100}
+a95d51e28cc26786894cf776cf1d693f6d921fff,"['leak', 'winsock', 'deadlock', 'shutdown']",Risky_resource_management,{'deadlock': 100}
+58f4dc6f0278000453dfcfe63c9629708f027d6a,"['crash', 'duplicate', 'root', 'signature', 'pointer', 'internal', 'replay', 'root', 'signature', 'resource', 'resource', 'list', 'double', 'delete', 'shutdown']",General,{'crash': 100}
+8b2a521a91e4f0ccaedfd2687547a349b7f00f57,"['crash', 'scissor', 'region']",General,{'crash': 100}
+92040f4636c8a65c17cc8dbd8e664c9409ed3cb3,"['crash', 'swapchains', 'access', 'buffer', 'access', 'buffer']",General,{'crash': 100}
+e73ce8f8e8568b08dee2550977e8ab5ba4d81340,"['resource', 'record', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+255f457c0bf0dd7773495ceb04f5df801956d4e5,['crash'],General,{'crash': 100}
+18a7e3c05c621a5d49f56364cc9ba455ac1d2710,"['physical', 'device', 'entry', 'point', 'spec', 'return', 'function', 'pointer', 'device', 'device', 'child', 'function', 'practice', 'loader', 'wrap', 'instance', 'physical', 'device', 'direct', 'gdpa', 'function', 'loader', 'unwrap', 'object', 'crash']",General,{'crash': 100}
+10878bb5a9116280bca49291e7a0b563f653da3c,"['clamp', 'invalid', 'index', 'invalid', 'input', 'prevents', 'crash', 'valid', 'scalar', 'lookup']",General,{'crash': 100}
+624da2fb25033e6d55e310126844276a0fe52746,"['test', 'crash', 'viewports']",General,{'crash': 100}
+8e3d38ce2cb84bccb4b95db58e983af9da3a8d58,"['crash', 'texture', 'null', 'region']",General,{'crash': 100}
+9f4f68a76b12b0ed84a97fff1975115d63e43253,"['exception', 'handler', 'window', 'print', 'crash', 'output']",General,{'crash': 100}
+b0f4a11b989884d5d51d48dc58dee8738ba3a226,"['test', 'crash']",General,{'crash': 100}
+ed7d774fd419fa8c4cb66ce3ae10bb2d73ab001f,"['crash', 'opening', 'buffer', 'constant', 'buffer']",General,{'crash': 100}
+dc98283de6643a746aed029fe91259ec7ce0e530,"['potential', 'crash', 'compile', 'byte', 'shaders']",General,{'crash': 100}
+44ab5e99286562698bc24a52c1103adb15b6650a,"['crash', 'shader']",General,{'crash': 100}
+6083f5a7133cd1bc98794986f61b6f1291b33c0e,"['buffer', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+671ceacb591f21ba2aa565c81c358072ed90655a,['crash'],General,{'crash': 100}
+6362e7fe70c1b022bee7225cc8f5295fb1c0bdaa,"['pixel', 'history', 'multiple', 'subpasses', 'info', 'crash', 'multiple', 'subpasses', 'work', 'multiple', 'subpasses', 'occlusion', 'query', 'test']",General,{'crash': 100}
+284dbe7d79a89b7addbe996eed5059e7f05327dc,"['crash', 'paint', 'flight']",General,{'crash': 100}
+a81994071fa550b80cf241cd34c89ce76f1ac47f,"['shader', 'viewer', 'background', 'support', 'background', 'window', 'crash']",General,{'crash': 100}
+e2fce8cad100c46c50f87ecdacb886c64b63c093,"['crash', 'resource', 'unbound']",General,{'crash': 100}
+3ec60fcde19a5626ae12c66a2f00b113847b24ec,"['crash', 'config', 'setting', 'config', 'setting', 'config', 'file']",General,{'crash': 100}
+11801a0e32af0f5e486a24c968f3e86a8390c009,"['crash', 'overlay', 'viewport']",General,{'crash': 100}
+3bdccf37e67cd5c53f88fba55ca9c5cdabe2b01f,"['crash', 'eglgetdisplay', 'linux', 'default', 'display', 'xlib', 'keyboard', 'input']",General,{'crash': 100}
+a9e1c46e46b181ffb78d26852ebce94341316c15,"['crash', 'setting', 'available']",General,{'crash': 100}
+8323eb75ee9bf6691a5b39855450cf86c37a639f,"['enumerate', 'gpus', 'crash', 'reporter']",General,{'crash': 100}
+59f06a12f0de33a28b42afbf5010897ecfa6ed99,"['crash', 'secondary', 'command', 'buffer', 'need', 'patch', 'event', 'secondary', 'command', 'buffer', 'case']",General,{'crash': 100}
+446e209caf7b2ccef69538bdca605889454db4a5,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+9b43481234674422abf06eaa1387ab0aef7b322f,['crash'],General,{'crash': 100}
+a18716e63d9fd2c20ddf7d85b73316cfedf18a8b,"['crash', 'drawcall', 'pipeline', 'state']",General,{'crash': 100}
+9c091cf791a835fc4bd0911f21b575fd8f199155,"['memory', 'leak', 'error', 'case']",Risky_resource_management,{'memory leak': 100}
+bf92f9adf0d21be53896447fcf86deec884ac0e0,['crash'],General,{'crash': 100}
+b2150e901f2f8923bb609a03d3342ed49b95ac4e,"['test', 'adapter', 'differ', 'different', 'adapter', 'test', 'adapter', 'compatible', 'adapter', 'ensure', 'compatibility', 'memory', 'leak', 'test']",Risky_resource_management,{'memory leak': 100}
+385121d2ca02988f003d4800880fc90077558596,"['android', 'deadlock', 'shutdown']",Risky_resource_management,{'deadlock': 100}
+0f827d578485492b0d600eeb7c829fc8cf661013,"['backdoor', 'context', 'context', 'case', 'context', 'current', 'thread', 'current', 'thread']",Insecure_interaction_between_components,{'backdoor': 100}
+4c9bb5d8444b9f9c51cd6a8563ab1607b3d744f0,"['logic', 'context', 'restore', 'application', 'context', 'application', 'context', 'setup', 'bind', 'backdoor', 'window', 'application', 'context']",Insecure_interaction_between_components,{'backdoor': 100}
+0734776a493dbb6b0118e754a1bdc10c8943213d,"['test', 'demo', 'script', 'opengl', 'backdoor', 'context']",Insecure_interaction_between_components,{'backdoor': 100}
+68ea2ddd67d1b018f04fd780cf1df095cc4165d4,"['problem', 'wglmakecurrent', 'backdoor', 'context']",Insecure_interaction_between_components,{'backdoor': 100}
+c7c929eca9ff4371ad64608cca45f9b46e5523c6,"['backdoor', 'context', 'opengl', 'resource', 'retrieval']",Insecure_interaction_between_components,{'backdoor': 100}
+11f1f30b46c91623281ae6fb1aa198a3c33d8d68,['crash'],General,{'crash': 100}
+6cd2d18d9e52b0aca7240440548ad0f5709c8136,"['implicit', 'char', 'conversion', 'string', 'iterators', 'result', 'implicit', 'conversion', 'char', 'trip', 'visual', 'studio', 'compiler', 'warning', 'potential', 'data', 'loss', 'conversion', 'conv', 'helper', 'function', 'conversion', 'compiler', 'time']",Risky_resource_management,{'data loss': 100}
+1a2876af62bf0a55a1a6925d33af4b4a9f7310ab,"['crash', 'handler', 'opera']",General,{'crash': 100}
+69694ce9d654d23abc6207a59a057a38f8200f69,"['crash', 'handler', 'compilation']",General,{'crash': 100}
+b082bbe78f8fa7cbac812f70248a80f888375ea6,"['android', 'manifest', 'crash']",General,{'crash': 100}
+2bce39a279ef6f420f425582af94a8397da7bc93,"['memory', 'leak', 'file']",Risky_resource_management,{'memory leak': 100}
+2f6dc6345818b0eb4ac75875758ec93963a16eac,"['crash', 'handler', 'chrome', 'chrome', 'derivative', 'volume', 'invalid', 'crash', 'report', 'people']",General,{'crash': 100}
+a08455c4fb4181221fa62ba520e9b3ed2e59d14c,"['crash', 'vertex', 'buffer', 'stride']",General,{'crash': 100}
+bb8c8294e5108cb7403c88ca12b9f0041631444b,"['reflection', 'object', 'empty', 'crash', 'dxbc', 'object', 'input', 'output', 'signature']",General,{'crash': 100}
+4e6af7a47a75b53b6e6b8a92e3699c0f8e836c48,"['crash', 'event', 'browser']",General,{'crash': 100}
+8ca714382b5c6ecd0ce76ec188ae53628c4913ba,"['backbuffer', 'screenshot', 'transition', 'lock', 'prevents', 'deadlock', 'transition', 'lock', 'queue', 'lock']",Risky_resource_management,{'deadlock': 100}
+7a436e1463b1d03718d7689e2aa632bcde64767c,"['early', 'static', 'lock', 'thing', 'shutdown', 'crash', 'leak', 'process', 'shutdown', 'fine', 'leak']",General,{'crash': 100}
+21bfddf2afe2cf99f21a41f835299988ba9a8621,"['crash', 'reading', 'unexpected', 'amount']",General,{'crash': 100}
+3005172aa55e6871fb6d67ff56f96791ce5841a3,"['crash', 'dialog', 'clear', 'crash', 'renderdoc', 'particular', 'responsibility']",General,{'crash': 100}
+5e32e9220553f1f2cc1cd80f8d2a5fe1ffbecd46,"['grey', 'area', 'glshadersource', 'crash', 'unclear', 'spec']",General,{'crash': 100}
+9463cdf785a897cfd741a8ef8977b229d499d873,"['error', 'check', 'race', 'condition', 'protection', 'crash']",General,{'crash': 100}
+cd8fccc19b57a5f46fb0a953d32d8916e36d1024,"['crash', 'mesh', 'output', 'descriptor']",General,{'crash': 100}
+2d0b18b18b667f2a0207c5039bab69fbb7b690e3,"['crash', 'shader', 'viewer', 'shader', 'compilation']",General,{'crash': 100}
+f7b60f6d825034b1d6ca5317b8c1f8eada3d06ac,"['crash', 'queue', 'device']",General,{'crash': 100}
+09e6d7ca581144d7891f992fb1bc08027598ac44,"['crash', 'bind', 'descriptor']",General,{'crash': 100}
+24d55fde9fd0f650c250db8f824ba01caaf310f3,"['crash', 'null', 'descriptor']",General,{'crash': 100}
+6487acdf0f387517ead16274c235fb975b2ad1e9,"['valid', 'shader', 'code', 'upload', 'dxil', 'shader', 'result', 'unpredictable', 'behaviour', 'crash', 'replay', 'detect', 'flag', 'overlay', 'text', 'load', 'detect']",General,{'crash': 100}
+51de7255d36f941837d8495dd99b19a613c15e4a,"['libstdc', 'release', 'crash', 'system', 'libproxy', 'link', 'libstdc', 'symbol', 'conflict', 'static', 'libstdc', 'system', 'libstdc', 'libproxy', 'need', 'proxy', 'support', 'dependency', 'time', 'distribution', 'libstdc', 'minspec', 'short', 'debian', 'jessie', 'centos', 'user', 'system', 'install', 'libstdc', 'compile', 'source', 'binary', 'release']",General,{'crash': 100}
+14b8560ebb7ab0a8af2f535ec9c1c89e509577a5,"['empty', 'buffer', 'crash', 'driver']",General,{'crash': 100}
+bf4ea85470e91176cfbc4e94e6d7294db961d7c9,"['initial', 'state', 'memory', 'corruption', 'array']",Risky_resource_management,{'memory corruption': 100}
+605f77217db2cebff636c619e2fc35cd0542faa9,"['open', 'single', 'open', 'prevents', 'crash', 'livecapture', 'window', 'popup', 'dialog']",General,{'crash': 100}
+57084fd911c5cef48da11d64b71763d8f922c038,"['final', 'memory', 'usage', 'peak', 'memory', 'usage', 'test', 'persistent', 'memory', 'leak', 'fluctuation', 'memory', 'false', 'positive', 'memory', 'usage', 'high', 'part', 'iteration', 'final', 'iteration']",Risky_resource_management,{'memory leak': 100}
+943a79031971fb348ea0e442615876a3ec6e2fd8,"['crash', 'header', 'view', 'section']",General,{'crash': 100}
+1df6fd9c9d3a323fe570bfb7035988e0db897eed,"['crash', 'ssbo', 'member']",General,{'crash': 100}
+1b1f9d2ef881b52e27c7d032a01e8850939fc5d1,"['compilation', 'crash', 'handler']",General,{'crash': 100}
+a9a64242f6237744ab08c965bdce8e90dbfc768a,"['crash', 'python', 'output', 'stack', 'frame']",General,{'crash': 100}
+3cc2c37149e73b5b611938b33c4bc18adc238d39,"['crash', 'linux', 'getenv', 'return', 'null']",General,{'crash': 100}
+d44a00c8988207013842557e9725df2756397d80,"['function', 'check', 'availability', 'theory', 'check', 'everywhere', 'crash', 'null', 'pointer', 'function', 'check', 'trivial', 'case', 'risk', 'false', 'positive', 'fallback', 'available', 'case', 'possible', 'alternative', 'function', 'check', 'implementation', 'function', 'common', 'problem', 'work', 'crash']",Risky_resource_management,{'null pointer': 100}
+f70de276e695027d74b052cd7d955d415e155a42,"['bytebuf', 'crash', 'good', 'reason', 'date', 'interop', 'structs', 'communication']",General,{'crash': 100}
+f3593c970f9ea29950411282c7c2f173fcf4a2d0,"['crash', 'bind', 'invalid', 'vertex', 'buffer', 'mesh', 'postvs', 'cache', 'editing', 'shader']",General,{'crash': 100}
+cf0353e6308c7d873d8eb82aea6c5a86bd113fcc,"['vulkan', 'overlay', 'crash', 'incorrect', 'colorattachment', 'danylo', 'piliaiev', 'danylo', 'piliaiev', 'globallogic']",General,{'crash': 100}
+8b28e0ed6d6934d1a90694547c002f906f3fe95f,"['byte', 'crash']",General,{'crash': 100}
+5b480f968ecd3db703a3a88642d0ffc99e62a98a,"['crash', 'present', 'parameter']",General,{'crash': 100}
+db2ef74d13df44acc0be9ee31bc4ac38bdcf12c2,"['initial', 'state', 'crash', 'image', 'external', 'queue']",General,{'crash': 100}
+8c946c67e0a1d310fa53bc18e53e1606d58964f4,"['memory', 'leak', 'test', 'sync', 'reset', 'allocator', 'frame']",Risky_resource_management,{'memory leak': 100}
+459650a23c100efe956322e8287e31d614e89759,"['memory', 'leak', 'text', 'overlay']",Risky_resource_management,{'memory leak': 100}
+5444c4b3ab5acc29b6b85fd4029ee24603004f5f,"['member', 'part', 'annotation', 'section', 'crash', 'driver', 'radv', 'postvs', 'shader', 'shader', 'opcodes', 'incorrect', 'section', 'boundary', 'builtin', 'decoration']",General,{'crash': 100}
+1617b4618dcd99c7b2bb4e791ffe7a549888360c,"['crash', 'texture', 'disk', 'wrong', 'thread', 'access']",General,{'crash': 100}
+aad7551e4be7ff437ea033ebd0bb10b84d2c0b08,"['couple', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+ffd24c04d4bf98fbc678b4d49c6918f378bff00f,"['memory', 'leak', 'device', 'intel', 'counter']",Risky_resource_management,{'memory leak': 100}
+f2e68f1d3124ef0f965bdf8505b6fb9c48ac36e6,"['crash', 'home', 'case', 'home', 'environment', 'variable', 'getenv', 'return', 'null', 'lead', 'crash']",General,{'crash': 100}
+71da697812264bc5645d2ff4450bc18beb5a89d4,"['executionmode', 'driver', 'compute', 'mesh', 'output', 'opexecutionmode', 'entry', 'entry', 'point', 'driver', 'crash']",General,{'crash': 100}
+9548e6ecbaeefed0b7545314521c43c445b150d4,"['crash', 'development', 'assertion']",General,{'crash': 100}
+72874e21d31b8901e8b5d49620e64c939aee8025,"['renderdoc', 'crash']",General,{'crash': 100}
+684e814eb7db718a311fe1fb0b7578d94b946705,"['access', 'textureviewer', 'custom', 'shader', 'editor', 'crash', 'custom', 'shader', 'editor', 'texture', 'viewer']",General,{'crash': 100}
+2c0b612c6f87d66f26f28db6db1bbefe27eac2a6,"['order', 'initialcontents', 'vulkan', 'memory', 'corruption', 'processing', 'resource', 'order', 'resource', 'possible', 'vkimage', 'vkdevicememory', 'initialcontent', 'vkdevicememory', 'possible', 'vkimage', 'resource', 'vkdevicememory', 'case', 'vkimage', 'initialcontent', 'vkdevicememory', 'initialcontent', 'vkimage', 'content', 'card', 'image', 'corruption', 'resource', 'type', 'work', 'eresimage']",Risky_resource_management,{'memory corruption': 100}
+ccdd7acd0bfa191965d8bd7596fa4ba82d321d54,"['rare', 'deadlock', 'multiple', 'call', 'msdn', 'state', 'coinitialize', 'dllmain']",Risky_resource_management,{'deadlock': 100}
+ba78e083941442f6a8a95f2bf4172c41e028c123,"['crash', 'name', 'null']",General,{'crash': 100}
+e50c6436a2a90e63413c9c09c4a25f14485a7141,"['crash', 'pixel', 'shader', 'evaluateat', 'operation']",General,{'crash': 100}
+1c510cb3a3748d6b641e9bdaef6b8bf39c25c131,"['crash', 'remotehost', 'hostname', 'empty']",General,{'crash': 100}
+8c93750b00ab5d006c74cc44c76783c9fa2e3225,"['crash', 'texture']",General,{'crash': 100}
+f00832f2f9319e0d7b20b17a9e46576cd92ad514,"['vulkan', 'shutdown', 'crash', 'gpubuffer', 'device', 'instance']",General,{'crash': 100}
+286446b008582fef431f23f293a7b6f2f510d25e,"['memory', 'corruption', 'remote', 'host']",Risky_resource_management,{'memory corruption': 100}
+7b63aa95468ff238f2e04e122805e569ee033fe0,"['common', 'class', 'crash', 'handler', 'crash', 'dump', 'direct', 'member']",General,{'crash': 100}
+efd11bb7f2b23625b339751175d637dec46437e7,"['crash', 'omsetrtvs']",General,{'crash': 100}
+c36b4e1ef678588f284112c26faa9075d6268842,"['attempt', 'diagnostic', 'crash', 'report']",General,{'crash': 100}
+66d915d68bb900f7a2cdcd59f8d01148f4cac103,"['crash', 'shader', 'reflection']",General,{'crash': 100}
+569f11b7577ba77458f41d81116b545cc82971c6,"['eglterminate', 'function', 'pointer', 'crash', 'startup', 'introduce']",General,{'crash': 100}
+e51466efe1e0616195a39383f2777a368f60d248,"['ensure', 'addref', 'crash', 'firefox']",General,{'crash': 100}
+0ecc8ed0e5c0fbb82f8e95b72e99804136e56754,"['null', 'pointer', 'dereference', 'state', 'html']",Risky_resource_management,{'null pointer': 100}
+3ded6e590a96dac3baaf405519f51025f2dcc858,"['crash', 'dxbcfile', 'processing', 'array']",General,{'crash': 100}
+4992e09918de784af160b97c197c4de5fc53f93c,"['potential', 'crash', 'shader', 'reflection', 'null']",General,{'crash': 100}
+128381ce107d14596609ad8c8ee9ad3d42ae3f30,"['crash', 'refresh']",General,{'crash': 100}
+d94cfc36ccbb1a4e2f645a805ebc05219a8586db,"['crash', 'property', 'step', 'rate']",General,{'crash': 100}
+f3a210c636113257a44cfe856bcec07083d7b25d,"['workaround', 'shader', 'crash', 'driver', 'workaround']",General,{'crash': 100}
+571c26b1a152da63695aadca7b033f3a44c41ad2,"['unable', 'start', 'target', 'application', 'hook', 'pointer', 'null', 'pointer', 'initialization', 'pointer']",Risky_resource_management,{'null pointer': 100}
+f3f688fd484773acfe462847408cfe826b263ac4,"['crash', 'open']",General,{'crash': 100}
+7c7a4ae5ea3c3b2b1319bdae1c2f4e47d31c8d8c,"['crash', 'framebuffer', 'size']",General,{'crash': 100}
+c3ce289da431398d6f45dd7f244a89335ab08a80,"['crash', 'vertex', 'input', 'element']",General,{'crash': 100}
+66d1157e3a1a85ca571d0839e38a33a641dab4e8,"['crash', 'opening', 'crash', 'reporter']",General,{'crash': 100}
+fc37a4fa54fa5a984a96f7c657759bcf2d0c618d,"['check', 'openssl', 'available', 'crash', 'report', 'dialog']",General,{'crash': 100}
+3d2bc2cdc99a586ce393bae35a5ef032b4f19ec6,"['initial', 'state', 'driver', 'crash', 'sample', 'transient', 'image', 'spec']",General,{'crash': 100}
+077402bf11e13c3ad42ccecccc690bec55da6667,"['whole', 'timeout', 'close', 'crash']",General,{'crash': 100}
+579386dddb480dcc7ac08c1f20895358d43db3ea,"['gearvr', 'crash', 'level', 'gearvr', 'swapchain']",General,{'crash': 100}
+c364b102bc45cbaa8d805a6432c400331e343610,"['force', 'flush', 'command', 'list', 'sync', 'partial', 'replay', 'case', 'unpredictable', 'crash', 'replay', 'loop', 'full', 'frame', 'replay', 'previous', 'replay', 'debug', 'message', 'debug', 'layer', 'flush', 'validate', 'issue', 'sync', 'harmless']",General,{'crash': 100}
+c32f5902e94f057b6478c6e6adc1de6454da5e8c,"['initial', 'data', 'pointer', 'queue', 'reduces', 'possibility', 'logic', 'error', 'memory', 'corruption']",Risky_resource_management,{'memory corruption': 100}
+4a45b9880c81d572aa13998c96d9a0ddf5aab9fb,"['coverity', 'memory', 'leak', 'startglobalhook']",Risky_resource_management,{'memory leak': 100}
+f2e7f8f1a09c1e67ab34b8bdd52fb9f3f237bb26,"['refactor', 'crash', 'reporter', 'system', 'dialog', 'qrenderdoc', 'minimal', 'startup', 'display', 'dialog', 'report', 'flow', 'time', 'click', 'report', 'user', 'email', 'address', 'contact', 'default', 'email', 'select', 'upload', 'default', 'confirmation', 'dialog', 'making', 'sure', 'user', 'select', 'unique', 'user', 'click', 'update', 'default', 'check', 'couple', 'alert', 'user', 'menu', 'update']",General,{'crash': 100}
+01e2e00b5fbe903986592766d13d4303919f0d46,"['successful', 'crash', 'error', 'abort', 'file', 'load', 'process', 'function', 'serialise', 'replay', 'corrupt', 'data', 'error', 'serialisation', 'reasonable', 'harden', 'serialisation', 'invalid', 'byte', 'length', 'buffer', 'array', 'perfect', 'size', 'large', 'invalid', 'range', 'catch']",General,{'crash': 100}
+b030ae5bd7861cbf16702ea1842fa4ab780c3b2d,"['possible', 'crash', 'pixel', 'history', 'window']",General,{'crash': 100}
+5e60d90dd4fbfe4d6bd2f9d2ff20be4abd49f54a,"['memory', 'leak', 'cppcheck', 'renderdoc', 'posix', 'error', 'memory', 'leak', 'argv']",Risky_resource_management,{'memory leak': 100}
+ebe1318f720116f1bc772df5e5cd985765be2028,"['struct', 'buffer', 'memory', 'readback', 'external', 'code', 'null', 'pointer', 'buffer', 'data', 'temporary', 'allocation']",Risky_resource_management,{'null pointer': 100}
+1e4187547911e57b2a89e080f350eb057e24435d,"['clamp', 'currentindex', 'crash', 'clamp', 'value']",General,{'crash': 100}
+2f728480566e4cfdd81de5435ba5c57c0e5d4525,"['internal', 'shaders', 'reflection', 'query', 'intel', 'driver', 'reflect', 'shaders', 'potential', 'crash']",General,{'crash': 100}
+81ec99b58a8986a15b273355a944d72ef7956ae1,"['crash', 'data', 'data']",General,{'crash': 100}
+43ac48a493dfcc807a8560b2821426d6d9bdb925,"['event', 'browser', 'area', 'reference', 'visible', 'crash', 'opening', 'inspector', 'event', 'browser']",General,{'crash': 100}
+b637fe78def88ea57040b4bb2a3f0b81c1523aec,"['crash', 'reading']",General,{'crash': 100}
+cfbaf6894220311c2751d775dd63d7f5b85fbe0e,"['replay', 'backwards', 'marker', 'event', 'array', 'replay', 'crash', 'vulkan', 'unintuitive', 'wrong', 'apis', 'strong', 'reason', 'direction', 'search']",General,{'crash': 100}
+8a0432add93ff65ce8a2432c9e8945a3321e805e,"['crash', 'drawcall', 'list']",General,{'crash': 100}
+389cff23f3c99473d6ec8981a819affae87f4cb1,"['linker', 'version', 'script', 'expose', 'symbol', 'libstdc', 'default', 'symbol', 'default', 'visibility', 'libstdc', 'libstdc', 'theory', 'exclude', 'libs', 'libstdc', 'bizarre', 'crash', 'manual', 'linker', 'script', 'whitelists', 'symbol', 'symbol', 'fvisibility', 'visibility', 'work']",General,{'crash': 100}
+b254cd7ac16271a827dcdcf4beca0a55b42ad4b3,"['crash', 'null', 'drawcall']",General,{'crash': 100}
+e3644c317449570f8016baccc0a8a791dcb2dd91,"['bind', 'compatible', 'descriptor', 'bind', 'lead', 'invalid', 'behaviour', 'crash', 'possible', 'invalid', 'stale', 'valid', 'compatible']",General,{'crash': 100}
+ba91e82feb1c2300ffb72f0ad69f60b5918d9b4d,"['replay', 'empty', 'lead', 'crash', 'optimise', 'buffer', 'upload', 'buffer', 'byte']",General,{'crash': 100}
+06b5b300c3064885c9f985da2a728af0c80f3a86,"['device', 'reuse', 'host', 'possible', 'crash', 'enumeration', 'application', 'startup', 'remote', 'manager', 'dialog', 'android', 'host']",General,{'crash': 100}
+f4fedc295ff3feb04ed85746d5279a8708602db6,"['layout', 'compatibility', 'example', 'case', 'program', 'bind', 'pipeline', 'program', 'rebinds', 'different', 'pipeline', 'incompatible', 'layout', 'invalid', 'program', 'bind', 'program', 'shaders', 'restore', 'invalid', 'point', 'invalid', 'lead', 'crash', 'need', 'detect', 'valid', 'course', 'postvs', 'data', 'fetch', 'original', 'layout']",General,{'crash': 100}
+f291be452fd30f6558b66a38c350ed582214f1aa,"['dxgi', 'optional', 'pointer', 'wrapping', 'example', 'target', 'pointer', 'null', 'pointer', 'null']",Risky_resource_management,{'null pointer': 100}
+21836c240d7966120b0aa5edf031fa2f8a25d72a,"['crash', 'null', 'pointer', 'dealloc', 'error', 'code', 'null', 'parameter', 'cleanup', 'tempdealloc', 'need', 'check', 'pointer']",Risky_resource_management,{'null pointer': 100}
+410d3b2c02535306a454804178fe8611bb4603e7,"['workaround', 'crash', 'application', 'invalid', 'dxgi']",General,{'crash': 100}
+3ab7510c7f4695afa1a21426f791de288329878d,"['multiple', 'time', 'crash', 'intel', 'mesa', 'http', 'http', 'clear', 'invalid']",General,{'crash': 100}
+1426d1bbd962886cb09ffe107be47af9ad560e57,"['double', 'delete', 'vulkan', 'descsetlayout', 'init', 'descsetlayout', 'init', 'crash', 'immutable', 'sampler', 'copy', 'copy', 'constructor', 'descsetlayout', 'init']",General,{'crash': 100}
+61dc8806bdcaa970742bf5d77f10a15fbc59f2c0,"['message', 'nvidia', 'series', 'driver', 'crash', 'issue']",General,{'crash': 100}
+c070c3e643928aea85da7535ecca0079e3752ce2,"['bizarre', 'crash', 'peekmessage']",General,{'crash': 100}
+1c190f0eb54b076fccb19a4e36f0e836892864a8,"['issue', 'trash', 'member', 'immediate', 'context', 'state', 'tracker', 'lead', 'crash', 'error', 'copystate', 'function']",General,{'crash': 100}
+980f3fd004f2d3858221d22f317d6b3d4a6faf2b,"['crash', 'matrix']",General,{'crash': 100}
+1529c8053dc35441f203ba6e0b0cda052164b155,"['crash', 'mesh', 'preview', 'column', 'mesh', 'view']",General,{'crash': 100}
+3d41d53cc18e05825637f5612c6ff52cdbfa3f97,"['crash', 'strip', 'restart']",General,{'crash': 100}
+5848d00091c17ff6207cc754e499ee80893d113b,"['crash', 'clamp', 'input', 'negative', 'value']",General,{'crash': 100}
+a77fecf44dc4170c4f897810f0857a4a7a40663c,"['wrap', 'blockinvoke', 'helper', 'function', 'release', 'blockinvoke', 'python', 'callback', 'deadlock', 'script', 'execution']",Risky_resource_management,{'deadlock': 100}
+e71614d58e4afdc3e527dbc1c598e5555c783822,"['crash', 'coherent']",General,{'crash': 100}
+4936c6cd67daff848966f373d25a0c13e3c77113,"['experimental', 'crash', 'spdb', 'chunk']",General,{'crash': 100}
+2780c9c5223f4b8f2d3848477f270f925b7f5ed7,"['filename', 'multiple', 'place', 'atidxx', 'real', 'thing', 'hook', 'wrong', 'real', 'thing', 'particular', 'liquidvr', 'lead', 'crash', 'replay']",General,{'crash': 100}
+e391540588b460952fd47b50b14301107c3a290c,"['unset', 'renderdoc', 'replay', 'mode', 'support', 'self', 'prevents', 'crash', 'user', 'replay', 'program']",General,{'crash': 100}
+4b572d4d3cb54114e69d89435514418d94a327a4,"['crash', 'clearview']",General,{'crash': 100}
+801f47a31ae97fd891d8242b7265f9ab7e97efd9,"['crash', 'redundant', 'refcount', 'bind', 'potential', 'crash', 'previous', 'double', 'release', 'refcount', 'object', 'decrement', 'refcount', 'unbound', 'slot', 'null', 'external', 'object', 'refcount', 'code', 'setting', 'object', 'pointer', 'reference', 'refcount', 'bounce', 'object', 'pure', 'virtual', 'access', 'object', 'time', 'case', 'array', 'bind', 'refcount', 'object', 'slot', 'slot', 'unbound', 'processing', 'slot', 'processing', 'slot']",General,{'crash': 100}
+b335d32424eec61ae6805b7df65dc552a5f671c2,"['posix', 'process', 'crash']",General,{'crash': 100}
+94b34f6718e1e7ec8e9fdc7af79a2ad2983a0f40,"['crash', 'connection']",General,{'crash': 100}
+66ee279e9c6fd980974330f2f614b8b5125c9c82,"['overlay', 'subpasses', 'crash', 'crash', 'handler']",General,{'crash': 100}
+78706d3d0105bde77cb2ed34735203e8ba7ba637,"['init', 'copyheap', 'problem', 'couple', 'crash', 'report', 'error', 'lead', 'crash', 'hide', 'real', 'problem']",General,{'crash': 100}
+52cbc802a1e5c390690ec57f50b8b5c0fadaa3b5,"['crash', 'initial', 'state', 'crash', 'report', 'initial', 'state']",General,{'crash': 100}
+079cc7a8dbca44368024dafa30be2280df0891d7,"['invalid', 'buffer', 'crash', 'look', 'invalid', 'buffer', 'protection', 'invalid', 'renderdoc', 'safe', 'check', 'simple', 'case']",General,{'crash': 100}
+07fd9c8e0cfe259ca45fe6b2e76a7d2d4d638487,"['speculative', 'crash', 'buffer', 'viewer', 'crash', 'report', 'buffer', 'viewer', 'work', 'theory', 'operation', 'long', 'time', 'subsequent', 'work']",General,{'crash': 100}
+4a2e901807760add8d7fb2ee4705ea3ad7145347,"['display', 'pixel', 'context', 'click', 'context', 'menu', 'crash', 'context', 'menu', 'launch', 'operation', 'crash']",General,{'crash': 100}
+8256a00e1e9c97cc4a430f5943b9bc56457ba31b,"['crash', 'prevention', 'ensure', 'area', 'empty', 'file', 'complete', 'width', 'height', 'crash', 'report']",General,{'crash': 100}
+f2d3c04a735e1f8c8ab8326f1584764fe4da4626,"['sure', 'quad', 'overdraw', 'texture', 'size', 'crash', 'crash', 'uploader']",General,{'crash': 100}
+1ceb9ee6e7cf7b7520b646871612ef44d445b6e6,"['crash', 'rtvs']",General,{'crash': 100}
+aadde675a9d82b51cbdf74e0bacfb67f1401a137,"['crash', 'local', 'context', 'connection']",General,{'crash': 100}
+a52ca923b253b509b004896900b70c268a5ece60,"['check', 'file', 'failure', 'opening', 'replay', 'driver', 'crash', 'report', 'failure', 'driver', 'opening', 'check']",General,{'crash': 100}
+fdedbaf1036c1170d52d43195d9cc09116bf57a9,"['potential', 'crash', 'brush', 'empty', 'rect']",General,{'crash': 100}
+f0c6786ade9adefbcf752193abaac0ae28ac412a,"['super', 'temporary', 'ugly', 'hack', 'deadlock', 'case']",Risky_resource_management,{'deadlock': 100}
+acb5e5ecd8bf0ac0152bdf22dd0c6709f90e2158,"['crash', 'compute', 'descriptor']",General,{'crash': 100}
+57b5309a97ab6edd2b0d14a6d2934fc09a63b628,"['rdcerr', 'assumes', 'size', 'byte', 'crash', 'mesh', 'viewer']",General,{'crash': 100}
+cf5059706e701fc4ea87026e1f736bc1d777df60,"['crash', 'getprocaddress', 'getprocaddress', 'loadlibrary', 'variant', 'crashdump']",General,{'crash': 100}
+0c009cd578d13f6b9feb64b386e4881bf6493690,"['crash', 'vulkan', 'pipeline', 'state']",General,{'crash': 100}
+4e4b9e21ad66aef4b25855360e055f3542da0dbb,"['crash', 'vulkan', 'shader', 'edit']",General,{'crash': 100}
+ebbef4e1aab2344c90041715676668dde85b2998,"['crash', 'barrier', 'event']",General,{'crash': 100}
+8a5efd8c8d98777f5e1072bfc320b48c1d83d124,"['cant', 'pointer', 'error', 'null', 'pointer', 'argument']",Risky_resource_management,{'null pointer': 100}
+bf210bbe23af230d222e5a4623ffaf380dc1bd93,"['crash', 'linux', 'path', 'browser']",General,{'crash': 100}
+d98b4c0f977f8386c8238ba33e028cf13dbb13c6,"['potential', 'crash', 'timer', 'check']",General,{'crash': 100}
+52cf19e3b3a81264f1f8efdabb74b66f665ee55a,"['possible', 'crash', 'remote', 'host']",General,{'crash': 100}
+258da93e946990f1b9d7a7c6d0f6ddfcd6800d1a,"['speculative', 'crash', 'ensure', 'prev', 'array', 'slice', 'valid', 'range']",General,{'crash': 100}
+5393d939fda448abc9fe289358e1a0f1f8252e81,"['crash', 'replay', 'renderer']",General,{'crash': 100}
+e7cbc905e6a35dbd45e542b9b1970768e0e24dbd,"['header', 'force', 'exts', 'driver', 'crash', 'replay', 'hard', 'diagnose', 'target', 'application']",General,{'crash': 100}
+d632bc7ba8cf19908e00a832541ef8ab98ab7cd0,"['crash', 'data', 'offset', 'buffer', 'size']",General,{'crash': 100}
+3dbd7508468d59a8673542f7023d3f185dcccf59,"['updater', 'code', 'catch', 'exception', 'crash', 'file', 'copy', 'permission']",General,{'crash': 100}
+9755ae2880ee7501041f50dbdce25962fa41cb73,"['crash', 'return', 'null', 'getnewlist']",General,{'crash': 100}
+59bc8254bd68416fa395db6b855077cb9772ae27,"['potential', 'crash', 'drawcall', 'null', 'empty', 'ibuffer']",General,{'crash': 100}
+a04379b7a593e047530159f288dcfc0d56c3c987,"['incorrect', 'style', 'crash', 'handler', 'topmost']",General,{'crash': 100}
+037cf44ddce9df0f6551a21b49b6f7ad9e040adc,"['pull', 'request', 'drchat', 'crash', 'format']",General,{'crash': 100}
+bd079b76327efd44d294eba56c22b7698842068e,"['null', 'check', 'treelistview', 'crash', 'pagedown', 'empty']",General,{'crash': 100}
+e81895b06057cca169c5ddf1917488ee7f9cba52,"['rand', 'setframeevent', 'bool', 'force', 'coverity', 'rand', 'security', 'flaw']",General,{'security': 100}
+3be0d6d1de530aa2c89b50012c4fc0c6f2e4274e,"['mistaken', 'memory', 'leak', 'tidy', 'sort', 'false', 'positive', 'pipeline', 'spir', 'blob', 'shader', 'cache']",Risky_resource_management,{'memory leak': 100}
+5c53e623df90aae9639444088b3fda765ab66b65,"['specific', 'command', 'crash', 'global', 'hook']",General,{'crash': 100}
+bbc68b9248cad53816acc5754c77e7880a264979,"['spir', 'crash', 'matrix', 'double', 'index', 'matrixvar']",General,{'crash': 100}
+e8b3400ebb3632ae237d647148582a631e05d11f,"['crash', 'setting']",General,{'crash': 100}
+75590986ee5a013ad7900437236917911f5a5b57,"['potential', 'crash']",General,{'crash': 100}
+2d59650d77ec5af083ee0ad1a8a813008e1d962a,"['coverity', 'memory', 'leak', 'screenshot', 'pixel']",Risky_resource_management,{'memory leak': 100}
+5183420f142eaf8650198b04de09bc89bb251f8c,"['coverity', 'potential', 'null', 'pointer', 'dereference']",Risky_resource_management,{'null pointer': 100}
+6e2a8344ce792bfda5023a323935b011644b3091,"['crash', 'markercolour', 'fake', 'marker']",General,{'crash': 100}
+4b149abdbd2133701542d80e6b6467713f551676,"['crash', 'network', 'handshake']",General,{'crash': 100}
+ab84b84ba408d27d9b6f7e4c1d7672df24589395,"['gettexturedata', 'getbufferdata', 'crash', 'invalid', 'input', 'return', 'empty', 'data']",General,{'crash': 100}
+faa385647d7f4b040fb349b200a09a300df490e2,"['coverity', 'possible', 'null', 'pointer', 'dereferences']",Risky_resource_management,{'null pointer': 100}
+00dd0df24cb1ae31fbd517a2a6c4f05686fd9312,"['crash', 'buildshader', 'shader']",General,{'crash': 100}
+6aae7b31ccc028484ac7c8f0e913098febd68add,"['sure', 'resize', 'offset', 'descsets', 'time', 'crash', 'object', 'descriptor', 'post', 'output', 'offset', 'array']",General,{'crash': 100}
+88c9c5231861d80788cfb5537184404cfa44e15c,"['crash', 'output', 'component', 'texture']",General,{'crash': 100}
+dc6962adeeeaddabb3190508d79d7b7993c1c8ff,"['crash', 'texture', 'view', 'buffer']",General,{'crash': 100}
+0ed364bf77035a82386db69c1a7d96b97bf90cae,"['crash', 'copy', 'tree', 'node']",General,{'crash': 100}
+328412aa238e337b215a375b04d92a802fcf60e9,"['crash', 'reflection', 'null', 'renderdoc', 'limp', 'separable', 'program']",General,{'crash': 100}
+a969f3f5afc9e7cc85ea93488099ca0a7067889f,['crash'],General,{'crash': 100}
+c24030ea6a37cb0740e64d6733549902e641c13f,"['crash', 'interface', 'replay']",General,{'crash': 100}
+068e38f8f38cf0618d1d191b3f383cbb842bac79,"['memory', 'leak', 'thumbnail', 'size', 'check']",Risky_resource_management,{'memory leak': 100}
+171fbcfabd3b95bf3dabcafc7ade0b312e57181d,"['crash', 'image']",General,{'crash': 100}
+a2244f38d27bebf9cd70fa6c670384fa8c09cf77,"['invalid', 'wrong', 'sizeof', 'crash']",General,{'crash': 100}
+910dcd43f73f5601f14a38f2097f6a9f1c829252,"['pull', 'request', 'zorro', 'master', 'crash', 'fopen', 'proc', 'self', 'return', 'null']",General,{'crash': 100}
+97b7eebb3aee95387294f55319597c4925a60cd0,"['crash', 'fopen', 'proc', 'self', 'return', 'null']",General,{'crash': 100}
+7b8097690d3dba3afd5a3acaacf06b2cd9b450dd,"['force', 'crash', 'error', 'asserts', 'profile', 'balance', 'harm', 'good', 'idea', 'sure', 'error', 'debug', 'renderdoc']",General,{'crash': 100}
+729404b225e7cf4945e2ca8a6a59e070971dc88e,"['potential', 'deadlock']",Risky_resource_management,{'deadlock': 100}
+a876e13c8907d6d439f541761c4d19318c249f44,"['crash', 'record']",General,{'crash': 100}
+3999dcdf7336e79fc2b99b07844c48b02e839906,"['sure', 'device', 'queue', 'niche', 'corner', 'case', 'empty', 'frame', 'crash', 'replay']",General,{'crash': 100}
+794065eedbd4e6949ca550fbc6f08b149a497615,['crash'],General,{'crash': 100}
+c06aeebd3a70253e5a813ff91244ba5aa47904bc,['crash'],General,{'crash': 100}
+c50fd9af9b6c495f440e27bd5d79849ead0f611a,"['memory', 'leak', 'replay']",Risky_resource_management,{'memory leak': 100}
+2770e424cad5d579d5549c850fb9d8e086f87df9,"['mark', 'swapchain', 'work', 'crash']",General,{'crash': 100}
+3e8d4edf6d5d3da6925502feb964fc449580d4bb,"['crash', 'accesschain']",General,{'crash': 100}
+949489b6b1e1b5e65af988f0a499d507d7e0f85c,"['dereference', 'null', 'pointer', 'local', 'device', 'object']",Risky_resource_management,{'null pointer': 100}
+6694c7302fc03541e16fede262a263fb8235cbe3,"['check', 'dataptr', 'null', 'getdataptr', 'offset', 'prevents', 'crash', 'buffer']",General,{'crash': 100}
+c4d95421e0c28d4ed27a7651090bf303b42be48e,"['crash', 'main', 'window', 'update', 'check']",General,{'crash': 100}
+94863b7afeacae526c898df1dedae41b646a125b,"['index', 'byte', 'width', 'crash']",General,{'crash': 100}
+f021aed31b264b35d5d2fb0a3ced97dc3637f9a4,"['unexpected', 'uuids', 'idxgiswapchain', 'getbuffer', 'crash', 'report', 'similar', 'support', 'print', 'error', 'uuid']",General,{'crash': 100}
+1ca3685668cd05c3bbb4eb8b19c0bc21874fa72f,"['autofit', 'texture', 'buffer', 'crash', 'upload']",General,{'crash': 100}
+85a343c24bfebe9e555312851ffe04f73a5094fa,"['speculative', 'bizarre', 'crash', 'null']",General,{'crash': 100}
+726a937312f305b41bf444d140df83c7b2e5aa47,"['check', 'gridview', 'crash', 'report']",General,{'crash': 100}
+89e5b1e62bf1e447e71d9d33d20aa01590e2f953,"['workaround', 'nvidia', 'crash']",General,{'crash': 100}
+bfc1904fdf816b3070008bc43f4de061356f507b,"['useful', 'crash', 'report']",General,{'crash': 100}
+3e9f47f0f3d440b4dcc98863947ea92c8fdb1503,['crash'],General,{'crash': 100}
+943ed671492b12dde2b1776f2f06703aedc0673f,"['memory', 'leak', 'buffer']",Risky_resource_management,{'memory leak': 100}
+0351dc2cbd1a03a2013cf1e54b42570f32c11e4c,"['speculative', 'crash', 'check', 'device', 'pointer', 'user', 'code', 'time', 'device', 'pointer', 'null']",General,{'crash': 100}
+80c76fab5ffc1f468c75416e557e80ccb9592267,"['speculative', 'crash', 'shader', 'viewer', 'tooltip', 'report', 'line', 'hoverwin', 'null', 'line', 'callback', 'thread', 'race', 'ownerview', 'listview', 'crash']",General,{'crash': 100}
+e79c98c85a586339379fce9ea1f0591b99079665,"['crash', 'tooltip']",General,{'crash': 100}
+7339be3c00744efb64df9e40e4736e01b86ae99a,"['crash', 'ctrl']",General,{'crash': 100}
+1ba89e4b16c49c0a62f7e9ff24d3fb95b653e5e1,"['ctrl', 'copy', 'paste', 'handler', 'pipeline', 'viewer', 'crash', 'ctrl']",General,{'crash': 100}
+e35fc400dd0c5ac89b4ab85c03657d59d9df577e,"['invalid', 'index', 'crash', 'upload', 'vertex', 'strip', 'restart', 'index', 'index', 'buffer']",General,{'crash': 100}
+392f9b7f2d99178a44e52928f9acaaaf0fbad9be,"['clamp', 'texture', 'view', 'slice', 'number', 'slice', 'sanity', 'view', 'point', 'number', 'slice', 'list', 'slice', 'crash', 'report', 'clamp', 'crash']",General,{'crash': 100}
+3701b466116ae5df1339642978e0693ffbac7df3,"['crash', 'function', 'core', 'size', 'format', 'default', 'colour', 'depth', 'stencil', 'format']",General,{'crash': 100}
+6a09446acb78469bd28585de5c06a1dea08b8535,"['crash', 'ctrl', 'event', 'browser']",General,{'crash': 100}
+8abb2f19ccfeab2485313845527fe88abadea73f,"['crash', 'editing', 'shader', 'line', 'source']",General,{'crash': 100}
+cc34f5749afdd93fc4f6618a3bcbe5d4ffaecb1d,"['crash', 'marker', 'group', 'child', 'node', 'empty', 'group', 'child', 'group']",General,{'crash': 100}
+1f9918a7c8aa847376aee00afad0a6fbaef0da7e,"['crash', 'index', 'buffer', 'multiple', 'call', 'byte', 'index', 'post', 'transform', 'index', 'buffer', 'uints', 'fact', 'size', 'drawcall']",General,{'crash': 100}
+1759a7ba351b530e54161537f7f48f459548e339,"['crash', 'constant', 'buffer', 'preview', 'window', 'small', 'minsize', 'value', 'setting', 'size']",General,{'crash': 100}
+7e1e87af1fcfdd69c0ccd77347752e4ff35b1084,"['crash', 'shader', 'debug', 'empty', 'trace', 'array', 'current', 'step']",General,{'crash': 100}
+c30fd3e1e10049e132364927b1e5489e96f69a1c,"['crash', 'constant', 'buffer', 'open']",General,{'crash': 100}
+e7307455f66c758e7db637a7b6adeea11160bae8,"['crash', 'vertex', 'input', 'instance', 'rate', 'case', 'index', 'need']",General,{'crash': 100}
+4dcb89966c9238130306c7d7b008101def880ea7,"['crash', 'event', 'browser', 'empty', 'marker', 'region', 'figure', 'event', 'marker', 'region', 'select', 'parent', 'valid', 'event', 'label', 'node', 'index', 'true', 'case', 'drawcalls']",General,{'crash': 100}
+e2f7afc3a25b6e6f8ba9a0898280d12f8de49c79,"['sure', 'fullscreen', 'program', 'shader', 'necessary', 'msaa', 'array', 'bind', 'null', 'vertex', 'shader', 'driver', 'crash']",General,{'crash': 100}
+731a7f3797777f66755b2c55dbb79c17f768106c,"['crash', 'opening', 'cbuffer', 'window', 'pipeline', 'state', 'control', 'creation', 'time', 'spot', 'property', 'invalid']",General,{'crash': 100}
+a440589969b33f690f65a3c2b7c9d18acb7742e4,"['crash', 'image', 'wrong', 'array', 'length']",General,{'crash': 100}
+cca206a356b070f05f6e5a293ecabea367bd9d03,"['array', 'crash', 'ditch', 'slot', 'array', 'uavs', 'onwards', 'slot', 'uavstartslot', 'slot']",General,{'crash': 100}
+12519df942a953c27762613d4310174df559c56b,"['crash', 'insert', 'index', 'list']",General,{'crash': 100}
+7eed980850b57ae584ca85711e4f89cd47d2f227,"['speculative', 'crash', 'upload', 'sure', 'node', 'index']",General,{'crash': 100}
+ce20926f200d7e1652869dd3e42591ee190eda89,"['defensive', 'lack', 'index', 'data', 'thrown', 'blockcopy', 'crash', 'upload', 'empty', 'null', 'buffer']",General,{'crash': 100}
+be65a45f23ee8c71b6e3e73a7c7edc497e9b170e,"['crash', 'proxy']",General,{'crash': 100}
+065acf8ac9107a3bd4d3d3cb25c96838fd31d8b1,"['crash', 'image', 'viewer']",General,{'crash': 100}
+772ee5ae3a2e2c3c6a57f141263b23af65bb90d8,"['minor', 'memory', 'leak', 'array']",Risky_resource_management,{'memory leak': 100}
+e13f4b61d4f98c0ef59579b5aed2b6dc2c24490b,"['crash', 'pipeline', 'state', 'empty']",General,{'crash': 100}
+930c1c53d5a4c5609674d4f8323dedd30405cc19,"['crash', 'drawcall', 'null']",General,{'crash': 100}
+4cf8d1a2ced9ee93b195b36820d6724dc29c4a5a,"['massive', 'memory', 'leak', 'shadow', 'storage', 'idle', 'resource', 'shadow', 'storage', 'need', 'sure', 'free', 'unmap', 'lifetime', 'resource']",Risky_resource_management,{'memory leak': 100}
+ef033324088dab7ce171b14c762b63f66c86e204,"['memory', 'leak', 'stringformat', 'sntimef']",Risky_resource_management,{'memory leak': 100}
+23fd72b6ef8a45a5c32f5fc9003f40057be70ac2,"['friendly', 'crash', 'wrapper', 'layer', 'program']",General,{'crash': 100}
+3c050595297d61948e005fbf66a471d57a732d8f,"['track', 'minimal', 'shadow', 'state', 'context', 'basis', 'track', 'point', 'need', 'identify', 'style', 'function', 'state', 'vector', 'query', 'multiple', 'context', 'need', 'sure', 'state', 'weird', 'mismatch', 'crash', 'invalid', 'vaos']",General,{'crash': 100}
+5ae4b0d6490dba7182fd64c3841ab7ea3216317a,"['sure', 'call', 'overrun', 'buffer', 'size']",Risky_resource_management,{'overrun': 100}
+800751f2673057d2489bf0ad018050b6f1a3533e,"['compile', 'release', 'crash', 'handler']",General,{'crash': 100}
+de7cabe6f33a589dc0d3f278cc1705b34b96e190,"['index', 'buffer', 'data', 'crash', 'report']",General,{'crash': 100}
+5ad5a0af49a921c246f906b2fe560fc8a83abfac,"['image', 'size', 'crash', 'need', 'image', 'size', 'whole', 'cubemap', 'image', 'size', 'size', 'kind', 'matter', 'need', 'query', 'size', 'cubemap', 'dimension', 'compression', 'format', 'byte']",General,{'crash': 100}
+3abdff49a71d931fca21d3d658365481c9e00ea8,"['catch', 'ignore', 'crash', 'report', 'exception', 'thrown']",General,{'crash': 100}
+caa5e06644d2bd8811523d7276323acb2fc95ab3,"['crash', 'report', 'check', 'event', 'label', 'null']",General,{'crash': 100}
+29b4c65162570a164a2c2b83235da257c966d0f0,"['issue', 'application', 'symbol', 'complex', 'application', 'global', 'symbol', 'glenable', 'glenable', 'function', 'pointer', 'glenable', 'global', 'function', 'symbol', 'weird', 'return', 'address', 'symbol', 'function', 'pointer', 'reverse', 'problem', 'application', 'library', 'symbol', 'function', 'pointer', 'symbol', 'global', 'function', 'instant', 'crash', 'func', 'ptrs', 'sure', 'ideal', 'catch', 'bare', 'function', 'case', 'plain', 'link', 'libgl', 'getprocaddress', 'dlsym', 'funny', 'business']",General,{'crash': 100}
+b255f5bc3604dc3e5c80a89464c997fd918b4c6b,"['paint', 'crash', 'report', 'memory', 'issue', 'crazy', 'large', 'window', 'catch', 'exception']",General,{'crash': 100}
+f59ae15ad34be1bb652b3ae16a23708ac093ef8b,"['code', 'query', 'crash', 'report']",General,{'crash': 100}
+14e81f9a186535e1310c22797366777da182678f,"['invalid', 'lookup', 'vector', 'operand', 'index', 'operand', 'operand', 'sampler', 'index', 'speculative', 'crash', 'report']",General,{'crash': 100}
+ea9054b7520c18a0540ba2445a91669a070dfb94,"['hack', 'crash', 'ddgear', 'ppdevice', 'pointer', 'null']",General,{'crash': 100}
+09f8dc93dc240fd63b92cd2774833c254d8e1349,"['range', 'histogram', 'proper', 'bcdec', 'wrong', 'thanks', 'anonymous', 'user', 'range', 'histogram', 'crash', 'path', 'track', 'exception']",General,{'crash': 100}
+7aee40f7a4cc8aa07820c427c9a22a36d6fac186,"['present', 'determinable', 'function', 'mark', 'version', 'function', 'present', 'invalid', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+f45b2870d18ed563b44bdcc81704bee2c17e3817,"['crash', 'custom', 'cbuffer', 'format']",General,{'crash': 100}
+61cc49163b34db20f9f457589178ead9b89179db,"['function', 'unload', 'breakpad', 'crash', 'handler']",General,{'crash': 100}
+86a87f091c61697d01ab534fa794f3911bc05252,"['differentiate', 'gldepthrangef', 'gldepthrange', 'prevents', 'crash', 'application', 'retrieve', 'gldepthrange', 'pointer', 'gldepthrangef']",General,{'crash': 100}
+87bcde1c4cd8a93f847047e65fa1d36e9b475f6d,"['speculative', 'crash', 'report', 'value', 'large', 'invalid']",General,{'crash': 100}
+56e7f0c7544c799c426a85f3b9bacd296d7cdf2a,"['close', 'couple', 'limitation', 'check', 'context', 'normal', 'path', 'overrun', 'block', 'thread', 'debugbreak']",Risky_resource_management,{'overrun': 100}
+60ab640a51a21caba7a84c6c8edc4fbc1d8f5a0b,"['logic', 'mistake', 'crash', 'superfluous', 'dirty', 'data', 'serialise', 'dirty', 'resource', 'regardless']",General,{'crash': 100}
+3bc3f7a9021707b3aedfb82b76bcc2256f24a8a5,"['crash', 'frame']",General,{'crash': 100}
+61ba6715722ce9372a9008560a7e0392d4c51d3d,"['speculative', 'crash', 'cache']",General,{'crash': 100}
+d17314536acb406d177695ca5e34dcf072013382,"['comment', 'dist', 'script', 'renderdocui', 'renderdocui', 'crash', 'dump', 'callstacks', 'line', 'number', 'sweet', 'sweet', 'line', 'number']",General,{'crash': 100}
+be3ee7f915d9fd6ba4405c5a704b91051301e337,"['support', 'beta', 'official', 'release', 'term', 'stability', 'sure', 'obvious', 'week', 'period', 'beta', 'upload', 'crash', 'report', 'warning']",General,{'crash': 100}
+b38e7f20d39e9827c2131b7008af5b7c6b56a233,"['speculative', 'crash', 'null', 'value']",General,{'crash': 100}
+fe027e61d5ea47c814929be2e2ff89fdd3736b97,"['crash', 'ensure', 'valid', 'uniform', 'location', 'uniform', 'location', 'separable', 'program', 'real', 'program', 'different', 'uniform', 'value']",General,{'crash': 100}
+2947e508a69f13fe5e0b69f4a39626916bed32f9,"['array', 'overrun']",Risky_resource_management,{'overrun': 100}
+6cb65e8569c7158cd5a709826d293ec79a2af625,"['semanticname', 'null', 'null', 'specifies', 'output', 'data', 'crash', 'serialises', 'null', 'invalid', 'semanticname', 'null', 'name', 'semantic', 'fine', 'program']",General,{'crash': 100}
+711f4aadf671e2f1eb5ee2131041b6c81e27bbad,"['print', 'error', 'unsupported', 'operand', 'check', 'name', 'crash', 'report', 'minidump', 'compute', 'shader', 'output']",General,{'crash': 100}
+b30314e644f3073fe3d3710818028ded3d318cf4,"['program', 'function', 'hook', 'dlopen', 'redirect', 'attempt', 'open', 'libgl']",Insecure_interaction_between_components,{'dlopen redirect': 93}
+b89470a0b7203db2a5290885ece34448deff99a4,"['crash', 'report', 'exception', 'check', 'rect', 'valid', 'size']",General,{'crash': 100}
+7982301b609d4e05986bae4d3775501a21c0cd8e,"['speculative', 'crash', 'report', 'oninject']",General,{'crash': 100}
+2d578cdda12daa524d7466d5681e35f2b9443bf0,"['error', 'reading', 'config', 'file', 'crash', 'report']",General,{'crash': 100}
+abbe8efc26a296fc43d02b6b4e9c28255fbe6c8b,"['input', 'data', 'debug', 'message', 'auto', 'crash', 'dump']",General,{'crash': 100}

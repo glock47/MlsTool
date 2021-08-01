@@ -1,9 +1,15 @@
-sha,message,catetory,matched,labels
-a136920f796aeca7b17f7d1f67482eaf70965db0,"['nonetype', 'error', 'attribute', 'object', 'lowersupervisorctl', 'workernonetype', 'error', 'attribute', 'object', 'crash']",Risky_resource_management,{'crash': 100},
-85286f0913193c7746e6d70ffb4f057256682bc7,"['startsecs', 'crash', 'clock', 'process']",Risky_resource_management,{'crash': 100},
-6da7ee00423a4b6d24e075797e3db347b6c8f1a4,"['security', 'changelog', 'release', 'supervisor']",General,{'security': 100},
-98aac98f308aec5ab2ee7809ec88c51059ea0644,"['close', 'crash']",Risky_resource_management,{'crash': 100},
-862fea1dd2c706a69c64eccf8bd53617e6d5d83c,"['ioerror', 'making', 'close', 'crash', 'occurs']",Risky_resource_management,{'crash': 100},
-08ecd4c533508b10524ef12b391a4d29cfe1368d,"['syslog', 'handler', 'close', 'crash', 'reopen']",Risky_resource_management,{'crash': 100},
-16eb90929db4c73c507f4e308c163b7eb9ccd365,"['supervisord', 'startsupervisord', 'warning', 'rationale', 'emittedmight', 'directory', 'currentsupervisord', 'trick', 'directoryrogueimplication', 'security', 'documentation', 'warningsupervisord']",General,{'security': 100},
-6ad22a74333c568b71b2e5b0245946543087fe9c,"['process', 'sigkillstopwaitsecs', 'process', 'normalsupervisord', 'improper', 'crash', 'wouldthanks', 'hendryx', 'calvin']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+a136920f796aeca7b17f7d1f67482eaf70965db0,"['error', 'nonetype', 'object', 'attribute', 'supervisorctl', 'tail', 'worker', 'grep', 'crash', 'error', 'nonetype', 'object', 'attribute']",General,{'crash': 100}
+4e334d9cf2a1daff685893e35e72398437df3dcb,"['explicit', 'security', 'warning', 'reference']",General,{'security': 100}
+85286f0913193c7746e6d70ffb4f057256682bc7,"['crash', 'process', 'state', 'clock']",General,{'crash': 100}
+6da7ee00423a4b6d24e075797e3db347b6c8f1a4,"['supervisor', 'security', 'release', 'supervisor', 'changelog']",General,{'security': 100}
+98aac98f308aec5ab2ee7809ec88c51059ea0644,"['crash', 'system', 'time']",General,{'crash': 100}
+ac5baef5d5d26633fbf5f098d74aaff0f5245516,"['crash', 'resource', 'limit', 'error', 'close', 'reverts', 'conflict', 'supervisor', 'option', 'supervisor', 'test']",General,{'crash': 100}
+862fea1dd2c706a69c64eccf8bd53617e6d5d83c,"['crash', 'ioerror', 'occurs']",General,{'crash': 100}
+08ecd4c533508b10524ef12b391a4d29cfe1368d,"['crash', 'syslog', 'handler', 'reopen', 'request']",General,{'crash': 100}
+16eb90929db4c73c507f4e308c163b7eb9ccd365,"['root', 'flag', 'console', 'rationale', 'supervisord', 'look', 'directory', 'file', 'trick', 'root', 'user', 'supervisord', 'directory', 'rogue', 'warning', 'documentation', 'security', 'implication']",General,{'security': 100}
+ee5cad57f5cc7b2a9aa1bd39e179a4dce5295d1f,"['cleanup', 'file', 'descriptor', 'supervisord', 'invocation', 'lame', 'workaround', 'snow', 'leopard', 'system', 'libdispatch', 'illegal', 'instruction', 'message', 'supervisord', 'startup', 'time', 'crash', 'system']",General,{'crash': 100}
+e71c4ed94fa884f15fca1f6e2b2602b84d9d0783,"['crash', 'zero', 'process']",General,{'crash': 100}
+aa7c81f3254c3d4ec11d06a6ab02a4647a7e8f73,"['track', 'meld', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+3fcccb8464acda7185faff0b5466a2d5b00d2fc7,"['vector', 'memory', 'leak', 'global', 'registry']",Risky_resource_management,{'memory leak': 100}
+4d335f2d54693f5c247bd946048a3ed5403a2116,"['describe', 'buffer', 'overflow', 'event']",Risky_resource_management,{'buffer overflow': 100}

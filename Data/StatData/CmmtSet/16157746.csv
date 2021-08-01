@@ -1,15 +1,40 @@
-sha,message,catetory,matched,labels
-bca464eada6f5f2c3d57a76acaf8a2be838f25d8,"['security', 'template', 'updateresolve']",General,{'security': 100},
-973b1ea1d7e270218e4efa2ce872294d609ba5c0,"['string', 'security', 'connectionfalse', 'security', 'persist']",General,{'security': 100},
-442d3bcba8208e63c5cced91d3cdd70f56d35a52,"['stack', 'overflow']",Risky_resource_management,{'stack overflow': 100},
-6f8f396b6dd8de2bd7d844d00fba8aaeb61e7e08,"['async', 'serialization', 'issue', 'product', 'context', 'async', 'query', 'unusuable', 'deadlock', 'concurrency', 'scenario', 'foreverresolveresolve']",Risky_resource_management,{'deadlock': 100},
-1f2b77827145b28128fa99331066395da2aac907,"['request', 'cosmosasync', 'cosmos', 'invocation', 'deadlock', 'cleanup']",Risky_resource_management,{'deadlock': 100},
-2e153ca0b082ddcb88f1bcaa59d529c37f67e464,"['security', 'issue', 'section']",General,{'security': 100},
-454b74f8f7543efe70a364f7423eab5a036ccb37,"['azure', 'experience', 'firstsuppresses', 'sentinel', 'crash', 'experience', 'output', 'environment', 'aspnetcore', 'occasionallyaspnetcore', 'internal', 'aspnet']",Risky_resource_management,{'crash': 100},
-fa8091b1bda9f68207f63d007af9be27868f6821,"['exception', 'async', 'evaluation', 'await', 'server', 'clientissuewould', 'introduce', 'aroundshouldinject', 'reset', 'subquery', 'deadlock']",Risky_resource_management,{'deadlock': 100},
-2e4e138572404ed936eb6e75cde4ed40a8ba6096,"['crash', 'query', 'compiler', 'modification', 'invalidinstead', 'entity']",Risky_resource_management,{'crash': 100},
-dbe6b2846bc81e2653605eb4c2b6b4a7987848e5,"['crash', 'query', 'compiler', 'invalidproblem', 'entity', 'navigation', 'specifiedentity', 'warning', 'reachable', 'finalexception', 'specifies', 'incorrect']",Risky_resource_management,{'crash': 100},
-b40b73cdc1637985c5526204a315bc9a9fdfe64b,"['stack', 'overflow']",Risky_resource_management,{'stack overflow': 100},
-83ed922bc0ae59c5f0e03fc9d1a9134c58f0f94b,"['problem', 'query', 'deadlock', 'countasyncgroupjoin', 'await', 'async']",Risky_resource_management,{'deadlock': 100},
-a3f2f64952534ca7250914196e78c5397b5e8611,"['string', 'security', 'dummy', 'linux', 'sqlclient']",General,{'security': 100},
-b19d019657b5e7f2ad0fb3ef650bf8f1e1041461,"['persist', 'query', 'security', 'server']",General,{'security': 100},
+sha,message,catetory,matched
+abf6029b79298e9c050daacf0865c90bd7c4f98b,"['debugassert', 'stack', 'overflow']",Risky_resource_management,{'stack overflow': 100}
+762ba95951ed1f92c59bcf0ed51f587562693b14,"['stack', 'overflow', 'case']",Risky_resource_management,{'stack overflow': 100}
+fb41d0e3cb639ecc8161a925ae0cf696a0fe961e,"['query', 'compilation', 'navigation', 'order', 'infra', 'core', 'provider', 'generate', 'warning', 'order', 'predicate', 'infra', 'core', 'provider', 'generate', 'warning', 'expression', 'tree', 'visitation', 'obsolete', 'exception', 'aggregate', 'operator', 'relational', 'client', 'eval', 'aggregate', 'operation', 'query', 'model', 'optimization', 'phase', 'parameter', 'value', 'cosmos', 'sensitive', 'data']",Porous_defenses,{'sensitive data': 100}
+bedb8ebab97c7f07ade5ed2d9fc936f2431127cb,"['test', 'json', 'serialization', 'object', 'graph', 'test', 'serialize', 'graph', 'json', 'support', 'newtonsoft', 'json', 'json', 'increase', 'depth', 'graph', 'exception', 'message', 'clear', 'lack', 'ignore', 'option', 'internal', 'reference', 'newtonsoft', 'json', 'memory', 'error', 'stack', 'overflow', 'error', 'serialize', 'cycle', 'high', 'priority', 'topology', 'suite', 'type', 'json', 'serialization']",Risky_resource_management,{'stack overflow': 100}
+bca464eada6f5f2c3d57a76acaf8a2be838f25d8,"['update', 'security', 'template']",General,{'security': 100}
+659ecfd2842cb6710d40ecf39f671c28b437fc4f,['security'],General,{'security': 100}
+973b1ea1d7e270218e4efa2ce872294d609ba5c0,"['connection', 'string', 'security', 'info', 'persist', 'security', 'info']",General,{'security': 100}
+b3a89d0f0ead4ce2e98a3fdf0bce214171b27cb3,"['stack', 'overflow', 'note']",Risky_resource_management,{'stack overflow': 100}
+78d3e030b94d3157e6bc467359bffca8e2d0b940,"['release', 'update', 'dependency', 'aspnet', 'update', 'dependency', 'http', 'github', 'aspnet', 'exception', 'message', 'memory', 'leak', 'warning', 'regression', 'test', 'issue', 'query', 'test', 'assertquery', 'method', 'version', 'part', 'assertquery', 'queryable', 'scalar', 'result', 'version', 'update', 'dependency', 'http', 'github', 'aspnet', 'dependency', 'coherency', 'update', 'parent', 'parent', 'parent', 'parent', 'parent', 'parent', 'parent', 'parent', 'parent', 'clean', 'cosmos', 'collection', 'reuse', 'cosmos', 'database', 'uniquify', 'database', 'name', 'emulator', 'separate', 'account']",Risky_resource_management,{'memory leak': 100}
+7f016bb2d1bf782f2edd78742a59b7ad26c098cd,"['exception', 'message', 'memory', 'leak', 'warning']",Risky_resource_management,{'memory leak': 100}
+442d3bcba8208e63c5cced91d3cdd70f56d35a52,"['stack', 'overflow']",Risky_resource_management,{'stack overflow': 100}
+a9e47664a44e7ff921aee2853582aab307c80574,"['deadlock', 'test', 'part']",Risky_resource_management,{'deadlock': 100}
+6f8f396b6dd8de2bd7d844d00fba8aaeb61e7e08,"['serialization', 'async', 'query', 'code', 'deadlock', 'issue', 'product', 'concurrency', 'exception', 'context', 'async', 'query']",Risky_resource_management,{'deadlock': 100}
+1f2b77827145b28128fa99331066395da2aac907,"['cosmos', 'test', 'pull', 'request', 'deadlock', 'cosmos', 'test', 'cleanup', 'sync', 'invocation', 'async']",Risky_resource_management,{'deadlock': 100}
+d1843cdc1e11a97d4db3b1752fd755b039a565f2,"['deadlock', 'test']",Risky_resource_management,{'deadlock': 100}
+01da710cdeff0431fc60379580aa63f335fbc165,"['memory', 'leak', 'applies', 'service', 'dbcontext', 'instantiation', 'leak', 'cherry']",Risky_resource_management,{'memory leak': 100}
+5fc73a3733eb9b301ecb3cb7c0120138a8c1b841,"['memory', 'leak', 'applies', 'service', 'dbcontext', 'instantiation', 'leak']",Risky_resource_management,{'memory leak': 100}
+2e153ca0b082ddcb88f1bcaa59d529c37f67e464,"['security', 'section', 'issue', 'template']",General,{'security': 100}
+7c86a2768ccdeda5d5de67f931cfb0de70fcf9eb,"['memory', 'leak', 'sqlitecommand', 'command']",Risky_resource_management,{'memory leak': 100}
+779d0ef28ea3192f2cbd66b76347d06f5e1dd40d,"['savechanges', 'circular', 'dependency', 'message', 'update', 'transient', 'error', 'message', 'sensitive', 'data', 'conceptual', 'null', 'exception', 'validate', 'shadow', 'property', 'incompatible', 'principal', 'entity', 'fixup', 'exception', 'navigation', 'exception']",Porous_defenses,{'sensitive data': 100}
+00f8e36d8e2e8ce0e247e6d05721d0df48e15401,"['stack', 'overflow', 'self', 'relationship']",Risky_resource_management,{'stack overflow': 100}
+584fc4d9862e7eb6b53724ff1bab2b9c15fe161a,"['cache', 'dbset', 'object', 'memory', 'leak', 'dbsets', 'cache', 'local', 'view', 'issue', 'localview', 'object', 'check', 'localview']",Risky_resource_management,{'memory leak': 100}
+2e4e138572404ed936eb6e75cde4ed40a8ba6096,"['modification', 'query', 'compiler', 'crash', 'invalid', 'entity', 'type']",General,{'crash': 100}
+dbe6b2846bc81e2653605eb4c2b6b4a7987848e5,"['query', 'compiler', 'crash', 'invalid', 'path', 'problem', 'extract', 'navigation', 'path', 'entity', 'type', 'warning', 'case', 'reachable', 'final', 'result', 'exception', 'user', 'specifies', 'incorrect', 'navigation']",General,{'crash': 100}
+b40b73cdc1637985c5526204a315bc9a9fdfe64b,"['stack', 'overflow', 'cycle']",Risky_resource_management,{'stack overflow': 100}
+24556c26a4bdae6e77e84678b7e0ee5d0e321365,"['exception', 'message', 'invalid', 'identity', 'identity', 'conflict', 'issue', 'null', 'case', 'property', 'name', 'null', 'alternate', 'case', 'value', 'sensitive', 'data', 'current', 'behavior']",Porous_defenses,{'sensitive data': 100}
+65f96c6db5d17f59de82d160edc8a91d3602b1ac,"['querysource', 'subquery', 'proper', 'select', 'enable', 'sensitive', 'data', 'test', 'contains', 'test', 'issue']",Porous_defenses,{'sensitive data': 100}
+83ed922bc0ae59c5f0e03fc9d1a9134c58f0f94b,"['query', 'deadlock', 'problem', 'countasync', 'async', 'groupjoin', 'async', 'await', 'impl']",Risky_resource_management,{'deadlock': 100}
+e6e85a741d56a0a6c6b85882392204a1e3098a88,"['configurability', 'benchmark', 'database', 'database', 'instance', 'name', 'security', 'full', 'connection', 'string', 'append', 'database', 'benchmark', 'separate', 'database', 'server']",General,{'security': 100}
+a3f2f64952534ca7250914196e78c5397b5e8611,"['security', 'dummy', 'string', 'sqlclient', 'linux']",General,{'security': 100}
+b19d019657b5e7f2ad0fb3ef650bf8f1e1041461,"['query', 'assertion', 'persist', 'security', 'info', 'server']",General,{'security': 100}
+5c818a3b5782fff1659671178c04ab4c6cd70fec,"['sensitive', 'data', 'option', 'core']",Porous_defenses,{'sensitive data': 100}
+9da7a3ce4f3ffb55a9703417083de71f68ef5fcd,"['dbcontextoption', 'debug', 'level', 'control', 'sensitive', 'data', 'sensitive', 'data', 'usage', 'enums', 'event', 'event', 'everywhere']",Porous_defenses,{'sensitive data': 100}
+149d56424a2d36455b2530e862005de705656c37,"['memory', 'leak', 'sqlite', 'statement', 'error', 'statement', 'object', 'test', 'case', 'replicate', 'http', 'github', 'aspnet', 'entityframework', 'issue', 'error', 'message', 'error']",Risky_resource_management,{'memory leak': 100}
+8512c503067401d2d067fb710d983ef14362353c,"['native', 'method', 'memory', 'leak', 'small', 'perf', 'gain']",Risky_resource_management,{'memory leak': 100}
+b7a1c9ccb54b8a0c342c315a0587c7daacdfa5e8,['deadlock'],Risky_resource_management,{'deadlock': 100}
+959b14fd71ef86859e4843bfb380ab979a9d4542,['deadlock'],Risky_resource_management,{'deadlock': 100}
+2cbcbe78f2a2b0e7b985c2a33a0bc81f9d0f5870,"['async', 'database', 'creation', 'test', 'fixture', 'issue', 'deadlock', 'code', 'constructor', 'async']",Risky_resource_management,{'deadlock': 100}
+02e648594ea1f94e8ad04dcc3266746c0c9ba09f,"['modeldiffer', 'todos', 'differ', 'creates', 'pair', 'object', 'model', 'pair', 'metadata', 'creates', 'pair', 'database', 'object', 'pair', 'difference', 'form', 'migration', 'operation', 'name', 'pair', 'addition', 'item', 'pair', 'target', 'removal', 'item', 'source', 'operation', 'retrieval', 'type', 'order', 'minimizes', 'conflict', 'drop', 'operation', 'data', 'loss', 'index', 'constraint', 'table', 'renames', 'addition', 'column', 'table', 'drop', 'rename', 'conflict', 'rename', 'operation', 'table', 'name', 'rename', 'operation', 'original', 'name', 'drop', 'operation']",Risky_resource_management,{'data loss': 100}

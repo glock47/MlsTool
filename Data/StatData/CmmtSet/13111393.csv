@@ -1,186 +1,254 @@
-sha,message,catetory,matched,labels
-f59ef6378a690901b33ab20efeaa21bb82c33c8d,"['security', 'email']",General,{'security': 100},
-b4353179047c427788b805f1748da891abd324db,"['acbaac', 'mergebfedfccafbbd', 'requestupgrade', 'psutil', 'security']",General,{'security': 100},
-f5470130f541cceabd0f21b2d390a22461d22ba7,"['version', 'crash', 'server', 'issue']",Risky_resource_management,{'crash': 100},
-e411d497c48bb2229657dfe5e8327d1f9e52e692,"['extra', 'controller', 'crash', 'information', 'compute']",Risky_resource_management,{'crash': 100},
-d92ff1abe39093e61098990e2983276cdf66a7fc,"['compute', 'information', 'crash']",Risky_resource_management,{'crash': 100},
-159d21af9ac4978f5fdd413aedfc421de03938f9,"['mergemerge', 'lineitem', 'requestchange', 'lineitem', 'crash', 'multiselection', 'style']",Risky_resource_management,{'crash': 100},
-713feff11fa9a202f6d608a070bfe5dbee5b92f6,"['lineitem', 'crash', 'multiselection', 'style']",Risky_resource_management,{'crash': 100},
-4799fc7c931fea9f25e6603e3d89ef1f8cb37da2,"['crash', 'disallow']",Risky_resource_management,{'crash': 100},
-87e6159ff67f8084d204ffa24121cde389501dff,"['crash', 'progress', 'dialog']",Risky_resource_management,{'crash': 100},
-37a23d9682a16250e91a34109e6d1e793eda8140,"['crash', 'exception']",Risky_resource_management,{'crash': 100},
-e18e10c70139edd87e1a4cc789ef950e1adf2953,"['crash', 'preference', 'dynamips', 'device']",Risky_resource_management,{'crash': 100},
-4df0c3301361c9b7835c6c88e01ea804b69e229c,"['packet', 'crash', 'program', 'configure', 'window']",Risky_resource_management,{'crash': 100},
-9682cad4f44690588a827ef7064dd2c0dea1eafe,"['issue', 'section', 'security']",General,{'security': 100},
-23da6a4c3165c576bbb0c81de3acaa3ecca60943,"['crash', 'error', 'console']",Risky_resource_management,{'crash': 100},
-417395718de0e9791437cc4722d7723ffd4466c7,"['crash', 'progress', 'dialog']",Risky_resource_management,{'crash': 100},
-bc71985ee38c2b460b869aa379d86d8c482e3e6a,"['crash', 'router', 'chassis']",Risky_resource_management,{'crash': 100},
-6bebf2d14d900b00904789867a5b91622104dbee,"['crash', 'potentatial', 'dialog', 'progress']",Risky_resource_management,{'crash': 100},
-212728eb94ca78fcadf743d874f79cd5c732abc3,"['crash', 'preference']",Risky_resource_management,{'crash': 100},
-12dcfda756ba17d003dbb56a234e7637a0b06cbb,"['return', 'server', 'crash', 'unicode', 'computer', 'local', 'error']",Risky_resource_management,{'crash': 100},
-97a71904f737c47d9b7f071fe78af8ada96ed1a5,"['crash', 'appliance', 'import']",Risky_resource_management,{'crash': 100},
-0ec177c64413c4151c00f5b6e79bd1f11846751d,"['version', 'crash', 'wizard', 'dynamips', 'appliance']",Risky_resource_management,{'crash': 100},
-4f56f100fabd32e76eb39cc4fb58e09b558544fb,"['crash', 'proof', 'dialog', 'progress']",Risky_resource_management,{'crash': 100},
-37a72af75f4086066d36874f50c832f51f14f7fa,"['crash', 'native']",Risky_resource_management,{'crash': 100},
-aab307a519c76c40fd92dd5152288c0d29033259,"['crash', 'editor', 'dialog']",Risky_resource_management,{'crash': 100},
-7d0fe526007de2fe27132b4ade7ad65280c24da1,"['invalid', 'crash', 'appliance', 'image', 'wizard']",Risky_resource_management,{'crash': 100},
-1440caa532fb6d4011089fce0cc6556c12f9ca58,"['crash', 'configuration']",Risky_resource_management,{'crash': 100},
-de348d39daf6e85be33355cb7c31ba351404d2a0,"['crash', 'symbol', 'potential']",Risky_resource_management,{'crash': 100},
-8ec53a6004c6b5cdc16ffc1a2bf5f4fbf3681017,"['crash', 'dynamips']",Risky_resource_management,{'crash': 100},
-cfd1bbd9d1dfa3df5fc961763c5a7995faf9abee,"['crash', 'progress', 'dialog']",Risky_resource_management,{'crash': 100},
-25ae214b6b831b888049d42cf55d27b0adad549f,"['crash', 'console']",Risky_resource_management,{'crash': 100},
-95c443e127cb91156bcbdbbb3060dabae0071973,"['security', 'proxy', 'trouble', 'system', 'suite', 'ignore']",General,{'security': 100},
-4fb9d46953183e5873ca64143d247ba80117b4ff,"['crash', 'symbol']",Risky_resource_management,{'crash': 100},
-c066f7f3dff0c7674ec2a5a34f6a546d56e12732,"['crash', 'potential']",Risky_resource_management,{'crash': 100},
-5117ef8a584eb6286b526d17573d4551d1816754,"['crash', 'potential']",Risky_resource_management,{'crash': 100},
-23ca81ccc445ee49dd15c033fd90be2f51e3a4cc,"['crash', 'ressources']",Risky_resource_management,{'crash': 100},
-ef7bd7c77cb81f13816f2a2203bbaadb23d54ecf,"['crash', 'topology']",Risky_resource_management,{'crash': 100},
-fc94e784cc28827e52c0ce786b7e9f2c83376481,"['crash', 'setting', 'switch', 'ethernet']",Risky_resource_management,{'crash': 100},
-8b8cbb4d74558cf2f77f49ffa80aa5ef3e37febe,"['crash', 'dialog', 'snapshot']",Risky_resource_management,{'crash': 100},
-40783eba159b92c9352177595027fad968382011,"['remote', 'crash', 'server']",Risky_resource_management,{'crash': 100},
-e63d20ce48a226f1cfb93b45b55b4c34477047df,"['crash', 'appliance', 'wizard']",Risky_resource_management,{'crash': 100},
-f6ecc4d0bb6bb69b1d3cf6488452f176a6328d45,"['crash', 'local', 'server']",Risky_resource_management,{'crash': 100},
-2fd53be0838b20e9ffc56a387d096282d038a087,"['crash', 'startup']",Risky_resource_management,{'crash': 100},
-b18d7c7cc584595fb2ac8e212da21b5cfc613286,"['crash', 'wireshark']",Risky_resource_management,{'crash': 100},
-31fc18b150d8c4f6dd4acff493dc088c4ec8f5da,"['crash', 'wizard']",Risky_resource_management,{'crash': 100},
-d32c3ebebe030abcfbf33d9cbbbd0efd1a3c8544,"['crash', 'clone']",Risky_resource_management,{'crash': 100},
-e7f761c8d6c44490b05fbeac947892370504bff9,"['default', 'crash', 'setting', 'server', 'restore']",Risky_resource_management,{'crash': 100},
-bb760cd86149a1129efbccef28b133076e797cf3,"['crash', 'vmware', 'virtualbox', 'wizard']",Risky_resource_management,{'crash': 100},
-7b77627db78f9f5fa3366723f163c0d364f6714d,"['crash', 'update', 'report']",Risky_resource_management,{'crash': 100},
-fd5f32bcc485c2b616567531ae30650e2a476328,"['crash', 'debug']",Risky_resource_management,{'crash': 100},
-8325339b584bb21743df20d0265f64e05bf19033,"['crash', 'information', 'console', 'condition']",Risky_resource_management,{'crash': 100},
-b39185ceb39906f782a267475d24d42ac632d602,"['crash', 'compute', 'summary']",Risky_resource_management,{'crash': 100},
-c9a2cc05ea3385a31571dfe9973409b35fe0e2fc,"['crash', 'wizard', 'setup']",Risky_resource_management,{'crash': 100},
-0f0ac333457c4ddbaded7955ecbddb578ee33ad5,"['crash', 'proof']",Risky_resource_management,{'crash': 100},
-d0b4e5045b1290305a23efc14d1811997015a24d,"['crash', 'appliance']",Risky_resource_management,{'crash': 100},
-a939dfe37f90bb554574b0878365434039a970ca,"['crash', 'upload', 'image']",Risky_resource_management,{'crash': 100},
-cc2f7920b80f21fadcd8fc202261cb2ba3cd67a7,"['crash', 'appliance', 'import']",Risky_resource_management,{'crash': 100},
-b81a02fbb4315b9cbf3c35966ba028125524dbe4,"['crash', 'update', 'report']",Risky_resource_management,{'crash': 100},
-3021cfb1647b297931df7d964fb1fedbd0c3a79b,"['crash', 'cloud']",Risky_resource_management,{'crash': 100},
-de2de45196319e12cb8a57fc2d94552ddafbb521,"['crash', 'preference', 'dynamips']",Risky_resource_management,{'crash': 100},
-069d02d90851e8270bc078c2ff46210280cc3b42,"['crash', 'switch']",Risky_resource_management,{'crash': 100},
-a207ba61de178420ea76300023ffa18beeb19cf4,"['crash', 'setting', 'cloud']",Risky_resource_management,{'crash': 100},
-71125a4b588ef38135d45c0dd64aff18616023d2,"['crash', 'relay', 'switch', 'frame']",Risky_resource_management,{'crash': 100},
-2fcaa1f6cc44563ef267ddfa684c54e1145f3b55,"['crash', 'preference', 'server']",Risky_resource_management,{'crash': 100},
-b933cdd9509b978dc7c2a85f890b830bb923caf1,"['crash', 'frozen']",Risky_resource_management,{'crash': 100},
-61ac6ed6e09ea3f2bf8bb17be10e81056f46e83d,"['crash', 'wizard', 'cloud']",Risky_resource_management,{'crash': 100},
-8df07808a9a120f2ee0c2b1b914e1d5acb14c367,"['crash', 'template']",Risky_resource_management,{'crash': 100},
-ab68c1f1abef2eec695ea0bd914aa9410ed6dcb9,"['crash', 'empty', 'config']",Risky_resource_management,{'crash': 100},
-02d327547576aa74f71f9fb13ea1e92505a68a21,"['crash', 'symbol']",Risky_resource_management,{'crash': 100},
-dc6756da042327bc59b070326b280f3b5382cba7,"['crash', 'image', 'accessible', 'directoryimport']",Risky_resource_management,{'crash': 100},
-473f60167d2c21e49dfe94dc19b9bbc3c5b07b05,"['crash', 'setting']",Risky_resource_management,{'crash': 100},
-a977042017055b15e6cefdf4e720143672960a1e,"['small', 'crash']",Risky_resource_management,{'crash': 100},
-d077621ee99aae15d47d938d1672656fdb2adf98,"['crash', 'imageitem']",Risky_resource_management,{'crash': 100},
-c8d6a4640a9bd3d70ab11c10202bbb7495ef12c9,"['crash', 'topology']",Risky_resource_management,{'crash': 100},
-27be2b7a1d793a51686a82406a675f34f180c3c4,"['crash', 'wizard', 'virtualbox']",Risky_resource_management,{'crash': 100},
-0fd5a1a91de2911e6051509014303a054944664c,"['crash', 'router']",Risky_resource_management,{'crash': 100},
-f50f7153dcc213a8e71dfc24bd30832c9ff145b7,"['crash', 'startup']",Risky_resource_management,{'crash': 100},
-b3a7d42f9df07c92413b28e51c030967d1112c99,"['crash', 'server', 'summary']",Risky_resource_management,{'crash': 100},
-1e3883674ee8b5f48c240e7324119cfbe18417c3,"['crash', 'creation']",Risky_resource_management,{'crash': 100},
-0f4cac1b7642e3ff5c261d8530f5df627fffb6b6,"['crash', 'interface', 'label']",Risky_resource_management,{'crash': 100},
-c6df4928526eae6071418a7a668e9edf38692748,"['crash', 'system']",Risky_resource_management,{'crash': 100},
-d24a0312d84683a16459d0e2f5c030bc3e2631c3,"['crash', 'readme']",Risky_resource_management,{'crash': 100},
-939f8f52c187ca95fa71be7deb3a4a86bdc2e761,"['hostname', 'security']",General,{'security': 100},
-cb1e062f9bc36261c777a4eea004735bcca07359,"['crash', 'interface']",Risky_resource_management,{'crash': 100},
-a1d1bc5aea681c2816431a47dfe2e99afb835ba4,"['crash', 'topology', 'summary']",Risky_resource_management,{'crash': 100},
-d94f9a91dbd6000e411c005316006f17899d5f8b,"['crash', 'preference']",Risky_resource_management,{'crash': 100},
-2232680ded4a995aa362b047c571c11f055fa3b1,"['crash', 'report']",Risky_resource_management,{'crash': 100},
-26d918e218ed9809bf23dfb5c3045e1854a89485,"['crash', 'ostinato']",Risky_resource_management,{'crash': 100},
-e9ec42be0277a4f73f6566fbc012ed4086218ea5,"['mergepatch', 'noplay', 'requestinstruction', 'issue', 'security']",General,{'security': 100},
-379b7a56ef86f685308530d19351fdf408f5a321,"['crash', 'virtualbox']",Risky_resource_management,{'crash': 100},
-e30e8690255a107d4d1d2d1b9a956c8fa639d1ad,"['instruction', 'issue', 'security']",General,{'security': 100},
-fdd5c71711f408adac2c873532d51dcff255bcd4,"['crash', 'wizard']",Risky_resource_management,{'crash': 100},
-305cc724853c98aee037cdc548dda8c8b7ff4354,"['crash', 'local', 'image', 'directory']",Risky_resource_management,{'crash': 100},
-e2415b68d344ab519a35764eccbdc5064d044ebe,"['crash', 'setting', 'server', 'local']",Risky_resource_management,{'crash': 100},
-fa35f3f9e4659c58c89ae7ae8cb9375bf98b1378,"['crash', 'vmware', 'virtualbox', 'project']",Risky_resource_management,{'crash': 100},
-82c41e09b57f09b6483513ee62e6439962d6de51,"['crash', 'preference']",Risky_resource_management,{'crash': 100},
-0ff3bb1a342be076247de3d262890cb2b1baef7d,"['sigint', 'crash']",Risky_resource_management,{'crash': 100},
-65e2a1c8aae5d0df617b454bd1a3a055f5025a9d,"['crash', 'console', 'custom']",Risky_resource_management,{'crash': 100},
-abd838de007190aa9319ba53896eb9f3926cf9a9,"['crash', 'fedora']",Risky_resource_management,{'crash': 100},
-c65f55b22ab6cf95dcb02503e089b0c86db44029,"['crash', 'docker', 'template']",Risky_resource_management,{'crash': 100},
-3af8c4d28fe7c82a3cff288c686176866b4696f6,"['crash', 'image']",Risky_resource_management,{'crash': 100},
-235cba5ba5a96004b4d6b49b527f1bda5860fa09,"['crash', 'appliance', 'delete']",Risky_resource_management,{'crash': 100},
-71cadad05a53a589b87776eb1e757600ead0c653,"['crash', 'console', 'device']",Risky_resource_management,{'crash': 100},
-f740fde8344f94b7d5d6efe02caaad70f995a1f2,"['crash', 'editing', 'docker']",Risky_resource_management,{'crash': 100},
-95c0afd5ddf3a73ea388e4655101d5062c20fdba,"['download', 'crash']",Risky_resource_management,{'crash': 100},
-f14b4f442920ecfbacf54b32f1ef13951f8ad021,"['crash', 'import']",Risky_resource_management,{'crash': 100},
-cda6398010af0aabb800ae07be3dee657508b7c2,"['crash', 'topology']",Risky_resource_management,{'crash': 100},
-59ae047359a75f66b8bc05b50f0bfe62b13962cb,"['crash', 'topology']",Risky_resource_management,{'crash': 100},
-026a78b1b62f13f23e8d4a23fdaf71b938382335,"['crash', 'window', 'doctor']",Risky_resource_management,{'crash': 100},
-380a4a0395d3233dfad4c9fdfdcc18e055089199,"['crash', 'ubridge', 'empty', 'doctor']",Risky_resource_management,{'crash': 100},
-676187061c8acb539ac48377deeabb7351695210,"['psutilversion', 'psutil', 'crash']",Risky_resource_management,{'crash': 100},
-57cf10c251c7693b322bd85dc1fbd2a98fe226f0,"['crash', 'topology', 'summary']",Risky_resource_management,{'crash': 100},
-0dd9803f74a970824f27c9415e66f2f6f2ec4162,"['crash', 'empty']",Risky_resource_management,{'crash': 100},
-2baaa26a425bbe346b0400409ef2a5093c7b4a22,"['crash', 'progress', 'dialog']",Risky_resource_management,{'crash': 100},
-654ad611053307a5f960f0bab3eb07ae9b4ad4c2,"['crash', 'cluster']",Risky_resource_management,{'crash': 100},
-2522bd44d61285f445a24917b556dc77348771ff,"['crash', 'report']",Risky_resource_management,{'crash': 100},
-fdb382874dba512accf77854571744c77bce36c5,"['connection', 'crash', 'server']",Risky_resource_management,{'crash': 100},
-8983e6c5a9f41389437a866df4b0d86838ec08bb,"['failure', 'crash', 'topology', 'converter', 'opening']",Risky_resource_management,{'crash': 100},
-c6e06f394144d8651c309fde73b3e4a8ad81cf9e,"['failure', 'crash', 'topology', 'converter', 'opening']",Risky_resource_management,{'crash': 100},
-8142d0baa73e5e3d25a4b897f943a66b3d9192a9,"['crash', 'progress', 'dialog']",Risky_resource_management,{'crash': 100},
-a1579ca86b8e606b33bc3744932a74ef2bd0dfa2,"['crash', 'progress', 'dialog']",Risky_resource_management,{'crash': 100},
-81c4ddb85f1c9d09143f41bf7b658c04d9d2578e,"['crash', 'error', 'update']",Risky_resource_management,{'crash': 100},
-eb2e504acc098b2701336137f2152aa9d01cc954,"['crash', 'window']",Risky_resource_management,{'crash': 100},
-7163daf4803f6a7ee2dd212dcd77d11b1045bf63,"['crash', 'appliance']",Risky_resource_management,{'crash': 100},
-b4ade1982e7c40c832fd5812b77de884bf5058dd,"['check', 'crash', 'dialog', 'progress']",Risky_resource_management,{'crash': 100},
-a16adb2b4662e5b04ee1ebad3c2e190760c4948d,"['crash', 'appliance']",Risky_resource_management,{'crash': 100},
-d2f8214a521ca137316840701bcec935645c7391,"['crash', 'appliance', 'wizard', 'linux']",Risky_resource_management,{'crash': 100},
-57872c38b31cb69ea0687268d419b47defb0b4dc,"['crash', 'symbol', 'selector']",Risky_resource_management,{'crash': 100},
-17655cd855db1849b8b9c7fce80785655c63c4af,"['crash', 'appliance', 'opening']",Risky_resource_management,{'crash': 100},
-593c777ff068bdcbbbea1a4367687337df781356,"['crash', 'attribute', 'nonetype', 'object', 'attributeerror']",Risky_resource_management,{'crash': 100},
-3cc43aa11fb9811042c230b67fe12e936c367cee,"['crash', 'invalid']",Risky_resource_management,{'crash': 100},
-3c4fc4c1bd78c58a5596abfcff43dbcbfcbfb2a8,"['crash', 'appliance']",Risky_resource_management,{'crash': 100},
-faa3b519b6a055a1aec2e20887abc9920b6c3d7b,"['version', 'crash', 'snapshot']",Risky_resource_management,{'crash': 100},
-ec71da40622b5790fa46305b4acd54237f56f7f1,"['crash', 'update', 'window', 'manager']",Risky_resource_management,{'crash': 100},
-ca173fb491a68a454202fad04eeb82689c862a92,"['crash', 'error', 'return', 'process']",Risky_resource_management,{'crash': 100},
-5d79bbce394ee062dfc4bad3f7b0f8bb120af500,"['crash', 'click', 'double', 'opening']",Risky_resource_management,{'crash': 100},
-18a5a28283a5b6c2bf9370d5226bcff2be6c7cd8,"['crash', 'startup']",Risky_resource_management,{'crash': 100},
-55d4201aafd7f512959415f3027f8118227ca50b,"['connection', 'insecure', 'server', 'creates', 'entry', 'additionalserver']",General,{'insecure': 100},
-77ba02f0ae7f112f9c4ae52f1e98936db81bfb0e,"['crash', 'server', 'update', 'intercept']",Risky_resource_management,{'crash': 100},
-e5d8fac00492b2a84128d70d2a40ddeb65aeda14,"['crash', 'developer', 'warning', 'report']",Risky_resource_management,{'crash': 100},
-773d680e427cf66fb0cdffa948485c57fa2fe565,"['crash', 'report']",Risky_resource_management,{'crash': 100},
-1b0415f81d8c547b9b4fbd5d36bfac8e2dabe282,"['crash', 'configuration']",Risky_resource_management,{'crash': 100},
-5252ed16caf786475fd5a44c74035d9a3de55262,"['crash', 'report']",Risky_resource_management,{'crash': 100},
-9abb4fe692d054dff50d1e1f251a169db8cc4240,"['crash', 'chinese', 'character']",Risky_resource_management,{'crash': 100},
-2a2777b22d3f28a01ed48849dfb13e9c5e30ac5a,"['crash', 'unset']",Risky_resource_management,{'crash': 100},
-be60a37a2929229879f7ae571e81496928c8dfa1,"['insecure', 'certificate']",General,{'insecure': 100},
-57616ffd83d3225ebbc6c633fec5693a3736c9bb,"['crash', 'window', 'launch']",Risky_resource_management,{'crash': 100},
-959a05643f63bd282ec1b122d9b53b5581769aa5,"['crash', 'vmware', 'command']",Risky_resource_management,{'crash': 100},
-2df78eb436a7b88d0f63c6c0eb363db2dff0a989,"['crash', 'console', 'event', 'display']",Risky_resource_management,{'crash': 100},
-090a85bdd5ba30769cef4f220be95f31b6240198,"['connection', 'crash', 'internet', 'reliable', 'report', 'error']",Risky_resource_management,{'crash': 100},
-90522914c050948a2f1d23d28551e775a98903ad,"['crash', 'module']",Risky_resource_management,{'crash': 100},
-a85888bcbdc0684f3b182ed48e72fa7a13403444,"['crash', 'update', 'report']",Risky_resource_management,{'crash': 100},
-f4268bb4475577377b9b32fec83e309f1bef0b27,"['crash', 'server', 'local', 'window']",Risky_resource_management,{'crash': 100},
-1378cab00846f8b8f00918368954d0a5b6117ea1,"['crash', 'update', 'report']",Risky_resource_management,{'crash': 100},
-65aca8ab76381a670c0abe1b55076fa49c2e8180,"['crash', 'python']",Risky_resource_management,{'crash': 100},
-5052d1263bcef0956350002ca312733dbf7a4ca5,"['crash', 'server', 'local', 'window']",Risky_resource_management,{'crash': 100},
-8eb4c1e7c1795597dbc96ae3de288108ed7a36f1,"['crash', 'update', 'report']",Risky_resource_management,{'crash': 100},
-be7278294af978053916a9907a5ff2ce3e10d1bf,"['crash', 'autostart']",Risky_resource_management,{'crash': 100},
-73ed4fa6f37fc64f74b2ac6a8cd667aca28113b1,"['crash', 'cacert']",Risky_resource_management,{'crash': 100},
-e6e88d2a2bc425bc94a39b029eb4482be763e5f9,"['return', 'process', 'crash']",Risky_resource_management,{'crash': 100},
-891c540d60e27aaeb209a9d1fb4f378aa98ab53b,"['crash', 'completion']",Risky_resource_management,{'crash': 100},
-ebd8f300d0f17e230db4996c9b99ae31a2618838,"['crash', 'topology']",Risky_resource_management,{'crash': 100},
-06fc3e726a79827268013ff8e5e906f6e57896f4,"['crash', 'report']",Risky_resource_management,{'crash': 100},
-52dee04e721beb30bfbdeea63867cd8260a20ff6,"['crash', 'report']",Risky_resource_management,{'crash': 100},
-74b4013002db6b38855a5c0c85609a767cf19263,"['crash', 'console', 'terminal']",Risky_resource_management,{'crash': 100},
-a31cc33c676c243af63bef9ec67f6ee6e8725860,"['crash', 'support', 'terminal']",Risky_resource_management,{'crash': 100},
-302fcfc7d7c2fab62d6a297f2e54a22aab6f859a,"['crash', 'intercept', 'message', 'antivirus']",Risky_resource_management,{'crash': 100},
-37989854a7956a78fb1f2db82fd7cc836aee8386,"['crash', 'string', 'rotationmodify']",Risky_resource_management,{'crash': 100},
-9c14b42bdadda313a818fa12f270d99a62e886af,"['crash', 'developer', 'report']",Risky_resource_management,{'crash': 100},
-6132aa78646aeb70fab26bb3a1648866c1263000,"['crash', 'error', 'system', 'report']",Risky_resource_management,{'crash': 100},
-f0d0d6b73a4e0869a8f017fbec5b45bed1e02aa0,"['crash', 'update', 'report']",Risky_resource_management,{'crash': 100},
-1cf8cae166439e793e6036fa524185815b61cd1b,"['crash', 'startup']",Risky_resource_management,{'crash': 100},
-844fb2e6ec82fbda4073bbd380d3f43dbfd293f5,"['remote', 'crash', 'server']",Risky_resource_management,{'crash': 100},
-254262c5c4c64fe03178476a7a063315051d33a3,"['crash', 'topology']",Risky_resource_management,{'crash': 100},
-41c200a0117d17db5d7d8aff6a8b785e1146b89d,"['crash', 'router', 'etherswitch']",Risky_resource_management,{'crash': 100},
-e85ea6a3ef7df20792943702d0b432daafa3c501,"['raven', 'support', 'crash', 'report', 'frozen']",Risky_resource_management,{'crash': 100},
-23d87cd926e432b3bf39aac06430790fb7c9eb79,"['crash', 'computer', 'cache']",Risky_resource_management,{'crash': 100},
-3aa0736478bf317e0c2f5746e4fb9c593448d7d8,"['crash', 'information', 'report']",Risky_resource_management,{'crash': 100},
-7a1b0e7a48e5394ac077d5cfe7c166bfc5dcb3ff,"['crash', 'query']",Risky_resource_management,{'crash': 100},
-4ddda18d5ba68092360eca5621ec7e8e6280b05b,"['crash', 'gnsconverter']",Risky_resource_management,{'crash': 100},
-7df1e92a36de4a39bc35b05137a1a6b4da946c65,"['crash', 'creation', 'blank']",Risky_resource_management,{'crash': 100},
-2be612e04234e6b5a983dda0a4ccbd291de2e214,"['crash', 'report']",Risky_resource_management,{'crash': 100},
-f00ad62b9655b358e73d9fa3de759b7c658cc488,"['click', 'crash', 'blank', 'project']",Risky_resource_management,{'crash': 100},
-5afe8d280540211e0aebdff5ede3bbf9e6b66732,"['crash', 'binary', 'server']",Risky_resource_management,{'crash': 100},
-e619e56537766254cb41060af4f5e5b6409347e0,"['crash', 'window', 'wizard', 'button']",Risky_resource_management,{'crash': 100},
-534cff6be913b099da531498c1d6eed4ab001026,"['category', 'possibility', 'device', 'security', 'configure']",General,{'security': 100},
+sha,message,catetory,matched
+f59ef6378a690901b33ab20efeaa21bb82c33c8d,"['security', 'link', 'email']",General,{'security': 100}
+b4353179047c427788b805f1748da891abd324db,"['pull', 'request', 'snyk', 'snyk', 'security', 'upgrade', 'psutil']",General,{'security': 100}
+f5470130f541cceabd0f21b2d390a22461d22ba7,"['issue', 'crash', 'bump', 'version', 'http', 'github', 'server', 'issue']",General,{'crash': 100}
+e411d497c48bb2229657dfe5e8327d1f9e52e692,"['extra', 'controller', 'compute', 'information', 'crash', 'report']",General,{'crash': 100}
+d92ff1abe39093e61098990e2983276cdf66a7fc,"['compute', 'information', 'crash', 'report']",General,{'crash': 100}
+159d21af9ac4978f5fdd413aedfc421de03938f9,"['pull', 'request', 'lineitem', 'multiselection', 'style', 'crash', 'lineitem']",General,{'crash': 100}
+713feff11fa9a202f6d608a070bfe5dbee5b92f6,"['multiselection', 'style', 'crash', 'lineitem']",General,{'crash': 100}
+7ab8d679f79928ca7320982a4853d0c3b16c2541,"['rare', 'crash']",General,{'crash': 100}
+4799fc7c931fea9f25e6603e3d89ef1f8cb37da2,"['root', 'disallow', 'crash', 'report', 'case']",General,{'crash': 100}
+4a716000fffe458685c1552663ee55d0fd2b6783,"['crash', 'zoom']",General,{'crash': 100}
+87e6159ff67f8084d204ffa24121cde389501dff,"['crash', 'progress', 'dialog']",General,{'crash': 100}
+e18e10c70139edd87e1a4cc789ef950e1adf2953,"['crash', 'dynamips', 'device', 'preference', 'page']",General,{'crash': 100}
+4df0c3301361c9b7835c6c88e01ea804b69e229c,"['crash', 'configure', 'packet', 'program', 'window']",General,{'crash': 100}
+9682cad4f44690588a827ef7064dd2c0dea1eafe,"['security', 'issue', 'section']",General,{'security': 100}
+23da6a4c3165c576bbb0c81de3acaa3ecca60943,"['crash', 'error', 'user', 'console']",General,{'crash': 100}
+417395718de0e9791437cc4722d7723ffd4466c7,"['rare', 'crash', 'progress', 'dialog']",General,{'crash': 100}
+bc71985ee38c2b460b869aa379d86d8c482e3e6a,"['crash', 'router', 'chassis']",General,{'crash': 100}
+6bebf2d14d900b00904789867a5b91622104dbee,"['potentatial', 'crash', 'progress', 'dialog']",General,{'crash': 100}
+212728eb94ca78fcadf743d874f79cd5c732abc3,"['rare', 'crash', 'preference', 'page']",General,{'crash': 100}
+5948e5c4cb80bcd4c4a2a0895672796c9d342cfa,"['potential', 'crash']",General,{'crash': 100}
+791aa271588552ddf2ae0860123ba73b1ad90023,"['rare', 'crash', 'pyqt', 'confuse', 'signal', 'error', 'function']",General,{'crash': 100}
+12dcfda756ba17d003dbb56a234e7637a0b06cbb,"['error', 'local', 'server', 'crash', 'computer', 'return', 'unicode']",General,{'crash': 100}
+97a71904f737c47d9b7f071fe78af8ada96ed1a5,"['rare', 'crash', 'import', 'appliance']",General,{'crash': 100}
+4f56f100fabd32e76eb39cc4fb58e09b558544fb,"['crash', 'proof', 'code', 'progress', 'dialog']",General,{'crash': 100}
+7dca1b404c633a5316ab20f6d0f209b3a427925c,"['rare', 'crash']",General,{'crash': 100}
+aab307a519c76c40fd92dd5152288c0d29033259,"['rare', 'crash', 'file', 'editor', 'dialog']",General,{'crash': 100}
+7d0fe526007de2fe27132b4ade7ad65280c24da1,"['crash', 'invalid', 'image', 'file', 'appliance', 'wizard']",General,{'crash': 100}
+1440caa532fb6d4011089fce0cc6556c12f9ca58,"['rare', 'crash', 'configuration']",General,{'crash': 100}
+de348d39daf6e85be33355cb7c31ba351404d2a0,"['potential', 'crash', 'symbol']",General,{'crash': 100}
+8ec53a6004c6b5cdc16ffc1a2bf5f4fbf3681017,"['rare', 'crash', 'dynamips']",General,{'crash': 100}
+cfd1bbd9d1dfa3df5fc961763c5a7995faf9abee,"['rare', 'crash', 'progress', 'dialog']",General,{'crash': 100}
+25ae214b6b831b888049d42cf55d27b0adad549f,"['rare', 'crash', 'console', 'view']",General,{'crash': 100}
+456160beb11a7d36ecacce1d12e18cb36a505a6d,"['rare', 'crash']",General,{'crash': 100}
+9affe2d9f49f60c5ad6d8c1f4d27b5d203eafdb2,"['crash', 'drag', 'file']",General,{'crash': 100}
+95c443e127cb91156bcbdbbb3060dabae0071973,"['ignore', 'system', 'proxy', 'trouble', 'security', 'suite']",General,{'security': 100}
+c7af6c2ae29003836222e1532b2ae8a580329f46,"['rare', 'crash']",General,{'crash': 100}
+97926fe6d5dc672994daa98189d2d9d0ed5fa1af,"['rare', 'crash', 'port']",General,{'crash': 100}
+4fb9d46953183e5873ca64143d247ba80117b4ff,"['rare', 'crash', 'symbol']",General,{'crash': 100}
+c066f7f3dff0c7674ec2a5a34f6a546d56e12732,"['potential', 'crash']",General,{'crash': 100}
+5117ef8a584eb6286b526d17573d4551d1816754,"['potential', 'crash', 'exit']",General,{'crash': 100}
+35ebb39e2213fbe9c3c016e9361512bc3f32fcd1,['crash'],General,{'crash': 100}
+149bc38b2be0471f7845af4cb28bbddea4d43988,"['rare', 'crash']",General,{'crash': 100}
+23ca81ccc445ee49dd15c033fd90be2f51e3a4cc,"['crash', 'ressources']",General,{'crash': 100}
+ad88735e63620ae41493abae1cdf8be009acacca,"['rare', 'crash', 'free', 'port']",General,{'crash': 100}
+ef7bd7c77cb81f13816f2a2203bbaadb23d54ecf,"['rare', 'crash']",General,{'crash': 100}
+a801b5b21fce4fef41dff8690dd46b9f1a85870d,"['crash', 'list', 'remote', 'list', 'engine']",General,{'crash': 100}
+11ab87245be73ecc3a2cc3c6d248128c4b5d5739,['crash'],General,{'crash': 100}
+adb7663d03e0f0440cef43f7e074ec9d0252f47c,"['rare', 'crash', 'link']",General,{'crash': 100}
+de7417787b01aa1c72314e5d53306cb615cca002,"['rare', 'crash', 'packet']",General,{'crash': 100}
+fc94e784cc28827e52c0ce786b7e9f2c83376481,"['crash', 'ethernet', 'switch', 'setting']",General,{'crash': 100}
+8b8cbb4d74558cf2f77f49ffa80aa5ef3e37febe,"['rare', 'crash', 'snapshot', 'dialog']",General,{'crash': 100}
+40783eba159b92c9352177595027fad968382011,"['crash', 'remote', 'server']",General,{'crash': 100}
+e63d20ce48a226f1cfb93b45b55b4c34477047df,"['crash', 'appliance', 'wizard']",General,{'crash': 100}
+f6ecc4d0bb6bb69b1d3cf6488452f176a6328d45,"['crash', 'local', 'server']",General,{'crash': 100}
+2fe73056f006c552c11e8cc304cebad25813d5f6,"['rare', 'crash', 'link']",General,{'crash': 100}
+2fd53be0838b20e9ffc56a387d096282d038a087,"['crash', 'startup', 'version']",General,{'crash': 100}
+93199e3695f462f1279767d831ec96235cd8aaa9,['crash'],General,{'crash': 100}
+b18d7c7cc584595fb2ac8e212da21b5cfc613286,"['rare', 'crash', 'wireshark']",General,{'crash': 100}
+31fc18b150d8c4f6dd4acff493dc088c4ec8f5da,"['crash', 'wizard']",General,{'crash': 100}
+d32c3ebebe030abcfbf33d9cbbbd0efd1a3c8544,['crash'],General,{'crash': 100}
+4e58df60ea5f84805beb0ef6eed0a3b584a5a748,"['rare', 'crash']",General,{'crash': 100}
+e7f761c8d6c44490b05fbeac947892370504bff9,"['crash', 'restore', 'default', 'server', 'setting']",General,{'crash': 100}
+bb760cd86149a1129efbccef28b133076e797cf3,"['crash', 'vmware', 'virtualbox', 'wizard']",General,{'crash': 100}
+7b77627db78f9f5fa3366723f163c0d364f6714d,"['update', 'crash', 'report']",General,{'crash': 100}
+fd5f32bcc485c2b616567531ae30650e2a476328,['crash'],General,{'crash': 100}
+7e7eecfa3ec92f70854dde24ce9c6b5c529c90a7,['crash'],General,{'crash': 100}
+8325339b584bb21743df20d0265f64e05bf19033,"['crash', 'rare', 'condition', 'information', 'console']",General,{'crash': 100}
+b39185ceb39906f782a267475d24d42ac632d602,"['crash', 'compute', 'summary', 'view']",General,{'crash': 100}
+c9a2cc05ea3385a31571dfe9973409b35fe0e2fc,"['crash', 'setup', 'wizard']",General,{'crash': 100}
+0f0ac333457c4ddbaded7955ecbddb578ee33ad5,"['crash', 'proof']",General,{'crash': 100}
+d0b4e5045b1290305a23efc14d1811997015a24d,"['crash', 'appliance']",General,{'crash': 100}
+a939dfe37f90bb554574b0878365434039a970ca,"['crash', 'upload', 'image']",General,{'crash': 100}
+cc2f7920b80f21fadcd8fc202261cb2ba3cd67a7,"['crash', 'import', 'appliance']",General,{'crash': 100}
+b435163a3cdefd79f8ec3e117001df5318d2293e,"['crash', 'vpcs']",General,{'crash': 100}
+b81a02fbb4315b9cbf3c35966ba028125524dbe4,"['update', 'crash', 'report']",General,{'crash': 100}
+3021cfb1647b297931df7d964fb1fedbd0c3a79b,"['crash', 'cloud']",General,{'crash': 100}
+794f317f836e4b1a499b818cdf49733f921e8ab1,"['crash', 'node']",General,{'crash': 100}
+b0a1fdb65a12b6793701bb43aa8fbcdbc6defaa6,['crash'],General,{'crash': 100}
+de2de45196319e12cb8a57fc2d94552ddafbb521,"['crash', 'dynamips', 'preference']",General,{'crash': 100}
+069d02d90851e8270bc078c2ff46210280cc3b42,"['crash', 'ethernet', 'switch']",General,{'crash': 100}
+a207ba61de178420ea76300023ffa18beeb19cf4,"['crash', 'cloud', 'setting']",General,{'crash': 100}
+71125a4b588ef38135d45c0dd64aff18616023d2,"['crash', 'frame', 'relay', 'switch']",General,{'crash': 100}
+2fcaa1f6cc44563ef267ddfa684c54e1145f3b55,"['crash', 'server', 'preference', 'page']",General,{'crash': 100}
+b933cdd9509b978dc7c2a85f890b830bb923caf1,"['crash', 'frozen']",General,{'crash': 100}
+61ac6ed6e09ea3f2bf8bb17be10e81056f46e83d,"['crash', 'cloud', 'wizard']",General,{'crash': 100}
+8df07808a9a120f2ee0c2b1b914e1d5acb14c367,"['crash', 'template', 'edit']",General,{'crash': 100}
+ab68c1f1abef2eec695ea0bd914aa9410ed6dcb9,"['crash', 'empty', 'config']",General,{'crash': 100}
+02d327547576aa74f71f9fb13ea1e92505a68a21,"['crash', 'symbol']",General,{'crash': 100}
+22267b4123ec30b272fe1d621cdfae9e5986a92d,"['crash', 'connection', 'controller']",General,{'crash': 100}
+dc6756da042327bc59b070326b280f3b5382cba7,"['crash', 'directory', 'image', 'accessible', 'gnsa', 'import']",General,{'crash': 100}
+473f60167d2c21e49dfe94dc19b9bbc3c5b07b05,"['crash', 'setting']",General,{'crash': 100}
+4285d01a19d0b74b38c04ab94da0c00414bc4d6f,['crash'],General,{'crash': 100}
+a977042017055b15e6cefdf4e720143672960a1e,"['small', 'crash']",General,{'crash': 100}
+a31586fac9d1931d41727d41568a183f6c2fa0b8,['crash'],General,{'crash': 100}
+9dc7a4447bc1ea4d03c047a9909e4805d01280b1,"['crash', 'directory', 'image', 'permission', 'file']",General,{'crash': 100}
+d077621ee99aae15d47d938d1672656fdb2adf98,['crash'],General,{'crash': 100}
+c8d6a4640a9bd3d70ab11c10202bbb7495ef12c9,['crash'],General,{'crash': 100}
+27be2b7a1d793a51686a82406a675f34f180c3c4,"['crash', 'virtualbox', 'wizard']",General,{'crash': 100}
+0fd5a1a91de2911e6051509014303a054944664c,"['crash', 'router', 'node']",General,{'crash': 100}
+f50f7153dcc213a8e71dfc24bd30832c9ff145b7,"['crash', 'startup']",General,{'crash': 100}
+b3a7d42f9df07c92413b28e51c030967d1112c99,"['rare', 'crash', 'server', 'summary']",General,{'crash': 100}
+17ed1f98068d744ac6c0c9772beb5e0fd90a7a14,['crash'],General,{'crash': 100}
+1e3883674ee8b5f48c240e7324119cfbe18417c3,"['crash', 'project']",General,{'crash': 100}
+0f4cac1b7642e3ff5c261d8530f5df627fffb6b6,"['crash', 'interface', 'label']",General,{'crash': 100}
+c6df4928526eae6071418a7a668e9edf38692748,"['crash', 'file', 'system']",General,{'crash': 100}
+d24a0312d84683a16459d0e2f5c030bc3e2631c3,"['crash', 'char', 'readme']",General,{'crash': 100}
+aa5d8b937758faf6d2b173ba8792a7a871fad113,"['rare', 'crash', 'link']",General,{'crash': 100}
+cb1e062f9bc36261c777a4eea004735bcca07359,"['rare', 'crash', 'interface', 'cloud']",General,{'crash': 100}
+a1d1bc5aea681c2816431a47dfe2e99afb835ba4,"['rare', 'crash', 'topology', 'summary', 'view']",General,{'crash': 100}
+d3ef916b23e7c4b7b68f5acbf9d8a445e517e1e8,"['rare', 'crash', 'node']",General,{'crash': 100}
+fb68ccad159d7c82f414b4b19b3fab4e8239c9a5,['crash'],General,{'crash': 100}
+d94f9a91dbd6000e411c005316006f17899d5f8b,"['crash', 'preference']",General,{'crash': 100}
+2232680ded4a995aa362b047c571c11f055fa3b1,"['crash', 'report']",General,{'crash': 100}
+2e1b6aef9fc25c75baccf33f7690e27b1cf761ed,['crash'],General,{'crash': 100}
+26d918e218ed9809bf23dfb5c3045e1854a89485,"['crash', 'snap', 'grid', 'ostinato', 'logo']",General,{'crash': 100}
+e9ec42be0277a4f73f6566fbc012ed4086218ea5,"['pull', 'request', 'noplay', 'patch', 'instruction', 'security', 'issue']",General,{'security': 100}
+379b7a56ef86f685308530d19351fdf408f5a321,"['test', 'virtualbox', 'crash']",General,{'crash': 100}
+9cab049696d87d218880e382ae81af62c18fe0d4,"['rare', 'crash', 'image']",General,{'crash': 100}
+e30e8690255a107d4d1d2d1b9a956c8fa639d1ad,"['instruction', 'security', 'issue']",General,{'security': 100}
+66d87e8b1205f938c4a028c4b8e5f04c325330e3,"['minor', 'crash', 'individual', 'node', 'crash', 'project', 'path', 'node']",General,{'crash': 100}
+fdd5c71711f408adac2c873532d51dcff255bcd4,"['crash', 'wizard']",General,{'crash': 100}
+305cc724853c98aee037cdc548dda8c8b7ff4354,"['crash', 'local', 'image', 'directory']",General,{'crash': 100}
+3889c8c1fa3db8bb38ba4bea741be1702c0097a5,['crash'],General,{'crash': 100}
+e2415b68d344ab519a35764eccbdc5064d044ebe,"['crash', 'local', 'server', 'setting']",General,{'crash': 100}
+0cc16c232b82a6448c750c5dd1c4c0ce6842a5de,"['crash', 'local', 'server', 'port']",General,{'crash': 100}
+fa35f3f9e4659c58c89ae7ae8cb9375bf98b1378,"['crash', 'project', 'virtualbox', 'vmware']",General,{'crash': 100}
+65e2a1c8aae5d0df617b454bd1a3a055f5025a9d,"['crash', 'custom', 'console']",General,{'crash': 100}
+abd838de007190aa9319ba53896eb9f3926cf9a9,"['crash', 'fedora']",General,{'crash': 100}
+c65f55b22ab6cf95dcb02503e089b0c86db44029,"['crash', 'docker', 'template', 'name']",General,{'crash': 100}
+0f2b46b56ac889aad97f13d27692b7942a0c6d77,"['rare', 'crash', 'project']",General,{'crash': 100}
+3af8c4d28fe7c82a3cff288c686176866b4696f6,"['crash', 'image', 'item']",General,{'crash': 100}
+235cba5ba5a96004b4d6b49b527f1bda5860fa09,"['crash', 'delete', 'file', 'list', 'appliance']",General,{'crash': 100}
+71cadad05a53a589b87776eb1e757600ead0c653,"['crash', 'device', 'console', 'type']",General,{'crash': 100}
+f740fde8344f94b7d5d6efe02caaad70f995a1f2,"['crash', 'editing', 'docker', 'node']",General,{'crash': 100}
+95c0afd5ddf3a73ea388e4655101d5062c20fdba,"['crash', 'image', 'gnsa']",General,{'crash': 100}
+306ea31f0bc25e44ac905fcbb3228f6cc92fc213,"['crash', 'file', 'size', 'gnsa']",General,{'crash': 100}
+f14b4f442920ecfbacf54b32f1ef13951f8ad021,"['crash', 'import', 'gnsa']",General,{'crash': 100}
+cda6398010af0aabb800ae07be3dee657508b7c2,"['crash', 'image', 'topology']",General,{'crash': 100}
+13b699a18300fc435c195122a14f73e7bc3898d5,"['crash', 'progress', 'dialog']",General,{'crash': 100}
+856fde79ec0f79ab986bab15c8165b50953259c9,"['rare', 'crash', 'node']",General,{'crash': 100}
+36c6eeabc9fe76270df975aaf96a364cd2dee7e5,"['crash', 'version', 'click']",General,{'crash': 100}
+e27c8955c527640be429e420d64733ca3eb0a06a,"['crash', 'alternative', 'image']",General,{'crash': 100}
+59ae047359a75f66b8bc05b50f0bfe62b13962cb,"['crash', 'topology']",General,{'crash': 100}
+026a78b1b62f13f23e8d4a23fdaf71b938382335,"['crash', 'doctor', 'window']",General,{'crash': 100}
+380a4a0395d3233dfad4c9fdfdcc18e055089199,"['crash', 'doctor', 'ubridge', 'path', 'empty']",General,{'crash': 100}
+4ae01282d7608add4e890ea2366fc5535ec81be9,"['crash', 'test']",General,{'crash': 100}
+676187061c8acb539ac48377deeabb7351695210,"['error', 'psutil', 'crash', 'report', 'version', 'psutil']",General,{'crash': 100}
+57cf10c251c7693b322bd85dc1fbd2a98fe226f0,"['rare', 'crash', 'topology', 'summary', 'view']",General,{'crash': 100}
+6dfbaccee10187b7a9ba4b74a9c0c7159c3cd64e,"['crash', 'ovum']",General,{'crash': 100}
+a5358dec145a2a6d424924a1f7043afe18d30cb5,"['rare', 'crash']",General,{'crash': 100}
+0dd9803f74a970824f27c9415e66f2f6f2ec4162,"['crash', 'file', 'empty']",General,{'crash': 100}
+2baaa26a425bbe346b0400409ef2a5093c7b4a22,"['rare', 'crash', 'progress', 'dialog']",General,{'crash': 100}
+3fd62f906e1a585ee17128b46373580d5e155971,['crash'],General,{'crash': 100}
+654ad611053307a5f960f0bab3eb07ae9b4ad4c2,"['crash', 'qemu', 'cluster', 'size']",General,{'crash': 100}
+31a461195f59f002a8606aeeb4c036cbb1acf127,"['crash', 'connection']",General,{'crash': 100}
+37726630cedaa09bd445665a07a186ae3614dbf5,"['rare', 'crash', 'progress', 'dialog']",General,{'crash': 100}
+32e59fcce4a6efa06c03025d047531f5615f75f6,"['crash', 'window']",General,{'crash': 100}
+2522bd44d61285f445a24917b556dc77348771ff,"['crash', 'report']",General,{'crash': 100}
+8983e6c5a9f41389437a866df4b0d86838ec08bb,"['crash', 'opening', 'topology', 'converter', 'failure']",General,{'crash': 100}
+c6e06f394144d8651c309fde73b3e4a8ad81cf9e,"['crash', 'opening', 'topology', 'converter', 'failure']",General,{'crash': 100}
+8142d0baa73e5e3d25a4b897f943a66b3d9192a9,"['crash', 'progress', 'dialog']",General,{'crash': 100}
+8017838d60576faa9702e75b50b14878a9246e92,"['crash', 'rare', 'case', 'pyqt', 'garbage']",General,{'crash': 100}
+a1579ca86b8e606b33bc3744932a74ef2bd0dfa2,"['rare', 'crash', 'progress', 'dialog']",General,{'crash': 100}
+81c4ddb85f1c9d09143f41bf7b658c04d9d2578e,"['crash', 'error', 'update']",General,{'crash': 100}
+9ce483398b925ac692d8b590a6de562fad9606c5,"['crash', 'qemu', 'gnsa']",General,{'crash': 100}
+eb2e504acc098b2701336137f2152aa9d01cc954,"['crash', 'window', 'exit']",General,{'crash': 100}
+7163daf4803f6a7ee2dd212dcd77d11b1045bf63,"['crash', 'invalid', 'appliance', 'file']",General,{'crash': 100}
+b4ade1982e7c40c832fd5812b77de884bf5058dd,"['progress', 'dialog', 'crash']",General,{'crash': 100}
+e92e23a8be0adda4608904d881011dd6433dc2b2,['crash'],General,{'crash': 100}
+a16adb2b4662e5b04ee1ebad3c2e190760c4948d,"['crash', 'appliance']",General,{'crash': 100}
+d2f8214a521ca137316840701bcec935645c7391,"['crash', 'appliance', 'wizard', 'linux']",General,{'crash': 100}
+57872c38b31cb69ea0687268d419b47defb0b4dc,"['crash', 'symbol', 'selector', 'file', 'builtin', 'symbol']",General,{'crash': 100}
+1db36dfb3e991e63a55e76c67f01f868c6b6cb44,"['crash', 'version']",General,{'crash': 100}
+17655cd855db1849b8b9c7fce80785655c63c4af,"['crash', 'opening', 'appliance']",General,{'crash': 100}
+593c777ff068bdcbbbea1a4367687337df781356,"['crash', 'attributeerror', 'nonetype', 'object', 'attribute']",General,{'crash': 100}
+3cc43aa11fb9811042c230b67fe12e936c367cee,"['crash', 'invalid']",General,{'crash': 100}
+3c4fc4c1bd78c58a5596abfcff43dbcbfcbfb2a8,['crash'],General,{'crash': 100}
+ec27683f0ee068d30d39a6507879770e3cc7ba9c,"['crash', 'recent', 'file', 'locale']",General,{'crash': 100}
+ec71da40622b5790fa46305b4acd54237f56f7f1,"['update', 'manager', 'crash', 'window']",General,{'crash': 100}
+ca173fb491a68a454202fad04eeb82689c862a92,"['crash', 'process', 'return', 'error', 'sudo']",General,{'crash': 100}
+5d79bbce394ee062dfc4bad3f7b0f8bb120af500,"['crash', 'opening', 'gnsa', 'double', 'click']",General,{'crash': 100}
+18a5a28283a5b6c2bf9370d5226bcff2be6c7cd8,"['crash', 'startup']",General,{'crash': 100}
+55d4201aafd7f512959415f3027f8118227ca50b,"['insecure', 'http', 'connection', 'creates', 'additional', 'server', 'entry', 'server', 'password']",General,{'insecure': 100}
+e5d8fac00492b2a84128d70d2a40ddeb65aeda14,"['crash', 'report', 'developer', 'warning']",General,{'crash': 100}
+773d680e427cf66fb0cdffa948485c57fa2fe565,"['crash', 'report']",General,{'crash': 100}
+1b0415f81d8c547b9b4fbd5d36bfac8e2dabe282,"['crash', 'configuration', 'file']",General,{'crash': 100}
+f3f7829bbe0726accd8dc1bdc1f58e86fcdec4a1,"['crash', 'pyqt']",General,{'crash': 100}
+5252ed16caf786475fd5a44c74035d9a3de55262,"['crash', 'report']",General,{'crash': 100}
+9abb4fe692d054dff50d1e1f251a169db8cc4240,"['crash', 'chinese', 'character']",General,{'crash': 100}
+2a2777b22d3f28a01ed48849dfb13e9c5e30ac5a,"['crash', 'unset', 'variable']",General,{'crash': 100}
+a9e27cd63fe562bd50793728e61b13dbf69b0819,['crash'],General,{'crash': 100}
+be60a37a2929229879f7ae571e81496928c8dfa1,"['check', 'insecure', 'http', 'certificate']",General,{'insecure': 100}
+57616ffd83d3225ebbc6c633fec5693a3736c9bb,"['crash', 'window', 'launch']",General,{'crash': 100}
+959a05643f63bd282ec1b122d9b53b5581769aa5,"['crash', 'vmware', 'command']",General,{'crash': 100}
+0faa4e62f01d55ea62d0a7b8456013225337e98b,"['segfault', 'exit', 'part', 'restore', 'exit', 'print', 'console', 'crash', 'fact', 'console', 'disapear', 'force', 'garbage', 'clean', 'pyqt', 'reference', 'exit']",General,{'crash': 100}
+2df78eb436a7b88d0f63c6c0eb363db2dff0a989,"['display', 'crash', 'event', 'qemu', 'console']",General,{'crash': 100}
+090a85bdd5ba30769cef4f220be95f31b6240198,"['crash', 'report', 'reliable', 'internet', 'connection']",General,{'crash': 100}
+0a0522d92d9836980912dae5eb89046bb113a6ad,['crash'],General,{'crash': 100}
+90522914c050948a2f1d23d28551e775a98903ad,"['crash', 'module']",General,{'crash': 100}
+a85888bcbdc0684f3b182ed48e72fa7a13403444,"['update', 'crash', 'report']",General,{'crash': 100}
+1378cab00846f8b8f00918368954d0a5b6117ea1,"['update', 'crash', 'report']",General,{'crash': 100}
+65aca8ab76381a670c0abe1b55076fa49c2e8180,"['crash', 'python']",General,{'crash': 100}
+c12a91ee5fc36ee103d6ba98bd64b2aa6b2c4df6,"['crash', 'drag', 'node']",General,{'crash': 100}
+8eb4c1e7c1795597dbc96ae3de288108ed7a36f1,"['update', 'crash', 'report']",General,{'crash': 100}
+be7278294af978053916a9907a5ff2ce3e10d1bf,"['crash', 'autostart', 'link', 'present']",General,{'crash': 100}
+73ed4fa6f37fc64f74b2ac6a8cd667aca28113b1,"['crash', 'cacert']",General,{'crash': 100}
+e6e88d2a2bc425bc94a39b029eb4482be763e5f9,"['crash', 'process', 'port', 'return', 'empty', 'json']",General,{'crash': 100}
+891c540d60e27aaeb209a9d1fb4f378aa98ab53b,"['rare', 'crash', 'completion']",General,{'crash': 100}
+ebd8f300d0f17e230db4996c9b99ae31a2618838,"['crash', 'rare', 'condition']",General,{'crash': 100}
+06fc3e726a79827268013ff8e5e906f6e57896f4,"['crash', 'report']",General,{'crash': 100}
+52dee04e721beb30bfbdeea63867cd8260a20ff6,"['crash', 'report']",General,{'crash': 100}
+298768f0cb22017a2b255da472ffcb6d66c4cc04,['crash'],General,{'crash': 100}
+5723097cbe9a5ca497ca7400fbf9fb9a7f03b2d8,['crash'],General,{'crash': 100}
+5cdc479029c740cf5401a57cb7b50c6ee876aa46,"['crash', 'link', 'mode']",General,{'crash': 100}
+74b4013002db6b38855a5c0c85609a767cf19263,"['crash', 'console', 'terminal']",General,{'crash': 100}
+eede8bdc2f7d45817f80da4594b67e06f02ae6d2,['crash'],General,{'crash': 100}
+9dc22142ef0a82734ee5be384f0600d51f0b4e4c,"['crash', 'report']",General,{'crash': 100}
+0866632b2fd375eb30e9114bb8f72f2033d8a906,['crash'],General,{'crash': 100}
+accf3326681bdd7d3173f12931ae92585250b300,['crash'],General,{'crash': 100}
+a31cc33c676c243af63bef9ec67f6ee6e8725860,"['crash', 'terminal', 'support']",General,{'crash': 100}
+302fcfc7d7c2fab62d6a297f2e54a22aab6f859a,"['crash', 'antivirus', 'intercept', 'message']",General,{'crash': 100}
+37989854a7956a78fb1f2db82fd7cc836aee8386,"['crash', 'rotation', 'string', 'user', 'error', 'sure', 'tutorial', 'modify', 'file']",General,{'crash': 100}
+9c14b42bdadda313a818fa12f270d99a62e886af,"['crash', 'report', 'developer']",General,{'crash': 100}
+50925c4c30f35e7a227d3a132314ba3df86830ef,"['crash', 'qemu']",General,{'crash': 100}
+75aa6d50b3a1b86cc580a210757c6e133a088f8c,"['crash', 'directory']",General,{'crash': 100}
+6132aa78646aeb70fab26bb3a1648866c1263000,"['http', 'error', 'crash', 'report', 'system']",General,{'crash': 100}
+f0d0d6b73a4e0869a8f017fbec5b45bed1e02aa0,"['update', 'crash', 'report']",General,{'crash': 100}
+1cf8cae166439e793e6036fa524185815b61cd1b,"['crash', 'vpcs', 'startup', 'script']",General,{'crash': 100}
+a980e1910c469bcad87699315d5427477976d8b5,"['crash', 'project']",General,{'crash': 100}
+254262c5c4c64fe03178476a7a063315051d33a3,"['crash', 'topology', 'node']",General,{'crash': 100}
+d26ac237e974c20c327481570976d59e2c4c0345,"['pull', 'request', 'etherswitch', 'crash', 'etherswitch', 'router']",General,{'crash': 100}
+41c200a0117d17db5d7d8aff6a8b785e1146b89d,"['crash', 'etherswitch', 'router']",General,{'crash': 100}
+3b67dc4ac0b94bf9e79bb9939d2f68ec6b436903,"['pull', 'request', 'crash', 'remote', 'server']",General,{'crash': 100}
+06fba3a816200476f59c06eae645465aae5d77a3,"['crash', 'remote', 'server', 'available']",General,{'crash': 100}
+e85ea6a3ef7df20792943702d0b432daafa3c501,"['support', 'raven', 'crash', 'report', 'frozen', 'state']",General,{'crash': 100}
+5050cfa7e805a809e20f26eafcc463753d91d6e9,"['crash', 'tool', 'multi', 'vpcs', 'temporary', 'project']",General,{'crash': 100}
+23d87cd926e432b3bf39aac06430790fb7c9eb79,"['crash', 'cache', 'user', 'computer']",General,{'crash': 100}
+3aa0736478bf317e0c2f5746e4fb9c593448d7d8,"['information', 'crash', 'report']",General,{'crash': 100}
+12322b4be0e34adfb71f134ed0a81b6c0c38e24f,"['crash', 'query']",General,{'crash': 100}
+7a1b0e7a48e5394ac077d5cfe7c166bfc5dcb3ff,"['crash', 'project', 'query']",General,{'crash': 100}
+4ddda18d5ba68092360eca5621ec7e8e6280b05b,"['crash', 'gnsconverter']",General,{'crash': 100}
+7df1e92a36de4a39bc35b05137a1a6b4da946c65,"['crash', 'creation', 'link', 'blank', 'area']",General,{'crash': 100}
+2be612e04234e6b5a983dda0a4ccbd291de2e214,"['crash', 'report']",General,{'crash': 100}
+f00ad62b9655b358e73d9fa3de759b7c658cc488,"['crash', 'click', 'blank', 'project']",General,{'crash': 100}
+5afe8d280540211e0aebdff5ede3bbf9e6b66732,"['crash', 'server', 'binary']",General,{'crash': 100}
+15bf587616facef20bd4ad1ba8baa1f85e7aca74,"['crash', 'test']",General,{'crash': 100}
+5913ba9491f0ae20c2ad2f76d67d7ae059cdb5af,['crash'],General,{'crash': 100}
+707dfee6962605111c020cfbb2324c2ef0988425,"['prevents', 'application', 'crash', 'window', 'config', 'file']",General,{'crash': 100}
+e619e56537766254cb41060af4f5e5b6409347e0,"['button', 'wizard', 'crash', 'window']",General,{'crash': 100}
+534cff6be913b099da531498c1d6eed4ab001026,"['possibility', 'configure', 'category', 'node', 'router', 'switch', 'device', 'security', 'device']",General,{'security': 100}
+851023158fa7cd29e2a54ef3528de5e78f4aeecc,"['pull', 'request', 'security', 'support', 'websocket', 'connection']",General,{'security': 100}
+6b79abd3c016a821990cce6456bf04171d49bb86,"['pull', 'request', 'braddeshong', 'master', 'crash', 'debug', 'statement', 'switch']",General,{'crash': 100}
+1355abb1eb46cdbfb15b00c072a5d70cd3b95a06,"['crash', 'debug', 'statement', 'switch']",General,{'crash': 100}

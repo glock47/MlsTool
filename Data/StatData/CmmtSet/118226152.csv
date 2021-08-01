@@ -1,14 +1,28 @@
-sha,message,catetory,matched,labels
-3110393a0b0dd37a94f0c1f1a267a8206cf2b806,"['deadlock', 'device']",Risky_resource_management,{'deadlock': 100},
-e48e6e6db4b905e2f307e47e7daf2aedb02b9ead,"['deadlock', 'failure', 'device', 'resume']",Risky_resource_management,{'deadlock': 100},
-c00620bd7f3d7d7267932bb5979768a88129d8c7,"['crash', 'animation']",Risky_resource_management,{'crash': 100},
-de483fe7a414c8417d4f95cc05d2f0c0d7a62846,"['stack', 'overflow', 'buffer']",Risky_resource_management,{'stack overflow': 100},
-2a4e0e05f9485f9dfa802f99be56a4d4b4c1be9a,"['deadlock', 'linux', 'usbsend', 'failure']",Risky_resource_management,{'deadlock': 100},
-ee1a4cc06a946dfc5b0f9d46cf6974462c692c45,"['deadlock', 'libpulse', 'pulseaudio']",Risky_resource_management,{'deadlock': 100},
-33945ab8c0b256fe1c2598318a0318826b5d71a8,"['animation', 'crash']",Risky_resource_management,{'crash': 100},
-22324aa27739a3a0b9a4c29f53e0b47925da359b,"['crash', 'animation']",Risky_resource_management,{'crash': 100},
-cff1f6cd2da2861bb138c284ec96f0f087a7970f,"['crash', 'betterchange']",Risky_resource_management,{'crash': 100},
-8f5713bdc3847005787dd2683f33e0cb435a321b,"['hardware', 'crash', 'device', 'button', 'dialog']",Risky_resource_management,{'crash': 100},
-8a2e0a69941f383fe2a3ed4b983b4d63ac09dd29,"['crash', 'duplicate', 'animation']",Risky_resource_management,{'crash': 100},
-8918f1e7072e4160c460301c9ec5e8cdd749abe2,"['crash', 'keyboard', 'daemon', 'disconnectingdaemon', 'iopmassertionidcheck', 'order', 'bootloader', 'daemon']",Risky_resource_management,{'crash': 100},
-4a16b84931ba56bdf1fcd0accb73aa55a62dc369,"['crash', 'keyboarddebug', 'qmake', 'generate', 'abilitymulti', 'support']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+3110393a0b0dd37a94f0c1f1a267a8206cf2b806,"['deadlock', 'device', 'error', 'init']",Risky_resource_management,{'deadlock': 100}
+e48e6e6db4b905e2f307e47e7daf2aedb02b9ead,"['deadlock', 'device', 'resume', 'failure']",Risky_resource_management,{'deadlock': 100}
+c2617d24a7b266695e6b30c0849e17a525d7563a,"['libpulse', 'loop', 'main', 'thread', 'data', 'race', 'real', 'reason', 'mute', 'state', 'libpulse', 'loop', 'thread']",Risky_resource_management,{'data race': 100}
+cf05f051920de151116ae2c66d2624a711b84cbe,"['rework', 'macro', 'code', 'code', 'global', 'delay', 'command', 'random', 'delay', 'delay', 'field', 'various', 'daemon', 'issue', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+ac35f7ae665ff7ed283b71ac663dda5e70bf0c86,"['data', 'race', 'issue', 'mutexes', 'order', 'warning', 'thrown', 'whenever', 'main', 'thread', 'optional', 'debug', 'tsan', 'warning']",Risky_resource_management,{'data race': 100}
+c00620bd7f3d7d7267932bb5979768a88129d8c7,"['crash', 'animation']",General,{'crash': 100}
+948d2ac301f8382103da484ae79d839499b810f1,"['null', 'pointer', 'issue']",Risky_resource_management,{'null pointer': 100}
+4eca7c161d28b656c88157c0c090e8d40a29f30a,"['various', 'improvement', 'device', 'choice', 'portaudio', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+900a3d7741a907ded31e0bfa5c18c76654f55cc4,"['iconv', 'data', 'race']",Risky_resource_management,{'data race': 100}
+de483fe7a414c8417d4f95cc05d2f0c0d7a62846,"['stack', 'buffer', 'overflow', 'firmware']",Risky_resource_management,{'buffer overflow': 100}
+64f6f1d12665c93eae132ea62af0df12243074b5,['crash'],General,{'crash': 100}
+2b1c8c4f5de43233c3fd327a5c68b8b067fb76eb,"['firmware', 'update', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+2a4e0e05f9485f9dfa802f99be56a4d4b4c1be9a,"['deadlock', 'usbsend', 'failure', 'linux']",Risky_resource_management,{'deadlock': 100}
+159c585673ed43097d97ddc82db2aa7815fb3d6d,"['memory', 'leak', 'fwupdate']",Risky_resource_management,{'memory leak': 100}
+6fc82f35e3642a3f3e46a48eecdacce26317019a,"['udev', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+ee1a4cc06a946dfc5b0f9d46cf6974462c692c45,"['libpulse', 'deadlock', 'pulseaudio']",Risky_resource_management,{'deadlock': 100}
+4bc2df65a9cf8549b19d53dba24f0d1af05ad759,"['udev', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+22324aa27739a3a0b9a4c29f53e0b47925da359b,"['crash', 'animation']",General,{'crash': 100}
+cff1f6cd2da2861bb138c284ec96f0f087a7970f,"['crash', 'tray', 'icon', 'icon', 'crash']",General,{'crash': 100}
+4bce60e8c136e1addf8acccbe87f9e900fdd021d,"['base', 'path', 'permission', 'wise', 'input', 'linux', 'work', 'insecure', 'permission', 'real', 'reason']",General,{'insecure': 100}
+8f5713bdc3847005787dd2683f33e0cb435a321b,"['crash', 'device', 'hardware', 'profile']",General,{'crash': 100}
+8a2e0a69941f383fe2a3ed4b983b4d63ac09dd29,"['duplicate', 'animation', 'crash']",General,{'crash': 100}
+8918f1e7072e4160c460301c9ec5e8cdd749abe2,"['daemon', 'crash', 'keyboard', 'daemon', 'iopmassertionid', 'daemon', 'order', 'bootloader', 'check']",General,{'crash': 100}
+cbe664b11f40a101cf6b819b59386bc7ebf43f90,"['code', 'reorganization', 'main', 'profile', 'mode', 'drag', 'drop', 'animation', 'profile', 'management', 'separate', 'window', 'automatic', 'hwsave', 'exit', 'rare', 'crash', 'mode', 'mode', 'animation', 'default', 'demo', 'profile', 'copyright', 'date']",General,{'crash': 100}
+4a16b84931ba56bdf1fcd0accb73aa55a62dc369,"['customizable', 'animation', 'reactive', 'keyboard', 'crash', 'ability', 'generate', 'debug', 'qmake', 'qmake', 'debug', 'animation', 'need', 'support', 'multi', 'color', 'gradient']",General,{'crash': 100}
+00e7f0373cb8a39139dd7eaa0f0fff12754917da,"['daemon', 'print', 'notification', 'request', 'node', 'node', 'noticeable', 'memory', 'leak', 'system']",Risky_resource_management,{'memory leak': 100}
+35e2b2cdf6b7094210ca2ece56e26bd574cc3412,"['daemon', 'ability', 'hardware', 'name', 'notification', 'crash', 'eraseprofile', 'increase', 'input', 'limit']",General,{'crash': 100}

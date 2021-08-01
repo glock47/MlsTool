@@ -1,38 +1,94 @@
-sha,message,catetory,matched,labels
-d8b772115925aadcfba5ae4c7b38a9da9d55d7c5,"['password', 'android', 'admin', 'crash']",Risky_resource_management,{'crash': 100},
-54b2adabf142cbe8714d551e8de829b03633cf33,"['crash', 'fuzzer', 'version', 'proto']",Risky_resource_management,{'crash': 100},
-0fe79e5cd97c19fc8add16ef06730d85de0dba79,"['stack', 'overflow']",Risky_resource_management,{'stack overflow': 100},
-0e818dea0f0afdf827842f86d08aff5583ac96b0,"['setup', 'crash', 'session', 'sends', 'packet']",Risky_resource_management,{'crash': 100},
-cec2d96bdd0bf40b7f43a195cbd6b934749a044e,"['violation', 'seccomp', 'crash']",Risky_resource_management,{'crash': 100},
-c1b5f008b4140c207182e6ad318d97b72ee0974c,"['gentoo', 'destection', 'crash', 'restart']",Risky_resource_management,{'crash': 100},
-cacbf456cc8bc2edb309e966055f7c5ecc7ffabe,"['gentoo', 'destection', 'crash', 'restart']",Risky_resource_management,{'crash': 100},
-617c645a735d60ed0bd2bbbc9d1dd6779e4a96e2,"['report', 'issue', 'message', 'security']",General,{'security': 100},
-5c2c8095ee21eae948f1d3bc622053d311e7e97a,"['thing', 'crash']",Risky_resource_management,{'crash': 100},
-b657639cc4e05817e011e8cc4e43358d001e7068,"['nodestore', 'stack', 'overflow', 'crash']",Risky_resource_management,{'crash': 100},
-37e956150cd2df7d16fa6bc5632826c4e9f55591,"['security', 'function', 'mutliple', 'seccompadmin']",General,{'security': 100},
-14351ab0fa32236ff602a51ccc006dffbd76f1d3,"['check', 'track', 'crash']",Risky_resource_management,{'crash': 100},
-ebb757a21129a237d155a5367eb37d745bd6dae0,"['cjdns', 'stanza', 'conffile', 'extra', 'systemd', 'security']",General,{'security': 100},
-7086d7e250e9bed5a04d12c1cda4f051cdecd57e,"['assertion', 'iptunnel', 'crash']",Risky_resource_management,{'crash': 100},
-cba275c0681ef7acddede55b7b778cc4a41864b2,"['silly', 'crash']",Risky_resource_management,{'crash': 100},
-de736c0aa834c7c589924ab45ff4e4df5a6c7a00,"['gentoo', 'crash', 'restart', 'detection']",Risky_resource_management,{'crash': 100},
-dd4958750954e55e9f0e36b434180fbc75b0630c,"['weird', 'crash', 'communicate']",Risky_resource_management,{'crash': 100},
-511705c9106ea8abc112906836f19e20640affe3,"['crash', 'frame', 'ethernet', 'cjdns']",Risky_resource_management,{'crash': 100},
-9288366127e21d5984f40f030684e286b18abf25,"['alert', 'compatible', 'version', 'nolonger', 'security']",General,{'security': 100},
-5822acf6ac98a8e82fd867fefd0917856d0a98e6,"['alternative', 'security', 'ubuntu']",General,{'security': 100},
-54871949379ea989ba07123a03df6e0d0e660545,"['address', 'crash']",Risky_resource_management,{'crash': 100},
-82e2051e05561f629a682d6878293b064202f063,"['check', 'number', 'security', 'potential', 'deterministic']",General,{'security': 100},
-4a4d4ddc84f115c5ce8761c5c462c4ff2100ab33,"['cjdns', 'upstart', 'crash', 'limit', 'increase', 'respawn', 'minute']",Risky_resource_management,{'crash': 100},
-8a638446ad68e3dfdc67093f5024495910af288c,"['warning', 'issue', 'security']",General,{'security': 100},
-b0df03f9330283c03f9db5dcb2337d0bacae49b4,"['option', 'authentication', 'insecure', 'crypto', 'cryptoauth', 'encryption']",General,{'insecure': 100},
-73d1cc0e46358fc3b2d6798672d25d4fe667bcfe,"['piece', 'redundant', 'cryptoauth', 'couple', 'security']",General,{'security': 100},
-505404d005b4d4a82a232bc488c6dde7f66c161a,"['minor', 'crash', 'nolonger', 'pathfinder']",Risky_resource_management,{'crash': 100},
-926cc8bcf5aee52991d7a017fd61a4632e9999a2,"['problem', 'confirms', 'security']",General,{'security': 100},
-4a959e0dfb5535ccae73d5d19eda50eb74eb38b2,"['review', 'thing', 'readme', 'thorny', 'moralityunpopular', 'content', 'discussion', 'startingissuefreedom', 'position', 'simple', 'defendright', 'defendingheart', 'cjdns', 'protection', 'buildbot', 'providedthanks', 'cjdns', 'developerreader', 'project', 'thankcjdns', 'review', 'paragraph', 'firstinternet', 'cjdns', 'paragraph', 'command', 'protectwrite', 'security']",General,{'security': 100},
-1fcf7bdbf6bf70f01ad9cb0d00eee20810f09648,"['crash', 'deref']",Risky_resource_management,{'crash': 100},
-c9d53b6c66c593eb82709f8f6a1b7c18ae578b2a,"['crash', 'deref']",Risky_resource_management,{'crash': 100},
-53df63c4850aed49f56dec3d819ff1a12a3de9ea,"['iptunnel', 'crash']",Risky_resource_management,{'crash': 100},
-6dc23c97667d7f6e0bbf089b4efc95ecb38d2bca,"['security', 'cjdns']",General,{'security': 100},
-5b8671869eb2b57a2ea5ff0f4e157d89ec4adb13,"['support', 'security', 'solaris']",General,{'security': 100},
-245370648a5466bd18618ee3d718ad795cd51be5,"['crash', 'insert']",Risky_resource_management,{'crash': 100},
-887115be28a9e06b0f336d421ff1a5fe5e623c06,"['switch', 'crash']",Risky_resource_management,{'crash': 100},
-2c907d65c954ab21ce13f1c9743640e99c9a3024,"['integer', 'overflow', 'condition', 'apparent', 'memory']",Risky_resource_management,{'integer overflow': 100},
+sha,message,catetory,matched
+f40430faf4cdbc267fbc75c476c46aac197c274c,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+d8b772115925aadcfba5ae4c7b38a9da9d55d7c5,"['shuts', 'device', 'android', 'libuv', 'crash', 'crash', 'myip', 'admin', 'password']",General,{'crash': 100}
+80ca35e9b317927e04055cfbc338f096cc255a10,"['crash', 'peer', 'slot']",General,{'crash': 100}
+43ed8163103507b59158759f2bd5582adce31403,"['crash', 'byte', 'txid']",General,{'crash': 100}
+54b2adabf142cbe8714d551e8de829b03633cf33,"['crash', 'fuzzer', 'proto', 'version']",General,{'crash': 100}
+602d678a96fa145e956fdbc903e536c6446c15b5,['crash'],General,{'crash': 100}
+dfb0660f3f610c8e0d1fbd4acc7526d7fa871388,"['occasional', 'crash']",General,{'crash': 100}
+0fe79e5cd97c19fc8add16ef06730d85de0dba79,"['occasional', 'stack', 'overflow', 'building']",Risky_resource_management,{'stack overflow': 100}
+a972a8c8a3b73c905a4ed3db33d1e0285011d61b,"['memory', 'leak', 'modify', 'auth', 'user', 'field']",Risky_resource_management,{'memory leak': 100}
+3aed69e5476eda863d5b780d4259aa8fec641a13,"['memory', 'leak', 'beacon']",Risky_resource_management,{'memory leak': 100}
+3abe50b8e744f72696aa7ccd5ca5220b4570d020,"['ouch', 'stupid', 'typo', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+068f9a00d50fdba9a3e33c2d85b31c47f13476d2,"['update', 'issue', 'security', 'hacktoberfest', 'announcement']",General,{'security': 100}
+0e818dea0f0afdf827842f86d08aff5583ac96b0,"['crash', 'sends', 'setup', 'session', 'packet']",General,{'crash': 100}
+d08f0c8319af3cb6404e254aa78865dd16640815,"['crash', 'search', 'adminapi', 'allocator', 'free', 'allocator']",General,{'crash': 100}
+cec2d96bdd0bf40b7f43a195cbd6b934749a044e,"['crash', 'musl', 'seccomp', 'violation']",General,{'crash': 100}
+c1b5f008b4140c207182e6ad318d97b72ee0974c,"['gentoo', 'automatic', 'crash', 'destection', 'restart']",General,{'crash': 100}
+cacbf456cc8bc2edb309e966055f7c5ecc7ffabe,"['readme', 'gentoo', 'automatic', 'crash', 'destection', 'restart']",General,{'crash': 100}
+617c645a735d60ed0bd2bbbc9d1dd6779e4a96e2,"['message', 'report', 'security', 'issue']",General,{'security': 100}
+b657639cc4e05817e011e8cc4e43358d001e7068,"['stack', 'overflow', 'nodestore', 'mega', 'crash']",Risky_resource_management,{'stack overflow': 100}
+37e956150cd2df7d16fa6bc5632826c4e9f55591,"['seccomp', 'mutliple', 'function', 'security', 'admin', 'interface']",General,{'security': 100}
+885a9c941707c8241cc48e1586afc07afa94481e,"['memory', 'leak', 'libuv', 'data', 'error']",Risky_resource_management,{'memory leak': 100}
+d504642f0b41c8f57cc8b29de3e33f5185983b5e,['crash'],General,{'crash': 100}
+df32d07308cbe324369c02949d6697ded29125bc,"['variable', 'util', 'security', 'warning']",General,{'security': 100}
+5113299af670156ff291be0922c52b9d5c505f0e,"['window', 'security', 'cjdns', 'work']",General,{'security': 100}
+033d9c0efd00fb036e203e48167f31ecb31046bd,"['sure', 'tundevice', 'smash', 'stack', 'pull', 'request', 'http', 'github', 'cjdelisle', 'cjdns', 'pull', 'cjdelisle', 'tundevice', 'char', 'string', 'unix', 'cjdns', 'crash']",General,{'crash': 100}
+14351ab0fa32236ff602a51ccc006dffbd76f1d3,"['check', 'track', 'rare', 'crash']",General,{'crash': 100}
+ebb757a21129a237d155a5367eb37d745bd6dae0,"['extra', 'security', 'stanza', 'systemd', 'conffile', 'cjdns', 'need']",General,{'security': 100}
+6f1fdd87d1d1a7b316cf245d94aafaa3187f4358,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+7086d7e250e9bed5a04d12c1cda4f051cdecd57e,"['assertion', 'crash', 'iptunnel']",General,{'crash': 100}
+cba275c0681ef7acddede55b7b778cc4a41864b2,"['routermodule', 'silly', 'crash']",General,{'crash': 100}
+f675b31436dbd53967e21f9123f5e8fd6eac8a05,"['heap', 'buffer', 'overflow', 'arraylist', 'incorrect', 'realloc', 'calculation']",Risky_resource_management,{'buffer overflow': 100}
+75de00d724792aef2f878fb136e12e6f8ea02a3c,"['client', 'exit', 'foreground', 'process', 'core', 'init', 'script', 'cjdroute', 'foreground', 'signal', 'fetch', 'monitor', 'cjdroute', 'foreground', 'process', 'core', 'process', 'recovery', 'case', 'crash', 'manual', 'restart', 'cjdroute', 'patch', 'core', 'process', 'exit', 'foreground', 'process', 'print', 'exit', 'code', 'signal', 'exit', 'exit', 'init', 'script', 'restart']",General,{'crash': 100}
+9ef45d9d8fb5b86da848b0ec3da0938c6c9644ff,"['eacce', 'doppleganger', 'node', 'address', 'index', 'point', 'distro', 'quirk', 'faaa', 'point', 'distro', 'quirk', 'distro', 'quirk', 'autopeer', 'ethernet', 'arceliar', 'index', 'table', 'content', 'readme', 'update', 'subtree', 'instruction', 'cleanup', 'indiana', 'crashey', 'report', 'firewall', 'problem', 'loopback', 'interface', 'general', 'typo', 'grammar', 'language', 'pull', 'request', 'willeponken', 'patch', 'shorewall', 'gateway', 'cjdns', 'iptunnel', 'specific', 'quirk', 'readme', 'link', 'feae', 'index', 'link', 'debff', 'link', 'distro', 'readme', 'link', 'policy', 'section', 'link', 'directory', 'bffc', 'index', 'index', 'directory', 'empty', 'trigger', 'post', 'iptunnel', 'indentation', 'link', 'nycmesh', 'good', 'site', 'eeeae', 'chapter', 'eagain', 'strip', 'whitespace', 'security', 'statement', 'ffdfe', 'cleanup', 'compilation', 'cleanup', 'index', 'update', 'cleanup', 'indiana', 'bcde', 'readme', 'section', 'committers', 'cjdns', 'merges', 'readme', 'update', 'cjdns', 'link', 'prose', 'programmer', 'security', 'update', 'address', 'concern', 'function', 'update', 'iface', 'aacae', 'revert', 'cjdns', 'iface', 'eccad', 'cjdns', 'iface', 'license', 'info', 'readme', 'license', 'legal', 'aeda', 'pidfile', 'version', 'revert', 'preparation', 'subtree', 'aefbb', 'link', 'protocol', 'word', 'understanding', 'eebd', 'gitboria', 'canonical', 'repo', 'policy', 'pull', 'request', 'erkan', 'yilmaz', 'patch', 'typo', 'policy', 'typo', 'eedcd', 'policy', 'administrative', 'policy', 'hyperboria', 'readme', 'note', 'security', 'erkan', 'question', 'security', 'cjdns', 'readme', 'scope', 'project', 'readme', 'descriptive', 'readme', 'index', 'report', 'show', 'progress', 'pidfile', 'version', 'revert', 'preparation', 'subtree', 'initial', 'guideline', 'baad', 'link', 'general', 'fefab', 'route', 'anatomy', 'document', 'adbe', 'cjdroute', 'root', 'user', 'cede', 'license', 'documentation', 'topic', 'license', 'license', 'update', 'window', 'window', 'culturespy', 'exchange', 'note', 'window', 'firewall', 'window', 'courtesy', 'cspy', 'licence', 'creative', 'common', 'attribution', 'legal', 'license', 'bccea', 'cjdns', 'iface', 'note', 'pattern', 'connectto', 'overflow', 'report', 'connectto', 'overflow', 'gsoc', 'note', 'note', 'baaa', 'gsoc', 'freifunk', 'continuous', 'simulation', 'cfac', 'achievement', 'glossary', 'relative', 'link', 'glossary', 'blag', 'note', 'gsoc', 'larsg', 'request', 'cacbc', 'master', 'gitboria', 'projectmeshnet', 'documentation', 'achievement', 'question', 'hypeborian', 'citizenship', 'exam', 'attention', 'subtree', 'subtree']",General,{'security': 100}
+6e78cfef8511df360756ca8406999b8e14edfd48,"['crash', 'multiple', 'admin', 'subscription']",General,{'crash': 100}
+de736c0aa834c7c589924ab45ff4e4df5a6c7a00,"['automatic', 'crash', 'detection', 'restart']",General,{'crash': 100}
+0fc585e15e25b1bd39be24a534f47bb966485a4a,"['dumb', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+c26d832d7b021a08c6e69524fe49d7d447b6c047,"['memory', 'leak', 'ducttape']",Risky_resource_management,{'memory leak': 100}
+6a8ee5cbf687e565b0e60771d60bf2d2317314e9,"['integer', 'overflow']",Risky_resource_management,{'integer overflow': 100}
+dd4958750954e55e9f0e36b434180fbc75b0630c,"['weird', 'crash', 'node']",General,{'crash': 100}
+511705c9106ea8abc112906836f19e20640affe3,"['cjdns', 'crash', 'ethernet', 'frame']",General,{'crash': 100}
+ccab98f069279898003ae7f7deeaa931da9f6387,"['trap', 'crash', 'ethinterface']",General,{'crash': 100}
+b7efcb2e42af11b3dae736dfbe5b1cb819bd6c62,"['security', 'patch', 'http', 'github', 'lukevers', 'cjdns', 'crashey']",General,{'security': 100}
+66185cc05b4f707e6ab6b7b2e5a68c3523220a90,"['security', 'patch', 'github', 'lukevers', 'cjdns', 'crashey']",General,{'security': 100}
+41f65b8d8f8cf479ecd67dd75c0fb18c73279407,['security'],General,{'security': 100}
+5822acf6ac98a8e82fd867fefd0917856d0a98e6,"['ubuntu', 'user', 'repo', 'ubuntu', 'user', 'security', 'ubuntu', 'repo', 'installation']",General,{'security': 100}
+c6aef1cce897588fca27d454353cbbf884083e6e,"['useful', 'crash', 'janitor', 'todo', 'comment']",General,{'crash': 100}
+88537799f5f2d444a64a7d35c608ad6522134687,"['null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+54871949379ea989ba07123a03df6e0d0e660545,"['crash', 'packet', 'address']",General,{'crash': 100}
+82e2051e05561f629a682d6878293b064202f063,"['deterministic', 'file', 'name', 'node', 'download', 'dubious', 'check', 'number', 'potential', 'security', 'issue']",General,{'security': 100}
+03a6a36c9658e15024854307143eee035fc61caa,"['memory', 'leak', 'ethinterface']",Risky_resource_management,{'memory leak': 100}
+4a4d4ddc84f115c5ce8761c5c462c4ff2100ab33,"['respawn', 'limit', 'increase', 'cjdns', 'crash', 'time', 'minute']",General,{'crash': 100}
+e8f5ac3b39ac5cca688448dc3bfbc2500e339e97,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+76dd24b3baaa73a9011f6b2e1983e6c98e61f8e4,['crash'],General,{'crash': 100}
+6e46fa41f5647d6b414612d9d63626b0b952746b,"['cjdns', 'security', 'context']",General,{'security': 100}
+8a638446ad68e3dfdc67093f5024495910af288c,"['warning', 'security', 'issue']",General,{'security': 100}
+fb741f3bf01a2ac93d2c07876ecf1d46fa5b236a,"['memory', 'leak', 'admin']",Risky_resource_management,{'memory leak': 100}
+c2d0a7ae6db5a78725381589d0c63d4e1c96c563,"['security', 'iptunnel', 'server', 'message']",General,{'security': 100}
+b0df03f9330283c03f9db5dcb2337d0bacae49b4,"['option', 'encryption', 'authentication', 'insecure', 'code', 'cryptoauth']",General,{'insecure': 100}
+505404d005b4d4a82a232bc488c6dde7f66c161a,"['pathfinder', 'nolonger', 'crash', 'assertion', 'failure', 'nodestore']",General,{'crash': 100}
+6e7b032a167850bb1d0226ef96b3f688e6e16dac,"['serious', 'security', 'issue', 'place', 'nonce', 'counter', 'cryptoauth', 'session', 'state']",General,{'security': 100}
+926cc8bcf5aee52991d7a017fd61a4632e9999a2,"['test', 'confirms', 'security', 'problem']",General,{'security': 100}
+91bbd1b60cdee1203e836d45ec6175646105e157,"['error', 'packet', 'error', 'packet', 'original', 'sender', 'message', 'security', 'issue', 'packet', 'wire', 'practice', 'ducttape', 'error', 'authentication', 'error', 'cryptoauth', 'content', 'issue', 'luck', 'patch', 'matter', 'return', 'value', 'upper', 'layer', 'class']",General,{'security': 100}
+d7f5b302ac9215221428de81b9a496b40dcb3884,"['work', 'window', 'port', 'message', 'function', 'exception', 'handler', 'case', 'buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100}
+4dd825b8f62ca9050b1484064df808403f90dd65,"['upstart', 'respawn', 'cjdns', 'crash']",General,{'crash': 100}
+a52c99787e3709889fe365ceac2b41ed6968c5ae,"['trashroutes', 'stack', 'overflow', 'invalid', 'route']",Risky_resource_management,{'stack overflow': 100}
+4a959e0dfb5535ccae73d5d19eda50eb74eb38b2,"['readme', 'review', 'small', 'thing', 'section', 'thorny', 'morality', 'issue', 'discussion', 'unpopular', 'content', 'open', 'worm', 'problem', 'issue', 'simple', 'goal', 'heart', 'cjdns', 'protection', 'private', 'communication', 'angle', 'introduction', 'morality', 'discussion', 'link', 'buildbot', 'page', 'thanks', 'cjdns', 'developer', 'readme', 'review', 'process', 'etiquette', 'paragraph', 'internet', 'work', 'understanding', 'cjdns', 'conf', 'file', 'command', 'chmod', 'user', 'harm', 'security']",General,{'security': 100}
+1fcf7bdbf6bf70f01ad9cb0d00eee20810f09648,"['impossible', 'null', 'deref', 'crash']",General,{'crash': 100}
+c9d53b6c66c593eb82709f8f6a1b7c18ae578b2a,"['null', 'deref', 'crash']",General,{'crash': 100}
+19006c7e5c381b356ef260cee080c1bb5bf3a40f,"['error', 'stack', 'overflow']",Risky_resource_management,{'stack overflow': 100}
+0e2fdb2b81e265313c8e2d95dbbda45ec8298ea1,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+ce3b0a15573da3576dec898eb797098527498867,"['node', 'responds', 'right', 'time', 'ugly', 'integer', 'underflow']",Risky_resource_management,{'integer underflow': 100}
+27874e4b093bb804e02f7d94a852fec07b64e2c5,"['security', 'secrandom', 'system', 'apple']",General,{'security': 100}
+53a200ed40abc73e5c4496f90ff31e7d78e6a0cc,"['memory', 'leak', 'thanks', 'werecat', 'report']",Risky_resource_management,{'memory leak': 100}
+fbca479dbe7908e9352a88bb8658a3fa099bb94d,"['buffer', 'overflow', 'address', 'interface']",Risky_resource_management,{'buffer overflow': 100}
+5857eb948c58a52c7a5becf0a844c25913d6b9a0,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+53df63c4850aed49f56dec3d819ff1a12a3de9ea,"['crash', 'iptunnel']",General,{'crash': 100}
+f23750d347179e3f59e6a302fca8fe77cb02c328,"['allocator', 'place', 'canary', 'side', 'allocation', 'detect', 'buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100}
+f3fef9a637819644f821316f9d0f3c8dd43831a7,"['integrity', 'check', 'cryptoauth', 'structure']",Risky_resource_management,{'integrity check': 100}
+0b42b0f8ca9d72182fad261f5da42bb3c5321d7c,"['null', 'pointer', 'deref', 'packet']",Risky_resource_management,{'null pointer': 100}
+c1f41b263d9d4dd3c9bdac8d0763e286bc81cf20,['crash'],General,{'crash': 100}
+6dc23c97667d7f6e0bbf089b4efc95ecb38d2bca,"['cjdns', 'security', 'util']",General,{'security': 100}
+2b671e39983699cb394804a42b023558538df25d,"['warning', 'buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100}
+5b8671869eb2b57a2ea5ff0f4e157d89ec4adb13,"['solaris', 'support', 'security']",General,{'security': 100}
+245370648a5466bd18618ee3d718ad795cd51be5,"['crash', 'insert', 'node', 'invalid', 'address']",General,{'crash': 100}
+02b998eec6badc05346310a0a58335c50eca5340,"['buffer', 'overflow', 'udpinterface']",Risky_resource_management,{'buffer overflow': 100}
+af26ea4c1f89c9f6bc72aa34a5d1fef67d487c54,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+656810651d00fde716ea3a875e0ed62eb8489ace,"['nonsensical', 'crash', 'demand', 'nonsensical']",General,{'crash': 100}
+9b440dccb091d5261751fa21c3bec410115ce356,['crash'],General,{'crash': 100}
+887115be28a9e06b0f336d421ff1a5fe5e623c06,"['crash', 'switch', 'outgoing', 'connection', 'crash', 'html', 'http', 'server']",General,{'crash': 100}
+996583386db9b2ace106699cf16d7936c1c9fe89,"['buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100}
+2c907d65c954ab21ce13f1c9743640e99c9a3024,"['integer', 'overflow', 'apparent', 'memory', 'condition']",Risky_resource_management,{'integer overflow': 100}
+1f6df49dff3c45699dd274960a35240c6fdb53f2,"['memory', 'corruption', 'debug', 'line']",Risky_resource_management,{'memory corruption': 100}
+c6bc9e3a9a9651c9b438a9c381a28552396ae4cd,"['gmrt', 'average', 'roller', 'modification', 'algorithm', 'buffer', 'overflow', 'vuln', 'searchstore']",Risky_resource_management,{'buffer overflow': 100}

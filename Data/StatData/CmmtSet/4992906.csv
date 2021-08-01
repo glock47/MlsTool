@@ -1,14 +1,61 @@
-sha,message,catetory,matched,labels
-8354ff2efe28a3f08920f9179c73f4c8112d88f9,"['issue', 'antlr', 'security']",General,{'security': 100},
-9fe501d1a02aabb23dffbd529a5656dea5f1a170,"['requestattribute', 'crash']",Risky_resource_management,{'crash': 100},
-8e28fb35dc3caed527ce1e0effebe74c1ab3c456,"['crash', 'absentclass']",Risky_resource_management,{'crash': 100},
-17b651190e8a928c86ad0ec774b49c9785ee7dc6,"['crash', 'absentnative', 'abstract', 'class', 'attribute', 'methodjavax', 'service']",Risky_resource_management,{'crash': 100},
-6339cd42d49608a9acc2725793dac527c7d22d55,"['update', 'dependencyjekyll', 'vulnerability', 'potential', 'security']",General,{'security': 100},
-c7e493f283a6b6535a14b482c057133e9d1a3046,"['enable', 'security']",General,{'security': 100},
-1c991dd79e3b7783dd7c3e8808dd033d65dfef96,"['property', 'crash', 'random']",Risky_resource_management,{'crash': 100},
-2566bbaf2e34d427ef58e731b06afa123438f16b,"['security', 'ruleset', 'changelog', 'description']",General,{'security': 100},
-5282b79a7c37cdd7b0e51f71b659e90947cb2ba9,"['master', 'originconflictsourceforge', 'securitysourceforge', 'security']",General,{'security': 100},
-4187acf422dabcf6973e0e45c00b755a0ecf1d05,"['ruleset', 'security']",General,{'security': 100},
-da32c859982da7ec57ae3fc8b34a52c22006d20d,"['crash', 'symbol', 'enumeration', 'field', 'table', 'declarationtrunk', 'svnroot']",Risky_resource_management,{'crash': 100},
-fc49a7b54389036e2580da7c12a3ce8346e67f1e,"['crash', 'constructor', 'certain', 'string', 'fixedtrunk', 'svnroot']",Risky_resource_management,{'crash': 100},
-804a4c88683cd66a1ab2ecddced74f3062beddad,"['inner', 'crash', 'bruno', 'thankstrunk', 'svnroot']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+4a519be2d9ef0269c5351ea90c0f2a4b8d7b20d9,"['update', 'regular', 'expression', 'denial', 'service', 'addressable', 'template', 'http', 'github', 'advisory', 'ghsa', 'jxhc']",General,{'denial service': 100}
+ef9d342b2c072f073dfe6f377bf2985be838afe8,"['pull', 'reqest', 'ajeans', 'java', 'logger', 'rule', 'test', 'null', 'pointer', 'exception']",Risky_resource_management,{'null pointer': 100}
+dfcf0d01ca67512b1502840332d75ddbd72e5342,"['rename', 'rule', 'security', 'design', 'description', 'clarify', 'visible', 'field', 'rule', 'reference']",General,{'security': 100}
+f0d2aa5514d10dc26313f323088ac0c6fb24ccb8,"['pull', 'request', 'oowekyala', 'issue', 'java', 'crash']",General,{'crash': 100}
+10fef19152789e3adfd107d8c5741957be337dbf,['crash'],General,{'crash': 100}
+98acf1de638e28efd3fce94e984a53962c431643,"['update', 'visualforce', 'test', 'java', 'sourceforge', 'lang', 'rule', 'security', 'ment', 'fournier', 'gmail']",General,{'security': 100}
+b509e9b9a447883965a0220a185949fb65d3dd29,"['pull', 'request', 'oowekyala', 'issue', 'class', 'leak', 'java', 'memory', 'leak', 'type', 'resolution']",Risky_resource_management,{'memory leak': 100}
+8354ff2efe28a3f08920f9179c73f4c8112d88f9,"['bump', 'antlr', 'security', 'http', 'github', 'antlr', 'antlr', 'issue']",General,{'security': 100}
+5ed25a9277f9e6159b0027f770c5ab878c2ae626,"['java', 'cleanup', 'rule', 'test', 'file', 'security', 'unnecessary', 'cdata', 'description', 'space', 'indentation', 'whitespace', 'file', 'newline']",General,{'security': 100}
+470358ec88098f1fe5429c97b2e3c073fcaf564e,"['update', 'checkstyle', 'http', 'github', 'checkstyle', 'checkstyle', 'security', 'advisory', 'ghsa', 'note', 'checkstyle', 'configuration']",General,{'security': 100}
+64f44369be68c4e9e444568093605c5d2716b0d3,"['apexcsrf', 'rule', 'security', 'errorprone', 'helper', 'class', 'internal', 'package', 'helper', 'class']",General,{'security': 100}
+459b430916d1f320cf706b51b3735f64aadc3aa2,"['update', 'rubyzip', 'security', 'alert', 'upgrade', 'rubyzip']",General,{'security': 100}
+9fe501d1a02aabb23dffbd529a5656dea5f1a170,"['pull', 'request', 'adangel', 'java', 'crash', 'absent', 'code', 'attribute']",General,{'crash': 100}
+8e28fb35dc3caed527ce1e0effebe74c1ab3c456,"['java', 'crash', 'absent', 'code', 'attribute', 'linkageerror', 'error']",General,{'crash': 100}
+4a2943510ce0c2a563e50c82ac81fe9483300eeb,"['excludes', 'dist', 'part', 'vendor', 'stuff', 'ruby', 'part', 'source', 'distribution', 'test', 'assert', 'sensitive', 'data', 'travis']",Porous_defenses,{'sensitive data': 100}
+14a375a51049132633bdb9b2258a77a25157d961,"['pull', 'request', 'adangel', 'issue', 'java', 'crash', 'absent', 'code']",General,{'crash': 100}
+17b651190e8a928c86ad0ec774b49c9785ee7dc6,"['java', 'crash', 'absent', 'code', 'attribute', 'method', 'native', 'abstract', 'class', 'file', 'javax', 'service']",General,{'crash': 100}
+6339cd42d49608a9acc2725793dac527c7d22d55,"['update', 'ruby', 'dependency', 'potential', 'security', 'vulnerability', 'jekyll']",General,{'security': 100}
+597d09dd68c552c1bf811c45d382ccf5eee56720,"['rule', 'test', 'security']",General,{'security': 100}
+7284a087798d8a7547405b6b6c2d3d60db3d16fa,"['parser', 'crash', 'test']",General,{'crash': 100}
+1211e8836310f1251b348e141bdf6182bd528a50,"['java', 'null', 'pointer', 'local', 'type', 'resolution']",Risky_resource_management,{'null pointer': 100}
+c7e493f283a6b6535a14b482c057133e9d1a3046,"['enable', 'security', 'ruleset', 'java']",General,{'security': 100}
+1c991dd79e3b7783dd7c3e8808dd033d65dfef96,"['property', 'test', 'random', 'crash']",General,{'crash': 100}
+42973c4291c695e22547624134afa3d41159036c,"['java', 'reorganize', 'rulesets', 'category', 'practice', 'code', 'style', 'design', 'documentation', 'error', 'performance', 'security']",General,{'security': 100}
+c9bf13d5e0d3be6ba867849beeb624daca51ded8,"['detection', 'soql', 'injection']",Insecure_interaction_between_components,{'soql injection': 96}
+d14f33e6288f710d406b1302dd55bd410eec0757,"['update', 'security', 'version']",General,{'security': 100}
+57a3cdd4a219f6eb1a9422d5a1befb0cd10b0cd1,"['security', 'rule']",General,{'security': 100}
+799614ee8e325a62a6bdf26b0b80b28c2abdcda9,"['csrf', 'controller', 'page']",Insecure_interaction_between_components,{'csrf': 100}
+f799cf2e5b698695a1fe22335696e2fca90b3934,"['rule', 'security']",General,{'security': 100}
+e8b8b5ef50bc8256b3b54555e84730b0bb587367,"['rule', 'security']",General,{'security': 100}
+103a745083e94f026c0e326d9b59ee8c3f9cedfe,"['soql', 'injection']",Insecure_interaction_between_components,{'soql injection': 96}
+07100bc15dd575a66675013738f17f28811174a1,"['soql', 'injection']",Insecure_interaction_between_components,{'soql injection': 96}
+a38526544af2ad0218e7ae0348b2c184b5693eb5,"['open', 'redirect', 'detection', 'static', 'field']",Insecure_interaction_between_components,{'open redirect': 100}
+448ce2074aeea4565610b1985d8b368627600b8e,"['open', 'redirect', 'detection', 'static', 'field']",Insecure_interaction_between_components,{'open redirect': 100}
+a84a0abbc269c6207d6bc0fd81b6714c026cfe9d,"['open', 'redirect', 'detection', 'string']",Insecure_interaction_between_components,{'open redirect': 100}
+9c85a788849bc65de245c75991b782c6d22ff712,"['open', 'redirect', 'detection', 'string']",Insecure_interaction_between_components,{'open redirect': 100}
+c5089f756c5bcdadbdd74584dc3656cdc4a77d8e,"['open', 'redirect', 'detection', 'string']",Insecure_interaction_between_components,{'open redirect': 100}
+2566bbaf2e34d427ef58e731b06afa123438f16b,"['rule', 'description', 'changelog', 'security', 'ruleset']",General,{'security': 100}
+27936a5e04d418457e102e27f3f3123160887a10,"['open', 'redirect', 'rule', 'test', 'class', 'method']",Insecure_interaction_between_components,{'open redirect': 100}
+b6945d7a6bbfd53536861447764ffb86f08235f6,"['open', 'redirect', 'rule', 'test', 'class', 'method']",Insecure_interaction_between_components,{'open redirect': 100}
+5282b79a7c37cdd7b0e51f71b659e90947cb2ba9,"['origin', 'master', 'codestyle', 'conflict', 'apex', 'main', 'java', 'sourceforge', 'lang', 'apex', 'rule', 'security', 'apex', 'main', 'java', 'sourceforge', 'lang', 'apex', 'rule', 'security']",General,{'security': 100}
+4edc5526921a3bf04cbd0185134d61657e2006c7,"['detection', 'soql', 'injection', 'database', 'query']",Insecure_interaction_between_components,{'soql injection': 96}
+bd44a18861f7724ec852c0b00b879e4c8fa9c166,"['detection', 'soql', 'injection', 'database', 'query']",Insecure_interaction_between_components,{'soql injection': 96}
+8e0500945e4cc174f0af17687f5ddab44efa1e21,"['rule', 'apex', 'security']",General,{'security': 100}
+4187acf422dabcf6973e0e45c00b755a0ecf1d05,"['security', 'ruleset']",General,{'security': 100}
+e6d67312e130b913c9beeb76948da4f4f3b8aa2a,"['null', 'pointer', 'type']",Risky_resource_management,{'null pointer': 100}
+a56f5545fa3b4f35f0c9515c3e3fff62833b47a3,"['null', 'pointer', 'exception', 'http', 'github', 'vampire', 'vampire', 'null', 'pointer', 'exception']",Risky_resource_management,{'null pointer': 100}
+8f89d5a05f2579fc91c6f91fed7588e9e71305b2,"['useindexofchar', 'null', 'pointer', 'lambda', 'expression']",Risky_resource_management,{'null pointer': 100}
+ace4fa4b46b18bf5ed89a5790fcae297ecfa39ac,"['plsql', 'comment', 'toomanymethods', 'null', 'pointer', 'exception', 'work', 'plsqldesigner']",Risky_resource_management,{'null pointer': 100}
+40134617940fcb9c64a171d42a8343634baff5e7,"['null', 'pointer', 'exception']",Risky_resource_management,{'null pointer': 100}
+f5f4660b0a1ae035fc274ebaa1a6d29f683ec0ed,"['null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+d4a211087fd77dfc9d64d68bd4756e3dad652c85,"['semi', 'colon', 'conditional', 'compilation', 'statement', 'semi', 'colon', 'global', 'block', 'null', 'pointer', 'exception']",Risky_resource_management,{'null pointer': 100}
+fe3f1592557cc7a8d45eb653b0503cc6a5d6d94f,"['argument', 'null', 'pointer', 'exception']",Risky_resource_management,{'null pointer': 100}
+99e26a696ef54642b672f3d08eff962d80dd2738,"['jedit', 'plugin', 'crash', 'certain', 'custom', 'rule', 'http', 'svnroot', 'trunk']",General,{'crash': 100}
+da32c859982da7ec57ae3fc8b34a52c22006d20d,"['symbol', 'table', 'crash', 'enumeration', 'declaration', 'scope', 'field', 'name', 'http', 'svnroot', 'trunk']",General,{'crash': 100}
+76fc9780cf15b787ea161c29af568f97116098cf,"['crash', 'inner', 'interface', 'bruno', 'http', 'svnroot', 'trunk']",General,{'crash': 100}
+804a4c88683cd66a1ab2ecddced74f3062beddad,"['crash', 'inner', 'interface', 'thanks', 'bruno', 'http', 'svnroot', 'trunk']",General,{'crash': 100}
+e3724ea062537cda2bdffeae618b93fb4e431738,"['initial', 'import', 'security', 'guideline', 'rule', 'http', 'svnroot', 'trunk']",General,{'security': 100}
+6ecffd1e51c98a84040a6c629ea0d4c5c0ea80c0,"['initial', 'rule', 'security', 'guideline', 'http', 'svnroot', 'trunk']",General,{'security': 100}
+9968b1d1ff3747dfab84e6a3b34a8c126efdcd8d,"['mouse', 'click', 'source', 'file', 'list', 'java', 'event', 'thread', 'analysis', 'thread', 'deadlock', 'http', 'svnroot', 'trunk']",Risky_resource_management,{'deadlock': 100}

@@ -1,25 +1,38 @@
-sha,message,catetory,matched,labels
-9949db5450631676ae7692d602951ab375ec2a94,"['webview', 'crash']",Risky_resource_management,{'crash': 100},
-68a048b4a4d68ca76f736036d8acdba6df0d7b5a,"['snapshot', 'crash']",Risky_resource_management,{'crash': 100},
-b271cf9d3296910d6d8614e3b0a8af2be6e76534,"['palakis', 'crash', 'requestevent', 'crash', 'shutdown']",Risky_resource_management,{'crash': 100},
-1266b3f3fed460df844bbea281e1d5a10809a8a6,"['various', 'event', 'crash']",Risky_resource_management,{'crash': 100},
-9275f7c2a98a9b93b586c80098503060e8c32048,"['wsserver', 'serverissue', 'crash', 'condition']",Risky_resource_management,{'crash': 100},
-1fef0691ed49cedb483bc00ed5a022f215a4808d,"['bcbde', 'mergeoutput', 'bugfix', 'palakis', 'command', 'crash', 'output', 'parameter', 'request', 'object']",Risky_resource_management,{'crash': 100},
-a148f7fd7cce52bcf778ec6a48f8dd96194ed718,"['crash', 'request']",Risky_resource_management,{'crash': 100},
-8285805108d40926f777cd2f4c0d98d54c5924a0,"['mergemerge', 'bugfix', 'palakis', 'crash', 'requestutils', 'gettrayicon', 'frontend', 'refactor', 'function']",Risky_resource_management,{'crash': 100},
-77ac6a7a2658e3141a4d86946804b2ad7994616a,"['mergemerge', 'bugfix', 'palakis', 'crash', 'event', 'crash']",Risky_resource_management,{'crash': 100},
-540e1f562f5dea9040841bd549da7d424891947c,"['bfcde', 'mergemerge', 'bugfix', 'palakis', 'crash', 'requestcrash']",Risky_resource_management,{'crash': 100},
-bfcd16ea28e58b080de38a24293e3a7197d5107e,"['studio', 'crash', 'request']",Risky_resource_management,{'crash': 100},
-6b6dec79c53bcd4179b9ea213fcf62fdb14f968a,"['connection', 'bugfix', 'onclose', 'palakis', 'crash', 'error', 'wsserver', 'exception', 'message']",Risky_resource_management,{'crash': 100},
-3bc8348c3267692491a2a7f540511ff8e8597117,"['mergemerge', 'bugfix', 'palakis', 'crash', 'requestrefactor', 'utils', 'crash']",Risky_resource_management,{'crash': 100},
-fa50008f3d040491e0bd38437e59750fbbe5c3e7,"['wsevents', 'crash', 'filter']",Risky_resource_management,{'crash': 100},
-3a7473ba917961e7c7d1053b02e42ddce20c7147,"['mergemerge', 'bugfix', 'palakis', 'crash', 'requestalready', 'streamstatus', 'message', 'server', 'crash']",Risky_resource_management,{'crash': 100},
-a99da27ff66d65ebd6ae79b63090f1443d9806e8,"['event', 'streamstatus', 'early', 'crash']",Risky_resource_management,{'crash': 100},
-5748c4d0ec9170a5ca16d4bef56878e465607749,"['general', 'crash']",Risky_resource_management,{'crash': 100},
-25210dfa526530a8d5db8bb92b5fbc7b4f137238,"['cmake', 'improvementbuild', 'directory', 'cmake', 'debugbuild', 'bundle', 'crash', 'handlingrelwithdebinfo', 'cmake', 'commandrelwithdebinfo', 'native', 'buildingplugins', 'plugins', 'browser', 'window', 'buildclone', 'update', 'submodulessubmodules', 'presentlyobsproject', 'studio', 'insteadgithub', 'studio', 'changedobsprojectrelwithdebinfo', 'release', 'officialsimilar', 'nativeconfig', 'current', 'window']",Risky_resource_management,{'crash': 100},
-745fb5ea298145a03e33c380dae8181682528970,"['mergebranch', 'scenecol', 'crash']",Risky_resource_management,{'crash': 100},
-58434cac3b060de29f7b91796441454728c06994,"['event', 'crash']",Risky_resource_management,{'crash': 100},
-0ff4411abf5b1df09200abd1476df71f103e1691,"['bugfix', 'deadlock', 'server', 'mutex', 'recursive']",Risky_resource_management,{'deadlock': 100},
-9dc153bc22c6a7307b965eaafb72e92209cba450,"['bugfix', 'crash']",Risky_resource_management,{'crash': 100},
-554ab54690ad5f70bf67d8b9be9159ba91c9675e,"['broadcast', 'client', 'security', 'message']",General,{'security': 100},
-12933486c976dd624f7eec3267e01dd703d50c13,"['bugfix', 'getcurrentscene', 'crash', 'request']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+b271cf9d3296910d6d8614e3b0a8af2be6e76534,"['pull', 'request', 'palakis', 'shutdown', 'crash', 'event', 'multiple', 'shutdown', 'crash']",General,{'crash': 100}
+60e2f0183e5bede9476a853a3fc6c7a26a18d085,"['current', 'shutdown', 'crash']",General,{'crash': 100}
+1266b3f3fed460df844bbea281e1d5a10809a8a6,"['various', 'crash']",General,{'crash': 100}
+6740e5fec738d82f741c9255c0528404d847551a,"['request', 'autorelease', 'scene', 'createscene', 'scene', 'increment', 'memory', 'leak', 'lead', 'scene']",Risky_resource_management,{'memory leak': 100}
+87cd36673ed8fa59f2a6f47decc4279996d45f40,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+9275f7c2a98a9b93b586c80098503060e8c32048,"['wsserver', 'exit', 'issue', 'race', 'condition', 'crash', 'exit']",General,{'crash': 100}
+1fef0691ed49cedb483bc00ed5a022f215a4808d,"['pull', 'request', 'palakis', 'bugfix', 'output', 'command', 'crash', 'request', 'output', 'parameter', 'object', 'msvc']",General,{'crash': 100}
+a148f7fd7cce52bcf778ec6a48f8dd96194ed718,"['request', 'profile', 'crash']",General,{'crash': 100}
+8285805108d40926f777cd2f4c0d98d54c5924a0,"['pull', 'request', 'palakis', 'bugfix', 'tray', 'icon', 'crash', 'utils', 'gettrayicon', 'refactor', 'frontend', 'function']",General,{'crash': 100}
+77ac6a7a2658e3141a4d86946804b2ad7994616a,"['pull', 'request', 'palakis', 'bugfix', 'crash', 'time', 'crash', 'event', 'exit']",General,{'crash': 100}
+f23ba0c5134dac7a8c357bd5d1406db360aa56ec,"['current', 'bugfix', 'crash']",General,{'crash': 100}
+540e1f562f5dea9040841bd549da7d424891947c,"['pull', 'request', 'palakis', 'bugfix', 'crash', 'crash']",General,{'crash': 100}
+bfcd16ea28e58b080de38a24293e3a7197d5107e,"['request', 'studio', 'mode', 'crash']",General,{'crash': 100}
+d78ed32df53cfbbd287cc0d36f373bd8a5a5d84b,"['pull', 'request', 'palakis', 'bugfix', 'memory', 'leak', 'memory', 'leak', 'heartbeat', 'event']",Risky_resource_management,{'memory leak': 100}
+8447395482c59aabd33f41c7c03dcd0103b6e610,"['request', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+915a7b6e1573fe3c9f9ed1c9651f6bda4fff29e0,"['request', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+b70c39789ed221218cde899ddfe9945d13233b40,"['event', 'heartbeat', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+3c0b5b0b43aaff6e8ffdc0fdaeb4016e939f70b3,"['utils', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+a8e5171b40d173e5fa6e88fa524665b5b90f6c75,"['utils', 'setting', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+f9afc5597ad744dfe0594690e411ea82b17c1f1d,"['request', 'pause', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+6b6dec79c53bcd4179b9ea213fcf62fdb14f968a,"['pull', 'request', 'palakis', 'bugfix', 'connection', 'onclose', 'broadcast', 'crash', 'wsserver', 'error', 'code']",General,{'crash': 100}
+3bc8348c3267692491a2a7f540511ff8e8597117,"['pull', 'request', 'palakis', 'bugfix', 'crash', 'crash', 'refactor', 'utils']",General,{'crash': 100}
+a034fbba8306e372acfc0c753c825ad41c511899,"['utils', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+71f792944cc4df3120c5b1f8e403594a784610f0,"['request', 'handler', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+fa50008f3d040491e0bd38437e59750fbbe5c3e7,"['wsevents', 'filter', 'crash', 'exit']",General,{'crash': 100}
+3a7473ba917961e7c7d1053b02e42ddce20c7147,"['pull', 'request', 'palakis', 'bugfix', 'port', 'crash', 'server', 'message', 'crash', 'streamstatus']",General,{'crash': 100}
+a99da27ff66d65ebd6ae79b63090f1443d9806e8,"['event', 'crash', 'early', 'streamstatus']",General,{'crash': 100}
+5748c4d0ec9170a5ca16d4bef56878e465607749,"['general', 'crash', 'exit']",General,{'crash': 100}
+25210dfa526530a8d5db8bb92b5fbc7b4f137238,"['cmake', 'improvement', 'cmake', 'copy', 'file', 'directory', 'debug', 'file', 'crash', 'report', 'cmake', 'command', 'relwithdebinfo', 'command', 'relwithdebinfo', 'release', 'config', 'building', 'native', 'plugins', 'cmake', 'flag', 'building', 'plugins', 'submodule', 'plugins', 'browser', 'speed', 'clone', 'update', 'submodules', 'submodules', 'plugins', 'need', 'obsproject', 'studio', 'studio', 'github', 'studio', 'obsproject', 'studio', 'file', 'plugin', 'similar', 'native', 'plugins', 'window', 'building', 'websocket']",General,{'crash': 100}
+745fb5ea298145a03e33c380dae8181682528970,"['scenecol', 'crash']",General,{'crash': 100}
+58434cac3b060de29f7b91796441454728c06994,"['event', 'crash', 'exit']",General,{'crash': 100}
+c34dff17ff457c11c4bd48517f3063853056490b,"['event', 'crash', 'scene', 'collection']",General,{'crash': 100}
+0ff4411abf5b1df09200abd1476df71f103e1691,"['bugfix', 'deadlock', 'recursive', 'mutex']",Risky_resource_management,{'deadlock': 100}
+5fd1e978ec98a6361f23fa273e219cc6e6c9e66d,"['memory', 'leak', 'crash']",Risky_resource_management,{'memory leak': 100}
+4985c549dd26c22325439dbb512a6abb9fe8720e,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+554ab54690ad5f70bf67d8b9be9159ba91c9675e,"['security', 'broadcast', 'message']",General,{'security': 100}
+df63428822df6f0f67010f12bc430f585f95fb94,"['crash', 'getscenelist']",General,{'crash': 100}

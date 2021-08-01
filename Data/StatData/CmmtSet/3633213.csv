@@ -1,4 +1,12 @@
-sha,message,catetory,matched,labels
-fff76dce009fc6336671219af8462e660271a3ea,"['crash', 'addedextra', 'trunk']",Risky_resource_management,{'crash': 100},
-829006bf7623eaa304088b967731bc69011d9605,"['crash', 'guard', 'vector', 'cudafeextra', 'trunk']",Risky_resource_management,{'crash': 100},
-3575cb02fd52cf7e300a0348e40bda4a6e2c3649,"['crash', 'aroundextra', 'trunk']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+86b5b3db1d88abe19ca30303e7cce73831c474ac,"['pull', 'request', 'germasch', 'reserve', 'leak', 'memory', 'leak', 'host', 'device', 'reserve']",Risky_resource_management,{'memory leak': 100}
+7abd42bead21a32f822f5791cc51b0373a715593,"['memory', 'leak', 'reserve', 'storage', 'vector', 'backend', 'storage', 'minor', 'unexpected', 'behavior', 'exponential', 'growth', 'behavior', 'vector', 'size', 'vector', 'size', 'logic', 'storage', 'copy', 'element', 'storage', 'storage', 'resize', 'work', 'capacity']",Risky_resource_management,{'memory leak': 100}
+f99185de48380668033fad57d316652752c53510,"['thrust', 'cmake', 'conversion', 'test', 'crash', 'nvcc', 'mode', 'copyable', 'whenever']",General,{'crash': 100}
+7c3f3ff277e5ce3ede274acc563acd5ed4ca3cea,"['thrust', 'memory', 'leak', 'implementation', 'depot', 'path', 'gpgpu', 'thrust']",Risky_resource_management,{'memory leak': 100}
+0afb766f2bfdf0fe654f2b47de6add829df5d63f,"['default', 'construct', 'system', 'eliminiate', 'check', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+18ff75cc57692188565073d672ba9dd7a5cb4601,"['thrust', 'detail', 'debug', 'preprocessor', 'symbol', 'thrust', 'detail', 'device', 'cuda', 'synchronize', 'thrust', 'detail', 'device', 'cuda', 'cuda', 'kernel', 'launch', 'unit', 'test', 'check', 'kernel', 'crash', 'thrust', 'issue']",General,{'crash': 100}
+fff76dce009fc6336671219af8462e660271a3ea,"['crash', 'extra', 'fbba', 'trunk']",General,{'crash': 100}
+4f08857358b6faa4cbf90c999130752e4cb9e96e,"['nvcc', 'issue', 'thrust', 'random', 'definition', 'specialization', 'discard', 'nvcc', 'crash', 'issue', 'extra', 'fbba', 'trunk']",General,{'crash': 100}
+444f144777174f3971a65b9eab610683b0b172e3,"['comment', 'body', 'crash', 'nvcc', 'extra', 'fbba', 'trunk']",General,{'crash': 100}
+829006bf7623eaa304088b967731bc69011d9605,"['vector', 'iterator', 'iterator', 'cudafe', 'crash', 'extra', 'fbba', 'trunk']",General,{'crash': 100}
+3575cb02fd52cf7e300a0348e40bda4a6e2c3649,"['crash', 'extra', 'fbba', 'trunk']",General,{'crash': 100}

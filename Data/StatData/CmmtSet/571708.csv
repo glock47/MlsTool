@@ -1,0 +1,33 @@
+sha,message,catetory,matched
+fd890e92468d54fbed82e06206a35c5f11ef1add,"['bugfix', 'crash', 'sortaddrinfo', 'check', 'number', 'item', 'list', 'invalid', 'memory', 'list', 'empty', 'check', 'null', 'malloc', 'system', 'valid', 'address', 'size', 'equal', 'relates', 'catalinh']",General,{'crash': 100}
+0903dcecabca283d0fa771632892dc7592b7a66d,"['null', 'addr', 'nodejs', 'null', 'addr', 'addrlen', 'parameter', 'system', 'malloc', 'function', 'return', 'cleanup', 'crash', 'patche', 'hardens', 'leak', 'memory', 'cleanup', 'brad', 'house', 'bradh']",General,{'crash': 100}
+6d6cd5daf63b812734343bd020677829b13db2ac,"['buffer', 'overflow', 'loop', 'comparison', 'function', 'iterates', 'buffer', 'size', 'maximum', 'value', 'counter', 'type', 'maximum', 'size', 'circumstance', 'short', 'narrower', 'maximum', 'value', 'possible', 'loop', 'counter', 'overflow', 'equal', 'solution', 'comparison', 'type', 'equal', 'width', 'defines', 'counter', 'fionn', 'fitzmaurice', 'fionn']",Risky_resource_management,{'buffer overflow': 100}
+1b98172b141fe874ad43e679e67506f9b2139043,"['heap', 'buffer', 'overflow', 'invalid', 'lutianxiong']",Risky_resource_management,{'buffer overflow': 100}
+b949cc3ddfbeb1b3fba571fb53b186b645e66e9c,"['leak', 'crash', 'leak', 'naddress', 'particular', 'type', 'segfault', 'result', 'record', 'fuzzer', 'input', 'file', 'trigger', 'problem', 'david', 'drysdale', 'daviddrysdale', 'andrew', 'selivanov', 'kiroy']",General,{'crash': 100}
+bfd59758545df82c2947cff429c6796dc3a15204,"['crash', 'call', 'making', 'fake', 'option', 'mask', 'original', 'mask', 'crash', 'null', 'safe', 'custom', 'path', 'brad', 'house', 'bradh']",General,{'crash': 100}
+078e1dc4e3d163cd9c0bab12799d26d119b0e36b,"['name', 'server', 'query', 'name', 'server', 'work', 'return', 'error', 'code', 'crash', 'david', 'hotham', 'dimbleby']",General,{'crash': 100}
+2a9e231396987e16c225f24dcbc93a6758e76723,"['ansi', 'version', 'winapi', 'function', 'system', 'defines', 'unicode', 'version', 'winapi', 'function', 'crash', 'window', 'mbcs', 'mode', 'system', 'version']",General,{'crash': 100}
+7518c26d8ec300f6a05143a0521baef75ebd8cb9,"['weak', 'symbol', 'result', 'crash', 'symbol', 'detect', 'condition']",General,{'crash': 100}
+7905e3f1c5d4f736d3076ff96500b99af6d4d7f1,"['security', 'point', 'vulnerability', 'page']",General,{'security': 100}
+87d24facd847610299ff4db0cb0b683e0e3a0d1c,"['null', 'pointer', 'gtest', 'args', 'googletest', 'assumes', 'null', 'pointer', 'argv', 'argc', 'test', 'command', 'line', 'argument', 'memory', 'error', 'valgrind', 'asan']",Risky_resource_management,{'null pointer': 100}
+66689efc07771568321965a87ab7eee158da92f7,"['security', 'security', 'process', 'project']",General,{'security': 100}
+b651f825d6827cdf2f67640340792f6aebb9126f,"['python', 'request', 'package', 'error', 'travis', 'install', 'step', 'problem', 'requirement', 'pyopenssl', 'request', 'security']",General,{'security': 100}
+ab78ef369d05da46b3bc8b0c60eb2916c26b5e2b,"['null', 'pointer', 'malloc', 'failure', 'function', 'return', 'error', 'code', 'malloc', 'failure', 'return', 'major', 'failure']",Risky_resource_management,{'null pointer': 100}
+fb0737f3a0a1c377c84d7d0a77601333e908555d,"['plug', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+1e4f2d28fcc5594d0c3d67a35b2c27291892c67c,"['revert', 'memory', 'leak', 'reverts']",Risky_resource_management,{'memory leak': 100}
+50f25d8a4b2d16f4c5e0ef620238688b7a315c7a,"['memory', 'leak', 'successful', 'case']",Risky_resource_management,{'memory leak': 100}
+73dc26a9fc09fdce253a299a0144dc7ca6c10bf4,"['buffer', 'overrun', 'buffer', 'overrun', 'exception', 'window', 'error', 'calculation', 'variable', 'type', 'type', 'subtraction', 'arithmetic']",Risky_resource_management,{'overrun': 100}
+d6b869894190e15960987786d337dc8d42f8285b,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+cef06973a24cc728d2903a63034f5524a95d6ba3,"['particular', 'order', 'current', 'version', 'couple', 'potential', 'double', 'memory', 'leak', 'memory', 'condition', 'pointer', 'arithmetic', 'setting', 'entry', 'failure', 'case', 'data', 'type', 'variable', 'length', 'member', 'struct', 'couple', 'memcpy', 'data', 'type', 'compiler', 'warning', 'comment', 'literal', 'successfull', 'completion']",Risky_resource_management,{'memory leak': 100}
+df2dc91fd4af74a11cb6697aa83e32517a92afce,"['need', 'check', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+c2d3e82931e6406f725a3da83fa11f3bc1b3aac7,"['memory', 'overwrite', 'host', 'file', 'host', 'file', 'address', 'family', 'return', 'null', 'pointer', 'header', 'inclusion']",Risky_resource_management,{'null pointer': 100}
+85442b2a4b136e818fa4d34332c93055b35bb7d8,"['attempt', 'silence', 'bogus', 'compiler', 'warning', 'potential', 'null', 'pointer', 'dereference']",Risky_resource_management,{'null pointer': 100}
+7a5621876b33f7e851a2b249f23c29849481bf9b,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+425244eac424042aa8719ba2c44e18c17d4696a6,"['introduce', 'memory', 'leak', 'curl', 'debug', 'memory']",Risky_resource_management,{'memory leak': 100}
+49e14536c683f838f6c3635259620db81edd29f8,"['adjustment', 'disallow', 'time', 'null', 'pointer', 'struct', 'byte', 'align', 'member', 'size', 'struct', 'byte', 'alignment', 'boundary']",Risky_resource_management,{'null pointer': 100}
+879f89a989777837cc983fa384f0b184b29f6e3f,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+6681cc24e9a85990939e8dcd6a1536413354ae7b,"['risk', 'potential', 'buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100}
+1638613891675f378487a987650b5e59d67cc0ff,"['yang', 'excellent', 'buffer', 'overflow', 'risk', 'compiler', 'warning', 'function']",Risky_resource_management,{'buffer overflow': 100}
+209e8147a1565d4405e79d364ffcf6df76402da6,"['possible', 'buffer', 'overflow', 'service', 'name', 'lookup', 'function']",Risky_resource_management,{'buffer overflow': 100}
+0b6c1345eb3bcfd2529e96aedf82b31e0f89b345,"['enable', 'debug', 'static', 'gisle', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+c0f9b281774a68c7d468a289fc955f588cd6d1cd,"['internal', 'memdebug', 'system', 'track', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}

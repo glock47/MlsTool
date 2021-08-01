@@ -1,12 +1,14 @@
-sha,message,catetory,matched,labels
-649500c21ecd283d00f78859ac2f386df8ed2c96,"['invalidfield', 'arithmetic', 'proto', 'pointerpointer', 'arithmetic', 'issue', 'stillvalid', 'pointer', 'everyargument', 'function', 'crash', 'entire', 'causinginvalid', 'issueargument', 'safer', 'pointervalid']",Risky_resource_management,{'crash': 100},
-d4661c52874fa631273d57ea7844d0ff283d3127,"['crash', 'goprotobufbunch', 'trivialgolang']",Risky_resource_management,{'crash': 100},
-6cfaf073e029ca31c50b8717a98fb5eac3523be6,"['instruction', 'installation', 'updatemaster', 'chromiumos', 'security']",General,{'security': 100},
-3662032e20c495b56443e65e64096bd15668b429,"['directory', 'cache', 'mountmaster', 'chromiumos', 'security']",General,{'security': 100},
-b2c46111b1d79c0667f77cb71c3972b7e72798aa,"['deadlock', 'croutoncycle']",Risky_resource_management,{'deadlock': 100},
-1eeb5c2b39586d11ed429729b0dd340dc60a5a0a,"['debootstrapdownload', 'security', 'debootstrap', 'eighthavedownloads', 'debootstrap', 'crouton']",General,{'security': 100},
-bd8ab94b431272233c5bf219059791761603bae4,"['report', 'crash', 'error']",Risky_resource_management,{'crash': 100},
-833aeef6056ee9be07cc4e44953356958b815c71,"['clean', 'security', 'debian']",General,{'security': 100},
-c137d269946fe6d55c7cc928c27055779e56228a,"['mirror', 'security']",General,{'security': 100},
-cdf82a9027ed04102d8d078332b9716870efb411,"['support', 'crash', 'reporter']",Risky_resource_management,{'crash': 100},
-4860c53928addd91cc0de3a1e49e7c131341d7a1,"['passphrasesversion', 'encryption', 'method', 'storemaximum', 'security', 'system']",General,{'security': 100},
+sha,message,catetory,matched
+6cfaf073e029ca31c50b8717a98fb5eac3523be6,"['update', 'installation', 'instruction', 'http', 'chromiumos', 'master', 'security']",General,{'security': 100}
+3662032e20c495b56443e65e64096bd15668b429,"['bind', 'mount', 'cache', 'directory', 'exec', 'http', 'chromiumos', 'master', 'security']",General,{'security': 100}
+1f297d953f2afb2ed0a63d92388b922c349113df,"['check', 'cert', 'xiwi', 'dummy', 'source', 'wheezy', 'insecure', 'guess']",General,{'insecure': 100}
+b2c46111b1d79c0667f77cb71c3972b7e72798aa,"['deadlock', 'croutoncycle']",Risky_resource_management,{'deadlock': 100}
+1eeb5c2b39586d11ed429729b0dd340dc60a5a0a,"['download', 'debootstrap', 'http', 'security', 'issue', 'dead', 'simple', 'download', 'debootstrap', 'crouton', 'downloads', 'debootstrap', 'http', 'link', 'http', 'link']",General,{'security': 100}
+40eeb5b5b14248227d387bd24c6492d4cd265838,"['fbserver', 'memory', 'leak', 'initialisation', 'problem', 'valgrind', 'output']",Risky_resource_management,{'memory leak': 100}
+bd8ab94b431272233c5bf219059791761603bae4,"['window', 'nacl', 'error', 'crash']",General,{'crash': 100}
+d988b3bd657f213aa17c72e3787adbe8885df661,"['chroot', 'remap', 'devbroker', 'access', 'group', 'security', 'user', 'custom', 'udev', 'rule']",General,{'security': 100}
+833aeef6056ee9be07cc4e44953356958b815c71,"['debian', 'security', 'clean', 'core']",General,{'security': 100}
+c137d269946fe6d55c7cc928c27055779e56228a,"['variable', 'security', 'mirror']",General,{'security': 100}
+254ee5198d34cca82e5eb69160656cd6c662baa2,"['test', 'infrastructure', 'bind', 'mount', 'urandom', 'random', 'entropy', 'pool', 'insecure', 'matter']",General,{'insecure': 100}
+cdf82a9027ed04102d8d078332b9716870efb411,"['support', 'crash', 'reporter', 'wrapper']",General,{'crash': 100}
+4860c53928addd91cc0de3a1e49e7c131341d7a1,"['passphrases', 'encryption', 'method', 'encryption', 'version', 'crouton', 'need', 'migrate', 'data', 'store', 'chroot', 'desire', 'maximum', 'security', 'capability', 'system']",General,{'security': 100}

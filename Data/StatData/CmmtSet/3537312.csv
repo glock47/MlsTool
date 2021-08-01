@@ -1,9 +1,9 @@
-sha,message,catetory,matched,labels
-53bb882d7bfc8b741f8eb69cac696aa59e811d49,"['getexport', 'crash', 'potential']",Risky_resource_management,{'crash': 100},
-80b8cd2d1ba1dbbee41058a8e8195fc2bdac9945,"['present', 'msdia', 'crash']",Risky_resource_management,{'crash': 100},
-51778a921456c31c75b254b4cda871dbc3a06bbe,"['deadlock', 'initonce', 'dllmain']",Risky_resource_management,{'deadlock': 100},
-a888d0c6d78a09f2e562a0089926b86658d544bb,"['static', 'initialization', 'dynimport', 'crash']",Risky_resource_management,{'crash': 100},
-84905db33baad95157437e63d47afdf7587ad28d,"['security', 'cookie']",General,{'security': 100},
-8de292d5afa263905a9eb40cafa85a88c1fad80e,"['insecureexample', 'aheadsmall', 'update', 'configurationprevent', 'insecureorigin', 'mirror', 'access', 'control', 'credentialprevent', 'wildcard', 'originmessagewildcard', 'modify', 'originregression', 'insecure']",Porous_defenses,{'access control': 100},
-3f51048cf2bb893d58bde3dfa499220210d785d0,"['example', 'update', 'security', 'point', 'regular', 'expression', 'string']",General,{'security': 100},
-b7e522c47458153e42491779529c2e7dc1a4f6c5,"['expose', 'credential', 'origin', 'preflightheader', 'support', 'origin', 'access', 'control', 'resourcerequest', 'section', 'preflight', 'credentialrequest', 'preflight', 'resource']",Porous_defenses,{'access control': 100},
+sha,message,catetory,matched
+53bb882d7bfc8b741f8eb69cac696aa59e811d49,"['getexport', 'crash', 'potential']",General,{'crash': 100}
+80b8cd2d1ba1dbbee41058a8e8195fc2bdac9945,"['present', 'msdia', 'crash']",General,{'crash': 100}
+51778a921456c31c75b254b4cda871dbc3a06bbe,"['deadlock', 'initonce', 'dllmain']",Risky_resource_management,{'deadlock': 100}
+a888d0c6d78a09f2e562a0089926b86658d544bb,"['static', 'initialization', 'dynimport', 'crash']",General,{'crash': 100}
+84905db33baad95157437e63d47afdf7587ad28d,"['security', 'cookie']",General,{'security': 100}
+8de292d5afa263905a9eb40cafa85a88c1fad80e,"['insecureexample', 'aheadsmall', 'update', 'configurationprevent', 'insecureorigin', 'mirror', 'access', 'control', 'credentialprevent', 'wildcard', 'originmessagewildcard', 'modify', 'originregression', 'insecure']",Porous_defenses,{'access control': 100}
+3f51048cf2bb893d58bde3dfa499220210d785d0,"['example', 'update', 'security', 'point', 'regular', 'expression', 'string']",General,{'security': 100}
+b7e522c47458153e42491779529c2e7dc1a4f6c5,"['expose', 'credential', 'origin', 'preflightheader', 'support', 'origin', 'access', 'control', 'resourcerequest', 'section', 'preflight', 'credentialrequest', 'preflight', 'resource']",Porous_defenses,{'access control': 100}

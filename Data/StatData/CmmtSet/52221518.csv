@@ -1,8 +1,12 @@
-sha,message,catetory,matched,labels
-2d1543688d62edc9819fdfdb492942419f5662ee,"['openspec', 'serialization', 'schema', 'security']",General,{'security': 100},
-e6f77ac6e490a1979d02e4758061ede213e15a2e,"['mergepollution', 'typedproject', 'request', 'proto', 'securityproto', 'pollution', 'security']",General,{'security': 100},
-b82a924ec55921ab4d4fab2f09436d1a69dd374a,"['common', 'issue', 'security']",General,{'security': 100},
-36fd259d190c08f02cfad36bb5e955bf83dc8335,"['decorator', 'useauth', 'security', 'option']",General,{'security': 100},
-3aeaaf163ddd79f4be7bc870cdc6a36bd7f93493,"['server', 'socketio', 'crash', 'disconnect']",Risky_resource_management,{'crash': 100},
-e26eed5f44170583b796fe57d491517601365430,"['security', 'value', 'default']",General,{'security': 100},
-b7409f02d064f60121ea0f217844e16627c8db80,"['server', 'crash', 'handlererror', 'server', 'circular', 'crash', 'objectclose']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+2d1543688d62edc9819fdfdb492942419f5662ee,"['schema', 'openspec', 'security', 'serialization']",General,{'security': 100}
+e6f77ac6e490a1979d02e4758061ede213e15a2e,"['pull', 'request', 'typedproject', 'security', 'proto', 'pollution', 'security', 'proto', 'pollution']",General,{'security': 100}
+bb271a63c086d5b171d5227e5f24edffb5afc658,"['swagger', 'swagger', 'module', 'schema', 'decorator', 'generate', 'swagger', 'documentation', 'baseparameter', 'replacement', 'consumes', 'schema', 'schema', 'description', 'schema', 'example', 'schema', 'name', 'schema', 'operation', 'schema', 'response', 'return', 'schema', 'returnsarray', 'schema', 'security', 'schema', 'summary', 'schema', 'title']",General,{'security': 100}
+c8e08a575b6ad2b1f77b8ad8d919d982bed48aca,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+e0b3acda7e335973919edb08dae2a7882ee98e92,"['common', 'suppress', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+b82a924ec55921ab4d4fab2f09436d1a69dd374a,"['common', 'security', 'issue', 'audit']",General,{'security': 100}
+36fd259d190c08f02cfad36bb5e955bf83dc8335,"['feat', 'useauth', 'decorator', 'security', 'option']",General,{'security': 100}
+95a036dd10576fe209273d22db07555e8a86714a,"['swagger', 'empty', 'array', 'security', 'consumes', 'parameter', 'field']",General,{'security': 100}
+3aeaaf163ddd79f4be7bc870cdc6a36bd7f93493,"['socketio', 'crash', 'server', 'disconnect', 'event']",General,{'crash': 100}
+e26eed5f44170583b796fe57d491517601365430,"['swagger', 'security', 'default', 'value', 'unit', 'test', 'swagger', 'json']",General,{'security': 100}
+b7409f02d064f60121ea0f217844e16627c8db80,"['handler', 'server', 'crash', 'server', 'crash', 'object', 'error', 'circular', 'dependency']",General,{'crash': 100}

@@ -1,0 +1,6 @@
+sha,message,catetory,matched
+6f1599897b229a3460eca49da90824292b7beb23,"['buffer', 'text', 'available', 'node', 'buffer', 'security', 'usability', 'issue', 'buffer', 'alloc', 'buffer', 'available', 'check', 'buffer', 'alloc', 'base', 'class', 'uintarray']",General,{'security': 100}
+36058ff4e4f8c8fc301f0ec87c3bd9736130d456,"['pull', 'request', 'ranisalt', 'nullptr', 'check', 'null', 'pointer', 'check']",Risky_resource_management,{'null pointer': 100}
+648460180c1608b20bdfdd6299a10491604f11c7,"['reimplement', 'objectwrap', 'scratch', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+559efd041ee5aa4fef4755d3f59a2f2dbade974d,"['auto', 'delete', 'weak', 'callback', 'object', 'check', 'isneardeath', 'safe', 'delete', 'weak', 'callback', 'context', 'object', 'resource', 'management', 'double', 'free', 'user']",Risky_resource_management,{'double free': 100}
+75243d5a4b918ef4d9b7244022b236e8eebd5130,"['test', 'buffer', 'overrun', 'settergetter', 'test', 'result', 'okay', 'accident', 'release']",Risky_resource_management,{'overrun': 100}

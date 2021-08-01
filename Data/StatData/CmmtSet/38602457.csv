@@ -1,5 +1,6 @@
-sha,message,catetory,matched,labels
-f867e298cfa69b3b013db3db1a3ded844fdb4c94,"['crash', 'debezium', 'server', 'quarkus']",Risky_resource_management,{'crash': 100},
-3b1f3e745431bf3a00c86bfa5bb63261f099a105,"['retry', 'deadlock', 'transactionconnector', 'possbile', 'reconfiguredconnector', 'temporary', 'situationrecover']",Risky_resource_management,{'deadlock': 100},
-a8bb0079a4d1be3c70320fe98f55a1cc84b9e153,"['mysql', 'postgresql', 'crash', 'resume', 'openshift']",Risky_resource_management,{'crash': 100},
-4d54c63aa725115678700750f2ed00522e5f738c,"['jackson', 'security', 'update', 'databind', 'vulnerability']",General,{'security': 100},
+sha,message,catetory,matched
+4d54c63aa725115678700750f2ed00522e5f738c,"['update', 'jackson', 'databind', 'security', 'vulnerability']",General,{'security': 100}
+92695bdd23dce2a5eca58a5bd21fb472713f89eb,"['ability', 'navigate', 'execution', 'field', 'tree', 'override', 'part', 'errorprone', 'code', 'health', 'check', 'revert', 'override', 'part', 'errorprone', 'code', 'health', 'check', 'reverts', 'field', 'hierarchy', 'execution', 'time', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+9b1c7f64220c10b4c5541c79acf15042009c9735,"['stack', 'overflow']",Risky_resource_management,{'stack overflow': 100}
+2c172a4c348c0b093e295365d7bc9c58ccc7b50d,"['parse', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+12212bffcee0ce9c39c4878a7c16f05b1973a851,"['validation', 'stack', 'overflow', 'error']",Risky_resource_management,{'stack overflow': 100}

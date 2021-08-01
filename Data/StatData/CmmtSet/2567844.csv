@@ -1,142 +1,211 @@
-sha,message,catetory,matched,labels
-fd0e8aa869ec74917d669d42f0e0d3b2888237b9,"['flistxattr', 'result', 'crash', 'empty']",Risky_resource_management,{'crash': 100},
-735e2aa65b25e24743c4a60f763633bcba982b72,"['plaintextnames', 'crash']",Risky_resource_management,{'crash': 100},
-ec74d1d2f4217a9a337d1db9902f32ae2aecaf33,"['hanwen', 'import', 'updatehanwen', 'gocryptfs', 'issue', 'crash', 'rfjakobunknown', 'opcodememory', 'invalid', 'panic', 'address', 'pointer', 'dereference', 'error', 'runtimeviolation', 'signal', 'sigsegv', 'segmentationpatch', 'upgradesupportedrunninghanwencheck', 'reference', 'forgotten']",Risky_resource_management,{'crash': 100},
-bcca323cb778d3ab9bf3b16e041ede5e67b18ff8,"['extra', 'contentenc', 'buffer', 'plaintext', 'blockcause', 'unalignedplaintext', 'extra', 'decryptmanage', 'generic', 'crash', 'xfstestswrong', 'genericwrong', 'panicgoroutine', 'runninglocalgocryptfs', 'internal', 'bpool', 'rfjakobjakob', 'gocryptfs', 'contentenc', 'internal', 'rfjakobgocryptfs', 'internal', 'rfjakobjakob', 'gocryptfs', 'internal', 'fusefrontend', 'rfjakobgocryptfs', 'internal', 'rfjakobjakob', 'gocryptfs', 'internal', 'fusefrontend', 'rfjakobfsckobjjakob', 'gocryptfs', 'rfjakobfsckobjjakob', 'gocryptfs', 'rfjakobfsckobjjakob', 'gocryptfs', 'rfjakob']",Risky_resource_management,{'crash': 100},
-9a15dfa494c76b5fcadcd32e2e46cbee84218a87,"['trezor', 'trezorpayloadstore', 'trezorpayload', 'random', 'unlockingmaster', 'randomness', 'security', 'trezor', 'usinggocryptfs', 'unique', 'unlock', 'value']",General,{'security': 100},
-29445c976d200f6e734eae56d9665fd4098f0a43,"['reserve', 'contentenc', 'creqpool', 'accounthappen', 'kernelseems', 'buffer', 'overrun', 'panic']",Risky_resource_management,{'overrun': 100},
-5144470e3d30499fa42af84927fa8adc27b51e68,"['crash', 'utimens', 'pointer', 'fusefrontendgocryptfs', 'issue', 'crash', 'rfjakobhanwen', 'revert']",Risky_resource_management,{'crash': 100},
-5d25c6e7e9217e33b1c54f0f5bc74c6fe3e44119,"['website', 'security', 'official', 'document']",General,{'security': 100},
-cbb18380bee538f3b1f26e3588857bcdf8a1b964,"['readme', 'document', 'update', 'security']",General,{'security': 100},
-7e8c1bf099b5aad542afda16e5745f89717f2065,"['springboot', 'spring', 'security']",General,{'security': 100},
-3d0d67a9a0a3103eb32deea65fc58456d9106b1d,"['clear', 'middle', 'flight', 'crash', 'segment']",Risky_resource_management,{'crash': 100},
-0c05b6b466cd729019aacba53f97c144112aebb1,"['possible', 'crash', 'android', 'serialreference', 'possible', 'android', 'delete', 'device', 'local', 'crashoverflow', 'reference', 'table', 'error', 'local']",Risky_resource_management,{'crash': 100},
-84dd94b5a349806692d0df9fe2dbdcc862631fd1,"['descent', 'crash']",Risky_resource_management,{'crash': 100},
-28e291814e80c720c1f8b499b9f03e1eaca42d7f,"['crash', 'bettergetuiinfo', 'rework', 'return', 'nullptr', 'crash', 'getparaminfo']",Risky_resource_management,{'crash': 100},
-fdb07a11f799b2eab1c232b3908724b38e74a3a2,"['mergemerge', 'request', 'notakeoffinit', 'donlakeflyerprofile', 'incorrect', 'problem', 'initialization', 'display', 'crash']",Risky_resource_management,{'crash': 100},
-0a785b3a7163ec23948584a37db04364c68ca2ad,"['profile', 'incorrect', 'problem', 'initialization', 'display', 'crash']",Risky_resource_management,{'crash': 100},
-666b27fbd1a40caa6abb0cdffa4bec51895a3042,"['mergemerge', 'request', 'donlakeflyerbootloader', 'crash']",Risky_resource_management,{'crash': 100},
-992e6e57325a5bbaf26bd088c960e6b5e68c6ec7,"['fdbcbmerge', 'request', 'donlakeflyerterrain', 'profile', 'crash']",Risky_resource_management,{'crash': 100},
-17090c37b131f4e5f0be8fc72fb4a195c2bfe95b,"['crash', 'bcmdec']",Risky_resource_management,{'crash': 100},
-ce1aae530dba269b2f7a1a28c8d542bb37bc261f,"['object', 'workaround', 'crash', 'control']",Risky_resource_management,{'crash': 100},
-259a1bcbb129e7e95f33d27434e979fbd2a8952f,"['available', 'crash']",Risky_resource_management,{'crash': 100},
-d8cd3f8368068e9c5528c7f8abcabebc4652be6f,"['signal', 'deadlock', 'pipeline', 'thread', 'gstreamer', 'revert']",Risky_resource_management,{'deadlock': 100},
-a9401de70ee15cf85b7d7e7fb1a6f7cb0028046f,"['signal', 'deadlock', 'pipeline', 'thread', 'gstreamer']",Risky_resource_management,{'deadlock': 100},
-42f2098b3307340c8efe94b5de5fa0750eee8810,"['mergemerge', 'request', 'takeoffland', 'donlakeflyerinsertion', 'update', 'takeoff', 'current', 'crash']",Risky_resource_management,{'crash': 100},
-80878ee8c7b06e1e3686c6782d1baf073fb6075b,"['crash', 'setting']",Risky_resource_management,{'crash': 100},
-7df16b80a87f1e2cd1db18a98f4d71228c82f838,"['mergemerge', 'andrewvoznytsa', 'requestgstreamer', 'deadlock']",Risky_resource_management,{'deadlock': 100},
-181d16f6e2322a3474fc701fd89039f5f5e2b83e,"['gstreamer', 'workaround', 'deadlock']",Risky_resource_management,{'deadlock': 100},
-64afd5ae6ab938126542742a7ac3ea362536f661,"['crash', 'incorrect']",Risky_resource_management,{'crash': 100},
-c5838fd5082bd02da439aea45ec1d50240b29c43,"['mergemerge', 'request', 'trajectorycrash', 'donlakeflyerclear', 'internals', 'method', 'crash']",Risky_resource_management,{'crash': 100},
-562560779d1c89e451d9fa4a45c014e3b954e953,"['clear', 'internals', 'method', 'crash']",Risky_resource_management,{'crash': 100},
-791314cb1bce761fc0e49e3ad5988e434b9de68e,"['behavior', 'undefinedcentos', 'stacktrace', 'crash']",Risky_resource_management,{'crash': 100},
-9b46aacac0bc2c13d4c39ffddb96ed80548328ad,"['donlakeflyerdisable', 'gstreamer', 'workaround', 'crash', 'video']",Risky_resource_management,{'crash': 100},
-54929a0b598f06fbe026c5adc8b13a619abceb9d,"['gstreamer', 'workaround', 'crash', 'video']",Risky_resource_management,{'crash': 100},
-88b201efec294763a3eb20d30c64b1c856d1f239,"['index', 'crash']",Risky_resource_management,{'crash': 100},
-6ac5ddbaf1eaa8573374e644788aac73df2de6f2,"['mergemerge', 'request', 'donlakeflyermaster', 'android', 'joystick', 'cherry', 'crash']",Risky_resource_management,{'crash': 100},
-1087c224f9e9629610e6a6c5aa1ccc41b1b71582,"['master', 'android', 'joystick', 'cherry', 'crash']",Risky_resource_management,{'crash': 100},
-d2ab2510d227381808c7150fba64c3177cb62a06,"['afcabbmerge', 'request', 'donlakeflyerfirmware', 'vehicle', 'crash', 'flash']",Risky_resource_management,{'crash': 100},
-19e2c07422784aacf45288d90ac61d4a291b5cca,"['vehicle', 'crash']",Risky_resource_management,{'crash': 100},
-c7d0eb7557e2ee3009a7b36301df71531e423248,"['reference', 'vehicle', 'crash']",Risky_resource_management,{'crash': 100},
-eee967c549d4958907f97c716f98b1c44c9b963f,"['mergemerge', 'request', 'matejfranceskin', 'taisync', 'crashbugfix', 'taisync', 'crash']",Risky_resource_management,{'crash': 100},
-9c47ceb46d614bc1380a706f2f3b9c827d79bfe1,"['taisync', 'crash']",Risky_resource_management,{'crash': 100},
-fafd4209c1a1e8dd43c446a9a1661efa2c92db13,"['crash', 'accessory']",Risky_resource_management,{'crash': 100},
-08bba784726ef5d180f41f5f871cee7da62e9d83,"['request', 'donlakeflyerpolygon', 'crash', 'vertex', 'fence']",Risky_resource_management,{'crash': 100},
-bc0f2f07e3ccd6ab74baa6dff8070ab1551f4152,"['dfdbbmerge', 'request', 'donlakeflyercause', 'polygon', 'survey', 'crash', 'support']",Risky_resource_management,{'crash': 100},
-17b290719f7d53d03008a340a7fdde75afdb7422,"['crash', 'support']",Risky_resource_management,{'crash': 100},
-91b7cef8d987ec1fd1a702edf12b49d422b7c7b7,"['crash', 'firstrestore', 'video', 'setting']",Risky_resource_management,{'crash': 100},
-f30e3c9495164dfb3a7c0e38ef6bada46b3ea7b8,"['qgcapp', 'crash']",Risky_resource_management,{'crash': 100},
-abc1ddda8a0d880766601807f02afccb6d529d5d,"['increasestore', 'november', 'requirement', 'android', 'security']",General,{'security': 100},
-a9a570dd9724503fb84e23fa3a67dbe4aa24d625,"['cbcdffb', 'acbbbmerge', 'request', 'androidcrashfix', 'mavlinkandroid', 'crash']",Risky_resource_management,{'crash': 100},
-13784ae0393ffd5575bfd81785202f0a40222d7f,"['ccceemerge', 'request', 'terraincrash', 'donlakeflyerterrain', 'query', 'crash']",Risky_resource_management,{'crash': 100},
-f5481c92daf3bad5de1f149b5dba2969c58ee2a4,"['terrain', 'query', 'crash']",Risky_resource_management,{'crash': 100},
-eb341a6eeac313f288f0a265587ad0383006d1e3,"['airmapd', 'update', 'crash', 'airspacebasic', 'management', 'color']",Risky_resource_management,{'crash': 100},
-d2924c95cfb72b86b4b606dafbb1974b7e703c90,"['request', 'donlakeflyerconnection', 'crash']",Risky_resource_management,{'crash': 100},
-d097291443222f54004e46db4b0c2515bf3e6e1d,"['connection', 'crash']",Risky_resource_management,{'crash': 100},
-bc829486ea4e638174547939f1264a9416969392,"['vehicle', 'crash', 'shutdown']",Risky_resource_management,{'crash': 100},
-a65de46f0a2521bdf1118987fe85a737bbb45a89,"['crash', 'empty']",Risky_resource_management,{'crash': 100},
-2acdf6cf4e07d6d598daebfe3e7d1dfb488ebcb3,"['popup', 'window', 'crash', 'videopatrick', 'patrickelectric']",Risky_resource_management,{'crash': 100},
-cbd7acb25cca98e6229362cb0bc51292138af8f9,"['index', 'reference', 'crash']",Risky_resource_management,{'crash': 100},
-27de23be8e30b74e3e5d1c84fc81bae4f7e824dc,"['mergemerge', 'request', 'donlakeflyershutdown', 'reference', 'crash', 'toolbox']",Risky_resource_management,{'crash': 100},
-8b7f03584211a4233f9891f5b4025e63810dfbe1,"['shutdown', 'reference', 'crash', 'toolbox']",Risky_resource_management,{'crash': 100},
-6d2c04e2f1c833276515faba6e19983edffd1429,"['mergemerge', 'request', 'donlakeflyerguard', 'crash', 'terrain']",Risky_resource_management,{'crash': 100},
-ce4169b0b3ac03d10938b15ec8ce73e2a4bdf78a,"['guard', 'crash', 'terrain']",Risky_resource_management,{'crash': 100},
-910ee096229b46fa7fc5630d9f2cb8c026196916,"['mergemerge', 'request', 'donlakeflyercapture', 'installer', 'window', 'crash']",Risky_resource_management,{'crash': 100},
-a40470e83424a1a0fa57753d42ac5bf5862d7378,"['cacfb', 'dacecmerge', 'request', 'crashlogdir', 'donlakeflyerdirectory', 'crash']",Risky_resource_management,{'crash': 100},
-c12a8cf5bb12f92797b984a15493518804e1a769,"['directory', 'crash']",Risky_resource_management,{'crash': 100},
-8ce6b9289d7abec72110a9622d3787f088c1d962,"['bacfbmerge', 'request', 'donlakeflyerdirectory', 'crash', 'appsettings']",Risky_resource_management,{'crash': 100},
-b3a849cfbb0c06ec94b20655848438fbbf481a93,"['directory', 'crash', 'appsettings']",Risky_resource_management,{'crash': 100},
-ff44b56a701df287eefdcbbb3a5711034a64d934,"['trigger', 'image', 'crash']",Risky_resource_management,{'crash': 100},
-0d2fa3fec685095564bd53b8bb28f0d2f15cfac1,"['image', 'crash']",Risky_resource_management,{'crash': 100},
-31582d6fc9f5c52f3536ae8ff2e87543845c27ce,"['mergemerge', 'request', 'donlakeflyercorridor', 'crash']",Risky_resource_management,{'crash': 100},
-ac9fbc8aa2ce0ff892627c228a4972ce9f33c4f3,"['deadlock', 'query']",Risky_resource_management,{'deadlock': 100},
-e441ac0ff04a0ea34995116af425a5dee896e8bc,"['terrain', 'crash']",Risky_resource_management,{'crash': 100},
-45d8d8904acf31be0b3b43f45a5be7c24bdd25f0,"['mergemerge', 'request', 'terraincrash', 'donlakeflyerterrain', 'crash']",Risky_resource_management,{'crash': 100},
-60ea986e11be9cef136f091dd0562998a98d203b,"['delete', 'crash']",Risky_resource_management,{'crash': 100},
-7a669919f75fdd432cc2bbd191b7de66632ccc39,"['structure', 'distance', 'structure', 'crash']",Risky_resource_management,{'crash': 100},
-91673ba16fae1b8eedb8fa64a65db77681153920,"['eafedmerge', 'cameracontrol', 'camcontrol', 'branchcameracontrol', 'unknown', 'index', 'enums', 'function', 'camera', 'definition', 'clamp', 'parse', 'ignore', 'booleans', 'supportcapture', 'status', 'frame', 'definetoggle', 'stream', 'video', 'screendisable', 'import', 'offline', 'enablevehicleplugin', 'retries', 'validate', 'parameterresponse', 'track', 'image', 'request', 'progress', 'status', 'photo', 'videocause', 'undebugable', 'function', 'crash', 'dialog', 'whateverbuild', 'revert', 'mavlinkavailable', 'custom', 'function', 'signal', 'dialog', 'internetparameter', 'request', 'resetbuild']",Risky_resource_management,{'crash': 100},
-d9e834124f97ff211cbedef34e54c83547519f01,"['crash', 'serial']",Risky_resource_management,{'crash': 100},
-cc54a4e05c86ffb5b12a291e5cd626bd8590d691,"['undebugable', 'function', 'crash', 'dialog']",Risky_resource_management,{'crash': 100},
-a476cf58d9631b7a6dc203ede80de08b6b6f94b7,"['crash', 'mission', 'resume', 'generationindex', 'resume', 'command', 'previous', 'coordinateresume', 'takeoff', 'mission', 'alwayscamera']",Risky_resource_management,{'crash': 100},
-d54d5bbd6b0e9234ca9d507a67828668fc280a90,"['dacfemerge', 'request', 'bufferoverrun', 'donlakeflyerbuffer', 'overrun']",Risky_resource_management,{'overrun': 100},
-f384be7ee42413e7601b787cdb0c8dfbe3628fca,"['buffer', 'overrun']",Risky_resource_management,{'overrun': 100},
-1077c75d632b3ab2539ef83b3dca6220f81ce2d6,"['ccecfmerge', 'request', 'dogmaphobic', 'messageidbuffer', 'overrun', 'message']",Risky_resource_management,{'overrun': 100},
-0c4cec1f99444aa337f3961fe9b0fa35ed842ee8,"['buffer', 'overrun']",Risky_resource_management,{'overrun': 100},
-11d8aaf33ef7a27daf4e968e5bfff2dbaa0a1447,"['recalc', 'crash']",Risky_resource_management,{'crash': 100},
-b39f318cdab40972ea045d9465defe1a2f6e00c8,"['reply', 'recalc', 'crash']",Risky_resource_management,{'crash': 100},
-4e9b1de50fea7a473facf799e2b5da8f5ad05798,"['mergemerge', 'request', 'sequence', 'crash', 'shutdown']",Risky_resource_management,{'crash': 100},
-ab25a46aba953026b1db17c6262c19b2d5a92e87,"['sequence', 'crash', 'shutdown']",Risky_resource_management,{'crash': 100},
-528ba79a80a52907b9f82f80b8bf39b908170670,"['affdccmerge', 'request', 'radiocrash', 'donlakeflyerradio', 'value', 'bogus', 'setup', 'param', 'crash']",Risky_resource_management,{'crash': 100},
-a6f6fdcc218aa2f601b0aee0a04af5b63c4465be,"['param', 'crash', 'bogus', 'value']",Risky_resource_management,{'crash': 100},
-d89f6b7994d128720d16b566fd244f91fd476469,"['crash', 'shutdown']",Risky_resource_management,{'crash': 100},
-a8240d225b250c117144fc432713044250f19095,"['mergemerge', 'request', 'otaviobpsocket', 'invalid', 'crash', 'deletion']",Risky_resource_management,{'crash': 100},
-a84be5e64fc4e1cb8b39a4410a41d54fedd94bd8,"['socket', 'invalid', 'crash', 'socket', 'delete', 'crash', 'callbackperfom', 'socket', 'method', 'deletelater']",Risky_resource_management,{'crash': 100},
-000a4e265c0dab8e22e25a1fba4b27411d28fedc,"['mergemerge', 'request', 'crashguard', 'command', 'resend', 'timeout', 'occurs', 'guard', 'crash']",Risky_resource_management,{'crash': 100},
-fe5234694c66378115b82f4605b27a0850324d25,"['command', 'empty', 'resend', 'timeout', 'occurs', 'guard', 'crash']",Risky_resource_management,{'crash': 100},
-265b3dcc90a830e5f99b19c41f548f53257ca687,"['cbeefba', 'mergemergeqgroundcontrolattitude', 'horizontal', 'instrument', 'update', 'orientation', 'indicator', 'joystick', 'panel', 'virtual', 'phone', 'videoconvert', 'properlydisconnect', 'vehicle', 'crash']",Risky_resource_management,{'crash': 100},
-e2bd53d4625c437e7661a54fc53ca678c5a2e8d2,"['unknown', 'crash', 'command']",Risky_resource_management,{'crash': 100},
-196153aa476f9d6e9eae25d492571c8d9888941b,"['joystick', 'crash']",Risky_resource_management,{'crash': 100},
-aa52020c8f62c93527e9fb6005b15f0a6898b9d1,"['crash', 'flight']",Risky_resource_management,{'crash': 100},
-942d404ac4f66df913a30e74c65cb7ec70472172,"['lifetime', 'static', 'crash', 'object']",Risky_resource_management,{'crash': 100},
-73f9a5d510676790fa64527a8b1da3655ac5dcc9,"['error', 'crash', 'flash']",Risky_resource_management,{'crash': 100},
-0137a2fb3e01e0659513c74b295c5fe115d0fb40,"['aedffcmerge', 'request', 'plandeletecrash', 'donlakeflyerdelete', 'plane', 'crash']",Risky_resource_management,{'crash': 100},
-307414c067cf7d26467c6f2cb5618a03c1ec0f23,"['delete', 'crash']",Risky_resource_management,{'crash': 100},
-bb458314dca4c43a6663267b03901c12be5be692,"['ebefdmerge', 'mapcrash', 'request', 'dogmaphobiclorenz', 'crash']",Risky_resource_management,{'crash': 100},
-884ca55de4e7830529a017cf5727570189e270b0,"['lorenz', 'crash']",Risky_resource_management,{'crash': 100},
-427ad724b4f33381b4a072d0789df1dad089d0b9,"['mergemerge', 'request', 'vehiclecrash', 'donlakeflyervehicle', 'switch', 'crash']",Risky_resource_management,{'crash': 100},
-992b3a5a8f79b1ce5f76a73c4662ffcd4b48a16c,"['vehicle', 'switch', 'crash']",Risky_resource_management,{'crash': 100},
-e4d70460e2ad1123cd9e7c15951d1e30b6bc7f6e,"['espversion', 'parameter', 'crash', 'getfact']",Risky_resource_management,{'crash': 100},
-12025fd3835b5a50192f7381e2cdcf6d2e6a3231,"['crash', 'shutdown']",Risky_resource_management,{'crash': 100},
-0cca67717b259d55d88a9566f07fe2dc5ebbb5f5,"['vehicle', 'assert', 'crash', 'shutdown']",Risky_resource_management,{'crash': 100},
-338201cc20292447185b06395ba5f2e3268ee409,"['afbcfmerge', 'request', 'utfix', 'crash', 'shutdown']",Risky_resource_management,{'crash': 100},
-a41fb7cf7446135dcec3b394a45c6f7550c73163,"['crash', 'shutdown']",Risky_resource_management,{'crash': 100},
-31cc61db2a01b1721e6ab0415dab9325c519c470,"['dbeea', 'mergemerge', 'airframeconfig', 'request', 'donlakeflyerreconnect', 'crash']",Risky_resource_management,{'crash': 100},
-1b1b495e0a92be36093a6a2a97d8bf12a7822d56,"['crash', 'reference', 'object', 'deletionissue']",Risky_resource_management,{'crash': 100},
-0f05862d8308b499d390cea644124d2cbf0f187e,"['cdfdamerge', 'request', 'mocklinkcrash', 'donlakeflyerdisconnect', 'param', 'crash']",Risky_resource_management,{'crash': 100},
-432a42d4181178b2032ffd5ba64638bfc05f1828,"['disconnect', 'param', 'crash']",Risky_resource_management,{'crash': 100},
-19436d9d7eae65bd0f59daff8c64ea178d59fdaf,"['adfaadmerge', 'request', 'bufferoverun', 'donlakeflyeroverrun', 'buffer', 'crash']",Risky_resource_management,{'crash': 100},
-e6a850c83176b101a3e2a7b9f5c7d8444de18c38,"['ffbdf', 'mergemerge', 'request', 'donlakeflyerfirmware', 'crash', 'update', 'window']",Risky_resource_management,{'crash': 100},
-41560cd307ac9e5852e7bc91584a398f6e3b5e31,"['firmware', 'crash', 'update', 'window']",Risky_resource_management,{'crash': 100},
-3f8fb9d4f01a6e6ee920e842e726b0156f5eeefe,"['mergemerge', 'request', 'donlakeflyeroffline', 'crash', 'editing', 'waypoint']",Risky_resource_management,{'crash': 100},
-228d41a1b1cdd5d7fd83881fc43b9635e1ced856,"['offline', 'crash', 'editing', 'waypointoffline', 'editing']",Risky_resource_management,{'crash': 100},
-c472a494dd302ed3741fb3195d30b0fd6d49f863,"['ffafedmerge', 'request', 'drtonpixel', 'crash', 'acceptance']",Risky_resource_management,{'crash': 100},
-ff5a3fe3d12e8fd5e356e7726ce2048345db6203,"['pixel', 'crash', 'acceptance']",Risky_resource_management,{'crash': 100},
-98abf5a7ff2047ec65e22a777ed3c8866e3ce710,"['widget', 'crash', 'custom']",Risky_resource_management,{'crash': 100},
-2034be4de7329dc22825131ae9580ccd122dbc34,"['dadedmerge', 'config', 'request', 'johnfluxincrementalplot', 'symmetric', 'crash', 'empty']",Risky_resource_management,{'crash': 100},
-1f983e59a1c688cff724f84ee084c48ba38c8007,"['incrementalplot', 'symmetric', 'crash']",Risky_resource_management,{'crash': 100},
-50d01b95fade069a1f987bbc8686385599263a44,"['crash', 'setting']",Risky_resource_management,{'crash': 100},
-b19d26a73547028e4db002d02d5f10c530083f7f,"['paren', 'window', 'crash']",Risky_resource_management,{'crash': 100},
-84badf33c02fa7ba702dd3ecd0cf145a54bba38b,"['bugfix', 'crash', 'rename']",Risky_resource_management,{'crash': 100},
-5b969d254cbb9ee9a851ee121cb17dfcd3e7d6da,"['rawstatusview', 'crash']",Risky_resource_management,{'crash': 100},
-c18a53340337187de63feac5000cae0cf25d9985,"['return', 'signal', 'autopilot', 'pristine', 'uases', 'crash']",Risky_resource_management,{'crash': 100},
-b1fc82ac544eadec8cb08711fde95ec3ca8b2501,"['return', 'signal', 'autopilot', 'pristine', 'uases', 'crash']",Risky_resource_management,{'crash': 100},
-89696feb3efbbc149b61ddb77c36a611b8d8cddf,"['mergemerge', 'request', 'crash', 'serial']",Risky_resource_management,{'crash': 100},
-d906374afd62281f11bf1ebf3818a6437dcbf692,"['crash', 'serial']",Risky_resource_management,{'crash': 100},
-aef36099e76fa7fb57c772f5165070a0566c7977,"['update', 'property', 'signal', 'addition', 'generic', 'crash', 'combonation']",Risky_resource_management,{'crash': 100},
-7a463f4fea2036321ec8b71396bd84c524eff20e,"['crash', 'packet']",Risky_resource_management,{'crash': 100},
-f548d29913277c0a454cbd71997be36c5a7e2066,"['check', 'logaverage', 'division', 'crash']",Risky_resource_management,{'crash': 100},
-63a40d01b270f5c7e6ae6346daca980c909b53e3,"['mission', 'crash']",Risky_resource_management,{'crash': 100},
-ae730288baf081393e90107e01a6d31d5fbcdc84,"['incompatible', 'check', 'application', 'version', 'crash', 'setting']",Risky_resource_management,{'crash': 100},
-152bb9b3da792219bbe8d5aaf7cc140417bf60b2,"['incompatible', 'check', 'application', 'version', 'crash', 'setting']",Risky_resource_management,{'crash': 100},
-589fe3af3ba970a2b6e3b4ec2df7395204b65017,"['getsignals', 'crash']",Risky_resource_management,{'crash': 100},
-7620cd393866b29d5466e2ccbc855ca027bbb605,"['current', 'waypoints', 'waypointplanner', 'crash']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+3d0d67a9a0a3103eb32deea65fc58456d9106b1d,"['clear', 'flight', 'path', 'segment', 'crash', 'middle', 'item']",General,{'crash': 100}
+0c05b6b466cd729019aacba53f97c144112aebb1,"['android', 'serial', 'port', 'possible', 'crash', 'delete', 'local', 'reference', 'possible', 'crash', 'time', 'android', 'device', 'error', 'local', 'reference', 'table', 'overflow']",General,{'crash': 100}
+84dd94b5a349806692d0df9fe2dbdcc862631fd1,"['crash', 'descent', 'rate', 'calc']",General,{'crash': 100}
+7bca16057539d9a37fc826c333bb3c38d0d88a4c,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+538b448ae0ac1b9c64af2bbf6ae354346df7a3ab,"['joystick', 'crash', 'exit', 'pure', 'virtual', 'method', 'exception', 'exit', 'joystick', 'problem', 'joystick', 'thread', 'exit', 'thread', 'virtual', 'method', 'point', 'destructor', 'class', 'joysticksdl', 'case']",General,{'crash': 100}
+d7c2034b53c6ac79c163fe14b92b6cecc4a0a0cb,"['segfault', 'vehicle', 'reboot', 'linkmanager', 'separate', 'allocation', 'memory', 'leak', 'early', 'linkmanager', 'setautoconnect', 'mavlinkprotocol', 'check', 'link', 'stay', 'check', 'link', 'method', 'message', 'closevehicle', 'link', 'mavlink', 'message', 'buffer', 'link', 'vehicle', 'parameter', 'editor', 'vehicle', 'variable', 'valgrind', 'conditional']",Risky_resource_management,{'memory leak': 100}
+d4bff450fccfc83e8b1f07232dc52c2bbc249a82,"['param', 'crash', 'mutex', 'cleanup', 'linkinterface', 'disconnect']",General,{'crash': 100}
+28e291814e80c720c1f8b499b9f03e1eaca42d7f,"['crash', 'info', 'rework', 'crash', 'nullptr', 'return', 'getuiinfo', 'getparaminfo']",General,{'crash': 100}
+fdb07a11f799b2eab1c232b3908724b38e74a3a2,"['pull', 'request', 'donlakeflyer', 'notakeoffinit', 'plan', 'item', 'initialization', 'problem', 'crash', 'incorrect', 'profile', 'display']",General,{'crash': 100}
+0a785b3a7163ec23948584a37db04364c68ca2ad,"['item', 'initialization', 'problem', 'crash', 'incorrect', 'profile', 'display']",General,{'crash': 100}
+666b27fbd1a40caa6abb0cdffa4bec51895a3042,"['pull', 'request', 'donlakeflyer', 'bootloader', 'crash']",General,{'crash': 100}
+5b22bf8744dd2aeebb931a99b2efb0117a0e7e8a,['crash'],General,{'crash': 100}
+f05684960b5495e5aabb152aad392b5fc534c60a,"['pull', 'request', 'donlakeflyer', 'adsbcherrypicl', 'adsb', 'crash']",General,{'crash': 100}
+30c227eb1a88a6df3ccd328b443d712515c84303,"['adsb', 'crash']",General,{'crash': 100}
+992e6e57325a5bbaf26bd088c960e6b5e68c6ec7,"['pull', 'request', 'donlakeflyer', 'terrain', 'profile', 'crash']",General,{'crash': 100}
+fdb53cb4002b9cce02737b169bbbf2dd614a6ff8,['crash'],General,{'crash': 100}
+8abf00c6be2bc3892bb0d7d790cd98976151404b,"['work', 'crash']",General,{'crash': 100}
+a8afb22b3f4f3ac22817e50cec74f7290691c48e,"['unit', 'test', 'crash']",General,{'crash': 100}
+8cc078b4d7df3278055aba630491d3be823286b7,"['crash', 'unit', 'test']",General,{'crash': 100}
+17090c37b131f4e5f0be8fc72fb4a195c2bfe95b,"['bcmdec', 'crash']",General,{'crash': 100}
+ce1aae530dba269b2f7a1a28c8d542bb37bc261f,"['workaround', 'crash', 'exit', 'need', 'control', 'object', 'life', 'time']",General,{'crash': 100}
+42f2098b3307340c8efe94b5de5fa0750eee8810,"['pull', 'request', 'donlakeflyer', 'takeoffland', 'plan', 'takeoff', 'land', 'insertion', 'current', 'item', 'update', 'delete', 'crash']",General,{'crash': 100}
+abff8929bf46b2424d40c0f56892ef0d4f7f1e9c,"['issue', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+7df16b80a87f1e2cd1db18a98f4d71228c82f838,"['pull', 'request', 'andrewvoznytsa', 'gstreamer', 'deadlock', 'exit']",Risky_resource_management,{'deadlock': 100}
+99f2faa7e9a532aac4d8dc2d306fb64ef7a29743,"['crash', 'close', 'messagebox']",General,{'crash': 100}
+181d16f6e2322a3474fc701fd89039f5f5e2b83e,"['workaround', 'gstreamer', 'deadlock', 'exit']",Risky_resource_management,{'deadlock': 100}
+356355c98ac59e8424fc754b3a9164b67709cebd,"['pull', 'request', 'donlakeflyer', 'tuningcrash', 'crash', 'problem']",General,{'crash': 100}
+6cfd98d82ad1aa60c225015f9635c8cdb617c3cc,"['crash', 'problem']",General,{'crash': 100}
+c5838fd5082bd02da439aea45ec1d50240b29c43,"['pull', 'request', 'donlakeflyer', 'trajectorycrash', 'crash', 'clear', 'method']",General,{'crash': 100}
+562560779d1c89e451d9fa4a45c014e3b954e953,"['crash', 'clear', 'method']",General,{'crash': 100}
+791314cb1bce761fc0e49e3ad5988e434b9de68e,"['undefined', 'behavior', 'centos', 'crash', 'stacktrace']",General,{'crash': 100}
+9b46aacac0bc2c13d4c39ffddb96ed80548328ad,"['pull', 'request', 'donlakeflyer', 'disablevideo', 'video', 'workaround', 'gstreamer', 'crash']",General,{'crash': 100}
+54929a0b598f06fbe026c5adc8b13a619abceb9d,"['video', 'workaround', 'gstreamer', 'crash']",General,{'crash': 100}
+407c86487c6aac04960a101189a89b7431c9c5db,"['pull', 'request', 'donlakeflyer', 'videoitemcrash', 'video', 'item', 'crash']",General,{'crash': 100}
+6ac5ddbaf1eaa8573374e644788aac73df2de6f2,"['pull', 'request', 'donlakeflyer', 'cherry', 'android', 'joystick', 'crash', 'master']",General,{'crash': 100}
+1087c224f9e9629610e6a6c5aa1ccc41b1b71582,"['android', 'joystick', 'crash', 'master']",General,{'crash': 100}
+d2ab2510d227381808c7150fba64c3177cb62a06,"['pull', 'request', 'donlakeflyer', 'firmware', 'flash', 'crash', 'null', 'vehicle']",General,{'crash': 100}
+19e2c07422784aacf45288d90ac61d4a291b5cca,"['crash', 'null', 'vehicle']",General,{'crash': 100}
+a2fca7b2b6fcda49289f4f80bc1c8be2c4af9d7b,"['pull', 'request', 'donlakeflyer', 'crash', 'typo']",General,{'crash': 100}
+eee967c549d4958907f97c716f98b1c44c9b963f,"['pull', 'request', 'matejfranceskin', 'taisync', 'crash', 'bugfix', 'crash', 'taisync']",General,{'crash': 100}
+9c47ceb46d614bc1380a706f2f3b9c827d79bfe1,"['bugfix', 'crash', 'taisync']",General,{'crash': 100}
+666be8a124efbbcd3a4a85bb2b3b5fa6b34be16b,"['memory', 'leak', 'terraintile', 'patrick', 'pereira', 'patrickelectric', 'gmail']",Risky_resource_management,{'memory leak': 100}
+c95a625ca07aed9f0268cb9cd60221f63dfb9215,"['pull', 'request', 'matejfranceskin', 'open', 'accessory', 'crash', 'java', 'open', 'accessory', 'crash']",General,{'crash': 100}
+a7c5f11a76d7f7fe598203789b9bba7f123607d5,"['pull', 'request', 'matejfranceskin', 'crash', 'android', 'joystick', 'native', 'method']",General,{'crash': 100}
+fafd4209c1a1e8dd43c446a9a1661efa2c92db13,"['java', 'open', 'accessory', 'crash']",General,{'crash': 100}
+08bba784726ef5d180f41f5f871cee7da62e9d83,"['pull', 'request', 'donlakeflyer', 'geofencecrash', 'fence', 'polygon', 'vertex', 'crash']",General,{'crash': 100}
+2cb7fafb6c9e29bb24b61e4cc1c9de86da1d1096,"['menu', 'crash']",General,{'crash': 100}
+98643b5f65efc746f2a439cf88b3a8c991aa99ac,"['pull', 'request', 'mavlink', 'crash']",General,{'crash': 100}
+1683185c80ca44f39797397de8db18621235c453,['crash'],General,{'crash': 100}
+27289773bae6a3799ddddda6345c8c4d580ad3e4,"['pull', 'request', 'mavlink', 'fontreboot', 'startup', 'crash', 'initial', 'font', 'reboot']",General,{'crash': 100}
+00ea831b148aa6485dc4ff3d5560218fd044cf27,"['startup', 'crash', 'initial', 'font', 'reboot']",General,{'crash': 100}
+f30e3c9495164dfb3a7c0e38ef6bada46b3ea7b8,"['crash', 'exit', 'fact']",General,{'crash': 100}
+abc1ddda8a0d880766601807f02afccb6d529d5d,"['increase', 'google', 'play', 'store', 'requirement', 'november', 'http', 'android', 'security']",General,{'security': 100}
+a9a570dd9724503fb84e23fa3a67dbe4aa24d625,"['pull', 'request', 'mavlink', 'androidcrashfix', 'android', 'crash']",General,{'crash': 100}
+13784ae0393ffd5575bfd81785202f0a40222d7f,"['pull', 'request', 'donlakeflyer', 'terraincrash', 'hack', 'terrain', 'crash', 'query', 'query']",General,{'crash': 100}
+f5481c92daf3bad5de1f149b5dba2969c58ee2a4,"['hack', 'terrain', 'crash', 'query', 'query']",General,{'crash': 100}
+eb341a6eeac313f288f0a265587ad0383006d1e3,"['update', 'airmapd', 'airspace', 'crash', 'basic', 'color', 'management', 'airspace']",General,{'crash': 100}
+d2924c95cfb72b86b4b606dafbb1974b7e703c90,"['pull', 'request', 'donlakeflyer', 'usbcrash', 'crash', 'connection']",General,{'crash': 100}
+d097291443222f54004e46db4b0c2515bf3e6e1d,"['crash', 'connection']",General,{'crash': 100}
+bc829486ea4e638174547939f1264a9416969392,"['vehicle', 'shutdown', 'crash']",General,{'crash': 100}
+2f4da96fa7aef2aa2a104d5a04808be576f337d1,"['cruncher', 'android', 'suck', 'crash']",General,{'crash': 100}
+be3901a8fc755f9c725d68f54b647a7a72d722f1,"['pull', 'request', 'donlakeflyer', 'slidercrash', 'factvalueslider', 'crash', 'empty']",General,{'crash': 100}
+a65de46f0a2521bdf1118987fe85a737bbb45a89,"['crash', 'empty']",General,{'crash': 100}
+2acdf6cf4e07d6d598daebfe3e7d1dfb488ebcb3,"['window', 'crash', 'video', 'popup', 'patrick', 'patrickelectric', 'gmail']",General,{'crash': 100}
+cbd7acb25cca98e6229362cb0bc51292138af8f9,"['crash', 'index', 'reference']",General,{'crash': 100}
+27de23be8e30b74e3e5d1c84fc81bae4f7e824dc,"['pull', 'request', 'donlakeflyer', 'crash', 'toolbox', 'reference', 'shutdown']",General,{'crash': 100}
+8b7f03584211a4233f9891f5b4025e63810dfbe1,"['crash', 'toolbox', 'reference', 'shutdown']",General,{'crash': 100}
+6d2c04e2f1c833276515faba6e19983edffd1429,"['pull', 'request', 'donlakeflyer', 'guard', 'crash', 'terrain', 'code']",General,{'crash': 100}
+ce4169b0b3ac03d10938b15ec8ce73e2a4bdf78a,"['guard', 'crash', 'terrain', 'code']",General,{'crash': 100}
+910ee096229b46fa7fc5630d9f2cb8c026196916,"['pull', 'request', 'donlakeflyer', 'window', 'installer', 'crash', 'dump']",General,{'crash': 100}
+8120ea0d8cb8b7fc0e19cbec282882b8838a09d8,"['crash', 'dump']",General,{'crash': 100}
+a40470e83424a1a0fa57753d42ac5bf5862d7378,"['pull', 'request', 'donlakeflyer', 'crashlogdir', 'crash', 'directory']",General,{'crash': 100}
+c12a8cf5bb12f92797b984a15493518804e1a769,"['crash', 'directory']",General,{'crash': 100}
+8ce6b9289d7abec72110a9622d3787f088c1d962,"['pull', 'request', 'donlakeflyer', 'crash', 'directory', 'appsettings']",General,{'crash': 100}
+b3a849cfbb0c06ec94b20655848438fbbf481a93,"['crash', 'directory', 'appsettings']",General,{'crash': 100}
+ff44b56a701df287eefdcbbb3a5711034a64d934,"['crash', 'image']",General,{'crash': 100}
+0d2fa3fec685095564bd53b8bb28f0d2f15cfac1,"['crash', 'image']",General,{'crash': 100}
+31582d6fc9f5c52f3536ae8ff2e87543845c27ce,"['pull', 'request', 'donlakeflyer', 'corridor', 'scan', 'crash']",General,{'crash': 100}
+e441ac0ff04a0ea34995116af425a5dee896e8bc,['crash'],General,{'crash': 100}
+45d8d8904acf31be0b3b43f45a5be7c24bdd25f0,"['pull', 'request', 'donlakeflyer', 'terraincrash', 'terrain', 'crash']",General,{'crash': 100}
+60ea986e11be9cef136f091dd0562998a98d203b,['crash'],General,{'crash': 100}
+7f7b7d42c4c238e63b19b8ba098df4f6c700981f,"['huge', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+fee0d4d1268c1b3cc596578d9b9a0d593e4e0b47,"['pull', 'request', 'mavlink', 'crash', 'factmetadata', 'constructor']",General,{'crash': 100}
+db27a9eaf7d7ad5ae1cd0371d8ef81e6b177d0a0,"['crash', 'factmetadata', 'constructor']",General,{'crash': 100}
+7a669919f75fdd432cc2bbd191b7de66632ccc39,"['support', 'scan', 'distance', 'structure', 'crash', 'structure', 'scan']",General,{'crash': 100}
+91673ba16fae1b8eedb8fa64a65db77681153920,"['cameracontrol', 'camcontrol', 'cameracontrol', 'commits', 'debug', 'info', 'support', 'custom', 'value', 'parse', 'step', 'unit', 'camera', 'definition', 'file', 'ignore', 'fact', 'index', 'enums', 'unknown', 'entry', 'clamp', 'fact', 'value', 'support', 'booleans', 'status', 'camera', 'rtsp', 'frame', 'toggle', 'video', 'stream', 'full', 'screen', 'offline', 'import', 'vehicle', 'status', 'retries', 'plugin', 'validate', 'parameter', 'setting', 'track', 'photo', 'status', 'image', 'photo', 'status', 'progress', 'response', 'dialog', 'function', 'crash', 'undebugable', 'word', 'revert', 'mavlink', 'update', 'revert', 'mavlink', 'custom', 'dialog', 'function', 'internet', 'available', 'signal', 'reset', 'request', 'parameter', 'mavlink', 'update', 'mavlink', 'variable', 'warning', 'private', 'conflict', 'firmwareplugin', 'flightdisplay', 'flightdisplay', 'missionmanager', 'vehicle', 'vehicle', 'vehicle', 'vehicle', 'qgccoreplugin']",General,{'crash': 100}
+7634204fef963549efff65b529c8e99fd2e24073,"['pull', 'request', 'donlakeflyer', 'androidserial', 'android', 'serial', 'port', 'crash']",General,{'crash': 100}
+d9e834124f97ff211cbedef34e54c83547519f01,"['serial', 'port', 'crash']",General,{'crash': 100}
+cc54a4e05c86ffb5b12a291e5cd626bd8590d691,"['dialog', 'function', 'crash', 'undebugable', 'word']",General,{'crash': 100}
+a476cf58d9631b7a6dc203ede80de08b6b6f94b7,"['resume', 'mission', 'generation', 'crash', 'resume', 'index', 'command', 'takeoff', 'resume', 'mission', 'camera', 'check', 'part', 'spec', 'logic']",General,{'crash': 100}
+d54d5bbd6b0e9234ca9d507a67828668fc280a90,"['pull', 'request', 'donlakeflyer', 'bufferoverrun', 'stable', 'buffer', 'overrun']",Risky_resource_management,{'overrun': 100}
+f384be7ee42413e7601b787cdb0c8dfbe3628fca,"['buffer', 'overrun']",Risky_resource_management,{'overrun': 100}
+1077c75d632b3ab2539ef83b3dca6220f81ce2d6,"['pull', 'request', 'dogmaphobic', 'messageid', 'message', 'buffer', 'overrun']",Risky_resource_management,{'overrun': 100}
+0c4cec1f99444aa337f3961fe9b0fa35ed842ee8,"['buffer', 'overrun']",Risky_resource_management,{'overrun': 100}
+65514a8f1a4ffe011d26da1dc20aca36a45704e5,"['crazy', 'shit', 'array', 'byte', 'buffer', 'overrun']",Risky_resource_management,{'overrun': 100}
+11d8aaf33ef7a27daf4e968e5bfff2dbaa0a1447,"['pull', 'request', 'donlakeflyer', 'surveyfixes', 'crash']",General,{'crash': 100}
+b39f318cdab40972ea045d9465defe1a2f6e00c8,"['crash', 'reply', 'recalc']",General,{'crash': 100}
+13ca238f9e0739e3f53cb8be7d59086e7f330d62,"['pull', 'request', 'donlakeflyer', 'centermapcrash', 'crash']",General,{'crash': 100}
+63156fc4614edbfe440e24e921e671774126bffe,['crash'],General,{'crash': 100}
+709a45750dc6d2d4a5030ba9b67e3f4c4596af7f,"['possible', 'crash', 'takeoff', 'front']",General,{'crash': 100}
+4e9b1de50fea7a473facf799e2b5da8f5ad05798,"['pull', 'request', 'donlakeflyer', 'crash', 'exit', 'shutdown', 'sequence']",General,{'crash': 100}
+ab25a46aba953026b1db17c6262c19b2d5a92e87,"['crash', 'exit', 'shutdown', 'sequence']",General,{'crash': 100}
+528ba79a80a52907b9f82f80b8bf39b908170670,"['pull', 'request', 'donlakeflyer', 'radiocrash', 'setup', 'radio', 'crash', 'bogus', 'param', 'value']",General,{'crash': 100}
+a6f6fdcc218aa2f601b0aee0a04af5b63c4465be,"['crash', 'bogus', 'param', 'value']",General,{'crash': 100}
+ecdfdfe45c938e31181f14e93d7770a96a126fc8,"['pull', 'request', 'donlakeflyer', 'shutdowncrash', 'shutdown', 'crash']",General,{'crash': 100}
+d89f6b7994d128720d16b566fd244f91fd476469,"['shutdown', 'crash']",General,{'crash': 100}
+bcb69abd0c693aab84fcc4d5bb2d9190008af6ac,"['regional', 'setting', 'data', 'loss']",Risky_resource_management,{'data loss': 100}
+21ebc83a8e3e27ef0d7364ea6262276d27201bb6,"['pull', 'request', 'donlakeflyer', 'surveyut', 'unit', 'test', 'crash']",General,{'crash': 100}
+a8240d225b250c117144fc432713044250f19095,"['pull', 'request', 'otaviobp', 'crash', 'invalid', 'socket', 'deletion']",General,{'crash': 100}
+a84be5e64fc4e1cb8b39a4410a41d54fedd94bd8,"['crash', 'invalid', 'socket', 'deletion', 'delete', 'socket', 'callback', 'safe', 'crash', 'qgroundcontrol', 'deletelater', 'method', 'socket', 'perfom', 'deletion']",General,{'crash': 100}
+d4b272eb115d6523c2a4cdbb8f41e7a270690fc4,"['pull', 'request', 'bluerobotics', 'null', 'pointer', 'issue']",Risky_resource_management,{'null pointer': 100}
+8f1aac18db92a6f75c36709fd26b173e4b5e7489,"['check', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+000a4e265c0dab8e22e25a1fba4b27411d28fedc,"['pull', 'request', 'dogmaphobic', 'crashguard', 'crash', 'guard', 'command', 'resend', 'timeout', 'occurs']",General,{'crash': 100}
+fe5234694c66378115b82f4605b27a0850324d25,"['crash', 'guard', 'command', 'resend', 'timeout', 'occurs', 'empty', 'command', 'queue']",General,{'crash': 100}
+265b3dcc90a830e5f99b19c41f548f53257ca687,"['qgroundcontrol', 'attitude', 'indicator', 'horizontal', 'orientation', 'instrument', 'panel', 'small', 'phone', 'screen', 'virtual', 'joystick', 'knot', 'crash', 'vehicle', 'disconnect']",General,{'crash': 100}
+e2bd53d4625c437e7661a54fc53ca678c5a2e8d2,"['crash', 'unknown', 'command']",General,{'crash': 100}
+e626b173fee895a2e6ecacd49c6e07e7a770cf1b,"['pull', 'request', 'dogmaphobic', 'crash']",General,{'crash': 100}
+f0f739f3a43b01a89137fa3d698a30f0e1ccb4cf,['crash'],General,{'crash': 100}
+196153aa476f9d6e9eae25d492571c8d9888941b,"['crash', 'joystick', 'class']",General,{'crash': 100}
+e95fd88b9239f0178b63ef01fa87a15479ec519c,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+942d404ac4f66df913a30e74c65cb7ec70472172,"['static', 'object', 'lifetime', 'crash']",General,{'crash': 100}
+73f9a5d510676790fa64527a8b1da3655ac5dcc9,"['pull', 'request', 'donlakeflyer', 'flashfix', 'error', 'crash', 'flash']",General,{'crash': 100}
+0137a2fb3e01e0659513c74b295c5fe115d0fb40,"['pull', 'request', 'donlakeflyer', 'plandeletecrash', 'plane', 'crash', 'delete']",General,{'crash': 100}
+307414c067cf7d26467c6f2cb5618a03c1ec0f23,"['crash', 'delete']",General,{'crash': 100}
+bb458314dca4c43a6663267b03901c12be5be692,"['pull', 'request', 'dogmaphobic', 'mapcrash', 'crash', 'lorenz']",General,{'crash': 100}
+884ca55de4e7830529a017cf5727570189e270b0,"['crash', 'lorenz']",General,{'crash': 100}
+427ad724b4f33381b4a072d0789df1dad089d0b9,"['pull', 'request', 'donlakeflyer', 'vehiclecrash', 'vehicle', 'switch', 'crash']",General,{'crash': 100}
+992b3a5a8f79b1ce5f76a73c4662ffcd4b48a16c,"['vehicle', 'switch', 'crash']",General,{'crash': 100}
+e4d70460e2ad1123cd9e7c15951d1e30b6bc7f6e,"['unit', 'test', 'fact', 'espversion', 'getfact', 'factsystem', 'crash', 'unit', 'test', 'parameter']",General,{'crash': 100}
+12025fd3835b5a50192f7381e2cdcf6d2e6a3231,"['shutdown', 'crash']",General,{'crash': 100}
+d18a6b85f4fdf66599a851b4d37fa0ab2ed7bfe5,"['mavlink', 'master', 'mavlink', 'master', 'unsupported', 'version', 'stack', 'support', 'harden', 'code', 'special', 'case', 'default', 'comp', 'detection', 'firmware', 'mavlink', 'qgcview', 'showdialog', 'qgcview', 'showdialog', 'object', 'successful', 'command', 'linux', 'library', 'show', 'enumstringvalue', 'available', 'combo', 'enums', 'available', 'proper', 'default', 'mode', 'vtol', 'mission', 'manager', 'transition', 'command', 'support', 'camera', 'vtol', 'transition', 'command', 'text', 'color', 'button', 'highlight', 'color', 'light', 'theme', 'flight', 'mode', 'color', 'update', 'readme', 'airframe', 'config', 'crash', 'conflict', 'mainwindow']",General,{'crash': 100}
+58de729c663b81149521b7f91f9027a5cf1d7a27,"['pull', 'request', 'dogmaphobic', 'crash']",General,{'crash': 100}
+d091759f3b045929d3f2c45b44ea1d161018bfc7,['crash'],General,{'crash': 100}
+bf93381950cc60a7eab75e9d7b787eeda59e1693,['deadlock'],Risky_resource_management,{'deadlock': 100}
+86912e3a3f52a29b145b2045aff1435001698b23,"['boot', 'crash', 'time']",General,{'crash': 100}
+28cc04f13dae006a303f7992f79334501973519b,"['possible', 'crash', 'unknown', 'dock', 'widget', 'unknown', 'string', 'reference', 'null', 'pointer', 'avaliable', 'dock', 'widget', 'tomaz', 'canabrava', 'tomaz', 'canabrava', 'intel']",Risky_resource_management,{'null pointer': 100}
+0cca67717b259d55d88a9566f07fe2dc5ebbb5f5,"['vehicle', 'shutdown', 'crash', 'assert']",General,{'crash': 100}
+f453372736741c4bc19f75baf214661c4bc14dcc,"['buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100}
+fa5198975bf20a738fb794de6fa86db6559ee0ac,"['joystick', 'magic', 'number', 'integer', 'overflow']",Risky_resource_management,{'integer overflow': 100}
+92dffd412a6028d6d07c360853a2101b72a7277b,"['buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100}
+f528a643ebf62eec87044cf463fc97aefe661e66,"['pull', 'request', 'donlakeflyer', 'hilfix', 'crash']",General,{'crash': 100}
+f46b74d822c2e39b4a0a7607b6858c974e0f8cef,['crash'],General,{'crash': 100}
+a9a3c8989b6b37ee4c4b92e8f302d918d09f1641,"['null', 'pointer', 'init']",Risky_resource_management,{'null pointer': 100}
+31cc61db2a01b1721e6ab0415dab9325c519c470,"['pull', 'request', 'donlakeflyer', 'airframeconfig', 'crash', 'reconnect']",General,{'crash': 100}
+4f5984b38f226df17c79dd79fc47ed17b5990617,"['link', 'mavlink', 'channel', 'link', 'mavlink', 'channel', 'link', 'link', 'integer', 'counter', 'memory', 'corruption']",Risky_resource_management,{'memory corruption': 100}
+e863bdae38df3cbbe09c0703368d2701b08521e6,"['factbinder', 'access', 'fact', 'parameter', 'qvariantmap', 'array', 'boundary', 'multiple', 'qquickwidgets', 'jscript', 'crash']",General,{'crash': 100}
+05bd92734072e1b38a4fcb4b464ba76666a56d23,"['force', 'visibility', 'toolbar', 'crash', 'window', 'unit', 'test', 'parent', 'toolbar', 'constructor']",General,{'crash': 100}
+5471e8ff8932452c728560beb4e72dd07a198ed6,"['pull', 'request', 'donlakeflyer', 'uasdelete', 'object', 'reference', 'crash', 'deletion']",General,{'crash': 100}
+1b1b495e0a92be36093a6a2a97d8bf12a7822d56,"['object', 'reference', 'crash', 'deletion', 'issue']",General,{'crash': 100}
+28b6c0703abccbf140cd1fe7e7c3de6b449893f8,"['pull', 'request', 'donlakeflyer', 'firmwarecrash', 'crash']",General,{'crash': 100}
+7679f75f53783218bba13c341c2c0938e57494ec,"['crash', 'issue']",General,{'crash': 100}
+00f95d7701fd30714439edf58f231788a4c5d770,"['possible', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+58c70778737fc6fa638b5ede33d47232be2c3127,"['possible', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+fc493d75c1e037e6d3919906c4b1a32ebe9cad91,"['mavlinkprotocol', 'main', 'thread', 'large', 'number', 'orderly', 'shutdown', 'object', 'crash', 'asserts', 'need', 'unit', 'test', 'global', 'state']",General,{'crash': 100}
+0f05862d8308b499d390cea644124d2cbf0f187e,"['pull', 'request', 'donlakeflyer', 'mocklinkcrash', 'param', 'crash']",General,{'crash': 100}
+432a42d4181178b2032ffd5ba64638bfc05f1828,"['param', 'crash']",General,{'crash': 100}
+6cb93da756970b044c32a6e97793a0c826dee75a,"['thread', 'safety', 'issue', 'operator', 'thread', 'safe', 'copy', 'constructor', 'look', 'intermittent', 'crash']",General,{'crash': 100}
+19436d9d7eae65bd0f59daff8c64ea178d59fdaf,"['pull', 'request', 'donlakeflyer', 'bufferoverun', 'crash', 'buffer', 'overrun']",Risky_resource_management,{'overrun': 100}
+e6a850c83176b101a3e2a7b9f5c7d8444de18c38,"['pull', 'request', 'donlakeflyer', 'window', 'firmware', 'update', 'crash']",General,{'crash': 100}
+41560cd307ac9e5852e7bc91584a398f6e3b5e31,"['window', 'firmware', 'update', 'crash']",General,{'crash': 100}
+3f8fb9d4f01a6e6ee920e842e726b0156f5eeefe,"['pull', 'request', 'donlakeflyer', 'offline', 'waypoint', 'editing', 'crash']",General,{'crash': 100}
+228d41a1b1cdd5d7fd83881fc43b9635e1ced856,"['offline', 'waypoint', 'editing', 'crash', 'typo', 'offline', 'waypoint', 'editing', 'message']",General,{'crash': 100}
+ce8a3e33c5665e1df4bd05cf661b1f524d883c51,"['pull', 'request', 'donlakeflyer', 'rccompwarnings', 'unit', 'test', 'crash', 'pull']",General,{'crash': 100}
+bb8a167ccf4de463defbf63b1c4d20d296a423ba,"['unit', 'test', 'crash']",General,{'crash': 100}
+ddd9812424e7a516c81754b80182482af70b4704,"['memory', 'leak', 'mavlinkprotocol']",Risky_resource_management,{'memory leak': 100}
+7843cab121be003a1a9132926c0950161015d3d4,"['crash', 'list', 'file']",General,{'crash': 100}
+74f48a2f6d0f3589415963b1be8f75e5b6da7525,"['buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100}
+4c8449c83443eda468e824c0823c27b9ba9d5dcb,"['crash', 'null', 'mode', 'check', 'null']",General,{'crash': 100}
+78b3107cb79d6c6f90606ff31b06e1148c60484a,"['crash', 'need', 'check', 'signal', 'selection', 'combo']",General,{'crash': 100}
+c472a494dd302ed3741fb3195d30b0fd6d49f863,"['pull', 'request', 'drton', 'crash', 'acceptance', 'pixel']",General,{'crash': 100}
+ff5a3fe3d12e8fd5e356e7726ce2048345db6203,"['crash', 'acceptance', 'pixel']",General,{'crash': 100}
+98abf5a7ff2047ec65e22a777ed3c8866e3ce710,"['crash', 'item', 'custom', 'widget']",General,{'crash': 100}
+13e5381d3af23b765066c037a2f3b1be7bb1dfc7,"['dataplot', 'crash', 'user', 'data', 'image', 'file']",General,{'crash': 100}
+2034be4de7329dc22825131ae9580ccd122dbc34,"['pull', 'request', 'johnflux', 'config', 'crash', 'empty', 'symmetric', 'incrementalplot']",General,{'crash': 100}
+1f983e59a1c688cff724f84ee084c48ba38c8007,"['crash', 'empty', 'symmetric', 'incrementalplot', 'crash', 'symmetric', 'checkbox']",General,{'crash': 100}
+341c7719e2da2fe1aa03bfb4ad932f3ed330c13d,"['pull', 'request', 'jean', 'config', 'miscellaneous', 'window', 'crash']",General,{'crash': 100}
+34920fe235907948cf4a27c35cb6bb0d31551779,"['crash', 'window', 'autopilot', 'resource']",General,{'crash': 100}
+50d01b95fade069a1f987bbc8686385599263a44,"['crash', 'setting', 'config', 'widget']",General,{'crash': 100}
+b19d26a73547028e4db002d02d5f10c530083f7f,"['paren', 'crash', 'window', 'compilation']",General,{'crash': 100}
+84badf33c02fa7ba702dd3ecd0cf145a54bba38b,"['crash', 'bugfix', 'rename']",General,{'crash': 100}
+5b969d254cbb9ee9a851ee121cb17dfcd3e7d6da,['crash'],General,{'crash': 100}
+7fb92ad5586987d18e7c68b3bc66aae6638b175c,"['null', 'pointer', 'issue']",Risky_resource_management,{'null pointer': 100}
+c18a53340337187de63feac5000cae0cf25d9985,"['uases', 'return', 'pristine', 'state', 'activeuasset', 'signal', 'emit', 'null', 'crash', 'specific', 'code']",General,{'crash': 100}
+b1fc82ac544eadec8cb08711fde95ec3ca8b2501,"['uases', 'return', 'pristine', 'state', 'activeuasset', 'signal', 'emit', 'null', 'crash', 'specific', 'code']",General,{'crash': 100}
+4d5df7aeacf11831e649d296c34ee773597ffd36,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+89696feb3efbbc149b61ddb77c36a611b8d8cddf,"['pull', 'request', 'diydrones', 'crash', 'serial', 'link']",General,{'crash': 100}
+d906374afd62281f11bf1ebf3818a6437dcbf692,"['crash', 'serial', 'link']",General,{'crash': 100}
+aef36099e76fa7fb57c772f5165070a0566c7977,"['crash', 'item', 'quickview', 'addition', 'generic', 'signal', 'slot', 'combonation', 'property', 'update']",General,{'crash': 100}
+7a463f4fea2036321ec8b71396bd84c524eff20e,['crash'],General,{'crash': 100}
+31a1a0700935bc9f0e2473f0028dbccb88e1f99c,"['startup', 'crash', 'offset']",General,{'crash': 100}
+e375bfe10162f8c49c0c6ea8351154e19bbd2d66,"['buffer', 'overflow', 'auth']",Risky_resource_management,{'buffer overflow': 100}
+b7419158e199814299891b555189b2623a19fb04,"['pull', 'request', 'jjhall', 'memcheck', 'memory', 'leak', 'unit', 'test']",Risky_resource_management,{'memory leak': 100}
+6577e48a815dde214f490248990dfc7ce34e9ed0,"['memory', 'leak', 'unit', 'test']",Risky_resource_management,{'memory leak': 100}
+dd78bb38fb8f7d9e012357e0ccfb680801cbdf78,"['memory', 'leak', 'unit', 'test']",Risky_resource_management,{'memory leak': 100}
+6ba5787cec151411fa725db5d1b6d143bb4f4cac,"['certain', 'message', 'message', 'issue', 'note', 'logger', 'work', 'edge', 'case', 'pickier', 'file', 'format', 'sparse', 'code', 'stuff', 'file', 'data', 'memory', 'reading', 'processing', 'line', 'time', 'memory', 'memory', 'leak', 'code', 'lifetime', 'memory']",Risky_resource_management,{'memory leak': 100}
+f703b6d17bfa5086ec0a16b09b45a8577b47e3ac,"['pull', 'request', 'susurrus', 'stack', 'overflow']",Risky_resource_management,{'stack overflow': 100}
+04725cb1eff561d0d8547020b1d2ab3ff51fc990,"['stack', 'overflow', 'command', 'logfile', 'plot', 'solution']",Risky_resource_management,{'stack overflow': 100}
+2a42532fc9a55ce540f9ddc1f80715e4f0df267f,"['symptom', 'heartbeat', 'value', 'check', 'null', 'pointer', 'effect', 'static', 'memory', 'solution', 'mavlink', 'message', 'message', 'type', 'patch', 'assumes', 'message', 'positiv', 'side', 'effect', 'qgroundcontrol', 'machine', 'eeepc']",Risky_resource_management,{'null pointer': 100}
+63a40d01b270f5c7e6ae6346daca980c909b53e3,"['mission', 'element', 'crash']",General,{'crash': 100}
+3f331cd3546e96951bdf8aefb95dfa13a1d95431,"['application', 'closedown', 'crash', 'need', 'work']",General,{'crash': 100}
+14c97a7e1467dbdd2294cc8c54bb331362ecf439,"['plot', 'suspectible', 'plot', 'crash']",General,{'crash': 100}
+81356a036f311406d53ffdc28060c2a7772b476e,"['null', 'pointer', 'issue']",Risky_resource_management,{'null pointer': 100}
+ae730288baf081393e90107e01a6d31d5fbcdc84,"['version', 'check', 'setting', 'application', 'crash', 'incompatible', 'setting']",General,{'crash': 100}
+152bb9b3da792219bbe8d5aaf7cc140417bf60b2,"['version', 'check', 'setting', 'application', 'crash', 'incompatible', 'setting']",General,{'crash': 100}
+1e00493885874931ca0ede36107c73d42651d020,"['ardupilot', 'support', 'application', 'crash', 'system']",General,{'crash': 100}
+6d994de4d1f7dc27cceb9605be047ebf6b285b15,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+4498702627c51bddb9c652b90687ee698c89e85b,"['null', 'pointer', 'issue', 'remote', 'target']",Risky_resource_management,{'null pointer': 100}
+bb1f8fe621b3d0e48178604f3e227335a6418f4f,"['memory', 'leak', 'dock', 'widget', 'mainwindow']",Risky_resource_management,{'memory leak': 100}
+7620cd393866b29d5466e2ccbc855ca027bbb605,"['current', 'status', 'waypoints', 'waypointplanner', 'crash']",General,{'crash': 100}
+7b42cbd7d1a48c4d705b7b7180c37966c2d73912,"['crash', 'tree', 'view', 'need', 'inspection']",General,{'crash': 100}

@@ -1,16 +1,10 @@
-sha,message,catetory,matched,labels
-e15bf7b51fae4a70928326319f248bd0b124f434,"['crash', 'loopback', 'special', 'device']",Risky_resource_management,{'crash': 100},
-9cb49518f0ec20f77ed48936dff9b7f85c6678ec,"['crash', 'filterdetach', 'bugcheck']",Risky_resource_management,{'crash': 100},
-6092cd8428300d911d14b1a9168a82f21b5a46f2,"['unlikely', 'warning', 'integer', 'overflow', 'address']",Risky_resource_management,{'integer overflow': 100},
-3cd0e70e5724af04477fcc92689883db93bc89d2,"['pointer', 'inetcfg', 'check', 'npfinstall', 'crash', 'complete', 'crash']",Risky_resource_management,{'crash': 100},
-71d856136adeedbf10ccd8e7e8f26725e676c1e4,"['buffer', 'overrun']",Risky_resource_management,{'overrun': 100},
-59cdd3adfd5946e2d1d3e1b5b1964fcea7525ae8,"['unsafe', 'function', 'string', 'version', 'security']",General,{'security': 100},
-10bcaa4dca0c1d8405ae2ce053d240878478ba81,"['crash', 'double']",Risky_resource_management,{'crash': 100},
-01905d0ec5c6dea9763117050f6f6709981cb83c,"['tchar', 'buffer', 'overrun', 'mixup']",Risky_resource_management,{'overrun': 100},
-16440fe1bd5715c43d143302910e656b9e4b81a0,"['crash', 'issue', 'solves']",Risky_resource_management,{'crash': 100},
-41f34f935f5cb17c00311bcac1500ac892619b2e,"['wireshark', 'crash']",Risky_resource_management,{'crash': 100},
-5b11154de5160617ae73628f83d64f05189a5505,"['administrator', 'limit', 'access', 'install', 'script', 'privilege', 'installation', 'default', 'support', 'option', 'version', 'security', 'npcap']",General,{'security': 100},
-bedd8a1241eab7773c160d164ae0a27d002998b0,"['crash', 'driver', 'video']",Risky_resource_management,{'crash': 100},
-4d65639724e1402ef584221bbbb0e80dba827ab7,"['crash', 'empty', 'profile', 'return']",Risky_resource_management,{'crash': 100},
-0e269752479ff68fba73d4c04ea0f28718f945cd,"['callstack', 'crash']",Risky_resource_management,{'crash': 100},
-165d4ebc7f420d99eef453b785a86a51ceec8669,"['storage', 'crash', 'identical', 'installer', 'default', 'medium']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+5f1156f80e4038a52719f4ba01c87eae4f0a8660,"['multi', 'select', 'video', 'card', 'driver', 'selection', 'input', 'text', 'kernel', 'selection', 'crash', 'empty', 'video', 'card', 'driver', 'selection', 'info', 'default', 'option']",General,{'crash': 100}
+4d65639724e1402ef584221bbbb0e80dba827ab7,"['crash', 'empty', 'profile', 'choice', 'pipe', 'profile']",General,{'crash': 100}
+c9e1d4a8c3435401220c1108ac938971ad517a37,"['pull', 'request', 'advaithm', 'master', 'layout', 'issue', 'logical', 'crash', 'question']",General,{'crash': 100}
+8c5af80c93270c463944fd891002d781f2949702,"['language', 'correction', 'function', 'color', 'control', 'debug', 'potential', 'crash', 'return', 'return', 'value', 'http', 'github', 'archlinux', 'archinstall', 'pull', 'file', 'diff']",General,{'crash': 100}
+2f153d4882bc7954288d608721858554627ce2d7,"['language', 'correction', 'function', 'color', 'control', 'debug', 'potential', 'crash', 'return', 'return', 'value', 'http', 'github', 'archlinux', 'archinstall', 'pull', 'file', 'diff']",General,{'crash': 100}
+0e269752479ff68fba73d4c04ea0f28718f945cd,"['callstack', 'debug', 'output', 'debug', 'crash']",General,{'crash': 100}
+a9ce3e539028b2484991d21528a09cc3f41210de,"['auto', 'filter', 'json', 'encoder', 'sensitive', 'data']",Porous_defenses,{'sensitive data': 100}
+165d4ebc7f420d99eef453b785a86a51ceec8669,"['install', 'install', 'medium', 'installer', 'default', 'storage', 'archinstall', 'install', 'storage', 'crash', 'dump', 'identical', 'copy', 'case', 'user', 'archinstall', 'medium']",General,{'crash': 100}
+7eaee2cd4817c1aaca013f8baa267ddf4503f678,"['file', 'crash']",General,{'crash': 100}

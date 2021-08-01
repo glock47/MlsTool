@@ -1,8 +1,31 @@
-sha,message,catetory,matched,labels
-4abfa6231c4a5006e4baa9b3306c9307c4c75092,"['current', 'crash', 'preventspermissiongiven']",Risky_resource_management,{'crash': 100},
-9a9e3c1479fbf063149c28b96b2aa926cc3bdb09,"['security', 'django', 'upgrade']",General,{'security': 100},
-efb6a032c8db1fc8d4ab9da702f99745d7949a1f,"['policy', 'security', 'reporthandle', 'policy', 'security', 'reportupdatedelpeuch', 'private', 'person', 'group', 'email', 'mailinggroup', 'memberdelpeuch']",General,{'security': 100},
-e7c032ab3964df168f60d56c3727c5d136011b1e,"['openrefinecookie', 'ignore', 'insecure']",General,{'insecure': 100},
-a43f807eb08668ba4c93104854db2e8ad317c506,"['cookie', 'ignore', 'insecure']",General,{'insecure': 100},
-3b379ef4ed93464610e610982e273a7220dacfbc,"['crash', 'virtualbox', 'headless']",Risky_resource_management,{'crash': 100},
-9b54a8f29e934af1adcd5cde389f80abc0f72217,"['deadlock', 'thread', 'history', 'autosavedetail', 'google', 'issue', 'refinetrunk', 'google']",Risky_resource_management,{'deadlock': 100},
+sha,message,catetory,matched
+efb6a032c8db1fc8d4ab9da702f99745d7949a1f,"['security', 'policy', 'security', 'policy', 'report', 'update', 'security', 'antonin', 'delpeuch', 'antonin', 'delpeuch', 'openrefine', 'coredev', 'list', 'note', 'list', 'group', 'person', 'email', 'group', 'member', 'post', 'post', 'member', 'antonin', 'delpeuch', 'antonin', 'delpeuch']",General,{'security': 100}
+d3d62a62c3e5ba08624cef98c71bfd929fb25f66,"['update', 'docusaurus', 'alpha', 'security', 'vuln', 'dependency', 'update', 'docusaurus', 'security', 'vuln', 'dependency', 'update', 'docusaurus', 'config', 'version', 'link', 'documentation', 'link', 'link', 'warning']",General,{'security': 100}
+3aa610d6aabc15bc8dae62df2cb1d65641949286,"['google', 'sheet', 'upload', 'support', 'column', 'google', 'sheet', 'default', 'column', 'need', 'column', 'need', 'google', 'sheet', 'upload', 'upload', 'chunk', 'entire', 'document', 'free', 'resource', 'error', 'occurs', 'batch', 'size', 'request', 'size', 'limit', 'need', 'dynamic', 'wide', 'sheet', 'sheet', 'large', 'value', 'basic', 'test', 'cleanup', 'test', 'column', 'refactor', 'unnecessary', 'field', 'spreadsheet', 'description', 'cell', 'data', 'type', 'integer', 'float', 'double', 'bools', 'boolean', 'datetimes', 'string', 'null', 'empty', 'string', 'lgtm', 'null', 'pointer', 'dereference']",Risky_resource_management,{'null pointer': 100}
+e7c032ab3964df168f60d56c3727c5d136011b1e,"['pull', 'request', 'openrefine', 'ignore', 'insecure', 'cookie', 'alert', 'lgtm']",General,{'insecure': 100}
+a43f807eb08668ba4c93104854db2e8ad317c506,"['ignore', 'insecure', 'cookie', 'alert', 'lgtm']",General,{'insecure': 100}
+23aa03a35c122961c2fa2471c323d56ff1a37292,"['pull', 'request', 'openrefine', 'dependabot', 'maven', 'jackson', 'version', 'security', 'bump', 'jackson', 'version']",General,{'security': 100}
+19076b31a17e7bfbf5fb94ed89dc2e7d10998998,"['security', 'bump', 'jackson', 'version', 'bump', 'jackson', 'version', 'update', 'jackson', 'databind', 'release', 'note', 'http', 'github', 'fasterxml', 'jackson', 'release', 'commits', 'http', 'github', 'fasterxml', 'jackson', 'commits', 'update', 'jackson', 'annotation', 'release', 'note', 'http', 'github', 'fasterxml', 'jackson', 'release', 'commits', 'http', 'github', 'fasterxml', 'jackson', 'commits', 'update', 'jackson', 'core', 'release', 'note', 'http', 'github', 'fasterxml', 'jackson', 'core', 'release', 'commits', 'http', 'github', 'fasterxml', 'jackson', 'core', 'jackson', 'core', 'jackson', 'core', 'dependabot', 'preview', 'support', 'dependabot']",General,{'security': 100}
+e484625adf68c70c3770535c08a5f2e1729f0544,"['data', 'loss', 'multiple', 'sheet', 'excell', 'file', 'multiple', 'sheet', 'source', 'excell', 'file', 'multi', 'sheet', 'different', 'column', 'size', 'space', 'issue', 'restore', 'test', 'test', 'case', 'unexpected', 'delete', 'refactor', 'restore', 'unexpected', 'line', 'delete', 'unit', 'test']",Risky_resource_management,{'data loss': 100}
+ee6a37dc531438846f7186ab1200c5230263e425,"['pull', 'request', 'openrefine', 'issue', 'wikidata', 'login', 'csrf', 'wikidata', 'login', 'csrf', 'issue']",Insecure_interaction_between_components,{'csrf': 100}
+0bd6a0fbd7cda9552546b50de9165f5a03ab6b8e,"['pull', 'request', 'viniciusbds', 'master', 'possible', 'null', 'pointer', 'dereference']",Risky_resource_management,{'null pointer': 100}
+fe57897e8e166030fb66160349dfa213f749cf57,"['wikidata', 'login', 'csrf', 'issue']",Insecure_interaction_between_components,{'csrf': 100}
+11c778823943f327d865a639116f56e0cc6383fd,"['csrf', 'token', 'addition', 'import', 'project', 'form']",Insecure_interaction_between_components,{'csrf': 100}
+10c046698a9586662668e31086bdd2d3c6aad801,"['pull', 'request', 'openrefine', 'issue', 'csrf', 'csrf', 'protection', 'post', 'endpoint']",Insecure_interaction_between_components,{'csrf': 100}
+790fc2ffaa11c6615bb2b619975eede02a7d144f,"['possible', 'null', 'pointer', 'dereference']",Risky_resource_management,{'null pointer': 100}
+5d89978000ab088dcd7f74d6a1bfbcf382bee9c7,"['possible', 'null', 'pointer', 'dereference']",Risky_resource_management,{'null pointer': 100}
+aa228c43b25bd45e50f60db0cd0586c9dac739bf,"['frontend', 'csrf', 'protection']",Insecure_interaction_between_components,{'csrf': 100}
+1ee5068f0d86ba838b94fb11e3c75916436e58ca,"['csrf', 'protection', 'wikidata']",Insecure_interaction_between_components,{'csrf': 100}
+24feda600a20d75e712d6a29fbdb88fd4b92a17a,"['csrf', 'protection', 'gdata']",Insecure_interaction_between_components,{'csrf': 100}
+b52c0094916ca70af4d5007cc663b9a5ac351bde,"['csrf', 'protection', 'database']",Insecure_interaction_between_components,{'csrf': 100}
+9ae6a7a581b852f0bd7cdf96d4e05360acdfbbf1,"['csrf', 'token', 'frontend']",Insecure_interaction_between_components,{'csrf': 100}
+5dc005749aaef481184f4483919f3811a7e6c0f0,"['csrf', 'protection']",Insecure_interaction_between_components,{'csrf': 100}
+3559eeb11fa3f538d6057d9183378a427fdcd11d,"['csrf', 'protection', 'project', 'recon', 'command']",Insecure_interaction_between_components,{'csrf': 100}
+a340c137d07d76b98ff84aad234160d8fb4e7586,"['csrf', 'protection', 'language']",Insecure_interaction_between_components,{'csrf': 100}
+f7177e670d120f6da565aba0be089671ee2e18fa,"['adapt', 'frontend', 'csrf', 'import', 'dialog']",Insecure_interaction_between_components,{'csrf': 100}
+91cead27f85958d4a7340739a0f73358bc6254c3,"['csrf', 'protection']",Insecure_interaction_between_components,{'csrf': 100}
+70e37b90853fc50160a8adbb3b1730e126ac421e,"['csrf', 'protection', 'cell', 'history', 'column', 'expr', 'command']",Insecure_interaction_between_components,{'csrf': 100}
+8cc282a502d6f360cd0955f5e14427935fa0b52e,"['null', 'pointer', 'exception', 'newitemlibrary']",Risky_resource_management,{'null pointer': 100}
+3b379ef4ed93464610e610982e273a7220dacfbc,"['headless', 'work', 'java', 'virtualbox', 'crash']",General,{'crash': 100}
+9b54a8f29e934af1adcd5cde389f80abc0f72217,"['task', 'deadlock', 'autosave', 'thread', 'history', 'code', 'http', 'code', 'google', 'google', 'refine', 'issue', 'detail', 'http', 'google', 'trunk', 'affb']",Risky_resource_management,{'deadlock': 100}
+ca2bc0a304c737c55cfe4f294c979662b4e02ffa,"['null', 'pointer', 'exception', 'problem', 'recon', 'service', 'gridworks', 'helper', 'acre', 'property', 'suggestion', 'various', 'property', 'recon', 'dialog', 'custom', 'widget', 'http', 'google', 'trunk', 'affb']",Risky_resource_management,{'null pointer': 100}

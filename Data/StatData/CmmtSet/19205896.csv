@@ -1,17 +1,31 @@
-sha,message,catetory,matched,labels
-f63ded8cd7ea0e7d815d021d4cee69784c7ce7df,"['release', 'chorecompare', 'sweetalertbutton', 'crash', 'class', 'action', 'issue', 'element']",Risky_resource_management,{'crash': 100},
-a21ef6b60c55ef2512ecb1cb5e6d3d00bcf90996,"['button', 'crash', 'class', 'action', 'select', 'function', 'elementselectorelementbyclass', 'changedbutton']",Risky_resource_management,{'crash': 100},
-69965e0255e37731803509522dc6056a0bcc58f3,"['crash', 'range', 'placeholder', 'inputmicrosoft', 'platform', 'issue']",Risky_resource_management,{'crash': 100},
-55bea6e7a64b1134dc5cecdd4a63961cb3b720c4,"['crash', 'pattern', 'filter']",Risky_resource_management,{'crash': 100},
-9e852af5be802c7a83dfbbd5b980b9aa71cac6d6,"['crash', 'repository', 'check', 'empty']",Risky_resource_management,{'crash': 100},
-916b2d303b65de16d6b7ebf1fcbe0e4e32e5c410,"['potential', 'restic', 'crash', 'reachablereturn', 'error']",Risky_resource_management,{'crash': 100},
-11fbaaae9ae5c7e41a7994597d4155cc2b86faad,"['backend', 'process', 'environmentlocal', 'model', 'restic', 'trust', 'securityactual', 'security']",General,{'security': 100},
-5fd3dbccb73e6e439b63c3c6be6840a414d3e68f,"['mergedeadlock', 'status', 'request', 'michaeleischerpossible', 'deadlock', 'backup', 'goroutine', 'scanner']",Risky_resource_management,{'deadlock': 100},
-8d0ba55ecd42b761846b3555958f0180d99e4a77,"['possible', 'deadlock', 'backup', 'goroutine', 'scannerscanner', 'reason', 'backupactive', 'interruptionprogress', 'context', 'backup', 'object', 'cancelingpossible', 'respective', 'check', 'reporttotal', 'scannermessage', 'sends', 'contextchannel', 'block', 'goroutine', 'reportedchange', 'progress', 'method']",Risky_resource_management,{'deadlock': 100},
-ea97ff1ba4e5d1386b88d6cbda32f48c7fbc8a63,"['crash', 'rclone']",Risky_resource_management,{'crash': 100},
-0ce81d88b6e6668a956f24e0d146f15827d7a442,"['crash', 'stats', 'repository', 'error', 'message', 'missingcurrent', 'dereference', 'field', 'subtreeidsegfault']",Risky_resource_management,{'crash': 100},
-c44e808aa5523c81fe1cbc255886cdcf6e08887e,"['deadlock', 'backuparchiver', 'restic', 'channelarchiver', 'result']",Risky_resource_management,{'deadlock': 100},
-99ac0da4bc9f35515fe53bab573e60743044fb01,"['backend', 'concurrency', 'deadlock', 'causediscussion']",Risky_resource_management,{'deadlock': 100},
-3304b0fcf0f1348db0cf569ecf0b467191edba2b,"['deadlock', 'preventsituation', 'followingsemaphore', 'token', 'defer', 'releaseresult', 'goroutine', 'sendingprocesseddeadlock', 'result', 'sincechange']",Risky_resource_management,{'deadlock': 100},
-c8eea49909155e6921f82cb8d2de28810d1dc25c,"['debug', 'repository', 'insecureparameter', 'scrypt', 'security', 'production']",General,{'security': 100},
-a3492d69dd629953c5751895da682c98512a450e,"['security', 'parameter']",General,{'security': 100},
+sha,message,catetory,matched
+2a915069a874d59d5431e1383efce3a04467cc6a,"['pull', 'request', 'michaeleischer', 'filter', 'crash', 'filter', 'crash', 'pattern']",General,{'crash': 100}
+55bea6e7a64b1134dc5cecdd4a63961cb3b720c4,"['filter', 'crash', 'pattern']",General,{'crash': 100}
+6712c6de731eaeab84da6bd65a29f8eb3ad4a4e2,"['pull', 'request', 'michaeleischer', 'random', 'check', 'crash', 'check', 'crash', 'data', 'subset', 'empty', 'repository']",General,{'crash': 100}
+9e852af5be802c7a83dfbbd5b980b9aa71cac6d6,"['check', 'crash', 'data', 'subset', 'empty', 'repository', 'pack', 'file', 'pack', 'file', 'exists']",General,{'crash': 100}
+8a486eafed6b2a2304d4d4708cb00a225f48bb26,"['drop', 'error', 'upload', 'error', 'upload', 'object', 'silent', 'upload', 'failure', 'data', 'loss', 'certain', 'case', 'hash', 'wrong', 'hash']",Risky_resource_management,{'data loss': 100}
+916b2d303b65de16d6b7ebf1fcbe0e4e32e5c410,"['potential', 'crash', 'reachable', 'restic', 'return', 'error']",General,{'crash': 100}
+11fbaaae9ae5c7e41a7994597d4155cc2b86faad,"['sanitize', 'environment', 'backend', 'process', 'rclone', 'restic', 'security', 'model', 'full', 'trust', 'local', 'machine', 'actual', 'security', 'problem', 'safe', 'sorry']",General,{'security': 100}
+ae179ee63e15500db1ff5f51b5595f1b0381ca94,"['systematize', 'documentation', 'environment', 'variable', 'cache', 'location', 'place', 'backup', 'restic', 'backup', 'rclone', 'backends', 'notion', 'system', 'wide', 'environment', 'sense', 'tmpdir', 'security', 'implication']",General,{'security': 100}
+5fd3dbccb73e6e439b63c3c6be6840a414d3e68f,"['pull', 'request', 'michaeleischer', 'status', 'deadlock', 'backup', 'possible', 'deadlock', 'scanner', 'goroutine']",Risky_resource_management,{'deadlock': 100}
+8d0ba55ecd42b761846b3555958f0180d99e4a77,"['backup', 'possible', 'deadlock', 'scanner', 'goroutine', 'backup', 'reason', 'scanner', 'deadlock', 'interruption', 'context', 'object', 'backup', 'progress', 'scanner', 'possible', 'context', 'respective', 'check', 'scanner', 'reporttotal', 'method', 'method', 'sends', 'message', 'goroutine', 'operation', 'block', 'reporttotal', 'method', 'method', 'progress', 'implementation']",Risky_resource_management,{'deadlock': 100}
+eb7c00387cb4d58e7bdcffbdc7389e0f8f605e69,"['pull', 'request', 'michaeleischer', 'check', 'progress', 'crash', 'check', 'prune', 'command']",General,{'crash': 100}
+4cf9656f12b529b2f98f342001d84f246e2f536b,"['pull', 'request', 'michaeleischer', 'rclone', 'crash', 'rclone', 'panic', 'unexpected', 'subprocess', 'exit']",General,{'crash': 100}
+ea97ff1ba4e5d1386b88d6cbda32f48c7fbc8a63,"['crash', 'test', 'rclone']",General,{'crash': 100}
+9790d8ce1c9b42ab3ef1249d379c35d353190701,"['pull', 'request', 'michaeleischer', 'stats', 'blob', 'crash', 'stats', 'crash', 'blob', 'file', 'mode']",General,{'crash': 100}
+0ce81d88b6e6668a956f24e0d146f15827d7a442,"['stats', 'crash', 'blob', 'file', 'mode', 'blob', 'error', 'message', 'dereference', 'subtreeid', 'field', 'current', 'node', 'file', 'file', 'actual', 'parenttreeid']",General,{'crash': 100}
+e010f3b8846a9e065bb040fe4c25652001292fd7,"['restore', 'small', 'memory', 'leak', 'fileswriter', 'igor', 'fedorenko', 'igor', 'ifedorenko']",Risky_resource_management,{'memory leak': 100}
+494fe2a8b500bf8514165678edd93b38e77fe50d,"['pull', 'request', 'restic', 'backup', 'deadlock']",Risky_resource_management,{'deadlock': 100}
+c44e808aa5523c81fe1cbc255886cdcf6e08887e,"['backup', 'deadlock', 'archiver', 'scanner', 'restic', 'deadlock', 'channel', 'struct', 'backup', 'scanner', 'result']",Risky_resource_management,{'deadlock': 100}
+f79698dcdd7b834990ae790282a3fa12186a4723,"['pull', 'request', 'armhold', 'deadlock', 'behavior', 'http', 'connection']",Risky_resource_management,{'deadlock': 100}
+d01d07fc0ae3dd0676852bed58a5a035c891f75b,"['pull', 'request', 'armhold', 'deadlock']",Risky_resource_management,{'deadlock': 100}
+f854a41ba96526f8991efe94a355330e418c3150,"['pull', 'request', 'armhold', 'deadlock', 'deadlock', 'list', 'connection']",Risky_resource_management,{'deadlock': 100}
+3304b0fcf0f1348db0cf569ecf0b467191edba2b,"['deadlock', 'list', 'connection', 'situation', 'list', 'goroutine', 'release', 'token', 'routine', 'exit', 'defer', 'goroutine', 'iterates', 'result', 'time', 'channel', 'token', 'result', 'deadlock', 'connection']",Risky_resource_management,{'deadlock': 100}
+c8eea49909155e6921f82cb8d2de28810d1dc25c,"['insecure', 'repository', 'security', 'parameter', 'scrypt', 'production']",General,{'security': 100}
+887e81188fc0b1cdbc5a2408edd5295e60d7750b,"['pull', 'request', 'middelink', 'crash']",General,{'crash': 100}
+b56e16acd0d335a6f3723fc5af8df18ebacaf4d3,"['crash', 'target', 'file', 'ignore', 'file', 'error', 'small', 'memory', 'file', 'link', 'file', 'link']",General,{'crash': 100}
+a3492d69dd629953c5751895da682c98512a450e,"['security', 'scrypt', 'parameter']",General,{'security': 100}
+902f619a0657f3ea693f30b600c9ef29b45a09c7,"['semantics', 'insecure']",General,{'insecure': 100}
+07dc5a482d7c4026666ae328ac67f7253d85f2e4,"['pull', 'request', 'restic', 'note', 'security']",General,{'security': 100}
+b34a7cbf7a37d66a7c9a760c8a8e5221549b7749,"['note', 'security']",General,{'security': 100}
+5ab900acacfe1fddf1e750fd50c8b8cddff274b6,"['data', 'race']",Risky_resource_management,{'data race': 100}

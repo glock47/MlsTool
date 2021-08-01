@@ -1,7 +1,16 @@
-sha,message,catetory,matched,labels
-8478ad7ffb03a04a306f9312ca9b4427a1e2919b,"['colon', 'subscript', 'crash']",Risky_resource_management,{'crash': 100},
-6bc79b493323e5e1eff03daa109fd4dc2d6f7682,"['recognises', 'crash']",Risky_resource_management,{'crash': 100},
-4075c384e61cb9770d2b0ca8bb097649a3315865,"['interpreter', 'crash']",Risky_resource_management,{'crash': 100},
-7019ca643e927519b76ca763e80fb134940e4c5b,"['issue', 'security', 'possible', 'removestatic']",General,{'security': 100},
-e78ba60a471bba0ccc06aec31abcfbe18fee373e,"['security', 'completion']",General,{'security': 100},
-8d26cff54bde38b2f1f794fd78706c9a5ddc365f,"['security', 'completion']",General,{'security': 100},
+sha,message,catetory,matched
+b6fd81f1e1d0c6ae4aea7b7b3c8de95d44269c84,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+06d6776422c4c06f0c312cfef3f2dacedfbda808,"['rare', 'numpydoc', 'syntax', 'look', 'numpydoc', 'thing', 'array', 'docstrings', 'jedi', 'crash', 'optional', 'value', 'supersedes', 'endwith', 'test', 'crash', 'jedi']",General,{'crash': 100}
+616e9bf2753553da3eadef403d07ac186799aa28,['security'],General,{'security': 100}
+e4cf9293c2bb248bc1b8463ada51793767f9f5dd,"['clarify', 'sentence', 'virtualenv', 'security']",General,{'security': 100}
+54f4bd0baddf1be365259448bc57604119fc5988,"['issue', 'interpreter', 'completion', 'unittest', 'mock', 'error', 'lead', 'crash', 'killer']",General,{'crash': 100}
+8478ad7ffb03a04a306f9312ca9b4427a1e2919b,"['sure', 'goto', 'subscript', 'colon', 'crash']",General,{'crash': 100}
+a2b984ce24f6ac730d67d56135680429f77b96d3,['crash'],General,{'crash': 100}
+6bc79b493323e5e1eff03daa109fd4dc2d6f7682,"['crash', 'recognises']",General,{'crash': 100}
+4075c384e61cb9770d2b0ca8bb097649a3315865,"['rare', 'case', 'interpreter', 'crash']",General,{'crash': 100}
+094affaf84eac0c06249e66a21b905d2c1dbfad3,"['stdout', 'stderr', 'subprocesses', 'null', 'subprocess', 'crash', 'stdout', 'module', 'stderr', 'empty']",General,{'crash': 100}
+7019ca643e927519b76ca763e80fb134940e4c5b,"['possible', 'security', 'issue', 'path', 'static', 'analysis']",General,{'security': 100}
+6f598b1157069399a817405fe0a6ddea9fc78f24,"['memoize', 'function', 'important', 'note', 'possible', 'memory', 'leak', 'previous', 'solution', 'good', 'idea']",Risky_resource_management,{'memory leak': 100}
+f535267a9b6cbc86484acfaae0a5becf35143c3f,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+3de6603cf88a7fe3d91033495260545ad12fd88b,"['note', 'security']",General,{'security': 100}
+730dfdc012adb851aebabc08c200e3352e835e35,"['additional', 'security', 'test']",General,{'security': 100}

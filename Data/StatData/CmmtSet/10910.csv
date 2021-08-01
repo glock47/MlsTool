@@ -1,7 +1,20 @@
-sha,message,catetory,matched,labels
-b5bd4ac2b38e6fef69c30e52f34b07d7e294e437,"['security', 'default', 'check', 'rubocopclose']",General,{'security': 100},
-5b30aed33cbac9825e8978f8e36dd221cbd4c093,"['security', 'testcase', 'warning', 'rubocopchange', 'implicitreplace']",General,{'security': 100},
-aae0b13514a1a0caf93b1cf233733c50e679069a,"['security', 'cookiejar', 'command', 'injectionsecurity', 'mechanize', 'sparklemotion', 'advisory']",General,{'security': 100},
-4a585e4d150516043a75b272600a163817ace884,"['security', 'reason', 'redirect']",General,{'security': 100},
-ba1e27db635965e06b7eed52d21feaba384b8108,"['mergerequest', 'tobix', 'crash', 'content', 'dispositioncrash', 'content', 'disposition']",Risky_resource_management,{'crash': 100},
-7a646a732a62b81e992923fe4809ef0785c53234,"['crash', 'content', 'dispositionhappen', 'header']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+e6422888d871ed61a9ebb42a42b00d12d844825b,"['pull', 'request', 'kyoshidajp', 'clear', 'credential', 'header', 'cross', 'site']",Insecure_interaction_between_components,{'cross site': 100}
+7f0b15da26d952ee33063773990901efa3dd2b67,"['test', 'case', 'insensitivity', 'credential', 'header', 'deletion', 'cross', 'site', 'redirection']",Insecure_interaction_between_components,{'cross site': 100}
+17e5381032c90caf240ac3d2e52b353f40c18d83,"['clear', 'credential', 'header', 'cross', 'site']",Insecure_interaction_between_components,{'cross site': 100}
+a531805f18cd726abd853a90f87036b8bdcb3cc1,"['command', 'injection', 'test', 'window']",Insecure_interaction_between_components,{'command injection': 100}
+f3d3fa1625afc600aca4035e9a9244208bbec3ab,"['pull', 'request', 'sparklemotion', 'flavorjones', 'drop', 'drop', 'support', 'rubocop', 'security', 'check', 'update', 'dependency', 'frozen', 'string', 'literal']",General,{'security': 100}
+b5bd4ac2b38e6fef69c30e52f34b07d7e294e437,"['rubocop', 'security', 'check', 'default', 'rake', 'task']",General,{'security': 100}
+df363602da8b6df372f84a15503b29bef059a624,"['changelog', 'note', 'recent', 'security', 'description']",General,{'security': 100}
+66a6a1bfa653a5f13274a396a5e5441238656aa0,"['pull', 'request', 'kyoshidajp', 'command', 'injection']",Insecure_interaction_between_components,{'command injection': 100}
+e238b07df3abe333ff66add8c8b0b859146f79d0,"['changelog', 'note', 'command', 'injection', 'vulnerability']",Insecure_interaction_between_components,{'command injection': 100}
+5b30aed33cbac9825e8978f8e36dd221cbd4c093,"['rubocop', 'security', 'warning', 'testcase', 'implicit', 'kernel', 'open', 'file']",General,{'security': 100}
+63f8779e49664d5e95fae8d42d04c8e373162b3c,"['security', 'command', 'injection', 'fileresponse', 'general', 'test', 'coverage', 'fileresponse', 'http', 'github', 'sparklemotion', 'mechanize', 'security', 'advisory', 'ghsa', 'qrqm']",Insecure_interaction_between_components,{'command injection': 100}
+b48b12f5db33c5a94a14dfcab8adf3e73cfa0388,"['security', 'command', 'injection', 'mechanize', 'file', 'http', 'github', 'sparklemotion', 'mechanize', 'security', 'advisory', 'ghsa', 'qrqm']",Insecure_interaction_between_components,{'command injection': 100}
+f43a3952ab39341136656b0a8b2c8597ba1b4adc,"['security', 'command', 'injection', 'download', 'http', 'github', 'sparklemotion', 'mechanize', 'security', 'advisory', 'ghsa', 'qrqm']",Insecure_interaction_between_components,{'command injection': 100}
+2ac906b26f4a565a0af92df5fb9c8a36c2b75375,"['security', 'command', 'injection', 'mechanize', 'download', 'http', 'github', 'sparklemotion', 'mechanize', 'security', 'advisory', 'ghsa', 'qrqm']",Insecure_interaction_between_components,{'command injection': 100}
+aae0b13514a1a0caf93b1cf233733c50e679069a,"['security', 'command', 'injection', 'cookiejar', 'http', 'github', 'sparklemotion', 'mechanize', 'security', 'advisory', 'ghsa', 'qrqm']",Insecure_interaction_between_components,{'command injection': 100}
+4a585e4d150516043a75b272600a163817ace884,"['redirect', 'file', 'file', 'security', 'reason']",General,{'security': 100}
+ba1e27db635965e06b7eed52d21feaba384b8108,"['pull', 'request', 'tobix', 'crash', 'content', 'disposition', 'crash', 'content', 'disposition', 'header']",General,{'crash': 100}
+e750fb4633bb8ec7aa86e5a7869c272411025d5e,"['user', 'information', 'fragment', 'part', 'referer', 'referer', 'fragment', 'part', 'user', 'information', 'part', 'major', 'browser', 'user', 'information', 'part', 'security', 'reason']",General,{'security': 100}
+88762d43fd26eaff27b218994a3f246d4cd033ad,"['modify', 'frozen', 'object', 'resolver', 'form', 'http', 'crash', 'mechanize', 'chain', 'sslresolver', 'connection', 'connection', 'frozen', 'typeerror', 'modify', 'frozen', 'object', 'ruby', 'http', 'ruby', 'http', 'mechanize', 'chain', 'mechanize', 'chain', 'mechanize', 'chain', 'handler', 'mechanize', 'chain', 'mechanize', 'chain', 'mechanize', 'chain', 'handler', 'mechanize', 'chain', 'mechanize', 'chain', 'mechanize', 'chain', 'handler', 'mechanize', 'chain', 'mechanize', 'chain', 'mechanize', 'chain', 'handler', 'mechanize', 'chain', 'mechanize', 'chain', 'mechanize', 'mechanize', 'mechanize', 'submit']",General,{'crash': 100}

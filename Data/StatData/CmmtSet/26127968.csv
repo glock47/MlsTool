@@ -1,0 +1,24 @@
+sha,message,catetory,matched
+6e25e8f90f0253f0b6b07ca6875ae7d53525c67c,"['bugfix', 'memory', 'leak', 'doexectask', 'delete']",Risky_resource_management,{'memory leak': 100}
+c44b7dfa521a09dfa8c4a82960778668388a2c38,['deadlock'],Risky_resource_management,{'deadlock': 100}
+39a42355f3cb210661281ac5e4854cd72c23e491,"['memory', 'leak', 'pikareplclient']",Risky_resource_management,{'memory leak': 100}
+5f84161495bb8ec15e2738e9e28a01bbe5230497,"['bugfix', 'exec', 'bgsave', 'command', 'risk', 'deadlock', 'slave', 'close', 'slave']",Risky_resource_management,{'deadlock': 100}
+3427e9bf862920c6846fa621aa784f30547b8788,"['bugfix', 'config', 'item', 'maxmemory', 'overflow']",Risky_resource_management,{'maxmemory overflow': 91}
+852ddb3bc59256b24415ed752b40229e8efa47c6,"['bugfix', 'memory', 'leak', 'threadmain']",Risky_resource_management,{'memory leak': 100}
+dab37bade4d012710acfe002404fc7d6f6fe4806,"['bugfix', 'integer', 'overflow', 'redisappendlen']",Risky_resource_management,{'integer overflow': 100}
+32f7b55a537147012d85a6ba3bc29eff7bfef983,"['memory', 'leak', 'blackwidow']",Risky_resource_management,{'memory leak': 100}
+029d5bb2dd4fa74f2b89e5244a602ba310792175,"['bugfix', 'pika', 'crash', 'certain', 'special', 'situation']",General,{'crash': 100}
+9e800b8693a69b4f7c9f1bb8888fdf844b6a9640,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+e18d821b463355c6826b3b764be12664cb89f5ee,"['bugfix', 'crash', 'space']",General,{'crash': 100}
+083438b6048a49e3592fc7223407eb64e0e112ac,"['disk', 'pika', 'crash']",General,{'crash': 100}
+f065cb318a3a8bf311f51e5be4b3fd4069dbc71f,"['dump', 'support', 'delbackup', 'command', 'bugfix', 'logical', 'error', 'modify', 'parameter', 'name', 'delbackup', 'thread', 'crash', 'prefix', 'rule', 'delete']",General,{'crash': 100}
+64c0fe8a6813f77a392917a29581e6013bc80bf4,"['memory', 'leak', 'epollerr', 'epollhup']",Risky_resource_management,{'memory leak': 100}
+797b524f7bbf88ed999ea3f958e1e41091396607,"['nemo', 'rocksdb', 'bugfix', 'crash', 'compaction', 'setdbandmp', 'shoot', 'warning']",General,{'crash': 100}
+fdf73d4fcbec29d4e76c31a8043a9c9a02f8e7d5,"['pull', 'request', 'tapeete', 'master', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+09d1b59e802fa3b55c945caacdf76dca375da65e,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+e43f411da2384a37d8ce82e9e98c1018e62f3c0f,"['unneccessary', 'null', 'pointer', 'check', 'delete']",Risky_resource_management,{'null pointer': 100}
+ba17d8694e9c836c5d01b0bea939673d2d8f0b2c,"['bugfix', 'memory', 'leak', 'sscan', 'zscan', 'command', 'modify', 'info', 'format', 'slave', 'list', 'messsage']",Risky_resource_management,{'memory leak': 100}
+a156b2c3d5f6955f6d89234db323d52abf9c9b46,"['memory', 'leak', 'binlogsender', 'update', 'pink', 'invalid', 'value', 'initilize']",Risky_resource_management,{'memory leak': 100}
+cd80238eb5bd96b4125727f077214e5b83a3f93a,"['master', 'conn', 'crontask', 'crash', 'trysync', 'thread', 'sleep']",General,{'crash': 100}
+4818239e97476c3156c86d7015c7698ca744b64c,"['bugfix', 'crash', 'header', 'size', 'writefile', 'empty', 'writefile', 'cstr', 'mario', 'case', 'consumer']",General,{'crash': 100}
+08a6fde061a12dd57bf598a9e9f842bc1d4c83bb,"['bugfix', 'master', 'crash', 'slave', 'different', 'password']",General,{'crash': 100}

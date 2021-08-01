@@ -1,11 +1,21 @@
-sha,message,catetory,matched,labels
-862b7e14f5bd7d7b36281807ea8d3eb57dd185f3,"['macos', 'workaround', 'crash', 'addedchange', 'divingduck']",Risky_resource_management,{'crash': 100},
-2e246f8c28af8ea7d43bef77fdf6d83aa2be0756,"['startup', 'setting', 'crash', 'localewindow', 'pronterface', 'wxwidgets', 'startingthrow', 'inconsistent', 'error', 'locale', 'settingrecent', 'tracebackmodulefalse', 'pronterappprintrunpronterwindowprintruniconfilewxlocale', 'getinfo', 'setlocale', 'strcmp', 'mismatch', 'assertion']",Risky_resource_management,{'crash': 100},
-979df4ada1a8b6d338098295052b2cc1bbef4c17,"['crash', 'tabbedhidden']",Risky_resource_management,{'crash': 100},
-7ca952d7de60ed91a9716bd4214b3c2e2c5d4395,"['crash', 'error', 'function']",Risky_resource_management,{'crash': 100},
-c635bd67e132448bfa511e7403f91b90b0d9d36e,"['status', 'thread', 'noviz', 'crash']",Risky_resource_management,{'crash': 100},
-5ffcbec2d5545336fd6b6986394efff0b42d3e31,"['unable', 'crash', 'slicr']",Risky_resource_management,{'crash': 100},
-630d11783dfb1d193ef6b2a468132871e458550d,"['requestbackground', 'temperature', 'field', 'color', 'setting', 'crash']",Risky_resource_management,{'crash': 100},
-73055e59a8bbb109cb74d23121855ae10ec7426d,"['domain', 'estimation', 'errorblock', 'crash', 'estimationinterface']",Risky_resource_management,{'crash': 100},
-51f59b0618d53eb12bd6b5073330a0f929af7527,"['previous', 'crash', 'gcode']",Risky_resource_management,{'crash': 100},
-1a37c6ee926ff4fa3d7e9f43c8dba4d87daa5395,"['empty', 'crash']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+862b7e14f5bd7d7b36281807ea8d3eb57dd185f3,"['workaround', 'macos', 'crash']",General,{'crash': 100}
+9a09e2d0371be025a50fbded60bb1d1d243033fa,"['pull', 'request', 'joerih', 'locale', 'crash', 'crash', 'locale', 'setting']",General,{'crash': 100}
+2e246f8c28af8ea7d43bef77fdf6d83aa2be0756,"['crash', 'startup', 'locale', 'setting', 'pronterface', 'window', 'wxwidgets', 'inconsistent', 'locale', 'setting', 'traceback', 'recent', 'call', 'file', 'pronterface', 'line', 'module', 'pronterapp', 'false', 'file', 'printrun', 'printrun', 'pronterface', 'line', 'self', 'mainwindow', 'pronterwindow', 'self', 'file', 'printrun', 'printrun', 'pronterface', 'line', 'self', 'seticon', 'icon', 'iconfile', 'pronterface', 'assertion', 'strcmp', 'setlocale', 'null', 'common', 'intl', 'wxlocale', 'getinfo', 'wxlocale', 'mismatch', 'window', 'locale', 'issue', 'locale', 'pronterface']",General,{'crash': 100}
+5ea28caac4cea49574811475641d79f414c3484b,"['buffer', 'overflow', 'loss', 'command', 'gcoder', 'preload', 'data', 'accumulates', 'till']",Risky_resource_management,{'buffer overflow': 100}
+a4e0276fd9f33fbaad067048eaca0ff29bd500fc,"['pull', 'request', 'volconst', 'master', 'crash']",General,{'crash': 100}
+a5a418247a322341e5741c0f47d11aa926762777,['crash'],General,{'crash': 100}
+979df4ada1a8b6d338098295052b2cc1bbef4c17,"['crash', 'startup']",General,{'crash': 100}
+c635bd67e132448bfa511e7403f91b90b0d9d36e,"['noviz', 'crash', 'status', 'thread']",General,{'crash': 100}
+aa2da210e007d1cbdf3a1a4af050aaf32abf85ae,"['critical', 'code', 'path', 'viewer', 'crash', 'issue']",General,{'crash': 100}
+b0160015885f7f77b36b71a01a209250c47bfe9d,"['crash', 'port', 'file']",General,{'crash': 100}
+558e0839ca309b2a0d91c665689bfd7ac4aa95d1,"['heaptrace', 'option', 'memory', 'tornado', 'attempt', 'squawsh', 'prontserve', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+87ae561fa511ad15c4b4a1091617abdcc73a74ff,"['memory', 'leak', 'warning']",Risky_resource_management,{'memory leak': 100}
+a684835608a1adac6ee1198c29d8c39bc931a441,"['ensure', 'dialog', 'command', 'line', 'strange', 'crash', 'file', 'directory', 'active', 'directory', 'dialog']",General,{'crash': 100}
+630d11783dfb1d193ef6b2a468132871e458550d,"['pull', 'request', 'kenaaker', 'experimental', 'crash', 'suse', 'setting', 'temperature', 'setting', 'temp', 'field', 'background', 'color']",General,{'crash': 100}
+73055e59a8bbb109cb74d23121855ae10ec7426d,"['math', 'domain', 'error', 'estimation', 'code', 'crash', 'estimation', 'code', 'block', 'file', 'load', 'diable', 'interface', 'default']",General,{'crash': 100}
+a06669fe358b413770470f6f85435909a4a76d6a,"['file', 'selection', 'dialog', 'memory', 'leak', 'trigger', 'editing', 'gcode', 'file']",Risky_resource_management,{'memory leak': 100}
+440a5ca5afd76a0b1fb4e5a4a04ab366ae98cf54,"['mysterious', 'double', 'free', 'corruption', 'error']",Risky_resource_management,{'double free': 100}
+1307f9801bd0d6920a6569ad9064da2915ff6a0b,"['crash', 'serial', 'error', 'firmware', 'resend', 'request']",General,{'crash': 100}
+76818fc072e405d1abb6f9f235d280d94d4f99fa,"['crash', 'file', 'load']",General,{'crash': 100}
+51f59b0618d53eb12bd6b5073330a0f929af7527,"['crash', 'gcode', 'file', 'load', 'previous', 'file']",General,{'crash': 100}

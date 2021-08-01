@@ -1,6 +1,6 @@
-sha,message,catetory,matched,labels
-8f88255a6b42a983c7dd83dbc039d4a2787e351e,"['option', 'insecure', 'debug']",General,{'insecure': 100},
-4c30b0386b9019fd7b86740da811b0a39a730b91,"['javabeans', 'crash', 'dcevmstream', 'crash', 'dcevmobject', 'serialization', 'deserialization']",Risky_resource_management,{'crash': 100},
-0ed1347c1cbfbca2aa8be08a986ce8f1b4f76b92,"['crash', 'redefineclasses', 'function', 'jvmti', 'dcevm']",Risky_resource_management,{'crash': 100},
-8f511803e5678e4152247dc160c0ce49c38b8f32,"['classloaders', 'fallback', 'deadlockclass', 'loader', 'deadlock', 'synchronize']",Risky_resource_management,{'deadlock': 100},
-ffcdfa85bb459aafd8956b4dbfd6bbd38a5386cb,"['classloaders', 'security', 'pluginmanager', 'classloader', 'initialization', 'multiple', 'deadlock', 'synchronize', 'container', 'instance']",Risky_resource_management,{'deadlock': 100},
+sha,message,catetory,matched
+8f88255a6b42a983c7dd83dbc039d4a2787e351e,"['option', 'insecure', 'debug']",General,{'insecure': 100}
+4c30b0386b9019fd7b86740da811b0a39a730b91,"['javabeans', 'crash', 'dcevmstream', 'crash', 'dcevmobject', 'serialization', 'deserialization']",General,{'crash': 100}
+0ed1347c1cbfbca2aa8be08a986ce8f1b4f76b92,"['crash', 'redefineclasses', 'function', 'jvmti', 'dcevm']",General,{'crash': 100}
+8f511803e5678e4152247dc160c0ce49c38b8f32,"['classloaders', 'fallback', 'deadlockclass', 'loader', 'deadlock', 'synchronize']",Risky_resource_management,{'deadlock': 100}
+ffcdfa85bb459aafd8956b4dbfd6bbd38a5386cb,"['classloaders', 'security', 'pluginmanager', 'classloader', 'initialization', 'multiple', 'deadlock', 'synchronize', 'container', 'instance']",Risky_resource_management,{'deadlock': 100}

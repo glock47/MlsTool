@@ -1,24 +1,17 @@
-sha,message,catetory,matched,labels
-65de08bddb334129a9baa6a872a8aa3bced5d07c,"['security', 'hotspot', 'reportedproject', 'issue', 'pullrequest']",General,{'security': 100},
-85b84f4c8231f59d57b2617669f3e295b849b489,"['dumbmethodsdetectorexample', 'peter', 'crash']",Risky_resource_management,{'crash': 100},
-cd48d81d91007fffd2b66c39c1910eab941b726d,"['security', 'constraint']",General,{'security': 100},
-886b83378ccab3a0a7fdc6ce013e6b2e2adec84c,"['various', 'security', 'qualifier', 'tweakvalidation', 'qualifiertrunk', 'eaecd', 'bccbab']",General,{'security': 100},
-733cf124d4efd89920d0fd1e4e114f79fafa12bd,"['fatal', 'problemrather', 'silentlywrong', 'rewrite', 'crash', 'formattrunk', 'eaecd', 'bccbab']",Risky_resource_management,{'crash': 100},
-05cf89fbc171398cca4391545f006e502f866210,"['validation', 'redid', 'security', 'managertrunk', 'eaecd', 'bccbab']",General,{'security': 100},
-2594611098e9e2ce5e5cb88c73ad4a620e52f55f,"['detail', 'deadlock', 'trackerinstanceof', 'questionatomicboolean', 'atomicboolean', 'override', 'dedaedfbfddceb', 'override', 'super', 'method', 'problematic', 'initialvalue', 'detail', 'findbugs', 'sourceseems', 'different', 'thread', 'deadlock', 'current', 'classparent', 'validate', 'classloader', 'thread', 'class', 'anotherremove', 'initialvalue', 'keywordtrunk', 'eaecd', 'bccbab']",Risky_resource_management,{'deadlock': 100},
-9fa99af32a9391ea23eb8a9b81270284f94a10c4,"['deadlock', 'cloud', 'avoidtrunk', 'eaecd', 'bccbab']",Risky_resource_management,{'deadlock': 100},
-355556a153b7950874c6622ad5857ea4f17235d7,"['clear', 'security', 'goingtrunk', 'eaecd', 'bccbab']",General,{'security': 100},
-48927aa99d7cdcefeb954838477c6e3a9a48fcec,"['ubuntu', 'browser', 'crash', 'green', 'eclipse', 'avoidtrunk', 'eaecd', 'bccbab']",Risky_resource_management,{'crash': 100},
-217a72aca8b3c7ee9c5a1b5b33a449109b023568,"['instantiate', 'crash', 'plugin', 'temporary', 'eclipse', 'classtrunk', 'eaecd', 'bccbab']",Risky_resource_management,{'crash': 100},
-d89e21042129758b55ea00f85e0596ffd0dd886c,"['input', 'crash', 'textuiimprove', 'errortrunk', 'eaecd', 'bccbab']",Risky_resource_management,{'crash': 100},
-2fdda00bee20b2e421bdcc3f83365c3aec24464a,"['string', 'deadloc', 'couldtrunk', 'eaecd', 'bccbab']",Risky_resource_management,{'deadloc': 93},
-dffca353a51649ec91f2df12b2b0402d49cdd8cb,"['particular', 'deadlock', 'tuningtrunk', 'eaecd', 'bccbab']",Risky_resource_management,{'deadlock': 100},
-a5d9d1ea9fc624e5328d0e199b764df2423ed035,"['revert', 'exception', 'propagate', 'initialization', 'vista', 'catch', 'startup', 'issue', 'crash', 'crossplatform', 'sourceforge', 'workaround', 'addedtrunk', 'eaecd', 'bccbab']",Risky_resource_management,{'crash': 100},
-95908fe799ac6c7c01b7e71417f7e6d1a3bcd93f,"['manager', 'system', 'property', 'indirection', 'level', 'security', 'introduce', 'request', 'mighttrunk', 'eaecd', 'bccbab']",General,{'security': 100},
-b1390508981694007276fd86374df8009e49c7a3,"['integrity', 'check', 'reportedtrunk', 'eaecd', 'bccbab']",Risky_resource_management,{'integrity check': 100},
-cf39e65f8648096382fd95f263e24ba74b478232,"['dialog', 'deadlock', 'selectedtrunk', 'eaecd', 'bccbab']",Risky_resource_management,{'deadlock': 100},
-4d65f5ddb1a6b25467315651afd0c61ce1525571,"['upgrade', 'travisadjust', 'commander', 'initializationwithin', 'commander', 'prevents', 'crash']",Risky_resource_management,{'crash': 100},
-1da2844abc4118b61dcecae60fbafdefd2e38430,"['compat', 'security', 'bookmarklet']",General,{'security': 100},
-6d450c2cbc361c690718d6961734de8994565bcb,"['option', 'suggestion', 'header', 'content', 'security']",General,{'security': 100},
-fdde9e5b457e77d1763bf514802ae684114ed433,"['download', 'policy', 'cross', 'domain', 'header', 'content', 'security']",General,{'security': 100},
-86ea78524e4cb427ebfe072698a3dd7e2d7fbef5,"['jetty', 'security', 'release', 'update']",General,{'security': 100},
+sha,message,catetory,matched
+5225825ae51d9bb06f7f0ef4667b7b7ba4d4be04,"['csrf', 'body', 'params', 'option']",Insecure_interaction_between_components,{'csrf': 100}
+701fb2c52a97c3335a57544746af05eba02f4c23,"['csrf', 'implies', 'body', 'params', 'default', 'interceptor']",Insecure_interaction_between_components,{'csrf': 100}
+6d450c2cbc361c690718d6961734de8994565bcb,"['content', 'security', 'header', 'suggestion', 'option']",General,{'security': 100}
+fdde9e5b457e77d1763bf514802ae684114ed433,"['content', 'security', 'policy', 'download', 'option', 'cross', 'domain', 'policy']",General,{'security': 100}
+e9f1205418bacc7d25d010c3bb10919e951e982a,"['bump', 'ring', 'address', 'path', 'traversal', 'vuln']",Risky_resource_management,{'path traversal': 100}
+80b37050d2d52681ab1e57dfd4710e9b69b8f6a7,"['pull', 'request', 'grzm', 'csrf', 'sessionless', 'cookie', 'token', 'response', 'double', 'submit', 'cooky']",Insecure_interaction_between_components,{'csrf': 100}
+85344889e073e93838fb075e6cc75b63a927a588,"['csrf', 'cookie', 'submits', 'bootstrap', 'request', 'csrf', 'cookie', 'value']",Insecure_interaction_between_components,{'csrf': 100}
+bd9bbfcfca39b60d00aa99165efa6f3417a26e00,"['csrf', 'keyword', 'param', 'aware', 'address', 'issue', 'token', 'response']",Insecure_interaction_between_components,{'csrf': 100}
+86ea78524e4cb427ebfe072698a3dd7e2d7fbef5,"['security', 'release', 'jetty', 'update', 'jetty', 'deps']",General,{'security': 100}
+c4155e67d3b688599d1b43a5fd69431e4b646ab8,"['csrf', 'protection']",Insecure_interaction_between_components,{'csrf': 100}
+82621179fe6301034c3fe295d40667dacc243a75,"['csrf', 'protection', 'part', 'default', 'interceptor']",Insecure_interaction_between_components,{'csrf': 100}
+f3c31ba3f78e526734030a2927a82ed2ab85e7c3,"['master', 'github', 'pedestal', 'pedestal', 'csrf', 'protection']",Insecure_interaction_between_components,{'csrf': 100}
+72db01baa6c0512f77cc3d012b17a612886c6884,"['placeholder', 'csrf', 'test']",Insecure_interaction_between_components,{'csrf': 100}
+bdcd634349ee32c08da91e66527788a0b351060c,"['initial', 'code', 'drop', 'csrf', 'protection']",Insecure_interaction_between_components,{'csrf': 100}
+1295aa5959cc38775936e8355c903ec658d2ffc6,"['pull', 'request', 'cors', 'enable', 'access', 'control', 'credential', 'mode']",Porous_defenses,{'access control': 100}
+ca4dae643ef71915966d21adbd2859cefc450662,"['enable', 'access', 'control', 'credential', 'mode']",Porous_defenses,{'access control': 100}

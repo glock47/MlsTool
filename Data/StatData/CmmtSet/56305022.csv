@@ -1,4 +1,5 @@
-sha,message,catetory,matched,labels
-02f16219bcb0b92e70e33c46c5e0f91ed1caf172,"['upgrade', 'security', 'version']",General,{'security': 100},
-1995a1c2739e4330a7c2f33d518f0deb52bf8296,"['number', 'crash']",Risky_resource_management,{'crash': 100},
-a758d7745773f809589d60cfd6c4e4dfe41c163d,"['information', 'disclosure']",Porous_defenses,{'information disclosure': 100},
+sha,message,catetory,matched
+02f16219bcb0b92e70e33c46c5e0f91ed1caf172,"['upgrade', 'security', 'version']",General,{'security': 100}
+8e3134c9d9de68af43d59ab7e09eaf1cd615bf9f,"['sqli', 'rule']",Insecure_interaction_between_components,{'sqli': 100}
+1995a1c2739e4330a7c2f33d518f0deb52bf8296,"['crash', 'number']",General,{'crash': 100}
+a758d7745773f809589d60cfd6c4e4dfe41c163d,"['information', 'disclosure', 'file', 'scan']",Porous_defenses,{'information disclosure': 100}

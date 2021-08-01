@@ -1,17 +1,22 @@
-sha,message,catetory,matched,labels
-fef725e2fdb3f1fa843f5493198f26e28b1a23e3,"['thread', 'deadlock']",Risky_resource_management,{'deadlock': 100},
-6b754423d1f2dddaa5fc0436a3a2a47a134f43d0,"['cryptography', 'install', 'crash']",Risky_resource_management,{'crash': 100},
-726d9d043d8b9fd7e63bb07542aa9f898ffe304f,"['cfaeb', 'ecacf', 'mergeinsert', 'crash', 'request', 'mergefailure', 'mongo', 'insert']",Risky_resource_management,{'crash': 100},
-4ef6a27aa509af335d883d3a0004aa3684ebf195,"['fefad', 'mergeopenports', 'request', 'mergeexists', 'openport', 'crash']",Risky_resource_management,{'crash': 100},
-5f71d80b01bc3214a396b39e56519963782c51a6,"['openport', 'crash']",Risky_resource_management,{'crash': 100},
-de0c2693e98fdbd4e4c89d70ce4171344db7b421,"['mergemasscan', 'request', 'mergebroken', 'crash', 'masscan']",Risky_resource_management,{'crash': 100},
-6839b09588e440e16f5c07261b2413391a051a35,"['crash', 'masscan']",Risky_resource_management,{'crash': 100},
-d5e7a1006535a678be34283df4b981f7e41af1a9,"['fbeff', 'mergehotfix', 'request', 'crash', 'passive', 'corner']",Risky_resource_management,{'crash': 100},
-0f7beff95d1fe9deeb61baa72113d15d40740855,"['crash', 'passive', 'corner']",Risky_resource_management,{'crash': 100},
-97d6b5df854e786933c538e80d0c47325bf6dd64,"['result', 'crash', 'empty']",Risky_resource_management,{'crash': 100},
-e40e1a74d3095623d4abc35e2fe8c5c19ccc2a87,"['fafebfd', 'mergepassive', 'local', 'request', 'local', 'crash', 'record']",Risky_resource_management,{'crash': 100},
-d5947f0223dda09eb8705d9acdcc1f458682cc74,"['local', 'crash', 'record']",Risky_resource_management,{'crash': 100},
-688db02b1917ba6f419792799c1e2de1b5b71c9b,"['crash', 'acquisition', 'failure', 'agent']",Risky_resource_management,{'crash': 100},
-691755128c0059c38a70b8a50ddd4389640a92ef,"['crash', 'stdin', 'runscansagent']",Risky_resource_management,{'crash': 100},
-bcda3c9427b8d2d64d80d543ac3e31003b22f0f3,"['version', 'crash']",Risky_resource_management,{'crash': 100},
-216eab46123d52ffd8021dc5c54be897fe41fb38,"['crash', 'nmapdb', 'invalid']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+6b754423d1f2dddaa5fc0436a3a2a47a134f43d0,"['crash', 'cryptography', 'install']",General,{'crash': 100}
+726d9d043d8b9fd7e63bb07542aa9f898ffe304f,"['pull', 'request', 'insert', 'crash', 'mongo', 'host', 'insert', 'failure']",General,{'crash': 100}
+4ef6a27aa509af335d883d3a0004aa3684ebf195,"['pull', 'request', 'apis', 'openports', 'crash', 'openport', 'exists']",General,{'crash': 100}
+5f71d80b01bc3214a396b39e56519963782c51a6,"['crash', 'openport', 'exists']",General,{'crash': 100}
+de0c2693e98fdbd4e4c89d70ce4171344db7b421,"['pull', 'request', 'masscan', 'masscan', 'host', 'crash']",General,{'crash': 100}
+6839b09588e440e16f5c07261b2413391a051a35,"['masscan', 'host', 'crash']",General,{'crash': 100}
+97d6b5df854e786933c538e80d0c47325bf6dd64,"['view', 'crash', 'empty', 'result']",General,{'crash': 100}
+fef6ea544edc6d59b105b2d31d5b76e85bb22188,"['header', 'line', 'data', 'line', 'parser', 'work', 'different', 'format', 'ivre', 'passiverecondb', 'crash']",General,{'crash': 100}
+e40e1a74d3095623d4abc35e2fe8c5c19ccc2a87,"['pull', 'request', 'passive', 'local', 'bulk', 'local', 'bulk', 'crash', 'record']",General,{'crash': 100}
+d5947f0223dda09eb8705d9acdcc1f458682cc74,"['local', 'bulk', 'crash', 'record']",General,{'crash': 100}
+688db02b1917ba6f419792799c1e2de1b5b71c9b,"['agent', 'crash', 'lock', 'acquisition', 'failure']",General,{'crash': 100}
+691755128c0059c38a70b8a50ddd4389640a92ef,"['runscansagent', 'crash', 'stdin']",General,{'crash': 100}
+bcda3c9427b8d2d64d80d543ac3e31003b22f0f3,"['version', 'crash']",General,{'crash': 100}
+27d15a52118975a8cc18990dc205b08b1e07e419,"['pull', 'request', 'xmlnmap', 'script', 'corner', 'case', 'crash']",General,{'crash': 100}
+78b2c94375ed006339e4229d9e541045bc5f2d96,"['nmap', 'crash', 'empty', 'hostscript']",General,{'crash': 100}
+ff314b34eb569ba16e01a47b751a5222cd114686,"['nmapdb', 'crash']",General,{'crash': 100}
+216eab46123d52ffd8021dc5c54be897fe41fb38,"['nmapdb', 'crash', 'invalid', 'file', 'type']",General,{'crash': 100}
+bccf7a301583002641a13770528f4888ab42fcfa,"['pull', 'request', 'master', 'nmapdb', 'crash', 'result']",General,{'crash': 100}
+ff419a0a918a35b9b0226983a063f6b71fd0b14d,"['nmapdb', 'crash', 'result']",General,{'crash': 100}
+996f07395c5e4d6e615db94bf1d3cdfa510fc45b,"['pull', 'request', 'auto', 'referer', 'check', 'webui', 'csrf', 'guess', 'referer', 'value', 'default']",Insecure_interaction_between_components,{'csrf': 100}
+4e929c5a91754c9b927b2197c7a0124e010ba02f,"['csrf', 'guess', 'referer', 'value', 'default']",Insecure_interaction_between_components,{'csrf': 100}

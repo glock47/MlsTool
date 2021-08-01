@@ -1,6 +1,14 @@
-sha,message,catetory,matched,labels
-a47917b97606a03f6bbf0cafd1fcd495b0229790,"['pthreads', 'protobuf', 'lpthreadsobsolete', 'protobuf', 'pthreads', 'detection', 'pkgconfig', 'protobuf', 'resultpthread', 'lpthread', 'unnecessary', 'dangerousserver', 'debian', 'crash', 'libutempter']",Risky_resource_management,{'crash': 100},
-7117b61bf4e3cd7b5ceb3381708e0ed926e08722,"['crash', 'requiresirainen']",Risky_resource_management,{'crash': 100},
-b803c49fc97fe26e2bc884ef35843a064db68059,"['warning', 'readme', 'security']",General,{'security': 100},
-07d4aedcaa43e48e5d674fd0ac036726e87cc2c9,"['dispatch', 'static', 'order', 'registry', 'crash', 'construct']",Risky_resource_management,{'crash': 100},
-1565cb169e9e5538d7ff00c21a0c3c3bd7006d4d,"['crash', 'terminal']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+dcd04850f05570f8ed775f4945e42bb0760f99cc,"['memory', 'leak', 'window', 'resize']",Risky_resource_management,{'memory leak': 100}
+9a6e0d576dc8955b668a3a775c0521c8d94f2131,"['coverity', 'deref', 'null', 'pointer', 'char', 'null', 'string', 'constructor']",Risky_resource_management,{'null pointer': 100}
+a47917b97606a03f6bbf0cafd1fcd495b0229790,"['configure', 'pthreads', 'lpthreads', 'pthreads', 'protobuf', 'protobuf', 'obsolete', 'automake', 'pthreads', 'detection', 'macro', 'result', 'pkgconfig', 'libs', 'protobuf', 'lprotobuf', 'pthread', 'lpthread', 'linux', 'unnecessary', 'dangerous', 'lpthread', 'case', 'mosh', 'server', 'crash', 'libutempter', 'debian']",General,{'crash': 100}
+e0f090577871db6a2f9ef8b4bcc7443e3c8c0029,"['deadlock', 'test', 'background', 'version', 'bash']",Risky_resource_management,{'deadlock': 100}
+e52d22b6da2ccaee74fb00438143c1e8baf5b275,"['integer', 'overflow', 'darwin', 'darwin', 'user', 'observes', 'huge', 'value', 'numer', 'denom', 'value', 'numer', 'overflow', 'overflow', 'effect', 'making', 'time', 'backwards', 'time', 'usual', 'speed', 'darwin', 'numer', 'denom', 'conversion', 'double', 'arithmetic', 'anders', 'kaseorg', 'andersk']",Risky_resource_management,{'integer overflow': 100}
+f0d9cb3db3b419f84893a6efb6bf136ed2b4d120,"['null', 'pointer', 'dereference', 'return', 'null']",Risky_resource_management,{'null pointer': 100}
+7117b61bf4e3cd7b5ceb3381708e0ed926e08722,"['access', 'string', 'crash', 'timo', 'sirainen']",General,{'crash': 100}
+1cf12f9e9be14cbfce5362edab34d44154ed2c8e,"['integer', 'overflow', 'sequence', 'params']",Risky_resource_management,{'integer overflow': 100}
+0eec0b60f0c5b3d94d5e382ea3d4aff35c879ed2,"['linux', 'signalfd', 'wrapper', 'libstddjb', 'selfpipe', 'fine', 'signalfd', 'debian', 'ubuntu', 'skalibs', 'package', 'skalibs', 'static', 'library', 'fpic', 'interferes', 'building', 'mosh', 'client', 'server', 'position', 'independent', 'executables', 'desirable', 'security', 'measure', 'wrapper', 'invokes', 'signalfd', 'selfpipe', 'flag', 'part', 'mosh', 'project']",General,{'security': 100}
+b803c49fc97fe26e2bc884ef35843a064db68059,"['warning', 'security']",General,{'security': 100}
+9f38c7669934d1dc9d22b1e1f9f696574aeca0fd,"['close', 'precaution', 'sensitive', 'data', 'disk', 'session', 'corefiles', 'world', 'physical', 'disk', 'safer', 'github', 'issue', 'similar', 'concern']",Porous_defenses,{'sensitive data': 100}
+07d4aedcaa43e48e5d674fd0ac036726e87cc2c9,"['construct', 'dispatch', 'registry', 'static', 'init', 'order', 'crash']",General,{'crash': 100}
+1565cb169e9e5538d7ff00c21a0c3c3bd7006d4d,"['crash', 'wide', 'terminal', 'wide', 'char']",General,{'crash': 100}

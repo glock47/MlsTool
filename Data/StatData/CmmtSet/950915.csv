@@ -1,19 +1,29 @@
-sha,message,catetory,matched,labels
-5467e789c8ed26a7435dbe2b8ffd0166f8838cf6,"['crash', 'redirection', 'invalid', 'fixeddowncase', 'prefix', 'unnecessary', 'downcases']",Risky_resource_management,{'crash': 100},
-1e2bbe6cf112519885f3f6a77e2b97235deb9dc7,"['cisco', 'security', 'adaptive', 'appliance']",General,{'security': 100},
-ddc8e92da5ff5d179c015ce2fb03197b4576b6d7,"['content', 'plugin', 'security', 'policy']",General,{'security': 100},
-733d3f16f31fdd7bedc37cf3b82167cafbf93b79,"['content', 'plugin', 'security', 'policy']",General,{'security': 100},
-c37926df6984418a22c927553ce52f02ba331a76,"['gateway', 'plugin', 'astaro', 'security']",General,{'security': 100},
-a303bd71882c39b87076399472664756ddd75845,"['client', 'security', 'symantec']",General,{'security': 100},
-b96715483e644dcc268ae61548b6bc1da57f7561,"['client', 'security', 'symantec']",General,{'security': 100},
-8fd68b71cff821ae59b070755119d62065d6c6e5,"['iguard', 'plugin', 'securityiguard', 'security', 'plugins']",General,{'security': 100},
-f8cc7ac229fa5fbdcebf71cdc55e975d4227be41,"['iguard', 'plugin', 'securityiguard', 'security', 'plugins']",General,{'security': 100},
-62f6e2a52762020b9ab99e8b139865d956031950,"['crash', 'permission', 'withoutissue', 'patchissue', 'urbanadventurer', 'whatweb']",Risky_resource_management,{'crash': 100},
-fe399aae37097a8ccbd36005cb94d5a002d17c20,"['crash', 'permission', 'withoutissue', 'patchissue', 'urbanadventurer', 'whatweb']",Risky_resource_management,{'crash': 100},
-2b5ae31bb0f34adafd11e9c169ef3660a87896e1,"['plugin', 'plugins', 'nexpose', 'security', 'kloxo', 'plugins']",General,{'security': 100},
-65d5edcb788516ad27664ba6e42e8cd35f623061,"['plugin', 'plugins', 'nexpose', 'security', 'kloxo', 'plugins']",General,{'security': 100},
-07c54c687917b9dce7b4860e51df73bd3197bea7,"['patchmultiple', 'status', 'plugins', 'crash', 'causeissue', 'information', 'referissue', 'urbanadventurer']",Risky_resource_management,{'crash': 100},
-30b6e94a94a7d87472e1daa7a83caabd251e5b67,"['patchmultiple', 'status', 'plugins', 'crash', 'causeissue', 'information', 'referissue', 'urbanadventurer']",Risky_resource_management,{'crash': 100},
-58fa12edf73317f5aace49baf6813a38133aa0f2,"['header', 'plugin', 'crash']",Risky_resource_management,{'crash': 100},
-f6ae726bd0e4cf4606ccbf6669347d64a8e52f73,"['security', 'advisory']",General,{'security': 100},
-0cee4f9cff30d205f5994a269b0ed549b2951a7e,"['security', 'advisory']",General,{'security': 100},
+sha,message,catetory,matched
+64b8459b89d4ed874c4a86b5fa561c43cd5a8c2c,"['target', 'modification', 'globals', 'opts']",Insecure_interaction_between_components,{'target modification': 90}
+bc21f696524d1cc6ffeeb2806d2ea6f5c7a1b214,"['strict', 'transport', 'security', 'uncommon', 'header', 'plugin']",General,{'security': 100}
+40ac7833dd18f1171b2f45df57b1db179833e260,"['plugins', 'strict', 'transport', 'security']",General,{'security': 100}
+8f5cc785c5d5a9dac79f72092fb7f330ee3b9f07,"['readme', 'penetration', 'test', 'penetration', 'test']",General,{'penetration': 100}
+1e2bbe6cf112519885f3f6a77e2b97235deb9dc7,"['cisco', 'adaptive', 'security', 'appliance', 'plugin']",General,{'security': 100}
+ddc8e92da5ff5d179c015ce2fb03197b4576b6d7,"['content', 'security', 'policy', 'plugin']",General,{'security': 100}
+a67fac70928de09cc6af58be2cff0b0e9208af44,"['remote', 'access', 'controller', 'plugin']",Porous_defenses,{'access controller': 90}
+733d3f16f31fdd7bedc37cf3b82167cafbf93b79,"['content', 'security', 'policy', 'plugin']",General,{'security': 100}
+c37926df6984418a22c927553ce52f02ba331a76,"['astaro', 'security', 'gateway', 'plugin']",General,{'security': 100}
+a303bd71882c39b87076399472664756ddd75845,"['symantec', 'client', 'security', 'plugin']",General,{'security': 100}
+b96715483e644dcc268ae61548b6bc1da57f7561,"['symantec', 'client', 'security', 'plugin']",General,{'security': 100}
+6c3a675b37446108031c7028261455bc61053ee9,"['access', 'control', 'method', 'plugin']",Porous_defenses,{'access control': 100}
+4225b726692689e41f6eaa868ce010a8474e13c0,"['access', 'control', 'method', 'plugin']",Porous_defenses,{'access control': 100}
+8fd68b71cff821ae59b070755119d62065d6c6e5,"['iguard', 'security', 'system', 'plugin', 'lucky', 'tech', 'iguard', 'plugins', 'iguard', 'security', 'system']",General,{'security': 100}
+f8cc7ac229fa5fbdcebf71cdc55e975d4227be41,"['iguard', 'security', 'system', 'plugin', 'lucky', 'tech', 'iguard', 'plugins', 'iguard', 'security', 'system']",General,{'security': 100}
+62f6e2a52762020b9ab99e8b139865d956031950,"['crash', 'permission', 'patch', 'issue', 'http', 'github', 'urbanadventurer', 'whatweb', 'issue']",General,{'crash': 100}
+fe399aae37097a8ccbd36005cb94d5a002d17c20,"['crash', 'permission', 'patch', 'issue', 'http', 'github', 'urbanadventurer', 'whatweb', 'issue']",General,{'crash': 100}
+2b5ae31bb0f34adafd11e9c169ef3660a87896e1,"['space', 'plugin', 'name', 'plugins', 'microsoft', 'remote', 'workplace', 'plugins', 'nexpose', 'security', 'console', 'plugins', 'backdoor', 'plugins', 'kloxo', 'single', 'server']",Insecure_interaction_between_components,{'backdoor': 100}
+65d5edcb788516ad27664ba6e42e8cd35f623061,"['space', 'plugin', 'name', 'plugins', 'microsoft', 'remote', 'workplace', 'plugins', 'nexpose', 'security', 'console', 'plugins', 'backdoor', 'plugins', 'kloxo', 'single', 'server']",Insecure_interaction_between_components,{'backdoor': 100}
+07c54c687917b9dce7b4860e51df73bd3197bea7,"['plugins', 'line', 'plugins', 'body', 'body', 'patch', 'multiple', 'http', 'status', 'code', 'plugins', 'crash', 'information', 'issue', 'http', 'github', 'urbanadventurer', 'whatweb', 'issue']",General,{'crash': 100}
+30b6e94a94a7d87472e1daa7a83caabd251e5b67,"['plugins', 'line', 'plugins', 'body', 'body', 'patch', 'multiple', 'http', 'status', 'code', 'plugins', 'crash', 'information', 'issue', 'http', 'github', 'urbanadventurer', 'whatweb', 'issue']",General,{'crash': 100}
+fa4a2879ad7a2f095f877c9873529e1c01c5b5e8,"['remote', 'access', 'controller', 'plugin']",Porous_defenses,{'access controller': 90}
+d40350c29a819ce9a67b5adc2a14ad4305ee1ff9,"['remote', 'access', 'controller', 'plugin']",Porous_defenses,{'access controller': 90}
+58fa12edf73317f5aace49baf6813a38133aa0f2,"['http', 'server', 'plugin', 'crash', 'server', 'header']",General,{'crash': 100}
+f6ae726bd0e4cf4606ccbf6669347d64a8e52f73,"['high', 'tech', 'bridge', 'security', 'advisory', 'plugin']",General,{'security': 100}
+0cee4f9cff30d205f5994a269b0ed549b2951a7e,"['high', 'tech', 'bridge', 'security', 'advisory', 'plugin']",General,{'security': 100}
+17c447e5e193eac929f95eb75eb0028e90a04548,"['nexpose', 'security', 'console', 'plugin']",General,{'security': 100}
+0768a2e0d1541a9f6275f9be310142677209944f,"['nexpose', 'security', 'console', 'plugin']",General,{'security': 100}

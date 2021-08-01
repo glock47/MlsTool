@@ -1,9 +1,78 @@
-sha,message,catetory,matched,labels
-281d07cebe4f4fa97683cf9988f7d1bb6a00ec59,"['stack', 'overflow']",Risky_resource_management,{'stack overflow': 100},
-e2870bbc7fa96f52440e1aba6c5fa850c25e5800,"['updatetoews', 'check', 'denial', 'service', 'regex']",General,{'denial service': 100},
-4fe533e6df2f5b94a38f9e2ee54194cc62b8f8b5,"['command', 'injection', 'literal']",Insecure_interaction_between_components,{'command injection': 100},
-480d55c9d573f006f86ac0890a9a5a044baf397a,"['command', 'injection', 'localconfidence', 'medium', 'warning']",Insecure_interaction_between_components,{'command injection': 100},
-2c9664acd57b334e97ecb79bb36388d3e06ce02d,"['check', 'vulnerabilitygroup', 'security', 'rubyonrails']",General,{'security': 100},
-1e5ba0f26072a358fd5e8933c4548c6988789534,"['check', 'response', 'vulnerability', 'splittinggroup', 'security', 'ffcbde', 'rubyonrails']",General,{'security': 100},
-18070ff1fd20611c323d6da6f63d6bc7cc7699a4,"['check', 'vulnerabilitygroup', 'security', 'aebcb', 'rubyonrails']",General,{'security': 100},
-7d0cc8dccafad02230ef70359802c1f93ad98409,"['check', 'vulnerability', 'filtergroup', 'security', 'acaedd', 'rubyonrails']",General,{'security': 100},
+sha,message,catetory,matched
+fbc0f55accd3ba5331e59bbb44fe34fad9656187,"['false', 'positive', 'command', 'injection', 'richard', 'fitzgerald', 'infinite', 'loop', 'mixin', 'self', 'andrew', 'szczepanski', 'ignore', 'date', 'refactor', 'cookie', 'param', 'method', 'keenan', 'brock', 'ignore', 'renderables', 'path', 'check', 'brad', 'parker', 'support', 'array', 'copy', 'interactive', 'menu', 'elia', 'schito', 'support', 'array', 'method', 'definition', 'lookup', 'support', 'hash', 'value', 'hash', 'check', 'user', 'target', 'support', 'array', 'fetch', 'hash', 'fetch', 'ignore', 'ignore', 'method', 'number', 'github', 'action', 'format', 'klaus', 'badelt', 'parse', 'file', 'parallel']",Insecure_interaction_between_components,{'command injection': 100}
+628834c40a1ea82175aa56891efc1ed5288af876,"['pull', 'request', 'xulaus', 'false', 'positive', 'command', 'injection']",Insecure_interaction_between_components,{'command injection': 100}
+9633743d5c22f8648071a21e2425571b60317911,"['pull', 'request', 'presidentbeef', 'ignore', 'date', 'sqli']",Insecure_interaction_between_components,{'sqli': 100}
+e9cd3dbc1f1cc88b393ffc7fd8625f4212f4347c,"['ignore', 'date', 'sqli']",Insecure_interaction_between_components,{'sqli': 100}
+9a854cd829bf7169a0c8bb0c79751c5c0c102488,"['false', 'positive', 'command', 'injection']",Insecure_interaction_between_components,{'command injection': 100}
+980de697be28d6774a3e0bd9a01d818e95399433,"['ignore', 'tempfile', 'path', 'command', 'injection']",Insecure_interaction_between_components,{'command injection': 100}
+46aa0477bb4aae3fa1dcbcbd17745fef7e41d163,"['track', 'version', 'detection', 'brakeman', 'report', 'instance', 'sqli', 'track', 'version', 'brakeman', 'rail', 'sinatra', 'application', 'instance']",Insecure_interaction_between_components,{'sqli': 100}
+a1532aeaea66766ed09cb4ce63b68ef3038a9531,['security'],General,{'security': 100}
+153671d155753a13d467bf2bd0ad87627d151ead,"['sqli', 'check']",Insecure_interaction_between_components,{'sqli': 100}
+2523bca9498b7330f8765c8e4e008c3cfe8072c8,"['ruby', 'moment', 'ruby', 'security', 'update']",General,{'security': 100}
+868cb6fb465cd5ce8cecf5c4674841d56f8b93bc,"['pull', 'request', 'presidentbeef', 'user', 'input', 'value', 'sqli', 'warning']",Insecure_interaction_between_components,{'sqli': 100}
+9fe8062b8fdb07b6059d820f3188d7a2c5938a9f,"['user', 'input', 'value', 'sqli', 'warning']",Insecure_interaction_between_components,{'sqli': 100}
+f41a770e98294e079e56ee97edbab99cf7d7f885,"['template', 'information', 'path', 'mode', 'template', 'rail', 'version', 'thread', 'safety', 'issue', 'callindex', 'enable', 'option', 'enable', 'optional', 'check', 'support', 'reading', 'version', 'gemspecs', 'support', 'version', 'major', 'minor', 'empty', 'secret', 'file', 'naoki', 'kimura', 'noreferrer', 'html', 'report', 'warning', 'command', 'injection', 'string', 'shellescape', 'george', 'ogata', 'dockerfile', 'brakeman', 'docker', 'ryan', 'kemper', 'unnecessary', 'file', 'check', 'array', 'ignore', 'tempfiles', 'fileaccess', 'warning', 'christina', 'koller', 'complete', 'overhaul', 'warning', 'message', 'construction', 'deadcode', 'typo']",Insecure_interaction_between_components,{'command injection': 100}
+0ba633e845d9f52eed9a5ede28026fffce47b783,"['check', 'sprocket', 'path', 'traversal']",Risky_resource_management,{'path traversal': 100}
+8b53eb961d2b8bb84071fb925217e99373f828c7,"['warning', 'command', 'injection', 'ivars', 'initialize', 'library', 'sexp', 'body', 'rlist', 'sexp', 'update', 'rubyparser', 'multiple', 'assignment', 'globals', 'injection', 'exclude', 'template', 'folder', 'string', 'method', 'ruby', 'pocke']",Insecure_interaction_between_components,{'command injection': 100}
+4b26a645ccc9304290f05aceb9db2781913caa3d,"['pull', 'request', 'presidentbeef', 'command', 'injection', 'warning']",Insecure_interaction_between_components,{'command injection': 100}
+905e142712b93ff8ec4fa3137f5f50d59fde5a87,"['command', 'injection', 'warning']",Insecure_interaction_between_components,{'command injection': 100}
+46fde24f684f4f167fade9301ebf884a05f9f507,"['process', 'model', 'root', 'sexp', 'csrf', 'warning', 'rail', 'default', 'config', 'show', 'location', 'error', 'andrew', 'bromwich', 'dynamic', 'value', 'arel', 'code', 'climate', 'engine', 'dangerous', 'guess', 'option', 'pager']",Insecure_interaction_between_components,{'csrf': 100}
+13a30ed0c5fe1cb7e23cdff6a5c9e6f1f11c67a6,"['pull', 'request', 'presidentbeef', 'csrf', 'protection', 'default', 'rail']",Insecure_interaction_between_components,{'csrf': 100}
+a7aa17ed6f2ed5af4450fb5aa2447bc8116f577a,"['warning', 'csrf', 'rail', 'default']",Insecure_interaction_between_components,{'csrf': 100}
+b07416846239309528b88ba8e136b82b6b2b248d,"['simple', 'pager', 'report', 'output', 'terminal', 'rename', 'cross', 'site', 'cross', 'site', 'paul', 'tetreau', 'rearrange', 'test', 'request', 'cooky', 'early', 'return', 'reliance', 'confidence', 'constant', 'check', 'confidence', 'mass', 'assignment', 'warning', 'plain', 'report', 'output', 'default', 'exit', 'error', 'exit', 'default', 'exit', 'error', 'exit', 'config', 'file']",Insecure_interaction_between_components,{'cross site': 100}
+2ca0160138a2335768741d47ba821cd440bec956,"['paultetreau', 'cross', 'site']",Insecure_interaction_between_components,{'cross site': 100}
+b78bbb45b36e9325318de36ec31d877484728888,"['cross', 'site', 'github', 'paultetreau', 'brakeman', 'paultetreau', 'cross', 'site', 'conflict', 'index', 'markdown', 'index', 'markdown', 'brakeman', 'check', 'test', 'test', 'rail', 'test', 'test', 'rail', 'test', 'test', 'rail']",Insecure_interaction_between_components,{'cross site': 100}
+af5f66d547eb2b75bfe9efb16c6aa666e796ea72,"['safe', 'call', 'operator', 'check', 'expression', 'haml', 'rake', 'option', 'template', 'name', 'html', 'template', 'file', 'name', 'error', 'limit', 'slim', 'dependency', 'catch', 'yaml', 'error', 'session', 'setting', 'check', 'warning', 'sqli', 'exists', 'update', 'rubyparser']",Insecure_interaction_between_components,{'sqli': 100}
+a0729a7946dd2e759cab92c03dafc7c1b28d7652,"['pull', 'request', 'presidentbeef', 'minor', 'sqli', 'unknown', 'rail', 'version']",Insecure_interaction_between_components,{'sqli': 100}
+efe1f1750b5ef6a8abe5cbbfc315bf398dcb862a,"['minor', 'sqli', 'unknown', 'rail', 'version']",Insecure_interaction_between_components,{'sqli': 100}
+cf0688a449ac831c69e9c241d337bc3509c9a8c2,"['invalid', 'check', 'warning', 'model', 'sqli', 'confidence', 'sqli', 'model', 'report', 'check', 'name', 'json', 'plain', 'report', 'html', 'html', 'option', 'tamgrosser', 'michael', 'grosser', 'summary', 'hide', 'summary', 'html', 'text', 'report', 'block', 'concern', 'process', 'concern', 'controller']",Insecure_interaction_between_components,{'sqli': 100}
+585a85ddfc1b5be7ae3827f1e887ed3d4a4486d2,"['test', 'model', 'sqli', 'real', 'injection', 'vulns']",Insecure_interaction_between_components,{'sqli': 100}
+ad1bc7d89cf2bf1e6f4e5326c4d0c14a6c507823,"['csrf', 'check']",Insecure_interaction_between_components,{'csrf': 100}
+1c4538dac323b03e29fc38be1449c54f5900b005,"['instance', 'cross', 'site', 'cross', 'site']",Insecure_interaction_between_components,{'cross site': 100}
+e9931ad79be390ac597e3850266421142f291eeb,"['code', 'cleanup', 'csrf', 'check']",Insecure_interaction_between_components,{'csrf': 100}
+7cbd664721e919db25287587391903dfc1296062,"['factor', 'csrf', 'config', 'check', 'iteration']",Insecure_interaction_between_components,{'csrf': 100}
+dca86d32cbef1834218e8ff51f10d3ba16ccc729,"['codeclimate', 'construction', 'file', 'check', 'denial', 'service', 'route', 'params', 'check', 'check', 'sanitize', 'check', 'proc', 'check', 'mime', 'type', 'denial', 'service', 'basic', 'auth', 'timing', 'attack', 'initial', 'rail', 'support', 'check', 'implict', 'integer', 'comparison', 'dynamic', 'finder', 'support', 'directory', 'file', 'patrick', 'toomey', 'warning', 'user', 'input', 'comparison', 'module', 'name', 'self', 'method', 'session', 'manipulation', 'documentation']",General,{'denial service': 100}
+b5d5dbed777c0cd62be2eb69694f00f53444eae0,"['check', 'denial', 'service', 'route']",General,{'denial service': 100}
+3a00b8d8c3ed533ffe863a043ad704a53c5384aa,"['check', 'mime', 'type', 'denial', 'service']",General,{'denial service': 100}
+141936e89385d9656423fd16985e3302d1bb0bd0,"['pull', 'request', 'oreoshake', 'check', 'csrf', 'protection', 'exception', 'rail']",Insecure_interaction_between_components,{'csrf': 100}
+cacc248dc8f7b438210a8b24eda1fd25518a1447,"['pull', 'request', 'presidentbeef', 'command', 'injection']",Insecure_interaction_between_components,{'command injection': 100}
+b64bda8c6e165d592e2ec1968b49d0e882b9a483,"['pull', 'request', 'presidentbeef', 'csrf', 'protection']",Insecure_interaction_between_components,{'csrf': 100}
+7106d9aaba9aeb4225fd7f94a3a13805628a21ae,"['csrf', 'protection', 'inherit', 'base']",Insecure_interaction_between_components,{'csrf': 100}
+4da94fa394a6d1472dd1f1205c3beaf0c3d8bae1,"['check', 'check', 'cross', 'site', 'command', 'interpolation']",Insecure_interaction_between_components,{'cross site': 100}
+cc4d1bc1f03aeede2317bd5f76d7281638089fa3,"['pull', 'request', 'presidentbeef', 'whitelist', 'exists', 'arel', 'method', 'sqli']",Insecure_interaction_between_components,{'sqli': 100}
+bcfc68d078e77f45b80cbc1bde44daca088107df,"['whitelist', 'exists', 'arel', 'method', 'sqli']",Insecure_interaction_between_components,{'sqli': 100}
+81ab498080bded3741705bc895ce7cb80d84a67f,"['warning', 'symbol', 'safe', 'parameter', 'method', 'target', 'stack', 'overflow', 'processhelper', 'optional', 'check', 'query', 'toews', 'framework', 'optional', 'check', 'stack', 'overflow', 'cycle', 'class', 'ancestor', 'richardson']",Risky_resource_management,{'stack overflow': 100}
+281d07cebe4f4fa97683cf9988f7d1bb6a00ec59,"['test', 'stack', 'overflow', 'util']",Risky_resource_management,{'stack overflow': 100}
+b490eca4948b50db108813bf2cd90025a7fb42ef,"['pull', 'request', 'presidentbeef', 'sqli', 'detection', 'string', 'building']",Insecure_interaction_between_components,{'sqli': 100}
+48880a5ee055db73a2b8ffba3ec95aa36c83551a,"['sqli', 'detection', 'string', 'building']",Insecure_interaction_between_components,{'sqli': 100}
+4e0bb64477a6c9509c7299962f4a47d839bcf941,"['support', 'railslts', 'support', 'rail', 'friend', 'sqli', 'check', 'checksqlcves', 'check', 'sqli', 'detection', 'chain', 'markdown', 'output', 'format', 'greg']",Insecure_interaction_between_components,{'sqli': 100}
+c093c3d8a9231c691517556ff5a4013c02dc193a,"['false', 'positive', 'sanitize', 'jeff', 'string', 'intern', 'hash', 'check', 'rusnacko', 'check', 'argument', 'model', 'select', 'sqli', 'false', 'positive', 'host', 'literal', 'route']",Insecure_interaction_between_components,{'sqli': 100}
+cd90e3783d5d157e11efec9fb508a7271f9d9114,"['pull', 'request', 'presidentbeef', 'check', 'argument', 'model', 'select', 'sqli']",Insecure_interaction_between_components,{'sqli': 100}
+5cd6a56ee721ec39f3d4fa476a690635bacb215a,"['check', 'argument', 'model', 'select', 'sqli']",Insecure_interaction_between_components,{'sqli': 100}
+e2870bbc7fa96f52440e1aba6c5fa850c25e5800,"['check', 'regex', 'denial', 'service', 'toews']",General,{'denial service': 100}
+63c3c85f59a95116f5c38353922a73d16885d7a0,['security'],General,{'security': 100}
+c84fc70b3a722ffa2cfd6bfe906adf565e5557fb,"['pull', 'request', 'presidentbeef', 'command', 'injection']",Insecure_interaction_between_components,{'command injection': 100}
+4fe533e6df2f5b94a38f9e2ee54194cc62b8f8b5,"['test', 'command', 'injection', 'literal']",Insecure_interaction_between_components,{'command injection': 100}
+4c28b3e5ba4eff059a340779ae941d5261670ba9,"['method', 'check', 'command', 'injection']",Insecure_interaction_between_components,{'command injection': 100}
+6607a32e481eb54b097f30d2665595f6b84b1a67,"['method', 'check', 'command', 'injection']",Insecure_interaction_between_components,{'command injection': 100}
+eaf654f41304aa78b157a9ac0c2a7f0fb881b99b,"['check', 'sqli', 'pluck']",Insecure_interaction_between_components,{'sqli': 100}
+a9c811cec9ac7c93e5655f152b0a00b46fd17ae2,"['test', 'pluck', 'sqli']",Insecure_interaction_between_components,{'sqli': 100}
+7148a16f29c333542ff334e72b6394c4e9f633ce,"['check', 'sqli', 'activerecord', 'relation', 'http', 'class', 'activerecord', 'relation', 'html', 'method']",Insecure_interaction_between_components,{'sqli': 100}
+33cd485f1641e8e304f692dd5c525cdc13973e8c,"['test', 'sqli']",Insecure_interaction_between_components,{'sqli': 100}
+f3d91abd665ac33d4e93373253ca1282c315504f,"['pull', 'request', 'presidentbeef', 'command', 'injection', 'test']",Insecure_interaction_between_components,{'command injection': 100}
+480d55c9d573f006f86ac0890a9a5a044baf397a,"['test', 'command', 'injection', 'local', 'medium', 'confidence', 'warning']",Insecure_interaction_between_components,{'command injection': 100}
+b9bc807f49ca1c036d0d56ea74745c4814c90af9,"['select', 'rail', 'weak', 'confidence', 'warning', 'rail', 'version', 'vulnerability', 'argument', 'http', 'topic', 'rubyonrails', 'security', 'cdomuvpsrmq', 'discussion']",General,{'security': 100}
+c894a6721c41e24b74cdc4caabb41068527e7ae8,"['inconsistent', 'warning', 'type', 'xsrf']",Insecure_interaction_between_components,{'xsrf': 100}
+1a7d26bd7fdeaf9c0b5e11704ed55cb30652b75b,"['security', 'warning', 'table']",General,{'security': 100}
+426f303a82f5e856ea816bc82eb98ecb020d10e1,"['line', 'number', 'csrf', 'test', 'rail']",Insecure_interaction_between_components,{'csrf': 100}
+2657684e86d98b791f0a18f2342c12892a5a40cf,"['line', 'number', 'csrf', 'test', 'rail']",Insecure_interaction_between_components,{'csrf': 100}
+94872c3efd5dc4f456d65b4c0f42b02572b271f5,"['version', 'check', 'safebuffer', 'vulnerability', 'workarounds', 'http', 'group', 'rubyonrails', 'security', 'thread']",General,{'security': 100}
+71222ecd6a5f521615e854fdaa7eafb3498f3ac2,"['select', 'vulnerability', 'rail', 'http', 'group', 'rubyonrails', 'security', 'thread', 'dacac']",General,{'security': 100}
+2c9664acd57b334e97ecb79bb36388d3e06ce02d,"['check', 'vulnerability', 'http', 'group', 'rubyonrails', 'security']",General,{'security': 100}
+1e5ba0f26072a358fd5e8933c4548c6988789534,"['check', 'response', 'vulnerability', 'http', 'group', 'rubyonrails', 'security']",General,{'security': 100}
+18070ff1fd20611c323d6da6f63d6bc7cc7699a4,"['check', 'vulnerability', 'http', 'group', 'rubyonrails', 'security']",General,{'security': 100}
+7d0cc8dccafad02230ef70359802c1f93ad98409,"['check', 'filter', 'vulnerability', 'http', 'group', 'rubyonrails', 'security']",General,{'security': 100}
+9f97910d737b82cccf6e08b96104c7610a3070d5,"['check', 'weak', 'html', 'method', 'http', 'group', 'rubyonrails', 'security', 'thread']",General,{'security': 100}
+86e289c56b07a27945a791f81ff66e2502654eaf,"['update', 'csrf', 'warning', 'message', 'assertive']",Insecure_interaction_between_components,{'csrf': 100}
+71d3030c67f000ce5415d04130969e4ec00f7051,"['check', 'csrf', 'weakness', 'http', 'group', 'rubyonrails', 'security', 'thread']",Insecure_interaction_between_components,{'csrf': 100}
+f5418defaf2e6de68fb21126ecd951fd10aaeaa6,"['check', 'vulnerability', 'attribute', 'http', 'group', 'rubyonrails', 'security', 'thread']",General,{'security': 100}

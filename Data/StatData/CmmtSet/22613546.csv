@@ -1,8 +1,18 @@
-sha,message,catetory,matched,labels
-8db6f403404815547d9bc6a7b6c9e35d126fca5a,"['credit', 'crash']",Risky_resource_management,{'crash': 100},
-68d836076063f8f4a4ababbc0ab54795b7b34dca,"['mergeartsy', 'crash', 'request', 'mergecrash']",Risky_resource_management,{'crash': 100},
-ebaf886e7cff729db78dcd6a126ef39d2afd322e,"['mergeemail', 'request', 'artsy', 'crashemail', 'crash', 'phone']",Risky_resource_management,{'crash': 100},
-477772efacf2d9fc031e0651d82e4bde5dcb92e4,"['crash', 'phone']",Risky_resource_management,{'crash': 100},
-9cc32452e8b8aed9e45609a9c9c3d5deb4b59a2d,"['number', 'email', 'login', 'attempte', 'crash', 'phone']",Risky_resource_management,{'crash': 100},
-ecbbf9958760865c34a8172f7f59a195f6274879,"['mergeartsy', 'crash', 'request', 'mergesignal', 'crash']",Risky_resource_management,{'crash': 100},
-2af5379d9ceff94543990eeced9d0191849dca58,"['crash', 'register']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+cafb50e3b52ba853c1077e7dd74a1a95d7559fda,"['pull', 'request', 'artsy', 'update', 'update', 'nokogiri', 'security', 'vulnerability']",General,{'security': 100}
+4086998b65e509f3ba8ae357729ffdee9e82762a,"['update', 'nokogiri', 'security', 'vulnerability']",General,{'security': 100}
+8db6f403404815547d9bc6a7b6c9e35d126fca5a,"['crash', 'credit', 'card', 'authorization']",General,{'crash': 100}
+68d836076063f8f4a4ababbc0ab54795b7b34dca,"['pull', 'request', 'artsy', 'sale', 'list', 'crash', 'sale', 'list', 'crash']",General,{'crash': 100}
+ebaf886e7cff729db78dcd6a126ef39d2afd322e,"['pull', 'request', 'artsy', 'email', 'crash', 'crash', 'phone', 'email', 'combo']",General,{'crash': 100}
+477772efacf2d9fc031e0651d82e4bde5dcb92e4,"['crash', 'crash', 'phone', 'email', 'combo']",General,{'crash': 100}
+75f3429ef904d86ccb69f3557c2220f20d9bdcc2,"['pull', 'request', 'artsy', 'crash', 'orta', 'crash']",General,{'crash': 100}
+1fb6e7a799c9c64c7546b0140b3eed44856fb576,"['pull', 'request', 'artsy', 'orta', 'address', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+709072dc978843856e9f02268a160e1d159768d0,"['mvvm', 'intermittent', 'crash']",General,{'crash': 100}
+2d2d10002288e1abc964115db15fc39df2ee42dd,"['pull', 'request', 'artsy', 'crasher', 'orta', 'crash', 'grid', 'view']",General,{'crash': 100}
+0fa9d2e47988dccd6c2c1c41e0178b833c970314,"['pull', 'request', 'artsy', 'crashy', 'thingy', 'orta', 'crash']",General,{'crash': 100}
+9cc32452e8b8aed9e45609a9c9c3d5deb4b59a2d,"['crash', 'attempte', 'login', 'phone', 'number', 'user', 'email', 'address']",General,{'crash': 100}
+ecbbf9958760865c34a8172f7f59a195f6274879,"['pull', 'request', 'artsy', 'crash', 'orta', 'crash']",General,{'crash': 100}
+847d41eddf5a4b145506c15dcec1fb9c649a2298,['crash'],General,{'crash': 100}
+ddb41c8e979177030b65b1c2603470090e289736,"['pull', 'request', 'natecook', 'patch', 'memory', 'leak', 'getssid']",Risky_resource_management,{'memory leak': 100}
+86f00754ae3408cfc2bc3b2a3179a47962e98800,"['memory', 'leak', 'getssid', 'return', 'value', 'swift', 'type']",Risky_resource_management,{'memory leak': 100}
+2af5379d9ceff94543990eeced9d0191849dca58,['crash'],General,{'crash': 100}

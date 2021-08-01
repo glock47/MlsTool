@@ -1,7 +1,12 @@
-sha,message,catetory,matched,labels
-79c146ef4796a2863a49ef9499960e301a84c4e9,"['support', 'insecure', 'parametrization', 'fasthttplocustincorrect', 'query']",General,{'insecure': 100},
-5d25580185c2336d60ab25742c8c73c7d276587e,"['msgpack', 'crash', 'false', 'locust', 'default', 'slave']",Risky_resource_management,{'crash': 100},
-4cdb8084f6309787b4d5edde19893ccff1e0fb44,"['msgpack', 'crash', 'false', 'locust', 'default', 'slave']",Risky_resource_management,{'crash': 100},
-53ddf6157b8465598bacb7034bd062fae859ec54,"['header', 'crash']",Risky_resource_management,{'crash': 100},
-cee346a54be6be50ee522f5a3a65828bc058587a,"['crash', 'access', 'locust']",Risky_resource_management,{'crash': 100},
-dedd76e1d9bbbc980c781f5a55e6c308fc71b582,"['crash', 'access', 'locust']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+79c146ef4796a2863a49ef9499960e301a84c4e9,"['support', 'parametrization', 'fasthttplocust', 'insecure', 'test', 'case', 'incorrect', 'query', 'string']",General,{'insecure': 100}
+5d25580185c2336d60ab25742c8c73c7d276587e,"['master', 'slave', 'message', 'true', 'msgpack', 'crash']",General,{'crash': 100}
+4cdb8084f6309787b4d5edde19893ccff1e0fb44,"['master', 'slave', 'message', 'true', 'msgpack', 'crash']",General,{'crash': 100}
+53ddf6157b8465598bacb7034bd062fae859ec54,"['dont', 'crash', 'header', 'response']",General,{'crash': 100}
+f15c2fd0f793d3442f739f6845548eee4287a78c,"['direct', 'filer', 'stack', 'overflow', 'slack', 'clarify', 'user', 'command', 'line', 'locust', 'file']",Risky_resource_management,{'stack overflow': 100}
+e398dcb7912611ea0baa775ea9111a623eb5ed91,"['show', 'task', 'ratio', 'crash', 'python']",General,{'crash': 100}
+20bde08031cd1f9efeb4f98c6e3a1ec9633b9241,"['crash', 'error']",General,{'crash': 100}
+02450e04649008fccb9c25850531fa9d980eac1e,"['crash', 'stats']",General,{'crash': 100}
+f4d18fabb4f35da4c669062ce2cb793a79c6a9bf,"['crash', 'stats']",General,{'crash': 100}
+cee346a54be6be50ee522f5a3a65828bc058587a,"['crash', 'locust', 'mode', 'server', 'access']",General,{'crash': 100}
+dedd76e1d9bbbc980c781f5a55e6c308fc71b582,"['crash', 'locust', 'mode', 'server', 'access']",General,{'crash': 100}

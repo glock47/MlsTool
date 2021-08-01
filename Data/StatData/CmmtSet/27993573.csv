@@ -1,11 +1,8 @@
-sha,message,catetory,matched,labels
-c811e3c6faba19bd96fec88f7f66f56aa8911c42,"['security', 'contact']",General,{'security': 100},
-f618617053613f9be464dc46e778636f4538c626,"['compiler', 'crash']",Risky_resource_management,{'crash': 100},
-0304067beb894c0b9a43752d7a75c0340d9b5c10,"['enumeration', 'crash']",Risky_resource_management,{'crash': 100},
-243b6a76d585d0ad5ee53841751316139f080c2d,"['mergemerge', 'colinmorelli', 'transaction', 'request', 'asyncmerge', 'queue', 'deadlock']",Risky_resource_management,{'deadlock': 100},
-8be20370d5e4f2cea3dbfec4feafafe8dd488fef,"['queue', 'deadlock']",Risky_resource_management,{'deadlock': 100},
-44cfbebedb7def15bc599cfbd5e1e5238e97a9c2,"['datastack', 'deadlock']",Risky_resource_management,{'deadlock': 100},
-28b7ba01dc7d79e3793da7a9950ae1d84a75719e,"['datastack', 'deadlock']",Risky_resource_management,{'deadlock': 100},
-718d2c9b7d464afe7af79b54bb114da6a8dc5fae,"['update', 'listmonitors', 'whole', 'ability', 'initialize', 'recreates', 'background', 'performfetch', 'preventive', 'measure', 'deadlock']",Risky_resource_management,{'deadlock': 100},
-656a99fe1240b94198d70885f1a17c1e75e2f595,"['refetch', 'safety', 'thread', 'deadlock']",Risky_resource_management,{'deadlock': 100},
-5461bb0736bc9cb12a1880155bdfec34d00e2a36,"['xcode', 'device', 'errant', 'index', 'workaround', 'crash']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+f618617053613f9be464dc46e778636f4538c626,"['issue', 'crash', 'swift', 'compiler']",General,{'crash': 100}
+0304067beb894c0b9a43752d7a75c0340d9b5c10,"['enumeration', 'crash']",General,{'crash': 100}
+243b6a76d585d0ad5ee53841751316139f080c2d,"['pull', 'request', 'colinmorelli', 'sync', 'transaction', 'async', 'deadlock', 'main', 'queue']",Risky_resource_management,{'deadlock': 100}
+8be20370d5e4f2cea3dbfec4feafafe8dd488fef,"['deadlock', 'main', 'queue']",Risky_resource_management,{'deadlock': 100}
+44cfbebedb7def15bc599cfbd5e1e5238e97a9c2,"['deadlock', 'datastack']",Risky_resource_management,{'deadlock': 100}
+28b7ba01dc7d79e3793da7a9950ae1d84a75719e,"['deadlock', 'datastack']",Risky_resource_management,{'deadlock': 100}
+718d2c9b7d464afe7af79b54bb114da6a8dc5fae,"['ability', 'initialize', 'listmonitors', 'deadlock', 'preventive', 'measure', 'apps', 'recreates', 'listmonitors', 'update', 'background', 'performfetch', 'lock', 'whole', 'chain']",Risky_resource_management,{'deadlock': 100}

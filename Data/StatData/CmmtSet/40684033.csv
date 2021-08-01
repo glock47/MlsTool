@@ -1,14 +1,6 @@
-sha,message,catetory,matched,labels
-95c79a7631b94452cbea00e4565d8d9406b7f808,"['refcell', 'deadlock']",Risky_resource_management,{'deadlock': 100},
-a0ceadfb2a457ab63f2e354cf90e4cd0240a9e32,"['multiple', 'crash']",Risky_resource_management,{'crash': 100},
-0cbdb8a20839a6d024150834c89e3727fedd474c,"['issue', 'isidenticaloctal', 'crash']",Risky_resource_management,{'crash': 100},
-26908f17ed24e1da19a9856a8da4883d6808ae0a,"['octal', 'crash']",Risky_resource_management,{'crash': 100},
-02daac61e596f80bcc08f4fddc534b65e2eee343,"['deadlock', 'macos']",Risky_resource_management,{'deadlock': 100},
-2cd67c7d74a4f38ffc8dbac22c6c84f977d836db,"['empty', 'needle', 'crash']",Risky_resource_management,{'crash': 100},
-fe9e71167fee9a693b962cc7223482ffa8d9de4f,"['integer', 'crash']",Risky_resource_management,{'crash': 100},
-6ba3553fcfc0baa7ee27e31fb78b80a408e0bf30,"['crash', 'serialization']",Risky_resource_management,{'crash': 100},
-5dddd02bca1bb0bb34e329d44fe8b7186cae0075,"['crash', 'serialization']",Risky_resource_management,{'crash': 100},
-116f5daae411cb3ae78e1e2a84147a955661bd71,"['silmeth', 'print', 'microoptmicrooptimize', 'print', 'crash', 'kwargs']",Risky_resource_management,{'crash': 100},
-9cba8d2c3a2e8c2dd5fe42f1a5dcf589223c2e40,"['circular', 'crash']",Risky_resource_management,{'crash': 100},
-b7b8a4955b287090393c7b855ac5a0bb385ea5df,"['readme', 'security', 'contact']",General,{'security': 100},
-f50e02d21cf08913aa4f2e1e669ebe30a411f74b,"['access', 'control', 'encrpytion', 'policy', 'support', 'context']",Porous_defenses,{'access control': 100},
+sha,message,catetory,matched
+801f5e95d377375bc42d64eca60d7f665b1df654,"['pull', 'request', 'whilemalloc', 'null', 'pointer', 'error', 'config', 'dereference', 'null', 'pointer', 'config', 'file', 'empty']",Risky_resource_management,{'null pointer': 100}
+fb5f37f2be07fa1a56642d815e1a73154c4ffd87,"['master', 'null', 'pointer', 'error', 'config']",Risky_resource_management,{'null pointer': 100}
+77e90bb7c2269fb89fd02642555b89ea72c18ed8,"['dereference', 'null', 'pointer', 'config', 'file', 'empty']",Risky_resource_management,{'null pointer': 100}
+b7b8a4955b287090393c7b855ac5a0bb385ea5df,"['security', 'contact', 'readme']",General,{'security': 100}
+f50e02d21cf08913aa4f2e1e669ebe30a411f74b,"['support', 'encrpytion', 'context', 'access', 'control', 'policy']",Porous_defenses,{'access control': 100}

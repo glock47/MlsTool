@@ -1,4 +1,21 @@
-sha,message,catetory,matched,labels
-9d5fcef52eb7edbe31b4ef275860ef270efbd141,"['tinyc', 'travis', 'revert', 'crash', 'sysrandomcommit', 'reverts']",Risky_resource_management,{'crash': 100},
-44dccfe6d42ab916a9bde5199ef29e382a623c9e,"['tinyc', 'travis', 'crash', 'sysrandom']",Risky_resource_management,{'crash': 100},
-3f65a212128e371e3cc45a4e07e00dfb68be72ee,"['variable', 'ambiguity', 'compiler', 'crash', 'slide', 'counter', 'slide']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+8b66d2b96960d348481612ef74a45d4c2c4048fa,"['critical', 'section', 'resource', 'shutdown', 'window', 'delete', 'critical', 'section', 'employ', 'potential', 'deadlock', 'case', 'normal', 'need', 'case']",Risky_resource_management,{'deadlock': 100}
+a31fe2a966d2342812fd91650a6291b0dd87552a,"['blabla', 'stream', 'cipher', 'default', 'round', 'variant', 'blabla', 'cipher', 'post', 'quantum', 'security']",General,{'security': 100}
+909983a9d2d4fa9ee34fcfb349e0d853e557d9b2,"['memory', 'leak', 'overflow', 'addition', 'test']",Risky_resource_management,{'memory leak': 100}
+9d5fcef52eb7edbe31b4ef275860ef270efbd141,"['revert', 'tinyc', 'crash', 'travis', 'sysrandom', 'reverts']",General,{'crash': 100}
+44dccfe6d42ab916a9bde5199ef29e382a623c9e,"['tinyc', 'crash', 'travis']",General,{'crash': 100}
+514150d8b3e3960e551048411712c66b0c91f33a,"['master', 'github', 'jedisct', 'libsodium', 'master', 'github', 'jedisct', 'libsodium', 'chmod', 'chmod', 'compiler', 'assertion', 'secretstream', 'internal', 'nonce', 'endian', 'test', 'null', 'pointer', 'regen', 'emscripten', 'symbol', 'messagesbytes', 'messagebytes', 'generate', 'emscripten', 'symbol', 'update', 'wasm', 'constant', 'salsa', 'messagebyte', 'messagebytes', 'constcheck', 'constant', 'update', 'emscripten', 'symbol', 'list', 'update', 'emscripten', 'symbol', 'list', 'bump', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+fd4478288e72d694a311ed9c639badd91f08dd5c,"['test', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+be58b2e6664389d9c7993b55291402934b43b3ca,"['null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+765ba55cdc9ef6f4b9e9fb34403da8790d2956f0,"['abort', 'function', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+3f65a212128e371e3cc45a4e07e00dfb68be72ee,"['slide', 'intermediate', 'variable', 'slide', 'ambiguity', 'compiler', 'crash', 'code', 'slide', 'loop', 'counter']",General,{'crash': 100}
+0e67b4073ceea0347603eb5c779473abb59b3639,"['pull', 'request', 'sneves', 'master', 'crash']",General,{'crash': 100}
+0a590b07b23bc8d6c707bbcb2705ee0dd89fac3f,"['decryption', 'function', 'null', 'pointer', 'output', 'check']",Risky_resource_management,{'null pointer': 100}
+2aa703fcc7eb1ff284c272f77122fe73b8047c4e,"['previous', 'behavior', 'return', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+69d9553ec25818671c7a0bf609b69df5c3b2448e,"['test', 'null', 'pointer', 'message', 'size']",Risky_resource_management,{'null pointer': 100}
+d01e1f48754f9514be922d70f51b141a4be2c899,"['error', 'path', 'signature', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+8a8463e4ac60a6df291c675f222ea0aff0573d5f,"['plug', 'memory', 'leak', 'error', 'path', 'easy', 'interface']",Risky_resource_management,{'memory leak': 100}
+fda08703fc570c32e2ca1b5e1ab89fb0573f4266,"['salsa', 'zero', 'sensitive', 'data']",Porous_defenses,{'sensitive data': 100}
+f553bb4bf22a6a8e4fa5f69cfbf91ce95327b790,"['john', 'regehr', 'clang', 'integer', 'overflow']",Risky_resource_management,{'integer overflow': 100}
+7544cba1fa5f7cfc0d86e6456a90c17bc160d6cc,"['test', 'minimum', 'case', 'crash']",General,{'crash': 100}
+08a11d1a05e5e1885d2601d789231b7313ce1440,"['direct', 'interface', 'function', 'default', 'function', 'understanding', 'ensures', 'integer', 'operand', 'multiplication', 'operation', 'specific', 'limit', 'limit', 'order', 'nacl', 'standard', 'group', 'element', 'user', 'integer', 'subject', 'wholesale', 'reason', 'nacl', 'easy', 'purpose', 'public', 'private', 'diffie', 'hellman', 'expose', 'power', 'user', 'functionality', 'semiprivate', 'http', 'gist', 'github', 'tarcieri', 'double', 'similar', 'version', 'sage', 'past', 'week', 'nacl', 'scalar', 'multiplication', 'function', 'performs', 'experiment', 'semiprivate', 'nacl', 'serious', 'intention', 'part', 'cryptosystem', 'sort', 'proof', 'security', 'guess', 'security', 'property', 'power', 'user', 'apis', 'shouty', 'name']",General,{'security': 100}

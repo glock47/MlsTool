@@ -1,6 +1,7 @@
-sha,message,catetory,matched,labels
-1254847093a2b7e2fa3029367f472ab7bcfdf9b0,"['mergealice', 'crash', 'request', 'mergeissue', 'crash']",Risky_resource_management,{'crash': 100},
-d01db3d97a4a5a64123232a2274aa5d509cfb75b,"['issue', 'element', 'crash']",Risky_resource_management,{'crash': 100},
-25399297bb457f7fcf8e3f91e85945b255b111b5,"['mergebranch', 'security']",General,{'security': 100},
-0d18d24a94589650adbcaf7738bae5e4c7fcc475,"['fetchurl', 'dragonflybecomes', 'fetch', 'webserver', 'crash', 'object', 'addressableimpossible', 'webmock']",Risky_resource_management,{'crash': 100},
-a8775aacf9e5c81cf11bec34b7afa7f27ddfe277,"['update', 'security']",General,{'security': 100},
+sha,message,catetory,matched
+0d18d24a94589650adbcaf7738bae5e4c7fcc475,"['fetchurl', 'edge', 'case', 'certain', 'redirects', 'return', 'object', 'parse', 'crash', 'string', 'crash', 'addressable', 'parse', 'http', 'example', 'http', 'fexample', 'http', 'example', 'http', 'example', 'webserver', 'fetch', 'impossible', 'test', 'edge', 'case', 'webmock', 'addressable']",General,{'crash': 100}
+df8021631ef4d57f44a5cdfc98cdb8240862127c,"['http', 'open', 'redirect', 'http']",Insecure_interaction_between_components,{'open redirect': 100}
+a8775aacf9e5c81cf11bec34b7afa7f27ddfe277,"['security', 'update', 'note']",General,{'security': 100}
+f54167b31160f3a1160ed740e78ecdf395c7fb2b,"['macro', 'name', 'alias', 'method', 'chain', 'multiple', 'macro', 'stack', 'overflow', 'chain', 'name', 'macro', 'name', 'part', 'chain', 'name']",Risky_resource_management,{'stack overflow': 100}
+3952bc099b0a64c89fd44206c42ad61ea322df19,"['security', 'file', 'data', 'store', 'cherry']",General,{'security': 100}
+e70c0f066308360ba0a0984e3157db0873311309,"['simple', 'matcher', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}

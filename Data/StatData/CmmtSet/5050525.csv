@@ -1,24 +1,24 @@
-sha,message,catetory,matched,labels
-2f556c38c08d6d19bed115cc5ab5e0e369d9b4d0,"['crash', 'serializer', 'subset']",Risky_resource_management,{'crash': 100},
-defe9b6da018bc85750c999454c51fde0cadb9b2,"['crash', 'overflow', 'bufferissue', 'detail']",Risky_resource_management,{'crash': 100},
-b2fcca6e14afc8085cc1c2491b2d7c780dad1450,"['crash', 'fuzzerdetail', 'testcase']",Risky_resource_management,{'crash': 100},
-e1a5ce6aa661251e998df7b3612a1d5d39e28827,"['crash', 'testcase', 'fuzzerstringoffset', 'overflow', 'return']",Risky_resource_management,{'crash': 100},
-2d940946d5af0e3869a2324b6e36ca8ea3698c48,"['crash', 'mysterycaught', 'fuzzerstack', 'return', 'error', 'xffcfc', 'address', 'xfcaedae', 'xffcfdxfcaedae', 'threadscariness', 'return', 'stackconst', 'harfbuzz', 'subset', 'layoutsinglesubst', 'layout', 'dispatch', 'harfbuzz', 'reproduceoperator', 'return']",Risky_resource_management,{'crash': 100},
-d3d2f32c6e85de1d7fbbb18afef356e09110e61c,"['overrun', 'bufferoverrun', 'check']",Risky_resource_management,{'overrun': 100},
-62376a7d983442408059b0b8987e7ca8d1de154e,"['integer', 'overflow', 'ignoreissue', 'harfbuzz']",Risky_resource_management,{'integer overflow': 100},
-9b00b9a10d5fdfd2d9deb1b0e847695797b7e09b,"['subset', 'deadlock', 'output']",Risky_resource_management,{'deadlock': 100},
-994eb7744c530bbaa5d6d8b8e07ca936e81aade8,"['crash', 'buffer']",Risky_resource_management,{'crash': 100},
-85630996b8afa699f7b5d19346cdf5c72fcd6e2d,"['overrun', 'bengali', 'buffer', 'positioningwhatsoever', 'security', 'implicationextra', 'elementdiscoveredissue', 'behdad', 'harfbuzzissue', 'detail']",Risky_resource_management,{'overrun': 100},
-b717cd7be506217e466e32a456df9af4d2720c0c,"['reconfigure', 'emoji', 'cascadeissue', 'crash']",Risky_resource_management,{'crash': 100},
-489acf6c3180d3726158864fa0e1adeea3c23fae,"['crash', 'coretextissue', 'behdad', 'harfbuzz']",Risky_resource_management,{'crash': 100},
-e97835ad43f5c68e8cb29599246cae0f4461d663,"['crash', 'format']",Risky_resource_management,{'crash': 100},
-0afedaa96c81b63774a4a0ef9b4cb4995d24ec9e,"['crash', 'shape']",Risky_resource_management,{'crash': 100},
-7148dc1a978610af25b4f490691a62d709c8c463,"['crash', 'graphite', 'language']",Risky_resource_management,{'crash': 100},
-03408ce73d003ed4e58e3f8472f9445e72b86bee,"['overrun', 'buffer', 'possibleclean']",Risky_resource_management,{'overrun': 100},
-d2b3ab9ecebbf46cb9dac1f09c17379c50ea4575,"['crash', 'bogus']",Risky_resource_management,{'crash': 100},
-4274ed7ab6fb03fbf8eaaa43ab06647dc0beed79,"['crash', 'bogus']",Risky_resource_management,{'crash': 100},
-b485da0b719cb03cc33da57802c5151301664c2f,"['crash', 'graphite']",Risky_resource_management,{'crash': 100},
-4b8487d83e0c10076a6c573cb3487790ce366607,"['mystery', 'couple', 'behavior', 'crash', 'invalid', 'wrong', 'infinite', 'memoryinvolvedvaluerecord', 'pointer', 'pairposformat', 'fallout', 'updatedremove', 'sizeofnever', 'pairpos', 'sizeof', 'directlycleanedintroduces', 'memory', 'pangocrash', 'pangoosx', 'infinitedevice', 'adjustment', 'wrongfreetype', 'fallout', 'shiftfixeddevice', 'sanitize', 'record']",Risky_resource_management,{'crash': 100},
-917c227500305aee543981ad24a39f868c5ca0b7,"['unlockinghebrew', 'character', 'crash', 'gnome', 'application']",Risky_resource_management,{'crash': 100},
-b6c06c56a33f1e1ec15e3b525ecafe8fadc679db,"['crash', 'libertine', 'linuxesfahbod', 'behdadcrash', 'libertine', 'linuxharfbuzz', 'reverse', 'opentype', 'pango']",Risky_resource_management,{'crash': 100},
-d4f773ef92fdbaa7e61e6577db5e9b2846a100a4,"['overrun', 'buffer', 'glyph', 'pervasiveotaylor', 'tayloropentype', 'pangooverrun', 'buffer', 'glyph']",Risky_resource_management,{'overrun': 100},
+sha,message,catetory,matched
+2f556c38c08d6d19bed115cc5ab5e0e369d9b4d0,"['crash', 'serializer', 'subset']",General,{'crash': 100}
+defe9b6da018bc85750c999454c51fde0cadb9b2,"['crash', 'overflow', 'bufferissue', 'detail']",General,{'crash': 100}
+b2fcca6e14afc8085cc1c2491b2d7c780dad1450,"['crash', 'fuzzerdetail', 'testcase']",General,{'crash': 100}
+e1a5ce6aa661251e998df7b3612a1d5d39e28827,"['crash', 'testcase', 'fuzzerstringoffset', 'overflow', 'return']",General,{'crash': 100}
+2d940946d5af0e3869a2324b6e36ca8ea3698c48,"['crash', 'mysterycaught', 'fuzzerstack', 'return', 'error', 'xffcfc', 'address', 'xfcaedae', 'xffcfdxfcaedae', 'threadscariness', 'return', 'stackconst', 'harfbuzz', 'subset', 'layoutsinglesubst', 'layout', 'dispatch', 'harfbuzz', 'reproduceoperator', 'return']",General,{'crash': 100}
+d3d2f32c6e85de1d7fbbb18afef356e09110e61c,"['overrun', 'bufferoverrun', 'check']",Risky_resource_management,{'overrun': 100}
+62376a7d983442408059b0b8987e7ca8d1de154e,"['integer', 'overflow', 'ignoreissue', 'harfbuzz']",Risky_resource_management,{'integer overflow': 100}
+9b00b9a10d5fdfd2d9deb1b0e847695797b7e09b,"['subset', 'deadlock', 'output']",Risky_resource_management,{'deadlock': 100}
+994eb7744c530bbaa5d6d8b8e07ca936e81aade8,"['crash', 'buffer']",General,{'crash': 100}
+85630996b8afa699f7b5d19346cdf5c72fcd6e2d,"['overrun', 'bengali', 'buffer', 'positioningwhatsoever', 'security', 'implicationextra', 'elementdiscoveredissue', 'behdad', 'harfbuzzissue', 'detail']",Risky_resource_management,{'overrun': 100}
+b717cd7be506217e466e32a456df9af4d2720c0c,"['reconfigure', 'emoji', 'cascadeissue', 'crash']",General,{'crash': 100}
+489acf6c3180d3726158864fa0e1adeea3c23fae,"['crash', 'coretextissue', 'behdad', 'harfbuzz']",General,{'crash': 100}
+e97835ad43f5c68e8cb29599246cae0f4461d663,"['crash', 'format']",General,{'crash': 100}
+0afedaa96c81b63774a4a0ef9b4cb4995d24ec9e,"['crash', 'shape']",General,{'crash': 100}
+7148dc1a978610af25b4f490691a62d709c8c463,"['crash', 'graphite', 'language']",General,{'crash': 100}
+03408ce73d003ed4e58e3f8472f9445e72b86bee,"['overrun', 'buffer', 'possibleclean']",Risky_resource_management,{'overrun': 100}
+d2b3ab9ecebbf46cb9dac1f09c17379c50ea4575,"['crash', 'bogus']",General,{'crash': 100}
+4274ed7ab6fb03fbf8eaaa43ab06647dc0beed79,"['crash', 'bogus']",General,{'crash': 100}
+b485da0b719cb03cc33da57802c5151301664c2f,"['crash', 'graphite']",General,{'crash': 100}
+4b8487d83e0c10076a6c573cb3487790ce366607,"['mystery', 'couple', 'behavior', 'crash', 'invalid', 'wrong', 'infinite', 'memoryinvolvedvaluerecord', 'pointer', 'pairposformat', 'fallout', 'updatedremove', 'sizeofnever', 'pairpos', 'sizeof', 'directlycleanedintroduces', 'memory', 'pangocrash', 'pangoosx', 'infinitedevice', 'adjustment', 'wrongfreetype', 'fallout', 'shiftfixeddevice', 'sanitize', 'record']",General,{'crash': 100}
+917c227500305aee543981ad24a39f868c5ca0b7,"['unlockinghebrew', 'character', 'crash', 'gnome', 'application']",General,{'crash': 100}
+b6c06c56a33f1e1ec15e3b525ecafe8fadc679db,"['crash', 'libertine', 'linuxesfahbod', 'behdadcrash', 'libertine', 'linuxharfbuzz', 'reverse', 'opentype', 'pango']",General,{'crash': 100}
+d4f773ef92fdbaa7e61e6577db5e9b2846a100a4,"['overrun', 'buffer', 'glyph', 'pervasiveotaylor', 'tayloropentype', 'pangooverrun', 'buffer', 'glyph']",Risky_resource_management,{'overrun': 100}

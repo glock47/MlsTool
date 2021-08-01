@@ -1,13 +1,18 @@
-sha,message,catetory,matched,labels
-7e842a117bb33eadb80ed39bac3b0911970de3ab,"['upgrade', 'nokogori', 'issue', 'security']",General,{'security': 100},
-a5720a06c1fa447ee9eb8418e2b11d586971af99,"['update', 'bundle', 'security', 'devise', 'issue']",General,{'security': 100},
-a8cb30439855107c9a52c3b4db2545fc28434679,"['nokogiri', 'securityincludes', 'sparklemotion', 'update', 'security', 'nokogirirelease', 'sparklemotion', 'nokogirinokogiri', 'sparklemotion', 'changelog', 'mastercommits', 'sparklemotion', 'nokogiri', 'comparedependabot', 'support']",General,{'security': 100},
-10ebe4d57b540e16c4d191952ae9e7bd4ceddbed,"['oauth', 'upgrade', 'security', 'doorkeeper', 'issuedoorkeeper', 'upgradeoauth', 'application', 'confidentialoauthoauth', 'style', 'authorization']",General,{'security': 100},
-6909b3382c906cc3e95e3568f7f48c50b988e9c2,"['loofah', 'issue', 'flavorjones', 'security']",General,{'security': 100},
-e2ff21c006a0b23f6520026fa0687f140c5d9939,"['update', 'security']",General,{'security': 100},
-da21062acc7210a7cabd14ca3e1e6ed0e17d0aa4,"['brakeman', 'security']",General,{'security': 100},
-c6fcac4f0e3bb823f5696dfb849764c632359e38,"['update', 'security']",General,{'security': 100},
-be494c1888250b03687dc7adc3097b603ecbd92e,"['osvdb', 'update', 'security']",General,{'security': 100},
-e743374731fee0a394d92d77b9e0cf13aa1b94e9,"['upgrade', 'nokogiri', 'security']",General,{'security': 100},
-dd6d12f061d60a708cc682718634ec7f14baae9e,"['upgradingaction', 'vulnerability', 'parameter', 'multipleebefd', 'rubyonrails', 'group', 'security', 'thread']",General,{'security': 100},
-24fc64811a529d6468da0db3d1be18c5145a1428,"['pygments', 'crash', 'production']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+7e842a117bb33eadb80ed39bac3b0911970de3ab,"['upgrade', 'nokogori', 'security', 'issue']",General,{'security': 100}
+52d827d1f95fd404dac954e62456325889529193,"['revert', 'carrierwave', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+a5720a06c1fa447ee9eb8418e2b11d586971af99,"['bundle', 'update', 'devise', 'security', 'issue']",General,{'security': 100}
+5251d9d81086139b1b3743357006599dda43011b,"['security', 'bump', 'loofah', 'bump', 'loofah', 'http', 'github', 'flavorjones', 'loofah', 'update', 'security', 'release', 'note', 'http', 'github', 'flavorjones', 'loofah', 'release', 'changelog', 'http', 'github', 'flavorjones', 'loofah', 'blob', 'master', 'changelog', 'commits', 'http', 'github', 'flavorjones', 'loofah', 'dependabot', 'support', 'dependabot']",General,{'security': 100}
+a8cb30439855107c9a52c3b4db2545fc28434679,"['security', 'bump', 'nokogiri', 'bump', 'nokogiri', 'http', 'github', 'sparklemotion', 'nokogiri', 'update', 'security', 'release', 'note', 'http', 'github', 'sparklemotion', 'nokogiri', 'release', 'changelog', 'http', 'github', 'sparklemotion', 'nokogiri', 'blob', 'master', 'changelog', 'commits', 'http', 'github', 'sparklemotion', 'nokogiri', 'dependabot', 'support', 'dependabot']",General,{'security': 100}
+10ebe4d57b540e16c4d191952ae9e7bd4ceddbed,"['upgrade', 'doorkeeper', 'oauth', 'security', 'issue', 'upgrade', 'doorkeeper', 'oauth', 'application', 'confidential', 'oauth', 'oauth', 'authorization', 'page', 'style']",General,{'security': 100}
+6909b3382c906cc3e95e3568f7f48c50b988e9c2,"['loofah', 'security', 'issue', 'flavorjones', 'loofah']",General,{'security': 100}
+e2ff21c006a0b23f6520026fa0687f140c5d9939,"['security', 'update']",General,{'security': 100}
+da21062acc7210a7cabd14ca3e1e6ed0e17d0aa4,"['brakeman', 'security', 'warning']",General,{'security': 100}
+c6fcac4f0e3bb823f5696dfb849764c632359e38,"['security', 'update']",General,{'security': 100}
+be494c1888250b03687dc7adc3097b603ecbd92e,"['security', 'update', 'osvdb']",General,{'security': 100}
+e743374731fee0a394d92d77b9e0cf13aa1b94e9,"['upgrade', 'devise', 'nokogiri', 'security', 'issue']",General,{'security': 100}
+55d9e59774e8a2c26bfe2845a9c98cb434b0a2d2,"['pull', 'request', 'ruby', 'china', 'update', 'memory', 'leaky', 'upgrade', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+6017fa0bc072cf4c09b6a2018779fca9436ac658,"['upgrade', 'memory', 'leak', 'asoftco', 'leaky', 'http', 'github', 'asoftco', 'leaky']",Risky_resource_management,{'memory leak': 100}
+650aafd92338746289f4050d86e7e2b57c6c7ef9,['security'],General,{'security': 100}
+dd6d12f061d60a708cc682718634ec7f14baae9e,"['multiple', 'vulnerability', 'parameter', 'action', 'pack', 'http', 'group', 'rubyonrails', 'security', 'thread']",General,{'security': 100}
+24fc64811a529d6468da0db3d1be18c5145a1428,"['crash', 'production', 'environment']",General,{'crash': 100}

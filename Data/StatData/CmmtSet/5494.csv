@@ -1,6 +1,16 @@
-sha,message,catetory,matched,labels
-80e21b89976378e510cf928b6182509f7e741804,"['analysis', 'warning', 'codeqlremove', 'workflow', 'checkout', 'issue', 'pleaseaction', 'reviewdogworkflow', 'necessary', 'warning', 'codeql', 'security', 'checkout']",General,{'security': 100},
-f60bac3708e31f6ae0c57bcf94cf85563bdadd43,"['baaee', 'mergemerge', 'hayabusa', 'project', 'security', 'requestenvironment', 'execution', 'secret', 'variable', 'projectconf', 'command']",General,{'security': 100},
-9dfeb5074498c1276dce778b765bbe9bb11c7dd1,"['suite', 'crash', 'potential']",Risky_resource_management,{'crash': 100},
-02cc9992e915c024650ddc77a91064f7a4252914,"['potential', 'security', 'prototype', 'issue']",General,{'security': 100},
-fea6bc1a21011c82290f6b5eeb3c3a34e9cdc62b,"['delimiter', 'prototype', 'string', 'script', 'strip', 'sensitive', 'security', 'close', 'hijack', 'server', 'external', 'comment', 'default', 'rogue', 'response', 'specify']",General,{'security': 100},
+sha,message,catetory,matched
+36b7ec501b1b71a2f6c034669105ea37721184a9,"['pull', 'request', 'master', 'memory', 'leak', 'event']",Risky_resource_management,{'memory leak': 100}
+dd3abbbac7c7ce91994fb320aadcbe8e11449889,"['memory', 'leak', 'event', 'leak', 'memory', 'event', 'cache']",Risky_resource_management,{'memory leak': 100}
+9dfeb5074498c1276dce778b765bbe9bb11c7dd1,"['potential', 'crash', 'entire', 'test', 'suite']",General,{'crash': 100}
+e9c18bcd7dcb500ddf515aa1b711e3e81d94288b,"['memory', 'leak', 'prototype']",Risky_resource_management,{'memory leak': 100}
+c21b3191c172d003eec2a6046cc1924a8002c347,"['massive', 'rewrite', 'event', 'observation', 'separate', 'closure', 'free', 'object', 'memory', 'leak', 'need', 'unregister', 'event', 'listener']",Risky_resource_management,{'memory leak': 100}
+d22a9988faefd918e9f2c406d2bada064b0d6b90,"['null', 'reference', 'element', 'cache', 'page', 'unload', 'need', 'addition', 'event', 'clean', 'memory', 'leak', 'state', 'ykphuah', 'andrew', 'dupont']",Risky_resource_management,{'memory leak': 100}
+3977e66796a415234eb0278b077fafad82d63ed2,"['element', 'store', 'element', 'retrieve', 'safe', 'hash', 'storage', 'element', 'metadata', 'memory', 'leak', 'element', 'getstorage', 'element', 'storage', 'hash', 'mootools']",Risky_resource_management,{'memory leak': 100}
+b628c6de5cece138479d85e0915c55667fdf5991,"['potential', 'memory', 'leak', 'firefox', 'state']",Risky_resource_management,{'memory leak': 100}
+02cc9992e915c024650ddc77a91064f7a4252914,"['potential', 'security', 'issue', 'cross', 'site', 'ajax', 'request']",Insecure_interaction_between_components,{'cross site': 100}
+23823048d13e1d70bee26908760381e943f7e483,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+9ff57b042d30b527ff1c96feec863042b28926a8,"['crash', 'safari', 'string', 'evaljson', 'true', 'large', 'string', 'string', 'isjson', 'close', 'tobie', 'langel']",General,{'crash': 100}
+1e13c1d0b70f47aed31d7d2b28aff4a96d8f7fc2,"['crash', 'safari', 'string', 'stripscripts', 'string', 'extractscripts', 'json', 'data']",General,{'crash': 100}
+fea6bc1a21011c82290f6b5eeb3c3a34e9cdc62b,"['strip', 'security', 'delimiter', 'comment', 'json', 'string', 'default', 'delimiter', 'regular', 'expression', 'wrap', 'json', 'response', 'body', 'delimiter', 'server', 'side', 'rogue', 'external', 'site', 'hijack', 'sensitive', 'data', 'script']",Porous_defenses,{'sensitive data': 100}
+4c90be6a30c55b2bc173252790be90ad32f83263,"['crash', 'safari', 'extractscripts', 'large', 'script']",General,{'crash': 100}
+a6984e692be9a9803312965e58ee103e72e598fd,"['crash', 'safari', 'nodelist', 'object', 'text', 'node', 'thomas', 'fuchs']",General,{'crash': 100}

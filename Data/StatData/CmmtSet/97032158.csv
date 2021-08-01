@@ -1,12 +1,15 @@
-sha,message,catetory,matched,labels
-da2a26f6da6f659f702a5e54604e30f86b3eb132,"['buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100},
-e622298db63c1713d142e5bafc67fbea7d866621,"['check', 'querychange', 'exception', 'query', 'invalid', 'crash', 'thoughcheck', 'refresh', 'query', 'index']",Risky_resource_management,{'crash': 100},
-a3840ba10f947558efb62250225747eb5621f749,"['state', 'stuff', 'transit', 'encode', 'inspect', 'error', 'crash']",Risky_resource_management,{'crash': 100},
-02f7f3b48628ad16a7277cd899c4824aa12880dc,"['security', 'example']",General,{'security': 100},
-228617a69ddc155cab65eb9c9c6f26308e217bf9,"['security', 'fixedminute']",General,{'security': 100},
-a840f9aed0e4913be3a3c96f8614c444e3b4fce6,"['server', 'query', 'security']",General,{'security': 100},
-ae1b3065cee84d5cbc2835148a6e0114e5d3ca4a,"['abebc', 'mergefeature', 'openid', 'console', 'security', 'servercomment', 'testerchangelogrequest']",General,{'security': 100},
-e4788ed426afa70ea7be67f7a44905b0d6f32130,"['openid', 'console', 'security', 'servercomment', 'testerchangelog']",General,{'security': 100},
-3d34fb6d814a1c2268529f298441b898e20d92d5,"['openid', 'server', 'authentication', 'supportoptional', 'openid', 'validates', 'request', 'claimopenid', 'configuration', 'route', 'responds', 'example', 'config', 'configuration', 'server', 'component', 'communicateconfigopenid', 'localhost', 'issuermatch', 'openid', 'console', 'security', 'audienceresponse', 'fragmentconfigauthority', 'openid', 'routematch', 'openid', 'console', 'security', 'audienceclientemail', 'scope', 'openid', 'console', 'server', 'component', 'constructorrequest']",General,{'security': 100},
-1fa698ed729dfdc015f38207a0cd2acec3e63140,"['browser', 'crash']",Risky_resource_management,{'crash': 100},
-54901c97ab9e8d7b8c266b7620c32d0cdb1290ec,"['storyproperty', 'dconfig', 'system', 'overrideconfig', 'alwaysconfig', 'valid', 'crash']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+e622298db63c1713d142e5bafc67fbea7d866621,"['query', 'check', 'refresh', 'exception', 'crash', 'query', 'invalid', 'spec', 'check', 'check', 'refresh', 'index', 'root', 'wrong', 'todo']",General,{'crash': 100}
+0a3ad68b9fb352978be8912884f1dc4004b93462,"['bugfix', 'graph', 'infinite', 'loop', 'data', 'mysterious', 'stack', 'overflow']",Risky_resource_management,{'stack overflow': 100}
+a3840ba10f947558efb62250225747eb5621f749,"['transit', 'encode', 'default', 'inspect', 'crash', 'weird', 'stuff', 'state']",General,{'crash': 100}
+387dd9edec79e637e700bb455ff57dadcd125532,"['wrap', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+02f7f3b48628ad16a7277cd899c4824aa12880dc,"['websockets', 'example', 'security']",General,{'security': 100}
+16591f27d2642280c5b8d63692048862aac1bc5d,"['csrf', 'helper']",Insecure_interaction_between_components,{'csrf': 100}
+228617a69ddc155cab65eb9c9c6f26308e217bf9,"['security', 'demo']",General,{'security': 100}
+a840f9aed0e4913be3a3c96f8614c444e3b4fce6,"['server', 'query', 'security']",General,{'security': 100}
+af8956a478607fed9cac313e9b1467993b9916e1,"['mark', 'ident', 'load', 'subqueries', 'idents', 'crash', 'item', 'disappear']",General,{'crash': 100}
+ae1b3065cee84d5cbc2835148a6e0114e5d3ca4a,"['story', 'summary', 'openid', 'helper', 'security', 'console', 'server', 'comment', 'tester', 'changelog']",General,{'security': 100}
+e4788ed426afa70ea7be67f7a44905b0d6f32130,"['story', 'summary', 'openid', 'helper', 'security', 'console', 'server', 'comment', 'tester', 'changelog']",General,{'security': 100}
+1fa698ed729dfdc015f38207a0cd2acec3e63140,"['story', 'summary', 'xhrio', 'test', 'crash', 'browser', 'proper', 'plugin']",General,{'crash': 100}
+0dc6f47e92e41ba4e2695c9188fc8df110ac6268,"['story', 'override', 'system', 'property', 'config', 'config', 'path', 'load', 'config', 'crash', 'config', 'path', 'valid', 'file']",General,{'crash': 100}
+54901c97ab9e8d7b8c266b7620c32d0cdb1290ec,"['story', 'override', 'system', 'property', 'config', 'config', 'path', 'load', 'config', 'crash', 'config', 'path', 'valid', 'file']",General,{'crash': 100}

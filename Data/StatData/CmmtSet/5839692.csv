@@ -1,16 +1,18 @@
-sha,message,catetory,matched,labels
-2de2e010005f0424f872950abf6155b4aa9a1963,"['security', 'client', 'issue', 'policy', 'content']",General,{'security': 100},
-b0868c399ee965727a97de303452b9841fd315e3,"['security', 'chore', 'dependency', 'update', 'markedrenovate']",General,{'security': 100},
-41d1d0cf99f53df0569991a85489d3c8bc095af5,"['parser', 'security', 'vulnerability', 'yargs']",General,{'security': 100},
-0d5c68143d780e631cdaf09081822fc87d7cb3ba,"['undefined', 'crash', 'server']",Risky_resource_management,{'crash': 100},
-078ddca5c93a49ef02b68b098ca05134f2ee9016,"['header', 'stricter', 'security', 'server', 'checkheader', 'stricter', 'security', 'server', 'checkcomment']",General,{'security': 100},
-8fb67c94af35b0d14b5f9e9d51ec030d76a01dad,"['security', 'dependency', 'yargs', 'package', 'vulnerability']",General,{'security': 100},
-ba65ec1b7808ccfe540d8f53da2785309c1c5361,"['security', 'github', 'package', 'warning', 'coverage']",General,{'security': 100},
-ef18fc86a3e72577e69d527138906b266adb30f5,"['auditjs', 'security', 'sockjs', 'dependency', 'update', 'vulnerability', 'warning']",General,{'security': 100},
-6b2d7a0e023d233a079aa5c75fb82f501a91deeb,"['security', 'express']",General,{'security': 100},
-4a1a3bfddeb13cdc691363beef573f293ce944e1,"['mergemerge', 'request', 'mjrussellproxy', 'crash', 'middleware', 'websocket']",Risky_resource_management,{'crash': 100},
-43f66c271701038af0f78b02a67461161095c0fb,"['proxy', 'crash', 'middleware', 'websocketproxy', 'middleware', 'chimurai']",Risky_resource_management,{'crash': 100},
-4b58b42650341494cd7ad9688b72d66da3858e43,"['mergewatsoncj', 'insecure', 'proxy', 'requestproxy', 'certificate']",General,{'insecure': 100},
-b533e2d3664bf5e7c97ff7abc30c4f0e02dea44a,"['dddafmerge', 'request', 'mrsharpoblunto', 'mastercause', 'proxy', 'crash', 'server', 'request', 'failure']",Risky_resource_management,{'crash': 100},
-171c3c82b401745a997378cc82420a2a713d39a0,"['proxy', 'crash', 'server', 'request', 'failure']",Risky_resource_management,{'crash': 100},
-6c60840899151b89fcb3568c7c8fe4290e50daa8,"['exception', 'proxyupstream', 'unavailable', 'server', 'reloadederror', 'webpack', 'crash', 'server']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+2de2e010005f0424f872950abf6155b4aa9a1963,"['content', 'security', 'policy', 'issue', 'client']",General,{'security': 100}
+41d1d0cf99f53df0569991a85489d3c8bc095af5,"['deps', 'security', 'vulnerability', 'yargs', 'parser']",General,{'security': 100}
+0d5c68143d780e631cdaf09081822fc87d7cb3ba,"['server', 'crash']",General,{'crash': 100}
+078ddca5c93a49ef02b68b098ca05134f2ee9016,"['server', 'stricter', 'header', 'security', 'check', 'server', 'stricter', 'header', 'security', 'check', 'server', 'server', 'impl', 'work']",General,{'security': 100}
+1fe82dee4eef600946b2601a2d853cffbe65db0a,"['travis', 'node', 'crash']",General,{'crash': 100}
+8fb67c94af35b0d14b5f9e9d51ec030d76a01dad,"['package', 'yargs', 'security', 'vulnerability', 'dependency', 'http', 'snyk', 'vuln']",General,{'security': 100}
+ba65ec1b7808ccfe540d8f53da2785309c1c5361,"['github', 'security', 'warning', 'code', 'coverage', 'package']",General,{'security': 100}
+ef18fc86a3e72577e69d527138906b266adb30f5,"['update', 'sockjs', 'dependency', 'auditjs', 'security', 'vulnerability', 'warning']",General,{'security': 100}
+6b2d7a0e023d233a079aa5c75fb82f501a91deeb,"['bump', 'express', 'security']",General,{'security': 100}
+1af8f0e508e08b4e8f036311ae6c72b77f77600f,"['header', 'property', 'validation', 'multiple', 'cooky', 'access', 'control', 'origin', 'support', 'multiple', 'domain']",Porous_defenses,{'access control': 100}
+f3a4ac6db1da9300ec20e19f49b1dfc09bb7d3e4,"['security', 'host', 'check']",General,{'security': 100}
+4a1a3bfddeb13cdc691363beef573f293ce944e1,"['pull', 'request', 'mjrussell', 'bump', 'bump', 'http', 'proxy', 'middleware', 'websocket', 'crash']",General,{'crash': 100}
+43f66c271701038af0f78b02a67461161095c0fb,"['bump', 'http', 'proxy', 'middleware', 'websocket', 'crash', 'chimurai', 'http', 'proxy', 'middleware']",General,{'crash': 100}
+4b58b42650341494cd7ad9688b72d66da3858e43,"['pull', 'request', 'watsoncj', 'insecure', 'proxy', 'http', 'proxy', 'certificate', 'check']",General,{'insecure': 100}
+b533e2d3664bf5e7c97ff7abc30c4f0e02dea44a,"['pull', 'request', 'mrsharpoblunto', 'master', 'failure', 'proxy', 'request', 'server', 'crash']",General,{'crash': 100}
+171c3c82b401745a997378cc82420a2a713d39a0,"['failure', 'proxy', 'request', 'server', 'crash']",General,{'crash': 100}
+6c60840899151b89fcb3568c7c8fe4290e50daa8,"['proxy', 'error', 'exception', 'upstream', 'server', 'reason', 'unavailable', 'example', 'code', 'webpack', 'server', 'error', 'crash']",General,{'crash': 100}

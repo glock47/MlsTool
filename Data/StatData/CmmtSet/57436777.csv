@@ -1,14 +1,19 @@
-sha,message,catetory,matched,labels
-f737412469dfaaa623f87eedd99464d12b7ad8ae,"['dbfaa', 'mergerequest', 'bugfix', 'cherrypy', 'mergecheck', 'version', 'python', 'security']",General,{'security': 100},
-26199622c510e3512634e24b05531b928b29035e,"['mergeheader', 'documentationscratchifoocontent', 'header', 'policy', 'security', 'default']",General,{'security': 100},
-1d41828764d83e52c3012c37c0b9c721f4c260d1,"['return', 'incorrect', 'authorization']",Porous_defenses,{'incorrect authorization': 100},
-23e39cb5527d3058fb5ac0919e9083bbcfd0c8d9,"['session', 'sample', 'security']",General,{'security': 100},
-e923537efe6f0ca954b2d7aa315084c3af049608,"['security', 'question']",General,{'security': 100},
-21f4093c40d7a4853e926d6e9b6c95cebde5b207,"['security', 'programmer']",General,{'security': 100},
-90828ec4eddc35a8a4a66fb31092b700019f9a2f,"['different', 'deadlock', 'bugfix', 'potentialthread', 'implementedwindowissue', 'closingissue']",Risky_resource_management,{'deadlock': 100},
-b4c5cbe3d80beebf3058afc937cae924bcc9ed06,"['possible', 'plugin', 'dropprivileges', 'group', 'issue', 'security']",General,{'security': 100},
-0e960172ba2c5a20ed32f69f625f1aacde6cbe09,"['header', 'issue', 'security', 'httpredirect']",General,{'security': 100},
-4ae1688561b9af94d9f8649b447609239253fdd0,"['ticket', 'return', 'remote', 'address', 'cherrypy', 'crash']",Risky_resource_management,{'crash': 100},
-dc693ae0cdf7cf5d6c06a430047fd825d8a717e6,"['seteuid', 'cherrypy', 'crash', 'setegid']",Risky_resource_management,{'crash': 100},
-4ddf97fb602922e1e6661382e2bb0094b16398ac,"['thread', 'deadlock', 'timeouterror', 'checkes', 'current', 'check', 'monitor']",Risky_resource_management,{'deadlock': 100},
-eaeb0d52c51400427e274ac73fdc689272e871bf,"['security', 'cptools', 'index']",General,{'security': 100},
+sha,message,catetory,matched
+f737412469dfaaa623f87eedd99464d12b7ad8ae,"['pull', 'request', 'cherrypy', 'bugfix', 'security', 'check', 'late', 'python', 'version']",General,{'security': 100}
+26199622c510e3512634e24b05531b928b29035e,"['typo', 'documentation', 'header', 'scratchifoo', 'http', 'http', 'header', 'content', 'security', 'policy', 'default']",General,{'security': 100}
+1d41828764d83e52c3012c37c0b9c721f4c260d1,"['return', 'incorrect', 'authorization']",Porous_defenses,{'incorrect authorization': 100}
+e923537efe6f0ca954b2d7aa315084c3af049608,"['security', 'page', 'question']",General,{'security': 100}
+21f4093c40d7a4853e926d6e9b6c95cebde5b207,"['security', 'section', 'programmer', 'code', 'example', 'joel', 'rivera', 'thanks']",General,{'security': 100}
+90828ec4eddc35a8a4a66fb31092b700019f9a2f,"['bugfix', 'potential', 'deadlock', 'main', 'different', 'thread', 'main', 'thread', 'case', 'window', 'service']",Risky_resource_management,{'deadlock': 100}
+b4c5cbe3d80beebf3058afc937cae924bcc9ed06,"['possible', 'security', 'issue', 'dropprivileges', 'plugin']",General,{'security': 100}
+0e960172ba2c5a20ed32f69f625f1aacde6cbe09,"['security', 'issue', 'httpredirect', 'exception', 'hole', 'header', 'redirect', 'location']",General,{'security': 100}
+4ae1688561b9af94d9f8649b447609239253fdd0,"['ticket', 'cherrypy', 'crash', 'socket', 'return', 'remote', 'address']",General,{'crash': 100}
+dc693ae0cdf7cf5d6c06a430047fd825d8a717e6,"['cherrypy', 'crash', 'seteuid', 'setegid']",General,{'crash': 100}
+e8f50e034080ee4c9f97c503d1ce806fb2b51aea,"['overhaul', 'config', 'system', 'config', 'module', 'entry', 'config', 'namespace', 'deadlock', 'request', 'response', 'namespaces', 'request', 'response', 'entry', 'modify', 'attribute', 'response', 'consumer', 'code', 'look', 'attribute', 'config', 'interactive', 'inspection', 'default', 'config', 'entry', 'dispatch', 'entry', 'entry', 'error', 'file', 'access', 'file', 'screen', 'environment', 'globalconf', 'development', 'environment', 'setting', 'default', 'duplicate', 'production', 'environment', 'environment', 'static', 'config', 'wrap', 'name', 'kwarg']",Risky_resource_management,{'deadlock': 100}
+4ddf97fb602922e1e6661382e2bb0094b16398ac,"['deadlock', 'monitor', 'true', 'response', 'time', 'config', 'request', 'thread', 'true', 'current', 'check', 'hookmap', 'request']",Risky_resource_management,{'deadlock': 100}
+ca5ee208b831df40af870456f0ca0731b6ad8477,"['memory', 'leak', 'cache', 'object']",Risky_resource_management,{'memory leak': 100}
+6ce1a9510fe8e5d65ff266c0d757d79b56db837d,"['memory', 'leak', 'threadlocal', 'object']",Risky_resource_management,{'memory leak': 100}
+eea03a9cbfaa9c30cb8075e0c02adff8a8c3a5d5,"['test', 'memory', 'leak', 'thread', 'local']",Risky_resource_management,{'memory leak': 100}
+c1de1a99373fb76b287636a47c3c2e57b690c7df,"['test', 'staticfilter', 'uplevel', 'security', 'informative', 'error', 'staticfilter', 'absolute', 'path']",General,{'security': 100}
+7e6187ee19a90ebe7f8597296bfa942cd1eb1864,"['serious', 'security', 'flaw', 'staticfilter']",General,{'security': 100}
+eaeb0d52c51400427e274ac73fdc689272e871bf,"['cptools', 'index', 'work', 'corner', 'case', 'security', 'flaw']",General,{'security': 100}

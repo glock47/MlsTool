@@ -1,6 +1,11 @@
-sha,message,catetory,matched,labels
-9e687a6c38c60c726762ffcba196a09f280b4c8d,"['client', 'deadlock']",Risky_resource_management,{'deadlock': 100},
-6c496b73547810c77ab1d63eb0f2e9dde6104f80,"['leader', 'deadlock']",Risky_resource_management,{'deadlock': 100},
-8f53d8795a3b18f51eb9475f434b47dc61b1747f,"['resource', 'deadlock', 'opening']",Risky_resource_management,{'deadlock': 100},
-f3124ec121c4d56887d686b8ba9762bbb932ec75,"['order', 'context', 'separate', 'execution', 'coordinator', 'ensure', 'member', 'thread', 'deadlock']",Risky_resource_management,{'deadlock': 100},
-1794894a14625ba724a6cf29f37911488b2f59f9,"['argument', 'injector', 'select', 'constructor', 'ideal', 'refactor']",Insecure_interaction_between_components,{'argument injector': 91},
+sha,message,catetory,matched
+9bc9745d96cc895e5fa0a6facfd95d060b00482c,"['raft', 'issue', 'concurrent', 'snapshot', 'writer', 'raft', 'issue', 'concurrent', 'snapshot', 'writer', 'file', 'snapshot', 'unique', 'temporary', 'file', 'permanent', 'deterministic', 'location', 'file', 'snapshot', 'discard', 'temporary', 'file', 'improves', 'error', 'snapshot', 'completion', 'failure', 'chore', 'raft', 'temporary', 'file', 'raft', 'storage', 'temporary', 'snapshot', 'file', 'directory', 'raft', 'storage', 'duplicate', 'file', 'deleteonexit', 'hook', 'loss', 'deleteonexit', 'work', 'crash']",General,{'crash': 100}
+be6355f6c57586dc02109513f1cc58b8f4cf4213,"['memory', 'leak', 'raft', 'member', 'selector']",Risky_resource_management,{'memory leak': 100}
+28d5b995fb17a73e476d7d8506ae267bfb815bc3,"['level', 'primary', 'backup', 'test', 'travis', 'crash']",General,{'crash': 100}
+6aacc4627df06183afd163ce043d0d740c7829dc,"['object', 'ensure', 'input', 'stream', 'guard', 'buffer', 'overflow', 'extra', 'test']",Risky_resource_management,{'buffer overflow': 100}
+38ce15cffb5936dd52bf438bbd045785b08fee00,"['memory', 'leak', 'netty', 'connection', 'response']",Risky_resource_management,{'memory leak': 100}
+4ba7e3de105a730eceeeae3c3cc8eef89b7c75da,"['risk', 'deadlock']",Risky_resource_management,{'deadlock': 100}
+94553cbbf5e652cf5071f1481aa42fc3e06678c3,"['stack', 'overflow', 'recursive', 'application', 'operationentry']",Risky_resource_management,{'stack overflow': 100}
+6c496b73547810c77ab1d63eb0f2e9dde6104f80,"['deadlock', 'leader', 'inital', 'noop', 'entry', 'replication']",Risky_resource_management,{'deadlock': 100}
+8f53d8795a3b18f51eb9475f434b47dc61b1747f,"['deadlock', 'opening', 'resource', 'context']",Risky_resource_management,{'deadlock': 100}
+f3124ec121c4d56887d686b8ba9762bbb932ec75,"['ensure', 'member', 'coordinator', 'separate', 'thread', 'execution', 'order', 'deadlock', 'context']",Risky_resource_management,{'deadlock': 100}

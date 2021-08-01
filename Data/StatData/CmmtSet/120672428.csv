@@ -1,0 +1,6 @@
+sha,message,catetory,matched
+2e4425342207668e143e42be38dad9430f3353a1,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+c011035fbbc426e5fab949a81e524f59e6f95bf8,"['sslmode', 'flag', 'insecure', 'flag', 'need', 'dump', 'load']",General,{'insecure': 100}
+ac3a7217fd3ae09549d86384e4ea883ddff919ff,"['sslmode', 'flag', 'insecure', 'flag', 'need', 'dump', 'load']",General,{'insecure': 100}
+9b98b73637d45ee2ab44593f473cdc01f0d52a81,"['column', 'cache', 'column', 'cache', 'dead', 'code', 'trigger', 'data', 'race', 'certain', 'usage', 'pattern', 'performance']",Risky_resource_management,{'data race': 100}
+829bf8a9ef1dbd8786cbbe1ca38aeed1b47e3911,"['synchronize', 'access', 'tablemap', 'tablemap', 'data', 'race', 'particular', 'internals', 'play', 'goroutines', 'runtime', 'panic', 'installs', 'mutex', 'control', 'access']",Risky_resource_management,{'data race': 100}

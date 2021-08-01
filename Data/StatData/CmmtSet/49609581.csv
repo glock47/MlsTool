@@ -1,41 +1,69 @@
-sha,message,catetory,matched,labels
-ea40e8f1427bf0283425695e18c435f09d30bc9c,"['template', 'security']",General,{'security': 100},
-8cbbcb228a4724daea7a2c1e9a47287d634b3ac6,"['markdown', 'security', 'package', 'update']",General,{'security': 100},
-191c00da17b40dc4e045c5089537acf2375c54ff,"['enable', 'codeql', 'security']",General,{'security': 100},
-de6966a9fc9a697bca6900d69cf5ab2ac3a0ebfb,"['markdownlint', 'security', 'updatesecurity', 'updateexclude', 'product', 'markdown']",General,{'security': 100},
-f90712a317ac5062a87d9e9c6be3dd581f4dd587,"['filesystem', 'security']",General,{'security': 100},
-baf24102ffd1732a236a0de170d6e6e895a6a58b,"['command', 'whitespace', 'crash']",Risky_resource_management,{'crash': 100},
-d84ebc157196e80c9ddb116f351bf633fd1340e7,"['issue', 'update', 'policy', 'security', 'language']",General,{'security': 100},
-f00b07353957a9feae3bd634bf0c5236282d2083,"['policy', 'documentation', 'security', 'github', 'refactortravis']",General,{'security': 100},
-20e8ceee76226978e656ecc7b4e1836b05063700,"['markdownlint', 'security', 'issue']",General,{'security': 100},
-5ef258ef68952be81f2a65345574f330934ae9ef,"['markdownlint', 'security', 'issue']",General,{'security': 100},
-ffc3af2b5d48912eeee3e7f28074c976629e4533,"['crash', 'jumplist']",Risky_resource_management,{'crash': 100},
-1c8a89bcdc95c209abed7d5b191a713530bac831,"['codeformatter', 'security', 'module']",General,{'security': 100},
-1006db647b41370ccf924f4db80c642046cc4a57,"['stack', 'overflow', 'reducesmall', 'classperformance', 'improvement']",Risky_resource_management,{'stack overflow': 100},
-17fd2e9392f986ed788371d2bd9856ec87394782,"['value', 'property', 'measureinfo', 'display', 'revertccdaaacbebac', 'revertspublic', 'security', 'review']",General,{'security': 100},
-b5acb298a46665feeedf885087b2b29baab10aee,"['xunit', 'crash', 'workaround']",Risky_resource_management,{'crash': 100},
-41111a15e6947ba1856ca52dc2365e535dd34040,"['update', 'longerpartial', 'concept', 'transparent', 'security', 'trust', 'access']",General,{'security': 100},
-f33689b4cb774e70c46a2125b979692b03c235c0,"['image', 'update', 'dockerimage', 'update', 'dockerimage', 'building', 'update', 'security']",General,{'security': 100},
-8f37c920ef68ba477eaa339a047742302fe2b896,"['winforms', 'crash']",Risky_resource_management,{'crash': 100},
-a099786cdcbe7f7374a6919fb3a513ba645df49f,"['update', 'dotnetupdate', 'dotnetissue', 'advisory', 'address', 'security', 'powershell', 'announcement', 'service', 'microsoft', 'collision', 'denialcommit', 'dfbfcbadbcde', 'powershell']",General,{'security': 100},
-df1993aad05f649c35bf59ba863f545d5d06a6ba,"['enable', 'security', 'native', 'compilerenable', 'stack', 'protection', 'strongspace', 'enable', 'layout', 'address', 'randomizationenable', 'stack', 'protection', 'strongspace', 'enable', 'layout', 'address', 'randomization']",General,{'security': 100},
-ca1d2acfbaeb7d159240554d72b9a3d58b47ae53,"['guideline', 'update', 'codingconcrete', 'guideline', 'update', 'review', 'useful', 'codingsecurity', 'sectionaddress', 'commentupdateaddress', 'commentaddress', 'security', 'comment', 'sectionupdatetweakmotivation', 'nameof']",General,{'security': 100},
-f0eda031d616760fd723c1db464ecd0585de5f27,"['performance', 'effect', 'group', 'check', 'policy', 'security', 'executionpolicy', 'improvementparent', 'process', 'currentcheck', 'executionpolicy', 'domain', 'machine', 'certaincachinglifetime', 'group', 'expensive', 'result', 'scriptaffect', 'group', 'policy', 'scenario']",General,{'security': 100},
-5bdcff5ad9982acff8c05b0cf1a9b180d7b569b4,"['completion', 'crash']",Risky_resource_management,{'crash': 100},
-54fa658e317244b04f87d1501c26b91a40b0b342,"['msbuild', 'migratefullclr', 'disabledclean', 'functionality', 'source', 'portable', 'powershell', 'module', 'verifymoniker', 'portable', 'target', 'framework', 'dnxcorenecessity', 'portable', 'dependency', 'module', 'reviewedseparate', 'issue', 'building', 'powershell', 'studio', 'target', 'dependency', 'projectbuild', 'assembly', 'empty', 'project', 'issue', 'package', 'powershell', 'folder', 'crash', 'dotnet']",Risky_resource_management,{'crash': 100},
-ae37a9fafe9bd8c9f3458b96eb8400afa6b67e8b,"['recursive', 'array', 'crash']",Risky_resource_management,{'crash': 100},
-2fe10558a258110874cf0680af165868c1b1bc1c,"['basic', 'powershell', 'pssession', 'crash']",Risky_resource_management,{'crash': 100},
-090854708334f6b4dc69a0fbdd1da034b6b18ca2,"['deadlockprogress', 'sandbox', 'deadlock', 'various', 'status', 'powershell', 'github']",Risky_resource_management,{'deadlock': 100},
-89b5ae5de19f638230bff601c923c0ef5765c5d2,"['powershell', 'assignment', 'crash']",Risky_resource_management,{'crash': 100},
-ccd4ca1052dfc99ff50cd8b5869614d6c2559f3c,"['mergeandschwa', 'travis', 'request', 'mergetoken', 'environment', 'insecure', 'github']",General,{'insecure': 100},
-8ef8f9fada7148e41154111779d997f97be3d4d3,"['token', 'environment', 'insecure', 'github', 'variableenable', 'buildinginstaller', 'token', 'download', 'nonetheless', 'download', 'revokedrepository']",General,{'insecure': 100},
-b363fc909ec68d76227b8c95131eb8919e654180,"['section', 'security', 'namedresource', 'resource']",General,{'security': 100},
-37d457f56c01402976964862c6117592dc552ce7,"['mergepowershell', 'request', 'mergeclean', 'usage', 'crash']",Risky_resource_management,{'crash': 100},
-ab3203916b5e51f4140a629c573990665d458f9d,"['usage', 'crash']",Risky_resource_management,{'crash': 100},
-bbe0f6b0fa1c3281c0a780094705b1ccca9e5298,"['fbdca', 'mergepowershell', 'request', 'cursor', 'mergescreen', 'cursor', 'crash']",Risky_resource_management,{'crash': 100},
-4bcc0f781f25b1f6fa83281075668ba68c545c80,"['screen', 'cursor', 'crash']",Risky_resource_management,{'crash': 100},
-8dab22a545eac4b00a0b7165e5e5761c4b2015a1,"['mergepowershell', 'security', 'request', 'mergesecurity']",General,{'security': 100},
-fd4cce4ce1ee5164403f8b11f7affcb7de74aed4,"['crash', 'cmdlet', 'issue', 'pshostprocess']",Risky_resource_management,{'crash': 100},
-54b2435811681324d26a3371f9d49e2dbfaf385f,"['mergedevelop', 'security', 'request']",General,{'security': 100},
-d914d9278091343008f9488e5d0f6c9d074382b0,"['target', 'security', 'module', 'makefiledependency']",General,{'security': 100},
-ac5f89e25f4eb305c0b9d963f2a2f0ec5ce934e5,"['window', 'security']",General,{'security': 100},
+sha,message,catetory,matched
+ea40e8f1427bf0283425695e18c435f09d30bc9c,"['security', 'template']",General,{'security': 100}
+8cbbcb228a4724daea7a2c1e9a47287d634b3ac6,"['update', 'markdown', 'test', 'package', 'security']",General,{'security': 100}
+191c00da17b40dc4e045c5089537acf2375c54ff,"['enable', 'codeql', 'security']",General,{'security': 100}
+9bbba286c074753bd3b6a887b3b1de0f97101bcd,"['security', 'folder']",General,{'security': 100}
+de6966a9fc9a697bca6900d69cf5ab2ac3a0ebfb,"['markdownlint', 'security', 'update', 'security', 'update', 'exclude', 'markdown', 'test']",General,{'security': 100}
+f90712a317ac5062a87d9e9c6be3dd581f4dd587,"['filesystem', 'path', 'analyze', 'security', 'zone', 'file']",General,{'security': 100}
+0c8aa53a9000340ca5e08a3f5c7713c2d9c85a52,"['test', 'format', 'custom', 'data', 'loss']",Risky_resource_management,{'data loss': 100}
+eb47c22339475490c2cba332e2d1892294e5612e,"['type', 'pscustomobject', 'select', 'object', 'select', 'object', 'type', 'pscustomobject', 'typenames', 'memory', 'leak', 'edge', 'case', 'select', 'object', 'object', 'original', 'type', 'object']",Risky_resource_management,{'memory leak': 100}
+03668e79af06c2006dab59f1b483177a19770ed5,"['config', 'security', 'suppo']",General,{'security': 100}
+baf24102ffd1732a236a0de170d6e6e895a6a58b,"['crash', 'command', 'pwsh', 'whitespace']",General,{'crash': 100}
+2ec25645c36179a5e57cdc1c5ee215f8ebee3a71,"['update', 'link', 'stack', 'overflow', 'anothe']",Risky_resource_management,{'stack overflow': 100}
+d84ebc157196e80c9ddb116f351bf633fd1340e7,"['update', 'language', 'policy', 'security', 'issue']",General,{'security': 100}
+f00b07353957a9feae3bd634bf0c5236282d2083,"['refactor', 'security', 'policy', 'documentation', 'security', 'policy', 'github', 'travis', 'plunk', 'travis', 'plunk', 'microsoft']",General,{'security': 100}
+7dfcff92875d04d7756eec3e8fe310f3d377b800,"['pshostprocess', 'cmdlet', 'system', 'lock', 'mode', 'powershell', 'process', 'command', 'user', 'privilege', 'escalation', 'policy', 'check', 'system', 'lock', 'pshostprocess', 'cmdlet', 'error', 'message']",Porous_defenses,{'privilege escalation': 100}
+20e8ceee76226978e656ecc7b4e1836b05063700,"['markdownlint', 'test', 'security', 'issue']",General,{'security': 100}
+5ef258ef68952be81f2a65345574f330934ae9ef,"['markdownlint', 'test', 'security', 'issue']",General,{'security': 100}
+ffc3af2b5d48912eeee3e7f28074c976629e4533,"['jumplist', 'thread', 'apis', 'sporadic', 'crash']",General,{'crash': 100}
+1c8a89bcdc95c209abed7d5b191a713530bac831,"['codeformatter', 'security', 'module']",General,{'security': 100}
+1006db647b41370ccf924f4db80c642046cc4a57,"['time', 'stack', 'overflow', 'test', 'small', 'class', 'work', 'performance', 'improvement', 'test']",Risky_resource_management,{'stack overflow': 100}
+e299a301281e3629ad956f39166c0e0c79b1e0d1,"['test', 'crash', 'script', 'block', 'callback']",General,{'crash': 100}
+57aeca428eba5f2ec3579562d74e9aac4bbaf615,"['port', 'security']",General,{'security': 100}
+a04f6940dd7491be74f3265a1d8f9f6047038fb1,"['case', 'applocker', 'test', 'script', 'case', 'applocker', 'policy', 'check', 'test', 'script', 'malware', 'scanner', 'lock', 'file', 'result', 'exception', 'thrown', 'powershell', 'crash', 'exception', 'wrap', 'deletion', 'catch', 'ignore', 'exception', 'temp', 'file']",General,{'crash': 100}
+4af3068566b2218bc37ea19785ded589c2a5c42f,"['code', 'cleanup', 'update', 'testservice', 'update', 'weblistener', 'update', 'controller', 'update', 'exptest', 'update', 'myapp', 'update', 'logic', 'update', 'logic', 'update', 'myapp', 'update', 'update', 'update', 'update', 'update', 'update', 'resgen', 'update', 'typecataloggen', 'update', 'command', 'update', 'update', 'reader', 'update', 'utility', 'update', 'showcommand', 'update', 'trace', 'update', 'webcmdlet', 'update', 'common', 'update', 'coreclr', 'update', 'common', 'update', 'format', 'object', 'update', 'format', 'wide', 'update', 'file', 'update', 'printer', 'update', 'string', 'update', 'outgridview', 'update', 'localaccounts', 'update', 'command', 'update', 'security', 'update', 'coreclr', 'update', 'dscsupport', 'update', 'engine', 'update', 'update', 'namespaces', 'update', 'security', 'update', 'utils', 'update', 'config', 'update', 'perfcounters', 'update', 'update', 'cmdletization', 'update', 'update', 'update', 'update', 'coreclr', 'update', 'common', 'update', 'update', 'console', 'update', 'textinterface', 'update', 'displaydatabase', 'update', 'utility', 'update', 'update', 'cominterop', 'update', 'update', 'debugger', 'update', 'update', 'hostifaces', 'update', 'interpreter', 'update', 'lang', 'update', 'module', 'update', 'parser', 'update', 'runtime', 'update', 'client', 'update', 'command', 'update', 'common', 'update', 'fanin', 'update', 'server', 'update', 'wiredataformat', 'update', 'update', 'operation', 'update', 'interface', 'update', 'cmdletization', 'update', 'update', 'management', 'update', 'update']",General,{'security': 100}
+c76a3d7bb409631f45ab9e05a741bc7c06ce3136,"['release', 'process', 'issue', 'template', 'release', 'process', 'issue', 'template', 'security', 'issue', 'template']",General,{'security': 100}
+17fd2e9392f986ed788371d2bd9856ec87394782,"['revert', 'display', 'property', 'value', 'measureinfo', 'reverts', 'security', 'review', 'public']",General,{'security': 100}
+b5acb298a46665feeedf885087b2b29baab10aee,"['workaround', 'xunit', 'test', 'crash', 'vsts']",General,{'crash': 100}
+41111a15e6947ba1856ca52dc2365e535dd34040,"['update', 'core', 'comment', 'work', 'partial', 'trust', 'partial', 'trust', 'concept', 'code', 'access', 'security', 'security', 'transparent', 'security', 'transparent', 'core']",General,{'security': 100}
+5e8b23e127098beca95c3f8f48a45b500db1d023,"['basic', 'auth', 'http', 'basic', 'auth', 'http', 'simplify', 'http', 'check', 'update', 'comment', 'test', 'exception', 'type', 'test', 'limi', 'crash', 'connection', 'error', 'path', 'format']",General,{'crash': 100}
+793160228a55f273fc2298561f441d3c899046c8,"['crash', 'terminal', 'reset', 'crash', 'terminal', 'reset', 'check']",General,{'crash': 100}
+f33689b4cb774e70c46a2125b979692b03c235c0,"['update', 'docker', 'file', 'pwsh', 'image', 'version', 'update', 'docker', 'file', 'pwsh', 'image', 'version', 'install', 'security', 'update', 'building', 'image']",General,{'security': 100}
+8f37c920ef68ba477eaa339a047742302fe2b896,"['blacklist', 'form', 'crash', 'blacklist', 'winforms']",General,{'crash': 100}
+a099786cdcbe7f7374a6919fb3a513ba645df49f,"['update', 'dotnet', 'update', 'dotnet', 'address', 'microsoft', 'security', 'advisory', 'hash', 'collision', 'denial', 'service', 'http', 'github', 'powershell', 'announcement', 'issue', 'port', 'http', 'github', 'powershell', 'powershell']",General,{'security': 100}
+db6aec0850199750ba8a711d139d2b1c9c886f6c,"['compiler', 'switch', 'dangerous', 'function', 'safer', 'compiler', 'switch', 'dangerous', 'function', 'safer', 'linker', 'flag', 'window', 'linker', 'flag']",Risky_resource_management,{'dangerous function': 100}
+df1993aad05f649c35bf59ba863f545d5d06a6ba,"['enable', 'security', 'flag', 'native', 'compiler', 'enable', 'strong', 'stack', 'protection', 'enable', 'address', 'space', 'layout', 'randomization', 'aslr', 'enable', 'strong', 'stack', 'protection', 'enable', 'address', 'space', 'layout', 'randomization', 'aslr']",General,{'security': 100}
+ca1d2acfbaeb7d159240554d72b9a3d58b47ae53,"['guideline', 'update', 'concrete', 'useful', 'review', 'process', 'section', 'security', 'address', 'comment', 'update', 'address', 'comment', 'address', 'comment', 'security', 'section', 'update']",General,{'security': 100}
+f0eda031d616760fd723c1db464ecd0585de5f27,"['performance', 'improvement', 'security', 'check', 'group', 'policy', 'effect', 'executionpolicy', 'current', 'process', 'certain', 'scenario', 'machine', 'executionpolicy', 'check', 'path', 'script', 'result', 'group', 'policy', 'lifetime', 'process', 'scenario', 'execution', 'policy', 'group', 'policy']",General,{'security': 100}
+5bdcff5ad9982acff8c05b0cf1a9b180d7b569b4,"['completion', 'crash', 'psreadline']",General,{'crash': 100}
+753b1965a0e5d6a75943ea835373c038ab9a5c80,"['crash', 'startup', 'home', 'puppet', 'account', 'home', 'directory', 'powershell', 'process', 'specific', 'temporary', 'directory', 'home', 'config', 'cache', 'data', 'directory', 'available', 'temporary', 'directory']",General,{'crash': 100}
+54fa658e317244b04f87d1501c26b91a40b0b342,"['migrate', 'project', 'json', 'msbuild', 'fullclr', 'appveyor', 'appveyor', 'core', 'portable', 'module', 'concept', 'work', 'window', 'powershell', 'source', 'code', 'clean', 'script', 'dnxcore', 'portable', 'target', 'framework', 'moniker', 'portable', 'module', 'necessity', 'building', 'powershell', 'visual', 'studio', 'separate', 'issue', 'msbuild', 'target', 'dependency', 'information', 'core', 'issue', 'http', 'github', 'dotnet', 'issue', 'meta', 'package', 'project', 'generate', 'empty', 'assembly', 'result', 'empty', 'assembly', 'publish', 'folder', 'deps', 'json', 'file', 'assembly', 'part', 'powershell', 'crash', 'startup', 'empty', 'assembly', 'core', 'issue']",General,{'crash': 100}
+ae37a9fafe9bd8c9f3458b96eb8400afa6b67e8b,"['powershell', 'crash', 'recursive', 'array', 'bool']",General,{'crash': 100}
+2fe10558a258110874cf0680af165868c1b1bc1c,"['basic', 'test', 'sure', 'pssession', 'crash', 'powershell']",General,{'crash': 100}
+3349f84ed0c75f37c013d8683d5bdb5a47887db5,"['security', 'zone', 'urlmon']",General,{'security': 100}
+090854708334f6b4dc69a0fbdd1da034b6b18ca2,"['unnecessary', 'lock', 'deadlock', 'msft', 'processing', 'show', 'various', 'status', 'deadlock', 'sandbox', 'process', 'sure', 'github', 'powershell']",Risky_resource_management,{'deadlock': 100}
+89b5ae5de19f638230bff601c923c0ef5765c5d2,"['assignment', 'crash', 'powershell']",General,{'crash': 100}
+b86b1f870a3f06a8be26c9dc59953ed827516fe4,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+d898f18b3d9989c39fc3d92e71d1efc08b2685a2,"['comment', 'security']",General,{'security': 100}
+4e23d6e1ee8579a2e210d06d901b2797debbb975,"['pull', 'request', 'powershell', 'ealexjordan', 'filenamecrash', 'crash', 'file', 'name']",General,{'crash': 100}
+fb0e218eb1d17ee850d5c68f43154f4828d67ef7,"['crash', 'file', 'name']",General,{'crash': 100}
+39faa3dd255dfd20fe55ac3565afb1b44807f533,"['openssl', 'link', 'core', 'http', 'github', 'homebrew', 'brew', 'pull', 'core', 'installation', 'instruction', 'brew', 'link', 'force', 'openssl', 'invalid', 'good', 'reason', 'security', 'hole', 'core', 'update', 'library', 'openssl', 'library', 'update', 'part', 'http', 'github', 'dotnet', 'issue']",General,{'security': 100}
+ccd4ca1052dfc99ff50cd8b5869614d6c2559f3c,"['pull', 'request', 'andschwa', 'andschwa', 'travis', 'fork', 'token', 'insecure', 'environment']",General,{'insecure': 100}
+8ef8f9fada7148e41154111779d997f97be3d4d3,"['token', 'insecure', 'environment', 'variable', 'enable', 'building', 'access', 'download', 'installer', 'package', 'nonetheless', 'wget', 'download', 'repository']",General,{'insecure': 100}
+53bfc80b56fee4df2965fb2df8956c35bc6bf2f5,"['process', 'cmdlet', 'type', 'test', 'security', 'constraint', 'test', 'simple']",General,{'security': 100}
+2a7d6a51c6de6dc2bec8b40e49604367204539ec,"['pull', 'request', 'powershell', 'andschwa', 'recursive', 'stack', 'overflow', 'exception']",Risky_resource_management,{'stack overflow': 100}
+1bc2a9e576a9f0fbdbcc37a01a9d1f10964775d6,"['stack', 'overflow', 'exception', 'assembly', 'assembly', 'exists', 'platform', 'assembly', 'list', 'window', 'assembly', 'load', 'recursive', 'loop', 'assembly', 'load', 'assembly', 'overridden', 'load', 'file', 'path', 'assembly', 'path', 'exception', 'catch', 'particular', 'exception', 'attempt', 'load', 'assembly', 'load', 'safe', 'assembly', 'assembly', 'load', 'load', 'assembly']",Risky_resource_management,{'stack overflow': 100}
+4a7a521077e8c17e062c5bcc73f8d1b0f17b8d91,"['powershell', 'native', 'output', 'directory', 'thanks', 'stack', 'overflow', 'http']",Risky_resource_management,{'stack overflow': 100}
+b363fc909ec68d76227b8c95131eb8919e654180,"['security', 'namedresource', 'section', 'resource']",General,{'security': 100}
+37d457f56c01402976964862c6117592dc552ce7,"['pull', 'request', 'powershell', 'pipe', 'clean', 'usage', 'pipe', 'crash', 'debugger']",General,{'crash': 100}
+ab3203916b5e51f4140a629c573990665d458f9d,"['clean', 'usage', 'pipe', 'crash', 'debugger']",General,{'crash': 100}
+bbe0f6b0fa1c3281c0a780094705b1ccca9e5298,"['pull', 'request', 'powershell', 'cursor', 'crash', 'cursor', 'screen']",General,{'crash': 100}
+4bcc0f781f25b1f6fa83281075668ba68c545c80,"['crash', 'cursor', 'screen']",General,{'crash': 100}
+8dab22a545eac4b00a0b7165e5e5761c4b2015a1,"['pull', 'request', 'powershell', 'vors', 'security', 'vors', 'security']",General,{'security': 100}
+aca8fc438fc2ee945efca2f1bb77a28db7b0fd90,"['pull', 'request', 'exit', 'pshostprocess', 'exit', 'pshostprocess', 'cmdlet', 'crash', 'issue']",General,{'crash': 100}
+fd4cce4ce1ee5164403f8b11f7affcb7de74aed4,"['exit', 'pshostprocess', 'cmdlet', 'crash', 'issue']",General,{'crash': 100}
+54b2435811681324d26a3371f9d49e2dbfaf385f,"['pull', 'request', 'security']",General,{'security': 100}
+562a9bb35b3467af8803812806ea3a019165ea7b,"['security', 'reference', 'code', 'cimconverter', 'dependency', 'type']",General,{'security': 100}
+40ba6c214e32cbc3c61ed629fcbb0961ecce9cf9,"['getusername', 'unit', 'test', 'deadlock', 'output', 'stream', 'block', 'http', 'library', 'aspx', 'http', 'library', 'aspx']",Risky_resource_management,{'deadlock': 100}
+d914d9278091343008f9488e5d0f6c9d074382b0,"['security', 'module', 'makefile', 'target']",General,{'security': 100}
+ac5f89e25f4eb305c0b9d963f2a2f0ec5ce934e5,"['security', 'module', 'file', 'window']",General,{'security': 100}

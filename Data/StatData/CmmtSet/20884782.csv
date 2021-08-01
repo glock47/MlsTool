@@ -1,179 +1,251 @@
-sha,message,catetory,matched,labels
-e3bed6a7172a03c2f03bc1355634ad7e9994b260,"['possible', 'installwritten', 'stdout', 'deadlock', 'stderrsubprocess', 'documentation']",Risky_resource_management,{'deadlock': 100},
-e18f6e1b2950045ae0a163a78e0a72e536c98c0a,"['mergemerge', 'crash', 'request', 'aszlig', 'cachememory', 'corruption']",Risky_resource_management,{'crash': 100},
-f60304a873fec9b9736fdb13402b579017d9ad6e,"['overrun', 'buffer', 'destination', 'stringop', 'strncpy', 'error', 'truncation', 'werror', 'equalstrncpy']",Risky_resource_management,{'overrun': 100},
-cb4636f7c0af2e97a4eef7a3cdcbd85a71247bfe,"['corruption', 'issue', 'sanitize', 'potential', 'stack', 'security']",General,{'security': 100},
-73e955a523fb40a5a7bc1addda722afa26ce8c97,"['expose', 'thunder', 'robust', 'watchdog', 'mutexrobust', 'option', 'watchdog', 'mutex', 'availablebuggy', 'pthread', 'thunder', 'robust', 'watchdog', 'workaround', 'mutexesolder', 'deadlock', 'unresponsive', 'causingresolve']",Risky_resource_management,{'deadlock': 100},
-f155fbca7722f7394e2fabfe7fa2be5aca10386e,"['readthedocs', 'migration', 'subdomains', 'aprilstart', 'project', 'address', 'domain', 'subdomains', 'security', 'concern']",General,{'security': 100},
-dd0688ee84a1d3f2d48a41225626a0c3d7741615,"['printformatcompilation', 'format', 'werror', 'security']",General,{'security': 100},
-2ab6c94da67f6b86cc4a0786d11196a98c27ef1b,"['compilation', 'systemdlogger', 'format', 'security', 'werror']",General,{'security': 100},
-35acf3793d9c586c366d6d9b2b9f9f124f302060,"['fedora', 'debian', 'degree', 'wformat', 'format', 'sensible', 'security', 'werrordistro', 'recent', 'situationsince', 'version']",General,{'security': 100},
-daeaf1b23100d194606982ac6f41a22fc18075b2,"['deadlock', 'comparison', 'introduce']",Risky_resource_management,{'deadlock': 100},
-e008ce5d56c7446ccbc75c07d5c13e492a5c1420,"['verification', 'certificate', 'option', 'pluginsequivalent', 'option', 'commandalarm', 'insecure', 'option', 'usefulserver', 'certificate']",General,{'insecure': 100},
-7c31b6657ffdbbbe566822fbcdb6cf2eb4b44026,"['format', 'force', 'security', 'uwsgiconfigremove', 'wformat', 'plugin', 'security', 'usingotherwise', 'pluginwithout', 'wformat', 'error', 'format', 'security', 'patch', 'janos', 'debian']",General,{'security': 100},
-cf6736316466d33d239a7f688e10792985bea1cb,"['strncpy', 'emperor', 'strcpyreport', 'overrun', 'buffer', 'possible', 'coveritymomento']",Risky_resource_management,{'overrun': 100},
-6297ed04554aa961f7ffee8c4acf4152073f8ed1,"['crash', 'existent', 'config']",Risky_resource_management,{'crash': 100},
-474d04d6a1e222b50dc376471885e12b19220e42,"['router', 'check', 'security']",General,{'security': 100},
-1b6fdf6093f06465268144b14744e6876430db4f,"['system', 'subscription', 'security', 'server']",General,{'security': 100},
-fa3badcfd0e0de7b803a1381fa62f0cb83420394,"['security', 'server']",General,{'security': 100},
-e4711484acbdd52cd59c35e679cf841a9867b976,"['stupid', 'deadlock']",Risky_resource_management,{'deadlock': 100},
-5f39de0a4cdafe575a8eec480be0785cef1c4705,"['ultimakertranslation', 'crash']",Risky_resource_management,{'crash': 100},
-e591f3db5b43d60129120f43ad1cc282c29aa5ef,"['macos', 'keywords', 'specific', 'crash', 'update', 'system', 'property', 'suspicion', 'necessary', 'realise', 'traceback', 'certain', 'prevents', 'hopefullysystem', 'macos', 'issue', 'translatedissue', 'contributes']",Risky_resource_management,{'crash': 100},
-40fe8b577d004d1357235e931ee7344b013d96ad,"['error', 'reset', 'message', 'connectionfront', 'process', 'system', 'clean', 'external', 'engine', 'reset', 'socket', 'workingwould', 'response', 'crash', 'workingissue', 'contributes']",Risky_resource_management,{'crash': 100},
-fcd585963f4532b2a7096b9f671ee958b2ba62ec,"['global', 'check', 'dialog', 'stack', 'discardclose', 'crash', 'extruder', 'stack', 'globalissue', 'sentry']",Risky_resource_management,{'crash': 100},
-788efcc83e234a2839e21e597f0842b2d991a71b,"['cloud', 'crash', 'couldissue', 'sentry']",Risky_resource_management,{'crash': 100},
-3dc1dbbbdbce695732b4fd5fdc2b4fda1f1a9f64,"['profile', 'refers', 'stackproject', 'upgrade', 'profile', 'version', 'specific', 'crash', 'pretend', 'quality', 'printer', 'stack', 'version', 'fallback', 'preciselyissue', 'contributes']",Risky_resource_management,{'crash': 100},
-be06108f36e3d08974e4b652ef64317e91cfb64f,"['network', 'crash', 'connection']",Risky_resource_management,{'crash': 100},
-653dd42e871f05c0b54001caad4ceb38663a4051,"['crash', 'hardwarestart']",Risky_resource_management,{'crash': 100},
-396c26ce3d5b363f76ad41b9b91741678b7563aa,"['crash', 'hardwarestart']",Risky_resource_management,{'crash': 100},
-361bd8c6b12317178b45a19c6f49e7601a4aa410,"['crash', 'title', 'error', 'returnedissue', 'sentry']",Risky_resource_management,{'crash': 100},
-9dba4d554f4cf44620037f2b0b663e85d412ed6e,"['crash', 'single', 'segfault', 'polygon', 'defensive', 'function', 'reproduce', 'error', 'ddbaabbbadfeea', 'mysterious', 'invalid', 'segfault', 'polygon', 'uranium', 'empty']",Risky_resource_management,{'crash': 100},
-9b1941a4a26d9c88ef0ab185955dfdd89afca369,"['crash', 'polyline']",Risky_resource_management,{'crash': 100},
-93a3f15b4f902ac16e69a917d7bca0766bac8d4c,"['stack', 'workaroundtruth', 'nallath', 'window', 'qobject', 'stack', 'update', 'conversion', 'segfault', 'mysterious', 'crash', 'applicationissue', 'contributes']",Risky_resource_management,{'crash': 100},
-bcf180985d8503245822d420b420f826d0b2de72,"['global', 'device', 'crash', 'stack', 'stillissue', 'sentry']",Risky_resource_management,{'crash': 100},
-577e45595ec5e421bd59c8ab9e7d9a8fd58252b9,"['response', 'crash', 'cloud', 'invalidcould', 'connection', 'perhapsissue', 'sentry']",Risky_resource_management,{'crash': 100},
-f2088d7fc8167b6d301694f95f372573bac2cb64,"['crash', 'uranium']",Risky_resource_management,{'crash': 100},
-a9bf3ed934d0888bf08e2aa3b0f4749373e5bc9a,"['window', 'slice', 'revert', 'smallreverts', 'crash', 'autoslice', 'weirduncaught', 'error', 'critical', 'mainthreadtraceback', 'mainthread', 'critical', 'recentproject', 'slice', 'plugins', 'gedeeld', 'mainthread', 'criticalmainthread', 'criticalproject', 'utils', 'gedeeld', 'mainthread', 'criticalmainthread', 'critical', 'return', 'kwargsproject', 'plugins', 'gedeeld', 'mainthread', 'criticalmainthread', 'criticalattributeerror', 'isvisible', 'mainthread', 'critical', 'object', 'curaapplication', 'exists', 'traceback', 'debug', 'quick', 'property', 'pycharm', 'curaapplication']",Risky_resource_management,{'crash': 100},
-3921cc86d1e3b9e86c5cd0a27cdc83be01b25106,"['crash', 'object']",Risky_resource_management,{'crash': 100},
-9197a1ca51d56312aa027dcfa80375022486ed15,"['project', 'crashproject', 'crash', 'preference', 'model']",Risky_resource_management,{'crash': 100},
-4380cdbd86df87f547e0ba6acfbd0491d8d5eb0b,"['structurecorrect', 'structure', 'string', 'crash', 'error', 'value', 'dictionary', 'certain', 'message']",Risky_resource_management,{'crash': 100},
-7096f64ca2628c1d5b3c260c8d791fb5de21e682,"['crash', 'extruder']",Risky_resource_management,{'crash': 100},
-5109bd36845a49ceaf1840e70c7c89611b29a6a2,"['crash', 'support']",Risky_resource_management,{'crash': 100},
-452fe3972f5b739819dc6a036a2a730f51c34b6d,"['singleton', 'curaapplication', 'crash', 'definition', 'class', 'passedeasier', 'function', 'getinstance', 'return', 'monkeypatchissue', 'sentry']",Risky_resource_management,{'crash': 100},
-148dd26b673de22720581704a7a356d9fa902175,"['crash', 'location', 'message']",Risky_resource_management,{'crash': 100},
-972e2f67164922fe283146ca150313c44d760d05,"['crash', 'object']",Risky_resource_management,{'crash': 100},
-a747ca0661c3753e5a91eb8192d0bbd172fd8abc,"['removable', 'output', 'filteringoutput', 'writer', 'slice', 'intersection', 'stupid', 'crash', 'format', 'printer', 'support']",Risky_resource_management,{'crash': 100},
-1ce8ef3293d0f5409e01f7bc5f2bd3d89cf7b5d5,"['workspace', 'error', 'system', 'symbol', 'crash', 'supportmessage', 'error', 'insteadissue', 'sentry']",Risky_resource_management,{'crash': 100},
-bde6e1bb97a85863af032d0f39532984794e39d6,"['printer', 'crash', 'cloud']",Risky_resource_management,{'crash': 100},
-d021fd10fb1b9fcb447963f5ac962b6dc79c2e23,"['upload', 'crash', 'queue', 'workaroundissue', 'sentry']",Risky_resource_management,{'crash': 100},
-808a0bf4aa7106eb90aabe1f0fe4848c4b765d7e,"['cmake', 'findpython', 'specify', 'environment', 'python', 'result', 'wrong', 'header', 'search', 'crash', 'prefix', 'libarcus', 'libsavitar']",Risky_resource_management,{'crash': 100},
-5c8132a94452afb137ed1744df0b719246b8a125,"['translation', 'crash']",Risky_resource_management,{'crash': 100},
-9daab5ed9b8aec2f3d74b4018d4d32c9054b74bf,"['crash', 'workaround', 'pyserial', 'existreport', 'pyserialissue', 'sentry']",Risky_resource_management,{'crash': 100},
-4372099e1d401a33f1b2adee8801386dbfb2e6e2,"['corrupt', 'crash', 'preference', 'syntax', 'string', 'memory', 'permission', 'error', 'catch', 'preference', 'modifyingissue', 'sentry']",Risky_resource_management,{'crash': 100},
-572ded8c952a094bdfafb027546ebd2e9b1bb6aa,"['reading', 'crash', 'extruder', 'empty']",Risky_resource_management,{'crash': 100},
-61def4ba255840cb32f17cc3d2297bcb074358d3,"['large', 'crash']",Risky_resource_management,{'crash': 100},
-1a0474467951339fef65e49fcf79151a6207966a,"['crash', 'update']",Risky_resource_management,{'crash': 100},
-773edfd533acf258f1d785092506c0746a93808c,"['crash', 'camera']",Risky_resource_management,{'crash': 100},
-715e5a890ea9d2640b1d73749a0c960e8a05b5c5,"['crash', 'phase', 'deletedsince', 'rename', 'deleteissue', 'sentry']",Risky_resource_management,{'crash': 100},
-384f92a516d1ad5d9fe4a1d8b4289cc8df0b89a7,"['crash', 'object', 'initialization']",Risky_resource_management,{'crash': 100},
-51378cae560036b3ad94a9bf94227bf3d18d2dab,"['compile', 'crash']",Risky_resource_management,{'crash': 100},
-abffb6c26ce5c47b896d34ab434ad3cd831f11be,"['reading', 'crash', 'corruptinformation', 'badzipfile', 'crash', 'robust', 'generic', 'message', 'triggerissue', 'sentry']",Risky_resource_management,{'crash': 100},
-52b4e98056c559daaf3bd576e72453606b8d45fe,"['storage', 'crash', 'container', 'location', 'managerissue', 'sentry']",Risky_resource_management,{'crash': 100},
-75aafa1e5cd593b97feac7cea14eeafd01dc3df6,"['window', 'crash', 'crash', 'somewhereissue', 'sentry']",Risky_resource_management,{'crash': 100},
-29d2e5c92112737f371b066a42c02228cb4267ae,"['device', 'crash', 'application', 'takenhappens', 'crash', 'error', 'couldissue', 'sentry']",Risky_resource_management,{'crash': 100},
-d9cdea9496f340095861eb406e33f9442a53a2d2,"['crash', 'materialsendmaterialjob', 'material', 'couldissue', 'sentry']",Risky_resource_management,{'crash': 100},
-4050d3ccde1295ee5ce429638afe849a32381296,"['crash', 'setting', 'categoryimpossible', 'setting', 'defensive', 'existissue', 'sentry']",Risky_resource_management,{'crash': 100},
-cfc2cc36929daba962cac42a2bf8ff803b4990ba,"['crash', 'definition', 'printer']",Risky_resource_management,{'crash': 100},
-ea31d9d41b7682c44d00f9946b4d48186c1df9d7,"['crash', 'plate', 'group', 'group', 'empty', 'couldissue', 'sentry']",Risky_resource_management,{'crash': 100},
-4c770587e2d9d7c8a10fe6e6c828c7d58803dfb2,"['qimagerandom', 'noise', 'crash', 'contains', 'memory', 'total', 'positive', 'window', 'false', 'reshape', 'qimage', 'number', 'paddinglength', 'pixel', 'result', 'column', 'powerful', 'problem', 'computer', 'frameratequite', 'figureissue', 'contributes']",Risky_resource_management,{'crash': 100},
-d501f7730a42e45177fa3cdb89a4cdce1f1bd9a4,"['messagefront', 'company', 'insecure']",General,{'insecure': 100},
-27902fe38fb6e3a32114f1ec705b4f92323c5c91,"['scope', 'toolbox', 'cloudsync', 'jsondecoratorimproves', 'content', 'security', 'request']",General,{'security': 100},
-64a5349018d5fbf57abdefe3fc57b63403c1c2c5,"['style', 'crash']",Risky_resource_management,{'crash': 100},
-769fc8fd3727718721ad82d99d1a5f029d22c7df,"['stuff', 'weird', 'supportingprofile', 'crash', 'empty', 'interfaceswitch', 'error']",Risky_resource_management,{'crash': 100},
-290761fccd6cf8f282c110def1de190d5544a223,"['crash', 'arranger']",Risky_resource_management,{'crash': 100},
-043ef2e84f973096da56628af72b02b5b7c43119,"['layer', 'crash']",Risky_resource_management,{'crash': 100},
-8dc6e7a38670d81e919d4b3a817834308d6029b0,"['sentry', 'encvironment', 'crash']",Risky_resource_management,{'crash': 100},
-a1d7eefc425d6865115e76ea2c749376764741e9,"['printer', 'extruder', 'single', 'crash', 'machine', 'managercheck', 'extrusion', 'extruder', 'single', 'commitglobal', 'issue', 'function', 'return']",Risky_resource_management,{'crash': 100},
-c15599f1c4e082c6fa46bd9b8143659e6cd684ef,"['crash', 'handler', 'extra', 'screen']",Risky_resource_management,{'crash': 100},
-5ea60823f568a18a31fcdd8f653c1cc4235c886c,"['crash', 'address', 'somewhereissue', 'contributes']",Risky_resource_management,{'crash': 100},
-4811f15a7b60e4e4f388035b7dd5cd4eb1e17aae,"['ultimakerreport', 'crash', 'stats']",Risky_resource_management,{'crash': 100},
-b77de636d4a27b6bf6ca4527b9c17008d5794ab1,"['crash', 'couldwould', 'previous', 'specific', 'printer', 'weirdwhereas', 'variant', 'emptyvariant', 'emptylonger', 'variant', 'empty', 'selectionpretty', 'ignore', 'situation']",Risky_resource_management,{'crash': 100},
-028a60318caa7811123976a6ab049c358ec5ef3c,"['startup', 'crash']",Risky_resource_management,{'crash': 100},
-466c90ca6c910def8430bc95f3b8034ff9cb14dc,"['crash', 'context']",Risky_resource_management,{'crash': 100},
-c7649e3db160eb669d1a158c73471adb6072ed33,"['report', 'crash']",Risky_resource_management,{'crash': 100},
-fb4ce43f0cde76af3abed48376b0a9fb216b9be4,"['crash', 'couldwould', 'previous', 'specific', 'printer', 'weirdwhereas', 'variant', 'emptyvariant', 'emptylonger', 'variant', 'empty', 'selectionpretty', 'ignore', 'situation']",Risky_resource_management,{'crash': 100},
-a6203f462d584475d459f775ebf60bcaadfaa72a,"['report', 'crash', 'stats']",Risky_resource_management,{'crash': 100},
-969b74e1f6e510b61903ab4d3fc8d26c84a598a2,"['crash', 'contains', 'hotfix', 'crash', 'contains']",Risky_resource_management,{'crash': 100},
-f93f26444b181ec520ae7918cfcf0e68272a579a,"['revert', 'updatereverts', 'crash', 'quality', 'customissue', 'contributes']",Risky_resource_management,{'crash': 100},
-ec4817db8725bb3012ca0b980e8eaec0a99a0ea4,"['active', 'configuration', 'crash']",Risky_resource_management,{'crash': 100},
-1def289bb9555a52c1c2fe5da5d20c635b8b46de,"['profile', 'crash']",Risky_resource_management,{'crash': 100},
-830b22e381d1155a2fcca70055e61cefada5adc0,"['material', 'crash', 'machine']",Risky_resource_management,{'crash': 100},
-bda7a6ce0ada72885a41eac6b42fd2315edb408e,"['shorten', 'olssonencryptfs', 'system', 'length', 'crash', 'necessaryissue', 'contributes']",Risky_resource_management,{'crash': 100},
-4dea8fba76c7c2c37c58e72e3e171753dec57859,"['ultimakerlayer', 'profile', 'empty', 'crash', 'printer']",Risky_resource_management,{'crash': 100},
-00b02f95f9c28d351475b232afcb2ba5fe185b1a,"['signal', 'preventedprevents', 'listener', 'reading', 'crash', 'thing', 'reproduction', 'ticket']",Risky_resource_management,{'crash': 100},
-f8d72b2ea7dfd7dd5c22e35ba73e771d1d8ec951,"['profile', 'crash', 'quality', 'dictionary', 'positionissue', 'contributes']",Risky_resource_management,{'crash': 100},
-a9adceec87d1d921a09d00597fb9c0a423c8a8a5,"['smartavionics', 'backend', 'plugin', 'crash']",Risky_resource_management,{'crash': 100},
-de1065f0a3a732004b0a0441d1ddd32a50087688,"['crash', 'extruder']",Risky_resource_management,{'crash': 100},
-f4dc93fc39a27402deea1f5bfbfbb54b42a558ca,"['crash', 'extruder', 'model']",Risky_resource_management,{'crash': 100},
-c71660cc114abf9a9f547d1ae11e0d0383ba40ab,"['profile', 'crash']",Risky_resource_management,{'crash': 100},
-8346e465f65c3cef248ab22b4aa643f3cb1898e3,"['singletoninstance', 'materialmanagerclose', 'construct', 'problem', 'crash', 'deletes', 'qobject', 'preference', 'prevents', 'accessissue', 'contributes']",Risky_resource_management,{'crash': 100},
-72ea1257d784b1cce5c4b315209bb5886686d1b0,"['crash', 'machine']",Risky_resource_management,{'crash': 100},
-617419ccc64869dd28be8fef7ea079238a24fadf,"['profile', 'switch', 'propertyprofile', 'variant', 'crash', 'switchingissue', 'contributes']",Risky_resource_management,{'crash': 100},
-8759aae73e0664766205c36589fba169d17072af,"['materialmanager', 'crash', 'qobject']",Risky_resource_management,{'crash': 100},
-8d05ebef9dea11a4aa0e6238cd6175c260c8019b,"['printer', 'crash']",Risky_resource_management,{'crash': 100},
-6b93c97a5e910c918108044afe6cbe922f5a8fab,"['report', 'crash']",Risky_resource_management,{'crash': 100},
-242c3a747069320f37810b6b292ddc01a954c99c,"['crash', 'meshtypes']",Risky_resource_management,{'crash': 100},
-5a714f3a24c7df08ed2696ad18e3e12ac66426a5,"['crash', 'group']",Risky_resource_management,{'crash': 100},
-42abece298562fdedba74c42ef86be3bf4f15a0f,"['unkown', 'crash', 'message', 'returnedreport', 'crash', 'pretty', 'single']",Risky_resource_management,{'crash': 100},
-a82dcb6f52963351c8bba9b8e8b3a714e9e9826e,"['selection', 'crash', 'plate']",Risky_resource_management,{'crash': 100},
-4813ff0bb7df8fae3b23c85d00ab9dcc5183e4a6,"['english', 'crash']",Risky_resource_management,{'crash': 100},
-186eef0b68d1693219721f51789a1579f4599e0d,"['specific', 'crash', 'situation']",Risky_resource_management,{'crash': 100},
-51cc2ff701b61b5d4035ce5974b96ee7768adbab,"['entrysystem', 'msgmerge', 'string', 'crash', 'naive']",Risky_resource_management,{'crash': 100},
-eb690a459f311779161c471f52877c6b07e16a4a,"['boundingbox', 'calculation', 'groupwould', 'crash', 'outermost', 'previouslywould', 'child', 'group']",Risky_resource_management,{'crash': 100},
-3c43864daca64152c371b3a4f9fae08a67a02ebf,"['revert', 'crash', 'supportreverts']",Risky_resource_management,{'crash': 100},
-3a195e9678513c8b8b09f341da6746e746b8f9a3,"['eraser', 'crash', 'support']",Risky_resource_management,{'crash': 100},
-c2a00d6b53923494196b4fd032f753e2083484fd,"['simple', 'crash']",Risky_resource_management,{'crash': 100},
-9cc4665db860557a3bc80d9d1765ee73a8ad2113,"['crash', 'resetdownload']",Risky_resource_management,{'crash': 100},
-2765122b957b2dd3c6eefe582fbbc0d788958240,"['download', 'crash']",Risky_resource_management,{'crash': 100},
-5e66564c00bbdf8acc67b63c4271d3d0b778ff0d,"['crash', 'ensure']",Risky_resource_management,{'crash': 100},
-9a5b7e7925717015c6522589483c2acd7cafc614,"['valueprevent', 'crash', 'engine']",Risky_resource_management,{'crash': 100},
-62f913802f5647c891b8339157bdb17bf1fe6773,"['crash', 'connection']",Risky_resource_management,{'crash': 100},
-222f8e6cdb11c3dfe44cbaa07cec8035ad9424d4,"['backup', 'internet', 'crash', 'plugin', 'connection']",Risky_resource_management,{'crash': 100},
-d6f116b156c63ab33eb46644d7fdae3e8f429ebe,"['editing', 'material', 'crash', 'metadata', 'entrytemporary', 'material', 'profile', 'sometimesissue', 'contributes']",Risky_resource_management,{'crash': 100},
-8fecf7fb394ea9b3152fd2f5c63801bd667149e4,"['crash', 'clickingcontributes']",Risky_resource_management,{'crash': 100},
-c50fcf42c5631966176313188aab148ef2be7e38,"['crash', 'device', 'output']",Risky_resource_management,{'crash': 100},
-91f0d76c8a4d6affecb1f41529b138ccf1fb051d,"['connection', 'crash']",Risky_resource_management,{'crash': 100},
-d5e34cc9c99b293c72248989beb088c019802319,"['crash', 'activeprinter', 'controllerreport', 'crash']",Risky_resource_management,{'crash': 100},
-366d2c8114a2de79786c1bf1a43b9a348ef0ed88,"['activeprinter', 'firmware', 'crash', 'updater']",Risky_resource_management,{'crash': 100},
-c10b8b5c3f5f97a3c08be797614bd6e03662422c,"['crash', 'backup', 'restore']",Risky_resource_management,{'crash': 100},
-3db3203e0d1c27323ac936bd969797b970a14401,"['crash', 'aleksei']",Risky_resource_management,{'crash': 100},
-84c85439ff4db4db77eecc1657fcd78634eca16e,"['early', 'crash', 'purpose']",Risky_resource_management,{'crash': 100},
-c9eb57ceade38f567fc49f5e5ad0f6f1c8913d79,"['preference', 'locationstart', 'crash']",Risky_resource_management,{'crash': 100},
-9a93f6866a644fb4d1992b36c37154dafa1a1561,"['crash', 'toolbox', 'metadata']",Risky_resource_management,{'crash': 100},
-5b2dc804cac706537f7daf5bd0d6c24bf4e3b5d8,"['printer', 'crash', 'cluster']",Risky_resource_management,{'crash': 100},
-2a201cef23b8e2620cecf70f84b42568702bee91,"['setting', 'print', 'crash', 'support', 'object']",Risky_resource_management,{'crash': 100},
-c29d38361b754d1acbbf4391b5b333a0b5ef2edd,"['model', 'parameter', 'initialstart', 'argument', 'prevents', 'crash', 'model', 'command', 'printer', 'launch']",Risky_resource_management,{'crash': 100},
-4bd5d29970f19aa2e038fb7f6e49860ce5a0d725,"['crash', 'plugin', 'error', 'maybedialog']",Risky_resource_management,{'crash': 100},
-e9cdd47a03b1d30524ed46ebf2254935a3c59fa9,"['resultplace', 'error', 'global', 'stackhappens', 'function', 'global', 'requirement', 'crash', 'stack']",Risky_resource_management,{'crash': 100},
-6df029971d2f0dc4070959c892f2d79c3cf1cb04,"['layer', 'crash', 'height', 'formulalayer', 'formula']",Risky_resource_management,{'crash': 100},
-1d8f19f1d1c501f5d7525ca695967a7813f30c16,"['layer', 'thickness', 'value', 'error', 'crash', 'engine', 'routine', 'infill']",Risky_resource_management,{'crash': 100},
-e50907894394ea0793b9cddef89238f560825102,"['libsavitarlibarcus', 'crash']",Risky_resource_management,{'crash': 100},
-6737dfac470f80f358926c63490a40976a9997ca,"['temporary', 'crash']",Risky_resource_management,{'crash': 100},
-83fcc60bee9a3894a11f2e4ca840968352fd2e95,"['machine', 'message', 'project', 'unknownproject', 'unkown', 'crash', 'machinemessage']",Risky_resource_management,{'crash': 100},
-97a1aa1a2b0ba417c8fc1127e5f108aa7eb4a44b,"['crash', 'brand', 'materialmanager', 'materialcolor']",Risky_resource_management,{'crash': 100},
-e152fd641bee0558275afbce2acba7ae397c9519,"['configuration', 'window', 'trailingreport', 'crash']",Risky_resource_management,{'crash': 100},
-a468fc2cc4a42778c137b11029b8dfb3bfc8032c,"['neededtoolbox', 'crash', 'limit']",Risky_resource_management,{'crash': 100},
-77feb95191317a6e7bf077127a6a4d3293f67955,"['crash', 'reload', 'failingmessage']",Risky_resource_management,{'crash': 100},
-8a6996e920d6dde3a98fddf4a80ee078a24db385,"['crash', 'object', 'convex']",Risky_resource_management,{'crash': 100},
-aa73b88975cc36fedbcad270415438ed5b859013,"['master', 'managermasterissue', 'alreadyinternet', 'issue', 'toolbox', 'crash', 'workingapplication', 'languagechange', 'package', 'plugins', 'smalllayout', 'alignment', 'column', 'plugins', 'problem', 'progress', 'update', 'uninstall', 'buttoncorrect', 'check', 'plugin', 'clean', 'package', 'manager', 'existtranslation', 'format', 'changelog', 'engine']",Risky_resource_management,{'crash': 100},
-fa97d5830b9ae89f8dcef47e4a4e76904e69f769,"['issue', 'crash', 'toolbox', 'workinginternet']",Risky_resource_management,{'crash': 100},
-20a2ea4f2c8635da5392f68592ca21284b0abdfe,"['crash', 'curaversion']",Risky_resource_management,{'crash': 100},
-4e62c58ee692e040667231d78e3f84614102a38d,"['connection', 'crash', 'timer', 'fetch']",Risky_resource_management,{'crash': 100},
-096f304aef94b47b28533e1f2319f8dae8723859,"['crash', 'package']",Risky_resource_management,{'crash': 100},
-1af56871e2232ca4eb0d409c47ba73fdf658915e,"['setting', 'number', 'crash', 'extruders', 'matchconfiguration', 'misalign', 'number', 'format', 'custom', 'printer', 'extruders', 'couldissue', 'contributes']",Risky_resource_management,{'crash': 100},
-fcb45b3b82a0c8f7b5be8b14e6500ec3da807e8f,"['crash', 'variant']",Risky_resource_management,{'crash': 100},
-fce703536bad4600ed38f35a99199d4f876a34d6,"['reset', 'uranium', 'factoryarbitrary', 'configuration', 'crash', 'error', 'triggeredissue', 'contributes']",Risky_resource_management,{'crash': 100},
-ca4cb419ff13e774a70054b95e96282c1c7bbad4,"['crash', 'startup']",Risky_resource_management,{'crash': 100},
-1aea5356b622a3562ace458396a6b3e76bd9da02,"['early', 'global', 'stackstart', 'wizard', 'crash', 'printer', 'preventsissue', 'contributes']",Risky_resource_management,{'crash': 100},
-75e993eb60f809cb73d7d62317c68e572e6c0af9,"['material', 'crash', 'updateissue', 'contributes']",Risky_resource_management,{'crash': 100},
-74a0da14bff202c31e241a0d688659c82bf326d7,"['machine', 'crash', 'addedprofile', 'qualityissue', 'contributes']",Risky_resource_management,{'crash': 100},
-d74c1e0d7a3d8f44b5cf69af5f985fe0c74f9ef4,"['global', 'signal', 'crash', 'container', 'stack', 'container', 'changedissue', 'contributes']",Risky_resource_management,{'crash': 100},
-98b325c9d5334b5a6a0eff6c7918207c6a054d21,"['serialization', 'crash', 'material']",Risky_resource_management,{'crash': 100},
-591d3f29ec860a940e5c1ba73a23ea26b4ca95b1,"['crash', 'variant', 'buildplatecurrent', 'machine']",Risky_resource_management,{'crash': 100},
-b4cf25cb7f9b7653fc7b6bfe531d7348a111419d,"['printer', 'model', 'function', 'output', 'procedure', 'crash', 'insteadissue', 'contributes']",Risky_resource_management,{'crash': 100},
-f576b1f1170deb28d3a755d461201161817e2e88,"['crash', 'extruder', 'single', 'machine']",Risky_resource_management,{'crash': 100},
-1f883f331216c4a39ee2611775d98c39a4562ca8,"['crash', 'hanlder', 'reply']",Risky_resource_management,{'crash': 100},
-32afa9bfd4e544402a207e95ef78da9dba6c4d63,"['containerid', 'material', 'management', 'crash']",Risky_resource_management,{'crash': 100},
-3591e01b251afd3e93cc5994380106c5547a2324,"['machine', 'crash', 'variant']",Risky_resource_management,{'crash': 100},
-b2ca8565c985e7d4634aaa0d3ac6fc8a1ff0b34d,"['crash', 'startup']",Risky_resource_management,{'crash': 100},
-8bb70d6cc2747baacdec9d668e2159f03f2977d6,"['crash', 'handler', 'cleanup']",Risky_resource_management,{'crash': 100},
-399a63912e063a9c18517bf552da7e381ef4d175,"['crash', 'error', 'option', 'message', 'trigger']",Risky_resource_management,{'crash': 100},
-a85a720184ab3d7f8cd7097375d00ff73dd4a805,"['dialog', 'screen', 'crash', 'splash', 'increase', 'button']",Risky_resource_management,{'crash': 100},
-e64fb9c7622d149ad3fdcaf2fb55469fdf361bf1,"['early', 'crash', 'splash']",Risky_resource_management,{'crash': 100},
-547baff239524301b134d1378db5bc125f55c67c,"['crash', 'dialog']",Risky_resource_management,{'crash': 100},
-30b1e74881bcfe85ffe035b24157f42918904861,"['early', 'crash', 'dialog']",Risky_resource_management,{'crash': 100},
-aefe24222f05a183f88473648eca55f060bd54e3,"['early', 'crash']",Risky_resource_management,{'crash': 100},
-6bbc18d51e788dad525934963a8765f9758ff810,"['early', 'crash', 'backup', 'dialog', 'crash', 'option', 'currentconfiguration', 'reset']",Risky_resource_management,{'crash': 100},
-1d946085d375d28299297836673c06051daf6372,"['available', 'dialog', 'crash', 'application']",Risky_resource_management,{'crash': 100},
-f948203a63fc246abb7d6e3c62dac63616d4fecf,"['crash', 'clearing', 'plate', 'buildsingleton', 'scene', 'order', 'information', 'delete', 'logic', 'insteadissue', 'contributes']",Risky_resource_management,{'crash': 100},
-6225c12a9e06a1c218bae5d6d1240c18a6a16b46,"['crash', 'message', 'complete', 'fixedprinter']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+5f39de0a4cdafe575a8eec480be0785cef1c4705,"['pull', 'request', 'ultimaker', 'cura', 'crash', 'exit', 'macos', 'cura', 'translation']",General,{'crash': 100}
+e591f3db5b43d60129120f43ad1cc282c29aa5ef,"['certain', 'keywords', 'application', 'menu', 'macos', 'suspicion', 'crash', 'exit', 'traceback', 'certain', 'property', 'update', 'property', 'item', 'system', 'item', 'specific', 'menu', 'realise', 'necessary', 'update', 'prevents', 'need', 'look', 'data', 'specific', 'name', 'user', 'system', 'language', 'macos', 'sure', 'test', 'necessary', 'contributes', 'issue', 'cura']",General,{'crash': 100}
+40fe8b577d004d1357235e931ee7344b013d96ad,"['show', 'error', 'message', 'connection', 'error', 'code', 'external', 'backend', 'engine', 'clean', 'socket', 'connection', 'cura', 'front', 'socket', 'reset', 'reset', 'socket', 'external', 'backend', 'crash', 'response', 'code', 'base', 'contributes', 'issue', 'cura']",General,{'crash': 100}
+399b378ba65499b04ccf25916f4b6d8d1dc23b38,"['show', 'message', 'nonzero', 'exit', 'code', 'crash', 'finish', 'contributes', 'issue', 'cura']",General,{'crash': 100}
+aabbdd204013163d6cf3c1c5457e5aac45ae3878,"['pull', 'request', 'ultimaker', 'cura', 'cura', 'cura', 'crash', 'access']",General,{'crash': 100}
+cf7e1af99d179aed977361b8defb069da1d5725b,"['area', 'area', 'people', 'edit', 'definition', 'cura', 'crash', 'calculation', 'area', 'sentry', 'issue', 'cura']",General,{'crash': 100}
+788efcc83e234a2839e21e597f0842b2d991a71b,"['crash', 'cloud', 'printer', 'active', 'printer', 'cloud', 'printer', 'crash', 'dict', 'sentry', 'issue', 'cura']",General,{'crash': 100}
+3dc1dbbbdbce695732b4fd5fdc2b4fda1f1a9f64,"['load', 'profile', 'stack', 'refers', 'case', 'version', 'upgrade', 'quality', 'profile', 'specific', 'printer', 'global', 'profile', 'project', 'file', 'quality', 'profile', 'workspace', 'crash', 'pretend', 'project', 'file', 'plain', 'case', 'version', 'upgrade', 'stack', 'contributes', 'issue', 'cura']",General,{'crash': 100}
+be06108f36e3d08974e4b652ef64317e91cfb64f,"['crash', 'network', 'connection']",General,{'crash': 100}
+3c4d0b6ecdecfd92ffbf7954d1fc3b18ee21586a,"['default', 'graphic', 'driver', 'result', 'failure', 'compile', 'crash', 'crescendo']",General,{'crash': 100}
+653dd42e871f05c0b54001caad4ceb38663a4051,"['crash', 'hardware', 'work', 'line']",General,{'crash': 100}
+396c26ce3d5b363f76ad41b9b91741678b7563aa,"['crash', 'hardware', 'work', 'line']",General,{'crash': 100}
+df5c52d1c60435a8b61051f3a40fa9a52e7ae1df,"['backup', 'temp', 'file', 'crash', 'sentry', 'issue', 'cura']",General,{'crash': 100}
+9dba4d554f4cf44620037f2b0b663e85d412ed6e,"['segfault', 'area', 'libnestd', 'area', 'border', 'area', 'vertex', 'libnestd', 'crash', 'libnestd', 'function', 'libnestd', 'clipperlib', 'polygon', 'segfault', 'area', 'step', 'reproduce', 'error', 'custom', 'printer', 'adhesion', 'type', 'setting', 'http', 'github', 'ultimaker', 'uranium', 'pull', 'commits', 'hint', 'segfault', 'empty', 'polygon', 'empty', 'polygon', 'arranger', 'empty', 'polygon', 'useless', 'invalid']",General,{'crash': 100}
+93a3f15b4f902ac16e69a917d7bca0766bac8d4c,"['global', 'stack', 'extensive', 'explanation', 'documentation', 'truth', 'global', 'stack', 'qobject', 'main', 'window', 'pyqt', 'update', 'reason', 'application', 'crash', 'exit', 'pyqt', 'mysterious', 'issue', 'application', 'segfault', 'exit', 'crash', 'need', 'contributes', 'issue', 'cura']",General,{'crash': 100}
+bcf180985d8503245822d420b420f826d0b2de72,"['crash', 'device', 'global', 'stack', 'plug', 'printer', 'screen', 'sentry', 'issue', 'cura']",General,{'crash': 100}
+577e45595ec5e421bd59c8ab9e7d9a8fd58252b9,"['crash', 'cloud', 'response', 'invalid', 'json', 'sentry', 'issue', 'cura']",General,{'crash': 100}
+a9bf3ed934d0888bf08e2aa3b0f4749373e5bc9a,"['small', 'slice', 'main', 'window', 'visible', 'reverts', 'weird', 'crash', 'autoslice', 'critical', 'mainthread', 'uncaught', 'error', 'critical', 'mainthread', 'traceback', 'recent', 'call', 'critical', 'mainthread', 'file', 'home', 'trin', 'gedeeld', 'project', 'cura', 'plugins', 'line', 'slice', 'critical', 'mainthread', 'critical', 'mainthread', 'file', 'home', 'trin', 'gedeeld', 'project', 'cura', 'cura', 'utils', 'line', 'critical', 'mainthread', 'return', 'func', 'args', 'kwargs', 'critical', 'mainthread', 'file', 'home', 'trin', 'gedeeld', 'project', 'cura', 'plugins', 'line', 'critical', 'mainthread', 'isvisible', 'critical', 'mainthread', 'attributeerror', 'curaapplication', 'object', 'attribute', 'isvisible', 'property', 'exists', 'right', 'curaapplication', 'instance', 'pycharm', 'debug', 'mode', 'weird', 'need', 'quick']",General,{'crash': 100}
+9197a1ca51d56312aa027dcfa80375022486ed15,"['crash', 'open', 'project', 'term', 'file', 'opening', 'file', 'project', 'crash', 'preference', 'typo', 'cura']",General,{'crash': 100}
+a72a58cca194c605d8894ba7f04cebeb359da991,"['comment', 'generation', 'snapshot', 'file', 'main', 'thread', 'snapshot', 'generation', 'crash', 'cura', 'opengl', 'context', 'time', 'comment', 'generation', 'snapshot', 'cura']",General,{'crash': 100}
+4380cdbd86df87f547e0ba6acfbd0491d8d5eb0b,"['json', 'structure', 'json', 'dictionary', 'need', 'certain', 'structure', 'string', 'typeerror', 'crash', 'similar', 'error', 'message', 'value', 'json', 'invalid']",General,{'crash': 100}
+8023bee35a952f0ca9b5dce7d2b6aa0faebef9ec,"['default', 'theme', 'layout', 'issue', 'default', 'show', 'issue', 'preview', 'pane', 'crash']",General,{'crash': 100}
+7096f64ca2628c1d5b3c260c8d791fb5de21e682,"['crash', 'extruder']",General,{'crash': 100}
+5109bd36845a49ceaf1840e70c7c89611b29a6a2,"['crash', 'node', 'support', 'blocker', 'smartavonics']",General,{'crash': 100}
+148dd26b673de22720581704a7a356d9fa902175,"['location', 'message', 'crash', 'cura']",General,{'crash': 100}
+972e2f67164922fe283146ca150313c44d760d05,"['crash', 'time', 'mode', 'node', 'getpoints', 'return']",General,{'crash': 100}
+dd359da1cfeba7110791c98b2291af8d08cd98af,"['crash', 'material', 'unknown', 'cura']",General,{'crash': 100}
+6e2738a25489f5c38d1177915c1f9d51545c4ac3,"['update', 'extruders', 'cura', 'cura', 'ignore', 'extruders', 'warning', 'crash', 'sentry', 'issue', 'cura']",General,{'crash': 100}
+59669f6bade15f2bc4c7b3c40fd9c9d3d202157c,"['bitmask', 'user', 'scope', 'identifiable', 'information', 'crash', 'report', 'useful', 'information', 'developer']",General,{'crash': 100}
+bde6e1bb97a85863af032d0f39532984794e39d6,"['crash', 'cloud', 'printer', 'cura']",General,{'crash': 100}
+8c0e21f0d58549b645cbd5e5823acdfee0c44781,"['crash', 'mesh', 'objreader', 'return', 'sentry', 'issue', 'cura']",General,{'crash': 100}
+808a0bf4aa7106eb90aabe1f0fe4848c4b765d7e,"['findpython', 'script', 'cmake', 'specify', 'prefix', 'search', 'cura', 'header', 'version', 'need', 'header', 'case', 'crash', 'crash', 'time', 'libarcus', 'libsavitar']",General,{'crash': 100}
+1374c2faa93d83b9add7e414272facd993f7e572,"['translation', 'crash']",General,{'crash': 100}
+5c8132a94452afb137ed1744df0b719246b8a125,"['translation', 'crash']",General,{'crash': 100}
+fc6ea283528e28da19be1fac384c02a0f588dc30,"['global', 'stack', 'cura', 'crash', 'stack', 'indexerror', 'project', 'file', 'sentry', 'issue', 'cura']",General,{'crash': 100}
+8b522a8a58a5ac8005e52bd6acdc7083124000ac,"['crash', 'original', 'line']",General,{'crash': 100}
+9daab5ed9b8aec2f3d74b4018d4d32c9054b74bf,"['workaround', 'pyserial', 'crash', 'file', 'report', 'upstream', 'pyserial', 'folk', 'sentry', 'issue', 'cura']",General,{'crash': 100}
+8c4533a2c38cd9d390484aafa22b5533614d1130,"['crash', 'port', 'sentry', 'issue', 'cura']",General,{'crash': 100}
+4372099e1d401a33f1b2adee8801386dbfb2e6e2,"['crash', 'material', 'preference', 'corrupt', 'time', 'need', 'catch', 'permission', 'error', 'preference', 'file', 'need', 'catch', 'json', 'json', 'syntax', 'file', 'file', 'sentry', 'issue', 'cura']",General,{'crash': 100}
+572ded8c952a094bdfafb027546ebd2e9b1bb6aa,"['crash', 'reading', 'extruder', 'list', 'empty', 'cura']",General,{'crash': 100}
+85bfb0222878475a140a041a3b0ad088fd257859,"['show', 'error', 'open', 'project', 'file', 'unknown', 'machine', 'crash', 'sentry', 'issue', 'cura']",General,{'crash': 100}
+6634a2bff3bb28f9d2e18d5717692b2b8c4b23d2,"['pull', 'request', 'ultimaker', 'cura', 'cura', 'crash', 'report', 'plugins', 'version', 'number']",General,{'crash': 100}
+30ad6e1445b0a4c68046e2df567c86758d05a87e,"['crash', 'report', 'plugins', 'version', 'number', 'session', 'internal', 'ticket']",General,{'crash': 100}
+773edfd533acf258f1d785092506c0746a93808c,"['crash', 'camera', 'tool']",General,{'crash': 100}
+edf7fdad75e0221c02821147b1e93715338e490b,"['valid', 'vertex', 'data', 'convex', 'hull', 'calculation', 'tomit', 'convex', 'hull', 'shadow', 'crash', 'sentry', 'issue', 'cura']",General,{'crash': 100}
+715e5a890ea9d2640b1d73749a0c960e8a05b5c5,"['crash', 'file', 'phase', 'show', 'dialogue', 'user', 'time', 'delete', 'file', 'rename', 'sentry', 'issue', 'cura']",General,{'crash': 100}
+fa34c625ae31b02a07bf31199c62ce7439b28581,"['crash', 'sentry']",General,{'crash': 100}
+252be6352b5ea8f9b3f485d2c96043d4f089639d,"['crash', 'sentry']",General,{'crash': 100}
+b231a4b3a2a0ae4034222c436f6a1592c654a8d1,"['backwards', 'compatibility', 'version', 'uranium', 'link', 'cura', 'version', 'uranium', 'version', 'strong', 'cura', 'crash', 'uranium', 'version', 'warning', 'extruders', 'clean', 'file']",General,{'crash': 100}
+580bd13a76afec3155e86f0a4d8537595dcf1a30,"['crash', 'icon', 'cura']",General,{'crash': 100}
+51378cae560036b3ad94a9bf94227bf3d18d2dab,"['crash', 'shader']",General,{'crash': 100}
+abffb6c26ce5c47b896d34ab434ad3cd831f11be,"['crash', 'reading', 'corrupt', 'file', 'crash', 'badzipfile', 'error', 'robust', 'trigger', 'generic', 'message', 'file', 'user', 'information', 'sentry', 'issue', 'cura']",General,{'crash': 100}
+29d2e5c92112737f371b066a42c02228cb4267ae,"['crash', 'device', 'wrong', 'moment', 'cura', 'error', 'report', 'hope', 'sentry', 'issue', 'cura']",General,{'crash': 100}
+add9be387ba27fab3f5b23effc29b6ccd2158e55,"['crash', 'socket', 'plug', 'register', 'function', 'initialisation', 'function', 'initiate', 'reslice', 'sentry', 'issue', 'cura']",General,{'crash': 100}
+d9cdea9496f340095861eb406e33f9442a53a2d2,"['crash', 'material', 'file', 'separate', 'thread', 'sentry', 'issue', 'cura']",General,{'crash': 100}
+4050d3ccde1295ee5ce429638afe849a32381296,"['crash', 'setting', 'setting', 'category', 'impossible', 'trace', 'crash', 'case', 'good', 'defensive', 'sort', 'thing', 'good', 'type', 'sentry', 'issue', 'cura']",General,{'crash': 100}
+cfc2cc36929daba962cac42a2bf8ff803b4990ba,"['crash', 'printer', 'definition']",General,{'crash': 100}
+869f26a5bac877e7e669b94046a458bad023e9cd,"['crash', 'nonsense', 'number', 'input', 'field', 'opinion', 'time', 'sentry', 'issue', 'cura']",General,{'crash': 100}
+4c770587e2d9d7c8a10fe6e6c828c7d58803dfb2,"['additional', 'byte', 'qimage', 'qimage', 'byte', 'memory', 'word', 'column', 'pixel', 'column', 'contains', 'valid', 'image', 'data', 'noise', 'image', 'size', 'cura', 'window', 'size', 'total', 'number', 'byte', 'image', 'result', 'cura', 'crash', 'reshape', 'image', 'random', 'noise', 'actual', 'pixel', 'column', 'data', 'slow', 'python', 'numpy', 'magic', 'class', 'pretend', 'numpy', 'array', 'class', 'data', 'certain', 'pixel', 'size', 'certain', 'stride', 'length', 'stride', 'length', 'length', 'actual', 'pixel', 'data', 'result', 'numpy', 'code', 'numpy', 'framerate', 'fantastic', 'computer', 'problem', 'pretty', 'powerful', 'computer', 'screen', 'problem', 'numpy', 'figure', 'contributes', 'issue', 'cura']",General,{'crash': 100}
+d501f7730a42e45177fa3cdb89a4cdce1f1bd9a4,"['full', 'name', 'message', 'insecure', 'cura', 'company', 'name', 'front']",General,{'insecure': 100}
+27902fe38fb6e3a32114f1ec705b4f92323c5c91,"['jsondecorator', 'scope', 'toolbox', 'cloudsync', 'improves', 'security', 'content', 'json', 'request', 'cura']",General,{'security': 100}
+62dfadecdface687841930de70f12d151961f47e,"['sensitive', 'data', 'sentry', 'cura']",Porous_defenses,{'sensitive data': 100}
+e52dc56a64186812d48ca4b7d7e318ff24401142,"['http', 'server', 'permissionerror', 'http', 'server', 'response', 'able', 'browser', 'page', 'localhost', 'crash', 'crash', 'cura', 'error', 'http', 'server', 'contributes', 'crash', 'cura', 'type', 'optional', 'attempt', 'issue', 'mypy', 'contributes', 'sentry', 'issue', 'cura']",General,{'crash': 100}
+a03a2885b668a0ef0119c593dbdd6ae224ded5a9,"['main', 'config', 'file', 'backup', 'line', 'defence', 'security', 'content', 'spoof', 'thanks', 'whitehats']",General,{'security': 100}
+290761fccd6cf8f282c110def1de190d5544a223,"['arranger', 'crash']",General,{'crash': 100}
+043ef2e84f973096da56628af72b02b5b7c43119,"['crash', 'layer']",General,{'crash': 100}
+4773c4eaf333c8229a5f654bdff79866239e57f3,"['pull', 'request', 'ultimaker', 'sentry', 'crash', 'integration']",General,{'crash': 100}
+8dc6e7a38670d81e919d4b3a817834308d6029b0,"['variable', 'sentry', 'crash']",General,{'crash': 100}
+c15599f1c4e082c6fa46bd9b8143659e6cd684ef,"['extra', 'info', 'crash', 'handler', 'screen']",General,{'crash': 100}
+5ea60823f568a18a31fcdd8f653c1cc4235c886c,"['crash', 'address', 'zeroconf', 'version', 'contributes', 'issue', 'cura']",General,{'crash': 100}
+4811f15a7b60e4e4f388035b7dd5cd4eb1e17aae,"['pull', 'request', 'ultimaker', 'cura', 'cura', 'crash', 'report', 'stats']",General,{'crash': 100}
+b77de636d4a27b6bf6ca4527b9c17008d5794ab1,"['crash', 'variant', 'previous', 'upgrade', 'weird', 'specific', 'case', 'printer', 'empty', 'variant', 'whereas', 'variant', 'ensure', 'variant', 'empty', 'selection', 'variant', 'empty', 'pretty', 'safe', 'ignore', 'situation']",General,{'crash': 100}
+028a60318caa7811123976a6ab049c358ec5ef3c,"['extra', 'crash', 'startup']",General,{'crash': 100}
+466c90ca6c910def8430bc95f3b8034ff9cb14dc,"['extra', 'context', 'info', 'crash']",General,{'crash': 100}
+c7649e3db160eb669d1a158c73471adb6072ed33,"['extra', 'crash', 'report']",General,{'crash': 100}
+fb4ce43f0cde76af3abed48376b0a9fb216b9be4,"['crash', 'variant', 'previous', 'upgrade', 'weird', 'specific', 'case', 'printer', 'empty', 'variant', 'whereas', 'variant', 'ensure', 'variant', 'empty', 'selection', 'variant', 'empty', 'pretty', 'safe', 'ignore', 'situation']",General,{'crash': 100}
+a6203f462d584475d459f775ebf60bcaadfaa72a,"['crash', 'report', 'stats', 'cura']",General,{'crash': 100}
+fe27193c98d3b845e72cd58ed0535ca11d286dfb,"['dict', 'check', 'crash', 'intentmanager', 'cura']",General,{'crash': 100}
+eb4eddd49e1661be5dcf2ba49d83ae66c6b44e33,"['dict', 'check', 'crash', 'intentmanager', 'cura']",General,{'crash': 100}
+969b74e1f6e510b61903ab4d3fc8d26c84a598a2,"['crash', 'sync', 'list', 'user', 'orderable', 'hotfix', 'entire', 'application']",General,{'crash': 100}
+f93f26444b181ec520ae7918cfcf0e68272a579a,"['revert', 'update', 'reverts', 'cura', 'crash', 'custom', 'quality', 'profile', 'contributes', 'issue', 'cura']",General,{'crash': 100}
+ec4817db8725bb3012ca0b980e8eaec0a99a0ea4,"['crash', 'configuration', 'printcores', 'active', 'cura']",General,{'crash': 100}
+d60b26db159083896f49079c8a415562ca3fd91f,"['check', 'material', 'diameter', 'crash', 'material', 'metadata', 'entry', 'empty', 'material', 'cura']",General,{'crash': 100}
+44cb810c855406a467d5b06a93f84ffc5c101c5c,"['crash', 'cura']",General,{'crash': 100}
+1def289bb9555a52c1c2fe5da5d20c635b8b46de,"['crash', 'different', 'cura']",General,{'crash': 100}
+fc67090a2fa39c15c80d026c250d8474673aad81,['crash'],General,{'crash': 100}
+830b22e381d1155a2fcca70055e61cefada5adc0,"['crash', 'material', 'cura']",General,{'crash': 100}
+bda7a6ce0ada72885a41eac6b42fd2315edb408e,"['shorten', 'name', 'olsson', 'necessary', 'file', 'system', 'encryptfs', 'length', 'file', 'name', 'crash', 'cura', 'contributes', 'issue', 'cura']",General,{'crash': 100}
+4dea8fba76c7c2c37c58e72e3e171753dec57859,"['pull', 'request', 'ultimaker', 'cura', 'crash', 'printer', 'empty', 'profile', 'layer']",General,{'crash': 100}
+2d0a122c2daaff98d89f17eb9305c515b465d98b,"['display', 'list', 'custom', 'quality', 'profile', 'activate', 'crash', 'contributes', 'issue', 'cura']",General,{'crash': 100}
+f8d72b2ea7dfd7dd5c22e35ba73e771d1d8ec951,"['crash', 'profile', 'dictionary', 'position', 'integer', 'position', 'string', 'contributes', 'issue', 'cura']",General,{'crash': 100}
+ea5530c507e02c4edb97ed12416fb94ed22d4dcc,"['global', 'stack', 'crash', 'group', 'contributes', 'issue', 'cura']",General,{'crash': 100}
+a9adceec87d1d921a09d00597fb9c0a423c8a8a5,"['backend', 'plugin', 'crash', 'http', 'github', 'smartavionics', 'cura', 'smartavionics', 'backend', 'plugin', 'crash']",General,{'crash': 100}
+de1065f0a3a732004b0a0441d1ddd32a50087688,"['crash', 'extruder']",General,{'crash': 100}
+f4dc93fc39a27402deea1f5bfbfbb54b42a558ca,"['crash', 'model', 'extruder']",General,{'crash': 100}
+c71660cc114abf9a9f547d1ae11e0d0383ba40ab,"['occasional', 'crash', 'profile', 'section', 'singleton', 'part', 'cura']",General,{'crash': 100}
+8346e465f65c3cef248ab22b4aa643f3cb1898e3,"['instance', 'page', 'prevents', 'crash', 'deletes', 'qobject', 'close', 'preference', 'screen', 'open', 'construct', 'instance', 'problem', 'page', 'access', 'item', 'contributes', 'issue', 'cura']",General,{'crash': 100}
+72ea1257d784b1cce5c4b315209bb5886686d1b0,"['crash', 'machine']",General,{'crash': 100}
+617419ccc64869dd28be8fef7ea079238a24fadf,"['container', 'property', 'node', 'switch', 'profile', 'crash', 'list', 'profile', 'profile', 'contributes', 'issue', 'cura']",General,{'crash': 100}
+8759aae73e0664766205c36589fba169d17072af,"['crash', 'materialmanager', 'qobject', 'idea']",General,{'crash': 100}
+8d05ebef9dea11a4aa0e6238cd6175c260c8019b,"['crash', 'printer', 'cura']",General,{'crash': 100}
+6b93c97a5e910c918108044afe6cbe922f5a8fab,"['crash', 'report', 'cura']",General,{'crash': 100}
+242c3a747069320f37810b6b292ddc01a954c99c,"['crash', 'special', 'meshtypes', 'cura']",General,{'crash': 100}
+5a714f3a24c7df08ed2696ad18e3e12ac66426a5,"['group', 'node', 'crash', 'cura']",General,{'crash': 100}
+42abece298562fdedba74c42ef86be3bf4f15a0f,"['crash', 'unkown', 'message', 'crash', 'report']",General,{'crash': 100}
+a82dcb6f52963351c8bba9b8e8b3a714e9e9826e,"['crash', 'plate', 'selection']",General,{'crash': 100}
+ea93490c45249c8c29f3f0916326e4e8b35f5ae2,"['crash', 'multi', 'extrusion', 'print', 'getproperty', 'need', 'property']",General,{'crash': 100}
+4813ff0bb7df8fae3b23c85d00ab9dcc5183e4a6,"['english', 'crash', 'report']",General,{'crash': 100}
+1c9eab6b2bab3fce9fb3a0bd9efc47100bbdf87a,"['crash', 'backup']",General,{'crash': 100}
+51cc2ff701b61b5d4035ce5974b96ee7768adbab,"['duplicate', 'entry', 'msgmerge', 'crash', 'naive']",General,{'crash': 100}
+8d6136bcf3f7a282d03e83b887196e28644bf055,"['crash', 'material', 'update', 'node', 'structure', 'link', 'material', 'contributes', 'issue', 'cura']",General,{'crash': 100}
+3c43864daca64152c371b3a4f9fae08a67a02ebf,"['revert', 'crash', 'support', 'eraser', 'reverts']",General,{'crash': 100}
+3a195e9678513c8b8b09f341da6746e746b8f9a3,"['crash', 'support', 'eraser', 'cura']",General,{'crash': 100}
+9cc4665db860557a3bc80d9d1765ee73a8ad2113,"['crash', 'resetdownload', 'long', 'wait', 'cura']",General,{'crash': 100}
+5e66564c00bbdf8acc67b63c4271d3d0b778ff0d,"['ensure', 'crash', 'list']",General,{'crash': 100}
+9a5b7e7925717015c6522589483c2acd7cafc614,"['value', 'crash', 'engine']",General,{'crash': 100}
+62f913802f5647c891b8339157bdb17bf1fe6773,"['crash', 'connection']",General,{'crash': 100}
+222f8e6cdb11c3dfe44cbaa07cec8035ad9424d4,"['crash', 'backup', 'plugin', 'internet', 'connection']",General,{'crash': 100}
+d6f116b156c63ab33eb46644d7fdae3e8f429ebe,"['crash', 'editing', 'metadata', 'entry', 'temporary', 'material', 'profile', 'file', 'contributes', 'issue', 'cura']",General,{'crash': 100}
+c50fcf42c5631966176313188aab148ef2be7e38,"['crash', 'output', 'device', 'list']",General,{'crash': 100}
+91f0d76c8a4d6affecb1f41529b138ccf1fb051d,"['crash', 'user', 'internet', 'connection', 'boot']",General,{'crash': 100}
+5600d5407c3475486f58c31abe34769445c21853,"['crash', 'cura']",General,{'crash': 100}
+1a037bdb829605609f3b47082aff7311bde95e12,"['writer', 'base', 'file', 'material', 'crash', 'report']",General,{'crash': 100}
+d5e34cc9c99b293c72248989beb088c019802319,"['crash', 'activeprinter', 'controller', 'automatic', 'crash', 'report']",General,{'crash': 100}
+d535008e0891fd459a0e4bca2be4eac42b1bd80d,"['repeat', 'plug', 'name', 'crash', 'cura']",General,{'crash': 100}
+366d2c8114a2de79786c1bf1a43b9a348ef0ed88,"['crash', 'firmware', 'updater', 'activeprinter']",General,{'crash': 100}
+c10b8b5c3f5f97a3c08be797614bd6e03662422c,"['crash', 'restore', 'backup', 'cura']",General,{'crash': 100}
+2b2e8ebb31ffaacdcd6cac3851585de94af556c4,"['safety', 'check', 'guid', 'material', 'crash', 'guid']",General,{'crash': 100}
+3db3203e0d1c27323ac936bd969797b970a14401,"['pull', 'request', 'ultimaker', 'cura', 'cura', 'crash', 'dialog']",General,{'crash': 100}
+5d95d1143762a72e7cfe9c384c9d5752f6b888c2,"['setcurrentindex', 'switch', 'mysterious', 'segfault', 'loop', 'currentindex', 'range', 'visualitemmodel', 'visible', 'cura', 'crash', 'crash', 'contributes', 'issue', 'cura']",General,{'crash': 100}
+c9eb57ceade38f567fc49f5e5ad0f6f1c8913d79,"['copy', 'preference', 'file', 'location', 'crash', 'cura']",General,{'crash': 100}
+5be8b2810dbcde6274513f71abaadf9e792b5fa6,"['load', 'model', 'scale', 'load', 'model', 'cura', 'crash', 'model', 'point', 'plate', 'cura']",General,{'crash': 100}
+9a93f6866a644fb4d1992b36c37154dafa1a1561,"['crash', 'toolbox', 'metadata']",General,{'crash': 100}
+90726ecbff305d044dc63e5829134351e3e624f0,"['situation', 'setting', 'visibility', 'model', 'crash', 'crash']",General,{'crash': 100}
+1623f66c9364551ce3f9f47c966fe64c705f94a5,"['pull', 'request', 'fieldofview', 'memory', 'leak', 'print', 'monitor']",Risky_resource_management,{'memory leak': 100}
+de680f4aac20e1db017d6d871db19d00cdd467f4,"['pull', 'request', 'ultimaker', 'cura', 'cura', 'camera', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+9d07409cce48cbb7ce0923c75d8c81f092f3da1c,"['cameraview', 'camera', 'feed', 'cura', 'original', 'implementation', 'refreshes', 'qimage', 'memory', 'overflow', 'macosx', 'window', 'different', 'implementation', 'memory', 'overflow', 'consume', 'power']",Risky_resource_management,{'memory overflow': 100}
+777470db7f06eb64d70e73468d195ab1140eba42,"['request', 'prevents', 'serial', 'buffer', 'overflow', 'printer']",Risky_resource_management,{'buffer overflow': 100}
+88c19aa11d61bc51273c2c7993acc4b55c2e49b2,"['pull', 'request', 'ultimaker', 'cura', 'cura', 'crash']",General,{'crash': 100}
+5b2dc804cac706537f7daf5bd0d6c24bf4e3b5d8,"['crash', 'printer', 'part', 'cluster']",General,{'crash': 100}
+77fd05ac706822d56e39b202a3ce3f394c30b929,"['button', 'toolbox', 'crash', 'risky', 'close', 'release', 'contributes', 'cura']",General,{'crash': 100}
+2a201cef23b8e2620cecf70f84b42568702bee91,"['cura', 'crash', 'setting', 'print', 'support', 'object', 'setting', 'menu', 'cura']",General,{'crash': 100}
+c29d38361b754d1acbbf4391b5b333a0b5ef2edd,"['initial', 'start', 'model', 'parameter', 'model', 'file', 'command', 'line', 'argument', 'cura', 'auto', 'load', 'file', 'command', 'line', 'argument', 'launch', 'cura', 'printer', 'load', 'model', 'volume', 'prevents', 'crash', 'load', 'model']",General,{'crash': 100}
+4bd5d29970f19aa2e038fb7f6e49860ce5a0d725,"['crash', 'plugin', 'show', 'dialog']",General,{'crash': 100}
+4c460b6fa552bf1888bd3e57003d88163ac8dd76,['crash'],General,{'crash': 100}
+f8da8c14e5a1fcdcab0b7d4bf2ea2f083b02e961,"['test', 'pyqt', 'test', 'runner', 'crash']",General,{'crash': 100}
+6df029971d2f0dc4070959c892f2d79c3cf1cb04,"['crash', 'layer', 'height', 'formula', 'layer', 'height', 'formula']",General,{'crash': 100}
+1d8f19f1d1c501f5d7525ca695967a7813f30c16,"['error', 'value', 'infill', 'layer', 'thickness', 'infill', 'crash', 'engine', 'entire', 'infill', 'filling']",General,{'crash': 100}
+45e335531884902becc2c948e592fa6aa0a12b10,"['catch', 'failure', 'parse', 'component', 'crash', 'application']",General,{'crash': 100}
+387fb3ce1f7af5f6e8b37c966291e4710cb2d143,"['attribute', 'cura', 'cura', 'crash']",General,{'crash': 100}
+e50907894394ea0793b9cddef89238f560825102,"['libsavitar', 'crash', 'libarcus']",General,{'crash': 100}
+77e7a99d09fe8a464077c5ceb39b15a3e8eeb446,"['crash', 'problem', 'file', 'package']",General,{'crash': 100}
+89c84eb93b1ebfb7db0226ae4c4d343cdaf91c02,"['cura', 'crash', 'material', 'diameter']",General,{'crash': 100}
+83fcc60bee9a3894a11f2e4ca840968352fd2e95,"['show', 'message', 'unknown', 'machine', 'project', 'file', 'cura', 'crash', 'project', 'file', 'unkown', 'machine', 'type', 'show', 'message']",General,{'crash': 100}
+97a1aa1a2b0ba417c8fc1127e5f108aa7eb4a44b,"['crash', 'materialmanager', 'brand', 'material', 'possible', 'case', 'type', 'color']",General,{'crash': 100}
+e152fd641bee0558275afbce2acba7ae397c9519,"['window', 'configuration', 'path', 'matter', 'crash', 'report', 'path']",General,{'crash': 100}
+a468fc2cc4a42778c137b11029b8dfb3bfc8032c,"['toolbox', 'crash', 'limit', 'file', 'handler', 'animation', 'image', 'animation', 'image']",General,{'crash': 100}
+8a6996e920d6dde3a98fddf4a80ee078a24db385,"['object', 'convex', 'hull', 'crash']",General,{'crash': 100}
+eab150d7ee87e419ed637c73945f6f95f26fbbe7,"['user', 'package', 'management', 'path', 'storage', 'dirs', 'installation', 'place', 'crash', 'contributes', 'issue', 'cura']",General,{'crash': 100}
+aa73b88975cc36fedbcad270415438ed5b859013,"['backup', 'manager', 'master', 'issue', 'data', 'folder', 'crash', 'issue', 'toolbox', 'internet', 'connection', 'application', 'language', 'date', 'small', 'plugins', 'text', 'package', 'plugins', 'alignment', 'problem', 'button', 'column', 'uninstall', 'update', 'progress', 'show', 'update', 'button', 'origin', 'clean', 'package', 'manager', 'check', 'plugin', 'info', 'short', 'time', 'format', 'changelog', 'engine', 'icon']",General,{'crash': 100}
+fa97d5830b9ae89f8dcef47e4a4e76904e69f769,"['crash', 'issue', 'toolbox', 'internet', 'connection']",General,{'crash': 100}
+20a2ea4f2c8635da5392f68592ca21284b0abdfe,"['cura', 'crash', 'curaversion']",General,{'crash': 100}
+4e62c58ee692e040667231d78e3f84614102a38d,"['cura', 'crash', 'internet', 'connection', 'need', 'timer', 'show', 'fetch']",General,{'crash': 100}
+096f304aef94b47b28533e1f2319f8dae8723859,"['cura', 'crash', 'package']",General,{'crash': 100}
+d393316a270c9bdfd84457ef9c03378219d415c9,"['pull', 'request', 'fieldofview', 'crash', 'variant']",General,{'crash': 100}
+1af56871e2232ca4eb0d409c47ba73fdf658915e,"['crash', 'number', 'extruders', 'setting', 'actual', 'number', 'extruders', 'misalign', 'custom', 'printer', 'extruders', 'configuration', 'format', 'error', 'contributes', 'issue']",General,{'crash': 100}
+1769a697926cb1b5ec6489fcc8e349275b8c4e81,"['crash', 'cura', 'material', 'file', 'whole', 'point', 'load', 'material', 'file', 'error', 'message', 'corrupt', 'able', 'load', 'stack', 'error', 'stack', 'contributes', 'issue', 'cura']",General,{'crash': 100}
+e96c50a582f6d1558b6db194ec39f100963641d5,"['fdmprinter', 'definition', 'crash', 'contributes', 'issue', 'cura']",General,{'crash': 100}
+7d806e7ae97fb2092a1382285f0b9ce040e1892a,"['extruder', 'number', 'decoration', 'crash', 'rest', 'code', 'robust']",General,{'crash': 100}
+fcb45b3b82a0c8f7b5be8b14e6500ec3da807e8f,"['crash', 'variant']",General,{'crash': 100}
+727a164722968aea6b5d06b00d97d67787bc0baf,"['show', 'error', 'quality', 'global', 'material', 'nozzle', 'crash', 'show', 'error', 'message', 'contributes', 'issue', 'cura']",General,{'crash': 100}
+ca4cb419ff13e774a70054b95e96282c1c7bbad4,"['startup', 'crash']",General,{'crash': 100}
+1aea5356b622a3562ace458396a6b3e76bd9da02,"['early', 'global', 'stack', 'prevents', 'sort', 'crash', 'active', 'printer', 'printer', 'wizard', 'show', 'contributes', 'issue', 'cura']",General,{'crash': 100}
+8e26d27e805ad030a2623f89dcfd6f75451d5211,"['crash', 'slicable', 'node']",General,{'crash': 100}
+98b325c9d5334b5a6a0eff6c7918207c6a054d21,"['material', 'serialization', 'crash']",General,{'crash': 100}
+877d061a1b19b16cda66c81989a6000c9b1018b5,"['custom', 'firmware', 'case', 'crash', 'thread']",General,{'crash': 100}
+69dc4fa5e018a874b69a554704e128847acbf460,"['unfortunate', 'crash', 'morning', 'march', 'year', 'lord']",General,{'crash': 100}
+591d3f29ec860a940e5c1ba73a23ea26b4ca95b1,"['cura', 'crash', 'buildplate', 'variant', 'current', 'machine']",General,{'crash': 100}
+b4cf25cb7f9b7653fc7b6bfe531d7348a111419d,"['printer', 'model', 'output', 'device', 'function', 'cura', 'crash', 'contributes', 'issue', 'cura']",General,{'crash': 100}
+f576b1f1170deb28d3a755d461201161817e2e88,"['cura', 'crash', 'extruder', 'single', 'extruder', 'machine']",General,{'crash': 100}
+32afa9bfd4e544402a207e95ef78da9dba6c4d63,"['cura', 'cura', 'crash', 'material', 'management', 'page', 'containerid', 'materialview']",General,{'crash': 100}
+3591e01b251afd3e93cc5994380106c5547a2324,"['cura', 'cura', 'crash', 'machine', 'variant', 'variant']",General,{'crash': 100}
+b2ca8565c985e7d4634aaa0d3ac6fc8a1ff0b34d,"['cura', 'startup', 'crash']",General,{'crash': 100}
+8bb70d6cc2747baacdec9d668e2159f03f2977d6,"['cura', 'crash', 'handler', 'cleanup', 'rare', 'case']",General,{'crash': 100}
+45a4c569155494214d6353ce91b582f1bf15434a,"['bracket', 'korean', 'translation', 'crash']",General,{'crash': 100}
+399a63912e063a9c18517bf552da7e381ef4d175,"['error', 'message', 'trigger', 'crash', 'option']",General,{'crash': 100}
+a85a720184ab3d7f8cd7097375d00ff73dd4a805,"['close', 'splash', 'screen', 'crash', 'dialog', 'increase', 'size', 'show', 'crash', 'report', 'button']",General,{'crash': 100}
+b59eadce1c6b90984999aeae7c437e09607f33be,"['autosave', 'early', 'crash', 'dialog', 'cura']",General,{'crash': 100}
+547baff239524301b134d1378db5bc125f55c67c,"['show', 'crash', 'dialog', 'cura']",General,{'crash': 100}
+30b1e74881bcfe85ffe035b24157f42918904861,"['crash', 'dialog', 'cura']",General,{'crash': 100}
+aefe24222f05a183f88473648eca55f060bd54e3,"['flag', 'test', 'crash', 'cura']",General,{'crash': 100}
+6bbc18d51e788dad525934963a8765f9758ff810,"['crash', 'dialog', 'cura', 'crash', 'dialog', 'option', 'backup', 'current', 'user', 'data', 'reset', 'configuration', 'file']",General,{'crash': 100}
+1d946085d375d28299297836673c06051daf6372,"['crash', 'dialog', 'available', 'application']",General,{'crash': 100}
+0e5395dfd55853b453e65c4e0fb5fb5ae6619a42,"['crash', 'device', 'forgot', 'rename', 'variable', 'cura']",General,{'crash': 100}
+07e687519968378ebc443421a6b55f476ce72a58,"['crash', 'occurs']",General,{'crash': 100}
+cc89ddf5f76433f2a9b363018cfe43f6e910034c,"['zero', 'thickness', 'layer', 'view', 'cura', 'crash', 'gcode', 'reverts']",General,{'crash': 100}
+f948203a63fc246abb7d6e3c62dac63616d4fecf,"['crash', 'clearing', 'plate', 'delete', 'singleton', 'object', 'zero', 'print', 'information', 'print', 'information', 'class', 'contributes', 'issue', 'cura']",General,{'crash': 100}
+5104a48bcc9a1655b756ba8aea54754ecf25d4e9,"['model', 'tevo', 'black', 'widow', 'small', 'roel', 'versteeg', 'rovex', 'model', 'printer', 'http', 'thing', 'model', 'security', 'editor', 'http', 'thing']",General,{'security': 100}
+4a3109c8852e229a6d3002db0ec0a43388bf41a0,"['model', 'printer', 'model', 'load', 'load', 'cura', 'crash', 'contributes', 'issue', 'cura']",General,{'crash': 100}
+cda600f12d0e03dffdbdbf77a72ba27a85336db2,"['duplicate', 'test', 'duplicate', 'test', 'multiple', 'plug', 'crash', 'contributes', 'issue', 'cura']",General,{'crash': 100}
+df1d3bf569102e2bd8645b83f436d35b65eb003f,"['opengl', 'crash', 'cura']",General,{'crash': 100}
+b1e9e3b8faecdf11a68754dd0126a6c53535c8c6,"['crash', 'disconnect']",General,{'crash': 100}
+c6a2b1b9c9053b30f4820300ad027ec87e616300,"['additional', 'stack', 'profile', 'import', 'multi', 'extrusion', 'file', 'single', 'extrusion', 'printer', 'crash', 'additional', 'stack', 'contributes', 'issue', 'cura']",General,{'crash': 100}
+c5e33e45a427bb25ddb10c632c788d3d8d05d4b7,"['setting', 'definition', 'specific', 'profile', 'crash']",General,{'crash': 100}
+a35f665201a79b8975635b1ff0d60473bf08b1a6,"['crash', 'firmware', 'list']",General,{'crash': 100}
+77daad1f981c978c1ee61aba0052cfc0967cc351,"['exit', 'crash', 'handler', 'dialog']",General,{'crash': 100}
+421d93baa36f0eea332c29b70a5a451f7bba3ad0,"['potential', 'crash', 'index', 'extruder', 'dict']",General,{'crash': 100}
+2614c8a623155ce3b257d22fc9d95d108b18a2d9,"['hook', 'crashhandler', 'early', 'crash', 'hope']",General,{'crash': 100}
+3b251919497e77e5dc4dfd5956603973d30bc1cc,"['undo', 'cura', 'crash', 'clean', 'contributes', 'issue', 'cura']",General,{'crash': 100}
+21d61ce21eeae704cd38059c9de099738a4e61ff,"['error', 'cura', 'crash', 'comma', 'textfields', 'imagereader', 'panel', 'possible', 'comma', 'decimal', 'value']",General,{'crash': 100}
+e7ac2e37b41b5793490af0b58863dd02368cbdbe,"['error', 'connection', 'error', 'time', 'crash', 'report', 'stats']",General,{'crash': 100}
+4a8dacbe063188995b122f789a8750aa202f19cf,"['crash', 'handler', 'variable', 'name', 'need', 'position', 'contributes', 'issue', 'cura']",General,{'crash': 100}
+6cea9c59e89658e4d68c76a12e0a071486de0dc2,"['crash', 'handler', 'exception']",General,{'crash': 100}
+df1a11ca07631842cda34ac4518c6fde7f0e8afa,"['crash', 'support', 'density']",General,{'crash': 100}
+7a42c5bcceb389b7ecb5e1cbd0f4847a78b49c2b,"['technical', 'mistake', 'japanese', 'translation', 'japanese', 'translation', 'program', 'crash']",General,{'crash': 100}
+91621497f0a4d8d7ebeb25c98c0f9fc3c16ebc8c,"['technical', 'mistake', 'japanese', 'translation', 'japanese', 'translation', 'program', 'crash']",General,{'crash': 100}
+15a50511b728a61d9aca9247f88133cc4835d91a,"['crash', 'support', 'density']",General,{'crash': 100}
+1491c37485c49750c0f13dade58343406b0e1d7c,"['crash', 'support', 'density']",General,{'crash': 100}
+44d53237799e14b02f1ba0240dfc8a03cd7006f8,"['crash', 'dialog', 'thread']",General,{'crash': 100}
+eebe4028ff4be5f16646a4018e002fe30bef3a26,"['pull', 'request', 'fieldofview', 'crash', 'machine', 'setting']",General,{'crash': 100}
+b32f3f9f77453f774d3a2578941e673d040a296c,"['crash', 'report', 'message', 'title', 'cura']",General,{'crash': 100}
+ad1c0046d92a17c4a9a2ac91d039a285f740eb17,"['crash', 'machine', 'setting']",General,{'crash': 100}
+de260683cfa11cc3c39a78c9fa882b853a9a3448,"['module', 'name', 'crash', 'report']",General,{'crash': 100}
+216dcd33e061886a573f73decc98729b1cf33401,"['sure', 'crash', 'model', 'small', 'cura']",General,{'crash': 100}
+72ff384c48910dd96096186f948dd20cfb0152df,"['information', 'crash', 'cura']",General,{'crash': 100}
+e2edbd11b66e828fce6c024765753a8fa2fcdf43,"['crash', 'report', 'layout', 'information']",General,{'crash': 100}
+dfe4a76e85e96e8ede2cffd331b19bec2abca2a7,"['pull', 'request', 'ultimaker', 'abort', 'crash']",General,{'crash': 100}
+1b8766b953e88aac9e4b8d51732a601fc924757e,"['cura', 'cura', 'stack', 'behaviour', 'crash']",General,{'crash': 100}
+d8c1546be379bc6f5810065c1e3ce27a58fcf85f,"['revert', 'making', 'camera', 'image', 'camera', 'image', 'python', 'code', 'camera', 'sort', 'data', 'race', 'python', 'case', 'stable', 'contributes', 'issue', 'cura']",Risky_resource_management,{'data race': 100}
+0183616b8f1af34da765dced9e0d313798284e3d,"['switch', 'profile', 'slider', 'crash', 'burn', 'contributes', 'issue', 'cura']",General,{'crash': 100}
+7144720d788b4d22608bac7920ad885d9b95abf6,"['redesign', 'splash', 'window', 'cura', 'rectangle', 'splash', 'window', 'splash', 'window', 'crash', 'enable', 'antialias', 'text', 'language']",General,{'crash': 100}
+371ca360470fd2f2521037fba489e20dddcd449f,"['abort', 'sequence', 'printer', 'home', 'bottom', 'printhead', 'printhead', 'crash']",General,{'crash': 100}
+295a4af22b8a9dccb3360c070fc4884700288e53,"['pull', 'request', 'fieldofview', 'possible', 'memory', 'leak', 'camera', 'stream']",Risky_resource_management,{'memory leak': 100}
+7e60d459b4c1b7001e7faa50892857f15a53ab9c,"['possible', 'memory', 'leak', 'camera', 'stream']",Risky_resource_management,{'memory leak': 100}
+df88772071d5586d783d662679578363995816c8,"['incorrect', 'response', 'printer', 'crash', 'invalid', 'data', 'warning', 'ignore', 'message', 'rest']",General,{'crash': 100}
+67cfb064e6d7d9ab2afdfedddfb672a99901bf5d,"['custom', 'printer', 'cura', 'custom', 'printer', 'multi', 'extrusion', 'support', 'extruder', 'stack', 'custom', 'printer', 'crash', 'sure', 'custom', 'printer', 'extruder', 'stack', 'upgrade', 'cura']",General,{'crash': 100}
+ec25164731084586878975f6eb3c0ec480f8a3d2,"['cleanup', 'monitoringprint', 'stuff', 'thing', 'property', 'root', 'object', 'crash', 'contributes', 'cura']",General,{'crash': 100}
+fafb83c5c435c45b92006a1740e4e88ac251c538,"['enable', 'python', 'faulthandler', 'print', 'python', 'backtrace', 'stderr', 'sigsegv', 'similar', 'crash']",General,{'crash': 100}
+3a255b341f1e26d9dc405a661d5622492ad5bffa,"['pull', 'request', 'fieldofview', 'crash', 'editing', 'material', 'diameter']",General,{'crash': 100}
+f50c3f430a7a5e33611131bf65dfae60036d7495,"['pull', 'request', 'fieldofview', 'crash', 'editing', 'material', 'diameter']",General,{'crash': 100}
+67d66905ba1199a161b580292c0837811088a2c4,"['crash', 'editing', 'material', 'diameter', 'editing', 'diameter', 'value', 'material', 'pane', 'radius', 'evaluates', 'division', 'zero', 'http', 'github', 'ultimaker', 'cura', 'issue']",General,{'crash': 100}
+c0cdddd0984f0bb3658791a6372e088e9d10a629,"['crash', 'printtime', 'engine', 'cura']",General,{'crash': 100}
+2a6ae17514292e24205a4190a9e72fb68d3c797a,"['pull', 'request', 'lipufei', 'crash', 'qvariantlist', 'cura', 'return', 'list']",General,{'crash': 100}
+3c8a6a66910e4f9323403645b14aa80270950e5a,"['pull', 'request', 'lipufei', 'crash', 'drag', 'cura', 'crash', 'drag', 'drop']",General,{'crash': 100}
+0e31de3ed96fbe7cf23e0794d17777edad20e638,"['crash', 'numeric', 'setting', 'empty', 'string', 'empty', 'string', 'user', 'front', 'state', 'setting', 'previous', 'state', 'time', 'user', 'crash', 'contributes', 'issue', 'cura']",General,{'crash': 100}
+4085cfe67e332ce30be345a4af06a0048381195a,"['crash', 'empty', 'project', 'return', 'value', 'function']",General,{'crash': 100}
+a2f98638cf09220917874d220f1446ed70722b1f,"['crash', 'handler', 'string', 'error', 'gettext', 'contributes', 'cura']",General,{'crash': 100}
+75fc2505e3b944a73cffa616757d495cff6ad936,"['crash', 'dialog']",General,{'crash': 100}
+1de80241936bc00c23cd33b09792d5f3b90eb710,"['enable', 'debug', 'mode', 'default', 'enable', 'crash', 'dialog', 'whenever', 'uncaught', 'exception', 'occurs']",General,{'crash': 100}
+1c445a151281f42b0de128dbe5374d9b9de95b3c,"['separate', 'function', 'result', 'main', 'update', 'function', 'crash', 'main', 'function', 'rest', 'contributes', 'issue', 'cura']",General,{'crash': 100}

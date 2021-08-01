@@ -1,15 +1,21 @@
-sha,message,catetory,matched,labels
-a9b296fdaff0a0dfd8f6b5ac15c58b606ad05432,"['example', 'serverinsecure', 'update', 'security', 'product', 'existspoint', 'default', 'client', 'server', 'sandboxoverride']",General,{'security': 100},
-9db84b2bfe5e9e4d7bd8ccf92fbe49262a685689,"['insecure', 'server']",General,{'insecure': 100},
-5a851ef25bd0036b4b16c2ee383c8de7ca56ae8c,"['client', 'domaininfoclient', 'domain', 'parsingpeople', 'insecure', 'server', 'signeddefault', 'serverfunction', 'client', 'transport', 'separatingreturninstead', 'return', 'interface', 'concreteupdate', 'readme']",General,{'insecure': 100},
-f839b5458826db15b7d6e7246f8393c1856cff06,"['signedmaproot', 'mapid', 'reportedsignedmaproot', 'mapid', 'reportedsignedmaproot', 'mapid', 'emptywithout', 'client', 'reduction', 'value', 'security', 'reportedverifier']",General,{'security': 100},
-32c9b57c4baa8a3017dd3e04d0fbe96e6e0c4c81,"['mutator', 'interface', 'redundancy', 'simplifyreduce', 'mutator', 'interface', 'redundancy', 'simplifywithout', 'implication', 'valid', 'security', 'mutate']",General,{'security': 100},
-b717b47c3fdea11d6aeb9aecb487e7586281dfd7,"['support', 'authenticationclient', 'authenticationfakeauth', 'implementinginstead', 'insecure', 'string', 'boolean', 'method', 'authentication', 'addedimport', 'reorderkeyserver', 'authenticationminorintegration', 'updatebranch']",General,{'insecure': 100},
-53803c2084b79067ec1b6394f82b31ec9d7b0564,"['dockercompose', 'dockersigner', 'crash', 'loggingupdate', 'readme']",Risky_resource_management,{'crash': 100},
-2bf1d54b97c1e3b09ce70459780d98fc0544dd33,"['dcdddrequest', 'gdbelvin', 'keylen', 'mergematch', 'security', 'length']",General,{'security': 100},
-025552dc6be105c478f62a0dd1bf65535917f634,"['security', 'lengthmatch', 'ecdsa', 'increase', 'keysize']",General,{'security': 100},
-7e954b03eb43985380d6b00e8b260290e6594a25,"['commitment', 'schemeadjust', 'security', 'commitment', 'scheme', 'reviewmessagemessage']",General,{'security': 100},
-a4be44cfb9b8d898a2c742e3bf039e6624ba656d,"['functioncommit', 'function', 'deleteinsert', 'userid', 'security', 'commitment', 'separatorpurposecommitmentcommit', 'rename', 'commitname', 'verifyname']",General,{'security': 100},
-c7ae23311f6935244a2cc7912670f12377d97137,"['proxy', 'removesimple', 'insecure', 'function', 'encouragesquerylonger', 'proxy', 'deleteupdate', 'documentation', 'alongcontinuesclose']",General,{'insecure': 100},
-9b9dea0e846b4023341abbb3d110820fd9329be1,"['connection', 'insecure']",General,{'insecure': 100},
-5158cd2229cf62712dfd5cd3759bed60b1e6a708,"['insecure', 'connection']",General,{'insecure': 100},
+sha,message,catetory,matched
+a9b296fdaff0a0dfd8f6b5ac15c58b606ad05432,"['example', 'server', 'update', 'sandbox', 'ulrs', 'insecure', 'flag', 'exists', 'real', 'cert', 'silly', 'instruction', 'insecure', 'security', 'product', 'point', 'client', 'sandbox', 'server', 'default', 'override', 'host', 'name']",General,{'security': 100}
+73f0a3c568f441c241076d14e0ae0fc318424885,"['check', 'data', 'race', 'travis', 'race', 'condition', 'test', 'travis', 'spurious', 'statement', 'data', 'race', 'simplify', 'verification', 'sync', 'errgroup', 'update', 'genproto', 'goproxy', 'cache']",Risky_resource_management,{'data race': 100}
+4ce6fb9b3e509b868189ded8ccf8aac05ed85303,"['objecthash', 'security', 'dependency', 'json', 'parser', 'sign', 'objecthash', 'json', 'object', 'sign', 'byte', 'separate', 'object', 'object', 'signedentry', 'signedentry', 'contains', 'entry', 'order', 'deterministic', 'byte', 'slice', 'proto', 'marshal', 'canonical', 'output']",General,{'security': 100}
+57102f80bd59defb46e54f667b2be46bf251e6d8,"['queue', 'deadlock', 'queue', 'deadlock', 'simpler', 'loop', 'multiple', 'batch', 'previous', 'implementation', 'small', 'buffer', 'long', 'select', 'loop', 'chooses']",Risky_resource_management,{'deadlock': 100}
+903152f2daff440fcbf8211d8741d56bc8de73e2,"['regenerate', 'kubernetes', 'configs', 'kompose', 'propogates', 'auth', 'type', 'insecure', 'fake', 'flag', 'kubernetes', 'config', 'docker', 'compose', 'config']",General,{'insecure': 100}
+9db84b2bfe5e9e4d7bd8ccf92fbe49262a685689,"['insecure', 'flag']",General,{'insecure': 100}
+5a851ef25bd0036b4b16c2ee383c8de7ca56ae8c,"['client', 'domaininfo', 'configure', 'client', 'domain', 'info', 'insecure', 'flag', 'insecure', 'flag', 'people', 'test', 'server', 'test', 'server', 'default', 'server', 'dial', 'function', 'transport', 'client', 'credential', 'return', 'return', 'interface', 'concrete', 'type', 'update', 'readme']",General,{'insecure': 100}
+c6827a5e1f7b4a3d8ae946d9146d7affc6f25123,"['presubmit', 'check', 'deadcode', 'varcheck', 'unconvert', 'interfacer', 'megacheck', 'security']",General,{'security': 100}
+f839b5458826db15b7d6e7246f8393c1856cff06,"['signedmaproot', 'mapid', 'signedmaproot', 'mapid', 'part', 'signedmaproot', 'part', 'leaf', 'empty', 'hash', 'computation', 'state', 'client', 'reduction', 'security', 'server', 'verifier']",General,{'security': 100}
+32c9b57c4baa8a3017dd3e04d0fbe96e6e0c4c81,"['simplify', 'mutator', 'interface', 'code', 'redundancy', 'simplify', 'mutator', 'interface', 'code', 'redundancy', 'security', 'implication']",General,{'security': 100}
+b717b47c3fdea11d6aeb9aecb487e7586281dfd7,"['support', 'fake', 'authentication', 'fake', 'authentication', 'flag', 'client', 'server', 'fakeauth', 'data', 'auth', 'type', 'string', 'flag', 'insecure', 'fake', 'auth', 'boolean', 'authentication', 'method', 'reorder', 'import', 'authentication', 'core', 'keyserver', 'minor', 'update', 'integration', 'test', 'gofmt', 'file']",General,{'insecure': 100}
+53803c2084b79067ec1b6394f82b31ec9d7b0564,"['docker', 'dockercompose', 'file', 'crash', 'signer', 'update', 'readme']",General,{'crash': 100}
+2bf1d54b97c1e3b09ce70459780d98fc0544dd33,"['pull', 'request', 'gdbelvin', 'keylen', 'length', 'security']",General,{'security': 100}
+025552dc6be105c478f62a0dd1bf65535917f634,"['length', 'security', 'increase', 'keysize', 'ecdsa', 'http']",General,{'security': 100}
+7e954b03eb43985380d6b00e8b260290e6594a25,"['commitment', 'scheme', 'security', 'review', 'recommendation', 'commitment', 'scheme', 'hmac', 'nonce', 'message', 'hmac', 'fixedkey', 'message']",General,{'security': 100}
+e30190ec3ad1fcd6f64eb3b77302e320a53ae8fb,"['scts', 'client', 'scts', 'file', 'point', 'time', 'security', 'amnesia']",General,{'security': 100}
+a4be44cfb9b8d898a2c742e3bf039e6624ba656d,"['test', 'delete', 'function', 'insert', 'separator', 'userid', 'data', 'commitment', 'security', 'purpose', 'commitment', 'test', 'rename', 'commitname']",General,{'security': 100}
+c7ae23311f6935244a2cc7912670f12377d97137,"['function', 'encourages', 'insecure', 'query', 'interface', 'delete', 'proxy', 'update', 'documentation']",General,{'insecure': 100}
+9b9dea0e846b4023341abbb3d110820fd9329be1,"['insecure', 'grpc', 'connection', 'test']",General,{'insecure': 100}
+5158cd2229cf62712dfd5cd3759bed60b1e6a708,"['insecure', 'grpc', 'connection', 'test']",General,{'insecure': 100}

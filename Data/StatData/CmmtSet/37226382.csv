@@ -1,0 +1,165 @@
+sha,message,catetory,matched
+e42c65bc66d00100f346b1e99784168ce11b6e3d,"['robust', 'sends', 'invalid', 'descriptor', 'invalid', 'input', 'data', 'test', 'application', 'crash', 'validation', 'internal', 'data', 'invalid', 'data', 'program', 'termination']",General,{'crash': 100}
+538db207553b6f90fefbf92719d3e7bdd9bf0428,"['sample', 'data', 'validaion', 'cache', 'crash', 'validation', 'error']",General,{'crash': 100}
+fd1c3f55701d7e86afa552179e0be5d53098cd4c,"['loader', 'memory', 'leak', 'layer']",Risky_resource_management,{'memory leak': 100}
+166dab885b86e8d147b5fc5b666200f8a4c35107,"['test', 'crash', 'test', 'nvidia', 'driver', 'crash', 'driver', 'workaround', 'pipeline']",General,{'crash': 100}
+8f9d7ca19ea3ec0b45de929de561e5e4b3e79183,"['loader', 'instance', 'proc', 'address', 'null', 'pointer', 'command', 'instance', 'instance']",Risky_resource_management,{'null pointer': 100}
+c8d1e7bb99c01ae0c2824fe7286fb0a1173de589,"['free', 'commandbuffer', 'data', 'pool', 'http', 'issue', 'view', 'issue', 'possible', 'crash', 'layer', 'command', 'pool', 'pool', 'commandbuffers', 'common', 'code', 'postive', 'test', 'implicit', 'free', 'path']",General,{'crash': 100}
+59ea4719bd0eeea6357f7044385a101ae9a3c46f,"['potential', 'null', 'pointer', 'dereference', 'vector']",Risky_resource_management,{'null pointer': 100}
+a41cbbb989ce1ec936d2cac02421e7a67adaf251,"['layer', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+8858103e5fe031af62e395208bfae1f5d510ef50,"['loader', 'crash', 'invalid', 'address', 'lunarxchange', 'issue']",General,{'crash': 100}
+a5a8938a3bf12170a97d3afd1dfca62dad9e2a6b,"['layer', 'crash', 'reading']",General,{'crash': 100}
+57f0da98098689f3624c5503cfe1a4b5fede885a,"['layer', 'memory', 'leak', 'function']",Risky_resource_management,{'memory leak': 100}
+d4e49b7247597ede0971205cde2553312680f34c,"['demo', 'revert', 'crash', 'driver', 'revert', 'list', 'vkformats', 'original', 'range']",General,{'crash': 100}
+85af915e7af2179748fcaa77cc6d8a5b92585085,"['enable', 'control', 'flow', 'guard', 'window', 'control', 'flow', 'guard', 'security', 'prevents', 'memory', 'corruption', 'vulnerabilites', 'restriction', 'application', 'vulkanrt', 'nsis', 'installer', 'visual', 'studion', 'toolset', 'effect', 'control', 'flow', 'guard', 'documentation', 'http', 'library', 'window', 'desktop', 'aspx']",Risky_resource_management,{'memory corruption': 100}
+d34b2c191243c1646f1ccc2378262383e9ec1348,"['layer', 'migrate', 'dslayout', 'update', 'descriptor', 'layout', 'copy', 'descriptor', 'various', 'reference', 'potential', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+d6f38f782c49e0398f4e46107cec58601b44a7e4,"['layer', 'memory', 'leak', 'instance']",Risky_resource_management,{'memory leak': 100}
+2a8539c142faf949ee94c7554552361a60b2cffd,"['layer', 'memory', 'leak', 'device']",Risky_resource_management,{'memory leak': 100}
+e6e12225b9b7df5a3fe7c3c96be3b8aa81133426,"['layer', 'script', 'crash', 'enum']",General,{'crash': 100}
+255e7a2e6b803b9e27631f9ff51ee69bfa331a62,"['loader', 'buffer', 'overflow', 'size', 'argument', 'wrong', 'struct', 'type', 'list', 'prop']",Risky_resource_management,{'buffer overflow': 100}
+fef8b01530d9ed726741debf0df09293f5e2fb47,"['test', 'buffer', 'overflow', 'test']",Risky_resource_management,{'buffer overflow': 100}
+2e3a52c80d28c09e410fc0bd73162b6bcd64ae11,"['test', 'info', 'primary', 'renderpass', 'nonsense', 'crash', 'driver', 'test', 'helper', 'subtests', 'concise']",General,{'crash': 100}
+2c5216168c7f4e97f90119c90a15740002a08195,"['null', 'check', 'check', 'null', 'pointer', 'catch', 'null']",Risky_resource_management,{'null pointer': 100}
+0bbc015828bdb99e85e6731ce92428557902701f,"['layer', 'migrate', 'surface', 'support', 'check', 'core', 'memory', 'leak', 'vestige', 'queue', 'family', 'support', 'check']",Risky_resource_management,{'memory leak': 100}
+d9944715fa5a4a750a26680f08e5defe85aa7a66,"['layer', 'rewrite', 'wasteful', 'queue', 'multiple', 'time', 'dependency', 'tree', 'operation', 'queue', 'scrub', 'part', 'submission', 'list', 'great', 'depth', 'queue', 'track', 'queue', 'explicit', 'stack', 'work', 'stack', 'crash', 'semaphore', 'tweak', 'window']",General,{'crash': 100}
+b5a16862e078cae0cf6f5ec7d941832345d7a013,"['long', 'semaphore', 'chain', 'long', 'fence', 'chain', 'test', 'intra', 'queue', 'semaphore', 'empty', 'batch', 'fence', 'trigger', 'pathological', 'recursion', 'stack', 'overflow']",Risky_resource_management,{'stack overflow': 100}
+85e85ed4999c43107f117fa8ff832d40c0137a7a,"['layer', 'guard', 'check', 'sharingmode', 'crash']",General,{'crash': 100}
+ff1c6fa1adcd165fae8a010e028aa59b9b8f44e9,"['test', 'store', 'createinfos', 'overload', 'addshader', 'caller', 'createinfo', 'happy', 'accident', 'memory', 'leak', 'release', 'createinfos']",Risky_resource_management,{'memory leak': 100}
+9a3b43bc96f43bbfea0827a8c06a9b5a7f7811b8,"['loader', 'loader', 'crash', 'multiple', 'instance']",General,{'crash': 100}
+c89d57542afd8ad3a6f401d60c7c69b31b34dae1,"['layer', 'bufferview', 'updatetemplate', 'crash']",General,{'crash': 100}
+08613200034f5a9e98438c30dc10f466d3a0c447,"['cube', 'option', 'validate', 'check', 'option', 'cube', 'demo', 'validate', 'check', 'option', 'validation', 'flag', 'flag', 'basic', 'test', 'obvious', 'crash']",General,{'crash': 100}
+c89bef400b298e4aa7106c942f71b1f82801bf4b,"['loader', 'leak', 'memory', 'leak', 'david', 'hubbard', 'pull', 'request']",Risky_resource_management,{'memory leak': 100}
+7b06221f2c4cb2205e0363afe1ce59b81aa144a1,"['vulkan', 'update', 'header', 'necessary', 'file', 'various', 'header', 'loader', 'parameter', 'validation', 'object', 'bump', 'layer', 'json', 'file', 'enable', 'loader', 'automation', 'loader', 'generates', 'entry', 'point', 'critical', 'piece', 'header', 'update', 'enable', 'layer', 'dispatch', 'table', 'automation', 'reason', 'mark', 'lobodzinski', 'tony', 'barbour', 'crash', 'loader', 'intel', 'window', 'driver', 'inappropriate', 'command', 'name']",General,{'crash': 100}
+879adf95044e42b78889b4345798c12adfc0a2d5,"['loader', 'potential', 'overrun', 'place', 'strcpy', 'strcat']",Risky_resource_management,{'overrun': 100}
+56bf9519fbfe9b82166b29c9796b226160661889,"['loader', 'leak', 'memory', 'leak', 'test']",Risky_resource_management,{'memory leak': 100}
+405404ef7f928520a56949bcc4c62f6a337514a9,"['layer', 'tolerate', 'null', 'routine', 'null', 'pointer', 'validation', 'layer']",Risky_resource_management,{'null pointer': 100}
+c0ee2e5a90b47a08692aae4b308bc3884eff0d5f,"['cube', 'error', 'newline', 'error', 'message', 'vulkan', 'library', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+c18eb54c92b625ad2f5d2970eadc53c1d6f55aa5,"['vulkaninfo', 'vulkaninfo', 'crash', 'display', 'invalid', 'linux', 'command', 'crash', 'display', 'foobar', 'vulkaninfo', 'patch', 'issue', 'http', 'github', 'lunarg', 'vulkantools', 'issue']",General,{'crash': 100}
+98fa844b22ed570ca2688e2e64d31b041ae01346,"['loader', 'static', 'analysis', 'warning', 'possible', 'null', 'pointer', 'dereferences', 'misc', 'warning', 'alloca', 'concern']",Risky_resource_management,{'null pointer': 100}
+91b85f4715990437d728bfd80266cd7eb9f09866,"['loader', 'clang', 'warning', 'error', 'equality', 'comparison', 'extraneous', 'parenthesis', 'error', 'comparison', 'array', 'equal', 'null', 'pointer', 'false', 'error', 'namespace', 'directive', 'global', 'context', 'header']",Risky_resource_management,{'null pointer': 100}
+034c7b52de8ed76834538f17ff4ab1153955f74b,"['layer', 'object', 'tracker', 'memory', 'leak', 'multiple', 'time', 'vkdisplaykhr', 'check', 'createobject']",Risky_resource_management,{'memory leak': 100}
+c385db8b475ee3f57bf40e6eff2042ae2622fb05,"['loader', 'const', 'parameter', 'const', 'const', 'signature', 'implementation', 'memory', 'leak', 'possible', 'exit', 'null', 'value']",Risky_resource_management,{'memory leak': 100}
+bf22357d455c4cdaf49cc502f72fcf8554ff8e74,"['loader', 'debug', 'report', 'memory', 'leak', 'couple', 'memory', 'leak', 'debug', 'report', 'code', 'loader', 'allocator', 'cube']",Risky_resource_management,{'memory leak': 100}
+2672a35c2fda0a8db8b8b1b7c7f95922580e5b4d,"['attachment', 'description', 'flag', 'cube', 'cubepp', 'crash']",General,{'crash': 100}
+dfb68e111d4b928cf5a09571aeba9645ecbae890,"['revert', 'test', 'devicewaitidle', 'test', 'crash', 'lvts', 'test', 'layer', 'crash', 'devwaitidle', 'failure', 'loader', 'validation', 'test', 'test', 'teardown', 'lvts', 'devicewaitidle', 'layer', 'github', 'issue']",General,{'crash': 100}
+e12739a56d02ca2fb5f0273862668e7475a21a6c,"['layer', 'return', 'code', 'custom', 'allocator', 'null', 'pointer', 'invalid', 'unuseful', 'validation', 'error', 'check', 'good', 'return', 'code']",Risky_resource_management,{'null pointer': 100}
+cd64bc300668e99aa56f3872f591a4d39db0f07f,"['revert', 'test', 'devicewaitidle', 'test', 'null', 'check', 'crash', 'layer']",General,{'crash': 100}
+c91c376e7f18eba22f2996e514eb4714417fb343,"['null', 'check', 'misuse', 'invalid', 'object', 'dereferences', 'crash']",General,{'crash': 100}
+1ee2adbcff31ba5799509961847e2b0d148d3e8e,"['test', 'update', 'case', 'case', 'test', 'region', 'separate', 'offset', 'offset', 'flush', 'region', 'region', 'overrun']",Risky_resource_management,{'overrun': 100}
+0387853c4e919ff9ea53a62df378f91036dbfe9c,"['loader', 'double', 'free', 'physical', 'device']",Risky_resource_management,{'double free': 100}
+fb13c2c4174108223d9f8e43084020eb09115ed6,"['pcreateinfo', 'safe', 'struct', 'memory', 'leak', 'simplifies', 'code', 'chris', 'forbes', 'chrisforbes', 'google']",Risky_resource_management,{'memory leak': 100}
+b7476f4c4998ae20e579bd2d134667b71acdbf91,"['layer', 'cross', 'stage', 'validation', 'individual', 'stage', 'crash', 'nonsense', 'path', 'chris', 'forbes', 'chrisforbes', 'google']",General,{'crash': 100}
+973c2aab1f20c53f219ce9f1e3002f1bdc01046c,"['loader', 'possible', 'memory', 'leak', 'cleanup', 'case', 'case']",Risky_resource_management,{'memory leak': 100}
+3a0201d7ad4eb2ad2e8b336e5030fd28d482b528,"['conformance', 'memory', 'leak', 'memory', 'leak', 'khronos', 'conformance']",Risky_resource_management,{'memory leak': 100}
+7777d184abffdbfe00a0e7030fa4de0ef96c1ac6,"['enable', 'check', 'intent', 'vulkan', 'loader', 'time', 'validation', 'layer', 'crash', 'jeff', 'nvidia', 'driver']",General,{'crash': 100}
+c72f92cc2c217e46f843449a05370129aeac5596,"['layer', 'dota', 'crash', 'window', 'invalid', 'access', 'resource']",General,{'crash': 100}
+8afe647a114a15d5f96297eb90d2e4435d9e9592,"['layer', 'error', 'warning', 'pattern', 'null', 'pointer', 'buffer', 'swapchain', 'layer', 'validation', 'error', 'size', 'legal', 'behavior', 'return', 'validation', 'warning', 'relevant', 'validation', 'test']",Risky_resource_management,{'null pointer': 100}
+d61de0e68063faa169a9a632f811c9c9adec9897,"['layer', 'buffer', 'framebuffer', 'buffer', 'framebuffer', 'link', 'issue', 'initial', 'simple', 'solution', 'crash', 'need', 'smarter', 'solution', 'long', 'term']",General,{'crash': 100}
+5c4c68c37fbd5e01b931fb47ff2ba31c896bcbee,"['layer', 'static', 'array', 'vector', 'building', 'android', 'window', 'crash', 'clang', 'clang']",General,{'crash': 100}
+8304a3146414ae4f43fb0e110f27c4b16c9eab52,"['loader', 'memory', 'leak', 'step', 'reproduce', 'valgrind', 'full', 'test', 'file', 'main', 'layercount', 'layercount', 'nullptr', 'printf', 'layercount', 'layercount', 'return', 'valgrind', 'output', 'look', 'byte', 'block', 'loss', 'record', 'malloc', 'xabf', 'loader', 'loader', 'xacbd', 'loader', 'loader', 'xacbde', 'loader', 'loader', 'loader', 'loader', 'loader', 'loader', 'loader', 'loader', 'xadfc', 'loader', 'trampoline', 'simple', 'loader', 'trampoline', 'free', 'resource']",Risky_resource_management,{'memory leak': 100}
+7165385f3a39f1f951f3a6a9a06ed2cce4642b6d,"['layer', 'crash', 'window', 'crash', 'smoketest', 'command', 'buffer', 'cleanup', 'object']",General,{'crash': 100}
+b3c2024e0ed61d7f68630d7eb7c8c03100689bb1,"['layer', 'bindxxxmemory', 'validation', 'user', 'bindimagememory', 'validation', 'indication', 'failure', 'result', 'driver', 'layer', 'crash', 'generalizes', 'check', 'memory', 'check', 'command', 'command', 'buffer', 'case', 'spec', 'section']",General,{'crash': 100}
+93fe72ec8460857bdb3c101095e6eb96d6171341,"['layer', 'crash', 'chris', 'forbes', 'chrisforbes', 'google']",General,{'crash': 100}
+0ad39e0de2f23ebec8c8ffbf6b54754ebf5ae9a7,"['layer', 'crash', 'validatelayouts', 'chris', 'forbes', 'chrisforbes', 'google']",General,{'crash': 100}
+aa32dbbf147d86257a0c9e091258e0ea2be5a013,"['loader', 'enable', 'allocator', 'usage', 'enable', 'allocator', 'usage', 'loader', 'memory', 'leak', 'leak', 'noticeable', 'vulkan', 'conformance', 'test', 'test', 'vulkan', 'test', 'loader', 'application']",Risky_resource_management,{'memory leak': 100}
+c05d773a018aa47e89841533a6968d9e5b314038,"['layer', 'untangle', 'check', 'update', 'crash', 'test', 'case', 'chris', 'forbes', 'chrisforbes', 'google']",General,{'crash': 100}
+58d5bc825889ccf5dfca93598e6aef6a68f0b2a7,"['demo', 'xsync', 'intermittent', 'xlib', 'crash']",General,{'crash': 100}
+0e4da2835acd07fc32507edd5f451e367f930c96,"['demo', 'intermittent', 'crash', 'xlib']",General,{'crash': 100}
+5ca3c071afc98f9144f489b74aa3affaa93633b0,"['layer', 'window', 'crash', 'dota', 'array', 'element', 'invalid', 'memory', 'reference']",General,{'crash': 100}
+d8d086956e02ed523ec24ea66e4810b19a3989d4,"['test', 'crash', 'window', 'release']",General,{'crash': 100}
+55e1dcc2fa976aabeb110a0466995ed89f4bf4a4,"['delete', 'renderpass', 'test', 'crash', 'renderpass']",General,{'crash': 100}
+f47a14ecfbb9c15a0902beb17e6ac537b72947fe,"['test', 'code', 'snippet', 'test', 'crash']",General,{'crash': 100}
+988ae608684a5066ef765f10700662f38ecebf1b,"['layer', 'window', 'dota', 'crash', 'invalid', 'reference', 'reuse']",General,{'crash': 100}
+6e9b1f8c187c9147227f1ae1c28908e97f8a7589,"['stack', 'default', 'crash', 'testrunner', 'chris', 'forbes', 'chrisforbes', 'google']",General,{'crash': 100}
+1727d6de391cd4dd2ef9b147538dd534d94d9863,"['test', 'crash', 'window', 'release']",General,{'crash': 100}
+d8514eed0b34e00e2ca20634cb8174da0e2438d4,"['delete', 'renderpass', 'test', 'crash', 'renderpass']",General,{'crash': 100}
+bf5e9d55beac51f24530907e6fc1a39a5c811e62,"['test', 'code', 'snippet', 'test', 'crash']",General,{'crash': 100}
+c7e6bc41aa9c6e5a677b138b9459b252cd3bedf2,"['layer', 'window', 'dota', 'crash', 'invalid', 'reference', 'reuse']",General,{'crash': 100}
+3613184feef26709b7d4e84a35cab0d4bdb04228,"['layer', 'test', 'test', 'specifes', 'null', 'layer', 'report', 'error', 'recent', 'driver', 'update', 'platform', 'implicit', 'layer', 'front', 'crash', 'null', 'parameter']",General,{'crash': 100}
+86411429f89ddae704116364cb71e8556363e68b,"['layer', 'objecttracker', 'memory', 'leak', 'data', 'structure', 'signicant', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+0b75277599d8ac395ebc889d958ce7368f64e03f,"['layer', 'validation', 'failure', 'return', 'code', 'layer', 'crash']",General,{'crash': 100}
+e7188b93731696e62cdfec551c41752380f7fec3,"['layer', 'swapchin', 'layer', 'lookup', 'defect', 'swapchain', 'layer', 'layer', 'time', 'track', 'thing', 'layer', 'entry', 'usage', 'entry', 'test', 'crash', 'swapchain', 'layer', 'code', 'element', 'lookup', 'function', 'unordere', 'class', 'equal', 'null', 'behavior', 'swapchain', 'layer', 'macro', 'code', 'minimal', 'consistent']",General,{'crash': 100}
+c3ed336ee856a49acb3066bf75908851d3240403,"['test', 'image', 'enum', 'work', 'nvidia', 'robustness', 'image', 'creation', 'crash', 'process']",General,{'crash': 100}
+93269c44e4f3ff6ca8963f542d214438fe067116,"['test', 'ensure', 'initial', 'version', 'test', 'case', 'verifies', 'swapchain', 'validation', 'layer', 'issue', 'error', 'function', 'initial', 'version', 'test', 'function', 'exception', 'function', 'dispatch', 'vkqueue', 'layer', 'swapchain', 'parameter', 'order', 'look', 'vkdevice', 'real', 'swapchain', 'lookup', 'layer', 'chase', 'null', 'pointer', 'error', 'test', 'case', 'need', 'test', 'swapchain', 'layer', 'support', 'test', 'case', 'test']",Risky_resource_management,{'null pointer': 100}
+914b7762c2a610f774529af496a564466f46e663,"['layer', 'couple', 'hand', 'section', 'marky', 'destroyinstance', 'case', 'wrong', 'wrong', 'function', 'clean', 'command', 'buffer', 'pool', 'occassional', 'crash']",General,{'crash': 100}
+70df1e8eb37c3a53e449bb6c23d47a8956ce24ed,"['memory', 'leak', 'utility']",Risky_resource_management,{'memory leak': 100}
+a9e2e260a289f59dc6cb2b838114ffc557211098,"['test', 'initialize', 'field', 'test', 'crash', 'forgotten', 'variable', 'test', 'test', 'default', 'initialization', 'error', 'message']",General,{'crash': 100}
+16ee6bbd953d920c626490f2fc626d06d7325409,"['layer', 'paramcheck', 'struct', 'array', 'null', 'issue', 'index', 'null', 'pointer', 'array', 'structs']",Risky_resource_management,{'null pointer': 100}
+fc50041e3c1158ef23e590f3ebc9fbaa712b7393,"['trampoline', 'terminator', 'dependency', 'dependency', 'trampoline', 'terminator', 'list', 'dependency', 'device', 'order', 'layer', 'modify', 'reorder', 'list', 'loader', 'crash', 'general', 'dependency', 'trampoline', 'code', 'terminator', 'code', 'potential', 'unknown', 'layer', 'conflict', 'loader', 'loader', 'loader', 'trampoline']",General,{'crash': 100}
+656b1a5d2165c66fd4af21d070243d387cd4ac56,"['layer', 'vector', 'resize', 'portability', 'issue', 'layer', 'crash', 'window', 'cube', 'validate', 'window', 'vector', 'bump', 'size', 'vector', 'amount', 'access', 'linux']",General,{'crash': 100}
+ada0fecba2975cef315b77d8210748eafa2b078e,"['layer', 'deadlock', 'return', 'case', 'lock']",Risky_resource_management,{'deadlock': 100}
+47892024546c67e8db98b51b2ddb962c21088894,"['layer', 'validation', 'crash', 'createbuffer', 'createimage', 'qfis', 'validation', 'special', 'case', 'index']",General,{'crash': 100}
+a2d5d61d3c324e027f78bfd1d8c4c49c66898520,"['layer', 'descriptor', 'descriptorset', 'integer', 'overflow', 'application', 'crash', 'large', 'createinfo', 'value']",Risky_resource_management,{'integer overflow': 100}
+c7bd67f06427b08ba65cdf2dd529c8234beebdd5,"['layer', 'crash', 'dota']",General,{'crash': 100}
+e7892579f3093b338d096652f6231e4c8daced46,"['proper', 'access', 'control', 'install', 'temp', 'dirs', 'file', 'address', 'http', 'github', 'khronosgroup', 'vulkan', 'issue', 'reboot', 'uninstall', 'install', 'empty', 'address', 'http', 'github', 'khronosgroup', 'vulkan', 'issue', 'installer']",Porous_defenses,{'access control': 100}
+0a8fda57046dcafc120dcd2a1b6181c5e239efd2,"['additional', 'null', 'check', 'null', 'check', 'validation', 'code', 'dereferences', 'null', 'pointer', 'asserts', 'function', 'certain', 'pointer']",Risky_resource_management,{'null pointer': 100}
+aeaf18290b786324f35b462651928c00e4066bfa,"['layer', 'crash', 'layer', 'commandbuffers']",General,{'crash': 100}
+f1dbabccd4e3c1aa2e51cca5d8a6ced900e58fb0,"['memory', 'leak', 'static', 'allocation', 'glsltospv']",Risky_resource_management,{'memory leak': 100}
+4cb315d6991eb1b5982911961725cb130e859392,"['layer', 'helper', 'script', 'dereference', 'string', 'null', 'pointer', 'string', 'helper', 'function']",Risky_resource_management,{'null pointer': 100}
+3ec16a56566d3b140c488dc9acb2204a1ec199ca,"['allocation', 'callback', 'code', 'demo', 'issue', 'demo', 'free', 'realloc', 'belive', 'realloc', 'return', 'pointer', 'necessary', 'alignment', 'realloc', 'crash', 'realloc', 'crash', 'multiple', 'alignment', 'vulkan', 'callback', 'posix', 'multiple', 'sizeof', 'void', 'null', 'invoke', 'invalid', 'parameter', 'handler', 'practice', 'valid', 'allocator', 'delete', 'allocator', 'khronosgroup', 'vulkan', 'khronosgroup', 'vulkan']",General,{'crash': 100}
+af1f1b86877a3f92fc7c01e1b51749a2ef3daaf4,"['indirection', 'code', 'pallocinfo', 'pallocinfo', 'dereference', 'null', 'pointer', 'code', 'generator', 'insert', 'null', 'check', 'case', 'pallocinfo', 'pallocinfo', 'null', 'pallocinfo']",Risky_resource_management,{'null pointer': 100}
+cfdbfae2240e494dc2a9ee4953beaa508d66c6c0,"['param', 'check', 'null', 'pointer', 'check']",Risky_resource_management,{'null pointer': 100}
+b096a9ae421e1ab013ea161ac67f069289ab8f8d,"['layer', 'dynamicoffsets', 'crash', 'multiple', 'time', 'dynamicoffsets', 'overwritten', 'subsequent', 'call', 'crash', 'array']",General,{'crash': 100}
+02390a4e4390a1ae9c933180f9b8bae9fe2d704c,"['sample', 'issue', 'overlay', 'layer', 'crash', 'layer', 'creates', 'dispatchable', 'object', 'command', 'buffer', 'creation', 'typical', 'trampoline', 'device', 'dispatch', 'table', 'command', 'buffer', 'object', 'making', 'dispatch', 'table', 'command', 'buffer', 'pointer', 'opaque', 'object']",General,{'crash': 100}
+7a7107690fad816e6957f92ba1b5d2c9f699c2f4,"['memory', 'leak', 'presentmode', 'array', 'data']",Risky_resource_management,{'memory leak': 100}
+d63ee8ee7894c42a759a19123e0b925432df2b46,"['layer', 'memory', 'leak', 'certain', 'codepaths']",Risky_resource_management,{'memory leak': 100}
+00a897325251de38bacc017bcacf17bc5b018072,"['unnecessary', 'null', 'pointer', 'check', 'github', 'issue']",Risky_resource_management,{'null pointer': 100}
+dde44e1a97b75b215816f03fd8e26382d00f7ddf,"['layer', 'possible', 'crash', 'layer', 'descriptor', 'slot', 'null', 'pointer', 'dereferences']",Risky_resource_management,{'null pointer': 100}
+f315b9e3fea340901465f327540b9eb02889ed9d,"['layer', 'crash', 'validation']",General,{'crash': 100}
+c87f31ee35ccc0cd9fd637b6f1b7e3c8dae51c2d,"['layer', 'null', 'pointer', 'struct', 'type', 'check', 'parameter', 'null', 'structure', 'stype', 'field', 'vkstructuretype', 'value', 'message', 'condition', 'pointer', 'null', 'optional', 'array', 'null', 'optional', 'optional', 'structre', 'stype', 'value']",Risky_resource_management,{'null pointer': 100}
+95f37f63f34ab7cefa4432df095c55f53b48f737,"['loader', 'check', 'null', 'pointer', 'vulkaninfo']",Risky_resource_management,{'null pointer': 100}
+a0eecb28b5276feb54cccf75bc5ac51fa78c6dea,"['support', 'layer', 'memory', 'corruption', 'issue', 'original', 'patch']",Risky_resource_management,{'memory corruption': 100}
+d497bb3a8cf6b39a8782e7138ee0ec027af3ce42,"['layer', 'subscript', 'range', 'crash', 'renderpasses', 'renderpass', 'driver', 'data', 'crash', 'window']",General,{'crash': 100}
+04242ea629a79dfd5f4fb4486e0e345a0e86c73a,"['memory', 'pointer', 'crash', 'window', 'conflict', 'layer', 'swapchain']",General,{'crash': 100}
+beebf7d6163262eceb61ac1ca145a179383717db,"['minor', 'cube', 'update', 'minor', 'update', 'cube', 'search', 'loop', 'memory', 'allocation', 'layer', 'processing', 'layer', 'potential', 'null', 'pointer', 'dereference', 'exit', 'message', 'accessible', 'device', 'available', 'memory', 'leak']",Risky_resource_management,{'null pointer': 100}
+be52381e4ec2251aeadaa7888a0e1e22101b25ad,"['vktrace', 'data', 'trace', 'buffer']",Risky_resource_management,{'data trace': 95}
+842f94166580a40cfcd631a11681db600ed42821,"['memory', 'leak', 'presentmode', 'data', 'presentmode', 'array', 'data']",Risky_resource_management,{'memory leak': 100}
+3c6612a79cf7cc86d9c6e61993437198a590f9f9,"['vktrace', 'gitlab', 'viewport', 'scissors', 'samplemask', 'pipeline', 'member', 'data', 'trace', 'file', 'structure']",Risky_resource_management,{'data trace': 95}
+3df8239fbc9ce4974ecf9c8dd8aa6eeb57e5a20f,"['nulldrv', 'initialize', 'memory', 'type', 'mask', 'memory', 'type', 'claim', 'support', 'memory', 'type', 'chris', 'forbes', 'chrisforbes', 'google']",Risky_resource_management,{'initialize memory': 92}
+ec75952fed97ee7037d4265828b683e2ddf9cc66,"['layer', 'revert', 'layer', 'work', 'window', 'release', 'crash', 'cube', 'reverts', 'conflict', 'layer']",General,{'crash': 100}
+65e31cc6d1ce20a372da2fc83e03fa99c85e9bcf,"['memory', 'pointer', 'time', 'library', 'space', 'list', 'dlopen', 'segfault', 'null', 'pointer', 'pointer']",Risky_resource_management,{'null pointer': 100}
+312274f71cc0d9986075954a4c7f185ab700da37,"['layer', 'work', 'window', 'release', 'crash', 'cube', 'drawstate']",General,{'crash': 100}
+7335de49c454f85a1ae1d7ce6c3397cb4ebf6867,['crash'],General,{'crash': 100}
+5b9782663c1968425a44983a5356131692d9dd60,"['null', 'check', 'memtracker', 'layer', 'crash']",General,{'crash': 100}
+3b99c4740c546d392939cdc15f857bfaf1d9ae3c,"['layer', 'dota', 'crash', 'layer', 'vector', 'default', 'constructor', 'struct']",General,{'crash': 100}
+8961c984fc7337f83d3c1b7c720a2f37c8d57afd,"['glsl', 'backdoor', 'spir', 'support', 'driver', 'cube', 'demo']",Insecure_interaction_between_components,{'backdoor': 100}
+a73e50c77d3d65cfd583ea1e030766931be751d5,"['loader', 'free', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+5afdcf69046874a57e41f610d21655c5afab2f2a,"['support', 'instance', 'device', 'data', 'trace', 'layer', 'layer', 'single', 'global', 'instance', 'device', 'dispatch', 'table', 'hash', 'similar', 'lunarg', 'layer', 'entry', 'dispatch', 'table', 'data']",Risky_resource_management,{'data trace': 95}
+cfe4e68cf6fa284ff685e479432189576f482d60,"['global', 'instance', 'list', 'instance', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+565035cf16b6da22316c7261b494d2f26a920bfe,"['objecttracker', 'layer', 'crash', 'window', 'createinstance', 'function']",General,{'crash': 100}
+445be8d65467afcf41a04eb509ea5d3a492b3c23,"['crash', 'encounter', 'crash', 'command', 'pool', 'device', 'flag', 'creation', 'function', 'crash', 'debug', 'path']",General,{'crash': 100}
+c1e21462e1d81c0b1c0f6389dd98011fd9924142,"['demo', 'ensure', 'null', 'pointer', 'null', 'structure', 'driver', 'need', 'null', 'pointer', 'structure']",Risky_resource_management,{'null pointer': 100}
+961fad10b37566fbcec41dcd79a7becdc8e55af2,"['layer', 'memtracker', 'segfault', 'object', 'memory', 'illegal', 'crash', 'layer']",General,{'crash': 100}
+fe133efb1ba5e4fd37a5004dc09fcf9ee10e7281,"['test', 'dont', 'null', 'renderpasses', 'likely', 'crash', 'driver', 'renderpass', 'object', 'load', 'chris', 'forbes', 'chrisf', 'tobin', 'ehlis', 'tobin', 'lunarg']",General,{'crash': 100}
+4eb3cd1073a6f37a5a807359eda9454b18919fc1,"['layer', 'overrun']",Risky_resource_management,{'overrun': 100}
+5f362d03f700aea96df031f80d7c1836840214a4,"['pipeline', 'config', 'error', 'driver', 'crash', 'case', 'chris', 'forbes', 'chrisf', 'tobin', 'ehlis', 'tobin', 'lunarg']",General,{'crash': 100}
+7a62cbe7669c596973bc517ddcd67a295c88fdc8,"['shaderchecker', 'crash', 'shader', 'output', 'attachment']",General,{'crash': 100}
+862c557da64a012d57acecc47847f377c66d0fd6,"['update', 'update', 'possible', 'bind', 'multiple', 'descriptor', 'command', 'buffer', 'global', 'descriptor', 'region', 'dynamic', 'offset', 'descriptor', 'reading', 'routine', 'potential', 'crash', 'allocation']",General,{'crash': 100}
+1a1c088cd01d6c202769074b8ea402c3dc931f40,"['path', 'memory', 'leak', 'memory', 'function', 'return', 'multiple', 'memory', 'support']",Risky_resource_management,{'memory leak': 100}
+54d6e8b353b4e5da50b5233514d9673f8503ba71,"['loader', 'work', 'entry', 'loader', 'crash', 'registry', 'entry']",General,{'crash': 100}
+7518ecd7cf4d776470f5cae6f823d9ab9dad5afb,"['null', 'pointer', 'dereference', 'registry', 'entry']",Risky_resource_management,{'null pointer': 100}
+7810957ada0c0d92a4c2952e7ec3daee178fa657,"['glave', 'generate', 'proper', 'error', 'detection', 'error', 'linux', 'debug', 'debugger', 'abort', 'code', 'error', 'case', 'likely', 'crash', 'situation', 'load', 'trace', 'file', 'header', 'version', 'likely', 'condition', 'developer', 'error', 'return', 'value', 'detects', 'invalid', 'file', 'report', 'error', 'user', 'message']",General,{'crash': 100}
+6338b3167461329ac39a5c3ba6709b0a76cc70da,"['layer', 'null', 'pointer', 'reference', 'memtracker', 'copy', 'paste', 'error', 'segfault', 'cube', 'demo']",Risky_resource_management,{'null pointer': 100}
+327905974ba78a7d6eb19778fee5e0b86f454b4c,"['layer', 'memtracker', 'memory', 'leak', 'string', 'helper', 'function']",Risky_resource_management,{'memory leak': 100}
+821b57feb0c28cb100c80186d245029983083a9f,"['layer', 'memtracker', 'fence', 'memory', 'leak', 'memtracker', 'internal', 'fence', 'object', 'track', 'command', 'buffer', 'completion', 'object']",Risky_resource_management,{'memory leak': 100}
+49398b3d0f795c448c20fb7a71022dc106a23b40,"['layer', 'check', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+78a2b4bd7575735502b12432d823d40270e3ee3d,"['layer', 'buffer', 'overrun', 'memtracker', 'long', 'function', 'name', 'pointer', 'buffer', 'overrun']",Risky_resource_management,{'overrun': 100}
+7397c433f7da1567f97a33ce1032c5b1cd998a59,"['layer', 'bsymbolic', 'hide', 'crash', 'overriden', 'malloc']",General,{'crash': 100}
+8f445639575513542b944d7b7df620315f0dd9b4,"['null', 'pointer', 'stringify', 'entrypoint', 'parameter']",Risky_resource_management,{'null pointer': 100}
+ee36301d239cf9c505e08e678c6e89a4f69b17ac,"['potential', 'crash', 'crash', 'valid', 'range']",General,{'crash': 100}
+164650ce74513bec9fe3f597b5786bed435f4a81,"['debug', 'message', 'callback', 'return', 'trace', 'file', 'result', 'crash']",General,{'crash': 100}
+3e2bd490bd184ad1995dde88d6b4137bd1c5d22b,"['test', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+6cad43c5eebebf0597feeff6e6c96b1875cf0b04,"['glave', 'xglcreatedevice', 'replay', 'code', 'modify', 'packet', 'sporadic', 'crash', 'multiple', 'replay']",General,{'crash': 100}
+434db7cef12c706a73c98fbe1292e63e4429d2ac,"['apidump', 'noaddr', 'layer', 'string', 'stream', 'functional', 'version', 'apidump', 'apidumpnoaddr', 'string', 'stream', 'random', 'crash', 'long', 'term', 'different', 'apidump', 'layer', 'main', 'apidump', 'layer', 'version', 'setting', 'file', 'option', 'file', 'noaddr', 'option', 'version', 'apidump', 'sure', 'need']",General,{'crash': 100}
+72806223ec02e92eb4ece72a4f18853f613383cf,"['null', 'pointer', 'access', 'trace', 'file']",Risky_resource_management,{'null pointer': 100}
+c678b61e292a58bfa177c7c87cf59a59c0829899,"['message', 'packet', 'multiple', 'time', 'result', 'invalid', 'memory', 'access', 'potential', 'crash', 'revamp', 'trace', 'file']",General,{'crash': 100}
+cde421cb29032fd6dfe72d34226cd4aa6dd58f2a,"['suspicious', 'crash', 'debug', 'layer', 'memory', 'overrun', 'size', 'string', 'allocation', 'patch', 'allocation', 'compute', 'space', 'overrun', 'show', 'debug', 'info', 'strncpy', 'strncat', 'ensure', 'string', 'stay', 'limit', 'buffer']",Risky_resource_management,{'overrun': 100}
+bf4182ca5d5948cdef47649b4e667a09dd13c56e,"['null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+22d03233332c9ccabbab943d330ef8035e15fe70,"['layer', 'report', 'memory', 'leak', 'warning', 'memtracker', 'layer']",Risky_resource_management,{'memory leak': 100}
+64efe72386c2b9ee7163f0d4e343ab22a418358f,"['layer', 'apidump', 'buffer', 'overrun']",Risky_resource_management,{'overrun': 100}
+0b33322724ad8b66995df2449037bbfb646c92a2,"['layer', 'memory', 'overrun', 'issue']",Risky_resource_management,{'overrun': 100}
+b4d0053be857e3243b774e0f5d7a362a06ab78ff,"['memory', 'leak', 'loader']",Risky_resource_management,{'memory leak': 100}
+6f928160a3b46db44196485cf6acb8bc902f2d08,"['loader', 'initialize', 'memory']",Risky_resource_management,{'initialize memory': 92}
+8d65104e81d527a6e451a1f0d92367f05367220a,"['intel', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+e0f35a7822d169ddf5e8d86d955b6c1b269e2add,"['intel', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+73019ad22eb19109847801555576a8a820e14db1,"['override', 'device', 'devid', 'override', 'device', 'devid', 'implies', 'nohw', 'security', 'reason']",General,{'security': 100}

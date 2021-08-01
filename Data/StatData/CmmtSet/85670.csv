@@ -1,6 +1,18 @@
-sha,message,catetory,matched,labels
-af22f988abe241622b6ab2b2b0ffe6a0152ed653,"['security', 'labelhtml']",General,{'security': 100},
-b582cf57918d6c5c975bc1e8152d1584d6091433,"['security', 'labelhtml']",General,{'security': 100},
-66d93224c54944170f3b2642060a11c1664851bd,"['reflect', 'update', 'security', 'practicedmitry', 'stefano', 'paola', 'savintsev', 'thankssecurity', 'vulnerability', 'potentialparameter', 'pollution']",General,{'security': 100},
-5bbebea78ad9af4d174779841da6d8e70dd55c39,"['example', 'widgetstdmod', 'content', 'removeescape', 'security', 'example', 'inputcheckbox']",General,{'security': 100},
-161598d07b3e1c297c25dabf200f2b7ad05f6557,"['script', 'circular', 'deadlock', 'prevents', 'dependency']",Risky_resource_management,{'deadlock': 100},
+sha,message,catetory,matched
+af22f988abe241622b6ab2b2b0ffe6a0152ed653,"['labelhtml', 'attr', 'security', 'warning']",General,{'security': 100}
+b582cf57918d6c5c975bc1e8152d1584d6091433,"['labelhtml', 'attr', 'security', 'warning']",General,{'security': 100}
+66d93224c54944170f3b2642060a11c1664851bd,"['update', 'reflect', 'security', 'practice', 'thanks', 'stefano', 'paola', 'dmitry', 'savintsev', 'potential', 'security', 'vulnerability', 'http', 'http', 'parameter', 'pollution', 'attack', 'html']",General,{'security': 100}
+d10b03da21359626180c960520c918bb9d873bdb,"['href', 'link', 'attribute', 'test', 'yeti', 'crash']",General,{'crash': 100}
+b23b241b988e6ea6c3a392b7c4849d7f31e8d1c6,"['clear', 'possible', 'memory', 'leak', 'chart', 'legend', 'issue', 'legend', 'text']",Risky_resource_management,{'memory leak': 100}
+f9fd8f607378b237db5843093b936e34f78f7ece,"['logic', 'focus', 'listener', 'current', 'impl', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+e94873de0d5ad6484a980a008648524322e0dabd,"['logic', 'focus', 'listener', 'current', 'impl', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+43c28ae51ee9a58cf1be1f4397fba7d007d4ec4f,"['memory', 'leak', 'canvas', 'implementation', 'chart', 'graphic']",Risky_resource_management,{'memory leak': 100}
+117557654069e56f5003be755819b76fe0f77107,"['memory', 'leak', 'graphic', 'chart']",Risky_resource_management,{'memory leak': 100}
+5bbebea78ad9af4d174779841da6d8e70dd55c39,"['widgetstdmod', 'example', 'content', 'html', 'checkbox', 'example', 'html', 'input', 'security', 'reason', 'checkbox', 'example', 'useless']",General,{'security': 100}
+aa1805d3af3a9ac854fadba9707e18ee5f006804,"['security', 'type', 'html']",General,{'security': 100}
+731584898d510b113e8ee729ebdb24f8fdc81c1c,"['instanceof', 'tweak', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+011173392d3a1a59092095d5a24857134cb16f93,"['memory', 'leak', 'listener', 'element', 'conditional', 'module', 'event', 'facade']",Risky_resource_management,{'memory leak': 100}
+cce8e3cb57004531d3b8b27a69579cd038db03ad,"['instanceof', 'tweak', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+e3cee6b38c62be71fcb6028e299980eb886a0544,"['memory', 'leak', 'listener', 'element', 'conditional', 'module', 'event', 'facade']",Risky_resource_management,{'memory leak': 100}
+0c9749c3ca70539e41104900fede9cbfa4328678,"['window', 'instanceof', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+161598d07b3e1c297c25dabf200f2b7ad05f6557,"['prevents', 'script', 'deadlock', 'circular', 'dependency']",Risky_resource_management,{'deadlock': 100}

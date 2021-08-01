@@ -1,26 +1,40 @@
-sha,message,catetory,matched,labels
-62a7f2c00caacb5b917ff320e28aca9cb4396649,"['migration', 'project', 'hostedapril', 'subdomains', 'securingchange', 'domain', 'address', 'concern', 'subdomains', 'cooky', 'security']",General,{'security': 100},
-2b370a945060ea95c339d85808574a236076acbe,"['aeaef', 'mergeerror', 'rafalp', 'request', 'mergehandler', 'error', 'crash']",Risky_resource_management,{'crash': 100},
-facfb05f807d6f0188d15d6c247d78501505561d,"['update', 'crash']",Risky_resource_management,{'crash': 100},
-3e0ba75d713d9a737ccddb83c110888d4a48f9bb,"['crash', 'debug']",Risky_resource_management,{'crash': 100},
-e8aa73bdccb035188a2f914cb34e865118f02ee0,"['crash', 'background']",Risky_resource_management,{'crash': 100},
-1df65b5da9bb83e08e00608bb8e5becef890d017,"['access', 'control', 'history']",Porous_defenses,{'access control': 100},
-042ded3eae14949412ce317d12402b13531c5200,"['crash', 'color']",Risky_resource_management,{'crash': 100},
-c228cdae1d1869fb4f305d774dc1ca63c5697cf5,"['certain', 'crash']",Risky_resource_management,{'crash': 100},
-3f9b5b298645e9acdaf3b866ac4bc82ce164f1b2,"['frontend', 'crash']",Risky_resource_management,{'crash': 100},
-717a65ce3a42eb30cfc9e34fb402c23c07fb77f0,"['hotfix', 'crash']",Risky_resource_management,{'crash': 100},
-d65502557fe5de971fdc8c3fb26b38620c96cebe,"['message', 'crash']",Risky_resource_management,{'crash': 100},
-7a1cffa5bb2c9ff2de674fd2e551544d0ba6fd2f,"['small', 'uploads', 'security', 'improvement']",General,{'security': 100},
-c590179ac99500c95fe24671f6448200dec49df7,"['neutralize', 'security']",General,{'security': 100},
-6994274bc51ee92cb91cb407ac4508e1eb153e62,"['small', 'security']",General,{'security': 100},
-597e360ae18ee53f09d6556d5067b13733b2ef2f,"['board', 'crash', 'index']",Risky_resource_management,{'crash': 100},
-d2f91914d7d41f7417a9b972b81d20aac52c7a89,"['crash', 'widget']",Risky_resource_management,{'crash': 100},
-3c274cd67df5f05b0f4e3fa14d6d5d465c2312ae,"['dccea', 'ccffb', 'mergemaster', 'request', 'mergeprivate', 'crash']",Risky_resource_management,{'crash': 100},
-aeaa730e65c555f784542bb6c60d684fac0abaa8,"['reply', 'crash']",Risky_resource_management,{'crash': 100},
-ccf60fb27b3ce5ec492a12632d401fafe83dbbcf,"['private', 'thread', 'option', 'crash', 'forum']",Risky_resource_management,{'crash': 100},
-3ef892566a60040536ca84620adc07d43a901e7d,"['compact', 'crash']",Risky_resource_management,{'crash': 100},
-ddc03d31ffa5c03c5e92bffb99ec5700e55293a2,"['error', 'username', 'crash']",Risky_resource_management,{'crash': 100},
-b5ced61b8c2f53cc2587541145aa79c4da146edb,"['deletion', 'crash', 'content']",Risky_resource_management,{'crash': 100},
-b56a79aeb7df1b671e7789b3f4df6c202d383255,"['crawler', 'crash']",Risky_resource_management,{'crash': 100},
-efb0ce02b45d2dd754b580fc185cd9d4e11ca44e,"['protection', 'security']",General,{'security': 100},
-db1405fdb4a00695521c68d26034a7081a4d3cdb,"['captcha', 'fixture', 'security']",General,{'security': 100},
+sha,message,catetory,matched
+2b370a945060ea95c339d85808574a236076acbe,"['pull', 'request', 'rafalp', 'ajax', 'csrf', 'error', 'crash', 'ajax', 'csrf', 'error', 'handler']",Insecure_interaction_between_components,{'csrf': 100}
+05d25b1046aa5262da7df9e75aff372ee9089ac4,"['csrf', 'error', 'ajax', 'csrf', 'error', 'copy']",Insecure_interaction_between_components,{'csrf': 100}
+25534919cd73c62e937aedaefeaf8596b7278c83,"['tweak', 'admin', 'csrf', 'error', 'message']",Insecure_interaction_between_components,{'csrf': 100}
+facfb05f807d6f0188d15d6c247d78501505561d,"['update', 'crash']",General,{'crash': 100}
+a50e4665d55d5920c88903f843371937835f092f,"['current', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+530b30cc247881794d7d9b72ad07a6a7cb43efb5,"['backend', 'crash', 'misago', 'user']",General,{'crash': 100}
+3e0ba75d713d9a737ccddb83c110888d4a48f9bb,"['debug', 'code', 'crash']",General,{'crash': 100}
+389c73237175b4d152912da00a98b0476950e534,"['tweak', 'gulp', 'extra', 'csrf', 'token', 'comment']",Insecure_interaction_between_components,{'csrf': 100}
+62f9f1af938be439bb016518d57482fab9285683,"['service', 'cleanup', 'preloadstore', 'service', 'csrf', 'service', 'rewritten', 'ember', 'data', 'django', 'rest', 'framework']",Insecure_interaction_between_components,{'csrf': 100}
+27a14aa5aa218b558998d9f8ebb61ec9c6d8611d,"['service', 'refactor', 'csrf', 'page', 'title', 'csrf', 'service', 'service', 'preload', 'store', 'route', 'service', 'access', 'service', 'misc', 'code', 'cleanup', 'need', 'test']",Insecure_interaction_between_components,{'csrf': 100}
+6309e3c4ce9ae37bf909fb2042f514e42e95f92b,"['rotate', 'csrf', 'authapiurl', 'setting']",Insecure_interaction_between_components,{'csrf': 100}
+eff6a2d05b77487fdd21d0b958637cb80d3a7055,"['trigger', 'csrf', 'token', 'cookie']",Insecure_interaction_between_components,{'csrf': 100}
+956108fc293ae6bb55319caca5bf30eb3457c000,"['crash', 'guest', 'attempt']",General,{'crash': 100}
+e8aa73bdccb035188a2f914cb34e865118f02ee0,"['background', 'crash', 'page']",General,{'crash': 100}
+0f850e73df842beb81ee25cb8ed486cc94a81681,"['error', 'page', 'framework', 'csrf', 'error', 'page']",Insecure_interaction_between_components,{'csrf': 100}
+042ded3eae14949412ce317d12402b13531c5200,"['text', 'color', 'crash', 'page']",General,{'crash': 100}
+3f9b5b298645e9acdaf3b866ac4bc82ce164f1b2,"['crash', 'frontend']",General,{'crash': 100}
+2112f29acb552af1c7762eb046b7e1fde90c2eb9,"['crash', 'board', 'wide', 'thread', 'list']",General,{'crash': 100}
+9a926032bb5ed449c3a6d2106558b427cec84ae5,"['stack', 'overflow']",Risky_resource_management,{'stack overflow': 100}
+717a65ce3a42eb30cfc9e34fb402c23c07fb77f0,"['hotfix', 'crash', 'user', 'middleware']",General,{'crash': 100}
+d65502557fe5de971fdc8c3fb26b38620c96cebe,"['crash', 'message', 'edit', 'private', 'thread']",General,{'crash': 100}
+7a1cffa5bb2c9ff2de674fd2e551544d0ba6fd2f,"['small', 'improvement', 'uploads', 'security']",General,{'security': 100}
+c590179ac99500c95fe24671f6448200dec49df7,"['neutralize', 'security', 'check']",General,{'security': 100}
+6994274bc51ee92cb91cb407ac4508e1eb153e62,"['small', 'security', 'check']",General,{'security': 100}
+597e360ae18ee53f09d6556d5067b13733b2ef2f,"['crash', 'board', 'index']",General,{'crash': 100}
+7e1b8ec1083dee087b8d81d1b7697de69afc8b6a,"['crash', 'user']",General,{'crash': 100}
+d2f91914d7d41f7417a9b972b81d20aac52c7a89,"['crash', 'list', 'widget']",General,{'crash': 100}
+68202ffe7ee469d7fa870a6780b86511620e730c,"['pull', 'request', 'translation', 'crash', 'reply', 'edit', 'translation']",General,{'crash': 100}
+3c274cd67df5f05b0f4e3fa14d6d5d465c2312ae,"['pull', 'request', 'master', 'crash', 'private', 'thread']",General,{'crash': 100}
+aeaa730e65c555f784542bb6c60d684fac0abaa8,"['crash', 'reply', 'edit', 'translation']",General,{'crash': 100}
+ccf60fb27b3ce5ec492a12632d401fafe83dbbcf,"['private', 'thread', 'builder', 'private', 'thread', 'crash', 'mark', 'forum']",General,{'crash': 100}
+611bf9af348d1b656f83ea7e7adb9bf203d69ebc,"['import', 'crash', 'form']",General,{'crash': 100}
+3ef892566a60040536ca84620adc07d43a901e7d,"['crash', 'user', 'view', 'compact', 'user', 'list']",General,{'crash': 100}
+ddc03d31ffa5c03c5e92bffb99ec5700e55293a2,"['crash', 'form', 'view', 'username', 'error']",General,{'crash': 100}
+b5ced61b8c2f53cc2587541145aa79c4da146edb,"['crash', 'user', 'content', 'deletion']",General,{'crash': 100}
+b56a79aeb7df1b671e7789b3f4df6c202d383255,"['crash', 'crawler', 'check']",General,{'crash': 100}
+a2fd43f5fc8e197bb6bbe1b2d3c905987c9da6f4,['security'],General,{'security': 100}
+efb0ce02b45d2dd754b580fc185cd9d4e11ca44e,"['csrf', 'protection', 'security']",Insecure_interaction_between_components,{'csrf': 100}
+db1405fdb4a00695521c68d26034a7081a4d3cdb,"['fixture', 'security', 'captcha']",General,{'security': 100}

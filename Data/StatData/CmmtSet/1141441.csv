@@ -1,3 +1,8 @@
-sha,message,catetory,matched,labels
-5b58f6a523319d72480efd6becffc698245d7793,"['mergerequest', 'yanovich', 'mergeeventsource', 'crash']",Risky_resource_management,{'crash': 100},
-ff98411d41ea9864acca6981dafc12c962144ea4,"['eventsource', 'crash']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+6f94f93072089c0cb3f7097622a36162e0b26851,"['pull', 'request', 'ericminio', 'master', 'cors', 'access', 'control']",Porous_defenses,{'access control': 100}
+c66145700cec4565a81356326216dcc16585b1bb,"['access', 'control', 'head', 'post']",Porous_defenses,{'access control': 100}
+d0c55778aef7dc731145dd95602497798aca0ebe,"['pull', 'request', 'plpeeters', 'cookie', 'leak', 'potential', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+d8ed26bf40a7227e34e663f9021df086d7f09d3d,"['potential', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+d16f988eb7907ac47737a6bb594356bdb35cd69b,"['websocket', 'connection', 'open', 'prevents', 'garbage', 'collection', 'crash', 'server', 'sends', 'message', 'window', 'important', 'application', 'server', 'example', 'meteor', 'framework']",General,{'crash': 100}
+5b58f6a523319d72480efd6becffc698245d7793,"['pull', 'request', 'yanovich', 'crash', 'browser']",General,{'crash': 100}
+ff98411d41ea9864acca6981dafc12c962144ea4,"['crash', 'browser']",General,{'crash': 100}

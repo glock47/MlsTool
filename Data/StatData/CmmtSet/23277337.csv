@@ -1,0 +1,23 @@
+sha,message,catetory,matched
+375838c4735e001cc62f820adc199c7a80179c86,"['device', 'channel', 'coreaudio', 'backend', 'audiobufferlist', 'contains', 'variable', 'length', 'array', 'mnumberbuffers', 'element', 'default', 'constructor', 'usual', 'class', 'instance', 'apple', 'developer', 'site', 'documentation', 'empty', 'bunch', 'comment', 'framework', 'header', 'file', 'usage', 'audiobufferlist', 'pointer', 'chromium', 'http', 'chromium', 'medium', 'audio', 'occasional', 'crash', 'memory', 'corruption', 'address', 'sanitizer']",Risky_resource_management,{'memory corruption': 100}
+064710cdf7aadec0d2c10e39480fb7ff7d0afea6,"['force', 'stack', 'alignment', 'proper', 'crash', 'variable', 'instruction']",General,{'crash': 100}
+598851fed7dfdd787de3487002afb13ed6e9dc82,"['attempt', 'reconnect', 'possible', 'race', 'condition', 'pulseaudio', 'callback', 'state', 'callback', 'need', 'source', 'assert', 'crash', 'source', 'offset']",General,{'crash': 100}
+99737469e2678a6169462c8488b6f6080c7857b6,"['ensure', 'reverb', 'update', 'size', 'multiple', 'issue', 'final', 'input', 'output', 'buffer', 'target', 'crash', 'mixer']",General,{'crash': 100}
+2cb49e51a0d270f2a650d0969a5370ac50125c3f,"['null', 'pointer', 'dereference']",Risky_resource_management,{'null pointer': 100}
+6dd1643a701c45fa779ea6da180f120c36c31a97,"['null', 'pointer', 'address', 'member', 'undefined', 'behavior', 'sizeof']",Risky_resource_management,{'null pointer': 100}
+d57eca57a93a78f9d04de0bc562319dcff6ccbc7,"['silence', 'msvc', 'security', 'warning']",General,{'security': 100}
+a2c25378a970792461c961054e2b47cd3a086e05,"['previous', 'value', 'whole', 'number', 'value', 'potential', 'overrun']",Risky_resource_management,{'overrun': 100}
+a758cc82433ad4fd47aeac7e626dff4bd1fa739f,['crash'],General,{'crash': 100}
+d1e98c36d375433cb11a7a74ce20c968491773aa,"['crash', 'backend']",General,{'crash': 100}
+451b780e081bdf574392786df6a5ca712128b891,"['lock', 'potential', 'deadlock']",Risky_resource_management,{'deadlock': 100}
+e9aee578a797c694655538cd0a00ad6c0bf6d5dc,"['null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+9c70ca9da6479595946def59cd616e6823c86d78,"['memory', 'leak', 'preset', 'lookup']",Risky_resource_management,{'memory leak': 100}
+8d874512b6a1520dc9fbbe6322495e9e2da9dc3c,"['null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+0b47844606943931803f8d4f6ffae48b9487f238,"['potential', 'buffer', 'overflow', 'temp', 'sample', 'space']",Risky_resource_management,{'buffer overflow': 100}
+06debb153d0195d89a85b0fbe6c77aed4bf9e6f7,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+75679c959ab8619d1c12b2de6fdf991e7f70cc0d,"['update', 'device', 'update', 'parameter', 'pulseaudio', 'async', 'buffer', 'update', 'risk', 'deadlock']",Risky_resource_management,{'deadlock': 100}
+7d73ac440552babe27395a7985ff3f693303c61b,"['function', 'context', 'lock', 'clear', 'deletion', 'error', 'effect', 'filter', 'possibility', 'deadlock', 'listlock', 'global', 'context', 'lock', 'context', 'lock']",Risky_resource_management,{'deadlock': 100}
+244daba501fd5908dc5c2de598eed889cad83c70,"['overwrite', 'data', 'ring', 'buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100}
+4ad28964dea2baa08d5fa9f0124e78ad0808df9a,"['careful', 'integer', 'overflow', 'buffer', 'storage']",Risky_resource_management,{'integer overflow': 100}
+e516b3c0d317f2cceb5de6690705bfc6ff69f615,"['possible', 'buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100}
+1fa1edf16b24ea758d66b19b43e9697163c80a70,"['ring', 'buffer', 'size', 'overrun', 'detection']",Risky_resource_management,{'overrun': 100}

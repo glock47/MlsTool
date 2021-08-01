@@ -1,6 +1,9 @@
-sha,message,catetory,matched,labels
-91daea329bb40ed80bddef4635770d24b670b0c6,"['deadlock', 'heartbeat', 'thread', 'request', 'consumer', 'timeout']",Risky_resource_management,{'deadlock': 100},
-921c553b6a62a34044e4ae444af65abea3717faa,"['close', 'attempt', 'threadconnection', 'heartbeat', 'selector', 'block', 'object', 'error', 'access', 'client', 'crash', 'close', 'attempt', 'primarilyheartbeat', 'additional', 'thread', 'error', 'average', 'timeout']",Risky_resource_management,{'crash': 100},
-0a2ccba3cb1b8636f615a30821123720773a8dfa,"['deadlock', 'consumer', 'attempt', 'heartbeat']",Risky_resource_management,{'deadlock': 100},
-6e68ccd716775a05f7382fbefd8a39a6b748590a,"['producer', 'sender', 'crash']",Risky_resource_management,{'crash': 100},
-64cda819d9e87634b075725321b729aeede8471a,"['thread', 'prevents', 'communication', 'async', 'producer', 'thread', 'uncaught', 'occurs', 'exceptionnever', 'kafka', 'crash', 'queuereproduceasynckafkarestart', 'kafkacommunication', 'threadwithout', 'communication', 'resumeexception', 'thrown']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+91daea329bb40ed80bddef4635770d24b670b0c6,"['consumer', 'deadlock', 'heartbeat', 'thread', 'request', 'timeout']",Risky_resource_management,{'deadlock': 100}
+921c553b6a62a34044e4ae444af65abea3717faa,"['heartbeat', 'thread', 'issue', 'race', 'consumer', 'close', 'client', 'connection', 'socket', 'heartbeat', 'thread', 'heartbeat', 'thread', 'close', 'client', 'connection', 'heartbeat', 'error', 'crash', 'attempt', 'access', 'object', 'selector', 'socket', 'time', 'consumer', 'close', 'heartbeat', 'thread', 'finish', 'small', 'average', 'case', 'race', 'error']",General,{'crash': 100}
+cd47701ba63fc77309066e27b73f50d0150e3e1b,"['level', 'message', 'data', 'loss']",Risky_resource_management,{'data loss': 100}
+0a2ccba3cb1b8636f615a30821123720773a8dfa,"['attempt', 'deadlock', 'consumer', 'heartbeat']",Risky_resource_management,{'deadlock': 100}
+4cfeaca5c867e15213420caad400f5f1863f64e3,"['security', 'layer', 'negotiation', 'gssapi', 'authentication', 'connection', 'kafka', 'sasl', 'gssapi', 'authentication', 'mechanism', 'connection', 'timing', 'secons', 'kafka', 'broker', 'side', 'state', 'gssapi', 'auth', 'implementation', 'security', 'context', 'client', 'server', 'security', 'layer', 'connection', 'kafka', 'support', 'auth', 'implementation', 'kafka', 'broker', 'protocol', 'gssapi', 'mechanism']",General,{'security': 100}
+6e68ccd716775a05f7382fbefd8a39a6b748590a,"['pull', 'request', 'dpkp', 'producer', 'crash', 'sender']",General,{'crash': 100}
+6ded42f3c4caf4c753f19776d9e2dfaceb484ebb,"['producer', 'crash', 'sender', 'dict']",General,{'crash': 100}
+64cda819d9e87634b075725321b729aeede8471a,"['communication', 'thread', 'async', 'producer', 'uncaught', 'exception', 'occurs', 'thread', 'data', 'kafka', 'crash', 'queue', 'reproduce', 'async', 'producer', 'kafka', 'server', 'restart', 'kafka', 'server', 'communication', 'thread', 'step', 'step', 'communication', 'resume', 'exception', 'thrown', 'main', 'communication', 'process']",General,{'crash': 100}

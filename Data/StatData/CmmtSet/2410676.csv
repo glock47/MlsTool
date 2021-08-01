@@ -1,15 +1,33 @@
-sha,message,catetory,matched,labels
-75d271954b5d662d0567e95b054475e208619dff,"['insecure', 'hostname', 'connection']",General,{'insecure': 100},
-fec00a76eac3bc80e27036b63fc51a8b7a3f6425,"['mergemerge', 'mattbillenstein', 'master', 'requestretries', 'deadlock']",Risky_resource_management,{'deadlock': 100},
-7960512291072d707961287fe050a6817d783f57,"['release', 'drain', 'connection', 'retryblock', 'deadlock']",Risky_resource_management,{'deadlock': 100},
-efec93e5664d032bd13544861d0067a7f979933e,"['mergemerge', 'wolfgang', 'request', 'security', 'httpsclient']",General,{'security': 100},
-e00b5e151d13dbdda397f6a277cff6def81789e5,"['security', 'httpsclient']",General,{'security': 100},
-ee52185e1ecc90c3367be6a68def365df0845f99,"['lukasa', 'requestfront', 'security']",General,{'security': 100},
-fd801595e491d85161e6555b9488d679ccdf7b15,"['front', 'security']",General,{'security': 100},
-a27758625e4169330fcf965652b1093faf5aaaa2,"['mergemerge', 'request', 'benjamenmeyerproper', 'security', 'documentation']",General,{'security': 100},
-9d8069b214bdc53584b40d0b1366e7397967c5ef,"['proper', 'security', 'documentation']",General,{'security': 100},
-217e1af9c6ad4965d18aa26e01539f7b77738fc8,"['mergemerge', 'security', 'request', 'shazowsecurity']",General,{'security': 100},
-b83b255fa10df1ae7889bbd9080e18fed84684bd,"['error', 'connection', 'connectionpool', 'urlopenfunction', 'urlopen', 'errorclose', 'connectionfeature', 'current', 'timeout', 'retry', 'request', 'singlenumber', 'requestdouble', 'segment', 'crash', 'faultnumber', 'excessive', 'socket', 'modificationstable', 'project']",Risky_resource_management,{'crash': 100},
-c6629d4612b5e86f154ee0d203d5fad4122904a1,"['thread', 'single', 'tornado', 'deadlock']",Risky_resource_management,{'deadlock': 100},
-3fb01a2d6e5800262e56d6fc0bc035a01d9d0320,"['requestpossible', 'deadlock']",Risky_resource_management,{'deadlock': 100},
-52cdb26781a5fe6f293684f322217ac9c8b2c00b,"['possible', 'deadlock']",Risky_resource_management,{'deadlock': 100},
+sha,message,catetory,matched
+aa8df11ce4bcd68d68982f9d40350ffa3a90efb0,"['github', 'security', 'policy']",General,{'security': 100}
+841a7271750b2694589f292e3f395541319a2a44,"['system', 'cipher', 'openssl', 'securetransport', 'openssl', 'support', 'list', 'setting', 'cipher', 'insecure', 'cipher', 'system', 'administrator', 'configure', 'cipher', 'openssl', 'respect', 'applies', 'securetransport', 'default', 'good', 'list', 'cipher']",General,{'insecure': 100}
+ed628df10b2810b9bf1e02aca0adb23ea4f4d977,"['session', 'ticket', 'tlsv', 'default', 'session', 'resumption', 'urllib', 'reason', 'request', 'ticket', 'server', 'extra', 'byte', 'transit', 'byte', 'minor', 'security', 'concern', 'http', 'blog', 'filippo', 'need', 'talk', 'session', 'ticket']",General,{'security': 100}
+6bd33f64fb1c3107c56b23d479561322406ecfc9,"['path', 'macos', 'framework', 'compatibility', 'path', 'macos', 'framework', 'compatibility', 'presence', 'framework', 'file', 'macos', 'dynamic', 'linker', 'cache', 'hardcode', 'path', 'load', 'http', 'documentation', 'macos', 'release', 'note', 'macos', 'beta', 'release', 'note', 'relevent', 'excerpt', 'behavior', 'macos', 'macos', 'right', 'beta', 'return', 'version', 'code', 'equal', 'macos', 'beta', 'system', 'ship', 'dynamic', 'linker', 'cache', 'system', 'library', 'part', 'dynamic', 'library', 'present', 'filesystem', 'code', 'attempt', 'check', 'dynamic', 'library', 'presence', 'file', 'path', 'check', 'library', 'presence', 'dlopen', 'path', 'check', 'library', 'cache', 'oserror', 'macos', 'import', 'securetransport', 'path', 'security', 'corefoundation', 'libs', 'path', 'isfile', 'load', 'ctypes', 'cdll', 'catch', 'oserror', 'context', 'reraise', 'behavior', 'bail', 'macos', 'restore', 'import', 'oserror', 'importerror', 'importerror', 'oserror', 'delete', 'seth', 'michael', 'larson', 'gmail']",General,{'security': 100}
+75d271954b5d662d0567e95b054475e208619dff,"['hostname', 'insecure', 'connection', 'warning']",General,{'insecure': 100}
+6133a0288b8f31c2999251a91982dbd876b303e7,"['readthedocs', 'readthedocs', 'link', 'readthedocs', 'readthedocs', 'link', 'project', 'additional', 'detail', 'project', 'subdomains', 'domain', 'readthedocs', 'readthedocs', 'address', 'security', 'concern', 'site', 'cooky', 'data', 'domain', 'dashboard']",General,{'security': 100}
+fec00a76eac3bc80e27036b63fc51a8b7a3f6425,"['pull', 'request', 'mattbillenstein', 'master', 'deadlock', 'true', 'retries']",Risky_resource_management,{'deadlock': 100}
+7960512291072d707961287fe050a6817d783f57,"['drain', 'release', 'connection', 'retry', 'redirect', 'deadlock', 'block']",Risky_resource_management,{'deadlock': 100}
+1fbfb4f97bd996b51bea9fd444a82bc283ca4c91,"['pull', 'request', 'jonparrott', 'update', 'security', 'link', 'link', 'warning', 'page']",General,{'security': 100}
+76abf1f2be9afbdedae6104f7cf113b57d3b18a8,"['master', 'update', 'security', 'link']",General,{'security': 100}
+21d717a8f582916e931c25c0e742f173bd7e391f,"['readthedocs', 'link', 'migration', 'project', 'subdomains', 'project', 'subdomains', 'domain', 'readthedocs', 'readthedocs', 'address', 'security', 'concern', 'site', 'cooky', 'data', 'domain', 'dashboard', 'test', 'plan']",General,{'security': 100}
+efec93e5664d032bd13544861d0067a7f979933e,"['pull', 'request', 'wolfgang', 'patch', 'security', 'httpsclient']",General,{'security': 100}
+e00b5e151d13dbdda397f6a277cff6def81789e5,"['security', 'httpsclient']",General,{'security': 100}
+ee52185e1ecc90c3367be6a68def365df0845f99,"['pull', 'request', 'lukasa', 'secdocs', 'link', 'security', 'front', 'page']",General,{'security': 100}
+fd801595e491d85161e6555b9488d679ccdf7b15,"['security', 'front', 'page']",General,{'security': 100}
+42955b14ef3d700dab42a165dc168e150b92c183,"['drop', 'cipher', 'list', 'addition', 'security', 'concern', 'violation', 'cipher', 'suite', 'clienthello']",General,{'security': 100}
+a27758625e4169330fcf965652b1093faf5aaaa2,"['pull', 'request', 'benjamenmeyer', 'security', 'documentation', 'security', 'warning']",General,{'security': 100}
+9d8069b214bdc53584b40d0b1366e7397967c5ef,"['security', 'documentation', 'security', 'warning']",General,{'security': 100}
+65995816d9e04a4bd53dd6639c3c3e5b8e89567b,"['pull', 'request', 'shazow', 'security']",General,{'security': 100}
+87e7d585ca88be224edb0a232cbc7b6f8c8aba90,"['pull', 'request', 'twitterapiall', 'security', 'requirement', 'security']",General,{'security': 100}
+4d9b6787cbc85d6826910b14275ca25dade47124,"['security', 'note']",General,{'security': 100}
+8b58d3124a386a4a91280618e835f6faeb1daee5,['security'],General,{'security': 100}
+217e1af9c6ad4965d18aa26e01539f7b77738fc8,"['pull', 'request', 'shazow', 'security', 'security', 'warning']",General,{'security': 100}
+66f4be1829acc90c8425199323103e86a9810d9f,['security'],General,{'security': 100}
+120d261b58297bf0865f4ba88ef374993c3508c1,"['security', 'warning']",General,{'security': 100}
+fd371ff0eeb34cb0255bd700602c7bd4a9520130,['security'],General,{'security': 100}
+b83b255fa10df1ae7889bbd9080e18fed84684bd,"['connectionpool', 'urlopen', 'connection', 'case', 'error', 'error', 'operation', 'urlopen', 'function', 'close', 'connection', 'current', 'project', 'timeout', 'retry', 'time', 'number', 'request', 'lead', 'crash', 'open', 'segment', 'fault', 'double', 'free', 'memory', 'excessive', 'number', 'socket', 'modification', 'package', 'code', 'crash', 'project', 'code']",Risky_resource_management,{'double free': 100}
+c6629d4612b5e86f154ee0d203d5fad4122904a1,"['deadlock', 'tornado', 'thread', 'single']",Risky_resource_management,{'deadlock': 100}
+d2aa39930763009585674a8ae2b6fa3faf5d4b4f,"['pull', 'request', 'echaozh', 'redirect', 'poolmanager', 'urlopen', 'redirect', 'issue']",Insecure_interaction_between_components,{'urlopen redirect': 90}
+3fb01a2d6e5800262e56d6fc0bc035a01d9d0320,"['pull', 'request', 'schlamar', 'test', 'possible', 'deadlock', 'thread']",Risky_resource_management,{'deadlock': 100}
+52cdb26781a5fe6f293684f322217ac9c8b2c00b,"['possible', 'deadlock', 'thread']",Risky_resource_management,{'deadlock': 100}
+e41b1ef8fb4971b5fe9a0dbf10d7e17bfea3a28c,"['pool', 'manager', 'urlopen', 'redirect', 'issue']",Insecure_interaction_between_components,{'urlopen redirect': 90}

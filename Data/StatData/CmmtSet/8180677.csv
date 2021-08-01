@@ -1,11 +1,63 @@
-sha,message,catetory,matched,labels
-3f5fd6fee9a1e2359c73e911cbf0677507852bdd,"['crash', 'mobilesync']",Risky_resource_management,{'crash': 100},
-778256cf50e44da36f4bbf6ee01abb0486a4418f,"['value', 'systembuid', 'lockdown', 'containslibplist', 'crash']",Risky_resource_management,{'crash': 100},
-5838f6d67a46370d82dd2f19588c06562c9fe0de,"['crash', 'retrieve', 'report', 'device']",Risky_resource_management,{'crash': 100},
-a2ddca0916ef776dbd0c6304ea36b4ca7a35302c,"['subdirectory', 'generate', 'wouldenvironment', 'variableupowerd', 'wouldupowerd', 'directory', 'symlink', 'directoryenvironment', 'upowerd', 'regular', 'resultsymlinks', 'createfuture', 'store', 'pairingconsole', 'behalf', 'writinglibiphone', 'directory', 'insecure', 'ticket', 'project']",General,{'insecure': 100},
-4222bc1b880d6535462e3b5ba5431809a3c5fddc,"['global', 'crash', 'service']",Risky_resource_management,{'crash': 100},
-2acd72313826596a86ad08ef8857f510a2555fb5,"['process', 'manifest', 'idevicebackup', 'crash']",Risky_resource_management,{'crash': 100},
-54dad58468a9879fb44aff0d760bbd6c3288b812,"['error', 'initialization', 'openssl', 'crash']",Risky_resource_management,{'crash': 100},
-930ad759419712e6dd939953ef4a1f0c5a655086,"['backup', 'device', 'idevicebackuprequest', 'backup', 'initial', 'changeprepare', 'backup', 'device', 'mightotherwise', 'crash', 'parsemessage', 'plist']",Risky_resource_management,{'crash': 100},
-0d95da6ac1fe707f4a93c5d47f4e55b89023251d,"['security', 'libiphone', 'werror', 'failure', 'state']",General,{'security': 100},
-07fcebbb5e8a741237815507f77ecc4caf264bb9,"['crash', 'returncolyer']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+b991ffefc37c1695d282588f2f2d7e2a578faabf,"['idevicepair', 'plug', 'memory', 'leak', 'option']",Risky_resource_management,{'memory leak': 100}
+344729536e49d6a98aa05d76a3637856748911cd,"['lockdown', 'plug', 'small', 'memory', 'leak', 'credit', 'rudolf', 'tammekivi', 'blefish']",Risky_resource_management,{'memory leak': 100}
+a1c728578930fb49e45497d1be7c9bc0c83607f1,"['idevicebackup', 'plug', 'small', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+11c1cd64edb750b3035c6b147e6b9712a6caefe2,"['small', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+d29709f86ef66239551493b4b4a4fc7eb62771ce,"['small', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+15173c59a00a8e9c154bd6787e35c243c383160e,"['potential', 'null', 'pointer', 'dereference', 'segfault', 'function', 'null', 'argument']",Risky_resource_management,{'null pointer': 100}
+df1f5c4d70d0c19ad40072f5246ca457e7f9849e,"['common', 'security', 'sure', 'socket']",General,{'security': 100}
+5dd1bfe59ff4e396d61447946a0b8b1f28a65327,"['idevicedebug', 'memory', 'leak', 'compiler', 'warning', 'command', 'creation']",Risky_resource_management,{'memory leak': 100}
+b3702104e85a8f8ec99e4e724f70516218e19ee9,"['lockdown', 'error', 'previous', 'record', 'pair', 'record', 'host', 'record', 'host', 'possible', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+04ba663cfefe1acd20ce303c1d0357fc6f44da78,"['idevicedebug', 'small', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+3f5fd6fee9a1e2359c73e911cbf0677507852bdd,"['mobilesync', 'crash']",General,{'crash': 100}
+9665773d8ae5eaf1679574b15dab133ab9d0de72,"['idevice', 'memory', 'leak', 'openssl']",Risky_resource_management,{'memory leak': 100}
+e02b675d265d9be3abccbd3b730bb7dffbf811e3,"['memory', 'leak', 'object', 'argument', 'invalid']",Risky_resource_management,{'memory leak': 100}
+778256cf50e44da36f4bbf6ee01abb0486a4418f,"['contains', 'value', 'crash', 'libplist', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+7b3aa777cbc65a2c2db5c31acbfa0582952b6dd9,"['system', 'buid', 'retrieve', 'buid', 'systembuid', 'crash', 'null', 'argument', 'http', 'debian', 'people', 'http', 'github', 'sure', 'systembuid', 'pair', 'record']",General,{'crash': 100}
+58a7981be35289750a61cab56deb6effae2db7ce,"['idevicebackup', 'plug', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+269fc21990b39cb1bd7a46b223a9d948a07fedd3,"['idevicebackup', 'plug', 'small', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+74f83d758e041c26a2494f807e08d145cef94936,"['idevice', 'plug', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+977121600631291098378896887e2f738768e801,"['lockdown', 'plug', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+5838f6d67a46370d82dd2f19588c06562c9fe0de,"['tool', 'retrieve', 'crash', 'report', 'device']",General,{'crash': 100}
+868e336f8337e14e0288ac1d3c9fd89bee6d1961,"['possible', 'memory', 'corruption', 'client', 'pointer', 'null']",Risky_resource_management,{'memory corruption': 100}
+132a9f1d7003a54c20abc81fa5f6833f09ffa13b,"['userpref', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+708a866e103539384a3a789cee7a4d6753b4c277,"['lockdown', 'plug', 'possible', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+cece6edafe89bf2fee7d6f63c55765400d97765d,"['free', 'string', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+f5425a9e9acdf9d6b59461a083e9da8c52be6df1,"['free', 'plist', 'return', 'value', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+0e9f962f32714ffc3d5ce79b95dc130cf4ed5bef,"['idevicebackup', 'possible', 'crash']",General,{'crash': 100}
+ec720cc1c30ac3f9b7996575e835565f60ce2b3e,"['refactor', 'userpref', 'logic', 'plist', 'format', 'trust', 'dialog', 'workflow', 'increase', 'security', 'trust', 'dialog', 'user', 'userpref', 'system', 'native', 'plist', 'format', 'configuration', 'file', 'native', 'implementation', 'configuration', 'file']",General,{'security': 100}
+bb64a1b0b193c0a733499e1cb811255f1f9ffa3c,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+b70438d116b0da8519f7772f09c5b563b69c07ae,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+85536b2848b8c7f5ed6212db56b4b60592990a00,"['common', 'recent', 'userpref', 'security']",General,{'security': 100}
+a2ddca0916ef776dbd0c6304ea36b4ca7a35302c,"['root', 'directory', 'user', 'home', 'directory', 'generate', 'subdirectory', 'home', 'config', 'environment', 'variable', 'home', 'upowerd', 'root', 'root', 'directory', 'vulnerable', 'symlink', 'attack', 'fall', 'user', 'home', 'directory', 'variable', 'case', 'upowerd', 'systemd', 'example', 'result', 'root', 'config', 'safe', 'directory', 'regular', 'user', 'symlinks', 'root', 'future', 'need', 'data', 'behalf', 'console', 'user', 'root', 'http', 'project', 'libiphone', 'ticket', 'insecure', 'directory']",General,{'insecure': 100}
+8521693b1199e1e5274efed00c908afc8a128516,"['multiple', 'occurrence', 'memory', 'leak', 'empty', 'plist', 'dicts']",Risky_resource_management,{'memory leak': 100}
+9ed89569eaa4da350e45c2446413f048c398a1f7,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+361cefb7d2725e83dc0ce6558967ccbde99138ab,"['memory', 'leak', 'empty', 'plist', 'dict', 'itunes', 'setting', 'lockdown', 'connection', 'mimic']",Risky_resource_management,{'memory leak': 100}
+6648ebcd3cf1fe2a9aab7d18f9ae535e2795b080,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+62349d85b5fb39e1dc61974b38594c7f0d58c29b,"['memory', 'leak', 'cert', 'data']",Risky_resource_management,{'memory leak': 100}
+71a43f63e31c873f708b1cb9db40180a07ecfada,"['idevicebackup', 'integer', 'overflow', 'architecture']",Risky_resource_management,{'integer overflow': 100}
+2acd72313826596a86ad08ef8857f510a2555fb5,"['idevicebackup', 'crash', 'manifest', 'early', 'backup', 'process']",General,{'crash': 100}
+825da48d2e9c20086c4e34869da0b28376676b4c,"['crash', 'home', 'empty', 'home', 'unset', 'copy', 'null', 'string', 'crash', 'environment', 'systemd', 'upowerd', 'crash', 'http', 'project', 'libiphone', 'ticket', 'patch', 'segfault', 'home', 'unset', 'ticket', 'http', 'project', 'ticket', 'segfaults', 'home', 'undefined', 'http']",General,{'crash': 100}
+3877711296cbfa4a0bcafc3c5560609a1ce2d079,"['memory', 'leak', 'code', 'cleanup']",Risky_resource_management,{'memory leak': 100}
+d2db9b97b0487e3e0c65cca0e0dd02a747a61113,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+d51431edc3987cb9e595fdec874cdf869935d21d,"['idevicebackup', 'plug', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+f8f3f299a56aeccce1b978fed7620137f7072518,"['idevicebackup', 'plug', 'small', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+d7cdd78d612d18d6dd208756801f08009e04aabe,"['idevicebackup', 'memory', 'leak', 'device', 'filename']",Risky_resource_management,{'memory leak': 100}
+74f050c286e6957294a15c86c5f739f49041b6cb,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+4d7fdcc4d63dc61c9b1c4cc114604ae1f9d2e7de,"['safety', 'check', 'possible', 'crash']",General,{'crash': 100}
+6a1f93a003bb93c33687f2e8f6fcd68ab733527d,"['plug', 'memory', 'leak', 'lockdownd', 'free', 'call']",Risky_resource_management,{'memory leak': 100}
+696d37a0db2aff091c07cf66e7fb59176cffb106,"['memory', 'leak', 'lockdown', 'client']",Risky_resource_management,{'memory leak': 100}
+ec9bf61546236bb93476f484e22e55d951d453f1,"['plug', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+03b35d180586f28666f66510ac05e09a37f1f872,"['plug', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+513160b362e57d20e30904be459304a0c29603c7,"['plug', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+0d95da6ac1fe707f4a93c5d47f4e55b89023251d,"['werror', 'format', 'security', 'failure', 'libiphone', 'tool', 'state']",General,{'security': 100}
+c57ebf917e30afd78dac8042552966811531c632,"['potential', 'memory', 'corruption', 'gnutls', 'function', 'arch', 'state', 'matt', 'colyer', 'matt', 'colyer', 'name']",Risky_resource_management,{'memory corruption': 100}
+4f47cf301238755327f3990d98fcd4c8e765612b,"['lkdn', 'time', 'early', 'crash']",General,{'crash': 100}
+0727ae7c72bf149bf5898c667933a27d44e94f7d,"['lkdn', 'time', 'early', 'crash']",General,{'crash': 100}
+d5e52dbdfd46fd15e47e006590573902fcc3bbed,"['memory', 'leak', 'error', 'iphoneclient', 'valgrind', 'analysis']",Risky_resource_management,{'memory leak': 100}
+89f0fd84b2c56e78c080ad4420b541eb8c96a9f2,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+ef6206f51596d3c643dc0efe441ecaa0159f5632,"['null', 'dictionary', 'value', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+e5e5f21cae73230eaaa70273bd4400ff6b86641a,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+af7d1f5fc489b360668c84e071a2cc034f894468,"['free', 'memory', 'corruption', 'matt', 'colyer', 'matt', 'colyer', 'name']",Risky_resource_management,{'memory corruption': 100}
+1e304d42f0884c5ea3162e34ce27eba11c1e74f0,"['buffer', 'overflow', 'matt', 'colyer', 'matt', 'colyer', 'name']",Risky_resource_management,{'buffer overflow': 100}
+07fcebbb5e8a741237815507f77ecc4caf264bb9,"['crash', 'return', 'null', 'matt', 'colyer', 'matt', 'colyer', 'name']",General,{'crash': 100}

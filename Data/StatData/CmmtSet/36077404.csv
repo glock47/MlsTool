@@ -1,5 +1,7 @@
-sha,message,catetory,matched,labels
-f0513a58d25cab72a7197f2ab1be6cbbc6c776f5,"['wrong', 'crash']",Risky_resource_management,{'crash': 100},
-068cd77177473131b76b5562b2f20851a4a1b62f,"['param', 'crash']",Risky_resource_management,{'crash': 100},
-b14cb3f93bfaf882937aefa2f4bcb663a6995b40,"['potential', 'crash']",Risky_resource_management,{'crash': 100},
-ae8fe68471729c2b4a91447619aa30f261fcec76,"['setting', 'detactivate', 'caffe', 'training', 'libcaffe', 'crash', 'model', 'phase']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+f0513a58d25cab72a7197f2ab1be6cbbc6c776f5,"['potential', 'crash', 'wrong', 'flag']",General,{'crash': 100}
+068cd77177473131b76b5562b2f20851a4a1b62f,"['crash', 'info', 'status', 'param']",General,{'crash': 100}
+c74b35ffa3ebf265f032c0b700b988f0e1aa5915,"['recovery', 'caffe', 'memory', 'overflow', 'prediction']",Risky_resource_management,{'memory overflow': 100}
+22d6864f967ab01fd9f73a6ab9fb1f3acc3774a8,"['unecessary', 'null', 'pointer', 'check']",Risky_resource_management,{'null pointer': 100}
+b14cb3f93bfaf882937aefa2f4bcb663a6995b40,"['potential', 'crash', 'reader']",General,{'crash': 100}
+ae8fe68471729c2b4a91447619aa30f261fcec76,"['detactivate', 'setting', 'model', 'training', 'setting', 'caffe', 'phase', 'crash', 'libcaffe']",General,{'crash': 100}

@@ -1,19 +1,87 @@
-sha,message,catetory,matched,labels
-495c57fcd8bc0565a5487623ecbee5b5d1ecb049,"['security', 'advisory', 'roave', 'requiremaster', 'package', 'version', 'requirednature', 'version', 'problemsecurity', 'specific', 'version', 'project', 'package']",General,{'security': 100},
-af17efa3c42835d3b187dff78f49683bc920fc21,"['security', 'coverage', 'random', 'generator']",General,{'security': 100},
-477ed4078ef28c1000c3f8f88c2b25bacdd17a76,"['objectoverridden', 'exception', 'widget', 'request', 'global', 'crash', 'carsonf', 'specifiedmethod']",Risky_resource_management,{'crash': 100},
-2cf9fffae3b84fd1df35fd723d2d5693c2ae147d,"['acaade', 'mergesecurity', 'request', 'route', 'carsonf', 'mergechange', 'security', 'symfony']",General,{'security': 100},
-2def71bedb60c6596ae62132a9fd37f95f424dd0,"['security', 'symfony']",General,{'security': 100},
-fdd895dfd56f36b4adccd1dbecf054827831639c,"['mergehotfix', 'request', 'session', 'gawainlynch', 'crash', 'mergedefault', 'display']",Risky_resource_management,{'crash': 100},
-0aadcd423d1a076c25db7ffba632486145b60cfc,"['security', 'provider', 'service']",General,{'security': 100},
-47bc05913796d5b6286084d5366edbdd2f0e7f45,"['security', 'bundle', 'individual', 'component', 'symfony']",General,{'security': 100},
-d573af6cc8979bcce7108c38dc5e402a92aac9b9,"['mergelogin', 'request', 'gawainlynch', 'event', 'featureevent', 'access', 'control']",Porous_defenses,{'access control': 100},
-1100744b6860cf0eabdcd6bfd8384c9064c39fda,"['becfdrequest', 'preview', 'crash', 'thumbnailcrash', 'thumbnail', 'preview']",Risky_resource_management,{'crash': 100},
-825d855b30d7fda5c04817db95e5380fb5b976f0,"['integrity', 'check', 'table']",Risky_resource_management,{'integrity check': 100},
-51a544bca3214e64e674f9c633cdef7d6ac7e1b2,"['static', 'integrity', 'check']",Risky_resource_management,{'integrity check': 100},
-dc54b4733a09e47b6efe8fe43a6ca84e0e70d3f4,"['integrity', 'checker']",Risky_resource_management,{'integrity checker': 94},
-b5860f7edf0b31c53822ea37a0b1adf6165326ba,"['security', 'symfony', 'version', 'constraint', 'revert']",General,{'security': 100},
-8093ad079914bdbeccf82a3f31cc20148eb22bbc,"['crash', 'backend', 'existvalue', 'present', 'update']",Risky_resource_management,{'crash': 100},
-7f81e2454bfb8b679c4cf61a60843d7f7a37daaf,"['mergetobiask', 'request', 'masterrecord', 'empty', 'backend', 'crash']",Risky_resource_management,{'crash': 100},
-06ab13cf5b7a6aed0b74385ac90c726761991686,"['record', 'empty', 'backend', 'crash']",Risky_resource_management,{'crash': 100},
-9ee7973282d7c52bc860790625d5d42967405882,"['empty', 'crash']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+b42cbfcf3e3108c46a80581216ba03ef449e419f,"['pull', 'request', 'bolt', 'csrf', 'check', 'preview', 'check', 'csrf', 'preview', 'page']",Insecure_interaction_between_components,{'csrf': 100}
+25d0e853b0a301d99ac5b82bb6e9e366d42ffdf0,"['check', 'csrf', 'preview', 'page']",Insecure_interaction_between_components,{'csrf': 100}
+ca49f43934b5381ca15e4e8f13e74b9aa6cec7ea,"['pull', 'request', 'bolt', 'security', 'token', 'file', 'operation', 'crsf', 'issue', 'file', 'operation']",General,{'security': 100}
+a3f94dda89d8cf6d17650760c8a8953a9d2734de,"['pull', 'request', 'bolt', 'hotfix', 'ensure', 'csrf', 'token', 'ensure', 'csrf', 'login', 'session']",Insecure_interaction_between_components,{'csrf': 100}
+4206931ef06e5309b2e833d863c69d5496975aad,"['ensure', 'csrf', 'login', 'session']",Insecure_interaction_between_components,{'csrf': 100}
+bc633bc6da8863749fd0244155e75e03716cba70,"['pull', 'request', 'bolt', 'hotfix', 'update', 'csrf', 'soft', 'refresh', 'ensure', 'firefox', 'update', 'csrf', 'value', 'soft', 'refresh']",Insecure_interaction_between_components,{'csrf': 100}
+3d7157e06e7144b70852f7870fd952c93339ce31,"['ensure', 'firefox', 'update', 'csrf', 'value', 'soft', 'refresh']",Insecure_interaction_between_components,{'csrf': 100}
+ccdec7d06349a35a001503ef740ae90561096803,"['pull', 'request', 'bolt', 'hotfix', 'message', 'csrf', 'show', 'message']",Insecure_interaction_between_components,{'csrf': 100}
+ccb3dbee6ec55d701d0e88f52af4c8262610d230,"['pull', 'request', 'gawainlynch', 'hotfix', 'crash', 'contenttypes']",General,{'crash': 100}
+e21979a6ff635a9942a92e6937e930e97031df8a,"['pull', 'request', 'gawainlynch', 'hotfix', 'security', 'dbal', 'placeholder', 'statement', 'query']",General,{'security': 100}
+f879de37cc5347e7d3412ec845388cb53f6af2f4,"['pull', 'request', 'gawainlynch', 'security', 'advisory', 'audit', 'roave', 'security', 'advisory']",General,{'security': 100}
+495c57fcd8bc0565a5487623ecbee5b5d1ecb049,"['roave', 'security', 'advisory', 'package', 'master', 'version', 'version', 'nature', 'problem', 'security', 'issue', 'fact', 'version', 'package']",General,{'security': 100}
+cc28489e06379ac7902edc26260feccc9e171774,"['pull', 'request', 'onesheep', 'release', 'complex', 'search', 'crash']",General,{'crash': 100}
+b532497da844e065090305f15fc4b7ace5e572e7,"['complex', 'search', 'crash']",General,{'crash': 100}
+af17efa3c42835d3b187dff78f49683bc920fc21,"['test', 'coverage', 'bolt', 'security', 'random', 'generator']",General,{'security': 100}
+f1a75d1cdb757b9d1ab5239673838e1713b942ec,"['pull', 'request', 'bolt', 'hotfix', 'making', 'sense', 'security', 'policy', 'error', 'thrown', 'securitypolicy', 'twig', 'content', 'show', 'exception', 'html', 'page']",General,{'security': 100}
+e99dc167aa8c9af9c0eb424da6cad5f430e3d6a8,"['requirement', 'optional', 'ircmaxell', 'security', 'passwordlib', 'passwordlib']",General,{'security': 100}
+477ed4078ef28c1000c3f8f88c2b25bacdd17a76,"['request', 'object', 'template', 'global', 'request', 'object', 'twig', 'exception', 'exception', 'overridden', 'widget', 'template', 'crash', 'backend', 'carsonf', 'note', 'occurrence', 'method']",General,{'crash': 100}
+cf44756cf54a9b17e58fa6142bff4e0e440b0d12,"['logger', 'service', 'handler', 'level', 'bootstrap', 'bufferlogger', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+2cf9fffae3b84fd1df35fd723d2d5693c2ae147d,"['pull', 'request', 'carsonf', 'security', 'lazy', 'route', 'symfony', 'security', 'lazy', 'generator']",General,{'security': 100}
+2def71bedb60c6596ae62132a9fd37f95f424dd0,"['symfony', 'security', 'lazy', 'generator']",General,{'security': 100}
+eca39e2333e9865fd56c5c00d4a7addbbda31340,"['pull', 'request', 'gawainlynch', 'hotfix', 'symfony', 'security', 'koala', 'register', 'silex', 'provider', 'authenticate', 'base', 'route']",General,{'security': 100}
+b880f7229a1520bfaf5e484954e04d1c41fa2cbf,"['default', 'debug', 'user', 'base', 'info', 'security', 'performance', 'different', 'environment', 'override', 'debug', 'debug']",General,{'security': 100}
+587409fc1c21f309eae91e76825e8e740e1cbd93,"['undefined', 'authentication', 'provider', 'twig', 'security', 'boot']",General,{'security': 100}
+32dadce0417399e94c4f87bf00519d47bcfb3c78,"['pull', 'request', 'gawainlynch', 'symfony', 'security', 'security', 'service', 'provider']",General,{'security': 100}
+0aadcd423d1a076c25db7ffba632486145b60cfc,"['security', 'service', 'provider']",General,{'security': 100}
+ca599f4cf8d5c38ee35bbbd465c17bc129e7f74d,"['pull', 'request', 'bolt', 'security']",General,{'security': 100}
+be5b225f233f2058befaffb0a4100cf920b1921a,"['pull', 'request', 'gawainlynch', 'hotfix', 'twig', 'security', 'policy', 'upstream', 'final', 'twig', 'sandbox', 'activity']",General,{'security': 100}
+07803a5aace79fbcec456ff3d55678002f5fc05a,"['twig', 'globals', 'wrapping', 'array', 'security', 'proxy']",General,{'security': 100}
+dd11531b64d4686775854cc038b7e30586e02614,"['pull', 'request', 'bolt', 'obfuscate', 'sensitive', 'data', 'exception', 'screen', 'obfuscate', 'session', 'cookie', 'data', 'exception', 'screen']",Porous_defenses,{'sensitive data': 100}
+dd55323882c5479781e73c14704596855de34df8,"['pull', 'request', 'bolt', 'hotfix', 'composer', 'security', 'sure', 'symfony', 'package', 'stay']",General,{'security': 100}
+768f670d0b7d79df9a79594ffd4db760eeb6ce5c,['security'],General,{'security': 100}
+0436dda5dc83b28a49f93aa76dbbbb7f541510ec,"['pull', 'request', 'gawainlynch', 'symfony', 'security', 'symfony', 'security', 'bundle']",General,{'security': 100}
+47bc05913796d5b6286084d5366edbdd2f0e7f45,"['individual', 'symfony', 'security', 'core', 'symfony', 'security', 'csrf', 'component', 'symfony', 'security', 'bundle']",Insecure_interaction_between_components,{'csrf': 100}
+6e0c4c9ebe47075757bc74de26fe21ff0c53fc75,"['sentence', 'sentence', 'middle', 'side', 'note', 'header', 'content', 'security', 'policy', 'level', 'http', 'frame', 'ancestor', 'frame', 'option']",General,{'security': 100}
+ae460c681fefa4b9b39798c0a42fbd85d318512b,"['pull', 'request', 'gawainlynch', 'hotfix', 'permission', 'exception', 'tweak', 'exception', 'class', 'thrown', 'access', 'control']",Porous_defenses,{'access control': 100}
+8d1a16cbf34e9167ac8ae22320169034cf676863,"['password', 'reset', 'successful', 'password', 'email', 'keyword', 'general', 'access', 'control', 'reset']",Porous_defenses,{'access control': 100}
+68e2b4bf23ce2add271bbab77819b390d7d435f0,"['password', 'reset', 'token', 'incorrect', 'reset', 'password', 'different', 'address', 'keyword', 'general', 'access', 'control', 'reset']",Porous_defenses,{'access control': 100}
+7e1ce25f07355724aa5dab5e9028d5a29c52bb02,"['tweak', 'exception', 'class', 'thrown', 'access', 'control']",Porous_defenses,{'access control': 100}
+0023edf27ee78efa2743f70b393ac54709da79a7,"['pull', 'request', 'gawainlynch', 'hotfix', 'twig', 'csrf', 'token', 'dashboard']",Insecure_interaction_between_components,{'csrf': 100}
+d573af6cc8979bcce7108c38dc5e402a92aac9b9,"['pull', 'request', 'gawainlynch', 'login', 'event', 'access', 'control', 'event']",Porous_defenses,{'access control': 100}
+1c86eda8c054fee0dd4f4da0f9e76adda3c74f4b,"['access', 'control', 'function', 'user', 'service']",Porous_defenses,{'access control': 100}
+942c1f43d5b32b0ee9b818af31809c59932e53e9,"['pull', 'request', 'carsonf', 'bugfix', 'session', 'csrf', 'session', 'csrf', 'update']",Insecure_interaction_between_components,{'csrf': 100}
+8ae7519322ad7127c694208ec21dbbd79ef4f33e,"['test', 'mock', 'csrf', 'manager']",Insecure_interaction_between_components,{'csrf': 100}
+c3606ebf5b17e3ba61d243119b8d9f1a1c018a37,"['token', 'function', 'csrf', 'user', 'method', 'alternative', 'method']",Insecure_interaction_between_components,{'csrf': 100}
+25bce498de48c82bd01e93fc65108928e696b361,"['user', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+a221a10120f5873b6ee433a7eaaaf574ed26a7e4,"['csrf', 'class']",Insecure_interaction_between_components,{'csrf': 100}
+aae8c8b8c672b9fcf414e4c05a68a35110fd6813,"['csrf', 'check', 'backend', 'edit', 'content']",Insecure_interaction_between_components,{'csrf': 100}
+8e4d2f876eb83ce257ca8f26839bcf1dcbccbad0,"['crash', 'error', 'jquery', 'function', 'element']",General,{'crash': 100}
+1100744b6860cf0eabdcd6bfd8384c9064c39fda,"['pull', 'request', 'bolt', 'crash', 'thumbnail', 'preview', 'crash', 'thumbnail', 'preview']",General,{'crash': 100}
+6374d8bab9a2637d507423c663bc1a06c0f23aad,"['list', 'event', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+43b64a3b02e3f3847e70dc32ba1e605605764dca,"['memory', 'leak', 'event', 'handler']",Risky_resource_management,{'memory leak': 100}
+08d6be61e7f020a91aff3e90af65ada98e501766,"['possible', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+e61e66890f21595cde3f586a6c3dceceb231e96a,"['possible', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+606188777f5c574275e403e6bf9ec29d474e6606,"['sensitive', 'data', 'need']",Porous_defenses,{'sensitive data': 100}
+ebf08fb279e3440099561a63ed461d55c8c00fab,"['csrf', 'warning']",Insecure_interaction_between_components,{'csrf': 100}
+e37629772e2b98e34297d33a83e4796fc6b57d63,"['csrf', 'check']",Insecure_interaction_between_components,{'csrf': 100}
+6f65da4012ba577e23864b65d2f21b874223d563,"['check', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+a2ffcb341cc01471314aa365b9ef045aa036da74,"['pull', 'request', 'carsonf', 'token', 'user', 'token', 'csrf', 'provider']",Insecure_interaction_between_components,{'csrf': 100}
+bcd2ae3001ea6afef169a4018f7a6f25206adb86,"['user', 'pull', 'token', 'csrf', 'provider']",Insecure_interaction_between_components,{'csrf': 100}
+3fa6d856c60b1c54d95eed9e29d23c5e08f5576a,"['pull', 'request', 'gawainlynch', 'hotfix', 'session', 'security', 'session', 'file', 'security']",General,{'security': 100}
+fe2286a5ec8efcad633d1030a9ad5cd699e7302a,"['pull', 'request', 'carsonf', 'csrf', 'session', 'session', 'rewrite']",Insecure_interaction_between_components,{'csrf': 100}
+70fb5298c1a7350313ac1a405700eeaad6350f7f,"['form', 'csrf', 'provider', 'csrf', 'session']",Insecure_interaction_between_components,{'csrf': 100}
+9f68df5cce3c262df4d79bc3264f5a900c971152,"['listener', 'option', 'cookie', 'path', 'individual', 'request', 'true', 'csrf', 'session']",Insecure_interaction_between_components,{'csrf': 100}
+92b369e5d705cbf2993394ecb1eaeed3e2a49b0b,"['pull', 'request', 'gawainlynch', 'hotfix', 'integrity', 'check', 'schema']",Risky_resource_management,{'integrity check': 100}
+825d855b30d7fda5c04817db95e5380fb5b976f0,"['integrity', 'check', 'table', 'responsibility']",Risky_resource_management,{'integrity check': 100}
+bf2b54a409a93b2d7a0d1275713883cfb0c74f82,"['unsafe', 'csrf', 'function', 'bolt', 'user', 'night']",Insecure_interaction_between_components,{'csrf': 100}
+d007f51a32de7372296df307f4faf1c2a6f11bb7,"['helper', 'controller', 'access', 'control']",Porous_defenses,{'access control': 100}
+db3c03ab4a645e5bbed399861d38f3fa2ef99db0,"['pull', 'request', 'gawainlynch', 'refactor', 'integrity', 'checker', 'rename', 'database', 'integrity', 'checker', 'class', 'rename']",Risky_resource_management,{'integrity checker': 94}
+0f13329f5a689ce60d55c6d8d25b04ac5c40f145,"['register', 'integrity', 'checker', 'config', 'loader']",Risky_resource_management,{'integrity checker': 94}
+51a544bca3214e64e674f9c633cdef7d6ac7e1b2,"['integrity', 'check', 'static']",Risky_resource_management,{'integrity check': 100}
+7cceec31f1ee42937575430438baaa45494d46d4,"['pull', 'request', 'gawainlynch', 'hotfix', 'debug', 'database', 'integrity', 'checker', 'schema', 'diffs', 'debug', 'logger']",Risky_resource_management,{'integrity checker': 94}
+72779a4a2708ad3d3852742b980e2dbf732032fe,"['database', 'integrity', 'checker', 'schema', 'diffs', 'debug', 'logger']",Risky_resource_management,{'integrity checker': 94}
+dc54b4733a09e47b6efe8fe43a6ca84e0e70d3f4,"['integrity', 'checker']",Risky_resource_management,{'integrity checker': 94}
+75fc960faa160360bf270d23ea75d02b3012fcc4,"['minor', 'csrf', 'check']",Insecure_interaction_between_components,{'csrf': 100}
+6b67f71d8ac7aa74ac081fc9d565e93e277b6e42,"['pull', 'request', 'gawainlynch', 'hotfix', 'symfony', 'security', 'csrf', 'symfony', 'security', 'csrf', 'revert', 'version', 'constraint', 'symfony']",Insecure_interaction_between_components,{'csrf': 100}
+b5860f7edf0b31c53822ea37a0b1adf6165326ba,"['symfony', 'security', 'csrf', 'revert', 'version', 'constraint', 'symfony']",Insecure_interaction_between_components,{'csrf': 100}
+33cc6e2e8eccb8f6a85b79b940e14b17539a42f2,"['pull', 'request', 'jkazimir', 'integrity', 'checker', 'fatal', 'field', 'type']",Risky_resource_management,{'integrity checker': 94}
+09c3940e11b45e11185e0d2c047a6aef8f2091c4,"['pull', 'request', 'bolt', 'default', 'ownerid', 'crash', 'backend', 'ownerid']",General,{'crash': 100}
+8093ad079914bdbeccf82a3f31cc20148eb22bbc,"['crash', 'backend', 'ownerid', 'chance', 'update', 'bolt', 'crash', 'present', 'value']",General,{'crash': 100}
+0f2be2af6798f2358873d6c65eb672515667bf70,"['integrity', 'checker', 'provider', 'test']",Risky_resource_management,{'integrity checker': 94}
+7f81e2454bfb8b679c4cf61a60843d7f7a37daaf,"['pull', 'request', 'tobiask', 'master', 'crash', 'backend', 'record', 'empty', 'slug']",General,{'crash': 100}
+06ab13cf5b7a6aed0b74385ac90c726761991686,"['crash', 'backend', 'record', 'empty', 'slug']",General,{'crash': 100}
+523bdaa10a50b0fbf0f6cc78f0f664290107fa30,"['fatal', 'error', 'order', 'query', 'string', 'order', 'parameter', 'request', 'backend', 'mysql', 'fatal', 'error', 'fact', 'parameter', 'security', 'problem']",General,{'security': 100}
+9ee7973282d7c52bc860790625d5d42967405882,"['crash', 'empty']",General,{'crash': 100}
+ef9c971384993c8544b20e1fe40f9bfdd3587a6c,"['additional', 'fieldinterface', 'option', 'integrity', 'checker']",Risky_resource_management,{'integrity checker': 94}

@@ -1,12 +1,27 @@
-sha,message,catetory,matched,labels
-5bc743d22119e52019dca8a3e01a5efe699b85ea,"['propagate', 'setting', 'security']",General,{'security': 100},
-26412918741f18601dfe85fbdaca38c7a6779f48,"['space', 'crash', 'pythonissuepythonspace', 'inconsistent', 'indentation', 'taberrorallows', 'python']",Risky_resource_management,{'crash': 100},
-470c8e8cf14eb0765997413635aa3a84c0ae94c7,"['crash', 'unavailableerase']",Risky_resource_management,{'crash': 100},
-d994565f2e95afe55a54ca51035a48b4bd8c8f92,"['crash', 'serial']",Risky_resource_management,{'crash': 100},
-02b2fdb2aef56f08070504d915876bad38e61603,"['crash', 'withoutpower']",Risky_resource_management,{'crash': 100},
-589d297d20e520fa087fe37e3ceea7b01c99c8f1,"['monitor', 'crash', 'option']",Risky_resource_management,{'crash': 100},
-1140ff957efbf501ab923d20892affc341fbd32b,"['security', 'flash', 'check', 'kinetis']",General,{'security': 100},
-0ed793fe24f64c03775e025c6ad12973e54e869b,"['security', 'clobber', 'unsecure', 'kinetisunsafe', 'enable', 'overridden']",General,{'security': 100},
-ca364a889e53397ca3b5ca0da02396bfa03eb2bc,"['crash', 'controller']",Risky_resource_management,{'crash': 100},
-372606177357a815dd7c484739649b50118ad42e,"['support', 'nvmctrl', 'security']",General,{'security': 100},
-29b9e103fb4847c0ee908aa764fef609aa25ad39,"['monitor', 'crash']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+7df314e265bb3f4df27189c7ce41dc1c89881dfe,"['firmware', 'jlink', 'double', 'free', 'debug', 'power']",Risky_resource_management,{'double free': 100}
+80154c5c7a62a981efdf0f33658b349a1af71e17,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+5bc743d22119e52019dca8a3e01a5efe699b85ea,"['samd', 'propagate', 'security', 'setting', 'security', 'chip', 'reset']",General,{'security': 100}
+26412918741f18601dfe85fbdaca38c7a6779f48,"['python', 'crash', 'space', 'issue', 'python', 'blackmagic', 'file', 'line', 'path', 'getsize', 'args', 'progfile', 'taberror', 'inconsistent', 'space', 'indentation', 'python']",General,{'crash': 100}
+8a2bce26f2822985213afec5a809fac0f9e8bfdf,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+09ceaea70f0120162879487e63e2c647ea99c2d9,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+c5d0902d4ce98b0c18bd3d57e030e9c4f934ae1b,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+9b939f4a3a52f0a98b25e853113dc768a905ad93,"['stmf', 'option', 'byte', 'option', 'byte', 'accessible', 'level', 'protection', 'crash', 'option', 'manipulation', 'watchdog', 'fuse', 'option', 'command']",General,{'crash': 100}
+5c805c7d351dcc10f53d671b9a0ba455dcd508f5,"['buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100}
+609e6b135d627f6d543d735c88a6b81ebf3b5f05,['crash'],General,{'crash': 100}
+d994565f2e95afe55a54ca51035a48b4bd8c8f92,"['stlinkv', 'crash', 'serial']",General,{'crash': 100}
+02b2fdb2aef56f08070504d915876bad38e61603,"['value', 'blackmagic', 'lead', 'firmware', 'crash', 'power', 'cycle']",General,{'crash': 100}
+589d297d20e520fa087fe37e3ceea7b01c99c8f1,"['stml', 'crash', 'monitor', 'option']",General,{'crash': 100}
+600bc9f0294f07a5572511c98041710d80d95769,"['generate', 'debug', 'warning', 'return', 'malloc', 'calloc', 'earier', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+4ecd13a9a3facb93f715b568222d5e88c0c29627,"['crash', 'argument']",General,{'crash': 100}
+2f5295ba147864f5b1d21899961040d466560c83,"['pull', 'request', 'gsmcmullin', 'security', 'hack']",General,{'security': 100}
+1140ff957efbf501ab923d20892affc341fbd32b,"['kinetis', 'check', 'security', 'byte', 'flash']",General,{'security': 100}
+0ed793fe24f64c03775e025c6ad12973e54e869b,"['kinetis', 'clobber', 'security', 'byte', 'unsecure', 'value', 'overridden', 'unsafe']",General,{'security': 100}
+ca364a889e53397ca3b5ca0da02396bfa03eb2bc,"['crash', 'controller']",General,{'crash': 100}
+c9d3cf71ddb2ad520b44520b178a0304d747e102,"['buffer', 'overflow', 'issue', 'command', 'packet', 'size', 'size', 'packet', 'buffer', 'hexify', 'procedure', 'byte', 'buffer', 'test', 'dump', 'command']",Risky_resource_management,{'buffer overflow': 100}
+8b01a0aa0c2d01aa0b38ff2e3799730b1ad61e6e,"['pull', 'request', 'richardeoin', 'samd', 'support', 'samd', 'samd', 'security']",General,{'security': 100}
+372606177357a815dd7c484739649b50118ad42e,"['support', 'nvmctrl', 'security', 'prot']",General,{'security': 100}
+02812b6bf1b9caf7123c436749c020f30bd9edc2,"['note', 'datasheet', 'nvmctrl', 'security']",General,{'security': 100}
+50b6c623d619a62d804f1f33ba3757c5ec2157ed,"['check', 'null', 'pointer', 'register', 'array']",Risky_resource_management,{'null pointer': 100}
+29b9e103fb4847c0ee908aa764fef609aa25ad39,"['crash', 'monitor', 'command']",General,{'crash': 100}
+0dfdc25bb27a6cf56f13a1f9a1c1b233d6aab107,"['info', 'version', 'output', 'memory', 'leak', 'mode']",Risky_resource_management,{'memory leak': 100}

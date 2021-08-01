@@ -1,20 +1,20 @@
-sha,message,catetory,matched,labels
-ee4f672a6638055f0fb259229df1171acb8261da,"['security', 'check']",General,{'security': 100},
-d0a4b750bf4e90d92fed9cb175e2d554d395739f,"['security', 'check']",General,{'security': 100},
-986aecc7087abf1abf4925d574f3cd141fb649fe,"['integrity', 'check']",Risky_resource_management,{'integrity check': 100},
-7666047927cac50b9da1196bd282f973ec945988,"['string', 'method', 'crash', 'return']",Risky_resource_management,{'crash': 100},
-269b21aeb71268c9c36ac5b468555cac459650da,"['debug', 'repairremove', 'supercollider', 'memory', 'aligndebug', 'crash']",Risky_resource_management,{'crash': 100},
-213406483817398b700d2b222d6ed869b734029b,"['crash', 'hittingtrigger', 'scintilla', 'short', 'storymemory', 'meaning', 'messagewithout', 'gettext']",Risky_resource_management,{'crash': 100},
-3e1927aa925cfe80be0a98b5a7700a15d7d4fdc3,"['script', 'helper', 'process', 'crash']",Risky_resource_management,{'crash': 100},
-5e2052df87635afb372930960bc76f27364f121e,"['erlang', 'crash', 'address', 'scheduler', 'invalid']",Risky_resource_management,{'crash': 100},
-7994afc8d53de5e8a09dabb5b13e9995e9a115b6,"['report', 'crash']",Risky_resource_management,{'crash': 100},
-371a52deaea0a6d71c8c877c59c74abde5d527fe,"['limit', 'synths', 'pianohigher', 'scsynth', 'crash', 'value']",Risky_resource_management,{'crash': 100},
-187cd4a3c381615b2c5fa8ad175d32472daff716,"['config', 'crash']",Risky_resource_management,{'crash': 100},
-3f972111415955335995922acb2af6cc85c9a48f,"['mergeautocomplete', 'request', 'jweathersymbol', 'crash']",Risky_resource_management,{'crash': 100},
-6a297e248a6aee3afa92297da3414fb07d477d81,"['symbol', 'crash']",Risky_resource_management,{'crash': 100},
-3c41853cbaaf4a1741321bb4d445fa4a77ace7ec,"['stdout', 'redirection', 'crash']",Risky_resource_management,{'crash': 100},
-3c9df56dd4148d07f8f9cccaefea0edae6436164,"['crash', 'finaliser', 'revert', 'prioritycommit', 'reverts']",Risky_resource_management,{'crash': 100},
-065b675a2ca5104c4bfd2cb55bf33ee62abf9acf,"['crash', 'priority']",Risky_resource_management,{'crash': 100},
-a08cc87bbf072cf8cc60afd673df33086116cf50,"['queue', 'round', 'deadlock']",Risky_resource_management,{'deadlock': 100},
-a1d2165c2dd29ca43387eccc6f20734c4e09c0bb,"['client', 'connection', 'allowimplication', 'security', 'arbitrary']",General,{'security': 100},
-e6c70d33659f57a88c543bc7500334c9c1d6b106,"['reading', 'support', 'imagevariable', 'value', 'restoringdirectory', 'pillow', 'channel', 'requirement', 'color', 'variable', 'scipy', 'image', 'dimesionimage', 'changedmaximum', 'avoide', 'memory', 'overflow', 'model']",Risky_resource_management,{'memory overflow': 100},
+sha,message,catetory,matched
+ee4f672a6638055f0fb259229df1171acb8261da,"['security', 'check']",General,{'security': 100}
+d0a4b750bf4e90d92fed9cb175e2d554d395739f,"['security', 'check']",General,{'security': 100}
+986aecc7087abf1abf4925d574f3cd141fb649fe,"['integrity', 'check']",Risky_resource_management,{'integrity check': 100}
+7666047927cac50b9da1196bd282f973ec945988,"['string', 'method', 'crash', 'return']",General,{'crash': 100}
+269b21aeb71268c9c36ac5b468555cac459650da,"['debug', 'repairremove', 'supercollider', 'memory', 'aligndebug', 'crash']",General,{'crash': 100}
+213406483817398b700d2b222d6ed869b734029b,"['crash', 'hittingtrigger', 'scintilla', 'short', 'storymemory', 'meaning', 'messagewithout', 'gettext']",General,{'crash': 100}
+3e1927aa925cfe80be0a98b5a7700a15d7d4fdc3,"['script', 'helper', 'process', 'crash']",General,{'crash': 100}
+5e2052df87635afb372930960bc76f27364f121e,"['erlang', 'crash', 'address', 'scheduler', 'invalid']",General,{'crash': 100}
+7994afc8d53de5e8a09dabb5b13e9995e9a115b6,"['report', 'crash']",General,{'crash': 100}
+371a52deaea0a6d71c8c877c59c74abde5d527fe,"['limit', 'synths', 'pianohigher', 'scsynth', 'crash', 'value']",General,{'crash': 100}
+187cd4a3c381615b2c5fa8ad175d32472daff716,"['config', 'crash']",General,{'crash': 100}
+3f972111415955335995922acb2af6cc85c9a48f,"['mergeautocomplete', 'request', 'jweathersymbol', 'crash']",General,{'crash': 100}
+6a297e248a6aee3afa92297da3414fb07d477d81,"['symbol', 'crash']",General,{'crash': 100}
+3c41853cbaaf4a1741321bb4d445fa4a77ace7ec,"['stdout', 'redirection', 'crash']",General,{'crash': 100}
+3c9df56dd4148d07f8f9cccaefea0edae6436164,"['crash', 'finaliser', 'revert', 'prioritycommit', 'reverts']",General,{'crash': 100}
+065b675a2ca5104c4bfd2cb55bf33ee62abf9acf,"['crash', 'priority']",General,{'crash': 100}
+a08cc87bbf072cf8cc60afd673df33086116cf50,"['queue', 'round', 'deadlock']",Risky_resource_management,{'deadlock': 100}
+a1d2165c2dd29ca43387eccc6f20734c4e09c0bb,"['client', 'connection', 'allowimplication', 'security', 'arbitrary']",General,{'security': 100}
+e6c70d33659f57a88c543bc7500334c9c1d6b106,"['reading', 'support', 'imagevariable', 'value', 'restoringdirectory', 'pillow', 'channel', 'requirement', 'color', 'variable', 'scipy', 'image', 'dimesionimage', 'changedmaximum', 'avoide', 'memory', 'overflow', 'model']",Risky_resource_management,{'memory overflow': 100}

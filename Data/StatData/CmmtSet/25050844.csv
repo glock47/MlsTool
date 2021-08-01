@@ -1,37 +1,17 @@
-sha,message,catetory,matched,labels
-910f330ad0caa49fe901e9426ef00d95d45ba32c,"['possible', 'autoindex', 'integer', 'overflow']",Risky_resource_management,{'integer overflow': 100},
-f4c70589ce2875b67554113dc7fe6efc581444d6,"['security', 'issueworker', 'negative', 'buffer', 'process', 'memory', 'disclosurecheck', 'various', 'reasonable', 'bufferalready', 'checkendif']",General,{'security': 100},
-9197a3c8741a8832e6f6ed24a72dc5b078d840fd,"['ascii', 'relatedpotential', 'range', 'undefined', 'behaviour', 'filter', 'integer', 'overflow']",Risky_resource_management,{'integer overflow': 100},
-5544756296e5abaecb5f640753d6de939b701035,"['cache', 'header', 'store', 'valueresponse', 'responserequest', 'access', 'controlrequest', 'access', 'control', 'methodversion', 'cache']",Porous_defenses,{'access control': 100},
-5429140c018726e8b28c724b06daaf0fe33d2205,"['request', 'buffer', 'preread', 'closewindow', 'stream', 'request', 'ccabaa', 'sendingwindow', 'detail', 'request', 'detailnumber', 'problem', 'approach', 'revealedclient', 'error', 'applicationstream', 'crash', 'rejectedrequest', 'requireswindow', 'client', 'problemwindow', 'stream', 'buffer', 'prereadrequestedwindow', 'directive', 'value', 'initial', 'defaultstream', 'request', 'specialright', 'connection', 'welcomedefault']",Risky_resource_management,{'crash': 100},
-4b581a7c21e4328d059bf400a059c0458fc9f806,"['resolver', 'timeout', 'crash', 'fixedrequest', 'timeout', 'request', 'cname', 'event', 'eitheraccess', 'dereference', 'timeout', 'memoryrequest', 'firstclient', 'request', 'independent', 'fixedchange', 'reverts']",Risky_resource_management,{'crash': 100},
-cd17f869cf2c9a72cf90e67afec0271a8ff12f10,"['possible', 'stream', 'integer', 'overflow']",Risky_resource_management,{'integer overflow': 100},
-52c5ba0f377b18c543735baa019a166f25059a7f,"['allocation', 'buffer', 'fixedextra', 'buffer', 'overrun', 'spacelogin']",Risky_resource_management,{'overrun': 100},
-7dd799357d7fd853b488b52ae17f9d0ee3142941,"['potential', 'buffer', 'overrun', 'initializingnumber', 'element']",Risky_resource_management,{'overrun': 100},
-fb96936c1a376c8fc1641b5028ebcb909a451919,"['header', 'fixedpossible', 'buffer', 'overrun', 'ellipsisalways']",Risky_resource_management,{'overrun': 100},
-52e4dc2f74fd032dace01acbe5eb29ddf7c1ad96,"['buffer', 'overrun']",Risky_resource_management,{'overrun': 100},
-b3066b16e1d6f7e9c27cc092b67591262d3a8b13,"['argument', 'terminateexpects', 'style', 'argument', 'standardchange', 'crash', 'sigsegv', 'couldmodule', 'buffer', 'sikora', 'piotr']",Risky_resource_management,{'crash': 100},
-a1a8defb4956ce5416ff633c47da2dc4d473fac0,"['default', 'accessvalue', 'parameter', 'filter', 'default', 'uninitializedwould', 'crash', 'sigsegvdirective', 'specifiedwhole', 'structure', 'field', 'zeroingsimilar', 'sikora', 'piotr']",Risky_resource_management,{'crash': 100},
-a785be76f62ef76683034b4df99e0f353bb58921,"['protection', 'overrun']",Risky_resource_management,{'overrun': 100},
-0c05e5b55fe799bb0d6330bcf75dbde370bf0ba6,"['integer', 'overflow', 'length', 'storevalue', 'parsedwhole', 'pointedinstead', 'value', 'length', 'pointer', 'storingpotential', 'addressmight', 'counterlength', 'store', 'unparsedincorrect', 'request', 'valuerequest']",Risky_resource_management,{'integer overflow': 100},
-a80cb81604ba4aea6373e3de7cb47be0d72b0b6c,"['ticket', 'alwaysresult', 'deadlock', 'mutex', 'multipleprocess']",Risky_resource_management,{'deadlock': 100},
-a2b987e79f099e34ddc5206b2b7c85f7405e5b74,"['crypt', 'algorithm', 'supportedscheme', 'support', 'password', 'scheme', 'passwordchange', 'security', 'problemminor', 'louis', 'patch']",General,{'security': 100},
-1a6ed2e3b1f9d995b0e5c1761aa77da474061661,"['calculation', 'ticket', 'limit', 'integer', 'overflow', 'fixedalexey', 'patch']",Risky_resource_management,{'integer overflow': 100},
-c846871ce106e0fbe4c27a48a4c3378f18cd03f8,"['parameter', 'directiveparameter', 'certificate', 'security', 'certificatebackend']",General,{'security': 100},
-1b4397443fa707bbfcafb86bb1b0bb326f6d3adf,"['status', 'fixedstatus', 'buffer', 'overrun']",Risky_resource_management,{'overrun': 100},
-74d939974d430a2c2e71b0134114d2a7b04dcc20,"['possible', 'ticket', 'rewrite', 'segfault', 'fixedpossible', 'incorrectsegfaultlocationrewritereturnrewrite', 'replacement', 'length', 'argumentcapture', 'buffer', 'withoutpossible', 'overrun']",Risky_resource_management,{'overrun': 100},
-baa239c4870ba2236aeb8c54b892dd25d43d780a,"['ticket', 'timer', 'integer', 'overflow', 'undefined', 'behaviour', 'integer', 'overflowleast', 'sparc', 'solaris', 'result', 'subtract', 'integerbehaviour', 'implementation']",Risky_resource_management,{'integer overflow': 100},
-d1ed97b18bc3a7115c060a688be415fdc078bb76,"['various', 'security']",General,{'security': 100},
-de1a3e1e0c36c1c8fa6cbfc23e1cd5a414c3a848,"['buffer', 'overrun']",Risky_resource_management,{'overrun': 100},
-c31a9bb5e336b15f48c875e1f448f71d68f3feb9,"['nginx', 'release', 'importnginx', 'security', 'builtauthorization', 'access', 'directivedirective', 'builtbuiltchange', 'variablechangedirective', 'renamedfeaturefeaturechange', 'rtsig', 'bugfix', 'bugfix', 'client', 'headernginx', 'returnbugfix', 'directive', 'inheritedauthenticate', 'realm', 'headerbasic', 'realm', 'withoutformat', 'bugfix', 'combinedwritten', 'emptyappearedexcept', 'bugfix', 'sparc', 'nginx', 'platformbugfix', 'necessary', 'space']",General,{'security': 100},
-09c684b2d53b46b6ffb706c686ca4dbed62cf6da,"['nginx', 'release', 'importbackend', 'nginx', 'security', 'checkaccel', 'header', 'redirectchange', 'nginx', 'emptyvalid', 'authorization', 'headerdirective', 'featuredirective', 'featurefeaturefeaturedirective', 'variable', 'featureparametercanceledchange', 'directive', 'value', 'string', 'emptyfastcgi', 'bugfix', 'nginx', 'servertemporary', 'client', 'request', 'connectionworker', 'bugfix', 'flush', 'processgracefulchange', 'directive', 'bugfix', 'rewrite', 'requestgiven', 'regular', 'locationbackend', 'incorrect', 'request', 'transferredappeareddirective', 'previousexpiresrtsig', 'bugfix', 'nginx', 'request', 'methodseveral', 'process', 'bugfix', 'symbol', 'escapebugfix']",General,{'security': 100},
-7d20fbf3326281fd1808a173df807996516374cd,"['inscure', 'practice']",General,{'inscure': 93},
-5b9f9cda8f4568ad0977ad6eb4dc8946ae657657,"['android', 'crashandroid', 'crashandroid', 'circularversion', 'crash']",Risky_resource_management,{'crash': 100},
-f0c2df7eead4c56acc31cb1a3e72763e9d3b73a1,"['gardenactivity', 'crash', 'spare', 'character']",Risky_resource_management,{'crash': 100},
-0fb46fdf495e359da178559a0ff26a32b758617c,"['download', 'security', 'dependency']",General,{'security': 100},
-c570cf47273aa80ef1b26128c8032b849b83c186,"['workaround', 'compiler', 'crash', 'swiftcredit', 'michaelmcguire']",Risky_resource_management,{'crash': 100},
-d44c3cd4e351fe61d84701121e00a176f62df669,"['mergefound', 'repository', 'carthage', 'request', 'mergefound', 'crash', 'repository']",Risky_resource_management,{'crash': 100},
-4237afcf0874164c2e4ffbd76b2a0703e3af195e,"['failure', 'crash']",Risky_resource_management,{'crash': 100},
-a20cf6c342a8f28477465ec0e1f519427a1539db,"['swift', 'regex', 'comment', 'regular', 'insert', 'describe', 'security', 'content', 'expression']",General,{'security': 100},
-a15ac10a5d723d298477380594529fdba8d40119,"['iphone', 'identity', 'detect', 'machine', 'command', 'device', 'security', 'implementation', 'isolate', 'machine', 'reactivecocoa', 'platform']",General,{'security': 100},
-2a2a3d1740e9dedd457864acc79593bd7df85d0f,"['invocation', 'verbose', 'security']",General,{'security': 100},
+sha,message,catetory,matched
+c570cf47273aa80ef1b26128c8032b849b83c186,"['swift', 'compiler', 'crash', 'credit', 'michaelmcguire']",General,{'crash': 100}
+4140c7434c9d1ee879d5a2a05276532d9388b426,"['pull', 'request', 'carthage', 'swift', 'compiler', 'crash', 'update', 'tentacle', 'swift', 'compiler', 'crash']",General,{'crash': 100}
+89a5d96ba4a4b66a04ad28bd143de2253e7c45ee,"['update', 'tentacle', 'swift', 'compiler', 'crash', 'update', 'tentacle', 'http', 'github', 'carthage', 'carthage', 'mdiep', 'tentacle']",General,{'crash': 100}
+0918f5e8a4b46ea5ca8c5b3f0a18c59cbea6b4ea,"['swift', 'compiler', 'crash']",General,{'crash': 100}
+20144b24f47ed6a812f6592f1aaa31038be4d2b9,"['update', 'tentacle', 'swift', 'compiler', 'crash', 'file', 'path', 'repository', 'swift', 'compiler', 'crash', 'generic', 'function', 'http', 'github', 'mdiep', 'tentacle', 'issue']",General,{'crash': 100}
+d44c3cd4e351fe61d84701121e00a176f62df669,"['pull', 'request', 'carthage', 'repository', 'crash', 'repository']",General,{'crash': 100}
+1d3cfd57637317b7e5caa604452c28f61c0a8db5,"['pull', 'request', 'bobeldevil', 'crash', 'command', 'relies']",General,{'crash': 100}
+4237afcf0874164c2e4ffbd76b2a0703e3af195e,"['needle', 'optional', 'cast', 'crash', 'failure']",General,{'crash': 100}
+a20cf6c342a8f28477465ec0e1f519427a1539db,"['regular', 'expression', 'describe', 'full', 'content', 'security', 'output', 'swift', 'comment', 'insert', 'line']",General,{'security': 100}
+a15ac10a5d723d298477380594529fdba8d40119,"['machine', 'iphone', 'command', 'line', 'flag', 'command', 'line', 'tool', 'security', 'list', 'platform', 'test', 'case', 'architecture', 'isolate', 'configuration', 'reactivecocoa']",General,{'security': 100}
+6557e35444207f2809f7fd548a0d5e23589afd9a,"['swift', 'crash', 'http', 'twitter', 'jckarter', 'status']",General,{'crash': 100}
+0c0a689cc0085b42767f0d61e56f585b2ca003a9,"['scheduler', 'resolver', 'stack', 'overflow']",Risky_resource_management,{'stack overflow': 100}
+b5ad59692e4e8196b73b6e12ae864527ee520f3d,"['enable', 'swift', 'optimization', 'risk', 'stack', 'overflow']",Risky_resource_management,{'stack overflow': 100}
+5f1e3ed21311d18365361d4eb23f4e3ac1bb8246,"['memory', 'corruption', 'workaround']",Risky_resource_management,{'memory corruption': 100}
+f51f23778023dedbcc34e300cb740cef3e807584,"['bump', 'memory', 'corruption', 'workaround']",Risky_resource_management,{'memory corruption': 100}
+2a2a3d1740e9dedd457864acc79593bd7df85d0f,"['verbose', 'security', 'invocation']",General,{'security': 100}

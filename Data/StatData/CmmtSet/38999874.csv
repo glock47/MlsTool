@@ -1,9 +1,42 @@
-sha,message,catetory,matched,labels
-498d8f7d55d5f1dab3b871993ac38c5263b73b9c,"['integer', 'overflow']",Risky_resource_management,{'integer overflow': 100},
-b6cb7580a7e0c56fc325fe9370b9d34044910aed,"['integer', 'overflow']",Risky_resource_management,{'integer overflow': 100},
-778a43dd56925ed58bbe26e3a7bb8202d72c3f3f,"['integer', 'overflow']",Risky_resource_management,{'integer overflow': 100},
-bfc36d3d8139b8be4d3df630d625c58687b0c7d4,"['integer', 'overflow']",Risky_resource_management,{'integer overflow': 100},
-db64ef3189f54917a5008a02bdb000adc514a90a,"['integer', 'overflow']",Risky_resource_management,{'integer overflow': 100},
-0463e21432515631a9bc925ce5eb95b097c73719,"['integer', 'overflow']",Risky_resource_management,{'integer overflow': 100},
-3fd82c3dff808549992cd884c4d0b7f4be7bb2cf,"['security', 'description', 'issue']",General,{'security': 100},
-93bb290c73c6d7444fe43757d679e08d0bb5189a,"['security', 'description', 'issue']",General,{'security': 100},
+sha,message,catetory,matched
+4d3863b0c571f0b9bfa402fd34d02baf84c79ece,"['heap', 'buffer', 'overflow', 'python', 'syntax']",Risky_resource_management,{'buffer overflow': 100}
+5f3b4da75d7f0d95df64d73b8bfcadb49b57a432,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+a4aaa67878509ea8296ef349bcfe98da48bc5457,"['issue', 'fuzz', 'stack', 'buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100}
+87423b99db07373497edd0692a039e6f6a7aecef,"['issue', 'fuzz', 'integer', 'overflow']",Risky_resource_management,{'integer overflow': 100}
+f99b270eba036c5a8c927bca36db5b356e0ecc5c,"['issue', 'fuzz', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+765c9027fd40f4a268f1aa29f1753125a1547e3a,"['issue', 'fuzz', 'integer', 'overflow']",Risky_resource_management,{'integer overflow': 100}
+498d8f7d55d5f1dab3b871993ac38c5263b73b9c,"['integer', 'overflow', 'regenc']",Risky_resource_management,{'integer overflow': 100}
+fe021d511f94a8d9be2157b5d2e586ca88b6ca51,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+b6cb7580a7e0c56fc325fe9370b9d34044910aed,"['integer', 'overflow', 'dmax']",Risky_resource_management,{'integer overflow': 100}
+778a43dd56925ed58bbe26e3a7bb8202d72c3f3f,"['integer', 'overflow', 'dmax']",Risky_resource_management,{'integer overflow': 100}
+bfc36d3d8139b8be4d3df630d625c58687b0c7d4,"['integer', 'overflow', 'dmax']",Risky_resource_management,{'integer overflow': 100}
+db64ef3189f54917a5008a02bdb000adc514a90a,"['integer', 'overflow', 'dmax']",Risky_resource_management,{'integer overflow': 100}
+0463e21432515631a9bc925ce5eb95b097c73719,"['integer', 'overflow', 'dmax']",Risky_resource_management,{'integer overflow': 100}
+aa0188eaedc056dca8374ac03d0177429b495515,"['heap', 'buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100}
+6eb4aca6a7f2f60f473580576d86686ed6a6ebec,"['heap', 'buffer', 'overflow', 'double', 'pfetch']",Risky_resource_management,{'buffer overflow': 100}
+adf0fffe19046b1340d050e52c0d9dd42d57b0ad,"['heap', 'buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100}
+15c4228aa2ffa02140a99912dd3177df0b1841c6,"['heap', 'buffer', 'overflow', 'case', 'insensitive']",Risky_resource_management,{'buffer overflow': 100}
+d3e402928b6eb3327f8f7d59a9edfa622fec557b,"['heap', 'buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100}
+7a53a28e6a251947a5eae356e8d4d4f14fc84d8b,"['heap', 'buffer', 'overflow', 'validity', 'check', 'byte', 'string', 'mark', 'griffin', 'libfuzzer', 'program']",Risky_resource_management,{'buffer overflow': 100}
+b010990387ccfcefa09c093dbb2482832a77e79c,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+b7198a3a6ae1a8cf5eef66753ae4d457b6473518,"['pull', 'request', 'pallas', 'ascii', 'null', 'crash', 'regerror', 'toascii', 'attempt', 'serialize', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+93d95ff8d66d7dfaf64c385c265c173193b14dfb,"['regerror', 'toascii', 'attempt', 'serialize', 'null', 'pointer', 'wild', 'similar', 'future', 'segfault', 'http', 'github', 'stedolan', 'issue']",Risky_resource_management,{'null pointer': 100}
+ffff5d7e8e040c2a537716224486d9d4977b21a7,"['pull', 'request', 'methyleneblue', 'null', 'pointer', 'check']",Risky_resource_management,{'null pointer': 100}
+9d7a119c4a8070efaf254cb26badfe60c572007f,"['null', 'pointer', 'check', 'check', 'necessary', 'logic', 'increase', 'security']",Risky_resource_management,{'null pointer': 100}
+cbc1f01df8fa1db6505098952c7d8c8ce21745ed,"['pull', 'request', 'methyleneblue', 'null', 'pointer', 'check']",Risky_resource_management,{'null pointer': 100}
+1db8a2726dfad0401f928cb8474bd770f07040a7,"['null', 'pointer', 'check']",Risky_resource_management,{'null pointer': 100}
+ea36d810f1d9b28f3ef20bd8d453bea2f7fb598b,"['null', 'pointer', 'check']",Risky_resource_management,{'null pointer': 100}
+396a757dffafc0c7eb269433c29a0ba961d73ad6,"['null', 'pointer', 'check']",Risky_resource_management,{'null pointer': 100}
+34c8cdd7513a4c4a8dd01564b2dffd011c88747a,"['stack', 'buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100}
+11247632076c11e02c9cc5bbd555bdb0d1e3b9bf,"['amemory', 'leak']",Risky_resource_management,{'amemory leak': 96}
+e8a04d763743dc24410dc0d91f0bee3201182f4d,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+3fd82c3dff808549992cd884c4d0b7f4be7bb2cf,"['security', 'issue']",General,{'security': 100}
+93bb290c73c6d7444fe43757d679e08d0bb5189a,"['security', 'issue']",General,{'security': 100}
+6e368fae8dd345f3467a05fa45ccbc747879f33d,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+8ed8e45aaffdde739cf1c36a72069d333ce32b5b,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+cd56df2dfa2d73f8c153541aac637140340761ce,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+dacfaba1082a00abea5d564931458f8d659bf3f2,"['pull', 'request', 'takata', 'stackoverflow', 'stack', 'overflow']",Risky_resource_management,{'stack overflow': 100}
+6b68ebe8360adefe45be94ed0dbf13a9aa9023ef,"['limit', 'parser', 'recursion', 'parser', 'recursion', 'stack', 'overflow', 'group', 'limit', 'default', 'value', 'regint', 'apis', 'support']",Risky_resource_management,{'stack overflow': 100}
+b893c8f60197a5ae84ee780554c264245a0cd4be,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+c364a87e9c1bdaed633522983133e09a7dd0ac11,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+585572b873e4576c28fc07f8fe7fed44a205df1a,"['memory', 'leak', 'issue']",Risky_resource_management,{'memory leak': 100}

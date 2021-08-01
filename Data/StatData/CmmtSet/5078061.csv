@@ -1,19 +1,32 @@
-sha,message,catetory,matched,labels
-57df21f2ef5311f9367c7230f0e7a9336446260b,"['method', 'crash', 'getnative']",Risky_resource_management,{'crash': 100},
-de4d1d811a4faf2b75749657e530669f845cc2cc,"['mergemerge', 'crash', 'wxwidgets', 'overlay', 'requestoverlay', 'crash']",Risky_resource_management,{'crash': 100},
-5e45f0ad56148d5e8e2a7d2e54913a3fe806eae6,"['edfdamerge', 'robind', 'request', 'issueimplementation', 'crash']",Risky_resource_management,{'crash': 100},
-9d0f91e010c3e739b13d372686947cc03aaa6102,"['event', 'crash']",Risky_resource_management,{'crash': 100},
-f3cf9574212c3c905de322985a23b64b09a703c4,"['crash', 'switch']",Risky_resource_management,{'crash': 100},
-fb041b0f1a1362a801dea251a9b06e79d996bdb4,"['mergemerge', 'requestpdfviewer', 'crash', 'wxgtk']",Risky_resource_management,{'crash': 100},
-0c8139f6180b3511094ade327efb286bff61fffd,"['pdfviewer', 'crash', 'wxgtk']",Risky_resource_management,{'crash': 100},
-2a713adf1cf58e2373d07ea19a35f146de4e9dc4,"['mergemerge', 'requestwxgtk', 'crash', 'printerdc']",Risky_resource_management,{'crash': 100},
-1b7daf2d123ce4620937137bed31cfd40068142f,"['mergemerge', 'requestthrobber', 'crash']",Risky_resource_management,{'crash': 100},
-aa41158c9dfb36088d3cd64608f08221869faa39,"['crash', 'wxgtk', 'gethandle', 'window']",Risky_resource_management,{'crash': 100},
-21dd774744887d9c494fa93cf80267ed14cf99bc,"['wxgtk', 'crash', 'printerdc']",Risky_resource_management,{'crash': 100},
-69af9e3fb047c7c52e89cb204a529abb13c565db,"['crash', 'wxgtk', 'gethandle', 'windowhandle', 'classic', 'similar', 'patchticket']",Risky_resource_management,{'crash': 100},
-e8a7652c168f2d85b85816495e738ad5d4b4c41c,"['mergemerge', 'floatcanvas', 'request', 'wernerfbcause', 'small', 'crash']",Risky_resource_management,{'crash': 100},
-0ba34658be04ca8d3c0d99bffcda5bc545c4d55e,"['crash', 'opening']",Risky_resource_management,{'crash': 100},
-6fbc2e6ab39a80f1d0361c63c6af5794a5aafc79,"['flatmenu', 'crash', 'unittestreturn', 'getmainloop']",Risky_resource_management,{'crash': 100},
-9014a104904bf3db13589719443fea54b4a34ab1,"['colourselect', 'changecolour', 'crash', 'secondtrunk', 'phoenix', 'wxpython']",Risky_resource_management,{'crash': 100},
-8718f7f6f43160bf85dabf2219c883aba7356a16,"['colourselect', 'changecolour', 'crash', 'secondtrunk', 'phoenix', 'wxpython']",Risky_resource_management,{'crash': 100},
-9afc5d886e2ee530a8913138393fa48e99d32dda,"['crash', 'versiontrunk', 'phoenix', 'wxpython']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+b3c5fa87b9df558d9c788555c8893b2d41f9f86c,"['pull', 'request', 'swtc', 'stack', 'overflow']",Risky_resource_management,{'stack overflow': 100}
+5e190eb42e3c9875412fb35e821cd1d7a9b6db1e,"['stack', 'overflow', 'implementation', 'need', 'check', 'sipselfwasarg', 'parent', 'class', 'implementation', 'setdata', 'access', 'sipselfwasarg', 'variable', 'generator', 'stuff', 'behavior', 'cppmethod']",Risky_resource_management,{'stack overflow': 100}
+0e0b6b72a2a219264b35dd36856d98b114bbdf67,"['flag', 'submenu', 'menuitem', 'constructor', 'crash', 'menuitem', 'submenu']",General,{'crash': 100}
+8c9446bd28216095d63bbf283a25c4ff8f1517f2,"['pull', 'request', 'pbrod', 'issue', 'possible', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+b525fbb03795a4bc7b627cf445fa91bdd34ceb42,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+95d1df0383dc412d14672c8ec82d10685f8f3e51,"['issue', 'potential', 'deadlock']",Risky_resource_management,{'deadlock': 100}
+57df21f2ef5311f9367c7230f0e7a9336446260b,"['crash', 'getnative', 'method']",General,{'crash': 100}
+de4d1d811a4faf2b75749657e530669f845cc2cc,"['pull', 'request', 'wxwidgets', 'overlay', 'crash', 'overlay', 'crash']",General,{'crash': 100}
+62449137d5c9b8f61603161b83e57d3483648c25,"['integer', 'overflow']",Risky_resource_management,{'integer overflow': 100}
+077db11c07053a29dd93a5019620992a3df9db92,"['pull', 'request', 'robind', 'issue', 'return', 'memoryview', 'buffer', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+a5eeca0a5c425bd17f1d4dbf0633e1a4311cda71,"['memoryview', 'buffer', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+1caf4fd24cda0907b2222d40553f95947ace9139,"['recurse', 'crash']",General,{'crash': 100}
+5e45f0ad56148d5e8e2a7d2e54913a3fe806eae6,"['pull', 'request', 'robind', 'issue', 'treeitemid', 'implementation', 'crash']",General,{'crash': 100}
+775d6da37a12ca7cbaadf2c3299dabb37533410a,"['default', 'machinery', 'getattributes', 'copy', 'ctor', 'default', 'copy', 'ctor', 'incref', 'variant', 'value', 'crash']",General,{'crash': 100}
+a3b10d5d6393fc5e6c27fd2cdb8a1638626e7efa,"['crash', 'ribbonbar', 'sample', 'artprovider', 'case', 'setartprovider', 'ownership', 'object', 'case', 'provider', 'scope', 'future', 'crash']",General,{'crash': 100}
+cf59ae09fba743058f8139338e98b3db85ea63e8,"['breadth', 'traversal', 'python', 'python', 'order', 'python', 'sort', 'subtopics', 'depth', 'traversal']",Risky_resource_management,{'depth traversal': 90}
+9d0f91e010c3e739b13d372686947cc03aaa6102,"['pull', 'request', 'swtc', 'crash', 'event', 'test']",General,{'crash': 100}
+127b8dba9b493408af7b3fb00f40855dfbbdcd09,"['crash', 'event', 'test', 'helpevent', 'fetch', 'root', 'window']",General,{'crash': 100}
+f3cf9574212c3c905de322985a23b64b09a703c4,['crash'],General,{'crash': 100}
+1b7daf2d123ce4620937137bed31cfd40068142f,"['pull', 'request', 'swtc', 'throbber', 'test', 'crash']",General,{'crash': 100}
+aa41158c9dfb36088d3cd64608f08221869faa39,"['pull', 'request', 'swtc', 'crash', 'window', 'wxgtk']",General,{'crash': 100}
+ed6197e069fe9c1e7b13326ad0d4d97e0250e9c4,"['throbber', 'test', 'crash', 'getbitmap', 'code', 'test', 'case', 'object']",General,{'crash': 100}
+69af9e3fb047c7c52e89cb204a529abb13c565db,"['crash', 'window', 'wxgtk', 'null', 'check', 'null', 'similar', 'patch', 'classic', 'http', 'ticket']",General,{'crash': 100}
+0b98e7563b5b3c16029baec4216c63056aea9a50,"['pull', 'request', 'wernerfb', 'march', 'auigtk', 'crash']",General,{'crash': 100}
+d2fb67779939616972bac9db72e02906d220895a,['crash'],General,{'crash': 100}
+0ba34658be04ca8d3c0d99bffcda5bc545c4d55e,"['menu', 'test', 'crash', 'reason']",General,{'crash': 100}
+6fbc2e6ab39a80f1d0361c63c6af5794a5aafc79,"['flatmenu', 'unittest', 'show', 'crash', 'flatmenu', 'popup', 'test', 'getmainloop', 'return']",General,{'crash': 100}
+9014a104904bf3db13589719443fea54b4a34ab1,"['colourselect', 'crash', 'http', 'wxpython', 'phoenix', 'trunk', 'cdce']",General,{'crash': 100}
+8718f7f6f43160bf85dabf2219c883aba7356a16,"['colourselect', 'crash', 'http', 'wxpython', 'phoenix', 'trunk', 'cdce']",General,{'crash': 100}
+0b808cc9b89ba911e2704e273d6d80687088e8ac,"['colourselect', 'crash', 'colour', 'http', 'wxpython', 'phoenix', 'trunk', 'cdce']",General,{'crash': 100}
+9afc5d886e2ee530a8913138393fa48e99d32dda,"['crash', 'variadic', 'version', 'filetypeinfo', 'ctor', 'http', 'wxpython', 'phoenix', 'trunk', 'cdce']",General,{'crash': 100}

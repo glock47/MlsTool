@@ -1,14 +1,11 @@
-sha,message,catetory,matched,labels
-93662bc8e20fb61a43dedb53cabcff79446cd625,"['reset', 'background', 'crash']",Risky_resource_management,{'crash': 100},
-8f56354bf9e93cf39f9b84ed5cad0bad91823156,"['support', 'stack', 'overflow']",Risky_resource_management,{'stack overflow': 100},
-084cae977fe937272dc7de4a7a605b8a13f3a8c4,"['channel', 'geteffect', 'crash']",Risky_resource_management,{'crash': 100},
-d7bb38cba8029f58011981681f353dacb213cd09,"['crash', 'memorymanager', 'allocpos', 'display']",Risky_resource_management,{'crash': 100},
-6b0d2868c72480cd1d302254873917e9cad0c9b9,"['property', 'invalid', 'codepoint', 'binary', 'runtime', 'crash']",Risky_resource_management,{'crash': 100},
-50d9779a43b07fe6a4045ca0e20974e832d4874f,"['crash', 'allocpos']",Risky_resource_management,{'crash': 100},
-cf37e138dd5e2c949e97b133c20ffcab7d38d947,"['world', 'crash', 'texture']",Risky_resource_management,{'crash': 100},
-5cd54183b234b9d529f7c51b4eacda8843cd6605,"['security', 'model']",General,{'security': 100},
-95a844ad45a430e36a21805c6ff16437b1676136,"['blendequation', 'crash']",Risky_resource_management,{'crash': 100},
-ee1ed31d8c18fb27e3f76bd957992fa0742c4473,"['audit', 'security']",General,{'security': 100},
-764d8f6f2c31a974c572e5efa267e16a42f42eb7,"['crash', 'debug']",Risky_resource_management,{'crash': 100},
-c4428db8a5301e56c45ad2984fb5a376193c748f,"['crash', 'viewer']",Risky_resource_management,{'crash': 100},
-1b6cf934746c21623ce7372962e53cb0bcfefd81,"['graceful', 'domain', 'cross', 'failurexmlhttprequest', 'request', 'priortarget', 'origin', 'different', 'allowaccessorigin', 'production', 'breakhandler', 'error', 'makeajaxrequest', 'functionaccess', 'request', 'assumes', 'propertymicrosoft', 'documentation', 'informative', 'pointerexception', 'security']",General,{'security': 100},
+sha,message,catetory,matched
+df850c62e87f7058547e69e3216cc95b9897a3ae,"['pull', 'request', 'jofrmueller', 'clear', 'viewer', 'navigator', 'listener', 'node', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+5f933b12bbe99c47b6c893431f36475d8597f5df,"['clear', 'listener', 'node', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+ee1ed31d8c18fb27e3f76bd957992fa0742c4473,"['security', 'audit']",General,{'security': 100}
+d18485844dc5d23aaa45127fcacadd5102165f97,['crash'],General,{'crash': 100}
+764d8f6f2c31a974c572e5efa267e16a42f42eb7,"['crash', 'debug', 'mode', 'tile']",General,{'crash': 100}
+7ccacad70fe3069cb9d80645777bb8ea80b719c7,"['pull', 'request', 'henri', 'astre', 'msft', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+764fa3e34aca8e8c69db05665987681a8495795d,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+c4428db8a5301e56c45ad2984fb5a376193c748f,"['crash', 'viewer', 'overlay']",General,{'crash': 100}
+baa3559df187b74fdd54caff87eddef2d8bb132b,"['cross', 'domain', 'tilesource', 'failure', 'tilesource', 'error', 'obvious', 'unspecified', 'error', 'exception', 'different', 'origin', 'hostname', 'port', 'handler', 'status', 'error', 'message', 'security', 'exception', 'message', 'original', 'exception', 'message']",General,{'security': 100}
+1b6cf934746c21623ce7372962e53cb0bcfefd81,"['cross', 'domain', 'ajax', 'failure', 'different', 'origin', 'target', 'cors', 'header', 'http', 'caniuse', 'feat', 'cors', 'domain', 'error', 'handler', 'function', 'makeajaxrequest', 'code', 'assumes', 'access', 'property', 'request', 'object', 'informative', 'pointer', 'microsoft', 'documentation', 'security', 'exception']",General,{'security': 100}

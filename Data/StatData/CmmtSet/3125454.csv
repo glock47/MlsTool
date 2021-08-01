@@ -1,9 +1,29 @@
-sha,message,catetory,matched,labels
-670e3c47a6f952b7f106adf10d7fa965e3bc25f5,"['measure', 'security', 'conditionlanguageuser', 'languagebase', 'maliciouspasswdmeant', 'icecoderstart', 'locationbenefit', 'containsecurity', 'restricts', 'value', 'basenametraversal']",General,{'security': 100},
-0daf6c3081fb68131a3dfb4171824d697252d57a,"['header', 'security']",General,{'security': 100},
-8b30c8b2ebef4e2e00f549d484659d516368a68d,"['method', 'pluginserver', 'externalretstrictions', 'security']",General,{'security': 100},
-0da7ca2e4dac7c55cd4622633e9ca8e0a3af5fad,"['comment', 'security']",General,{'security': 100},
-2fa780236beb6d3664db5772729c797dda2e4b79,"['quote', 'magicsystem', 'quote', 'cookie', 'magic', 'dependent', 'security', 'server']",General,{'security': 100},
-f81ea9fe57d7a1f6485dd1898e3a5aa5f8d3f9c7,"['equivalent', 'replacesfavour', 'clarityrelaitiveserver', 'expose', 'security']",General,{'security': 100},
-5f5ebd12a42fe36177c5558b2c53387eea8b771a,"['shorturlstarts', 'tweak', 'shorturlstarts', 'problematicclose', 'hover', 'mouse', 'highlight', 'buttonrelative', 'client', 'localbetter', 'string', 'security', 'messingreason', 'fullpath']",General,{'security': 100},
-a63b9e3ff4664c1c4dbeaa3246a6e5ecf4a6b8fa,"['tweak', 'simplication', 'session', 'settingstart', 'session', 'avoidsplace', 'defineserverroot', 'docrootcmthisver', 'specify', 'codemirrordirconfig', 'overwrite', 'versionarray', 'icecoder', 'settingsimpler', 'settingsnew', 'everyavailable', 'everywhereaddress', 'security', 'movedtogetherlastfiles', 'previousfiles', 'docroot', 'tweak', 'clearer']",General,{'security': 100},
+sha,message,catetory,matched
+ba88f98ac720a86fb1e3078b82161b21d6b63254,"['check', 'regex', 'value', 'crash', 'highlight', 'error']",General,{'crash': 100}
+4328ea2c1f741e13b6db3167fc8fb82298544e84,"['regex', 'crash']",General,{'crash': 100}
+67d44e56bb92fc9b6a27d9b482b173fa0bcc8359,"['strict', 'mode', 'session', 'csrf', 'issue', 'problem', 'setup', 'version']",Insecure_interaction_between_components,{'csrf': 100}
+b2d13e0e30e26ab9651fb07cc9cd0c33bac09de2,"['pull', 'request', 'avgp', 'csrf', 'issue', 'flexible', 'session']",Insecure_interaction_between_components,{'csrf': 100}
+670e3c47a6f952b7f106adf10d7fa965e3bc25f5,"['icecoder', 'path', 'root', 'basename', 'condition', 'security', 'measure', 'path', 'traversal', 'languagebase', 'languageuser', 'malicious', 'passwd', 'icecoder', 'root', 'path', 'different', 'path', 'security', 'point', 'restricts', 'wrap', 'array', 'value', 'basename', 'file', 'name', 'path', 'traversal', 'issue']",Risky_resource_management,{'path traversal': 100}
+5ce3a9912c9ba7b8e1861de72043939863156b69,"['logout', 'dirname', 'file', 'loggedout', 'param', 'csrf', 'header', 'location']",Insecure_interaction_between_components,{'csrf': 100}
+9ba08fbf48b8093b12bec897f401f25ff7a4a852,"['version', 'security', 'vuln']",General,{'security': 100}
+05de070294681745bdc5c54b336dd48083feb59e,"['realpath', 'file', 'root', 'mismatch', 'attack', 'file', 'control', 'action', 'load', 'file', 'passwd', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+6a81152b051fcee9a0ad6463ebf03e0d0377ad6e,"['token', 'flag', 'function', 'tweak', 'flag', 'file', 'manager', 'reloads', 'load', 'function', 'github', 'auth', 'token', 'auth', 'clear', 'token', 'value', 'security', 'show', 'github', 'manager', 'pane', 'token', 'great', 'show', 'github', 'diff', 'mode', 'token', 'update', 'flasg']",General,{'security': 100}
+cc152db8ba5009e9ee707976bee79f99f02b4b62,"['csrf', 'value', 'line', 'githubauthtoken', 'value', 'config', 'setting', 'file', 'update']",Insecure_interaction_between_components,{'csrf': 100}
+8133adeab84cd7e845fb01f5bd9b08d2c3af927e,"['isset', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+d6fcf5a12184c4b08245485579d6813d4c17ff34,"['need', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+0daf6c3081fb68131a3dfb4171824d697252d57a,"['redo', 'security', 'header']",General,{'security': 100}
+1d5c74e424440cd6c8341fcec8568474a2cbfd1c,"['protection', 'header', 'file', 'file', 'item', 'csrf', 'check', 'post', 'instance', 'security']",Insecure_interaction_between_components,{'csrf': 100}
+c6bb782118b0d709894e9d46c63dff306c8a8cb3,"['csrf', 'querystrings']",Insecure_interaction_between_components,{'csrf': 100}
+b45817ec651c2be21097d1d50a65ae5c7afaccac,"['header', 'csrf', 'post']",Insecure_interaction_between_components,{'csrf': 100}
+a15dfda92c5081102635e99e63ed582ed677df28,"['header', 'csrf', 'post']",Insecure_interaction_between_components,{'csrf': 100}
+a3c0243772142ba3a516ca9d74d83ee701673cd1,"['header', 'csrf', 'form', 'field', 'form', 'field']",Insecure_interaction_between_components,{'csrf': 100}
+8b30c8b2ebef4e2e00f549d484659d516368a68d,"['plugin', 'data', 'curl', 'method', 'server', 'external', 'data', 'security', 'retstrictions']",General,{'security': 100}
+0da7ca2e4dac7c55cd4622633e9ca8e0a3af5fad,"['header', 'comment', 'emmet', 'security', 'item']",General,{'security': 100}
+bf755abbf495e27d3831cada7db3e5022865ba2d,"['script', 'domain', 'chrome', 'tighter', 'rule', 'security', 'auditorm', 'line', 'frame', 'script']",General,{'security': 100}
+2fa780236beb6d3664db5772729c797dda2e4b79,"['magic', 'quote', 'system', 'magic', 'quote', 'post', 'cookie', 'file', 'work', 'user', 'dependent', 'server', 'security', 'setting']",General,{'security': 100}
+f81ea9fe57d7a1f6485dd1898e3a5aa5f8d3f9c7,"['inclusion', 'setting', 'file', 'docroot', 'replaces', 'equivalent', 'path', 'file', 'path', 'chunk', 'need', 'simplification', 'area', 'path', 'area', 'code', 'clarity', 'file', 'link', 'relaitive', 'root', 'code', 'expose', 'full', 'server', 'path', 'good', 'security', 'tweak']",General,{'security': 100}
+5f5ebd12a42fe36177c5558b2c53387eea8b771a,"['highlight', 'tweak', 'shorturlstarts', 'everywhere', 'problematic', 'close', 'button', 'highlight', 'mouse', 'hover', 'file', 'client', 'side', 'security', 'fullpath']",General,{'security': 100}
+a63b9e3ff4664c1c4dbeaa3246a6e5ecf4a6b8fa,"['session', 'setting', 'tweak', 'simplication', 'session', 'object', 'warning', 'place', 'serverroot', 'docroot', 'specify', 'versionno', 'codemirrordir', 'cmthisver', 'overwrite', 'user', 'config', 'setting', 'time', 'version', 'pull', 'github', 'setting', 'icecoder', 'setting', 'array', 'settingsnew', 'array', 'loop', 'simpler', 'session', 'similar', 'docroot', 'iceroot', 'setting', 'file', 'available', 'everywhere', 'user', 'level', 'security', 'address', 'code', 'file', 'previousfiles', 'lastfiles', 'docroot', 'full', 'path', 'file', 'clearer', 'minor', 'tweak']",General,{'security': 100}
+0de026fc2b6910f3e894f8cfab94a9f2d5023dc8,"['password', 'config', 'need', 'security', 'risk']",General,{'security': 100}
+c28cd3506e256a89c8948d3b74559b165e77200f,"['plugins', 'array', 'replaces', 'html', 'reasonable', 'security']",General,{'security': 100}
+9925fc7692286451f4fc41f07de06e768f105f82,"['password', 'field', 'login', 'security', 'password', 'replaces', 'text', 'security']",General,{'security': 100}

@@ -1,16 +1,30 @@
-sha,message,catetory,matched,labels
-416442a43ea0cd40ed0f585fc76bc8401453cca2,"['window', 'volume', 'security']",General,{'security': 100},
-e6bf74a691994face1d71c5c97056d95d47dca0d,"['public', 'interface', 'address', 'check', 'miniupnpd', 'listenoption', 'address', 'interface', 'listenpublic', 'mistake', 'interfacepublic', 'miniupnpd', 'checkconfiguration', 'miniupnpd', 'local', 'security', 'prevents', 'check', 'interface', 'address', 'preventfirewall', 'configuration']",General,{'security': 100},
-dedbee16b1f831b971a258ef1db49d8663a9ac60,"['empty', 'crash', 'protocol', 'argument']",Risky_resource_management,{'crash': 100},
-9fcc0a72f09e6e1aa46ddcc997d3dcae87d4b416,"['overrun', 'buffer']",Risky_resource_management,{'overrun': 100},
-a0573e251817ec090a8c9f9f41b56d720c835a6c,"['buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100},
-165c5f0d57e07bfaa04506d2d2716a808c21cef8,"['check', 'stack', 'overflow', 'genxmlremove']",Risky_resource_management,{'stack overflow': 100},
-e076899a3761fc8ace517bef8dd46d2ae8060808,"['buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100},
-85d43c6e96587073c912996dac281d9df7fb1446,"['vulnerability', 'buffer', 'overflow', 'mentionnikolic', 'credit', 'talos', 'aleksandar', 'cisco']",Risky_resource_management,{'buffer overflow': 100},
-2f5cc790339cf69871162dcf535c1c5f08b836be,"['buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100},
-79cca974a4c2ab1199786732a67ff6d898051b78,"['buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100},
-dd39ecaa935a9c23176416b38a3b80d577f21048,"['content', 'digit', 'overrun', 'length', 'buffer', 'miniupnpdgoogle', 'security', 'credit', 'ttger', 'stephenvulnerability']",Risky_resource_management,{'overrun': 100},
-e6bc04aa06341fa4df3ccae87a167e9adf816911,"['potential', 'memory', 'miniupnpd', 'corruptiongoogle', 'security', 'credit', 'ttger', 'stephenvulnerability']",General,{'security': 100},
-82604ec5d0a12e87cb5326ac2a34acda9f83e837,"['miniupnpd', 'security', 'commentconfigure', 'people', 'comment', 'force']",General,{'security': 100},
-3a87aa2f10bd7f1408e1849bdb59c41dd63a9fe9,"['overrun', 'potential', 'buffer']",Risky_resource_management,{'overrun': 100},
-83032a62cac23c9405837d7f5e8e8c7adf0a8ca9,"['protocol', 'crash', 'argument']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+e6bf74a691994face1d71c5c97056d95d47dca0d,"['check', 'miniupnpd', 'interface', 'public', 'address', 'option', 'interface', 'address', 'option', 'public', 'address', 'user', 'mistake', 'interface', 'public', 'private', 'address', 'miniupnpd', 'miniupnpd', 'code', 'user', 'check', 'miniupnpd', 'configuration', 'local', 'firewall', 'setting', 'check', 'hint', 'prevents', 'security', 'issue', 'interface', 'address', 'firewall', 'configuration', 'public', 'internet']",General,{'security': 100}
+79858f9ec374eed3b10191f4fd4959ff70da72c4,"['update', 'security', 'miniupnpc']",General,{'security': 100}
+0d6d30a1eec4b814913530aaa6b3a54bae9bc399,"['security', 'link']",General,{'security': 100}
+8cd542a8099ad846483be7bfc68ae0356f7c985e,"['snprintf', 'emulation', 'window', 'separate', 'file', 'duplicate', 'implementation', 'miniupnp', 'source', 'file', 'emulation', 'mingw', 'case', 'mingw', 'snprintf', 'function', 'detection', 'mingw', 'variant', 'check', 'function', 'available', 'case', 'available', 'return', 'length', 'buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100}
+7d5fdf0743886e6d479b9a24d22e02bcb3aa82a0,"['miniupnpc', 'usage', 'window', 'function', 'differs', 'snprintf', 'overflow', 'return', 'buffer', 'size', 'overflow', 'byte', 'null', 'buffer', 'microsoft', 'snprintf', 'visual', 'studio', 'part', 'ucrt', 'mingw', 'contains', 'snprintf', 'implementation', 'mingw', 'version', 'snprintf', 'implementation', 'mingw', 'defines', 'macro', 'mingw', 'defines', 'number', 'byte', 'return', 'value', 'snprintf', 'update', 'miniupnpc', 'code', 'snprintf', 'compiler', 'runtime', 'update', 'miniupnpc', 'emulation', 'snprintf', 'function', 'buffer', 'overflow', 'inspiration', 'full', 'emulation', 'snprintf', 'available', 'mingw', 'stdio', 'library', 'http', 'sourceforge', 'mingw', 'mingw', 'master', 'tree', 'mingw', 'stdio', 'snprintf']",Risky_resource_management,{'buffer overflow': 100}
+92ec4d05ab7e4a97db043ec6306ebce74ee3d0ad,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+d41aceffb5a1f7d15bde3228085f83f585d629f3,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+d5ba9c368e1da40429b285a7cb8047804845a724,"['memroy', 'leak']",Risky_resource_management,{'memroy leak': 91}
+e1b4f25bba4bd5146bfb950b3c5c2ce711a43e5f,"['memory', 'leak', 'malloc']",Risky_resource_management,{'memory leak': 100}
+dedbee16b1f831b971a258ef1db49d8663a9ac60,"['check', 'null', 'crash', 'strcasecmp', 'empty', 'protocol', 'argument']",General,{'crash': 100}
+9fcc0a72f09e6e1aa46ddcc997d3dcae87d4b416,"['minissdpc', 'buffer', 'overrun', 'ssdp', 'packet', 'error', 'processssdpdata', 'header', 'byte', 'buffer']",Risky_resource_management,{'overrun': 100}
+a0573e251817ec090a8c9f9f41b56d720c835a6c,"['minixml', 'heap', 'buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100}
+165c5f0d57e07bfaa04506d2d2716a808c21cef8,"['upnpdescgen', 'check', 'stack', 'overflow', 'genxml']",Risky_resource_management,{'stack overflow': 100}
+948b883966cb283c808638523821733471b03dc2,"['memory', 'leak', 'realloc']",Risky_resource_management,{'memory leak': 100}
+e076899a3761fc8ace517bef8dd46d2ae8060808,"['buffer', 'overflow', 'code']",Risky_resource_management,{'buffer overflow': 100}
+85d43c6e96587073c912996dac281d9df7fb1446,"['buffer', 'overflow', 'vulnerability', 'changelog', 'credit', 'aleksandar', 'nikolic', 'cisco', 'talos']",Risky_resource_management,{'buffer overflow': 100}
+2f5cc790339cf69871162dcf535c1c5f08b836be,"['buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100}
+79cca974a4c2ab1199786732a67ff6d898051b78,"['buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100}
+7e088a903931d0de46072f2871ceb0dee9c67a4c,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+ba753120dfc4444beca540f40720687f68422fc1,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+dd39ecaa935a9c23176416b38a3b80d577f21048,"['miniupnpd', 'upnphttp', 'buffer', 'overrun', 'content', 'length', 'digit', 'credit', 'stephen', 'ttger', 'google', 'security', 'team']",Risky_resource_management,{'overrun': 100}
+e6bc04aa06341fa4df3ccae87a167e9adf816911,"['miniupnpd', 'upnpsoap', 'potential', 'memory', 'corruption', 'upnpsoap', 'credit', 'stephen', 'ttger', 'google', 'security', 'team']",Risky_resource_management,{'memory corruption': 100}
+82604ec5d0a12e87cb5326ac2a34acda9f83e837,"['miniupnpd', 'miniupnpd', 'conf', 'security', 'comment', 'value', 'force', 'people', 'configure']",General,{'security': 100}
+338a533a09800e865272f55a17a98c7b1d4308d3,"['miniupnpd', 'pcpserver', 'preliminary', 'work', 'control', 'preliminary', 'flag', 'paranoid', 'security', 'problem', 'length', 'check', 'right', 'place', 'time']",General,{'security': 100}
+3a87aa2f10bd7f1408e1849bdb59c41dd63a9fe9,"['miniwget', 'potential', 'buffer', 'overrun']",Risky_resource_management,{'overrun': 100}
+dce91afe3cedb4e30cfd822b7c274ec229d289df,"['upnpsoap', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+c0d4c9d24ae03da882d4c35d42fb0b911fad523f,"['upnpsoap', 'atoi', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+83032a62cac23c9405837d7f5e8e8c7adf0a8ca9,"['crash', 'protocol', 'argument']",General,{'crash': 100}
+4e79d6b983b23fe0f494e4fb3c1e1fcc3a84ce8d,"['minor', 'memory', 'leak', 'upnppermlist']",Risky_resource_management,{'memory leak': 100}

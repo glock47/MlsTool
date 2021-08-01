@@ -1,19 +1,8 @@
-sha,message,catetory,matched,labels
-67c822c21b3cdcd16ba3cc94549b9e42530ba644,"['updateresolve', 'security']",General,{'security': 100},
-8f089c6b70758f30de07603b318c8e5ed9ec70a8,"['crash', 'memory', 'mouse', 'straightforward', 'logical', 'cursor', 'renderer', 'outsideexpose', 'event', 'graphical', 'artifact', 'display', 'transition', 'force', 'fullscreen', 'repaint']",Risky_resource_management,{'crash': 100},
-8480fc28f87c19b7c22a66a49a15bea6f4bb15b0,"['buffer', 'overun']",Risky_resource_management,{'overun': 92},
-0026f9be33f4e41012defb37034e89ec24cd39d2,"['current', 'crash', 'patch']",Risky_resource_management,{'crash': 100},
-814128d660086f188f58dd8b10d4b0911fe118a7,"['memcpy', 'crash', 'strcpy']",Risky_resource_management,{'crash': 100},
-361885a31877599a2227597b45f0265418867295,"['timer', 'operation', 'countless', 'mutex', 'likely', 'deadlock']",Risky_resource_management,{'deadlock': 100},
-4db4229ae6322402a86ce6c0df03340c052ff612,"['voice', 'deadlock']",Risky_resource_management,{'deadlock': 100},
-6b44fe7ba9c9327df08b27f895ab5985be6cab01,"['mistake', 'crash', 'refinery', 'nasty']",Risky_resource_management,{'crash': 100},
-3b2e0773ca75e968b2100aba1e0e29bd234ec0e4,"['stillnewlib', 'deadlock', 'thread']",Risky_resource_management,{'deadlock': 100},
-c2eed89318d84685378705abd6b84e51afe41ec2,"['esphttpd', 'increase', 'wsbcast', 'stack', 'overflow']",Risky_resource_management,{'stack overflow': 100},
-a0f846013c473a4215deeebe2718e049bcc62548,"['special', 'interupt', 'debug', 'printsafer', 'state', 'specialdivide', 'timerstartoption', 'reversecomment', 'crash']",Risky_resource_management,{'crash': 100},
-1e9296f60cbe5679d1c532530071c1080ad13c06,"['fatalcorruption', 'major', 'detailexception', 'handler', 'crash']",Risky_resource_management,{'crash': 100},
-d39b3f6bb6cdd874a5128f05fafd7601cd9a1c3f,"['handler', 'stack', 'overflow']",Risky_resource_management,{'stack overflow': 100},
-5497b1438cdece751d99c917c558631b94922188,"['parameter', 'default', 'unexpected', 'value', 'proper', 'validation', 'specify', 'restore', 'error']",Risky_resource_management,{'proper validation': 94},
-c9b3fdb212fe86546671bdd73ce68189f294faa1,"['username', 'password', 'domain', 'loginoption', 'issue', 'password', 'credential', 'domain', 'tedious', 'security', 'username', 'plaintext', 'relevantrather', 'impact', 'security']",General,{'security': 100},
-e0020b7b3cc2c3dbf5172ffd2d789f1d819be4ab,"['support', 'session', 'security', 'complete', 'workstation']",General,{'security': 100},
-3e513054265efdc0befc12407ff3ff108c9383dc,"['mergemerge', 'master', 'request', 'drudgeevent', 'crash', 'suppress', 'handler', 'final', 'placeholder']",Risky_resource_management,{'crash': 100},
-f0909cbd0cca107c7cb475614613c6f77fc14d48,"['event', 'crash', 'suppress', 'handler', 'final', 'placeholder']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+16366a520ce7d303f706ad31546bbd0aa5d21d80,"['pull', 'request', 'tediousjs', 'stack', 'overflow', 'maximum', 'call', 'stack', 'error', 'query', 'result']",Risky_resource_management,{'stack overflow': 100}
+15fcec6c9142b61dcfb1ad8de8ecc285beafd085,"['pull', 'request', 'tediousjs', 'arthur', 'eventemitter', 'leak', 'memory', 'leak', 'event', 'handler']",Risky_resource_management,{'memory leak': 100}
+775b2390d33e66336a0ad987d528f245d4d4207e,"['event', 'handler', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+c9b3fdb212fe86546671bdd73ce68189f294faa1,"['username', 'password', 'login', 'domain', 'security', 'relevant', 'issue', 'tedious', 'username', 'password', 'plaintext', 'domain', 'option', 'security', 'impact', 'ntlm', 'hash', 'plain', 'text', 'credential']",General,{'security': 100}
+e0020b7b3cc2c3dbf5172ffd2d789f1d819be4ab,"['complete', 'support', 'workstation', 'ntlmv', 'session', 'security', 'negotiation']",General,{'security': 100}
+3e513054265efdc0befc12407ff3ff108c9383dc,"['pull', 'request', 'drudge', 'master', 'placeholder', 'event', 'handler', 'suppress', 'crash']",General,{'crash': 100}
+f0909cbd0cca107c7cb475614613c6f77fc14d48,"['placeholder', 'event', 'handler', 'suppress', 'crash']",General,{'crash': 100}

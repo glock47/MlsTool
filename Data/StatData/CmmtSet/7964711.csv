@@ -1,9 +1,35 @@
-sha,message,catetory,matched,labels
-855e10cd6a581dafc47ac767cdb5b50fb64b0e24,"['setting', 'crash']",Risky_resource_management,{'crash': 100},
-4252ffd8bdeef364cfd87f57ccdee050d769d86e,"['requestkitkat', 'level', 'crash']",Risky_resource_management,{'crash': 100},
-6929ccb8bdc564d4d628fafd8d63cbc6439f7023,"['kitkat', 'level', 'crash']",Risky_resource_management,{'crash': 100},
-1f1d1e7f3252f0b95de4efdf0952b65799b9679c,"['bonsai', 'upgrade', 'crash']",Risky_resource_management,{'crash': 100},
-8763f356689e79195bd5e2538734c8f19e017f36,"['kitkat', 'update', 'gradle', 'plugin', 'version', 'crash']",Risky_resource_management,{'crash': 100},
-da4985d4deedbabb6874c921ef38fb6729d226ac,"['browser', 'opening', 'crash']",Risky_resource_management,{'crash': 100},
-577efb76a41a7685689f0b0c337f10034484f6c1,"['vulnerability', 'security', 'selector']",General,{'security': 100},
-c4e244a82b81bdd6cfc5020a147201b031036345,"['crash', 'search', 'incognito']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+855e10cd6a581dafc47ac767cdb5b50fb64b0e24,"['setting', 'initialization', 'crash']",General,{'crash': 100}
+95f5342cc2310147001efb6b7d5cbd32000364df,"['potential', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+63e77995acfa49cb504109e2c941bd18e15812cb,"['potential', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+4252ffd8bdeef364cfd87f57ccdee050d769d86e,"['pull', 'request', 'xiehuihui', 'crash', 'kitkat', 'level']",General,{'crash': 100}
+1f1d1e7f3252f0b95de4efdf0952b65799b9679c,"['crash', 'restore', 'bonsai', 'upgrade']",General,{'crash': 100}
+15cb950af368a474e880671e12656bbebb131dcf,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+6b69eb6edd3df3f220ce28cfe8490d1567d771a8,"['null', 'pointer', 'exception']",Risky_resource_management,{'null pointer': 100}
+3643a924996b760c8dc31e88afcd80ca69af8cdd,"['crash', 'history']",General,{'crash': 100}
+719b281bacacdab0a10607eb6c8006c756b61324,"['print', 'crash', 'external', 'storage', 'debug']",General,{'crash': 100}
+dffd572afc4ca57d892a1d4acce949f5577c32c5,"['memory', 'leak', 'android', 'framework']",Risky_resource_management,{'memory leak': 100}
+7a256707a79c0c8b397e235ec7c6ce77432f6717,"['search', 'suggestion', 'code', 'potential', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+984aa133ece036119d33e02abb0f34dc8602ab4a,"['null', 'pointer', 'exception', 'leak', 'canary', 'version']",Risky_resource_management,{'null pointer': 100}
+6d47d7232f192d203d4fc76af3e3fb191a157d5c,"['null', 'pointer', 'exception']",Risky_resource_management,{'null pointer': 100}
+58d8cb6a360eb57befcd4ea135e5f07499799887,"['null', 'pointer', 'exception']",Risky_resource_management,{'null pointer': 100}
+8763f356689e79195bd5e2538734c8f19e017f36,"['update', 'gradle', 'version', 'crash', 'kitkat', 'gradle', 'plugin', 'version']",General,{'crash': 100}
+8132b34bbf67cf224f254dfb313ee621a52997b4,"['potential', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+7486ebe3c4b7f9a50baa10b0a5adc5eb4b478de3,"['memory', 'leak', 'useless', 'statement']",Risky_resource_management,{'memory leak': 100}
+e2d46bdae2dfc62fdb42792fdb9b2c0cdef57f83,"['strictmode', 'problem', 'reactive', 'implementation', 'class', 'potential', 'npes', 'memory', 'leak', 'main', 'thread', 'reactive', 'class', 'observable', 'work', 'potential', 'npes', 'lightningview', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+da4985d4deedbabb6874c921ef38fb6729d226ac,"['crash', 'opening', 'browser', 'intent']",General,{'crash': 100}
+ee52e00c83907dacb5201351a829150b980ae46c,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+cb19ce2d0ad6a4e0b0df184238d289107dad5fae,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+1eeddaf502b8d5f6ef613875191ddea91cc6aa79,['crash'],General,{'crash': 100}
+8169294c807aa45e56b5946292b9fd8af04159a9,"['workaround', 'opinion', 'neccessary', 'browser', 'open', 'local', 'file', 'local', 'file', 'security', 'risk', 'user', 'opening', 'local', 'file']",General,{'security': 100}
+7aaf6d17714b58a0f604574bf7a576c76d0f1c1a,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+577efb76a41a7685689f0b0c337f10034484f6c1,"['security', 'vulnerability', 'intent', 'selector']",General,{'security': 100}
+72ee377a351549faa75423d833cde04e81a8ca72,"['asynctasks', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+99e4773e453953066923fd8a2e5a4cb1a7fb139e,"['preliminary', 'permission', 'crash']",General,{'crash': 100}
+5dff2db5df1079d2de508cd5ef867c2f8b05b7ac,"['leakcanary', 'library', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+c4e244a82b81bdd6cfc5020a147201b031036345,"['incognito', 'mode', 'safer', 'crash', 'search', 'adapter']",General,{'crash': 100}
+d3da19a26117a32707b215adf918a2e979b15748,['crash'],General,{'crash': 100}
+10a18373d3d74b1d327f54b439ec38749cdfc843,"['crash', 'workaround', 'crash', 'close', 'zoom', 'button', 'error', 'webview', 'database']",General,{'crash': 100}
+3c1627bfd89391b11a37e02c4f28cc053154a4d2,"['crash', 'device', 'aosp', 'browser']",General,{'crash': 100}
+3eaec7c2eed802dea7c9c53b1c471a824cb89398,"['bugfix', 'crash', 'device', 'aosp', 'browser']",General,{'crash': 100}
+c68e8567411d63201dc5f61fd6ce455604f415bb,"['fullscreen', 'battery', 'life', 'hebrew', 'language', 'history', 'work', 'sqlite', 'database', 'couple', 'crash', 'bookmark', 'downloads', 'thanks', 'aeefire', 'advice']",General,{'crash': 100}

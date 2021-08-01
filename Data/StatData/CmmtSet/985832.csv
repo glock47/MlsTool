@@ -1,2 +1,5 @@
-sha,message,catetory,matched,labels
-db857f354b9f2c8b6a155c3c75180a6f07e5d1dd,"['bandit', 'security']",General,{'security': 100},
+sha,message,catetory,matched
+37966a73d670d54e918c137299075c4a13628a05,"['support', 'reference', 'resolution', 'resource', 'path', 'offset', 'path', 'traversal', 'core', 'alpaca', 'resolvers']",Risky_resource_management,{'path traversal': 100}
+71222a47627b604d1f9cb0cdd3981aadf2fd5a44,"['support', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+2a37a316a45f8bf1893d6a1fc4a36c9cd3a3af07,"['support', 'crash', 'issue', 'jquery', 'json', 'package']",General,{'crash': 100}
+cf3ea3368cc2bbee9bdb9b90eae8d92405d6ef55,"['memory', 'leak', 'alpaca', 'field', 'instance', 'reference', 'memory', 'test', 'test', 'memory', 'cleanup', 'reference', 'image', 'directory']",Risky_resource_management,{'memory leak': 100}

@@ -1,24 +1,12 @@
-sha,message,catetory,matched,labels
-e252f4aafd7761535545d42c79bced11cd63df25,"['default', 'insecure', 'reasoning', 'document']",General,{'insecure': 100},
-15a9c94fecc8fadfe45882f57db1544da0a70ccd,"['request', 'ehashmansanitization', 'security']",General,{'security': 100},
-4848232eeab16033a338ebd59c80e3cbfccf02b0,"['ceacbmerge', 'requestpropose', 'ephemeral', 'security', 'container', 'context']",General,{'security': 100},
-394ee670919844994c84be08198d403c85ebf89b,"['ccfecemerge', 'backup', 'insecure', 'deadsk', 'requestconfirm', 'backend', 'proxy', 'insecure', 'reviewer']",General,{'insecure': 100},
-765268e0a593aa13c3fec423100383ff62d8f9c8,"['backend', 'proxy', 'insecure', 'reviewer']",General,{'insecure': 100},
-20d8d44eacb3b6561a06ffb48ed4435080268769,"['sanitization', 'security']",General,{'security': 100},
-8f92c3e9b17001a658182d2775bdd421869c7e89,"['backend', 'insecure', 'deadsk', 'requestupdate', 'backend', 'target', 'proxy', 'insecure']",General,{'insecure': 100},
-ccb405280942579861d4bee98e80fab936f2eca9,"['metric', 'backend', 'specific', 'proxy', 'insecure']",General,{'insecure': 100},
-4e0c72b26944896bff088eb8ec74740d81699dab,"['backend', 'target', 'proxy', 'insecure']",General,{'insecure': 100},
-4252e8f1a4cdb7af6f30d7321d340de9c5e8fb4e,"['mergemerge', 'request', 'master', 'security', 'window', 'context']",General,{'security': 100},
-1ac44a2d7a8aba3981bc1b33701f84c25c691ecf,"['mergemerge', 'request', 'master', 'ddebroyupdate', 'option', 'window', 'security']",General,{'security': 100},
-a67372e52e70a8c25a4b01bfe0c92e915a03ad8d,"['mergemerge', 'request', 'master', 'ddebroywindow', 'context', 'security']",General,{'security': 100},
-fe1b8fd20e367cd036fcb2bd4b955a984648d284,"['mergemerge', 'request', 'kubernetes', 'patch', 'dchencombine', 'section', 'order', 'security']",General,{'security': 100},
-72946cd4a7a9ab95769748b78317b6651ae66057,"['section', 'order', 'security']",General,{'security': 100},
-0b0cf5e867d60b8bb000cf83ec48bd48434f8108,"['mergemerge', 'calabash', 'client', 'backdoor', 'route', 'requestupdate', 'lpbackdoorroute', 'backdoor', 'behavior', 'method']",Insecure_interaction_between_components,{'backdoor': 100},
-29d4abb9b539b6540e18a26ffe8b4b83463c537b,"['method', 'backdoor', 'rewriteserver', 'backdoor', 'arbitrary', 'route', 'methodserver', 'calabash']",Insecure_interaction_between_components,{'backdoor': 100},
-634fe208aa371fa84eb32fa582e3cdacd175aa67,"['mergemerge', 'calabash', 'error', 'backdor', 'requestargument', 'selector', 'backdoor', 'warning']",Insecure_interaction_between_components,{'backdoor': 100},
-5f807d230c2528b5a091d7a824a4722c095588db,"['warning', 'backdoor']",Insecure_interaction_between_components,{'backdoor': 100},
-7fc9163fbec587d4fdedd2525230a6366be6616c,"['mergemerge', 'parse', 'crash', 'calabash', 'request', 'suppressmeaningful', 'parse', 'error', 'exception']",Risky_resource_management,{'crash': 100},
-ac11b8eb7a707a31e151fde0128fc46e22cab7a9,"['sandbox', 'backdoor']",Insecure_interaction_between_components,{'backdoor': 100},
-53263a12f40c6dc0694fd8766a96a07bdafb8c20,"['warning', 'security']",General,{'security': 100},
-97ef4167c8a212e310c7123d83b1b7ae402b7491,"['addedcause', 'server', 'crash', 'fault']",Risky_resource_management,{'crash': 100},
-b018aa177fd4200bd08a6f5cfbec9babf218b8f6,"['mergemerge', 'jmoody', 'crash', 'device', 'target', 'requestdevice', 'method', 'crash']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+0b0cf5e867d60b8bb000cf83ec48bd48434f8108,"['pull', 'request', 'calabash', 'backdoor', 'route', 'update', 'backdoor', 'method', 'lpbackdoorroute', 'behavior']",Insecure_interaction_between_components,{'backdoor': 100}
+29d4abb9b539b6540e18a26ffe8b4b83463c537b,"['core', 'rewrite', 'backdoor', 'method', 'backdoor', 'route', 'arbitrary', 'method', 'signature', 'http', 'github', 'calabash', 'calabash', 'server', 'pull']",Insecure_interaction_between_components,{'backdoor': 100}
+634fe208aa371fa84eb32fa582e3cdacd175aa67,"['pull', 'request', 'calabash', 'backdor', 'error', 'message', 'backdoor', 'selector', 'argument']",Insecure_interaction_between_components,{'backdoor': 100}
+55eb16c134686ce50dda29d7a967cdfda590a03d,"['backdoor', 'argument']",Insecure_interaction_between_components,{'backdoor': 100}
+7fc9163fbec587d4fdedd2525230a6366be6616c,"['pull', 'request', 'calabash', 'suppress', 'json', 'parse', 'crash', 'json', 'parse', 'exception', 'meaningful', 'error']",General,{'crash': 100}
+9688c7460a81b4542caba554d483a346cc92d50b,"['relaxes', 'success', 'criterion', 'cucumber', 'travis', 'cuke', 'security', 'dialog']",General,{'security': 100}
+53263a12f40c6dc0694fd8766a96a07bdafb8c20,"['travis', 'test', 'sims', 'security', 'warning']",General,{'security': 100}
+19d6a9349fccdb08e5d7569d2b6d0732205bc794,['backdoor'],Insecure_interaction_between_components,{'backdoor': 100}
+97ef4167c8a212e310c7123d83b1b7ae402b7491,"['guard', 'server', 'fault', 'crash']",General,{'crash': 100}
+b018aa177fd4200bd08a6f5cfbec9babf218b8f6,"['pull', 'request', 'jmoody', 'device', 'crash', 'ipad', 'target', 'device', 'method', 'crash', 'ipad', 'device']",General,{'crash': 100}
+b62c30d3f35d30e1c535f62713b6c39ba36f521b,"['support', 'backdoor', 'framework', 'dependency', 'version']",Insecure_interaction_between_components,{'backdoor': 100}

@@ -1,30 +1,43 @@
-sha,message,catetory,matched,labels
-edd3755d9c79888d79f828bdd0116251194698ef,"['content', 'policy', 'chore', 'security', 'exampleformat', 'chore', 'index', 'prettierstyle', 'chore', 'index']",General,{'security': 100},
-76d1c497aed3eb8d22a5770355018b111180a2af,"['warning', 'chore', 'security', 'silence', 'update']",General,{'security': 100},
-95fb0e855e122e618dac7e13523976b1ce4b7726,"['chore', 'protection', 'enable', 'security', 'springboot', 'example']",General,{'security': 100},
-bab089fe3b9d8ebf9438288d0a89b6cf51c127d5,"['hawtio', 'console', 'entesb', 'support', 'protection', 'security', 'assembly', 'springintegration', 'hawtio', 'upgrade']",General,{'security': 100},
-fd9c96236e05d5f042f85b845c1ccf477ee58a50,"['hawtio', 'entesb', 'support', 'authentication', 'security', 'system', 'spring']",General,{'security': 100},
-5aade491c11e03c32187d1b84531db7f48ded10c,"['hawtio', 'entesb', 'application', 'security', 'spring', 'springboot', 'enhancement']",General,{'security': 100},
-5b77deb1d5453b06eceff78d531e2f281e94e4c9,"['entesb', 'content', 'policy', 'frame', 'configure', 'keycloak', 'security']",General,{'security': 100},
-d692133397db4cd35e48775f5ac5cbfa074a24fc,"['hawtio', 'entesb', 'policy', 'content', 'security', 'header']",General,{'security': 100},
-5fcc8f5f155773d66d51882724d380ab12b80660,"['entesb', 'security', 'system']",General,{'security': 100},
-b43baba6eed29863b0aaeca20a875aa2fb0030c0,"['entesb', 'security', 'system']",General,{'security': 100},
-3ecee33b20b1b5a8b32b85e6b45491dcaadfc7b4,"['entesb', 'hawtio', 'enabledrevertscurrent', 'hawtio', 'security', 'systemworkaround', 'reverts']",General,{'security': 100},
-14bec5e0d242b7d59958e669232a1756e4778411,"['corsfilter', 'corsconfigurer', 'conflict', 'security']",General,{'security': 100},
-cff6d26e98f26c40faec80922cf3e43e28ca94a7,"['corsfilter', 'corsconfigurer', 'conflict', 'security', 'spring']",General,{'security': 100},
-841e7472bd526ea9ba7862d4c5999d3cce54d0fc,"['hawtio', 'configure', 'domain', 'security']",General,{'security': 100},
-77237142246e8e8b8f0715b0b9ffe8360c364811,"['reason', 'console', 'chrome', 'loader', 'library', 'security', 'plugin', 'error']",General,{'security': 100},
-bcec7d9241731ae30796354b41bfb8a41bdc039d,"['angular', 'security', 'spike']",General,{'security': 100},
-7d683ea1f51424aa6c7c5353829fe51c4a968a11,"['security', 'tomcat']",General,{'security': 100},
-24b06c977f96a70dedb2cc496dca4b665b649ebe,"['support', 'security', 'tomcat']",General,{'security': 100},
-dced81ddfbd3baea79fea58898ab768921d6156e,"['support', 'security', 'tomcat']",General,{'security': 100},
-a640b54cde52761c8031c1c614e72078fbaf2e5f,"['support', 'security', 'tomcat']",General,{'security': 100},
-67d3b8483637ef38917b5c18ef39e53229585442,"['support', 'security', 'tomcat']",General,{'security': 100},
-e672a62c82e4893f11c2badd351592682425651d,"['security', 'tomcat']",General,{'security': 100},
-638bee8ebdc943be449f61a329dfcd60508b1071,"['support', 'security', 'tomcat']",General,{'security': 100},
-1446a6d269fc1d28e30df842834cfda1655a2741,"['support', 'security', 'tomcat']",General,{'security': 100},
-e1a7ce7bbcffc708ae6c8ea6766040c8035838a8,"['support', 'security', 'tomcat']",General,{'security': 100},
-2556c624fda70e110c2d77535e93a343bbb793f7,"['support', 'security', 'tomcat']",General,{'security': 100},
-7cdc20f9c32d33ac145a385ed23f8a1212a579df,"['security', 'container', 'jetty']",General,{'security': 100},
-be6aa025bfd926222849f6b87eab24b1d963abd0,"['karaf', 'security', 'servicemix']",General,{'security': 100},
-36935b0544cb071df9f54c81e1c377d25d9afd93,"['configuration', 'security']",General,{'security': 100},
+sha,message,catetory,matched
+6e5dbd1ac3e4206f9f0aa642a585a73510433fb8,"['hawtio', 'system', 'entesb', 'regression', 'entesb', 'authorization', 'hawtio', 'security', 'jboss']",General,{'security': 100}
+95fb0e855e122e618dac7e13523976b1ce4b7726,"['chore', 'example', 'enable', 'csrf', 'protection', 'springboot', 'security', 'example']",Insecure_interaction_between_components,{'csrf': 100}
+bab089fe3b9d8ebf9438288d0a89b6cf51c127d5,"['feat', 'hawtio', 'console', 'assembly', 'entesb', 'support', 'csrf', 'protection', 'spring', 'security', 'upgrade', 'hawtio', 'integration']",Insecure_interaction_between_components,{'csrf': 100}
+fd9c96236e05d5f042f85b845c1ccf477ee58a50,"['feat', 'hawtio', 'system', 'entesb', 'support', 'authentication', 'spring', 'security']",General,{'security': 100}
+abb1f2bbe02aca533b1ee8001792ba4d0c8c8e30,"['entesb', 'memory', 'leak', 'camel', 'attribute', 'page']",Risky_resource_management,{'memory leak': 100}
+5aade491c11e03c32187d1b84531db7f48ded10c,"['springboot', 'entesb', 'hawtio', 'http', 'security', 'enhancement', 'spring', 'boot', 'application']",General,{'security': 100}
+5b77deb1d5453b06eceff78d531e2f281e94e4c9,"['entesb', 'configure', 'content', 'security', 'policy', 'frame', 'keycloak']",General,{'security': 100}
+d692133397db4cd35e48775f5ac5cbfa074a24fc,"['security', 'entesb', 'content', 'security', 'policy', 'http', 'header', 'hawtio']",General,{'security': 100}
+5fcc8f5f155773d66d51882724d380ab12b80660,"['feat', 'hawtio', 'system', 'entesb', 'http', 'security']",General,{'security': 100}
+b43baba6eed29863b0aaeca20a875aa2fb0030c0,"['feat', 'hawtio', 'system', 'entesb', 'http', 'security']",General,{'security': 100}
+3ecee33b20b1b5a8b32b85e6b45491dcaadfc7b4,"['sure', 'hawtio', 'work', 'current', 'hawtio', 'security', 'system', 'work', 'elytron', 'reverts', 'previous', 'workaround']",General,{'security': 100}
+14bec5e0d242b7d59958e669232a1756e4778411,"['bean', 'name', 'corsfilter', 'conflict', 'spring', 'security', 'corsconfigurer', 'cherry']",General,{'security': 100}
+cff6d26e98f26c40faec80922cf3e43e28ca94a7,"['bean', 'name', 'corsfilter', 'conflict', 'spring', 'security', 'corsconfigurer']",General,{'security': 100}
+841e7472bd526ea9ba7862d4c5999d3cce54d0fc,"['configure', 'hawtio', 'security', 'domain']",General,{'security': 100}
+1d883216e74e5bbafc4a29b271296831f154d15e,"['entesb', 'memory', 'leak', 'cherry']",Risky_resource_management,{'memory leak': 100}
+ab0d6dbddfe429e15d3736428e6f3a06c43b6985,"['optimize', 'jolokia', 'list', 'increase', 'default', 'cherry', 'hawtio', 'type', 'security', 'name', 'rbacregistry', 'mbean', 'rbac', 'list', 'operation', 'cherry', 'import', 'package', 'cherry', 'entesb', 'canonical', 'mbeans', 'cherry', 'entesb', 'jolokialist', 'rbac', 'hawtio', 'cherry', 'rbacregistry', 'hawtio', 'system', 'reusable', 'hawtio']",General,{'security': 100}
+2fdc2e7be1d9174e22e0e79bc1b6059a36b43c10,"['pull', 'request', 'bjornhilstad', 'master', 'security', 'jboss']",General,{'security': 100}
+85a663eff8a289006a9167af6b13e9a2f989afa7,"['security', 'jboss']",General,{'security': 100}
+2f77613d9d28aa244f100d55d9b769bdbae29bee,"['stack', 'overflow', 'error', 'hide', 'type', 'logginginit', 'angular']",Risky_resource_management,{'stack overflow': 100}
+77237142246e8e8b8f0715b0b9ffe8360c364811,"['directive', 'security', 'reason', 'chrome', 'apps', 'chrome', 'apps', 'script', 'reason', 'plugin', 'loader', 'code', 'library', 'error', 'console']",General,{'security': 100}
+bcec7d9241731ae30796354b41bfb8a41bdc039d,"['angular', 'security', 'stuff', 'chrome', 'chrome']",General,{'security': 100}
+7d683ea1f51424aa6c7c5353829fe51c4a968a11,"['tomcat', 'security']",General,{'security': 100}
+24b06c977f96a70dedb2cc496dca4b665b649ebe,"['tomcat', 'security', 'support', 'conf', 'tomcat', 'user', 'work', 'progress']",General,{'security': 100}
+dced81ddfbd3baea79fea58898ab768921d6156e,"['tomcat', 'security', 'support', 'conf', 'tomcat', 'user', 'work', 'progress']",General,{'security': 100}
+a640b54cde52761c8031c1c614e72078fbaf2e5f,"['tomcat', 'security', 'support', 'conf', 'tomcat', 'user', 'work', 'progress']",General,{'security': 100}
+67d3b8483637ef38917b5c18ef39e53229585442,"['tomcat', 'security', 'support', 'conf', 'tomcat', 'user', 'work', 'progress']",General,{'security': 100}
+92163a2038b214a27ead618604dd9c1afb559eea,"['authentication', 'security', 'system', 'property', 'coonfigure', 'role', 'class']",General,{'security': 100}
+780c0998f328f9a8205d3a05361068e83d333a23,"['stack', 'overflow', 'community', 'page']",Risky_resource_management,{'stack overflow': 100}
+e672a62c82e4893f11c2badd351592682425651d,"['tomcat', 'security']",General,{'security': 100}
+638bee8ebdc943be449f61a329dfcd60508b1071,"['tomcat', 'security', 'support', 'conf', 'tomcat', 'user', 'work', 'progress']",General,{'security': 100}
+1446a6d269fc1d28e30df842834cfda1655a2741,"['tomcat', 'security', 'support', 'conf', 'tomcat', 'user', 'work', 'progress']",General,{'security': 100}
+e1a7ce7bbcffc708ae6c8ea6766040c8035838a8,"['tomcat', 'security', 'support', 'conf', 'tomcat', 'user', 'work', 'progress']",General,{'security': 100}
+2556c624fda70e110c2d77535e93a343bbb793f7,"['tomcat', 'security', 'support', 'conf', 'tomcat', 'user', 'work', 'progress']",General,{'security': 100}
+9fdd050bd2e37bd62d2e861d8717cc58d183f71e,"['authentication', 'security', 'system', 'property', 'coonfigure', 'role', 'class']",General,{'security': 100}
+df2d5488037eb5b5c024076a9017e2b3bac6beea,"['stack', 'overflow', 'community', 'page']",Risky_resource_management,{'stack overflow': 100}
+7cdc20f9c32d33ac145a385ed23f8a1212a579df,"['small', 'security', 'hawtio', 'osgi', 'container', 'jetty', 'jetty']",General,{'security': 100}
+be6aa025bfd926222849f6b87eab24b1d963abd0,"['security', 'karaf', 'servicemix', 'fuse']",General,{'security': 100}
+71910d66eb453c2596367aecc101dc3b6570693c,"['link', 'security', 'section', 'security', 'configuration', 'setting', 'configuration', 'page']",General,{'security': 100}
+36935b0544cb071df9f54c81e1c377d25d9afd93,"['security', 'configuration']",General,{'security': 100}
+db86d6f71b9e1caf232a7f7459065a92cdc44bd2,"['operation', 'cheap', 'default', 'concise', 'exception', 'stack', 'overflow', 'huge', 'amount', 'space']",Risky_resource_management,{'stack overflow': 100}
+49454ed54e203c966c3566df63c1a3066834f378,"['complexity', 'double', 'tree', 'issue', 'dynatree', 'folder', 'object', 'real', 'dyna', 'tree', 'structure']",Risky_resource_management,{'double tree': 91}
+923cd1a5eab89df8154c2f743e0d3bef395bb281,"['example', 'access', 'control', 'file']",Porous_defenses,{'access control': 100}

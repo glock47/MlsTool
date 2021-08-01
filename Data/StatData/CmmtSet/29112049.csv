@@ -1,0 +1,29 @@
+sha,message,catetory,matched
+7ba2c9344d51f6b462ed39e74ab217cf96255aae,"['pull', 'request', 'imachug', 'segfault', 'threadpool', 'context', 'manager', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+09e65e1d95ebb61f43261dc01697747a48e9eee5,"['threadpool', 'context', 'manager', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+abee87bbec1c480fcae789dc5c08c3421a088cb5,"['timeout', 'memory', 'leak', 'test']",Risky_resource_management,{'memory leak': 100}
+dfd55c3957b0faaeac56a1769cd2f477ee2ac57c,"['memory', 'leak', 'sleep', 'thread']",Risky_resource_management,{'memory leak': 100}
+bb705ae863e2943c20500305067cd57f0986f969,"['source', 'code', 'reloader', 'crash', 'directory', 'modification', 'file', 'deletion']",General,{'crash': 100}
+8185f4dfdab578d644504a4f05e53feac42e6e40,"['test', 'getfile', 'security']",General,{'security': 100}
+907a26a8b956db904d092eb72d17536ff3a169f4,"['care', 'exception', 'wont', 'crash', 'zeronet']",General,{'crash': 100}
+c7a8a3933e2e5faea6a7ee8de1a7122302e4d5c4,"['standard', 'http', 'error', 'exception', 'path', 'security', 'error']",General,{'security': 100}
+59c6ee7ade7673ca0188b4360c5ba57450b83a1c,"['pull', 'request', 'imachug', 'security', 'mergersiteadd', 'typo']",General,{'security': 100}
+ee81aea2fa70c5a6f01240a7975a97c7e5ed687a,"['title', 'link', 'security', 'test']",General,{'security': 100}
+e96dd14e0d0de7abe9ef87c48dac1c2366817be1,"['display', 'wrapper', 'security', 'error', 'firefox', 'navigation', 'blank', 'page']",General,{'security': 100}
+fd56ddaa5405a77466b6f157729326fd12807746,"['wrapper', 'object', 'reference', 'iframe', 'enhance', 'security']",General,{'security': 100}
+cbac57dc8824a9dff4a79dcfab008bebe5cddf6f,"['plugin', 'request', 'cross', 'site', 'resource', 'access']",Insecure_interaction_between_components,{'cross site': 100}
+f630e6c25e6578e2390df2cc38cc6869796f89f8,"['access', 'security']",General,{'security': 100}
+434cfce32a0d4a5b98dcd872b06355032664353a,"['simple', 'origin', 'test', 'medium', 'file', 'cross', 'site', 'access']",Insecure_interaction_between_components,{'cross site': 100}
+47245f485ad790b324723cf746857fb791a7bac9,"['actionfile', 'security', 'check']",General,{'security': 100}
+0a3a71f6341b2b692030867879b0700e818fe054,"['window', 'crash', 'trayicon', 'shutdown']",General,{'crash': 100}
+0418a3e6de797197786cd422b3954efe7e1bdeb6,"['site', 'json', 'data', 'loss']",Risky_resource_management,{'data loss': 100}
+b0ac9869ce080af43e1479806893a312fb7dd032,"['wrapper', 'nonce', 'security', 'comment']",General,{'security': 100}
+b2fb1fcd3cf9dd7dfa438ee92adc81f9176438d3,"['opener', 'close', 'enable', 'wrapper', 'nonce', 'security', 'default', 'site']",General,{'security': 100}
+61cfb8aa2ff222b9a92e466dddf59c8d92f8e772,"['sidebar', 'filestats', 'width', 'round', 'sidebar', 'webgl', 'error', 'sidebar', 'optimalizations', 'trayicon', 'gray', 'shadow', 'line', 'whitespace', 'json', 'file', 'testweb', 'testcase', 'experimental', 'postmessage', 'nonce', 'security', 'return', 'external', 'window', 'opener', 'security', 'check', 'message', 'increase', 'timeout', 'large', 'file']",General,{'security': 100}
+eec0b22c1fe233c553e10a5faeee193cf9adb997,"['wrapper', 'securty']",General,{'securty': 93}
+94165176d31474663043c1237cad68f6421cb622,"['ugly', 'openssl', 'layer', 'memory', 'leak', 'memory', 'usage', 'test', 'openssl', 'stability', 'test']",Risky_resource_management,{'memory leak': 100}
+eddf3eb8fcb1e6e6bf81083138749ef9ee1e999d,"['zeromq', 'dependency', 'support', 'stat', 'page', 'stat', 'command', 'msgpack', 'overhead', 'content', 'json', 'file', 'urllib', 'memory', 'leak', 'onolder', 'python', 'security', 'test', 'sitemanager', 'testsuite', 'site', 'resume', 'site', 'publish', 'serf', 'file']",Risky_resource_management,{'memory leak': 100}
+71be41ade03099f82528ca872b93232bdf21e234,"['benchmark', 'socket', 'object', 'stat', 'dont', 'trace', 'notification', 'stack', 'uiserver', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+c025503264a0e32eeabafa9ac39c2a172821bdc8,"['cleanup', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+f7717b1de83dd51dd762437d93ed7293abe6bc77,"['protection', 'update', 'flood', 'cache', 'webfonts', 'publish', 'peer', 'object', 'addtask', 'noparallel', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+b122f471003e3c293513671d7d53f63c7c6d5753,"['version', 'namecoin', 'domain', 'internal', 'resolver', 'site', 'option', 'backward', 'compatiblity', 'layer', 'memory', 'firstchar', 'error', 'unpacker', 'crash', 'sitemanager', 'class', 'plugin', 'list', 'websocket', 'coppersurfer', 'tracker', 'internal', 'server', 'error', 'error', 'site', 'domain', 'uirequest', 'localstorage', 'csslater', 'hide', 'opacity']",General,{'crash': 100}

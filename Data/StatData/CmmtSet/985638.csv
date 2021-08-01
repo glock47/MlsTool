@@ -1,31 +1,10 @@
-sha,message,catetory,matched,labels
-a0880bbede378956678b84836cc2f81a4d5ab611,"['manager', 'whitespace', 'security', 'exception']",General,{'security': 100},
-7955724d0a9a32affc300cef105135932330c52a,"['personal', 'updateincludes', 'usingraise', 'security', 'issue', 'characterimpersonation', 'impersonator', 'torvalds', 'linusexample']",General,{'security': 100},
-cf163a995a1ceea805ff162dc20debf933094ea8,"['updaterecursive', 'queue', 'order', 'detects', 'deadlock', 'message', 'async']",Risky_resource_management,{'deadlock': 100},
-b478b97ee724decc330f1425ba147aa40d39cbe8,"['queue', 'asyncrecursive', 'order', 'deadlock', 'loggingdelegate', 'otherwisebackground', 'queue']",Risky_resource_management,{'deadlock': 100},
-13b714dea818f3a435247171f86f54754b254236,"['issue', 'security', 'serialization', 'information']",General,{'security': 100},
-164bb5cc1807cf9c2b847639be8612ab8b50a04b,"['manager', 'security', 'exception']",General,{'security': 100},
-5dce323216e1c48035b38ce1f1f825eb0d50b81e,"['methodhandlestringmap', 'reflection', 'implementation', 'customcheck', 'security', 'access', 'performsmethodhandle', 'performs', 'check', 'security', 'accessconstruction', 'methodhandle', 'optimizedbytecode', 'invokedynamic']",General,{'security': 100},
-284067cbdb5f13c41225e22c2a60d79cd43f1383,"['pattern', 'loader', 'trace', 'deadlock']",Risky_resource_management,{'deadlock': 100},
-c24b2b1c7032c26129b3f2df991e11a6b220f847,"['manager', 'security', 'exceptionmulti']",General,{'security': 100},
-b7b30013e84e8be2b6bbc8326e9bc2ff27e239f1,"['manager', 'security', 'exception']",General,{'security': 100},
-46f2f78d7052b2b1488982ca4ec09a03d6a9a316,"['object', 'deadlock', 'logger', 'async']",Risky_resource_management,{'deadlock': 100},
-edec5255e138b83395afe59d9a4fdcb4352773b7,"['object', 'deadlock', 'logger', 'async']",Risky_resource_management,{'deadlock': 100},
-794af49a6f1ec1970c605bca04a38251684ab262,"['synchronize', 'deadlock', 'appender', 'logevent', 'manager']",Risky_resource_management,{'deadlock': 100},
-f9a4b7078b04e6bfadc26ccc31ed05ae0c0acb12,"['timeout', 'prevents', 'deadlock', 'logger', 'strategy']",Risky_resource_management,{'deadlock': 100},
-992ed1e07a56797c60e8f2a0350a8307f766d74e,"['queue', 'performs', 'encapsulates', 'object', 'deadlock']",Risky_resource_management,{'deadlock': 100},
-89b482f04aca06ecb9e184047bb0c343fac3cb80,"['manager', 'security', 'script']",General,{'security': 100},
-044470e925d2e649fca396d7fdf829431f13ccce,"['creates', 'thread', 'deadlock', 'reconfiguration', 'appender', 'logger', 'occurs']",Risky_resource_management,{'deadlock': 100},
-65bb7d1d63a2fa74248c78d8714ed0252e0c0cae,"['shutdown', 'deadlock']",Risky_resource_management,{'deadlock': 100},
-9e58cdf5848135d82ad5cdce7341edc98d182318,"['thread', 'action', 'deadlock', 'async', 'failsrepos', 'ffaedef']",Risky_resource_management,{'deadlock': 100},
-d0395de0b5f87d7fab54d89d1173e863c51d3fe8,"['security', 'classrepos', 'ffaedef']",General,{'security': 100},
-cfb38e144d627981dae41635b9481866a7657737,"['check', 'security', 'permissionrelatescheck', 'couplerepos', 'ffaedef']",General,{'security': 100},
-cfe8735c3c3122c6e809f741ebd7036aa57af85b,"['converter', 'security', 'providerrepos', 'ffaedef']",General,{'security': 100},
-c6f0af20b73b63fbbf1758b0338de154920922d7,"['deadlock', 'method', 'issue', 'loggingrepos', 'ffaedef']",Risky_resource_management,{'deadlock': 100},
-682403c5067c0a2ef21e528f308edadef0a992e1,"['deadlock', 'method', 'issue', 'loggingrepos', 'ffaedef']",Risky_resource_management,{'deadlock': 100},
-b7ec6c8adb38fabdbcbdf55c664cdb8de35ce7e5,"['deadlock', 'option', 'socketrepos', 'ffaedef']",Risky_resource_management,{'deadlock': 100},
-ce2ceec67fcbacd03d0c5f8d29bf498f1cf2ab94,"['failure', 'security', 'plugin', 'encrypt', 'secretrepos', 'ffaedef']",General,{'security': 100},
-a0e77533fc1c46e90e40514e2f3d235fa3e35638,"['ensure', 'vulnerability', 'security', 'django']",General,{'security': 100},
-e66c42890c5ef3db4f1683c404708b5486ee4e7d,"['crash', 'empty']",Risky_resource_management,{'crash': 100},
-a3bc6ed46bb1a00ce4664dfeac155e4b11b842a8,"['mergerequest', 'mergeticket', 'public', 'security', 'improvement']",General,{'security': 100},
-5278634a76c7bdd4e26434c9089d6ce52cc84405,"['report', 'stats', 'crash', 'check', 'patch']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+a0e77533fc1c46e90e40514e2f3d235fa3e35638,"['django', 'address', 'security', 'vulnerability']",General,{'security': 100}
+07a42e07f858a0d71c40888edc813439e05204ce,"['iframe', 'ticket', 'submit', 'view', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+eee82015f787c303acdec85d667a58296093cac2,"['pull', 'request', 'auto', 'email', 'crash', 'body', 'empty']",General,{'crash': 100}
+a3bc6ed46bb1a00ce4664dfeac155e4b11b842a8,"['pull', 'request', 'auto', 'public', 'ticket', 'security', 'improvement']",General,{'security': 100}
+9340e149d507b508c641583a0654c02b6c5d710d,"['wrap', 'imap', 'login', 'attempt', 'error', 'session', 'timeout', 'exit', 'script', 'crash', 'address']",General,{'crash': 100}
+17e6122fca7fff0c6450311d28ccbe32b25def54,"['pull', 'request', 'kratorius', 'csrf', 'exclude', 'csrf', 'middleware']",Insecure_interaction_between_components,{'csrf': 100}
+dc7685466719d2beca0fe5cd57cf986445208edc,"['exclude', 'csrf', 'middleware', 'django', 'csrf', 'middleware', 'post', 'request', 'token', 'patch', 'csrf', 'middleware', 'request']",Insecure_interaction_between_components,{'csrf': 100}
+5278634a76c7bdd4e26434c9089d6ce52cc84405,"['stats', 'crash', 'open', 'ticket', 'patch', 'sanity', 'check', 'report', 'runtime']",General,{'crash': 100}
+1db70b2804cd49bd29913490fa813d0be80f6486,"['csrf', 'update', 'django', 'thanks', 'litchfield', 'patch']",Insecure_interaction_between_components,{'csrf': 100}

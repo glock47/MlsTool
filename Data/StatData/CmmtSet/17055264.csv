@@ -1,6 +1,16 @@
-sha,message,catetory,matched,labels
-37922cd80bcdaaab0a2b67749cbbf9293c15b9d2,"['severe', 'readiness', 'security']",General,{'security': 100},
-dd26c65968ea6b0cb6ba13cb8395b068760b7b7d,"['linux', 'crash']",Risky_resource_management,{'crash': 100},
-3cf86f1a7839c47ff786353c00ab70ee8b6c060e,"['crash', 'bugfixcommit']",Risky_resource_management,{'crash': 100},
-977a81e40d3194d78c7318194c04bb85d1886b7c,"['distortion', 'linux', 'crash', 'computationcommit']",Risky_resource_management,{'crash': 100},
-2b226c27721109cc8ec7a769a27fd7e19d0a3d25,"['smooth', 'eigen', 'minimum', 'typedef', 'issue', 'crash', 'floatcommit']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+9a1ab67df91b6af3ff65e8739c79169c9ff68cb9,"['crash', 'window']",General,{'crash': 100}
+45cfc79fede992ea3923ded9de3c21d1c4faced1,"['viewer', 'crash', 'check', 'empty', 'similar', 'line']",General,{'crash': 100}
+4e5dfe1aae8644967dcf6a1b2e0a5f59c4fef2da,"['potential', 'crash', 'mesh', 'hole', 'potential', 'crash', 'mesh', 'hole', 'minor', 'conversion', 'warning', 'potential', 'crash', 'mesh', 'hole', 'minor', 'conversion', 'warning']",General,{'crash': 100}
+7677e665879beb7145bec1d1eb55f9e29fba2a0a,"['memory', 'leak', 'memory', 'leak', 'proper', 'error', 'pointer', 'local', 'memory', 'leak', 'setting', 'reference', 'null']",Risky_resource_management,{'memory leak': 100}
+c9d0b35b6a11fb1da9b005f6e658d8a5acb876ec,"['memory', 'leak', 'memory', 'leak', 'setting', 'reference', 'null', 'memory', 'leak', 'memory', 'leak', 'memory', 'leak', 'unique', 'pointer', 'function', 'allocates', 'wraw', 'memory', 'leak', 'function', 'unique', 'pointer', 'access', 'pointer', 'fread', 'unnecessary', 'allocation', 'revert', 'boolean', 'array', 'size', 'callocs', 'bool', 'array', 'vector', 'init', 'vector', 'constructor', 'default', 'value']",Risky_resource_management,{'memory leak': 100}
+cde3014e2cb8373e6d27e263376464e3948a90f6,"['satisfactory', 'rare', 'data', 'race']",Risky_resource_management,{'data race': 100}
+dd26c65968ea6b0cb6ba13cb8395b068760b7b7d,['crash'],General,{'crash': 100}
+393b92680971f22e7c900b814add8fea9f2efeaa,"['crash', 'minimal', 'opengl', 'requirement']",General,{'crash': 100}
+2270943a19e75c70bb25ccfec9c5ae9a3b8ddc5a,"['pull', 'request', 'jmespadero', 'boundarybug', 'bugfix', 'crash', 'mesh']",General,{'crash': 100}
+3cf86f1a7839c47ff786353c00ab70ee8b6c060e,"['bugfix', 'crash']",General,{'crash': 100}
+977a81e40d3194d78c7318194c04bb85d1886b7c,"['distortion', 'computation', 'crash', 'linux']",General,{'crash': 100}
+b57ee21b850fe26ddd33aeceb1be5122f2aea74e,"['chapter', 'tutorial', 'warning', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+24f1d5a7d8ed28cf428c6c541cd73a90aaa5aea2,"['memory', 'leak', 'small', 'cmake', 'file', 'triangle', 'example']",Risky_resource_management,{'memory leak': 100}
+c1bfbb74809c0fbcc3a9a8b06a52f2e5d71abb0f,"['xmlserializer', 'null', 'pointer', 'problem']",Risky_resource_management,{'null pointer': 100}
+2b226c27721109cc8ec7a769a27fd7e19d0a3d25,"['typedef', 'float', 'crash', 'smooth', 'minimum', 'issue', 'eigen']",General,{'crash': 100}

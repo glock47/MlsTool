@@ -1,5 +1,12 @@
-sha,message,catetory,matched,labels
-86e55710d35c6b3726dc7070167901e460fe8425,"['error', 'security', 'violation']",General,{'security': 100},
-557b1ca8cbd818fc39bfa3f49ed9cbf7c32d043e,"['mergeswift', 'request', 'workaround', 'crash', 'barnybugswift', 'workaround', 'crash']",Risky_resource_management,{'crash': 100},
-0041da4863e865241ec0664b11ca97057b769460,"['input', 'ikesyo', 'invalidinput', 'invalid', 'crash']",Risky_resource_management,{'crash': 100},
-9c7632b5f67c108dd31253612866b7f01dd0a191,"['input', 'invalid', 'crashoptional', 'crash', 'return', 'incorrect', 'force', 'input', 'format', 'value', 'empty', 'invalid']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+86e55710d35c6b3726dc7070167901e460fe8425,"['security', 'violation']",General,{'security': 100}
+4883a153b1f8dd1b833c864e3133d2a4a3b41786,"['integer', 'overflow']",Risky_resource_management,{'integer overflow': 100}
+97ce6d81a7c513fe7f929ea3277ef4e7b736e24a,"['pull', 'request', 'hearst', 'memory', 'leak', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+408ce0a474e2941ed72213a99731eadbb17e01f6,"['memory', 'leak', 'present', 'xcode', 'http', 'library', 'prerelease', 'watchos', 'releasenotes', 'developertools', 'xcode', 'chapter', 'issue', 'section']",Risky_resource_management,{'memory leak': 100}
+557b1ca8cbd818fc39bfa3f49ed9cbf7c32d043e,"['pull', 'request', 'barnybug', 'workaround', 'swift', 'crash', 'workaround', 'swift', 'crash']",General,{'crash': 100}
+ee25d84a2126ffc7ba0f116f110f92f6519dc877,"['swift', 'crash']",General,{'crash': 100}
+d2a78a00d7635e71139800deff9d4d4a3a013244,"['test', 'toobject', 'stack', 'overflow', 'func', 'json', 'anyobject', 'toobject', 'object', 'comment', 'mapper', 'swift', 'reorganization', 'mapper', 'function']",Risky_resource_management,{'stack overflow': 100}
+0041da4863e865241ec0664b11ca97057b769460,"['pull', 'request', 'ikesyo', 'invalid', 'input', 'crash', 'invalid', 'input']",General,{'crash': 100}
+9c7632b5f67c108dd31253612866b7f01dd0a191,"['crash', 'invalid', 'input', 'return', 'optional', 'value', 'input', 'value', 'invalid', 'empty', 'string', 'incorrect', 'format', 'lead', 'crash', 'force', 'value']",General,{'crash': 100}
+0e9ce9578605bd443e742aeea31acc02a0c9cf6c,"['pull', 'request', 'mathiasnagler', 'master', 'crash', 'transform', 'invalid']",General,{'crash': 100}
+8fa155cc5cd0773fe87e9bb78b80caa2fff5c4c0,"['crash', 'transform', 'invalid']",General,{'crash': 100}

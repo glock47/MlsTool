@@ -1,5 +1,20 @@
-sha,message,catetory,matched,labels
-ab81f1b10148311d0b798f96d472d4afcbb77ce5,"['buffer', 'overflow', 'potential']",Risky_resource_management,{'buffer overflow': 100},
-73e402e49a4ff9ad97e669fc52a7a8f5abec61cf,"['check', 'missingwindow', 'crash']",Risky_resource_management,{'crash': 100},
-e01130f5d1ce92e103943c969d73cba59551d3c7,"['cleanup', 'crash']",Risky_resource_management,{'crash': 100},
-36140fe1c3315ea6232d206302d1d3415bf5cc0b,"['address', 'buffer', 'overflow', 'potential']",Risky_resource_management,{'buffer overflow': 100},
+sha,message,catetory,matched
+db27b848ddf754e84aec3b78c595dd331f47b083,"['crash', 'null']",General,{'crash': 100}
+ab81f1b10148311d0b798f96d472d4afcbb77ce5,"['potential', 'buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100}
+fab441bb6c732264ecd88a148a67d80f084e3557,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+e5cb04df189c721aee23f1cbbc729ab18ec8c9de,"['null', 'char', 'execl', 'linux', 'programmer', 'manual', 'state', 'execl', 'const', 'char', 'subsequent', 'ellipsis', 'execl', 'execlp', 'execle', 'function', 'argn', 'list', 'argument', 'null', 'pointer', 'variadic', 'function', 'pointer', 'cast', 'char', 'null']",Risky_resource_management,{'null pointer': 100}
+ea4b0952767969c84a0ad126d10c2807b77a784a,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+fd6d09058b8fc16035ea61556947603b64a432b3,"['null', 'pointer', 'dereference']",Risky_resource_management,{'null pointer': 100}
+c79f32540d0cfedfc0aaaef44dfa37b7bebbf0cd,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+73e402e49a4ff9ad97e669fc52a7a8f5abec61cf,"['null', 'check', 'crash', 'window']",General,{'crash': 100}
+e434521fc3ca1b2f9c7f6c00371308d597c6e0f2,"['rare', 'memory', 'leak', 'invalid', 'json', 'duplicate', 'restore', 'trigger', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+c4938358290bb0ffd279d4a3fef3c368b3fee478,"['potential', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+0f1ee8180c2cf75dfcb78d5360668b1f3b7a20cf,"['pull', 'request', 'nfnty', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+3d26201702b11d0c839b8594bbce4ce443471b40,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+5cffc4cc9332f5a9fce3fd67544ddd5258a3e0fb,"['null', 'pointer', 'dereference', 'insertion', 'point', 'need', 'leaf', 'private', 'public', 'routine', 'node', 'insertion', 'function']",Risky_resource_management,{'null pointer': 100}
+c989aa7efc698a8e4024c8c7b2e729e67935994f,"['null', 'pointer', 'setting', 'center', 'rule', 'effect', 'remap', 'window', 'location', 'node', 'invisibility', 'proper', 'configure', 'request']",Risky_resource_management,{'null pointer': 100}
+de1aa71a371e59dbde2eb112202c289c0254178d,"['potential', 'leak', 'null', 'pointer', 'dereference']",Risky_resource_management,{'null pointer': 100}
+e01130f5d1ce92e103943c969d73cba59551d3c7,"['crash', 'cleanup']",General,{'crash': 100}
+a1f0b2c337356d62381f3b54bc7f6b15492b3fe3,"['buffer', 'overrun']",Risky_resource_management,{'overrun': 100}
+f48ff335c170a9ba7a5292e78cf8d01578885e8f,"['rework', 'bspc', 'potential', 'buffer', 'overflow', 'error']",Risky_resource_management,{'buffer overflow': 100}
+36140fe1c3315ea6232d206302d1d3415bf5cc0b,"['address', 'potential', 'buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100}

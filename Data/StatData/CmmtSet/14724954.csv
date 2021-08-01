@@ -1,6 +1,28 @@
-sha,message,catetory,matched,labels
-6f78672f82b240f719bdd8e911a4050b7c3a0f31,"['permission', 'avataravatar', 'display', 'permission', 'place', 'editing', 'security', 'check']",General,{'security': 100},
-3f9b8c59e1ef2396aba9c7ec421e333cb5e7da35,"['security', 'spurious']",General,{'security': 100},
-fe4b6dc640805ddf52b8d37e17b37d9061da0537,"['updaterestriction', 'security']",General,{'security': 100},
-6b63e381f9d109ca98e2a48f90599f9b274678f7,"['default', 'ospos', 'production', 'security']",General,{'security': 100},
-31877528b1d7e8bc9c45f7837c76b0576072f06f,"['update', 'security', 'report', 'subpermissions']",General,{'security': 100},
+sha,message,catetory,matched
+6f78672f82b240f719bdd8e911a4050b7c3a0f31,"['avatar', 'permission', 'editing', 'avatar', 'file', 'permission', 'display', 'place', 'security', 'check']",General,{'security': 100}
+91d72c0265617b9ede87a6aa7011319e77969406,"['pull', 'request', 'opensourcepos', 'csrf', 'cookie', 'prefix', 'csrf', 'cookie', 'name']",Insecure_interaction_between_components,{'csrf': 100}
+fd3b48ba439b6d18a320474dbcb24432af67d4b3,"['csrf', 'cookie', 'name']",Insecure_interaction_between_components,{'csrf': 100}
+e17318610990cf58e48bd034a1bbd7c6926616d0,"['temporary', 'sale', 'form', 'crash', 'minor', 'code']",General,{'crash': 100}
+3f9b8c59e1ef2396aba9c7ec421e333cb5e7da35,"['spurious', 'file', 'security']",General,{'security': 100}
+fe4b6dc640805ddf52b8d37e17b37d9061da0537,"['update', 'config', 'security', 'restriction']",General,{'security': 100}
+c6b5ff1934b3005d3d35632061878538499ff5cd,"['restore', 'csrf', 'issue']",Insecure_interaction_between_components,{'csrf': 100}
+2e7e9cecd8d7d38ca394692d43f1b0200b950f8b,"['revert', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+0ba225cafdc9983bbe4fab2982fe44eaeb2b2ff5,"['csrf', 'error', 'login', 'time']",Insecure_interaction_between_components,{'csrf': 100}
+da1d4351148a2d280c192690b50e713f9cd5822b,"['csrf', 'issue', 'suhosin', 'link']",Insecure_interaction_between_components,{'csrf': 100}
+5a9aa96b7e41a7acc568c2e9dfef5a4c03fa17a8,"['csrf', 'issue', 'suhosin', 'link']",Insecure_interaction_between_components,{'csrf': 100}
+9b473e415d0f3078afe049d6a7dbcb4135e17128,"['standard', 'jquery', 'submit', 'function', 'update', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+046a02d83cb1bc484ce723629575560fd611ed73,"['refresh', 'csrf', 'token', 'submit']",Insecure_interaction_between_components,{'csrf': 100}
+10e3ce9a9f71f503a521c9a153469419efd3b10c,"['csrf', 'refresh', 'issue', 'register']",Insecure_interaction_between_components,{'csrf': 100}
+744d166f58a448065bf0f6374d2ec31721edc9ff,"['standard', 'jquery', 'submit', 'function', 'update', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+80aba482401efc0873c0b66af48ba7828aa9e801,"['refresh', 'csrf', 'token', 'submit']",Insecure_interaction_between_components,{'csrf': 100}
+01e918e776865aa1785bce53f39605491c0a7cfd,"['csrf', 'refresh', 'issue', 'register']",Insecure_interaction_between_components,{'csrf': 100}
+519b19ae64604436c5697fa8ae62658989851ab9,"['phpinfo', 'security', 'risk']",General,{'security': 100}
+fdbb158c1dfb8b3e690c47d4f6952de051874822,['security'],General,{'security': 100}
+6b63e381f9d109ca98e2a48f90599f9b274678f7,"['security', 'ospos', 'production', 'code', 'default']",General,{'security': 100}
+1b5105f3af9e8ac163cf212b9af719693da0e506,"['unnecessary', 'hook', 'csrf', 'setup']",Insecure_interaction_between_components,{'csrf': 100}
+7b674b2e3fd3f62fd32638716c8324525221caa8,"['submit', 'item', 'customer', 'sale', 'button', 'functionality', 'item', 'bugfixes', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+1a1266a20c376d517874b3e58cee95d1d53f442c,"['readme', 'cross', 'site', 'request', 'forgery', 'config']",Insecure_interaction_between_components,{'cross site': 100}
+6ccfc8ba7d7e47e14f3940a6d6f697a67c97d162,"['htaccess', 'security', 'rule']",General,{'security': 100}
+0787264f7135908e6e1f4f2802fcf0ebbe95037a,"['htaccess', 'security', 'rule']",General,{'security': 100}
+fc5f0978203c87d9437b2da89c2c45b03bb1383d,"['proper', 'validation', 'module', 'grant', 'issue']",Risky_resource_management,{'proper validation': 94}
+31877528b1d7e8bc9c45f7837c76b0576072f06f,"['security', 'update', 'report', 'subpermissions']",General,{'security': 100}

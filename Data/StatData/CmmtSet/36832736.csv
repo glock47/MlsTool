@@ -1,25 +1,66 @@
-sha,message,catetory,matched,labels
-5d688500414f138491f2ae0d298f9378656fde3c,"['enable', 'probesolaris', 'crash']",Risky_resource_management,{'crash': 100},
-6acbbf1849e8ce6fe5c51fdcc995ab958f4d796c,"['crash', 'mthumb']",Risky_resource_management,{'crash': 100},
-e0b60439bf63b02ed93bc2c5b4ed15125fd6f278,"['blocksize', 'crash', 'scryptblock', 'problem', 'default']",Risky_resource_management,{'crash': 100},
-8838f78ec4247b184d639410fb06704711c58d04,"['crash', 'chacha', 'compiler']",Risky_resource_management,{'crash': 100},
-6729b294103f169ca653386dd763aaaa55bf4409,"['issue', 'static', 'internal', 'global', 'constructor', 'clang', 'crash', 'library', 'string', 'initialization', 'order', 'compiles', 'levelstatic', 'initialization', 'order', 'committee', 'problem']",Risky_resource_management,{'crash': 100},
-c24f17b7a26b8dd5939bced64652d3b749b26a5e,"['crash', 'studio', 'visual', 'compiler']",Risky_resource_management,{'crash': 100},
-414c5c543860947bc43dd1cc523ea62704fdcc99,"['crash', 'sparc', 'tigersparc', 'performance', 'xmemalign', 'unalignedeither', 'matter', 'xmemalgin', 'behavior', 'default', 'access', 'xmemalign']",Risky_resource_management,{'crash': 100},
-45ffb7e82794a3a023ccbd653f657b5c220135c7,"['option', 'compile', 'crash', 'clear', 'access']",Risky_resource_management,{'crash': 100},
-89a3fba0814cee93252d5e08547b4331ab4bcbd2,"['crash', 'debian']",Risky_resource_management,{'crash': 100},
-8b52a03d0873bf3f252c58c76df1e4167fc33fa6,"['crash', 'suncc']",Risky_resource_management,{'crash': 100},
-5289915d72e0f48ac2a428a16867dd0667cc8dd5,"['crash', 'compilerthink', 'bugzilla']",Risky_resource_management,{'crash': 100},
-35f95fb739877791355622d5e730ad5f30145807,"['intrinsics', 'alignment', 'crash', 'potentialassignment', 'optimization', 'issue', 'integer', 'cherry', 'memcpy', 'benefit', 'braindead', 'pattern', 'switch']",Risky_resource_management,{'crash': 100},
-b0a151a8c0a49119d9fadb0efb53c0591381960e,"['crash', 'compiler']",Risky_resource_management,{'crash': 100},
-a3d0da2e0e2445b6cab94247bc503bbd95098fb3,"['crash', 'compiler']",Risky_resource_management,{'crash': 100},
-ef7a6a2f4e1ad29d8c2654f6e7cb1563fca4f2b8,"['speedupvariant', 'benchmarkupdate', 'access', 'control']",Porous_defenses,{'access control': 100},
-aae1f27deeaaf9082f2b3a459e9579ea6b5e4dc4,"['enable', 'suncc', 'hammer', 'source', 'compile', 'crash']",Risky_resource_management,{'crash': 100},
-1303f4bdcc59355ac5f611a4409f3db264192e83,"['posix', 'behavior', 'debug', 'apple', 'decision', 'program', 'cutover', 'effective', 'crash', 'raising', 'history', 'sigabrt', 'handler', 'default', 'sigtrap']",Risky_resource_management,{'crash': 100},
-06ea2d2952bd7439de53e7bf6d74da334e951162,"['vectorization', 'crash']",Risky_resource_management,{'crash': 100},
-9bf0eed0f6ff6d0b0a2d277e5401d69dc8c0e394,"['vmovdqa', 'agains', 'violation', 'instruction', 'alignment', 'vectorization', 'crash']",Risky_resource_management,{'crash': 100},
-e67480dd9e8dcda57939fc7480e273b8d2e81335,"['vcblog', 'visual', 'default', 'warning', 'compiler', 'security', 'archive']",General,{'security': 100},
-ae88c18bf79591bfcc16c18f4c256f032c988a57,"['pentium', 'machine', 'whirlpool', 'crash']",Risky_resource_management,{'crash': 100},
-b130b997811bf21cb6e021e0a435dc35f2310f29,"['machine', 'initialization', 'salsa', 'crash']",Risky_resource_management,{'crash': 100},
-c2397a460098debadac81cbe48129ba1e013f3b8,"['security', 'benchmark']",General,{'security': 100},
-8f7315b9106d52a9bc1969df6c57523440d039f4,"['integrity', 'check', 'memory']",Risky_resource_management,{'integrity check': 100},
+sha,message,catetory,matched
+9e0752463f1401eeba97368e575790c85dfbfa0c,"['curl', 'insecure', 'flag']",General,{'insecure': 100}
+85275c0784630dd26b1bcd294e7523297bc7d69a,"['update', 'security']",General,{'security': 100}
+014d72f62b87646f6fd952327a1fa0d081031ffa,"['update', 'security']",General,{'security': 100}
+510a7bea6907c3363b1cf7437f9c44dfdb47e9bf,"['update', 'security']",General,{'security': 100}
+be32f35984915ca85aea7400d9ea8ba972ed2927,"['security', 'security', 'file']",General,{'security': 100}
+5d688500414f138491f2ae0d298f9378656fde3c,"['enable', 'solaris', 'vmac', 'crash', 'solaris']",General,{'crash': 100}
+c363e439689ce1ece0950c5ae95830ff435c0b77,"['clang', 'workarounds', 'final', 'clang', 'ubuntu', 'xenial', 'power', 'clang', 'crash', 'look', 'compiler', 'spending', 'time', 'clang', 'suck', 'life', 'time']",General,{'crash': 100}
+0c27093ab681236f423cf268bfefe38a5d690130,"['cleanup', 'asserts', 'secblock', 'secblock', 'null', 'pointer', 'null', 'pointer', 'asserts']",Risky_resource_management,{'null pointer': 100}
+55b5464e50602ff4958eb27ec58e79263da4283b,['crash'],General,{'crash': 100}
+76fa704cbed5b16071d6fe73f49f44381ba5c7c0,"['minor', 'user', 'input', 'small', 'seed', 'size', 'large', 'constraint', 'tricky', 'amount', 'material', 'provable', 'security']",General,{'security': 100}
+6acbbf1849e8ce6fe5c51fdcc995ab958f4d796c,"['crash', 'mode', 'mthumb']",General,{'crash': 100}
+e0b60439bf63b02ed93bc2c5b4ed15125fd6f278,"['scrypt', 'crash', 'blocksize', 'default', 'block', 'size', 'block', 'size', 'immediate', 'problem', 'crash']",General,{'crash': 100}
+9dcc26c58213abb8351fbb1b2a7a1d2c667366e4,"['crypto', 'release', 'constbyteptr', 'return', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+8838f78ec4247b184d639410fb06704711c58d04,"['chacha', 'compiler', 'crash']",General,{'crash': 100}
+c52e99a3c1ababf9248d1f548ea87f39439b3dff,"['path', 'user', 'jeff', 'android', 'desktop', 'place', 'user', 'private', 'data', 'android', 'debug', 'directory', 'stack', 'overflow']",Risky_resource_management,{'stack overflow': 100}
+6729b294103f169ca653386dd763aaaa55bf4409,"['defs', 'cryptlib', 'library', 'static', 'initialization', 'order', 'fiasco', 'crash', 'occassion', 'cryptlib', 'internal', 'linkage', 'cost', 'translation', 'unit', 'copy', 'string', 'bloat', 'issue', 'show', 'clang', 'compiles', 'global', 'constructor', 'base', 'crash', 'level', 'hardware', 'poison', 'point', 'static', 'initialization', 'order', 'fiasco', 'prevalent', 'committee', 'problem', 'fester']",General,{'crash': 100}
+c24f17b7a26b8dd5939bced64652d3b749b26a5e,"['compiler', 'crash', 'visual', 'studio']",General,{'crash': 100}
+414c5c543860947bc43dd1cc523ea62704fdcc99,"['tiger', 'crash', 'sparc', 'sparc', 'mess', 'xmemalign', 'hardware', 'word', 'high', 'performance', 'xmemalign', 'default', 'behavior', 'xmemalgin', 'xmemalgin', 'shoul', 'dnot', 'matter', 'data', 'access']",General,{'crash': 100}
+ca302c952e6393469651e01b7c3ae4686c7e0747,"['solaris', 'sparc', 'crash', 'andrew', 'marlow', 'hand', 'hardware', 'test', 'thing', 'xmemalign', 'option', 'band', 'aide', 'afoul', 'sparc', 'instruction', 'data']",General,{'crash': 100}
+45ffb7e82794a3a023ccbd653f657b5c220135c7,"['crash', 'different', 'compile', 'option', 'clear', 'crash', 'sparc']",General,{'crash': 100}
+8197732756dd3bcd9b517b2ea73780cdbab2b000,"['sunstudio', 'runtime', 'crash', 'studio', 'suncc']",General,{'crash': 100}
+eb55cc0ae5e45ff81c2dd6abc09c7e3af6c253f4,"['sunstudio', 'compile', 'solaris', 'compiler', 'function', 'parameter', 'const', 'const', 'reference', 'parameter', 'need', 'const', 'patch', 'glad', 'kind', 'bottom', 'thing', 'crash']",General,{'crash': 100}
+039db17da7880692ed0e808d9a002fbc9e33f3c5,"['keccak', 'http', 'github', 'weidai', 'cryptopp', 'issue', 'consistency', 'assert', 'hash', 'transformation', 'expectation', 'good', 'pointer', 'length', 'null', 'pointer', 'length']",Risky_resource_management,{'null pointer': 100}
+5b09d46665383eb0fcd648882559c3aefb27a6f9,"['integer', 'overflow', 'code', 'undefined', 'behavior', 'santizier', 'offender', 'integer', 'wrap', 'overflow', 'skptr', 'skptr', 'table', 'lookup']",Risky_resource_management,{'integer overflow': 100}
+89a3fba0814cee93252d5e08547b4331ab4bcbd2,"['crash', 'debian']",General,{'crash': 100}
+13ea8f374f82aef22b31ba8db712c67625e39e8b,"['interface', 'tweetnacl', 'library', 'tweetnacl', 'compact', 'nacl', 'library', 'daniel', 'bernstein', 'bernard', 'gastel', 'wesley', 'janssen', 'tanja', 'lange', 'peter', 'schwabe', 'sjaak', 'smetsers', 'library', 'size', 'nacl', 'library', 'function', 'compact', 'library', 'curve', 'xsalsa', 'default', 'primitive', 'exchange', 'complete', 'list', 'function', 'tweetnacl', 'crypto', 'library', 'tweet', 'table', 'page', 'crypto', 'function', 'name', 'signature', 'data', 'type', 'stdint', 'size', 'problem', 'platform', 'cygwin', 'example', 'nacl', 'typdef', 'cygwin', 'mingw', 'msys', 'system', 'system', 'addition', 'crypto', 'integer', 'crypto', 'enforces', 'restriction', 'small', 'point', 'tweetnacl', 'library', 'small', 'point', 'elliptic', 'curve', 'security', 'section', 'tweetnacl', 'routine', 'libsodium', 'algorithm', 'nacl', 'crypto', 'wrapper', 'tweetnacl', 'tweetnacl', 'internal', 'function', 'randombytes', 'crypto', 'randombytes', 'integration']",General,{'security': 100}
+16290b2f1ca4f5ca8842d52f6bc4958222325976,"['crash', 'processor', 'ssse', 'destination', 'register', 'constraint', 'crash', 'constraint']",General,{'crash': 100}
+8b52a03d0873bf3f252c58c76df1e4167fc33fa6,"['suncc', 'compiler', 'crash', 'suncc', 'nice']",General,{'crash': 100}
+01e46aa474f6310d281b29ba41b0e6bc696873aa,"['rijndael', 'base', 'extra', 'data', 'member', 'data', 'access', 'effect', 'class', 'runtime', 'penalty', 'constructor', 'wart', 'uncheckedsetkey', 'need', 'ctor', 'initialization', 'http', 'stack', 'overflow', 'question', 'unusual', 'unexpected', 'interaction', 'cmake', 'removal', 'ctor']",Risky_resource_management,{'stack overflow': 100}
+e78464a1afe9af086c3f4356ffaef3cd7c1b7ecf,"['enable', 'little', 'endian', 'problem', 'endian', 'setting', 'argument', 'ensure', 'load', 'endian', 'value', 'thanks', 'paul', 'stack', 'overflow', 'information']",Risky_resource_management,{'stack overflow': 100}
+5289915d72e0f48ac2a428a16867dd0667cc8dd5,"['compiler', 'crash', 'simd', 'http', 'bugzilla']",General,{'crash': 100}
+7c667bc71e599a89a669aeddaa39e12cf2dc059a,"['suncc', 'crash']",General,{'crash': 100}
+77e9d8c2dbd966d9d468968c3d4d811497e03334,"['cmake', 'mingw', 'issue', 'issue', 'mingw', 'platofrm', 'stack', 'overflow', 'chronic', 'cmake', 'problem', 'window', 'linux', 'cygwin']",Risky_resource_management,{'stack overflow': 100}
+5a32fbbeba27b7fc21862c00be74df874b50aa76,"['warning', 'null', 'pointer', 'reference', 'undefined', 'behavior', 'show', 'debug', 'instantiation', 'warning', 'null', 'pointer', 'reference', 'undefined', 'behavior', 'wnull', 'dereference', 'nullptr']",Risky_resource_management,{'null pointer': 100}
+6f36c7deae4da4e91759ffad0a3b53c94c5610c3,"['default', 'generatekeyiv', 'deflates', 'inflates', 'zlib', 'decompress', 'compress', 'default', 'runtime', 'error', 'null', 'pointer', 'null', 'linux', 'string', 'runtime', 'error', 'null', 'pointer', 'null', 'information', 'dispersal']",Risky_resource_management,{'null pointer': 100}
+35f95fb739877791355622d5e730ad5f30145807,"['pointer', 'crash', 'ssse', 'intrinsics', 'pointer', 'pointer', 'byte', 'pointer', 'alignment', 'drop', 'sidestep', 'potential', 'problem', 'crash', 'switch', 'memcpy', 'bulk', 'assignment', 'vectorization', 'compiler', 'braindead', 'issue', 'integer', 'word', 'time', 'braindead', 'compiler', 'optimization', 'advantageous', 'compiler', 'benefit', 'bulk', 'vectorization', 'opportunity', 'variable', 'uncheckedsetkey', 'keylen', 'typo']",General,{'crash': 100}
+c305e8812772582edeb6e373b6e34feb59f3799f,"['runtime', 'crash', 'couple', 'initialization', 'priority', 'integer', 'inprove', 'singleton', 'pattern', 'resource', 'manager', 'update', 'documentation']",General,{'crash': 100}
+0c6510b0a580af487b939d34369f2d533a9f73f7,"['guard', 'string', 'assignment', 'visual', 'studio', 'negative', 'self', 'test', 'secbyteblock', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+b0a151a8c0a49119d9fadb0efb53c0591381960e,"['msvc', 'compiler', 'crash']",General,{'crash': 100}
+a3d0da2e0e2445b6cab94247bc503bbd95098fb3,"['msvc', 'compiler', 'crash']",General,{'crash': 100}
+7fb6b3df74abd52d67da1f58c36c4863922abb7e,"['compile', 'visual', 'studio', 'visual', 'studio', 'lack', 'safe', 'security']",General,{'security': 100}
+301437e693fe8bfff6471ff3d88b31a85627d1a7,"['static', 'initializers', 'msvc', 'available', 'need', 'singleton', 'need', 'file', 'scope', 'class', 'variable', 'place', 'segment', 'msvc', 'attribute', 'additional', 'upside', 'memory', 'leak', 'msvc', 'debug']",Risky_resource_management,{'memory leak': 100}
+4fb75a8f4d57ddfb5c1c1e7d00e6eb1aeb671901,"['suncc', 'crash', 'dndebug', 'native', 'kpic', 'template', 'extdef', 'assertion', 'function', 'preopt', 'assert', 'node']",General,{'crash': 100}
+8f330545457d678caa59c3d4d8f7da6fb1bddd4f,"['revert', 'suncc', 'crash', 'reverts']",General,{'crash': 100}
+519b41e47eee262539ebe5f64019362ef018eeb1,"['suncc', 'crash', 'dndebug', 'xarch', 'ssse', 'declaration', 'native', 'kpic', 'template', 'extdef', 'assertion', 'function', 'preopt', 'assert', 'node']",General,{'crash': 100}
+b7a08f1110ccd1143755269cbffc7d5eb2c238cb,"['debugbreak', 'window', 'declaration', 'debugbreak', 'window', 'http', 'stack', 'overflow']",Risky_resource_management,{'stack overflow': 100}
+aae1f27deeaaf9082f2b3a459e9579ea6b5e4dc4,"['suncc', 'crash', 'compile', 'hammer', 'enable', 'source', 'file', 'issue']",General,{'crash': 100}
+f43b7c95cd719285c8b9fef5872239400e53e2ed,"['check', 'support', 'instruction', 'window', 'program', 'visual', 'update', 'crash', 'exception', 'illegal', 'instruction', 'pextrd', 'instruction', 'check', 'support', 'instruction']",General,{'crash': 100}
+885b94707cb9a9178cd8787282428cc7c46304a1,"['assembler', 'crash', 'linux']",General,{'crash': 100}
+572506de3d00f1280c89b1168384178a988c4486,"['patch', 'document', 'interface', 'asserts', 'sanity', 'check', 'debug', 'memset', 'memcpy', 'null', 'pointer', 'size', 'initialization', 'assignment', 'switch', 'size']",Risky_resource_management,{'null pointer': 100}
+1303f4bdcc59355ac5f611a4409f3db264192e83,"['cutover', 'misc', 'posix', 'behavior', 'crash', 'program', 'raising', 'sigabrt', 'debug', 'questionable', 'decision', 'history', 'behavior', 'sigtrap', 'handler', 'apple', 'microsoft', 'default', 'sigtrap', 'handler', 'sigtrap', 'handler', 'program', 'crash', 'sigabrt', 'case']",General,{'crash': 100}
+e4ab1cd70c42391f4b41b31085dbe862867e41d2,"['ubsan', 'error', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+cac038a855700fb36f4078c34487e86d60e03682,"['ubsan', 'error', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+434c56fcd27119d902aa71201283f9537697ed91,"['ubsan', 'error', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+5f299d76a0d8f5374b8018faa65465632c45d13e,"['ubsan', 'error', 'null', 'pointer', 'memcpy', 'memmove', 'library', 'function']",Risky_resource_management,{'null pointer': 100}
+06ea2d2952bd7439de53e7bf6d74da334e951162,"['cygwin', 'crash', 'data', 'access', 'vectorization']",General,{'crash': 100}
+9bf0eed0f6ff6d0b0a2d277e5401d69dc8c0e394,"['crash', 'nutshell', 'vectorization', 'alignment', 'violation', 'agains', 'vmovdqa', 'instruction']",General,{'crash': 100}
+0980f652669124cce6b5840380ebe9a4ffaea39f,"['check', 'integer', 'overflow', 'decodevalue']",Risky_resource_management,{'integer overflow': 100}
+01d0286194bf083deb8bf4f3fd2f9f0c33db1767,"['initialize', 'memory', 'valgrind', 'warning', 'zooko', 'jeffrey', 'walton']",Risky_resource_management,{'initialize memory': 92}
+ae88c18bf79591bfcc16c18f4c256f032c988a57,"['whirlpool', 'crash', 'pentium', 'machine']",General,{'crash': 100}
+b130b997811bf21cb6e021e0a435dc35f2310f29,"['salsa', 'initialization', 'crash', 'machine']",General,{'crash': 100}
+bbfb7ff438188ca71850d57dc3b8613860dadb1f,"['crash', 'msvc', 'processor', 'pack']",General,{'crash': 100}
+c2397a460098debadac81cbe48129ba1e013f3b8,"['benchmark', 'setup', 'security', 'benchmark']",General,{'security': 100}
+89862d12200bebff8ba59dcbc19eafdb266d6a0d,"['guard', 'potential', 'integer', 'overflow', 'allocator']",Risky_resource_management,{'integer overflow': 100}
+8f7315b9106d52a9bc1969df6c57523440d039f4,"['memory', 'integrity', 'check']",Risky_resource_management,{'integrity check': 100}

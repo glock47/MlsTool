@@ -1,35 +1,35 @@
-sha,message,catetory,matched,labels
-7dd98efccb61578e4aec7fdd166e81878fe84839,"['mergerequest', 'fault', 'tolerant', 'tomakaimplementation', 'buggy', 'crash']",Risky_resource_management,{'crash': 100},
-e28a0bdb9775808b3885868f2369f9a1a0fe0bf3,"['implementation', 'buggy', 'crash']",Risky_resource_management,{'crash': 100},
-691bac6528b09c04bed5abaf9e988eb9105ca86b,"['mergemerge', 'request', 'paulrouget', 'crasherimplementation', 'crash']",Risky_resource_management,{'crash': 100},
-86408438fcaeb901684c82662608e84c381b11bd,"['implementation', 'crash', 'detail']",Risky_resource_management,{'crash': 100},
-eb73c2514eefae08a5f1850ce7ee7178b903c4cf,"['mergemerge', 'request', 'cocoa', 'crashcontext', 'function', 'crash', 'legacy']",Risky_resource_management,{'crash': 100},
-a8fef35dbf320448ba53af77bd8025be5022d9f4,"['context', 'function', 'crash', 'legacy']",Risky_resource_management,{'crash': 100},
-26c0c966d5380f22bf3a8b45d03075b9c4381c2b,"['mergeclose', 'request', 'glennw', 'crashclose', 'driver', 'crash']",Risky_resource_management,{'crash': 100},
-3b46145e0dc37dc95b021689e97eee0a94a97272,"['revert', 'security', 'patch', 'sqlalchemy', 'update', 'jinjareverts']",General,{'security': 100},
-a660f084d49e2d1cefb9b34b6868bcf8e65865eb,"['patch', 'security', 'sqlalchemy', 'update', 'jinja']",General,{'security': 100},
-9ed1b15de63c7b98a59a97548673ea85ec34776e,"['deadlock', 'certificate']",Risky_resource_management,{'deadlock': 100},
-dab5e3e933a1856469647c74175052e55f376258,"['jsonschema', 'security']",General,{'security': 100},
-f7469705f8a6636d765ee3a6cc171c29125cd5f8,"['jsonschema', 'security']",General,{'security': 100},
-472b5436fd305b82c8b9754b8c3d3c4f9777daed,"['reset', 'crash', 'encoder']",Risky_resource_management,{'crash': 100},
-c16c5db682773afa17dd0534766be3ce94a57f62,"['camera', 'upgrade', 'filter', 'crash']",Risky_resource_management,{'crash': 100},
-0c69c17284a9b37d1880f028f2a2f12ac14280f0,"['lantern', 'crash']",Risky_resource_management,{'crash': 100},
-119092fe8d133a5858c5f2a9aa66f59fc56a0354,"['mergerequest', 'service', 'hotfix', 'crashservice', 'crash']",Risky_resource_management,{'crash': 100},
-9d125a33e88a2f9f0b3a3f1756c1d65deaa2344d,"['server', 'ffmpeg', 'crash']",Risky_resource_management,{'crash': 100},
-534e66b11e5d22fb7dba0029004bef2b94f23563,"['crash', 'flush']",Risky_resource_management,{'crash': 100},
-cf834c9c982fe55a6d856631153bac892bda8db7,"['release', 'crash']",Risky_resource_management,{'crash': 100},
-24c6d5bc57e1c5e9e418ba58fe4c87861e01ae23,"['audio', 'crash']",Risky_resource_management,{'crash': 100},
-87ec50bec569fd705a60a6a28a474a3f52f1b7ed,"['device', 'crash', 'stream', 'opengl']",Risky_resource_management,{'crash': 100},
-6330a75c345944006a60e0fc07d33129412d6d99,"['audio', 'crash']",Risky_resource_management,{'crash': 100},
-4b92adeef1dd8b63b12a47c066a941a9091083ca,"['reopen', 'crash']",Risky_resource_management,{'crash': 100},
-f6e61bba0b81de7149143d87d7d69d2c0e3f5bf7,"['camera', 'switch', 'crash']",Risky_resource_management,{'crash': 100},
-b88beb14a529a5f98f515e40824b0583e9bd8aed,"['customactivity', 'crash']",Risky_resource_management,{'crash': 100},
-1e50aa092b7ac2277652c4f69b3dfa073af83874,"['crash', 'connection']",Risky_resource_management,{'crash': 100},
-0b7cb160742018feed47f575c0bdd04d7c3a1b95,"['crash', 'stream']",Risky_resource_management,{'crash': 100},
-140e28d56a7268bfb0b285d8d8ec6d9ef504a371,"['crash', 'videoencoder']",Risky_resource_management,{'crash': 100},
-c7ecdae410515059b7ef845a1ed24ea039c3b11d,"['crash', 'stream']",Risky_resource_management,{'crash': 100},
-35c33da23ad09a505031fb493ca0bb4b17fd493e,"['crash', 'encoder']",Risky_resource_management,{'crash': 100},
-718a43eb31b016a400d72d12b4e0ea866355e00b,"['endpoint', 'crash', 'connectchecker']",Risky_resource_management,{'crash': 100},
-775e6d29e8135aa7f69b9f16fa05033e7baa9b1d,"['speech', 'query', 'parameter', 'websockets', 'crash']",Risky_resource_management,{'crash': 100},
-1dbd17bfb4de234937013e3e86d64376989a5bc2,"['audit', 'security', 'dependency', 'update', 'buildaudit', 'mitigate']",General,{'security': 100},
-f8620194247aa0f550368973b7cc95cdd9c987e0,"['version', 'clientresolve', 'security', 'client', 'issue', 'lbdremysemver', 'patch']",General,{'security': 100},
+sha,message,catetory,matched
+7dd98efccb61578e4aec7fdd166e81878fe84839,"['mergerequest', 'fault', 'tolerant', 'tomakaimplementation', 'buggy', 'crash']",General,{'crash': 100}
+e28a0bdb9775808b3885868f2369f9a1a0fe0bf3,"['implementation', 'buggy', 'crash']",General,{'crash': 100}
+691bac6528b09c04bed5abaf9e988eb9105ca86b,"['mergemerge', 'request', 'paulrouget', 'crasherimplementation', 'crash']",General,{'crash': 100}
+86408438fcaeb901684c82662608e84c381b11bd,"['implementation', 'crash', 'detail']",General,{'crash': 100}
+eb73c2514eefae08a5f1850ce7ee7178b903c4cf,"['mergemerge', 'request', 'cocoa', 'crashcontext', 'function', 'crash', 'legacy']",General,{'crash': 100}
+a8fef35dbf320448ba53af77bd8025be5022d9f4,"['context', 'function', 'crash', 'legacy']",General,{'crash': 100}
+26c0c966d5380f22bf3a8b45d03075b9c4381c2b,"['mergeclose', 'request', 'glennw', 'crashclose', 'driver', 'crash']",General,{'crash': 100}
+3b46145e0dc37dc95b021689e97eee0a94a97272,"['revert', 'security', 'patch', 'sqlalchemy', 'update', 'jinjareverts']",General,{'security': 100}
+a660f084d49e2d1cefb9b34b6868bcf8e65865eb,"['patch', 'security', 'sqlalchemy', 'update', 'jinja']",General,{'security': 100}
+9ed1b15de63c7b98a59a97548673ea85ec34776e,"['deadlock', 'certificate']",Risky_resource_management,{'deadlock': 100}
+dab5e3e933a1856469647c74175052e55f376258,"['jsonschema', 'security']",General,{'security': 100}
+f7469705f8a6636d765ee3a6cc171c29125cd5f8,"['jsonschema', 'security']",General,{'security': 100}
+472b5436fd305b82c8b9754b8c3d3c4f9777daed,"['reset', 'crash', 'encoder']",General,{'crash': 100}
+c16c5db682773afa17dd0534766be3ce94a57f62,"['camera', 'upgrade', 'filter', 'crash']",General,{'crash': 100}
+0c69c17284a9b37d1880f028f2a2f12ac14280f0,"['lantern', 'crash']",General,{'crash': 100}
+119092fe8d133a5858c5f2a9aa66f59fc56a0354,"['mergerequest', 'service', 'hotfix', 'crashservice', 'crash']",General,{'crash': 100}
+9d125a33e88a2f9f0b3a3f1756c1d65deaa2344d,"['server', 'ffmpeg', 'crash']",General,{'crash': 100}
+534e66b11e5d22fb7dba0029004bef2b94f23563,"['crash', 'flush']",General,{'crash': 100}
+cf834c9c982fe55a6d856631153bac892bda8db7,"['release', 'crash']",General,{'crash': 100}
+24c6d5bc57e1c5e9e418ba58fe4c87861e01ae23,"['audio', 'crash']",General,{'crash': 100}
+87ec50bec569fd705a60a6a28a474a3f52f1b7ed,"['device', 'crash', 'stream', 'opengl']",General,{'crash': 100}
+6330a75c345944006a60e0fc07d33129412d6d99,"['audio', 'crash']",General,{'crash': 100}
+4b92adeef1dd8b63b12a47c066a941a9091083ca,"['reopen', 'crash']",General,{'crash': 100}
+f6e61bba0b81de7149143d87d7d69d2c0e3f5bf7,"['camera', 'switch', 'crash']",General,{'crash': 100}
+b88beb14a529a5f98f515e40824b0583e9bd8aed,"['customactivity', 'crash']",General,{'crash': 100}
+1e50aa092b7ac2277652c4f69b3dfa073af83874,"['crash', 'connection']",General,{'crash': 100}
+0b7cb160742018feed47f575c0bdd04d7c3a1b95,"['crash', 'stream']",General,{'crash': 100}
+140e28d56a7268bfb0b285d8d8ec6d9ef504a371,"['crash', 'videoencoder']",General,{'crash': 100}
+c7ecdae410515059b7ef845a1ed24ea039c3b11d,"['crash', 'stream']",General,{'crash': 100}
+35c33da23ad09a505031fb493ca0bb4b17fd493e,"['crash', 'encoder']",General,{'crash': 100}
+718a43eb31b016a400d72d12b4e0ea866355e00b,"['endpoint', 'crash', 'connectchecker']",General,{'crash': 100}
+775e6d29e8135aa7f69b9f16fa05033e7baa9b1d,"['speech', 'query', 'parameter', 'websockets', 'crash']",General,{'crash': 100}
+1dbd17bfb4de234937013e3e86d64376989a5bc2,"['audit', 'security', 'dependency', 'update', 'buildaudit', 'mitigate']",General,{'security': 100}
+f8620194247aa0f550368973b7cc95cdd9c987e0,"['version', 'clientresolve', 'security', 'client', 'issue', 'lbdremysemver', 'patch']",General,{'security': 100}

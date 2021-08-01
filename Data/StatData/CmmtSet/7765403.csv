@@ -1,0 +1,16 @@
+sha,message,catetory,matched
+ded58323032c230328afd42170aa725d4545a130,"['cisco', 'backdoor', 'module']",Insecure_interaction_between_components,{'backdoor': 100}
+7d56d2267cfba3ff3b92e987ebd59af735e3a3f6,"['memory', 'leak', 'redis', 'module']",Risky_resource_management,{'memory leak': 100}
+502ee86c9fe088d74b8199ffcdaebad80d3b0831,"['compile', 'forge', 'socket', 'error', 'wall', 'fstack', 'protector', 'param', 'buffer', 'size', 'wformat', 'wformat', 'security', 'werror', 'format', 'security', 'fpic', 'forge', 'socket', 'forge', 'socket', 'wall', 'fstack', 'protector', 'param', 'buffer', 'size', 'wformat', 'wformat', 'security', 'werror', 'format', 'security', 'fpic', 'xalloc', 'xalloc', 'wall', 'fstack', 'protector', 'param', 'buffer', 'size', 'wformat', 'wformat', 'security', 'werror', 'format', 'security', 'fpic', 'logger', 'logger', 'wall', 'fstack', 'protector', 'param', 'buffer', 'size', 'wformat', 'wformat', 'security', 'werror', 'format', 'security', 'fpic', 'forge', 'socket', 'xalloc', 'logger', 'forge', 'socket', 'lpcap', 'levent', 'bsymbolic', 'function', 'relro', 'logger', 'function', 'loglogva', 'root', 'zmap', 'example', 'forge', 'socket', 'logger', 'undefined', 'reference', 'root', 'zmap', 'example', 'forge', 'socket', 'logger', 'undefined', 'reference', 'exit', 'status', 'forge', 'socket', 'error']",General,{'security': 100}
+3f84cbedd83072b93f367a5d2b5117e41a4de3da,"['compile', 'backdoor']",Insecure_interaction_between_components,{'backdoor': 100}
+7a0656cdd4011bfd8d68f268d7b4afbb380bfb2c,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+b321b7dbf57d551389fed751dc55ae635f034b93,"['crash', 'mongodb', 'output', 'module', 'case', 'open', 'port']",General,{'crash': 100}
+a416797f360aafb05f9d3ced7924c15c1edcf0b4,"['assert', 'check', 'potential', 'buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100}
+f8f18548fddcde550887ceb20272416f7c730428,"['ifnamsiz', 'buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100}
+04443ee92d30973c1127e0a1596289e3e3da03b7,"['deadlock', 'ztee']",Risky_resource_management,{'deadlock': 100}
+be27616c2cc2740d6006bb3e539f2c4f543f68b9,"['hmoore', 'crash']",General,{'crash': 100}
+1e4b638d2b8ab581fbc6a7c78728f85e29c2b619,"['race', 'condition', 'monitor', 'recv', 'close', 'pcap', 'front', 'monitor', 'thread', 'monitor', 'thread', 'crash', 'middle']",General,{'crash': 100}
+e808bb5b99eb572d944c7506ee579994142087b2,"['integer', 'overflow']",Risky_resource_management,{'integer overflow': 100}
+a1877212b6ee5ed0e65af838bb3cd8eef8b1c5a8,"['crash', 'null', 'pcap', 'option', 'zmap', 'crash', 'monitor', 'thread', 'zero', 'exit', 'value', 'error', 'message']",General,{'crash': 100}
+39ec6857f9f73f0b42ac5e3a93f323f461801f3b,"['pull', 'request', 'livioso', 'master', 'resource', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+3f5d594ee4c03145f3f31f19fef169cb3380a975,"['resource', 'memory', 'leak', 'fullpath', 'memory']",Risky_resource_management,{'memory leak': 100}

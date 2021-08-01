@@ -1,5 +1,10 @@
-sha,message,catetory,matched,labels
-87fcf194068a7af36d6cd0067c132e71ac00efec,"['security', 'handler', 'refactor']",General,{'security': 100},
-221bc78e493c5db3b84da1da2cf7c5577405c8a9,"['middleware', 'security', 'handler']",General,{'security': 100},
-0ae1e529027aa7f969c5f4ae8c55be9c4159ae07,"['crash', 'result', 'capitan']",Risky_resource_management,{'crash': 100},
-8db22952bf6d7e8e3f82bff6de589c46c58ef33c,"['crash', 'monkey', 'device', 'initiate']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+87fcf194068a7af36d6cd0067c132e71ac00efec,"['refactor', 'security', 'handler']",General,{'security': 100}
+221bc78e493c5db3b84da1da2cf7c5577405c8a9,"['security', 'handler', 'middleware', 'access', 'token', 'validation']",General,{'security': 100}
+48b3d66d90a24333e72ee4171e174854c8f12c99,"['exclude', 'dummy', 'endpoint', 'csrf', 'check', 'enable', 'autocomplete', 'certain', 'field']",Insecure_interaction_between_components,{'csrf': 100}
+0ae1e529027aa7f969c5f4ae8c55be9c4159ae07,"['html', 'result', 'chrome', 'capitan', 'crash', 'whole', 'browser', 'result']",General,{'crash': 100}
+f28ab04e75389685a838a04e93364acd86d23882,"['initial', 'security', 'maintenance']",General,{'security': 100}
+7740a8be62ae9a7e10b4858815b468be88301a5a,"['quick', 'note', 'security']",General,{'security': 100}
+6e567941cae6e599e2cf8c2add10c2217e94687c,"['memory', 'leak', 'remote', 'screen', 'endpoint']",Risky_resource_management,{'memory leak': 100}
+6bb07d7c3442f5190caee1906581d0a573124211,"['galaxy', 'display', 'information', 'public', 'method', 'unusable', 'galaxy', 'weird', 'memory', 'corruption', 'issue']",Risky_resource_management,{'memory corruption': 100}
+8db22952bf6d7e8e3f82bff6de589c46c58ef33c,"['initiate', 'monkey', 'stream', 'device', 'monkey', 'crash']",General,{'crash': 100}

@@ -1,4 +1,5 @@
-sha,message,catetory,matched,labels
-e7f03c674691b029daf4a9b6d8c16e1eb8c7031c,"['security', 'issue']",General,{'security': 100},
-99e7c83d7c12064cd056358f135c8bdd47985b5c,"['babel', 'compilation', 'crash', 'error']",Risky_resource_management,{'crash': 100},
-be8099ffa711cd28a2390ae6834559c0191feb5c,"['deadlock', 'server']",Risky_resource_management,{'deadlock': 100},
+sha,message,catetory,matched
+e7f03c674691b029daf4a9b6d8c16e1eb8c7031c,"['security', 'issue']",General,{'security': 100}
+99e7c83d7c12064cd056358f135c8bdd47985b5c,"['crash', 'repl', 'compilation', 'babel', 'error']",General,{'crash': 100}
+2edd9b7422807ed20f69184efa41b18199062965,"['stack', 'overflow', 'generic', 'recursive', 'type']",Risky_resource_management,{'stack overflow': 100}
+84b47f8ae6f027239898947d5a6d89f1e4de0a25,"['argument', 'injection', 'fable', 'core', 'method']",Insecure_interaction_between_components,{'argument injection': 100}

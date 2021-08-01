@@ -1,13 +1,37 @@
-sha,message,catetory,matched,labels
-5548212f47cf5dbcf7fff0ac774112a1217be599,"['security', 'content', 'directive', 'policydirective']",General,{'security': 100},
-a17b02ce3288c931e5fc609bf6420b136d15ed59,"['grempebetter', 'session', 'security', 'documentation']",General,{'security': 100},
-5e8544bd3593951df0e9d242b869ac798363b9ba,"['session', 'security', 'documentation']",General,{'security': 100},
-2b6e0881d9a31986a3f4e85aaf2dc1fa45aabef2,"['modernize', 'protectiondirective', 'browser', 'supportdirective', 'supportcontent', 'security', 'policy', 'output', 'directive']",General,{'security': 100},
-e35dca6b06bf60e4cedc487d3fb45af8252013d2,"['bundler', 'warning', 'security', 'github']",General,{'security': 100},
-c419868ca34bb00d93beb876363ae3975f68ffce,"['mergemerge', 'content', 'security', 'mkristian', 'request', 'policysecurity', 'content']",General,{'security': 100},
-3627a9f13bf7a1178a9feb927e1ee6cbb75ea246,"['security', 'transport', 'strict', 'protection']",General,{'security': 100},
-7ba1d1594b6792151329c48827ff127d7e2aef1b,"['security', 'policy']",General,{'security': 100},
-e46535ba674cf518fbf20d9c68e758c60b39d805,"['security', 'content']",General,{'security': 100},
-5fdfa0d5d4bed8d2ade164839ad9255264c8e214,"['crash', 'revert', 'maglev']",Risky_resource_management,{'crash': 100},
-0f02bafe86f8dd9bba9ab425468cb1067caa83ff,"['release', 'security']",General,{'security': 100},
-a1d9001a7abd1ba203de6f1c2696bdce826aed29,"['crash', 'header', 'request', 'raisedaccept', 'headeraccept', 'request', 'return', 'empty', 'sinatra', 'method', 'collectionaccept', 'header']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+ed2add378576ffa0d5225fd541e6a974b2f054a4,"['pull', 'request', 'jkowens', 'form', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+f8f04e5fcebd26e044c79fadbd4859a01f331c43,"['form', 'csrf', 'token', 'model', 'implementation', 'rail', 'cross', 'compatibility']",Insecure_interaction_between_components,{'csrf': 100}
+2527f46bc4cbe3bffedc2a2658e8d737eaa5908b,"['pull', 'request', 'mfinelli', 'directive', 'content', 'security', 'policy', 'directive']",General,{'security': 100}
+5548212f47cf5dbcf7fff0ac774112a1217be599,"['content', 'security', 'policy', 'directive', 'directive', 'multiple', 'word', 'transforms', 'need', 'transform', 'valid', 'directive']",General,{'security': 100}
+d0c4053fd459be9f2c207cfeec5c0606461c014b,"['pull', 'request', 'jkowens', 'json', 'csrf', 'protection']",Insecure_interaction_between_components,{'csrf': 100}
+a2fe3e698b19ac4065f166f1727afd31d0e72f95,"['json', 'csrf', 'protection']",Insecure_interaction_between_components,{'csrf': 100}
+2b6e0881d9a31986a3f4e85aaf2dc1fa45aabef2,"['modernize', 'rack', 'protection', 'complete', 'directive', 'browser', 'support', 'level', 'level', 'support', 'directive', 'argument', 'directive', 'content', 'security', 'policy', 'output']",General,{'security': 100}
+e35dca6b06bf60e4cedc487d3fb45af8252013d2,"['bundler', 'security', 'warning', 'github', 'rack', 'rack']",General,{'security': 100}
+af6902ef31c3da5aa38ab08b0c5dd29c21281698,"['enclose', 'self', 'quote', 'http', 'security', 'quote', 'mpheram', 'sidekiq']",General,{'security': 100}
+c419868ca34bb00d93beb876363ae3975f68ffce,"['pull', 'request', 'mkristian', 'content', 'security', 'policy', 'content', 'security', 'policy']",General,{'security': 100}
+3627a9f13bf7a1178a9feb927e1ee6cbb75ea246,"['strict', 'transport', 'security', 'protection']",General,{'security': 100}
+7ba1d1594b6792151329c48827ff127d7e2aef1b,"['security', 'policy']",General,{'security': 100}
+e46535ba674cf518fbf20d9c68e758c60b39d805,"['content', 'security', 'policy']",General,{'security': 100}
+504bdad5caeaee9058ea6a59ff5932b959aff4e2,"['pull', 'request', 'sholden', 'master', 'template', 'cache', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+d9d4b3f434472b07c75eab84557045d20b0068f5,"['template', 'cache', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+a0a84e4052600e906fd5e417f011455afe1dc497,"['master', 'http', 'github', 'sinatra', 'sinatra', 'request', 'master', 'http', 'github', 'sinatra', 'sinatra', 'path', 'traversal', 'protection', 'test']",Risky_resource_management,{'path traversal': 100}
+c5c9f6b5501a366d5809faa44e50fad371c14870,"['path', 'traversal', 'protection', 'test', 'direct', 'competition', 'behaviour', 'path', 'traversal', 'protection']",Risky_resource_management,{'path traversal': 100}
+7b646ff54463dc7781548f4a81e323523b16e1ef,"['pull', 'request', 'token', 'ensure', 'session', 'contains', 'csrf', 'token', 'safe', 'request']",Insecure_interaction_between_components,{'csrf': 100}
+d466e7474be272aff25d759fc860772b273f41e8,"['spec', 'care', 'presence', 'csrf', 'token', 'length']",Insecure_interaction_between_components,{'csrf': 100}
+17380784962f08a0aa94afb25ba08e6fdad1b7e1,"['ensure', 'session', 'contains', 'csrf', 'token', 'safe', 'request', 'token', 'session', 'request', 'unsafe', 'default', 'delete', 'request', 'http', 'github', 'rack', 'protection', 'issue', 'changeset', 'rearranges', 'line', 'accepts', 'conditional', 'assignment', 'session', 'csrf', 'time', 'method', 'safe', 'request']",Insecure_interaction_between_components,{'csrf': 100}
+f6c2bdbada0501431fa6edf5c29ca5813302f123,"['pull', 'request', 'pdeje', 'implementation', 'origin', 'csrf', 'mitigation', 'request', 'header']",Insecure_interaction_between_components,{'csrf': 100}
+2eb0092cd2d0e8c04ae9f52d9f02a42f20d4a675,"['pull', 'request', 'hecticjeff', 'json', 'csrf', 'warning', 'show', 'warning', 'jsoncsrf', 'attack']",Insecure_interaction_between_components,{'csrf': 100}
+33c64d0d018871230b0c63dc6998add68908e4fe,"['pull', 'request', 'timfel', 'patch', 'revert', 'therubyracer', 'unstable', 'crash', 'jruby', 'maglev']",General,{'crash': 100}
+5fdfa0d5d4bed8d2ade164839ad9255264c8e214,"['unstable', 'crash', 'jruby', 'maglev', 'revert']",General,{'crash': 100}
+1d10a7a6288f2a066ec4e7621a9fdb6874cb662b,"['path', 'traversal', 'protection', 'sinatra', 'sinatra']",Risky_resource_management,{'path traversal': 100}
+e174c1171f6d04568197ba32cb5255314e471e47,"['pull', 'request', 'acrmp', 'update', 'readme', 'csrf', 'csrf', 'example', 'protection']",Insecure_interaction_between_components,{'csrf': 100}
+35d2c0ddb330b13df3cc7cc69c2a52fb99f6ac99,"['csrf', 'example', 'protection']",Insecure_interaction_between_components,{'csrf': 100}
+f440b454b55d30809d174a9d72164bd4a230b171,"['sinatra', 'csrf', 'rack', 'protection']",Insecure_interaction_between_components,{'csrf': 100}
+7798cda96760c076e9c0238776f32bc6755398dc,"['pending', 'spec', 'json', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+62dd794011be1633a4e485782f5fbadb94df5b5b,"['json', 'csrf', 'protection']",Insecure_interaction_between_components,{'csrf': 100}
+5f7e48f29959a22e67c92daddb2cb4b5439a4dfe,"['sinatra', 'csrf', 'current', 'spec']",Insecure_interaction_between_components,{'csrf': 100}
+6072730db358390476f92f73b9156696752e0c3e,"['dummy', 'access', 'control']",Porous_defenses,{'access control': 100}
+6d92b27b76e2b243ac6ada14348a0c5c194ca81a,"['proper', 'test', 'referrer', 'csrf', 'protection']",Insecure_interaction_between_components,{'csrf': 100}
+a104ee3649057a728c0d9802e7e38b7bc993bce8,"['initial', 'csrf', 'protection', 'implementation']",Insecure_interaction_between_components,{'csrf': 100}
+78554ffe912e4c1f4f9ae221452dbdb0723f2f3a,"['reload', 'template', 'ruby', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+0f02bafe86f8dd9bba9ab425468cb1067caa83ff,"['security', 'release']",General,{'security': 100}

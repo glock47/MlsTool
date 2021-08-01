@@ -1,4 +1,13 @@
-sha,message,catetory,matched,labels
-f0d0158c2bc0c21d17c89ce5716c71d36ac8e2c6,"['aacba', 'fadfcc', 'mergemaster', 'mergemasterarcfour', 'cipher', 'comment', 'insecure']",General,{'insecure': 100},
-a0a23cbaf105f104d24000d718d0d850cdf41c1f,"['bantuarcfour', 'cipher', 'removearcfour', 'bantu', 'removearcfour', 'cipher', 'comment', 'insecure']",General,{'insecure': 100},
-84ac3057044b8df2c94040e5196a1216a840c1cb,"['arcfour', 'cipher', 'comment', 'insecure']",General,{'insecure': 100},
+sha,message,catetory,matched
+05539a72befc2e50f8b0437b69dee64b46b97aa8,"['primefield', 'plug', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+418035c404833187f7474c71e0ba06c167b0bcf0,"['weakreference', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+e3df33183c78ba212fefec23ebf703452472027e,"['weakreference', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+a276c2b073f5761761d3caff3ce1326e0117c2eb,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+1af19fbf1b6ca02dcc98ae55d72de2c393dcdc1d,"['memory', 'leak', 'small', 'file']",Risky_resource_management,{'memory leak': 100}
+f0d0158c2bc0c21d17c89ce5716c71d36ac8e2c6,"['master', 'master', 'comment', 'insecure', 'cipher', 'arcfour']",General,{'insecure': 100}
+a0a23cbaf105f104d24000d718d0d850cdf41c1f,"['pull', 'request', 'bantu', 'arcfour', 'cipher', 'bantu', 'arcfour', 'comment', 'insecure', 'cipher', 'arcfour']",General,{'insecure': 100}
+84ac3057044b8df2c94040e5196a1216a840c1cb,"['insecure', 'cipher', 'arcfour']",General,{'insecure': 100}
+15817a416e21e07c31d4100544d81377beed06f5,"['memory', 'leak', 'mode']",Risky_resource_management,{'memory leak': 100}
+ed461cd6caacfb3874a03036a23be19ab3b78968,"['pull', 'request', 'petrich', 'master', 'rijndael', 'memory', 'leak', 'mode']",Risky_resource_management,{'memory leak': 100}
+eff0bb21c580f9360ff9a31fbe250c81427386eb,"['rijndael', 'memory', 'leak', 'mode', 'http', 'github', 'phpseclib', 'phpseclib', 'issue']",Risky_resource_management,{'memory leak': 100}
+bf3ca6312e5318ae00a976bd11da008b4903cc07,"['memory', 'leak', 'mode']",Risky_resource_management,{'memory leak': 100}

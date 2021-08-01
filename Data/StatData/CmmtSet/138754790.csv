@@ -1,28 +1,28 @@
-sha,message,catetory,matched,labels
-1ee1dbd583146132a9aa66003baf2ecd4faf44dc,"['dependency', 'updatebrotli', 'andybalholm', 'updatecompare', 'brotli', 'andybalholmsnappy', 'golang', 'updatecompare', 'snappy', 'golangklauspost', 'compress', 'updatecompress', 'klauspost', 'bbbadebbdccbde', 'changelogklauspost', 'pgzip', 'updatetemporary', 'content', 'buffer', 'readingpierrec', 'updatecompare', 'pierrec', 'changeulikunitz', 'updatecompare', 'ulikunitz', 'changeadvisory', 'ulikunitz', 'important', 'security']",General,{'security': 100},
-d6c514d6282415d243b990375e2582ed8530be04,"['version', 'increase', 'requiredknown', 'version', 'library', 'requestvulnerability', 'security']",General,{'security': 100},
-62c53161c38ffc40454a40855aa9886712258120,"['fabbe', 'dfbadd', 'mergerequest', 'mytherin', 'multi', 'execution', 'potential', 'error', 'pipeline', 'deadlock']",Risky_resource_management,{'deadlock': 100},
-6a12aede6153aa377c7fca2a3748b841e93a3ef8,"['thread', 'error', 'pipeline', 'deadlock', 'occurs']",Risky_resource_management,{'deadlock': 100},
-083668ab39b572294469fd547506d1160783aa1b,"['deadlock', 'creation', 'default', 'entry']",Risky_resource_management,{'deadlock': 100},
-621b080a757fcd8d8760028b6028e2c4303494bf,"['mergerequest', 'mytherin', 'mergesubtract', 'hugeint', 'integer', 'overflow']",Risky_resource_management,{'integer overflow': 100},
-4da6176fe13765a5bd34ae3f2276a76035c17300,"['subtract', 'hugeint', 'integer', 'overflow']",Risky_resource_management,{'integer overflow': 100},
-4abd964e54216907f5b787251f17f5956468529d,"['deadlock', 'unlock']",Risky_resource_management,{'deadlock': 100},
-c00ee79a22256a26ef00b4c867910076facc15af,"['segment', 'crash', 'update', 'morsel']",Risky_resource_management,{'crash': 100},
-7872b117736c84bd8994d0ec96aa6f947ae522fc,"['multiple', 'reader', 'crash', 'progress', 'parquet']",Risky_resource_management,{'crash': 100},
-e56a217eb668a5f544c6f8e052d33ea3096a715f,"['pragma', 'problem', 'crash', 'certain', 'point']",Risky_resource_management,{'crash': 100},
-8a27d6d6830cfc6627e379591b9a3bdf5da56511,"['deadlock', 'checkpointer']",Risky_resource_management,{'deadlock': 100},
-890797801669cde52c12455f5f077677a5217b37,"['deadlock', 'checkpoint']",Risky_resource_management,{'deadlock': 100},
-cc529e6e6919f39def244347514dbd05a30d0cea,"['table', 'crash']",Risky_resource_management,{'crash': 100},
-0f0389ddfab489a2cabb1947631804f5d1f35f82,"['mergerequest', 'mytherin', 'shellfixeswrite', 'invalid', 'history', 'crash']",Risky_resource_management,{'crash': 100},
-b3abfc8b6096e3319d5d9235bae7fa18987e70e0,"['history', 'crash', 'linenoise']",Risky_resource_management,{'crash': 100},
-caaf857c7a118b1fc0e66eaf142a194d31db6aff,"['integer', 'overflow', 'sqlite', 'trigger', 'ignore']",Risky_resource_management,{'integer overflow': 100},
-832c9fffb952cade0919234a1aaeac2e27e9dbad,"['highlighter', 'crash', 'linenoise', 'syntax']",Risky_resource_management,{'crash': 100},
-a844eab2e6f5c4ce29c06dba711130d9aad43d07,"['storage', 'crash', 'table', 'connection']",Risky_resource_management,{'crash': 100},
-2d2996573f217a961f016ec6cdef27ab31738cba,"['driver', 'crash', 'paranoiasupport', 'shutdown', 'explicitshutdown', 'check', 'database', 'clone', 'connectionhandle', 'value', 'connection', 'property']",Risky_resource_management,{'crash': 100},
-d126760332d20b31cb5af4452f3fd3837dc73e45,"['resize', 'crash', 'offset']",Risky_resource_management,{'crash': 100},
-994cf104f4c0abdf8981df07c98d19affda33694,"['crash', 'stream']",Risky_resource_management,{'crash': 100},
-0f96df2adde5e955eaa3b85821decf1a3198f4c1,"['crash', 'value', 'return', 'default']",Risky_resource_management,{'crash': 100},
-17aabef051913c48c7eba6901265e84d43f09484,"['pending', 'rewrite', 'storage', 'crash', 'parallel']",Risky_resource_management,{'crash': 100},
-e0de10dd9a70c1cfebfe127c834e61d13470f999,"['crash', 'expressiontype']",Risky_resource_management,{'crash': 100},
-5d872e1b5890464164f87d5c85fb417ff4b25cdb,"['crash', 'tojson']",Risky_resource_management,{'crash': 100},
-6f3139ef18a0804206c27161dc5b6fa0a5353298,"['random', 'issue', 'cross', 'sqlite']",Insecure_interaction_between_components,{'cross sqlite': 91},
+sha,message,catetory,matched
+1ee1dbd583146132a9aa66003baf2ecd4faf44dc,"['dependency', 'updatebrotli', 'andybalholm', 'updatecompare', 'brotli', 'andybalholmsnappy', 'golang', 'updatecompare', 'snappy', 'golangklauspost', 'compress', 'updatecompress', 'klauspost', 'bbbadebbdccbde', 'changelogklauspost', 'pgzip', 'updatetemporary', 'content', 'buffer', 'readingpierrec', 'updatecompare', 'pierrec', 'changeulikunitz', 'updatecompare', 'ulikunitz', 'changeadvisory', 'ulikunitz', 'important', 'security']",General,{'security': 100}
+d6c514d6282415d243b990375e2582ed8530be04,"['version', 'increase', 'requiredknown', 'version', 'library', 'requestvulnerability', 'security']",General,{'security': 100}
+62c53161c38ffc40454a40855aa9886712258120,"['fabbe', 'dfbadd', 'mergerequest', 'mytherin', 'multi', 'execution', 'potential', 'error', 'pipeline', 'deadlock']",Risky_resource_management,{'deadlock': 100}
+6a12aede6153aa377c7fca2a3748b841e93a3ef8,"['thread', 'error', 'pipeline', 'deadlock', 'occurs']",Risky_resource_management,{'deadlock': 100}
+083668ab39b572294469fd547506d1160783aa1b,"['deadlock', 'creation', 'default', 'entry']",Risky_resource_management,{'deadlock': 100}
+621b080a757fcd8d8760028b6028e2c4303494bf,"['mergerequest', 'mytherin', 'mergesubtract', 'hugeint', 'integer', 'overflow']",Risky_resource_management,{'integer overflow': 100}
+4da6176fe13765a5bd34ae3f2276a76035c17300,"['subtract', 'hugeint', 'integer', 'overflow']",Risky_resource_management,{'integer overflow': 100}
+4abd964e54216907f5b787251f17f5956468529d,"['deadlock', 'unlock']",Risky_resource_management,{'deadlock': 100}
+c00ee79a22256a26ef00b4c867910076facc15af,"['segment', 'crash', 'update', 'morsel']",General,{'crash': 100}
+7872b117736c84bd8994d0ec96aa6f947ae522fc,"['multiple', 'reader', 'crash', 'progress', 'parquet']",General,{'crash': 100}
+e56a217eb668a5f544c6f8e052d33ea3096a715f,"['pragma', 'problem', 'crash', 'certain', 'point']",General,{'crash': 100}
+8a27d6d6830cfc6627e379591b9a3bdf5da56511,"['deadlock', 'checkpointer']",Risky_resource_management,{'deadlock': 100}
+890797801669cde52c12455f5f077677a5217b37,"['deadlock', 'checkpoint']",Risky_resource_management,{'deadlock': 100}
+cc529e6e6919f39def244347514dbd05a30d0cea,"['table', 'crash']",General,{'crash': 100}
+0f0389ddfab489a2cabb1947631804f5d1f35f82,"['mergerequest', 'mytherin', 'shellfixeswrite', 'invalid', 'history', 'crash']",General,{'crash': 100}
+b3abfc8b6096e3319d5d9235bae7fa18987e70e0,"['history', 'crash', 'linenoise']",General,{'crash': 100}
+caaf857c7a118b1fc0e66eaf142a194d31db6aff,"['integer', 'overflow', 'sqlite', 'trigger', 'ignore']",Risky_resource_management,{'integer overflow': 100}
+832c9fffb952cade0919234a1aaeac2e27e9dbad,"['highlighter', 'crash', 'linenoise', 'syntax']",General,{'crash': 100}
+a844eab2e6f5c4ce29c06dba711130d9aad43d07,"['storage', 'crash', 'table', 'connection']",General,{'crash': 100}
+2d2996573f217a961f016ec6cdef27ab31738cba,"['driver', 'crash', 'paranoiasupport', 'shutdown', 'explicitshutdown', 'check', 'database', 'clone', 'connectionhandle', 'value', 'connection', 'property']",General,{'crash': 100}
+d126760332d20b31cb5af4452f3fd3837dc73e45,"['resize', 'crash', 'offset']",General,{'crash': 100}
+994cf104f4c0abdf8981df07c98d19affda33694,"['crash', 'stream']",General,{'crash': 100}
+0f96df2adde5e955eaa3b85821decf1a3198f4c1,"['crash', 'value', 'return', 'default']",General,{'crash': 100}
+17aabef051913c48c7eba6901265e84d43f09484,"['pending', 'rewrite', 'storage', 'crash', 'parallel']",General,{'crash': 100}
+e0de10dd9a70c1cfebfe127c834e61d13470f999,"['crash', 'expressiontype']",General,{'crash': 100}
+5d872e1b5890464164f87d5c85fb417ff4b25cdb,"['crash', 'tojson']",General,{'crash': 100}
+6f3139ef18a0804206c27161dc5b6fa0a5353298,"['random', 'issue', 'cross', 'sqlite']",Insecure_interaction_between_components,{'cross sqlite': 91}

@@ -1,18 +1,28 @@
-sha,message,catetory,matched,labels
-add192fad95d2bf00261ae7cd052fd4c309376bd,"['mergecredential', 'request', 'serverless', 'elliottsjcredential', 'access', 'control']",Porous_defenses,{'access control': 100},
-12754f031bcfd3373d9b827ea9155e257a1d5028,"['credential', 'access', 'control', 'serverlessserver', 'package', 'apollographql', 'lambda', 'apollo']",Porous_defenses,{'access control': 100},
-9f7bec894288131af3fe1a6779f6837b62ea0ce1,"['static', 'maintenance', 'security', 'brakeman']",General,{'security': 100},
-02159c18735bd6046875e716a13ccfd4405aaead,"['parent', 'category', 'translation', 'object', 'knowledge', 'locale', 'search', 'crash']",Risky_resource_management,{'crash': 100},
-f63577633f2317d3b443a448a1f1f1eab563a9c8,"['security', 'default', 'customer', 'strength', 'setting', 'password']",General,{'security': 100},
-3c730222720048824e35ac31c90944e18924ff2c,"['security', 'content', 'policy', 'youtube']",General,{'security': 100},
-49b0ca4d58bced69c4e362b226520ac6de04294c,"['content', 'maintenance', 'security']",General,{'security': 100},
-201027d23c6a6bc4800fe487a42bc0118f8286c2,"['current', 'issue', 'chrome', 'crash', 'selenium', 'update', 'maintenance']",Risky_resource_management,{'crash': 100},
-47778f2d2fb27745d52c1221739ecc5d2f8af667,"['activejoblock', 'activerecord', 'error', 'deadlock', 'mysql', 'update', 'cbfcaaaaaaf', 'transaction']",Risky_resource_management,{'deadlock': 100},
-f41aa097ce9f2bcf8b0bac271cbdc0539e597a42,"['number', 'javascript', 'plain', 'crash', 'phone']",Risky_resource_management,{'crash': 100},
-e6697cdd21adb1d64aa91fd52e336d9c71b31fa8,"['script', 'rightmatter', 'directory', 'online', 'instance', 'ensure', 'filesystem', 'zammad', 'enhancement', 'backup', 'crash', 'documentation', 'zammad']",Risky_resource_management,{'crash': 100},
-156d837573e87c5fe35678d5b0b1506e56b4e501,"['doorkeeper', 'update', 'issue', 'security']",General,{'security': 100},
-4302da264df4357cdfa4cf01bf14c4b7c66e2bb6,"['reason', 'security']",General,{'security': 100},
-4b8f1b9452cb49bef1fff817587cb075e298a782,"['security', 'content', 'issue', 'injection', 'excel']",General,{'security': 100},
-0862bf7e6a6a9a67016083e528c51299824652e9,"['thanks', 'security', 'winner', 'password', 'module', 'proper', 'competition', 'official', 'argon']",General,{'security': 100},
-11a6930c44bfe8b46e1afd9366204f5c3358fb27,"['webinterface', 'issue', 'search', 'crash']",Risky_resource_management,{'crash': 100},
-8f96496a47d129f994d5874c9cf31287d99f2900,"['initial', 'routine', 'setup', 'issue', 'script', 'recreation', 'zammad', 'cache', 'crash', 'delete']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+1723d57cdd7acefa1907d9a23ecdd8eccfa42d86,"['security', 'page', 'party', 'logins']",General,{'security': 100}
+9f7bec894288131af3fe1a6779f6837b62ea0ce1,"['brakeman', 'static', 'security', 'analysis']",General,{'security': 100}
+1d2a1a1163d67c36c185eea891fec8236fec5e0f,"['gitlab', 'github', 'integration', 'application', 'reload', 'wrong', 'gitlab', 'error', 'message', 'gitlab', 'github', 'integration', 'visual', 'feedback', 'issue', 'error', 'message', 'user', 'wrong', 'information', 'github', 'gitlab', 'multiple', 'load', 'gitlab', 'github', 'graphql', 'schema', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+02159c18735bd6046875e716a13ccfd4405aaead,"['knowledge', 'base', 'search', 'crash', 'parent', 'category', 'translation', 'locale']",General,{'crash': 100}
+f63577633f2317d3b443a448a1f1f1eab563a9c8,"['default', 'password', 'security', 'password', 'strength', 'setting', 'customer', 'account']",General,{'security': 100}
+3c730222720048824e35ac31c90944e18924ff2c,"['content', 'security', 'policy', 'content', 'youtube', 'vimeo']",General,{'security': 100}
+49b0ca4d58bced69c4e362b226520ac6de04294c,"['content', 'security', 'policy']",General,{'security': 100}
+201027d23c6a6bc4800fe487a42bc0118f8286c2,"['maintenance', 'update', 'selenium', 'compatible', 'version', 'current', 'issue', 'chrome', 'crash']",General,{'crash': 100}
+96d300b912e45d703e8e0160c655d185d82058be,"['maintenance', 'controller', 'callback', 'csrf', 'token', 'check', 'lead', 'session']",Insecure_interaction_between_components,{'csrf': 100}
+47778f2d2fb27745d52c1221739ecc5d2f8af667,"['activejoblock', 'lock', 'update', 'activerecord', 'mysql', 'error', 'deadlock', 'transaction', 'exception']",Risky_resource_management,{'deadlock': 100}
+f41aa097ce9f2bcf8b0bac271cbdc0539e597a42,"['javascript', 'crash', 'plain', 'text', 'html', 'phone', 'number', 'html', 'rich', 'text', 'field']",General,{'crash': 100}
+1ebddff95f0d2fcc5c85db73950c829672c6e9d6,"['automatic', 'rspec', 'cassette', 'name', 'helper', 'addition', 'test', 'suite', 'twitter', 'functionality', 'ruby', 'test', 'external', 'service', 'http', 'http', 'transaction', 'yaml', 'file', 'github', 'star', 'specify', 'name', 'cassette', 'file', 'time', 'path', 'cassette', 'rspec', 'metadata', 'config', 'option', 'shorthand', 'syntax', 'config', 'option', 'generates', 'cassette', 'filename', 'description', 'example', 'alternative', 'approach', 'cassette', 'filename', 'unique', 'filename', 'collide', 'multiple', 'example', 'share', 'cassette', 'error', 'errno', 'enametoolong', 'file', 'name', 'long', 'zammad', 'test', 'data', 'model', 'ticket', 'article', 'idea', 'digest', 'fact', 'approach', 'share', 'committer', 'remembers', 'rename', 'cassette', 'file', 'record', 'cassette', 'file', 'slow', 'test', 'modify', 'test', 'cassette', 'sensitive', 'data', 'login', 'credential', 'approach', 'partial', 'description', 'parent', 'describe', 'context', 'label', 'label', 'filename', 'collision', 'good', 'middle', 'ground', 'http', 'relishapp']",Porous_defenses,{'sensitive data': 100}
+183a8938833e7c6206a06b936586a30b7f398418,"['explicitness', 'csrf', 'token', 'check', 'logic']",Insecure_interaction_between_components,{'csrf': 100}
+e6697cdd21adb1d64aa91fd52e336d9c71b31fa8,"['sure', 'restoration', 'script', 'ensure', 'matter', 'online', 'instance', 'zammad', 'directory', 'user', 'zammad', 'backup', 'documentation', 'need', 'enhancement', 'hold', 'warning', 'ensure', 'user', 'crash']",General,{'crash': 100}
+156d837573e87c5fe35678d5b0b1506e56b4e501,"['update', 'doorkeeper', 'security', 'issue']",General,{'security': 100}
+348429940d27ce6e03d9ff5ce972fd5b51ea8f85,"['csrf', 'validation', 'csrf', 'request', 'method', 'check']",Insecure_interaction_between_components,{'csrf': 100}
+4302da264df4357cdfa4cf01bf14c4b7c66e2bb6,"['security', 'reason']",General,{'security': 100}
+858f259b96c00caa0917272f53f4142b2affc71c,"['null', 'pointer', 'exception']",Risky_resource_management,{'null pointer': 100}
+4b8f1b9452cb49bef1fff817587cb075e298a782,"['security', 'issue', 'content', 'injection', 'excel']",General,{'security': 100}
+4573308f6676cc2729d24789088c7b3849d7c8e9,"['issue', 'access', 'control', 'origin', 'error', 'form']",Porous_defenses,{'access control': 100}
+a2a6309692d06b986e93da0e1137805f5f934987,"['issue', 'update', 'object', 'attribute', 'lead', 'csrf', 'token', 'verification', 'failure']",Insecure_interaction_between_components,{'csrf': 100}
+0862bf7e6a6a9a67016083e528c51299824652e9,"['password', 'security', 'proper', 'password', 'hash', 'module', 'official', 'winner', 'password', 'competition', 'thanks', 'nomoketo', 'benbe']",General,{'security': 100}
+11a6930c44bfe8b46e1afd9366204f5c3358fb27,"['issue', 'crash', 'webinterface', 'search']",General,{'crash': 100}
+8f96496a47d129f994d5874c9cf31287d99f2900,"['issue', 'delete', 'cache', 'initial', 'setup', 'routine', 'script', 'scheduler', 'crash', 'recreation', 'zammad', 'database']",General,{'crash': 100}
+6324e3c2a5dd550c1db08da529899820046af5c4,"['controllermodal', 'content', 'element', 'event', 'spine', 'event', 'accidental', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+35ffe2c6ddb13994ea7e65b70edfd8e21cc9653b,"['meta', 'data', 'race', 'condition']",Risky_resource_management,{'data race': 100}
+6d79f6caa0c5b9fc370ad3365677b8358b4cf67f,"['csrf', 'check', 'json', 'store']",Insecure_interaction_between_components,{'csrf': 100}

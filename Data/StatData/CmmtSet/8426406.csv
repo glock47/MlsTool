@@ -1,8 +1,17 @@
-sha,message,catetory,matched,labels
-6cbb02d98e99a96f753b5f4e90acefdd2d5c9458,"['original', 'validation', 'error', 'messagestyle', 'serialisation', 'parameter', 'fixedparameterstyle', 'keymatchstyle', 'header', 'appropriate', 'integration']",Insecure_interaction_between_components,{'original validation error': 96},
-007604952e09a8fd610542d187478a39ecb3bd66,"['query', 'pulledscheme', 'cookie', 'string', 'security', 'query']",General,{'security': 100},
-61cfd1d13ba9322a921ad4e42dc628988b9f63ae,"['openapi', 'scheme', 'specification', 'header', 'security', 'support']",General,{'security': 100},
-3aa9fc8c0376143aee1246e31e11693e24f939f2,"['container', 'distroless', 'security']",General,{'security': 100},
-5e8fda7e5137841605b9b9282a0c6255621b363f,"['version', 'vulnerability', 'tomcat', 'security']",General,{'security': 100},
-a76d52897cb6fd1fe691535ec1f34f8622bae242,"['future', 'deadlock']",Risky_resource_management,{'deadlock': 100},
-bdd74933072904ad8bf1532084568ad1cc482306,"['deadlock', 'buildkite']",Risky_resource_management,{'deadlock': 100},
+sha,message,catetory,matched
+69c0a8de05886f17879ef2e96d5a931975282941,"['null', 'pointer', 'exception']",Risky_resource_management,{'null pointer': 100}
+007604952e09a8fd610542d187478a39ecb3bd66,"['cache', 'control', 'plane', 'matcher', 'open', 'query', 'string', 'matcher', 'open', 'security', 'scheme', 'query', 'string', 'cookie']",General,{'security': 100}
+61cfd1d13ba9322a921ad4e42dc628988b9f63ae,"['support', 'security', 'scheme', 'openapi', 'specification', 'security', 'header']",General,{'security': 100}
+c4e7881bf756fc2069043af42b8b18b0937c8156,"['dependency', 'security', 'package']",General,{'security': 100}
+3aa9fc8c0376143aee1246e31e11693e24f939f2,"['distroless', 'container', 'base', 'security', 'size']",General,{'security': 100}
+5e8fda7e5137841605b9b9282a0c6255621b363f,"['tomcat', 'version', 'security', 'vulnerability']",General,{'security': 100}
+17dd54190e1158607cddc2607a5a90d0dbc0e8cd,"['security', 'website']",General,{'security': 100}
+ea3d34ea2254bc238ab25cfbea62cde51c2b15a8,"['null', 'point', 'expectation', 'initialiser', 'file', 'watcher', 'relative', 'path']",Risky_resource_management,{'null point': 91}
+85b2500a15a5e62731d4338456e562a76aca180b,"['null', 'pointer', 'update', 'method']",Risky_resource_management,{'null pointer': 100}
+bdd74933072904ad8bf1532084568ad1cc482306,"['test', 'deadlock', 'buildkite']",Risky_resource_management,{'deadlock': 100}
+8cfe3b29db9d95984477bc727a5f78b1c6ad067e,"['null', 'pointer', 'test']",Risky_resource_management,{'null pointer': 100}
+edd28aca33cf51083e56f22a0be4a371e3eae1d9,"['basic', 'support', 'access', 'control', 'request', 'header', 'cors', 'preflight', 'request', 'access', 'control', 'request', 'header', 'header', 'server', 'header', 'client', 'header', 'response', 'header', 'access', 'control']",Porous_defenses,{'access control': 100}
+c8c930cdc646f3c7df6c4d22317f4d34900d6f1a,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+80fa2a1844794438436a952111c96a060ce4963c,"['null', 'pointer', 'error']",Risky_resource_management,{'null pointer': 100}
+7026ed468bbf283a11d05b543de917df61b916b8,"['issue', 'null', 'pointer', 'empty', 'body']",Risky_resource_management,{'null pointer': 100}
+16647d8f7810f088a1060c8b0dedf276115337de,"['access', 'control', 'credential', 'null', 'origin', 'header']",Porous_defenses,{'access control': 100}

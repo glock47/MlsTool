@@ -1,14 +1,28 @@
-sha,message,catetory,matched,labels
-ded79467a8254e43841dfeb69f7c3baa1980232c,"['crash', 'recipe', 'znodeavoidcontender', 'recipe', 'kazooattribute', 'attributeerror', 'decode', 'nonetype', 'object']",Risky_resource_management,{'crash': 100},
-3cc86ac06e20722d0ba78582abed2b2a63a7a2aa,"['mergemerge', 'semaphore', 'request', 'hotfix', 'deadlock', 'anskornyakovdeadlock']",Risky_resource_management,{'deadlock': 100},
-520fa7d33c6e84a2bd089479be97688851da49e0,"['crash', 'string', 'bogusgutierrez']",Risky_resource_management,{'crash': 100},
-652cd315e88d6ebf2e86dad2d09f3ba7e229dbdf,"['exception', 'client', 'queue', 'clientnever', 'callbackthread', 'deadlock', 'zombienever', 'condition', 'waitingcheck', 'propagate', 'exception', 'callersolve', 'jclopes', 'thanks']",Risky_resource_management,{'deadlock': 100},
-d8fe74fcc7f11d8d628c6ae48d50eb91f44db4f4,"['import', 'module', 'movingemail', 'thread', 'excessive', 'deadlock', 'basedimport', 'module']",Risky_resource_management,{'deadlock': 100},
-cd93db3ba07a28110bc9af0f363edf3a3c5d45d1,"['failure', 'deadlock']",Risky_resource_management,{'deadlock': 100},
-3763969de4d002e7ce8c44f043a86c0c135a055a,"['election', 'deadlock', 'effect']",Risky_resource_management,{'deadlock': 100},
-9c62f5fbd1dcf9295fb90553eef30299eec85b1d,"['security', 'cleanup']",General,{'security': 100},
-6e01e56868a8d5442f9e0891d5cb3ae62336c66d,"['class', 'security']",General,{'security': 100},
-233c8032675322820e11ff0a413d8250191d7293,"['update', 'security']",General,{'security': 100},
-700c38bab356b07500a6ba183d737bdba231f066,"['security', 'coverage']",General,{'security': 100},
-7726b6b7a298423f4b5967e4eac272312f100008,"['update', 'security']",General,{'security': 100},
-d72f60bf1fa1cf1d7b63c0f2c6da35c150e14b25,"['module', 'method', 'security', 'client', 'refactor', 'clarity']",General,{'security': 100},
+sha,message,catetory,matched
+ded79467a8254e43841dfeb69f7c3baa1980232c,"['recipe', 'crash', 'file', 'home', 'test', 'kazoo', 'recipe', 'lock', 'line', 'contender', 'data', 'decode', 'attributeerror', 'nonetype', 'object', 'attribute', 'decode']",General,{'crash': 100}
+37bcda357463155aba5f2383bc70528413a10f1b,"['recipe', 'memory', 'leak', 'childrenwatch', 'ensures', 'watcher', 'client', 'listener', 'func', 'childrenwatch', 'return', 'childrenwatch', 'object', 'memory', 'unit', 'test', 'ensure', 'case']",Risky_resource_management,{'memory leak': 100}
+c48f2733f2a6b2c2941738e4208e8cfede676730,"['recipe', 'memory', 'leak', 'treecache', 'recipe', 'memory', 'leak', 'treecache', 'recipe', 'memory', 'leak', 'idle', 'handler', 'memory', 'test', 'treecache', 'recipe', 'objgraph', 'test', 'various', 'handler', 'treecache', 'safe']",Risky_resource_management,{'memory leak': 100}
+3cc86ac06e20722d0ba78582abed2b2a63a7a2aa,"['pull', 'request', 'anskornyakov', 'hotfix', 'semaphore', 'deadlock', 'deadlock']",Risky_resource_management,{'deadlock': 100}
+a67432256ba3aebceb3fe12c70584f7b8a440b7a,"['deadlock', 'inner', 'lock', 'release']",Risky_resource_management,{'deadlock': 100}
+d3ed984c9515c00b01408a437f58619dd952ab16,"['readthedocs', 'link', 'migration', 'blog', 'post', 'april', 'http', 'project', 'subdomains', 'domain', 'readthedocs', 'readthedocs', 'address', 'security', 'concern', 'site', 'cooky', 'data', 'domain', 'dashboard', 'test', 'plan']",General,{'security': 100}
+d3b183e68b967b37e80f91b03c61cfc71b9ada3e,"['pull', 'request', 'issue', 'crash', 'host', 'string', 'bogus']",General,{'crash': 100}
+520fa7d33c6e84a2bd089479be97688851da49e0,"['crash', 'host', 'string', 'bogus', 'raul', 'gutierrez', 'itevenworks']",General,{'crash': 100}
+2ef90b8b1379c28c55460c939db1b75f408d2f51,"['note', 'queue', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+ecaa5c3de3023dbf34e0b4379c1a323fdccab929,"['pull', 'request', 'jborg', 'lock', 'reconnect', 'lock', 'deadlock']",Risky_resource_management,{'deadlock': 100}
+0937c79550c70067374c4d4a178c75d572490f0e,"['lock', 'deadlock', 'zookeeper', 'leader', 'node', 'import', 'kazoo', 'client', 'import', 'kazooclient', 'import', 'time', 'kazooclient', 'node', 'node', 'node', 'lambda', 'state', 'print', 'state', 'lock', 'lock', 'test', 'true', 'lock', 'print', 'lock', 'time', 'sleep', 'print', 'lock', 'test', 'case']",Risky_resource_management,{'deadlock': 100}
+652cd315e88d6ebf2e86dad2d09f3ba7e229dbdf,"['client', 'client', 'completion', 'queue', 'deadlock', 'zombie', 'thread', 'code', 'patch', 'check', 'caller', 'thanks', 'jclopes']",Risky_resource_management,{'deadlock': 100}
+6329a4c21016cbbfb3c9750fc4e7ee045be77bab,"['hacky', 'print', 'statement', 'deadlock', 'hacky', 'print', 'statement', 'present']",Risky_resource_management,{'deadlock': 100}
+d8fe74fcc7f11d8d628c6ae48d50eb91f44db4f4,"['import', 'module', 'email', 'thread', 'excessive', 'lock', 'time', 'deadlock', 'extensive', 'import', 'module', 'load', 'time']",Risky_resource_management,{'deadlock': 100}
+428cc678ea532f26705db88a009623a5efd66b1c,"['test', 'socket', 'timeouts', 'deadlock', 'test']",Risky_resource_management,{'deadlock': 100}
+cd93db3ba07a28110bc9af0f363edf3a3c5d45d1,"['deadlock', 'test', 'failure']",Risky_resource_management,{'deadlock': 100}
+582092c16907a53abdb6cbf2a5fb6b293b4321fd,"['invalid', 'unicode', 'type', 'deadlock']",Risky_resource_management,{'deadlock': 100}
+3763969de4d002e7ce8c44f043a86c0c135a055a,"['deadlock', 'election', 'side', 'effect']",Risky_resource_management,{'deadlock': 100}
+9c62f5fbd1dcf9295fb90553eef30299eec85b1d,"['cleanup', 'security']",General,{'security': 100}
+c8e294ad95ec9a7ec990f145f3327f8ba6cfab81,"['security', 'method']",General,{'security': 100}
+6e01e56868a8d5442f9e0891d5cb3ae62336c66d,"['security', 'class']",General,{'security': 100}
+233c8032675322820e11ff0a413d8250191d7293,"['term', 'list', 'update', 'test', 'full', 'security', 'test', 'coverage']",General,{'security': 100}
+86b76daf4d724b67819c887d65980a246ce0f525,"['note', 'upstream', 'availability', 'memory', 'leak', 'patch']",Risky_resource_management,{'memory leak': 100}
+53443b7a7fdc4a635e019ad82950e72a87d31f02,"['python', 'zookeeper', 'distros', 'memory', 'leak', 'patch']",Risky_resource_management,{'memory leak': 100}
+700c38bab356b07500a6ba183d737bdba231f066,"['test', 'coverage', 'security', 'unit', 'test', 'flag']",General,{'security': 100}
+7726b6b7a298423f4b5967e4eac272312f100008,"['update', 'security']",General,{'security': 100}
+d72f60bf1fa1cf1d7b63c0f2c6da35c150e14b25,"['refactor', 'security', 'test', 'client', 'method', 'function', 'module', 'clarity']",General,{'security': 100}

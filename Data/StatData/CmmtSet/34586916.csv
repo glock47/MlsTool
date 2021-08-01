@@ -1,7 +1,9 @@
-sha,message,catetory,matched,labels
-20231fa1bde4f59b61ab017c50f2aa5c3be5edf1,"['crash', 'comment']",Risky_resource_management,{'crash': 100},
-a98217b2e251472b5da5b44fdce1d945148df4c3,"['crash', 'engine']",Risky_resource_management,{'crash': 100},
-a6a7314b7c7e95d87720e68001d71fd7cad0d64c,"['shell', 'crash']",Risky_resource_management,{'crash': 100},
-2c324576255ac474c7726c956d3b9ec9b9e8072f,"['startup', 'crash', 'opening']",Risky_resource_management,{'crash': 100},
-088041366f9cf457e3c434d1b64735ec9507547e,"['setting', 'crash', 'module']",Risky_resource_management,{'crash': 100},
-e145eed4d46ee975ec5379f0b7fab5fbb43e5691,"['crash', 'startup']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+56667bd1137f98cf9d97968e799ebbee4080ed1b,"['pull', 'request', 'cravay', 'patch', 'crash', 'view', 'comment']",General,{'crash': 100}
+20231fa1bde4f59b61ab017c50f2aa5c3be5edf1,"['crash', 'view', 'comment']",General,{'crash': 100}
+69bbb93791af01cf1c713dbe5cb574dc8d2b2971,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+a98217b2e251472b5da5b44fdce1d945148df4c3,"['engine', 'crash']",General,{'crash': 100}
+1df140e30cce7119d85e94f0f5db966a162a1106,"['warning', 'message', 'eventemitter', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+a6a7314b7c7e95d87720e68001d71fd7cad0d64c,"['occasional', 'crash', 'opening', 'file', 'shell']",General,{'crash': 100}
+2c324576255ac474c7726c956d3b9ec9b9e8072f,"['occasional', 'crash', 'opening', 'small', 'file', 'startup']",General,{'crash': 100}
+e145eed4d46ee975ec5379f0b7fab5fbb43e5691,"['crash', 'time', 'startup']",General,{'crash': 100}

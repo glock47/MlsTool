@@ -1,6 +1,17 @@
-sha,message,catetory,matched,labels
-831eba59f810ca68561dd584c9df7684df10b843,"['description', 'attribute', 'access', 'control']",Porous_defenses,{'access control': 100},
-846ce4baa9da5954bd30996f489885a026c48185,"['console', 'update', 'security']",General,{'security': 100},
-fd27fc9cce50beb3d0189e0a93300879fd7149db,"['image', 'console', 'security']",General,{'security': 100},
-6e3f91dc6b79475a411b79b1880c45f2a99bdfa5,"['deadlock', 'child', 'python', 'threadissue', 'pybind', 'seemsdeadlock', 'child', 'thread', 'calledissue', 'nmslib', 'simple', 'python', 'workaround']",Risky_resource_management,{'deadlock': 100},
-3b1988e44db28c1360df3eb2621f6b1df8d3bfb1,"['crash', 'fixingdefault', 'sparse', 'space']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+40c0ba0feacdd3c24f77c54c9d8a70378fa4126f,"['test', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+c9fc0b862f09260b558cf81e94e0d58aca15d9e9,"['travis', 'appveyor', 'proper', 'test', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+0a28d3ee4346e8f15d1f0651b1d61dd0828a339c,"['memory', 'leak', 'test']",Risky_resource_management,{'memory leak': 100}
+3f741b6b513144b55a8b28dfa76c5a36877d04ee,"['memory', 'leak', 'test']",Risky_resource_management,{'memory leak': 100}
+c817f21bad61c366a3798abccfe3b62e6eb9209d,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+f8f251418b961812cefe7e2b451efb322ae62b4b,"['pull', 'request', 'deadlock', 'child', 'thread']",Risky_resource_management,{'deadlock': 100}
+6e3f91dc6b79475a411b79b1880c45f2a99bdfa5,"['deadlock', 'child', 'thread', 'python', 'pybind', 'child', 'thread', 'deadlock', 'http', 'github', 'searchivarius', 'nmslib', 'issue', 'simple', 'workaround', 'python']",Risky_resource_management,{'deadlock': 100}
+4676e8dccb99410c8d117eba501a736cadf21490,"['pull', 'request', 'memfix', 'memory', 'leak', 'python']",Risky_resource_management,{'memory leak': 100}
+782b690ed7ea33556e96f9e19d60846af4507146,"['memory', 'leak', 'python', 'default', 'cast', 'function', 'html', 'return', 'value', 'policy', 'index', 'reference', 'desctructor', 'python', 'object']",Risky_resource_management,{'memory leak': 100}
+5b12955cd5a5702848a7dd4598152186fa67e511,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+090e6f7a4d2c58fa6f86b1cd0d3cf0163b0c8dfc,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+32bdde7d2ad87760ccf8afaa018686b4378946e3,"['pull', 'request', 'andrusha', 'memory', 'leak', 'hnsw']",Risky_resource_management,{'memory leak': 100}
+0bee77c008fe1b75e36d625067d3c739389f4509,"['hnsw', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+4dab97993e59356953e50ae0b074e3379568bdc8,"['negative', 'model', 'size', 'integer', 'overflow']",Risky_resource_management,{'integer overflow': 100}
+663bcb237ee83531e6f6b8ab20c054d8413ce3c6,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+37cd63835493caa7ed2577e292f21ab8df054df7,"['memory', 'leak', 'hnsw', 'python']",Risky_resource_management,{'memory leak': 100}

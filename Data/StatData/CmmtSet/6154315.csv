@@ -1,10 +1,29 @@
-sha,message,catetory,matched,labels
-d4151607fa0ac79e6298db446278bdadc74c3d2c,"['nanomsg', 'window', 'fragileclient', 'readfile', 'wsarecvpartial', 'returnimproves', 'assertion', 'critial', 'solves', 'greatlynanomsg', 'resistance', 'crash']",Risky_resource_management,{'crash': 100},
-62d80d239c3c449ccada51464dacd60dbefbcb7b,"['crash', 'weird']",Risky_resource_management,{'crash': 100},
-98ee1c5795620767c2dc32b214737f9d7fb3c498,"['connection', 'header', 'protocol', 'close', 'crash']",Risky_resource_management,{'crash': 100},
-058b74abfe9cdcdf56c987108c3ea2190e338af9,"['logic', 'buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100},
-c621fb490699dbae8594135f324edb13fb8dc64d,"['window', 'support', 'attribute', 'security', 'channel', 'descriptor', 'allowtunableswindow']",General,{'security': 100},
-5cd676c50961c1bf30f7babefc0c3d7978ec5112,"['shutdownshutdown', 'state', 'socket', 'crash', 'bindingcommitfunction']",Risky_resource_management,{'crash': 100},
-1734e195df37dabb1d8db7a25c644439bc09cd09,"['inproc', 'socket', 'crash']",Risky_resource_management,{'crash': 100},
-d9077956614e19963850ee64ba426cebd064cc7d,"['nanomsg', 'error', 'centosolder', 'glibc', 'version', 'problemstack', 'performs', 'allocates', 'thread', 'causenanomsg', 'process', 'crash']",Risky_resource_management,{'crash': 100},
-0a10e5a0beeb8f57ca7ce60763cdc2dd8a0a3546,"['astreamobject', 'invalid', 'bstreamfailure', 'astreams', 'impossibleastream', 'astreams', 'astreams', 'removedchange', 'crash', 'randomwithoutmartin', 'sustrik']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+d4151607fa0ac79e6298db446278bdadc74c3d2c,"['nanomsg', 'window', 'fragile', 'case', 'client', 'mango', 'code', 'incorrect', 'assumption', 'atomicity', 'pipe', 'readfile', 'code', 'readfile', 'wsarecv', 'return', 'partial', 'solves', 'critial', 'assertion', 'error', 'improves', 'crash', 'resistance', 'nanomsg', 'window']",General,{'crash': 100}
+84030980aa8a307872ac8e28f82846ce5ef40506,['crash'],General,{'crash': 100}
+377080485af82099eb0500cdcec018f913ec26bb,"['memory', 'leak', 'socket', 'init', 'returs', 'failure']",Risky_resource_management,{'memory leak': 100}
+da8d3efbea677a0dbdb9f2a9013dc96ecdca9ea5,"['memory', 'leak', 'inproc', 'bind']",Risky_resource_management,{'memory leak': 100}
+4055fc93a67ad3fb16313f84fd5e7d7ae4ce6a1a,"['crash', 'eintr', 'window']",General,{'crash': 100}
+cdadb250c64140d12538888e62013953266ab5b7,"['memory', 'leak', 'function', 'client']",Risky_resource_management,{'memory leak': 100}
+a589f724bbf62aae6d83dfa5109f46cc9934342d,"['memory', 'leak', 'issue']",Risky_resource_management,{'memory leak': 100}
+5eb73201f7e7d5e2cd9fe0f7927077d1bc0f0c53,"['clean', 'memory', 'leak', 'btcp', 'return', 'eaddrinuse']",Risky_resource_management,{'memory leak': 100}
+b60b464dd83ac9ce2e8afba7a393807fad1b38c8,"['update', 'undefined', 'array', 'memory', 'leak', 'greeting']",Risky_resource_management,{'memory leak': 100}
+ee99202f84f8d0e8ebd1c1722aa8a682f54919d0,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+4459720e0c413fd856eb4960c6bce86ea59dbed3,"['memory', 'leak', 'socket', 'pull']",Risky_resource_management,{'memory leak': 100}
+62d80d239c3c449ccada51464dacd60dbefbcb7b,"['weird', 'crash', 'race']",General,{'crash': 100}
+98ee1c5795620767c2dc32b214737f9d7fb3c498,"['crash', 'close', 'connection', 'protocol', 'header']",General,{'crash': 100}
+058b74abfe9cdcdf56c987108c3ea2190e338af9,"['buffer', 'overflow', 'logic']",Risky_resource_management,{'buffer overflow': 100}
+c621fb490699dbae8594135f324edb13fb8dc64d,"['support', 'security', 'attribute', 'window', 'security', 'descriptor', 'channel', 'window', 'tunables']",General,{'security': 100}
+5cd676c50961c1bf30f7babefc0c3d7978ec5112,"['shutdown', 'close', 'unstable', 'crash', 'socket', 'shutdown', 'state', 'code', 'unit', 'test']",General,{'crash': 100}
+a532b660f9c8b59fda585cd5aa3d094039c0d1f3,"['poll', 'crash']",General,{'crash': 100}
+1734e195df37dabb1d8db7a25c644439bc09cd09,"['inproc', 'socket', 'crash']",General,{'crash': 100}
+d9077956614e19963850ee64ba426cebd064cc7d,"['segv', 'error', 'nanomsg', 'centos', 'rhel', 'version', 'glibc', 'problem', 'size', 'stack', 'allocates', 'thread', 'performs', 'lookup', 'nanomsg', 'crash', 'need', 'lookup', 'issue', 'configuration', 'time']",General,{'crash': 100}
+d265c745977b273fcb219c529a3b6874e8ae1d67,"['memory', 'leak', 'xsub', 'martin', 'sustrik', 'sustrik']",Risky_resource_management,{'memory leak': 100}
+5b4f92d817a47e079cde89b79d92ad8f49038ced,"['memory', 'leak', 'inproc', 'transport', 'martin', 'sustrik', 'sustrik']",Risky_resource_management,{'memory leak': 100}
+07c641e1842237e9342b15d73f63f901bbee15af,"['memory', 'leak', 'termination', 'martin', 'sustrik', 'sustrik']",Risky_resource_management,{'memory leak': 100}
+c74811eb30707a73813e38ff9eac088b5abed3c1,"['memory', 'leak', 'hash', 'test', 'martin', 'sustrik', 'sustrik']",Risky_resource_management,{'memory leak': 100}
+0a10e5a0beeb8f57ca7ce60763cdc2dd8a0a3546,"['free', 'astream', 'invalid', 'object', 'astreams', 'list', 'lead', 'impossible', 'failure', 'astream', 'bstream', 'astreams', 'list', 'astreams', 'list', 'random', 'crash', 'test', 'test', 'time', 'loop', 'martin', 'sustrik', 'sustrik']",General,{'crash': 100}
+7f1553dd9d522f7290bf3774eb3c9713ef4341be,"['stric', 'list', 'item', 'list', 'item', 'unexpected', 'behavior', 'becuase', 'memory', 'making', 'debug', 'issue', 'list', 'item', 'usage', 'rule', 'list', 'item', 'ignore', 'rule', 'list', 'item', 'assert', 'list', 'item', 'function', 'assert', 'item', 'nill', 'part', 'list', 'implementation', 'support', 'static', 'initalization', 'macro', 'special', 'list', 'item', 'value', 'expose', 'value', 'module', 'safe', 'detect', 'item', 'ensure', 'code', 'list', 'item', 'segfault', 'code', 'list', 'item', 'list', 'item', 'clear', 'object', 'termination', 'function', 'part', 'patch', 'need', 'good', 'review', 'patch', 'possible', 'data', 'race', 'test', 'test', 'insert', 'invalid', 'list', 'item', 'martin', 'sustrik', 'sustrik']",Risky_resource_management,{'data race': 100}
+5e6caf806024ef8c787f078b5aac6a539dd346e7,"['list', 'item', 'initialization', 'removeal', 'astream', 'astream', 'list', 'item', 'item', 'item', 'list', 'type', 'crash', 'test', 'martin', 'sustrik', 'sustrik']",General,{'crash': 100}
+108976d4f0249b0e3e75a46f9d36029333b585b8,"['memory', 'leak', 'usock', 'martin', 'sustrik', 'sustrik']",Risky_resource_management,{'memory leak': 100}
+3e60d5f292a854ebf42bb996e515f6915decb304,"['deadlock', 'problem', 'timer', 'martin', 'sustrik', 'sustrik']",Risky_resource_management,{'deadlock': 100}

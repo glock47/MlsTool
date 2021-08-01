@@ -1,115 +1,197 @@
-sha,message,catetory,matched,labels
-6cd501ff012b2f054425b19fae93cca5476ad08e,"['serverkit', 'crash', 'request', 'chunk']",Risky_resource_management,{'crash': 100},
-2f1f405e8277a4fd0420aea2700210746cbffc8a,"['crashlog', 'crash', 'script', 'printinstead', 'directory', 'crashcommand', 'invoke', 'shell', 'simplylatest', 'crashloglatest', 'crash']",Risky_resource_management,{'crash': 100},
-17edb548414ce50f3f64bcd9830bd2360c04a80d,"['number', 'limitinguseful', 'security']",General,{'security': 100},
-71bbbc0477d8e63debd816739562fa882d1a5e11,"['envvar', 'visual', 'studiodisables', 'crash']",Risky_resource_management,{'crash': 100},
-bedf9c91d702058c0df4f1a3537c707aa666124a,"['applicationpool', 'business', 'socket', 'istotallybusyreturn', 'newsession', 'crash', 'process', 'causecause', 'pointer']",Risky_resource_management,{'crash': 100},
-c3fa5128509a80176a69775be1333b1fa1ad82b9,"['registry', 'insecure', 'instanceregistry', 'result', 'check', 'instance', 'passenger', 'arbitrary']",General,{'insecure': 100},
-a346e7cb09e697c62fefb507ebcef3b8ae64b465,"['passengerroot', 'check', 'function', 'security']",General,{'security': 100},
-6ef9121c6cae78038ef94501aee4310ed90b48b5,"['instance', 'exists', 'passenger', 'debian', 'exactlypassenger', 'apache', 'instancepassenger', 'config', 'instancecrash', 'commandmodify', 'crash']",Risky_resource_management,{'crash': 100},
-05cfddad83b58c0d56d86885dff4496fb90d8525,"['opensslconfig', 'engine', 'crash', 'compile', 'command', 'passenger', 'nginxmacos', 'occurs', 'crash', 'passengerpassenger', 'homebrew', 'enterprise']",Risky_resource_management,{'crash': 100},
-dceaaac0ab8cabeba4f40dc8c47a5180751aeac4,"['engine', 'update', 'check', 'standalone', 'passengeragent', 'security']",General,{'security': 100},
-36a0c19a43857d9df2d685fc0fae5ee96bf996e2,"['stdout', 'crash', 'stderr', 'helper', 'crash', 'reasonmessage']",Risky_resource_management,{'crash': 100},
-e4f1d8cea12bc3ff76b0970470ec3444fced1380,"['engine', 'selection', 'runtime', 'standalone', 'logic', 'security', 'update', 'macos']",General,{'security': 100},
-fca877cc71ad31a10033e4e2a094c48c716beaa5,"['private', 'macos', 'keychain', 'update', 'keychain', 'apache', 'checker', 'creates', 'permission', 'passenger', 'apachectl', 'daemon', 'system', 'security']",General,{'security': 100},
-f51dfae83085bf54f2a5bd1d7d38f221dbfe4827,"['report', 'update', 'static', 'check', 'dynamic', 'security']",General,{'security': 100},
-8306ced6d310d3b961daa5c758222c2dcc5cd8a6,"['keychain', 'handlingoutput', 'identity', 'oidentity', 'parameterindicate', 'return', 'boolean', 'preauthkey', 'success', 'value', 'failure', 'function', 'signature', 'addedindicate', 'return', 'certificate', 'check', 'noerr', 'failure', 'secpkcsimport', 'certificate', 'client', 'preauthkey', 'crash', 'abort', 'libcurl', 'preparecurlpost']",Risky_resource_management,{'crash': 100},
-7539fe8525ac08cf1008c4060e394c7818a36517,"['update', 'support', 'crash']",Risky_resource_management,{'crash': 100},
-99f1794dbb5a78cacac6d005af413496620ac14f,"['update', 'support', 'check', 'security']",General,{'security': 100},
-136fb28cfe471aa788d36ac0851112ef8735a42b,"['crash', 'apache', 'close', 'limit', 'memory', 'client', 'patch', 'datastreambuffer', 'usage', 'memory', 'client', 'limitnginx', 'factor', 'throttlingbuffer', 'input']",Risky_resource_management,{'crash': 100},
-49d514c2dfa271655dab293479a0f45473be7c80,"['crash', 'refactor', 'closechangelog', 'commits', 'empty', 'refactor']",Risky_resource_management,{'crash': 100},
-6085c87f2542d2a2eede8332f84cb960f2ac365e,"['crash', 'apache']",Risky_resource_management,{'crash': 100},
-d328de8199c6d5e1d85dff24fb734d29b0bc87a4,"['generate', 'crash']",Risky_resource_management,{'crash': 100},
-d67d5322266fee01ec57f540c8029d627d460c3d,"['setting', 'ignore', 'backup', 'logpath', 'passengerlogfile', 'crash', 'syslog', 'nginxoverride', 'nginx', 'logpath', 'wouldpassenger']",Risky_resource_management,{'crash': 100},
-ab66b6a7bff357ab6da2396ca1f759a6fef4fa50,"['domain', 'crash', 'passenger', 'standalone', 'socket']",Risky_resource_management,{'crash': 100},
-39e6158971f0ad67b44bdf790a045fd5a74bc714,"['virtual', 'application', 'crash']",Risky_resource_management,{'crash': 100},
-b70b4fc4602804a95e0e5f2946a47dbe53dacf9a,"['crash', 'passenger', 'sigsegvmethod', 'selection']",Risky_resource_management,{'crash': 100},
-de8150c82bc1543630dfb38e903f2a726eb97311,"['realpath', 'crash']",Risky_resource_management,{'crash': 100},
-3f090355ed89da62331637f17f12a4f3c0ac866b,"['passenger', 'nginx', 'version', 'startoccur', 'crash']",Risky_resource_management,{'crash': 100},
-3cd918c27e7015d5e60106f4574ea439fc4a16da,"['buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100},
-6ffd5ed5b307f8f3a061612fb5d714f97c679b86,"['integration', 'crash', 'contains', 'binary', 'nginx']",Risky_resource_management,{'crash': 100},
-57d6d0a2046b3d7f083dc866688889b1d79fb27d,"['watcher', 'memory', 'crash', 'libev']",Risky_resource_management,{'crash': 100},
-b4529ea8f3f8f53c5246e09ca649eb09446664c3,"['recent', 'timer', 'enterprise', 'crash', 'document', 'passenger']",Risky_resource_management,{'crash': 100},
-73c11b6bc3bdc54508a4d57ae70082b39b29869e,"['response', 'processing', 'crash', 'handler', 'stall', 'connection']",Risky_resource_management,{'crash': 100},
-b80430dab89ec52ce3499eaafc8481cb5af0e14b,"['session', 'crash', 'cookie', 'sticky']",Risky_resource_management,{'crash': 100},
-78f22baea5345aedb8b67b0a5553f037851a57cb,"['reuse', 'crash', 'handler', 'program', 'agent']",Risky_resource_management,{'crash': 100},
-c34c26bfc65840bcfbd649c9cc055eb97631b303,"['crash', 'package']",Risky_resource_management,{'crash': 100},
-95f36c2db198bd38e32dd83d35cf9ee76fd1f706,"['crash', 'install']",Risky_resource_management,{'crash': 100},
-ec9d5be89bb78e6b9bbe1b6f262c0ce1882a1307,"['return', 'backtrace', 'thread', 'crash']",Risky_resource_management,{'crash': 100},
-0be5e300be29d7e581faa15f35c865230d48b35d,"['applicationpool', 'collector', 'garbage', 'crash']",Risky_resource_management,{'crash': 100},
-41cc2cda669b28b1497f251e331fead380b29487,"['assertion', 'message', 'crash', 'check', 'macro']",Risky_resource_management,{'crash': 100},
-4b9c581aae635cb8f8b49a42e39fd315bd25de52,"['crash', 'request', 'onappinputchunk', 'handlingclose']",Risky_resource_management,{'crash': 100},
-a91c88808eaef4dcd9f386a8513fd7d241bb2b7d,"['actual', 'crash', 'apache']",Risky_resource_management,{'crash': 100},
-385425c5736335dc0c60e14dd6b07ef58732540a,"['client', 'crash', 'disconnect']",Risky_resource_management,{'crash': 100},
-34b1087870c2bf85ebfd72c30b78577e10ab9744,"['urgency', 'directory', 'security', 'arbitrary', 'vulnerability']",General,{'security': 100},
-c29dca4cfd03a7592bb631c79eb29c621c3ed3a4,"['client', 'occurs', 'crash', 'disconnect', 'errorwrite', 'epipe', 'issue', 'errorhowever', 'client', 'writesecond', 'assertion', 'libeio', 'errorsolution', 'client']",Risky_resource_management,{'crash': 100},
-92bb4fc440b871589c90ea2fc27c76f2557531d0,"['applicationpool', 'occurs', 'crash']",Risky_resource_management,{'crash': 100},
-468194ff05ccbcfe537f3d8643648be8c332fffd,"['rubygems', 'crash']",Risky_resource_management,{'crash': 100},
-c3e828ba4d989f9efd82109881169297462ce74f,"['passsenger', 'crash', 'affectedmachine', 'ubuntu', 'amazon', 'linux', 'issue', 'exhibit']",Risky_resource_management,{'crash': 100},
-f5933e1122f5d100bbbc4d44a560291f74a9d737,"['module', 'realpath', 'crash', 'apache', 'passenger', 'install']",Risky_resource_management,{'crash': 100},
-a2a7915f9203778f53d2088a7a1e831f1076ccdb,"['helpful', 'crash', 'succesful', 'article', 'preloader']",Risky_resource_management,{'crash': 100},
-c90afcae4736f4920ddd289054d94fda842fd0b3,"['helpful', 'message', 'crash', 'succesful', 'preloader', 'error']",Risky_resource_management,{'crash': 100},
-f15135556578cd6fa200fe50fc28001385ea5d04,"['multiple', 'directive', 'issue', 'crash']",Risky_resource_management,{'crash': 100},
-51b107021a814eed59b15d97279e86274bce7566,"['global', 'crash', 'static', 'destroyedchange', 'order', 'destruction']",Risky_resource_management,{'crash': 100},
-0322fcb37b22db21f07bbccb8d58109cb271dbca,"['system', 'crash']",Risky_resource_management,{'crash': 100},
-ba0b7a44c0332f474d8246fe91786b17e90d832e,"['contact', 'security', 'email']",General,{'security': 100},
-c13cb93bfd43d6a61002f35671e019a9f41a4e70,"['crash', 'issue', 'potential']",Risky_resource_management,{'crash': 100},
-bfb6ba6d44d47d0aa7579327788707f2640775c1,"['cxxtestmain', 'message', 'crash', 'handler', 'print']",Risky_resource_management,{'crash': 100},
-1abbaff3daf27f0ce9422a74bb404bac7cd73d53,"['reading', 'socketwebsocket', 'denial', 'service']",General,{'denial service': 100},
-7cf47342d2f251105e8d154164b31d05bf51e043,"['uname', 'crash']",Risky_resource_management,{'crash': 100},
-997a1905268714e5b6dcdf904a6a42b1e756e607,"['backtrace', 'sanitizer', 'crash', 'stderr', 'diagnostics']",Risky_resource_management,{'crash': 100},
-8fafd24ec9e8a623eaa2720483747fade4d59a97,"['previous', 'crash', 'abort', 'handler', 'force']",Risky_resource_management,{'crash': 100},
-8c6693e0818772c345c979840d28312c2edd4ba4,"['application', 'filename', 'check', 'socket', 'security']",General,{'security': 100},
-4dd5f5ffc08c784639f2b4729c5b4d2ae37ac56f,"['report', 'document', 'security']",General,{'security': 100},
-8d20ec7ab31c61b05840e0a9c03009a9de64f664,"['verbose', 'crash', 'helperagent', 'representation', 'print']",Risky_resource_management,{'crash': 100},
-fd69ec49ee052bbea14415883a5f827d6f051795,"['seperate', 'crash']",Risky_resource_management,{'crash': 100},
-d5c1def6145b931bbbb1d4d61e2c8f8d7a4d3e93,"['pointer', 'crash']",Risky_resource_management,{'crash': 100},
-e91b8b68c699f582dc8a61e150bbeacb53b0e06d,"['construction', 'backtrace', 'local', 'crash', 'context', 'thread']",Risky_resource_management,{'crash': 100},
-4ba89f1ec4ff6b65785e5291b63a18b9cf690f88,"['increase', 'crash', 'insufficient', 'stack', 'watchdog', 'thread']",Risky_resource_management,{'crash': 100},
-931dff105cd688505acf52d06b9c25bf249ba1e8,"['support', 'increase', 'crash', 'stack', 'thread']",Risky_resource_management,{'crash': 100},
-e452217e053e07c5325d1ae51f1f584a78218877,"['process', 'child', 'backtrace', 'crash']",Risky_resource_management,{'crash': 100},
-268c6c9441726e14770b1f8758d0a6fc67ad168a,"['address', 'fault', 'signal', 'crash']",Risky_resource_management,{'crash': 100},
-4fc895de10ce90a7681c0e1b09b8f807c25d8d5b,"['async', 'version', 'crash', 'signal', 'callingptmalloc', 'async', 'glibc', 'signalsigabrt', 'handler', 'atfork', 'installs', 'sigsegv']",Risky_resource_management,{'crash': 100},
-2c75a53e8ffcccbbfc69cb5f8978731eaf23dd7f,"['exception', 'controller', 'analytics', 'crash']",Risky_resource_management,{'crash': 100},
-5a29f08a8b5e4d8588304b9e803bee8db0850da3,"['crash', 'potential', 'large', 'error']",Risky_resource_management,{'crash': 100},
-e0bdcb8e0e2df7bd9089bcebd22a2f02388bf2e9,"['backtraces', 'crash']",Risky_resource_management,{'crash': 100},
-4d765d71ea689c42ade897fc93851b8a8797e9c7,"['pointer', 'header', 'occurs', 'crash', 'nginx']",Risky_resource_management,{'crash': 100},
-dcc9634b9838453d334ad084c44cb6194cdd4c22,"['sigbus', 'crash', 'handler', 'agent', 'sigsegv', 'install']",Risky_resource_management,{'crash': 100},
-b62693ed5a9dd0d8535dc137ce0e53f915a35ec3,"['passenger', 'status', 'permission', 'crash']",Risky_resource_management,{'crash': 100},
-004cd70e26df07b294897196d7419222a1841df9,"['client', 'crash']",Risky_resource_management,{'crash': 100},
-247a254d7fa3754451386e32b095b69ec8bc19ba,"['crash', 'gnutls']",Risky_resource_management,{'crash': 100},
-ac777e522539f35d2edcd561e5c784ba832c4160,"['specific', 'crash']",Risky_resource_management,{'crash': 100},
-f3f6df16b34431bc07ddb5071d2725fcf9ce8613,"['stuff', 'applicationpool', 'namespace', 'security']",General,{'security': 100},
-731e1004719936038c0ab61bbd1134f670c30509,"['deadlock', 'potential']",Risky_resource_management,{'deadlock': 100},
-9e25907857e4820aec79e3f67673a97aafb45a5a,"['configure', 'crash', 'nginx', 'issue']",Risky_resource_management,{'crash': 100},
-157ae9749c5bc84d5dfa812ad15176e8741d9a07,"['stats', 'linux', 'memory', 'crash', 'passeger', 'apache']",Risky_resource_management,{'crash': 100},
-8d3cbad9d9d38a42b1ab2b263ed5c69f61ea26cd,"['process', 'backend', 'status', 'crash']",Risky_resource_management,{'crash': 100},
-f537501e9783743fd4de625df4ff606e3c2ab021,"['rakefile', 'crash']",Risky_resource_management,{'crash': 100},
-1526b0724dec3b1abfa676352f83894b0d5d9841,"['handler', 'header', 'crash']",Risky_resource_management,{'crash': 100},
-48bf3184d2243ddcf3bd7305d8704e75782681fb,"['macos', 'crash']",Risky_resource_management,{'crash': 100},
-fabaf7215682612c5a6ea6fc0f1ee94f42f5e379,"['handler', 'request', 'crash']",Risky_resource_management,{'crash': 100},
-9346eebb2e6d2fd2cb09ebf26b74ea88bfabd2e8,"['problem', 'crash']",Risky_resource_management,{'crash': 100},
-7fd0f2fdf20284f47ba4e226fd48475f7b69d62f,"['platform', 'detection', 'crash']",Risky_resource_management,{'crash': 100},
-8afe632772c173e0cb9e788b56fb35143bc6164f,"['maximum', 'security']",General,{'security': 100},
-a8ec81af93e49da688131a45848fe2cfbbd53f6c,"['comment', 'model', 'suexec', 'security']",General,{'security': 100},
-a6f1d664d21091fb3e8a56d22b274872aaad6d21,"['document', 'support', 'security']",General,{'security': 100},
-348e8f97fcbbf8947a1aeacc755585e907fb39f8,"['usable', 'crash', 'order', 'protocol', 'message', 'channel', 'semantic']",Risky_resource_management,{'crash': 100},
-477bd7110d5771ca60c47ceae071d69511db2592,"['check', 'security', 'javascript', 'originnavigation', 'access', 'origin', 'javascript', 'reasonable', 'document', 'synchronous', 'switch']",General,{'security': 100},
-72b58f2f22ce7441f02c648fb2b79488b5608fa0,"['removeplugin', 'content', 'flash', 'directive', 'reason', 'specification', 'policy', 'webappsec', 'securityalgorithm', 'content', 'reference', 'relevant', 'policy', 'security']",General,{'security': 100},
-e46fc2f59a064ab4e45b9f3e6fa9322ad591ef0f,"['object', 'security', 'window', 'check', 'locationobject', 'couple', 'origin', 'cross', 'check', 'implementation', 'firefox', 'securitybrowser', 'object', 'origin', 'platform', 'cross']",General,{'security': 100},
-e6a29247387e8f362654b280f72f746328667352,"['editorial', 'content', 'lowercase', 'value', 'equiv', 'policy', 'security']",General,{'security': 100},
-5952d8361b5930a3dfe7a6d814a194be6e013d8b,"['creator', 'security', 'contextsecure', 'issue', 'context', 'webappsec', 'addeddescription', 'fbceaeeeccfda', 'reverts']",General,{'security': 100},
-91f1919249bc75e4a6491ee7ec650c9843f9da50,"['creator', 'security', 'contextsecure', 'document', 'contextwhatwg', 'status', 'patch', 'cache', 'securitysecurity', 'document', 'contextsecure', 'webappsec', 'context']",General,{'security': 100},
-a4fb976e4cd1865f2d4259f1783866c3add40f66,"['behavior', 'specify', 'clean', 'originprior', 'clean', 'origin', 'handlingimplicit', 'referencesection', 'notion', 'origin', 'clean', 'withinclarifies', 'model', 'security']",General,{'security': 100},
-ca522a7478bc0db74a1f96f95ae499087b3655ec,"['creation', 'imagedata', 'rangeerrors', 'rethrowsimagedata', 'normativeexception', 'method', 'rethrow', 'createimagedata', 'getimagedataimagedata', 'motivation', 'creationbrowser', 'stability', 'memory', 'crash', 'avoidingobject', 'creation', 'imagedata', 'javascript', 'specificationarraybuffer', 'result', 'rangeerror', 'failure', 'stateexceptionwhatwg']",Risky_resource_management,{'crash': 100},
-20f97a2aebfff007d56f6310d6d5caa96b98329d,"['security', 'holley', 'window', 'design', 'bobby', 'location']",General,{'security': 100},
-acae3df652b382e9f4f1d1b4dc7e08e2b00df821,"['locationleast', 'object', 'large', 'locationstandard', 'implementation', 'closelyrelevant', 'securityrough', 'summary', 'changegetters', 'window', 'indexedobject', 'javascript', 'windowproxy', 'window', 'aspect', 'exotic', 'securityordinary', 'window', 'becomeproperty', 'origin', 'windowproxy', 'window', 'cross', 'thoughobject', 'method', 'internal', 'overridden', 'exotic', 'locationcross', 'security']",General,{'security': 100},
-5064a629f22bef29839ab4dc6f1ceef17f010bc5,"['content', 'pragma', 'directive', 'policy', 'securitydefines', 'content', 'value', 'policy', 'element', 'securitycontent', 'patch', 'attribute', 'integrates', 'equivdefinitioncontent', 'delivery', 'policy', 'element', 'webappsec', 'security']",General,{'security': 100},
-56a9a3f2e77092f6cf953b09b117217232e9d852,"['crash', 'cgiowt', 'select', 'check', 'syntaxwebapps', 'cbfbfef']",Risky_resource_management,{'crash': 100},
-2b70548181234f80203743ecb4f59c9df466157a,"['section', 'security', 'window', 'warning', 'securitywebapps', 'cbfbfef']",General,{'security': 100},
-a1ffce322b3e34274600b4a0840537fa811bbf5d,"['object', 'store', 'callback', 'information', 'closure', 'string', 'people', 'publicwebapps', 'cbfbfef']",Porous_defenses,{'information closure': 93},
-cf882c64d2119fd0b28892bc508da972b70af2f7,"['deadlock', 'clarifywebapps', 'cbfbfef']",Risky_resource_management,{'deadlock': 100},
-f5733d1d79c32eeecb4e98e4bd00839b87d4a7bf,"['deadlock', 'setting', 'origin', 'localstoragewebapps', 'cbfbfef']",Risky_resource_management,{'deadlock': 100},
-5402075bac7cdfde7e5947994726e7b7067a64b0,"['security', 'problem', 'progress', 'potentialwebapps', 'cbfbfef']",General,{'security': 100},
-257a2cd0a08fa20bd533934d244533c945f052e7,"['section', 'security', 'space', 'colourwebapps', 'cbfbfef']",General,{'security': 100},
-7d1384b6f9d9f4e70d480de3284cc458ce6c7653,"['origin', 'domain', 'security', 'simpler', 'model', 'globalstorage', 'multiwebapps', 'cbfbfef']",General,{'security': 100},
+sha,message,catetory,matched
+d554d6de43f6a366d0062c443ec1c7d7b4a310a3,"['json', 'module', 'script', 'reland', 'json', 'module', 'json', 'module', 'module', 'type', 'import', 'site', 'import', 'assertion', 'security', 'concern', 'infrastructure', 'life', 'proposal', 'http', 'github', 'proposal', 'json', 'module', 'import', 'assertion', 'integration', 'overall', 'patch']",General,{'security': 100}
+477bd7110d5771ca60c47ceae071d69511db2592,"['javascript', 'origin', 'security', 'check', 'navigation', 'algorithm', 'switch', 'origin', 'domain', 'synchronous', 'access', 'document', 'javascript']",General,{'security': 100}
+30244b9599881a038fe1bcd53bb8fcc05bb98417,"['policy', 'container', 'policy', 'container', 'concept', 'http', 'github', 'antosart', 'policy', 'container', 'policy', 'container', 'serf', 'collection', 'policy', 'document', 'purpose', 'simplify', 'policy', 'header', 'meta', 'element', 'policy', 'container', 'inheritance', 'policy', 'policy', 'container', 'contains', 'list', 'small', 'behavioral', 'policy', 'history', 'address', 'standard', 'implementation', 'security', 'vulnerability', 'http', 'github', 'webappsec', 'pull', 'service', 'worker', 'http', 'github', 'serviceworker', 'pull']",General,{'security': 100}
+fd40465c3a5bc9f876f8f866a748bac8934f725e,"['invoke', 'custom', 'element', 'reaction', 'loop', 'queue', 'element', 'processing', 'queue', 'regardless', 'state', 'custom', 'dequeue', 'element', 'queue', 'processing', 'backup', 'queue', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+f76b314f1f04929035ed12e7d597311a3345a51d,"['scheme', 'security', 'consideration', 'account', 'removal', 'network', 'scheme', 'http', 'scheme', 'form', 'submission', 'issue', 'http', 'github', 'whatwg', 'fetch', 'pull', 'context']",General,{'security': 100}
+72b58f2f22ce7441f02c648fb2b79488b5608fa0,"['plugin', 'type', 'directive', 'plugin', 'type', 'main', 'reason', 'content', 'security', 'policy', 'specification', 'http', 'github', 'webappsec', 'pull', 'reference', 'relevant', 'algorithm', 'content', 'security', 'policy', 'spec']",General,{'security': 100}
+ea6b0caa3c7602c65d8a87ad3ded4dd359461f44,"['specify', 'sequence', 'navigation', 'failure', 'check', 'clause', 'true', 'subsequent', 'condition', 'check', 'order', 'observable', 'content', 'content', 'security', 'policy', 'check', 'cross', 'origin', 'embedder', 'policy', 'coep', 'check', 'current', 'implementation', 'status', 'safari', 'firefox', 'time', 'chrome', 'coep', 'frame', 'option', 'firefox', 'frame', 'option', 'safari', 'frame', 'option', 'standardize', 'sequence', 'state', 'implementation']",General,{'security': 100}
+68739696b4ac4f7aa3e08fb40e5a62b99bc2f66a,"['current', 'setting', 'object', 'security', 'check', 'brief', 'confusion', 'http', 'whatwg']",General,{'security': 100}
+4b3c4ff9d6356d614fcac9644a8e712890dbdff4,"['origin', 'domain', 'minor', 'security', 'test', 'http', 'github', 'platform', 'test', 'pull']",General,{'security': 100}
+e46fc2f59a064ab4e45b9f3e6fa9322ad591ef0f,"['security', 'check', 'window', 'location', 'object', 'implementation', 'security', 'check', 'couple', 'object', 'firefox', 'cross', 'origin', 'object', 'wrapper', 'observable', 'test', 'html', 'browser', 'origin', 'cross', 'origin', 'object', 'cross', 'origin', 'object', 'html', 'http', 'github', 'platform', 'test', 'pull']",General,{'security': 100}
+89b7e23daf024fa391077c8587e5a4f1fb064a97,"['window', 'window', 'frame', 'self', 'window', 'object', 'conceptual', 'crash', 'language', 'http', 'github', 'ecma', 'pull', 'test', 'http', 'github', 'platform', 'test', 'pull']",General,{'crash': 100}
+a530f6fe47e1f1e09f2a0b47634693f590432b83,"['revert', 'addition', 'json', 'module', 'http', 'github', 'webcomponents', 'issue', 'current', 'setup', 'insecure', 'test', 'tentative', 'http', 'github', 'platform', 'test', 'pull', 'reverts']",General,{'insecure': 100}
+0e6d3b51ba8f555a700301abff81085f31500fea,"['context', 'group', 'concept', 'unit', 'context', 'unit', 'similar', 'origin', 'cross', 'site', 'document']",Insecure_interaction_between_components,{'cross site': 100}
+f97d629cf9b825d75b7f7151d5a2fb38b57d0594,"['event', 'loop', 'agent', 'concept', 'context', 'event', 'loop', 'sense', 'world', 'cross', 'site', 'navigation']",Insecure_interaction_between_components,{'cross site': 100}
+ae94ec51c83fabdde6bafee5443e29bcccd18e10,"['unnecessary', 'security', 'check', 'measuretext', 'font', 'origin']",General,{'security': 100}
+e6a29247387e8f362654b280f72f746328667352,"['editorial', 'lowercase', 'content', 'security', 'policy', 'meta', 'http', 'equiv', 'value']",General,{'security': 100}
+19f5cce801550d278b9459f8c4797f9f86aae864,"['hide', 'nonce', 'content', 'attribute', 'value', 'recent', 'attack', 'ability', 'exfiltrate', 'nonce', 'data', 'various', 'mechanism', 'content', 'attribute', 'selector', 'example', 'clever', 'prefix', 'postfix', 'text', 'selector', 'value', 'attacker', 'server', 'reuse', 'script', 'nonce', 'background', 'http', 'evil', 'nonce', 'patch', 'mitigates', 'risk', 'class', 'attack', 'nonce', 'value', 'element', 'content', 'attribute', 'nonce', 'attribute', 'noncedelement', 'interface', 'mixin', 'htmlelement', 'mixin', 'defines', 'behavior', 'nonce', 'content', 'attribute', 'nonce', 'content', 'attribute', 'value', 'slot', 'element', 'noncedelement', 'content', 'security', 'policy', 'header', 'nonce', 'content', 'attribute', 'nonce', 'attribute', 'getter', 'setter', 'slot', 'value', 'content', 'attribute', 'meaning', 'nonce', 'value', 'script', 'opaque', 'script', 'side', 'channel', 'likewise', 'slot', 'value', 'request', 'cryptographic', 'nonce', 'metadata', 'order', 'nonce', 'validation', 'test', 'http', 'github', 'platform', 'test', 'tree', 'master', 'content', 'security', 'policy', 'nonce', 'http', 'thursday', 'lekies', 'dont', 'trust', 'script', 'gadget']",General,{'security': 100}
+5952d8361b5930a3dfe7a6d814a194be6e013d8b,"['drop', 'creator', 'context', 'security', 'http', 'github', 'webappsec', 'context', 'issue', 'reverts', 'transformation', 'description', 'list']",General,{'security': 100}
+c4c45b067bab83df44d90e24577c6f44dc5c57da,"['realm', 'argument', 'security', 'check', 'html', 'need', 'http', 'github', 'heycam', 'webidl', 'pull']",General,{'security': 100}
+60f84adcae2d252fc63afa6b65686a4590d28734,"['document', 'pushstate', 'replacestate', 'origin', 'check', 'update', 'origin', 'check', 'pushstate', 'replacestate', 'origin', 'document', 'relevant', 'history', 'object', 'entry', 'setting', 'object', 'open', 'source', 'browser', 'http', 'chromium', 'webkit', 'source', 'core', 'frame', 'history', 'http', 'github', 'webkit', 'webkit', 'blob', 'source', 'webcore', 'page', 'history', 'gecko', 'security', 'check', 'redundant', 'step']",General,{'security': 100}
+91f1919249bc75e4a6491ee7ec650c9843f9da50,"['creator', 'context', 'security', 'creator', 'document', 'whatwg', 'html', 'patch', 'cache', 'security', 'status', 'document', 'context', 'security', 'check', 'webappsec']",General,{'security': 100}
+29ebd5b6e8c4ba4006115a784c5c6c87dc151489,"['modal', 'sandbox', 'check', 'previous', 'indirection', 'wacky', 'unnecessary', 'chrome', 'firefox', 'different', 'behavior', 'active', 'document', 'different', 'edge', 'case', 'http', 'github', 'whatwg', 'html', 'pull', 'issuecomment', 'security', 'check', 'prevents', 'edge', 'case', 'security', 'check', 'firefox', 'spec', 'obviate', 'difference', 'case', 'meantime', 'choice', 'document', 'straightforward']",General,{'security': 100}
+e0863d93ec8c0b48f1c44d8d81a409eb08dee28c,"['source', 'argument', 'inline', 'behavior', 'algorithm', 'support', 'hash', 'inline', 'event', 'handler', 'argument', 'inline', 'behavior', 'content', 'security', 'policy', 'webappsec', 'patch', 'callsites', 'html']",General,{'security': 100}
+a4fb976e4cd1865f2d4259f1783866c3add40f66,"['specify', 'origin', 'clean', 'behavior', 'clean', 'flag', 'implicit', 'reference', 'notion', 'origin', 'clean', 'flag', 'section', 'specification', 'clarifies', 'security', 'model', 'appropriate', 'text', 'reference']",General,{'security': 100}
+3dadbcad063a10b586ef52dd4b427aa339048ee7,"['update', 'websocket', 'fetch', 'websocket', 'alteration', 'websocket', 'content', 'hsts', 'cookie', 'network', 'layer', 'sure', 'thing', 'network', 'layer', 'insecure', 'request', 'protocol', 'concept', 'socket', 'protocol', 'specification', 'fetch', 'alteration', 'inlines', 'parser', 'parse', 'construct', 'base', 'http', 'public', 'http', 'public']",General,{'insecure': 100}
+ca522a7478bc0db74a1f96f95ae499087b3655ec,"['imagedata', 'creation', 'rethrows', 'rangeerrors', 'normative', 'imagedata', 'constructor', 'createimagedata', 'getimagedata', 'method', 'rethrow', 'exception', 'creation', 'imagedata', 'object', 'motivation', 'stability', 'browser', 'memory', 'crash', 'creation', 'imagedata', 'object', 'javascript', 'specification', 'state', 'failure', 'arraybuffer', 'result', 'rangeerror', 'exception', 'thrown', 'rethrown', 'http', 'github', 'ecma', 'http', 'github', 'whatwg', 'html', 'pull']",General,{'crash': 100}
+20f97a2aebfff007d56f6310d6d5caa96b98329d,"['bobby', 'holley', 'window', 'location', 'security', 'design']",General,{'security': 100}
+acae3df652b382e9f4f1d1b4dc7e08e2b00df821,"['window', 'windowproxy', 'location', 'window', 'windowproxy', 'location', 'object', 'work', 'standard', 'perspective', 'relevant', 'security', 'detail', 'rough', 'summary', 'windowproxy', 'windowproxy', 'javascript', 'exotic', 'object', 'security', 'aspect', 'window', 'window', 'ordinary', 'object', 'cross', 'origin', 'property', 'window', 'windowproxy', 'location', 'exotic', 'object', 'internal', 'method', 'overridden', 'cross', 'origin', 'security', 'aspect', 'location', 'unforgeable', 'interface', 'address', 'http', 'public', 'http', 'public', 'http', 'public', 'http', 'public', 'http', 'public']",General,{'security': 100}
+faec3a50ea181f322ab9819975e285ced34a0308,"['referrer', 'hyperlink', 'request', 'referrer', 'trustable', 'post', 'referrer', 'document', 'referrer', 'insecure', 'cross', 'origin', 'whole', 'algorithm', 'http', 'github', 'whatwg', 'html', 'pull']",General,{'insecure': 100}
+39470724136a366bab4e893efd889a513d61cc3e,"['report', 'frame', 'ancestor', 'sandbox', 'meta', 'normative', 'document', 'conformance', 'requirement', 'content', 'security', 'policy', 'value', 'content', 'attribute', 'meta', 'http', 'equiv', 'content', 'security', 'policy', 'element', 'report', 'frame', 'ancestor', 'sandbox', 'directive']",General,{'security': 100}
+088f4f210541f8c131fb92c4f331c40f4b6b3768,"['update', 'xrefs', 'sandbox', 'frame', 'ancestor', 'update', 'xrefs', 'term', 'directive', 'sandbox', 'frame', 'ancestor', 'content', 'security', 'policy', 'document', 'spec']",General,{'security': 100}
+083c57cc37998292381be3c94aeef483be7213fb,"['cross', 'origin', 'content', 'content', 'security', 'policy', 'imagebitmap', 'cross', 'origin', 'content', 'imagebitmap', 'object', 'attempt', 'securityerror', 'exception', 'thrown', 'cross', 'origin', 'content', 'bitmap', 'image', 'data', 'mechanism', 'origin', 'clean', 'flag', 'work', 'clean', 'flag', 'canvas', 'element', 'bitmap', 'http', 'github', 'whatwg', 'html', 'pull']",General,{'security': 100}
+ee3486eb129bc350b5ca684d0c91dff23453ac1a,"['inline', 'element', 'hook', 'content', 'security', 'policy', 'defines', 'element', 'inline', 'behavior', 'content', 'security', 'policy', 'algorithm', 'order', 'nonce', 'hash', 'unsafe', 'inline', 'patch', 'appropriate', 'spot', 'html', 'script', 'update', 'style', 'block', 'algorithm', 'whatwg', 'html']",General,{'security': 100}
+479dfbf1ff68b746ed3f81cc7415165e3342709e,"['global', 'object', 'list', 'content', 'security', 'policy', 'property', 'global', 'object', 'hold', 'active', 'policy', 'object', 'context', 'patch', 'merges', 'property', 'html', 'initialises', 'whenever', 'document', 'worker', 'object', 'whatwg', 'html']",General,{'security': 100}
+9d4276a62d0191b98f6bceaf9e0451e478ae8b47,"['creation', 'environment', 'setting', 'object', 'http', 'public', 'creation', 'service', 'worker', 'context', 'ability', 'security', 'check', 'original', 'document', 'worker', 'environment', 'setting', 'object', 'creation', 'time']",General,{'security': 100}
+5064a629f22bef29839ab4dc6f1ceef17f010bc5,"['content', 'security', 'policy', 'pragma', 'directive', 'content', 'security', 'policy', 'defines', 'value', 'meta', 'element', 'http', 'equiv', 'content', 'attribute', 'patch', 'integrates', 'definition', 'html', 'http', 'github', 'webappsec', 'spec', 'content', 'security', 'policy', 'delivery', 'html', 'meta', 'element']",General,{'security': 100}
+29ccf07d4d68b1e1285f0d5a46df233962da3b15,"['language', 'consistent', 'behavior', 'behaviour', 'topic', 'canvas', 'apis', 'html', 'html', 'syntax', 'security', 'video', 'audio', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+b9f8c1c946660a5a71b0f62ca90522ca020850c6,"['rename', 'script', 'setting', 'object', 'environment', 'setting', 'object', 'reuse', 'saner', 'http', 'public', 'topic', 'apis', 'html', 'html', 'syntax', 'security', 'worker', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+2a46d9b2faef8047491b61c83b3266724352533f,"['cookie', 'bombing', 'appcache', 'section', 'topic', 'offline', 'application', 'security', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+fb522b6578ab76be0bf51fdfa9f46f04d4ff9543,"['http', 'public', 'topic', 'canvas', 'security', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+55ea8cb0dbde078703f9fc864b1b6723493e336d,"['note', 'clarify', 'window', 'document', 'http', 'public', 'topic', 'canvas', 'apis', 'html', 'html', 'syntax', 'security', 'video', 'audio', 'worker', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+eb1281c25bf4c6d4e0b6f030a6b6b71e13ddbfac,"['reference', 'origin', 'origin', 'http', 'public', 'topic', 'html', 'security', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+154c8eff1f299991d4c6c5709e3b354971ac92e6,"['reference', 'update', 'example', 'incumbent', 'entry', 'script', 'http', 'public', 'topic', 'apis', 'html', 'html', 'syntax', 'security', 'video', 'audio', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+9517a01962840f6bfea3711e378501bf204a0b23,"['mime', 'type', 'stable', 'reference', 'stable', 'need', 'topic', 'html', 'security', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+60dfc61e4c793bc96f8d6159bca07bb581c1e1dd,"['spec', 'node', 'document', 'concept', 'careful', 'review', 'diff', 'http', 'public', 'topic', 'apis', 'html', 'html', 'syntax', 'offline', 'application', 'security', 'video', 'text', 'track', 'video', 'audio', 'worker', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+64dc6230be40e5f4b281e4e31fdf275b61f1e91b,"['spec', 'terminology', 'http', 'public', 'topic', 'html', 'security', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+64f8389dd7011ea00b4a037e0a69af6e72a7afb3,"['giow', 'attempt', 'mitigate', 'injection', 'elevation', 'attack', 'appcache', 'describe', 'attack', 'detail', 'http', 'public', 'topic', 'offline', 'application', 'security', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+d862a6bf6c0ae094a4bbfe0db08739edb6786c37,"['recent', 'update', 'pipeline', 'bunch', 'editorial', 'mistake', 'script', 'normative', 'topic', 'canvas', 'apis', 'html', 'html', 'syntax', 'microdata', 'offline', 'application', 'security', 'video', 'text', 'track', 'video', 'audio', 'websocket', 'worker', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+e82dcaa3bce350c4094bb1c1a715820a9b25f6ce,"['pipeline', 'support', 'main', 'version', 'topic', 'canvas', 'apis', 'html', 'html', 'syntax', 'microdata', 'offline', 'application', 'security', 'video', 'text', 'track', 'video', 'audio', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+77db356a293f2b152b648c836b6989d17afe42bb,"['topic', 'canvas', 'apis', 'html', 'html', 'syntax', 'microdata', 'offline', 'application', 'security', 'video', 'text', 'track', 'video', 'audio', 'worker', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+56a9a3f2e77092f6cf953b09b117217232e9d852,"['cgiowt', 'parser', 'fake', 'select', 'innerhtml', 'crash', 'check', 'select', 'scope', 'topic', 'html', 'syntax', 'http', 'whatwg', 'webapps']",General,{'crash': 100}
+782e51e685da59e0c5483c10ed2756d9cb3be4fe,"['various', 'editorial', 'tweak', 'topic', 'canvas', 'apis', 'html', 'html', 'syntax', 'offline', 'application', 'security', 'worker', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+d5759b0435091e4858c9bff90319cbe5b040eda2,"['couple', 'imagedata', 'constructor', 'order', 'feasible', 'drop', 'stuff', 'canvas', 'http', 'public', 'topic', 'canvas', 'apis', 'security', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+13c857afbe28dcaaf9e9d9fa903dc1c0f6bcb6d1,"['event', 'index', 'definition', 'event', 'name', 'editorial', 'purpose', 'event', 'name', 'string', 'need', 'normative', 'definition', 'topic', 'apis', 'html', 'offline', 'application', 'security', 'video', 'text', 'track', 'video', 'audio', 'worker', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+21d0bbda012778af81d4b6dfa02b1326579675b0,"['defer', 'spec', 'idna', 'stuff', 'http', 'public', 'topic', 'html', 'security', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+f1f63e4618625346a753b10f3d2074bb45bc80d4,"['case', 'context', 'navigate', 'security', 'exception', 'http', 'public', 'topic', 'apis', 'html', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+4ce18280ea75958805f0089002b04360f123e068,"['image', 'origin', 'http', 'public', 'topic', 'security', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+a3317719ada33a6da983e905e7f632601b8b5ca6,"['mark', 'area', 'need', 'idna', 'reference', 'standard', 'reference', 'http', 'public', 'topic', 'security', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+1a5a834776eb0c1e2203ffb229244959dc4b2905,"['history', 'object', 'active', 'http', 'public', 'topic', 'apis', 'offline', 'application', 'security', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+ed8d4e2f500998d7a538d32c44aaeda8faa9ad1e,"['context', 'navigate', 'http', 'public', 'topic', 'html', 'security', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+d52ebc2433b21c7fbf0cdb1dd7fa5cc7824036ff,"['javascript', 'processing', 'html', 'definition', 'http', 'public', 'topic', 'apis', 'html', 'security', 'worker', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+1827bb83b6e465180b1a955f08199fe5c7e14494,"['iframes', 'block', 'document', 'domain', 'setting', 'http', 'public', 'topic', 'html', 'security', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+3f221df626cea31d056fbada9c576cb09dacd7c5,"['security', 'check', 'document', 'http', 'public', 'topic', 'apis', 'html', 'syntax', 'security', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+178e8a975d9f8d962c2a2f3ae250a30a9960dc12,"['spec', 'stack', 'incumbent', 'script', 'stack', 'script', 'setting', 'object', 'theory', 'concrete', 'effect', 'worker', 'document', 'domain', 'different', 'original', 'origin', 'http', 'public', 'topic', 'canvas', 'apis', 'html', 'html', 'syntax', 'security', 'worker', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+d934782d8b7e96fcb8d0891afb52dede6dd26a00,"['giow', 'bulk', 'editorial', 'common', 'stuff', 'setting', 'object', 'clean', 'postmessage', 'interacts', 'event', 'loop', 'thing', 'http', 'public', 'topic', 'apis', 'html', 'html', 'syntax', 'security', 'worker', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+cece923873b2947a00d542082f0b50af2c85b0bb,"['internal', 'consistency', 'section', 'order', 'title', 'cross', 'reference', 'minor', 'typo', 'minor', 'typo', 'obsolete', 'comment', 'minor', 'thing', 'normative', 'topic', 'canvas', 'apis', 'html', 'html', 'syntax', 'microdata', 'offline', 'application', 'security', 'video', 'text', 'track', 'video', 'audio', 'websocket', 'worker', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+2b70548181234f80203743ecb4f59c9df466157a,"['warning', 'note', 'security', 'section', 'location', 'window', 'flux', 'sight', 'topic', 'apis', 'security', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+19e34fa56c0e2b0bce15408765e69390eeff29dc,"['familiar', 'fixing', 'http', 'public', 'topic', 'apis', 'html', 'security', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+2f6750cbff5629c4b3776102cabfebf75ec69959,"['update', 'fontloader', 'topic', 'canvas', 'html', 'security', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+924b3061b29cfbf2c9f15e3b4f6f2a3cc27059bd,"['topic', 'apis', 'html', 'html', 'syntax', 'security', 'video', 'audio', 'worker', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+9f98d39607ea87f1acacf6fc071ed11936c1c639,"['topic', 'apis', 'html', 'html', 'syntax', 'security', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+e30c73b02004ab83fda59d55e7a6d8b2057f3b3b,"['cross', 'reference', 'concept', 'window', 'document', 'thing', 'clean', 'frameset', 'event', 'definition', 'topic', 'apis', 'html', 'security', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+45d8c49264e69e7755063e4cedc4cdc43c209478,"['weird', 'stuff', 'document', 'domain', 'localstorage', 'http', 'public', 'topic', 'apis', 'security', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+3a7f591cce7f54ab8417fc4e6ed07e488203997e,"['copy', 'paste', 'error', 'origin', 'section', 'http', 'public', 'topic', 'security', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+0bbd1b098879ca872e795b4f6467d5d54085768d,"['http', 'public', 'topic', 'html', 'html', 'syntax', 'security', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+2a33c37af173ee999dcce580727f6cddf5fbecb3,"['http', 'public', 'topic', 'html', 'security', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+36aa8f58364d5c426d497f38a69c81bba05c4cbf,"['factor', 'step', 'navigation', 'algorithm', 'http', 'public', 'topic', 'html', 'security', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+16a7d0c0b9b45619728ae87c6f233e73a4a97443,"['navigate', 'friend', 'http', 'public', 'topic', 'apis', 'html', 'security', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+69458cbe8e05e47d500f0a1c8a0e78324cd27777,"['giow', 'block', 'enumeration', 'cross', 'origin', 'object', 'clean', 'language', 'object', 'consistent', 'difference', 'http', 'public', 'topic', 'apis', 'security', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+3335b12dd320335e31b1d9a751365b1e80594f62,"['open', 'security', 'aspect', 'consistent', 'reality', 'http', 'public', 'topic', 'apis', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+31bb85d63cd1c31bdbb06a80408af15f60450585,"['close', 'update', 'list', 'member', 'cross', 'origin', 'window', 'http', 'public', 'topic', 'apis', 'security', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+2b5b6f1db02c4c8b720ce73f2ebb47e00f773a7b,"['clean', 'text', 'method', 'introduces', 'term', 'incumbent', 'script', 'http', 'public', 'topic', 'apis', 'html', 'html', 'syntax', 'security', 'worker', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+23c809a8c30331b5e98eb723e74c1f9f461d679a,"['giow', 'example', 'window', 'opener', 'cross', 'origin', 'http', 'public', 'topic', 'apis', 'security', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+73c08f0521f53c85d428bc08b2e4fa153c84e1f4,"['http', 'public', 'topic', 'html', 'security', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+2faa28a5e4c169322c5e5478da521cfab31ec4a1,"['normative', 'text', 'origin', 'http', 'public', 'topic', 'security', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+9ec9ab6ab7f0eb26b9cc3811d9b83f39a263d135,"['typo', 'copypasta', 'http', 'public', 'topic', 'security', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+447b0bdbdbdcd7e2cbec6c5cb58b22d78e29f810,"['text', 'cleanup', 'http', 'public', 'topic', 'security', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+9d54bd460b830134591b4fdb6b36600b24b44fdd,"['giow', 'security', 'data', 'origin', 'redirector', 'data', 'hostile', 'origin', 'hostile', 'origin', 'expose', 'origin', 'data', 'http', 'public', 'topic', 'security', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+ddb4cbeb8f8597871b75afaf626e0f7a2d0f3d2e,"['clearer', 'http', 'public', 'topic', 'security', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+464ab1051a102e519f6b0e9dcea46054cda00398,"['giow', 'area', 'term', 'security', 'editorial', 'http', 'public', 'topic', 'apis', 'html', 'video', 'text', 'track', 'worker', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+f4751b825eb8d9c62a558fe4632912141d760a1d,"['silvia', 'pfeiffer', 'public', 'texttracks', 'webvtt', 'community', 'group', 'topic', 'html', 'security', 'video', 'text', 'track', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+0fb64b5e118d4d3f2caa18a7540ce2a6f760514d,"['context', 'rule', 'http', 'public', 'topic', 'html', 'security', 'video', 'audio', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+c72b5a5998ce91020f93225695dd36725fccd71f,"['topic', 'apis', 'html', 'html', 'syntax', 'security', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+a58ef06366590a57d1429049aa209d18cc9ddcdb,"['minor', 'editorial', 'thanks', 'michael', 'dyck', 'topic', 'canvas', 'apis', 'html', 'security', 'video', 'audio', 'worker', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+e01fd7db016428436e8cf0202b9cb45a0b41dcf1,"['update', 'integration', 'spec', 'http', 'public', 'topic', 'apis', 'html', 'html', 'syntax', 'offline', 'application', 'security', 'worker', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+97021f513471d9b76ff2fe451d1cac01dddaf212,"['topic', 'html', 'html', 'syntax', 'security', 'video', 'text', 'track', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+8be4843cd98c5aa7171fbf8a97e0bef2d8a19c9c,"['cross', 'reference', 'issue', 'topic', 'apis', 'security', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+11fe2fd3d5016338d38d866f323f22c494cf8956,"['custom', 'property', 'location', 'object', 'work', 'document', 'location', 'object', 'http', 'public', 'topic', 'apis', 'security', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+44c8b919455285d051f27b1ffeda45de83c09d79,"['specific', 'thing', 'webvtt', 'spec', 'webvtt', 'type', 'topic', 'html', 'microdata', 'security', 'video', 'text', 'track', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+333ce864852b36c9f1ebe323cca514cfab2f3437,"['defer', 'http', 'public', 'topic', 'security', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+9054dff10ae00a9ef230cd51ed10cec806ef1d38,"['topic', 'apis', 'html', 'offline', 'application', 'security', 'worker', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+7e3a038a2474fbce2d575c2dca71f194d63c7bff,"['standard', 'fixing', 'http', 'public', 'topic', 'apis', 'html', 'html', 'syntax', 'offline', 'application', 'security', 'video', 'audio', 'worker', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+afd673ad86afc903d9ba6e41646bc467531c7c26,"['topic', 'canvas', 'apis', 'html', 'html', 'syntax', 'security', 'video', 'text', 'track', 'video', 'audio', 'websocket', 'worker', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+6fe7ac7f03958c66305a52c22dbe040acd58d860,"['topic', 'apis', 'microdata', 'security', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+f636b2b819a4003316bdb0c84c7570cbad53f8e6,"['giow', 'thing', 'access', 'window', 'topic', 'apis', 'security', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+4fbe4d3765b113bc08be6ae374e9eb9a49b12b5d,"['recast', 'microdata', 'vocabs', 'sample', 'vocabs', 'topic', 'html', 'microdata', 'security', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+97fe5df078d29bae9327536faf8974fd615f2a4d,"['cleanup', 'sweep', 'edit', 'contains', 'normative', 'kind', 'history', 'section', 'topic', 'apis', 'html', 'html', 'syntax', 'microdata', 'offline', 'application', 'security', 'video', 'text', 'track', 'video', 'audio', 'websocket', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+dd2184ae6734033785d22530b9866581a1833447,"['account', 'security', 'concern', 'http', 'public', 'topic', 'apis', 'html', 'security', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+6c4f5f7cec41e4627367b381782045448f3fccdb,"['giow', 'location', 'security', 'model', 'different', 'window', 'http', 'public', 'topic', 'apis', 'security', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+5f17db455453c3610db2e6d8a244bf200d223932,"['giow', 'security', 'location', 'security', 'paragraph', 'consistent', 'topic', 'apis', 'security', 'storage', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+624dafd7391499254fee13020ea43c630b769bbe,"['cross', 'origin', 'access', 'topic', 'apis', 'security', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+285b52f213855dffbc6185ead6f26baa9ce9059f,"['canvas', 'worker', 'topic', 'canvas', 'apis', 'html', 'security', 'worker', 'worker', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+1e4754ae5f1a89ccb7322dd17d3a7110da6e0f56,"['http', 'public', 'topic', 'apis', 'html', 'html', 'syntax', 'security', 'storage', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+65b194ca88abecae8629d2167f911c0c10cfdec8,"['author', 'broadcast', 'memory', 'leak', 'topic', 'apis', 'websocket', 'http', 'whatwg', 'webapps']",Risky_resource_management,{'memory leak': 100}
+7364c6fc52a3f83b94b1ded55f00a3396ba7dc44,"['http', 'lack', 'interest', 'implementor', 'topic', 'html', 'html', 'syntax', 'security', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+355387fc1951fd14dae668646c54b35615af1d70,"['update', 'reference', 'http', 'public', 'topic', 'canvas', 'apis', 'html', 'security', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+e018bdf503eb8f661c0fd3293b21fe4bf7066293,"['giow', 'recast', 'origin', 'data', 'worker', 'worker', 'origin', 'data', 'reconnect', 'data', 'http', 'public', 'topic', 'security', 'worker', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+e69ad5a48791617ba9140059d5b4a1c3ec135847,"['data', 'work', 'worker', 'topic', 'security', 'worker', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+d83d2f2ef35be7ad089d6d48a933de527e061183,"['introduce', 'version', 'imagedata', 'variable', 'resolution', 'canvas', 'topic', 'canvas', 'apis', 'html', 'security', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+104c499e7009920e774723ccfeab59ab243669d0,"['giow', 'security', 'vague', 'suggestion', 'topic', 'html', 'security', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+035cff362068095b212b2d5afb1236467cd18ea5,"['giow', 'recast', 'origin', 'concept', 'origin', 'alias', 'definition', 'blank', 'definition', 'topic', 'html', 'security', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+1dfe4332da914abb584cd65e79bf858f6aef23ac,"['definition', 'script', 'origin', 'topic', 'security', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+7f5482c14d2b2bf4790c3027f3bb1eaf28f86096,"['hook', 'topic', 'apis', 'html', 'security', 'video', 'audio', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+97c4d63b61f103e16555b8221a368dc3e480ae05,"['giow', 'path', 'object', 'drawing', 'text', 'path', 'path', 'note', 'path', 'object', 'topic', 'canvas', 'security', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+19897c5afb1adb74c35597b4edf389fae2c1ba78,"['iframe', 'sandbox', 'context', 'http', 'topic', 'html', 'security', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+4cdad807f9001ae2b73c337d1e49cee4d1d034ea,"['giow', 'http', 'clarify', 'nonce', 'zero', 'fresh', 'resource', 'topic', 'html', 'security', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+2f0ac95df5ccdb78a4f74e3d01f603af181c37e2,"['spec', 'http', 'http', 'sensitive', 'resource', 'topic', 'html', 'security', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+18a3d3d256acb8400a74b2288c4b0859eca56860,"['whitelist', 'filter', 'drag', 'drop', 'content', 'topic', 'html', 'security', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+253c8879d4bd3bdea2c435f9f8740c4a0820b135,"['loosen', 'requirement', 'topic', 'apis', 'security', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+ca2e97959d0d57b1ef63c69ebb54bc5b464d5e7f,"['requirement', 'colon', 'consistency', 'similar', 'section', 'topic', 'html', 'security', 'server', 'event', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+5e090f7f95cd6ba2dfa6b5690ed190ffb9491992,"['origin', 'definition', 'topic', 'html', 'security', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+c1b1aa27e6711e6395778aab9cf83549f53c7f42,"['sure', 'canvas', 'toblob', 'honour', 'origin', 'clean', 'flag', 'security', 'check', 'relevant', 'algorithm', 'topic', 'canvas', 'apis', 'html', 'security', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+9548db36757129b5d6fcb599c3da7bde978abb5f,"['typo', 'copypasta', 'topic', 'html', 'security', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+94ea55aeabf741b454397a9127b5102b48aa06ab,"['topic', 'html', 'security', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+5e99b278578b666141bc487c77b8d5c56669a30b,"['webvtt', 'text', 'html', 'webvtt', 'spec', 'drop', 'peerconnection', 'webrtc', 'clean', 'internal', 'annotation', 'number', 'topic', 'editorial', 'webidl', 'issue', 'recent', 'update', 'webidl', 'checker', 'topic', 'canvas', 'apis', 'html', 'html', 'syntax', 'microdata', 'offline', 'application', 'security', 'server', 'event', 'video', 'text', 'track', 'video', 'audio', 'storage', 'worker', 'websocket', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+6c1bec952028f09a4085b74e2bd23b3df536046a,"['topic', 'apis', 'security', 'note', 'default', 'people', 'topic', 'previous', 'annotation', 'topic', 'canvas', 'apis', 'html', 'html', 'syntax', 'microdata', 'security', 'server', 'event', 'video', 'text', 'track', 'video', 'audio', 'storage', 'worker', 'websocket', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+8a36e83be9bf2f07dc959da13567451490ae38e2,"['giow', 'security', 'update', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+e9f504e4badaec7516f3a5f13c375465140d90b2,"['cors', 'text', 'event', 'stream', 'security', 'consideration', 'http', 'public', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+d3b3d8cbc2eb54e3728c13c0d1cf710ca80d9351,"['advice', 'security', 'perspective', 'additional', 'material', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+b2f9fbcc54d65571b314db838c75fc69e8a10341,"['giow', 'cors', 'enable', 'eventsource', 'cross', 'site', 'event', 'stream', 'http', 'whatwg', 'webapps']",Insecure_interaction_between_components,{'cross site': 100}
+6d444eff83223b56b6353f667cbea4fcae5408d1,"['overpromise', 'security', 'section', 'http', 'public', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+2dbbd7ae64221312d05b07ac6fdcfbf3f25a8700,"['peerconnection', 'object', 'update', 'security', 'section', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+fc0f073f6311d664d9aad3a31df48d9b98c6cc9e,"['pointless', 'security', 'check', 'gecko', 'minor', 'editorial', 'thing', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+cd46337c170cd25da4d97e539f34b2893ea2e945,"['giow', 'taint', 'canvas', 'cross', 'site', 'font', 'http', 'public', 'http', 'whatwg', 'webapps']",Insecure_interaction_between_components,{'cross site': 100}
+8d4afa9899be4b16a6fb3a17f2d6da62a0be637a,"['peerconnection', 'data', 'medium', 'stream', 'replay', 'attack', 'integrity', 'check', 'hmac', 'sense', 'http', 'whatwg', 'webapps']",Risky_resource_management,{'integrity check': 100}
+3bacb0d0866ba4d518ca96b856383da14343c118,"['note', 'note', 'security', 'peerconnection', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+b6c635af6cc3a4a21172afd5863a2104e7716fc9,"['note', 'data', 'medium', 'stream', 'security', 'integrity', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+df10393bebe9d813dcead3c8ad465f5a8aa78400,"['giow', 'abarth', 'sufficient', 'security', 'wise', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+cf882c64d2119fd0b28892bc508da972b70af2f7,"['clarify', 'deadlock', 'http', 'whatwg', 'webapps']",Risky_resource_management,{'deadlock': 100}
+7e4876e80921a53aef3f581b79172718f5c86c45,"['infinite', 'loop', 'crash', 'guess', 'list', 'token', 'algorithm', 'http', 'public', 'http', 'whatwg', 'webapps']",General,{'crash': 100}
+81c737ddc06913507e23235ba47bddab6a9fec36,"['giow', 'revamp', 'object', 'type', 'previous', 'model', 'security', 'problem', 'previous', 'model', 'browser', 'vendor', 'reason', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+3cb891dc3b9963c7f15a134426f2efd1c856f5ef,"['stablise', 'security', 'section', 'http', 'public', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+6e951d8ab63b60ab397cbfc2f9e5c7af03c67946,"['possible', 'security', 'problem', 'check', 'websocket', 'handshake', 'server', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+a92f3f2f1b067ae7302b3ec153cdb60655d9f7df,"['giow', 'plug', 'security', 'hole', 'appcache', 'hostile', 'http', 'server', 'cache', 'store', 'file', 'http', 'server', 'http', 'apps', 'work', 'offline', 'http', 'public', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+309bbb2504a1383c2574b837d94e76b7587befc6,"['security', 'risk', 'websocket', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+c22ab95a57bbe97d314e633ad5456be68e9a7841,"['update', 'websocket', 'protocol', 'abstract', 'security', 'model', 'clearer', 'ascii', 'case', 'insensitive', 'websocket', 'protocol', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+fd75b0a78aef60f2a4b452f0803c7e36eec1e9d1,"['security', 'exception', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+b644a43dbe7434fb100650ebd62bdb07ddf532b3,"['hypothetical', 'security', 'risk', 'iframe', 'marginwidth', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+5402075bac7cdfde7e5947994726e7b7067a64b0,"['potential', 'security', 'problem', 'progress', 'event', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+28e2c37822a7922d797bfaf80d0e37ecf136f9ad,"['giow', 'rework', 'security', 'model', 'cross', 'origin', 'access', 'surer', 'prototype', 'object', 'safe', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+441207aaea61c88864f1d5d346dcbff5ae0c2734,"['websocket', 'security', 'consideration', 'iana', 'consideration', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+9931fbf1ba9458422d4905988255346f7972ee4f,"['ignore', 'application', 'octet', 'stream', 'label', 'video', 'note', 'websocket', 'security', 'section', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+a1d38c660e981d70f6d7173f7e075282b2ad0818,"['security', 'model', 'intro', 'timeouts', 'connection', 'explicit', 'error', 'editorial', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+be72d87f5a61c4b983ea90bf203579850369213e,"['token', 'security', 'reason', 'credit', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+28566674bc45c6e1adf3b0bc887f525de27f3636,"['websocket', 'security', 'issue', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+c9a62098ddecbd7ad256e740f0edbfcfe71d0d32,"['medium', 'element', 'security', 'privacy', 'section', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+9d2015eaca06a8a3d3162f21dd672dbbc07fb9c9,"['csrf', 'mitigation', 'origin', 'header', 'request', 'http', 'whatwg', 'webapps']",Insecure_interaction_between_components,{'csrf': 100}
+1c87afd1819876629a84162fb6e0c3d9a8c44457,"['javascript', 'online', 'whitelist', 'comment', 'html', 'http', 'security', 'equivalent', 'http', 'concept', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+a648aca25b23946e90b80ebf66c83bacff375be9,"['storage', 'fire', 'quote', 'specific', 'exception', 'quota', 'security', 'exception', 'cross', 'exception', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+c17e465f8feae8c724b4a29237dce100050702da,"['security', 'risk', 'domain', 'fallback', 'page', 'domain', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+0ec7d80397842c80600b9612ee1596c109eca47c,"['impossible', 'file', 'valid', 'image', 'privilege', 'escalation', 'http', 'whatwg', 'webapps']",Porous_defenses,{'privilege escalation': 100}
+eeb1bdc9bcf06bce87230c875dd01be835441c3c,"['clean', 'security', 'processing', 'model', 'canvas', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+0eab1ddcc8ad99280cdbda1d94cef1acc634036c,"['forgot', 'sandbox', 'attribute', 'guess', 'security', 'risk', 'seamless', 'attribute', 'wrong', 'type', 'interface', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+27c05f45529557bfc1a1c709c7b3b3fc0f0fae28,"['name', 'value', 'pair', 'storage', 'storage', 'section', 'common', 'privacy', 'security', 'editorial', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+012c3486feb449392d5cc3d5ae09f3e060bba63a,"['security', 'exception', 'opendatabase', 'domain', 'database', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+2ca65f2af6bc15ea67f654020420229186fffd18,"['security', 'postmessage', 'domain', 'origin', 'message', 'source', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+ff302c2ff9dead18bdae02039648b8f051c19fe1,"['failure', 'setting', 'item', 'storage', 'object', 'return', 'security', 'risk', 'party', 'storage', 'access', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+257a2cd0a08fa20bd533934d244533c945f052e7,"['colour', 'space', 'section', 'security', 'section', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+519d07018251ba764ade831dd138891e5b7b58ee,"['overhaul', 'canvas', 'security', 'requirement', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+a2cde2ce440e9cc56f133ab28f903afed02c1c66,"['potential', 'security', 'flaw', 'http', 'pipermail', 'whatwg', 'whatwg', 'january', 'html', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+7d1384b6f9d9f4e70d480de3284cc458ce6c7653,"['multi', 'domain', 'security', 'model', 'simpler', 'origin', 'model', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+2ed86ebb2d9ea6d94ac845524353e8d784a4d45c,"['security', 'note', 'storage', 'apis', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+16defd19ecb191cb8936e638e7879111bd2542c3,"['security', 'return', 'location', 'object', 'document', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+3b45c029816637b811d29abb1c468e3d19f60540,"['massive', 'revamp', 'security', 'section', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+3c903c4766abe7d6c4d63ad50e111174f7ffe946,"['loose', 'togother', 'context', 'section', 'context', 'security', 'context', 'global', 'scope', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+ae9cee8fb1c6eebc297806532f83e7cd91fafaf8,"['security', 'section', 'placeholder', 'medium', 'section', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+a38035fbe335d5bab45ddf0ef5e47e8214735e60,"['crash', 'algorithm', 'http', 'whatwg', 'webapps']",General,{'crash': 100}
+5cf220f9802b15729bb5bde9bbb69e61b8dc58d6,"['note', 'security', 'issue', 'port', 'storage', 'apis', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+760c63d3f5e0f915dccea634a53b08bc037d0ca3,"['ignacio', 'javier', 'typo', 'confusion', 'connection', 'security', 'paragraph', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+3f7223d965bb7ddf84537f25ed455d09d9315987,"['collection', 'link', 'security', 'exception', 'placeholder', 'definition', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+959c9ffe8a748749fac874c0418e8b94f0447ad0,"['issue', 'parser', 'update', 'security', 'section', 'page', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+b0c4471a4e0e1da89ed9a2023ddbd3a9b80c6283,"['couple', 'example', 'security', 'section', 'storage', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+398a4cf55351154e63be2bfe729cbf10e01a9e18,"['security', 'problem', 'storage', 'area', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+12fd26eea3292521963323482e9ca7c38b3a06d2,"['security', 'drawimagedata', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+d9d4fec7fa287c686d75c66e05ceb776ccd5a984,"['security', 'concern', 'content', 'handler', 'idea', 'http', 'whatwg', 'webapps']",General,{'security': 100}
+1031712469fac48f0d79bad9bc9b4dd62533fb1f,"['update', 'todataurl', 'security', 'requirement', 'http', 'whatwg', 'webapps']",General,{'security': 100}

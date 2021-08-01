@@ -1,8 +1,25 @@
-sha,message,catetory,matched,labels
-a34b24aa94e5796b229ccc648ee35f5eb18e25a4,"['mergerequest', 'spookylukey', 'mergepresent', 'style', 'django', 'crash', 'middlewares']",Risky_resource_management,{'crash': 100},
-726ad4f4656f9cf0949106a6e0e163cf7909099d,"['django', 'crash', 'middlewares']",Risky_resource_management,{'crash': 100},
-6a6963cea8ac1e852c9c84a6e9827132341f2888,"['delete', 'comment', 'crash', 'option']",Risky_resource_management,{'crash': 100},
-51ed193a8284602d7a87044e8f248d6f9a6714d4,"['admin', 'disqus', 'double', 'recent', 'comment', 'slashwidget', 'admin', 'disqus', 'panel', 'error', 'insecure']",General,{'insecure': 100},
-d145a664f9b4b112651570ebd24c4d3470e01c6f,"['initial', 'changedinstead', 'security', 'people', 'increasestage', 'website', 'public', 'github', 'repositorydeployment']",General,{'security': 100},
-f59ba0c901f4312603a5863152e13e5ec382c656,"['security', 'filebrowser', 'version']",General,{'security': 100},
-66d5047e8611d8af70977609fe79ad592faa2b37,"['security', 'filebrowser']",General,{'security': 100},
+sha,message,catetory,matched
+a34b24aa94e5796b229ccc648ee35f5eb18e25a4,"['pull', 'request', 'spookylukey', 'util', 'crash', 'django', 'style', 'middlewares']",General,{'crash': 100}
+726ad4f4656f9cf0949106a6e0e163cf7909099d,"['util', 'crash', 'django', 'style', 'middlewares']",General,{'crash': 100}
+36a998b69afbf809ff375b5f8e648caa86f42de8,"['true', 'release', 'http', 'weblog', 'security', 'release', 'vulnerability', 'debug']",General,{'security': 100}
+eb969a5c07fb8668ea4c788acc79dd8a61b1e4e6,"['password', 'reset', 'http', 'request', 'schema', 'potential', 'security', 'vulnerability', 'password', 'reset', 'intermediary', 'node', 'network', 'thanks', 'john', 'barham', 'http', 'forum', 'topic', 'mezzanine', 'user', 'kadzczcjdpm', 'topic', 'mezzanine', 'user', 'kadzczcjdpm']",General,{'security': 100}
+fcd79f7b292f7ffa7dd8629728832d5cdaf77f61,"['crash', 'current', 'site']",General,{'crash': 100}
+3c44581989f6487eea2b49d369dca0b305c3a15b,"['csrf', 'processing']",Insecure_interaction_between_components,{'csrf': 100}
+677193b02d94073f9adc071527797b3425c8c635,"['testcase', 'nevercache', 'csrf', 'cookie']",Insecure_interaction_between_components,{'csrf': 100}
+610fa75c8432c16944b5d6152b0df2cf5adbecc6,"['check', 'csrf', 'csrf', 'middleware']",Insecure_interaction_between_components,{'csrf': 100}
+94b937b3ad8dedace5521f3c05b59b2a1632fcb0,"['email', 'address', 'security', 'issue']",General,{'security': 100}
+85963841062b102e56c08f1c0e76f05e741a307c,"['nginx', 'conf', 'mozilla', 'nginx', 'conf', 'ciphersuite', 'operation', 'security', 'team', 'mozilla', 'project', 'http', 'security', 'intermediate', 'compatibility', 'document', 'ciphersuite', 'level', 'security', 'page', 'modern', 'compatibility']",General,{'security': 100}
+27b3d5d373ed3685b9c1db5640e36820625f70ad,"['travis', 'test', 'version', 'django', 'update', 'time', 'security', 'release']",General,{'security': 100}
+6a6963cea8ac1e852c9c84a6e9827132341f2888,"['option', 'comment', 'admin', 'program', 'crash', 'comment', 'delete', 'option']",General,{'crash': 100}
+543c4374c9ff51a910ff001a055b18b510f1a4a1,"['jquery', 'setup', 'ajax', 'csrf', 'ready', 'handler']",Insecure_interaction_between_components,{'csrf': 100}
+51ed193a8284602d7a87044e8f248d6f9a6714d4,"['admin', 'href', 'disqus', 'recent', 'comment', 'http', 'http', 'disqus', 'widget', 'admin', 'panel', 'load', 'recent', 'comment', 'error', 'insecure', 'content']",General,{'insecure': 100}
+d145a664f9b4b112651570ebd24c4d3470e01c6f,"['initial', 'project', 'setting', 'increase', 'security', 'people', 'public', 'repository', 'stage', 'website', 'deployment', 'manage', 'createkey', 'deployment', 'server']",General,{'security': 100}
+52fbfe0f6eb3f1a57e33d1c8128bdd0e03485e56,"['force', 'csrf', 'token', 'generation', 'request', 'cache', 'middleware']",Insecure_interaction_between_components,{'csrf': 100}
+c52534eaddb6677f35f63246653f5153ce0570d7,"['csrf', 'token', 'generation', 'cache']",Insecure_interaction_between_components,{'csrf': 100}
+f59ba0c901f4312603a5863152e13e5ec382c656,"['bump', 'filebrowser', 'version', 'security']",General,{'security': 100}
+b039617b253abe9b31c03fc98f7b3f786cbcede1,"['sensitive', 'data', 'comment', 'notification', 'email', 'regular', 'user', 'notification', 'comment', 'notification', 'setting', 'bool', 'list', 'email', 'address', 'comment', 'notification', 'email']",Porous_defenses,{'sensitive data': 100}
+553157fd2bb4665f34cf48a3b45211081f04f06d,"['security', 'issue', 'readme']",General,{'security': 100}
+66d5047e8611d8af70977609fe79ad592faa2b37,"['bump', 'filebrowser', 'safe', 'security']",General,{'security': 100}
+c8f9249fd0c9ecedc4a732a02e29630385def070,"['ajax', 'csrf', 'setup', 'file', 'popup', 'interface']",Insecure_interaction_between_components,{'csrf': 100}
+c0af0aee1109bc3aec689ca5451bd8aa0d1bfe47,"['backward', 'compatible', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+fcb63bfecbe2a1255049deaed16f1c570b896b5c,"['csrf', 'middleware']",Insecure_interaction_between_components,{'csrf': 100}

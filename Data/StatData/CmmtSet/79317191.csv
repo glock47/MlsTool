@@ -1,7 +1,11 @@
-sha,message,catetory,matched,labels
-3f4e6d3cc7300e395c8d76b78e229e477290b85c,"['separate', 'threadconcurrency', 'deadlock', 'issue']",Risky_resource_management,{'deadlock': 100},
-bb76e8ba2dc3b45548794b9d472ca6e9dbad40dc,"['import', 'crash']",Risky_resource_management,{'crash': 100},
-cf201b0218db3012107962f7045ddd324529c5c8,"['field', 'update', 'string', 'string', 'array', 'update', 'crash', 'mismatch', 'field']",Risky_resource_management,{'crash': 100},
-9e32412bc513dcfd530d095d31f70c9ffc943641,"['field', 'crash']",Risky_resource_management,{'crash': 100},
-91314ac4a6a2424e81b0293a5eea9ed9e0d693c1,"['crash', 'issuetypesense', 'issueissue', 'rocksdb', 'facebookcommit', 'rocksdb', 'facebook']",Risky_resource_management,{'crash': 100},
-57bff89a9725985345e4141f50344904ee77a606,"['index', 'empty', 'crash']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+4b4610c1879bfa5f25f8614bfabe97a5bea562c3,"['update', 'security']",General,{'security': 100}
+e95944bf00008b27c44f9ca6845264915b1ce65c,['security'],General,{'security': 100}
+3f4e6d3cc7300e395c8d76b78e229e477290b85c,"['separate', 'thread', 'pool', 'http', 'collection', 'processing', 'deadlock', 'issue', 'high', 'concurrency', 'thread']",Risky_resource_management,{'deadlock': 100}
+bb76e8ba2dc3b45548794b9d472ca6e9dbad40dc,"['import', 'edge', 'case', 'crash']",General,{'crash': 100}
+9e32412bc513dcfd530d095d31f70c9ffc943641,"['crash', 'field', 'value']",General,{'crash': 100}
+149c2cfec092fd84b059b98ebc78faae0d0cb77f,"['long', 'query', 'highlighter', 'misbehave', 'crash', 'window', 'size', 'highlighter', 'mark', 'overlap', 'query', 'text', 'query', 'length']",General,{'crash': 100}
+91314ac4a6a2424e81b0293a5eea9ed9e0d693c1,"['upgrade', 'rocksdb', 'crash', 'issue', 'http', 'github', 'typesense', 'typesense', 'issue', 'http', 'github', 'facebook', 'rocksdb', 'issue', 'http', 'github', 'facebook', 'rocksdb']",General,{'crash': 100}
+9407f558503a6f47ef0892e0a9e241dc732f51d2,"['access', 'control', 'origin', 'header', 'need', 'present', 'response']",Porous_defenses,{'access control': 100}
+57bff89a9725985345e4141f50344904ee77a606,"['crash', 'empty', 'index']",General,{'crash': 100}
+04d02919b2558d7ec932977a79752288b231b70e,"['memory', 'corruption']",Risky_resource_management,{'memory corruption': 100}

@@ -1,19 +1,20 @@
-sha,message,catetory,matched,labels
-126cf2e5065ea71d5b1e19f9323a0ac0656d03d0,"['release', 'maven', 'attempt', 'classusingexception', 'signature', 'return', 'security', 'signedrelease']",General,{'security': 100},
-f20947f521bf5a21272ef51cf0d0477e60d95df3,"['ingres', 'group', 'application', 'security', 'balancer']",General,{'security': 100},
-1b1886aefb69d14b1a56d4a993f0cc946967d029,"['access', 'control']",Porous_defenses,{'access control': 100},
-3114041f5ffdff439ce80a09350dcb641f55ebe0,"['local', 'circleci', 'eviction', 'crash']",Risky_resource_management,{'crash': 100},
-ae11318c9e226ebe763026121944f5972bc418bd,"['kviterator', 'stale', 'iterators', 'method', 'crash', 'refresh']",Risky_resource_management,{'crash': 100},
-a9a55fdd4d88cb15625d0a608729f997481f5f0f,"['issue', 'crash', 'stack']",Risky_resource_management,{'crash': 100},
-b08b864f9595c7577b081813e7014b761575a865,"['security', 'group', 'renames']",General,{'security': 100},
-5a54336ced8ff7b9b54f4ac5eb1a546b96cca7c3,"['range', 'query', 'crash']",Risky_resource_management,{'crash': 100},
-90795133e0dc2ff38c8fe3e4ca568e800094a12a,"['internalip', 'metric', 'insecure', 'server']",General,{'insecure': 100},
-8b6e7bf48a33449c59cae2eba109695af60bfd32,"['configuration', 'issue', 'basic', 'security']",General,{'security': 100},
-f949f82c6b6f792caf258f7e9cabba65569fa416,"['access', 'control']",Porous_defenses,{'access control': 100},
-2d1a36bf0c71dd54790dbdd14c4dae7e3406c447,"['redirect', 'separatecontent', 'issue', 'policy', 'security', 'inline']",General,{'security': 100},
-651a8f6a036f7d9c264ecb0956d2e4c0c743d10a,"['afecf', 'mergerequest', 'omniauth', 'kirillplatonov', 'mergecallback', 'fetch', 'access', 'controller', 'scope']",Porous_defenses,{'access controller': 90},
-3afecf2ec158bbf75c807818652e42ffdff2860c,"['callback', 'fetch', 'access', 'controller', 'scope']",Porous_defenses,{'access controller': 90},
-ea090ea932e8283ef6f442a27c814f909887f957,"['mergeshopify', 'request', 'serialize', 'javascript', 'warning', 'security']",General,{'security': 100},
-53fa3e26c960c88af10b064c8513e4d9eb6fa830,"['serialize', 'javascript', 'warning', 'security']",General,{'security': 100},
-f61c73f16b78266e9a2d6304337cc182e1a65d83,"['mergeshopify', 'request', 'security', 'mergecheck']",General,{'security': 100},
-16fca0e9ad2714c1dbe65bd948339fb835fcb1c0,"['crash', 'vanilla', 'heroku']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+2d1a36bf0c71dd54790dbdd14c4dae7e3406c447,"['post', 'redirect', 'separate', 'file', 'inline', 'issue', 'apps', 'content', 'security', 'policy']",General,{'security': 100}
+7e81ae8cb7f3891444bf5376435264981deebac3,"['pull', 'request', 'shopify', 'csrf', 'auth', 'csrf', 'check', 'valid']",Insecure_interaction_between_components,{'csrf': 100}
+6f5e21e744a132932930d1c49fbb3afe35fdc9e4,"['csrf', 'protection', 'valid', 'session']",Insecure_interaction_between_components,{'csrf': 100}
+6e3f11816892d25cc5ca65ff0811e139ccf5eba8,['security'],General,{'security': 100}
+df16d151ab779f6b137c0788dffd81dc5912577b,"['pull', 'request', 'shopify', 'open', 'redirect', 'return', 'relative', 'path']",Insecure_interaction_between_components,{'open redirect': 100}
+8c54a8cde299078ba4e525b042b33035f6423c73,"['pull', 'request', 'shopify', 'activity', 'csrf', 'csrf', 'validation']",Insecure_interaction_between_components,{'csrf': 100}
+024039f04245850fd809aa1dcfdc3f36333d8d43,"['activity', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+a21a69425d99656b7f1ebc39de9dfdff06440c3f,"['csrf', 'verification']",Insecure_interaction_between_components,{'csrf': 100}
+ea090ea932e8283ef6f442a27c814f909887f957,"['pull', 'request', 'shopify', 'serialize', 'javascript', 'security', 'warning']",General,{'security': 100}
+53fa3e26c960c88af10b064c8513e4d9eb6fa830,"['serialize', 'javascript', 'security', 'warning']",General,{'security': 100}
+fcb077fa812a4f94f596a952dde5fbf03146e9f0,"['pull', 'request', 'shopify', 'security', 'update', 'update', 'javascript', 'flash', 'message']",General,{'security': 100}
+9b5d3126fafe34b1179ba08554621a021883d6f3,"['html', 'login', 'form', 'method', 'token', 'error', 'helper', 'form', 'csrf', 'attack']",Insecure_interaction_between_components,{'csrf': 100}
+b22824003af168298d727f639a49503d29ca2ac6,"['pull', 'request', 'shopify', 'csrf', 'protection']",Insecure_interaction_between_components,{'csrf': 100}
+9d81d25f7d57675de5ecab7fc6c564ca01370836,"['csrf', 'protection']",Insecure_interaction_between_components,{'csrf': 100}
+6faf85a00b5d4fb8be65aa3395ab5a9e441e702e,"['pull', 'request', 'shopify', 'csrf', 'omniauth', 'issue']",Insecure_interaction_between_components,{'csrf': 100}
+eaef1bcf9be46b7a528e4e9571f6e274f140d027,"['csrf', 'omniauth', 'issue']",Insecure_interaction_between_components,{'csrf': 100}
+f61c73f16b78266e9a2d6304337cc182e1a65d83,"['pull', 'request', 'shopify', 'security', 'myshopify', 'check']",General,{'security': 100}
+16fca0e9ad2714c1dbe65bd948339fb835fcb1c0,"['vanilla', 'crash', 'heroku']",General,{'crash': 100}
+57f5eaee730398a668041a3e4f8833f0d3817498,"['update', 'readme', 'point', 'stack', 'overflow']",Risky_resource_management,{'stack overflow': 100}

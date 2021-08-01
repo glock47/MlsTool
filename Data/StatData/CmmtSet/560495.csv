@@ -1,21 +1,27 @@
-sha,message,catetory,matched,labels
-7a7a618c532816ca7b5dcd207c2dc9f8130b0fe4,"['security', 'chore', 'update', 'dependency', 'normalize']",General,{'security': 100},
-f3f0811aecb1faf0ae16163a4993efbdf255bac2,"['security', 'chore', 'update', 'newlines', 'dependency']",General,{'security': 100},
-a3523abebc04d1c4dcc039b008d7b904a854fe53,"['property', 'crash', 'value', 'class']",Risky_resource_management,{'crash': 100},
-c61f1cdf8705e24661df9e49595ad51ae657d14c,"['crash', 'weird', 'parameter']",Risky_resource_management,{'crash': 100},
-f1017988ec4c6175b101dbde47fb06b75d205c70,"['author', 'crash', 'empty']",Risky_resource_management,{'crash': 100},
-52a5b3df0f5422e33525754b99f6c13f01621212,"['crash', 'value', 'jsxattribute']",Risky_resource_management,{'crash': 100},
-5b0b60ec44fe380318b013a72ca9ba2a8e555ab0,"['template', 'crash', 'haruki']",Risky_resource_management,{'crash': 100},
-cfb04e390da1391b33f5c06acf5a8059a36bc4cb,"['crash', 'class', 'property', 'expression', 'object']",Risky_resource_management,{'crash': 100},
-e2b454512cb4ef3eefbb5af80f57eb51753a0c5a,"['crash', 'default', 'value', 'parameter']",Risky_resource_management,{'crash': 100},
-ea1932e4fc69313fb281a2005d54861dd9ebb89f,"['crash', 'string', 'default', 'value']",Risky_resource_management,{'crash': 100},
-2b6d2dee2f8a887b60170f280ab981438241fc8d,"['crash', 'causedclear', 'weird', 'doclet']",Risky_resource_management,{'crash': 100},
-d527f3e6b0daa9e8ac1f069180c7da9718d35898,"['crash', 'value']",Risky_resource_management,{'crash': 100},
-7ef13bf40bbe40325c4ab8c6c67a44f8eef0609a,"['crash', 'member', 'class', 'claim']",Risky_resource_management,{'crash': 100},
-d09c654d366641e99d23436a6d99db7a6919aedb,"['crash', 'doclet', 'empty', 'longname']",Risky_resource_management,{'crash': 100},
-5c59bc148876a69a8eea1afd6c48820cd360f4f2,"['property', 'crash', 'output', 'incorrect']",Risky_resource_management,{'crash': 100},
-2c1d466b83486adb1cb885953071b4074dc44cab,"['emptystatement', 'crash', 'rhinobceffeebcacdeec', 'rhino']",Risky_resource_management,{'crash': 100},
-c96a1215bd30fbb679edd21a4114922576fa7401,"['potential', 'crash', 'warning']",Risky_resource_management,{'crash': 100},
-c8167b8d7685b164849265564a399f7f7a6218eb,"['shell', 'version', 'rhinokeywords', 'crash']",Risky_resource_management,{'crash': 100},
-f0224e9845db04aef687acc557362e8f5823f3db,"['comment', 'crash']",Risky_resource_management,{'crash': 100},
-11aacdef1b420f5748369862b25f8a5586f4ece0,"['valueof', 'object', 'literalparser', 'crash', 'issue', 'julienbachmann', 'valueof', 'literal', 'object']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+7a7a618c532816ca7b5dcd207c2dc9f8130b0fe4,"['chore', 'deps', 'update', 'dependency', 'normalize', 'security']",General,{'security': 100}
+f3f0811aecb1faf0ae16163a4993efbdf255bac2,"['chore', 'deps', 'update', 'dependency', 'newlines', 'security']",General,{'security': 100}
+a3523abebc04d1c4dcc039b008d7b904a854fe53,"['crash', 'class', 'property', 'value']",General,{'crash': 100}
+c61f1cdf8705e24661df9e49595ad51ae657d14c,"['crash', 'parameter', 'weird', 'name']",General,{'crash': 100}
+f1017988ec4c6175b101dbde47fb06b75d205c70,"['crash', 'author', 'empty']",General,{'crash': 100}
+7fd0f590ee63e5d0d31b398fe3a16f2fd0f0efcb,"['crash', 'json', 'file']",General,{'crash': 100}
+52a5b3df0f5422e33525754b99f6c13f01621212,"['crash', 'jsxattribute', 'node', 'value']",General,{'crash': 100}
+2e04416a9a650515f924815432bfa9291aaa4419,"['crash', 'node']",General,{'crash': 100}
+f249630ff089067f66a2caa316b2f4c81a93ef76,"['crash', 'node', 'lack', 'property']",General,{'crash': 100}
+5b0b60ec44fe380318b013a72ca9ba2a8e555ab0,"['crash', 'haruki', 'template']",General,{'crash': 100}
+cfb04e390da1391b33f5c06acf5a8059a36bc4cb,"['crash', 'class', 'expression', 'object', 'property']",General,{'crash': 100}
+80c2a9a38cdf21d87f6bb6fbc096530afb84f78d,"['crash', 'multiple', 'params', 'inline', 'jsdoc', 'comment', 'jsdoc']",General,{'crash': 100}
+e2b454512cb4ef3eefbb5af80f57eb51753a0c5a,"['crash', 'parameter', 'default', 'value']",General,{'crash': 100}
+ea1932e4fc69313fb281a2005d54861dd9ebb89f,"['crash', 'string', 'default', 'value']",General,{'crash': 100}
+2b6d2dee2f8a887b60170f280ab981438241fc8d,"['crash', 'index', 'weird', 'state', 'doclet', 'module', 'jsdoc', 'jsdoc', 'dictionary']",General,{'crash': 100}
+25ffab067637d670e8d1c2d349558c6c64024d61,"['crash', 'package', 'file', 'specifies', 'name', 'version']",General,{'crash': 100}
+d527f3e6b0daa9e8ac1f069180c7da9718d35898,"['crash', 'return', 'value']",General,{'crash': 100}
+7ef13bf40bbe40325c4ab8c6c67a44f8eef0609a,"['crash', 'class', 'claim', 'interface', 'member']",General,{'crash': 100}
+d09c654d366641e99d23436a6d99db7a6919aedb,"['crash', 'doclet', 'empty', 'longname']",General,{'crash': 100}
+5c59bc148876a69a8eea1afd6c48820cd360f4f2,"['crash', 'incorrect', 'output', 'property', 'property']",General,{'crash': 100}
+fa57a07c6b1a710d455ca0d554468c311fe05f2b,"['question', 'stack', 'overflow']",Risky_resource_management,{'stack overflow': 100}
+2c1d466b83486adb1cb885953071b4074dc44cab,"['rhino', 'crash', 'emptystatement', 'node', 'rhino', 'jsdoc', 'rhino']",General,{'crash': 100}
+c96a1215bd30fbb679edd21a4114922576fa7401,"['warning', 'potential', 'crash']",General,{'crash': 100}
+c8167b8d7685b164849265564a399f7f7a6218eb,"['rhino', 'shell', 'version', 'crash', 'keywords']",General,{'crash': 100}
+f0224e9845db04aef687acc557362e8f5823f3db,"['crash', 'file']",General,{'crash': 100}
+11aacdef1b420f5748369862b25f8a5586f4ece0,"['valueof', 'object', 'literal', 'test', 'julienbachmann', 'issue', 'parser', 'crash', 'valueof', 'object', 'literal']",General,{'crash': 100}

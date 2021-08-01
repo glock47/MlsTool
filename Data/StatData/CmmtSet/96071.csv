@@ -1,11 +1,26 @@
-sha,message,catetory,matched,labels
-c3130cf9903d01641d759055f960119bb362a699,"['security', 'update', 'policyentry', 'unsupported', 'backports', 'version', 'precludes', 'minimal', 'supportconsider']",General,{'security': 100},
-be2d475e0fb796fb9d3df428d3bbb8afb90cfba4,"['security', 'backup']",General,{'security': 100},
-b1ae5c2ff273447ddae4431c756999e16237de23,"['security', 'policy']",General,{'security': 100},
-771795d9c74ff1edeb3cd2f3c994ef2bf2843581,"['security', 'update', 'readme']",General,{'security': 100},
-0ea18dd39891ec647429adf817fe77827f587728,"['security', 'update', 'readme']",General,{'security': 100},
-7c36a88f73339bebe8b91b27e47ac958a7965f4f,"['script', 'directoryclose', 'replaces', 'insecure']",General,{'insecure': 100},
-a2cfdbd2c9483f7747074994af538c1d8bd4b52e,"['master', 'goosmurfvalue', 'cookie', 'session', 'crash', 'delimiter']",Risky_resource_management,{'crash': 100},
-881ce764f3fd70a20c5800892a132f1e6c8e7c50,"['value', 'cookie', 'session', 'crash', 'delimiter']",Risky_resource_management,{'crash': 100},
-68dd85f6288ac8014c395c801c254ba69b29efbb,"['conditionalget', 'bugfix', 'crash']",Risky_resource_management,{'crash': 100},
-aa318a1dbca1d152e3d82b3ee3c69ebc08a70399,"['mongrel', 'separatemongrel', 'necessaryprone', 'deadlock', 'currentlymongrel']",Risky_resource_management,{'deadlock': 100},
+sha,message,catetory,matched
+ffab89c3ae50d252151a4b1a62f2f5aaaa712755,"['rack', 'session', 'cookie', 'coder', 'rack', 'session', 'cookie', 'base', 'json', 'issue', 'sessionid', 'round', 'trip', 'json', 'security', 'issue', 'sessionid', 'cookie', 'session', 'reason', 'cookie', 'session', 'need', 'memcache', 'memory', 'database', 'session']",General,{'security': 100}
+a3380a8e64a3f8c1c3ee39da50a633e4e98e21a5,"['request', 'params', 'rescue', 'eoferror', 'indication', 'silent', 'data', 'loss']",Risky_resource_management,{'data loss': 100}
+6c4d23da3a7cfee71a1c3bfcfadb6c9aec0880f3,"['undefined', 'method', 'shutdown', 'nilclass', 'nomethoderror', 'sigint', 'multiple', 'time', 'webrick', 'handler', 'server', 'crash']",General,{'crash': 100}
+16455b4c9a73d2fa65d3eed8a68b37ed06ebfe40,"['pull', 'request', 'jeremyevans', 'policy', 'update', 'security', 'policy']",General,{'security': 100}
+c3130cf9903d01641d759055f960119bb362a699,"['update', 'security', 'policy', 'unsupported', 'version', 'contridiction', 'minimal', 'support', 'course']",General,{'security': 100}
+be2d475e0fb796fb9d3df428d3bbb8afb90cfba4,"['security', 'backup', 'contact']",General,{'security': 100}
+f0f828cc1499cf54495e545daecb992a21fef324,"['validate', 'samesite', 'cookie', 'option', 'spec', 'samesite', 'option', 'configuration', 'option', 'strict', 'introduces', 'validation', 'main', 'motivation', 'awry', 'option', 'value', 'unexpected', 'behaviour', 'sensitive', 'security', 'option', 'main', 'drawback', 'option', 'value', 'rack', 'option', 'jeremy', 'daer', 'jeremydaer', 'gmail']",General,{'security': 100}
+159eb9b6225951bd8f3380c16d784e4f1cf74349,"['party', 'cooky', 'line', 'csrf', 'defense', 'true', 'party', 'attribute', 'cookie', 'legit', 'party', 'request', 'http', 'tool', 'ietf', 'html', 'party', 'cooky', 'http']",Insecure_interaction_between_components,{'csrf': 100}
+35599cfc2751e0ee611c0ff799924b8e7fe0c0b4,"['pull', 'request', 'davidcelis', 'typo', 'typo', 'security', 'policy']",General,{'security': 100}
+616b72ff9672b466bdeb63eba47d44bf4aafc8db,"['typo', 'security', 'policy', 'david', 'celis', 'davidcel']",General,{'security': 100}
+17a46c9b51ffdac6895a83295deaeeda038fb1a0,"['pull', 'request', 'tenderlove', 'security', 'policy']",General,{'security': 100}
+b1ae5c2ff273447ddae4431c756999e16237de23,"['security', 'policy']",General,{'security': 100}
+a956697d0ea8502c426c29b3d247b9b641764eff,"['rack', 'cleanup', 'release', 'diff', 'rack', 'bump', 'version', 'number', 'release', 'note', 'symlink', 'path', 'traversal', 'hmac', 'comparison', 'rack', 'utils', 'ensure', 'binary', 'mode', 'test', 'window', 'host', 'occurs', 'order', 'json', 'cookie', 'coder', 'default', 'license', 'information', 'gemspec', 'reference', 'link', 'document', 'rack', 'deflater', 'request', 'accepts', 'line', 'method', 'session', 'object', 'conflict', 'rack', 'session', 'cookie', 'rack', 'gemspec', 'test']",Risky_resource_management,{'path traversal': 100}
+6f237e4c9fab649d3750482514f0fde76c56ab30,"['symlink', 'path', 'traversal', 'close']",Risky_resource_management,{'path traversal': 100}
+8de3c1d9902f8e64a385f38cf5711f26ffba19db,"['symlink', 'path', 'traversal', 'close']",Risky_resource_management,{'path traversal': 100}
+771795d9c74ff1edeb3cd2f3c994ef2bf2843581,"['update', 'readme', 'security', 'note']",General,{'security': 100}
+0ea18dd39891ec647429adf817fe77827f587728,"['update', 'readme', 'release', 'security', 'section']",General,{'security': 100}
+7c36a88f73339bebe8b91b27e47ac958a7965f4f,"['script', 'name', 'rack', 'directory', 'close', 'replaces', 'test', 'insecure', 'implementation']",General,{'insecure': 100}
+a2cfdbd2c9483f7747074994af538c1d8bd4b52e,"['pull', 'request', 'goosmurf', 'master', 'crash', 'rack', 'session', 'cookie', 'value']",General,{'crash': 100}
+881ce764f3fd70a20c5800892a132f1e6c8e7c50,"['crash', 'session', 'cookie', 'value']",General,{'crash': 100}
+c1d71ce084da9ab1aadcde7cc69f72e31a8f3f52,"['pull', 'request', 'mulder', 'master', 'crash', 'conditionalget']",General,{'crash': 100}
+68dd85f6288ac8014c395c801c254ba69b29efbb,"['bugfix', 'conditionalget', 'crash']",General,{'crash': 100}
+40eba67d30a660f748692bcfe7fcb758a2c8357a,"['stack', 'overflow']",Risky_resource_management,{'stack overflow': 100}
+aa318a1dbca1d152e3d82b3ee3c69ebc08a70399,"['thin', 'test', 'separate', 'port', 'mongrel', 'test', 'necessary', 'mongrel', 'test', 'prone', 'deadlock', 'weirdness', 'mongrel', 'stay', 'port', 'thin', 'test']",Risky_resource_management,{'deadlock': 100}
+70f3586412c8a419b3792793c874594069a16b5b,"['session', 'security', 'session', 'size', 'configurable', 'raise', 'default', 'size', 'refactor', 'easy', 'monkey', 'actual', 'session', 'generation']",General,{'security': 100}

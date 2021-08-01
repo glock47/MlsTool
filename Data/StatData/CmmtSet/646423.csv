@@ -1,13 +1,20 @@
-sha,message,catetory,matched,labels
-dd53a49058fb6f645481b8a33ad73c2df4256f7d,"['default', 'disableseems', 'hostile', 'point', 'security', 'problematicenable', 'casual', 'setting', 'explicitprevious']",General,{'security': 100},
-7b97cb8d70b86a15c4517bff6b9ee03392a4cecd,"['client', 'crash', 'couldpointer']",Risky_resource_management,{'crash': 100},
-b986540afafb3059305c5c25bc49123e78421a3a,"['mergemerge', 'crash', 'petere', 'requestmemory', 'overrun', 'crash']",Risky_resource_management,{'crash': 100},
-d8d5148ffb46a8702bf7ad818ac635a6147856e2,"['memory', 'overrun', 'crash']",Risky_resource_management,{'crash': 100},
-be28f027302064155eab81a05ebfb45c5a9c629e,"['struct', 'initializeotherwise', 'crash']",Risky_resource_management,{'crash': 100},
-1b40254d909ad96f832031fe248b94a1d9aded50,"['consoleotherwise', 'crash']",Risky_resource_management,{'crash': 100},
-85f621b13c509ea12f468710397bc0911780ccce,"['config', 'firstotherwise', 'crash']",Risky_resource_management,{'crash': 100},
-4434296d0259b65c105e75780c9a3af3cb5235da,"['dnslookup', 'crash']",Risky_resource_management,{'crash': 100},
-8779f191d41f7d89fed58e6cd79bbe3ae93d5d49,"['exact', 'server', 'timezone', 'datestyle', 'paramsclient', 'crash']",Risky_resource_management,{'crash': 100},
-b2af37557639c6d9f9cf9ed6502940fcea689b97,"['braindamage', 'wextra', 'wformat', 'security']",General,{'security': 100},
-c1a5b98641b7321cab2b7488da5be440d549d920,"['alignment', 'brokenalignment', 'macroresult', 'crash', 'speedmacro', 'strictdefinedmaybe', 'problem', 'fieldalignment']",Risky_resource_management,{'crash': 100},
-09f347eb673e95476c7c726beb218c51281115e0,"['buffer', 'crash', 'socket']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+9d90655c0f8b08eb3de0cdbd39d3864e1a827ea6,"['rare', 'memory', 'leak', 'error', 'path']",Risky_resource_management,{'memory leak': 100}
+c03275de8dc066e1d4f5b2c110540db79dad674c,"['crash', 'mock', 'authentication', 'mock', 'authentication', 'segmentation', 'fault', 'user', 'different', 'code', 'path', 'double', 'test', 'authenticaton', 'method']",General,{'crash': 100}
+dd53a49058fb6f645481b8a33ad73c2df4256f7d,"['sudo', 'default', 'problematic', 'security', 'point', 'view', 'hostile', 'casual', 'developer', 'explicit', 'setting']",General,{'security': 100}
+c53678edc3255e5c22654a5fed69a8fb2945d496,"['time', 'computation', 'transition', 'state', 'initialize', 'client', 'field', 'lead', 'garbage', 'value', 'problem', 'crash', 'memory', 'zero', 'difficult', 'catch', 'author', 'pinaraf']",General,{'crash': 100}
+7b97cb8d70b86a15c4517bff6b9ee03392a4cecd,"['rare', 'crash', 'show', 'rare', 'case', 'crash', 'client', 'null', 'pointer', 'dereference']",Risky_resource_management,{'null pointer': 100}
+044082be9d6bc6577fe5700db917b3f48d20b87a,"['pull', 'request', 'double', 'free', 'null', 'pointer', 'deref']",Risky_resource_management,{'null pointer': 100}
+8f1df083e38727e9a407e6119f02f80b37425dfa,"['null', 'pointer', 'deref', 'calloc', 'rule', 'buffer', 'deref', 'rule']",Risky_resource_management,{'null pointer': 100}
+b986540afafb3059305c5c25bc49123e78421a3a,"['pull', 'request', 'petere', 'crash', 'crash', 'memory', 'overrun']",Risky_resource_management,{'overrun': 100}
+d8d5148ffb46a8702bf7ad818ac635a6147856e2,"['crash', 'memory', 'overrun']",Risky_resource_management,{'overrun': 100}
+a1102edc853e9cc34a9c43f6aea37bdb9465c11a,"['free', 'memory', 'leak', 'file', 'reload']",Risky_resource_management,{'memory leak': 100}
+f98fc6d4806a01b5508f1a0faeecc867d74288e6,"['memory', 'exit', 'track', 'potential', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+3d0ced0c12aa2c7b389c93f823a5723baf67da6a,"['recursive', 'socket', 'loop', 'handshake', 'libevent', 'poll', 'fast', 'network', 'local', 'justfree', 'socket', 'crash', 'actual', 'handshake', 'function', 'recursive']",General,{'crash': 100}
+edab5be6665b9e8de66c25ba527509b229468573,"['crash', 'password', 'packet', 'startup', 'packet']",General,{'crash': 100}
+29450dfc92db209d5a2dba239cfa3fdc817f901c,"['crash', 'takeover']",General,{'crash': 100}
+5653a2be07fca031db22d8ee2d6238cd5de8f88a,"['crash', 'time', 'login', 'client', 'auth', 'query']",General,{'crash': 100}
+4434296d0259b65c105e75780c9a3af3cb5235da,"['dnslookup', 'crash']",General,{'crash': 100}
+b2af37557639c6d9f9cf9ed6502940fcea689b97,"['braindamage', 'wformat', 'security', 'wall', 'wextra', 'wformat']",General,{'security': 100}
+c1a5b98641b7321cab2b7488da5be440d549d920,"['alignment', 'slab', 'alignment', 'macro', 'buggy', 'alignment', 'crash', 'arch', 'strict', 'alignment', 'macro', 'header', 'problem', 'field', 'alignment']",General,{'crash': 100}
+09f347eb673e95476c7c726beb218c51281115e0,"['admin', 'dont', 'crash', 'socket', 'buffer']",General,{'crash': 100}

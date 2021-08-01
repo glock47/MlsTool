@@ -1,64 +1,21 @@
-sha,message,catetory,matched,labels
-d1a95a40ee1a0b2606b3d98c7838d295f6e258b1,"['delete', 'swapchain', 'imageargument', 'swapchain', 'imagedelete', 'swapchainanother', 'imagekhronos', 'manual', 'sample', 'crash']",Risky_resource_management,{'crash': 100},
-ca1cb2f8866c17ef258050ad34332748cab0ebb2,"['resolution', 'computelarge', 'crash', 'pixelsmall', 'trace']",Risky_resource_management,{'crash': 100},
-29f814a32286e6cb9492f6b61c7062bfe5f6fe24,"['crash', 'location', 'folder']",Risky_resource_management,{'crash': 100},
-3ae35b421dcd37f47011676ad0bad7474fd5346c,"['crash', 'memory']",Risky_resource_management,{'crash': 100},
-2a7362e8b16c5fe8be7873dc04412e541d4dc542,"['multiple', 'layer', 'profiler', 'issue', 'gapidissue', 'minormultiple', 'layer', 'profile', 'gapid', 'crash']",Risky_resource_management,{'crash': 100},
-2fd6183ee5708a79832a2c72e1b2e39bbc790c55,"['deadlock', 'virtual', 'swapchain']",Risky_resource_management,{'deadlock': 100},
-6a8fdaccefda1bc011b49535a07526a390be7759,"['image', 'crash']",Risky_resource_management,{'crash': 100},
-221fbf6b10004b479da8626ff456ee9ba835b80b,"['large', 'splitlarge', 'issue', 'gapid', 'crash']",Risky_resource_management,{'crash': 100},
-f8e98b1c4d728586569d2f92770b390b0bdd5d83,"['texture', 'reference', 'invalid', 'uniform', 'crash']",Risky_resource_management,{'crash': 100},
-ea0a7423cefa01767f5d35cd3725bf5b7e68c9ad,"['frequency', 'trackpresent', 'crash', 'trackfrequency', 'track', 'presence']",Risky_resource_management,{'crash': 100},
-afc21ea8892725bd7126841695b5c5b188717dcf,"['crash', 'subsequentgetmethodid', 'attach', 'template', 'detatch', 'modifiedthread', 'environment', 'current', 'startprevents', 'crash']",Risky_resource_management,{'crash': 100},
-9c36629bcd2a6e2b2bcf16bc816ab9e90fc318c3,"['benchmark', 'crash', 'memorysecond', 'comment']",Risky_resource_management,{'crash': 100},
-f3be40224eb96d11d0529d29a2718dd32acc335b,"['deadlock', 'device', 'androidandroid', 'function', 'thread', 'automaticallydeadlock', 'device', 'response', 'happenedcreatingcontext']",Risky_resource_management,{'deadlock': 100},
-27f176dad1316e500a595555bd25b682b7f65509,"['crashstatement', 'potential', 'crash', 'guard']",Risky_resource_management,{'crash': 100},
-af244acd6def32bf1731a8dd9aee2e90115b741a,"['deadlock', 'gapircallback']",Risky_resource_management,{'deadlock': 100},
-25662b26d808cead3e90d854f28cf54538219edd,"['unknown', 'crash']",Risky_resource_management,{'crash': 100},
-4b8180021685928670e88203448c655d5e509735,"['texture', 'vulkan', 'texture', 'crash', 'incompletecrash', 'resourcedata', 'level']",Risky_resource_management,{'crash': 100},
-700a770e82407294f4d5cc6071270059d785ccbe,"['multiple', 'invocationreverts', 'commitvulkan', 'crash']",Risky_resource_management,{'crash': 100},
-42b1be2dc85f65ec737deb5e4d46895a8cb58ec0,"['codegen', 'external', 'function', 'check', 'resolvedexternal', 'function', 'crash']",Risky_resource_management,{'crash': 100},
-b099dca0d0684e2a0343a0432d0f0a3a2266c3ec,"['compile', 'crash']",Risky_resource_management,{'crash': 100},
-6e2414a43fd1b5ca19ad26efdc7d06b1a46bbd43,"['vulkanapplication', 'vulkan', 'crash']",Risky_resource_management,{'crash': 100},
-49ecaae0811074dcc865b8e29d79933296125b95,"['vulkan', 'crash']",Risky_resource_management,{'crash': 100},
-95b51193fb2fa25374ddd0b04f2e0957d4581387,"['crash', 'newxxxvulkan', 'buffer', 'crash', 'command']",Risky_resource_management,{'crash': 100},
-adb9076865eb5dc909de127c5c737df6ae328ce7,"['wrong', 'vulkan', 'error', 'queue', 'querypoolscorrect', 'crash', 'device', 'whole', 'wrong', 'recreate', 'state', 'queue', 'error', 'logic', 'result', 'query']",Risky_resource_management,{'crash': 100},
-6dc5b81dba361859b7425752acc20fef1ec6c211,"['device', 'replaysource', 'shader', 'stencil', 'buffer', 'readingcomplex', 'crash']",Risky_resource_management,{'crash': 100},
-c323f64c28e24217386634ade0092fb97cff3c3b,"['footprint', 'builder', 'crash']",Risky_resource_management,{'crash': 100},
-41e5a052a23ed32f702b7ed16bb9b5de884a8be0,"['physical', 'device', 'property', 'vulkan', 'crash']",Risky_resource_management,{'crash': 100},
-d88f76e30488565ba84199120e53acea06d8c9a5,"['workaround', 'linuxinstance', 'crash', 'cleaningdriver', 'vulkan', 'circumstanceinstance', 'force', 'loaderdownsidesingle']",Risky_resource_management,{'crash': 100},
-d76b26d4d24bde1dcb19fd2089f92d1bae69dec7,"['crash', 'stateclone', 'setter', 'explicit', 'getter']",Risky_resource_management,{'crash': 100},
-ef60aab83281fbe3ede5892e8d7b64d6e91bdb78,"['vfprintfanother', 'crash']",Risky_resource_management,{'crash': 100},
-a73055607d187a3fa496106fd112abfceb494980,"['crash', 'building']",Risky_resource_management,{'crash': 100},
-c41f7ace61ece780593b905c043dd6fed754231d,"['crash', 'production']",Risky_resource_management,{'crash': 100},
-b574150791f3dfecb4a7913e5072c4cba5c45178,"['crash', 'filter']",Risky_resource_management,{'crash': 100},
-da2001e03cc4a8fc7493debcbc5db7a0981fbbee,"['output', 'gapir', 'symbolchange', 'lambda', 'specificcompile', 'ignoredspecify', 'msvcwingapir', 'single', 'configurationlinktime', 'crash', 'symbol']",Risky_resource_management,{'crash': 100},
-26a666c0ac41b7fc133f2e63c383e66cdd9edbbd,"['minidump', 'failedhandler', 'minidump', 'crashuploader', 'crash']",Risky_resource_management,{'crash': 100},
-304a02dcce70ba3621ceeb3e586e4d81f144ec1d,"['class', 'model', 'crash', 'analyticsanalytics', 'crashleast', 'result', 'ensures']",Risky_resource_management,{'crash': 100},
-96adcc48733948189718d073cdb21e0467d8f325,"['crash', 'externalexternal', 'report', 'minidumps', 'order', 'gapis', 'report', 'generic', 'interfacefilefield', 'specificallyformat', 'upload', 'minidumps', 'order', 'crashparity', 'replay', 'information', 'externaldevice', 'target', 'executergapis', 'hostedreporter', 'function', 'cancelfunction', 'shutdown', 'atexit', 'oftenexternal', 'report']",Risky_resource_management,{'crash': 100},
-3b6bb86052cb7d0c87cb54f8936c6e2db4bbdf7b,"['option', 'expose', 'crash']",Risky_resource_management,{'crash': 100},
-12fd8bde147b6f57642fc59ba8f8580eb74c70a8,"['parallel', 'crash', 'handler']",Risky_resource_management,{'crash': 100},
-93591ceab0732912eb3f042b20f6aeab95c4f234,"['crashcrash', 'gapit', 'panic', 'connection', 'normal', 'gapir', 'gapis', 'messageremote', 'listener', 'connection', 'logger', 'crash']",Risky_resource_management,{'crash': 100},
-8f581f5a92ba419aa690264c5344151871cdec0a,"['actual', 'crash']",Risky_resource_management,{'crash': 100},
-34789bc6ee835f83ff1afce9e1db4cf873f50e99,"['breakpad', 'integrationlibrary', 'breakpad', 'minidumps', 'crash', 'constructingacross', 'nativecrashhandler', 'callback', 'register', 'handler', 'class', 'exceptionoperation', 'minidump', 'extra', 'function', 'crashclass', 'sense', 'crashhandler', 'sinceextend', 'gapiisupport', 'library', 'linux', 'syscall', 'submodule', 'order', 'buildbreakpad', 'static', 'android', 'linux']",Risky_resource_management,{'crash': 100},
-e2d132f46f991c393497167c0ae4e33efe084ef0,"['command', 'building', 'error', 'occurcommand', 'building', 'error', 'fault', 'error', 'fallback', 'dependency', 'crash']",Risky_resource_management,{'crash': 100},
-8f7cbebb0afe47714431307338b7cd833a7537f0,"['connection', 'crash', 'entire', 'grpcutilerror', 'connection', 'server']",Risky_resource_management,{'crash': 100},
-27f87c9e8b1e3bdc24d5a144956f41190da87561,"['minor', 'crash']",Risky_resource_management,{'crash': 100},
-7a13c8d5204c2669fbf7d653f502467be8cc43d9,"['minor', 'crash']",Risky_resource_management,{'crash': 100},
-4665ec8384840e68d1dd1beac81804f8e2b51857,"['updateimagedata', 'slice', 'crash']",Risky_resource_management,{'crash': 100},
-3ea01af3d3fe88ad306b4cf5cbb993669de0adb6,"['return', 'errorcontext', 'crash']",Risky_resource_management,{'crash': 100},
-8add2664b9b1a067e3e08e1ce3b9af873c7abeb8,"['vulkan', 'crash']",Risky_resource_management,{'crash': 100},
-ec1df54837f8b87a0a7278df31364b79241945ed,"['removecallback', 'crash', 'address', 'invalid']",Risky_resource_management,{'crash': 100},
-4644d4eca770bc91d97347383cc1f99763d2709a,"['incomplete', 'crash']",Risky_resource_management,{'crash': 100},
-fb5ac8b1033f47d8c9ec0b22326d0aad2e271a37,"['shader', 'module', 'pipeline', 'crashvulkan', 'shader', 'module', 'pipeline', 'crash']",Risky_resource_management,{'crash': 100},
-97050e1366d5785909cb7fbea76a05c163710040,"['texture', 'crash', 'invalid']",Risky_resource_management,{'crash': 100},
-cae31e26f7be79d83c540e5bc7ecbc092dde2a5b,"['input', 'codergen', 'crash']",Risky_resource_management,{'crash': 100},
-68921af3d67bed9e27919351bc93058c272cc9d3,"['requestduplicate', 'crash']",Risky_resource_management,{'crash': 100},
-d6bc124194952124bd1243fe21e7a6cd17f9ff32,"['duplicate', 'crash']",Risky_resource_management,{'crash': 100},
-2553cc32fe6415b97fad1c3b7e5e52c1510f6307,"['example', 'crash']",Risky_resource_management,{'crash': 100},
-5f7027e2c7eca01efd247466859a678506bc3fc4,"['available', 'crash']",Risky_resource_management,{'crash': 100},
-7c71d291d43d7e8d52c0c7090f081df6f7b10704,"['potential', 'crash']",Risky_resource_management,{'crash': 100},
-99fa8eac56846b390683d6f4469af1187f7a9dc3,"['mergeabitmore', 'patch', 'requestreindex', 'crash']",Risky_resource_management,{'crash': 100},
-dd8d102197c436feec3bfd78707e6a3417fbe8fc,"['clean', 'crash']",Risky_resource_management,{'crash': 100},
-77aaa00adf7eb71544c8f8414196f5e59e635474,"['reindex', 'crash']",Risky_resource_management,{'crash': 100},
-fcc91b567bbb1329e01343b1edd02d786c53ffb8,"['crash', 'transaction']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+ad1eef3d89e95814ae21cd0a293959b409ddb3ad,"['potential', 'integer', 'overflow']",Risky_resource_management,{'integer overflow': 100}
+290bfd2b0db746bf56d22918ee7e36b6d34e55e3,"['possible', 'integer', 'overflow', 'issue']",Risky_resource_management,{'integer overflow': 100}
+68921af3d67bed9e27919351bc93058c272cc9d3,"['pull', 'request', 'steemit', 'dupe', 'seed', 'crash', 'duplicate', 'seed', 'node']",General,{'crash': 100}
+d6bc124194952124bd1243fe21e7a6cd17f9ff32,"['crash', 'duplicate', 'seed', 'node']",General,{'crash': 100}
+0c39785273b7f2eb0b942a35d07e4ed0b704b78c,"['issue', 'steemd', 'shutdown', 'cleanup', 'signal', 'sigpipe', 'useful', 'case', 'steemd', 'steemd', 'regular', 'ctrl', 'lead', 'sigpipe', 'async', 'graphene', 'node', 'implementation', 'node', 'shutdown', 'async', 'action', 'thread', 'node', 'object', 'destruction', 'lead', 'random', 'crash']",General,{'crash': 100}
+4d72d43db00ae77b9d74cca907631cc2a80f1844,"['thread', 'issue', 'node', 'shutdown', 'redundant', 'definition', 'crash', 'block', 'transaction', 'node', 'shutdown', 'part', 'graphene', 'node']",General,{'crash': 100}
+16bca16b0684d1157704dc7cf65bef93b4077588,"['pull', 'request', 'steemit', 'crash']",General,{'crash': 100}
+fa9a87619f4a06504d233a6f8df176e07957fd8d,['crash'],General,{'crash': 100}
+437b2b84471d3ecd841f6730f8301528d6c6bb2a,"['wildcards', 'work', 'access', 'control']",Porous_defenses,{'access control': 100}
+23cfb98015f7564228317322e29d87f4876e5966,"['access', 'control', 'method', 'access', 'control', 'header', 'header']",Porous_defenses,{'access control': 100}
+cd163b623bb8b5f54e4e982231c0e527841b4a73,"['null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+5f7027e2c7eca01efd247466859a678506bc3fc4,"['crash', 'core', 'dump']",General,{'crash': 100}
+e8c1deb202639e4b82e3b93443d983a10a2c35b0,"['pull', 'request', 'steemit', 'callback', 'crash']",General,{'crash': 100}
+09701383afe607739d0274dfcfe1043af8e28377,"['memory', 'leak', 'issue']",Risky_resource_management,{'memory leak': 100}
+7c71d291d43d7e8d52c0c7090f081df6f7b10704,"['potential', 'crash']",General,{'crash': 100}
+99fa8eac56846b390683d6f4469af1187f7a9dc3,"['pull', 'request', 'abitmore', 'patch', 'reindex', 'crash', 'block']",General,{'crash': 100}
+dd8d102197c436feec3bfd78707e6a3417fbe8fc,"['clean', 'crash']",General,{'crash': 100}
+77aaa00adf7eb71544c8f8414196f5e59e635474,"['reindex', 'crash', 'block']",General,{'crash': 100}
+c739caf2db6fd050e22450c56137642eee83c653,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+fcc91b567bbb1329e01343b1edd02d786c53ffb8,"['potential', 'crash']",General,{'crash': 100}

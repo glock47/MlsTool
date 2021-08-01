@@ -1,4 +1,16 @@
-sha,message,catetory,matched,labels
-284332d389bbed1dd3e7ec063a0c5b51aac65e6d,"['access', 'control', 'version']",Porous_defenses,{'access control': 100},
-699333fb027a58cc2cc9278da1da08a43e630d87,"['addressclose', 'connection', 'server', 'problemclose', 'packet', 'server', 'client', 'primusclosereceive', 'packet', 'primus', 'server', 'client', 'wouldmethod', 'crash', 'timeout', 'connection', 'state', 'eventclose', 'connection', 'readystate', 'startinstead', 'opening', 'connection', 'check', 'proceeds', 'connectionclose', 'packet', 'queue', 'solution', 'server', 'incomingclose', 'connection']",Risky_resource_management,{'crash': 100},
-e54101546fd3347d1d3df6544260d79e0a092272,"['reconnect', 'sockjssends', 'error', 'sockjs', 'attempt', 'disconnect', 'server', 'reconnect', 'crash', 'primus', 'eventconnection', 'error', 'sockjs', 'initial', 'reconnection', 'scenario', 'event']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+284332d389bbed1dd3e7ec063a0c5b51aac65e6d,"['deps', 'bump', 'access', 'control', 'version']",Porous_defenses,{'access control': 100}
+28d9e538e8a13b875ac460b7165165dfabd9acad,"['pull', 'request', 'primus', 'data', 'loss', 'show', 'loss', 'data', 'connection', 'middlewares']",Risky_resource_management,{'data loss': 100}
+c25f08c1ab0fe01c3f0246a7e270649f6c6c242c,"['data', 'loss', 'data', 'event', 'untill']",Risky_resource_management,{'data loss': 100}
+f14f0fa973fa15862744016d24ad4f7af62eb018,"['typo', 'link', 'security']",General,{'security': 100}
+4be15314185ece849ee6233e3621f56afe32c8b0,['security'],General,{'security': 100}
+b108c8660959f859df916c975210bd1b0681fff9,"['engine', 'data', 'loss', 'patch', 'server', 'side', 'patch']",Risky_resource_management,{'data loss': 100}
+39a89fa389cf9456e94502215fb639874036c02e,"['major', 'engine', 'data', 'loss']",Risky_resource_management,{'data loss': 100}
+699333fb027a58cc2cc9278da1da08a43e630d87,"['address', 'open', 'test', 'case', 'problem', 'close', 'connection', 'server', 'side', 'primus', 'server', 'close', 'packet', 'client', 'close', 'connection', 'client', 'primus', 'server', 'close', 'packet', 'primus', 'emits', 'method', 'websocket', 'crash', 'settimeout', 'state', 'connection', 'emit', 'event', 'time', 'primus', 'server', 'connection', 'primus', 'emits', 'event', 'test', 'case', 'open', 'start', 'connection', 'readystate', 'opening', 'event', 'listener', 'check', 'readystate', 'handler', 'proceeds', 'solution', 'queue', 'close', 'packet']",General,{'crash': 100}
+054b3c81ff8eaff5609169dc44cbd7e350d70456,"['crash', 'server', 'transformer']",General,{'crash': 100}
+df7306bbee57103638f9e62d18d3edbdb3f826bc,"['revert', 'revert', 'major', 'http', 'access', 'control', 'cors', 'reverts', 'conflict', 'transformer']",Porous_defenses,{'access control': 100}
+a83a5bd62a0bd96fa1396571d26cb2c097caa4ad,"['revert', 'major', 'http', 'access', 'control', 'cors', 'reverts']",Porous_defenses,{'access control': 100}
+aaf108c60fd1fe98b3b1fe9c20b2166cbc565b80,"['major', 'http', 'access', 'control', 'cors']",Porous_defenses,{'access control': 100}
+94b147365d0df8dffddc1e0a55ee9e6124f2abeb,"['engine', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+e54101546fd3347d1d3df6544260d79e0a092272,"['sockjs', 'reconnect', 'sockjs', 'sends', 'error', 'event', 'event', 'event', 'server', 'disconnect', 'server', 'crash', 'primus', 'attempt', 'reconnect', 'error', 'event', 'reconnect', 'attempt', 'error', 'event', 'initial', 'sockjs', 'connection', 'reconnection', 'scenario', 'sockjs']",General,{'crash': 100}
+58f273d97e5ce9a6f797340d990dd01ebcbf0239,"['inheritance', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}

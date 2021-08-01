@@ -1,13 +1,50 @@
-sha,message,catetory,matched,labels
-e1f51d48df173441259346d60dd90b49272e41df,"['multiple', 'static', 'error', 'ubuntu', 'failure', 'versionprevious', 'unsuccessful', 'libcheck', 'attempt', 'methodcmake', 'cmakefiles', 'verbose', 'pkgbuilddirbdynamic', 'lpcre', 'bsymbolic', 'libettercap', 'function', 'lgeoip', 'lsubunit', 'werror', 'linux', 'wdate', 'lncurses', 'lform', 'pkgbuilddir', 'pthread', 'cmakefiles', 'rdynamic', 'security', 'lcheck', 'interface', 'dndebug', 'fstack', 'lluajit', 'protector', 'bstatic', 'lpcap', 'lmenu', 'format', 'lcrypto', 'lresolv', 'strong', 'lpthread', 'wformat', 'lpanelrecompile', 'linux', 'relocation', 'making', 'objectlinux', 'symbol', 'error', 'value']",General,{'security': 100},
-80600066e986c97460c12e028bceec9cedb16aab,"['crash', 'command']",Risky_resource_management,{'crash': 100},
-e5241d84a49dbc9f2e1317a58a91f173680da01d,"['crash', 'externalcrash', 'external']",Risky_resource_management,{'crash': 100},
-2ed411450a40b701817247f4cc77a0e433e2dadf,"['format', 'werror', 'security', 'wformat', 'failure']",General,{'security': 100},
-5fe2e8f8a9aa93c2301d3d7fefde0cd0b800076d,"['issue', 'crash']",Risky_resource_management,{'crash': 100},
-838459392f8eb49864f1545074bc3a9e8c21e420,"['ceecbee', 'mergelocutusofborg', 'problem', 'security']",General,{'security': 100},
-b9c4a78d4fb23907610512e1613c211af9bbbd00,"['problem', 'security']",General,{'security': 100},
-302152524ccd09ac4252d5f33c617cc6e9ed9545,"['mergeologon', 'kholia', 'catch', 'login', 'failure', 'crash']",Risky_resource_management,{'crash': 100},
-b510c1520a64372fffd04449413bb0255598d149,"['catch', 'login', 'failure', 'crash']",Risky_resource_management,{'crash': 100},
-b39c789313a2a41cbb9be47a30b58db9583c93da,"['basic', 'memory', 'crash']",Risky_resource_management,{'crash': 100},
-f8f5db9944bd08072ee48f120aeae3acd6fc2d7f,"['connection', 'window', 'crash']",Risky_resource_management,{'crash': 100},
-adfea4b92b751e4022119ae564bdaa6afa666f90,"['connection', 'crash', 'usage']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+072a77153652d7ead1ac58cd42f78ac2e9019a75,"['null', 'pointer', 'argv', 'array']",Risky_resource_management,{'null pointer': 100}
+e1f51d48df173441259346d60dd90b49272e41df,"['failure', 'multiple', 'version', 'error', 'ubuntu', 'xenial', 'previous', 'attempt', 'unsuccessful', 'pkgbuilddir', 'text', 'test', 'cmake', 'cmakefiles', 'link', 'verbose', 'linux', 'fpie', 'fstack', 'protector', 'strong', 'wformat', 'werror', 'format', 'security', 'wdate', 'time', 'dndebug', 'bsymbolic', 'function', 'fpie', 'relro', 'cmakefiles', 'rdynamic', 'interface', 'libettercap', 'bstatic', 'lcheck', 'bdynamic', 'lpthread', 'lsubunit', 'pthread', 'lsubunit', 'lncurses', 'lform', 'lncurses', 'lform', 'lpanel', 'lmenu', 'lbsd', 'lpcap', 'lssl', 'lcrypto', 'lgeoip', 'lnet', 'lresolv', 'lpcre', 'lluajit', 'lpthread', 'rpath', 'pkgbuilddir', 'text', 'pkgbuilddir', 'text', 'interface', 'linux', 'linux', 'libcheck', 'check', 'relocation', 'rodata', 'object', 'recompile', 'fpic', 'linux', 'linux', 'libcheck', 'value']",General,{'security': 100}
+80600066e986c97460c12e028bceec9cedb16aab,"['crash', 'redirect', 'command']",General,{'crash': 100}
+8a399144ce8ffd3e3033176442e0eb09a975dbb8,['security'],General,{'security': 100}
+e5241d84a49dbc9f2e1317a58a91f173680da01d,"['crash', 'external', 'apis', 'crash', 'external', 'apis']",General,{'crash': 100}
+064a6df8549c5111d1846d8817772ff86882af52,"['asan', 'support', 'http', 'list', 'security']",General,{'security': 100}
+2ed411450a40b701817247f4cc77a0e433e2dadf,"['prototype', 'failure', 'wformat', 'werror', 'format', 'security']",General,{'security': 100}
+037aa9afe2a8e32a53a1b755ee80ed90a58a2c7d,"['pull', 'request', 'nicksampanis', 'radius', 'stack', 'overflow']",Risky_resource_management,{'stack overflow': 100}
+c2a3c99af956146570d7883e4b540b9d0c0a3c46,"['radius', 'stack', 'overflow']",Risky_resource_management,{'stack overflow': 100}
+d79b52112473993e59c012939dad9d7621a56c82,"['crash', 'license', 'file']",General,{'crash': 100}
+a9804c870238e0881cf74466c162380ae407ff52,"['deadlock', 'scan']",Risky_resource_management,{'deadlock': 100}
+234282f8f54f0debfc7085c1a45fca89c18c2af5,"['pull', 'request', 'tomaszn', 'master', 'filter', 'compiler', 'null', 'pointer', 'dereferences']",Risky_resource_management,{'null pointer': 100}
+a3483a746692c605b1fb7748058518ca3662b21d,"['filter', 'compiler', 'null', 'pointer', 'dereference']",Risky_resource_management,{'null pointer': 100}
+c9023b75e816dbea52248cdeef75c7e3f11d9a5c,"['pull', 'request', 'locutusofborg', 'potential', 'memory', 'leak', 'dissector']",Risky_resource_management,{'memory leak': 100}
+e9bad5f135667825070b072b83b21b8ad4b9eb44,"['potential', 'memory', 'leak', 'dissector']",Risky_resource_management,{'memory leak': 100}
+aabd6aeda321039f2ff9ece32385eb99261f97e8,['crash'],General,{'crash': 100}
+5fe2e8f8a9aa93c2301d3d7fefde0cd0b800076d,"['crash', 'issue']",General,{'crash': 100}
+838459392f8eb49864f1545074bc3a9e8c21e420,"['pull', 'request', 'locutusofborg', 'curl', 'curl', 'security', 'problem']",General,{'security': 100}
+b9c4a78d4fb23907610512e1613c211af9bbbd00,"['curl', 'security', 'problem', 'http', 'curl', 'haxx']",General,{'security': 100}
+0603eb12ba9e90219eb0f74d71ea2c22615fa64b,"['pull', 'request', 'koeppea', 'scan', 'crash', 'scan', 'crash']",General,{'crash': 100}
+fc36ce61fd9cf65b2ec0053510ccb4c90d1a05ef,"['pull', 'request', 'eaescob', 'sslstrip', 'memleaks', 'memory', 'leak', 'insert', 'redirect', 'function']",Risky_resource_management,{'memory leak': 100}
+29a0a4c60af06eb3e32b3664fe97b3e623839940,"['memory', 'leak', 'insert', 'redirect', 'function']",Risky_resource_management,{'memory leak': 100}
+bb75d45febd31c0769f38957dd2e88c7fbf3fa69,"['relocate', 'regcomp', 'failure', 'regcomp', 'fatal', 'likely', 'memory', 'leak', 'time', 'regcomp', 'making', 'global', 'ensure']",Risky_resource_management,{'memory leak': 100}
+f3c5547c5b6c88eb52752233c610ed187257a287,"['failure', 'compile', 'pcre', 'fatal', 'likely', 'memory', 'leak', 'compile', 'regex', 'ensure']",Risky_resource_management,{'memory leak': 100}
+e0210e26b317ef6fca06ae966b58e735ce8e0a97,"['pull', 'request', 'eaescob', 'master', 'crash']",General,{'crash': 100}
+f327b32d2bfd26b4eb298942ae246dc664a230d0,['crash'],General,{'crash': 100}
+612524f8052aba122a95e9e3135dda21182e01fb,"['pull', 'request', 'justfalter', 'crash']",General,{'crash': 100}
+ce078a2bc7352b4662bca12e78cfe71fc63d011d,"['crash', 'ensure', 'proper', 'field', 'target', 'slection', 'redundant', 'chunk', 'port', 'processing', 'code']",General,{'crash': 100}
+21b9daa1cd364a89665e113e125ba99c12c78009,"['pull', 'request', 'jacob', 'baines', 'patch', 'memory', 'leak', 'strip']",Risky_resource_management,{'memory leak': 100}
+448a5d552d8b72c60521b72796bc98f30dd284fa,"['memory', 'leak', 'strip', 'leak', 'occurs', 'strip', 'sequence', 'http', 'conform', 'header']",Risky_resource_management,{'memory leak': 100}
+1e0ca6b3df6eae81c779a17638a68a2b74bc546b,"['pull', 'request', 'jacob', 'baines', 'ocrash', 'ologon', 'heap', 'corruption']",General,{'ocrash': 91}
+8127782725ea661aa476847231f4f67f5de3010f,"['memory', 'corruption', 'ologon']",Risky_resource_management,{'memory corruption': 100}
+28bfb2dee328bbbc39fd69768a8f4af92cd9ed15,"['pull', 'request', 'jacob', 'baines', 'text', 'deadlock']",Risky_resource_management,{'deadlock': 100}
+daf3d78ab049f135a04c80e1453cdebcbf78f352,"['care', 'memory', 'leak', 'reverts']",Risky_resource_management,{'memory leak': 100}
+d8adf041811c327a19ee88697799b8a607d9e5bd,"['care', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+c122484b3ef74d95ee8ba6a78ecedfc5487934c7,"['issue', 'crash', 'threadize', 'curse', 'interface']",General,{'crash': 100}
+302152524ccd09ac4252d5f33c617cc6e9ed9545,"['pull', 'request', 'kholia', 'ologon', 'crash', 'nmap', 'packet', 'catch', 'login', 'failure']",General,{'crash': 100}
+b510c1520a64372fffd04449413bb0255598d149,"['crash', 'nmap', 'packet', 'catch', 'login', 'failure']",General,{'crash': 100}
+825164fdb638fb99fa7a6f29c1d72230ae1e4d90,"['null', 'pointer', 'dereference', 'iface', 'dissectors', 'double', 'source', 'destination', 'port', 'number']",Risky_resource_management,{'null pointer': 100}
+bf8d6353a96d82da94cac117ecef498f143c393f,"['rework', 'pcre', 'substitution', 'code', 'patch', 'reimplements', 'pcre', 'code', 'ettercap', 'filter', 'module', 'possibility', 'buffer', 'overflow', 'data', 'work']",Risky_resource_management,{'buffer overflow': 100}
+b39c789313a2a41cbb9be47a30b58db9583c93da,"['basic', 'auth', 'crash', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+f8f5db9944bd08072ee48f120aeae3acd6fc2d7f,"['connection', 'data', 'window', 'attach', 'crash']",General,{'crash': 100}
+adfea4b92b751e4022119ae564bdaa6afa666f90,"['connection', 'view', 'crash', 'list', 'usage']",General,{'crash': 100}
+9a22721cb768ae90cf886eb07ac8f84fe1b16a7b,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+f392d6370e9879031fb5bd74fcdd3e46c2a27bf6,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+8afac86a918181c5dc7bf22ce3620e3eb927e647,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+d027fc98416da6e170f7f5d8b12c9424f64d494c,"['potential', 'security', 'hole']",General,{'security': 100}
+090cfeac4927aea255588d584d2531e5f7394bcb,"['various', 'memory', 'leak', 'invalid', 'access']",Risky_resource_management,{'memory leak': 100}
+725e623ba08537948f0c02eac28ebb41a006be2f,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}

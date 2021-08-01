@@ -1,26 +1,57 @@
-sha,message,catetory,matched,labels
-94b92202c3f448561318f03f9b070eea5f14ef2a,"['requirement', 'security', 'property', 'clarify']",General,{'security': 100},
-125bb5f15fbe27923a1ad85214125bad1a0dd092,"['request', 'statement', 'signaturestatement', 'backdoor', 'signatureticket']",Insecure_interaction_between_components,{'backdoor': 100},
-f6ee9affd7f09bbcce65499dac7334522f66c7e3,"['request', 'statement', 'signaturestatement', 'backdoor']",Insecure_interaction_between_components,{'backdoor': 100},
-44afc1de038bd56fd117f65e45b067599922a62e,"['security', 'requirement']",General,{'security': 100},
-4592bf3de2c6c69a229ac9017cfd172ccad4237c,"['security', 'edits', 'transition', 'material']",General,{'security': 100},
-5f88cd068740f5e639722058ca12d7cd26813dc1,"['security', 'section', 'rework']",General,{'security': 100},
-6f20dbc9a3c3ed03f96cf6dda3f9d1a37155f521,"['travis', 'setuptools', 'installsetuptools', 'worker', 'travisimportant', 'understandcodechecks', 'crash', 'tryung', 'invocation', 'python', 'systemlearn', 'dependencysystem', 'python', 'virtualenv', 'momentdependencyissue', 'considerrecent', 'travis', 'workaround', 'configure', 'setuptools', 'installalongtahoe']",Risky_resource_management,{'crash': 100},
-5483c86d2b785fcfd0e63202513b9024a1e4c177,"['mergeempty', 'pidfile', 'request', 'lpirlinvalid', 'crash']",Risky_resource_management,{'crash': 100},
-dd9b951c4bc4236cffb7b97dd9bb9ceb89eae43e,"['invalid', 'crash', 'pidfile', 'restartingdirectory']",Risky_resource_management,{'crash': 100},
-f3fafa227070cd8dd409f8f1f30e19c929e5fcd5,"['consideration', 'network', 'configuration', 'penetration', 'neededconfiguration', 'anonymity']",General,{'penetration': 100},
-21013284c9d414cc6d89f3ad33c151acee28277f,"['security', 'performance', 'issue', 'section']",General,{'security': 100},
-9c1e22209fc59a56f6e85c461d394c071f872f68,"['wrongwithout', 'crash']",Risky_resource_management,{'crash': 100},
-ee9e8014773818e9b9ae6ebb606c757c060212d8,"['security', 'redundantdaira', 'hopwood', 'sarah', 'david']",General,{'security': 100},
-2ee1bc7148d45719e5ea86abf1f368d17ae76c2a,"['ubuntu', 'crash', 'monolog', 'catch', 'order']",Risky_resource_management,{'crash': 100},
-401d0e7f69ddeaefc6e28da1255d5808219094e4,"['security', 'progress']",General,{'security': 100},
-c18953c169fe9e7cfca75c33474aab0c92968db8,"['crash', 'overrun', 'inefficiency', 'uploadable', 'input', 'uploaderoverreads', 'tolerate', 'downloaderuploader', 'inefficientoverread', 'uploader', 'single', 'stillinput', 'leavenormal', 'behave', 'return', 'askedbehaves']",Risky_resource_management,{'crash': 100},
-7c37292a09df6729a4076a53fcd7ffac4bfc3717,"['insert', 'statement', 'refusal', 'backdoor']",Insecure_interaction_between_components,{'backdoor': 100},
-00e9e4e6760021a16b17e91934e481fee108c6a2,"['share', 'diversity', 'selection', 'segmentfetcher', 'seekingdeliver', 'share', 'feedingdistribution', 'information', 'segment', 'numberfirst', 'commonshares', 'segmentwould', 'crash', 'download', 'initial', 'causingperhaps', 'serverupdate']",Risky_resource_management,{'crash': 100},
-70beaeea4307a0c1171865cb8d240fdaa7b3d552,"['provider', 'security', 'background', 'making', 'indefensible', 'specific', 'world', 'noise', 'overblown', 'wilcox', 'nathan', 'advice', 'claim', 'independent', 'terminology']",General,{'security': 100},
-c1d5717cf0ecd68f4ed170c3043d5cc79917e36b,"['security', 'child', 'dirnodewould', 'writecap', 'dirnodecorrect', 'implementation']",General,{'security': 100},
-0b29aae7cf29ea6c97fde45c9174c1a3ada1ce2f,"['storage', 'share', 'string', 'overrun', 'tolerates', 'version', 'length', 'offset']",Risky_resource_management,{'overrun': 100},
-bfa7794535697e4a1ffb130d844aea849d3838c6,"['security', 'section', 'tahoe', 'warning']",General,{'security': 100},
-edec917060181ce934d5acfa5eb15648f15775e0,"['unicode', 'crash', 'filename']",Risky_resource_management,{'crash': 100},
-1cb96228cc2d454b110d81392a28d97f5088cebf,"['security', 'referrer', 'hyperlink', 'leakage', 'content', 'issue']",General,{'security': 100},
-0455c13082920e18af8143655121813eb0b6e308,"['security', 'update', 'reflect']",General,{'security': 100},
+sha,message,catetory,matched
+94b92202c3f448561318f03f9b070eea5f14ef2a,"['clarify', 'requirement', 'security', 'property']",General,{'security': 100}
+125bb5f15fbe27923a1ad85214125bad1a0dd092,"['pull', 'request', 'tahoe', 'lafs', 'backdoor', 'statement', 'signature', 'backdoor', 'statement', 'signature', 'ticket']",Insecure_interaction_between_components,{'backdoor': 100}
+17dbbe06426d914ef8763fc1f2d483f24a755116,"['origin', 'master', 'backdoor', 'statement', 'signature']",Insecure_interaction_between_components,{'backdoor': 100}
+f6ee9affd7f09bbcce65499dac7334522f66c7e3,"['pull', 'request', 'sajith', 'backdoor', 'statement', 'signature', 'backdoor', 'statement']",Insecure_interaction_between_components,{'backdoor': 100}
+80e3f709e72ed0f99e1a2f9cecdb023e099d9c9f,"['backdoor', 'statement']",Insecure_interaction_between_components,{'backdoor': 100}
+52465b4aa9f30070ae0bd5b0146d1b4b6195f3c2,"['pull', 'request', 'meejah', 'backdoor', 'statement', 'signature', 'meejah', 'meejah']",Insecure_interaction_between_components,{'backdoor': 100}
+65103445ea1bd552aa834f0551f7f66ec16fa8e8,"['secrecy', 'kind', 'security']",General,{'security': 100}
+44afc1de038bd56fd117f65e45b067599922a62e,"['security', 'requirement']",General,{'security': 100}
+4592bf3de2c6c69a229ac9017cfd172ccad4237c,"['edits', 'security', 'material', 'transition', 'plan']",General,{'security': 100}
+16076f9bd71cfe92161e84504ec0dd390b25b391,"['explicit', 'security', 'goal']",General,{'security': 100}
+fa4384e36e006e0c64d9438594108e013ae2f6b6,"['security', 'summary']",General,{'security': 100}
+5f88cd068740f5e639722058ca12d7cd26813dc1,"['rework', 'security', 'section']",General,{'security': 100}
+c612fb7075a8662590ec26e275ce8f94884458d4,"['initial', 'security', 'section']",General,{'security': 100}
+6f20dbc9a3c3ed03f96cf6dda3f9d1a37155f521,"['travis', 'install', 'travis', 'worker', 'setuptools', 'system', 'important', 'setup', 'crash', 'tryung', 'invocation', 'codechecks', 'system', 'python', 'setup', 'system', 'version', 'setuptools', 'virtualenv', 'package', 'dependency', 'http', 'github', 'issue', 'workaround', 'configure', 'travis', 'install', 'recent', 'setuptools', 'tahoe', 'lafs', 'tahoe', 'lafs']",General,{'crash': 100}
+5483c86d2b785fcfd0e63202513b9024a1e4c177,"['pull', 'request', 'lpirl', 'empty', 'pidfile', 'crash', 'invalid', 'pidfile']",General,{'crash': 100}
+dd9b951c4bc4236cffb7b97dd9bb9ceb89eae43e,"['crash', 'invalid', 'pidfile', 'node', 'directory']",General,{'crash': 100}
+f3fafa227070cd8dd409f8f1f30e19c929e5fcd5,"['server', 'side', 'network', 'consideration', 'server', 'server', 'port', 'penetration', 'link', 'configuration', 'anonymity', 'configuration']",General,{'penetration': 100}
+21013284c9d414cc6d89f3ad33c151acee28277f,"['section', 'performance', 'security', 'issue']",General,{'security': 100}
+2eea4e9a078c21e76f9e96e0d64161b37cb2f2e4,"['control', 'port', 'upload', 'download', 'file', 'interface', 'furls', 'unguessable', 'attacker', 'overwrite', 'file', 'sensitive', 'data', 'memory', 'test', 'interface', 'support', 'memory', 'test', 'ticket']",Porous_defenses,{'sensitive data': 100}
+ee9e8014773818e9b9ae6ebb606c757c060212d8,"['news', 'redundant', 'description', 'security', 'daira', 'hopwood', 'david', 'sarah', 'jacaranda']",General,{'security': 100}
+55594cccb7f8ab5a7d3c591f7222f7af0a5909d1,"['news', 'security', 'improvement', 'minor', 'update', 'daira', 'hopwood', 'david', 'sarah', 'jacaranda']",General,{'security': 100}
+52a583ce6d3aba54c85c8f64d4b1565526e9f938,"['ubuntu', 'crash', 'reporter', 'exception', 'code', 'david', 'sarah', 'hopwood', 'david', 'sarah', 'jacaranda']",General,{'crash': 100}
+2ee1bc7148d45719e5ea86abf1f368d17ae76c2a,"['catch', 'exception', 'order', 'ubuntu', 'crash', 'monolog']",General,{'crash': 100}
+bfee999e20aa9fdc0b05c7d72cf11077cb319d78,"['memory', 'leak', 'failure', 'fake', 'node', 'class', 'test', 'common', 'share', 'data', 'class', 'level', 'dictionary', 'test', 'trial', 'failure', 'memory', 'dictionary', 'fakeclient', 'fresh', 'test', 'thing', 'class', 'level']",Risky_resource_management,{'memory leak': 100}
+95f2d705187076cee5ef5d8f01949cf9c841743e,"['backdoor', 'title']",Insecure_interaction_between_components,{'backdoor': 100}
+55bfe43866486e05dfab48eafbe63f9d6380a44d,"['backdoor', 'uris', 'tweak', 'title', 'trac', 'column', 'whitespace', 'cleanup']",Insecure_interaction_between_components,{'backdoor': 100}
+401d0e7f69ddeaefc6e28da1255d5808219094e4,"['news', 'security', 'work', 'progress', 'news']",General,{'security': 100}
+2610f8e0aa6e222142d62479f84a04231619b8b4,"['news', 'clarify', 'description', 'backdoor', 'bugfix', 'entry', 'tahoe', 'window', 'console']",Insecure_interaction_between_components,{'backdoor': 100}
+4061258c85da2960f1389dd4b4a8012087b92083,"['responsecache', 'smarter', 'memory', 'leak', 'record', 'timestamps', 'clear', 'cache', 'seqnum']",Risky_resource_management,{'memory leak': 100}
+c18953c169fe9e7cfca75c33474aab0c92968db8,"['crash', 'inefficiency', 'repair', 'overrun', 'repairer', 'input', 'file', 'uploadable', 'downloader', 'tolerate', 'overreads', 'uploader', 'inefficient', 'single', 'overread', 'input', 'file', 'place', 'uploader', 'uploadable', 'behave', 'normal', 'disk', 'file', 'reading', 'return', 'data', 'downloadable', 'behaves']",Risky_resource_management,{'overrun': 100}
+59e80b2ec92928bf3a7ece9dd9a3d67b78f70486,"['test', 'responsecache', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+1e76d8ac395ff3ac3c5fc4c4ff04ac5d06438b5b,"['peter', 'secor', 'shawn', 'willden', 'terrell', 'russell', 'signatory', 'backdoor']",Insecure_interaction_between_components,{'backdoor': 100}
+7c37292a09df6729a4076a53fcd7ffac4bfc3717,"['statement', 'refusal', 'insert', 'backdoor']",Insecure_interaction_between_components,{'backdoor': 100}
+3c44389440097dff3da6d0aecefb771a49ed7b71,"['sftp', 'significant', 'memory', 'leak', 'file']",Risky_resource_management,{'memory leak': 100}
+529add7774a10c9c83ea242666cb61e282730e07,"['python', 'version', 'requirement', 'critical', 'python', 'security']",General,{'security': 100}
+70beaeea4307a0c1171865cb8d240fdaa7b3d552,"['independent', 'security', 'nathan', 'wilcox', 'good', 'advice', 'specific', 'terminology', 'making', 'security', 'claim', 'background', 'noise', 'overblown', 'indefensible', 'claim', 'security', 'world']",General,{'security': 100}
+c1d5717cf0ecd68f4ed170c3043d5cc79917e36b,"['dirnode', 'security', 'child', 'writecap', 'child', 'dirnode', 'writecap', 'previous', 'code', 'dirnode', 'writecap', 'child']",General,{'security': 100}
+0b29aae7cf29ea6c97fde45c9174c1a3ada1ce2f,"['overrun', 'version', 'announcement', 'immutable', 'share', 'offset', 'length', 'file', 'return']",Risky_resource_management,{'overrun': 100}
+25063688b4b31834dcc6f801ab2b67b9cd19050c,"['immutable', 'repairer', 'immutable', 'repairer', 'idownloadtarget', 'interface', 'downloader', 'metadata', 'uploader', 'processing', 'incremental', 'uploads', 'segment', 'finish', 'whole', 'file', 'necessary', 'repair', 'large', 'file', 'temporary', 'file', 'repairer', 'verifycap', 'readcap', 'need', 'decryption', 'integrity', 'check', 'code', 'instance', 'source', 'code', 'open', 'ticket', 'document', 'improvement', 'functionality', 'current', 'version']",Risky_resource_management,{'integrity check': 100}
+bfa7794535697e4a1ffb130d844aea849d3838c6,"['alias', 'security', 'warning', 'section']",General,{'security': 100}
+edec917060181ce934d5acfa5eb15648f15775e0,"['true', 'filename', 'unicode', 'crash']",General,{'crash': 100}
+9bb05a7a086eaff42951af3b35db51033e0306cc,"['account', 'pubkey', 'object', 'reference', 'foolscap', 'roundtrip', 'furl', 'security', 'foolscap', 'table', 'good', 'speed']",General,{'security': 100}
+1cb96228cc2d454b110d81392a28d97f5088cebf,"['security', 'issue', 'leakage', 'file', 'active', 'content', 'referrer']",General,{'security': 100}
+151f69d9b59ee76522c5ae3dad259ded752e8ad4,"['webapi', 'overhaul', 'documentation', 'download', 'upload', 'localdir', 'localfile', 'sort', 'ambient', 'authority', 'unsafe', 'expose', 'csrf', 'point', 'filename', 'filename', 'side', 'effect', 'operation', 'post', 'multiple', 'directory', 'post', 'dircap', 'parent', 'mkdir', 'name', 'child', 'form', 'browser', 'post', 'dircap', 'parent', 'child', 'mkdir', 'machine', 'mkdir', 'form', 'leak', 'child', 'name', 'queryarg', 'mutablefilecap', 'dircap', 'child', 'mutable', 'file', 'content', 'post', 'upload', 'form', 'response', 'body', 'code']",Insecure_interaction_between_components,{'csrf': 100}
+08fd16ef78f3f21f2e50894c887069ae43d3d73e,"['mkdir', 'post', 'handler', 'mkdir', 'path', 'path', 'return', 'directory', 'regardless', 'directory', 'exists', 'intermediate', 'directory', 'need', 'migration', 'code', 'optimise', 'work', 'path', 'traversal', 'wise']",Risky_resource_management,{'path traversal': 100}
+a8a85da32635e2a72dc823881958608895ecbd95,"['wild', 'computer', 'localhost', 'nodeurl', 'security', 'problem', 'user', 'valuable', 'nodeurl']",General,{'security': 100}
+ee67d788cde64c9ecdb07d05a7b57fb23d227045,"['macapp', 'report', 'failure', 'node', 'startup', 'user', 'certain', 'case', 'node', 'furls', 'private', 'node', 'abort', 'abort', 'case', 'crash', 'startup', 'explanation', 'abort', 'failure', 'default', 'abort', 'method', 'overridden', 'subclass', 'subclass', 'client', 'failure', 'user', 'message', 'dialog', 'process', 'exit', 'postevent', 'custom', 'event', 'type', 'signal', 'reactor', 'thread', 'thread']",General,{'crash': 100}
+6cac9c479c9da55b6ca064dd2c73bbf7b9c0dcf6,"['macfuse', 'slew', 'update', 'various', 'update', 'functionality', 'fuse', 'plugin', 'experimental', 'tahoefuse', 'plugin', 'whole', 'structure', 'mount', 'memory', 'launch', 'time', 'fuse', 'plugin', 'tahoe', 'client', 'directory', 'content', 'time', 'directory', 'object', 'check', 'time', 'validity', 'period', 'directory', 'content']",Risky_resource_management,{'mount memory': 91}
+79c439d026379a582037d0449c22f82eba70d554,"['level', 'share', 'directory', 'certain', 'filesystems', 'limitation', 'directory', 'size', 'filesystem', 'popular', 'hard', 'limit', 'entry', 'directory', 'hard', 'limit', 'performance', 'consequence', 'weird', 'edge', 'case', 'entry', 'single', 'directory', 'patch', 'layer', 'intermediate', 'directory', 'share', 'directory', 'actual', 'storage', 'index', 'directory', 'name', 'contains', 'entire', 'storage', 'index', 'base', 'share', 'file', 'share', 'number', 'intermediate', 'directory', 'storage', 'index', 'intermediate', 'directory', 'name', 'prefix', 'storage', 'index', 'directory', 'name', 'intermediate', 'directory', 'char', 'char', 'full', 'overrun', 'funny', 'hard', 'limit', 'tahoe', 'storage', 'share', 'directory', 'tahoe', 'storage', 'share', 'directory']",Risky_resource_management,{'overrun': 100}
+d777283e9e30fa44a6cd991b71171cf16e2748a8,"['preliminary', 'publisher', 'gatherer', 'creates', 'referenceable', 'object', 'able', 'publish', 'event', 'remote', 'subscriber', 'version', 'information', 'furl', 'logport', 'logport', 'furl', 'addition', 'file', 'access', 'logport', 'node', 'storage', 'grid', 'syslog', 'security', 'property', 'furls', 'printable', 'string', 'data', 'framework', 'matures']",General,{'security': 100}
+0455c13082920e18af8143655121813eb0b6e308,"['webapi', 'update', 'webapi', 'reflect', 'security']",General,{'security': 100}
+240de64598fdf5ca3ff5dac7423a19d44c8f152d,"['install', 'custom', 'timestamp', 'format', 'disruptive', 'unit', 'test', 'window', 'observer', 'teardown', 'patch', 'customizes', 'extant', 'observer', 'object', 'formattime', 'method', 'observer', 'object', 'teardown', 'work', 'node', 'object', 'stopservice', 'behavior', 'time', 'safe', 'crash', 'design']",General,{'crash': 100}
+4de5767c98e548b79b967febf05d7ba6cc257d27,"['html', 'file', 'point', 'xsrf', 'attack']",Insecure_interaction_between_components,{'xsrf': 100}
+c049941529f6a657d8b56c6164b6407639804be2,"['consolidate', 'hashutil', 'hash', 'permutation', 'nodeids', 'need', 'care', 'performance', 'long', 'term', 'security', 'hash', 'purpose', 'long', 'hash', 'file']",General,{'security': 100}
+c70b4773d36dfad57a8829ed541d0f3045e7df8f,"['hashtree', 'hashutil', 'convenience', 'method', 'security', 'flaw']",General,{'security': 100}
+99a046ab51b4e7d7cf66000bc5dd551a913a3fe2,"['hashutil', 'convenience', 'method', 'various', 'case', 'merkle', 'tree', 'useful', 'encode', 'input', 'security', 'flaw', 'ambiguous', 'meaning', 'hash', 'value']",General,{'security': 100}

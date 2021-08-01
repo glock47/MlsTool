@@ -1,7 +1,16 @@
-sha,message,catetory,matched,labels
-38754bb25927ef46803db913a498b4bc538a914c,"['number', 'version', 'sincerelease', 'security']",General,{'security': 100},
-26f62d44a8e9e845882692a196df562eb6ba880b,"['directory', 'filehelper', 'accessable', 'issueendless', 'resultedcfilehelper', 'topic', 'forum', 'security']",General,{'security': 100},
-69ff293e6804c761035890209afe1343dd1b45b4,"['integrity', 'check', 'rdbms', 'oracle']",Risky_resource_management,{'integrity check': 100},
-33763f84706f5f6af150b0b5a2bbe9f0f83d7c13,"['integrity', 'check']",Risky_resource_management,{'integrity check': 100},
-c9cf78a8bae023b02a50eb041e273894e074f642,"['violation', 'bizrule', 'issue', 'security']",General,{'security': 100},
-52b603130954f3a656b3ba0c893aae2303336670,"['cross', 'request', 'forgery', 'prevention']",Insecure_interaction_between_components,{'request forgery': 100},
+sha,message,catetory,matched
+32110a71d33b2753eebbb9ba519d17955b50b720,"['text', 'highlighter', 'compatibility', 'reason', 'string', 'point', 'crash', 'stricter', 'whole', 'thing', 'array', 'real', 'workaround', 'mimic', 'phps', 'behavior', 'version']",General,{'crash': 100}
+38754bb25927ef46803db913a498b4bc538a914c,"['version', 'number', 'security', 'release']",General,{'security': 100}
+26f62d44a8e9e845882692a196df562eb6ba880b,"['issue', 'filehelper', 'accessable', 'directory', 'endless', 'loop', 'http', 'forum', 'index', 'topic', 'cfilehelper', 'security', 'flaw']",General,{'security': 100}
+c6a3ae50de0346d04e94978d7c873ded8c7f25b6,"['restful', 'method', 'support', 'html', 'form', 'chtml', 'form', 'chtml', 'beginform', 'cactiveform', 'method', 'verb', 'post', 'delete', 'patch', 'post', 'similar', 'csrf', 'protection', 'work']",Insecure_interaction_between_components,{'csrf': 100}
+69ff293e6804c761035890209afe1343dd1b45b4,"['integrity', 'check', 'oracle', 'rdbms']",Risky_resource_management,{'integrity check': 100}
+33763f84706f5f6af150b0b5a2bbe9f0f83d7c13,"['csqliteschema', 'integrity', 'check', 'sqlite']",Risky_resource_management,{'integrity check': 100}
+7cc307d22f735eb83a5ddc696a5930aa56a1abac,"['master', 'http', 'github', 'yiisoft', 'master', 'http', 'github', 'yiisoft', 'commits', 'chtml', 'cssfile', 'actual', 'model', 'name', 'rollback', 'changelog', 'changelog', 'chtml', 'cssfile', 'phpdoc', 'comment', 'controller', 'template', 'document', 'submit', 'option', 'chtml', 'clientchange', 'document', 'submit', 'csrf', 'option', 'chtml', 'clientchange', 'performance', 'optimization', 'changelog', 'style', 'style', 'changelog', 'array', 'code', 'style', 'document', 'submit', 'option', 'chtml', 'clientchange', 'form', 'success', 'label']",Insecure_interaction_between_components,{'csrf': 100}
+400d8611afcf082d25bcad78b2c135899ca2e998,"['document', 'submit', 'csrf', 'option', 'chtml', 'clientchange']",Insecure_interaction_between_components,{'csrf': 100}
+5cb7b3590c8a1dbadb792cd87acf62d47a0f2457,"['requirement', 'phpunit', 'ctestcase', 'register', 'phpunit', 'autoloader', 'autoloader', 'phpunit', 'autoloads', 'phpunit', 'util', 'filesystem', 'autoloader', 'crash', 'phpunit', 'autoloader', 'phpunit', 'http', 'github', 'phpunit', 'pull', 'ctestcase', 'cwebtestcase', 'ensure', 'phpunit', 'autoloader']",General,{'crash': 100}
+0de2e72f561ebb30a8022fd7ebe818225299e6bd,"['issue', 'access', 'control', 'filter']",Porous_defenses,{'access control': 100}
+04cb38d190966ff297340dd28c9ed6eaa96c5c71,"['link', 'csrf', 'chttprequest']",Insecure_interaction_between_components,{'csrf': 100}
+944e51513afac848288286578aa9e4d06a97f9a6,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+c9cf78a8bae023b02a50eb041e273894e074f642,"['issue', 'rbac', 'bizrule', 'security', 'violation']",General,{'security': 100}
+52b603130954f3a656b3ba0c893aae2303336670,"['cross', 'site', 'request', 'forgery', 'prevention']",Insecure_interaction_between_components,{'cross site': 100}
+0b41f85aeb89d1e71471e78e44b1beabda932418,"['hierarchical', 'role', 'access', 'control']",Porous_defenses,{'access control': 100}

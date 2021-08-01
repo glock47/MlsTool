@@ -1,28 +1,51 @@
-sha,message,catetory,matched,labels
-f5cf3195a8ede30c72e2fb0fee3fe54a8cfb12f9,"['crash', 'command']",Risky_resource_management,{'crash': 100},
-89f905e7e96935e789bf6303086a2ff1f62ebcac,"['deadlock', 'problem', 'update', 'rwlock']",Risky_resource_management,{'deadlock': 100},
-c947e1dc618430e7161afa4a725057037852d279,"['deadlock', 'bugfix']",Risky_resource_management,{'deadlock': 100},
-029d5bb2dd4fa74f2b89e5244a602ba310792175,"['special', 'certain', 'crash', 'situation']",Risky_resource_management,{'crash': 100},
-e18d821b463355c6826b3b764be12664cb89f5ee,"['space', 'bugfix', 'device', 'crash']",Risky_resource_management,{'crash': 100},
-797b524f7bbf88ed999ea3f958e1e41091396607,"['rocksdb', 'bugfix', 'setdbandmp', 'crash', 'warning', 'compaction', 'shoot']",Risky_resource_management,{'crash': 100},
-08a6fde061a12dd57bf598a9e9f842bc1d4c83bb,"['password', 'bugfix', 'slave', 'master', 'different', 'crash']",Risky_resource_management,{'crash': 100},
-ad44056a7999874e5c51dd718cfbca3a6d4a7428,"['inlinebuffer', 'bugfix', 'parse', 'crash']",Risky_resource_management,{'crash': 100},
-bb20238caf2ea544fafa838b58e78543e42eab31,"['disconnect', 'thread', 'whenever', 'master', 'mario', 'crash', 'consumer']",Risky_resource_management,{'crash': 100},
-ed302084510cacf041aad7cdafc13935a034b33c,"['bugfix', 'delay', 'slave', 'master', 'mario', 'append', 'crash', 'consumer', 'command', 'monitor', 'event', 'timeout']",Risky_resource_management,{'crash': 100},
-ade36103176145fa774050c5ff9f73b03b28187d,"['integer', 'overfows']",Risky_resource_management,{'integer overfows': 94},
-5ec07b89a203c896042c8dc1f6f810789c6ab573,"['document', 'publishshort', 'version', 'advisory', 'security']",General,{'security': 100},
-4ba0d6ea4af2fb93826378e6f21744161dda082b,"['security', 'documentation']",General,{'security': 100},
-e34037253c805a8da865016af88e202076b04908,"['guideline', 'security']",General,{'security': 100},
-61114a2e69875eb31e9299913aa26f1627332383,"['issue', 'security']",General,{'security': 100},
-3fe869f845660535794ce89a7e6cd2825bb18c37,"['readme', 'issue', 'security']",General,{'security': 100},
-56669aae2a3cbcd6f538f0c5e2e274772a82f2c8,"['update', 'openssl', 'linux', 'security', 'indicateupdate', 'openssl']",General,{'security': 100},
-13e9a6f9e98635d694310e87af7b82d180e486e7,"['infrastructure', 'document', 'security']",General,{'security': 100},
-5910e0f91b002b1a4155a05f9c122828a36a786e,"['bbefc', 'mergerequest', 'security', 'mergeseveral', 'security', 'update']",General,{'security': 100},
-940c92ff68d4b1de5d772520b0b148a40d813176,"['security', 'updateconsider', 'document', 'vulnerabilityidentifier', 'recent', 'release', 'clarify']",General,{'security': 100},
-1f943ab1a6ed391ef9474152e3f5ccb666cce4c9,"['referenceerror', 'openssl', 'crash', 'returnmemory', 'reading']",Risky_resource_management,{'crash': 100},
-65778cfdb25519e8abeadcba8218c3131f4d469e,"['bccdad', 'mergeupdate', 'request', 'security']",General,{'security': 100},
-89656cd08cf0369677b298f30ba754cb62e5009b,"['openssl', 'triggeringwithout', 'different', 'openssl', 'crash']",Risky_resource_management,{'crash': 100},
-0c71ed7ebf9786e9751adcd6b025939776d9d57d,"['bcfcb', 'mergeupdate', 'request', 'security', 'openssl', 'update']",General,{'security': 100},
-0d1b260632b35a60d9337fce8a8d9a2b1901566d,"['eadad', 'cecad', 'mergerequest', 'security']",General,{'security': 100},
-0201c3569b00ca3ef664d2ba67b527c14e0cdfff,"['fabfapublic', 'request', 'memory', 'mergelimitation', 'document', 'security']",General,{'security': 100},
-6d0d2949542eb976e4d8d0cc8873abebaaba68b7,"['mergerequest', 'security', 'mergeprocedure']",General,{'security': 100},
+sha,message,catetory,matched
+9a2e1dfacd54fbae855a5fcc85857548b4ba2617,"['port', 'changelog', 'port', 'changelog', 'link', 'security', 'workaround', 'openssl', 'issue', 'update', 'changelog', 'alex', 'gaynor', 'alex', 'gaynor', 'gmail', 'alex', 'gaynor', 'alex', 'gaynor', 'gmail']",General,{'security': 100}
+ade36103176145fa774050c5ff9f73b03b28187d,"['integer', 'overfows', 'release', 'rust']",Risky_resource_management,{'integer overfows': 94}
+5ec07b89a203c896042c8dc1f6f810789c6ab573,"['document', 'publish', 'short', 'version', 'changelog', 'security', 'advisory']",General,{'security': 100}
+9108bb0a69ea850b9943c2b27623cfe50c15d068,"['version', 'version', 'security', 'unavailable', 'protocol', 'constant', 'nonexistent', 'version', 'superfluous', 'comment']",General,{'security': 100}
+4ba0d6ea4af2fb93826378e6f21744161dda082b,"['link', 'security', 'documentation', 'readme']",General,{'security': 100}
+9a22851fab924fd58482fdad3f8dd23dc3987f91,"['memory', 'leak', 'memory', 'leak', 'return', 'prealloc', 'func']",Risky_resource_management,{'memory leak': 100}
+92241410b5b0591d849443b3023992334a4be0a2,"['memory', 'leak', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+df57af0c07186c7bc617c4e3c3ad4ed4b2f9aeed,"['security', 'page', 'http']",General,{'security': 100}
+9a53a4b9aadb4522d9354d722c3dbdfcb5bbf0bc,"['memory', 'leak', 'memory', 'leak', 'ocsp', 'check', 'leak', 'speed', 'symbolization', 'backtrace', 'default', 'work', 'window', 'line', 'length']",Risky_resource_management,{'memory leak': 100}
+00c0b237732412c0e360217048178f7952031901,"['document', 'additional', 'release', 'step', 'security', 'release', 'document', 'additional', 'release', 'step', 'security', 'release', 'additional', 'step', 'typo', 'word', 'link']",General,{'security': 100}
+b7114e96127863a8b28d79adaeba864b0c51a2b0,"['update', 'security', 'documentation', 'update', 'security', 'documentation', 'burr', 'fall']",General,{'security': 100}
+61114a2e69875eb31e9299913aa26f1627332383,"['security', 'issue']",General,{'security': 100}
+40baa274f979d29310ef54493d05cd2e52043417,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+d6ad9fd2e05b70f5d01a3cbee7f97624abbaddbc,"['memory', 'leak', 'changelog']",Risky_resource_management,{'memory leak': 100}
+1fdf29e6e0575e7976c68a6245fa217f6d611752,"['memory', 'leak', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+3fe869f845660535794ce89a7e6cd2825bb18c37,"['link', 'report', 'security', 'issue', 'readme']",General,{'security': 100}
+56669aae2a3cbcd6f538f0c5e2e274772a82f2c8,"['update', 'security', 'link', 'openssl', 'linux', 'update', 'security', 'link', 'openssl']",General,{'security': 100}
+13e9a6f9e98635d694310e87af7b82d180e486e7,"['document', 'care', 'infrastructure', 'security']",General,{'security': 100}
+51f049ab3c6eaddd2afc5b089d54ac7b8244fa1e,"['memory', 'leak', 'private', 'number']",Risky_resource_management,{'memory leak': 100}
+f21ffff2d2bc916b70e66810b4582a604f03965f,"['memory', 'test', 'memory', 'memory', 'leak', 'openssl', 'source', 'ownership', 'http', 'github', 'openssl', 'openssl', 'blob', 'master', 'crypto', 'place', 'source']",Risky_resource_management,{'memory leak': 100}
+d6d2527692195f074c4a384a11bbb7c6aa187826,"['memory', 'leak', 'test', 'bind', 'pair', 'function', 'conditional', 'incantation', 'workaround', 'hilarity', 'revert', 'workaround', 'hilarity', 'reverts', 'original', 'nonsense', 'window', 'mess', 'dlopen', 'memleak', 'test', 'todo', 'nasty', 'name', 'openssl', 'backend']",Risky_resource_management,{'memory leak': 100}
+d5e05f27f03046c671d23f09f84cddb8237df0f8,"['memory', 'leak', 'memory', 'leak', 'policy', 'info', 'private', 'consistency', 'cleanup']",Risky_resource_management,{'memory leak': 100}
+d862933de5c344fcdf99ab2f43f3bf8da65f3e41,"['python', 'openssl', 'python', 'openssl', 'callback', 'unsafe', 'callback', 'invocation', 'result', 'callback', 'deadlock', 'patch', 'replaces', 'compile', 'time', 'rest', 'openssl', 'issue', 'good', 'measure', 'param', 'sigh', 'syntax', 'delete', 'test', 'ability', 'mess', 'lock', 'style', 'stuff', 'unicode', 'good']",Risky_resource_management,{'deadlock': 100}
+b7a20898438a819f37b335adb4d1cab81ce4e0b3,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+5910e0f91b002b1a4155a05f9c122828a36a786e,"['pull', 'request', 'alex', 'security', 'update', 'security']",General,{'security': 100}
+1d8ead8364f164d505bf49e05441d1430fc80039,"['master', 'security']",General,{'security': 100}
+940c92ff68d4b1de5d772520b0b148a40d813176,"['update', 'security', 'document', 'vulnerability', 'update', 'identifier', 'clarify', 'security', 'support', 'recent', 'release', 'true', 'release']",General,{'security': 100}
+1f943ab1a6ed391ef9474152e3f5ccb666cce4c9,"['reference', 'test', 'return', 'openssl', 'error', 'crash', 'reading']",General,{'crash': 100}
+89f386a76998223f6ade27a7336c610cd1308163,"['pull', 'request', 'reaperhulk', 'memory', 'leak', 'copy', 'object']",Risky_resource_management,{'memory leak': 100}
+80d8d4af618def517f021e77a25d06fe8319c7d0,"['copy', 'object', 'need', 'register', 'copy', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+e4150bcc07fb2c68e3c860c31766b4282bba8740,"['support', 'null', 'point']",Risky_resource_management,{'null point': 91}
+65778cfdb25519e8abeadcba8218c3131f4d469e,"['pull', 'request', 'pyca', 'update', 'security', 'ship']",General,{'security': 100}
+89656cd08cf0369677b298f30ba754cb62e5009b,"['unusual', 'test', 'part', 'openssl', 'need', 'multiple', 'openssl', 'cryptography', 'python', 'python', 'import', 'openssl', 'backend', 'test', 'need', 'parametrization', 'step', 'openssl', 'backend', 'test', 'test', 'test', 'hazmat', 'crash', 'cryptography', 'different', 'openssl', 'python']",General,{'crash': 100}
+87f9207a756a10dd9eebd59d39769463c0f8d8e5,"['pull', 'request', 'reaperhulk', 'memleak', 'memory', 'leak', 'certificate', 'creation']",Risky_resource_management,{'memory leak': 100}
+6d917469c098f21a224a84b5925bb15fb86726cd,"['memory', 'leak', 'certificate', 'creation']",Risky_resource_management,{'memory leak': 100}
+a0a22d66f2e7433411f9dbd5c70a9f8409c4c377,"['pull', 'request', 'reaperhulk', 'memory', 'leak', 'basic', 'constraint']",Risky_resource_management,{'memory leak': 100}
+7f6b118ad2ecdd823609c0f11c7e09e88d3e0f6e,"['memory', 'leak', 'basic', 'constraint']",Risky_resource_management,{'memory leak': 100}
+0fdf009ea0dc96a1d70ab0cded11d5846b03d4e2,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+d1596063a47cafa0ffe9bfe696d95035a13f084b,"['pull', 'request', 'reaperhulk', 'double', 'free', 'cdata']",Risky_resource_management,{'double free': 100}
+791afc0d63f6985227ea18752ccb12fa0987c420,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+0c71ed7ebf9786e9751adcd6b025939776d9d57d,"['pull', 'request', 'ayrx', 'update', 'security', 'update', 'security', 'note', 'link', 'openssl']",General,{'security': 100}
+81fed6676d8e71d86b15410c71e1083962e6f169,"['update', 'security', 'note', 'link', 'openssl']",General,{'security': 100}
+0d1b260632b35a60d9337fce8a8d9a2b1901566d,"['pull', 'request', 'ayrx', 'security', 'security']",General,{'security': 100}
+ffd8d43712306e16b8482fff22144ee69c7ee334,['security'],General,{'security': 100}
+d20733823eede0da0da63a896785ad221435d91d,"['security', 'framework']",General,{'security': 100}
+0201c3569b00ca3ef664d2ba67b527c14e0cdfff,"['pull', 'request', 'public', 'memory', 'wipe', 'document', 'security', 'limitation']",General,{'security': 100}
+444abf551334c77f31d28a4cc8d70b9818786451,"['memory', 'leak', 'pyopenssl']",Risky_resource_management,{'memory leak': 100}
+6d0d2949542eb976e4d8d0cc8873abebaaba68b7,"['pull', 'request', 'alex', 'security', 'security', 'procedure']",General,{'security': 100}
+99b69d94cf95b39164dd9d35ff7a463b7a1b7f20,"['security', 'procedure']",General,{'security': 100}
+66d368b3e75898a0d1067a6713eec63d639081dd,"['clear', 'sensitive', 'data']",Porous_defenses,{'sensitive data': 100}

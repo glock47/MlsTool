@@ -1,2 +1,11 @@
-sha,message,catetory,matched,labels
-065865b32928007ffa30eacf108193c4a43562f9,"['metric', 'veneur', 'unreachable', 'prometheus', 'crash']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+065865b32928007ffa30eacf108193c4a43562f9,"['veneur', 'prometheus', 'crash', 'metric', 'host']",General,{'crash': 100}
+cd158a6239c74eda5553f107430ad6a3fb87812d,"['grpc', 'stream', 'failure', 'mode', 'deadlock', 'error', 'message', 'simulate', 'failure', 'grpc', 'test', 'area']",Risky_resource_management,{'deadlock': 100}
+40a0b02bfb9b262cb8b0a009dc68342117f88ed7,"['silly', 'data', 'race', 'test', 'mock']",Risky_resource_management,{'data race': 100}
+da876d061db48875eda13a49d2d4d7078302a9e2,"['pull', 'request', 'stripe', 'aditya', 'hook', 'race', 'addhook', 'data', 'race', 'test']",Risky_resource_management,{'data race': 100}
+8388ea9f87119f285e7a47bf4feaca963c61b460,"['data', 'race', 'test', 'manifest', 'test']",Risky_resource_management,{'data race': 100}
+8f029219b336c11478a86bb51d82a1047344e6b1,"['data', 'race']",Risky_resource_management,{'data race': 100}
+346a11f9c8b1160f0479cf5debfc54c364231050,"['logrus', 'data', 'race', 'test', 'manifest', 'test', 'code']",Risky_resource_management,{'data race': 100}
+6b6f8a6b2e8a5e89a6e79e0f7588f3dca723665f,"['pull', 'request', 'stripe', 'aditya', 'logrus', 'fork', 'switch', 'fork', 'logrus', 'data', 'race']",Risky_resource_management,{'data race': 100}
+14d570066560b0c080010fa145cdf90db0cf8b6d,"['pull', 'request', 'evanj', 'veneur', 'defer', 'leak', 'useless', 'defer', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+b51fdb403833a17a99a77081fd3045d6a6a21177,"['useless', 'defer', 'memory', 'leak', 'readtcpsocket', 'extra', 'call', 'loop', 'allocates', 'closure', 'time']",Risky_resource_management,{'memory leak': 100}

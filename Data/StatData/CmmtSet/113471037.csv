@@ -1,20 +1,43 @@
-sha,message,catetory,matched,labels
-28461076e524fbebc58791afadcd5c6a9bb2f85d,"['aadeb', 'mergemaster', 'private', 'others', 'security']",General,{'security': 100},
-e9c234b384410f7cfc3157cac7bc439ef99b16bf,"['update', 'dependency', 'security']",General,{'security': 100},
-18dadc89c587b1cab8f490928dbab8decfedaeb9,"['controller', 'ticket', 'security']",General,{'security': 100},
-545505c69ea7245a8b70cd84062787220a5bbe5e,"['comment', 'security']",General,{'security': 100},
-3ab9340a1077719fd7649f93720bb20c234fad49,"['parameter', 'security']",General,{'security': 100},
-3bd849212871f69013992b7b3d65cc86a93d0763,"['parameter', 'security']",General,{'security': 100},
-817ce03fd0c32450dbff3243dd3eb78a5bd07d40,"['insecure', 'uniqid', 'usage', 'refactor']",General,{'insecure': 100},
-952c2d6ee1ed5e852041cc1acb3be11fe29970e9,"['update', 'header', 'security']",General,{'security': 100},
-8bb3e5c1622684deebe722f3b5656743430c705b,"['encryptdoesnt', 'decodes', 'kiddy', 'knowledge', 'javascript', 'benificail', 'unitd', 'direct', 'obfuscates', 'script', 'security', 'value', 'encrypt', 'browser']",General,{'security': 100},
-0dd00cc6a0d9109f3b12bfe1464050a94ea95a72,"['update', 'header', 'security']",General,{'security': 100},
-b078691c792165f06064c270bb3aaf149ea10967,"['update', 'header', 'security']",General,{'security': 100},
-8ea882a8a02b2e393a3be02e6b0a7b87a5f078db,"['securty', 'update', 'header']",General,{'securty': 93},
-00970af0a82b821c586ba0efda6d1e8effafa1dd,"['update', 'header', 'config', 'security']",General,{'security': 100},
-e7af664ad6a68e5e9e9251bd6440d3dbda85be4f,"['rocket', 'config', 'security', 'update', 'header']",General,{'security': 100},
-95346d3658b3e5c0a226451e8b0f943426d2724b,"['crash', 'wysibb', 'browserconvertspecial', 'pattern', 'replacement', 'insert', 'argument', 'function', 'secondreplacement', 'pattern']",Risky_resource_management,{'crash': 100},
-40cb6a18e6b827a13c1413815b87e6bbae21aab6,"['potential', 'security', 'address', 'issue', 'update']",General,{'security': 100},
-a6b834ab66b69221ac8394397af572b393fe1fb5,"['potential', 'security', 'address', 'issue', 'update']",General,{'security': 100},
-122de887bd41599b708402a281bc93820208db42,"['temporary', 'security']",General,{'security': 100},
-002e8792872d850c7c415a431cb85ff1362f96f0,"['message', 'security']",General,{'security': 100},
+sha,message,catetory,matched
+28461076e524fbebc58791afadcd5c6a9bb2f85d,"['pull', 'request', 'wana', 'master', 'security', 'user', 'edit', 'private', 'feed', 'others']",General,{'security': 100}
+e37b675ec8b084b0fc426a47d42d0b149fe9b53f,"['pull', 'request', 'torrent', 'filter', 'setting', 'csrf', 'value', 'jquery', 'ajax']",Insecure_interaction_between_components,{'csrf': 100}
+66844611508646ffccf3f0e117277eb60c6b7751,"['torrent', 'filter', 'setting', 'csrf', 'value', 'jquery', 'ajax']",Insecure_interaction_between_components,{'csrf': 100}
+e9c234b384410f7cfc3157cac7bc439ef99b16bf,"['security', 'update', 'dependency']",General,{'security': 100}
+185e6b8558cb724712472a431250342aea1a5803,"['security', 'anon', 'uploads']",General,{'security': 100}
+18dadc89c587b1cab8f490928dbab8decfedaeb9,"['security', 'ticket', 'controller']",General,{'security': 100}
+545505c69ea7245a8b70cd84062787220a5bbe5e,"['security', 'anon', 'comment']",General,{'security': 100}
+453ab68783b7c149df9fd3757a6accbf1334399d,['security'],General,{'security': 100}
+3ab9340a1077719fd7649f93720bb20c234fad49,"['refactor', 'usage', 'parameter', 'security', 'sake']",General,{'security': 100}
+3bd849212871f69013992b7b3d65cc86a93d0763,"['refactor', 'usage', 'parameter', 'security', 'sake']",General,{'security': 100}
+817ce03fd0c32450dbff3243dd3eb78a5bd07d40,"['refactor', 'insecure', 'uniqid', 'usage']",General,{'insecure': 100}
+952c2d6ee1ed5e852041cc1acb3be11fe29970e9,"['update', 'security', 'header']",General,{'security': 100}
+910f64a35cce4b816ea064f154718cbf1cb6d6d2,"['playlist', 'torrent', 'controller', 'proper', 'validation']",Risky_resource_management,{'proper validation': 94}
+8bb3e5c1622684deebe722f3b5656743430c705b,"['html', 'encrypt', 'html', 'encrypt', 'encrypt', 'html', 'file', 'encodes', 'byte', 'value', 'decodes', 'browser', 'script', 'kiddy', 'basic', 'javascript', 'knowledge', 'obfuscates', 'file', 'direct', 'access', 'additional', 'security', 'benefit', 'open', 'source']",General,{'security': 100}
+7993eb99b04b8172f6e84357a111e6ec4cabd758,"['chatbox', 'lessen', 'load', 'data', 'leak']",Risky_resource_management,{'data leak': 100}
+a3efd98e84d68acf96d3a4b13f85862ddf2f134f,"['security', 'update', 'htmlpurifier', 'close', 'html', 'post', 'comment', 'signature']",General,{'security': 100}
+4d4ae4b7ef8d94c901d7fa1391406972691b6596,"['torrent', 'category', 'sure', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+0dd00cc6a0d9109f3b12bfe1464050a94ea95a72,"['update', 'security', 'header']",General,{'security': 100}
+b078691c792165f06064c270bb3aaf149ea10967,"['update', 'security', 'header']",General,{'security': 100}
+d7bee7937928199a10b2de138da0ec1ad0f25da8,"['streamline', 'blade', 'directive', 'laravel', 'blade', 'directive', 'auth', 'guest', 'csrf', 'method', 'json', 'review', 'blade', 'documentation', 'detail', 'http', 'laravel', 'blade']",Insecure_interaction_between_components,{'csrf': 100}
+b4e49c51a0f5af2265fc9f7505bab6a790064044,"['security', 'yaml', 'audit', 'http', 'npmjs', 'advisory', 'http', 'github', 'nodeca', 'yaml', 'pull', 'time', 'publish']",General,{'security': 100}
+8ea882a8a02b2e393a3be02e6b0a7b87a5f078db,"['update', 'securty', 'header']",General,{'securty': 93}
+00970af0a82b821c586ba0efda6d1e8effafa1dd,"['update', 'security', 'header', 'config']",General,{'security': 100}
+e7af664ad6a68e5e9e9251bd6440d3dbda85be4f,"['update', 'security', 'header', 'config', 'rocket']",General,{'security': 100}
+a3b6d48560033ed29aed9126e6936b947c21aaef,"['security', 'http', 'nist', 'vuln', 'detail', 'http', 'github', 'twbs', 'bootstrap', 'pull']",General,{'security': 100}
+51719ec5b1880f22ba08edb4d9636ea1ec0c4c9c,"['update', 'backup', 'manger', 'extra', 'security', 'measure', 'backup', 'file', 'applies', 'password', 'encryption', 'note', 'encryption', 'type', 'helper', 'pkware', 'zipcrypto', 'helper', 'helper', 'helper', 'important', 'information', 'pkware', 'zipcrypto', 'crypto', 'unzip', 'file', 'weak', 'winzip', 'method', 'hand', 'separate', 'licence', 'able', 'unzip', 'suggestion', 'macos', 'keka', 'stuffit', 'expander', 'large', 'file', 'zipcrypto', 'inefficient', 'entire', 'data', 'file', 'content', 'available', 'memory', 'password', 'default', 'application', 'file', 'able', 'open', 'backup']",General,{'security': 100}
+d184c6fb3bb8e7ae5e5d4855a820d5d740916f9c,"['security', 'setting', 'view', 'user', 'security', 'setting']",General,{'security': 100}
+8994bf480baeb47f923e5eb2be24dbb5ddd10701,"['update', 'forumcontroller', 'subscription', 'overview', 'category', 'view', 'close', 'topic', 'security', 'label']",General,{'security': 100}
+fa543c538dba45f68e227b980b6b402ca7fdc965,"['update', 'dependency', 'package', 'update', 'laravel', 'update', 'laravel', 'audit', 'security', 'report']",General,{'security': 100}
+640f05ae87d5c649cbe349fdb8817aee0e6ca9f5,"['security', 'chatbox', 'vulnerability', 'vulnerability', 'html', 'directive', 'updater', 'command', 'composer', 'update', 'artisan']",General,{'security': 100}
+aae18217e7c34b837d2de8c7c902d7026c215caf,"['update', 'bepsvpt', 'security', 'header', 'note', 'composer', 'install', 'artisan', 'clear', 'file']",General,{'security': 100}
+da60ac9c8ec91153597eade38378831b9e0922ca,"['security', 'update', 'laravel', 'core', 'note', 'composer', 'install', 'relation', 'http', 'laravel', 'upgrade', 'upgrade']",General,{'security': 100}
+95346d3658b3e5c0a226451e8b0f943426d2724b,"['wysibb', 'crash', 'browser', 'occurs', 'special', 'replacement', 'pattern', 'insert', 'loop', 'line', 'bbdata', 'bbdata', 'method', 'replacement', 'pattern']",General,{'crash': 100}
+40cb6a18e6b827a13c1413815b87e6bbae21aab6,"['security', 'update', 'update', 'address', 'potential', 'security', 'issue']",General,{'security': 100}
+a6b834ab66b69221ac8394397af572b393fe1fb5,"['security', 'update', 'update', 'address', 'potential', 'security', 'issue']",General,{'security': 100}
+122de887bd41599b708402a281bc93820208db42,"['temporary', 'security']",General,{'security': 100}
+272d21301950047d90fce518e30b79ff38f2ec5d,"['csrf', 'crsf']",Insecure_interaction_between_components,{'csrf': 100}
+7db39aaa341636ef6130f19b4c9de11b112d0017,"['security', 'user', 'password', 'reset', 'security']",General,{'security': 100}
+2ca0b04b78ea5b6e61cafd2dfe473b7e3d3e73eb,"['group', 'permission', 'body', 'issue', 'group', 'forum', 'permission', 'group', 'property', 'object', 'access', 'property', 'null', 'object', 'crash', 'load', 'permission', 'group', 'forum', 'group', 'permission', 'null', 'object', 'method', 'staff', 'permission', 'object', 'forum', 'associate', 'group', 'view', 'traditional', 'form', 'input', 'data', 'request', 'object', 'name', 'input', 'name', 'database', 'column', 'code', 'request', 'data', 'update', 'operation', 'model', 'mass', 'assignment', 'model', 'update', 'model', 'guard', 'column', 'eloquent', 'query', 'controller', 'validation', 'rule', 'model', 'creation', 'resource', 'reminder', 'model', 'database', 'controller', 'http', 'ajax', 'request', 'view', 'present', 'data', 'user', 'screen', 'repository', 'concrete', 'class', 'specific', 'logic']",General,{'crash': 100}
+16b780ad709dff5c84037c3407ae922e69a121dc,"['update', 'example', 'store', 'file', 'safer', 'place', 'sensitive', 'data', 'pull', 'project', 'need', 'update', 'file', 'addition', 'redis', 'database', 'configuration', 'question', 'visit', 'discord']",Porous_defenses,{'sensitive data': 100}
+7f4987a92d67b81c4eaeb06672344871f251f555,"['update', 'user', 'security', 'setting', 'ability', 'user']",General,{'security': 100}
+002e8792872d850c7c415a431cb85ff1362f96f0,"['update', 'readme', 'security', 'message']",General,{'security': 100}

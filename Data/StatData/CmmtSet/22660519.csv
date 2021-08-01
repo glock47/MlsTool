@@ -1,8 +1,6 @@
-sha,message,catetory,matched,labels
-3d0ac441dc9a8762a5c3734388c45dc796ca9696,"['cames', 'crash', 'message']",Risky_resource_management,{'crash': 100},
-bbbc1e32dd664c5b0d95074339b997d9b4eb65cf,"['crash', 'synchronization', 'boolean', 'message']",Risky_resource_management,{'crash': 100},
-a12480d87b19c607aebd858658efc7775821bec1,"['autoremove', 'crash']",Risky_resource_management,{'crash': 100},
-344e97ac65a20d616f7433d8f2a3cce595716823,"['pkgcache', 'crash']",Risky_resource_management,{'crash': 100},
-f861da3e489623fbc931dca9615594c21b5546d4,"['container', 'crash']",Risky_resource_management,{'crash': 100},
-39dbbcd241eae8654e43fd0b7fdd7f2d68607ba2,"['temporary', 'random', 'generator', 'crash']",Risky_resource_management,{'crash': 100},
-61e2087a7491654e9955f437543162f3e14d5cb8,"['container', 'dependency', 'crash', 'cyclic']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+a12480d87b19c607aebd858658efc7775821bec1,"['crash', 'autoremove']",General,{'crash': 100}
+344e97ac65a20d616f7433d8f2a3cce595716823,"['crash', 'concurrency']",General,{'crash': 100}
+f861da3e489623fbc931dca9615594c21b5546d4,"['crash', 'full', 'container', 'hash']",General,{'crash': 100}
+39dbbcd241eae8654e43fd0b7fdd7f2d68607ba2,"['temporary', 'solution', 'crash', 'random', 'generator']",General,{'crash': 100}
+61e2087a7491654e9955f437543162f3e14d5cb8,"['crash', 'cyclic', 'dependency', 'container']",General,{'crash': 100}

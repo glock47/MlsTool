@@ -1,4 +1,7 @@
-sha,message,catetory,matched,labels
-507cae79e574096816055eb4bd6da8129da464e3,"['fcfabmerge', 'sniku', 'requestplugin', 'crash']",Risky_resource_management,{'crash': 100},
-ed9144dc98a7cb7e72d4af8005417a176b11a129,"['plugin', 'crash']",Risky_resource_management,{'crash': 100},
-35aea5197c17464f5b4be61797d3c848bd21828c,"['shipping', 'crash', 'backenddefine', 'default', 'forgot']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+5babaa195c89fa47ca32df18d68074c9484c9466,"['prefix', 'session', 'cookie', 'csrf', 'mismatch']",Insecure_interaction_between_components,{'csrf': 100}
+fdbff2c6cebcbaf7b3301f247a86f6c0e8cb4dca,"['prefix', 'session', 'cookie', 'csrf', 'mismatch']",Insecure_interaction_between_components,{'csrf': 100}
+1c39158472d616c4ea3e88d5cfd2f89a90b01fca,"['security', 'check', 'unsuitable', 'page']",General,{'security': 100}
+3841da129a31f9daca61c76c665dbcdf4855e8a8,"['csrf', 'exemption', 'login']",Insecure_interaction_between_components,{'csrf': 100}
+2e450d2c1684164db885f24736dc06de06c59685,"['login', 'view', 'csrf', 'protection']",Insecure_interaction_between_components,{'csrf': 100}
+35aea5197c17464f5b4be61797d3c848bd21828c,"['shipping', 'backend', 'flexible', 'crash', 'user', 'forgot', 'setting', 'default']",General,{'crash': 100}

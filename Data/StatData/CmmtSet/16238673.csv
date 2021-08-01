@@ -1,6 +1,22 @@
-sha,message,catetory,matched,labels
-7a6a5aa3086b2cbaba6dfc1dcd27995a1e0790b4,"['roave', 'dependency', 'composer', 'security', 'advisory']",General,{'security': 100},
-75682398c1a48bdac0a2a92931dab515fdbe50e6,"['security', 'parsedown', 'update']",General,{'security': 100},
-febb9ade5bc6f4f11f98bc029ffe325fa6717f8f,"['swiftmailer', 'security', 'potential', 'update']",General,{'security': 100},
-f9f5d7188b71203558b97968081f72734df35e15,"['issue', 'security', 'public', 'board', 'access']",General,{'security': 100},
-eeb4688dcc7caafeaa020a3cd9d78d18aea30353,"['security', 'header', 'enable', 'transport', 'configuration', 'strict']",General,{'security': 100},
+sha,message,catetory,matched
+71123b0f378425229db6911984a90f5ee9953420,"['csrf', 'check']",Insecure_interaction_between_components,{'csrf': 100}
+a66c357f4e4880dff9cf0555461cec4caa1edf21,['security'],General,{'security': 100}
+fdbbb29cd671e01dc2c5e767391308cb3167fef6,"['sqlite', 'migration', 'foreign', 'data', 'loss', 'schema']",Risky_resource_management,{'data loss': 100}
+7a6a5aa3086b2cbaba6dfc1dcd27995a1e0790b4,"['composer', 'dependency', 'roave', 'security', 'advisory']",General,{'security': 100}
+75682398c1a48bdac0a2a92931dab515fdbe50e6,"['update', 'parsedown', 'security', 'update']",General,{'security': 100}
+061ba4abe179829d7d0acd3422a16110dbc91da5,"['csrf', 'user', 'import']",Insecure_interaction_between_components,{'csrf': 100}
+8cf8f9ef078b31473e9edcb4b9a61a80e3152c0c,"['default', 'plugin', 'installer', 'code', 'review', 'approval', 'process', 'submit', 'plugin', 'submit', 'backdoor', 'plugin', 'kanboard', 'instance', 'owner', 'validate', 'plugin', 'legit']",Insecure_interaction_between_components,{'backdoor': 100}
+19ea9ed6209b36cba5cb8f96224d9e3a0c022c93,"['csrf', 'check', 'deactivate']",Insecure_interaction_between_components,{'csrf': 100}
+9ddefa979a12aff2334d6e7048e142cfdef5bb89,"['csrf', 'check', 'task', 'project', 'file', 'upload']",Insecure_interaction_between_components,{'csrf': 100}
+90984d6bb9b3bd508e0ca7f8c0ee07d304679fb5,"['csrf', 'check', 'avatar', 'upload', 'form']",Insecure_interaction_between_components,{'csrf': 100}
+357316cdf956b83df890b7bc14b772f49159c3df,"['csrf', 'check', 'saveuploaddb', 'method']",Insecure_interaction_between_components,{'csrf': 100}
+6ff16270bb5c4039ae36e1d118a8f7552e4b53c5,"['memory', 'leak', 'unit', 'test']",Risky_resource_management,{'memory leak': 100}
+dc7c7667ec2eb648ca097d00c25a00f7cc9a7d19,"['argument', 'notification', 'template']",Insecure_interaction_between_components,{'argument notification': 90}
+febb9ade5bc6f4f11f98bc029ffe325fa6717f8f,"['update', 'swiftmailer', 'potential', 'security', 'risk']",General,{'security': 100}
+c2f1cc8f7419fe4eb5e9bd5e6ce05d90e719be17,"['task', 'complexity', 'specific', 'range', 'integer', 'overflow']",Risky_resource_management,{'integer overflow': 100}
+5969eb8e3030c822333872f24daa23b9eac1f4f7,"['tighter', 'access', 'control', 'profile', 'section']",Porous_defenses,{'access control': 100}
+15bddd1a906592e2600b0d595346f49450b56c82,"['security', 'folder', 'htaccess', 'apache']",General,{'security': 100}
+f9f5d7188b71203558b97968081f72734df35e15,"['security', 'issue', 'unexpected', 'access', 'task', 'public', 'board']",General,{'security': 100}
+6756ef2301a5f624941b947ec9effd34b467de9a,"['token', 'generation', 'security', 'namespace']",General,{'security': 100}
+eeb4688dcc7caafeaa020a3cd9d78d18aea30353,"['configuration', 'option', 'strict', 'transport', 'security', 'http', 'header']",General,{'security': 100}
+445ef6d1481745cd4e7af7e671f534a25d4495dc,"['csrf', 'protection']",Insecure_interaction_between_components,{'csrf': 100}

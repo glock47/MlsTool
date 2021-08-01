@@ -1,23 +1,40 @@
-sha,message,catetory,matched,labels
-1d0ccf78c284e4df25f39fcafb614375cdd47ab7,"['security', 'update', 'dependency', 'chore']",General,{'security': 100},
-003e7b81acb8c528d5f67faeb7382de23f0bdab2,"['dependency', 'update', 'packet', 'security', 'chore']",General,{'security': 100},
-e4b6b5c281d05d1175aa5114743c93776f6177b6,"['dependency', 'update', 'lodash', 'security', 'chore']",General,{'security': 100},
-7656b5243d7d60fc67e1580be15997cc806761b3,"['dependency', 'update', 'security', 'chore']",General,{'security': 100},
-535f380fecd16cee21b3f8853dacd65da5a56939,"['parser', 'dependency', 'update', 'security', 'chore']",General,{'security': 100},
-8e460b77e5313af00d824ef892115bf98955c064,"['underscore', 'dependency', 'update', 'security', 'chore']",General,{'security': 100},
-dc93e0553febfd714e69405b7e769988adaf98e8,"['dependency', 'xmlhttprequest', 'update', 'security', 'chore']",General,{'security': 100},
-2516e551fa7f4d74551e0d736b688d295bb7f1d9,"['security', 'update', 'dependency', 'chore']",General,{'security': 100},
-6120401181612e9245873cb4735d9fe0098e70a0,"['revert', 'dependency', 'utils', 'update', 'security', 'chorereverts', 'commitbuild', 'baaedb', 'netlify']",General,{'security': 100},
-ecd883f89b3668a2c3b6b86d237873ece520fcbd,"['dependency', 'utils', 'update', 'security']",General,{'security': 100},
-97f96f7052c940e30c69e09019159328fa863eb6,"['dependency', 'update', 'graphql', 'loader', 'security']",General,{'security': 100},
-70c44b5fc088fced268aea5323f6c1ac5552933b,"['dependency', 'update', 'lodash', 'security']",General,{'security': 100},
-7203a8c9d8014fce2a0f3e164728710bd1ed20b2,"['javascript', 'dependency', 'serialize', 'update', 'security']",General,{'security': 100},
-32d62f8e6cdab6b85dade26396348bb0a1a45159,"['security', 'update', 'dependency']",General,{'security': 100},
-9169a12c042bcf32144158b4fbcdcd9e52c5670c,"['crash', 'pageinfo', 'empty']",Risky_resource_management,{'crash': 100},
-f8ece7c960fe6151da3ba9a86b5b759190ed219a,"['plugin', 'rollup', 'terser', 'update', 'latestresolve', 'security', 'vulnerabilityplugin', 'rollup', 'javascript', 'dependency', 'terser', 'serializeadvisory']",General,{'security': 100},
-5f2eb3a6b40248ce5156f8e5322bd69c5c9e0cf8,"['dependency', 'update', 'lodash', 'security', 'chore']",General,{'security': 100},
-4ba1ffc29057f27dcf810e6e457f66e0c10f8fb2,"['function', 'custom', 'clonedeepreplace', 'function', 'custom', 'clonedeepcustom', 'function', 'clonedeeppackage', 'utility', 'reference', 'circular', 'apollochange', 'crash', 'replacecustom', 'implementation', 'fclone', 'clonedeeplightweight', 'clone', 'performant', 'dependencyreference', 'fclone', 'circular', 'stringupdate', 'changelog']",Risky_resource_management,{'crash': 100},
-0f7f3758d2be664304ffa3cea1a077410fae6fed,"['mergemerge', 'request', 'chrishandorf', 'crash', 'query', 'getinitialstate', 'resetstore', 'mutation']",Risky_resource_management,{'crash': 100},
-571d81e004894db38310dbf12b5c463da6c86ddf,"['crash', 'query', 'getinitialstate', 'resetstore', 'mutation', 'method']",Risky_resource_management,{'crash': 100},
-a3128d60d49086b6113948ee7c3504757ba01646,"['request', 'apollostackreducer', 'crash', 'store', 'apollo']",Risky_resource_management,{'crash': 100},
-48f2ebef0ffeeb99b2c5de1bc903e5738c36171f,"['reducer', 'crash', 'store', 'apolloreducer', 'wrapping']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+1d0ccf78c284e4df25f39fcafb614375cdd47ab7,"['chore', 'deps', 'update', 'dependency', 'security']",General,{'security': 100}
+003e7b81acb8c528d5f67faeb7382de23f0bdab2,"['chore', 'deps', 'update', 'dependency', 'packet', 'security']",General,{'security': 100}
+e4b6b5c281d05d1175aa5114743c93776f6177b6,"['chore', 'deps', 'update', 'dependency', 'lodash', 'security']",General,{'security': 100}
+7656b5243d7d60fc67e1580be15997cc806761b3,"['chore', 'deps', 'update', 'dependency', 'info', 'security']",General,{'security': 100}
+535f380fecd16cee21b3f8853dacd65da5a56939,"['chore', 'deps', 'update', 'dependency', 'parser', 'security']",General,{'security': 100}
+8e460b77e5313af00d824ef892115bf98955c064,"['chore', 'deps', 'update', 'dependency', 'underscore', 'security']",General,{'security': 100}
+dc93e0553febfd714e69405b7e769988adaf98e8,"['chore', 'deps', 'update', 'dependency', 'xmlhttprequest', 'security']",General,{'security': 100}
+2516e551fa7f4d74551e0d736b688d295bb7f1d9,"['chore', 'deps', 'update', 'dependency', 'ssri', 'security']",General,{'security': 100}
+0b1b8e7b7b2a213f90148c0c8c3a19568ff03f24,"['renderpromises', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+6120401181612e9245873cb4735d9fe0098e70a0,"['revert', 'chore', 'deps', 'update', 'dependency', 'utils', 'security', 'reverts', 'http', 'netlify', 'team', 'apollo']",General,{'security': 100}
+ecd883f89b3668a2c3b6b86d237873ece520fcbd,"['chore', 'deps', 'update', 'dependency', 'utils', 'security', 'renovate', 'renovateapp']",General,{'security': 100}
+97f96f7052c940e30c69e09019159328fa863eb6,"['chore', 'deps', 'update', 'dependency', 'graphql', 'tool', 'loader', 'security', 'renovate', 'renovateapp']",General,{'security': 100}
+70c44b5fc088fced268aea5323f6c1ac5552933b,"['chore', 'deps', 'update', 'dependency', 'lodash', 'security', 'renovate', 'renovateapp']",General,{'security': 100}
+7203a8c9d8014fce2a0f3e164728710bd1ed20b2,"['chore', 'deps', 'update', 'dependency', 'serialize', 'javascript', 'security', 'renovate', 'renovateapp']",General,{'security': 100}
+32d62f8e6cdab6b85dade26396348bb0a1a45159,"['chore', 'deps', 'update', 'dependency', 'security', 'renovate', 'renovateapp']",General,{'security': 100}
+49e68a3a53d7a35857d22f133891d027c2b8f448,"['cache', 'reactive', 'value', 'cache', 'variable', 'value', 'reference', 'cache', 'cache', 'memory', 'variable', 'whenever', 'active', 'cache', 'watch', 'memory', 'leak', 'cache', 'process', 'server', 'side']",Risky_resource_management,{'memory leak': 100}
+84f5c04b668ea923c15eb93df078d1a9227e9de0,"['unexpected', 'crash']",General,{'crash': 100}
+1a7c9a0e7db139fb3d079b8c8989c59add64f90a,"['pull', 'request', 'kamilkisiela', 'kamil', 'mutation', 'error', 'leak', 'memory', 'leak', 'onbroadcast', 'mutation', 'error']",Risky_resource_management,{'memory leak': 100}
+9705f6670bd8981c820ee5e6b372d054f36a7fac,"['memory', 'leak', 'onbroadcast', 'mutation', 'error']",Risky_resource_management,{'memory leak': 100}
+2e8cce1748703defb09eb94abafe546be641c4fc,"['update', 'optimism', 'potential', 'cache', 'memory', 'leak', 'kamilkisiela', 'comment', 'http', 'github', 'apollographql', 'apollo', 'client', 'issue', 'issuecomment']",Risky_resource_management,{'memory leak': 100}
+5e74c703b5538723e41902f126d26a759d2496d2,"['update', 'data', 'loss', 'warning', 'type', 'policy', 'function', 'warning']",Risky_resource_management,{'data loss': 100}
+9169a12c042bcf32144158b4fbcdcd9e52c5670c,"['crash', 'pageinfo', 'empty', 'edge']",General,{'crash': 100}
+f8ece7c960fe6151da3ba9a86b5b759190ed219a,"['update', 'terser', 'rollup', 'plugin', 'terser', 'security', 'vulnerability', 'serialize', 'javascript', 'dependency', 'rollup', 'plugin', 'terser', 'http', 'github', 'advisory', 'ghsa', 'hxcc']",General,{'security': 100}
+8a86adc1a962c0e63a9950bb18b094c30b8e6833,"['cache', 'behavior', 'surprising', 'const', 'cache', 'inmemorycache', 'typepolicies', 'person', 'field', 'friend', 'identical', 'cache', 'default', 'warning', 'data', 'loss', 'alters', 'default', 'argument', 'field', 'identity', 'behavior', 'argument', 'friend', 'field', 'function', 'mirror', 'cache', 'behaves', 'function', 'benefit', 'making', 'behavior', 'unacceptable', 'pattern', 'unexpected', 'consequence', 'default', 'keyargs', 'false', 'behavior', 'field', 'identity', 'keyargs', 'fancy', 'argument']",Risky_resource_management,{'data loss': 100}
+5f2eb3a6b40248ce5156f8e5322bd69c5c9e0cf8,"['chore', 'deps', 'update', 'dependency', 'lodash', 'security']",General,{'security': 100}
+994cc675084dbceed27a61102f641fa5885b581a,"['weakmap', 'inmemorycache', 'case', 'query', 'docmentnode', 'frozen', 'reason', 'weakmap', 'polyfills', 'unique', 'property', 'query', 'document', 'kind', 'object', 'risk', 'memory', 'leak', 'minimal', 'lifetime', 'cache', 'inmemorycache', 'object']",Risky_resource_management,{'memory leak': 100}
+8cb01d5bcf6be36e98b5470af416c60303c74ee7,"['jest', 'config', 'adjustmenet', 'address', 'recent', 'jsdom', 'issue', 'recent', 'renovate', 'jest', 'update', 'jsdom', 'security', 'error', 'config', 'adjustment', 'jest', 'repo', 'address', 'issue', 'relates', 'http', 'github', 'facebook', 'jest', 'issue', 'issuecomment']",General,{'security': 100}
+0acfe01f7549b5a52144c18a2ec493fa1ba56623,"['cache', 'query', 'document', 'order', 'memory', 'leak', 'inmemorycache', 'method', 'creates', 'documentnode', 'true', 'default', 'weakmap', 'cache', 'documentnode', 'object', 'benefit', 'weakmap', 'original', 'documentnode', 'object', 'garbage', 'memory', 'leak', 'note', 'weakmap', 'option', 'optimization', 'query', 'document', 'cache', 'store', 'cache', 'partial', 'query', 'result', 'hwillson', 'jbaxleyiii', 'brunorzn']",Risky_resource_management,{'memory leak': 100}
+6a851cb3ea73175709cc514684ec49445bf16366,"['pull', 'request', 'brunorzn', 'memory', 'leak', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+f8d143555467586ebc416cafc9ca374e7d3fb3e0,"['master', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+d8f36636eed668cccb44177c5db6de85f81db03e,"['master', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+0e8d527e084dab5da282ed165ad845a4732f1ce6,"['pull', 'request', 'crash', 'import', 'update']",General,{'crash': 100}
+c8c28733999eef7780292c2ec2f4302ab48663d2,"['fetch', 'graphql', 'error', 'fetch', 'graphql', 'error', 'original', 'query', 'solution', 'graphql', 'error', 'query', 'fetch', 'original', 'query', 'application', 'weird', 'state', 'null', 'pointer', 'side', 'effect', 'solution', 'mark', 'fetch', 'query', 'erroneous', 'original', 'query', 'original', 'query', 'fetch', 'query', 'fetch', 'test']",Risky_resource_management,{'null pointer': 100}
+0653533550f49617d5707427fb5fed168b914e45,"['memory', 'leak', 'query', 'manager', 'query', 'unusable', 'item', 'invalidate', 'query', 'order', 'delete']",Risky_resource_management,{'memory leak': 100}
+76435ac720ebbe4a5b49c7ec9810ad2683371f32,"['apollo', 'cache', 'client', 'server', 'side', 'example', 'cache', 'inmemorycache', 'example', 'server', 'crash', 'error', 'order', 'initialize', 'apollo', 'client', 'specify', 'link', 'cache', 'property', 'config', 'object', 'part', 'apollo', 'client', 'apollo', 'client', 'information', 'visit', 'http', 'basic', 'setup', 'html', 'cache', 'server', 'apollo']",General,{'crash': 100}
+0f7f3758d2be664304ffa3cea1a077410fae6fed,"['pull', 'request', 'chrishandorf', 'patch', 'crash', 'resetstore', 'getinitialstate', 'query', 'mutation']",General,{'crash': 100}
+571d81e004894db38310dbf12b5c463da6c86ddf,"['update', 'apolloclient', 'resetstore', 'getinitialstate', 'method', 'crash', 'query', 'mutation']",General,{'crash': 100}
+a3128d60d49086b6113948ee7c3504757ba01646,"['pull', 'request', 'apollostack', 'safe', 'redux', 'safe', 'apollo', 'reducer', 'crash', 'store']",General,{'crash': 100}
+48f2ebef0ffeeb99b2c5de1bc903e5738c36171f,"['safe', 'apollo', 'reducer', 'crash', 'store', 'reducer', 'wrapping', 'catch', 'block', 'error']",General,{'crash': 100}

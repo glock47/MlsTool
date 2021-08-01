@@ -1,37 +1,93 @@
-sha,message,catetory,matched,labels
-07a2a2738f17fa2a30d4b5415f0838673be50ec4,"['guideline', 'vulnerability', 'pointer', 'apache', 'security']",General,{'security': 100},
-aee1a1c5dc6cd926979416b6b65e24764c63208a,"['guideline', 'vulnerability', 'pointer', 'apache', 'security']",General,{'security': 100},
-2a9fc08b97fdbde71623b6e9a39ec7b59c106794,"['guideline', 'vulnerability', 'pointer', 'apache', 'security']",General,{'security': 100},
-f2d40b6301d467231af89169742fbfeeb8a3789a,"['groovy', 'version', 'junit', 'security']",General,{'security': 100},
-9c110618ad1fef0ddbec49c4d0592b872a3e5ebd,"['dynamic', 'variable', 'field', 'groovy', 'referencedelegation', 'information', 'closure']",Porous_defenses,{'information closure': 93},
-5aaf9ccccd5d1942188e50d74790ffd7159900c1,"['temporary', 'address', 'vulnerability', 'insecure', 'version', 'groovy', 'apache']",General,{'insecure': 100},
-cdf6f7d2b7ba88875f702267287225aec7f60152,"['sonarqube', 'support', 'quality', 'security']",General,{'security': 100},
-1250071f13bd6f3666a6469c532c6f0ee3799bd3,"['stack', 'overflow', 'placeholder', 'generic', 'close', 'groovy', 'preventgroovy']",Risky_resource_management,{'stack overflow': 100},
-1d20e307251aedde4f73abe879e2b548f2d16a17,"['issue', 'security']",General,{'security': 100},
-0f0c96d5a783dee0c2ef2b26ecec440cc1e4b9d4,"['access', 'control']",Porous_defenses,{'access control': 100},
-beab89aff9c5faf621603bcbe92f8c9b4139f446,"['deadlock', 'classinfo', 'entry', 'possible', 'cache', 'close', 'groovy']",Risky_resource_management,{'deadlock': 100},
-abec2cf907b4fc0fe390e29c3d1762d0205b87ff,"['security', 'permission']",General,{'security': 100},
-7ced8a2cacbe0c2cf824eceac431d8a2f02de8f4,"['generate', 'closure', 'public', 'class', 'closure', 'runtime', 'groovycachedmethod', 'package', 'closure', 'method', 'security', 'permissionaccess', 'standard', 'language', 'disables']",General,{'security': 100},
-9514ecda5cc2bd2a362e1848c96f41806d5c86df,"['property', 'access', 'manager', 'system', 'close', 'groovy', 'security']",General,{'security': 100},
-86700ae7823185ed23f1a72633543ceaacd1bca5,"['exclude', 'excludes', 'gradle', 'groovybug', 'annotation', 'ignore', 'execution', 'junit', 'security']",General,{'security': 100},
-1a9b5e0abf90f9df985013e1335e6a864900d7e5,"['policy', 'license', 'header', 'groovy', 'apache', 'security']",General,{'security': 100},
-181a06bf9ed7457d8da92b9d6cdf8ed830a13c53,"['groovy', 'class', 'compiler', 'crash', 'parent', 'static']",Risky_resource_management,{'crash': 100},
-1d07ca1032e9afa3a3086a6ceb7dba136246b6fd,"['stack', 'overflow', 'delegation', 'super', 'trait']",Risky_resource_management,{'stack overflow': 100},
-df099208e8973bfcc3b133635c34555b99ee6cb4,"['revert', 'closure', 'responsive', 'console', 'groovyreverts', 'bccefbdadacbdc', 'trigger', 'crash']",Risky_resource_management,{'crash': 100},
-223f33fbf052d24a214794608fcc91396cb11676,"['expression', 'error', 'attribute', 'context', 'crash', 'compile', 'static', 'groovyerror', 'context', 'usage', 'static', 'groovy']",Risky_resource_management,{'crash': 100},
-ec0c2b12846bd0e3af7036fc4be330eda7fdb970,"['appengine', 'groovy', 'configslurpercircumvent', 'rewritten', 'configobject', 'google', 'issue', 'constraint', 'security']",General,{'security': 100},
-376a652a6333be9ecdb16d039265ca4b524bad8d,"['groovy', 'stack', 'overflow', 'compilestatic']",Risky_resource_management,{'stack overflow': 100},
-c146b063b0ca7a82b3d664007f8525262558e8d3,"['error', 'stack', 'overflow', 'superclass', 'groovy', 'object']",Risky_resource_management,{'stack overflow': 100},
-eb1664bda7b7f236b9a64efbaadb32e3b8fcaf8f,"['partial', 'enforces', 'permission', 'groovy', 'security']",General,{'security': 100},
-07f69506f3a482117827f660126b78b1cb76f185,"['patch', 'crash', 'aggressive', 'application', 'groovy', 'closinggroovy', 'trunk']",Risky_resource_management,{'crash': 100},
-d4e0ddde37bde686fbebdfc52c8c733b31c30198,"['error', 'stack', 'overflow', 'abstract', 'compiler', 'super', 'method', 'groovygroovy', 'trunk']",Risky_resource_management,{'stack overflow': 100},
-79323211561011026cb9ac46d4bf31c3c3c6f700,"['property', 'stack', 'overflow', 'superclass', 'groovygroovy', 'trunk']",Risky_resource_management,{'stack overflow': 100},
-72a0e90be6b8128905436440b17f5a7824a56e90,"['temporary', 'crash', 'reflector', 'groovyconsolegroovy', 'trunk']",Risky_resource_management,{'crash': 100},
-06a919c4df4e283e12ffae1c0ae4ccfd74360cdf,"['error', 'stack', 'overflow', 'groovygroovy', 'trunk']",Risky_resource_management,{'stack overflow': 100},
-7ba32a5232b5d8e44bafacd27386c860354115dc,"['crash', 'server', 'handlinggroovy', 'trunk']",Risky_resource_management,{'crash': 100},
-f4c9ee5dd4ea1b1e8c7f70e7bb8eba354bdba919,"['stack', 'overflow', 'childgroovy', 'trunk']",Risky_resource_management,{'stack overflow': 100},
-da97181cb7f0d2b32a79e7a9c52270e7b9c0ca99,"['securty', 'enablesgroovy', 'trunk']",General,{'securty': 93},
-8747c5a5d5368b344ea78a63be20fbd277072b20,"['testcases', 'server', 'environment', 'security', 'specificgroovy', 'trunk']",General,{'security': 100},
-6c68b9893e61064429516b06f04532d5e988a175,"['testcases', 'server', 'environment', 'security', 'specificgroovy', 'trunk']",General,{'security': 100},
-2a33abfe9ed1bb93a105b606d3abb11897f28162,"['enable', 'environment', 'security', 'specificgroovy', 'trunk']",General,{'security': 100},
-f4b3bf88b8825348c7caca6573f0737e2b4a76fb,"['boris', 'parameter', 'request', 'patch', 'crash', 'gruschko', 'groovyservlet', 'groovygroovy', 'trunk']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+cb9dbd55fa0869b59420b345ecab82d5b688e8da,"['immutable', 'version', 'infra', 'policy', 'action', 'full', 'length', 'http', 'github', 'free', 'team', 'github', 'action', 'security', 'github', 'action', 'approval']",General,{'security': 100}
+76954b063eb5a106e1b8d7e7451950965dd4511a,"['groovy', 'groovsh', 'import', 'null', 'pointer', 'syntax', 'error']",Risky_resource_management,{'null pointer': 100}
+07a2a2738f17fa2a30d4b5415f0838673be50ec4,"['pointer', 'apache', 'security', 'vulnerability', 'guideline']",General,{'security': 100}
+aee1a1c5dc6cd926979416b6b65e24764c63208a,"['pointer', 'apache', 'security', 'vulnerability', 'guideline']",General,{'security': 100}
+2a9fc08b97fdbde71623b6e9a39ec7b59c106794,"['pointer', 'apache', 'security', 'vulnerability', 'guideline']",General,{'security': 100}
+f2d40b6301d467231af89169742fbfeeb8a3789a,"['groovy', 'bump', 'junit', 'version', 'security']",General,{'security': 100}
+5aaf9ccccd5d1942188e50d74790ffd7159900c1,"['groovy', 'bump', 'version', 'address', 'apache', 'insecure', 'temporary', 'file', 'vulnerability']",General,{'insecure': 100}
+cdf6f7d2b7ba88875f702267287225aec7f60152,"['code', 'quality', 'security', 'sonarqube']",General,{'security': 100}
+1250071f13bd6f3666a6469c532c6f0ee3799bd3,"['stack', 'overflow', 'generic', 'placeholder', 'close', 'groovy']",Risky_resource_management,{'stack overflow': 100}
+001ffd1392be735642cb58a839bff9a3ee77cb09,"['empty', 'array', 'collection', 'array', 'toarray', 'string', 'size', 'empty', 'array', 'toarray', 'string', 'java', 'version', 'proper', 'size', 'late', 'update', 'openjdk', 'performance', 'empty', 'array', 'version', 'dangerous', 'concurrent', 'collection', 'data', 'race', 'possible', 'size', 'toarray', 'extra', 'null', 'array', 'collection', 'shrunk', 'operation']",Risky_resource_management,{'data race': 100}
+a955189d90c3a16340338db8fe87eaf3dad86130,"['inner', 'class', 'methodindex', 'static', 'static', 'inner', 'class', 'implicit', 'reference', 'instance', 'prevents', 'memory', 'leak', 'memory', 'instance', 'class']",Risky_resource_management,{'memory leak': 100}
+10d5294473758aeb88535c459de2457b2dee0482,"['minor', 'refactor', 'standard', 'security', 'exception']",General,{'security': 100}
+1d20e307251aedde4f73abe879e2b548f2d16a17,"['security', 'issue']",General,{'security': 100}
+2934d3c73be0c88ff00187868653f9cf860b699e,"['string', 'compilephase', 'boolean', 'creates', 'classloader', 'block', 'code', 'creates', 'classloader', 'need', 'permission', 'security', 'manage', 'code', 'security', 'permission', 'classloader', 'creation', 'need']",General,{'security': 100}
+8cb3793498199d9fcff32484e5208f311f94cad4,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+8a85833ff15c90c93bd1693de450c039cda4e068,"['performance', 'stampedlocks', 'reentrant', 'deadlock', 'readlock', 'writelock', 'readlock']",Risky_resource_management,{'deadlock': 100}
+cf8107d5f3d065b74b48e992d803f02f156680b5,"['groovy', 'deadlock']",Risky_resource_management,{'deadlock': 100}
+beab89aff9c5faf621603bcbe92f8c9b4139f446,"['possible', 'deadlock', 'classinfo', 'entry', 'cache']",Risky_resource_management,{'deadlock': 100}
+a8fb776023253ebc2da35538f25eccd7d59997ed,"['groovy', 'memory', 'leak', 'groovy']",Risky_resource_management,{'memory leak': 100}
+6754d4a4341d56277325469176caaf0d78996927,"['groovy', 'usage', 'lead', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+abec2cf907b4fc0fe390e29c3d1762d0205b87ff,"['security', 'test', 'indy']",General,{'security': 100}
+e21d6226b9a4cc411fb0e7d24cf7b6023edc9002,"['security', 'test', 'policy', 'file', 'setting', 'gradle', 'ensure', 'test', 'support', 'class', 'privileged', 'access']",General,{'security': 100}
+440f279f6fe725e89914cd6a099d3ffd20400097,"['cleanup', 'security', 'test', 'code', 'source', 'test', 'policy', 'file', 'test', 'script']",General,{'security': 100}
+cbe02a2df3ee657ab19b713f6b9bd4764b87eca0,"['security', 'manager', 'security', 'manager', 'exception', 'thrown', 'empty', 'codebase', 'value', 'permission', 'name', 'empty', 'codebase', 'value', 'code', 'source']",General,{'security': 100}
+7ced8a2cacbe0c2cf824eceac431d8a2f02de8f4,"['groovy', 'generate', 'closure', 'public', 'class', 'access', 'closure', 'groovy', 'runtime', 'closure', 'private', 'class', 'method', 'cachedmethod', 'work', 'permission', 'security', 'manager', 'permission', 'standard', 'language', 'access', 'check']",General,{'security': 100}
+428dad537d5ce63a5af52cd2bca77e328bf8a2df,"['possible', 'memory', 'leak', 'tomcat', 'threadlocal', 'close', 'threadlocal', 'cache', 'data', 'compilation', 'phase', 'script', 'cache', 'data', 'necessary', 'threadlocal', 'leaf', 'threadlocal', 'thread', 'threadlocalmap', 'entry', 'addition', 'exception', 'thrown', 'threadlocal', 'entry', 'localdata', 'value', 'thread', 'threadlocalmap', 'table', 'ensure', 'threadlocal']",Risky_resource_management,{'memory leak': 100}
+9514ecda5cc2bd2a362e1848c96f41806d5c86df,"['security', 'manager', 'system', 'property', 'access', 'indy']",General,{'security': 100}
+86700ae7823185ed23f1a72633543ceaacd1bca5,"['junit', 'ignore', 'annotation', 'gradle', 'excludes', 'exclude', 'security', 'test', 'groovybug', 'test', 'execution']",General,{'security': 100}
+1a9b5e0abf90f9df985013e1335e6a864900d7e5,"['apache', 'license', 'header', 'groovy', 'security', 'policy', 'file']",General,{'security': 100}
+181a06bf9ed7457d8da92b9d6cdf8ed830a13c53,"['groovy', 'static', 'inner', 'class', 'crash', 'compiler', 'reference', 'parent', 'unit', 'test', 'case']",General,{'crash': 100}
+0d91af1e7d584330eb01a2023d2a32bff2ee7422,"['pull', 'request', 'groovy', 'groovy', 'creates', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+0dddc1799c893011ddfe08ac87260f796cc7bc24,"['groovy', 'creates', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+57927c234b1fa790fe43aa2a0f12fb3ef3c91f28,"['autoclone', 'result', 'null', 'pointer', 'exception']",Risky_resource_management,{'null pointer': 100}
+53d0c9246ddc6acd5ed21d5bc35f6403652bbced,"['stack', 'overflow', 'syntax', 'string']",Risky_resource_management,{'stack overflow': 100}
+e47744aa5258ba8a386dbe97bead4dabcf4003f7,"['modification', 'groovy', 'android', 'java', 'bean', 'openbeans', 'bytecode', 'postprocessor', 'npes', 'android', 'security', 'exception', 'repackage', 'openbeans', 'core', 'android', 'patch', 'catch', 'introspection', 'error', 'grooid', 'classifier']",General,{'security': 100}
+1d07ca1032e9afa3a3086a6ceb7dba136246b6fd,"['stack', 'overflow', 'super', 'trait', 'delegation']",Risky_resource_management,{'stack overflow': 100}
+df099208e8973bfcc3b133635c34555b99ee6cb4,"['revert', 'groovy', 'groovy', 'console', 'responsive', 'closure', 'reverts', 'trigger', 'crash', 'undefined', 'circumstance']",General,{'crash': 100}
+c7c7ed6784a349f1e6180c97c0658a40141763b3,"['number', 'data', 'race']",Risky_resource_management,{'data race': 100}
+ed1e1c00c93b5dab90ad21dbb0b71da4e878164a,"['stack', 'overflow', 'unchecked', 'generic']",Risky_resource_management,{'stack overflow': 100}
+b6bf4cc72b4ef1d90ba0b206b89ba2f429d647c3,"['stack', 'overflow', 'unchecked', 'generic']",Risky_resource_management,{'stack overflow': 100}
+d988babf25bd5932b0f9d49ebbfc8b86cd66309e,"['independent', 'exclusion', 'security', 'test']",General,{'security': 100}
+dcec338c5b2e6ed21ad80e9220f41e4d2ca6c2fa,"['revert', 'exclusion', 'security', 'test']",General,{'security': 100}
+064fc8bd65e0df12d18f53271e34ce18aca1851b,"['exclusion', 'security', 'test']",General,{'security': 100}
+cecc32946a6eaa7698d58d11ca81f80e990109c9,"['independent', 'exclusion', 'security', 'test']",General,{'security': 100}
+c8b87dab18d9817509c17f9fd8203baff4b8764f,"['revert', 'exclusion', 'security', 'test']",General,{'security': 100}
+951794581ef1106f48ab5430b5c53dd84f08476c,"['exclusion', 'security', 'test']",General,{'security': 100}
+223f33fbf052d24a214794608fcc91396cb11676,"['groovy', 'compile', 'time', 'error', 'crash', 'attribute', 'expression', 'static', 'context', 'groovy', 'type', 'error', 'usage', 'static', 'context']",General,{'crash': 100}
+51b898862d142e1ab217c576c79a4ecd8a89fe41,"['groovy', 'thread', 'safety', 'issue', 'antbuilder', 'lead', 'major', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+ac9547d3df76c65d5653728d3fc404687e158ba9,"['groovy', 'thread', 'safety', 'issue', 'antbuilder', 'lead', 'major', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+86f212b92bb584bc962d731941e42e009c29276c,"['stack', 'overflow']",Risky_resource_management,{'stack overflow': 100}
+ec0c2b12846bd0e3af7036fc4be330eda7fdb970,"['groovy', 'configslurper', 'appengine', 'configobject', 'rewritten', 'java', 'circumvent', 'security', 'constraint', 'issue', 'google', 'engine']",General,{'security': 100}
+0646b148e0c5cfd247d371c4187371f127a47091,"['groovy', 'stack', 'overflow', 'super', 'method']",Risky_resource_management,{'stack overflow': 100}
+32af4b8a53b251eb5c5479f1f69f239544d31900,"['groovy', 'stack', 'overflow', 'super', 'method']",Risky_resource_management,{'stack overflow': 100}
+376a652a6333be9ecdb16d039265ca4b524bad8d,"['groovy', 'stack', 'overflow']",Risky_resource_management,{'stack overflow': 100}
+1ca3f45af81e074335a413244e81a8fc285f671e,"['security', 'test', 'suite']",General,{'security': 100}
+c146b063b0ca7a82b3d664007f8525262558e8d3,"['groovy', 'stack', 'overflow', 'error', 'object', 'superclass']",Risky_resource_management,{'stack overflow': 100}
+eb1664bda7b7f236b9a64efbaadb32e3b8fcaf8f,"['groovy', 'groovy', 'enforces', 'security', 'permission', 'need', 'partial']",General,{'security': 100}
+e6c8aca0f6542b92a967012733c0d2d9392d9633,"['groovy', 'groovy', 'task', 'memory', 'leak', 'http', 'groovy', 'trunk', 'groovy', 'groovy', 'core', 'fafa']",Risky_resource_management,{'memory leak': 100}
+f4a44210eedb7e99cf8979f12ec9f783b4d951d2,"['closure', 'variable', 'information', 'closure', 'type', 'value', 'type', 'wrapper', 'type', 'origin', 'type', 'time', 'http', 'groovy', 'trunk', 'groovy', 'groovy', 'core', 'fafa']",Porous_defenses,{'information closure': 93}
+47af0c2c98737f336882256536be26cea1e1f97b,"['closure', 'variable', 'information', 'closure', 'type', 'value', 'type', 'wrapper', 'type', 'origin', 'type', 'time', 'http', 'groovy', 'trunk', 'groovy', 'groovy', 'core', 'fafa']",Porous_defenses,{'information closure': 93}
+c2fa465129760f569d3eb03aed53d263050551e2,"['partial', 'gradle', 'resync', 'upgrade', 'stubgenerator', 'security', 'test', 'http', 'groovy', 'trunk', 'groovy', 'groovy', 'core', 'fafa']",General,{'security': 100}
+c5bae0be1b69cf00cac619294284e5fa39f7d34e,"['application', 'crash', 'connection', 'http', 'groovy', 'trunk', 'groovy', 'groovy', 'core', 'fafa']",General,{'crash': 100}
+c9cc086e8e122575ce2c8fe62864543819f47438,"['deadlock', 'groovy', 'groovy', 'groovy', 'grail', 'http', 'groovy', 'trunk', 'groovy', 'groovy', 'core', 'fafa']",Risky_resource_management,{'deadlock': 100}
+07f69506f3a482117827f660126b78b1cb76f185,"['application', 'crash', 'method', 'http', 'groovy', 'trunk', 'groovy', 'groovy', 'core', 'fafa']",General,{'crash': 100}
+cd93054ddc82f65b27dd7095204f5793ca16f4ae,"['groovy', 'amendment', 'strict', 'security', 'manager', 'http', 'groovy', 'trunk', 'groovy', 'groovy', 'core', 'fafa']",General,{'security': 100}
+bb2fe69d70375deaf3cfdf4fb9a74f6ce6687655,"['partial', 'groovy', 'ensures', 'line', 'information', 'closure', 'constructor', 'effective', 'docall', 'method', 'result', 'line', 'coverage', 'report', 'show', 'closure', 'complete', 'line', 'coverage', 'http', 'groovy', 'trunk', 'groovy', 'groovy', 'core', 'fafa']",Porous_defenses,{'information closure': 93}
+9d3631fde1c3bffb746e246bc1a01c9e47edfbc9,"['sync', 'lock', 'swingbuidler', 'comment', 'multi', 'test', 'test', 'swingbuilder', 'check', 'deadlock', 'equivilant', 'test', 'http', 'groovy', 'trunk', 'groovy', 'groovy', 'core', 'fafa']",Risky_resource_management,{'deadlock': 100}
+bbe26aa39019864e1f493b12bc06f28e019f1a39,"['possible', 'memory', 'leak', 'application', 'http', 'groovy', 'trunk', 'groovy', 'groovy', 'core', 'fafa']",Risky_resource_management,{'memory leak': 100}
+d4e0ddde37bde686fbebdfc52c8c733b31c30198,"['super', 'method', 'stack', 'overflow', 'compiler', 'error', 'http', 'groovy', 'trunk', 'groovy', 'groovy', 'core', 'fafa']",Risky_resource_management,{'stack overflow': 100}
+e98bd0e95153328084fab88cceadfaefac9be034,"['teamcity', 'agent', 'headless', 'security', 'test', 'http', 'groovy', 'trunk', 'groovy', 'groovy', 'core', 'fafa']",General,{'security': 100}
+79323211561011026cb9ac46d4bf31c3c3c6f700,"['superclass', 'property', 'stack', 'overflow', 'http', 'groovy', 'trunk', 'groovy', 'groovy', 'core', 'fafa']",Risky_resource_management,{'stack overflow': 100}
+72a0e90be6b8128905436440b17f5a7824a56e90,"['temporary', 'hack', 'reflector', 'crash', 'groovyconsole', 'http', 'groovy', 'trunk', 'groovy', 'groovy', 'core', 'fafa']",General,{'crash': 100}
+bc7c5a173f31ffe13adf12a13501f3757abc959f,"['sure', 'inputstream', 'memory', 'leak', 'http', 'groovy', 'trunk', 'groovy', 'groovy', 'core', 'fafa']",Risky_resource_management,{'memory leak': 100}
+06a919c4df4e283e12ffae1c0ae4ccfd74360cdf,"['stack', 'overflow', 'error', 'http', 'groovy', 'trunk', 'groovy', 'groovy', 'core', 'fafa']",Risky_resource_management,{'stack overflow': 100}
+3f30a452e844ee70d5ce9063964fbbb022ea6e87,"['partial', 'memory', 'leak', 'http', 'groovy', 'trunk', 'groovy', 'groovy', 'core', 'fafa']",Risky_resource_management,{'memory leak': 100}
+7ba32a5232b5d8e44bafacd27386c860354115dc,"['server', 'crash', 'http', 'groovy', 'trunk', 'groovy', 'groovy', 'core', 'fafa']",General,{'crash': 100}
+f4c9ee5dd4ea1b1e8c7f70e7bb8eba354bdba919,"['typo', 'stack', 'overflow', 'child', 'http', 'groovy', 'trunk', 'groovy', 'groovy', 'core', 'fafa']",Risky_resource_management,{'stack overflow': 100}
+329835cbb58797ccf78eb38b9d65f3313ea50f08,"['additional', 'security', 'test', 'http', 'groovy', 'trunk', 'groovy', 'groovy', 'core', 'fafa']",General,{'security': 100}
+da97181cb7f0d2b32a79e7a9c52270e7b9c0ca99,"['securty', 'test', 'http', 'groovy', 'trunk', 'groovy', 'groovy', 'core', 'fafa']",General,{'securty': 93}
+2ca9bde27f1dceb590b392acc0e722f22bf01ae2,"['security', 'test', 'http', 'groovy', 'trunk', 'groovy', 'groovy', 'core', 'fafa']",General,{'security': 100}
+8747c5a5d5368b344ea78a63be20fbd277072b20,"['specific', 'security', 'test', 'server', 'http', 'groovy', 'trunk', 'groovy', 'groovy', 'core', 'fafa']",General,{'security': 100}
+6c68b9893e61064429516b06f04532d5e988a175,"['specific', 'security', 'test', 'server', 'http', 'groovy', 'trunk', 'groovy', 'groovy', 'core', 'fafa']",General,{'security': 100}
+2a33abfe9ed1bb93a105b606d3abb11897f28162,"['enable', 'environment', 'specific', 'security', 'test', 'http', 'groovy', 'trunk', 'groovy', 'groovy', 'core', 'fafa']",General,{'security': 100}
+d48c264d476ac4757c688fb159e791995250d0c0,"['defensiv', 'null', 'pointer', 'check', 'subclass', 'null', 'configuration', 'http', 'groovy', 'trunk', 'groovy', 'groovy', 'core', 'fafa']",Risky_resource_management,{'null pointer': 100}
+e91af784134ecfe961e3a83926c001c88ae157be,"['indent', 'printer', 'field', 'access', 'level', 'null', 'pointer', 'check', 'constructor', 'http', 'groovy', 'trunk', 'groovy', 'groovy', 'core', 'fafa']",Risky_resource_management,{'null pointer': 100}
+8872d56dcd386bd28e3598527a12dd3463904d39,"['null', 'pointer', 'check', 'http', 'groovy', 'trunk', 'groovy', 'groovy', 'core', 'fafa']",Risky_resource_management,{'null pointer': 100}
+f4b3bf88b8825348c7caca6573f0737e2b4a76fb,"['groovy', 'patch', 'boris', 'gruschko', 'groovyservlet', 'crash', 'parameter', 'http', 'request', 'http', 'groovy', 'trunk', 'groovy', 'groovy', 'core', 'fafa']",General,{'crash': 100}
+1ce8bf79447f0f0fb500a9a74e1b5bc26e417d6e,"['dynamic', 'expression', 'groovy', 'nice', 'warning', 'thing', 'security', 'hole', 'http', 'groovy', 'trunk', 'groovy', 'groovy', 'core', 'fafa']",General,{'security': 100}
+351809ae898c80ca18d59fecf68a37c1b97a2058,"['steve', 'goetz', 'patch', 'security', 'groovy', 'http', 'groovy', 'trunk', 'groovy', 'groovy', 'core', 'fafa']",General,{'security': 100}
+885df128e2616f9758911b63cf3d5a3caac44474,"['steve', 'goetze', 'patch', 'groovy', 'security', 'hook', 'script', 'type', 'operation', 'http', 'groovy', 'trunk', 'groovy', 'groovy', 'core', 'fafa']",General,{'security': 100}
+c3752bfd49fafcb613e34fd6c93b6e4ae6d89070,"['test', 'case', 'null', 'pointer', 'http', 'groovy', 'trunk', 'groovy', 'groovy', 'core', 'fafa']",Risky_resource_management,{'null pointer': 100}
+777b7900708442d36bbacd504494855fe1a0e79b,"['dataset', 'query', 'security', 'issue', 'dodgy', 'parameter', 'value', 'bunch', 'method', 'query', 'statement', 'list', 'parameter', 'folk', 'gstrings', 'http', 'groovy', 'trunk', 'groovy', 'groovy', 'core', 'fafa']",General,{'security': 100}

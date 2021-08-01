@@ -1,0 +1,225 @@
+sha,message,catetory,matched
+ff8795818886dcde020778f960756dd4613bd32a,"['pull', 'request', 'chocobo', 'atomic', 'potential', 'data', 'race']",Risky_resource_management,{'data race': 100}
+a82ca6adb2c24bda2f85525bfe65e095df296bfa,"['potential', 'data', 'race', 'case', 'undefined', 'behavior', 'compiler', 'http', 'data', 'race', 'firefox', 'technical', 'report']",Risky_resource_management,{'data race': 100}
+d7bacdcbff769d27a9b6916703a7a7b1368802a6,"['pull', 'request', 'glassez', 'speedplot', 'speed', 'plot', 'buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100}
+20e9952d9833648310b3add78fbd5ebe4ef24fb9,"['speed', 'plot', 'buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100}
+df3d3db7767d78312fc5a0535f8ce757071d4f59,"['github', 'action', 'script', 'major', 'version', 'specific', 'major', 'action', 'version', 'critical', 'security', 'patch', 'assures', 'workflow', 'work', 'http', 'github', 'free', 'team', 'action', 'reference', 'workflow', 'syntax', 'github', 'action']",General,{'security': 100}
+cf55b67cee2e4c7c8bad9c6f23a00d3e7ea7236a,"['pull', 'request', 'jagannatharjun', 'content', 'crash', 'crash', 'table', 'torrent', 'content', 'view']",General,{'crash': 100}
+e812ac2c0bc74a34b023795c9c80ecbbb439877d,"['crash', 'table', 'torrent', 'content', 'view']",General,{'crash': 100}
+f35dbdfb8b71c321ae41fcdcf0bbfed9069a22f7,"['crash', 'exit']",General,{'crash': 100}
+4b897e77024fe898a101b443ef1a42c87e6b7545,"['pull', 'request', 'glassez', 'crash', 'crash', 'torrent']",General,{'crash': 100}
+22bda12d6c5c564c7095ed0ec90caf84845f9c88,"['crash', 'torrent']",General,{'crash': 100}
+92cc2a4f31ccf95e412fd8b25e540eeb6f281cea,"['pull', 'request', 'chocobo', 'rename', 'crash', 'torrent', 'content']",General,{'crash': 100}
+9c6bc6c89a4dc70f002b5708e227d238d2d961c7,"['crash', 'torrent', 'content']",General,{'crash': 100}
+5de75eff050695c3418c00864ea805e4968ca1fa,"['singleton', 'pattern', 'profile', 'class', 'function', 'name', 'initinstance', 'freeinstance', 'noise', 'memory', 'leak', 'instance', 'return', 'pointer', 'unnecessary', 'indirection']",Risky_resource_management,{'memory leak': 100}
+6748e8d7870161112a9566fa8f0ebb03c2fbb2e3,"['redundant', 'null', 'check', 'delete', 'null', 'pointer', 'noop', 'close', 'http', 'isocpp', 'wiki', 'freestore', 'mgmt', 'delete']",Risky_resource_management,{'null pointer': 100}
+bf264b983a3ec0a819a93e82be72f79763b1369e,"['simplify', 'null', 'pointer', 'check']",Risky_resource_management,{'null pointer': 100}
+80bf5978de36c49d0e5c377133f4085cf07c6f8e,"['pull', 'request', 'chocobo', 'check', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+3104291734786ef6ea2602d4b0d8a199dcef81e6,"['check', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+4f06c091c92e2068583cacba3957a86229007be7,"['pull', 'request', 'chocobo', 'command', 'injection', 'external', 'program', 'function']",Insecure_interaction_between_components,{'command injection': 100}
+a610c8567e55516231d199b551e0e7e2dca70cbf,"['command', 'injection', 'external', 'program', 'function']",Insecure_interaction_between_components,{'command injection': 100}
+19f50a363d66e221978bb5363c7adac53a3b163c,"['crash', 'phantom', 'session', 'torrent', 'fastresume', 'phantom', 'fastresume', 'session', 'crash', 'user', 'reset', 'config', 'file', 'torrent']",General,{'crash': 100}
+3a3dec170736b4ca7d40b1e60f078b01f09127ad,"['pull', 'request', 'chocobo', 'crash', 'work']",General,{'crash': 100}
+1ea61db1fb6467f00463933092791958a27dedb3,"['tracker', 'favicons', 'default', 'workaround', 'crash', 'library', 'source', 'http', 'github', 'qbittorrent', 'qbittorrent', 'issue', 'issuecomment']",General,{'crash': 100}
+480aa01ea611909b3527e5e286a49e36379d85ce,"['pull', 'request', 'paolo', 'master', 'crash', 'torrent', 'search']",General,{'crash': 100}
+22835c0350b40b903c5fc1807b7ebc15bd9782e8,"['crash', 'torrent', 'search', 'qbittorrent', 'error', 'message', 'search', 'pointer', 'variable', 'catch', 'lambda', 'code']",General,{'crash': 100}
+e621a98a0a92c50be0cdfe60ce0eb7704e047436,"['pull', 'request', 'chocobo', 'redirect', 'crash', 'network', 'redirections']",General,{'crash': 100}
+cd47380b85b122328cc24d0cd6cf5cf0b4aeff92,"['samesite', 'attribute', 'webui', 'session', 'cookie', 'attribute', 'prevents', 'cookie', 'cross', 'site', 'request']",Insecure_interaction_between_components,{'cross site': 100}
+58be2d4bc239bbde415b08a4abb329c1b4068ab5,"['webui', 'security', 'option', 'groupbox']",General,{'security': 100}
+d866033a8e485321e04f5b3786bc375a23af1da6,"['zero', 'crash', 'cheap', 'method', 'crash', 'stacktrace', 'unknown', 'invalid', 'calculation', 'result']",General,{'crash': 100}
+42eac2ee3cc2b5a66cb8401b13965ea0844d47cf,"['simplify', 'code', 'null', 'pointer', 'warning', 'static', 'analyzer']",Risky_resource_management,{'null pointer': 100}
+97b3761dbf23535bc761ad355b8120d80797bf7a,"['pull', 'request', 'chocobo', 'recursive', 'crash', 'recursive', 'download', 'dialog']",General,{'crash': 100}
+5f8feec1c1907987fa4019c3e05049cabf6bd1ae,"['pull', 'request', 'piccirello', 'restrictive', 'content', 'security', 'policy']",General,{'security': 100}
+43656aaa1ef98c5b00f58d667648122e273fb3ad,"['form', 'action', 'option', 'restricts', 'form', 'submission', 'webui', 'origin', 'qbittorrent', 'submits', 'form', 'origin', 'security', 'measure']",General,{'security': 100}
+8f98f87d1228aaf2b23f1044f6173984b667835c,"['upgrade', 'insecure', 'request', 'http', 'upgrade', 'http', 'connection', 'http', 'ensures', 'http', 'http', 'mode', 'security', 'measure']",General,{'security': 100}
+6e96bbb2e97fa01aa35016f2b6b7dcdf073f7ce5,"['pull', 'request', 'chocobo', 'webui', 'security', 'measure']",General,{'security': 100}
+e8d378e1672fd5e8aa6afc7a77284d9e96c0b085,"['webui', 'security', 'measure', 'frame', 'ancestor', 'directive']",General,{'security': 100}
+4a51f14328b73cf0cae48c968216d129624f7c7d,"['pull', 'request', 'chocobo', 'option', 'control', 'webui', 'security', 'measure']",General,{'security': 100}
+9eeef0be97424ecf83d1f7df6ca792cfa8e286c2,"['option', 'control', 'csrf', 'protection', 'user', 'simple', 'port', 'option', 'control', 'protection', 'setting', 'trival', 'proxy']",Insecure_interaction_between_components,{'csrf': 100}
+7626ebe7a6b0b8e14459af0078edca984d27024d,"['delete', 'fastresume', 'file', 'format', 'number', 'queue', 'position', 'scheme', 'infohash', 'fastresume', 'queueposition', 'qsavefile', 'qtemporaryfile', 'crash', 'file', 'scheme', 'infohash', 'random', 'character']",General,{'crash': 100}
+7aae915a68e13c991779a71558e58a6d691af6d4,"['pull', 'request', 'chocobo', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+68c2d81072b1e299c37cbea0c68e3be11a0173d8,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+784b154228b456cac5795fc310c6ef9e2f319bc3,"['pull', 'request', 'sledgehammer', 'usage', 'lead', 'crash']",General,{'crash': 100}
+ddba79ef3dfdb9e35cfde415500535297b89692f,"['usage', 'lead', 'crash', 'need', 'multi', 'version', 'parameter', 'multiple', 'qstrings']",General,{'crash': 100}
+d997d887e5fa6d36be105fc43dcdb73cdffc763b,"['pull', 'request', 'luis', 'pereira', 'invalid', 'iterator', 'crash', 'crash', 'invalid', 'iterator']",General,{'crash': 100}
+758c70283f9d41ad9281de96e3980a7a73fe8021,"['crash', 'invalid', 'iterator']",General,{'crash': 100}
+a65a70ab48f2b96bbaf609afbcee342c3b3a1445,"['pull', 'request', 'thalieht', 'possible', 'crash', 'share', 'limit']",General,{'crash': 100}
+0e30659c26451c1d0f76ae8b03fd89bad8d4cde6,"['possible', 'crash', 'share', 'limit', 'possible', 'crash', 'torrent', 'name', 'processing', 'time', 'torrent', 'ratio', 'limit']",General,{'crash': 100}
+5ea100352e89616547a3a9d452a6958d57ccb49f,"['pull', 'request', 'chocobo', 'fixsort', 'crash']",General,{'crash': 100}
+86c5a8df759a5205d662f137db182f6cae857f75,"['partial', 'revert', 'mapfromsource', 'work', 'return', 'invalid', 'qmodelindex', 'crash', 'source', 'model', 'endless', 'recursive', 'lessthan', 'mapfromsource', 'culprit']",General,{'crash': 100}
+48c46dc79a46281614aaf2398e9b90bb1eb2a407,"['crash', 'system', 'address', 'object']",General,{'crash': 100}
+a38730eb9ee26988685d0dc9ba1777139813e32f,"['pull', 'request', 'chocobo', 'creator', 'crash', 'torrent', 'creation', 'process']",General,{'crash': 100}
+433b5a46cf2e3bf15fd8b0c5e6e7134807907486,"['crash', 'torrent', 'creation', 'process', 'close', 'wait', 'time', 'file']",General,{'crash': 100}
+236abcf3f1447e1f96c370e0ca78b7a5d47971c7,"['crash', 'opening', 'torrent', 'magnet']",General,{'crash': 100}
+855772ae5a3821e5579363bdaad960e38a63028c,"['close', 'torrent', 'session', 'deletetorrent', 'invoke', 'torrent', 'name', 'result', 'crash']",General,{'crash': 100}
+b47c90f0e0de420f3c78bca4e2a8394b25aba3da,"['setup', 'parent', 'ownership', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+42b811e5789eba66ce496848656cf63f8a464ddc,"['pull', 'request', 'evsh', 'plugin', 'version', 'crash', 'incorrect', 'version', 'string', 'search', 'plugins']",General,{'crash': 100}
+5bc3b0138e1201af34e493d8d0539e71158f9cc2,"['pull', 'request', 'chocobo', 'crash', 'search', 'plugin', 'update', 'dialog']",General,{'crash': 100}
+24a69a9fe7c064a95f910f955ad192c0894835d3,"['crash', 'search', 'plugin', 'dialog', 'signal', 'destructor']",General,{'crash': 100}
+fd05f5dec5ce5a15cb836ab3513808206a82593d,"['pull', 'request', 'chocobo', 'webui', 'relax', 'csrf', 'defense']",Insecure_interaction_between_components,{'csrf': 100}
+66aeafdc63dbeaa777645985866c9c1b68e86341,"['crash', 'list', 'widget', 'item']",General,{'crash': 100}
+cdb8f4bc617ff4d6659ef29d010327586ec75f93,"['webui', 'relax', 'csrf', 'defense', 'http', 'request', 'origin', 'referer', 'header']",Insecure_interaction_between_components,{'csrf': 100}
+087856d3d8d6d77881c3d8378a95d80d693af2dd,"['csrf', 'defense', 'bump', 'version']",Insecure_interaction_between_components,{'csrf': 100}
+146b0b91f0e550ce2a7e3b1fae7b4c81bf60a3db,"['pull', 'request', 'kinglucius', 'rsscrash', 'crash', 'delete', 'feed']",General,{'crash': 100}
+dedd31ada528df02048ba66fead0a37f06dc1dbe,"['crash', 'delete', 'feed']",General,{'crash': 100}
+ae5932a57353e97c5777f35309ed96744cab8fc6,"['pull', 'request', 'evsh', 'piecebar', 'crash', 'crash', 'download', 'piece']",General,{'crash': 100}
+6d9eec0e710e47a62fc77b9c828444e722a7ba22,"['crash', 'download', 'piece', 'torrent', 'size', 'image', 'width', 'byte', 'zero', 'code', 'image', 'empty', 'algorithm', 'work', 'case']",General,{'crash': 100}
+386b93bb0f210d6a664b895aafa5fdd23ba7082f,"['file', 'size', 'name', 'computation', 'iterative', 'stack', 'overflow', 'close', 'call', 'qfile']",Risky_resource_management,{'stack overflow': 100}
+0838f64311edd0d7ea8b7790cf776acd3f596762,"['pull', 'request', 'piccirello', 'strict', 'permissive', 'content', 'security', 'policy']",General,{'security': 100}
+1b5852ad0b50d30da87b2ed7627942ca9a077e01,"['permissive', 'content', 'security', 'policy', 'content', 'order']",General,{'security': 100}
+f211b238c487b8ece18655812536427937a833e5,"['attempt', 'show', 'torrent', 'metadata', 'close', 'computation', 'unavailable', 'metadata', 'lead', 'asserts', 'crash', 'useless', 'case', 'show', 'available', 'torrent', 'metadata']",General,{'crash': 100}
+94909d9b926c84fe15dc80455555b81bc0a0240a,"['pull', 'request', 'evsh', 'crash', 'daemon', 'mode']",General,{'crash': 100}
+5b59b186064c84be33ff1c8fdae7715b517fa73d,"['crash', 'daemon', 'mode', 'reference', 'parameter', 'object', 'main', 'object', 'reset', 'application', 'object', 'daemon', 'mode', 'reference', 'copy']",General,{'crash': 100}
+706097ddda8c10e169ebc2979ae49da1027504b6,"['pull', 'request', 'glassez', 'crash', 'delete']",General,{'crash': 100}
+7bc81ead8cf3d1183fc7b8281da8f65c96762263,"['pull', 'request', 'chocobo', 'gzip', 'stack', 'overflow', 'utils', 'gzip', 'decompress']",Risky_resource_management,{'stack overflow': 100}
+7d1ac06ce215057b3340caaea1fe99aa5a634a0c,"['stack', 'overflow', 'utils', 'gzip', 'decompress', 'vector', 'memory', 'heap', 'compress']",Risky_resource_management,{'stack overflow': 100}
+abfcfb5af00987252ea9151fbe3be8ed44d1c37b,"['possible', 'null', 'pointer', 'dereference']",Risky_resource_management,{'null pointer': 100}
+d413bc65eff957aec03fb7fa4e12e6e8f5ca6e91,"['strip', 'torrent', 'root', 'folder', 'issue', 'rename', 'root', 'item', 'torrent', 'dialog', 'uncheck', 'name', 'restart', 'strip', 'root', 'folder', 'torrent', 'magnet', 'link', 'crash', 'name', 'torrent']",General,{'crash': 100}
+f9c39e3dace74ddfd31ef169790423f0e8bf6f11,"['webui', 'exclude', 'insecure', 'cipher']",General,{'insecure': 100}
+07edb7b74e9196996844a7a1814000a39f781241,"['pull', 'request', 'chocobo', 'warning', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+e1c9e3b9ed93da7fa205bd5c4e3590f2a28ba715,"['memory', 'leak', 'unicode', 'version', 'function']",Risky_resource_management,{'memory leak': 100}
+05387edbfae088017dcc7a0dce382e5f5f945155,"['pull', 'request', 'chocobo', 'crash', 'removeitem']",General,{'crash': 100}
+aba625d5440a5795ab786a6a6452178f78a7fb6b,"['potential', 'crash']",General,{'crash': 100}
+3e12d958e9c2acc4ebec646fa7766ac30c1c8dd7,"['pull', 'request', 'chocobo', 'tray', 'icon', 'crash']",General,{'crash': 100}
+59942531dfeafcf92b8b7083d2e169d63bbfe68d,['crash'],General,{'crash': 100}
+8e64ffba01baf52accee85a116da4e6c860b0ac2,"['pull', 'request', 'chocobo', 'crash', 'exit', 'option', 'dialog']",General,{'crash': 100}
+4f78a50addfe5869bd8f32afef4bbaf8a0295329,"['pull', 'request', 'evsh', 'auto', 'torrent', 'typo', 'crash', 'magnet', 'link']",General,{'crash': 100}
+a7495fa7b403065743589df1aa5e6ea264673157,"['crash', 'magnet', 'file', 'guard', 'object', 'initialise', 'empty', 'path']",General,{'crash': 100}
+2b0ad4477e9dc94e5e1b974cb878b39e981d014b,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+696ea0bf94310aa1dcd651ad4abf2a1baf1f11e7,"['pull', 'request', 'ngosang', 'potential', 'crash']",General,{'crash': 100}
+2ea1716c1a649323a14127f68b16834a12241353,"['potential', 'crash']",General,{'crash': 100}
+3067f82aea1a3c0ff0df5236db05d20334887722,"['potential', 'crash']",General,{'crash': 100}
+56605cd0c3fdccf17de0faba42e273e52f1dcb5c,"['pull', 'request', 'chocobo', 'shorten', 'crash', 'report', 'window']",General,{'crash': 100}
+8baa1449336dea55d35d5127aabeefd85355e897,"['piece', 'size', 'crash', 'issue']",General,{'crash': 100}
+7b2fab411c5d914d3b7621595ad9f02febb7af4f,"['comment', 'list', 'module', 'section', 'window', 'crash', 'report', 'crash', 'report', 'unhelpful', 'message']",General,{'crash': 100}
+09d3f7315413b766bd9b6dd78c5787cac71ede68,"['pull', 'request', 'glassez', 'crash']",General,{'crash': 100}
+9a393bbcea4edb78e4bb40b0644ef4032c959abf,['crash'],General,{'crash': 100}
+69d52a06d757ab0ca250da3df31800edc92d69b1,"['revert', 'filename', 'column', 'peer', 'view', 'frequent', 'crash', 'issue']",General,{'crash': 100}
+7a0f04e667e39e9f9f95a292a9c1910b8ed649f9,"['pull', 'request', 'chocobo', 'crash']",General,{'crash': 100}
+91a99c6903961a5a5ac2d510c03fea6debaa21ab,"['possible', 'deadlock', 'application', 'exit']",Risky_resource_management,{'deadlock': 100}
+d60f2fc7dffbef33d052f2b7a0e3d2141a8ed8eb,"['potential', 'crash', 'memory', 'allocation']",General,{'crash': 100}
+8a905bed5d6c72527359ed3931649af2e6535983,"['pull', 'request', 'chocobo', 'potential', 'crash', 'memory', 'allocation']",General,{'crash': 100}
+e95fce3084d5d52b6535cc7a8b7dd6883ffcdabd,"['potential', 'crash', 'memory', 'allocation']",General,{'crash': 100}
+79617949c119e2be0aa79afd2615042ad3be8fb3,"['pull', 'request', 'ngosang', 'crash']",General,{'crash': 100}
+c3921ce2fefb259a61bbe2d76fdc0cfc55c63794,['crash'],General,{'crash': 100}
+f746760ccf47ac59af2efe87c86f232e094376c7,"['pull', 'request', 'pmzqla', 'search', 'close', 'searchengine', 'crash']",General,{'crash': 100}
+ee8a4929545b579c234c40b1b0b5b17362506d9a,"['searchengine', 'crash', 'search', 'search', 'process', 'activesearchtab', 'null', 'crash', 'sure', 'activesearchtab', 'null']",General,{'crash': 100}
+061fbeff56c830a24b7957279ec27e7f2e220236,"['pull', 'request', 'glassez', 'openfile', 'crash', 'open', 'file', 'dialog']",General,{'crash': 100}
+77b3a0c4cd7944589a22562eeabf7562dae70fd7,"['crash', 'open', 'file', 'dialog']",General,{'crash': 100}
+8b65db69c4705adecf3ed8ea70cf460b836d9119,"['webui', 'regular', 'expression', 'check', 'gzip', 'previous', 'code', 'crash', 'case', 'gzip', 'string', 'quality', 'factor']",General,{'crash': 100}
+c37e5abeff6ffa5a436fc01ad2473282358b9e46,"['torrent', 'removal', 'qbittorrent', 'crash', 'user', 'deletes', 'torrent', 'label', 'view', 'label', 'filter', 'active', 'callstack', 'crash', 'abort', 'qtorrenthandle', 'const', 'data', 'const', 'torrentmodel', 'data', 'qmodelindex', 'const', 'const', 'data', 'qmodelindex', 'const', 'const', 'data', 'qmodelindex', 'const', 'const']",General,{'crash': 100}
+e3d079ccb3937e6fddadf0115e6b2cb6eb200893,"['pull', 'request', 'sorokin', 'buffer', 'overrun', 'widget', 'heap', 'buffer', 'overrun']",Risky_resource_management,{'overrun': 100}
+ddd2025968ec1c8a979cbe9dad6fef3885bb97d0,"['heap', 'buffer', 'overrun']",Risky_resource_management,{'overrun': 100}
+94fc2f9c3da86bcfb550a56b2311012140522011,"['display', 'context', 'menu', 'content', 'http', 'source', 'button', 'torrent', 'prevents', 'crash']",General,{'crash': 100}
+495800d6e99b5550cd3e9bf74fc3fd0d9a21684e,"['possible', 'crash', 'code']",General,{'crash': 100}
+08e14cdc26e1fd565e2b5b11c89cca489b55a41c,"['possible', 'crash']",General,{'crash': 100}
+c0b3ad7ee36530a0c418a8b50047a72e74acc304,"['crash', 'torrent', 'disappears']",General,{'crash': 100}
+9714b2ede9136d108f84966ae1cc85f7ec15ec75,"['weird', 'ratio', 'value', 'torrent', 'crash']",General,{'crash': 100}
+82cd484faddba9dfe42dd5945a88a54d7a21832c,"['pull', 'request', 'gelmir', 'null', 'possible', 'null', 'pointer', 'dereference']",Risky_resource_management,{'null pointer': 100}
+abde611391df971c56be03645f4172d205701d3c,"['possible', 'null', 'pointer', 'dereference']",Risky_resource_management,{'null pointer': 100}
+14bfc4f4ed569c1b535f84b31084b6a4360d9465,"['pull', 'request', 'gelmir', 'attempt', 'data', 'loss', 'session']",Risky_resource_management,{'data loss': 100}
+28df59b9e6cfc00584eeaee98d85c1473d2f7839,"['attempt', 'data', 'loss', 'session']",Risky_resource_management,{'data loss': 100}
+34fc7407a2d79988b59bdcb4202bca914fd6fe8f,"['possible', 'crash', 'loadpeers']",General,{'crash': 100}
+cf7bc882f5dd07afff4920032978e594a885716f,"['possible', 'crash']",General,{'crash': 100}
+d2a6887248557540cfff16dd40b3110f74234a5c,"['crash', 'fastresume', 'file', 'empty']",General,{'crash': 100}
+9c61acc95d406381b675a0b4ab2c47a381a51c9c,"['crash', 'character', 'label', 'name']",General,{'crash': 100}
+8104c4133248b93fa45a8e95c51c7ff734406605,"['possible', 'crash', 'tracker', 'magnet', 'torrent']",General,{'crash': 100}
+c40801ce9980ad5ca985fbea6c083cc08371510a,"['possible', 'crash', 'stream']",General,{'crash': 100}
+fefc7df910ed28d710010194bdcc21afc4099318,"['crash', 'download', 'rule']",General,{'crash': 100}
+3389820c738332ebc1579d600bcefa5a27479c4e,"['possible', 'crash']",General,{'crash': 100}
+5cf7e47ffa6eeb1c80569017414fa1423c6d9f1e,"['crash', 'exit']",General,{'crash': 100}
+b78d6ba2430292441f60c8cde70e88bb7861b446,"['possible', 'redownload', 'torrent', 'feed', 'setting', 'history', 'feed', 'removal', 'possible', 'crash', 'downloader', 'dialog', 'debug', 'mode']",General,{'crash': 100}
+c63503aaa6ed23c3bb68f3cce98eb065ca782506,"['consolekit', 'shutdown', 'system', 'rewrote', 'computer', 'shutdown', 'data', 'loss']",Risky_resource_management,{'data loss': 100}
+9c57cca93c5a0307665fca4c4b6a207b7d19e15c,"['possible', 'crash', 'priority', 'file']",General,{'crash': 100}
+6ff7c6ed06e513156d3da08977458f703af4f5f4,"['memory', 'leak', 'torrent', 'downloader', 'code']",Risky_resource_management,{'memory leak': 100}
+eb0053fe48069334a759fafe380118ddbaa979fe,"['possible', 'crash', 'full', 'allocation', 'mode']",General,{'crash': 100}
+e931209860df7695eae713535c77fe892faff6c7,"['possible', 'crash', 'magnet', 'link']",General,{'crash': 100}
+b03fa326249da7c75e14119abbed092c435e1ed0,"['possible', 'crash', 'exit', 'filter']",General,{'crash': 100}
+c3322cdc91f43a76e9312c8cb5bbeb5cf7888447,"['possible', 'crash', 'downloader', 'dialog', 'folder']",General,{'crash': 100}
+7c580a87e2a9934cd8b1d2c6613063eae54aad53,"['possible', 'crash']",General,{'crash': 100}
+401693dccdc8e96c85200f46be75b92ddcfeea47,"['possible', 'crash', 'column', 'visual', 'index']",General,{'crash': 100}
+147060fdeeb4cd870d58c03869dfd0be0e56ae8f,"['possible', 'crash', 'setting', 'proxy']",General,{'crash': 100}
+e11545c8a384a364aee0c564fb94659d1af43120,['crash'],General,{'crash': 100}
+e2c75b5a117178140f05e0e8aa8fe6b2a321c322,"['possible', 'crash']",General,{'crash': 100}
+390508e7dbc4e019b563e036b788eb9c7b92d07e,"['possible', 'crash', 'qbittorrent', 'shutdown']",General,{'crash': 100}
+071801fee70224577dde387000e081be1601a7c8,"['possible', 'crash']",General,{'crash': 100}
+bee507cb4591da7866d6c4cffdca63203655c799,"['possible', 'crash']",General,{'crash': 100}
+35e98b6cbbffa0885828d7ac6db0cd7097a7925d,"['crash', 'path', 'field', 'torrent', 'addition', 'dialog']",General,{'crash': 100}
+354d968a9468ba703ee1c5c98417174ab5f06333,"['possible', 'crash', 'manual', 'peer']",General,{'crash': 100}
+5b47a762ac616f78b7bc18d14bf285128c3a94de,"['crash', 'torrent', 'addition']",General,{'crash': 100}
+81eb8b13417babe352b1b4dc3ce56fb3b62f2713,"['tiny', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+3d7bf26f85ba7a16f66d95c356f7a07bf327eae5,"['possible', 'crash', 'path', 'torrent', 'addition', 'dialog']",General,{'crash': 100}
+e323175275ed6bb520d278834747781882c0dd40,"['possible', 'crash', 'auto', 'shutdown']",General,{'crash': 100}
+902196a1763ca09c2c53ffedcdcec01c2a6d3352,"['crash', 'libtorrent']",General,{'crash': 100}
+4b77bb57add14e12de3a63149e69b789749282c2,"['crash', 'torrent', 'completion']",General,{'crash': 100}
+35f6675d86330a4947ee5b9a74bdd3fff9e8d30c,"['possible', 'crash', 'resume', 'data']",General,{'crash': 100}
+9494b15bd5ed7751e6016f791198fd75a2585c28,"['possible', 'crash', 'window']",General,{'crash': 100}
+1e21ac3d79e72954d44e4441261ce8e86c3684af,"['possible', 'crash', 'exit', 'main', 'function']",General,{'crash': 100}
+621ec11ae3ee7d1d9557e833156d3d1c95b5fecb,"['possible', 'crash', 'alternative', 'speed', 'limit']",General,{'crash': 100}
+2104e4e2ce2ce7a971d52b10d4070f3d2a647407,"['crash', 'magnet', 'link']",General,{'crash': 100}
+6f314502f67479489403f937b1e1231f262505d3,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+73a9985599ade197b22bb0d234de46866ec3782a,"['crash', 'mouse', 'button', 'different', 'item']",General,{'crash': 100}
+48585bb049a7f60512b6d627d0a363076127f145,"['crash', 'label']",General,{'crash': 100}
+1597007ea1ac65a2e9f3347df93a200f0991b45c,"['possible', 'crash']",General,{'crash': 100}
+492814a56e157154db69618bfd147c8fcb9a9f0e,"['possible', 'crash', 'boost', 'exception']",General,{'crash': 100}
+daff6dce4c8adc7a619d7c703f15837b0ea2e162,"['possible', 'crash']",General,{'crash': 100}
+38cb4ccbd36607a12770a25e46565f4795da5fe1,"['possible', 'crash', 'folder']",General,{'crash': 100}
+530fbfc9b421b458e856e5758ae6b33eca7a9f00,"['user', 'confirmation', 'recursive', 'torrent', 'download', 'security', 'risk', 'file', 'dialog', 'torrent', 'creation', 'tool']",General,{'security': 100}
+c287879e5514ff99ed165dd60269690c1f13cd55,"['possible', 'crash']",General,{'crash': 100}
+19368bcefa98de126a7453d424cd7b2e6697f6cb,"['virtual', 'destructor', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+e4bf116ce8bc671e4e3aff91cd45d2c425a135a2,['crash'],General,{'crash': 100}
+bccdad4b1bbcc718b98482b2e6c5b4b8c2128b1d,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+240c3508fee03f239617327aa09753e95fc9c163,"['possible', 'crash', 'torrent', 'label']",General,{'crash': 100}
+22d0c4a24103dec476538e1ba7709fddd8983de6,"['possible', 'crash']",General,{'crash': 100}
+a03ad3de23e0b8dd9d47f9c9ba1aaa2a027e1731,"['torrent', 'file', 'directory', 'bugfix', 'crash', 'double', 'torrent', 'metadata']",General,{'crash': 100}
+e8dd7bbcc962859f849063c119df973564ebdb61,"['possible', 'race', 'condition', 'crash', 'startup']",General,{'crash': 100}
+aa8f7552a2a5b3a1f1791aec3b20bbd70cc40180,['crash'],General,{'crash': 100}
+af5c1096b51167342dc5df900f3ad753e9a2882b,['crash'],General,{'crash': 100}
+78ba99778ab83175edb91bb6de0230a9deb32486,['crash'],General,{'crash': 100}
+b87a23037e9487ef278e54878c4ae029a1f2f460,"['crash', 'piece']",General,{'crash': 100}
+7aa2994078bd8d162c9d05def2ada9f3c9117cfe,"['possible', 'crash', 'search']",General,{'crash': 100}
+69cb8d1398c7efda842e0a1723313c8a77c3a037,"['possible', 'crash', 'torrent', 'property']",General,{'crash': 100}
+8c1a135d165b217ef502c2930e1501e5bd8bc423,"['crash', 'metadata', 'magnet', 'uris']",General,{'crash': 100}
+df5f5a943bdde54521ae96c77bced5c1d41589f5,"['possible', 'crash', 'magnet', 'uris', 'download']",General,{'crash': 100}
+497cb07852cd7de70b8657cf8b4a796943853998,"['possible', 'crash', 'magnet', 'metadata']",General,{'crash': 100}
+5d1d26b285ddc4a1b5e8e146b6aaf50d7ca6d8d5,"['possible', 'crash', 'exit', 'tweak', 'speed', 'exit']",General,{'crash': 100}
+d8c27ac8c4af35e982df7219fb3ff1607946d9fe,"['crash', 'torrent', 'contains', 'empty', 'file']",General,{'crash': 100}
+6f69ab2b6ddcc4984e229ed2a610800d2e707442,"['crash', 'path', 'button', 'torrent']",General,{'crash': 100}
+4ca2d060eae530f4f2b9013ce73b7cd3dfc0d525,"['libtorrent', 'crash', 'search', 'engine', 'destructor', 'downloads']",General,{'crash': 100}
+9fbe2ff6c4befb8939f303528b7976bb93b0eefb,"['possible', 'crash', 'search', 'field', 'autocompletion', 'autocompletion', 'code']",General,{'crash': 100}
+a4383d1b7fe9a15535831a19228b6a357d0f564a,"['memory', 'leak', 'parser']",Risky_resource_management,{'memory leak': 100}
+131dda26178175f841b0e3bff8b89d0368b0cf45,"['memory', 'leak', 'property', 'panel']",Risky_resource_management,{'memory leak': 100}
+fe3a6b8b573a7fcf01ce0b1f1051e170e46461eb,"['crash', 'torrent', 'file', 'priority', 'libtorrent', 'rasterbar', 'debug']",General,{'crash': 100}
+0485864d38666e439572675a6c2d3ca025819cf3,"['crash', 'directory']",General,{'crash': 100}
+2556346dda9862c3b7529ef65056aa10045ffa7d,"['possible', 'crash']",General,{'crash': 100}
+37158a32ade94842c7110a8ec211820cedc0b282,"['crash', 'torrent', 'addition', 'dialog', 'path']",General,{'crash': 100}
+c9c4f7001aa5ff9d9a56169e499cab60f6cdc8c1,"['crash', 'news', 'list']",General,{'crash': 100}
+9d35bda43ccbe175fcae438a9cea1fa178dbe136,['crash'],General,{'crash': 100}
+a33094519c46bac8dcb7c7625d3d32d26107b088,"['crash', 'feed', 'qurl']",General,{'crash': 100}
+d02aca732313dafdb86fb567a210029fbdcac49e,"['possible', 'crash']",General,{'crash': 100}
+8e5f5b5d652e35e1e1cc0df6bb331882e3ef6d22,"['crash', 'feed', 'deletion']",General,{'crash': 100}
+7e71de558adab5e23098552d357da44fa57d70b0,"['rare', 'crash']",General,{'crash': 100}
+f1ca41a5c5bc43e05b7c02031d20e6f6744f4f0a,"['possible', 'crash', 'filter', 'file']",General,{'crash': 100}
+2694a0947f0d07048ab054bed567e82bfe9598d4,"['possible', 'crash']",General,{'crash': 100}
+1d31e049a49129c8ae604fadba2143cda12c6c65,"['possible', 'deadlock', 'fastresume', 'data']",Risky_resource_management,{'deadlock': 100}
+cfcd9b7eaffb42d11643ef2c6d9fb760f37689ad,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+ce2294ee96c1bbf0b2c2aff9057cff333dcbd4f3,"['session', 'deletion', 'possible', 'memory', 'leak', 'folder']",Risky_resource_management,{'memory leak': 100}
+c41d17043c5dd68b17516632619bf68a905fce34,"['memory', 'leak', 'torrent', 'addition', 'dialog']",Risky_resource_management,{'memory leak': 100}
+3c17a1410ba1649db7dab674362c688c8fb78d07,"['memory', 'leak', 'torrent', 'addition', 'dialog']",Risky_resource_management,{'memory leak': 100}
+70725bdfe2b8ac7104d6be33f503a3b2f4f4ddd0,"['memory', 'leak', 'parser']",Risky_resource_management,{'memory leak': 100}
+2d24b468b650e1f1b77c048b5286f924dd367cbc,"['possible', 'crash']",General,{'crash': 100}
+0879f2c0ca965cbcee275b4acb4766f15eb4b0e0,"['rewritten', 'list', 'refresh', 'system', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+e21c28e9d282441550a4e6dd2f1170dbb2622af5,"['memory', 'leak', 'http', 'server']",Risky_resource_management,{'memory leak': 100}
+88ea548eaf6ddc21ce86a0b92613accf5ff544b4,['crash'],General,{'crash': 100}
+dca80c3006877be2b9218cceff16df7161402894,"['parent', 'class', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+b7fd7d98374a7e2b932876936197a7a9b0d0fe74,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+366d5108c4d479f345f62f3325f5e048b8329174,"['memory', 'leak', 'crash', 'delete']",Risky_resource_management,{'memory leak': 100}
+aa4c53ec43e055edb0b6908da72f2d3474e718ab,"['assert', 'crash', 'toggle', 'state', 'torrent']",General,{'crash': 100}
+2ab7f6f9231ac3467a60f6f55afa43f2d7f2504f,"['list', 'refresher', 'separate', 'thread', 'responsiveness', 'report', 'problem', 'mutex', 'deadlock', 'console', 'output', 'crash']",Risky_resource_management,{'deadlock': 100}
+042323a1a8c41986ea61e6dfab82ea2e61823de7,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+30aa59f582c6b94ce170a84b7e4e4f1a142264d7,"['bandwidth', 'allocation', 'crash', 'search', 'engine', 'systray', 'integration']",General,{'crash': 100}
+59e1e0bbf0fc3e876ad2c437ea0305afab35cb63,"['memory', 'leak', 'option', 'qtranslator', 'object', 'option']",Risky_resource_management,{'memory leak': 100}
+5e57929f07563eaf246de51840af189606bdd4c7,"['possible', 'crash']",General,{'crash': 100}
+7e1f98cd46224299263e80c54691acb19c890467,"['memory', 'leak', 'search', 'engine', 'autocompletion']",Risky_resource_management,{'memory leak': 100}
+117448fb0b79c179c2bb640201a27691f8927d98,"['piece', 'torrent', 'restart', 'piece', 'progress', 'real', 'time', 'torrent', 'property', 'bugfix', 'memory', 'leak', 'torrent', 'property', 'italian', 'german', 'translation']",Risky_resource_management,{'memory leak': 100}
+0df84cd94b646638eaf8aa36eee80ea4bf44a629,"['btjunkie', 'search', 'engine', 'security']",General,{'security': 100}

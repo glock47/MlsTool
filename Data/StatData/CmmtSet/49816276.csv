@@ -1,4 +1,21 @@
-sha,message,catetory,matched,labels
-1e0be7063c7ad67565209778c13aa0cdee9e9549,"['static', 'security', 'server']",General,{'security': 100},
-e1c0c1689445b720bbedc9d53f97c6624794aefc,"['security', 'silvertoque']",General,{'security': 100},
-5af2d3d4501b482ebb19caa5a058291474e0fde6,"['malloc', 'minimize', 'crashreturn', 'mallocvalue', 'risky', 'crash', 'check']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+1e0be7063c7ad67565209778c13aa0cdee9e9549,"['http', 'static', 'server', 'security']",General,{'security': 100}
+6a48f02a56f15a47503f43bd1958e55c973c995d,"['pull', 'request', 'fbrausse', 'memory', 'leak', 'trust']",Risky_resource_management,{'memory leak': 100}
+fcde3f074ba1b35d3b69ebb5270b52686fe26d4e,"['memory', 'leak', 'trust']",Risky_resource_management,{'memory leak': 100}
+e1c0c1689445b720bbedc9d53f97c6624794aefc,"['security', 'issue', 'dane', 'silvertoque']",General,{'security': 100}
+622dce87105a3199e12749997f8b17cadaa5e5da,"['initialize', 'memory']",Risky_resource_management,{'initialize memory': 92}
+5f3f6578fc4469907175557b4e709f1c9f5da1fb,"['memory', 'leak', 'mime', 'registry']",Risky_resource_management,{'memory leak': 100}
+7039caa646ddccdffe50ff42a20ac2a460919e8e,"['array', 'memory', 'overflow', 'risk']",Risky_resource_management,{'memory overflow': 100}
+4465236f28697a3fc1a7914e5a518d10a9a9fe06,"['memory', 'leak', 'channel']",Risky_resource_management,{'memory leak': 100}
+42e4537b90564926d6ce28136c748ea5e237e8c4,"['stuff', 'fixinhg', 'fiobj', 'hash', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+5af2d3d4501b482ebb19caa5a058291474e0fde6,"['minimize', 'risk', 'crash', 'malloc', 'return', 'null', 'risky', 'implementation', 'check', 'size', 'malloc', 'size', 'value', 'null']",General,{'crash': 100}
+29d9b47caaab2403b08e8dc59998b39e54673641,"['leak', 'case', 'longjmp', 'longjmp', 'case', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+ab00f9482aef641b4d62b1ac3b1911584feffc73,"['cleanup', 'helper', 'exit', 'cluster', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+d00d5eb44d6e3af25d3ec2a80587ad642f937618,"['redis', 'queue', 'exit', 'cleanup', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+e92f5390c22002c66913aff37e5c526d84523669,"['test', 'edge', 'case', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+744569740c3b6d3f042561e42843c1f9b44baedb,"['path', 'traversal', 'attack']",Risky_resource_management,{'path traversal': 100}
+21d49abe363409db9657effa37d8591025af171e,"['loop', 'json', 'test', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+1dbb0adad28782cc59f388fbdd322802f6953d33,"['test', 'expose', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+d7b45942c0756d870f0129ac7f6cb792646740a4,"['parser', 'state', 'confusion', 'redis', 'engine', 'memory', 'leak', 'insignificant']",Risky_resource_management,{'memory leak': 100}
+2a2fffb067ef1e58a8648069613c8a8df9a136e8,"['memory', 'leak', 'pool', 'destruction']",Risky_resource_management,{'memory leak': 100}
+912104adee4cb4e320a1f599c41a09befd9dfe4f,"['possible', 'deadlock']",Risky_resource_management,{'deadlock': 100}

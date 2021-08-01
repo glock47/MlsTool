@@ -1,163 +1,374 @@
-sha,message,catetory,matched,labels
-8f707c40d77eccd1de4f7c7cef94da8a2cb1f9d1,"['mergewpferguson', 'request', 'mergelibrary', 'crash']",Risky_resource_management,{'crash': 100},
-adefa0edf7ac7408e7a3b9ef3075265ab9108a28,"['password', 'player', 'setting', 'security']",General,{'security': 100},
-73d51f29e28522355c28e895843c4fb503aee1a4,"['event', 'crash', 'picker']",Risky_resource_management,{'crash': 100},
-737515330b61ea659ba26c3304563d75f9d2aee9,"['document', 'libomp', 'crash', 'macos']",Risky_resource_management,{'crash': 100},
-b22e42d55e5c399f6f40ba37770deb084b43afec,"['variable', 'gradient', 'clause', 'simplyobject', 'building', 'cmakefiles', 'developcmakefiles', 'developlibxml', 'osmgpsmap', 'whereami', 'libomp', 'pragmas', 'builddirs', 'openjpeg', 'limit', 'external', 'pixman', 'march', 'pango', 'isystem', 'project', 'version', 'wshadow', 'harfbuzz', 'darktable', 'opencl', 'freetype', 'colord', 'native', 'clang', 'error', 'wfatal', 'fopenmp', 'ffast', 'wthread', 'cmakefiles', 'librsvg', 'unknown', 'security', 'luaautoc', 'cairo', 'lensfun', 'blkid', 'werror', 'libmount', 'safety', 'dndebug', 'libsoup', 'fribidi', 'stats', 'varargs', 'wformat', 'address', 'finite', 'openexr', 'libpng', 'pixbuf', 'libsecret', 'wtype', 'graphicsmagick', 'memberattribute', 'variable', 'point', 'fatal', 'error', 'sharingcount', 'schedule', 'point', 'static', 'sharingdefault', 'pragma', 'parallelerrorbugzilla']",General,{'security': 100},
-f994e13134c433eeef995deb6e5fe38c6235acc2,"['invalid', 'crash', 'style']",Risky_resource_management,{'crash': 100},
-0cdae6c3633e0e5d725994ffcf8fc28bd7ca1e8e,"['orientation', 'crash']",Risky_resource_management,{'crash': 100},
-9213e43cb9fe2c1abc2b2862b110f93a00d7efcd,"['picker', 'monochrome', 'color', 'crash', 'image', 'fixingmonochrome', 'image', 'mightpicker', 'darkroom', 'monochrome', 'click', 'exposure', 'empty']",Risky_resource_management,{'crash': 100},
-aba98ef0e4500404e97c6ca203c24937b4bd87bb,"['crash', 'tether', 'histogramcurrent', 'image', 'drawing', 'histogramprofile', 'darktable', 'woulddarkroom', 'retrieve', 'includingappropriate', 'retrievecomment', 'conversion', 'update', 'profilehistogramintroducedstill', 'histogram', 'crash', 'vectorscope', 'tetherprofile']",Risky_resource_management,{'crash': 100},
-28997dc2f350149b11ee4c53e108b47231079801,"['infoline', 'image', 'crash']",Risky_resource_management,{'crash': 100},
-2013d1dc974cb06fd338c8cb1b469cc20c8ef29a,"['crash', 'rotatecould', 'pretty', 'demosaicer']",Risky_resource_management,{'crash': 100},
-a4bf1c079eda3caa5cc497d63d0fd52f2d668288,"['preview', 'pixelpipes', 'crash', 'resolution', 'detail', 'refinement']",Risky_resource_management,{'crash': 100},
-42a760cf7d095dbb13acd404a389e0ebd863e4a2,"['buffer', 'overflow', 'waveform', 'histogramoptimize']",Risky_resource_management,{'buffer overflow': 100},
-fbd79665d505932cbccd5a57f1038e209e7b0226,"['update', 'crash', 'click', 'gradient']",Risky_resource_management,{'crash': 100},
-774563ae47e4c38461ebf12a952bd4e7906fda84,"['misalignedrevert', 'crash']",Risky_resource_management,{'crash': 100},
-91a433a0ba14185f9715b412e8c304be9ad66033,"['overwritepreference', 'option', 'security', 'dialogoverwrite']",General,{'security': 100},
-578d3ffa76cf07d4f6797472a6e95bd9ce9776e8,"['import', 'crash', 'possiblerevert']",Risky_resource_management,{'crash': 100},
-8e9e3c3eda033da6068540242b60636d3b7b7bdc,"['crash', 'exportrevert']",Risky_resource_management,{'crash': 100},
-86c17dbeff6f210fc8f76084a93f486e895ccc9e,"['support', 'legacyroutine', 'formid', 'returnformid', 'module', 'returnnumber', 'crash', 'stillissue', 'image', 'interactive', 'script', 'externalcreate']",Risky_resource_management,{'crash': 100},
-85d0f9619e726393b8937a73af1604745ffe5a1e,"['pointedsegment', 'crash']",Risky_resource_management,{'crash': 100},
-9d91ad5f01cbdb92cdde0799fb6aa3b4584f398a,"['wrong', 'crash']",Risky_resource_management,{'crash': 100},
-f126696f48d922446d94290d03b7129e227daa58,"['crash', 'thumbtableregression']",Risky_resource_management,{'crash': 100},
-764d3d872439b7d7877bfa5122b0c88e3013f3fe,"['arithmetic', 'crash', 'pointer', 'incorrectanother', 'value', 'addition', 'invalid', 'pointer', 'offset', 'causedvariable', 'result', 'store', 'return', 'firstcorrect', 'offset']",Risky_resource_management,{'crash': 100},
-8bc19010861af62c577975c22f1c197f49bf73cd,"['option', 'performance', 'tuninglocal', 'optimize', 'pragma', 'crash', 'ofast', 'insteadpossible']",Risky_resource_management,{'crash': 100},
-a923940efa84bce53c822c59c0f6691ce5833b5b,"['demosaicers', 'window', 'crash']",Risky_resource_management,{'crash': 100},
-1d574f65aafa445334d5ef1ce4b71333d1593078,"['patch', 'cairo', 'revert', 'issue', 'crash', 'macoscommit', 'reverts']",Risky_resource_management,{'crash': 100},
-4609050464153b3a939fa75a739aac19e3aab95c,"['bcddede', 'mergemacos', 'request', 'maguire', 'mergepatch', 'cairo', 'issue', 'crash', 'macos']",Risky_resource_management,{'crash': 100},
-59de697c7308fb3908139962d808d60478cbe1b5,"['patch', 'cairo', 'issue', 'crash', 'macos']",Risky_resource_management,{'crash': 100},
-e4f7fa3ef12ab43e494de9095cf7d6d696412c4d,"['number', 'retouch', 'crash', 'scale', 'large', 'waveletnumber', 'crash', 'scale', 'large', 'waveletstart', 'scalenumber', 'location', 'access', 'width', 'buffer', 'cleanup', 'index', 'offset', 'buffer']",Risky_resource_management,{'crash': 100},
-dd600d1f6e515ad649eeeb0376b58cb8d5bb35a9,"['allocation', 'linux', 'crash', 'release', 'pointer', 'suggestion', 'window', 'occurrence', 'crash', 'malloc', 'debug', 'force', 'offset']",Risky_resource_management,{'crash': 100},
-5224c5de366fc8da6e8eb5a02d9c7a7adbfc5279,"['opencl', 'crash']",Risky_resource_management,{'crash': 100},
-49a4fec9a4450b234f4b445110bc5b576d6a22e0,"['invalid', 'crash', 'module']",Risky_resource_management,{'crash': 100},
-6849893c8899ee9f43e4c1cf59fb105b705ec218,"['addressmemory', 'allocation', 'unchecked', 'issue', 'failsconsole', 'ratheroutright', 'crash']",Risky_resource_management,{'crash': 100},
-9cefa5fd02f87c3fb934e3ade0ea2ebce4cdd9e1,"['basic', 'widget', 'crash']",Risky_resource_management,{'crash': 100},
-f4196e9bc238b7e6bd054d2c6518c941eee4673b,"['crash', 'stillmodule', 'setupbetter']",Risky_resource_management,{'crash': 100},
-8a795003d326bb198b2d15d4fd21ff628ab7394e,"['lacallaplacian', 'opencl', 'crash', 'mipmapedits', 'opencl', 'crash']",Risky_resource_management,{'crash': 100},
-9ebd41be9fc4df56fc2c1fbc50dff90f56e44da4,"['crash', 'viewportframe', 'crash', 'viewportclampframe', 'current', 'center', 'leveloffset', 'returnnumber', 'value', 'negative', 'result']",Risky_resource_management,{'crash': 100},
-62e4498ed7e60b80767782de4beef7796ab18c7b,"['xcode', 'crash', 'compilation', 'macos', 'workaroundpackage']",Risky_resource_management,{'crash': 100},
-8fa28fa96571d18c568713feb2788c3490f094b9,"['crash', 'visibility']",Risky_resource_management,{'crash': 100},
-1ce226e5a978be4b031b70c8c31d62afb5d5560c,"['crash', 'slider', 'shortcut', 'press', 'slider', 'action', 'active', 'moduleplace', 'panel', 'catch', 'crash', 'slider']",Risky_resource_management,{'crash': 100},
-f82ffd53b862003138ab769de0e608838a4716a3,"['buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100},
-157a9d92f3abc6a5c6a07eb90c59583da40babc3,"['namespace', 'exception', 'catchprevious', 'crash', 'version', 'startup']",Risky_resource_management,{'crash': 100},
-bb232560bcc770fb3f8b4291b5cb8367ee6f22f4,"['corrupt', 'issue', 'crash', 'presets', 'module']",Risky_resource_management,{'crash': 100},
-15730d3ffd3b5027d906c7f5e70c965ff5720d79,"['check', 'crash']",Risky_resource_management,{'crash': 100},
-acf061af44fb93d211925b039a30cba0470483f3,"['crash', 'histogramreprocess', 'previewframe', 'image']",Risky_resource_management,{'crash': 100},
-e328b89eaa79c9f06246e5721c0ce55703b03302,"['overrun', 'ensure', 'string', 'check', 'termination', 'buffer']",Risky_resource_management,{'overrun': 100},
-a31cafad5215b3a5cd6c9723850c0fbb507dba02,"['darktable', 'crash']",Risky_resource_management,{'crash': 100},
-c099be03c625fdf6c7dfa8648ce3dadd85ed1f42,"['signal', 'crash']",Risky_resource_management,{'crash': 100},
-0bc99f0441f181924ca1ed4517de9db93e230360,"['darkroom', 'expose', 'crash', 'discussedwrong', 'crash', 'importantpanel', 'right', 'detail', 'modulevalid', 'display']",Risky_resource_management,{'crash': 100},
-b1729ca32af40b44a8b0a1dad618536e1042b85d,"['comment', 'crash', 'audio', 'playingforgotten', 'lighttable', 'value']",Risky_resource_management,{'crash': 100},
-31b580ab5ac17628e85d46c99f3973fd67c7a43c,"['crash', 'scroll', 'thumb', 'empty']",Risky_resource_management,{'crash': 100},
-8cbbb502e745d7eafe988e0360baf61d2fd36b3c,"['bugfix', 'equalizer', 'darktable', 'default', 'consistent', 'equalizer', 'preview', 'pixel', 'correlate', 'input', 'interest', 'recall', 'output', 'matter', 'filter', 'account', 'standard', 'crash', 'function']",Risky_resource_management,{'crash': 100},
-c56855b8c49e9354fe4a8d0b71612926168d8606,"['ioporder', 'crash', 'initialize']",Risky_resource_management,{'crash': 100},
-408ee14d809c3bd82e97c1ceb90608d6c267f4b5,"['store', 'module', 'ordersanity', 'deserialize', 'ensure', 'crash']",Risky_resource_management,{'crash': 100},
-b091943d7ed51e1ca700f950065b389ab222a5cf,"['crash', 'exportcommit']",Risky_resource_management,{'crash': 100},
-5747e766f76893925ce491512e0a1da30d8fb9e1,"['crash', 'movingpossible']",Risky_resource_management,{'crash': 100},
-252564f74f464a160ba5b622bc52e928e68ea5e8,"['frame', 'crash', 'module']",Risky_resource_management,{'crash': 100},
-e1623b10ebd184b13d0287ec1bf1dd50d92e4585,"['crash', 'level']",Risky_resource_management,{'crash': 100},
-e59463a5ddb330525469a9e5d1e71d0e3816f3c9,"['style', 'fixingwrong', 'thing', 'database', 'version', 'stylegratend', 'image', 'style', 'historygreat', 'course', 'style', 'wouldmoment', 'modulemultiple', 'order', 'stylemultiple', 'trouble', 'crash', 'imagethumbnaildatabase', 'version', 'style', 'includingassumtions', 'valid', 'style', 'overhaulcertainlymeant', 'securitytaken', 'style', 'databasemultiple', 'version', 'instance', 'imageincreasedminor', 'style']",Risky_resource_management,{'crash': 100},
-6a6f4ffa044fed3b36e552809a09c7bb3cfc95b9,"['colorpicker', 'crash']",Risky_resource_management,{'crash': 100},
-3587874cbf214ff9043c6769c4897fe48d8c66b6,"['image', 'crash']",Risky_resource_management,{'crash': 100},
-08e9290cd7c7e8a3eb8bb7f783834fc50eaf4884,"['actual', 'bauhaus', 'crash']",Risky_resource_management,{'crash': 100},
-dbdbbcd97445bffd1bc7e9ad6037c91b53a4af66,"['bauhause', 'crash']",Risky_resource_management,{'crash': 100},
-964a3c35056f2c38ad013bf9c4c7eadd8b7f02c5,"['bauhause', 'crash', 'introducedworkaroundsense']",Risky_resource_management,{'crash': 100},
-f0a3ca158d62dbb6917bc77c330c7eb816a1c26e,"['crash', 'preview', 'random']",Risky_resource_management,{'crash': 100},
-5e8d065a747dd67d86955997b5c2ccd03f8b1a02,"['buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100},
-61c602baadbd74194606c8cc021fdfe84efef672,"['mergerequest', 'denoise', 'darktable', 'crash', 'mergecrash', 'denoise']",Risky_resource_management,{'crash': 100},
-28cb231d96bedbe949763cf3b714f2e16ba9dd37,"['module', 'revert', 'crash', 'single', 'params', 'check', 'image', 'addedcommit', 'reverts']",Risky_resource_management,{'crash': 100},
-3d109c55cf03f92e52ff25217e0f98bba5618660,"['module', 'crash', 'single', 'params', 'check', 'image']",Risky_resource_management,{'crash': 100},
-106887d242209d2d3b5d4ecbb8fc4d6d3d21f637,"['relax', 'constraint', 'filmicwhite', 'difficult', 'careful', 'parameter', 'security', 'exposure', 'black', 'constraint']",General,{'security': 100},
-aec9ebf5334b5e6ae5f068e830ab03a6ed6e4435,"['finishedusability', 'crash']",Risky_resource_management,{'crash': 100},
-bbaf668dc12f1ba31626747f881475271c1b0a61,"['saturation', 'color', 'scale', 'slider', 'preservationprevious', 'version', 'edits', 'crash', 'curve', 'segfaults']",Risky_resource_management,{'crash': 100},
-c8a6b91f8523b67758274187ecd4488f5c9b9b0a,"['mergesecurity', 'request', 'security', 'filmic', 'factor', 'rename']",General,{'security': 100},
-457d0c34c984731329de79a0916a75cb11611b28,"['safety', 'security', 'factorsecurity', 'malicious', 'safetyusual', 'safety']",General,{'security': 100},
-b6fe31a658d32934e0fa605b17bd9a1e250225eb,"['picker', 'security', 'color']",General,{'security': 100},
-f07c1998ef5d30f85c29937d6f2c3e819d93e360,"['dynamic', 'range', 'remappingwhite', 'chart', 'point', 'value', 'extreme', 'tuner', 'color', 'black', 'luminance', 'remapunreliable', 'point', 'denominator', 'mathematical', 'reason', 'numerator', 'equation', 'appearswhite', 'optimizer', 'numeric', 'value', 'colorbalance', 'wrong', 'picker', 'tuner', 'reading', 'color', 'remap', 'bugfixconsistent', 'range', 'value', 'extreme', 'dynamic', 'security', 'reproductible', 'factor']",General,{'security': 100},
-4592310f1ba9baec5461bedf323ceb883f246f27,"['ashift', 'empty', 'ensure', 'manualavoid', 'composition', 'possible', 'empty', 'crash']",Risky_resource_management,{'crash': 100},
-48c6ad44017dbd0f0ee12aee31a99948076980ba,"['recent', 'collection', 'unknown', 'crash', 'configconfig']",Risky_resource_management,{'crash': 100},
-bfe8004389fb1f4b0839eaeae969fb74dac10df7,"['import', 'window', 'opening', 'crash', 'gsettings', 'schema', 'error']",Risky_resource_management,{'crash': 100},
-4c0754d03f4152cad437c8369164f769d46f28c0,"['crashmaybe', 'crash', 'necessarilyanother', 'crash', 'gettingsignal', 'lighttableseems', 'crash', 'thingrevisit', 'assumesignal', 'system', 'eithercallback']",Risky_resource_management,{'crash': 100},
-e8d36c823229182453a87835778f2347e93b0503,"['import', 'crash', 'dialogwidget', 'chooser']",Risky_resource_management,{'crash': 100},
-4d8d2c54da804d53dfcba90a65d330e26ed583ce,"['crash', 'translation', 'dialogbuggy']",Risky_resource_management,{'crash': 100},
-35a817263e98ce04dbe6613bcb056f5ec8c4a9b9,"['crash', 'withouthistory', 'crashedsafeguard']",Risky_resource_management,{'crash': 100},
-83f42663f58e471712609bf594615b796973ad3b,"['crash', 'mitigate', 'params', 'function', 'legacywhole', 'subsystem']",Risky_resource_management,{'crash': 100},
-f92f3a2577bda0d2faf73f496b9d687e518dac88,"['unfuck', 'submodule', 'update', 'check', 'addingothers', 'nikon', 'stillleast', 'crash', 'wholeissue']",Risky_resource_management,{'crash': 100},
-d00dde8dd4d581809552bba64262dc3755a52c13,"['xrandr', 'cmstest', 'crash']",Risky_resource_management,{'crash': 100},
-337dd444b5ea5faf49bbce30ad6d49a9f4e83bc6,"['stability', 'security', 'submodule', 'update']",General,{'security': 100},
-6e15b9cc7fcd5b2b7b1a813a8756d2df7453a52e,"['function', 'redundant', 'simplifiedfault', 'segmentation', 'rewrittenfault', 'trigger', 'segmentation', 'howto', 'formerlystructure', 'image', 'readercamera', 'import', 'clickfault', 'import', 'segmentation', 'click', 'select', 'camera', 'imagecommon', 'summary', 'buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100},
-bf8f8480eeca99b4609e937d15c13514921c2401,"['display', 'imagedisplay', 'happensexample', 'issue', 'crash', 'image']",Risky_resource_management,{'crash': 100},
-051511047c3145866bf2d3b57d883d94d90dd33b,"['crash', 'deletedprotect', 'properlyremove', 'iterator', 'history', 'instance']",Risky_resource_management,{'crash': 100},
-08f232f24890f52da951a6f29b9559c6f01637a5,"['revert', 'crash', 'brokencommit', 'reverts']",Risky_resource_management,{'crash': 100},
-6442552e1f12eb88d16e74cb4e081a21aada8ede,"['revert', 'crash', 'brokencommit', 'reverts']",Risky_resource_management,{'crash': 100},
-a8c3ea7e0e3c950f59701797abc14f0cdb179c78,"['profile', 'crash']",Risky_resource_management,{'crash': 100},
-40b6a4cea9133adf60a3c258ae34595daf6e642a,"['invert', 'deadlock']",Risky_resource_management,{'deadlock': 100},
-e3699591082823f91c7348f6bcd3005c489bee71,"['memory', 'cache', 'crash', 'corruption', 'generatereproducedissue', 'generate']",Risky_resource_management,{'crash': 100},
-ce77e71f8b698230b76832071408a2e90284655b,"['variable', 'pixelpipe', 'duplicte', 'local', 'moduleeasier', 'crash', 'access', 'withincontext']",Risky_resource_management,{'crash': 100},
-1b09247740c5fef2c30b8cb93d73bd4a85075f85,"['crash', 'presetsbroke']",Risky_resource_management,{'crash': 100},
-932ba2e986748d3ff6bc6b6a766ba92044b99c09,"['insteadbuild', 'debiancommon', 'format', 'argument', 'pkgbuilddir', 'security', 'error', 'werror', 'literal', 'stringsizeof', 'filenamecommon', 'function', 'pkgbuilddircommon', 'format', 'argument', 'pkgbuilddir', 'security', 'error', 'werror', 'literal', 'stringsizeof', 'filename']",General,{'security': 100},
-74107186ffcef0be1911aeff5dc822c6137210e5,"['security', 'werror', 'format']",General,{'security': 100},
-15fadec67a73f456f281f21d5375579d76ccf8ad,"['integer', 'crash', 'overflow', 'rawspeedcheck', 'enoughnegative', 'number', 'rects', 'addingprevious']",Risky_resource_management,{'crash': 100},
-c48d30ba426c7ffe47f6aaea61bef8b8f9433485,"['crash', 'rawspeedstrike', 'whenever', 'overflowquantity', 'overflowresult']",Risky_resource_management,{'crash': 100},
-474b4841d64b7fd57c1ea1f34f8c3a2b2d26a52a,"['crash', 'opcode', 'rawspeednumber', 'point', 'wouldallow', 'negative', 'rectangle', 'negative', 'large', 'offset', 'allowingbound', 'positive', 'causenegative', 'reject']",Risky_resource_management,{'crash': 100},
-9a036792a5b10e3d3b0426aa1bd56d3b9da9b2db,"['colorout', 'crash']",Risky_resource_management,{'crash': 100},
-3361f5d93faa75c1a936b4f20fd5bc4320cf33ec,"['crash', 'finalscale']",Risky_resource_management,{'crash': 100},
-5e7dc06bb09e30c9208365c182919011b56c1b22,"['metadata', 'crash', 'handlingblock', 'check', 'pointer', 'dereference']",Risky_resource_management,{'crash': 100},
-2ee6a51920677adbbbb133d081a9ab99288e2400,"['ashift', 'crash']",Risky_resource_management,{'crash': 100},
-5839bcfba616ee209381b7888c493f445684a4c2,"['empty', 'string', 'crash', 'rawspeedentry', 'string', 'emptyallocate', 'position', 'arrayempty']",Risky_resource_management,{'crash': 100},
-53635678debdc3846530db3bc088d864786972b0,"['dereferencememory', 'overrun', 'detectedmemory', 'potential']",Risky_resource_management,{'overrun': 100},
-92a90c988fb8c3a11169603b7c96c682b804bea1,"['memory', 'overrun', 'detectedmemory', 'overrun', 'illegal', 'access']",Risky_resource_management,{'overrun': 100},
-e51af402d85471a993b9694052f54f5c929391f0,"['crash', 'rotatepixels', 'demosaic']",Risky_resource_management,{'crash': 100},
-cd02f6af8896e1825c6a4e761f451beefdcfff15,"['crash', 'commitintrospection', 'version']",Risky_resource_management,{'crash': 100},
-01b24dbf0d1f691e905c19745b1a57c239fdf7d4,"['mouse', 'crash', 'movingready', 'preview']",Risky_resource_management,{'crash': 100},
-92dd3e23ad8ad8149848eb804660e5693568619c,"['opencl', 'darktableinitialization', 'device', 'opengl', 'openclscreen', 'program', 'crash', 'worstviewer', 'darktable', 'opencl']",Risky_resource_management,{'crash': 100},
-30167b5f8b667facaea6ff4c1b2a9d96b6ab395e,"['wouldsanitize', 'crash', 'value', 'crash', 'reading']",Risky_resource_management,{'crash': 100},
-57c6a28c29556881851997bb812e4b383aeea13c,"['revert', 'crash', 'disablecommit', 'reverts']",Risky_resource_management,{'crash': 100},
-74f2632206090a0dfd2cc7ddb91a875f22a9347b,"['mergerequest', 'import', 'darktable', 'crash', 'mergeimport', 'possible', 'dialog']",Risky_resource_management,{'crash': 100},
-b59bbaa59f9394a84d24f63785e9568479ba687e,"['print', 'crash', 'settingsometimes', 'reasong']",Risky_resource_management,{'crash': 100},
-a4b2b6557b2ebd2fdd8d39853a653df4b83f8897,"['crash', 'image']",Risky_resource_management,{'crash': 100},
-49be098d067aa8ed48828b630541daed3ebf24c7,"['warning', 'formatreason', 'warning', 'triggerobject', 'imageio', 'format', 'building', 'cmakefilesimageio', 'warning', 'string', 'formatinsecure', 'security', 'wformat', 'literal', 'potentiallyprofile', 'output', 'selectedinclude']",General,{'security': 100},
-62e3c4700d4281f7465b9fb7bb42e33a85d43a33,"['possible', 'likely', 'deadlock']",Risky_resource_management,{'deadlock': 100},
-4b63294d89b7b4f61576994431d9c7999a34284d,"['crash', 'shortimage', 'thread', 'commandobject', 'stack', 'crash', 'assumes']",Risky_resource_management,{'crash': 100},
-1768a4375c4d78324f8e57265aa47078288788b4,"['crash', 'mitigatesobject', 'function']",Risky_resource_management,{'crash': 100},
-eaf9635a00bacf0cd6eb3b647ec6e544c4088136,"['object', 'crash', 'unbind']",Risky_resource_management,{'crash': 100},
-1d3e8cc8c90a9f9effaeedb167ac101c2fe64bd4,"['buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100},
-401202901f0b694b1395561a5720a5e96d1dc383,"['iconifysignal', 'shutdown', 'iconify', 'crash', 'withoutfigure', 'close', 'betterseems', 'callback', 'usinglebedevri', 'minute', 'shutdown', 'hanatos']",Risky_resource_management,{'crash': 100},
-7acc584d74451eccac39d62a785041799cabc59b,"['darkroom', 'crash']",Risky_resource_management,{'crash': 100},
-1f3ba1069487fa8c927735cbb5f6ca7fedef508c,"['writer', 'pthread', 'worker', 'storepthreadid', 'thread', 'deadlock', 'rwlock', 'debuggingsimilar', 'potentiallyrightarray', 'reader', 'current', 'potentiallydetect', 'thread', 'currentacquire']",Risky_resource_management,{'deadlock': 100},
-0b5ec1d2f76709f380d1c4e222ebfc1e6f52c1f2,"['crash', 'printingerror', 'message']",Risky_resource_management,{'crash': 100},
-b25a923fd6b04152ee815944cc7e6ae13fdd8ffa,"['thumb', 'monochrome', 'changingsporadic', 'crash']",Risky_resource_management,{'crash': 100},
-7e0b09a4fbaa93db39e6135bc7f4c678932f546c,"['revert', 'crashy', 'modulecommit', 'reverts']",Risky_resource_management,{'crashy': 91},
-697b89ebac31763a91fbd08f3004d07a5b873540,"['crash', 'position']",Risky_resource_management,{'crash': 100},
-916b032a1c5f6b0a66411424ca8837e221592efb,"['issue', 'crash']",Risky_resource_management,{'crash': 100},
-9a2c213f299084a7c587f57fb4dc86195448a963,"['buffer', 'overflow', 'rawspeedchange', 'incorrect', 'calloc', 'klaus', 'malloc', 'seemsfdcfdecbbfbccca', 'replaces']",Risky_resource_management,{'buffer overflow': 100},
-ec2db8229dbfb7fbbcc16764b3e372bb973defb7,"['crash', 'strict', 'compilation', 'params', 'option']",Risky_resource_management,{'crash': 100},
-b65264cefacdb2e95b6a8bd2a50244675c17491d,"['crash', 'preset']",Risky_resource_management,{'crash': 100},
-c5631b6b8d1ae584cd78240af58e6750e299c756,"['deadlock', 'segfaults', 'cache', 'couple']",Risky_resource_management,{'deadlock': 100},
-1363ad2860d2c08b25f5608bb12354a615d47f44,"['crash', 'thumbcrash']",Risky_resource_management,{'crash': 100},
-177b49e3e639cf25eeda85b09cf6ce9321044167,"['image', 'overflow', 'right', 'corner', 'bottom', 'crash', 'imagehandle', 'similar', 'check']",Risky_resource_management,{'crash': 100},
-3ceb1af5a5111c24fa8b07c1e0b53675ec8350e2,"['deadlock', 'mipmap', 'safetycommit', 'reverts']",Risky_resource_management,{'deadlock': 100},
-7735bc3b64727f02cfaa36b20705a2202a1d9087,"['deadlock', 'mipmap', 'safetycommit', 'reverts']",Risky_resource_management,{'deadlock': 100},
-f225278d7981fefdaf9ae1c205d33dbd06f619c1,"['deadlock', 'mipmap', 'safety']",Risky_resource_management,{'deadlock': 100},
-751e12c2e57a978bac6d529730824d9d5ce899a6,"['entry', 'crash', 'brokenactual', 'crash']",Risky_resource_management,{'crash': 100},
-db519b5d22b6c1579cc523c9777e7bd768fcb2a9,"['filename', 'crash', 'string', 'modifiedbroken', 'cadcecccdbdfefound', 'commitinitial', 'phane', 'gourichon', 'bugreport', 'thanks']",Risky_resource_management,{'crash': 100},
-c295b232265dd27d6e687fc047bc6cc60c9bd114,"['crash', 'presets', 'parameter', 'addition', 'storagealways', 'version', 'reportparameter', 'point', 'storage']",Risky_resource_management,{'crash': 100},
-2f3ec4a13f761011739de3894e0b9dbc1a9aba30,"['legacy', 'infrastructure', 'update', 'crash', 'temperature', 'presets']",Risky_resource_management,{'crash': 100},
-4b2ea91e543fa727d31f679b7100ece10b134169,"['legacy', 'rawdenoise', 'infrastructure', 'update', 'crash', 'presets']",Risky_resource_management,{'crash': 100},
-4d163905df9ddf7d1b5e689e249b6ee6c2eef30f,"['legacy', 'infrastructure', 'update', 'crash', 'highlight', 'presets']",Risky_resource_management,{'crash': 100},
-4a0b96c32e7193f4a091c6175b37b8f5c38efdad,"['legacy', 'infrastructure', 'update', 'crash', 'presets']",Risky_resource_management,{'crash': 100},
-50531ed5df9da728bdf6e50bde2de04c0400875b,"['legacy', 'infrastructure', 'update', 'crash', 'demosaic', 'presets']",Risky_resource_management,{'crash': 100},
-3c3661b691e23b7d631ee6e6ce7612a5b5bc60da,"['legacy', 'infrastructure', 'update', 'crash']",Risky_resource_management,{'crash': 100},
-b6bdb5463ead587f6bd8658adc72c4ec1aa9b52c,"['legacy', 'infrastructure', 'update', 'crash', 'cacorrect', 'presets']",Risky_resource_management,{'crash': 100},
-6fd03cd841753039d4f139185d8e62435f4f15b3,"['legacy', 'infrastructure', 'update', 'crash', 'colorin', 'presetssimilar']",Risky_resource_management,{'crash': 100},
-bba510046cc6f84d1db8d740487b90cef1ef6a91,"['fbbearequest', 'garbage', 'dtorop', 'crash', 'mergeeliminate', 'crash', 'garbage']",Risky_resource_management,{'crash': 100},
-5214d1409e939d0f70695458e8d2c434c0f2bb77,"['ffcfe', 'mergerequest', 'upegelow', 'mergevalid', 'crash', 'database', 'entry']",Risky_resource_management,{'crash': 100},
-ffc97f69e25779ce0fdfe4e99561dc99435486ef,"['crash', 'database', 'entrytolerate', 'invalid']",Risky_resource_management,{'crash': 100},
-3da58f90ea517117d4e8a9ab9d479f7d1b1785fc,"['stack', 'crash']",Risky_resource_management,{'crash': 100},
-f74f28b8b3ccabac9904c19919fe0aadf3927956,"['crash', 'directory', 'createcommit', 'reverts']",Risky_resource_management,{'crash': 100},
-ed5b6d66bbed246f0214bdff301963a0f8ed74b5,"['small', 'crash', 'image', 'grain']",Risky_resource_management,{'crash': 100},
-aa9a36330fafe0b965c47c255f52e59e174badab,"['legacy', 'infrastructure', 'update', 'crash', 'presets']",Risky_resource_management,{'crash': 100},
-e0e7f87838f2e431bc9486607b0652253f701e01,"['original', 'revert', 'crash', 'preliminary', 'reproducecommit', 'reverts']",Risky_resource_management,{'crash': 100},
-f6129f8a352dd99037d98d5f8c51680ffb889ada,"['original', 'crash', 'preliminary', 'reproducedarktable', 'issuecomment']",Risky_resource_management,{'crash': 100},
-e7eac4fb3d9e13f7604cc68ef616de28b01b9523,"['crash', 'pmjdebrujn']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+8f707c40d77eccd1de4f7c7cef94da8a2cb1f9d1,"['pull', 'request', 'wpferguson', 'library', 'crash']",General,{'crash': 100}
+adefa0edf7ac7408e7a3b9ef3075265ab9108a28,"['setting', 'security', 'password', 'player', 'setting', 'security']",General,{'security': 100}
+043efaa280bd6b58e1e5e1ba0b7457ca55c28e6b,"['utility', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+0ccb64aa890bd9fb2f659d2f6150f3f77ff0792e,"['utility', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+85ba89433d9348799aaa569cf81bc1203a30bdce,"['utility', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+377e71e0e3667a54e2bb893f58cd81ad745cb9e9,"['previous', 'view', 'reverts', 'crash', 'case']",General,{'crash': 100}
+582669fdc0a0654b259a354d19247b43e71d6cb4,"['double', 'free', 'introduces']",Risky_resource_management,{'double free': 100}
+cf8c5b81683ca9cd977811e8316997992f055236,"['crash', 'null']",General,{'crash': 100}
+4de7c173c3058d766904f047c490e6bc947b9d58,"['free', 'concurrent', 'code', 'free', 'directory', 'name', 'copy', 'process', 'multiple', 'attempt', 'free', 'string', 'background', 'thread', 'original', 'free', 'task', 'patch', 'leaf', 'memory', 'leak', 'copy', 'operation', 'place']",Risky_resource_management,{'memory leak': 100}
+737515330b61ea659ba26c3304563d75f9d2aee9,"['document', 'libomp', 'crash', 'workaround']",General,{'crash': 100}
+b92f43f3a35c9abf5bd07faeecbf4877f6b86cdb,"['pull', 'request', 'ralfbrown', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+f7a72f43ae2cee3dd88fcf5d563a1b2707a717dc,"['pull', 'request', 'ralfbrown', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+213d0311d66b85dff3b34ceea80e6efec1942672,"['various', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+cefce008f7f55d5943e4ea4db87f0e6d935babec,"['crash', 'window']",General,{'crash': 100}
+4cb73869831dc2fa113415bc123c88f9b884614c,"['pull', 'request', 'ralfbrown', 'various', 'small', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+b22e42d55e5c399f6f40ba37770deb084b43afec,"['mask', 'gradient', 'firstprivate', 'wrong', 'building', 'object', 'cmakefiles', 'mask', 'gradient', 'cmakefiles', 'mask', 'gradient', 'builddirs', 'llvm', 'project', 'clang', 'clang', 'ibin', 'external', 'luaautoc', 'ilib', 'external', 'external', 'whereami', 'isystem', 'external', 'isystem', 'external', 'opencl', 'isystem', 'external', 'external', 'isystem', 'glib', 'isystem', 'linux', 'isystem', 'isystem', 'isystem', 'isystem', 'dbus', 'isystem', 'linux', 'dbus', 'isystem', 'unix', 'isystem', 'cairo', 'isystem', 'pango', 'isystem', 'fribidi', 'isystem', 'harfbuzz', 'isystem', 'isystem', 'pixman', 'isystem', 'uuid', 'isystem', 'freetype', 'isystem', 'libpng', 'isystem', 'pixbuf', 'isystem', 'libmount', 'isystem', 'blkid', 'isystem', 'libxml', 'isystem', 'libsoup', 'isystem', 'openexr', 'isystem', 'lensfun', 'isystem', 'librsvg', 'isystem', 'glib', 'isystem', 'openjpeg', 'isystem', 'libsecret', 'isystem', 'graphicsmagick', 'isystem', 'isystem', 'osmgpsmap', 'isystem', 'stats', 'march', 'native', 'fopenmp', 'version', 'wall', 'wformat', 'wformat', 'security', 'wshadow', 'wtype', 'limit', 'wvla', 'wthread', 'safety', 'unknown', 'pragmas', 'error', 'varargs', 'error', 'address', 'member', 'fopenmp', 'libomp', 'march', 'native', 'msse', 'dndebug', 'ffast', 'math', 'finite', 'math', 'fpic', 'werror', 'wfatal', 'error', 'error', 'fopenmp', 'version', 'cmakefiles', 'mask', 'gradient', 'cmakefiles', 'mask', 'gradient', 'cmakefiles', 'mask', 'gradient', 'mask', 'gradient', 'mask', 'gradient', 'fatal', 'error', 'variable', 'point', 'attribute', 'schedule', 'static', 'point', 'mask', 'gradient', 'note', 'explicit', 'data', 'pragma', 'parallel', 'simd', 'default', 'http', 'llvm', 'http', 'bugzilla']",General,{'security': 100}
+1532979f068faa2807110c0f4d8e492ee820fcef,"['additional', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+ce0e27555ac2604e60c39f9e0ca082dd99ce7a24,"['various', 'small', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+94be29895bf580f226f6f574d86e5751b9cc84b6,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+0cdae6c3633e0e5d725994ffcf8fc28bd7ca1e8e,"['crash', 'orientation', 'module']",General,{'crash': 100}
+9213e43cb9fe2c1abc2b2862b110f93a00d7efcd,"['color', 'picker', 'crash', 'monochrome', 'image', 'true', 'monochrome', 'image', 'open', 'monochrome', 'darkroom', 'empty', 'history', 'open', 'exposure', 'module', 'click', 'picker', 'monochrome', 'workflow']",General,{'crash': 100}
+1fd4a1f10edee2287596eb4c21a8a237a6a72d40,"['event', 'revert', 'part', 'strdup', 'result', 'double', 'free', 'crash', 'trigger', 'event']",Risky_resource_management,{'double free': 100}
+1c6d274a998e192b3054209764ea5bf43328c1e5,"['import', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+481978bcad0b44da636e2bd396dc3a774c13712b,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+aba98ef0e4500404e97c6ca203c24937b4bd87bb,"['tether', 'histogram', 'crash', 'drawing', 'current', 'image', 'view', 'histogram', 'profile', 'retrieve', 'value', 'darkroom', 'view', 'work', 'hand', 'case', 'work', 'output', 'retrieve', 'appropriate', 'profile', 'update', 'comment', 'profile', 'conversion', 'histogram', 'process', 'view', 'code', 'todo', 'vectorscope', 'crash', 'tether', 'view', 'histogram', 'profile', 'work']",General,{'crash': 100}
+28997dc2f350149b11ee4c53e108b47231079801,"['infoline', 'crash', 'image', 'info']",General,{'crash': 100}
+2ff4fc58e442cec464444042c0be4ac84352196b,"['zero', 'zero', 'crash', 'friend', 'problem', 'zero', 'code', 'performance', 'specific', 'code', 'local', 'timer', 'intel', 'xeon', 'clock', 'rate', 'consitant', 'result', 'function', 'specific', 'code', 'compiler', 'code', 'number', 'core', 'matter', 'measurable', 'execution', 'time', 'specific', 'code', 'code', 'burden', 'performance', 'header', 'bayer', 'image', 'sure', 'zero', 'buggy', 'file']",General,{'crash': 100}
+2013d1dc974cb06fd338c8cb1b469cc20c8ef29a,"['rotate', 'crash', 'demosaicer', 'pretty', 'large', 'image', 'error', 'section', 'reset', 'null']",General,{'crash': 100}
+ff674664b4f56d0a7a685c878e361ce2c41f9c2a,"['histogram', 'possible', 'vectorscope', 'buffer', 'overflow', 'underflow', 'data']",Risky_resource_management,{'buffer overflow': 100}
+a4bf1c079eda3caa5cc497d63d0fd52f2d668288,"['crash', 'preview', 'pixelpipes', 'luminance', 'mask', 'preview', 'detail', 'refinement']",General,{'crash': 100}
+48ebc4d56cf37784aa6a8fc364a96dd8666b2256,"['signify', 'user', 'persist', 'image', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+42a760cf7d095dbb13acd404a389e0ebd863e4a2,"['histogram', 'waveform', 'buffer', 'overflow', 'tidy', 'optimize', 'code']",Risky_resource_management,{'buffer overflow': 100}
+fbd79665d505932cbccd5a57f1038e209e7b0226,"['gradient', 'crash', 'click', 'drag', 'update', 'hint']",General,{'crash': 100}
+774563ae47e4c38461ebf12a952bd4e7906fda84,"['mask', 'revert', 'febbbb', 'rawprepare', 'crash', 'need']",General,{'crash': 100}
+6cf9e2e0860cc0ded895887a17b58ea147c2e2ae,"['crash', 'memory', 'leak', 'free', 'value', 'need', 'integer', 'difference', 'memory', 'allocation', 'code', 'error', 'clang']",Risky_resource_management,{'memory leak': 100}
+7681338b17dea3ba4752f8864ca76f84a94ce2f4,"['dual', 'demosaicers', 'inline', 'function', 'access', 'crash', 'array', 'access']",General,{'crash': 100}
+1573d9c0440decc6e6f616de0591719dbfed3582,"['module', 'user', 'aware', 'history', 'problem', 'aware', 'history', 'problem', 'issue', 'history', 'item', 'presets', 'style', 'copy', 'paste', 'image', 'vice', 'versa', 'sure', 'problem', 'crash', 'check', 'small', 'amount', 'time', 'wrong', 'screen', 'message', 'necessary']",General,{'crash': 100}
+91a433a0ba14185f9715b412e8c304be9ad66033,"['option', 'security', 'preference', 'dialog', 'overwrite', 'mode']",General,{'security': 100}
+ba50803b274ef2ebf3e8c45e4caea1432d94b1cf,"['double', 'free']",Risky_resource_management,{'double free': 100}
+578d3ffa76cf07d4f6797472a6e95bd9ce9776e8,"['import', 'possible', 'crash', 'eece', 'revert', 'part', 'equivalent', 'widget']",General,{'crash': 100}
+8e9e3c3eda033da6068540242b60636d3b7b7bdc,"['crash', 'module', 'revert', 'part', 'equivalent', 'widget']",General,{'crash': 100}
+4c4400a1dbb83b0bbe9ad1a5b5932de09f81dec7,"['revise', 'loop', 'glist', 'loop', 'part', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+58ca12fac7f37af94ca6fbe81f9d2fdeadee992e,"['revise', 'loop', 'glist', 'loop', 'part', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+e8b9117686d91a0105e0418a5c99bb73edb6d079,"['additional', 'memory', 'leak', 'return', 'string', 'need', 'duplicate']",Risky_resource_management,{'memory leak': 100}
+25d8cce320b7304fc0d35e02fbdde37b986dc5fc,"['revise', 'loop', 'glist', 'loop', 'part', 'memory', 'leak', 'return', 'value']",Risky_resource_management,{'memory leak': 100}
+32ea99cf0e4f006cff4957381b83a4d004f7fe2f,"['revise', 'loop', 'glist', 'loop', 'part', 'multiple', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+769fb48ee43a81ddeb3592f5dbcd6b078cc1fe1c,"['revise', 'loop', 'glist', 'loop', 'part', 'memory', 'leak', 'list', 'pointer', 'free', 'list']",Risky_resource_management,{'memory leak': 100}
+4abd86b5dee5b67f584bca14c3b8764ab571dc64,"['revise', 'loop', 'glist', 'loop', 'part', 'memory', 'leak', 'original', 'pointer', 'need']",Risky_resource_management,{'memory leak': 100}
+83536cb43dbc9efa2e4b56f08d7227cf3499b10e,"['revise', 'loop', 'glist', 'loop', 'part', 'memory', 'leak', 'separate', 'pointer', 'iterate', 'list']",Risky_resource_management,{'memory leak': 100}
+43f4ac7dc566225b08820513ee42de92e11e696d,"['additional', 'loop', 'double', 'free', 'crash', 'process', 'free', 'fixing', 'function', 'pointer', 'cast']",Risky_resource_management,{'double free': 100}
+86c17dbeff6f210fc8f76084a93f486e895ccc9e,"['mask', 'legacy', 'support', 'spot', 'removal', 'routine', 'return', 'formid', 'time', 'null', 'loop', 'form', 'spot', 'module', 'fast', 'return', 'formid', 'form', 'form', 'number', 'ensure', 'unicity', 'crash', 'form', 'image', 'spot', 'example', 'issue', 'mask', 'external', 'script', 'interactive']",General,{'crash': 100}
+85d0f9619e726393b8937a73af1604745ffe5a1e,"['path', 'list', 'node', 'data', 'node', 'crash', 'drag', 'segment', 'path', 'mask']",General,{'crash': 100}
+447e889abd8a2d21c67282bfcfa364a862f044a3,"['buffer', 'overflow', 'problem', 'demosaicer']",Risky_resource_management,{'buffer overflow': 100}
+9c3b6ee9626663fe1a1aac956f31e4875fc3a458,"['glist', 'speedup', 'scan', 'copy', 'entire', 'list', 'necessary', 'glist', 'speedup', 'scan', 'entire', 'list', 'introduce', 'function', 'memory', 'leak', 'short', 'circuit', 'return']",Risky_resource_management,{'memory leak': 100}
+9d91ad5f01cbdb92cdde0799fb6aa3b4584f398a,"['wrong', 'type', 'cast', 'crash', 'undo']",General,{'crash': 100}
+41fb69cb27412e9237423abe8aeb589993c873aa,"['image', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+53a246ef3d8c729b82478e1681ee767276a5b133,"['brush', 'simplify', 'crash']",General,{'crash': 100}
+20045d6ade6ca6cb65dfa7edfb3a4b422f8667ef,"['modulegroups', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+f126696f48d922446d94290d03b7129e227daa58,"['thumbtable', 'crash', 'regression', 'dada']",General,{'crash': 100}
+4855a981b952532c4092f0f5629a9f1ed40023bb,"['geotag', 'timezone', 'clean', 'memory', 'leak', 'tooltip', 'refresh']",Risky_resource_management,{'memory leak': 100}
+e4cb58aecb6daf2adbdd61d68e95ab5651b0ef97,"['empty', 'glist', 'null', 'pointer', 'need', 'scan', 'entire', 'list', 'list', 'empty']",Risky_resource_management,{'null pointer': 100}
+bda6773c3df5bff553cbb7ddc20bbd19e557c869,"['modulegroups', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+0c2dd145cb9b9dc0211372e287609f0d2251b4a0,"['pull', 'request', 'ralfbrown', 'memleak', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+5298e79b9d41c3eba1a587dbef79d6954003ba6f,"['plug', 'memory', 'leak', 'cairo', 'surface', 'multiple', 'megabyte', 'memory', 'cumulative', 'leak']",Risky_resource_management,{'memory leak': 100}
+3d0e0e69b3c8786d33e9777bbf9d36875374bcd7,"['event', 'callback', 'destruction', 'event', 'name', 'field', 'event', 'registration', 'access', 'event', 'check', 'event', 'creation', 'nasty', 'crash', 'comment', 'case', 'event', 'function', 'declaration', 'event', 'declaration', 'data', 'luarc', 'event', 'registration', 'argument']",General,{'crash': 100}
+764d3d872439b7d7877bfa5122b0c88e3013f3fe,"['crash', 'incorrect', 'pointer', 'arithmetic', 'addition', 'return', 'value', 'void', 'invalid', 'pointer', 'offset', 'return', 'value', 'store', 'result', 'variable', 'offset', 'ensure']",General,{'crash': 100}
+2765908eb7cc4afc874f18781e034ef764b5fab3,"['integer', 'wraparound', 'large', 'value']",Risky_resource_management,{'integer wraparound': 100}
+8bc19010861af62c577975c22f1c197f49bf73cd,"['safe', 'performance', 'local', 'pragma', 'optimize', 'fast', 'math', 'safe', 'ofast', 'lead', 'crash']",General,{'crash': 100}
+a923940efa84bce53c822c59c0f6691ce5833b5b,"['crash', 'window', 'dual', 'demosaicers']",General,{'crash': 100}
+1d574f65aafa445334d5ef1ce4b71333d1593078,"['revert', 'issue', 'cairo', 'patch', 'crash', 'macos', 'reverts']",General,{'crash': 100}
+4609050464153b3a939fa75a739aac19e3aab95c,"['pull', 'request', 'matt', 'maguire', 'macos', 'issue', 'cairo', 'patch', 'crash', 'macos']",General,{'crash': 100}
+59de697c7308fb3908139962d808d60478cbe1b5,"['issue', 'cairo', 'patch', 'crash', 'macos']",General,{'crash': 100}
+e4f7fa3ef12ab43e494de9095cf7d6d696412c4d,"['retouch', 'crash', 'large', 'number', 'wavelet', 'scale', 'crash', 'large', 'number', 'wavelet', 'scale', 'access', 'location', 'buffer', 'scalenumber', 'width', 'code', 'cleanup', 'index', 'buffer', 'offset']",General,{'crash': 100}
+dd600d1f6e515ad649eeeb0376b58cb8d5bb35a9,"['force', 'crash', 'linux', 'free', 'release', 'occurrence', 'window', 'crash', 'corresponding', 'free', 'force', 'free', 'crash', 'offset', 'pointer', 'debug', 'window', 'system']",General,{'crash': 100}
+76e938d55b21c784efc7c5b124f2d6eef284ae01,"['histogram', 'process', 'sure', 'compiler', 'buffer', 'pointer', 'value', 'integer', 'point', 'math', 'result', 'test', 'clarify', 'variable', 'name', 'loop', 'pointer', 'input', 'output', 'array', 'hope', 'making', 'crash', 'proof', 'code', 'macos']",General,{'crash': 100}
+49a4fec9a4450b234f4b445110bc5b576d6a22e0,"['exif', 'crash', 'invalid', 'module']",General,{'crash': 100}
+6849893c8899ee9f43e4c1cf59fb105b705ec218,"['null', 'address', 'root', 'unchecked', 'memory', 'issue', 'allocation', 'yell', 'console', 'outright', 'crash']",General,{'crash': 100}
+fff359ee012e27bef3ebfcdbfd3517f5a10dfb99,"['mask', 'path', 'null', 'point', 'search', 'possibility']",Risky_resource_management,{'null point': 91}
+545b7e804166094b28b81308455e2e4f1baca76e,"['pull', 'request', 'johnny', 'integer', 'overflow', 'calculation']",Risky_resource_management,{'integer overflow': 100}
+c6c4ade0a44b2cf718f4d61078a4e108c04887f0,"['mask', 'crash', 'undo', 'module', 'mask', 'support']",General,{'crash': 100}
+edae76966faa34ed9824caf85078a4d54c850865,"['integer', 'overflow', 'memset', 'size', 'incorrect', 'assumption', 'data', 'size', 'force', 'calculation', 'dependent']",Risky_resource_management,{'integer overflow': 100}
+9cefa5fd02f87c3fb934e3ade0ea2ebce4cdd9e1,"['crash', 'widget']",General,{'crash': 100}
+fd252e449347bb78730537a938ef162861482e74,"['memory', 'leak', 'bauhaus', 'cleanup', 'exit', 'free', 'keymap', 'lengthy', 'list', 'leak']",Risky_resource_management,{'memory leak': 100}
+8a795003d326bb198b2d15d4fd21ff628ab7394e,"['lacallaplacian', 'opencl', 'crash', 'mipmap', 'opencl', 'path', 'edits', 'crash']",General,{'crash': 100}
+191815f9be58d344f5fd629ea87fafe2f1b863b7,"['darkroom', 'crash', 'panel']",General,{'crash': 100}
+bec3ee22f08a3d847f237c47914984758ed70073,"['buffer', 'overrun', 'incorrect', 'offset']",Risky_resource_management,{'overrun': 100}
+8a449fb705a42fe0fbdd8a3fe0bacff3d7e44060,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+9ebd41be9fc4df56fc2c1fbc50dff90f56e44da4,"['crash', 'border', 'frame', 'viewport', 'crash', 'border', 'frame', 'viewport', 'clamp', 'negative', 'frame', 'current', 'zoom', 'level', 'center', 'display', 'return', 'offset', 'image', 'width', 'result', 'negative', 'value', 'number', 'pixel', 'copy', 'blit', 'loop', 'ensure', 'blit']",General,{'crash': 100}
+b96b3e7399086821241e6a668c09210e83af1e6f,"['path', 'crash', 'access', 'crash', 'hard', 'reproduce', 'patch', 'ensure', 'index', 'access', 'binter', 'minor', 'speed', 'improvment', 'sanity', 'check', 'value']",General,{'crash': 100}
+838418e384a8b95ebd14cfc48eb553be7b913705,"['filmicrgb', 'memory', 'leak', 'iccprofile', 'version', 'code']",Risky_resource_management,{'memory leak': 100}
+571f75125288d4819a281e8c1fb7945c72528d19,"['bauhaus', 'memory', 'leak', 'pango', 'font']",Risky_resource_management,{'memory leak': 100}
+911fe6b5343cea755485da5948586c987a76b9e7,"['filmicrgb', 'memory', 'leak', 'iccprofile']",Risky_resource_management,{'memory leak': 100}
+1f2ae08bf02ac21848a81403511be4f67ef50a6d,"['struct', 'memory', 'leak', 'layout', 'font', 'description']",Risky_resource_management,{'memory leak': 100}
+62e4498ed7e60b80767782de4beef7796ab18c7b,"['macos', 'workaround', 'compilation', 'crash', 'xcode']",General,{'crash': 100}
+325b696289443de9bbdc9121a668dc4f1d76f9c0,"['modulegroups', 'possible', 'access', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+8fa28fa96571d18c568713feb2788c3490f094b9,"['crash', 'visibility']",General,{'crash': 100}
+49904d5a436ba870184d784d85ccbbcce8798222,"['consts', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+762134567bd4021ffedfcf6a1db0bf45d139fc60,"['imageop', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+1ce226e5a978be4b031b70c8c31d62afb5d5560c,"['edit', 'shortcut', 'shortcut', 'edit', 'action', 'slider', 'module', 'active', 'group', 'press', 'check', 'slider', 'visible', 'catch', 'case', 'crash', 'slider', 'edit', 'area', 'unexpected', 'place', 'unexpected', 'size', 'panel']",General,{'crash': 100}
+660dc2357454483953c1c3650ad8a1df6996e546,"['imageop', 'description', 'return', 'const', 'char', 'module', 'description', 'return', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+eae3707d185fede79d82f28b63221ead73591e41,"['memory', 'leak', 'imageop', 'module', 'label']",Risky_resource_management,{'memory leak': 100}
+f82ffd53b862003138ab769de0e608838a4716a3,"['buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100}
+1237d048dfeec1c2253692f9f4e59e38465bee92,"['border', 'load', 'crash', 'system', 'load', 'segfault', 'color', 'image', 'border', 'array', 'image', 'speed', 'difference', 'matter', 'crash']",General,{'crash': 100}
+d961e6bd7897efca32247105360139aeb5f83cfa,"['load', 'crash', 'image', 'need', 'access', 'location', 'byte', 'system', 'segfaults', 'load']",General,{'crash': 100}
+072ed536f35922300344e7cc6b7b0d46c04da873,"['toneequaliser', 'memory', 'leak', 'cairo', 'code', 'part']",Risky_resource_management,{'memory leak': 100}
+2bbdc129b846842aa6722759d840fde0ac40348a,"['small', 'memory', 'leak', 'exposure']",Risky_resource_management,{'memory leak': 100}
+73e6c29ac99269c4d8616d58c84f829aecce1852,"['history', 'memory', 'corruption', 'memory', 'chunk']",Risky_resource_management,{'memory corruption': 100}
+849c134e80ddb2954c94d9bee246134fcdaf5aa0,"['module', 'group', 'master', 'module', 'group', 'modulegroups', 'minimal', 'preset', 'beginner', 'modulegroupe', 'minor', 'update', 'module', 'modulegroups', 'minor', 'update', 'module', 'modulegroups', 'scene', 'channel', 'mixer', 'velvia', 'monochome', 'modulegroups', 'channle', 'mixex', 'display', 'preset', 'modulegroups', 'module', 'context', 'group', 'name', 'translation', 'modulegroups', 'document', 'generate', 'module', 'group', 'content', 'modulegroups', 'default', 'preset', 'modulegroups', 'preset', 'lien', 'proposal', 'modulegroups', 'default', 'legacy', 'presets', 'modulegroups', 'preset', 'modulegroups', 'preset', 'modulegroups', 'module', 'group', 'modulegroups', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+2163e2d2ba4ba1d93a227c0fb20909982e9a331f,"['modulegroups', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+ca054c8760a09d15f9228e332c8271644ed3e8b2,"['widget', 'revert', 'beffdf', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+f8c812e4407488052b4445a85249906c901a4cca,"['possible', 'memory', 'corruption']",Risky_resource_management,{'memory corruption': 100}
+0949e167ce1e71a8bc3c002750e0b4777bc018cb,"['potential', 'null', 'pointer', 'dereference']",Risky_resource_management,{'null pointer': 100}
+157a9d92f3abc6a5c6a07eb90c59583da40babc3,"['exif', 'catch', 'exception', 'namespace', 'crash', 'startup', 'previous', 'version', 'exiv']",General,{'crash': 100}
+1b8c6887123003f09e81f52836acea9ded045afc,"['dynamic', 'workflow', 'master', 'dynamic', 'workflow', 'restart', 'filmicrgb', 'memory', 'leak', 'minor', 'style', 'memory', 'leak', 'free', 'conf', 'string']",Risky_resource_management,{'memory leak': 100}
+7571db8a6c0780ed45277e51f4ef470fcd7a2c9f,"['filmicrgb', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+7e81c71f1629598e23960f6f99ed64f4dd013506,"['memory', 'leak', 'free', 'conf', 'string']",Risky_resource_management,{'memory leak': 100}
+55d2d8554909c0dfd1025f7008509f0d1b957da2,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+acf061af44fb93d211925b039a30cba0470483f3,"['histogram', 'crash', 'view', 'reprocess', 'preview', 'pipe', 'reasonable', 'frame', 'rate']",General,{'crash': 100}
+c36d648cf5f22a0b4210b998f49c337700458d5b,"['pull', 'request', 'codingdave', 'memory', 'leak', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+49b2d3aaa1cf3c96e1a8ffb31eba7c446dc9a4b9,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+9590321c6f45213e42ed8ab0c7a84f40a401187d,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+b5effdf58bb25d4d03534756035c0338704cafff,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+19c564582301bce98b3b69156738eab36feb50a2,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+d7d3735cf346c8d4fc0b81732c878777347caf69,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+21ae57c691b564d0ee3a9ed2df50dbc2ccddc010,"['font', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+e328b89eaa79c9f06246e5721c0ce55703b03302,"['buffer', 'overrun', 'ensure', 'string', 'zero', 'termination']",Risky_resource_management,{'overrun': 100}
+d9406c25c9896c07d3b188acbbc1f72ad137859e,"['copy', 'imgs', 'list', 'memory', 'corruption', 'signal', 'focus', 'redraw', 'reset', 'list', 'image', 'list']",Risky_resource_management,{'memory corruption': 100}
+79c7ca6984121dba76060faeeb6100d1a6582a21,"['routine', 'group', 'duplicate', 'cache', 'case', 'crash', 'safe', 'reading', 'duplicate', 'import', 'duplicate', 'empty', 'empty', 'duplicate', 'import', 'time', 'virgin', 'duplicate', 'corresponding', 'actual', 'part']",General,{'crash': 100}
+7ec4d84f22967468ca720def152af9aabea2ae41,"['http', 'github', 'ralfbrown', 'darktable', 'http', 'github', 'ralfbrown', 'darktable', 'alloc', 'number', 'processor', 'active', 'thread', 'extraneous', 'blank', 'integration', 'test', 'bilateral', 'filter', 'data', 'race', 'memory', 'contention']",Risky_resource_management,{'data race': 100}
+984e30adfb37a4bb7b8d3e75b7a8577557987e19,"['data', 'race', 'memory', 'contention']",Risky_resource_management,{'data race': 100}
+5a7015e562710b0d1a6fa32af374ff72b8d30899,"['histogram', 'mutex', 'histogram', 'data', 'free', 'corruption', 'prev', 'crash', 'regardless', 'thread', 'lock']",General,{'crash': 100}
+548120cbbcb96e98be3f9772135b2e556043b6a5,"['workflow', 'setting', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+daf737512eba679205561395f18c58dffe776da8,"['import', 'thumbnail', 'gphoto', 'reading', 'thumbnail', 'import', 'dialog', 'workarounds', 'gphoto', 'issue', 'camera', 'driver', 'implementation', 'work', 'multiple', 'time', 'image', 'time', 'reading', 'time', 'data', 'pointer', 'size', 'free', 'gphoto', 'memory', 'management', 'crash', 'detail', 'source', 'show', 'thumb', 'reopen', 'camera', 'import', 'dialog', 'available', 'camera', 'driver', 'memory', 'leak', 'confess', 'specific', 'thumb', 'cache']",Risky_resource_management,{'memory leak': 100}
+a31cafad5215b3a5cd6c9723850c0fbb507dba02,"['crash', 'darktable']",General,{'crash': 100}
+c099be03c625fdf6c7dfa8648ce3dadd85ed1f42,"['preview', 'crash']",General,{'crash': 100}
+7ff9ab2bb664924ff31ee7494b343a6ab1105053,"['grave', 'data', 'loss']",Risky_resource_management,{'data loss': 100}
+0bc99f0441f181924ca1ed4517de9db93e230360,"['show', 'mask', 'darkroom', 'expose', 'valid', 'module', 'crash', 'wrong', 'track', 'crash', 'important', 'detail', 'module', 'right', 'panel', 'display', 'mask']",General,{'crash': 100}
+b1729ca32af40b44a8b0a1dad618536e1042b85d,"['crash', 'audio', 'comment', 'value', 'forgotten', 'copy', 'lighttable', 'code']",General,{'crash': 100}
+31b580ab5ac17628e85d46c99f3973fd67c7a43c,"['thumb', 'crash', 'zoom', 'scroll', 'empty', 'list']",General,{'crash': 100}
+8cbbb502e745d7eafe988e0360baf61d2fd36b3c,"['bugfix', 'tone', 'equalizer', 'darktable', 'alpha', 'copy', 'function', 'alpha', 'mask', 'offset', 'loop', 'recall', 'tone', 'equalizer', 'input', 'region', 'interest', 'output', 'filter', 'preview', 'consistent', 'matter', 'account', 'pixel', 'correlate', 'temporary', 'crash', 'segfault', 'standard', 'function']",General,{'crash': 100}
+f65ded37d9dd5a8992c878098df418f23c3f9c87,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+9a53f6aab5f7b4d706c04cf17c6ff2f4b2dc7291,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+5bf1b8c2bb601244e470b2d317f4e353ba09a8d4,"['libgphoto', 'management', 'problem', 'import', 'camera', 'card', 'thumb', 'list', 'jpegs', 'afterwards', 'observe', 'double', 'free', 'corruption', 'size', 'message', 'console', 'allocates', 'camerafile', 'struct', 'reading', 'exif', 'preview', 'section', 'file', 'camera', 'sdcard', 'filename', 'preview', 'image', 'data', 'generate', 'thumb', 'fine', 'data', 'free', 'data', 'buffer', 'buffer', 'address', 'size', 'data', 'size', 'visible', 'thumb', 'observe', 'corruption', 'proper', 'buffer', 'specific', 'data', 'address', 'size', 'leak', 'libgphoto', 'image', 'file', 'cache', 'proper', 'name', 'case', 'error', 'sure', 'null', 'improper', 'import', 'session', 'option', 'unique', 'filename', 'session', 'situation']",Risky_resource_management,{'double free': 100}
+2a46ec2702902534ec19f816075818102b9c657c,"['thumb', 'litle', 'hack', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+022965ba8fbcd464af776bde48cfff5ee538c3de,"['metadataview', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+828f23ab2ae4e950a83a705866fc68c31e9a944d,['crash'],General,{'crash': 100}
+841b41c37175990e58b433b4ca9acde5aa116a1d,"['full', 'rewrite', 'darktable', 'version', 'double', 'order', 'module', 'simple', 'list', 'module', 'instance', 'number', 'entry', 'corresponds', 'possible', 'simplify', 'part', 'code', 'exact', 'order', 'number', 'link', 'pipe', 'module', 'simple', 'module', 'multi', 'instance', 'migration', 'path', 'database', 'version', 'support', 'work', 'style', 'full', 'information', 'module', 'pipe', 'multi', 'instance', 'copy', 'paste', 'history', 'module', 'order', 'version', 'module', 'trivial', 'need', 'insert', 'list', 'care', 'order', 'value', 'risk', 'crash', 'clash', 'simple', 'list']",General,{'crash': 100}
+654beea4d654d1c527fc2d0119a03d762b072e34,"['routine', 'thinjgs', 'proper', 'context', 'order', 'list', 'issue', 'crash']",General,{'crash': 100}
+f12feec387f78738776895d85cfa1be9db59ea81,"['pixelpipe', 'cache', 'data', 'buffer', 'allocation', 'wrong', 'issue', 'understanding', 'cache', 'data', 'buffer', 'wrong', 'error', 'case', 'reset', 'cache', 'size', 'cache', 'data', 'null', 'pipeline', 'data', 'crash', 'report', 'memory', 'stress', 'window', 'machine', 'test', 'cache', 'data', 'void', 'size', 'cache', 'data', 'goto', 'large', 'image', 'observe', 'memory', 'stress']",General,{'crash': 100}
+c1c4781cb9f34425b26049db0d7ac0675cb3aeed,"['issue', 'watermark', 'possible', 'symptom', 'main', 'problem', 'function', 'complex', 'data', 'distortion', 'text', 'text', 'part', 'crash', 'cairo', 'surface', 'hold', 'data', 'source', 'rotation', 'afterwards', 'performance', 'penalty', 'image', 'large', 'zoom']",General,{'crash': 100}
+3652cab0a2182cc5759e4bd2f17897d08a41fd21,"['ioporder', 'crash']",General,{'crash': 100}
+c56855b8c49e9354fe4a8d0b71612926168d8606,"['ioporder', 'initialize', 'crash']",General,{'crash': 100}
+408ee14d809c3bd82e97c1ceb90608d6c267f4b5,"['store', 'order', 'module', 'preset', 'sanity', 'check', 'ensure', 'deserialize', 'crash']",General,{'crash': 100}
+a0c3376e08be4637f41ad031fa08416d4c537915,"['increase', 'minimal', 'stack', 'size', 'value', 'work', 'libgmic', 'crash', 'stack', 'overflow', 'cherry']",Risky_resource_management,{'stack overflow': 100}
+b091943d7ed51e1ca700f950065b389ab222a5cf,"['computation', 'crash']",General,{'crash': 100}
+5747e766f76893925ce491512e0a1da30d8fb9e1,"['crash', 'possible']",General,{'crash': 100}
+4234dd87ff9fbbf701d37d401cd3f72753c19d5f,"['rgbcurve', 'need', 'channel', 'crash']",General,{'crash': 100}
+252564f74f464a160ba5b622bc52e928e68ea5e8,"['frame', 'module', 'crash']",General,{'crash': 100}
+8eb8204b954caedea0a805ea63af946a69da1a5a,"['minor', 'tweak', 'swithes', 'cross', 'size', 'look', 'similar', 'swithes', 'icon']",Insecure_interaction_between_components,{'cross size': 90}
+e1623b10ebd184b13d0287ec1bf1dd50d92e4585,"['level', 'crash', 'widget']",General,{'crash': 100}
+f3a018e6f1b53b5b6ed8e372098887a12e547812,"['memory', 'leak', 'list']",Risky_resource_management,{'memory leak': 100}
+ad1110f98ffccb826d7340ea9f0c94b223cea1b7,"['free', 'symmetric', 'free', 'data', 'leak', 'memory']",Risky_resource_management,{'data leak': 100}
+2a99ec25ca8bd88c6376433f00925fef383b1852,"['clean', 'null', 'point', 'null']",Risky_resource_management,{'null point': 91}
+e59463a5ddb330525469a9e5d1e71d0e3816f3c9,"['style', 'style', 'database', 'version', 'style', 'image', 'module', 'gratend', 'history', 'course', 'great', 'style', 'module', 'moment', 'style', 'multiple', 'crash', 'style', 'crash', 'deep', 'trouble', 'multiple', 'crash', 'long', 'image', 'thumbnail', 'style', 'database', 'version', 'test', 'valid', 'style', 'safe', 'assumtions', 'code', 'overhaul', 'security', 'style', 'database', 'image', 'list', 'multiple', 'instance', 'minor', 'module']",General,{'security': 100}
+1f6a90db299ada6efc8439437f779c2d89b87ea7,"['toneequal', 'attempt', 'crash', 'need']",General,{'crash': 100}
+b6243b094fb40727d5c2e5a07b3c25c8c5027913,"['pull', 'request', 'phweyland', 'free', 'crash']",General,{'crash': 100}
+5642378323e00643c8bfbdd66cbee3ad48e43647,"['user', 'system', 'crash']",General,{'crash': 100}
+e2f8f9f0f405e0c3f92248d64ce570c8c8491bba,"['work', 'history', 'lighttable', 'history', 'compression', 'sure', 'image', 'safety', 'reason', 'image', 'history', 'compression', 'message', 'image', 'darktable', 'problem', 'history', 'compress', 'care', 'darkroom', 'whenever', 'open', 'picture', 'darkroom', 'public', 'imgid', 'gboolean', 'work', 'imgid', 'touch', 'mask', 'manager', 'main', 'history', 'main', 'image', 'major', 'rework', 'return', 'number', 'image', 'lighttable', 'button', 'message', 'load', 'history', 'stack', 'history', 'item', 'double', 'free']",Risky_resource_management,{'double free': 100}
+fdcf73d908fdc8aad7a694b999d7ae205937b4c6,"['possible', 'memory', 'corruption', 'arrow', 'example', 'image', 'available', 'slot']",Risky_resource_management,{'memory corruption': 100}
+6a6f4ffa044fed3b36e552809a09c7bb3cfc95b9,"['colorpicker', 'crash', 'exit']",General,{'crash': 100}
+3587874cbf214ff9043c6769c4897fe48d8c66b6,"['crash', 'image']",General,{'crash': 100}
+dbdbbcd97445bffd1bc7e9ad6037c91b53a4af66,['crash'],General,{'crash': 100}
+964a3c35056f2c38ad013bf9c4c7eadd8b7f02c5,"['bauhause', 'crash', 'crash', 'workaround']",General,{'crash': 100}
+f0a3ca158d62dbb6917bc77c330c7eb816a1c26e,"['random', 'crash', 'full', 'preview']",General,{'crash': 100}
+5e8d065a747dd67d86955997b5c2ccd03f8b1a02,"['buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100}
+99e5537538fc9cca827ff3fb8984dd8002836863,"['asan', 'buil', 'error', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+6cdabbf3eb0caa87c9afecac0f367309b3a89f38,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+35977d52adbf53707f99491616f683f940841f20,"['cache', 'pull', 'image', 'deadlock', 'cache', 'check', 'uint', 'release', 'check', 'cache', 'rwlock']",Risky_resource_management,{'deadlock': 100}
+2b0eb6d4af3b2fa01d34207d58c5a77373eb659e,['crash'],General,{'crash': 100}
+4fef612db7c2bc6c1ed27f0ffa930b9c121c68a3,"['precision', 'arithmetic', 'redundant', 'code', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+a2520361c581d72e5c617801daa9f867f85b0be9,"['opencl', 'potential', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+ed0ced2e057ed69bec82e5834edbf9a833df4841,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+eff96831142f5efce0dfb9f214c751df6c2493d2,"['lighttable', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+ab41ebe0b348dc5f2e558e700c98d3ca6e1e56ca,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+62f0c449f814f6f992928cf373beb1bf9c6a5b27,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+244f5987bedfc9b2b55331834ed6e3bd0ade19a1,"['email', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+f7d41c7db6540b3bbae0526017fc50b31b1832b5,"['main', 'memory', 'leak', 'format', 'string']",Risky_resource_management,{'memory leak': 100}
+9427f9e5964c671d0221d00ecc97ff21f27d2e0d,"['opencl', 'check', 'boundary', 'buffer', 'overflow', 'safety', 'patch']",Risky_resource_management,{'buffer overflow': 100}
+8f69beefa578c7366eceb80333dc24ca0988bda7,"['piwigo', 'piwigo', 'piwigo', 'refresh', 'album', 'list', 'upload', 'piwigo', 'display', 'album', 'hierarchy', 'indentation', 'piwigo', 'memory', 'corruption', 'double', 'free', 'piwigo', 'obsolescent', 'comment', 'piwigo', 'multiple', 'server', 'piwigo', 'params', 'self', 'sufficient', 'piwigo', 'select', 'album', 'list', 'piwigo', 'sure', 'critical', 'section', 'piwigo', 'reconnect', 'connection', 'piwigo', 'curl', 'error', 'sure', 'login', 'connection', 'support', 'parent', 'album', 'album', 'implementation', 'piwigo', 'storage']",Risky_resource_management,{'memory corruption': 100}
+8c043a9898d9a5f9bc024c7c7d8b8d67a8a88c33,"['piwigo', 'memory', 'corruption', 'double', 'proper', 'message', 'server']",Risky_resource_management,{'memory corruption': 100}
+61c602baadbd74194606c8cc021fdfe84efef672,"['pull', 'request', 'darktable', 'crash', 'denoise', 'crash', 'denoise']",General,{'crash': 100}
+106887d242209d2d3b5d4ecbb8fc4d6d3d21f637,"['filmic', 'relax', 'constraint', 'constraint', 'black', 'exposure', 'white', 'exposure', 'safe', 'case', 'lead', 'black', 'difficult', 'case', 'security', 'parameter', 'user', 'need']",General,{'security': 100}
+aec9ebf5334b5e6ae5f068e830ab03a6ed6e4435,"['liquify', 'tool', 'button', 'line', 'curve', 'corresponding', 'button', 'line', 'curve', 'tool', 'behavior', 'crash', 'nice', 'usability']",General,{'crash': 100}
+bbaf668dc12f1ba31626747f881475271c1b0a61,"['color', 'preservation', 'mode', 'saturation', 'slider', 'scale', 'edits', 'previous', 'version', 'crash', 'segfaults', 'curve', 'node']",General,{'crash': 100}
+c8a6b91f8523b67758274187ecd4488f5c9b9b0a,"['pull', 'request', 'security', 'factor', 'filmic', 'rename', 'auto', 'security', 'factor', 'security', 'factor']",General,{'security': 100}
+457d0c34c984731329de79a0916a75cb11611b28,"['filmic', 'security', 'factor', 'safety', 'factor', 'security', 'resilience', 'malicious', 'attack', 'safety', 'factor', 'factor', 'safety', 'http', 'wiki']",General,{'security': 100}
+b6fe31a658d32934e0fa605b17bd9a1e250225eb,"['color', 'picker', 'security', 'slider']",General,{'security': 100}
+f07c1998ef5d30f85c29937d6f2c3e819d93e360,"['dynamic', 'range', 'auto', 'tuner', 'color', 'picker', 'black', 'white', 'point', 'extreme', 'value', 'chart', 'luminance', 'luminance', 'unreliable', 'case', 'mathematical', 'reason', 'black', 'point', 'numerator', 'denominator', 'equation', 'need', 'proper', 'parameter', 'numeric', 'optimizer', 'colorbalance', 'grey', 'value', 'accuracy', 'black', 'white', 'point', 'nice', 'grey', 'point', 'auto', 'tuner', 'color', 'picker', 'remap', 'global', 'color', 'picker', 'wrong', 'bugfix', 'dynamic', 'range', 'extreme', 'value', 'security', 'factor', 'slider', 'consistent', 'reproductible']",General,{'security': 100}
+4592310f1ba9baec5461bedf323ceb883f246f27,"['manual', 'crop', 'ensure', 'empty', 'area', 'possible', 'crash', 'composition', 'empty', 'area']",General,{'crash': 100}
+f41e2e30dedc0aa612f9751da0387dac86fd2e76,"['faulty', 'line', 'memory', 'corruption', 'segfault']",Risky_resource_management,{'memory corruption': 100}
+f331b924bb42a08533fec007bf6fcccd53e707a3,"['crash', 'slideshow', 'view', 'slide', 'show', 'null', 'parameter', 'null', 'empty', 'string']",General,{'crash': 100}
+1ddd9bde8aa65ef321b7e7882b5e345b8d2cb694,"['crash', 'unexpected', 'empty']",General,{'crash': 100}
+3f43e7b3b8bb192d86d2c3ecbc1aff7632783262,"['crash', 'rawprepare', 'error', 'buffer', 'size', 'image', 'window', 'size', 'hard', 'replicate']",General,{'crash': 100}
+acfcdc4d7731657c83d9d0ae0d987c727ed87f33,['crash'],General,{'crash': 100}
+3fb6a27241b6ce436af16f1d259eab3f9e9f1037,['crash'],General,{'crash': 100}
+48c6ad44017dbd0f0ee12aee31a99948076980ba,"['crash', 'config', 'unknown', 'recent', 'collection']",General,{'crash': 100}
+bfe8004389fb1f4b0839eaeae969fb74dac10df7,"['window', 'crash', 'opening', 'import', 'dialog', 'invalid', 'string', 'error', 'gsettings', 'schema']",General,{'crash': 100}
+4c0754d03f4152cad437c8369164f769d46f28c0,"['crash', 'spot', 'sure', 'crash', 'side', 'effect', 'code', 'darkroom', 'view', 'part', 'crash', 'libs', 'history', 'lighttable', 'thing', 'luck', 'revisit', 'signal', 'system', 'emit', 'signal', 'darkroom', 'callback', 'libs', 'visible', 'moment', 'current', 'view']",General,{'crash': 100}
+e8d36c823229182453a87835778f2347e93b0503,"['crash', 'import', 'dialog', 'widget', 'file', 'chooser', 'dialog']",General,{'crash': 100}
+4d8d2c54da804d53dfcba90a65d330e26ed583ce,"['crash', 'prefs', 'dialog', 'translation', 'slovenian', 'translation', 'buggy', 'translation', 'preset', 'spot', 'lack', 'crash', 'fall', 'english', 'string', 'case']",General,{'crash': 100}
+2e8e98cec8e47d311c4ee9627a7f648a2e18df9a,"['crash', 'window', 'theory', 'return', 'result', 'malloc']",General,{'crash': 100}
+35a817263e98ce04dbe6613bcb056f5ec8c4a9b9,"['crash', 'spot', 'history', 'code', 'safeguard', 'core']",General,{'crash': 100}
+670a971fc9355f44cf1c338c390f4a8524f6ce89,"['deadlock', 'lock', 'import', 'image', 'command', 'line', 'lock', 'potential', 'post', 'import', 'user', 'code', 'point', 'init', 'code', 'result', 'deadlock', 'point']",Risky_resource_management,{'deadlock': 100}
+83f42663f58e471712609bf594615b796973ad3b,"['mitigate', 'crash', 'undo', 'legacy', 'params', 'lead', 'undo', 'function', 'whole', 'undo', 'subsystem']",General,{'crash': 100}
+e7930779d03c4481126003ecb502a138a9450fbc,"['crash', 'libs']",General,{'crash': 100}
+d00dde8dd4d581809552bba64262dc3755a52c13,"['cmstest', 'crash']",General,{'crash': 100}
+337dd444b5ea5faf49bbce30ad6d49a9f4e83bc6,"['submodule', 'update', 'stability', 'security']",General,{'security': 100}
+6e15b9cc7fcd5b2b7b1a813a8756d2df7453a52e,"['redundant', 'function', 'rewritten', 'segmentation', 'fault', 'howto', 'trigger', 'segmentation', 'fault', 'card', 'card', 'reader', 'dcim', 'structure', 'image', 'open', 'click', 'import', 'import', 'camera', 'import', 'image', 'camera', 'select', 'image', 'click', 'import', 'segmentation', 'fault', 'summary', 'heap', 'buffer', 'overflow', 'common', 'variable']",Risky_resource_management,{'buffer overflow': 100}
+bf8f8480eeca99b4609e937d15c13514921c2401,"['display', 'image', 'cache', 'display', 'actual', 'image', 'issue', 'lock', 'crash', 'example']",General,{'crash': 100}
+ba2ca3670982efe2ed50bed761a7f8c75dc4927e,"['monochrome', 'wire', 'local', 'laplacian', 'crashy']",General,{'crashy': 91}
+051511047c3145866bf2d3b57d883d94d90dd33b,"['crash', 'undo', 'redo', 'undo', 'redo', 'history', 'history', 'iterator', 'instance', 'callback', 'concurrent']",General,{'crash': 100}
+3979c4f7d2b5f2287d4d5dd97a3898f2812cd44a,"['crash', 'undo', 'redo', 'module', 'user', 'data', 'undo', 'redo', 'history', 'specific', 'code', 'generic', 'undo', 'redo', 'history']",General,{'crash': 100}
+a8c3ea7e0e3c950f59701797abc14f0cdb179c78,"['crash', 'display', 'profile']",General,{'crash': 100}
+4e902989a91e899729bf3a93f8eb7b962112a786,"['undo', 'redo', 'history', 'undo', 'redo', 'history', 'copyright', 'notice', 'redo', 'undo', 'history', 'circuitry', 'history', 'support', 'undo', 'redo', 'instance', 'rename', 'static', 'function', 'signal', 'invalidate', 'history', 'free', 'memory', 'leak', 'signal', 'field', 'undo', 'redo', 'accels', 'free', 'memory', 'memory', 'leak', 'undo', 'item', 'malloc', 'free', 'undo', 'data', 'undo', 'redo', 'support', 'darkroom', 'possible', 'function', 'free', 'history', 'params', 'free', 'callback', 'undo']",Risky_resource_management,{'memory leak': 100}
+e988f756eabe78dddc296cbb0d496b2c2f4b3c7f,"['upstream', 'color', 'picker', 'spot', 'whitebalance', 'spot', 'invert', 'preview', 'pipe', 'upegelow', 'opencl', 'part', 'opencl', 'master', 'upstream', 'invert', 'deadlock', 'invert', 'bayer', 'temperature', 'spot', 'support', 'bayer', 'color', 'picker', 'support', 'bayer', 'passthrough', 'proper', 'color', 'picker', 'support', 'trans', 'mosaic', 'color', 'picker', 'support', 'bayer', 'mosaic', 'color', 'picker', 'refactor', 'computation', 'worker', 'check', 'input', 'type', 'color', 'picker', 'pixelpipe', 'refactor', 'common', 'setup', 'code', 'helper', 'refactor', 'actual', 'color']",Risky_resource_management,{'deadlock': 100}
+40b6a4cea9133adf60a3c258ae34595daf6e642a,"['invert', 'deadlock']",Risky_resource_management,{'deadlock': 100}
+e3699591082823f91c7348f6bcd3005c489bee71,"['memory', 'corruption', 'crash', 'generate', 'cache', 'need', 'null', 'parameter', 'issue', 'generate', 'cache']",Risky_resource_management,{'memory corruption': 100}
+5e22744c56673c0beda6c8a770c711a1ee1a14a3,"['memory', 'corruption', 'crash', 'need', 'null', 'parameter']",Risky_resource_management,{'memory corruption': 100}
+a6e8bd1d85531e5b2f2554f24c92bafe58b548e5,"['demosaic', 'double', 'free', 'case', 'error', 'coverity']",Risky_resource_management,{'double free': 100}
+820546f363b43197d62a32ccb9f1131d78c6610d,"['free', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+e8caec5e6c7951d14b65b1c45bc67a48ffa54015,"['memory', 'leak', 'undo', 'item']",Risky_resource_management,{'memory leak': 100}
+6b29bdd3ae51e83e135cc89d29b3780d5514dc33,"['enable', 'wstack', 'usage', 'wframe', 'glibc', 'support', 'musl', 'default', 'stack', 'size', 'catch', 'unbound', 'alloca', 'luck', 'strange', 'crash', 'musl', 'error', 'clang', 'different', 'notation']",General,{'crash': 100}
+ce4def97ccc19ac5f95d8d73a5d57086bfbe7ae5,"['null', 'sentinel', 'wrong', 'null', 'variadic', 'function', 'right', 'type', 'null', 'arbitrary', 'null', 'pointer', 'void', 'variadic', 'function', 'argument', 'type', 'wrong', 'type', 'long', 'fruitful', 'disscussion', 'musl', 'conclusion', 'musl', 'semantic', 'patch', 'type', 'null', 'null', 'mass']",Risky_resource_management,{'null pointer': 100}
+ce77e71f8b698230b76832071408a2e90284655b,"['pixelpipe', 'duplicte', 'module', 'name', 'local', 'variable', 'case', 'crash', 'access', 'module', 'context']",General,{'crash': 100}
+28909928e39ebd95fecd7f7e8544f032f334d894,"['pixelpipe', 'cache', 'poison', 'memory', 'buffer', 'reuse', 'time', 'malloc', 'overhead', 'actual', 'size', 'usable', 'size', 'size', 'code', 'overflow', 'catch', 'buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100}
+71ff8234a5b1576f52afb990eec40217f85d434d,"['reading', 'version', 'sysctl', 'ensure', 'result', 'darktable', 'crash', 'validate', 'string']",General,{'crash': 100}
+ffbc805877c887c925af96c8bf5aa344961f792e,"['null', 'portability', 'note', 'warning', 'threadsanitizer', 'data', 'race', 'size', 'thread', 'null', 'darktable', 'xaff', 'home', 'lebedevri', 'darktable', 'control', 'size', 'thread', 'null', 'darktable', 'xaff', 'home', 'lebedevri', 'darktable', 'control', 'thread', 'main', 'thread', 'null', 'darktable', 'home', 'lebedevri', 'darktable', 'control', 'home', 'lebedevri', 'darktable', 'control', 'control', 'home', 'lebedevri', 'darktable', 'common', 'darktable', 'main', 'home', 'lebedevri', 'darktable', 'main', 'darktable', 'thread', 'main', 'thread', 'null', 'darktable', 'home', 'lebedevri', 'darktable', 'control', 'home', 'lebedevri', 'darktable', 'control', 'control', 'home', 'lebedevri', 'darktable', 'common', 'darktable', 'main', 'home', 'lebedevri', 'darktable', 'main', 'darktable', 'summary', 'threadsanitizer', 'data', 'race', 'darktable', 'darktable', 'xaff']",Risky_resource_management,{'data race': 100}
+4aa142c90e9c3c39e79c5d9c49941c6513c4acff,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+dbc3dca17e55eaff7bacc0450526d812c7c75ef0,"['tiffentry', 'tiffentry', 'unintentional', 'integer', 'overflow', 'datashifts', 'type', 'uint', 'arithmetic', 'expression', 'type', 'uint', 'coverity']",Risky_resource_management,{'integer overflow': 100}
+1b09247740c5fef2c30b8cb93d73bd4a85075f85,"['crash', 'presets']",General,{'crash': 100}
+932ba2e986748d3ff6bc6b6a766ba92044b99c09,"['debian', 'pkgbuilddir', 'common', 'error', 'format', 'string', 'literal', 'format', 'argument', 'werror', 'format', 'security', 'sizeof', 'filename', 'pkgbuilddir', 'common', 'function', 'pkgbuilddir', 'common', 'error', 'format', 'string', 'literal', 'format', 'argument', 'werror', 'format', 'security', 'sizeof', 'filename']",General,{'security': 100}
+74107186ffcef0be1911aeff5dc822c6137210e5,"['enable', 'werror', 'format', 'security']",General,{'security': 100}
+4f3494f52e3c1ee7c184d1d667a2844d7e200065,"['memleak', 'crash', 'filename', 'proposal', 'tool']",General,{'crash': 100}
+277c2a0fb79a2e0bb7e3a34254289afcb79d93fa,"['underflow', 'uint', 'point', 'rect', 'uint', 'point', 'rect', 'integer', 'overflow', 'overflow', 'potential', 'reading']",Risky_resource_management,{'integer overflow': 100}
+709d4dc6ebea088c4963b64d4e2ce4147713ea67,"['buffer', 'overrun', 'liquify']",Risky_resource_management,{'overrun': 100}
+19576fb11daf0fe47d153a3a02d2d2c9b16f913b,"['pull', 'request', 'carvac', 'cacorrect', 'heap', 'buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100}
+1a25877ab18f9a4c8f7fc73ec119ea19ecf11454,"['heap', 'buffer', 'overflow', 'code', 'thanks', 'qogniw', 'http', 'issue']",Risky_resource_management,{'buffer overflow': 100}
+4f7a787b0192baffb26c9435027b6d74362879e5,"['pointer', 'current', 'module', 'coverity', 'issue', 'crash', 'label']",General,{'crash': 100}
+15fadec67a73f456f281f21d5375579d76ccf8ad,"['crash', 'integer', 'overflow', 'negative', 'number', 'important', 'check', 'previous', 'code', 'check']",Risky_resource_management,{'integer overflow': 100}
+c48d30ba426c7ffe47f6aaea61bef8b8f9433485,"['crash', 'uint', 'overflow', 'strike', 'whenever', 'uint', 'quantity', 'need', 'sure', 'overflow', 'result']",General,{'crash': 100}
+474b4841d64b7fd57c1ea1f34f8c3a2b2d26a52a,"['crash', 'opcode', 'number', 'point', 'rectangle', 'negative', 'number', 'large', 'negative', 'number', 'offset', 'access', 'reject']",General,{'crash': 100}
+d60baf4648ad4739971410f7c1499ab70b6967d4,"['external', 'luaautoc', 'lautoc', 'rare', 'memory', 'leak', 'leak', 'memory', 'reality']",Risky_resource_management,{'memory leak': 100}
+9a036792a5b10e3d3b0426aa1bd56d3b9da9b2db,"['crash', 'colorout']",General,{'crash': 100}
+3361f5d93faa75c1a936b4f20fd5bc4320cf33ec,"['crash', 'finalscale']",General,{'crash': 100}
+5e7dc06bb09e30c9208365c182919011b56c1b22,"['crash', 'metadata', 'tiff', 'metadata', 'block', 'dereference', 'pointer', 'look']",General,{'crash': 100}
+74b53bed2db5936c82a46ea87ea3c847e97ed939,"['liquify', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+953098d6b48dc4b2248011a9f136bf8a19db716a,"['double', 'message', 'prevents', 'glib', 'critical', 'source', 'message']",Risky_resource_management,{'critical source': 94}
+81bc3cf56328184ae8b4db4e4ee5a7859f553d82,"['imageio', 'tiff', 'load', 'image', 'different', 'image', 'width', 'need', 'calculates', 'image', 'tiffinfo', 'file', 'photometric', 'interpretation', 'ycbcr', 'ycbcr', 'tiff', 'file', 'interface', 'strip', 'tile', 'interface', 'fallback', 'reason', 'asserts', 'issue', 'darktable', 'dropbox', 'core', 'camsupport', 'sample', 'pixel', 'error', 'heap', 'buffer', 'overflow', 'address', 'xefc', 'xfeada', 'xfffabc', 'xfffabc', 'size', 'xefc', 'thread', 'xfead', 'home', 'lebedevri', 'darktable', 'common', 'xfeaa', 'home', 'lebedevri', 'darktable', 'common', 'xfead', 'home', 'lebedevri', 'darktable', 'common', 'imageio', 'xfea', 'home', 'lebedevri', 'darktable', 'common', 'imageio', 'xfea', 'home', 'lebedevri', 'darktable', 'common', 'xfebe', 'home', 'lebedevri', 'darktable', 'xfebd', 'home', 'lebedevri', 'darktable', 'xfea', 'home', 'lebedevri', 'darktable', 'common', 'imageio', 'xfeab', 'home', 'lebedevri', 'darktable', 'common', 'imageio', 'xffde', 'store', 'home', 'lebedevri', 'darktable', 'imageio', 'storage', 'disk', 'main', 'home', 'lebedevri', 'darktable', 'main', 'xfbf', 'linux', 'libc', 'local', 'darktable', 'xefc', 'byte', 'region', 'thread', 'xffea', 'malloc', 'linux', 'libasan', 'xfeaf', 'home', 'lebedevri', 'darktable', 'common', 'xfead', 'home', 'lebedevri', 'darktable', 'common', 'imageio', 'xfea', 'home', 'lebedevri', 'darktable', 'common', 'imageio', 'xfea', 'home', 'lebedevri', 'darktable', 'common', 'xfebe', 'home', 'lebedevri', 'darktable', 'xfebd', 'home', 'lebedevri', 'darktable', 'xfea', 'home', 'lebedevri', 'darktable', 'common', 'imageio', 'xfeab', 'home', 'lebedevri', 'darktable', 'common', 'imageio', 'xffde', 'store', 'home', 'lebedevri', 'darktable', 'imageio', 'storage', 'disk', 'main', 'home', 'lebedevri', 'darktable', 'main', 'xfbf', 'linux', 'libc', 'summary', 'heap', 'buffer', 'overflow', 'home', 'lebedevri', 'darktable', 'common', 'shadow', 'byte', 'buggy', 'address', 'xcca', 'xccb', 'xccc', 'xccd', 'xcce', 'xccf', 'xcca', 'xcca', 'xcca', 'xcca', 'xcca', 'shadow', 'byte', 'legend', 'shadow', 'byte', 'application', 'byte', 'addressable', 'heap', 'redzone', 'heap', 'heap', 'region', 'stack', 'redzone', 'stack', 'redzone', 'stack', 'redzone', 'stack', 'partial', 'redzone', 'stack', 'return', 'stack', 'scope', 'global', 'redzone', 'global', 'init', 'order', 'user', 'container', 'overflow', 'array', 'cookie', 'intra', 'object', 'redzone', 'asan']",Risky_resource_management,{'buffer overflow': 100}
+5839bcfba616ee209381b7888c493f445684a4c2,"['crash', 'empty', 'string', 'tiff', 'entry', 'empty', 'string', 'position', 'array', 'return', 'empty', 'string']",General,{'crash': 100}
+103b4475323b12b04ebef3811fb0867c1fa9b8e6,"['strenghten', 'filemap', 'check', 'integer', 'overflow', 'tricky', 'sure', 'offset', 'size', 'overflow', 'calculation']",Risky_resource_management,{'integer overflow': 100}
+53635678debdc3846530db3bc088d864786972b0,"['liquify', 'coverity', 'liquify', 'coverity', 'null', 'dereference', 'coverity', 'memory', 'overrun', 'coveriry', 'potential', 'memory', 'leak']",Risky_resource_management,{'overrun': 100}
+87a3d53f18bf91ad6b379e64b29b85efdfc8d6c8,"['null', 'dereference', 'coverity', 'null', 'pointer', 'dereferences']",Risky_resource_management,{'null pointer': 100}
+92a90c988fb8c3a11169603b7c96c682b804bea1,"['memory', 'overrun', 'coveriry', 'memory', 'illegal', 'access', 'overrun']",Risky_resource_management,{'overrun': 100}
+27f8a5e45a1aece23f5b33e2babc40968e385f07,"['potential', 'memory', 'leak', 'coverity', 'resource', 'leak', 'resource', 'leak']",Risky_resource_management,{'memory leak': 100}
+e51af402d85471a993b9694052f54f5c929391f0,"['crash', 'demosaic', 'lens']",General,{'crash': 100}
+cd02f6af8896e1825c6a4e761f451beefdcfff15,"['crash', 'bump', 'introspection', 'version', 'place']",General,{'crash': 100}
+1bd3f08349f9cf66202a338fc8a6a869a244c08f,"['clean', 'liquify', 'clean', 'liquify', 'memory', 'leak', 'liquify', 'instance', 'liquify', 'rework', 'glist']",Risky_resource_management,{'memory leak': 100}
+6c88018ee9b2374d34663d9220dc2444b08a15cb,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+01b24dbf0d1f691e905c19745b1a57c239fdf7d4,"['crash', 'mouse', 'preview', 'pipe']",General,{'crash': 100}
+92dd3e23ad8ad8149848eb804660e5693568619c,"['darktable', 'viewer', 'device', 'initialization', 'opencl', 'opengl', 'case', 'program', 'crash', 'screen', 'darktable', 'viewer']",General,{'crash': 100}
+c4cb9dfb9d16d0db62c129bb34e2701f83907e4d,"['opencl', 'potential', 'double', 'free', 'opencl', 'temp', 'buffer', 'demosaic']",Risky_resource_management,{'double free': 100}
+30167b5f8b667facaea6ff4c1b2a9d96b6ab395e,"['crash', 'wrong', 'reading', 'crash', 'snapshot', 'value', 'verbatim', 'sanitize', 'reading', 'crash', 'snapshot']",General,{'crash': 100}
+57c6a28c29556881851997bb812e4b383aeea13c,"['revert', 'crash', 'reverts']",General,{'crash': 100}
+74f2632206090a0dfd2cc7ddb91a875f22a9347b,"['pull', 'request', 'darktable', 'import', 'crash', 'possible', 'import', 'dialog', 'crash']",General,{'crash': 100}
+269ad7766a0a48af4e71508137fa291e059dd06d,"['possible', 'import', 'dialog', 'crash', 'memory', 'import', 'value', 'pointer', 'value']",General,{'crash': 100}
+c6d92e79e79cc3cac7d0446fae5ef05f51fab083,"['module', 'memcpy', 'crash', 'issue', 'redmine', 'able', 'reproduce', 'crash', 'problem', 'piece', 'statement', 'computes', 'contains', 'garbage', 'garbage', 'init', 'width', 'height']",General,{'crash': 100}
+b59bbaa59f9394a84d24f63785e9568479ba687e,"['crash', 'print', 'setting', 'reasong', 'null', 'printer', 'name', 'strcmp', 'file']",Risky_resource_management,{'null printer': 92}
+601de8bfb649ea9ff6ed8f7125359c187e71d3db,"['lock', 'pipe', 'mutexes', 'darkroom', 'trigger', 'pipe', 'params', 'switch', 'suppose', 'darkroom', 'clean', 'pipe', 'thread', 'sequence', 'diagram', 'issue', 'pipe', 'async', 'process', 'pipe', 'user', 'click', 'lighttable', 'lock', 'darkroom', 'clean', 'list', 'access', 'list', 'entry', 'point', 'access', 'free', 'buffer', 'entry', 'pointer', 'null', 'pointer', 'null', 'entry', 'list', 'null', 'pointer', 'dereference', 'null', 'darkroom', 'thread', 'access', 'list', 'reason', 'darkroom', 'pipe', 'abort', 'finish', 'lock']",Risky_resource_management,{'null pointer': 100}
+a4b2b6557b2ebd2fdd8d39853a653df4b83f8897,"['free', 'cleanup', 'case', 'leak', 'crash', 'image', 'removal', 'image']",General,{'crash': 100}
+c84f8a9cb591c15102f17e8728fdec2b5bd0602d,['deadlock'],Risky_resource_management,{'deadlock': 100}
+e18ea70ff4b42f09d32d4b1c4c3a61434adc6222,"['small', 'memory', 'leak', 'image']",Risky_resource_management,{'memory leak': 100}
+49be098d067aa8ed48828b630541daed3ebf24c7,"['format', 'warning', 'case', 'reason', 'file', 'trigger', 'kind', 'warning', 'building', 'object', 'imageio', 'format', 'cmakefiles', 'imageio', 'format', 'warning', 'format', 'string', 'string', 'literal', 'insecure', 'wformat', 'security', 'output', 'profile', 'work', 'local', 'glib', 'glib', 'note', 'macro', 'warning']",General,{'security': 100}
+cb86adc5b5584ef40fd3823a35124ade0c462ac4,"['darkroom', 'view', 'lock', 'problem', 'spot', 'spot', 'params', 'spot', 'pipe', 'spot', 'perf', 'rescue', 'lighttable', 'deadlock', 'sequence', 'diagram', 'issue', 'pipe', 'async', 'process', 'pipe', 'user', 'click', 'lighttable', 'darkroom', 'lock', 'pipe', 'multiple', 'time', 'lock', 'pipe', 'lock', 'pipe', 'deadlock', 'spot', 'process', 'lock', 'deadlock', 'darkroom', 'need', 'lock', 'history']",Risky_resource_management,{'deadlock': 100}
+62e3c4700d4281f7465b9fb7bb42e33a85d43a33,"['possible', 'deadlock']",Risky_resource_management,{'deadlock': 100}
+336c6ffa66c0fd9a3c45942ee7fbb47b55f96fea,"['memory', 'leak', 'direct', 'leak', 'byte', 'object', 'xfadba', 'malloc', 'linux', 'libasan', 'xfaedee', 'home', 'darktable', 'guide', 'xfadbfd', 'home', 'darktable', 'common', 'darktable', 'xaef', 'main', 'home', 'darktable', 'main', 'xfacb', 'linux', 'libc']",Risky_resource_management,{'memory leak': 100}
+4b63294d89b7b4f61576994431d9c7999a34284d,"['short', 'term', 'crash', 'image', 'command', 'line', 'leaf', 'thread', 'object', 'stack', 'crash', 'code', 'assumes', 'stack', 'empty']",General,{'crash': 100}
+eaf9635a00bacf0cd6eb3b647ec6e544c4088136,"['crash', 'object', 'unbind']",General,{'crash': 100}
+1d3e8cc8c90a9f9effaeedb167ac101c2fe64bd4,"['pngs', 'specific', 'heap', 'buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100}
+731f6af891b3762e71f001a1811ccd975d30f045,"['leak', 'memory', 'leak', 'direct', 'leak', 'byte', 'object', 'xfce', 'linux', 'libasan', 'xfcec', 'home', 'lebedevri', 'darktable', 'mask', 'gradient', 'xfceafc', 'home', 'lebedevri', 'darktable', 'mask', 'gradient', 'xfceafc', 'home', 'lebedevri', 'darktable', 'mask', 'mask', 'xfceaaa', 'home', 'lebedevri', 'darktable', 'mask', 'mask', 'xfceaef', 'home', 'lebedevri', 'darktable', 'mask', 'mask', 'xfceccea', 'home', 'lebedevri', 'darktable', 'mask', 'mask', 'xfcbdafc', 'unknown', 'module', 'xfcfa', 'home', 'lebedevri', 'darktable', 'view', 'view', 'xfcdf', 'home', 'lebedevri', 'darktable', 'control', 'control', 'xfcf', 'darktable', 'xfcdac', 'linux', 'libgtk', 'direct', 'leak', 'byte', 'object', 'xfce', 'linux', 'libasan', 'xfcec', 'home', 'lebedevri', 'darktable', 'mask', 'gradient', 'xfceaaa', 'home', 'lebedevri', 'darktable', 'mask', 'gradient', 'xfceaaa', 'home', 'lebedevri', 'darktable', 'mask', 'mask', 'xfceaaa', 'home', 'lebedevri', 'darktable', 'mask', 'mask', 'xfceaef', 'home', 'lebedevri', 'darktable', 'mask', 'mask', 'xfceccea', 'home', 'lebedevri', 'darktable', 'mask', 'mask', 'xfcbdafc', 'unknown', 'module', 'xfcfa', 'home', 'lebedevri', 'darktable', 'view', 'view', 'xfcdf', 'home', 'lebedevri', 'darktable', 'control', 'control', 'xfcf', 'darktable', 'xfcdac', 'linux', 'libgtk']",Risky_resource_management,{'memory leak': 100}
+7acc584d74451eccac39d62a785041799cabc59b,"['darkroom', 'crash']",General,{'crash': 100}
+485d674a859fb82dce6370b5d4f76b555701721d,"['sequence', 'diagram', 'deadlock']",Risky_resource_management,{'deadlock': 100}
+0c1d525457415c5590e3092c0f329df8955f4e6c,"['dtpthread', 'rwlock', 'simple', 'edeadlk', 'detection', 'store', 'writer', 'thread', 'pthread', 'current', 'thread', 'pthread', 'deadlock', 'situation']",Risky_resource_management,{'deadlock': 100}
+1f3ba1069487fa8c927735cbb5f6ca7fedef508c,"['store', 'writer', 'pthread', 'worker', 'variable', 'pthreadid', 'deadlock', 'rwlock', 'note', 'similar', 'mutexes', 'right', 'need', 'current', 'reader', 'detect', 'current', 'thread']",Risky_resource_management,{'deadlock': 100}
+433c473e6e9aa9c72dd74cd5c9f2d543fc334974,"['bilat', 'global', 'data', 'leak']",Risky_resource_management,{'data leak': 100}
+d164b17130b2cb8d986f4b5849b2d66fd4a609e7,"['crash', 'problem', 'code', 'init', 'pipe', 'display', 'profile', 'profile', 'system', 'display', 'profile', 'srgb', 'hope']",General,{'crash': 100}
+0b5ec1d2f76709f380d1c4e222ebfc1e6f52c1f2,"['crash', 'info', 'error', 'message']",General,{'crash': 100}
+b25a923fd6b04152ee815944cc7e6ae13fdd8ffa,"['monochrome', 'thumb', 'normal', 'thumb', 'sporadic', 'crash']",General,{'crash': 100}
+b15b157f087b21aef04b5c8600bdc2a5677bf75d,"['modulelist', 'multi', 'instance', 'crash', 'modulelist', 'instance', 'list', 'global', 'list', 'contains', 'instance', 'item', 'valid', 'shutdown', 'state', 'adresssanitizer', 'error', 'error', 'heap', 'free', 'address', 'xdddb', 'xfbcb', 'xffef', 'xffee', 'size', 'xdddb', 'thread', 'xfbcb', 'home', 'lebedevri', 'darktable', 'libs', 'modulelist', 'xfbbfa', 'linux', 'libgtk', 'xbfa', 'xfbdf', 'linux', 'libglib', 'xfba', 'linux', 'libglib', 'xfbf', 'linux', 'libgtk', 'xfbdc', 'home', 'lebedevri', 'darktable', 'main', 'home', 'lebedevri', 'darktable', 'main', 'xfbeb', 'linux', 'libc', 'local', 'darktable', 'xdddb', 'byte', 'region', 'thread', 'xfbcda', 'free', 'linux', 'libasan', 'xffd', 'home', 'lebedevri', 'darktable', 'view', 'darkroom', 'xffbd', 'home', 'lebedevri', 'darktable', 'view', 'darkroom', 'xffbca', 'home', 'lebedevri', 'darktable', 'view', 'darkroom', 'xfbaa', 'linux', 'libgtk', 'thread', 'xfbce', 'linux', 'libasan', 'xfbccd', 'home', 'lebedevri', 'darktable', 'imageop', 'xfbcc', 'home', 'lebedevri', 'darktable', 'xffbee', 'darktable', 'view', 'darkroom', 'xfbde', 'home', 'lebedevri', 'darktable', 'view', 'view', 'xfbbfcaf', 'home', 'lebedevri', 'darktable', 'control', 'control', 'xfbabe', 'linux', 'libglib', 'xabe', 'summary', 'heap', 'free', 'home', 'lebedevri', 'darktable', 'libs', 'modulelist', 'shadow', 'byte', 'buggy', 'address']",General,{'crash': 100}
+7e0b09a4fbaa93db39e6135bc7f4c678932f546c,"['module', 'crashy', 'reverts']",General,{'crashy': 91}
+697b89ebac31763a91fbd08f3004d07a5b873540,['crash'],General,{'crash': 100}
+b88f80e42e06ae1101a61aa7a48a910e10cf3913,"['null', 'pointer', 'reading', 'code']",Risky_resource_management,{'null pointer': 100}
+b7f4f042a9d4ef36198c340771bbc5bd842b9276,"['pull', 'request', 'lebedevri', 'various', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+8b7931a84de7c9628563ddcaefd86aa9eed8b3ab,"['buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100}
+d2dfbd939c3c9fb87f9285ca0a2b0b609e3e39ca,"['film', 'import', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+5c17e1c5f42f2d2c6d40a370e39fd075968be4e9,"['likely', 'crash']",General,{'crash': 100}
+a23d3c1569ec6833d9bf23848bd3eaab987e0dc2,"['minor', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+9a2c213f299084a7c587f57fb4dc86195448a963,"['heap', 'buffer', 'overflow', 'klaus', 'incorrect', 'calloc', 'malloc', 'replaces']",Risky_resource_management,{'buffer overflow': 100}
+f000d59c8fd741364465ecbb08fb7036c9c7ca58,"['crwdecoder', 'makedecoder', 'heap', 'buffer', 'overflow', 'right', 'error', 'heap', 'buffer', 'overflow', 'address', 'xffad', 'xfefbff', 'xfefbfe', 'size', 'thread', 'xffad', 'crwdecoder', 'makedecoder', 'char', 'const', 'home', 'lebedevri', 'darktable', 'external', 'crwdecoder', 'xffa', 'crwdecoder', 'inithufftables', 'home', 'lebedevri', 'darktable']",Risky_resource_management,{'buffer overflow': 100}
+e18b9cf74066e55610e39267a0c02680b7ecbfe1,"['crash', 'finalization', 'mode', 'darktable', 'bauhaus']",General,{'crash': 100}
+ec2db8229dbfb7fbbcc16764b3e372bb973defb7,"['params', 'luastorage', 'crash', 'strict', 'compilation', 'option']",General,{'crash': 100}
+ad0c07cc519dac22e5bcf8a5f06d7dd4b61a48ce,"['spot', 'stack', 'buffer', 'overflow', 'heap', 'buffer', 'overflow', 'crash', 'shape', 'note', 'spot', 'parasite', 'general', 'mask', 'code', 'side', 'case', 'number', 'shape', 'need', 'shape', 'spot', 'multi', 'instance', 'raster', 'graphic', 'editor']",Risky_resource_management,{'buffer overflow': 100}
+3859f096a36c7f3060f8898f0e3647f69f7762b7,"['history', 'entry', 'module', 'issue', 'comment', 'empty', 'history', 'stack', 'exposure', 'instance', 'instance', 'delete', 'instance', 'original', 'instance', 'error', 'heap', 'buffer', 'overflow', 'address', 'xffdfd', 'xffdfc', 'size', 'thread', 'home', 'lebedevri', 'darktable', 'home', 'lebedevri', 'darktable', 'exposure', 'home', 'lebedevri', 'darktable', 'exposure', 'home', 'lebedevri', 'darktable', 'exposure', 'xfee', 'linux', 'libgobject', 'xfeffa', 'linux', 'libgobject', 'xfefae', 'linux', 'libgobject', 'xffe', 'home', 'lebedevri', 'darktable', 'bauhaus', 'bauhaus', 'home', 'lebedevri', 'darktable', 'bauhaus', 'bauhaus', 'xfadd', 'linux', 'libgtk', 'xedd', 'xfee', 'linux', 'libgobject', 'xfefaf', 'linux', 'libgobject', 'xfefafe', 'linux', 'libgobject', 'xafe', 'xfaddde', 'linux', 'libgtk', 'xdde', 'xfaadd', 'linux', 'libgtk', 'xeadd', 'xfacd', 'linux', 'libgtk', 'xecd', 'xffb', 'linux', 'libgdk', 'xfccc', 'linux', 'libglib', 'xfcff', 'linux', 'libglib', 'xfca', 'linux', 'libglib', 'xfabbf', 'linux', 'libgtk', 'xebbf', 'xfec', 'home', 'lebedevri', 'darktable', 'main', 'home', 'lebedevri', 'darktable', 'main', 'xfeb', 'linux', 'libc', 'local', 'darktable', 'describe', 'address', 'detail', 'wild', 'memory', 'access', 'summary', 'heap', 'buffer', 'overflow', 'home', 'lebedevri', 'darktable']",Risky_resource_management,{'buffer overflow': 100}
+2360e35d2143c0cf038a4e9ca0967dd5566781b2,"['module', 'crashy', 'idea', 'null', 'mitigates', 'problem']",General,{'crashy': 91}
+b01d061188c8fc618bdc7d1a2ec90741a1417cd2,"['global', 'accels', 'editing', 'print', 'border', 'value', 'default', 'lighttable', 'input', 'result', 'crash']",General,{'crash': 100}
+66c37e151499ed83359d50c5242f8708e5d83297,"['null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+8bfcc8c7f2d31448c232e044fbf8a19609d07116,"['stack', 'buffer', 'overflow', 'name', 'symbol', 'char', 'store', 'name', 'name', 'stack', 'error', 'stack', 'buffer', 'overflow', 'address', 'xfff', 'xfdcbfbcef', 'xfff', 'xfff', 'size', 'xfff', 'thread', 'xfdcbfbcef', 'home', 'lebedevri', 'darktable', 'imageop', 'xfdcbfb', 'home', 'lebedevri', 'darktable', 'common', 'darktable', 'main', 'home', 'lebedevri', 'darktable', 'main', 'xfdcbbb', 'linux', 'libc', 'local', 'darktable', 'address', 'xfff', 'stack', 'thread', 'offset', 'frame', 'xfdcbfbccf', 'home', 'lebedevri', 'darktable', 'imageop', 'frame', 'object', 'stmt', 'stmt', 'memory', 'access', 'offset', 'overflow', 'variable', 'path', 'plugindir', 'summary', 'stack', 'buffer', 'overflow', 'home', 'lebedevri', 'darktable', 'imageop', 'encounter', 'open', 'operation', 'local', 'darktable', 'plugins', 'object', 'file', 'file', 'directory', 'check', 'cmake', 'macro']",Risky_resource_management,{'buffer overflow': 100}
+c299115fc55f39ea162473f116234dd4dc5a6b6a,"['regression', 'generate', 'cache', 'cache', 'throught', 'thumbnail', 'pipe', 'null', 'pointer', 'paka']",Risky_resource_management,{'null pointer': 100}
+284d0ad43b6ecc96284005fe5ad449c9175f39cf,"['highlight', 'buffer', 'overrun', 'asan']",Risky_resource_management,{'overrun': 100}
+b65264cefacdb2e95b6a8bd2a50244675c17491d,['crash'],General,{'crash': 100}
+0dbc9cde9327af8ac156fa1dfb90919f6684df41,['crash'],General,{'crash': 100}
+9729f847bf9c4d0e101d68b7333cb73ccabb56ed,"['print', 'module', 'print', 'module', 'commits', 'memory', 'leak', 'darkroom', 'ensure', 'image', 'available', 'ensure', 'border', 'value', 'spin', 'button', 'border', 'value', 'optimize', 'drawing', 'printable', 'area', 'mark', 'display', 'image', 'size', 'force', 'implementation', 'conf', 'string', 'value', 'self', 'fprintf', 'code', 'clean', 'bauhaus', 'widget', 'printer', 'orientation', 'combo', 'memory', 'leak', 'different', 'place', 'paper', 'file', 'rework', 'print', 'setting', 'widget', 'order', 'spin', 'button', 'range', 'alignment', 'different', 'unit', 'inch', 'printer', 'profile', 'refactor', 'code', 'display', 'image', 'full', 'screen', 'computation', 'picture', 'dimension']",Risky_resource_management,{'memory leak': 100}
+2f7fd63f0b241742aad6d6505ba1e6fd7ed3de67,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+6d8b9515b869dc3fc87018c9d8d47175fac2a6e1,"['memory', 'leak', 'different', 'place']",Risky_resource_management,{'memory leak': 100}
+50cd3cef93111792c01392a9694011095cb35e57,"['module', 'various', 'random', 'crash', 'pipe']",General,{'crash': 100}
+cb958e37a605c4311d62ed96830e7a0aa1b9a6a1,"['buffer', 'overflow', 'generate', 'cache', 'case', 'jpeg', 'compression', 'blob']",Risky_resource_management,{'buffer overflow': 100}
+c5631b6b8d1ae584cd78240af58e6750e299c756,"['cache', 'couple', 'segfaults', 'deadlock']",Risky_resource_management,{'deadlock': 100}
+2645b561fc9e63fa8e2827fc99c20d8405a5df1b,"['pull', 'request', 'lebedevri', 'exiv', 'thubms', 'exiv', 'thumb', 'crash', 'thumb']",General,{'crash': 100}
+1363ad2860d2c08b25f5608bb12354a615d47f44,"['exiv', 'thumb', 'crash', 'thumb', 'crash']",General,{'crash': 100}
+2690212cd911128bd12d6dda5a68853241b3544f,"['check', 'argc', 'crash', 'darktable', 'conf', 'pedro']",General,{'crash': 100}
+177b49e3e639cf25eeda85b09cf6ce9321044167,"['integer', 'overflow', 'image', 'frog', 'thanks', 'crash', 'image', 'corner', 'image', 'todo', 'similar', 'code']",Risky_resource_management,{'integer overflow': 100}
+40c7c538b42446a37c1bcd37d0d091cd88802217,"['deadlock', 'colorin', 'unsupported', 'input', 'profile', 'thanks', 'final', 'resurface']",Risky_resource_management,{'deadlock': 100}
+3ceb1af5a5111c24fa8b07c1e0b53675ec8350e2,"['revert', 'mipmap', 'cache', 'safety', 'full', 'buffer', 'deadlock', 'reverts']",Risky_resource_management,{'deadlock': 100}
+7735bc3b64727f02cfaa36b20705a2202a1d9087,"['revert', 'mipmap', 'cache', 'safety', 'full', 'buffer', 'deadlock', 'reverts']",Risky_resource_management,{'deadlock': 100}
+a61aba3c851a45ee3ae0371356c10121b4d8bf88,"['fixme', 'check', 'path', 'null', 'crash']",General,{'crash': 100}
+23b95a5ae53f31bf23e14a34150083ce8c05ec00,"['pull', 'request', 'lebedevri', 'crash', 'data']",General,{'crash': 100}
+37590880d898006044bbbc4fc3c32c38949b4775,"['channel', 'error', 'heap', 'buffer', 'overflow', 'address', 'xfbe', 'xfcdcea', 'size', 'xfbe', 'thread', 'xfcdce', 'home', 'lebedevri', 'darktable', 'blend', 'xfcd', 'home', 'lebedevri', 'darktable', 'blend', 'xfcba', 'linux', 'libgomp', 'xfcdba', 'linux', 'libpthread', 'xfccdccc', 'clone', 'linux', 'libc', 'xeccc', 'xfbe', 'byte', 'region', 'thread', 'xfcdbdcb', 'linux', 'libasan', 'xfcdcd', 'home', 'lebedevri', 'darktable', 'common', 'darktable', 'xfcdcd', 'home', 'lebedevri', 'darktable', 'xfcddd', 'home', 'lebedevri', 'darktable', 'xfcd', 'home', 'lebedevri', 'darktable', 'xfcd', 'home', 'lebedevri', 'darktable', 'xfcd', 'home', 'lebedevri', 'darktable', 'xfcdc', 'home', 'lebedevri', 'darktable', 'xfcd', 'home', 'lebedevri', 'darktable', 'xfcd', 'home', 'lebedevri', 'darktable', 'xfcd', 'home', 'lebedevri', 'darktable', 'xfcd', 'home', 'lebedevri', 'darktable', 'xfcd', 'home', 'lebedevri', 'darktable', 'xfcd', 'home', 'lebedevri', 'darktable', 'xfcd', 'home', 'lebedevri', 'darktable', 'xfcdc', 'home', 'lebedevri', 'darktable', 'xfcd', 'home', 'lebedevri', 'darktable', 'xfcdc', 'home', 'lebedevri', 'darktable', 'xfcd', 'home', 'lebedevri', 'darktable', 'xfcd', 'home', 'lebedevri', 'darktable', 'xfcdc', 'home', 'lebedevri', 'darktable', 'xfcd', 'home', 'lebedevri', 'darktable', 'xfcd', 'home', 'lebedevri', 'darktable', 'xfcd', 'home', 'lebedevri', 'darktable', 'xfcd', 'home', 'lebedevri', 'darktable', 'xfcd', 'home', 'lebedevri', 'darktable', 'xfcd', 'home', 'lebedevri', 'darktable', 'xfcd', 'home', 'lebedevri', 'darktable', 'xfcd', 'home', 'lebedevri', 'darktable', 'xfcd', 'home', 'lebedevri', 'darktable', 'thread', 'xfcdbabba', 'linux', 'libasan', 'xbba', 'xfcbac', 'linux', 'libgomp', 'xfcbad', 'linux', 'libgomp', 'thread', 'xfcdbabba', 'linux', 'libasan', 'xbba', 'xfcdfc', 'home', 'lebedevri', 'darktable', 'control', 'xfcdf', 'home', 'lebedevri', 'darktable', 'control', 'control', 'xfcdfec', 'home', 'lebedevri', 'darktable', 'common', 'darktable', 'main', 'home', 'lebedevri', 'darktable', 'main', 'xfcb', 'linux', 'libc', 'summary', 'heap', 'buffer', 'overflow', 'home', 'lebedevri', 'darktable', 'blend', 'shadow', 'byte', 'buggy', 'address', 'xfeacec', 'xfeacec', 'xfeaceca', 'xfeacecb', 'xfeacecc', 'xfeacecd', 'xfeacece', 'xfeacecf', 'shadow', 'byte', 'legend', 'shadow', 'byte', 'application', 'byte', 'addressable', 'heap', 'redzone', 'heap', 'heap', 'region', 'stack', 'redzone', 'stack', 'redzone', 'stack', 'redzone', 'stack', 'partial', 'redzone', 'stack', 'return', 'stack', 'scope', 'global', 'redzone', 'global', 'init', 'order', 'user', 'contiguous', 'container', 'asan']",Risky_resource_management,{'buffer overflow': 100}
+751e12c2e57a978bac6d529730824d9d5ce899a6,"['film', 'roll', 'entry', 'actual', 'crash']",General,{'crash': 100}
+db519b5d22b6c1579cc523c9777e7bd768fcb2a9,"['crash', 'filename', 'label', 'gettext', 'bisect', 'thanks', 'phane', 'gourichon', 'initial', 'bugreport']",General,{'crash': 100}
+2fd2f0e915f754d33648903a5abea528fdf3ab33,"['lens', 'stack', 'buffer', 'overflow', 'size', 'xffffab', 'thread', 'xffbfd', 'home', 'lebedevri', 'darktable', 'lens', 'coverity']",Risky_resource_management,{'buffer overflow': 100}
+1edb1c6105cbe934020f11c8a1aa032b4ccc5cb4,"['ptrace', 'restriction', 'active', 'yama', 'ubuntu', 'ptrace', 'direct', 'descendant', 'proc', 'kernel', 'yama', 'fixme', 'need', 'prctl', 'return', 'main', 'process', 'http', 'http', 'http', 'wiki', 'ubuntu', 'security']",General,{'security': 100}
+c662ac82110c01f59fd5e99ecb2debf8fbec1d6f,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+05d55a12a493d05e5025f1c6fa02d6425db7f062,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+8e835d9399653e3a7c0e0672d3c6fd867443dbf3,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+3d89a02351cd507c8e3b92ad8a9b5858537d250d,"['memory', 'leak', 'return', 'null']",Risky_resource_management,{'memory leak': 100}
+8a589f6986a32741953aeacf979d2f3fc75de898,"['format', 'redo', 'legacy', 'params', 'buffer', 'overflow', 'sigh', 'duplicate', 'size', 'computation']",Risky_resource_management,{'buffer overflow': 100}
+c295b232265dd27d6e687fc047bc6cc60c9bd114,"['crash', 'presets', 'storage', 'storage', 'parameter', 'report', 'version', 'store', 'storage', 'parameter', 'point']",General,{'crash': 100}
+eea1989f2c9fa76710db07baaec4c19c1e40e81c,"['size', 'header', 'buffer', 'overflow', 'luck', 'mipmap', 'implementation']",Risky_resource_management,{'buffer overflow': 100}
+515cef1fa636f3c4e7e44076d4f8b0076e0a0bcb,"['pull', 'request', 'pedrocr', 'fuji', 'buffer', 'overflow', 'buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100}
+2f3ec4a13f761011739de3894e0b9dbc1a9aba30,"['temperature', 'crash', 'legacy', 'presets', 'update', 'infrastructure']",General,{'crash': 100}
+4b2ea91e543fa727d31f679b7100ece10b134169,"['rawdenoise', 'crash', 'legacy', 'presets', 'update', 'infrastructure']",General,{'crash': 100}
+4d163905df9ddf7d1b5e689e249b6ee6c2eef30f,"['highlight', 'crash', 'legacy', 'presets', 'update', 'infrastructure']",General,{'crash': 100}
+4a0b96c32e7193f4a091c6175b37b8f5c38efdad,"['flip', 'crash', 'legacy', 'presets', 'update', 'infrastructure']",General,{'crash': 100}
+50531ed5df9da728bdf6e50bde2de04c0400875b,"['demosaic', 'crash', 'legacy', 'presets', 'update', 'infrastructure']",General,{'crash': 100}
+3c3661b691e23b7d631ee6e6ce7612a5b5bc60da,"['crash', 'legacy', 'presets', 'update', 'infrastructure', 'memset', 'initialization']",General,{'crash': 100}
+b6bdb5463ead587f6bd8658adc72c4ec1aa9b52c,"['cacorrect', 'crash', 'legacy', 'presets', 'update', 'infrastructure']",General,{'crash': 100}
+6fd03cd841753039d4f139185d8e62435f4f15b3,"['colorin', 'crash', 'legacy', 'presets', 'update', 'infrastructure', 'todo', 'similar', 'case']",General,{'crash': 100}
+6fc9dbea8e7309f8e4883e49d7a3e40268cebc66,"['unlikely', 'memory', 'leak', 'fuji', 'pentax', 'test']",Risky_resource_management,{'memory leak': 100}
+bba510046cc6f84d1db8d740487b90cef1ef6a91,"['pull', 'request', 'dtorop', 'zoom', 'crash', 'garbage', 'crash', 'garbage', 'zoom']",General,{'crash': 100}
+916d670ca191b08816e53ea54171e2f1a49fe3f2,"['crash', 'zoom', 'address']",General,{'crash': 100}
+8b4483b2548aa94a3c1fb5e8e1eb42cf27dcb19b,"['lighttable', 'heap', 'buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100}
+5214d1409e939d0f70695458e8d2c434c0f2bb77,"['pull', 'request', 'upegelow', 'crash', 'case', 'valid', 'database', 'entry']",General,{'crash': 100}
+ffc97f69e25779ce0fdfe4e99561dc99435486ef,"['crash', 'case', 'valid', 'database', 'entry', 'tolerate', 'invalid', 'string', 'need', 'upfront']",General,{'crash': 100}
+8f3a77f9da92162b3e741dbebc40a7170cc08592,"['char', 'array', 'type', 'crash']",General,{'crash': 100}
+f74f28b8b3ccabac9904c19919fe0aadf3927956,"['revert', 'minor', 'memleak', 'crash', 'directory', 'garbage', 'reverts']",General,{'crash': 100}
+aa9a36330fafe0b965c47c255f52e59e174badab,"['lens', 'crash', 'legacy', 'presets', 'update', 'infrastructure']",General,{'crash': 100}
+e0e7f87838f2e431bc9486607b0652253f701e01,"['crash', 'startup', 'preliminary', 'original', 'crash', 'reverts']",General,{'crash': 100}
+f6129f8a352dd99037d98d5f8c51680ffb889ada,"['crash', 'startup', 'preliminary', 'original', 'crash', 'http', 'github', 'darktable', 'darktable', 'pull', 'issuecomment']",General,{'crash': 100}
+a78333a428375757c9b6c3bb1d3ae8131f6c26ac,"['heap', 'buffer', 'overflow', 'darktable', 'moduledir', 'perl', 'print']",Risky_resource_management,{'buffer overflow': 100}
+4a61419d8f720d5cff7eaa3326a6816debd51940,"['buffer', 'overflow', 'darktable', 'datadir', 'perl', 'print']",Risky_resource_management,{'buffer overflow': 100}
+a925e19b0a6be0bb8e7f9eb5f87661e70f432901,"['potential', 'double', 'free', 'setting', 'free', 'pointer', 'null']",Risky_resource_management,{'double free': 100}
+581670657ff7abef0a5c7f4741f9903a3274c00e,"['buffer', 'overflow', 'data', 'kernel', 'program', 'conf', 'perl', 'print', 'program', 'conf']",Risky_resource_management,{'buffer overflow': 100}
+459ad5cdd0b8442816c4003107fd0cf47df3aacd,"['segfault', 'buffer', 'overflow', 'darktablerc', 'perl', 'print']",Risky_resource_management,{'buffer overflow': 100}
+6754d3d7f8b2d6fee138cad372527b08a7e22658,"['experimental', 'potential', 'memory', 'corruption', 'zonesystem', 'coverity']",Risky_resource_management,{'memory corruption': 100}

@@ -1,11 +1,11 @@
-sha,message,catetory,matched,labels
-f9b2a331003804ff8d7076269d96bf893ea36c4e,"['command', 'directory', 'system', 'posix', 'various', 'crash']",Risky_resource_management,{'crash': 100},
-3c97ac3c473ec1fbdc1b3cbc5299ae9757be0d89,"['module', 'emscripten', 'usable', 'crash']",Risky_resource_management,{'crash': 100},
-fdf5c55b93db22c93732f7c7b28ae94a12288184,"['deadlock', 'potentialgarbage', 'table', 'collector', 'gettableelement', 'global', 'resizingdummy', 'pointer', 'object']",Risky_resource_management,{'deadlock': 100},
-73ef0cec864c96d998ddcc9120286a0d51e52827,"['order', 'thing', 'macos', 'crash', 'collectedreason', 'wrong', 'address']",Risky_resource_management,{'crash': 100},
-03b84bb24dc85e4457fad63cb5daad61902e86cb,"['multiple', 'error', 'message', 'thread', 'mutex', 'crash']",Risky_resource_management,{'crash': 100},
-0c52154171d8c23af4a3055c69a3eb8a8361d1a0,"['thread', 'crash']",Risky_resource_management,{'crash': 100},
-5f4482af96944a945a7a66ebcd3481f5642e94ad,"['allocation', 'crash', 'space']",Risky_resource_management,{'crash': 100},
-a6c926d6cee8b2bda746628a222bcd342a23c2c5,"['string', 'crash']",Risky_resource_management,{'crash': 100},
-bd3c4e6316a3f974e132f45d3ad886acbcd65073,"['child', 'crash', 'invoke']",Risky_resource_management,{'crash': 100},
-f35c5d11c7770f014fb14c4ed3304d689094d57a,"['crash', 'import']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+f9b2a331003804ff8d7076269d96bf893ea36c4e,"['command', 'directory', 'system', 'posix', 'various', 'crash']",General,{'crash': 100}
+3c97ac3c473ec1fbdc1b3cbc5299ae9757be0d89,"['module', 'emscripten', 'usable', 'crash']",General,{'crash': 100}
+fdf5c55b93db22c93732f7c7b28ae94a12288184,"['deadlock', 'potentialgarbage', 'table', 'collector', 'gettableelement', 'global', 'resizingdummy', 'pointer', 'object']",Risky_resource_management,{'deadlock': 100}
+73ef0cec864c96d998ddcc9120286a0d51e52827,"['order', 'thing', 'macos', 'crash', 'collectedreason', 'wrong', 'address']",General,{'crash': 100}
+03b84bb24dc85e4457fad63cb5daad61902e86cb,"['multiple', 'error', 'message', 'thread', 'mutex', 'crash']",General,{'crash': 100}
+0c52154171d8c23af4a3055c69a3eb8a8361d1a0,"['thread', 'crash']",General,{'crash': 100}
+5f4482af96944a945a7a66ebcd3481f5642e94ad,"['allocation', 'crash', 'space']",General,{'crash': 100}
+a6c926d6cee8b2bda746628a222bcd342a23c2c5,"['string', 'crash']",General,{'crash': 100}
+bd3c4e6316a3f974e132f45d3ad886acbcd65073,"['child', 'crash', 'invoke']",General,{'crash': 100}
+f35c5d11c7770f014fb14c4ed3304d689094d57a,"['crash', 'import']",General,{'crash': 100}

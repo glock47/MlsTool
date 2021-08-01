@@ -1,4 +1,8 @@
-sha,message,catetory,matched,labels
-a7a979f49349d845d7f6268fdaf5dde09ca552c9,"['mergemerge', 'request', 'patchserious', 'problem', 'issue', 'fastjson', 'security']",General,{'security': 100},
-bc692b408d9725bf81dbe59c9aae4b4f2b304572,"['deadlock', 'class', 'issuedeadlock', 'class']",Risky_resource_management,{'deadlock': 100},
-caec839ec6c881962c2cb896ae130313d80381e7,"['access', 'control', 'rocketmq', 'introductionaccess', 'control', 'rocketmq', 'introductionstyle', 'format']",Porous_defenses,{'access control': 100},
+sha,message,catetory,matched
+a7a979f49349d845d7f6268fdaf5dde09ca552c9,"['pull', 'request', 'patch', 'issue', 'fastjson', 'serious', 'security', 'problem']",General,{'security': 100}
+a60d93890351df5f4e82c748e38ef200f55c644b,"['serious', 'security', 'problem', 'fastjson', 'serious', 'security', 'problem', 'http', 'github', 'apache', 'rocketmq', 'issue']",General,{'security': 100}
+bc692b408d9725bf81dbe59c9aae4b4f2b304572,"['deadlock', 'issue']",Risky_resource_management,{'deadlock': 100}
+08b62fca024cc9bfa496c3c925bbf8d877919293,"['null', 'point', 'check', 'message', 'namespace']",Risky_resource_management,{'null point': 91}
+caec839ec6c881962c2cb896ae130313d80381e7,"['introduction', 'access', 'control', 'list', 'rocketmq', 'introduction', 'access', 'control', 'list', 'rocketmq', 'format', 'list', 'style']",Porous_defenses,{'access control': 100}
+0f76489882d3954fd640e28c7b8704b6d9f3096f,"['rocketmq', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+0c0b730b258b84d2e1affb10ecf6a0ee7cae2f4a,"['integer', 'overflow']",Risky_resource_management,{'integer overflow': 100}

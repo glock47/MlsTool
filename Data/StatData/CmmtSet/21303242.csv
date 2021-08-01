@@ -1,10 +1,18 @@
-sha,message,catetory,matched,labels
-aa36c915fb2eff2709eedcc0517618aebfa2d721,"['corrects', 'length', 'generation', 'logic', 'passwordlength', 'implementation', 'password', 'forcedlength']",Risky_resource_management,{'corrects length': 90},
-4fdc75093fb9ff68c7c84d703ce04676a9efeb0a,"['couple', 'service', 'security']",General,{'security': 100},
-c6a9c3149fe3275ae4ec4bc0fccafbf18404fceb,"['security', 'server', 'dependency']",General,{'security': 100},
-0b6e4850467361b1cc7c1bba2155b8aa02681f63,"['update', 'documentation', 'security', 'service']",General,{'security': 100},
-505c135b4b9851ea9954f82e6acff72eaa9a0d48,"['present', 'article', 'service', 'crash']",Risky_resource_management,{'crash': 100},
-67acc8e5b4b9a4edd026e33092fc95102dd6e969,"['documentation', 'function', 'addition', 'content', 'incorrect', 'comment', 'setting', 'manage', 'direct', 'crash']",Risky_resource_management,{'crash': 100},
-d2e45113e6310b65724ae60afd2b53cb329c7560,"['preview', 'controller', 'security', 'index']",General,{'security': 100},
-f83eada356164bbe8467fec8367cb86f19c02099,"['request', 'check', 'security', 'handler']",General,{'security': 100},
-fe0ed017114654b32295cd01d667cb5129f68e31,"['error', 'config', 'exists', 'crash']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+1952eaad12116f36124ee4d994720fb78889cb27,"['pull', 'request', 'pencilblue', 'issue', 'corrects', 'memory', 'leak', 'performance', 'issue']",Risky_resource_management,{'memory leak': 100}
+e1e8f3dc2b4ca2258c7cd81d4624fe9206eed147,"['pull', 'request', 'andparker', 'locale', 'format', 'issue', 'stack', 'overflow']",Risky_resource_management,{'stack overflow': 100}
+a45fe5ca269c1c21720e1b9a13517fbf8a6eb5e0,"['locale', 'format', 'issue', 'stack', 'overflow']",Risky_resource_management,{'stack overflow': 100}
+4fdc75093fb9ff68c7c84d703ce04676a9efeb0a,"['couple', 'unit', 'test', 'security', 'service']",General,{'security': 100}
+c6a9c3149fe3275ae4ec4bc0fccafbf18404fceb,"['server', 'dependency', 'security', 'vulnerability']",General,{'security': 100}
+0b6e4850467361b1cc7c1bba2155b8aa02681f63,"['update', 'documentation', 'security', 'service']",General,{'security': 100}
+8298fafccbd9c2509c5d4928f3d5b391b4809b1c,"['security', 'file']",General,{'security': 100}
+c087d4932a81b21452a9384af67b499d187e9cb2,"['pull', 'request', 'pencilblue', 'issue', 'memory', 'leak', 'session', 'handler']",Risky_resource_management,{'memory leak': 100}
+f1987da5243d9a44f7c1f8d11270a42e7304a5c1,"['memory', 'leak', 'session', 'handler']",Risky_resource_management,{'memory leak': 100}
+505c135b4b9851ea9954f82e6acff72eaa9a0d48,"['article', 'service', 'crash']",General,{'crash': 100}
+67acc8e5b4b9a4edd026e33092fc95102dd6e969,"['incorrect', 'direct', 'call', 'content', 'setting', 'setting', 'crash', 'manage', 'comment', 'controller', 'addition', 'documentation']",General,{'crash': 100}
+8a12ceaaf19570e7c644fb2c2096aa10b7e9e161,"['pull', 'request', 'access', 'control', 'header', 'feed', 'site']",Porous_defenses,{'access control': 100}
+c9ed395eb6bce725957ede58686ff526b0caf97e,"['access', 'control', 'header', 'feed', 'site']",Porous_defenses,{'access control': 100}
+d2e45113e6310b65724ae60afd2b53cb329c7560,"['security', 'preview', 'index', 'controller']",General,{'security': 100}
+f83eada356164bbe8467fec8367cb86f19c02099,"['security', 'check', 'request', 'handler']",General,{'security': 100}
+956bad59fb44a2cf7a75e6e8feb41d387223639f,['crash'],General,{'crash': 100}
+fe0ed017114654b32295cd01d667cb5129f68e31,"['config', 'test', 'config', 'json', 'exists', 'file', 'crash', 'error']",General,{'crash': 100}

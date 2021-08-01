@@ -1,0 +1,13 @@
+sha,message,catetory,matched
+4cdd42e3f037bb07135c06824eec537839f8a953,"['const', 'eval', 'crash', 'expansion', 'root', 'node']",General,{'crash': 100}
+9bc9346b6acb96838a6144c9bd96c4370e14b0ec,"['error', 'message', 'integer', 'overflow']",Risky_resource_management,{'integer overflow': 100}
+d47282806d50359851a92bf72fdf5253574d2e17,"['slight', 'tweak', 'crash']",General,{'crash': 100}
+1726886913173c2828e962d7c5d384e3915d0ae3,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+ac6f3ffba823e539c4c9afd93b7edf7122f463cc,"['standalone', 'miri', 'offset', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+383cf0c1f1400293d66a979ee4f56628d76b4d93,"['hacky', 'null', 'pointer', 'reference']",Risky_resource_management,{'null pointer': 100}
+c54c79b06fcbb369a9df82d2f526def0cb2b4474,"['minicargo', 'attempt', 'crash', 'travis']",General,{'crash': 100}
+7ca433200a46434ea785881010c476520d6ea746,"['const', 'eval', 'crash']",General,{'crash': 100}
+667912cb8de8cecd066505970d669565544eb431,"['expr', 'clone', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+9d7c60d6c556c9659329490b34a601df3dea2ce6,"['edge', 'case', 'crash', 'insert', 'todo']",General,{'crash': 100}
+7e1d0d14853df9d2a6cd664a99547d192ba5dbe5,"['bugfix', 'crash', 'item', 'root']",General,{'crash': 100}
+1b744f3c07e7e34dad26f33d9988c3d34871e062,"['cleanup', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}

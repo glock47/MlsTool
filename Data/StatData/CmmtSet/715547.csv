@@ -1,25 +1,106 @@
-sha,message,catetory,matched,labels
-8b3e346b90505353b9213ed68bddcde37fd9865a,"['development', 'security']",General,{'security': 100},
-f636019495e8f603844825291ccc6a9769781607,"['crash', 'textbuilder']",Risky_resource_management,{'crash': 100},
-f5465157208abfe32a5fc523b7a22c358657217f,"['crash', 'module', 'dummy']",Risky_resource_management,{'crash': 100},
-bea3c8a21aa398030c6aae085b290d5e22ff4216,"['retry', 'unicode', 'junit', 'crash', 'character', 'plugin', 'reporter']",Risky_resource_management,{'crash': 100},
-4d403d2b3f25fc487b83de9163f10c01b75b3214,"['point', 'crash']",Risky_resource_management,{'crash': 100},
-f04ef536c0ba129d3845d59bddf442dfc88001d1,"['highcharts', 'browser', 'float', 'issue', 'crash', 'chrome']",Risky_resource_management,{'crash': 100},
-1f17c304b2115bc22e229c80e2eb7242566208bc,"['insecure', 'sample']",General,{'insecure': 100},
-b441ff02c9ab4d1a1d4f28d8a1c586409fc9dbf1,"['addition', 'crash', 'script', 'posix']",Risky_resource_management,{'crash': 100},
-a23d613a25792f2464257c9adb60d2ade6237912,"['crash', 'heatmap']",Risky_resource_management,{'crash': 100},
-e8880ff524fc34bc334d5c44789fde77ee61bdc7,"['crash', 'sample']",Risky_resource_management,{'crash': 100},
-eb77839a0d05450a5426fcd474cb3dd1c3f823d7,"['fddcdcbmerge', 'security', 'checkmarx']",General,{'security': 100},
-fddc6d62cbb54e0b3fe31df3ae04699644a7b415,"['mergeremote', 'master', 'checkmarx', 'security']",General,{'security': 100},
-2dd93bcd8e797453203d1a0b6f8f4fde1248d65b,"['checkmarx', 'insertion', 'security']",General,{'security': 100},
-9a9e387b68dcd8cde05a5b65506a2aee5596695e,"['bfaecd', 'dfedfremote', 'master', 'checkmarx', 'security']",General,{'security': 100},
-33b64faecd41b2512a58406e8db49388137bddd2,"['checkmarx', 'revision', 'security']",General,{'security': 100},
-6abfece9fb59533714e302abb4617751e2a07d29,"['default', 'insecure']",General,{'insecure': 100},
-f44d1a4144b9b96fbf74b1fc239e06682fd2ea5c,"['browser', 'highstock', 'candlestick', 'crash', 'point', 'chrome']",Risky_resource_management,{'crash': 100},
-60b41c568843f9d126366d9cae80b149ab43d2d5,"['crash', 'setting']",Risky_resource_management,{'crash': 100},
-23ba1ee075470d3d99d2637d03eb6ae254c04ee2,"['crash', 'chrome']",Risky_resource_management,{'crash': 100},
-7b3a97a60e321c91f10441e9d45b5080171d23d3,"['crash', 'commits']",Risky_resource_management,{'crash': 100},
-6236834052182c418fff74970568070c11b73280,"['revert', 'crash', 'commits', 'individualcommit', 'reverts']",Risky_resource_management,{'crash': 100},
-062fb04563aa7f7035048f03a6387052606b5bb0,"['crash', 'commits']",Risky_resource_management,{'crash': 100},
-9da09906d9cda5cff3cada3fd992108f1100c18e,"['issue', 'crash']",Risky_resource_management,{'crash': 100},
-b20f8a878919fbcb04005735aad99345494b2973,"['declaration', 'vulnaribility', 'security', 'doctypebatik', 'reportbugzilla']",General,{'security': 100},
+sha,message,catetory,matched
+a16a3818dd290510181f98b5dfbe4becc9ad0824,"['null', 'point', 'warning', 'browser']",Risky_resource_management,{'null point': 91}
+cc7b65f7b953057d21320773421abdd4a696a644,"['heatmap', 'null', 'point', 'highcharts', 'null', 'point', 'class']",Risky_resource_management,{'null point': 91}
+f07be8d7b373e45c35da5021ee1302a017acecbb,"['security', 'page']",General,{'security': 100}
+9a0401bd7e98584dd84c8dd49acc5b58f13ceb98,['crash'],General,{'crash': 100}
+b3782b9c43a0928cc2021e02dfd5647420276703,"['null', 'point']",Risky_resource_management,{'null point': 91}
+8b3e346b90505353b9213ed68bddcde37fd9865a,"['security', 'development', 'dependency']",General,{'security': 100}
+4545080b6101405cbe16884225e4a86283a91310,['security'],General,{'security': 100}
+e1c4d37eb653ba5cf8b5a11d391f09a7b037a629,"['event', 'memory', 'leak', 'test']",Risky_resource_management,{'memory leak': 100}
+f636019495e8f603844825291ccc6a9769781607,"['textbuilder', 'crash']",General,{'crash': 100}
+f5465157208abfe32a5fc523b7a22c358657217f,"['crash', 'module', 'sunburst', 'dummy', 'null', 'point']",Risky_resource_management,{'null point': 91}
+71a481cdcc15d2c18557807436ed1486806b0de6,"['stocktools', 'mobile', 'event', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+9629e81041d0f804cc03a4b9464e63d48d6ef231,"['setdata', 'polar', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+eed89c07951c530c03dde7afb8230a075d04370d,"['describe', 'null', 'point', 'screen', 'reader']",Risky_resource_management,{'null point': 91}
+6cd76eb7130aef193bee04043b4bc0191610e286,"['crash', 'responsive', 'chart']",General,{'crash': 100}
+b0931b15afda1eb7c0fa21151d558a14f0ca8733,"['orientation', 'wordcloud', 'crash']",General,{'crash': 100}
+ed323873a820afd0125ab69599e9756042c2fe02,"['null', 'point']",Risky_resource_management,{'null point': 91}
+9b1a202788e0bde2dca59b5035e0c204b1c7fb5f,"['null', 'point']",Risky_resource_management,{'null point': 91}
+6a8c23c528f71c6f32d097e03bb3d050142713b5,"['null', 'point', 'solid', 'gauge']",Risky_resource_management,{'null point': 91}
+bea3c8a21aa398030c6aae085b290d5e22ff4216,"['karma', 'junit', 'reporter', 'crash', 'test', 'failure', 'unicode', 'character', 'retry', 'plugin']",General,{'crash': 100}
+b74194ac57bd1a8c115c0ae7bd9e15e32cafe16b,"['data', 'label', 'tooltip', 'null', 'point', 'heatmap', 'unnecessary', 'comment']",Risky_resource_management,{'null point': 91}
+b567bc79a5a8e8da439daff8354bd5f3887c0504,"['data', 'label', 'tooltip', 'null', 'point', 'heatmap']",Risky_resource_management,{'null point': 91}
+c30df3cd76c9a47b9811f28629fdec95a4ff531d,"['multiple', 'series', 'null', 'point']",Risky_resource_management,{'null point': 91}
+70850e8ed64cfd3d91eacd8ef952e196ad9ab2fd,"['null', 'point', 'series']",Risky_resource_management,{'null point': 91}
+023ff8560055e8d69cb102ca9321b8f9f9b6aaf0,"['data', 'label', 'null', 'point', 'show']",Risky_resource_management,{'null point': 91}
+f3f487febf5f2839c1ab407157ed2e2f4f9230eb,"['guard', 'null', 'point']",Risky_resource_management,{'null point': 91}
+66844434228997035481995b9cd60b7b62bda121,"['chart', 'generation', 'crash', 'wrong', 'type', 'series', 'config']",General,{'crash': 100}
+f04ef536c0ba129d3845d59bddf442dfc88001d1,"['issue', 'highcharts', 'unit', 'test', 'browser', 'chrome', 'data', 'float', 'crash']",General,{'crash': 100}
+d889a2fb7bf359ceea3a55af6ce908fd405cd204,"['null', 'point']",Risky_resource_management,{'null point': 91}
+1f17c304b2115bc22e229c80e2eb7242566208bc,"['sample', 'case', 'insecure', 'link']",General,{'insecure': 100}
+4f40f3c7f2a916d3e7eb112995451a2858503651,"['null', 'point', 'issue', 'psar', 'indicator']",Risky_resource_management,{'null point': 91}
+253b9000417fb3ea592a9cb6cef000b44c1b8895,"['null', 'point']",Risky_resource_management,{'null point': 91}
+7d1d94a2b4f9e733e004bd23b196f8f0640742a2,"['security', 'check', 'rule', 'eslint']",General,{'security': 100}
+6ae3588dc059ca630f0431de5c700dfdc7caefb6,"['null', 'pointer', 'exception', 'chart', 'selection', 'event']",Risky_resource_management,{'null pointer': 100}
+f8e695877407590197325744cb09111590a738d6,"['keyboard', 'navigation', 'issue', 'series', 'null', 'point']",Risky_resource_management,{'null point': 91}
+b441ff02c9ab4d1a1d4f28d8a1c586409fc9dbf1,"['addition', 'bdcf', 'task', 'script', 'crash', 'window']",General,{'crash': 100}
+c6ccad42cc7abe37afda4a8e188cef1da9b8c097,"['null', 'point', 'plot', 'axis', 'extreme', 'valid', 'point']",Risky_resource_management,{'null point': 91}
+3ce21ca5f51ecc543f24bfc26b969ed242add1ce,"['equal', 'data', 'length', 'area', 'series', 'null', 'point']",Risky_resource_management,{'null point': 91}
+34d86c051ae528dc662cc70482f13ba2860c117c,"['null', 'point', 'creates', 'issue', 'point', 'value']",Risky_resource_management,{'null point': 91}
+1c4aad54fc20ed6a42f7843e320d1b6ea2ac643b,"['null', 'point']",Risky_resource_management,{'null point': 91}
+3ebe69bbdb6b1ad5b7bacbd2df39a69d67fb83e9,"['xrange', 'null', 'point']",Risky_resource_management,{'null point': 91}
+8239408c55e88f3894b55d5f139ce5aa55b9b429,"['category', 'xaxis', 'null', 'point']",Risky_resource_management,{'null point': 91}
+722dc6ca10684beb1c46e46b4322803426007126,"['revert', 'parallel', 'category', 'xaxis', 'null', 'point', 'reverts']",Risky_resource_management,{'null point': 91}
+78ef78c21c4a2ade5e76c5a23cd648198923912a,"['category', 'xaxis', 'null', 'point']",Risky_resource_management,{'null point': 91}
+76e3df6fde7d279023451addf98f4090a85371bd,"['arearange', 'series', 'reserve', 'space', 'null', 'point']",Risky_resource_management,{'null point': 91}
+a23d613a25792f2464257c9adb60d2ade6237912,"['crash', 'heatmap', 'boost', 'canvas']",General,{'crash': 100}
+a162cd7e24da495a1b08aed3f2dcaaa770bb4d8e,"['null', 'point']",Risky_resource_management,{'null point': 91}
+d181fc35b98c13c437a88babeb56ef4f802afd81,"['graph', 'area', 'area', 'spline', 'null', 'point']",Risky_resource_management,{'null point': 91}
+a1ddddad9705ed6e59ee688adc99094312353ca2,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+e8880ff524fc34bc334d5c44789fde77ee61bdc7,"['sample', 'preliminariy', 'pdfs', 'crash', 'browser']",General,{'crash': 100}
+eb77839a0d05450a5426fcd474cb3dd1c3f823d7,"['checkmarx', 'security']",General,{'security': 100}
+fddc6d62cbb54e0b3fe31df3ae04699644a7b415,"['origin', 'master', 'checkmarx', 'security']",General,{'security': 100}
+2dd93bcd8e797453203d1a0b6f8f4fde1248d65b,"['checkmarx', 'security', 'insertion', 'point']",General,{'security': 100}
+9a9e387b68dcd8cde05a5b65506a2aee5596695e,"['origin', 'master', 'checkmarx', 'security']",General,{'security': 100}
+a8baae4e16ca0a64bc104cc6a717e70919516657,"['null', 'point', 'waterfall', 'series']",Risky_resource_management,{'null point': 91}
+33b64faecd41b2512a58406e8db49388137bddd2,"['checkmarx', 'security', 'test', 'revision']",General,{'security': 100}
+6abfece9fb59533714e302abb4617751e2a07d29,"['insecure', 'http']",General,{'insecure': 100}
+bdf16302c3f9c9831aebc8706b5da36f8d0b8500,"['null', 'point', 'issue', 'maplines']",Risky_resource_management,{'null point': 91}
+064e5982e64f61ebb33529a2419edb3bc55bb7f2,"['style', 'null', 'point']",Risky_resource_management,{'null point': 91}
+5179cd2bf76cef77a7f5982cd5f6b204b5c54848,"['style', 'null', 'point']",Risky_resource_management,{'null point': 91}
+6e5e467799b61b34c58f5448565865c5d19e4b1d,"['style', 'null', 'point']",Risky_resource_management,{'null point': 91}
+306c572e2d069630f4028af373d1345652c03606,"['null', 'point', 'blank', 'chart', 'drilldown', 'module']",Risky_resource_management,{'null point': 91}
+2582f7f85034d655cc369bd1af68aece7b5b59c3,"['option', 'tooltips', 'mouse', 'event', 'null', 'point']",Risky_resource_management,{'null point': 91}
+790324044242398d8067d0539db27837872e5415,"['drilldown', 'null', 'point']",Risky_resource_management,{'null point': 91}
+bbe753db1642e30519986c58906cfb183bc08403,"['null', 'point']",Risky_resource_management,{'null point': 91}
+7b4ceac0f24a185ef540ec9ca772abcd2937807f,"['zero', 'logarithmic', 'chart', 'whole', 'graph', 'crash']",General,{'crash': 100}
+6110b822f65eb44396f53cd047879253c0696ff5,"['error', 'null', 'point']",Risky_resource_management,{'null point': 91}
+f44d1a4144b9b96fbf74b1fc239e06682fd2ea5c,"['browser', 'crash', 'chrome', 'candlestick', 'point']",General,{'crash': 100}
+4b8c1385749a0a9d8329d783b281ee8cfc342f28,"['problem', 'percentage', 'stack', 'null', 'point']",Risky_resource_management,{'null point': 91}
+cc46d690a40d5983c5247c2a4a620cd8e64d89c4,"['point', 'marker', 'null', 'point']",Risky_resource_management,{'null point': 91}
+badcc76fd11e5f35514009b12a53161ea0333370,"['null', 'point']",Risky_resource_management,{'null point': 91}
+1ae13fc9c9b2cf144705f234a9effbe2706bfb53,"['spline', 'null', 'point', 'connectnulls']",Risky_resource_management,{'null point': 91}
+571cc538b3908bf18228ad06260f89dc50f9c3fc,"['issue', 'null', 'point']",Risky_resource_management,{'null point': 91}
+ff9340f8bd93f475961cb3e4add931aeb002c91d,"['memory', 'leak', 'dynamic', 'chart', 'cache']",Risky_resource_management,{'memory leak': 100}
+80579c4b8a940da800eedbfcc62a819dc74d5c08,"['crash', 'firefox', 'standalone', 'framework']",General,{'crash': 100}
+3abba75f8adca954f03639417229c5d730d03d9b,"['additional', 'null', 'point', 'bubble', 'chart']",Risky_resource_management,{'null point': 91}
+9d452514829846fd215cda0bcd2b267530737986,"['dense', 'tick', 'setting', 'staggerlines', 'browser', 'crash']",General,{'crash': 100}
+18042ed83219110c33ed67b02d612d5e281d5c69,"['stack', 'item', 'building', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+dd95728ba85bb579081340889413e6449d8ff695,"['source', 'comment', 'data', 'crash', 'data', 'work', 'monday']",General,{'crash': 100}
+7542a499cbbdfc182e0c15b7cda0b827ed4ff70f,"['null', 'point', 'false', 'effect']",Risky_resource_management,{'null point': 91}
+e706279f105c8a1b34d5ca61c430c6e063fdd11b,"['crash', 'chrome', 'line', 'extreme', 'length']",General,{'crash': 100}
+53d53ac0e609d40b3668d9809a5f4f20e0232381,"['series', 'canvas', 'support', 'null', 'point', 'connectnulls', 'option']",Risky_resource_management,{'null point': 91}
+ea2734390ae21ffceb2702b7e37ef784fb1b2ac5,"['redundant', 'check', 'point', 'tree', 'null', 'point', 'part', 'tree']",Risky_resource_management,{'null point': 91}
+188c38930e219b7651b541aa3fd11a0648b91077,"['null', 'point']",Risky_resource_management,{'null point': 91}
+2074c0ffe789794412e6fb0c703bbc0637e524fe,"['error', 'null', 'point']",Risky_resource_management,{'null point': 91}
+23ba1ee075470d3d99d2637d03eb6ae254c04ee2,"['eternal', 'loop', 'crash', 'chrome', 'data', 'point']",General,{'crash': 100}
+3a06becbda60c367e4905ef035f0b0f64f4a4128,"['tooltip', 'hide', 'null', 'point']",Risky_resource_management,{'null point': 91}
+7e6e3bcba310cab8ccfec72ee9592f9acdaa0e4d,"['utils', 'attempt', 'memory', 'leak', 'bath']",Risky_resource_management,{'memory leak': 100}
+3aa12c0109f63e836c858699c0f09e1ab4a8d925,"['memory', 'leak', 'jquery', 'renderer', 'primitive']",Risky_resource_management,{'memory leak': 100}
+8fa0c72a153ddcfb1ab4a7d1bf882de5568d4824,"['memory', 'leak', 'addpoint', 'empty', 'name', 'axis', 'name', 'lookup', 'table']",Risky_resource_management,{'memory leak': 100}
+846d4b7f0a6dd40c20dedc0a80348fa65e008adc,"['highmaps', 'display', 'tooltip', 'null', 'point']",Risky_resource_management,{'null point': 91}
+7b05020504ac329fc9a3443759303d850d3093d0,"['null', 'point']",Risky_resource_management,{'null point': 91}
+7b3a97a60e321c91f10441e9d45b5080171d23d3,"['work', 'crash', 'valanipa', 'individual', 'commits']",General,{'crash': 100}
+6236834052182c418fff74970568070c11b73280,"['work', 'crash', 'valanipa', 'individual', 'commits']",General,{'crash': 100}
+062fb04563aa7f7035048f03a6387052606b5bb0,"['work', 'crash', 'valanipa', 'individual', 'commits']",General,{'crash': 100}
+0ddcb95cf95ea57a2635ab3035980cb90dbdfa6a,"['error', 'memory', 'leak', 'pointer']",Risky_resource_management,{'memory leak': 100}
+254371e5639359f24c93c85ee8f22f4c409f4ab3,"['behaviour', 'drilldown', 'null', 'point']",Risky_resource_management,{'null point': 91}
+b77cd66c89b0c79e28e8fd4ed43e63b237cbc761,"['memory', 'leak', 'implementation', 'touch', 'support']",Risky_resource_management,{'memory leak': 100}
+34d72b86c3f966f7f70989eaabc50b9c6d904949,"['memory', 'leak', 'variable', 'scope']",Risky_resource_management,{'memory leak': 100}
+faff1d6cf210fec96ba80bb2dcd65b8c855ae160,"['regression', 'code', 'null', 'point']",Risky_resource_management,{'null point': 91}
+b03cf58e640f506d2da3a01c6d6f3587aa0bf76e,"['issue', 'highcharts', 'data', 'label', 'null', 'point']",Risky_resource_management,{'null point': 91}
+9da09906d9cda5cff3cada3fd992108f1100c18e,"['issue', 'crash']",General,{'crash': 100}
+b20f8a878919fbcb04005735aad99345494b2973,"['security', 'vulnaribility', 'doctype', 'declaration', 'report', 'batik', 'http', 'bugzilla']",General,{'security': 100}
+f03149b62f345f3672b76c5809c1b8d2025ef1da,"['issue', 'series', 'null', 'point']",Risky_resource_management,{'null point': 91}
+96783a6c9bd1ab95603c56a8281b4b783b62332e,"['issue', 'null', 'point']",Risky_resource_management,{'null point': 91}
+03a460967828e3dfbcc67d130ecf69d2391feefd,"['memory', 'leak', 'stack', 'item', 'point', 'removal']",Risky_resource_management,{'memory leak': 100}

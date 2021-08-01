@@ -1,8 +1,7 @@
-sha,message,catetory,matched,labels
-ac779cb6a082fe524e80054328b5463575ba7502,"['buggy', 'overrun', 'structure']",Risky_resource_management,{'overrun': 100},
-9d67ab4cf0f242b0a04f00f133bfaa563b08fb4d,"['cache', 'android', 'crash']",Risky_resource_management,{'crash': 100},
-943bb355f931ae1ef45d67a611e2415477f8e23b,"['attempt', 'infamous', 'crash']",Risky_resource_management,{'crash': 100},
-d4453441f12a26c273c6bd8bcfa1b3f76889a884,"['level', 'purpose', 'stack', 'crash']",Risky_resource_management,{'crash': 100},
-db5697e18d741e27772e6250991c7ab64eb30637,"['vulnerability', 'version', 'security']",General,{'security': 100},
-186eba9641ee5ef9f14c78a6d95b2f12078d64aa,"['security', 'version', 'dependency']",General,{'security': 100},
-3aac8d16c33f19f4cc78bc862b340a6428dec61d,"['security', 'version', 'dependency']",General,{'security': 100},
+sha,message,catetory,matched
+db5697e18d741e27772e6250991c7ab64eb30637,"['security', 'vulnerability', 'golang', 'version']",General,{'security': 100}
+186eba9641ee5ef9f14c78a6d95b2f12078d64aa,"['security', 'python', 'dependency', 'version']",General,{'security': 100}
+3aac8d16c33f19f4cc78bc862b340a6428dec61d,"['security', 'python', 'dependency', 'version']",General,{'security': 100}
+857f2840c88567bad4fc05139a2c3b77faf82d3f,"['access', 'control', 'origin', 'response', 'header', 'http', 'localhost']",Porous_defenses,{'access control': 100}
+1e1c17cc66fe02af48d5d66f1050b1a91f08091f,"['pull', 'request', 'spectolabs', 'admin', 'security', 'refactor', 'auth', 'controller', 'stuff', 'handler']",General,{'security': 100}
+5dc17ad2cfc06487e40a85f171134669ebcba74a,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}

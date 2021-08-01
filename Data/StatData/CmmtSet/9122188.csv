@@ -1,4 +1,8 @@
-sha,message,catetory,matched,labels
-4576540af0faf226bec5287a2287e29655ca068c,"['security', 'selenium', 'webdriver', 'rubyzip', 'bundle', 'update']",General,{'security': 100},
-818d38d9373cb7fe917743202c31ceb188dba82d,"['security', 'update']",General,{'security': 100},
-f84898fb50f7a20098e98cb7f4a6e386744190e6,"['safety', 'cleanup', 'crash', 'email']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+4576540af0faf226bec5287a2287e29655ca068c,"['bundle', 'update', 'selenium', 'webdriver', 'security', 'update', 'rubyzip']",General,{'security': 100}
+a1bd8d308a09ee5e6a738bb6f8a144591845d633,"['ansible', 'cron', 'module', 'specific', 'daily', 'time', 'cron', 'module', 'crontab', 'file', 'cron', 'specific', 'time', 'heavy', 'process', 'case', 'crash', 'hour', 'network', 'intensive', 'backup']",General,{'crash': 100}
+c0f8041ec77288f1205d67202fb125b720bc1926,"['memory', 'leak', 'migration']",Risky_resource_management,{'memory leak': 100}
+bd960b508ccaafbdf8d4fbfe6a6b9c4cb67f51c0,"['runaway', 'memory', 'http', 'question', 'ruby', 'rail', 'memory', 'leak', 'large', 'number', 'record']",Risky_resource_management,{'memory leak': 100}
+5bb14dd8d3f50be635eec36c97e53d9ab8742612,"['rail', 'security']",General,{'security': 100}
+818d38d9373cb7fe917743202c31ceb188dba82d,"['rail', 'security', 'update']",General,{'security': 100}
+f84898fb50f7a20098e98cb7f4a6e386744190e6,"['cleanup', 'email', 'data', 'file', 'safety', 'case', 'test', 'crash']",General,{'crash': 100}

@@ -1,134 +1,226 @@
-sha,message,catetory,matched,labels
-4e4121bac5cda8efa7d3eb6aaf7720f3ff59c329,"['reliability', 'oauth', 'refresh', 'security', 'improveissue', 'issue', 'audience', 'causedaccess', 'refreshedaudience']",General,{'security': 100},
-018b5c12b71b0da443255f4a5cf0ac9543bbf9f7,"['adapter', 'sanitizes', 'storage', 'requestissue', 'release', 'library', 'security', 'storage', 'storage', 'request', 'valueadapter', 'consecutive', 'storage', 'value', 'request', 'breakingreturn', 'requester', 'sanitize', 'method', 'interface', 'clone', 'methodthree', 'storage', 'methodsignature', 'example', 'method', 'addedinterfacesignature', 'session', 'errorsignature', 'error', 'requestersignature', 'error', 'stringencourage', 'release', 'implementation', 'check', 'upgrade', 'storage', 'removethank']",General,{'security': 100},
-9abdfd04261f472f34c9d6a545ccaa2d491c4f06,"['error', 'handlingcompliant', 'error', 'rfcerrorsoauth', 'message', 'insecure', 'handler', 'redirect']",General,{'insecure': 100},
-4f694bd41e6b4a627b8a1eecf33f74d2920a5cff,"['xrcore', 'crash']",Risky_resource_management,{'crash': 100},
-538311563053f58713b8dff90dc019aa0d491555,"['character', 'crash', 'linux', 'check', 'contains', 'xrrender', 'uppercase']",Risky_resource_management,{'crash': 100},
-edbaac6c3639077e89f4e568145489630c2ce41c,"['crash', 'xrgame']",Risky_resource_management,{'crash': 100},
-3193f34a1b4ed8512975c14b536ac4d797473088,"['xruicore', 'nullptr', 'crash', 'tabcontrol']",Risky_resource_management,{'crash': 100},
-bd5160321bbb8e39c775c15c44e52b8a04583ac7,"['crash', 'xrgame']",Risky_resource_management,{'crash': 100},
-18baa42f7a160aca41559236b40455861c63e254,"['upgrade', 'crash', 'property']",Risky_resource_management,{'crash': 100},
-5bf8acd4baae65dac36e775301a3815ede60dfb9,"['crash', 'xrgame', 'relation', 'minimap']",Risky_resource_management,{'crash': 100},
-35abb0229b9fd91e5d89b47f32d6b12d9c10470d,"['crash', 'graphic', 'setting', 'qualityconstantdarkkel', 'thanks']",Risky_resource_management,{'crash': 100},
-5537924e56c6eb9a7ef0084031367e52d657eda3,"['crash', 'xrgame']",Risky_resource_management,{'crash': 100},
-2d95ed8b71ad7aec9f9a2b69239c0c30e6c3ebb8,"['crash', 'linux', 'xrrender']",Risky_resource_management,{'crash': 100},
-9f8b4e95ff8dbb9d53ae92df8169fcb9022d54c6,"['compression', 'traffic', 'crash', 'modeltraffic']",Risky_resource_management,{'crash': 100},
-d333263cec0cba3789199e7bb4ee3d2f3421efb7,"['crash', 'parseshtexinfo']",Risky_resource_management,{'crash': 100},
-719db8dd997c66d1cf34c12d640d2c82153db76c,"['character', 'crash', 'xrgame']",Risky_resource_management,{'crash': 100},
-ba15847d5a59e6d8fa243a4b5984d403f97529cf,"['crash', 'message', 'serverlist', 'xrgame']",Risky_resource_management,{'crash': 100},
-e765b4a08114004d8cfce23853637797222f0e50,"['crash', 'xrgame']",Risky_resource_management,{'crash': 100},
-6d421d0d986dd11c5b33984f8a7c73a5b12bace3,"['crash', 'xrgame', 'random', 'member', 'linux', 'initialization', 'ststic']",Risky_resource_management,{'crash': 100},
-3c7e9ff46004e5b1c42ea8fedd9824e5b0053ecb,"['crash', 'startissue']",Risky_resource_management,{'crash': 100},
-bbb2e0c8edfa960e5030049f7a0a7098f93a487f,"['crash', 'stringengine']",Risky_resource_management,{'crash': 100},
-6e88d2e412ff8986079c4dc799f9cda65395ee2a,"['crash', 'disassmble']",Risky_resource_management,{'crash': 100},
-5f55995a96cb22e2dfcc9a7ae9a7c175a7aea8d2,"['optimization', 'msbuild', 'tweakcondition', 'drastic', 'function', 'binary', 'comdat', 'removalrelease', 'explitlydebug', 'buffer', 'check', 'security', 'exceptpossible', 'default', 'fastlink', 'reason', 'specifycryptlib', 'warning']",General,{'security': 100},
-2bcb219db088c310754abdc58926255e89dca018,"['crash', 'resource', 'clear', 'option']",Risky_resource_management,{'crash': 100},
-d6d662f421e2d6b10ba189a19894dd674bb6722e,"['release', 'crash', 'input', 'xrdebug']",Risky_resource_management,{'crash': 100},
-13e40b8ec6e553369dbffbdb2fe1c89637ab598d,"['xrcore', 'crash', 'repository', 'engine']",Risky_resource_management,{'crash': 100},
-8fa5d36307864a080556c9df94b552f3d75b3857,"['linux', 'compilationpress', 'deadlock']",Risky_resource_management,{'deadlock': 100},
-26069c28c1b270256a986add2d8aa36bc298277e,"['xrgame', 'crash', 'member']",Risky_resource_management,{'crash': 100},
-8a8210ec055ab368c83eb14cc91af6531ff31050,"['crash', 'xrgame', 'section']",Risky_resource_management,{'crash': 100},
-1db6a368a44dde94e57bebc65ad6667d756a004a,"['crash', 'animation', 'xrgame']",Risky_resource_management,{'crash': 100},
-7c7ddd7128c5375334e94e8146781627dec1f946,"['crash', 'window', 'xrgame']",Risky_resource_management,{'crash': 100},
-f417508cef15955f1ba5065abaa4bc7e730629cf,"['crash', 'window']",Risky_resource_management,{'crash': 100},
-2b020b11bfd8efd995cda276acc8355af922e8a1,"['engine', 'deadlock', 'bcbcbefbfeccadfwindow', 'xrdebug', 'error']",Risky_resource_management,{'deadlock': 100},
-32d4703638b35b42072d188f1dfb1b23475c6e2d,"['crash', 'dimension', 'renderers', 'shadow']",Risky_resource_management,{'crash': 100},
-7242793fc0825ad1846bc8e4e16f5e35c277b99b,"['crash', 'random']",Risky_resource_management,{'crash': 100},
-e053a1de8b277cca1b78d9dd39e182d120f0c2c2,"['crash', 'xrgame', 'description', 'scriptcrasherror', 'candidate', 'overload', 'scriptaddcustomstatic', 'userdata', 'argument', 'cuigamecustom']",Risky_resource_management,{'crash': 100},
-ed89c99b5c6d9a52694805ed0ff75ec34862fcb9,"['crash', 'uiactormenu', 'xrgame']",Risky_resource_management,{'crash': 100},
-63eb5773cf4a26c1853b10f6dda736079a8bdd77,"['initlabel', 'crash']",Risky_resource_management,{'crash': 100},
-149a76be7d1b551c9f09077a793ab815b244ef01,"['crash', 'field']",Risky_resource_management,{'crash': 100},
-0541e2baf5fc3f0f2263709550d3e69162587a1e,"['crash', 'field', 'xrgame']",Risky_resource_management,{'crash': 100},
-8d41c68e974eac5c028e74650a9aba1dded1178d,"['crash', 'xrgame', 'functor', 'scriptreturnedyellow', 'default', 'neutral', 'color']",Risky_resource_management,{'crash': 100},
-9d45ec261f1b9d8945038d83e30077eb875a46ff,"['crash', 'random']",Risky_resource_management,{'crash': 100},
-a593b9253e6ea141fdea109cb98674935e15853b,"['couple', 'crash']",Risky_resource_management,{'crash': 100},
-bd0b44711d3a3ae7a5708cfd40323014cbc84cc6,"['crash', 'xrengine']",Risky_resource_management,{'crash': 100},
-05fe562af7d2eeeb7ba9b180b38ff53a01f77cd7,"['crash', 'dummy', 'xrrender', 'texture']",Risky_resource_management,{'crash': 100},
-e98d3f4ed834564d4c6cdf8ce704999bf3562f0f,"['xruicore', 'gamedata', 'crash', 'scrollbar']",Risky_resource_management,{'crash': 100},
-1a24a7e1c6acd0cebeff4c6cd896f12a82f225af,"['crash', 'xruicore', 'informative', 'messageboxdebug', 'crash']",Risky_resource_management,{'crash': 100},
-1874370152db5d71b94fdf090b78120159782862,"['crash', 'value', 'config']",Risky_resource_management,{'crash': 100},
-4e7397605ce2d1de200fb2c32eeb36d5ca94581b,"['bloodsucker', 'crash', 'value', 'config']",Risky_resource_management,{'crash': 100},
-99c362c5f6e3f4bbedeb15c8f40e50700d52a611,"['bloodsucker', 'crash', 'sleep']",Risky_resource_management,{'crash': 100},
-5636e2e90171ffc7871533abfa0e645151e525d5,"['system', 'crash']",Risky_resource_management,{'crash': 100},
-9097335c93ec8d3da45ea4a0cf69def2f1a9854e,"['system', 'crash']",Risky_resource_management,{'crash': 100},
-8a82aed7f21bfbe8d0f7714436779f5c5f382d4e,"['xruicore', 'crash', 'button']",Risky_resource_management,{'crash': 100},
-fa9873dbc935da97e4a0f754889e957705bff37e,"['crash', 'xrgame', 'tracer', 'setting', 'config']",Risky_resource_management,{'crash': 100},
-33b186ed02f7bf394ecd572e507e0f1826a43be9,"['crash', 'dummy', 'xrrender', 'texture']",Risky_resource_management,{'crash': 100},
-71f6d082d10c3cd141f1f7fb475d44e79e251f79,"['crash', 'startreference']",Risky_resource_management,{'crash': 100},
-08122bd56bc96b29c9ca90ff019eb35dcf9b463e,"['crash', 'filesystem']",Risky_resource_management,{'crash': 100},
-892622a4b64b7ca3e7e1199e56fb5f6a3f5e81ed,"['cinifilereturn', 'succesful', 'element', 'operationexist', 'element', 'crash']",Risky_resource_management,{'crash': 100},
-47fda654f93e05bd07d14ff73baa099453230acd,"['level', 'crash', 'reading', 'specific', 'ambients']",Risky_resource_management,{'crash': 100},
-b3ebe026e4be57a847750739c67aaad917fbdcba,"['folder', 'crash', 'configs', 'environment', 'xrengine']",Risky_resource_management,{'crash': 100},
-f8c54e345c19b0ca8ec55157c6cfc6805d59563a,"['sound', 'crash']",Risky_resource_management,{'crash': 100},
-1be7cfa5bfbc843afd2b12ca7e159b3f7e392da0,"['crash', 'field', 'xrgame']",Risky_resource_management,{'crash': 100},
-23efe479f5bf89fbbdd7cf78b7cc701342166709,"['workaround', 'release', 'crash']",Risky_resource_management,{'crash': 100},
-c3f016b60fe5fe4c447984431924505de0bd8515,"['level', 'crash', 'resolution']",Risky_resource_management,{'crash': 100},
-cbaf46fc9420b09359831995f950afc82f231d30,"['crash', 'application']",Risky_resource_management,{'crash': 100},
-d605f3c5a8b5863e73acc111a90b531eaa171578,"['crash', 'xrgame', 'progress', 'condition', 'uicellitem']",Risky_resource_management,{'crash': 100},
-2767faa99be98ed617d2366ad76e558a48226123,"['xrdebug', 'refactoredengine', 'fullscreen', 'crashdebug', 'debugger', 'trigger', 'press', 'abort', 'minidumpacceptableproduce', 'detailedfolder', 'crash']",Risky_resource_management,{'crash': 100},
-5ceb6028a48c8090161736e2de49182d02e87b24,"['crash', 'xrgame', 'unavailable', 'discount', 'script']",Risky_resource_management,{'crash': 100},
-1359f78092e5dff0dbf35c2f343fb04ac3f8c9b0,"['crash', 'xrgame']",Risky_resource_management,{'crash': 100},
-dfa46b7feb487c7fdd72762d32fe847b2a46ca45,"['crash', 'xrgame', 'check', 'initprogressbar', 'result']",Risky_resource_management,{'crash': 100},
-c7dec853de8899e1ad98a0758e2dd596cea265fa,"['crash', 'shadersalways', 'return', 'nullptr']",Risky_resource_management,{'crash': 100},
-9d9d23ee8e04cc1f11e0a00399635b2b80dd1d39,"['crash', 'debugger', 'prevents']",Risky_resource_management,{'crash': 100},
-1638003d2efd58a1e41cb04367b30333cf27dade,"['gamma', 'crash']",Risky_resource_management,{'crash': 100},
-b8980710a4f2a879c07b704896a0b23e39a575ab,"['linux', 'opengl', 'crash']",Risky_resource_management,{'crash': 100},
-c6dc6ecbdd0b46d625283e000c96357f414b9061,"['separatethread', 'deadlock', 'catch']",Risky_resource_management,{'deadlock': 100},
-9370edb946af206b780dc4a24db926b8ade4af63,"['quote', 'xrcore', 'crash']",Risky_resource_management,{'crash': 100},
-0888e51e6100939a76e6cd7a706cc185e6b5c632,"['crash', 'creation', 'luajit', 'state']",Risky_resource_management,{'crash': 100},
-cd4627ffd8139cefcbb1f358a434657f90bfbf1d,"['server', 'crash']",Risky_resource_management,{'crash': 100},
-8ad5425e4517747932256879962a30cb9aed4dd2,"['requestpossible', 'crash', 'startup']",Risky_resource_management,{'crash': 100},
-7cf30deb50c1c06e3dd4a659ac6caa91bda5fb64,"['level', 'crash', 'creation', 'revert', 'startup', 'possible', 'support']",Risky_resource_management,{'crash': 100},
-a9ff82fd9e23ba86fad8dfd595c9e6563c71c5f3,"['createhwshader', 'crash', 'additional', 'xrrenders']",Risky_resource_management,{'crash': 100},
-a0e4668780f7c25f85b6c1f20c3f5fa74ff86f42,"['addaaemerge', 'request', 'crash', 'collectionercrash', 'client', 'server', 'connection']",Risky_resource_management,{'crash': 100},
-f58dd58aa44cb6182ffd1b6ed7d38aa842c229e0,"['crash', 'xrgame']",Risky_resource_management,{'crash': 100},
-9f7c7a2890eb772d5d7cb1eb0a29cf058a232440,"['adeebmerge', 'freezonemods', 'patch', 'crash']",Risky_resource_management,{'crash': 100},
-e9427ac939862e103e513a614ee1f9e7ae3c8df4,"['crash', 'device', 'restartinvalidate', 'frame']",Risky_resource_management,{'crash': 100},
-1d5549ec569fc953d076e324bbb93ca70e82ae47,"['variable', 'xrgame', 'bufer', 'overflow', 'local', 'pointer']",Risky_resource_management,{'bufer overflow': 97},
-28015822145e2aca98b5b2a3100a97101ff05c9b,"['linux', 'crash']",Risky_resource_management,{'crash': 100},
-ac3e176e1c70d6158397e7266cac4cac2848f4f5,"['configuration', 'crash', 'xrrendergl']",Risky_resource_management,{'crash': 100},
-dacb14a89c2a9a2f7db4a8d7f5277365e8eee30d,"['localization', 'crash']",Risky_resource_management,{'crash': 100},
-aaacdfa9eca1f86984339c52d5b554e11587540e,"['crash', 'xrrendergl']",Risky_resource_management,{'crash': 100},
-7c813fa14a5491367e6d3a4dfbe981c167f84120,"['possible', 'crash']",Risky_resource_management,{'crash': 100},
-a84d7a3b0b1ec785feec6a45c25e5979214022e9,"['crash', 'credit', 'video', 'xrrendergl']",Risky_resource_management,{'crash': 100},
-919748155041906d1017e36fbec53c7281ab4896,"['crash', 'reverse', 'example', 'incorrect', 'location']",Risky_resource_management,{'crash': 100},
-20c9be3de9cc732abc1f49ebbca234271ec753db,"['critical', 'crash', 'xrgame', 'element', 'uihelper']",Risky_resource_management,{'crash': 100},
-83ed73771a2d403bcce19990ee54fc2f8d69321f,"['xrcore', 'crash', 'creation', 'thread', 'linux']",Risky_resource_management,{'crash': 100},
-ef4002a984c6b5ec9c5060ccdaec8bf77ca3c877,"['crash', 'volumetric']",Risky_resource_management,{'crash': 100},
-c3ced7791d292d6412d9be3b64be4dcada43cede,"['crash', 'specifyspecifystyle']",Risky_resource_management,{'crash': 100},
-23ba42b8511c651c3388e3ad8b3c8d26d96f2a0d,"['accacmerge', 'freezonemods', 'requestquery', 'gamespy', 'crash', 'client']",Risky_resource_management,{'crash': 100},
-aa8207b62a3f7f65dc2c3823cb643512c6e23e0a,"['query', 'gamespy', 'crash', 'clientuserdata', 'invalid', 'client', 'object', 'query', 'gamespy', 'callback', 'local', 'caller', 'pointer']",Risky_resource_management,{'crash': 100},
-3537efdcc8fd06ccc02f1e85d3fdd421d529817e,"['linux', 'crash', 'xrengine']",Risky_resource_management,{'crash': 100},
-60f3ac0620717f213e97f4aa83500998f4d143ad,"['surge', 'crash']",Risky_resource_management,{'crash': 100},
-bfafcf4eb280a56fe419996e4a58be25bcf4bc6d,"['click', 'crash', 'incompatiblestill', 'level']",Risky_resource_management,{'crash': 100},
-522bea7968b5aca986d13df6d1527831537f3708,"['cphcall', 'crash', 'check']",Risky_resource_management,{'crash': 100},
-2ec83d29774f0cf3e959cccd785bb1851a99ef71,"['window', 'result', 'xrenginedesktop', 'fullscreen', 'window', 'xrenginereset', 'device', 'event', 'xrengine', 'resolutionexecution', 'crash', 'filling', 'tokendialog', 'xrgame', 'accelerator']",Risky_resource_management,{'crash': 100},
-cbd15556b9e1c9a5399a09db86ead32e67397896,"['window', 'result', 'xrenginedesktop', 'fullscreen', 'window', 'xrenginereset', 'device', 'event', 'xrengine', 'resolutionexecution', 'crash', 'filling', 'tokendialog', 'xrgame', 'accelerator']",Risky_resource_management,{'crash': 100},
-c978c6bb06fd2033189883bceb5387ef01b93dda,"['object', 'vertex', 'invalid', 'disabledmistake', 'crash']",Risky_resource_management,{'crash': 100},
-33cf6552f8e25e57118297804932d7451c8d56ef,"['crash', 'revert', 'opengl', 'video', 'renderreverts', 'commitreverts']",Risky_resource_management,{'crash': 100},
-8855679b09ff3fd9bf5813a6525ce14040ef3bfc,"['shaderremove', 'dublicationcommandengine', 'crash']",Risky_resource_management,{'crash': 100},
-e1e4c0644f8acb451c7bb36e699f60a5ccecd940,"['request', 'patchrender', 'opengl', 'video', 'crash']",Risky_resource_management,{'crash': 100},
-f6967163cd75e1a4feb2bfe312ba646caf3dc39a,"['request', 'patchrender', 'opengl', 'video', 'crash']",Risky_resource_management,{'crash': 100},
-dbb43422f76853eaaa882a8f6e305a9029a84613,"['opengl', 'video', 'crash']",Risky_resource_management,{'crash': 100},
-c9a4ff75346dd7d9af838858d6394f61d9305c5e,"['opengl', 'video', 'crash']",Risky_resource_management,{'crash': 100},
-1cc859b066fb1cfb187547b23ce61cdb51cc1a31,"['original', 'crashultra', 'crash']",Risky_resource_management,{'crash': 100},
-516d22c216acbe0373c8f7e9350db1005fa357e9,"['email', 'crash', 'default', 'report']",Risky_resource_management,{'crash': 100},
-7875d929080f39ec0676deed071b80ab30c59596,"['crash', 'check']",Risky_resource_management,{'crash': 100},
-de37d6a27875c58edc325bd756067dddb54d4499,"['crash', 'luabind', 'engine', 'script']",Risky_resource_management,{'crash': 100},
-365f32766a2a9e1feb1fec45788cfe37abdc7d63,"['benchmark', 'crash', 'startforgot']",Risky_resource_management,{'crash': 100},
-c12c002c3fc395299be0d394d097e1bd93b0b2ee,"['crash', 'debug']",Risky_resource_management,{'crash': 100},
-f22f4950dbcd5731d042bbb60e9c2d9025b55507,"['cuidialogwnd', 'crash', 'dialog', 'hidedialog']",Risky_resource_management,{'crash': 100},
-1fc8dd7a3d75beae36da201955e0227119ba504f,"['crash', 'application', 'external', 'utils', 'xrcompress']",Risky_resource_management,{'crash': 100},
-d52aaea8888d28e3430f2e8af8575de0bbc90cb7,"['crash', 'entity', 'method', 'script']",Risky_resource_management,{'crash': 100},
-a31a78ba3566b943de856ffb3b30c25cc6e31e5a,"['consumables', 'crash']",Risky_resource_management,{'crash': 100},
-e7839b553e2d20a3d665ea3db6341ac6bb7319f4,"['stalker', 'example', 'crash']",Risky_resource_management,{'crash': 100},
-e604c3a5d91c36eddf1f7a2882535d7848e08dd9,"['crash', 'helicopter', 'inspection']",Risky_resource_management,{'crash': 100},
-ff2fd49e5c365226d5b75cc97653a572d200ac69,"['overrun', 'compressor', 'bufferfixinggiperion', 'thanks']",Risky_resource_management,{'overrun': 100},
-63868c76e2ec1cc2fbcf0d7285ae31a531a05343,"['issueplease', 'crash']",Risky_resource_management,{'crash': 100},
-b9da0e9207c845a2fc286700894247d325f754b0,"['crash', 'return', 'conversion', 'function']",Risky_resource_management,{'crash': 100},
-92aaa6c0d5fb85de2f28e86b21ee882a017f86b0,"['revert', 'openxray', 'commitpripyat', 'crash', 'ingame', 'undeground', 'spawn']",Risky_resource_management,{'crash': 100},
-970151945dce451e0afd55b5edc93749d114e8a7,"['actor', 'weapon', 'crash', 'killentity', 'circumvent', 'vehicle', 'centity', 'death']",Risky_resource_management,{'crash': 100},
-33738168187f27525f2185bd613e957587bfa9cf,"['crash', 'profile', 'inactive', 'script']",Risky_resource_management,{'crash': 100},
-b4ea6da1a968a672ee584229bc4dad4444681c71,"['hierarchy', 'exportedcause', 'crash', 'automatic', 'performsfunction', 'class']",Risky_resource_management,{'crash': 100},
-5ee7d8bea7538001b65e3e912d2d2583f179d210,"['potential', 'cuilines', 'crash']",Risky_resource_management,{'crash': 100},
-1ef11cfaf60f469231e2c786c949fc43c0881ae2,"['crash', 'exceeds', 'buffer', 'command', 'overflow', 'length']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+1ac08455d5f92821db139f185bdc8387145f1f81,"['xrgame', 'crash', 'callback']",General,{'crash': 100}
+b6a04aee0b19e00d8ad0b35e32772accea1ac778,"['integrity', 'check', 'cache', 'close', 'reverts']",Risky_resource_management,{'integrity check': 100}
+1d6e44daa3291f5079ac177de2c3633a1070205d,"['crash', 'engine']",General,{'crash': 100}
+96cf995fa124dcb6c76cf5ff57d8ad5f78d80d6c,"['integrity', 'check', 'cache']",Risky_resource_management,{'integrity check': 100}
+a95d31abdf4ea5dc645eb7037ff2410f1d8288d8,"['taskmanager', 'crash', 'exit']",General,{'crash': 100}
+4f694bd41e6b4a627b8a1eecf33f74d2920a5cff,"['taskmanager', 'crash', 'startup', 'case']",General,{'crash': 100}
+538311563053f58713b8dff90dc019aa0d491555,"['check', 'file', 'crash', 'linux', 'name', 'contains', 'uppercase', 'character']",General,{'crash': 100}
+2ba37b70deac925d58d5afcba2f64a5559509d1b,"['flow', 'dereference', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+316852b6b6fc3be96356c0245e5e82fdf06941b2,"['null', 'pointer', 'dereference']",Risky_resource_management,{'null pointer': 100}
+3193f34a1b4ed8512975c14b536ac4d797473088,"['xruicore', 'tabcontrol', 'crash', 'nullptr']",General,{'crash': 100}
+157df1e487bb36e116102ba61f4d9a8e6e9fe033,"['xrrenderdx', 'global', 'object', 'instance', 'global', 'object', 'xrrenderdx', 'crash', 'engine', 'instance', 'global', 'object', 'mark', 'instance', 'invalid']",General,{'crash': 100}
+bd5160321bbb8e39c775c15c44e52b8a04583ac7,"['xrgame', 'uicellitem', 'crash']",General,{'crash': 100}
+18baa42f7a160aca41559236b40455861c63e254,"['crash', 'upgrade', 'property']",General,{'crash': 100}
+5bf8acd4baae65dac36e775301a3815ede60dfb9,"['xrgame', 'crash', 'relation', 'minimap', 'spot', 'clear']",General,{'crash': 100}
+1579d1fdba9a9be9163f2932d41e82d1cf811b37,"['wrong', 'printf', 'argument', 'wrong', 'argument', 'lead', 'crash']",General,{'crash': 100}
+384a5d5e9c8fae35fa9ac7e0e91b3986e26853e3,"['filesystem', 'file', 'path', 'possible', 'issue', 'file', 'path', 'search', 'particular', 'crash', 'clear', 'error', 'sound', 'collection', 'path', 'scenario', 'agroprom']",General,{'crash': 100}
+5537924e56c6eb9a7ef0084031367e52d657eda3,"['xrgame', 'crash', 'load', 'dead']",General,{'crash': 100}
+2d95ed8b71ad7aec9f9a2b69239c0c30e6c3ebb8,"['xrrender', 'crash', 'linux', 'exit']",General,{'crash': 100}
+9f8b4e95ff8dbb9d53ae92df8169fcb9022d54c6,"['crash', 'traffic', 'compression', 'model', 'traffic', 'compression']",General,{'crash': 100}
+d333263cec0cba3789199e7bb4ee3d2f3421efb7,"['xruicore', 'parseshtexinfo', 'crash', 'file']",General,{'crash': 100}
+0a2f1b15cb915adeb4a5c60e0aed421f069bf7af,"['xrgame', 'uiactormenu', 'crash']",General,{'crash': 100}
+719db8dd997c66d1cf34c12d640d2c82153db76c,"['xrgame', 'uiactormenu', 'crash', 'character', 'info', 'mode']",General,{'crash': 100}
+ba15847d5a59e6d8fa243a4b5984d403f97529cf,"['xrgame', 'serverlist', 'crash', 'message']",General,{'crash': 100}
+2f94b13720ec19bad59b176140ea62943469ab7e,"['stack', 'overflow', 'opengl']",Risky_resource_management,{'stack overflow': 100}
+1a9b916ba20fc1c074cf3048f9a615624bd99480,"['incorrect', 'tutorial', 'intro', 'behaviour', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+e765b4a08114004d8cfce23853637797222f0e50,"['xrgame', 'game', 'crash', 'load']",General,{'crash': 100}
+6d421d0d986dd11c5b33984f8a7c73a5b12bace3,"['xrgame', 'linux', 'random', 'crash', 'ststic', 'member', 'initialization']",General,{'crash': 100}
+4be0116cee0fbc3cd7985a955f16ed254d2977e3,"['xrgame', 'crash', 'callback']",General,{'crash': 100}
+ca816b9f08107a2c70d45c73befc2cedc8bdd599,"['xrlc', 'crash']",General,{'crash': 100}
+a46cc39f0046bbdf730c94b9e3bb56327cd15d01,"['xrgame', 'uiiteminfo', 'initialization', 'check', 'sane', 'weapon', 'params', 'artefact', 'params', 'item', 'engine', 'crash']",General,{'crash': 100}
+3c7e9ff46004e5b1c42ea8fedd9824e5b0053ecb,"['crash', 'game', 'possible', 'issue']",General,{'crash': 100}
+bbb2e0c8edfa960e5030049f7a0a7098f93a487f,"['string', 'concatenation', 'crash', 'original', 'engine', 'behaviour']",General,{'crash': 100}
+6e88d2e412ff8986079c4dc799f9cda65395ee2a,"['possible', 'crash', 'disassmble', 'shader']",General,{'crash': 100}
+5f55995a96cb22e2dfcc9a7ae9a7c175a7aea8d2,"['msbuild', 'optimization', 'tweak', 'condition', 'check', 'common', 'prop', 'function', 'removal', 'comdat', 'binary', 'size', 'release', 'buffer', 'security', 'check', 'configuration', 'ltcg', 'ltcg', 'fast', 'possible', 'release', 'specify', 'debug', 'fastlink', 'default', 'fastlink', 'cryptlib', 'warning']",General,{'security': 100}
+2131085e83fc0c4a8023eea9b57136b9d56fef66,"['height', 'crash']",General,{'crash': 100}
+2bcb219db088c310754abdc58926255e89dca018,"['crash', 'option', 'clear', 'resource']",General,{'crash': 100}
+92a8f700edff6db78a1d3c73a7090233623fd137,"['crash', 'upgrade', 'window', 'return', 'upgrade', 'window']",General,{'crash': 100}
+391529a2ed2dcaf07a2f7ee4ec882dd7dc547424,"['deadlock', 'taskmanager', 'suffer', 'deadlock']",Risky_resource_management,{'deadlock': 100}
+b7250502032b5500154bd797e96599d9ae89d535,"['possible', 'crash']",General,{'crash': 100}
+6b0832541811b89ef6a0bbc10ce3a5391a492e1e,"['restore', 'input', 'fullscreen', 'crash']",General,{'crash': 100}
+d6d662f421e2d6b10ba189a19894dd674bb6722e,"['release', 'input', 'crash']",General,{'crash': 100}
+13e40b8ec6e553369dbffbdb2fe1c89637ab598d,"['xrcore', 'engine', 'show', 'repository', 'crash']",General,{'crash': 100}
+378cce5a2724283310258bf2a6ba8627ccd6d7e0,"['possible', 'deadlock', 'regression', 'reverts', 'processing', 'original', 'behaviour', 'original', 'engine']",Risky_resource_management,{'deadlock': 100}
+8fa5d36307864a080556c9df94b552f3d75b3857,"['linux', 'compilation', 'press', 'enable', 'main', 'menu', 'rare', 'deadlock', 'taskscheduler', 'task', 'main', 'menu']",Risky_resource_management,{'deadlock': 100}
+39515a0dbb0c770ef8e74d3b546689468668ad85,['crash'],General,{'crash': 100}
+8a8210ec055ab368c83eb14cc91af6531ff31050,"['xrgame', 'huditem', 'crash', 'section', 'animation', 'slot']",General,{'crash': 100}
+1db6a368a44dde94e57bebc65ad6667d756a004a,"['xrgame', 'crash', 'animation']",General,{'crash': 100}
+7c7ddd7128c5375334e94e8146781627dec1f946,"['xrgame', 'crash', 'task', 'window']",General,{'crash': 100}
+f417508cef15955f1ba5065abaa4bc7e730629cf,"['xrgame', 'uipdawnd', 'crash', 'window']",General,{'crash': 100}
+9995e532a49561ed2b5943db91a066ea3e2db0c1,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+2b020b11bfd8efd995cda276acc8355af922e8a1,"['engine', 'deadlock', 'show', 'error', 'window']",Risky_resource_management,{'deadlock': 100}
+32d4703638b35b42072d188f1dfb1b23475c6e2d,"['renderers', 'crash', 'unsupported', 'shadow', 'dimension']",General,{'crash': 100}
+e053a1de8b277cca1b78d9dd39e182d120f0c2c2,"['script', 'crash', 'description', 'crash', 'script', 'error', 'candidate', 'addcustomstatic', 'cuigamecustom', 'char', 'const', 'bool', 'custom', 'argument', 'userdata', 'cuigamecustom', 'string', 'boolean']",General,{'crash': 100}
+ed89c99b5c6d9a52694805ed0ff75ec34862fcb9,"['xrgame', 'uiactormenu', 'crash']",General,{'crash': 100}
+63eb5773cf4a26c1853b10f6dda736079a8bdd77,"['temporary', 'initlabel', 'function', 'crash', 'static', 'label', 'buggy']",General,{'crash': 100}
+920db6f8d23a1813f8fd7182e14fcd600e8c8b87,"['small', 'crash']",General,{'crash': 100}
+0df4f62569a2686331615ba4862773aa755f173d,"['animation', 'crash']",General,{'crash': 100}
+149a76be7d1b551c9f09077a793ab815b244ef01,"['xrgame', 'crash', 'field']",General,{'crash': 100}
+468a7c013779d73919db246d39709dd52004e2b9,"['xrgame', 'inventory', 'crash']",General,{'crash': 100}
+0541e2baf5fc3f0f2263709550d3e69162587a1e,"['xrgame', 'crash']",General,{'crash': 100}
+76c8d6f4c49d726e5de9b82a21975e666a873a83,"['xrgame', 'crash', 'animation']",General,{'crash': 100}
+8d41c68e974eac5c028e74650a9aba1dded1178d,"['xrgame', 'crash', 'script', 'functor', 'neutral', 'color', 'yellow', 'default']",General,{'crash': 100}
+9d45ec261f1b9d8945038d83e30077eb875a46ff,"['random', 'crash', 'game', 'exit']",General,{'crash': 100}
+a593b9253e6ea141fdea109cb98674935e15853b,"['couple', 'crash']",General,{'crash': 100}
+d0f0ce19396ddead348afafedacfc0bcd7c24f1d,"['crash', 'mode']",General,{'crash': 100}
+bd0b44711d3a3ae7a5708cfd40323014cbc84cc6,"['xrengine', 'crash']",General,{'crash': 100}
+05fe562af7d2eeeb7ba9b180b38ff53a01f77cd7,"['xrrender', 'crash', 'texture', 'dummy', 'texture']",General,{'crash': 100}
+e98d3f4ed834564d4c6cdf8ce704999bf3562f0f,"['xruicore', 'scrollbar', 'uiscrollbar', 'crash', 'gamedata']",General,{'crash': 100}
+1a24a7e1c6acd0cebeff4c6cd896f12a82f225af,"['xruicore', 'messagebox', 'informative', 'crash', 'spam', 'crash', 'debug']",General,{'crash': 100}
+d16b6f4ce1a3963391d8e9e2deda3c123512518d,"['xrengine', 'crash', 'archive', 'header']",General,{'crash': 100}
+1874370152db5d71b94fdf090b78120159782862,"['crash', 'config', 'value']",General,{'crash': 100}
+4e7397605ce2d1de200fb2c32eeb36d5ca94581b,"['crash', 'bloodsucker', 'config', 'value']",General,{'crash': 100}
+99c362c5f6e3f4bbedeb15c8f40e50700d52a611,"['crash', 'bloodsucker', 'sleep', 'animation', 'boar', 'animation']",General,{'crash': 100}
+860d3971c8337f6025ec381323a880929ab3ae9b,"['xrgame', 'crash']",General,{'crash': 100}
+5636e2e90171ffc7871533abfa0e645151e525d5,"['animation', 'system', 'crash', 'animation']",General,{'crash': 100}
+32fb397cf8b7e11eda2d90ee0ab00c44fe1eebe5,"['crash', 'engine']",General,{'crash': 100}
+8a82aed7f21bfbe8d0f7714436779f5c5f382d4e,"['xruicore', 'crash', 'button']",General,{'crash': 100}
+fa9873dbc935da97e4a0f754889e957705bff37e,"['xrgame', 'tracer', 'crash', 'config', 'tracer', 'setting']",General,{'crash': 100}
+33b186ed02f7bf394ecd572e507e0f1826a43be9,"['xrrender', 'crash', 'dummy', 'texture']",General,{'crash': 100}
+3bf2fe23d6f4ba0ecd374bb1fae29c7708b9638e,"['memory', 'leak', 'token', 'name']",Risky_resource_management,{'memory leak': 100}
+7a542c9a7688436a29fba512475154e2ff317913,"['crash', 'linux', 'forgot']",General,{'crash': 100}
+71f6d082d10c3cd141f1f7fb475d44e79e251f79,"['crash', 'game']",General,{'crash': 100}
+08122bd56bc96b29c9ca90ff019eb35dcf9b463e,"['filesystem', 'crash', 'platform']",General,{'crash': 100}
+14f02db3bce12cf30355e571510791d19cceeb4d,"['utils', 'xrai', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+caa0240b6297bb4f958bd470e7fecad140ffa143,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+2ec2f8869a3774a568c627dcb16bb90892dffcf8,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+892622a4b64b7ca3e7e1199e56fb5f6a3f5e81ed,"['function', 'cinifile', 'return', 'operation', 'succesful', 'element', 'crash', 'element']",General,{'crash': 100}
+47fda654f93e05bd07d14ff73baa099453230acd,"['crash', 'reading', 'level', 'specific', 'ambients', 'ambients']",General,{'crash': 100}
+a85ca246847480709ed409eec37e41e913b15369,"['crash', 'weather']",General,{'crash': 100}
+b3ebe026e4be57a847750739c67aaad917fbdcba,"['xrengine', 'environment', 'crash', 'configs', 'environment', 'folder']",General,{'crash': 100}
+e861af4c5dbfeb9ac845c28de2ea5aaefad01c29,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+00cf46340163ecad63c477d9fff756fcfbc6e86a,"['xrgame', 'actorinput', 'crash', 'quick', 'slot']",General,{'crash': 100}
+1be7cfa5bfbc843afd2b12ca7e159b3f7e392da0,"['xrgame', 'crash', 'field']",General,{'crash': 100}
+23efe479f5bf89fbbdd7cf78b7cc701342166709,"['workaround', 'crash']",General,{'crash': 100}
+c3f016b60fe5fe4c447984431924505de0bd8515,"['crash', 'exit', 'level']",General,{'crash': 100}
+cbaf46fc9420b09359831995f950afc82f231d30,"['application', 'crash']",General,{'crash': 100}
+d605f3c5a8b5863e73acc111a90b531eaa171578,"['xrgame', 'uicellitem', 'crash', 'condition', 'progress']",General,{'crash': 100}
+2767faa99be98ed617d2366ad76e558a48226123,"['xrdebug', 'engine', 'exit', 'fullscreen', 'mode', 'crash', 'debugger', 'press', 'abort', 'trigger', 'debug', 'fatal', 'error', 'minidump', 'huge', 'acceptable', 'size', 'dump', 'crash', 'report', 'file', 'folder', 'right', 'filesystem', 'engine', 'openxray']",General,{'crash': 100}
+10dea1245e9a7983546183f5417b6ab046ce65e9,"['time', 'possible', 'memory', 'leak', 'thanks', 'freezonemods']",Risky_resource_management,{'memory leak': 100}
+4a803798ee379fde7b75e54b8b2dd5fa8fa60c75,"['xruicore', 'crash']",General,{'crash': 100}
+5ceb6028a48c8090161736e2de49182d02e87b24,"['xrgame', 'trade', 'crash', 'script', 'discount']",General,{'crash': 100}
+1bf0f2c6d55eb98c809972ecea6c38d0d01a6ee5,"['xrgame', 'artefact', 'crash', 'line']",General,{'crash': 100}
+1359f78092e5dff0dbf35c2f343fb04ac3f8c9b0,"['xrgame', 'crash']",General,{'crash': 100}
+dfa46b7feb487c7fdd72762d32fe847b2a46ca45,"['xrgame', 'uihelper', 'check', 'initprogressbar', 'result', 'crash']",General,{'crash': 100}
+3dd877b8ea2e53a1b829447d8e809d9f5b0b4007,"['xrgame', 'crash', 'game', 'tutorial', 'game', 'intro']",General,{'crash': 100}
+c7dec853de8899e1ad98a0758e2dd596cea265fa,"['crash', 'shaders', 'path', 'return', 'nullptr']",General,{'crash': 100}
+9d9d23ee8e04cc1f11e0a00399635b2b80dd1d39,"['prevents', 'crash', 'debugger']",General,{'crash': 100}
+42792bf71841ee2ae9752253e9b85133247de311,"['opengl', 'crash', 'exit']",General,{'crash': 100}
+b8980710a4f2a879c07b704896a0b23e39a575ab,"['temporary', 'opengl', 'crash', 'linux']",General,{'crash': 100}
+c6dc6ecbdd0b46d625283e000c96357f414b9061,"['game', 'loop', 'separate', 'thread', 'catch', 'deadlock']",Risky_resource_management,{'deadlock': 100}
+c3979348cc74ccf6b113f6fef3a13296f5ab8c21,"['enable', 'empty', 'string', 'conversion', 'suppress', 'error', 'wrong', 'argument', 'function', 'option', 'undefined', 'behaviour', 'random', 'crash']",General,{'crash': 100}
+94c4c0c67c76684362e713bc1df8c8d29cb3dc9f,"['xrgame', 'crash']",General,{'crash': 100}
+9370edb946af206b780dc4a24db926b8ade4af63,"['xrcore', 'crash']",General,{'crash': 100}
+0888e51e6100939a76e6cd7a706cc185e6b5c632,"['luajit', 'crash', 'state', 'creation']",General,{'crash': 100}
+cd4627ffd8139cefcbb1f358a434657f90bfbf1d,"['server', 'crash']",General,{'crash': 100}
+eb9478463ed479b9b15e27cb27b1540fd20b82e5,"['pull', 'request', 'vamit', 'double', 'free', 'game', 'intro']",Risky_resource_management,{'double free': 100}
+8ad5425e4517747932256879962a30cb9aed4dd2,"['pull', 'request', 'shokerstlk', 'possible', 'crash', 'game', 'startup']",General,{'crash': 100}
+7cf30deb50c1c06e3dd4a659ac6caa91bda5fb64,"['possible', 'crash', 'game', 'startup', 'revert', 'cfad', 'support', 'creation']",General,{'crash': 100}
+a9ff82fd9e23ba86fad8dfd595c9e6563c71c5f3,"['xrrenders', 'crash', 'game', 'additional', 'info', 'case']",General,{'crash': 100}
+a0e4668780f7c25f85b6c1f20c3f5fa74ff86f42,"['pull', 'request', 'collectioner', 'crash', 'crash', 'client', 'connection', 'server']",General,{'crash': 100}
+20addaae218b69aaff449e175ed7c54b0abcafde,"['crash', 'client', 'connection', 'server']",General,{'crash': 100}
+f58dd58aa44cb6182ffd1b6ed7d38aa842c229e0,"['xrgame', 'crash', 'load']",General,{'crash': 100}
+06030932f4a304b0e85b203c8b673bd1918a7f09,"['pull', 'request', 'qweasdd', 'crash', 'xray', 'allocator']",General,{'crash': 100}
+cdaa5324975e979fc0261aeed8ce4eb24e801e76,"['xrgame', 'hudsound', 'crash']",General,{'crash': 100}
+3fdfda0c508560c2c6b2c5ccc2d746111e34c734,"['xrgame', 'uimmshniaga', 'crash']",General,{'crash': 100}
+9f7c7a2890eb772d5d7cb1eb0a29cf058a232440,"['pull', 'request', 'freezonemods', 'crash', 'patch', 'info']",General,{'crash': 100}
+e9427ac939862e103e513a614ee1f9e7ae3c8df4,"['crash', 'device', 'restart', 'invalidate', 'frame']",General,{'crash': 100}
+005a0deeb6ab02a7ff355abae91f5ff62ab3ae3c,"['crash', 'patch', 'info', 'local', 'variable', 'fastdelegate', 'thread', 'good', 'idea']",General,{'crash': 100}
+66945b9e668ce20a04b1b227201b471fd49c5f05,"['xrrendergl', 'requirement', 'crash', 'menu', 'context', 'version']",General,{'crash': 100}
+ecca8481b44ce94eda07d044f84ef919c51114c1,"['xrgame', 'double', 'free', 'error', 'linux', 'random', 'craches']",Risky_resource_management,{'double free': 100}
+19d13e4d9ea40abed8c4ae7b8d1dd98b9138b3bd,"['xrrender', 'bufer', 'overflow', 'linux', 'type', 'size', 'missmatch']",Risky_resource_management,{'bufer overflow': 97}
+1d5549ec569fc953d076e324bbb93ca70e82ae47,"['xrgame', 'bufer', 'overflow', 'pointer', 'local']",Risky_resource_management,{'bufer overflow': 97}
+289be4f3f9d6ded14307871b87140e89120e240d,"['bufer', 'overflow']",Risky_resource_management,{'bufer overflow': 97}
+cb3bf78138ec1a61a7c9e8ab18796aa0239fa72c,"['wrong', 'free', 'buffer', 'overflow', 'linux']",Risky_resource_management,{'buffer overflow': 100}
+98fecf615654de233f825b6eb2da14d203cf528f,"['xrcore', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+a5d7ee443a2c6ac6996e69bb3114b43388f803d7,"['potential', 'crash', 'occrasterizer']",General,{'crash': 100}
+499e658bbdb9bd2e1bf0555bf1dc529d2cb041ee,"['possible', 'buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100}
+238397483f6a2d0187cc72fb1397abea473ded5a,"['crash', 'exit', 'reverts']",General,{'crash': 100}
+65da5a72aba14dc2133ff10a0349246fbaa34dd6,"['crash', 'fxaa', 'msaa']",General,{'crash': 100}
+dacb14a89c2a9a2f7db4a8d7f5277365e8eee30d,"['polish', 'localization', 'crash']",General,{'crash': 100}
+7c813fa14a5491367e6d3a4dfbe981c167f84120,"['possible', 'crash']",General,{'crash': 100}
+a84d7a3b0b1ec785feec6a45c25e5979214022e9,"['xrrendergl', 'crash', 'exit', 'credit', 'video']",General,{'crash': 100}
+cd62f9c0d8d3b649bf1689002854ac12c9c07ad1,"['xrengine', 'integer', 'overflow', 'pure', 'class', 'sort']",Risky_resource_management,{'integer overflow': 100}
+919748155041906d1017e36fbec53c7281ab4896,"['registry', 'container', 'registry', 'incorrect', 'reverse', 'order', 'lead', 'game', 'task', 'registry', 'location', 'registry', 'game', 'task', 'registry', 'data', 'location', 'registry', 'spot', 'example', 'game', 'crash']",General,{'crash': 100}
+20c9be3de9cc732abc1f49ebbca234271ec753db,"['xrgame', 'uihelper', 'crash', 'critical', 'element']",General,{'crash': 100}
+83ed73771a2d403bcce19990ee54fc2f8d69321f,"['linux', 'thread', 'creation', 'crash']",General,{'crash': 100}
+ef4002a984c6b5ec9c5060ccdaec8bf77ca3c877,"['crash', 'volumetric']",General,{'crash': 100}
+c3ced7791d292d6412d9be3b64be4dcada43cede,"['process', 'specify', 'crash', 'load', 'style', 'system']",General,{'crash': 100}
+23ba42b8511c651c3388e3ad8b3c8d26d96f2a0d,"['pull', 'request', 'freezonemods', 'crash', 'gamespy', 'client', 'query']",General,{'crash': 100}
+aa8207b62a3f7f65dc2c3823cb643512c6e23e0a,"['crash', 'gamespy', 'client', 'query', 'init', 'local', 'object', 'caller', 'userdata', 'invalid', 'pointer', 'gamespy', 'callback', 'client', 'query']",General,{'crash': 100}
+3537efdcc8fd06ccc02f1e85d3fdd421d529817e,"['xrengine', 'crash', 'linux']",General,{'crash': 100}
+60f3ac0620717f213e97f4aa83500998f4d143ad,"['crash', 'surge']",General,{'crash': 100}
+bfafcf4eb280a56fe419996e4a58be25bcf4bc6d,"['crash', 'incompatible', 'level', 'name']",General,{'crash': 100}
+6f3a74aa9c11bb6ff7585610a8ddd1c447d9a90c,"['pull', 'request', 'fozest', 'interion', 'weapon', 'crash', 'cphcall', 'check']",General,{'crash': 100}
+522bea7968b5aca986d13df6d1527831537f3708,"['crash', 'cphcall', 'check']",General,{'crash': 100}
+2ec83d29774f0cf3e959cccd785bb1851a99ef71,"['normal', 'window', 'test', 'result', 'square', 'cross', 'xrengine', 'desktop', 'fullscreen', 'window', 'xrengine', 'device', 'reset', 'device', 'event', 'resolution', 'crash', 'token', 'execution', 'null', 'case', 'filling', 'crash', 'xrgame', 'dialog', 'accelerator']",General,{'crash': 100}
+cbd15556b9e1c9a5399a09db86ead32e67397896,"['normal', 'window', 'test', 'result', 'square', 'cross', 'xrengine', 'desktop', 'fullscreen', 'window', 'xrengine', 'device', 'reset', 'device', 'event', 'resolution', 'crash', 'token', 'execution', 'null', 'case', 'filling', 'crash', 'xrgame', 'dialog', 'accelerator']",General,{'crash': 100}
+3607bdc369b5731fc4be624a8d7756ff01d9f6b5,"['server', 'crash', 'xrnetserver', 'size', 'empty']",General,{'crash': 100}
+40fc8b473cf273bebfa221b2232cc692d6757b3b,"['workaround', 'crash', 'thanks', 'abramcumner']",General,{'crash': 100}
+33cf6552f8e25e57118297804932d7451c8d56ef,"['crash', 'opengl', 'video', 'card', 'reverts']",General,{'crash': 100}
+8855679b09ff3fd9bf5813a6525ce14040ef3bfc,"['geometry', 'shader', 'code', 'dublication', 'command', 'line', 'engine', 'crash', 'shaders']",General,{'crash': 100}
+484ee432675f404190c56430063d4961bbb3ba7d,"['pull', 'request', 'skyloaderr', 'patch', 'memory', 'leak', 'opengl']",Risky_resource_management,{'memory leak': 100}
+afeef72c146d98a3e7acd3adec4a20ce894162b5,"['memory', 'leak', 'opengl']",Risky_resource_management,{'memory leak': 100}
+e1e4c0644f8acb451c7bb36e699f60a5ccecd940,"['pull', 'request', 'skyloaderr', 'patch', 'crash', 'opengl', 'video', 'card', 'part']",General,{'crash': 100}
+f6967163cd75e1a4feb2bfe312ba646caf3dc39a,"['pull', 'request', 'skyloaderr', 'patch', 'crash', 'opengl', 'video', 'card', 'part']",General,{'crash': 100}
+dbb43422f76853eaaa882a8f6e305a9029a84613,"['crash', 'opengl', 'video', 'card', 'part']",General,{'crash': 100}
+c9a4ff75346dd7d9af838858d6394f61d9305c5e,"['crash', 'opengl', 'video', 'card', 'part']",General,{'crash': 100}
+1cc859b066fb1cfb187547b23ce61cdb51cc1a31,"['original', 'crash', 'hdao', 'hdao', 'ultra', 'ssao', 'blur']",General,{'crash': 100}
+cfabc7f1426248ef8943df86995768a94f867731,"['memory', 'leak', 'cgammacontrol', 'memory', 'problem']",Risky_resource_management,{'memory leak': 100}
+e3680b70147fd9d6441d20fc8b3098643662c127,"['memory', 'leak', 'cscriptengine']",Risky_resource_management,{'memory leak': 100}
+c51814e521175ee46b2f19ff12ed20aee90d9425,"['memory', 'leak', 'pausemngr']",Risky_resource_management,{'memory leak': 100}
+c9f8da28e7c4392f3704de18bd82dace45cff120,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+2dff3dec2e410562d48b2d3727e24ecbb1dd8c65,"['memory', 'leak', 'vertex', 'buffer', 'dxdfluidgrid']",Risky_resource_management,{'memory leak': 100}
+516d22c216acbe0373c8f7e9350db1005fa357e9,"['default', 'crash', 'report', 'email']",General,{'crash': 100}
+137605d0c8da55f9e8f9609410be290f2da283ab,"['opengl', 'renderer', 'memory', 'leak', 'shader', 'source', 'debug', 'output', 'glsl', 'version']",Risky_resource_management,{'memory leak': 100}
+e62cd89e204d25b20c1e51031b104cdb8d449ade,"['memory', 'corruption']",Risky_resource_management,{'memory corruption': 100}
+7875d929080f39ec0676deed071b80ab30c59596,"['crash', 'cphcall', 'check']",General,{'crash': 100}
+de37d6a27875c58edc325bd756067dddb54d4499,"['luabind', 'crash', 'engine', 'wrong', 'script']",General,{'crash': 100}
+376e015d89f452920dd96fc513a05efed15fb3ad,"['xrai', 'debug', 'crash', 'strange', 'thing']",General,{'crash': 100}
+365f32766a2a9e1feb1fec45788cfe37abdc7d63,"['benchmark', 'crash']",General,{'crash': 100}
+f22f4950dbcd5731d042bbb60e9c2d9025b55507,"['cuidialogwnd', 'hidedialog', 'crash', 'dialog']",General,{'crash': 100}
+87dafb183616c58675459708fc95941d50caa0dd,"['memory', 'leak', 'exit', 'xrengine']",Risky_resource_management,{'memory leak': 100}
+10b682127e24eb81acacfbfa9cf40004c1d2806f,"['memory', 'leak', 'xrcompress']",Risky_resource_management,{'memory leak': 100}
+1fc8dd7a3d75beae36da201955e0227119ba504f,"['internal', 'library', 'external', 'crash', 'utils', 'xrcompress', 'main', 'application', 'exit']",General,{'crash': 100}
+7840b0fe233cd84f1b3e5d9c9a53293fa73dcb11,"['axeldominator', 'weight', 'calculation', 'ceatableitem', 'weight', 'artefact', 'immunity', 'code', 'outfit', 'immunity', 'code', 'method', 'class', 'void', 'potential', 'crash', 'global', 'method', 'updateactormenu', 'update', 'current', 'item', 'cell', 'global']",General,{'crash': 100}
+d52aaea8888d28e3430f2e8af8575de0bbc90cb7,"['crash', 'script', 'method']",General,{'crash': 100}
+a31a78ba3566b943de856ffb3b30c25cc6e31e5a,"['crash', 'game', 'quick', 'slot']",General,{'crash': 100}
+885ac4e1c61240a699f7a3384ac2ce430b0538bf,"['crash', 'actor', 'death', 'multiplayer', 'http', 'github', 'openxray', 'xray', 'issue']",General,{'crash': 100}
+f1b08e29744d4c356b6f008b4d0d319bba482062,"['crash', 'sleep', 'thanks', 'abramcumner', 'shokerstlk']",General,{'crash': 100}
+5e5cf4754e7c993536741cd691a8eb993714b581,"['crash', 'open', 'door']",General,{'crash': 100}
+e7839b553e2d20a3d665ea3db6341ac6bb7319f4,"['game', 'crash', 'example', 'stalker']",General,{'crash': 100}
+e604c3a5d91c36eddf1f7a2882535d7848e08dd9,"['game', 'crash', 'inspection', 'helicopter', 'scat']",General,{'crash': 100}
+6f708213ef922c1dd7ba66a016951d6fc2b6824e,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+37612872f5514bdf2b150e6c5aa724c3f98084d1,"['memory', 'leak', 'zeromemory', 'pointer']",Risky_resource_management,{'memory leak': 100}
+61120bcfa510f77ccb5583957141511e8e9863d0,"['memory', 'corruption', 'debug', 'runtime', 'code', 'simplification']",Risky_resource_management,{'memory corruption': 100}
+e0b1a677e8dba605d910a5db02f946c43baa73e2,"['memory', 'corruption', 'debug', 'runtime', 'code', 'cleanup']",Risky_resource_management,{'memory corruption': 100}
+c47e323a6a2cb5a528ebb5f777b80db2306c42c4,"['memory', 'corruption', 'debug', 'runtime']",Risky_resource_management,{'memory corruption': 100}
+0394afca5b0da27abeebc3cec09e895283f617e5,"['memory', 'corruption', 'string', 'manipulation']",Risky_resource_management,{'memory corruption': 100}
+13d2e015e0ba15d1bebcb8f12cb632846c9a4103,"['particle', 'crash', 'lambda']",General,{'crash': 100}
+252a73584fac154aaa70fba2ccec3aa4ca3be9d8,"['refactor', 'particle', 'allocation', 'particle', 'crash', 'http', 'github', 'forserx', 'xray', 'oxygen']",General,{'crash': 100}
+ff2fd49e5c365226d5b75cc97653a572d200ac69,"['compressor', 'buffer', 'overrun', 'thanks', 'giperion']",Risky_resource_management,{'overrun': 100}
+63868c76e2ec1cc2fbcf0d7285ae31a531a05343,"['rank', 'issue', 'rank', 'crash']",General,{'crash': 100}
+b9da0e9207c845a2fc286700894247d325f754b0,"['lpcstr', 'void', 'function', 'return', 'value', 'crash', 'dangerous', 'char', 'conversion', 'luabind']",General,{'crash': 100}
+92aaa6c0d5fb85de2f28e86b21ee882a017f86b0,"['http', 'github', 'openxray', 'xray', 'spawn', 'ingame', 'crash', 'pripyat', 'undeground']",General,{'crash': 100}
+970151945dce451e0afd55b5edc93749d114e8a7,"['centity', 'killentity', 'actor', 'vehicle', 'death', 'circumvent', 'crash']",General,{'crash': 100}
+9ea54f942ec2a5a488644d5471d3db2bb3cdf842,"['member', 'offline', 'online', 'visa', 'versa', 'specific', 'member', 'crash', 'duplicate', 'error']",General,{'crash': 100}
+7d5bc2850162ff2eab4cfd37b1f995b57572ca06,"['locaterapi', 'ignore', 'processing', 'thumb', 'crash', 'startup']",General,{'crash': 100}
+9d13453c879cb852709c7d340fe31a4ccacf826d,"['memory', 'leak', 'resource', 'manager']",Risky_resource_management,{'memory leak': 100}
+2b2a60b0010b1fbc5c4bd98e0d0c283813d3daed,"['memory', 'leak', 'resource', 'manager']",Risky_resource_management,{'memory leak': 100}
+34ad8a8be76fb110523cef17a123f91debb42088,"['null', 'pointer', 'dereference']",Risky_resource_management,{'null pointer': 100}
+a5e6472b4702ae877d40ebc9bf1aa9929429d8fd,"['cbackend', 'stackoverflow', 'crash']",General,{'crash': 100}
+12a53bddfb9d46eb9dd49718e1516237628e73c7,"['compiler', 'warning', 'msvs', 'crash']",General,{'crash': 100}
+8c7bd752cf6033e5f92f6c972ece3f173f5b9554,"['xrcore', 'ireader', 'compilation', 'deletion', 'argument', 'null', 'pointer', 'const', 'case', 'close', 'method', 'variable', 'self']",Risky_resource_management,{'null pointer': 100}
+5ee7d8bea7538001b65e3e912d2d2583f179d210,"['potential', 'crash', 'cuilines']",General,{'crash': 100}
+1ef11cfaf60f469231e2c786c949fc43c0881ae2,"['crash', 'buffer', 'overflow', 'command', 'line', 'length', 'exceeds']",Risky_resource_management,{'buffer overflow': 100}
+99de510152c3414de42b3fa07b316835e9095d25,"['potential', 'buffer', 'overflow', 'xrgamespyserver', 'onmessage']",Risky_resource_management,{'buffer overflow': 100}
+43536dce6d536855caf133d8b73043edaa373443,"['potential', 'stack', 'overflow', 'crender', 'loadbuffers']",Risky_resource_management,{'stack overflow': 100}
+a5525d26063703cab7b12c0c7723e8c7456bf084,"['potential', 'stack', 'overflow', 'crender', 'loadbuffers']",Risky_resource_management,{'stack overflow': 100}
+c611d5f872113615cdb3d80bbc11374b70670f0d,"['potential', 'stack', 'overflow', 'cenvironment']",Risky_resource_management,{'stack overflow': 100}
+2055b8dfe201eeb1a5ef2bd7a56c4b85368465c3,"['potential', 'stack', 'overflow', 'cenvironment']",Risky_resource_management,{'stack overflow': 100}
+976b434850bc0723d1887a845aa6a12020d9a99e,"['potential', 'stack', 'overflow', 'cconsole']",Risky_resource_management,{'stack overflow': 100}
+7dc1f1053f27bf7b93b8f2105b7b4f10356a05b6,"['potential', 'stack', 'overflow', 'cconsole', 'drawbackgrounds']",Risky_resource_management,{'stack overflow': 100}
+d00065bdfa28b4ff27c40c9e348e898e0e24f750,"['potential', 'stack', 'overflow', 'editor', 'environment', 'weather', 'manager', 'load']",Risky_resource_management,{'stack overflow': 100}
+f3362eb750adc48877ee517e7e7c21c1238419fc,"['check', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+b5fa8cdab0c9e46602eb6df6e4df8c0979bc2eec,"['migrate', 'desc', 'update', 'solution', 'project', 'code', 'xrmemory', 'reference', 'impl', 'crash', 'fall', 'infinite', 'loop', 'original', 'party', 'library']",General,{'crash': 100}

@@ -1,19 +1,25 @@
-sha,message,catetory,matched,labels
-cee4218548f58602a6583bc3ac718b315bbc9e62,"['buffer', 'temporaryavoid', 'force', 'overrun']",Risky_resource_management,{'overrun': 100},
-684614946eb967cb561ffba0df024b657b5bb414,"['netinforemote', 'return', 'address', 'security', 'connection']",General,{'security': 100},
-e3ebd0d0cd5b1cf5c46f19b897ab52a36ac1ad00,"['mergemerge', 'openmv', 'requesttimeout', 'receovery', 'crash']",Risky_resource_management,{'crash': 100},
-ed795c4fcefd586113091f30999296900fa333c8,"['possible', 'stackcamera', 'crash', 'kernel']",Risky_resource_management,{'crash': 100},
-0002e899f8efb5bd7c732c47f4ee097994e00519,"['importer', 'issuebinary', 'import', 'crash', 'createstrackingfeature', 'number', 'different', 'rects', 'weakclassifiers']",Risky_resource_management,{'crash': 100},
-2639f1299b828099d7a9143654a9b047cc9cf67b,"['mergemerge', 'cfaccabfcbee', 'request', 'bbyarsupgrade', 'travis', 'security']",General,{'security': 100},
-d3398ce84776138310ff4c2a43dacdde150537ba,"['mergemerge', 'request', 'bbyars', 'acbfeebbdcaefbupgrade', 'travis', 'security']",General,{'security': 100},
-1ecf1200965a6497d884a2aaf00cb97f3193c1c1,"['mergemerge', 'bfbceacfde', 'request', 'bbyarsupgrade', 'travis', 'security']",General,{'security': 100},
-7a8a2ab864e2e0119f37e1b8886f90755a8d293e,"['mergemerge', 'request', 'bbyarsupgrade', 'travis', 'security']",General,{'security': 100},
-f716fbad44ffe5324e3219af9c5c3ee47d80b371,"['mergemerge', 'request', 'bbyars', 'adadfacdefupgrade', 'yargs', 'security']",General,{'security': 100},
-3c644cd41ddfc73a24bb9f6a66a2ce9062452710,"['update', 'policy', 'security']",General,{'security': 100},
-a378f4971ae53b3577c0b0df34fc5be9b3861e89,"['allowinjection', 'reason', 'security']",General,{'security': 100},
-8944bbccf76ea76ed1c8742df46a02c6effbeb7b,"['implementation', 'crash', 'protocolissue', 'mountebank', 'bbyars']",Risky_resource_management,{'crash': 100},
-add810a1934b872e1b4bd17aaae456eba4759e13,"['request', 'masteragent', 'security', 'proxy', 'upgrade', 'vulnerability']",General,{'security': 100},
-c3dc0b125345e87350dd680bb7992190bc88ed23,"['agent', 'security', 'proxy', 'upgrade', 'vulnerabilityissue', 'mountebank', 'bbyars']",General,{'security': 100},
-bd5b0ed2b139e3a34847385f4b6d4529a18a180a,"['vulnerabilitycqwlkl', 'release', 'security']",General,{'security': 100},
-f343e44f01134c6d5e06dedab0a8ed46c6bf3382,"['directory', 'security']",General,{'security': 100},
-4fe54150ae758e91a5966f062b7e32c5d463f1f8,"['security', 'allowinjection']",General,{'security': 100},
+sha,message,catetory,matched
+f1c453ab8b744d08a561c346c3a034738eefc0b4,"['csrf', 'attack', 'origin', 'whitelist', 'cors']",Insecure_interaction_between_components,{'csrf': 100}
+99ff7f5c0878f83eee96edc544cfa578f72ea653,"['path', 'traversal', 'issue', 'http', 'github', 'bbyars', 'mountebank', 'issue']",Risky_resource_management,{'path traversal': 100}
+2639f1299b828099d7a9143654a9b047cc9cf67b,"['pull', 'request', 'bbyars', 'snyk', 'snyk', 'security', 'upgrade', 'travis']",General,{'security': 100}
+d3398ce84776138310ff4c2a43dacdde150537ba,"['pull', 'request', 'bbyars', 'snyk', 'snyk', 'security', 'upgrade', 'travis']",General,{'security': 100}
+1ecf1200965a6497d884a2aaf00cb97f3193c1c1,"['pull', 'request', 'bbyars', 'snyk', 'snyk', 'security', 'upgrade', 'travis']",General,{'security': 100}
+7a8a2ab864e2e0119f37e1b8886f90755a8d293e,"['pull', 'request', 'bbyars', 'snyk', 'snyk', 'security', 'upgrade', 'travis']",General,{'security': 100}
+f716fbad44ffe5324e3219af9c5c3ee47d80b371,"['pull', 'request', 'bbyars', 'snyk', 'snyk', 'security', 'upgrade', 'yargs']",General,{'security': 100}
+3c644cd41ddfc73a24bb9f6a66a2ce9062452710,"['update', 'security', 'policy']",General,{'security': 100}
+3b316f265d0633691ea43d431867f6723ba198ae,"['pull', 'request', 'dheerajbhaskar', 'patch', 'security']",General,{'security': 100}
+2a0e48a559eaca52e629236bf7d79c9f38594d6d,['security'],General,{'security': 100}
+a378f4971ae53b3577c0b0df34fc5be9b3861e89,"['allowinjection', 'security', 'reason']",General,{'security': 100}
+e279a90952d66c2422e4908fe712eb3220493392,"['security', 'flaw', 'http', 'github', 'bbyars', 'mountebank', 'issue']",General,{'security': 100}
+8944bbccf76ea76ed1c8742df46a02c6effbeb7b,"['protocol', 'implementation', 'crash', 'http', 'github', 'bbyars', 'mountebank', 'issue']",General,{'crash': 100}
+05338feea4b0cdbcb39b92a3620a1da9faeecea5,"['request', 'memory', 'leak', 'test', 'http', 'github', 'bbyars', 'mountebank', 'issue']",Risky_resource_management,{'memory leak': 100}
+157741b409b0cee145a00d68ff5406522938fafe,"['request', 'threshold', 'memory', 'leak', 'test', 'http', 'github', 'bbyars', 'mountebank', 'issue']",Risky_resource_management,{'memory leak': 100}
+063b4874f46af2e4627e78fb11e98287ed1ef947,"['request', 'memory', 'leak', 'test', 'http', 'github', 'bbyars', 'mountebank', 'issue']",Risky_resource_management,{'memory leak': 100}
+add810a1934b872e1b4bd17aaae456eba4759e13,"['pull', 'request', 'ethome', 'master', 'upgrade', 'http', 'proxy', 'agent', 'security', 'vulnerability']",General,{'security': 100}
+c3dc0b125345e87350dd680bb7992190bc88ed23,"['upgrade', 'http', 'proxy', 'agent', 'security', 'vulnerability', 'http', 'github', 'bbyars', 'mountebank', 'issue']",General,{'security': 100}
+bd5b0ed2b139e3a34847385f4b6d4529a18a180a,"['node', 'vulnerability', 'http', 'security', 'release', 'cqwlkl']",General,{'security': 100}
+f343e44f01134c6d5e06dedab0a8ed46c6bf3382,"['security', 'test', 'command', 'line', 'directory']",General,{'security': 100}
+814506fa7c07b1790b03031ce8ad8aee49804a94,"['function', 'allowinjection', 'security', 'test']",General,{'security': 100}
+2d89f8ff68b405e7516cc6433b93ff4966cdcaf8,"['insecure', 'cipher', 'http', 'proxy', 'http', 'github', 'bbyars', 'mountebank', 'issue']",General,{'insecure': 100}
+8f75296fa04f20383753e867032d8cdfe9c596d4,"['memory', 'leak', 'lack', 'file', 'rotation']",Risky_resource_management,{'memory leak': 100}
+b20edf5d098f0dacc0e99020b50d9b48e91a21e4,"['mock', 'command', 'line', 'flag', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}

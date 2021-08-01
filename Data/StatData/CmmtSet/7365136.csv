@@ -1,19 +1,42 @@
-sha,message,catetory,matched,labels
-0349e3fa8fb662cfad91d4fde0abbfaccbf4bc1b,"['dbcaefdpatch', 'request', 'morkai', 'crash', 'mergeupgrade', 'crash', 'econnreset', 'websocket']",Risky_resource_management,{'crash': 100},
-ec98a1cf3c5c072255775f44e22389f3c6870673,"['crash', 'econnreset', 'websocketconnection', 'error', 'handler', 'websockets']",Risky_resource_management,{'crash': 100},
-0efb151ca330653839d4cbd79d75aadb402ea356,"['mergejustlep', 'request', 'proxy', 'crash']",Risky_resource_management,{'crash': 100},
-85e1650aae9b81b64f781457789c58182e8a9bc2,"['column', 'width', 'crash', 'window', 'wouldlower']",Risky_resource_management,{'crash': 100},
-ddaf8e3cf41d490413e888303cafd7e91bca17ad,"['crash', 'track', 'movingplaylist', 'queue', 'track', 'state', 'crash', 'window']",Risky_resource_management,{'crash': 100},
-c39b5662a10a463427b54bb6c1e2714db59a65d9,"['print', 'buffer', 'screen', 'ultra', 'crash']",Risky_resource_management,{'crash': 100},
-cbaf983034c47c05ad5e9588b756d1a71626c7e7,"['deadlock', 'revertdeadlock', 'revert']",Risky_resource_management,{'deadlock': 100},
-5ac26dd4c3968bb5c95825ebdd36e7049f21a326,"['deadlock', 'revert']",Risky_resource_management,{'deadlock': 100},
-8235a2867c845d61dd7bef11aafdd6c3e3640d8a,"['function', 'playerthread', 'problem', 'prevents', 'acquirethread', 'playercausedstill', 'deadlock']",Risky_resource_management,{'deadlock': 100},
-0e29d7b4b0c25d12d63481f8b1af088cebe4c7f3,"['mergepatch', 'request', 'mergenever', 'crash']",Risky_resource_management,{'crash': 100},
-f224fc43f9488ae5ca74dc926df3c6eb09464874,"['crash', 'statusline']",Risky_resource_management,{'crash': 100},
-371e0607b7a12003d69ab4e848d1c7b137a0dcef,"['crash', 'aadeebbabecaeac']",Risky_resource_management,{'crash': 100},
-18f5e898c4892f9c56a8d877f1d23896915735c8,"['deadlock', 'pulsehappens', 'withoutpulseaudio', 'daemondaemon', 'nofail']",Risky_resource_management,{'deadlock': 100},
-ff6bc2c318bba4603b75485a9cc6b255ccde27db,"['security', 'option', 'wformat', 'configuredefault', 'ubuntu', 'detect', 'possiblesecurity', 'nonliteral', 'wformatallowconstprintf']",General,{'security': 100},
-ea74bf87cd0132af6025362e866fc2067a1dc9f2,"['crash', 'opening', 'andrew', 'qartis', 'gmail', 'flashlibflac', 'crash', 'opening', 'causeproper', 'return', 'check', 'error', 'sample', 'format']",Risky_resource_management,{'crash': 100},
-f95c071d324e6f32ca8981e0e12147dfa49fbb82,"['crash', 'track', 'playlist']",Risky_resource_management,{'crash': 100},
-9923cd15bbfd256ad33e4db6513ff11884ae26bf,"['plugin', 'crash', 'available', 'output']",Risky_resource_management,{'crash': 100},
-27466bbb93c905e623c928226b913196d01bef10,"['plugin', 'crash', 'option']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+85e1650aae9b81b64f781457789c58182e8a9bc2,"['limit', 'width', 'column', 'crash', 'window', 'browser', 'limit', 'path', 'multibyte', 'character']",General,{'crash': 100}
+ddaf8e3cf41d490413e888303cafd7e91bca17ad,"['crash', 'track', 'view', 'track', 'library', 'playlist', 'queue', 'view', 'crash', 'cmus', 'window', 'state', 'setting']",General,{'crash': 100}
+c39b5662a10a463427b54bb6c1e2714db59a65d9,"['print', 'buffer', 'crash', 'ultra', 'wide', 'screen']",General,{'crash': 100}
+cbaf983034c47c05ad5e9588b756d1a71626c7e7,"['pull', 'request', 'cmus', 'revert', 'deadlock', 'revert', 'deadlock', 'player']",Risky_resource_management,{'deadlock': 100}
+5ac26dd4c3968bb5c95825ebdd36e7049f21a326,"['revert', 'deadlock', 'player']",Risky_resource_management,{'deadlock': 100}
+ee368a1f43dfafbc59117c3fdc584d3351483547,"['pull', 'request', 'mahkoh', 'deadlock', 'deadlock', 'player']",Risky_resource_management,{'deadlock': 100}
+8235a2867c845d61dd7bef11aafdd6c3e3640d8a,"['player', 'function', 'prevents', 'problem', 'thread', 'player', 'lock', 'player', 'thread', 'deadlock', 'note', 'deadlock', 'player', 'exit']",Risky_resource_management,{'deadlock': 100}
+0e29d7b4b0c25d12d63481f8b1af088cebe4c7f3,"['pull', 'request', 'wang', 'patch', 'crash']",General,{'crash': 100}
+af74aa201ec073f375a68a4634a1adc0afc5eb4b,"['crash', 'munmap', 'need']",General,{'crash': 100}
+4a2ae75b27a920a8487b04f9abf35eb1761298fe,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+b16caae19767f9ce632691636cced0179a71786d,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+ce7e936f7161c6304056864c108c94a9a5d96589,"['sure', 'config', 'directory', 'exists', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+af4623c7a528bcc560aae541dbff1d37bd840632,"['pull', 'request', 'pavel', 'belikov', 'statusline', 'crash']",General,{'crash': 100}
+f224fc43f9488ae5ca74dc926df3c6eb09464874,"['statusline', 'crash']",General,{'crash': 100}
+0b752e1f39ff2871a57d1d4ee754add915ee448d,"['pull', 'request', 'nefthy', 'jack', 'underun', 'buffer', 'overflow', 'jack', 'buffer', 'overflow', 'channel', 'position']",Risky_resource_management,{'buffer overflow': 100}
+d41e08c869450d11646fc78c13d5d72ee0e78386,"['buffer', 'overflow', 'channel', 'position', 'case', 'bufferoverflow', 'occurs', 'position', 'current', 'channel', 'position']",Risky_resource_management,{'buffer overflow': 100}
+bb4428120b9382361a23a5a212a99437a2f6c418,"['value', 'version', 'size', 'file', 'corrupt', 'file', 'crash', 'cmus']",General,{'crash': 100}
+0cae63400f737ce93248f113c52b8daecd6b4ba5,"['data', 'race', 'condition', 'gregory', 'petrosyan', 'gmail']",Risky_resource_management,{'data race': 100}
+371e0607b7a12003d69ab4e848d1c7b137a0dcef,"['crash', 'gregory', 'petrosyan', 'gmail']",General,{'crash': 100}
+2b3144f69d49d41572d63ecc8d467abafc86de90,"['segfault', 'player', 'prev', 'philipp', 'hartwig', 'phhart', 'head', 'empty', 'cmus', 'true', 'album', 'album', 'play', 'player', 'prev', 'track', 'selection', 'wrap', 'track', 'album', 'cmus', 'crash', 'line', 'code', 'philipp', 'hartwig', 'phhart', 'gregory', 'petrosyan', 'gmail']",General,{'crash': 100}
+baee7e24be179483663c19aebed53337635ba45f,"['tree', 'album', 'linear', 'search', 'album', 'date', 'differs', 'measurable', 'slowdown', 'compilation', 'name', 'regular', 'date', 'strict', 'weak', 'rbtree', 'thanks', 'gregory', 'album', 'case', 'track', 'different', 'date', 'possible', 'memory', 'corruption', 'tree']",Risky_resource_management,{'memory corruption': 100}
+18f5e898c4892f9c56a8d877f1d23896915735c8,"['pulse', 'deadlock', 'pulseaudio', 'daemon', 'daemon', 'work', 'nofail']",Risky_resource_management,{'deadlock': 100}
+0a1ec5f3d28deda8a6a19ab713d697596c4b31db,"['filter', 'search', 'expression', 'cmdline', 'locale', 'ascii', 'character', 'possible', 'locale', 'charmap', 'small', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+2203f180ba828edd61766aff129143f554f4051d,"['filter', 'search', 'expression', 'cmdline', 'locale', 'ascii', 'character', 'possible', 'locale', 'charmap', 'small', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+abb567a152de3042455a2248247ad08ae539dbdc,"['history', 'invalid', 'memory', 'leak', 'struct', 'malloc', 'trick', 'error', 'valgrind', 'default', 'error', 'context', 'invalid', 'size', 'home', 'xavier', 'cmus', 'cmus', 'home', 'xavier', 'cmus', 'cmus', 'main', 'home', 'xavier', 'cmus', 'cmus', 'address', 'xbeeea', 'byte', 'block', 'size', 'alloc', 'malloc', 'valgrind', 'linux', 'home', 'xavier', 'cmus', 'cmus', 'home', 'xavier', 'cmus', 'cmus', 'home', 'xavier', 'cmus', 'cmus', 'home', 'xavier', 'cmus', 'cmus', 'main', 'home', 'xavier', 'cmus', 'cmus', 'exit', 'command', 'search', 'mode', 'xavier', 'chantry', 'chantry', 'xavier', 'gmail']",Risky_resource_management,{'memory leak': 100}
+2e679c66554cc0205779a72b82ddcc0175f571a6,"['buffer', 'width', 'calculation', 'solves', 'memory', 'corruption', 'crash', 'look', 'upgrade', 'vlastimil', 'kota', 'vlastikx', 'kralikbobek', 'evinupavi', 'arcor', 'xavier', 'chantry', 'chantry', 'xavier', 'gmail', 'xavier', 'chantry', 'chantry', 'xavier', 'gmail', 'gregory', 'petrosyan', 'gmail']",Risky_resource_management,{'memory corruption': 100}
+ff6bc2c318bba4603b75485a9cc6b255ccde27db,"['wformat', 'security', 'option', 'ubuntu', 'useful', 'detect', 'possible', 'security', 'problem', 'wformat', 'nonliteral', 'hand', 'strict', 'const', 'char', 'printf']",General,{'security': 100}
+e47235ffb99af7d02c0491cd25aa45f4976e6412,"['insecure', 'cmus', 'cmus', 'predictable', 'file', 'root', 'cmus', 'debug', 'cmus', 'debug', 'home', 'cmus', 'debug', 'possible', 'debug', 'multiple', 'version', 'cmus', 'time', 'debian', 'report', 'insecure', 'temp', 'file']",General,{'insecure': 100}
+e875be51127244ca0962342722baeca1c2d7fc76,"['crash', 'ffmpeg', 'open', 'invalid', 'file']",General,{'crash': 100}
+5eecd72838f6df38666ea62847a69de95cba1d0f,"['pulse', 'trivial', 'memory', 'leak', 'gregory', 'petrosyan', 'gmail']",Risky_resource_management,{'memory leak': 100}
+31c957b6a0cfe053b9efccfb11867853e87eeefa,"['minor', 'leak', 'alsa', 'ladspa', 'memory', 'leak', 'valgrind', 'trivial', 'patch']",Risky_resource_management,{'memory leak': 100}
+1c261777ff6e77955ec612f431b5f22401604273,"['integer', 'overflow', 'patch', 'bjum']",Risky_resource_management,{'integer overflow': 100}
+706f2ca8abb2126d0f150ba6c6ca3f7b8ef67755,"['buffer', 'overflow', 'variable', 'value', 'malloc', 'alignment']",Risky_resource_management,{'buffer overflow': 100}
+ea74bf87cd0132af6025362e866fc2067a1dc9f2,"['flac', 'crash', 'opening', 'file', 'andrew', 'qartis', 'gmail', 'flash', 'file', 'cmus', 'crash', 'opening', 'file', 'libflac', 'return', 'proper', 'error', 'code', 'check', 'sample', 'format', 'sane']",General,{'crash': 100}
+e106677704da479c8c550eeed47c500902f1dcf2,"['worker', 'memory', 'leak', 'clean']",Risky_resource_management,{'memory leak': 100}
+33349bfb12cccfdf7fa20c75fe7d8dfe55cf1780,"['crash', 'file', 'browser']",General,{'crash': 100}
+9923cd15bbfd256ad33e4db6513ff11884ae26bf,"['crash', 'output', 'plugin']",General,{'crash': 100}
+27466bbb93c905e623c928226b913196d01bef10,"['crash', 'option', 'value']",General,{'crash': 100}
+928e87a3bf5aa99f5a14d7ad7f7538e86b3a897e,"['factivate', 'work', 'crash']",General,{'crash': 100}
+80bdeb283494936cf590e5235dd3bcc2be82fc71,['crash'],General,{'crash': 100}
+cfcde1438b59995f39a2aa90e2666c43356fe2ad,"['crash', 'martin', 'stubenschrott', 'stubenschrott']",General,{'crash': 100}

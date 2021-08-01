@@ -1,14 +1,23 @@
-sha,message,catetory,matched,labels
-030c121e20c4079bc32014ea12fad73da8083189,"['action', 'bugfix', 'unsupportedrather', 'action', 'functional', 'security', 'knowncontrol', 'action', 'policy', 'subject']",General,{'security': 100},
-adf5ffb1e250c2185438070bbe78ed1721f277cd,"['channel', 'metric', 'metric', 'scrapingsecure', 'channelconnection', 'handlerreliability', 'security']",General,{'security': 100},
-cc66f17d7c7b3799ecd9c786d2b8a3a668c8209c,"['crash', 'invalid', 'bugfix', 'uploadcloudserver', 'crash', 'worker', 'clientheader', 'value', 'payload', 'streamingvalid', 'upload', 'signaturesignatureinstead']",Risky_resource_management,{'crash': 100},
-f52c0056ccd0098903114beabdecda559112148a,"['mergebranch', 'abort', 'crash', 'bugfix']",Risky_resource_management,{'crash': 100},
-9fd8468e9c8f539d2f9fc87132feb7ab9814416f,"['dbede', 'mergebranch', 'abort', 'crash', 'remote', 'origin']",Risky_resource_management,{'crash': 100},
-d04bed1edc86c1b540ba5c52f5d8e9bdb5d79977,"['cecdfbranch', 'abort', 'crash', 'bugfix']",Risky_resource_management,{'crash': 100},
-afeb56b66a00b269d26fb63655a4512f8aaf32d3,"['crash', 'existent', 'bugfix']",Risky_resource_management,{'crash': 100},
-ed8838de54e4ec71ecdf25fa718e938a4c05bf4f,"['mergebranch', 'zenko', 'crash', 'bugfix']",Risky_resource_management,{'crash': 100},
-7b2b23b80ea3fcca71cbedb97720e0971c6dfe8a,"['crash', 'bugfix', 'processcloudserver', 'arsenal', 'check', 'crash', 'readablewithout', 'method', 'stream']",Risky_resource_management,{'crash': 100},
-4091a155453a24e4753edd0b8e2494a78848b442,"['fccab', 'mergescality', 'request', 'security', 'tokentoken', 'security']",General,{'security': 100},
-06f1d5aaebdc20e6de256ca768b4e45d8d462232,"['content', 'compat', 'check', 'incorrect', 'length']",Risky_resource_management,{'incorrect length': 100},
-a52a650a8289939e14f01cdc3447bb5d1011f6b0,"['router', 'routeavoid', 'potential', 'place', 'security']",General,{'security': 100},
-0a2b0fafaa856d429b51c7f1a5fb85f9ea27ac59,"['bucketclientwould', 'crash']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+fde9337a985c651c5a63b15679fdb179a34f96a6,"['cldsrv', 'crash', 'cloudserver', 'worker']",General,{'crash': 100}
+030c121e20c4079bc32014ea12fad73da8083189,"['bugfix', 'unsupported', 'action', 'security', 'action', 'type', 'subject', 'action', 'policy', 'control']",General,{'security': 100}
+826d2fe2e8da5051f347f10394cb95f7654c6161,"['bugfix', 'unit', 'test', 'duplicate', 'version', 'unit', 'test', 'duplicate', 'version', 'complete', 'multipart', 'upload', 'version', 'case', 'creates', 'data', 'risk', 'data', 'loss']",Risky_resource_management,{'data loss': 100}
+adf5ffb1e250c2185438070bbe78ed1721f277cd,"['channel', 'server', 'connection', 'usage', 'configuration', 'metric', 'collection', 'channel', 'connection', 'handler', 'reliability', 'security', 'purpose']",General,{'security': 100}
+cc66f17d7c7b3799ecd9c786d2b8a3a668c8209c,"['bugfix', 'crash', 'invalid', 'upload', 'cloudserver', 'worker', 'crash', 'client', 'content', 'header', 'value', 'hmac', 'payload', 'valid', 'signature', 'signature', 'request']",General,{'crash': 100}
+163563bc80dce62f111a535d6a88e376f9b3cf3d,"['ingest', 'inconsistency', 'zenko', 'cloudserver', 'crash', 'ingestion', 'request', 'meta', 'mdchksum', 'header', 'null', 'value', 'event', 'undefined', 'behavior']",General,{'crash': 100}
+f52c0056ccd0098903114beabdecda559112148a,"['bugfix', 'abort', 'crash', 'octopus', 'bugfix', 'abort', 'crash']",General,{'crash': 100}
+9fd8468e9c8f539d2f9fc87132feb7ab9814416f,"['origin', 'bugfix', 'abort', 'crash', 'bugfix', 'abort', 'crash']",General,{'crash': 100}
+d04bed1edc86c1b540ba5c52f5d8e9bdb5d79977,"['bugfix', 'abort', 'crash', 'octopus', 'bugfix', 'abort', 'crash']",General,{'crash': 100}
+afeb56b66a00b269d26fb63655a4512f8aaf32d3,"['bugfix', 'crash', 'existent']",General,{'crash': 100}
+ed8838de54e4ec71ecdf25fa718e938a4c05bf4f,"['bugfix', 'zenko', 'update', 'crash']",General,{'crash': 100}
+7b2b23b80ea3fcca71cbedb97720e0971c6dfe8a,"['bugfix', 'zenko', 'process', 'crash', 'arsenal', 'check', 'crash', 'cloudserver', 'readable', 'stream']",General,{'crash': 100}
+c7633a772ae1c51bd3091b6517caa668f4673173,"['zenko', 'config', 'validation', 'crash', 'config', 'validation', 'crash', 'detail', 'check', 'note', 'unit', 'test', 'regexp', 'line', 'wrap', 'work', 'worth', 'time', 'robust', 'config']",General,{'crash': 100}
+b627c3219f1a70e52f27467efb8b53dbfe4e3dd9,"['zenko', 'lifecycle', 'service', 'account', 'support', 'service', 'account', 'service', 'lifecycle', 'addition', 'service', 'replication', 'check', 'access', 'control']",Porous_defenses,{'access control': 100}
+8db53cbc39221e053f481b61130b0c07b5133980,"['leak', 'harden', 'different', 'stage', 'close', 'socket', 'situation', 'client', 'abort', 'connection', 'processing', 'generate', 'leak', 'unread', 'buffer', 'memory', 'leak', 'netstat', 'output']",Risky_resource_management,{'memory leak': 100}
+1159d83016d8cf4a763d4fbe5e09cf2d89ad597b,"['null', 'part', 'sparse', 'object', 'null', 'part', 'part', 'null', 'server', 'file', 'truncate', 'data', 'wrapper', 'batchdelete', 'function', 'data', 'delete', 'nexttick', 'prevents', 'stack', 'overflow', 'large', 'array', 'unit', 'test', 'setimmediate', 'setimmediate', 'clarifies', 'predicate', 'model', 'version', 'backends', 'string', 'requirement']",Risky_resource_management,{'stack overflow': 100}
+cfcb71c4c7ecadc8fc0ccfaefb2317a2174ee087,"['cors', 'header', 'response', 'part', 'cors', 'implementation', 'origin', 'header', 'designates', 'request', 'cors', 'request', 'bucket', 'cors', 'configuration', 'return', 'access', 'control', 'origin', 'access', 'control', 'method', 'access', 'control', 'header', 'request', 'cors', 'rule']",Porous_defenses,{'access control': 100}
+441cac7eb1272c8b80a382abb0d6a06eea49c1db,"['potential', 'rces', 'crash', 'switch', 'object']",General,{'crash': 100}
+ec8576d9b537d4feb002e46b01ce8909a17e8a6c,"['event', 'listener', 'server', 'callback', 'event', 'listener', 'request', 'node', 'memory', 'leak', 'warning', 'server', 'handful', 'request']",Risky_resource_management,{'memory leak': 100}
+eaad577fa4f185f96eb1687f9747f80b9439fc68,"['test', 'update', 'failure', 'installation', 'install', 'default', 'http', 'ubuntu', 'trusty', 'security', 'main', 'openjdk', 'fetch', 'http', 'ubuntu', 'pool', 'main', 'openjdk', 'openjdk', 'unable', 'fetch', 'archive']",General,{'security': 100}
+a52a650a8289939e14f01cdc3447bb5d1011f6b0,"['route', 'simple', 'router', 'hack', 'place', 'potential', 'security', 'issue', 'hack', 'place', 'test']",General,{'security': 100}
+0311a7f586fe1c895163135768fb39821da8a20e,"['return', 'listparts', 'part', 'crash', 'listparts', 'part']",General,{'crash': 100}

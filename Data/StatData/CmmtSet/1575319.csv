@@ -1,3 +1,5 @@
-sha,message,catetory,matched,labels
-92cac2634eb46d3ed379146b503cb981328c433d,"['crash', 'potential']",Risky_resource_management,{'crash': 100},
-afe17ed6f9f8df26c2ddb816ea71693a9efd0e2e,"['crash', 'regression']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+92cac2634eb46d3ed379146b503cb981328c433d,"['potential', 'crash']",General,{'crash': 100}
+539a921d47ea842a2151792034fd808dab990558,"['host', 'memory', 'leak', 'invocation', 'free', 'destructor']",Risky_resource_management,{'memory leak': 100}
+15f8aa386d784d4c6702d800d12965ec9093aa9e,"['crash', 'complex', 'float', 'struct', 'packer']",General,{'crash': 100}
+afe17ed6f9f8df26c2ddb816ea71693a9efd0e2e,"['crash', 'test', 'regression', 'test']",General,{'crash': 100}

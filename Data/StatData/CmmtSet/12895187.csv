@@ -1,4 +1,9 @@
-sha,message,catetory,matched,labels
-7c76f245da72cef71150563089a0e2faddef6f97,"['mergemerge', 'request', 'laravelio', 'dependencyupdate', 'security']",General,{'security': 100},
-9c1076f0aa4ca060a4b0d877dc83d9d7e135f481,"['update', 'security']",General,{'security': 100},
-6b5a358bee964dc4860179c9f755f2fc15ba0ac2,"['package', 'roave', 'security', 'advisoryresolve']",General,{'security': 100},
+sha,message,catetory,matched
+400acf068eae0f65364168e65011e611b7cd50ae,"['enlightn', 'workflow', 'enlightn', 'workflow', 'workflow', 'composer', 'install', 'lazy', 'load', 'command', 'injection', 'styleci', 'vints', 'vints']",Insecure_interaction_between_components,{'command injection': 100}
+7c76f245da72cef71150563089a0e2faddef6f97,"['pull', 'request', 'laravelio', 'bump', 'dependency', 'security', 'update']",General,{'security': 100}
+9c1076f0aa4ca060a4b0d877dc83d9d7e135f481,"['security', 'update']",General,{'security': 100}
+6b5a358bee964dc4860179c9f755f2fc15ba0ac2,"['roave', 'security', 'advisory', 'package']",General,{'security': 100}
+4ce895cf46ca9daeaa97db427a764e9dd95c59ae,"['csrf', 'thread', 'signup']",Insecure_interaction_between_components,{'csrf': 100}
+81a88aaf984c4e9ffa173a05c307c915c3bf3cd4,"['csrf', 'filter']",Insecure_interaction_between_components,{'csrf': 100}
+4e8ce63bdd7cbb1f1b25b339abce911cf48ce05c,"['csrf', 'filter', 'paste', 'route']",Insecure_interaction_between_components,{'csrf': 100}
+7cdce9d2c1b63bdbfb4416488c6074ede411571f,"['proper', 'validation', 'forum', 'thread']",Risky_resource_management,{'proper validation': 94}

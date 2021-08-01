@@ -1,6 +1,17 @@
-sha,message,catetory,matched,labels
-7ba91bd554d619746bb5e283505c8b84668887e8,"['entity', 'injection', 'section', 'external', 'security']",General,{'security': 100},
-b91a1bf1b578393fb1353f25977540ec6111ba7b,"['append', 'readme', 'security']",General,{'security': 100},
-9ad5458e257964148ef8595db47ba954c49706c1,"['section', 'script', 'security']",General,{'security': 100},
-7b7b84eb68fbdbc77eb31768490c276a5e463aae,"['consideration', 'security']",General,{'security': 100},
-b127e6fb07d5f667012e2a090b8faac7cd37d8ab,"['security', 'section']",General,{'security': 100},
+sha,message,catetory,matched
+7ba91bd554d619746bb5e283505c8b84668887e8,"['external', 'entity', 'injection', 'section', 'security']",General,{'security': 100}
+b52e466fa57957175e31a8601dae9764e96120fe,"['pull', 'request', 'zachborboa', 'master', 'memory', 'leak', 'class', 'object', 'unset']",Risky_resource_management,{'memory leak': 100}
+60917c1e8e4873cd5eebbc74df2cef883cbdb37e,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+d13c43160dd04a420bc92b11ce5bc188e0553581,"['memory', 'leak', 'class', 'object', 'unset', 'closure', 'function', 'implicit', 'reference', 'class', 'instance', 'unset']",Risky_resource_management,{'memory leak': 100}
+b91a1bf1b578393fb1353f25977540ec6111ba7b,"['append', 'security', 'readme']",General,{'security': 100}
+a97721c8eade81905761a73341bf4150a7b0033e,"['memory', 'leak', 'test', 'example']",Risky_resource_management,{'memory leak': 100}
+b760961085228552f6f96bb8f38427678d5d87e2,"['pull', 'request', 'zachborboa', 'master', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+d21a7dcc8b4d37d97c52c7f38034f4716dd773b4,"['multi', 'curl', 'instance', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+d214d6b767055926f5b44dd89eee3b5a4233188d,"['temporary', 'placeholder', 'store', 'header', 'callback', 'data', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+9ad5458e257964148ef8595db47ba954c49706c1,"['script', 'security', 'section']",General,{'security': 100}
+7b7b84eb68fbdbc77eb31768490c276a5e463aae,"['additional', 'security', 'consideration']",General,{'security': 100}
+b127e6fb07d5f667012e2a090b8faac7cd37d8ab,"['security', 'section']",General,{'security': 100}
+14d651b4ad97c8e92e3c81c9bb654524374d0d10,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+c4d143f8f197830e3cc1d463217fac7a474c574d,"['memory', 'leak', 'test']",Risky_resource_management,{'memory leak': 100}
+045669cfb521e133e7e361f1e1b8bbff24e5e062,"['pull', 'request', 'zachborboa', 'master', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+c2558f5dd416268c97189416ebbfeb91f90acf6a,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}

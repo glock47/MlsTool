@@ -1,130 +1,160 @@
-sha,message,catetory,matched,labels
-cde9449f9494731ae19e426af0e9fde6e716e4a9,"['swift', 'issue', 'version', 'mobile', 'crash', 'crash', 'value']",Risky_resource_management,{'crash': 100},
-261609ee0ca7b6ec0ce485466314e05368402836,"['logic', 'crash']",Risky_resource_management,{'crash': 100},
-1419cef08c1b071820116a272a31f6f95fb5e1f4,"['mobile', 'wordpress', 'mergemoderation', 'crash', 'comment']",Risky_resource_management,{'crash': 100},
-a83c17c380623a2542f72b9b4c8ef8aafd572e49,"['primaryblogid', 'crash', 'value', 'default']",Risky_resource_management,{'crash': 100},
-da6598811e7142901c412ca1242885a762226562,"['mobile', 'error', 'indexpath', 'requestguard', 'error', 'integer', 'overflow']",Risky_resource_management,{'integer overflow': 100},
-58160173f04ee5343b33c0f35cf10803b47f9703,"['cecdbfc', 'mergerequest', 'mobile', 'wordpress', 'mergedetail', 'comment', 'crash']",Risky_resource_management,{'crash': 100},
-0a93b3c6ca1a1addf022891dde3c02a40b3fcafa,"['eeadc', 'mergewordpress', 'mobile', 'crash', 'crash', 'widget']",Risky_resource_management,{'crash': 100},
-93c786f041a61afc8bb658e161509dabb812c3a6,"['quick', 'crash']",Risky_resource_management,{'crash': 100},
-2a75bb1f3c59dcee89036505dd15e32042ae0d13,"['bbfef', 'mergewordpress', 'mobile', 'crash', 'request', 'lookupobjective']",Risky_resource_management,{'crash': 100},
-42b87b3fefd2e6fa892f0129a4e086c59190b3d6,"['lookupbridge', 'information', 'swift', 'lookup', 'invalid', 'crash', 'object', 'intvalue']",Risky_resource_management,{'crash': 100},
-470c916ff2b09a6938396d0d2a73354fd0bafb58,"['block', 'crash', 'commentsubclass', 'block', 'commentwould', 'crash', 'horizontal', 'causeattempt', 'access']",Risky_resource_management,{'crash': 100},
-6ad30737efa631981564de12e87a832581b7cc8a,"['mobile', 'crash', 'bugfix', 'offline', 'requestcrash', 'device', 'offline', 'notification']",Risky_resource_management,{'crash': 100},
-288857ca7f3c8840a6910456b3d949cbe41d13ac,"['crash', 'bugfix', 'offline']",Risky_resource_management,{'crash': 100},
-dd2a2e561cae7db3c357af4f94e2a0ab67157959,"['crash', 'bugfix', 'offline']",Risky_resource_management,{'crash': 100},
-e76166a9be8d25cbeb7dd562d1cfedcf62e93e2d,"['crash', 'suggestion', 'device', 'result', 'suggestion', 'device', 'source', 'property', 'infinite', 'offline', 'similar', 'decision', 'trigger', 'fetch']",Risky_resource_management,{'crash': 100},
-8da16877f1ecaf069815c64c71f121cb881a2fec,"['source', 'single', 'update', 'security', 'bundler']",General,{'security': 100},
-73ea60dd5e9d97c5def7acc453f1020e70ba24a2,"['mobile', 'failure', 'request', 'failure', 'security', 'bundler']",General,{'security': 100},
-8b0e03022a69bbf82975b413698d3cac3c9946b1,"['mobile', 'failure', 'request', 'failure', 'security', 'bundler']",General,{'security': 100},
-c268b3f0f3503f6cab33ae88531e545690105bd2,"['source', 'single', 'update', 'security', 'bundler']",General,{'security': 100},
-74877a536d215814ea8653ac5cec780913893d95,"['source', 'single', 'update', 'security', 'bundler']",General,{'security': 100},
-4b77149c04e7ab2193b42eea86497947ba8dfde0,"['backup', 'sheet', 'action', 'crash']",Risky_resource_management,{'crash': 100},
-f172b83e724a13e30c06de963d01704171581b64,"['mobile', 'wordpress', 'mergebeyond', 'comment', 'storage', 'crash']",Risky_resource_management,{'crash': 100},
-462f3fd7652b9d59c3f8f84fa57de5ff0df309d8,"['crash', 'recreate', 'textview']",Risky_resource_management,{'crash': 100},
-6e4a8a2336d54bbe909a73c551dc398a8ce5c727,"['service', 'extraction', 'property', 'crash']",Risky_resource_management,{'crash': 100},
-b52a7cd3653438bf1dbd7f5cdd17664fbb3a94c0,"['crash', 'potential']",Risky_resource_management,{'crash': 100},
-2c7692c6e44613ccb135d17d6647b7ae688e9403,"['crash', 'likecount']",Risky_resource_management,{'crash': 100},
-f5a93ece7d5eef3ea372b1e4ab5d8e8fd61eff5d,"['mobile', 'requestoperation', 'crash']",Risky_resource_management,{'crash': 100},
-82706012d5cb0b68732213410bc41a3034087aed,"['crash', 'error', 'table', 'sense', 'weird', 'situation', 'potential', 'optional', 'strange', 'suggestion', 'force']",Risky_resource_management,{'crash': 100},
-52b3d6e3aa7cf1d4998c219c127a1db6e38a6371,"['setting', 'manage', 'jetpack', 'screen', 'security', 'connection']",General,{'security': 100},
-c51b5301fe6572ce4d7bbdfad382786b23e937b8,"['manage', 'jetpack', 'security', 'connection']",General,{'security': 100},
-0312d616c3851fc49af5e2a9f07a254f1406288d,"['mobile', 'wordpress', 'mergeuibarbuttonitem', 'crash', 'uiview']",Risky_resource_management,{'crash': 100},
-7c2aab699237bb63836a294eb8f6d8735e0087b7,"['uibarbuttonitem', 'crash', 'controller', 'uibarbuttonitem', 'source', 'crash', 'uiview', 'subclass', 'presentationimage', 'button', 'initialization']",Risky_resource_management,{'crash': 100},
-7440dffd667ac02af82657ad17dd1b615841854d,"['crash', 'email', 'character']",Risky_resource_management,{'crash': 100},
-23a29cd3b9d18b52af75774a9d7f9c9463fe6bbe,"['bacaa', 'mergewordpress', 'issue', 'bulgarian', 'mobile', 'crash', 'keyboard', 'requestworkaround']",Risky_resource_management,{'crash': 100},
-39eb3a2156f4f1063a1677eee3a6aa8875989414,"['crash', 'button']",Risky_resource_management,{'crash': 100},
-38f0f02789e109c658984a61c1e9b211c56bbdc1,"['priority', 'matrix', 'guideline', 'prioritization', 'crash', 'updatepriority', 'guideline', 'matrix']",Risky_resource_management,{'crash': 100},
-a2e9db35fe50cca4bbfebb176f75d4a20b309ec6,"['sentry', 'event', 'timestamp', 'custom', 'defaultlater', 'crash', 'potential']",Risky_resource_management,{'crash': 100},
-cbb9500672dce1455679bf7dfa6029bd67d29370,"['request', 'sectionextra', 'check', 'session', 'count', 'plugins', 'crash', 'attempt']",Risky_resource_management,{'crash': 100},
-287db90fac7139faaa039dcfc92181fffe803482,"['extra', 'session', 'count', 'plugins', 'crash', 'attempt']",Risky_resource_management,{'crash': 100},
-201ac8713916c8617ecb81f7bd75b801eb482561,"['mobile', 'crash', 'request', 'earliertemporary', 'information']",Risky_resource_management,{'crash': 100},
-8e218f9673b931d29c7d45a3d2938ecbc2844ecf,"['bcbfc', 'mergewordpress', 'mobile', 'crash', 'requestprevent', 'picker', 'asset', 'medium', 'crash']",Risky_resource_management,{'crash': 100},
-0707d5dca168f369901360f0b704dd1809a0b8f1,"['imageview', 'issue', 'mobile', 'crash']",Risky_resource_management,{'crash': 100},
-b3bfb13523c598657e56d5b8ea001483a3befa28,"['mergeenable', 'wordpress', 'unsupported', 'editor', 'switch', 'jetpack', 'mobile', 'block', 'request', 'block', 'security', 'gutenberg']",General,{'security': 100},
-31d5e18fc62aff994cef08ed561762d46c933896,"['crash', 'ipados']",Risky_resource_management,{'crash': 100},
-67039f10649b7faf807931b8277cd24faa85cf53,"['enable', 'setting', 'unsupported', 'jetpack', 'block', 'security', 'gutenberg']",General,{'security': 100},
-367dc551c80bc6ac310a446c8d7c02a60780c964,"['suggestion', 'crash', 'filter']",Risky_resource_management,{'crash': 100},
-c280d3a910a02f44bd09338a05bcb489a045ad8d,"['crash', 'potential']",Risky_resource_management,{'crash': 100},
-41243a207b80e01d94cb5952a207c610bc3412de,"['editor', 'issue', 'medium', 'mobile', 'crash', 'issue', 'medium', 'crash', 'drawing']",Risky_resource_management,{'crash': 100},
-1c69a04bac5c6e864ea7162173f6a5c2e59272b2,"['mobile', 'crash', 'request', 'unsupported', 'editor', 'block', 'crash']",Risky_resource_management,{'crash': 100},
-f372d4b851aa6cc0a73e0606103262fcc763ebcd,"['crash', 'potential']",Risky_resource_management,{'crash': 100},
-5197cb2f9668ba78a3f8bd5232b2b4b20df87b69,"['mobile', 'crash', 'requestchallenge', 'bugfix', 'password']",Risky_resource_management,{'crash': 100},
-b996d5f0042cf8a31bee1485b7cfba985cd9d241,"['issue', 'release', 'crash']",Risky_resource_management,{'crash': 100},
-a457401a246b1c527a74d188510659aaa0bf8c1b,"['bfcaf', 'mergewordpress', 'mobile', 'crash', 'phase', 'requestcrash', 'potential', 'phase', 'reader', 'improvement']",Risky_resource_management,{'crash': 100},
-9448ff6fa21e2cc1a5061824811adcc8dba138db,"['crash', 'potential']",Risky_resource_management,{'crash': 100},
-86d6c6906de013dbe9a0cff0e24df17597c3a51f,"['crash', 'exists', 'feedid']",Risky_resource_management,{'crash': 100},
-ea2bf8d5d942f6c735a9ee66c374c31f773823b8,"['crash', 'guard', 'limit']",Risky_resource_management,{'crash': 100},
-57617cc551346b1aaf9749c7875dbec98e9abb18,"['check', 'content', 'crash']",Risky_resource_management,{'crash': 100},
-86d0496d4e7d9c4fcf9c248e1776efe2dcbd00da,"['improper', 'instance', 'swift', 'crash', 'memory']",Risky_resource_management,{'crash': 100},
-c4b01f88baffd93ed7e50e1f0d0b3f99586a43e3,"['crash', 'reference']",Risky_resource_management,{'crash': 100},
-bed5e9704fd24808661fa6ec1cebfe1d51bc30b7,"['image', 'issue', 'mobile', 'crash', 'request']",Risky_resource_management,{'crash': 100},
-85be85510f8009bed7de15683b8b73628020d70d,"['dcfcd', 'aadfbwordpress', 'setting', 'issue', 'mobile', 'crash', 'privacy', 'option', 'request', 'crash', 'privacy', 'option']",Risky_resource_management,{'crash': 100},
-cceb31e255cd6826bcb959bc05da290ce46020f5,"['mergeservice', 'wordpress', 'notification', 'issue', 'mobile', 'crash', 'request', 'fixingcrash']",Risky_resource_management,{'crash': 100},
-92790bce03d7d3c8d71716951c147e704caa7d85,"['check', 'issue', 'state', 'restorationdetail', 'controller', 'issue', 'state', 'property', 'buttonprevent', 'check', 'crash', 'possible', 'createbutton']",Risky_resource_management,{'crash': 100},
-404a89ec753478d67d6dbb49ac53fbf81c61f5f6,"['gutenberg', 'crash', 'jetpack', 'device', 'medium', 'crash', 'block']",Risky_resource_management,{'crash': 100},
-9c6919960afb7846e4c883e3be4930e04a5d7b53,"['viewmodel', 'issue', 'crash', 'reader', 'improvement']",Risky_resource_management,{'crash': 100},
-ec241b141079881fecf0b1422b751130694c21d6,"['mobile', 'requestrefactor', 'comment', 'crash']",Risky_resource_management,{'crash': 100},
-3b64f7247ffe88bb8052689fb99070e5ac856b1a,"['crash', 'check']",Risky_resource_management,{'crash': 100},
-766299b41d2ffcec1967ff4ae7b5d04b4800caf8,"['mobile', 'crash']",Risky_resource_management,{'crash': 100},
-d76bfb578428d58417a611c904c9e149258a7b82,"['afdac', 'aefcaadbranch', 'crash']",Risky_resource_management,{'crash': 100},
-b50c97afd15dc8699cd0343561a55309ef334586,"['crash', 'potential']",Risky_resource_management,{'crash': 100},
-3aaead1e7bbec5783404e91613ac05ffb40078ee,"['mergeblogurl', 'wordpress', 'mobile', 'crash', 'request', 'emptysearch', 'ensure']",Risky_resource_management,{'crash': 100},
-4d3f372bead9b951355cd694e812b0cc14277a67,"['crash', 'update']",Risky_resource_management,{'crash': 100},
-e8d5df6b2c457f00c76d2d3d356f1433d7829755,"['crash', 'block', 'patch', 'group', 'nestedpatchupdate']",Risky_resource_management,{'crash': 100},
-9106f026bd07eb49131810517da5765f5b869b25,"['crash', 'range']",Risky_resource_management,{'crash': 100},
-2841d031411b38e05ac7b7a384d967cd29ef073b,"['crash', 'widget']",Risky_resource_management,{'crash': 100},
-6d2c947c0d10eb3852e90a9def7005d5292e909b,"['array', 'range', 'index', 'image', 'crash']",Risky_resource_management,{'crash': 100},
-34990a75630def443b25d1586848af59a95c2230,"['eebba', 'mergewordpress', 'notification', 'issue', 'mobile', 'crash', 'requestcrash', 'certain', 'notification']",Risky_resource_management,{'crash': 100},
-56295d1e9d1fd0a1ca1ed07cb4031644f7fb9657,"['crash', 'postlistvc']",Risky_resource_management,{'crash': 100},
-af5b02decbc701c84aae728ef2987921e92f0d2d,"['interact', 'issue', 'mobile', 'crash', 'requestalways', 'false', 'crash', 'aztec']",Risky_resource_management,{'crash': 100},
-888a516cca3a5aacd322632561a7cecf4d9b33f0,"['crash', 'aztec']",Risky_resource_management,{'crash': 100},
-d719c9b772df887d9e7f032db423bee29d2dda2e,"['crash', 'ensure', 'local']",Risky_resource_management,{'crash': 100},
-7427d7d6f4b596e6af3b9c6aaf6820827e142b99,"['exception', 'issue', 'mobile', 'crash', 'requestproper', 'error', 'exception']",Risky_resource_management,{'crash': 100},
-800f4bd340c419a38807fc77f6d74faec8581759,"['issue', 'dealloc', 'content', 'mobile', 'crash', 'requestrichcontent', 'deinit', 'tweak']",Risky_resource_management,{'crash': 100},
-272ace3a57977922e584aba252c052c0f6f295ac,"['japense', 'crash', 'localereproduce', 'string', 'translationcurrent', 'japanese']",Risky_resource_management,{'crash': 100},
-ec19ffb393afd9ea0e5745e18e9715d78fa59039,"['japense', 'crash', 'localereproduce', 'string', 'translationcurrent', 'japanese']",Risky_resource_management,{'crash': 100},
-13002c70a9f98606d9a823cddb60b90998cc96c5,"['abdbcf', 'mergewordpress', 'issue', 'shortcut', 'mobile', 'crash', 'touch', 'requestphoto', 'shortcut', 'crash', 'touch', 'gutenberg']",Risky_resource_management,{'crash': 100},
-39d164adb143ccccfab7ede828fceffbd621033f,"['issue', 'shortcut', 'crash', 'touch']",Risky_resource_management,{'crash': 100},
-e9131e79c2c64db7c363fed543e0bd99b538440c,"['acede', 'mergewordpress', 'issue', 'zendesk', 'mobile', 'crash', 'requestissue', 'crash', 'presentation', 'zendesk']",Risky_resource_management,{'crash': 100},
-1d7412e6a5b4d2322325d3afc23f8944fd6a613e,"['bdbfb', 'adacaf', 'mergebranch', 'issue', 'shortcut', 'crash', 'touch']",Risky_resource_management,{'crash': 100},
-63aaa0f5eea0475db5e826277b8fef6749529f09,"['zendesk', 'crash', 'modal']",Risky_resource_management,{'crash': 100},
-f3dc5537d452a8537da96f5d3c2c5d807fba3b68,"['bedae', 'mergebackground', 'wordpress', 'issue', 'logout', 'mobile', 'crash', 'requestcrash', 'logout']",Risky_resource_management,{'crash': 100},
-0bb1fe2f42397b8c6cc25120b7f0cab1e87418b4,"['notification', 'issue', 'mobile', 'crash', 'requestrequest', 'crash', 'notification']",Risky_resource_management,{'crash': 100},
-8beda72e831e4c094c6d8430afd8ffc1dd2644e5,"['login', 'reload', 'logout', 'tablecontroller', 'crash', 'solves', 'table', 'section']",Risky_resource_management,{'crash': 100},
-7502a1f0d44461a74e70eb681b8d473bcfa24832,"['request', 'crash', 'notification']",Risky_resource_management,{'crash': 100},
-da851122565327b19ba2a854869ebda9069de336,"['detail', 'checker', 'notification', 'thread', 'crash', 'queue']",Risky_resource_management,{'crash': 100},
-4b7d938cbf6fe8343b1042261cc3ddd10909b13d,"['pinghubmanager', 'issue', 'mobile', 'crash', 'requestpinghubmanager', 'thread', 'state', 'ensure']",Risky_resource_management,{'crash': 100},
-be18aee779369bb00e630335851701380a2fb51d,"['issue', 'comment', 'mobile', 'crash', 'request', 'readerguard', 'layout', 'reader']",Risky_resource_management,{'crash': 100},
-6562ce0f69dedbd0e8348a3e4dcfbacfdee2c465,"['attribution', 'crash']",Risky_resource_management,{'crash': 100},
-538d1facdb576e8ee185abab8cfa5bab1264d4d9,"['acaaedetail', 'wordpress', 'notification', 'issue', 'mobile', 'crash', 'requestcrash', 'restoration', 'state']",Risky_resource_management,{'crash': 100},
-de630be8e83e6763515bfbf01c109a507e56eb1b,"['login', 'crash', 'password']",Risky_resource_management,{'crash': 100},
-6a1f3d7596386a178fe80f18a030f21eb80fec7f,"['precondition', 'crash']",Risky_resource_management,{'crash': 100},
-3b2691b8eef846b6675f39f7c2432056760058c5,"['crash', 'popover', 'property']",Risky_resource_management,{'crash': 100},
-8e3e7b9fa81710f77f47252f672b47413ab65a98,"['crash', 'force', 'updateconflictclass', 'wordpress', 'system']",Risky_resource_management,{'crash': 100},
-0f8c6c5bbdfbba91d5c5462624c3f6f70134956d,"['crash', 'classspecific', 'product', 'thingconflictutility', 'class', 'wordpresswordpress']",Risky_resource_management,{'crash': 100},
-d60bf37e12da425566cf367ce5b56f6402e20d87,"['crash', 'classspecific', 'product', 'thing']",Risky_resource_management,{'crash': 100},
-09bad362d76e1a0e3d2127630e3c24cbe1f42716,"['crash', 'force']",Risky_resource_management,{'crash': 100},
-d5420e530a147fa1a98358d2016c33aca76e491b,"['basic', 'multiple', 'bundle', 'image', 'supportimage', 'issue', 'crash']",Risky_resource_management,{'crash': 100},
-94629ceeb53bc5dbad6d61ce5141bf9223c33b04,"['mobile', 'request', 'loggigng', 'crash', 'verbose']",Risky_resource_management,{'crash': 100},
-d84703a33fe1178efbe0dcbcb4c1dec246b5dc29,"['crash', 'verbose']",Risky_resource_management,{'crash': 100},
-94807f58ac9562da9dc60933fb10559bb387cd2b,"['crash', 'plugins', 'defensive', 'check']",Risky_resource_management,{'crash': 100},
-ea2e2fd6a04489c0a4d20f0b2e64779df446758c,"['mobile', 'wordpress', 'mergepress', 'crash', 'stamp']",Risky_resource_management,{'crash': 100},
-c2a9dfe6ccb36b4fab7480b46dcadff44b205dc3,"['press', 'crash', 'stamp', 'fixedcrash', 'setting', 'source']",Risky_resource_management,{'crash': 100},
-286d67caddc7a7b3a3fc589f14cc443d253724b5,"['crash', 'attempt', 'timer', 'firedate']",Risky_resource_management,{'crash': 100},
-8cf0eeced4cec301ec9fb6c3716a2350d0e6f5c8,"['crash', 'authtoken']",Risky_resource_management,{'crash': 100},
-1053f364b88e2a34619e748f34d16e5928d80be2,"['crash', 'authtoken']",Risky_resource_management,{'crash': 100},
-f1b3d953c465ec410860bdc0d472285bfd1eaa4c,"['issue', 'crash']",Risky_resource_management,{'crash': 100},
-8d788a8058af3a4b29b5484ad2db16371e49855d,"['instance', 'crash', 'stats', 'store']",Risky_resource_management,{'crash': 100},
-998061462f9570ed5a917d6271c87963bd2b5148,"['ecaac', 'mergewordpress', 'issue', 'comment', 'mobile', 'crash', 'request', 'readerreader', 'beginupdates']",Risky_resource_management,{'crash': 100},
-503ec5a9aca19d3aa4e7d5fd24abfb3f0e001747,"['issue', 'comment', 'release', 'crash', 'reader']",Risky_resource_management,{'crash': 100},
-067d1b4cd8692076e70bdb67c41d2a5c8eafc42b,"['issue', 'comment', 'release', 'crash', 'reader']",Risky_resource_management,{'crash': 100},
-143a35312b333c0ea6f3c5c9331aaecd1e8bbdf0,"['cabca', 'mergewordpress', 'mobile', 'crash', 'requestcrash', 'locale', 'update']",Risky_resource_management,{'crash': 100},
-9793f30c935220c12192f87cc503f87098725c3e,"['crash', 'locale', 'update']",Risky_resource_management,{'crash': 100},
-5d4cdd2720b2b34dc2869cb4f5b89ae638d3e060,"['mobile', 'crash', 'requestfollow', 'header', 'crash', 'reader', 'stream']",Risky_resource_management,{'crash': 100},
-768b5d7e84355c8bace0249f90b737a3517dab98,"['header', 'crash', 'reader', 'stream']",Risky_resource_management,{'crash': 100},
-923ade79bb5c7cb9a5e013467803bac091c3e5d4,"['animate', 'crash', 'disclosure']",Risky_resource_management,{'crash': 100},
-e03cf28686f8045887b1fc2ac25de98da1586f00,"['eeddc', 'mergevideo', 'wordpress', 'mobile', 'crash', 'requestvideo', 'image', 'crash', 'reader']",Risky_resource_management,{'crash': 100},
-451660cc3b373dfb99e5e67d469ec6f3af1dbfa4,"['animator', 'crash']",Risky_resource_management,{'crash': 100},
-e8ed4d365ce11293b2852d69537f36f8d496a102,"['video', 'image', 'crash', 'reader']",Risky_resource_management,{'crash': 100},
-907c88ee3506fae7080e1c839df9199807d2a408,"['fabric', 'updatewould', 'issue', 'event', 'crash', 'value', 'infinity', 'firebase', 'analyticschangelog', 'fabric', 'apple']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+9456010d0749977a77b93828535e99716b74788d,"['release', 'beta', 'conflict', 'wordpress', 'class', 'model', 'comment', 'swift', 'wordpress', 'class', 'service', 'http', 'github', 'wordpress', 'mobile', 'wordpress', 'pull', 'crash', 'quick', 'scoutharris', 'aerych', 'proper', 'address', 'comment', 'quick', 'http', 'github', 'wordpress', 'mobile', 'wordpress', 'pull', 'http', 'github', 'wordpress', 'mobile', 'wordpress', 'pull', 'http', 'github', 'wordpress', 'mobile', 'wordpress', 'pull']",General,{'crash': 100}
+e1af106da118e5681608eed4e55eebda85166265,"['pull', 'request', 'wordpress', 'mobile', 'comment', 'crash']",General,{'crash': 100}
+cde9449f9494731ae19e426af0e9fde6e716e4a9,"['pull', 'request', 'wordpress', 'mobile', 'issue', 'swift', 'version', 'crash', 'crash', 'value', 'blog', 'version', 'string']",General,{'crash': 100}
+8c134eb168b955b70e4ea6c40221edebe1a4a95b,"['access', 'control', 'type', 'prep', 'extraction']",Porous_defenses,{'access control': 100}
+1419cef08c1b071820116a272a31f6f95fb5e1f4,"['pull', 'request', 'wordpress', 'mobile', 'crash', 'comment', 'moderation']",General,{'crash': 100}
+ab12b1b4845dea47a556587912f9b760855456ce,"['crash', 'invalid']",General,{'crash': 100}
+da6598811e7142901c412ca1242885a762226562,"['pull', 'request', 'wordpress', 'mobile', 'indexpath', 'overflow', 'error', 'guard', 'integer', 'overflow', 'error']",Risky_resource_management,{'integer overflow': 100}
+be80868d5d7ad6029a04d27bfaf3318279c342cc,"['guard', 'integer', 'overflow', 'error', 'nsindexpath', 'integer', 'overflow', 'error', 'calculation']",Risky_resource_management,{'integer overflow': 100}
+58160173f04ee5343b33c0f35cf10803b47f9703,"['pull', 'request', 'wordpress', 'mobile', 'comment', 'detail', 'crash']",General,{'crash': 100}
+1f9e9d6407a4dda5f0ca01a9111784effadfdc29,"['pull', 'request', 'wordpress', 'mobile', 'task', 'user', 'crash']",General,{'crash': 100}
+0a93b3c6ca1a1addf022891dde3c02a40b3fcafa,"['pull', 'request', 'wordpress', 'mobile', 'site', 'deletion', 'crash', 'crash', 'widget', 'blog']",General,{'crash': 100}
+a88f968d4623d0802c99e1a3063ab2029b7127ac,"['podfile', 'comment', 'link', 'security', 'consideration', 'thanks', 'mokagio', 'suggestion']",General,{'security': 100}
+93c786f041a61afc8bb658e161509dabb812c3a6,"['crash', 'visit', 'site', 'quick', 'start', 'tour']",General,{'crash': 100}
+2a75bb1f3c59dcee89036505dd15e32042ae0d13,"['pull', 'request', 'wordpress', 'mobile', 'crash', 'blog', 'lookup', 'blog', 'lookup', 'objective']",General,{'crash': 100}
+470c916ff2b09a6938396d0d2a73354fd0bafb58,"['crash', 'note', 'block', 'comment', 'cell', 'note', 'block', 'comment', 'cell', 'subclass', 'note', 'block', 'text', 'cell', 'horizontal', 'constraint', 'crash', 'cell', 'attempt', 'access', 'constraint']",General,{'crash': 100}
+6ad30737efa631981564de12e87a832581b7cc8a,"['pull', 'request', 'wordpress', 'mobile', 'bugfix', 'suggestion', 'offline', 'crash', 'crash', 'notification', 'device', 'offline']",General,{'crash': 100}
+288857ca7f3c8840a6910456b3d949cbe41d13ac,"['bugfix', 'suggestion', 'offline', 'crash']",General,{'crash': 100}
+dd2a2e561cae7db3c357af4f94e2a0ab67157959,"['bugfix', 'suggestion', 'offline', 'crash']",General,{'crash': 100}
+19c1104b2ec4b29be1d28a2fae512c2245c3a552,"['pull', 'request', 'wordpress', 'mobile', 'abtest', 'crash']",General,{'crash': 100}
+e76166a9be8d25cbeb7dd562d1cfedcf62e93e2d,"['suggestion', 'crash', 'offline', 'device', 'device', 'offline', 'suggestion', 'code', 'cross', 'post', 'result', 'result', 'code', 'suggestion', 'code', 'logic', 'suggestion', 'data', 'source', 'property', 'infinite', 'loop', 'suggestion', 'list', 'undo', 'architectural', 'decision', 'suggestion', 'suggestion', 'data', 'source', 'suggestion', 'view', 'trigger', 'fetch', 'suggestion', 'method', 'similar', 'viewdidload', 'time', 'suggestion']",General,{'crash': 100}
+cb5a8ff571341b40e0cee01c1f00e46b110171f7,['crash'],General,{'crash': 100}
+8da16877f1ecaf069815c64c71f121cb881a2fec,"['update', 'bundler', 'security', 'single', 'source']",General,{'security': 100}
+73ea60dd5e9d97c5def7acc453f1020e70ba24a2,"['pull', 'request', 'wordpress', 'mobile', 'bundler', 'failure', 'release', 'bundler', 'failure', 'bundler', 'security']",General,{'security': 100}
+8b0e03022a69bbf82975b413698d3cac3c9946b1,"['pull', 'request', 'wordpress', 'mobile', 'bundler', 'failure', 'bundler', 'failure', 'bundler', 'security']",General,{'security': 100}
+c268b3f0f3503f6cab33ae88531e545690105bd2,"['update', 'bundler', 'security', 'single', 'source']",General,{'security': 100}
+74877a536d215814ea8653ac5cec780913893d95,"['update', 'bundler', 'security', 'single', 'source']",General,{'security': 100}
+4b77149c04e7ab2193b42eea86497947ba8dfde0,"['crash', 'ipad', 'backup', 'restore', 'action', 'sheet']",General,{'crash': 100}
+f172b83e724a13e30c06de963d01704171581b64,"['pull', 'request', 'wordpress', 'mobile', 'comment', 'current', 'storage', 'crash']",General,{'crash': 100}
+6e4a8a2336d54bbe909a73c551dc398a8ce5c727,"['crash', 'remote', 'service', 'property']",General,{'crash': 100}
+b52a7cd3653438bf1dbd7f5cdd17664fbb3a94c0,"['potential', 'crash']",General,{'crash': 100}
+96504de47705c11d7977d36137fefb344fd6a777,"['pull', 'request', 'wordpress', 'mobile', 'issue', 'crash']",General,{'crash': 100}
+f5a93ece7d5eef3ea372b1e4ab5d8e8fd61eff5d,"['pull', 'request', 'wordpress', 'mobile', 'issue', 'crash', 'negative']",General,{'crash': 100}
+586d082fae30375f9da76a8d8c85a873b66bec6f,['crash'],General,{'crash': 100}
+82706012d5cb0b68732213410bc41a3034087aed,"['weird', 'situation', 'sense', 'crash', 'error', 'strange', 'suggestion', 'table', 'part', 'core', 'flow']",General,{'crash': 100}
+52b3d6e3aa7cf1d4998c219c127a1db6e38a6371,"['security', 'manage', 'connection', 'jetpack', 'setting', 'screen']",General,{'security': 100}
+c51b5301fe6572ce4d7bbdfad382786b23e937b8,"['jetpack', 'section', 'stats', 'activity', 'jetpack', 'setting', 'security', 'setting', 'manage', 'connection']",General,{'security': 100}
+0312d616c3851fc49af5e2a9f07a254f1406288d,"['pull', 'request', 'wordpress', 'mobile', 'crash', 'uibarbuttonitem', 'uiview']",General,{'crash': 100}
+7c2aab699237bb63836a294eb8f6d8735e0087b7,"['crash', 'uibarbuttonitem', 'sourceview', 'uibarbuttonitem', 'subclass', 'uiview', 'presentation', 'controller', 'source', 'view', 'image', 'initialization', 'button']",General,{'crash': 100}
+7440dffd667ac02af82657ad17dd1b615841854d,"['crash', 'character', 'email', 'field']",General,{'crash': 100}
+23a29cd3b9d18b52af75774a9d7f9c9463fe6bbe,"['pull', 'request', 'wordpress', 'mobile', 'issue', 'crash', 'bulgarian', 'keyboard', 'workaround', 'bulgarian', 'keyboard']",General,{'crash': 100}
+39eb3a2156f4f1063a1677eee3a6aa8875989414,"['crash', 'button', 'site', 'detail']",General,{'crash': 100}
+38f0f02789e109c658984a61c1e9b211c56bbdc1,"['update', 'priority', 'matrix', 'crash', 'prioritization', 'guideline', 'update', 'priority', 'matrix', 'guideline']",General,{'crash': 100}
+e895a4419eb84f4e76ac7f2e2cfa161b84452e93,"['pull', 'request', 'wordpress', 'mobile', 'issue', 'reader', 'detail', 'memory', 'leak', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+eb508dde15ddb8a1c2750e4d803d4e13e4a61959,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+a2e9db35fe50cca4bbfebb176f75d4a20b309ec6,"['default', 'timestamp', 'custom', 'sentry', 'event', 'potential', 'crash', 'event', 'object']",General,{'crash': 100}
+201ac8713916c8617ecb81f7bd75b801eb482561,"['pull', 'request', 'wordpress', 'mobile', 'issue', 'crash', 'temporary', 'code']",General,{'crash': 100}
+8e218f9673b931d29c7d45a3d2938ecbc2844ecf,"['pull', 'request', 'wordpress', 'mobile', 'asset', 'crash', 'medium', 'picker', 'crash', 'access']",General,{'crash': 100}
+0707d5dca168f369901360f0b704dd1809a0b8f1,"['pull', 'request', 'wordpress', 'mobile', 'issue', 'imageview', 'crash', 'crash']",General,{'crash': 100}
+b3bfb13523c598657e56d5b8ea001483a3befa28,"['pull', 'request', 'wordpress', 'mobile', 'gutenberg', 'unsupported', 'block', 'editor', 'switch', 'enable', 'jetpack', 'gutenberg', 'jetpack', 'security', 'setting']",General,{'security': 100}
+9809efeee8872d94f3aef46bfb39844d6a78395b,"['pull', 'request', 'wordpress', 'mobile', 'issue', 'crash', 'ipados']",General,{'crash': 100}
+31d5e18fc62aff994cef08ed561762d46c933896,"['crash', 'ipados']",General,{'crash': 100}
+10b56f0f31e6e628d6f06d640309576ca450bd41,"['update', 'wordpresskit', 'beta', 'crash', 'weak', 'self', 'reference']",General,{'crash': 100}
+c165f47de3a012be28fd02a46a5e3ee93a3f08a8,"['access', 'control']",Porous_defenses,{'access control': 100}
+67039f10649b7faf807931b8277cd24faa85cf53,"['gutenberg', 'jetpack', 'security', 'setting', 'enable', 'able', 'edit', 'unsupported', 'block', 'view']",General,{'security': 100}
+367dc551c80bc6ac310a446c8d7c02a60780c964,"['crash', 'filter', 'suggestion']",General,{'crash': 100}
+c280d3a910a02f44bd09338a05bcb489a045ad8d,"['potential', 'crash']",General,{'crash': 100}
+41243a207b80e01d94cb5952a207c610bc3412de,"['pull', 'request', 'wordpress', 'mobile', 'issue', 'medium', 'editor', 'crash', 'issue', 'medium', 'editing', 'drawing', 'crash']",General,{'crash': 100}
+1c69a04bac5c6e864ea7162173f6a5c2e59272b2,"['pull', 'request', 'wordpress', 'mobile', 'gutenberg', 'crash', 'crash', 'open', 'unsupported', 'block', 'editor']",General,{'crash': 100}
+f372d4b851aa6cc0a73e0606103262fcc763ebcd,"['potential', 'crash']",General,{'crash': 100}
+972cabca1d34283a83dff2dc35a5218c6cb10b82,"['crash', 'uikit', 'init', 'nibname', 'bundle']",General,{'crash': 100}
+5197cb2f9668ba78a3f8bd5232b2b4b20df87b69,"['pull', 'request', 'wordpress', 'mobile', 'issue', 'crash', 'password', 'challenge', 'bugfix']",General,{'crash': 100}
+b996d5f0042cf8a31bee1485b7cfba985cd9d241,"['release', 'issue', 'crash']",General,{'crash': 100}
+a457401a246b1c527a74d188510659aaa0bf8c1b,"['pull', 'request', 'wordpress', 'mobile', 'issue', 'phase', 'crash', 'reader', 'improvement', 'phase', 'potential', 'crash']",General,{'crash': 100}
+9448ff6fa21e2cc1a5061824811adcc8dba138db,"['potential', 'crash']",General,{'crash': 100}
+5adc61fa744f7b43f2bd0cab90a1847ed2d79e96,"['pull', 'request', 'wordpress', 'mobile', 'issue', 'crash']",General,{'crash': 100}
+b61b716152ee94b19a8dbcb8ae42c132ba8391e6,"['pull', 'request', 'wordpress', 'mobile', 'invalid', 'urlsession', 'invalid', 'session', 'crash']",General,{'crash': 100}
+57608f1d295fc981e45b8491dd1f2047be8f685d,"['update', 'cocoalumberjack', 'couple', 'crash', 'swift', 'support']",General,{'crash': 100}
+86d0496d4e7d9c4fcf9c248e1776efe2dcbd00da,"['update', 'release', 'note', 'memory', 'crash', 'improper', 'self', 'usage', 'multiple', 'instance', 'swift', 'crop', 'view', 'controller']",General,{'crash': 100}
+c4b01f88baffd93ed7e50e1f0d0b3f99586a43e3,"['update', 'reference', 'crash']",General,{'crash': 100}
+bed5e9704fd24808661fa6ec1cebfe1d51bc30b7,"['pull', 'request', 'wordpress', 'mobile', 'issue', 'crash']",General,{'crash': 100}
+cceb31e255cd6826bcb959bc05da290ce46020f5,"['pull', 'request', 'wordpress', 'mobile', 'issue', 'notification', 'service', 'crash', 'crash']",General,{'crash': 100}
+76e06053a46f84849f4c9541694aa4f1ddb5e85d,"['json', 'crash']",General,{'crash': 100}
+988f833cb29ddc5f8aa89d35011b57206b5e75fc,"['case', 'startup', 'crash', 'core', 'data', 'iniatialization', 'crash']",General,{'crash': 100}
+92790bce03d7d3c8d71716951c147e704caa7d85,"['state', 'restoration', 'issue', 'flag', 'check', 'issue', 'state', 'restoration', 'blog', 'detail', 'view', 'controller', 'restoration', 'property', 'check', 'createbutton', 'possible', 'crash']",General,{'crash': 100}
+d2c5137ddfdba6b7ae96617926fc68d2f8b88efa,"['reload', 'data', 'section', 'page', 'image', 'position', 'code', 'crash']",General,{'crash': 100}
+404a89ec753478d67d6dbb49ac53fbf81c61f5f6,"['gutenberg', 'crash', 'document', 'controller', 'crash', 'medium', 'device', 'block', 'jetpack', 'gallery']",General,{'crash': 100}
+1d59cabf43f3831d8ae1972420ee514dbec938b4,"['access', 'control', 'level', 'filter', 'sheet', 'view']",Porous_defenses,{'access control': 100}
+3c6ee1446b58bc270c8ba5164a1d6f7522c451fa,"['pull', 'request', 'wordpress', 'mobile', 'issue', 'crash']",General,{'crash': 100}
+ec241b141079881fecf0b1422b751130694c21d6,"['pull', 'request', 'wordpress', 'mobile', 'issue', 'refactor', 'comment', 'crash']",General,{'crash': 100}
+c1075b535c1cee8104297ffc9aa836c521a18a96,"['pull', 'request', 'wordpress', 'mobile', 'issue', 'crash']",General,{'crash': 100}
+f66e6b4acf9d0193b1e8fb457233ba8496aca813,"['pull', 'request', 'wordpress', 'mobile', 'issue', 'crash', 'bottom', 'sheet']",General,{'crash': 100}
+766299b41d2ffcec1967ff4ae7b5d04b4800caf8,"['pull', 'request', 'wordpress', 'mobile', 'crash', 'unwrap', 'post', 'list']",General,{'crash': 100}
+d76bfb578428d58417a611c904c9e149258a7b82,['crash'],General,{'crash': 100}
+b50c97afd15dc8699cd0343561a55309ef334586,"['unwrap', 'postlist', 'potential', 'crash', 'view']",General,{'crash': 100}
+3aaead1e7bbec5783404e91613ac05ffb40078ee,"['pull', 'request', 'wordpress', 'mobile', 'crash', 'empty', 'blogurl', 'ensure', 'null', 'blog', 'search']",General,{'crash': 100}
+5616436d396ceb018c4b62b1b4146b0581fd7a53,"['pull', 'request', 'wordpress', 'mobile', 'issue', 'crash', 'post', 'list', 'action', 'sheet']",General,{'crash': 100}
+4d3f372bead9b951355cd694e812b0cc14277a67,"['direct', 'call', 'unit', 'test', 'crash']",General,{'crash': 100}
+ea53b1e1ad4b897a65ff0005f5c21e06e52709dd,"['queue', 'list', 'check', 'list', 'prevents', 'crash']",General,{'crash': 100}
+f21257bcfd81470f51cf656da084a61b20a37524,"['pull', 'request', 'wordpress', 'mobile', 'issue', 'crash', 'logout']",General,{'crash': 100}
+9106f026bd07eb49131810517da5765f5b869b25,"['notification', 'style', 'crash', 'invalid', 'range']",General,{'crash': 100}
+2841d031411b38e05ac7b7a384d967cd29ef073b,"['weak', 'self', 'widget', 'crash']",General,{'crash': 100}
+04caf72c2e91d41ecd32483068033d3e2c2df86b,"['update', 'wordpresskit', 'beta', 'update', 'version', 'datarequest', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+55bd5656af53c5ccd43373eb979e883adf8b35e9,"['pull', 'request', 'wordpress', 'memory', 'leak', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+1cef845950b5fbeec768e9aaa09e802de0cc99be,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+34990a75630def443b25d1586848af59a95c2230,"['pull', 'request', 'wordpress', 'mobile', 'issue', 'crash', 'notification', 'crash', 'certain', 'notification']",General,{'crash': 100}
+726379543f13492d52841532846a60ed2e5a1931,"['pull', 'request', 'wordpress', 'mobile', 'issue', 'notification', 'crash', 'certain', 'notification', 'inactive']",General,{'crash': 100}
+b13700c270fa838607acec81840e09222ac87ba1,"['crash', 'certain', 'notification']",General,{'crash': 100}
+f0e515fc97927cb519f62c516eb983b901c45c0c,"['crash', 'certain', 'notification']",General,{'crash': 100}
+d2120ff2cb89831480bd6a65fead03401329e015,"['check', 'user', 'startup', 'crash']",General,{'crash': 100}
+19ed6f96fb9bde1b936dd21d885c44b489d4b8cf,"['crash', 'gesture', 'view', 'present', 'document', 'menu', 'location', 'gesture', 'hound', 'woof', 'update', 'update', 'release', 'note']",General,{'crash': 100}
+70e2da781cadb85a8494730d47a8cffc4a3ca276,"['access', 'control']",Porous_defenses,{'access control': 100}
+b544742fa723ee73ad2a4348bb8f26c661d2197d,"['pull', 'request', 'wordpress', 'mobile', 'issue', 'crash', 'post', 'list', 'ghost']",General,{'crash': 100}
+92f24179f657f47c921966ccd3194f0ec282e897,"['pull', 'request', 'wordpress', 'mobile', 'issue', 'medium', 'crash']",General,{'crash': 100}
+56295d1e9d1fd0a1ca1ed07cb4031644f7fb9657,['crash'],General,{'crash': 100}
+af5b02decbc701c84aae728ef2987921e92f0d2d,"['pull', 'request', 'wordpress', 'mobile', 'issue', 'interact', 'crash', 'aztec', 'return']",General,{'crash': 100}
+d719c9b772df887d9e7f032db423bee29d2dda2e,"['pull', 'request', 'wordpress', 'mobile', 'issue', 'post', 'setting', 'crash', 'ensure', 'local', 'image', 'path']",General,{'crash': 100}
+7427d7d6f4b596e6af3b9c6aaf6820827e142b99,"['pull', 'request', 'wordpress', 'mobile', 'issue', 'exception', 'crash', 'core', 'data', 'proper', 'exception']",General,{'crash': 100}
+9b19ac03296d8deecb5722028da960fd04f3cb7d,"['pull', 'request', 'wordpress', 'mobile', 'unexpected', 'state', 'dark', 'mode', 'crash', 'unexpected', 'state']",General,{'crash': 100}
+800f4bd340c419a38807fc77f6d74faec8581759,"['pull', 'request', 'wordpress', 'mobile', 'issue', 'rich', 'content', 'dealloc', 'crash', 'richcontent', 'tweak', 'deinit', 'logic']",General,{'crash': 100}
+6b1bf22b8779d061c563c936e9e5ee42ad5a29a8,"['crash', 'reusable']",General,{'crash': 100}
+272ace3a57977922e584aba252c052c0f6f295ac,"['crash', 'japense', 'locale', 'able', 'reproduce', 'site', 'name', 'moon', 'translation', 'string', 'current', 'japanese', 'translation']",General,{'crash': 100}
+ec19ffb393afd9ea0e5745e18e9715d78fa59039,"['crash', 'japense', 'locale', 'able', 'reproduce', 'site', 'name', 'moon', 'translation', 'string', 'current', 'japanese', 'translation']",General,{'crash': 100}
+13002c70a9f98606d9a823cddb60b90998cc96c5,"['pull', 'request', 'wordpress', 'mobile', 'issue', 'touch', 'shortcut', 'crash', 'gutenberg', 'crash', 'photo', 'post', 'gutenberg', 'touch', 'shortcut']",General,{'crash': 100}
+39d164adb143ccccfab7ede828fceffbd621033f,"['issue', 'touch', 'shortcut', 'crash']",General,{'crash': 100}
+e9131e79c2c64db7c363fed543e0bd99b538440c,"['pull', 'request', 'wordpress', 'mobile', 'issue', 'zendesk', 'crash', 'issue', 'zendesk', 'presentation', 'crash']",General,{'crash': 100}
+ac257f5f0f19590a7e39b6434c8d1c7bb7eff909,"['remote', 'auto', 'remote', 'auto', 'editor', 'crash', 'user', 'confirmation', 'post', 'list']",General,{'crash': 100}
+76a1c5e0de5f37b4f1f891881accf8f3636dcbaf,"['issue', 'zendesk', 'crash']",General,{'crash': 100}
+1d7412e6a5b4d2322325d3afc23f8944fd6a613e,"['issue', 'touch', 'shortcut', 'crash']",General,{'crash': 100}
+f3dc5537d452a8537da96f5d3c2c5d807fba3b68,"['pull', 'request', 'wordpress', 'mobile', 'issue', 'crash', 'background', 'logout', 'crash', 'logout']",General,{'crash': 100}
+0bb1fe2f42397b8c6cc25120b7f0cab1e87418b4,"['pull', 'request', 'wordpress', 'mobile', 'issue', 'crash', 'notification', 'notification', 'request', 'crash']",General,{'crash': 100}
+8beda72e831e4c094c6d8430afd8ffc1dd2644e5,"['reload', 'table', 'logout', 'login', 'solves', 'crash', 'controller', 'table', 'section', 'logout']",General,{'crash': 100}
+7502a1f0d44461a74e70eb681b8d473bcfa24832,"['notification', 'request', 'crash']",General,{'crash': 100}
+4d7a814b1f3358caea95683e3c145b9c57c21c7f,['crash'],General,{'crash': 100}
+da851122565327b19ba2a854869ebda9069de336,"['blog', 'detail', 'alert', 'main', 'queue', 'main', 'thread', 'checker', 'crash']",General,{'crash': 100}
+4b7d938cbf6fe8343b1042261cc3ddd10909b13d,"['pull', 'request', 'wordpress', 'mobile', 'issue', 'pinghubmanager', 'crash', 'ensure', 'pinghubmanager', 'state', 'main', 'thread']",General,{'crash': 100}
+bb4a10e7d6e89a7611cda097b31d8a807561fe6b,"['pull', 'request', 'wordpress', 'mobile', 'hotfix', 'rotation', 'refresh', 'stats', 'crash', 'rotation']",General,{'crash': 100}
+872e636a47e40d110d60e91967f67a1744620214,"['pull', 'request', 'wordpress', 'mobile', 'hotfix', 'range', 'exception', 'crash']",General,{'crash': 100}
+be18aee779369bb00e630335851701380a2fb51d,"['pull', 'request', 'wordpress', 'mobile', 'issue', 'reader', 'comment', 'crash', 'reader', 'guard', 'layout', 'attachment']",General,{'crash': 100}
+6562ce0f69dedbd0e8348a3e4dcfbacfdee2c465,"['user', 'attribution', 'crash']",General,{'crash': 100}
+538d1facdb576e8ee185abab8cfa5bab1264d4d9,"['pull', 'request', 'wordpress', 'mobile', 'issue', 'notification', 'detail', 'crash', 'crash', 'state', 'restoration']",General,{'crash': 100}
+de630be8e83e6763515bfbf01c109a507e56eb1b,"['crash', 'login', 'password']",General,{'crash': 100}
+3b2691b8eef846b6675f39f7c2432056760058c5,"['popover', 'property', 'crash', 'ipad']",General,{'crash': 100}
+8e3e7b9fa81710f77f47252f672b47413ab65a98,"['update', 'force', 'crash', 'conflict', 'wordpress', 'class', 'system', 'openurl']",General,{'crash': 100}
+09bad362d76e1a0e3d2127630e3c24cbe1f42716,"['update', 'force', 'crash']",General,{'crash': 100}
+d5420e530a147fa1a98358d2016c33aca76e491b,"['basic', 'support', 'multiple', 'image', 'text', 'bundle', 'main', 'issue', 'multiple', 'heic', 'image', 'crash']",General,{'crash': 100}
+94629ceeb53bc5dbad6d61ce5141bf9223c33b04,"['pull', 'request', 'wordpress', 'mobile', 'verbose', 'loggigng', 'crasher', 'core', 'data', 'crash']",General,{'crash': 100}
+d84703a33fe1178efbe0dcbcb4c1dec246b5dc29,"['core', 'data', 'crash']",General,{'crash': 100}
+ceaca75ac9717f9e3a6723e46ee3355a615ecd09,"['pull', 'request', 'wordpress', 'mobile', 'crasher', 'plugins', 'defensive', 'check', 'crash', 'plugins']",General,{'crash': 100}
+94807f58ac9562da9dc60933fb10559bb387cd2b,"['defensive', 'check', 'crash', 'plugins']",General,{'crash': 100}
+6f9ea37d7c74af608ed78016595f5c296865ebd8,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+951bfb0728380a6096738cfc641a4dbefdb98eea,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+c73374d7a769a2d466e8332c0298f6c9f2389f17,"['pull', 'request', 'wordpress', 'mobile', 'attempt', 'crash', 'debouncer', 'callback']",General,{'crash': 100}
+c2a9dfe6ccb36b4fab7480b46dcadff44b205dc3,"['long', 'press', 'time', 'stamp', 'ipad', 'setting', 'source', 'view', 'crash']",General,{'crash': 100}
+286d67caddc7a7b3a3fc589f14cc443d253724b5,"['attempt', 'crash', 'debouncer', 'callback', 'time', 'able', 'reproduce', 'issue', 'valid', 'timer', 'digit', 'result', 'callback', 'weak', 'reference']",General,{'crash': 100}
+8cf0eeced4cec301ec9fb6c3716a2350d0e6f5c8,"['crash', 'authtoken']",General,{'crash': 100}
+1053f364b88e2a34619e748f34d16e5928d80be2,"['crash', 'authtoken']",General,{'crash': 100}
+f1b3d953c465ec410860bdc0d472285bfd1eaa4c,"['pull', 'request', 'wordpress', 'mobile', 'issue', 'issue', 'crash']",General,{'crash': 100}
+bba5c6caee5230dbcf65f5cf58c1fb57e60c603d,"['pull', 'request', 'wordpress', 'mobile', 'issue', 'issue', 'security']",General,{'security': 100}
+8d788a8058af3a4b29b5484ad2db16371e49855d,"['reset', 'instance', 'stats', 'insight', 'store', 'crash', 'instance']",General,{'crash': 100}
+998061462f9570ed5a917d6271c87963bd2b5148,"['pull', 'request', 'wordpress', 'mobile', 'issue', 'reader', 'comment', 'crash', 'reader', 'beginupdates', 'endupdates']",General,{'crash': 100}
+503ec5a9aca19d3aa4e7d5fd24abfb3f0e001747,"['release', 'issue', 'reader', 'comment', 'crash']",General,{'crash': 100}
+067d1b4cd8692076e70bdb67c41d2a5c8eafc42b,"['release', 'issue', 'reader', 'comment', 'crash']",General,{'crash': 100}
+143a35312b333c0ea6f3c5c9331aaecd1e8bbdf0,"['pull', 'request', 'wordpress', 'mobile', 'crash', 'locale', 'update', 'locale', 'crash']",General,{'crash': 100}
+9793f30c935220c12192f87cc503f87098725c3e,"['update', 'locale', 'crash']",General,{'crash': 100}
+3ceab5b12954f0241851f8525210655eb8ff72e0,"['sure', 'editor', 'debouncer', 'crash']",General,{'crash': 100}
+5d4cdd2720b2b34dc2869cb4f5b89ae638d3e060,"['pull', 'request', 'wordpress', 'mobile', 'crash', 'fabric', 'crash', 'reader', 'site', 'stream', 'header']",General,{'crash': 100}
+768b5d7e84355c8bace0249f90b737a3517dab98,"['crash', 'reader', 'site', 'stream', 'header']",General,{'crash': 100}
+e03cf28686f8045887b1fc2ac25de98da1586f00,"['pull', 'request', 'wordpress', 'mobile', 'video', 'crash', 'reader', 'crash', 'image', 'video']",General,{'crash': 100}
+e8ed4d365ce11293b2852d69537f36f8d496a102,"['reader', 'crash', 'image', 'video']",General,{'crash': 100}

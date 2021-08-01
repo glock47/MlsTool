@@ -1,10 +1,21 @@
-sha,message,catetory,matched,labels
-208f650145a3ade85f75a17a5d361f15620a9a60,"['crash', 'encoder']",Risky_resource_management,{'crash': 100},
-253a5bc9de1ad4fe413bf96adf23f3fbbeeb2541,"['crash', 'stream']",Risky_resource_management,{'crash': 100},
-83388bcbeda27259a513688fb68a2e0827ef4b08,"['undefined', 'header', 'crash', 'slice']",Risky_resource_management,{'crash': 100},
-c5f5efdb6e7ac6e92b3910d75af0aa50162d76e9,"['assumes', 'crash']",Risky_resource_management,{'crash': 100},
-5a89c79d7268c52470fa69f6bd0b806c88afa854,"['integer', 'overflow']",Risky_resource_management,{'integer overflow': 100},
-5129e7f0943b05bb54a2ffca675ded9225dc837a,"['additional', 'crash', 'encoder', 'decoder']",Risky_resource_management,{'crash': 100},
-6d4db453a8f75606300455c93a8658ad0958b9c4,"['crash', 'picture', 'reference']",Risky_resource_management,{'crash': 100},
-2d6d5110541ab66c5d5971f525b8d0e33caaac38,"['encoder', 'input', 'crash']",Risky_resource_management,{'crash': 100},
-8920d14aad77bf4bf7efaaa45f42033048237ae2,"['iteration', 'overrun', 'optimization', 'block', 'memory']",Risky_resource_management,{'overrun': 100},
+sha,message,catetory,matched
+7db4e813947c479fe54453904d992071a7f58b2a,"['stack', 'buffer', 'overflow', 'large', 'depth', 'credit', 'fuzz', 'http', 'fuzz', 'issue', 'detail']",Risky_resource_management,{'buffer overflow': 100}
+208f650145a3ade85f75a17a5d361f15620a9a60,"['crash', 'encoder']",General,{'crash': 100}
+253a5bc9de1ad4fe413bf96adf23f3fbbeeb2541,"['rare', 'crash']",General,{'crash': 100}
+83388bcbeda27259a513688fb68a2e0827ef4b08,"['crash', 'undefined', 'slice', 'header']",General,{'crash': 100}
+c5f5efdb6e7ac6e92b3910d75af0aa50162d76e9,['crash'],General,{'crash': 100}
+5a89c79d7268c52470fa69f6bd0b806c88afa854,"['sure', 'uvlc', 'integer', 'overflow']",Risky_resource_management,{'integer overflow': 100}
+5129e7f0943b05bb54a2ffca675ded9225dc837a,"['additional', 'decoder', 'crash', 'encoder']",General,{'crash': 100}
+1bf5e32f7173c04adc80639771b15b4764377763,"['null', 'pointer', 'dereference', 'case', 'bitstream', 'error']",Risky_resource_management,{'null pointer': 100}
+9056ff36c0dabb155a7612efcdb6fa1bf2471380,"['crash', 'encoder']",General,{'crash': 100}
+8c149c5b77e7de9ca8abbb1372a2fbd6f8863e11,"['crash', 'encoder']",General,{'crash': 100}
+6d4db453a8f75606300455c93a8658ad0958b9c4,"['crash', 'reference', 'picture']",General,{'crash': 100}
+2d6d5110541ab66c5d5971f525b8d0e33caaac38,"['encoder', 'crash', 'input']",General,{'crash': 100}
+5dc927fceb99f31a3911f6f5daf2d752cf08293a,"['crash', 'image', 'hash', 'active']",General,{'crash': 100}
+28ec6f01a0ef7a182db5578c0981bde0553510b5,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+a03de28381a9fd85f066c9fa9dc8c16a1c5e9fe9,"['queue', 'vector', 'queue', 'crash', 'memory', 'overwritten', 'memset', 'constructor', 'reverts']",General,{'crash': 100}
+2527608f846e73f8a837dccc06f4c655c1cc5755,"['queue', 'vector', 'queue', 'crash', 'memory', 'overwritten', 'memset', 'constructor']",General,{'crash': 100}
+8920d14aad77bf4bf7efaaa45f42033048237ae2,"['image', 'data', 'prevents', 'memory', 'block', 'optimization', 'overrun', 'memory']",Risky_resource_management,{'overrun': 100}
+b4392e16d4289423c5cf9d2823031f5d1c6ebeb2,"['integer', 'overflow', 'dequant']",Risky_resource_management,{'integer overflow': 100}
+ab54bd8e5c9590cc86561a3eeefbbf9593832a0b,"['operation', 'crash']",General,{'crash': 100}
+fcc706350ec7a32db0cb9ffb5bda02e1a4afc209,"['memory', 'leak', 'image', 'info', 'buffer']",Risky_resource_management,{'memory leak': 100}

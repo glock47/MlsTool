@@ -1,6 +1,25 @@
-sha,message,catetory,matched,labels
-c43663ab22e532ce90b968fab53a379cf03d025c,"['connection', 'crash']",Risky_resource_management,{'crash': 100},
-0aecde8dc206b83e6a7cef340c29985e97ca23aa,"['memory', 'parser', 'overrun']",Risky_resource_management,{'overrun': 100},
-5fda6171663f18913e375f33d1d9dec638dcb195,"['memory', 'overrun', 'muxer']",Risky_resource_management,{'overrun': 100},
-9f8e968bf55ba27be6aaf89258357a88d23c5f49,"['demux', 'error', 'crash', 'stream', 'endwith']",Risky_resource_management,{'crash': 100},
-7e3d0008072f4752623231557773e2e0deba3655,"['overrun', 'length']",Risky_resource_management,{'overrun': 100},
+sha,message,catetory,matched
+c43663ab22e532ce90b968fab53a379cf03d025c,"['crash', 'connection']",General,{'crash': 100}
+786d04da57e1a6a54bbaa61be8c2ecf63c4780d4,"['rtsp', 'crash']",General,{'crash': 100}
+0aecde8dc206b83e6a7cef340c29985e97ca23aa,"['mpeg', 'parser', 'memory', 'overrun']",Risky_resource_management,{'overrun': 100}
+3a4fc1bc30ceb1d9401b177cce39b4f554091aff,"['pull', 'request', 'xiaocj', 'master', 'memory', 'leak', 'issue']",Risky_resource_management,{'memory leak': 100}
+07796a6c66812788389052532674381039ccd948,"['memory', 'leak', 'issue']",Risky_resource_management,{'memory leak': 100}
+29a38a01c2b21535a253348ae69f7691630322e3,"['dialog', 'remote', 'target', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+6050fa30ca3f2486032b28d7f1e80cf41a5a1f4d,"['message', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+5fda6171663f18913e375f33d1d9dec638dcb195,"['muxer', 'memory', 'overrun']",Risky_resource_management,{'overrun': 100}
+d0208c8515ceb4d7daaecf32d76258f2f0fce821,"['timer', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+9f8e968bf55ba27be6aaf89258357a88d23c5f49,"['mpeg', 'demux', 'crash', 'stream', 'endwith', 'error', 'endwith']",General,{'crash': 100}
+79fc407fb7f353db888bd060cd4ff055fe3a10e8,"['medium', 'bandwidth', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+2cd18d88563378c1feeb61b5a5ce8bed32c062f7,"['null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+b5ed8da2f264fcf9a720928f39557386ec1501e0,"['check', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+9c2aad356f62a4ca5460199cb6801eecf0e50bc4,"['writer', 'track', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+60132e6d0dddf1c137d60331b4fe504849de2a57,"['rtmp', 'client', 'audio', 'video', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+e766c4bd8cd5e909d274a35a6bc5be9e55fdc970,"['payload', 'encoder', 'decoder', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+57c25c42a1373794f3152ac7b0f27f990bd4d44f,"['rtmp', 'reuse', 'memory', 'leak', 'corrupt', 'audio', 'video', 'memory']",Risky_resource_management,{'memory leak': 100}
+3dbced35d6f0dbb78c11ecbd2626efbb6ba4f493,"['segment', 'memory', 'leak', 'copy', 'name']",Risky_resource_management,{'memory leak': 100}
+8f78c09930c0f718e1d0bec11ef30c3b4b147b54,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+7e3d0008072f4752623231557773e2e0deba3655,"['mpeg', 'length', 'overrun']",Risky_resource_management,{'overrun': 100}
+97c3e92c36e5c2428306f447dc8526e849501bf9,"['pack', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+e4875f1295a912458d689b366cca37bd33a5872e,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+a7c59bf05c552cb985da307a23981e932479c50c,"['rtsp', 'transport', 'header', 'source', 'destination', 'buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100}
+8a3a2941b33bc8c9f6d38d2577c3e9c2a23fa968,"['datetime', 'buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100}

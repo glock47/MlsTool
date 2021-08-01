@@ -1,26 +1,71 @@
-sha,message,catetory,matched,labels
-e07ae475a53cbde6d26a5b1428b880afe0181e96,"['transparent', 'security', 'tidelift']",General,{'security': 100},
-f6f0958b761927ef2a30dcf22642685eba3683d5,"['requirement', 'crash', 'update', 'xdist']",Risky_resource_management,{'crash': 100},
-246474f2fd7d4e2de09a0627341873aa0eb16059,"['crash', 'coverage']",Risky_resource_management,{'crash': 100},
-b13338b0b62f3dde9bd757e9be00f820f1cf38ee,"['requestcharacter', 'crash', 'python', 'ascii']",Risky_resource_management,{'crash': 100},
-0ebd4f0ebab9620a6fc74cb4c0d337ba2c2d8916,"['character', 'crash', 'python', 'asciiextra', 'befcafafb']",Risky_resource_management,{'crash': 100},
-243b175cac58cb8e61ffd08566c7813aa2137bd0,"['interpreter', 'crash']",Risky_resource_management,{'crash': 100},
-cddbdfb54a646cbb639bcaae24e3b9b5a0d8c2df,"['weird', 'crash', 'avoidance', 'circumstance']",Risky_resource_management,{'crash': 100},
-b5ef22ab55df38e1901aa15b9fd8752a9b645470,"['deallocs', 'crash']",Risky_resource_management,{'crash': 100},
-3c6d49e3b4c663f375231ee61ffbdac89936ffec,"['crash', 'database']",Risky_resource_management,{'crash': 100},
-5ebb954023a938abd8b997d3fe9e5277c7c1ec49,"['concurrent', 'kicking', 'extreme', 'environment', 'pressure', 'deadlock', 'memory', 'nscache']",Risky_resource_management,{'deadlock': 100},
-08835cb430ca7cd62b0bd5bdae46bd2824f2508d,"['crash', 'person']",Risky_resource_management,{'crash': 100},
-bc777ec473997bf571eaafcefcde047ef4259959,"['request', 'deadlock', 'instancedeadlock']",Risky_resource_management,{'deadlock': 100},
-324b466b5be0b6f88a2ef86ccfe7394b61968b57,"['deadlockcodepaths', 'database', 'resultthread', 'serializedrelease', 'deadlock']",Risky_resource_management,{'deadlock': 100},
-60d27a15b04cd7b5d7e185bf6d12632874e0f7a8,"['vinodanandanenable', 'security', 'codeql']",General,{'security': 100},
-6dd78115aa5df409849c8d28077e17ec5b5412fb,"['mergemerge', 'request', 'hxstreamreference', 'security', 'owasp']",General,{'security': 100},
-0ca907af2449b891a7d754f5c1a2b222bbcb820c,"['security', 'owasp']",General,{'security': 100},
-1ecf4181d76aed20928a0228edf8e52ca3bcf56a,"['request', 'smtpssldetector', 'insecure']",General,{'insecure': 100},
-ab1ba5f77394b343d8c4bd392c781c75815ab6b9,"['insecure', 'annotation', 'cooky', 'number']",General,{'insecure': 100},
-203dc084eb063f3fbe661baf3fe904893da42ffe,"['example', 'insecure', 'cooky']",General,{'insecure': 100},
-14dbfb64321607453eadc0db991888cbf203b098,"['cooky', 'insecure', 'cleanup']",General,{'insecure': 100},
-dbbe4a1ae6455899c7c90789ad5556718a6843e4,"['multiple', 'insecure', 'cooky']",General,{'insecure': 100},
-755bf052d848022b51cd5a7e6dcaa64babf440a3,"['method', 'detection', 'multiple', 'insecure', 'algorithm', 'cooky', 'cookie']",General,{'insecure': 100},
-1c15050da1ec5d5d79b349ef58c1eaf6648b4860,"['complete', 'english', 'insecure', 'description', 'cookie']",General,{'insecure': 100},
-41a85c1613142ce16fa1edc08ffb79c64784bcff,"['insecure', 'cookie']",General,{'insecure': 100},
-e899123f87a312dde1512a186f3f0a8c537a7ce0,"['security', 'context', 'manipulation', 'insecure', 'sample']",General,{'security': 100},
+sha,message,catetory,matched
+782bc6c606e051570659ce7706093c7154a13a67,"['input', 'string', 'application', 'validation', 'mechanism', 'string', 'character', 'data', 'example', 'cross', 'site', 'vulnerability', 'script', 'input', 'unicode', 'string', 'different', 'representation', 'validation', 'patch']",Insecure_interaction_between_components,{'cross site': 100}
+a94b0868a64dec96093cb5ee4eb1ee0b2f4c2dfc,"['tricky', 'string', 'malicious', 'modification', 'example', 'program', 'filter', 'script', 'html', 'input', 'cross', 'site', 'vulnerability', 'character', 'code', 'point', 'validation', 'attacker', 'string', 'ufdef', 'validation', 'check', 'detect', 'script', 'subsequent', 'removal', 'character', 'code', 'pont', 'creates', 'script', 'input', 'patch']",Insecure_interaction_between_components,{'cross site': 100}
+fa7f7c4d43f178bf8e2062a35d5d66214fe88965,"['pull', 'request', 'pmlopes', 'vertx', 'oauth', 'csrf', 'support', 'vert', 'oauth', 'csrf', 'handler']",Insecure_interaction_between_components,{'csrf': 100}
+cc38aa3edbb13b9e8b1f3f03bc5086712f8ae493,"['support', 'vert', 'oauth', 'csrf', 'handler', 'paulo', 'lope', 'pmlopes', 'gmail']",Insecure_interaction_between_components,{'csrf': 100}
+60d27a15b04cd7b5d7e185bf6d12632874e0f7a8,"['pull', 'request', 'vinodanandan', 'master', 'enable', 'codeql', 'security', 'scan']",General,{'security': 100}
+bcdfdc35ae2431667829184877e25def6f789027,"['temp', 'file', 'creation', 'path', 'traversal']",Risky_resource_management,{'path traversal': 100}
+5b164fa3bac001ace1731adc97edbe31278dc85e,"['pull', 'request', 'joshcunninghame', 'kotlin', 'file', 'path', 'traversal']",Risky_resource_management,{'path traversal': 100}
+a57b067b88bfffc2f24510fadf4f40abd2d38605,"['pull', 'request', 'joshcunninghame', 'test', 'coverage', 'command', 'injection', 'kotlin', 'string', 'func', 'apis']",Insecure_interaction_between_components,{'command injection': 100}
+0966ebeaece04eed1b1df557f68021114680901b,"['command', 'injection', 'test', 'kotlin', 'filter']",Insecure_interaction_between_components,{'command injection': 100}
+67203ede2cfc3fae408c0e53d4e9364901494d1e,"['pull', 'request', 'hxstream', 'master', 'test', 'case', 'path', 'traversal', 'source', 'final', 'field']",Risky_resource_management,{'path traversal': 100}
+f15dea49b84aed371c15bf91202b760372907e14,"['test', 'case', 'path', 'traversal', 'source', 'final', 'field']",Risky_resource_management,{'path traversal': 100}
+6dd78115aa5df409849c8d28077e17ec5b5412fb,"['pull', 'request', 'hxstream', 'reference', 'owasp', 'security']",General,{'security': 100}
+0ca907af2449b891a7d754f5c1a2b222bbcb820c,"['reference', 'owasp', 'security']",General,{'security': 100}
+88346e3acf881cd3220a7d8a830460b4fcbf23d8,"['infinite', 'loop', 'null', 'pointer', 'exception', 'multiple', 'node']",Risky_resource_management,{'null pointer': 100}
+5fd62d9f653318a7db69ead17de8d6c72a09fdfc,"['file', 'createtempfile', 'path', 'traversal']",Risky_resource_management,{'path traversal': 100}
+98c23b6a6c6f29dc5c05ff205c7032151df76b47,"['coverage', 'apache', 'common', 'text', 'test', 'utility', 'function', 'hasonetag', 'test', 'presence', 'safe', 'path', 'traversal', 'method']",Risky_resource_management,{'path traversal': 100}
+f32cc4e044915850aec9c5fb8b9484760cd02099,"['pull', 'request', 'hxstream', 'master', 'false', 'positive', 'path', 'traversal']",Risky_resource_management,{'path traversal': 100}
+a1a27aca43a0a4cc6ee680b3b978fa2916288f00,"['false', 'positive', 'path', 'traversal']",Risky_resource_management,{'path traversal': 100}
+17fb0290fd0d8ab00ab4a9b2030eb70311f1efad,"['pull', 'request', 'hxstream', 'master', 'java', 'path', 'traversal']",Risky_resource_management,{'path traversal': 100}
+f99c9ab47a129f34cd1bd729b2ddbda1d0d4d51e,"['java', 'path', 'traversal']",Risky_resource_management,{'path traversal': 100}
+ad14178366f64bc9aea9b794895c2bfb77a764fb,"['pull', 'request', 'ptamarit', 'spring', 'csrf', 'spring', 'csrf', 'protection']",Insecure_interaction_between_components,{'csrf': 100}
+8453c339c55ec068a65a8bf3ff10e7dbc56f2909,"['detect', 'spring', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+ba5a96056a2774cc43e5d72ade04ffc92129fb7c,"['spring', 'csrf', 'protection']",Insecure_interaction_between_components,{'csrf': 100}
+1ecf4181d76aed20928a0228edf8e52ca3bcf56a,"['pull', 'request', 'plrman', 'smtpssl', 'insecure', 'smtp']",General,{'insecure': 100}
+94693de5ee87467fb30110ba9cc73a3e85ffc041,"['insecure', 'smtp', 'test']",General,{'insecure': 100}
+390ae5ed3016b336e38b947d56913f1cac232816,"['insecure', 'smtp']",General,{'insecure': 100}
+74631a0178d959c09e5e27bcea36543b580cbf41,"['pull', 'request', 'maxnad', 'sqli', 'injection', 'scala', 'slick', 'scala', 'anorm', 'injection']",Insecure_interaction_between_components,{'sqli injection': 96}
+a5cafdbd2aa07b4aeac506ac977363346f460dff,"['master', 'http', 'github', 'sqli']",Insecure_interaction_between_components,{'sqli': 100}
+f290462a1a36a44b310b6db9304cf332df1b0876,"['sqli', 'upstream', 'master']",Insecure_interaction_between_components,{'sqli': 100}
+ee635e1974f1f7912341bd3af0b542b3d430c702,"['master', 'http', 'github', 'maxnad', 'sqli']",Insecure_interaction_between_components,{'sqli': 100}
+f9acbf4f8cd0d40d0d85324f45123a183ac85c8c,"['pull', 'request', 'maxnad', 'ssrf', 'server', 'side', 'request', 'forgery']",Insecure_interaction_between_components,{'request forgery': 100}
+653d33aeeb8ca4aebafc5597521a965208a9b699,"['server', 'side', 'request', 'forgery', 'basic', 'server', 'redirection', 'test', 'case']",Insecure_interaction_between_components,{'request forgery': 100}
+dfdb7545135a31e6e1c538ecdcc5f62ab22440d6,"['server', 'side', 'request', 'forgery', 'basic', 'server', 'redirection', 'test', 'case']",Insecure_interaction_between_components,{'request forgery': 100}
+7abc1e01df17178f2bebbbb364731c86a08ae6d6,"['pull', 'request', 'maxnad', 'sensitive', 'data', 'exposure', 'sensitive', 'data', 'exposure', 'cooky']",Porous_defenses,{'sensitive data': 100}
+7816bdd4774b6a7542e4b6bc885e3cb52436a8fd,"['pull', 'request', 'maxnad', 'path', 'traversal', 'scala', 'path', 'traversal', 'injection']",Risky_resource_management,{'path traversal': 100}
+573317209b7d8dba64fadbd39eaf497ad857d122,"['path', 'traversal', 'scala', 'path', 'traversal', 'injection']",Risky_resource_management,{'path traversal': 100}
+1b83dd2a2b60dba0a02333939cbf3a0eec8f8567,"['master', 'sqli']",Insecure_interaction_between_components,{'sqli': 100}
+86937949819d4fea40664ed8501a164bd53ab98b,"['sensitive', 'data', 'exposure', 'sensitive', 'data', 'exposure', 'cooky']",Porous_defenses,{'sensitive data': 100}
+24ca138d49f6c36000b5493479ec82b4b618a05b,"['sensitive', 'data', 'exposure', 'sensitive', 'data', 'exposure', 'cooky']",Porous_defenses,{'sensitive data': 100}
+ab1ba5f77394b343d8c4bd392c781c75815ab6b9,"['insecure', 'cooky', 'line', 'number']",General,{'insecure': 100}
+203dc084eb063f3fbe661baf3fe904893da42ffe,"['insecure', 'cooky', 'example', 'case']",General,{'insecure': 100}
+14dbfb64321607453eadc0db991888cbf203b098,"['insecure', 'cooky', 'code', 'cleanup']",General,{'insecure': 100}
+dbbe4a1ae6455899c7c90789ad5556718a6843e4,"['insecure', 'cooky', 'multiple', 'cooky']",General,{'insecure': 100}
+755bf052d848022b51cd5a7e6dcaa64babf440a3,"['insecure', 'cooky', 'cookie', 'flag', 'detection', 'algorithm', 'multiple', 'cooky']",General,{'insecure': 100}
+1daaa2e790984ccf3e98f3f0aff0d9db7beb251c,"['command', 'injection', 'vulnerable', 'code', 'message']",Insecure_interaction_between_components,{'command injection': 100}
+95864921ae28935598a131743bc10c135a9e9eba,"['sensitive', 'data', 'exposure', 'vulnerable', 'code', 'others']",Porous_defenses,{'sensitive data': 100}
+96cf62ab7a8831b1919ff4b0aeb35c4b25688d14,"['sensitive', 'data', 'exposure', 'vulnerable', 'code', 'scala', 'post', 'code', 'review', 'modification']",Porous_defenses,{'sensitive data': 100}
+79870bc1b40e18747d05863db1f326071855e89e,"['sensitive', 'data', 'exposure', 'vulnerable', 'code', 'scala', 'code', 'cleanup']",Porous_defenses,{'sensitive data': 100}
+3092bf1933b42c43750f394f7c680710c2d36268,"['sensitive', 'data', 'exposure', 'vulnerable', 'code']",Porous_defenses,{'sensitive data': 100}
+fb9b8d7269b9172924c310fe285c67ac765a9a4e,"['forgotten', 'command', 'injection']",Insecure_interaction_between_components,{'command injection': 100}
+23a45e948483058d16b7762c37e7dd8ca2b22912,"['temporary', 'field', 'operation', 'unknown', 'trigger', 'extra', 'test', 'path', 'traversal']",Risky_resource_management,{'path traversal': 100}
+2822e25acc6c1520a373ca6340db5019213af123,"['detect', 'command', 'injection', 'scala', 'restore', 'debug', 'utility', 'method', 'stack', 'state']",Insecure_interaction_between_components,{'command injection': 100}
+b40ca99266f13911381a4566dc757645be95e5f1,"['update', 'description', 'code', 'sample', 'weak', 'trustmanager', 'path', 'traversal']",Risky_resource_management,{'path traversal': 100}
+bd6954d0d7e14833900535f05d25f4c4f63bfd53,"['path', 'traversal']",Risky_resource_management,{'path traversal': 100}
+64102bd0ac833d0b953f97d2ed6c376f10235260,"['command', 'injection']",Insecure_interaction_between_components,{'command injection': 100}
+b9600a809ced848368f20cc8807e9729100fe920,"['command', 'injection']",Insecure_interaction_between_components,{'command injection': 100}
+61ad632c8be9da8f7d6b82656ba2f4efc04eb3f1,"['pull', 'request', 'formanek', 'master', 'command', 'injection', 'identifier']",Insecure_interaction_between_components,{'command injection': 100}
+25c9b946d5de7643d7b344c5505770e2c3917723,"['command', 'injection']",Insecure_interaction_between_components,{'command injection': 100}
+1c15050da1ec5d5d79b349ef58c1eaf6648b4860,"['complete', 'english', 'description', 'insecure', 'cookie']",General,{'insecure': 100}
+41a85c1613142ce16fa1edc08ffb79c64784bcff,"['version', 'insecure', 'cookie']",General,{'insecure': 100}
+79d26a221a009fca47bae23791233bb546b5d367,"['test', 'case', 'comment', 'command', 'injection', 'signature']",Insecure_interaction_between_components,{'command injection': 100}
+99dac470d41209a3137d0b0cc88b3a0332130fce,"['findbugs', 'injection', 'type', 'analysis', 'error', 'note', 'report', 'bugpattern', 'category', 'security', 'assertion']",General,{'security': 100}
+e919c5ce6e2687bdabe2071f412f72543549ac4c,"['command', 'injection', 'processbuilder']",Insecure_interaction_between_components,{'command injection': 100}
+400ed2035066a7871f6cf0ad0c8b296d1947ca2d,"['command', 'injection', 'test']",Insecure_interaction_between_components,{'command injection': 100}
+a44004e11a73060171430dc460c9a8aa90f6bb28,"['method', 'append', 'account', 'taint', 'analysis', 'taint', 'command', 'injection', 'detection']",Insecure_interaction_between_components,{'command injection': 100}
+e899123f87a312dde1512a186f3f0a8c537a7ce0,"['code', 'sample', 'insecure', 'security', 'context', 'manipulation']",General,{'security': 100}
+b53d5eecab30507376b861ccb6e6124f27a2521d,"['command', 'injection', 'main', 'injection']",Insecure_interaction_between_components,{'command injection': 100}
+6170e6d01d90cec8cc70d1925b8db5cc00b85d6a,"['improvement', 'performance', 'sqli', 'identification', 'lookup', 'constant', 'pool', 'certain', 'class', 'name', 'large', 'amount', 'class']",Insecure_interaction_between_components,{'sqli': 100}
+6d9b6a36ca7e96e48e2d16f63a50c22c7718a406,"['command', 'injection', 'test']",Insecure_interaction_between_components,{'command injection': 100}
+561cdab3054c198d9cea9381bdc071ef100939bb,"['javax', 'false', 'positive', 'constant', 'string', 'path', 'traversal', 'empty']",Risky_resource_management,{'path traversal': 100}

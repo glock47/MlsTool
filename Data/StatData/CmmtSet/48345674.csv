@@ -1,0 +1,325 @@
+sha,message,catetory,matched
+0b679f999929584d80813a55496216a426094476,"['notmuch', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+72a6a62c673e0a635af7853863670fa4542cda84,"['status', 'buffer', 'overflow', 'buffer', 'overflow', 'prefix', 'buffer', 'overflow', 'character', 'check']",Risky_resource_management,{'buffer overflow': 100}
+b6aa30d57e1017c2b99bd500f5292cd27fcb9cb3,"['hash', 'crash', 'element', 'deletion', 'neomutt', 'free', 'configsubset', 'iterates', 'name', 'item', 'name', 'struct', 'inheritance', 'work', 'hashtable', 'name', 'item', 'check', 'duplicate', 'item']",General,{'crash': 100}
+1954053b5dd1db1d18c6829f19225b9496e234b6,"['pager', 'crash', 'state', 'info', 'buffer', 'overrun', 'long', 'email', 'shorter', 'pager']",Risky_resource_management,{'overrun': 100}
+6af01071c59fc81030d36bcb560f7dc5ecaa07a0,['crash'],General,{'crash': 100}
+05e671b9d4c3348a20bc84283a3d03c836a31512,"['crash', 'quote']",General,{'crash': 100}
+9467a9fe4b60a0388a6d8af3c79e5f0af3cb08c9,['crash'],General,{'crash': 100}
+82b2b9066d328269b1512ba8b3817a66563670c5,"['minor', 'code', 'graphviz', 'maildir', 'crash', 'doxy', 'typo', 'whitespace', 'debug', 'pager', 'clang', 'tidy', 'conversion', 'warning', 'ihor', 'antonov', 'ihor', 'antonovs', 'family']",General,{'crash': 100}
+0b3c64b5aa2f53309e427a8729a37fe94748db04,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+d1770ca2fdb7438b0fcfd968f4022f1a13cb3222,"['crash', 'existant', 'mailbox']",General,{'crash': 100}
+8c91bdf53e29de16552c61160d8e09e23479dd98,"['crash', 'failure', 'decrypt', 'message']",General,{'crash': 100}
+9b6660fb443f97bb378702c4008842e38442b3eb,"['query', 'crash', 'empty', 'query', 'update', 'title', 'query']",General,{'crash': 100}
+0d7fd49ddd96e5d93baf3a67d4f9d990064768f7,"['rename', 'email', 'security', 'bitmask', 'contains', 'amoung', 'thing', 'information', 'application', 'assignment', 'operation', 'context', 'operation', 'email', 'security', 'variable', 'proper', 'type', 'securityflags', 'developer', 'navigate', 'defintiion', 'securityflags', 'type']",General,{'security': 100}
+259e8ab6892a0c8d52934478a2336503aa06a0c9,"['crash', 'return', 'shell', 'exec', 'open', 'mailbox', 'crash', 'return', 'shell', 'exec', 'open', 'mailbox', 'simple', 'check', 'context', 'context', 'mailbox', 'caller']",General,{'crash': 100}
+63120ca5b43afd5edc3e420b1af15812566c5ab4,"['recreate', 'mailbox', 'folder', 'hook', 'folder', 'hook', 'various', 'effect', 'mailbox', 'opening', 'mailbox', 'unmailboxes', 'previous', 'code', 'case', 'opening', 'mailbox', 'mailbox', 'link', 'account', 'mailbox', 'open', 'code', 'guard', 'case', 'crash', 'sidebar']",General,{'crash': 100}
+9c0098b94f47dbff73ba7a5630b3e0677a2d31a7,"['crash', 'path', 'string']",General,{'crash': 100}
+1f66fbaeb4d33571697d08069f29f9842c262244,"['contract', 'mxapi', 'document', 'null', 'pointer', 'range', 'ints', 'condition', 'caller', 'unnecessary', 'check', 'backend', 'function']",Risky_resource_management,{'null pointer': 100}
+c9c6518a221417700fb566a74fc94ab8c79abccf,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+a59b0b525ba78ea05a46be858d06e1e8203d29e8,"['crash', 'reply', 'lead', 'crash', 'emaillist']",General,{'crash': 100}
+70c399cf3da1b2879e2e229ebd29f8d79afd03b5,"['author', 'security', 'install']",General,{'security': 100}
+90f0c10ac7876a0f899efedccc527ead653884a1,"['acutest', 'memory', 'leak', 'unit', 'test']",Risky_resource_management,{'memory leak': 100}
+c3c56880b8a60d7e1eb4c237e13b2a13c1b2f869,"['index', 'current', 'email', 'need', 'fetch', 'update', 'index', 'current', 'email', 'attach', 'mode', 'crash', 'mailbox']",General,{'crash': 100}
+80186c121473ca46eb16c963f53b8577df5c81f2,"['crash', 'context', 'explicit', 'folder']",General,{'crash': 100}
+8d9ab3a4212c75e570bbeb30ee526bff103f3132,"['hook', 'compose', 'loop', 'return', 'value', 'hook', 'addr', 'list', 'edit', 'hook', 'compose', 'field', 'hook', 'attachment', 'unnecessary', 'hook', 'attachment', 'property', 'update', 'hook', 'attachment', 'file', 'update', 'unnecessary', 'hook', 'security', 'unconditional', 'hook', 'simplify']",General,{'security': 100}
+5ea013f378a5ee3f9005129394e2ccce1eeba608,"['unnecessary', 'hook', 'security', 'security', 'flag']",General,{'security': 100}
+887428a38f845f9eaca80c3e05e0c2aedb137669,['crash'],General,{'crash': 100}
+05772618fb4567ce61156ccbd6a0529cbbe6914b,"['garbage', 'collection', 'delay', 'item', 'list', 'observer', 'garbage', 'notification', 'item', 'list', 'crash', 'solution', 'empty', 'observernode']",General,{'crash': 100}
+075bbc65e9605ae24b0148f01ca256f666a972af,"['imap', 'crash', 'mailbox', 'imap', 'separate', 'list', 'email', 'mailbox', 'email', 'deletes', 'email', 'imap', 'pointer']",General,{'crash': 100}
+93c3bc278f611b96167ac0eff8b758ac1e8c8c8e,['crash'],General,{'crash': 100}
+d9be384e12816b903a0353e8c3a71844a12e4e65,"['github', 'update', 'issue', 'template', 'security', 'policy']",General,{'security': 100}
+0812e518b7de21c9c9ae496e73c1312fa66482db,"['trivial', 'global', 'data', 'nntp', 'news', 'scheme', 'interchangeable', 'memory', 'leak', 'whitespace', 'boolify', 'params', 'logic', 'empty', 'string', 'logic', 'empty', 'string', 'logic', 'clarify', 'condition', 'logic']",Risky_resource_management,{'memory leak': 100}
+413521adc07314addfc51c7da883a4714ed51903,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+a0cfd3b4d0ca3c4ac35885e42988f83c45761561,"['crash', 'empty', 'query', 'menu', 'alloc', 'return', 'null', 'zero', 'item', 'case']",General,{'crash': 100}
+c5a48645b3205013b5f5e1e1d36d3293e432f0ba,"['crash', 'reading', 'header', 'advisory', 'http', 'github', 'neomutt', 'neomutt', 'security', 'advisory', 'ghsa']",General,{'security': 100}
+18e67b11708537177a999c924c4a270b0dd92e0f,"['limit', 'recurse', 'depth', 'mime', 'message', 'limit', 'depth', 'stack', 'overflow', 'http', 'gitlab', 'muttmua', 'mutt', 'richard', 'russon', 'rich', 'flatcap']",Risky_resource_management,{'stack overflow': 100}
+554ba1b290784b6acefddee88918e05591161eb7,"['leak', 'memory', 'leak', 'coverity', 'initialise', 'local', 'rename', 'local']",Risky_resource_management,{'memory leak': 100}
+f49faa7464c5101727cb7de9bb9157bb66597f02,"['trivial', 'doxy', 'page', 'location', 'autocrypt', 'conditionals', 'gpgme', 'conditionals', 'memory', 'leak', 'obsolete', 'reference', 'clang', 'format', 'hcache', 'store', 'compress']",Risky_resource_management,{'memory leak': 100}
+f3668a62a2842a5798549ad65be48d2f8d8c61c1,"['memory', 'leak', 'error', 'path']",Risky_resource_management,{'memory leak': 100}
+cc81a1841e4f0008c28fc87f8e026d0c3b296f50,"['notmuch', 'crash', 'check', 'hcache', 'neomutt', 'header', 'cache', 'crash', 'memcpy', 'xffdcca', 'store', 'glibc', 'dump', 'uidvalidity', 'xffdcca', 'hcache', 'hcache', 'entry', 'path', 'keylen', 'entry', 'uidvalidity', 'uidvalidity', 'entry', 'hcache', 'hcache', 'entry', 'entry', 'entry', 'entry', 'xceb', 'dedup', 'dedup', 'entry', 'notmuch', 'dedup', 'notmuch', 'notmuch', 'flag', 'main', 'argc', 'argv', 'main', 'store', 'glibc', 'libc']",General,{'crash': 100}
+7174f7fb669978cde8975e65e97ed8e47f1a8380,"['upstream', 'struct', 'buffer', 'batch', 'mode', 'encr', 'calendar', 'date', 'segv', 'imap', 'header', 'content', 'type', 'autocrypt', 'initialization', 'crash', 'connection', 'config', 'rename', 'smime', 'oppenc', 'mode', 'parameter']",General,{'crash': 100}
+b467c94988b75deb9b5011eec5495023c1662f15,"['crash', 'connection', 'openssl', 'gnutls', 'data', 'check', 'connection', 'connection', 'poll', 'tricky', 'trigger', 'check', 'connection', 'failure', 'need', 'thanks', 'stefan', 'complete', 'backtrace', 'patch', 'different', 'approach', 'upstream', 'http', 'gitlab', 'muttmua', 'mutt', 'richard', 'russon', 'rich', 'flatcap']",General,{'crash': 100}
+645189415f20857fc317bb862a5b9dba33f61fa8,"['crash', 'pager']",General,{'crash': 100}
+72298a4fbf989bb1fc1e62688b55abb777c48b08,['crash'],General,{'crash': 100}
+e22f6a1ad4f83942a7ea2240337b99a2ee9a3e89,"['crash', 'notmuch', 'mailbox']",General,{'crash': 100}
+30293a94ffb131bad3a43343aa1178542905213b,['crash'],General,{'crash': 100}
+9f0294149439987442ad8d3ab3604000754e98e3,"['imap', 'crash', 'original', 'code', 'copy', 'email', 'array', 'number', 'email', 'sync', 'process', 'array', 'crash', 'size', 'email', 'array', 'resize', 'email', 'array', 'lead', 'problem', 'sync', 'original', 'array']",General,{'crash': 100}
+04a892e4d420200fc4329d2ab6e988b196d0f146,"['crash', 'tunnel']",General,{'crash': 100}
+834a3c949a7b8b3e1c15ff658379fb4d2e39f434,['crash'],General,{'crash': 100}
+06bb010d48c384a188a53f83dac651a61533f18c,"['crash', 'erroneous', 'check']",General,{'crash': 100}
+fbd6ff60920ce7aef2df2b73de1b62ad7b445bb7,['crash'],General,{'crash': 100}
+47dddccd6605bf9f5817deeeac5c0f2510c884ee,['crash'],General,{'crash': 100}
+ba37df87e237d2a1fcd315bfd3df2719c1479638,"['memory', 'leak', 'leak', 'error', 'path', 'startup', 'code']",Risky_resource_management,{'memory leak': 100}
+0acfc8020144a539ba6c94b8d2c1b34dd8ad8661,"['crash', 'command', 'line', 'postpone', 'email', 'command', 'line']",General,{'crash': 100}
+e48d4aa26f076825b477d286e9053a2e3baaefea,"['crash', 'message', 'command', 'line', 'email', 'command', 'line', 'code', 'color']",General,{'crash': 100}
+b486e37c1d5b5ea1b426f844a01c39c2827832dc,"['crash', 'attempt', 'crash', 'problem', 'refactors', 'code', 'simplify']",General,{'crash': 100}
+d713c2c489f06ec1c1e78df3092bd038f80bb430,"['crash', 'mailbox', 'command', 'backtick', 'expression', 'crash', 'mailbox', 'echo', 'overwrite', 'content', 'string', 'pointer']",General,{'crash': 100}
+b94e5cb2311edc7c7c98c108ed03d73fd40670d7,"['null', 'pointer', 'time', 'account', 'return', 'account']",Risky_resource_management,{'null pointer': 100}
+cdfd49b90d7271fe8bf8e99cf0302c21e6111373,"['update', 'crash']",General,{'crash': 100}
+952dc61fc31e07e8fd73226ffa386dc03287679f,"['crash', 'negotiation', 'code', 'data', 'local', 'pointer', 'pointer']",General,{'crash': 100}
+f9b997d02e54f4d1f89ebf14e820d566e2b979db,"['crash', 'alias', 'group', 'pietro', 'cerutti', 'gahr', 'gahr']",General,{'crash': 100}
+fd6c87546adb7d827e357f13419e337d31ee72bd,"['crash', 'exit']",General,{'crash': 100}
+69338da984be8747f7faf1dadec16bf6d8cf15b0,"['revert', 'autocrypt', 'postpone', 'failure', 'memory', 'leak', 'bcache', 'buffer', 'pool', 'buffer', 'pool', 'compose', 'buffer', 'pool', 'buffer', 'version', 'buffer', 'caller', 'buffer', 'version', 'compose', 'menu', 'fname', 'variable', 'buffer', 'buffer', 'memory', 'leak', 'compose', 'function', 'buffer', 'tidy', 'check', 'empty', 'buffer']",Risky_resource_management,{'memory leak': 100}
+9606fd2cb755f6d4e54fceb72856182bf2c93135,"['memory', 'leak', 'compose', 'function', 'outer', 'multipart', 'richard', 'russon', 'rich', 'flatcap']",Risky_resource_management,{'memory leak': 100}
+291b7d42c55d47bc51a751d0655925f750649c71,"['memory', 'leak', 'message', 'setting', 'actx', 'content', 'part', 'null', 'memory', 'leak', 'message', 'attachment', 'store', 'body', 'need', 'various', 'case', 'content', 'part', 'null', 'case', 'message', 'attachment', 'comment', 'message', 'constructor', 'careful', 'free', 'body', 'part', 'recvattach', 'menu', 'content', 'part', 'null', 'statement', 'safety', 'case', 'message', 'attachment', 'austin', 'austin', 'austinray']",Risky_resource_management,{'memory leak': 100}
+077199f8d264ed4f39649a867b96b87d83d2b1b5,"['crash', 'index', 'message', 'check', 'context', 'mailbox', 'null']",General,{'crash': 100}
+a2e8a6b6bbbfeaf6d51c43182d2c629c1d98bbcb,"['sidebar', 'crash', 'mailbox']",General,{'crash': 100}
+4d7089128cac10b60416cff6cd40ef5e6c7c9316,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+93f59208a5186d794eba49a96e4598991d618456,"['memory', 'leak', 'free', 'connection']",Risky_resource_management,{'memory leak': 100}
+fe9a3bd46a5cf3e51553ff044df2e1b33acaa0c8,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+195962bbd4588e11cf9ff69c74a98d4c9f85574e,"['upstream', 'autocrypt', 'autocrypt', 'option', 'initial', 'autoconf', 'makefile', 'setup', 'autocrypt', 'autocrypt', 'config', 'database', 'schema', 'initialization', 'autocrypt', 'gpgme', 'factor', 'initial', 'autocrypt', 'account', 'setup', 'autocrypt', 'header', 'process', 'autocrypt', 'header', 'gossip', 'header', 'processing', 'normalization', 'return', 'struct', 'address', 'gossip', 'header', 'address', 'comparison', 'struct', 'email', 'security', 'autocrypt', 'autocrypt', 'line', 'compose', 'menu', 'autocrypt', 'outgoing', 'email', 'look', 'gossip', 'header', 'update', 'autocrypt', 'message', 'decryption', 'print', 'error', 'message', 'autocrypt', 'autocrypt', 'source', 'file', 'potfiles', 'translation', 'message', 'comment', 'autocrypt', 'header', 'imap', 'fetch', 'list', 'account', 'creation', 'work', 'multi', 'word', 'peer', 'object', 'basic', 'autocrypt', 'account', 'menu', 'translation', 'string', 'comment', 'autocrypt', 'option', 'scan', 'mailbox', 'documentation', 'autocrypt', 'autocrypt', 'readme', 'file', 'decrypt', 'autocrypt', 'message', 'option', 'test', 'case', 'iwyu', 'tidy', 'rename', 'local', 'variable', 'doxy', 'comment', 'block', 'rename', 'local', 'variable', 'rename', 'local', 'variable', 'brace', 'unclear', 'statement', 'check', 'retval', 'strcmp', 'whitespace', 'clarity', 'tidy', 'code', 'autocrypt', 'account', 'clear', 'screen', 'macro', 'processing', 'autocrypt', 'initialization', 'subject', 'autocrypt', 'minor', 'autocrypt', 'manual', 'section', 'update', 'autocrypt', 'documentation', 'note', 'autocrypt', 'comment', 'autocrypt', 'menu', 'line', 'abbreviation', 'base', 'keydata', 'autocrypt', 'database']",General,{'security': 100}
+7e6993900bd8514eeba604a49f01277f9add1479,"['autocrypt', 'line', 'compose', 'menu', 'offset', 'calcuation', 'explicit', 'enum', 'attachment', 'line', 'array', 'size', 'security', 'recommendataion', 'field', 'line', 'autocrypt', 'spec', 'guideline', 'richard', 'russon', 'rich', 'flatcap']",General,{'security': 100}
+3785d9c434f2e4774357ec0fa14c3da0359b509d,"['struct', 'email', 'security', 'autocrypt', 'richard', 'russon', 'rich', 'flatcap']",General,{'security': 100}
+62ed9fbcd120598463ae07f277a9cfdd37078eb1,"['size', 'display', 'configuration', 'nice', 'open', 'performance', 'security', 'stability', 'issue', 'thread', 'mutt', 'hope', 'customization', 'need', 'richard', 'russon', 'rich', 'flatcap']",General,{'security': 100}
+976428c1e90606b9f65fabc097146d6bd89312ca,"['omit', 'user', 'agent', 'header', 'default', 'user', 'agent', 'header', 'information', 'user', 'software', 'stack', 'potential', 'security', 'risk', 'attacker', 'target', 'particular', 'stack', 'anonymity', 'risk', 'user', 'information', 'choice', 'user', 'agent', 'configure', 'sense', 'safer', 'default', 'richard', 'russon', 'rich', 'flatcap']",General,{'security': 100}
+780c9158e00bc951d8e98a2a27f9cee28d80186d,"['tidy', 'code', 'null', 'pointer', 'variable', 'case', 'rename', 'function']",Risky_resource_management,{'null pointer': 100}
+00dc67c7de86d196f0e412165dff7aeadec34ea3,"['minor', 'variable', 'return', 'null', 'pointer', 'free', 'typo', 'retval', 'type']",Risky_resource_management,{'null pointer': 100}
+56eb61ff38dcc42ee47c9c85dda430f08861c888,"['crash', 'collapse', 'limit']",General,{'crash': 100}
+dba258fd9b3e1730d9a6d7a46e1c5e54d3179663,"['crash', 'startup', 'code', 'path', 'differ', 'upstream']",General,{'crash': 100}
+00403c8efbc09d34a9e428f567cddc5b95632236,"['mailbox', 'notify', 'close', 'crash', 'session', 'unmailboxes', 'command', 'current', 'mailbox', 'mailbox', 'null', 'notify', 'member', 'notify', 'method', 'assumes', 'mailbox', 'context', 'context']",General,{'crash': 100}
+bcf7b832fe3b63922fa42164ead1f25d13e5a325,"['crash', 'christian', 'storm', 'storm', 'mailbox']",General,{'crash': 100}
+144cf4884ca70a438eeec0532c8d9378f0553d83,"['mbox', 'double', 'free']",Risky_resource_management,{'double free': 100}
+5ff30ef9e7d6a96399aaaae5fe36ed1250728f0e,"['crash', 'email', 'disappears', 'imap', 'issue']",General,{'crash': 100}
+b5204ba047b59bc4e645616746c95e4f23719306,"['trivial', 'insert', 'space', 'global', 'variable', 'config', 'doxy', 'typo', 'drop', 'dupe', 'prototype', 'lowercase', 'variable', 'doxygen', 'update', 'defines', 'prefix', 'security', 'flag', 'rename', 'state', 'member', 'legibility', 'rename', 'enum', 'menutypes', 'menutype', 'config', 'dump', 'defines', 'enum', 'format', 'flag', 'enum', 'tidy']",General,{'security': 100}
+c3ccfce8dc9cb23ff935107593845f73e12f0907,"['prefix', 'security', 'flag', 'symbol', 'hard', 'search']",General,{'security': 100}
+128488ffac0e84693126f227957cf76a06d34e23,"['crash', 'short', 'attachment', 'name']",General,{'crash': 100}
+3c3156fc6f46c1366cef7c510cb43c388788899e,['crash'],General,{'crash': 100}
+49bc89f0121c43d7263499ad4daa68d78e01b861,['crash'],General,{'crash': 100}
+0f6b89bd267e566a82d12931d8788c42e815d828,"['setting', 'option', 'clear', 'text', 'message', 'header', 'improves', 'usability', 'header', 'cache', 'security', 'trade', 'default', 'warns', 'documentation', 'richard', 'russon', 'rich', 'flatcap']",General,{'security': 100}
+e7dcf2ca0431b53d9bdb62011fb09c4bc3acc066,"['possible', 'smime', 'crash', 'mime', 'header', 'null']",General,{'crash': 100}
+565c9eb35e52cf29a65afdf82d8f5ba67c91aacf,"['memory', 'leak', 'smime']",Risky_resource_management,{'memory leak': 100}
+5742a8491b987aefd72e4fac95076d69881c0080,"['upstream', 'color', 'body', 'regex', 'qresync', 'crash', 'large', 'number', 'error', 'message', 'translation', 'sender', 'default', 'list', 'imap', 'header', 'document', 'sender', 'header', 'default', 'deprecate', 'default', 'enhance', 'security', 'version', 'compilation', 'openssl', 'apis', 'version', 'number', 'comment', 'gpgme', 'classic', 'date', 'list', 'fingerprint']",General,{'security': 100}
+bbd7911bae27ac0fa732a3c4eff8e16e57523dab,"['enhance', 'security', 'version']",General,{'security': 100}
+bae6d76d6fdb0e3b896f9eeb52c0e0db49a4ae8a,"['qresync', 'crash', 'large', 'number', 'empty', 'message', 'various', 'counter', 'expunge', 'counter', 'need', 'reset', 'reading', 'header', 'access']",General,{'crash': 100}
+a37cb3be5d4dff4d37b81aa1e201f84b7d01fcdb,['crash'],General,{'crash': 100}
+56f57c245e33538cc202b05a1fe9994e8d40724d,"['transition', 'function', 'transition', 'function', 'print', 'size', 'debug', 'output', 'buffer', 'fixup', 'function', 'conversion', 'nbsp', 'space', 'ensure', 'empty', 'buffer', 'null', 'memleaks', 'saslconn', 'error', 'path', 'memory', 'leak', 'error', 'document', 'message', 'memory', 'leak', 'idna', 'conversion', 'relative', 'date', 'hour', 'offset', 'brief', 'documentation', 'oauth', 'support', 'update', 'cross', 'reference', 'comment', 'unclear', 'message', 'switch', 'color', 'chunk']",Risky_resource_management,{'memory leak': 100}
+fa6733440626475f45dd536a401047324ab4cc6b,"['memory', 'leak', 'idna', 'conversion']",Risky_resource_management,{'memory leak': 100}
+446a693939950932603386358d958b7bfa3c0c4d,"['memory', 'leak', 'error']",Risky_resource_management,{'memory leak': 100}
+fd9762bf3ab03a4a8b49a330d769fa88da3eb42c,"['aware', 'mailbox', 'multiple', 'imap', 'account', 'startup', 'time', 'switch', 'account', 'stats', 'true', 'time', 'mutt', 'crash', 'update', 'context', 'mailbox', 'imap', 'backend', 'check', 'stats', 'imap', 'mailbox', 'stats']",General,{'crash': 100}
+f5e83c8277405fa443967a3c37ed263efbb2c911,"['imap', 'crash', 'mailbox', 'thanks', 'gahr', 'backtraces']",General,{'crash': 100}
+7c9a6d976dbe663761a2d8e4c0654839bb8c1fa3,"['mailbox', 'crash', 'thanks', 'sergey', 'alirzaev']",General,{'crash': 100}
+e565ea867711ea06b4c03383231390aa3f7da6c0,"['mailbox', 'crash', 'thanks', 'backtrace']",General,{'crash': 100}
+92990042b3ca62195c1168c7bfe422e37f362466,"['drop', 'integer', 'overflow']",Risky_resource_management,{'integer overflow': 100}
+2684c92deaaf542d83c6bf4ede0025b8e03361b4,"['simplify', 'logic', 'duplicate', 'function', 'prototype', 'calculate', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+f841f32e0af795c547cadecca5599d4d6cf49b03,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+0b0210d30bc4fcb5cb3d72df00e98cfe86f2cc03,"['fingerprint', 'gpgme', 'return', 'fingerprint', 'crash']",General,{'crash': 100}
+e66229e1918ee1c86edb7d3cb661740cc8986541,"['conn', 'factorise', 'todo', 'main', 'difference', 'respect', 'option', 'option', 'default', 'impact', 'user', 'option', 'config', 'aware', 'security', 'concern']",General,{'security': 100}
+c4f1e625cf81da6f3371de6cea52a297ff650b1c,"['trivial', 'improvement', 'update', 'readme', 'sort', 'switch', 'case', 'sort', 'option', 'definition', 'sort', 'colour', 'field', 'variable', 'initialise', 'variable', 'iwyu', 'usage', 'comment', 'refactor', 'check', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+e1b8af6480329f0846b3081f46d457b17346634b,"['check', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+9deaed21296d70f048984067db737766f716949a,"['refactor', 'endwin', 'separate', 'curse', 'message', 'sleep', 'error', 'message', 'reorganise', 'startup', 'return', 'main', 'refactor', 'exit', 'redirect', 'message', 'dispatcher', 'update', 'message', 'message', 'page', 'comment', 'marker', 'test', 'case', 'crash', 'incomplete', 'template']",General,{'crash': 100}
+46569e71bf56e060c4304f19c16531139070ac59,"['crash', 'incomplete', 'template']",General,{'crash': 100}
+0c5bf38deb94a6566e3634dcc662c8fc1849ab95,"['crash', 'setting', 'string', 'string', 'option', 'char', 'pointer', 'string', 'pointer', 'setting', 'code', 'char']",General,{'crash': 100}
+3dff2cfcd78b116a5769928a520f9174043d8d2f,"['upstream', 'useless', 'assignment', 'function', 'history', 'search', 'function', 'potential', 'integer', 'overflow', 'content', 'length', 'value', 'french', 'translation', 'update', 'translation']",Risky_resource_management,{'integer overflow': 100}
+2b4718d80733da73778c895af725f20fe217f713,"['potential', 'integer', 'overflow', 'content', 'length', 'value']",Risky_resource_management,{'integer overflow': 100}
+a4da4f2dbbab48b5e724d2f00f1fc900516ffa15,['crash'],General,{'crash': 100}
+1b911ea3b389bf16cb4187b2a6884351b8d81b6b,"['base', 'memory', 'leak', 'issue']",Risky_resource_management,{'memory leak': 100}
+16efc279b03200d1b59ca09542b3f5ef9240ee39,"['couple', 'memory', 'leak', 'pattern', 'buffer', 'data', 'couple', 'case', 'pattern', 'simple', 'search']",Risky_resource_management,{'memory leak': 100}
+09ff726131ac594ff800f6e739302652fcf01c31,"['mime', 'default', 'smime', 'configuration', 'messier', 'situation', 'user', 'specify', 'multiple', 'configuration', 'variable', 'trac', 'ticket', 'reasonable', 'request', 'encrypt', 'specify', 'muttrc', 'problem', 'security', 'menu', 'choice', 'store', 'encryption', 'user', 'separate', 'sign', 'capability', 'store', 'default', 'encryption', 'overridden', 'smime', 'smime', 'default', 'mark', 'smime', 'alias', 'smime', 'config', 'smime', 'default', 'intent', 'user', 'need', 'smime', 'encryption', 'smime', 'common', 'request', 'thanks', 'michele', 'marcionelli', 'vincent']",General,{'security': 100}
+553a5eaaad2c0323555ed2b4e8626409efe86c59,"['message', 'security', 'backend', 'available', 'gitlab', 'issue', 'awkward', 'corner', 'case', 'mutt', 'mime', 'gpgme', 'unset', 'case', 'backend', 'available', 'withcrypto', 'various', 'config', 'enable', 'encryption', 'message', 'security', 'flag', 'compose', 'menu', 'error', 'smime', 'menu', 'available', 'clear', 'security', 'setting', 'compose', 'menu', 'warning', 'message', 'menu', 'compose', 'menu', 'corner', 'case', 'worth', 'large', 'effort']",General,{'security': 100}
+4ac1c81ed710c8b27dc23821330b2005f7122214,"['notmuch', 'query', 'string', 'parser', 'generic', 'notmuch', 'custom', 'uritag', 'list', 'stailq', 'helper', 'uritag', 'list', 'notmuch', 'query', 'string', 'parser', 'generic', 'enhance', 'query', 'string', 'notmuch', 'custom', 'parser', 'parse', 'query', 'string', 'method', 'problem', 'double', 'free', 'path', 'null', 'setting', 'member', 'path', 'tidy', 'doxygen', 'notmuch']",Risky_resource_management,{'double free': 100}
+8a7f330c37cb679afb34b2387d452c9d97fae375,"['initialize', 'memory', 'simplify', 'overflow', 'check']",Risky_resource_management,{'initialize memory': 92}
+a5605c02bd13eb18fdebb9c35fee1d53d868aa3d,['crash'],General,{'crash': 100}
+d12c9ea24faa34abb0800faf4d73c0f9495b56b0,"['notmuch', 'generic', 'imap', 'keywords', 'support', 'share', 'label', 'editing', 'imap', 'notmuch', 'code', 'buffer', 'length', 'imap', 'memory', 'leak', 'notmuch', 'method', 'declaration', 'need', 'macro', 'private', 'method', 'private', 'rename', 'headertag', 'taglist', 'useless', 'ifdef', 'store', 'imap', 'keywords', 'terminology', 'flag', 'rename', 'rename', 'modify', 'label', 'modify', 'rename', 'header', 'duplicate', 'allocation', 'notmuch', 'editor', 'return', 'code', 'rename', 'char']",Risky_resource_management,{'memory leak': 100}
+d2f422d9e3401cf11cd71da6db40b78c89248349,"['imap', 'memory', 'leak', 'case', 'error']",Risky_resource_management,{'memory leak': 100}
+78b760952f8629becbe557a41fc759a7a325467a,"['free', 'opts', 'exit', 'opts', 'free', 'exit', 'scenario', 'memory', 'leak', 'opts']",Risky_resource_management,{'memory leak': 100}
+b7652910685428fdbc0e002469f808234128bf50,"['imap', 'mbox', 'leak', 'valgrind', 'report', 'memory', 'leak', 'mbox', 'free', 'mbox']",Risky_resource_management,{'memory leak': 100}
+c63f828e7f3464664eca8e7923c0599a21689824,"['crash', 'notmuch', 'expando', 'imap', 'notmuch', 'code', 'check', 'notmuch', 'mailbox', 'header', 'data', 'thanks', 'xunam']",General,{'crash': 100}
+5247371af32009bda7837cf40c45840589c885a3,"['crash', 'mime', 'body', 'type', 'buffer', 'overrun', 'mime', 'type', 'bodytypes', 'table', 'entry', 'typeany']",Risky_resource_management,{'overrun': 100}
+2ffa97db92db18a4b76d26512af658138b4e36c7,['crash'],General,{'crash': 100}
+6b762f298b638828b7ad2b9fd881043c772e699e,['crash'],General,{'crash': 100}
+050cfcb2f128f8f3bc1ffbdc10c10e0a234b995c,"['buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100}
+19d96ef857d8773dd16d721608b2547482a579f8,"['imap', 'sync', 'segfault', 'inactive', 'header', 'expunge', 'close', 'mutt', 'active', 'hack', 'example', 'flag', 'update', 'exclude', 'flag', 'update', 'inactive', 'header', 'memory', 'leak', 'segfaults', 'elegant', 'solution', 'initial', 'hack', 'extra', 'thanks', 'chdiza']",Risky_resource_management,{'memory leak': 100}
+1bf3d02c07e19fe0bd8504f39bbba292cae946c4,"['crash', 'vfolder', 'query']",General,{'crash': 100}
+659cd2dc17463360adc70ce34fe538862b4216df,"['check', 'resend', 'message', 'return', 'value', 'message', 'crash']",General,{'crash': 100}
+1143be8457ebc6da6db7e743bef0a7f8a12633a0,"['edit', 'content', 'type', 'helper', 'warning', 'actx', 'index', 'overwrite', 'function', 'return', 'structural', 'warning', 'message', 'case', 'regenerate', 'multipart', 'subpart', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+3632e004b56f91ed5de9c154e8efff8362a05b26,"['upstream', 'mutt', 'default', 'comparison', 'crash', 'server', 'bcache', 'cast', 'comparison', 'drop', 'flag', 'argument']",General,{'crash': 100}
+9ac6e2dd021b3c8bd777b70bb04d060c175f2a3a,"['crash', 'null', 'inbox', 'point', 'empty', 'inbox', 'path', 'null', 'idata', 'mailbox', 'crash', 'idata', 'null', 'thanks', 'olaf', 'report']",General,{'crash': 100}
+ee1bcfdcee6962911290792a9a09e5f234e013ca,"['crash', 'null', 'inbox', 'point', 'empty', 'inbox', 'path', 'null', 'idata', 'mailbox', 'crash', 'idata', 'null', 'thanks', 'olaf', 'report']",General,{'crash': 100}
+6163bbe87c489ac58c9c53d4b6c8df442b5c567b,"['possible', 'security', 'problem']",General,{'security': 100}
+6705a39bd390ce9d53536c16ecd160ec1a0ecd2c,"['crash', 'multi', 'folder', 'mailbox', 'setup', 'line', 'muttrc', 'mutt', 'crash', 'sigsegv', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+68610f05ae6048304928407bda9509dab6cac94d,"['upstream', 'mutt', 'default', 'imap', 'field', 'imap', 'expunge', 'index', 'account', 'check', 'boundary', 'fetch', 'range', 'small', 'imap', 'fetch', 'abort', 'header', 'cache', 'evaluation', 'hole', 'overflow', 'check', 'variable', 'potential', 'segv', 'empty', 'string', 'close', 'clean', 'idata', 'open', 'append', 'mailbox', 'clean', 'idata', 'open', 'append', 'mailbox', 'memory', 'leak', 'imap', 'body', 'cache', 'cleanup']",Risky_resource_management,{'memory leak': 100}
+b3e7777f69b3cfd9cbdcbf84c447bf111d977262,"['memory', 'leak', 'sidebar', 'code', 'original', 'value', 'header', 'update', 'sidebar', 'code']",Risky_resource_management,{'memory leak': 100}
+e84b974927ae544caa1365ef97acb9baad1a043f,"['small', 'imap', 'fetch', 'integer', 'overflow', 'test', 'hostile', 'server', 'expunge', 'response', 'fetch', 'conservative', 'code']",Risky_resource_management,{'integer overflow': 100}
+c585a2a0e5a414c4d4f66f30801f57669a51d97c,"['account', 'parameter', 'simpler', 'header', 'cache', 'evaluation', 'look', 'msgcount', 'assumption', 'msns', 'order', 'need', 'simplify', 'header', 'cache', 'inner', 'loop', 'termination', 'memory', 'cleanup', 'logic', 'memory', 'leak', 'hole', 'header', 'cache', 'header', 'retrieval', 'logic', 'account', 'result', 'loop', 'inner', 'loop', 'termination', 'memory', 'cleanup', 'logic', 'simplify', 'outer', 'loop', 'fetch', 'return', 'encounter', 'corrupt', 'fetch', 'response', 'meaning']",Risky_resource_management,{'memory leak': 100}
+141da62ced3d3be293e680019d63cc388e6ce0e7,"['memory', 'leak', 'sidebar', 'code', 'original', 'value', 'header', 'update', 'sidebar', 'code']",Risky_resource_management,{'memory leak': 100}
+cefc030cb3c1606896030c12fc194be914dfbed7,"['small', 'imap', 'fetch', 'integer', 'overflow', 'test', 'hostile', 'server', 'expunge', 'response', 'fetch', 'conservative', 'code']",Risky_resource_management,{'integer overflow': 100}
+adb35c545384a3aef4d4efbe82ac771b950be6d6,"['account', 'parameter', 'simpler', 'header', 'cache', 'evaluation', 'look', 'msgcount', 'assumption', 'msns', 'order', 'need', 'simplify', 'header', 'cache', 'inner', 'loop', 'termination', 'memory', 'cleanup', 'logic', 'memory', 'leak', 'hole', 'header', 'cache', 'header', 'retrieval', 'logic', 'account', 'result', 'loop', 'inner', 'loop', 'termination', 'memory', 'cleanup', 'logic', 'simplify', 'outer', 'loop', 'fetch', 'return', 'encounter', 'corrupt', 'fetch', 'response', 'meaning']",Risky_resource_management,{'memory leak': 100}
+fce65a1fa5a6a55d58d6810c80c3782d5ec637a3,"['silent', 'rule', 'default', 'command', 'output', 'null', 'version', 'null', 'version', 'null', 'echo', 'unknown', 'compiler', 'txtc', 'echo', 'wall', 'pedantic', 'wall', 'werror', 'format', 'security', 'delete', 'null', 'pointer', 'check', 'delete', 'null', 'pointer', 'check', 'txtc', 'grep', 'config', 'status', 'txtc', 'conststrings', 'output', 'conststrings']",Risky_resource_management,{'null pointer': 100}
+51ff6d51c8009785122b744d6aea7e1a13b64299,"['upstream', 'mutt', 'default', 'setenv', 'function', 'note', 'mbox', 'hook', 'refresh', 'header', 'color', 'specific', 'execvpe', 'sendlib', 'color', 'command', 'compose', 'menu', 'header', 'security', 'status', 'close', 'sidebar', 'close', 'modify', 'lastfolder', 'currentfolder', 'folder', 'operation', 'redraw', 'flag', 'maildir', 'report', 'flag', 'header', 'rename', 'variable', 'flag']",General,{'security': 100}
+c6bb866f337861a35b0710d9240ffd26c8fa01db,"['color', 'command', 'compose', 'menu', 'header', 'security', 'status', 'color', 'compose', 'header', 'color', 'subject', 'field', 'compose', 'menu', 'color', 'compose', 'color', 'security', 'status', 'message']",General,{'security': 100}
+8e737a621f047579ca522646da8fdcd62dce68cd,"['color', 'command', 'compose', 'menu', 'header', 'security', 'status', 'color', 'compose', 'header', 'color', 'subject', 'field', 'compose', 'menu', 'color', 'compose', 'color', 'security', 'status', 'message']",General,{'security': 100}
+bc9e83e200dc7395b83f9d385a216191396de5da,"['clang', 'format', 'insert', 'space', 'struct', 'data', 'brace', 'whitespace', 'const', 'char', 'brown', 'lightgray', 'default', 'const', 'char', 'brown', 'lightgray', 'default']",Risky_resource_management,{'data brace': 95}
+aa8cd118fca46aace35f292dcea2382b54801183,"['readme', 'security', 'content', 'http', 'neomutt']",General,{'security': 100}
+d83401fa8a9b18315adcd6bfa99ff0aa25866e98,"['support', 'openssl', 'original', 'patch', 'phil', 'pennock', 'http', 'phil', 'pennock', 'software', 'mutt', 'patch', 'openssl', 'version', 'check', 'openssl', 'compilation', 'option', 'http', 'openssl', 'ticket', 'display', 'html', 'user', 'guest', 'guest', 'show', 'tlsext', 'compilation', 'option', 'ancient', 'insecure', 'version', 'library']",General,{'insecure': 100}
+53b1ed17301184c5f8e626f6ccd46c8b3bb53fa1,"['support', 'openssl', 'original', 'patch', 'phil', 'pennock', 'http', 'phil', 'pennock', 'software', 'mutt', 'patch', 'openssl', 'version', 'check', 'openssl', 'compilation', 'option', 'http', 'openssl', 'ticket', 'display', 'html', 'user', 'guest', 'guest', 'show', 'tlsext', 'compilation', 'option', 'ancient', 'insecure', 'version', 'library']",General,{'insecure': 100}
+b150c98b2a476c0be9a3f9f5d3338fc148d4895d,"['buffer', 'size', 'fmemopen', 'torify', 'buffer', 'size', 'fmemopen', 'torify', 'flush', 'memory', 'leak', 'initialize', 'variable', 'sanity']",Risky_resource_management,{'memory leak': 100}
+f08643a0e2a161ec76315a5264e0560c2b959642,"['upstream', 'mutt', 'default', 'clear', 'extraneous', 'error', 'memory', 'leak', 'subject', 'alternative', 'name', 'code', 'close', 'increase', 'account', 'field', 'size']",Risky_resource_management,{'memory leak': 100}
+2f7eeb57230e4bee3206130134a1272aad5ff250,"['memory', 'leak', 'subject', 'alternative', 'name', 'code']",Risky_resource_management,{'memory leak': 100}
+89dc13cfe042842739122b7180f295b14657f403,"['memory', 'leak', 'subject', 'alternative', 'name', 'code']",Risky_resource_management,{'memory leak': 100}
+e95052d4f26fdf6cf9e76da93b43c25525e9650d,"['upstream', 'mutt', 'default', 'flag', 'hash', 'creation', 'filter', 'local', 'cert', 'openssl', 'verification', 'plug', 'memory', 'leak', 'cert', 'code', 'potential', 'cert', 'memory', 'leak', 'show', 'interactive', 'cert', 'check', 'menu', 'null', 'pointer', 'exception']",Risky_resource_management,{'null pointer': 100}
+dab6a96ebac5ee07a224f602b22267c8f39f4660,"['null', 'pointer', 'exception', 'getaddrinfo', 'struct', 'addrinfo', 'canonical', 'name', 'node', 'argument', 'getaddrinfo', 'null', 'case', 'strchr', 'line', 'lead', 'segfault', 'behavior', 'macos', 'sierra', 'hostname', 'macos', 'simple', 'check', 'null', 'value']",Risky_resource_management,{'null pointer': 100}
+67dd5616b41caa54f7bacb02b270fc80286f8d47,"['potential', 'cert', 'memory', 'leak', 'thanks', 'matthias', 'andree', 'encounter', 'return', 'value', 'check', 'overwrite', 'cert']",Risky_resource_management,{'memory leak': 100}
+2ea74e4fbf0fc9fefd66152fc210703ca69b6005,"['plug', 'memory', 'leak', 'cert', 'code', 'creates', 'copy', 'certificate', 'offering', 'need', 'free', 'copy', 'afterwards', 'behaviour', 'openssl', 'master', 'source', 'code', 'reuse', 'cert', 'free', 'reallocation', 'overhead']",Risky_resource_management,{'memory leak': 100}
+448e0ce713c1fe824cfc2f6df51d8765bd1ef556,"['null', 'pointer', 'exception', 'getaddrinfo', 'struct', 'addrinfo', 'canonical', 'name', 'node', 'argument', 'getaddrinfo', 'null', 'case', 'strchr', 'line', 'lead', 'segfault', 'behavior', 'macos', 'sierra', 'hostname', 'macos', 'simple', 'check', 'null', 'value']",Risky_resource_management,{'null pointer': 100}
+197c1aa25c8e691aaa38f33ae4f0be6088f8bf17,"['notmuch', 'crash', 'notmuch', 'return', 'null', 'list', 'mutt', 'crash', 'autocomplete', 'thanks', 'william', 'pettersson', 'wpettersson', 'initial', 'patch']",General,{'crash': 100}
+d7c605611eb73dbccfcc7a87d43bf27232f39661,"['failure', 'return', 'notmuch', 'method', 'notmuch', 'implementation', 'message', 'user', 'interface', 'patch', 'return', 'zero', 'value', 'crash', 'pietro', 'cerutti', 'gahr', 'gahr', 'guyzmo', 'guyzmo', 'github']",General,{'crash': 100}
+7bea94e0e25261aa19e6dd426f12758057de9a9f,"['potential', 'cert', 'memory', 'leak', 'thanks', 'matthias', 'andree', 'encounter', 'return', 'value', 'check', 'overwrite', 'cert']",Risky_resource_management,{'memory leak': 100}
+7957200cf2c85ceed6d89a2e334a323016efcc22,"['plug', 'memory', 'leak', 'cert', 'code', 'creates', 'copy', 'certificate', 'offering', 'need', 'free', 'copy', 'afterwards', 'behaviour', 'openssl', 'master', 'source', 'code', 'reuse', 'cert', 'free', 'reallocation', 'overhead']",Risky_resource_management,{'memory leak': 100}
+7adf125fafc3b8b387fa767a535ddfe1fa533daa,"['coverity', 'issue', 'check', 'close', 'memory', 'leak', 'issue', 'null', 'subtype', 'wildcard', 'issue', 'assignment', 'conditional', 'assignment', 'conditional']",Risky_resource_management,{'memory leak': 100}
+dde4d5ad6c30e07cce1a727ac7a590d6ae241d06,"['abstract', 'generic', 'list', 'pattern', 'special', 'case', 'spam', 'generic', 'function', 'kevin', 'mccarthy', 'buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100}
+384726d556c8a040a66b41eaecd506e909508cab,"['free', 'global', 'hook', 'iterate', 'list', 'hook', 'buffer', 'buffer', 'free', 'hook', 'memory', 'leak', 'buffer']",Risky_resource_management,{'memory leak': 100}
+c3d9b1017c36093edd48a4c330e859944cd1100c,"['abstract', 'generic', 'list', 'pattern', 'special', 'case', 'spam', 'generic', 'function', 'kevin', 'mccarthy', 'buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100}
+e38035a80f06e86bd4c14739cd389806d752443f,"['place', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+0b6b7666c95e00e971e540e1ca5c626954f45af1,"['index', 'pager', 'crash', 'step', 'reproduce', 'open', 'reply', 'original', 'crash', 'index', 'redrawn', 'context', 'hdrs', 'null']",General,{'crash': 100}
+0b799a6b04527c7f0690b22221bdd7179cae6eb8,"['compress', 'logic', 'memory', 'leak', 'memory', 'realpath', 'free', 'stuff', 'copy', 'hook', 'compress', 'path', 'error', 'return', 'error', 'command', 'check', 'case', 'mailbox', 'file', 'content', 'append', 'hook', 'open', 'mailbox', 'temporary', 'file', 'need', 'work', 'mailbox', 'error']",Risky_resource_management,{'memory leak': 100}
+47f0710d55594407b19e8e395e136768127fae8d,"['crash', 'empty', 'folder']",General,{'crash': 100}
+08c181655609d08283c2d0b482c964a41198e48e,"['compress', 'logic', 'memory', 'leak', 'memory', 'realpath', 'free', 'stuff', 'copy', 'hook', 'compress', 'path', 'error', 'return', 'error', 'command', 'check', 'case', 'mailbox', 'file', 'content', 'append', 'hook', 'open', 'mailbox', 'temporary', 'file', 'need', 'work', 'mailbox', 'error']",Risky_resource_management,{'memory leak': 100}
+f14e00d5972976f387c4ed33cd92dca90997101d,"['crash', 'empty', 'sensible', 'browser', 'select', 'option']",General,{'crash': 100}
+18922784cb44613e67c32e2bc340a4eb424bea74,"['crash', 'imap', 'connection']",General,{'crash': 100}
+353a4f14b34f20a20c95d0281aaaed5db1f49269,"['upstream', 'mutt', 'default', 'root', 'message', 'function', 'root', 'message', 'thread', 'french', 'translation', 'integer', 'overflow', 'close', 'pager', 'segfault', 'lineinfo', 'chunk', 'overflow', 'charset', 'conversion', 'text', 'attachment']",Risky_resource_management,{'integer overflow': 100}
+fa666139ab7db8ac265844172631ca594b18567c,"['integer', 'overflow', 'close', 'check', 'sure', 'year', 'cast', 'intermediate', 'year', 'calculation', 'overflow', 'thanks', 'takahashi', 'tamotsu', 'patch', 'vincent', 'improvement']",Risky_resource_management,{'integer overflow': 100}
+a75b414d2bd783af473fa85e49f46bffb1ccb0f6,"['possible', 'random', 'pager', 'crash', 'crash', 'local', 'remote', 'mailbox', 'invalid', 'header', 'pointer', 'scenario', 'context', 'hold', 'array', 'header', 'pointer', 'pager', 'header', 'display', 'time', 'mailbox', 'context', 'array', 'necessary', 'context', 'total', 'header', 'pointer', 'invalid', 'email']",General,{'crash': 100}
+b329ecdf181951d6dee4b9f7b083978d61e8ba2e,"['integer', 'overflow', 'close', 'check', 'sure', 'year', 'cast', 'intermediate', 'year', 'calculation', 'overflow', 'thanks', 'takahashi', 'tamotsu', 'patch', 'vincent', 'improvement']",Risky_resource_management,{'integer overflow': 100}
+be816c30a17f3200730f93f3596d08b20b9094a1,"['crash', 'hdrline', 'report', 'http', 'debian']",General,{'crash': 100}
+b229d0457490131137f53649587998697819560d,"['crash', 'spoolfile', 'folder', 'spoolfile', 'folder', 'null', 'parameter', 'macos', 'crash', 'whereas', 'glibc', 'version', 'return', 'null', 'problem', 'sidebar', 'empty', 'path']",General,{'crash': 100}
+1ac617f9d4f93bbbb9cc7e19b767e21686f7a01d,"['attachment', 'name', 'attachment', 'ascii', 'name', 'mangle', 'filename', 'original', 'attachment', 'filename', 'double', 'copy', 'filename', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+f8160285f285c0bc3c93a2672ea1169af2f04481,"['crash', 'keywords', 'label', 'email', 'neomutt', 'label', 'list', 'string', 'string', 'hash', 'table', 'label', 'neomutt', 'email', 'label', 'reference', 'hash', 'list', 'label', 'hash', 'invalid', 'list', 'label', 'hash', 'table', 'hash', 'table', 'code', 'note', 'keywords', 'author', 'version', 'supplant']",General,{'crash': 100}
+dfd95b516aaafb2540dc35fe14077af4ebc5bb99,"['attachment', 'name', 'attachment', 'ascii', 'name', 'mangle', 'filename', 'original', 'attachment', 'filename', 'double', 'copy', 'filename', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+65fc87bf5b10415754b8db8ecceffe70605c48c2,"['crash', 'optimisation', 'fdelete', 'null', 'pointer', 'check', 'pointer', 'check']",Risky_resource_management,{'null pointer': 100}
+6ba1a117bcc2fd0df10dccd8f68bc42ddda9d76f,"['crash', 'pager', 'prevents', 'crash']",General,{'crash': 100}
+6b4c4caa801ffe2eefdb3d14273c5f640ea52927,"['crash', 'menu', 'pointer', 'idle']",General,{'crash': 100}
+efcf027b7b5a840fc5bb4baba1fc9ff9400c5be4,"['buffer', 'overrun', 'search', 'attach', 'keyword', 'regression', 'char', 'lowerkeyword', 'malloc', 'strlen', 'attachkeyword', 'strlen', 'attachkeyword', 'klen', 'attachkeyword', 'char', 'lowerkeyword', 'klen', 'klen', 'klen', 'actual', 'allocation', 'length', 'string', 'length', 'loop', 'comparison', 'need']",Risky_resource_management,{'overrun': 100}
+4f510cf69e9a236e512733e18e1ba56aaf182534,"['mailbox', 'startup', 'mutt', 'currentfolder', 'null', 'pointer', 'case']",Risky_resource_management,{'null pointer': 100}
+26628f17de297ca610461ef6906f2e8838eecbaf,"['tweak', 'behaviour', 'sensible', 'browser', 'code', 'crash', 'notmuch', 'drop']",General,{'crash': 100}
+a469efd9b6a47bcc37679c3ba74f6259002136d6,"['notmuch', 'crash', 'virtual', 'folder']",General,{'crash': 100}
+a12535c6c443ad421ff99b7ca33ca41376b12e75,"['whine', 'getrandom', 'debian', 'example', 'support', 'kernel', 'getrandom', 'current', 'stable', 'getrandom', 'vendor', 'kernel', 'machine', 'security', 'risk', 'urandom', 'mutt', 'quits', 'unsecure', 'randomness', 'srandom', 'random']",General,{'security': 100}
+5a8c47464ec7c4f3c56501732f26d67c6e1817d9,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+e94eaaac32a77fdc82996e29ed164241ccfd124a,"['arithmetic', 'exception', 'menu', 'pagelen', 'terminal', 'window', 'line', 'empty', 'mailbox', 'mutt', 'crash', 'division', 'zero', 'menu', 'equal', 'menu', 'pagelen', 'status', 'specific', 'line', 'notice', 'menu', 'pagelen', 'negative', 'pagelen', 'calculation', 'number', 'line', 'number', 'message', 'window', 'sure', 'calculation']",General,{'crash': 100}
+9c0993d97b4731f695ab1d3815260f801b3634df,"['memory', 'leak', 'sasl', 'pointer', 'time', 'need', 'data', 'field', 'null', 'memcpy', 'password']",Risky_resource_management,{'memory leak': 100}
+f8a6153e502fd6f907007c482cad014ccba4f08a,"['body', 'memory', 'leak', 'previous', 'value']",Risky_resource_management,{'memory leak': 100}
+5853c1b41e74bddc5ef20e3af6b1295c02bfe23f,"['body', 'charset', 'memory', 'leak', 'setting', 'charset', 'previous', 'value']",Risky_resource_management,{'memory leak': 100}
+da60e6d4d7686d414a440ab20a723460928b0854,"['sidebar', 'crash', 'existent', 'mailbox', 'folder', 'existent', 'mailbox', 'context']",General,{'crash': 100}
+bc03749639f16f7a4a5adc7a820b2b40faa68623,"['close', 'thanks', 'yuan', 'kang', 'security', 'researcher', 'columbia', 'university', 'university', 'virginia']",General,{'security': 100}
+b259bf945ec4e3edcccc58dd0da37ed5bfd36031,"['inline', 'security', 'instance', 'oppencrypt', 'inline', 'ensure', 'noop', 'section', 'part', 'case', 'subtype', 'security']",General,{'security': 100}
+cc588fbf5d071a0380b06cb868d8bf3428bd731c,"['potential', 'memory', 'leak', 'close', 'nonreversible', 'character', 'output', 'buffer', 'thanks', 'richard', 'russon', 'report', 'initial', 'patch', 'takahashi', 'tamotsu', 'analysis', 'suggestion']",Risky_resource_management,{'memory leak': 100}
+98aff986359198727ec4401c893ed05d3c441d38,"['crash', 'close', 'hcache', 'dprint', 'dprint', 'crash', 'strlen', 'dprint', 'message', 'tcdbopen', 'tcdbclose', 'report', 'path', 'strerror', 'errno', 'thanks', 'yardley', 'stack', 'trace']",General,{'crash': 100}
+2b5f8e40f201c5e705f53bf456640b5e718fe6c7,"['event', 'error', 'previous', 'patch', 'vincent', 'crash', 'ftruncate']",General,{'crash': 100}
+0b29217a9f974a7dc1a95ae42aa872850e63041e,"['command', 'list', 'document', 'behavior', 'security', 'consideration', 'section', 'mailto', 'link']",General,{'security': 100}
+0aeb67b0893ff3afcc064778b8f30cd72f3c9d5e,"['resolv', 'conf', 'gethostname', 'getaddrinfo', 'canonical', 'domain', 'thanks', 'vincent', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+3a87886e8036d8e36e790ab51ed752ca44e8bbba,"['smime', 'decryption', 'multipart', 'decryption', 'block', 'work', 'check', 'header', 'place', 'newhdr', 'security', 'function', 'return', 'context', 'smime', 'decryption', 'block', 'content', 'application', 'decryption', 'block', 'security', 'type', 'part', 'content']",General,{'security': 100}
+eeb8d3b8e0ece3bf9bb798788264aa56883956ff,"['attachptr', 'tree', 'free', 'cleanup', 'section', 'free', 'error', 'tree', 'memory', 'leak', 'attachment', 'level', 'compose', 'menu', 'tree', 'pointer', 'part', 'code', 'compose']",Risky_resource_management,{'memory leak': 100}
+7022ae3642a8dcdff3836f958e83941f449ccc3d,"['case', 'mutt', 'version', 'mktemp', 'insecure', 'mktemp', 'warning', 'discussion', 'prefix', 'suffix', 'functionality', 'tempdir', 'mutt', 'source']",General,{'insecure': 100}
+42bb00f6dbdb14b8c1641c24f4f19f7d9ae03efc,"['element', 'oppenc', 'mode', 'status', 'message', 'security', 'line', 'oppenc', 'ability', 'toggle', 'menu', 'show', 'ncrypt', 'option', 'lear', 'function', 'clear', 'sign', 'smimeencrypt', 'smime', 'flag', 'application', 'unset', 'switch', 'statement', 'choice', 'number', 'oppenc', 'option', 'message', 'choice', 'letter']",General,{'security': 100}
+c9e240b3cc0d79d3b55209cdfddcbbc280f823fb,"['security', 'message', 'oppenc', 'mode', 'message', 'level', 'encryption', 'oppenc', 'postpone', 'resume', 'code', 'persist', 'oppenc', 'resend', 'message', 'enable', 'invoke', 'oppenc', 'option']",General,{'security': 100}
+61188050987aeaf2437aeba93f81be9e9cd8ae9f,"['context', 'data', 'memory', 'leak', 'gpgme', 'context', 'data', 'cleanup', 'place', 'usage', 'multiple', 'unref', 'array', 'list', 'unref', 'gpgme', 'version']",Risky_resource_management,{'memory leak': 100}
+b9b890120b7006dc82f347cf515e974bd9cc505c,"['memory', 'leak', 'single', 'result', 'query', 'result', 'patch', 'creates', 'function', 'code', 'everywhere']",Risky_resource_management,{'memory leak': 100}
+dadc67f23865c9a4d084620af11e2b49eb6241e1,"['buffer', 'overrun', 'string', 'length', 'address', 'expansion']",Risky_resource_management,{'overrun': 100}
+237db407c197c33032bbaf8dc12d8664a5d470d5,"['memory', 'leak', 'single', 'result', 'query', 'result', 'patch', 'creates', 'function', 'code', 'everywhere']",Risky_resource_management,{'memory leak': 100}
+d2304e025348626bc5e9de256e416b64d14ced7d,"['potential', 'buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100}
+cb9609b301b2d90efd8e4a33ce431a51ed91f987,"['memory', 'leak', 'multiple', 'label', 'supersedes', 'header', 'field', 'header', 'order', 'current', 'behavior', 'value', 'header', 'field', 'free', 'previous', 'value']",Risky_resource_management,{'memory leak': 100}
+2fa300d025ef901c755101b700ba1033810950ef,"['null', 'pointer', 'dereference', 'notation', 'name']",Risky_resource_management,{'null pointer': 100}
+b60fc972c4cae3366f773e6ff2a650627c280e5b,"['crash', 'index', 'contains']",General,{'crash': 100}
+a2ce7c34e8a314022d2f42cacd8304b6354595dc,"['setting', 'message', 'security', 'hook', 'patch', 'delay', 'message', 'security', 'option', 'user', 'initial', 'chance', 'edit', 'message', 'security', 'option', 'patch', 'user', 'setting', 'security', 'behavior', 'user', 'message', 'security', 'editing', 'message']",General,{'security': 100}
+219c92a48e5b8abe49908bf37892e46dca4fd1b2,['crash'],General,{'crash': 100}
+ae91629264ba016e9c51372c290f386946429b44,"['return', 'success', 'memory', 'leak', 'error', 'unable', 'parse', 'mailto']",Risky_resource_management,{'memory leak': 100}
+f087413e36179196b641fcba42b8b4037cfcfbf0,"['crash', 'limit', 'user', 'enters', 'invalid', 'regexp']",General,{'crash': 100}
+63245c50977f526a7496917313c031d35f7a39b8,"['clarity', 'uniformity', 'compose', 'menu', 'crypto', 'display', 'incorporates', 'feedback', 'security', 'hint']",General,{'security': 100}
+dfa3a46e954a89457ca458fc89486aee093196d8,"['option', 'menu', 'encryption', 'toggle', 'mime', 'type', 'security']",General,{'security': 100}
+fa9cf13ef7556026c4347d66d99c9353e3e58ea9,"['crash', 'invalid', 'regexp', 'search', 'string']",General,{'crash': 100}
+c2f74c74934baf304cde36560d33dbb304c37fc0,"['buffer', 'overflow', 'format', 'string', 'spam', 'command']",Risky_resource_management,{'buffer overflow': 100}
+b856f79240794a1b67dc29d16de3a56baebd7127,"['free', 'impossible', 'personal', 'null', 'point', 'calloc', 'couple', 'line', 'aron', 'griffis', 'agriffis']",Risky_resource_management,{'null point': 91}
+86680726e18a4fa1a700a95b6401603d01e1c8e5,"['disables', 'insecure', 'sslv', 'protocol']",General,{'insecure': 100}
+3149ebf49dc4a5c53262350642ec1063ff4437ce,"['password', 'batch', 'mailx', 'mode', 'password', 'curse', 'sasl', 'authentication', 'callback', 'crash', 'mutt', 'abort', 'password']",General,{'crash': 100}
+5b2feaba2866725f155dd14bded5a7dff74c2560,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+b1b4c950d421faf84997fd743747d9209b057f9b,"['plug', 'memory', 'leak', 'sendlib']",Risky_resource_management,{'memory leak': 100}
+c787a28462b649e95bd10e154d1fa59ada9411fd,"['duplicate', 'section', 'mailcap', 'security', 'chapter', 'mailcap', 'usage', 'link']",General,{'security': 100}
+43483582f54c3d6c9d04842e92bb3a03644b9037,"['short', 'chapter', 'security', 'consideration']",General,{'security': 100}
+1916d99f953275170f71bb043e704de518d44167,['crash'],General,{'crash': 100}
+38f81e18eaf909d0e5420d2e2549e98a1135d5e7,"['guard', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+a2edb740abb788e961ac28d5cb03a3b87bd46be7,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+3923c7a66658ebed0b51e287b84f56382051010d,"['integer', 'overflow', 'detection', 'hash', 'function']",Risky_resource_management,{'integer overflow': 100}
+3425ccdbc097b01478c3be3c34160c4f06656922,"['fatal', 'fatal', 'error', 'fatal', 'error', 'data', 'loss', 'mutt', 'attempt', 'display', 'material', 'application', 'attachment']",Risky_resource_management,{'data loss': 100}
+960e92386c04df4165ad084ab0b6ba69146f0be6,"['wrap', 'fqdn', 'nonull', 'crash', 'fqdn', 'null']",General,{'crash': 100}
+fdd25f418ea3bee61628e414c5446913f712af52,"['trust', 'history', 'file', 'mutt', 'code', 'history', 'class', 'prevents', 'crash', 'result', 'wrong', 'history', 'file', 'negative', 'high', 'class']",General,{'crash': 100}
+b2612e5cb1e89b9abf896060854b97d93fcb60e8,"['buffer', 'overflow', 'long', 'header', 'bail', 'case', 'main', 'catchup', 'mailto']",Risky_resource_management,{'buffer overflow': 100}
+8bc2bcfc7c050cb5b788fde86477d9cf23ea6d6d,"['empty', 'pipe', 'format', 'string', 'crash', 'unset']",General,{'crash': 100}
+c7eeabe624fa9cd63ff38aaac911796a8454944d,"['share', 'code', 'current', 'implementation', 'multibyte', 'unaware', 'buffer', 'overflow', 'issue', 'large', 'terminal', 'code', 'sure', 'right', 'content']",Risky_resource_management,{'buffer overflow': 100}
+efa85be15ef566f3ff0414fb40507ecad584a409,"['column', 'byte', 'past', 'buffer', 'patch', 'crash']",General,{'crash': 100}
+b99fa8af8f6684b42411c39df7d9d4146d118d5a,"['buffer', 'overflow', 'variable', 'question', 'track', 'string', 'size', 'string', 'width']",Risky_resource_management,{'buffer overflow': 100}
+bc01f69aa31db8d9b2400587c9cf684efe1c51c0,"['format', 'code', 'additional', 'text', 'reading', 'text', 'test', 'line', 'space', 'character', 'space', 'space', 'simplify', 'code', 'check', 'curline', 'null', 'size', 'zero', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+08f723d8da41016dbaafccb9cfde7b33869b9cf6,"['small', 'hcache', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+3f3db4ed36d37052f26e370b6f7534fb47bd364d,['crash'],General,{'crash': 100}
+f3d6752969edba83efbc3e7b0591cc479371e5ab,"['full', 'null', 'pointer', 'dereferences', 'partial', 'open', 'thanks', 'brush']",Risky_resource_management,{'null pointer': 100}
+1aff0540df1d1a244e450a12bf61c42b06323676,"['null', 'pointer', 'issue']",Risky_resource_management,{'null pointer': 100}
+98e71b9ea675f607f1945b4eec348d89d4a0838a,"['small', 'memory', 'leak', 'couple', 'leak', 'error', 'condition']",Risky_resource_management,{'memory leak': 100}
+c66aa122f09761b4990cb56356982021d4382a83,"['small', 'memory', 'leak', 'score', 'pattern']",Risky_resource_management,{'memory leak': 100}
+8d01f3ecc18ee9bf00a651113b71bfc5486e3b75,"['security', 'check', 'check', 'memory', 'function', 'check', 'free', 'check', 'message']",General,{'security': 100}
+2e4d28035590f1f93ea0eebd48586286dcffabe3,"['null', 'pointer', 'dereference']",Risky_resource_management,{'null pointer': 100}
+685fcb4eb4449b1cf3347af40c153525443db8cc,"['memory', 'leak', 'cleanup', 'shutdown']",Risky_resource_management,{'memory leak': 100}
+6f3f7278fb90686b11793a5a5373ce12ffb0d456,"['result', 'message', 'clear', 'security', 'result', 'signature']",General,{'security': 100}
+415faa961485c3080dcbe4f5d9a9013673810be7,"['nospam', 'spam', 'null', 'pointer', 'dereference']",Risky_resource_management,{'null pointer': 100}
+2a205f3d94339dbc255221f6e6fb1d393df59e02,"['patch', 'segfault', 'possible', 'null', 'pointer', 'body']",Risky_resource_management,{'null pointer': 100}
+757c93c4a685940bb695d909ad6294d7197aedbc,['crash'],General,{'crash': 100}
+a67695bdcd1c3eb196e5876f721e2d84295e96d9,"['crash', 'null']",General,{'crash': 100}
+e0f5687ada6ae224589ec31fa4dd7b4a83edb701,"['memory', 'leak', 'generic', 'spam', 'detection', 'code']",Risky_resource_management,{'memory leak': 100}
+cebb7280209221e45c20b02c2bd554903d1eb173,"['imap', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+6a8bcebe7eb147d4ff356eea6edec361e39bbf20,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+deb122b07dd496694cc1cc6f7aad0a42c8017a9d,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+bf85e437dc0f975f659654da5bcfbad06bba51d1,"['null', 'pointer', 'deference', 'fiveash', 'william', 'fiveash']",Risky_resource_management,{'null pointer': 100}
+b5854acf84795f0a7e741a9e6607a629e0cf3905,"['null', 'pointer', 'deference']",Risky_resource_management,{'null pointer': 100}
+8186d18a05f0e61667d3d1dd2e71c0709295c822,"['double', 'free', 'problem', 'support']",Risky_resource_management,{'double free': 100}
+4690df792675e5974bef94852ab648f32a46aa1a,"['memory', 'corruption']",Risky_resource_management,{'memory corruption': 100}
+26fd864f8522c592ddd024ace4792c7915d6171b,"['buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100}
+adac254cb68768b1e18949ddc913148c7c9a4b3d,"['buffy', 'memory', 'leak', 'envelope', 'structure', 'parse', 'comment', 'deallocate', 'envelope', 'structure']",Risky_resource_management,{'memory leak': 100}
+294648bb27a627d49457fa37234c55665e7993e4,"['memory', 'leak', 'user', 'domain', 'buffer', 'memory', 'leak', 'scratch', 'buffer']",Risky_resource_management,{'memory leak': 100}
+0ea624ecb5ec7531925278765584f47a11281bf6,"['null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+30ebc8ba75bb21dae506c22d119ea00247a3bb46,"['memory', 'leak', 'vineet', 'kumar', 'mutt']",Risky_resource_management,{'memory leak': 100}
+f2b566cc9dbe98f9c656cf90666bb9a8bad05726,"['memory', 'leak', 'code']",Risky_resource_management,{'memory leak': 100}
+dbdf109a9d061338b392b2e696dad5d0d78ca612,"['shut', 'security', 'hole', 'ugly', 'code']",General,{'security': 100}
+5c1e7c59ceb6d40eaf34dd65cc5ef722e039a1ed,"['possible', 'buffer', 'overflow', 'error', 'imap', 'util', 'line', 'error', 'maximum', 'field', 'width', 'indication', 'sscanf', 'buffer', 'number', 'character', 'null', 'character']",Risky_resource_management,{'buffer overflow': 100}
+7c939a7fb087f49baa37eba2386e1bca78492ccc,"['durval', 'menezes', 'durval', 'security', 'implication']",General,{'security': 100}
+d55341dbdf99743ba9d3e61e3851e73ae57bf5cc,"['security', 'problem']",General,{'security': 100}
+d865e08026c0b3f86822a61394a4d3cf1bbe43c4,['crash'],General,{'crash': 100}
+979089e0f0d081635929038405a3dbb18b43ab57,"['place', 'look', 'buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100}
+34a7399b2239f619dc20aabcc45b90f9ca8af110,"['alias', 'unalias', 'command', 'menu', 'patch', 'basic', 'behaviour', 'delete', 'undelete', 'function', 'menu', 'untags', 'original', 'crash', 'oliver', 'kauss', 'kauss']",General,{'crash': 100}
+f2ab00f35f46b3294e9dcdd4c877f605e501f2c1,"['memory', 'leak', 'pawel', 'salek', 'brendan']",Risky_resource_management,{'memory leak': 100}
+e5c37a3979d1666014424efb1b87ff745ec29ef1,"['check', 'return', 'value', 'error', 'possible', 'crash']",General,{'crash': 100}
+7c48ba937d2247e92fce201ba961d5bd62fc2708,"['memory', 'leak', 'pointer', 'header', 'editing']",Risky_resource_management,{'memory leak': 100}
+2985e7257f11df74901d14c553a6682458c05a99,"['crash', 'patch']",General,{'crash': 100}
+ef53ef4db6cadc5f6ecd784ac5c7558ed9d056fd,"['buffer', 'overrun', 'gordon', 'sadler', 'gbsadler', 'lcisp']",Risky_resource_management,{'overrun': 100}
+10314741c279f268f2ff1a311adfcb27a05e1a2a,"['null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+1bea807d4e64c29e49a965f62b1e462ce5fb477a,"['check', 'unsafe', 'malloc', 'realloc', 'free', 'strdup', 'routine', 'plug', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+1c9b764c6dd3b43315aa9ccf6894ad7a2733a4a9,"['possible', 'security', 'problem', 'fine', 'comb', 'current', 'source']",General,{'security': 100}
+901af0d3c46454d0089a78ae2f8a0fe894abc5bb,"['security', 'check']",General,{'security': 100}
+4a4db7e8751e59ee160379d910563aa11822abd8,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+5aaa59886a6406d77b3c0b1f105816f39a80d2de,"['possible', 'null', 'pointer', 'deference', 'chris', 'usenet', 'chiappa', 'chris', 'chiappa']",Risky_resource_management,{'null pointer': 100}
+ff78dd374aeaad8ca0d4ba6e088d5837c25eaacb,"['version', 'byrial', 'jensen', 'yesorno', 'patch', 'time', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+a748ab2b4584652edbd6424880befb363f8e2cce,"['buffer', 'overrun', 'complete']",Risky_resource_management,{'overrun': 100}
+3c3456cd6f5e250d33baded680e90a3bb18c4f54,"['possible', 'imap', 'memory', 'corruption', 'brendan']",Risky_resource_management,{'memory corruption': 100}
+35a0be69ccfd5e1fd6927b0a1258bbaa8248b3f6,"['possible', 'null', 'pointer', 'deference', 'code']",Risky_resource_management,{'null pointer': 100}
+b3f92636120b8e9e08540182af3e55fe2c9c89eb,"['connection', 'descriptor', 'value', 'ready', 'reading', 'imap', 'login', 'segfault', 'conn', 'sockdata', 'null', 'memory', 'leak', 'conn', 'sockdata']",Risky_resource_management,{'memory leak': 100}
+6dc2fb36a641b553830c4ed122708e03830b8e3c,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+9e7d84080048f42bdb4182f12e8cbe0437290df6,"['initialize', 'memory', 'vsevolod', 'volkov', 'lucky']",Risky_resource_management,{'initialize memory': 92}
+bf90fbce7d79678543f4f364830cd2f33bd5e5a3,"['null', 'pointer', 'deference']",Risky_resource_management,{'null pointer': 100}
+6262ca1edca07d00fb8868b026f610c860a20928,"['crash', 'null', 'context', 'pointer']",General,{'crash': 100}
+b04ce07f7ed5a21089f890c7a3de9349f2f74bfd,"['null', 'pointer', 'deference']",Risky_resource_management,{'null pointer': 100}
+e1518ad665c59685678fe322f72ae7442c53e746,"['crash', 'mutt']",General,{'crash': 100}
+823754d3c5ac24e7322d325f909506889d57cb91,"['previous', 'patch', 'small', 'buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100}
+ec275acaff17afe675c83919a2562449921966e8,"['memory', 'leak', 'behalf', 'daniel', 'eisenbud']",Risky_resource_management,{'memory leak': 100}
+1c26cdb5f08d00e567942381ee8bf3d4e9566843,"['null', 'pointer', 'snprintf', 'solaris', 'version', 'thomas', 'parmelan', 'efrei']",Risky_resource_management,{'null pointer': 100}
+a381a290adfe3ffa67d1ecde7482111cfa4ef3ad,"['buffer', 'overflow', 'overflow', 'text']",Risky_resource_management,{'buffer overflow': 100}
+daf0ce94cf99356ce3459923c13f96619b781874,"['small', 'patch', 'catch', 'possible', 'null', 'pointer', 'dereference', 'server', 'imap', 'completion', 'cosmetic', 'cyrus', 'compatibility', 'update', 'imap', 'part', 'manual', 'brendan', 'brendan', 'kublai']",Risky_resource_management,{'null pointer': 100}
+afe540492aa62698330d80297d3c6364d7690705,"['strtok', 'null', 'pointer', 'problem']",Risky_resource_management,{'null pointer': 100}
+0e1d54d1ac42bab1b685ff4a27a4828cc51bda65,"['redoes', 'folder', 'update', 'optimisation', 'memory', 'leak', 'mutt', 'append', 'folder', 'mutt', 'browse', 'root', 'directory', 'flag', 'imap', 'server', 'store', 'message', 'expunge', 'exit', 'note', 'attempt', 'play', 'mark', 'thing', 'disappear', 'brendan', 'brendan', 'kublai']",Risky_resource_management,{'memory leak': 100}
+68af273d3fd9b9506fa394abb5458ab3c111de0d,"['note', 'readme', 'security']",General,{'security': 100}
+9d8b554b7227bfa2bff1947edb6d7d92e1a3a5dc,"['memory', 'leak', 'liviu']",Risky_resource_management,{'memory leak': 100}
+da983ec0dcd4a6809e108cf0130e52ad692a1596,"['install', 'readme', 'security', 'directory', 'document']",General,{'security': 100}
+d880c396dc1831f2ab64927b104f1263ab95b282,['security'],General,{'security': 100}
+dbbaae86df3d86f9bec13a317c000d17453dfa9d,"['memory', 'leak', 'roland', 'rosenfeld']",Risky_resource_management,{'memory leak': 100}
+1818971a2e19f30bee149bae0e27dce6e9eb5262,"['possible', 'buffer', 'overflow', 'pavel', 'gulchouck', 'lucky']",Risky_resource_management,{'buffer overflow': 100}
+670f6c6855f57a15b5e208fa5b98e791e6740aef,"['harden', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+3f6c8ef396fffa0f978e5cd7f5274fd074b5bdb9,"['patch', 'completion', 'buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100}
+80693d8b2efa6e3375f580527a6e03424457f5c3,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+67cca7ea37a555d2ddc3955b0cb87965e1111569,"['possible', 'memory', 'leak', 'problem', 'patch']",Risky_resource_management,{'memory leak': 100}
+b8656eebecc4f8ae1f02087bda4b4e7eec46d0c4,"['memory', 'leak', 'explanation', 'phraselen', 'phrase', 'phraselen', 'phrase', 'comment', 'commentlen', 'sizeof', 'comment', 'personal', 'comment', 'commentlen', 'personal', 'comment', 'ifdef', 'line', 'contains', 'group', 'terminator', 'phraselen', 'commentlen', 'complete', 'address', 'specification', 'address', 'information', 'case', 'recipient', 'recipient', 'note', 'extra', 'case', 'code', 'overwrite', 'null', 'pointer', 'finish', 'address', 'spec', 'recipient', 'case', 'previous', 'code', 'comment', 'complete', 'addr', 'spec']",Risky_resource_management,{'null pointer': 100}

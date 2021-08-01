@@ -1,37 +1,7 @@
-sha,message,catetory,matched,labels
-a11a7e5afe8957ba3be0f8af298c6149e21af1dc,"['buffer', 'macho', 'overrun']",Risky_resource_management,{'overrun': 100},
-4782d10257693a30bf84b4b33159d02594ece005,"['buffer', 'dotnet', 'overrun']",Risky_resource_management,{'overrun': 100},
-afa90305666f66600b5406fff1d7a58a31dd98e1,"['buffer', 'overflow', 'macho', 'module']",Risky_resource_management,{'buffer overflow': 100},
-6eb7cef519eb98aed4a0a70294adb0905fe2e642,"['memory', 'digital', 'crash', 'binary', 'reading', 'medium', 'mappedclose']",Risky_resource_management,{'crash': 100},
-cd5820f4ae71c135498308c0ce4daf359a8dcbb3,"['paranoid', 'integrity', 'check']",Risky_resource_management,{'integrity check': 100},
-871b921f79facab9f99bf0855f7b99027671b719,"['buffer', 'overrun']",Risky_resource_management,{'overrun': 100},
-7a5a2b6d4acbe58ed9ea4164ca0a1ee802078e8b,"['overrun', 'dotnetbuffer', 'boundary', 'overrun']",Risky_resource_management,{'overrun': 100},
-e83662f85c6f9534dc19e1a0cede55bebc64f21f,"['buffer', 'overflow', 'dotnetcredit']",Risky_resource_management,{'buffer overflow': 100},
-462ffd339228ac57d98e8034239d122e4303f653,"['buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100},
-69db61d46efba387e0460b3af2593d4a4e45bb22,"['usage', 'pointerusage', 'pointerclient', 'crash', 'automaton', 'function', 'calledautomaton', 'lignecompiler', 'lignecompiler']",Risky_resource_management,{'crash': 100},
-7493247020e24407f120b6b29f6dd43c883e2f21,"['buffer', 'overflow', 'dotnetcredit']",Risky_resource_management,{'buffer overflow': 100},
-afe57c2f3444989d271ac4a3f7ce10c7873a341b,"['buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100},
-7eb3bfc11b790e743ed854d98f998f85ab80cffd,"['integrity', 'check']",Risky_resource_management,{'integrity check': 100},
-992480c30f75943e9cd6245bb2015c7737f9b661,"['overrun', 'assert', 'issue']",Risky_resource_management,{'overrun': 100},
-5fd4ec80cc3bcd5095e91a156a61e29305299e59,"['microsoftexception', 'subprocess', 'model', 'crash', 'check', 'switchexception', 'demonstratorcurrent', 'handler', 'signal', 'behavior', 'seemshandle', 'thread', 'signal']",Risky_resource_management,{'crash': 100},
-51470c36f02ec9b9d4376342fdddaf57470ce66b,"['adbeeab', 'mergerequest', 'security', 'master', 'mergemaster']",General,{'security': 100},
-43ffdcc226325e208d01172cd27870d3e046d79f,"['endpoint', 'software', 'endcase', 'guidance', 'security']",General,{'security': 100},
-c6288b737f0d4e38d28ce78a69dd515798330e36,"['mergerequest', 'wxsbsd', 'mergecrypto', 'crash']",Risky_resource_management,{'crash': 100},
-d522a891d2723df229705df4eb1113fa4753cade,"['stack', 'overflow', 'potential']",Risky_resource_management,{'stack overflow': 100},
-ff39967e55b8ee2af1d897db14bf059a7d7f9142,"['openssl', 'multileast', 'array', 'array', 'unlock', 'mutex', 'bunch', 'crash', 'object', 'checksum', 'xfafc', 'incorrect', 'errorobject', 'threadxfffefdeabort', 'xfffbxfffccbxfffeexfffeeafxfffebfcxfffeefxfffeecxfffceaxfffcefdxfffceedleast']",Risky_resource_management,{'crash': 100},
-15d249b4d58b496e485c4f8da5f1b4de799d6608,"['integrity', 'check']",Risky_resource_management,{'integrity check': 100},
-d1fa24bf0734fd5c4ef9ca386e065bfde8a4a26b,"['buffer', 'overrun']",Risky_resource_management,{'overrun': 100},
-81ec39e68050f82dc8ea85a7850b10c39e430d4e,"['compiler', 'callback', 'warning', 'crash']",Risky_resource_management,{'crash': 100},
-df87f7eeffc5c27bed75517a6adb26e4b9c9b3a8,"['overrun', 'buffer']",Risky_resource_management,{'overrun': 100},
-2eaafa8fed2c8d1e808e9116c403240d3dbf2a31,"['buffer', 'module', 'overrun']",Risky_resource_management,{'overrun': 100},
-24d001d25d4446f53a3267523d9b4aa5d51c3b33,"['buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100},
-3f0380947c39ff94040c0515d4d769184e892811,"['buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100},
-619831cb88558bd99c8100ad2ee33697435a1118,"['buffer', 'overflow', 'issue']",Risky_resource_management,{'buffer overflow': 100},
-d0575ef46c4b4270ca6d95966f39373a48410ec6,"['stack', 'overflow', 'vulnerability']",Risky_resource_management,{'stack overflow': 100},
-28c731583ed0e0b0c3331ed0aaf9338bb3f92947,"['buffer', 'issue', 'overrun']",Risky_resource_management,{'overrun': 100},
-76855241ce2e7b0366215151150f19f76792ed84,"['memory', 'overflow', 'bitwise', 'operation', 'issue']",Risky_resource_management,{'memory overflow': 100},
-4c5810213b706d1a2a06e2efa3b4c9a5ff0bd89f,"['integer', 'overflow', 'potential']",Risky_resource_management,{'integer overflow': 100},
-22c6055d9216677dd8b086ecbb8af814fb9c5309,"['mergerequest', 'master', 'mergedirectory', 'shutdown', 'crash']",Risky_resource_management,{'crash': 100},
-5fdc62a406807fc1be8484441bdb61d7510e350e,"['removewrong', 'removinganotherreplacedenough', 'stillanymore', 'crash']",Risky_resource_management,{'crash': 100},
-5893e2990f8e3c525187050207b48dd359016745,"['mergedeletion', 'crash', 'request', 'theospearsdirectory', 'condition', 'deletion', 'crash']",Risky_resource_management,{'crash': 100},
-2e831999218814170a118b234a792917ccaa9ff7,"['directory', 'condition', 'deletion', 'crash', 'avoiddirectory', 'structure', 'condition', 'different', 'practicereport', 'ideal', 'wouldwithout', 'order', 'parent', 'significantlyreport', 'usage', 'memory']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+19eb494dce9fc01c9821a0b909755c3cca94593f,"['race', 'condition', 'crash', 'directory', 'race', 'condition', 'case', 'directory', 'example', 'external', 'watchdog', 'walk', 'contains', 'directory', 'point', 'external', 'external', 'touch', 'watchdog', 'walk', 'test', 'case', 'example', 'ensure', 'exception']",General,{'crash': 100}
+22c6055d9216677dd8b086ecbb8af814fb9c5309,"['pull', 'request', 'prps', 'master', 'crash', 'shutdown', 'root', 'directory']",General,{'crash': 100}
+b692c5b7fcae14a22099a9db33a2166f40996af1,"['crash', 'shutdown', 'root', 'directory', 'crash', 'keyerror', 'directory', 'event', 'guard', 'crash']",General,{'crash': 100}
+5fdc62a406807fc1be8484441bdb61d7510e350e,"['event', 'crash']",General,{'crash': 100}
+5893e2990f8e3c525187050207b48dd359016745,"['pull', 'request', 'theospears', 'crash', 'deletion', 'race', 'condition', 'crash', 'directory', 'deletion']",General,{'crash': 100}
+2e831999218814170a118b234a792917ccaa9ff7,"['race', 'condition', 'crash', 'directory', 'deletion', 'directory', 'structure', 'race', 'condition', 'list', 'entry', 'ideal', 'behaviour', 'order', 'walk', 'parent', 'memory', 'usage', 'copy']",General,{'crash': 100}

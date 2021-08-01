@@ -1,8 +1,19 @@
-sha,message,catetory,matched,labels
-8c9710c76cb9d3fe6db5e4026ceccbd83c2d03f4,"['lbryio', 'processor', 'block', 'crash', 'requestinvalid', 'processor', 'block', 'claim']",Risky_resource_management,{'crash': 100},
-09ee104b8cb3f198abfded05f1876da2855eb2f8,"['mergemerge', 'lbryio', 'crash', 'request', 'reorgwallet', 'reorg', 'server']",Risky_resource_management,{'crash': 100},
-cc5852a9b982bb73685c9f457897770e0e513fee,"['security', 'pyyaml', 'update']",General,{'security': 100},
-2299098884833ccf7017edb3b5d718305c93991c,"['header', 'integrity', 'check']",Risky_resource_management,{'integrity check': 100},
-2115919c551e073b1f0781eacc0b0f01258eb2d7,"['mutliple', 'deadlock', 'writer']",Risky_resource_management,{'deadlock': 100},
-5db1a4d3286bdac91e34b6c140031b676353e351,"['update', 'refactor', 'methodinstead', 'method', 'logicalpotential', 'security', 'problemfunction', 'logicreveal', 'support', 'window']",General,{'security': 100},
-127987f3ba40c3ec7035e5d16a6d382b5a082235,"['clean', 'crash', 'upload']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+8c9710c76cb9d3fe6db5e4026ceccbd83c2d03f4,"['pull', 'request', 'lbryio', 'block', 'processor', 'crash', 'invalid', 'invalid', 'claim', 'block', 'processor']",General,{'crash': 100}
+c3da6322b582eda43628b025f27961967794651a,['security'],General,{'security': 100}
+c8781392be3132bd101fd2b2fb41cfcd10c26b04,"['unit', 'test', 'access', 'control', 'http', 'header']",Porous_defenses,{'access control': 100}
+b97164fcfbdfdb1ae3921131a536aad5f7f3bf0c,"['access', 'control', 'header']",Porous_defenses,{'access control': 100}
+09ee104b8cb3f198abfded05f1876da2855eb2f8,"['pull', 'request', 'lbryio', 'reorg', 'crash', 'wallet', 'server', 'reorg']",General,{'crash': 100}
+2481305a1a61a86cb00aece341552775b1bb0c54,"['integrity', 'check']",Risky_resource_management,{'integrity check': 100}
+0da2827c78d880c8d3cbcfbc4ecc5ab91525b3a1,['deadlock'],Risky_resource_management,{'deadlock': 100}
+a0a7187f7d208a81f7d81efc8327e22cf37fda44,"['integrity', 'check', 'download']",Risky_resource_management,{'integrity check': 100}
+d2e7ac5b6e39a91626793361655fc208399449d0,"['update', 'changelog', 'integrity', 'check', 'partial', 'downloads']",Risky_resource_management,{'integrity check': 100}
+2299098884833ccf7017edb3b5d718305c93991c,"['integrity', 'check', 'header', 'file']",Risky_resource_management,{'integrity check': 100}
+5db1a4d3286bdac91e34b6c140031b676353e351,"['refactor', 'update', 'method', 'method', 'logical', 'potential', 'security', 'problem', 'core', 'logic', 'function', 'module', 'support', 'window']",General,{'security': 100}
+39005ffc149ccf03c69d63ce5f1b397a8c885e15,"['pull', 'request', 'lbryio', 'cors', 'config', 'access', 'control']",Porous_defenses,{'access control': 100}
+ee00d1984a4082519e1480da965c44fd6d3a6dcd,"['access', 'control']",Porous_defenses,{'access control': 100}
+127987f3ba40c3ec7035e5d16a6d382b5a082235,"['upload', 'lbry', 'clean', 'crash']",General,{'crash': 100}
+2a2658d44033d5412990494029818fc821ebf2f1,"['access', 'control', 'origin', 'problem']",Porous_defenses,{'access control': 100}
+47fae977dd6ac3a70b0c1fbf26547b5448162902,"['access', 'control', 'origin', 'problem']",Porous_defenses,{'access control': 100}
+2670279b0d6f94bf25ef34fb654d18c2b3578033,"['access', 'control']",Porous_defenses,{'access control': 100}
+5072f503c467fbaf1bb4610025b430bd514eb6e4,"['cross', 'access', 'control', 'origin', 'http', 'localhost']",Porous_defenses,{'access control': 100}

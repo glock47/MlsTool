@@ -1,8 +1,37 @@
-sha,message,catetory,matched,labels
-3af40f4429706a7e8ff9a5b5514792248def57f9,"['crash', 'cgdbrc', 'ncurses', 'handlecalledmichael', 'mikesart']",Risky_resource_management,{'crash': 100},
-67bccb401c4230ca12fb0d771cbb6e6c53c82631,"['source', 'crash', 'fixedsview', 'mmueller']",Risky_resource_management,{'crash': 100},
-b692c09e05b6f27755051e0f1213eff1d8c81996,"['crash', 'renameoriginalysvnroot', 'trunk']",Risky_resource_management,{'crash': 100},
-e837c8b1abee8a03e458a8d9583b37bb17a17a4b,"['crash', 'bufferingsvnroot', 'trunk']",Risky_resource_management,{'crash': 100},
-a3cee2cc4b496e9857f3f442b9d3a1888adb06c1,"['crash', 'config', 'syntaxsvnroot', 'trunk']",Risky_resource_management,{'crash': 100},
-175e4f3895249b9033748a9638660b5f530ea9ce,"['crash', 'interface', 'relatedpointer', 'struct', 'triple', 'queue', 'commandsvnroot', 'trunk']",Risky_resource_management,{'crash': 100},
-5e0007f48e7a315e851b3d00f589cd9bcecbc424,"['crash', 'sigint', 'recievedsvnroot', 'trunk']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+1e56dcc8de1b9560216e8d6ffae06695569cdff4,"['reorder', 'init', 'tgdb', 'ready', 'reading', 'option', 'crash', 'tgdb', 'rossi', 'brasko']",General,{'crash': 100}
+aeab2d925825a5801a2578d76b0746b61b3588e8,"['crash', 'home', 'home', 'directory', 'standard', 'cleanup', 'function', 'unnecessary', 'home', 'directory', 'creation', 'print', 'message', 'exit', 'rossi', 'brasko']",General,{'crash': 100}
+b88b697786b43e1bf74dd9a4188de9ea53a21c21,"['memory', 'leak', 'gregory', 'nisbet', 'gregory', 'nisbet', 'gmail']",Risky_resource_management,{'memory leak': 100}
+27edf22a3c9e40ce4a11368f7dafc8a6fbdb3931,"['memory', 'leak', 'cgdbrc', 'rossi', 'brasko']",Risky_resource_management,{'memory leak': 100}
+00952627ab1e86c4e5ba69b63c1d153551161d6c,"['memory', 'leak', 'input', 'client', 'request', 'queue', 'michael', 'sartain', 'mikesart', 'fastmail']",Risky_resource_management,{'memory leak': 100}
+2ec70f22c2cb18f3da5fe50b30baea6136bef1f2,"['double', 'free', 'completion', 'array', 'michael', 'sartain', 'mikesart', 'fastmail']",Risky_resource_management,{'double free': 100}
+81b9cf704866c152a8a609edde9f71237caa82b6,"['search', 'highlight', 'regex', 'memory', 'leak', 'michael', 'sartain', 'mikesart', 'gmail']",Risky_resource_management,{'memory leak': 100}
+94829b45c7520de656d829429d0d289c98029882,"['compilation', 'error', 'variable', 'length', 'array', 'compilation', 'error', 'variable', 'length', 'array', 'standard', 'syntax', 'normal', 'syntax', 'problematic', 'author', 'rossi', 'brasko', 'date', 'memory', 'corruption', 'scroller', 'honggyu', 'honggyu', 'gmail']",Risky_resource_management,{'memory corruption': 100}
+edd26b7e34f5864eebdd47c3eb96ec118fd8303d,"['variable', 'memory', 'leak', 'rossi', 'brasko']",Risky_resource_management,{'memory leak': 100}
+5079372cb2155b69a16bfac628959f4c5bf62e12,"['internal', 'tgdb', 'code', 'memory', 'corruption', 'issue', 'michael', 'sartain', 'mikesart', 'gmail', 'rossi', 'brasko']",Risky_resource_management,{'memory corruption': 100}
+e429fbe10bce2dcaf120352ddc540011781e8841,"['sviewer', 'memory', 'leak', 'switch', 'source', 'michael', 'sartain', 'mikesart', 'gmail', 'rossi', 'brasko']",Risky_resource_management,{'memory leak': 100}
+9587fa248426184099865e5256f3c5f85f47f9ce,"['memory', 'corruption', 'scroller', 'sure', 'realloc', 'garbage', 'character', 'output', 'buffer', 'matter', 'cgdb', 'buffer', 'stack', 'initialize', 'zero', 'malloc', 'memory', 'whitespace', 'scroller', 'line', 'sure', 'code', 'previous', 'attempt', 'rossi', 'brasko']",Risky_resource_management,{'memory corruption': 100}
+3af40f4429706a7e8ff9a5b5514792248def57f9,"['crash', 'syntax', 'cgdbrc', 'file', 'michael', 'sartain', 'mikesart', 'gmail', 'rossi', 'brasko']",General,{'crash': 100}
+7e2e8b6441beb57ac150218dd4d73af6faf84668,"['memory', 'leak', 'michael', 'sartain', 'mikesart', 'gmail', 'rossi', 'brasko']",Risky_resource_management,{'memory leak': 100}
+6a07085d992863304ed42587086e5a35b038652e,"['readline', 'memory', 'leak', 'michael', 'sartain', 'mikesart', 'gmail', 'rossi', 'brasko']",Risky_resource_management,{'memory leak': 100}
+3f252d8cc9973f09551cc1b4f3b6bd4018ef2f98,"['memory', 'leak', 'michael', 'sartain', 'mikesart', 'gmail', 'rossi', 'brasko']",Risky_resource_management,{'memory leak': 100}
+8ce15ad7f88b7374851feb89c6d0fc4c35a08582,"['memory', 'leak', 'michael', 'sartain', 'mikesart', 'gmail', 'rossi', 'brasko']",Risky_resource_management,{'memory leak': 100}
+67bccb401c4230ca12fb0d771cbb6e6c53c82631,"['cgdb', 'crash', 'typo', 'curr', 'sview', 'null', 'mmueller']",General,{'crash': 100}
+164d59c5e0339f5c6cceca80f30480e1246d5e0c,"['crash', 'attempt', 'regular', 'expression', 'search', 'file', 'source', 'viewer', 'http', 'svnroot', 'cgdb', 'cgdb', 'trunk']",General,{'crash': 100}
+b7f71da024523d2b91f5109b0de14c0aceaa6f99,"['memory', 'leak', 'http', 'svnroot', 'cgdb', 'cgdb', 'trunk']",Risky_resource_management,{'memory leak': 100}
+3670efe1d7798785dfdec00c86afa161b136f41c,"['memory', 'leak', 'http', 'svnroot', 'cgdb', 'cgdb', 'trunk']",Risky_resource_management,{'memory leak': 100}
+783d3614ca7226033d1f06a474d81bc06bcf9aec,"['minor', 'memory', 'leak', 'http', 'svnroot', 'cgdb', 'cgdb', 'trunk']",Risky_resource_management,{'memory leak': 100}
+04b3486f07ccb5d025937e6c0bd377ff2a621a4d,"['memory', 'leak', 'valgrind', 'http', 'svnroot', 'cgdb', 'cgdb', 'trunk']",Risky_resource_management,{'memory leak': 100}
+2cbe6411caf958c7f02c9f9fd51d95639e1c6aba,"['crash', 'http', 'svnroot', 'cgdb', 'cgdb', 'trunk']",General,{'crash': 100}
+b692c09e05b6f27755051e0f1213eff1d8c81996,"['crash', 'rename', 'edit', 'http', 'svnroot', 'cgdb', 'cgdb', 'trunk']",General,{'crash': 100}
+d9af6d059e5d8b85fd45cfee4928e2e022e3d4cc,"['memory', 'leak', 'compile', 'warning', 'http', 'svnroot', 'cgdb', 'cgdb', 'trunk']",Risky_resource_management,{'memory leak': 100}
+e837c8b1abee8a03e458a8d9583b37bb17a17a4b,"['crash', 'tgdb', 'command', 'http', 'svnroot', 'cgdb', 'cgdb', 'trunk']",General,{'crash': 100}
+2ab950fd14c9fb94131e2b62c6d2a9bb674d3951,"['crash', 'http', 'svnroot', 'cgdb', 'cgdb', 'trunk']",General,{'crash': 100}
+6c68e48cd99d6c475457720599989b77d4299b0e,"['memory', 'leak', 'cgdb', 'http', 'svnroot', 'cgdb', 'cgdb', 'trunk']",Risky_resource_management,{'memory leak': 100}
+9c90ecf4df53443f98256811add166b70d7df433,"['list', 'test', 'couple', 'memory', 'leak', 'list', 'destructor', 'node', 'destructor', 'list', 'parameter', 'sort', 'violates', 'encapsulation', 'http', 'svnroot', 'cgdb', 'cgdb', 'trunk']",Risky_resource_management,{'memory leak': 100}
+efb5f307c1e6aeabbd36c9ad2fa6ef15bce84232,"['crash', 'http', 'svnroot', 'cgdb', 'cgdb', 'trunk']",General,{'crash': 100}
+f2f3b79a19ea24fda52b8a8bba234feac4be8241,"['crash', 'tgdb', 'parse', 'watchpoints', 'http', 'svnroot', 'cgdb', 'cgdb', 'trunk']",General,{'crash': 100}
+a3cee2cc4b496e9857f3f442b9d3a1888adb06c1,"['crash', 'config', 'file', 'http', 'svnroot', 'cgdb', 'cgdb', 'trunk']",General,{'crash': 100}
+175e4f3895249b9033748a9638660b5f530ea9ce,"['crash', 'interface', 'cgdb', 'tgdb', 'queue', 'command', 'triple', 'pointer', 'struct', 'command', 'http', 'svnroot', 'cgdb', 'cgdb', 'trunk']",General,{'crash': 100}
+5e0007f48e7a315e851b3d00f589cd9bcecbc424,"['crash', 'sigint', 'http', 'svnroot', 'cgdb', 'cgdb', 'trunk']",General,{'crash': 100}
+7ead6dcf5636772ffcae729aad4281453e7977c4,"['crash', 'cgdb', 'file', 'http', 'svnroot', 'cgdb', 'cgdb', 'trunk']",General,{'crash': 100}

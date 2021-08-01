@@ -1,8 +1,12 @@
-sha,message,catetory,matched,labels
-44a2e87f8197797d855672d885f61ab5382b34b5,"['multi', 'crash', 'thread', 'random', 'support', 'refactor', 'suffix']",Risky_resource_management,{'crash': 100},
-86c2df664881dd0436c7cf5a537f5a74a29100eb,"['security', 'contact']",General,{'security': 100},
-db35f54af6bec48dea867f52b00b7c8254c47a8e,"['smali', 'level', 'library', 'minimumcause', 'creates', 'apktool', 'ideal', 'class', 'concrete', 'dexbuilder', 'level', 'withoutcreate', 'apktool', 'class', 'device', 'level', 'crash', 'minimum', 'detail', 'issue', 'smali', 'dexwriter', 'android', 'report', 'sincechange', 'level', 'smali', 'minimum']",Risky_resource_management,{'crash': 100},
-00abedfa063db4644c87fe2d0feb2243220e0719,"['reference', 'crash', 'parent', 'check']",Risky_resource_management,{'crash': 100},
-9450cc915cd3229de88650cf94bfdbeee6769a30,"['annotation', 'crash', 'parameter', 'crash', 'dalvikannotation', 'value', 'parameterandroid', 'detail', 'issue']",Risky_resource_management,{'crash': 100},
-d90bea10ce33abadc37ec38f1a48f4557ca568af,"['style', 'malformedstyle', 'recreation', 'crash', 'error']",Risky_resource_management,{'crash': 100},
-7fc70058dc29537c65fbc883e02cd5ca98a57965,"['present', 'crash', 'folder']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+44a2e87f8197797d855672d885f61ab5382b34b5,"['refactor', 'support', 'random', 'suffix', 'multi', 'thread', 'crash']",General,{'crash': 100}
+4aa933b31af9afe5460b8b6cd51cb1416d231273,"['test', 'ensure', 'path', 'traversal']",Risky_resource_management,{'path traversal': 100}
+47854ec757b763b7419a92e27ab1459512578582,"['experimental', 'path', 'traversal']",Risky_resource_management,{'path traversal': 100}
+5aa3cf9728c63d68c4fbcd7445e173c34726b440,['security'],General,{'security': 100}
+db553ebe8d637335bf1526edf38142870f24721e,"['null', 'pointer', 'exception', 'exception', 'thread', 'main', 'init', 'resresspec', 'java']",Risky_resource_management,{'null pointer': 100}
+86c2df664881dd0436c7cf5a537f5a74a29100eb,"['note', 'security', 'contact']",General,{'security': 100}
+db35f54af6bec48dea867f52b00b7c8254c47a8e,"['minimum', 'level', 'smali', 'library', 'apktool', 'creates', 'dexbuilder', 'class', 'creates', 'minimum', 'level', 'dexbuilder', 'class', 'level', 'default', 'concrete', 'minimum', 'level', 'case', 'smali', 'dexwriter', 'class', 'workaround', 'dalvik', 'android', 'http', 'code', 'google', 'android', 'issue', 'detail', 'crash', 'case', 'report', 'detail', 'workaround', 'smali', 'minimum', 'level', 'android', 'minimum', 'level', 'code', 'file', 'crash', 'device', 'android', 'minimum', 'level', 'smali', 'library']",General,{'crash': 100}
+00abedfa063db4644c87fe2d0feb2243220e0719,"['check', 'null', 'parent', 'reference', 'crash']",General,{'crash': 100}
+9450cc915cd3229de88650cf94bfdbeee6769a30,"['dalvik', 'crash', 'parameter', 'annotation', 'dalvik', 'bean', 'crash', 'value', 'parameter', 'annotation', 'list', 'http', 'code', 'google', 'android', 'issue', 'detail']",General,{'crash': 100}
+7fc70058dc29537c65fbc883e02cd5ca98a57965,"['dont', 'crash', 'folder']",General,{'crash': 100}
+74ecd31a4dfbb8711da04ff439eb1aad50f6ced6,"['null', 'pointer', 'exception', 'resource']",Risky_resource_management,{'null pointer': 100}

@@ -1,31 +1,43 @@
-sha,message,catetory,matched,labels
-9e64c9f0ae6fe8ac18f15e6f86f1f4d2ac9643ce,"['context', 'security', 'issue']",General,{'security': 100},
-12cd2c920bda4c39b566c421031ec4435d90f876,"['mergecontext', 'security']",General,{'security': 100},
-777bb5bdea729686c7de290f227c576fdd895cbb,"['context', 'deprecation', 'cleanup', 'security', 'method', 'context']",General,{'security': 100},
-ee0ddcce634b9fa176eccff632c945818153efad,"['support', 'scheme', 'security']",General,{'security': 100},
-f3e4f66ae497894357d2e8137c77ac2f7d7ec962,"['fbcfda', 'mergerequest', 'version', 'security', 'update', 'issue', 'swagger', 'mergeversion', 'security', 'update', 'issue', 'swagger']",General,{'security': 100},
-3a91537d204f084642d957ed5cf39d7521bbf33f,"['context', 'potential', 'security', 'evaluatingsecurity', 'empty', 'reference']",General,{'security': 100},
-20a765274af85a6fd540ac89be93deeef3bd309d,"['mergesupport', 'security', 'method']",General,{'security': 100},
-fd891ae665c17ff5d2423c3e357c48a2556dcc03,"['security', 'reference', 'selectorcontext', 'security', 'account', 'method', 'selector']",General,{'security': 100},
-7ee76f7033eb40f16cfbcb7934e668dd1fd843ed,"['override', 'security']",General,{'security': 100},
-055d07ad87d6f6327c6d00235bd62cbbed20b8f4,"['security', 'reference', 'default']",General,{'security': 100},
-abf8c91cc2f69f1afcc2bed713266590e30988be,"['override', 'security', 'reference', 'logic']",General,{'security': 100},
-e31f5b01f59b69a6a2e7a159eb94038f8e5c6e65,"['reference', 'authorization', 'present', 'annotation', 'override', 'possible', 'security', 'association', 'reference']",General,{'security': 100},
-d1a6a1c8e093014d9166294a2c291410e3034bd8,"['error', 'documentation', 'addedstartup', 'atleast', 'application', 'crash', 'documentation', 'plugin']",Risky_resource_management,{'crash': 100},
-b64ffa14ae8f3f0939f95d97e8652bf4634e38b4,"['support', 'vendor', 'scheme', 'security', 'mapper']",General,{'security': 100},
-2f0b9530060edfaa8a075eea4562e6a9a8563b67,"['vendor', 'scheme', 'security', 'addedobject', 'common', 'internal', 'swagger', 'vendorextension', 'model']",General,{'security': 100},
-3ce628bf00a2b341709706acf9edc2f620af3448,"['resource', 'security', 'configuration', 'namspace', 'swagger']",General,{'security': 100},
-20890e1b7cf09aa8a7a80b2ec5ae7302ba896fc1,"['resource', 'resourcesupport', 'issue', 'crash', 'fixedduplicate', 'subclass', 'resourceproperty', 'return', 'creatingeffect', 'alternate', 'substitute', 'resource']",Risky_resource_management,{'crash': 100},
-749bbf798dc1f386705e8b69459c5e0bbf7f4e8a,"['ceafb', 'mergerequest', 'cbornet', 'resource', 'scheme', 'security']",General,{'security': 100},
-67d5d448bdf4600f28003adcfa7742b40b9c759d,"['resource', 'scheme', 'security']",General,{'security': 100},
-1406b3658cc2e62da90336737c3c9d1a022b45f2,"['value', 'security', 'initiate', 'valid', 'definition', 'check', 'oauth']",General,{'security': 100},
-fa764c53e399d62ef800f946072cea4082eb8470,"['support', 'security', 'configuration', 'oauth', 'swagger', 'improvedimprove', 'coverage']",General,{'security': 100},
-b9b31cd32d232c347b9e0bb9be5ed8cb7669dbf4,"['documentation', 'security']",General,{'security': 100},
-99c2d2b5ab5973d386f0542f3826d91c86c20dc8,"['configuration', 'swagger', 'security']",General,{'security': 100},
-78ab1bc58412754e9f90a52fc9ed83aa834d3a44,"['contract', 'security']",General,{'security': 100},
-e9810b07e609cea8c250cd79366405a7b112c66d,"['context', 'support', 'security', 'docket', 'class', 'context', 'docketclass', 'security']",General,{'security': 100},
-1a353ae20721369b9c344960d72adfa379a11873,"['swagger', 'upgradedchange', 'security', 'addressedswagger', 'model']",General,{'security': 100},
-49e42d8ebc5bc9e08288c41aea81103a5c16cf1d,"['renameddifference', 'authorizationauthorization', 'appropriate', 'security']",General,{'security': 100},
-c26edbdacc86317570cdbc8ac350e5a84f56f64e,"['authorization', 'covariantwrong', 'security', 'definition']",General,{'security': 100},
-cbe0658a0d5e33184f72d283e1c0b2acec4848a8,"['authorization', 'security', 'operation', 'definition']",General,{'security': 100},
-2f72180153bc73fe56e9db2077d8185a9a58636f,"['security', 'stuff']",General,{'security': 100},
+sha,message,catetory,matched
+07a4c86d70b791f21c2d2f656a863920b8c883c7,"['pull', 'request', 'xiejx', 'patch', 'null', 'pointer', 'exception']",Risky_resource_management,{'null pointer': 100}
+9e64c9f0ae6fe8ac18f15e6f86f1f4d2ac9643ce,"['issue', 'security', 'context', 'builder']",General,{'security': 100}
+f0d8b5aa54075b914d13d526c0e92ba538299ce3,"['cors', 'endpoint', 'baseurl', 'note', 'context', 'csrf', 'endpoint', 'spring', 'return', 'xsrf', 'token', 'cookie', 'response']",Insecure_interaction_between_components,{'csrf': 100}
+12cd2c920bda4c39b566c421031ec4435d90f876,"['security', 'context', 'intelligent', 'relates']",General,{'security': 100}
+03bf4cc4a2071f1faf76e2dc36848acc7b17ce82,"['security', 'context', 'specification']",General,{'security': 100}
+777bb5bdea729686c7de290f227c576fdd895cbb,"['cleanup', 'deprecation', 'security', 'context', 'method', 'context']",General,{'security': 100}
+ee0ddcce634b9fa176eccff632c945818153efad,"['security', 'scheme']",General,{'security': 100}
+f3e4f66ae497894357d2e8137c77ac2f7d7ec962,"['pull', 'request', 'msbg', 'update', 'swagger', 'version', 'security', 'issue', 'update', 'swagger', 'version', 'security', 'issue']",General,{'security': 100}
+1749d500d630530d59fab74e4835efb42bedb5b7,"['bump', 'swagger', 'depdency', 'security', 'swagger', 'release', 'note', 'http', 'github', 'swagger', 'swagger', 'release']",General,{'security': 100}
+e4378b881686067d86405f224fa92a214b526f8b,"['pull', 'request', 'olowolo', 'optional', 'csrf', 'support', 'csrf', 'support', 'optional']",Insecure_interaction_between_components,{'csrf': 100}
+d5a0ebaeda1703601b90e43b30fe150b57e23f85,"['csrf', 'support', 'optional']",Insecure_interaction_between_components,{'csrf': 100}
+3a91537d204f084642d957ed5cf39d7521bbf33f,"['potential', 'security', 'context', 'null', 'return', 'empty', 'list', 'security', 'reference']",General,{'security': 100}
+55f3177925659ae1ca759094a28300a0099a7917,"['pull', 'request', 'olowolo', 'csrf', 'support', 'token', 'support']",Insecure_interaction_between_components,{'csrf': 100}
+20a765274af85a6fd540ac89be93deeef3bd309d,"['support', 'security', 'method']",General,{'security': 100}
+fd891ae665c17ff5d2423c3e357c48a2556dcc03,"['security', 'reference', 'selector', 'test', 'account', 'http', 'method', 'selector', 'security', 'context']",General,{'security': 100}
+0d202e1cf27aa8b6ae5c9ecc652aeab1c0c4998d,"['security', 'context', 'builder']",General,{'security': 100}
+7ee76f7033eb40f16cfbcb7934e668dd1fd843ed,"['security', 'override']",General,{'security': 100}
+055d07ad87d6f6327c6d00235bd62cbbed20b8f4,"['override', 'default', 'security', 'reference']",General,{'security': 100}
+abf8c91cc2f69f1afcc2bed713266590e30988be,"['security', 'reference', 'override', 'logic']",General,{'security': 100}
+e31f5b01f59b69a6a2e7a159eb94038f8e5c6e65,"['association', 'authorization', 'reference', 'need', 'associate', 'security', 'reference', 'possible', 'override', 'annotation']",General,{'security': 100}
+d1a6a1c8e093014d9166294a2c291410e3034bd8,"['atleast', 'crash', 'application', 'documentation', 'plugin', 'startup']",General,{'crash': 100}
+cca290d529a7410b5ea00f4728ac7b08bffe7699,"['model', 'security', 'definition']",General,{'security': 100}
+b64ffa14ae8f3f0939f95d97e8652bf4634e38b4,"['support', 'list', 'vendor', 'mapper', 'list', 'value', 'respective', 'security', 'scheme', 'mapper']",General,{'security': 100}
+2f0b9530060edfaa8a075eea4562e6a9a8563b67,"['security', 'scheme', 'string', 'object', 'internal', 'model', 'common', 'swagger', 'library', 'native', 'representation']",General,{'security': 100}
+75dbdb97d9e0f4cd417aff889e2f728affd14480,"['stack', 'overflow', 'model', 'attribute']",Risky_resource_management,{'stack overflow': 100}
+1e2ad4423f93748dd59f99cc222dc5fc3ce6d159,"['name', 'field', 'accessors', 'consumer', 'alternate', 'json', 'library', 'serialize', 'json', 'shape', 'configuration', 'property', 'security', 'field', 'acessor', 'name', 'jsonproperty', 'property', 'name']",General,{'security': 100}
+2087105fe61d4cb0eea6a8e8007676d4920e8004,"['check', 'collection', 'recursive', 'class', 'type', 'class', 'list', 'class', 'child', 'stack', 'overflow', 'exception']",Risky_resource_management,{'stack overflow': 100}
+3ce628bf00a2b341709706acf9edc2f620af3448,"['swagger', 'resource', 'namspace', 'security', 'configuration', 'swagger']",General,{'security': 100}
+20890e1b7cf09aa8a7a80b2ec5ae7302ba896fc1,"['issue', 'resource', 'resourcesupport', 'crash', 'duplicate', 'violation', 'resource', 'subclass', 'resourcesupport', 'link', 'property', 'return', 'type', 'side', 'effect', 'alternate', 'type', 'rule', 'substitute', 'resource']",General,{'crash': 100}
+18d05f4d5bc452ff4446e4316f60978053688d13,"['indeterminate', 'primary', 'member', 'multiple', 'accessors', 'mutators', 'model', 'property', 'crash', 'atleast', 'jackson']",General,{'crash': 100}
+749bbf798dc1f386705e8b69459c5e0bbf7f4e8a,"['pull', 'request', 'cbornet', 'security', 'scheme', 'type', 'resource']",General,{'security': 100}
+67d5d448bdf4600f28003adcfa7742b40b9c759d,"['security', 'scheme', 'type', 'resource']",General,{'security': 100}
+1406b3658cc2e62da90336737c3c9d1a022b45f2,"['security', 'definition', 'check', 'initiate', 'oauth', 'valid', 'value']",General,{'security': 100}
+fa764c53e399d62ef800f946072cea4082eb8470,"['security', 'configuration', 'support', 'oauth', 'support', 'swagger']",General,{'security': 100}
+b9b31cd32d232c347b9e0bb9be5ed8cb7669dbf4,"['security', 'overview', 'documentation']",General,{'security': 100}
+99c2d2b5ab5973d386f0542f3826d91c86c20dc8,"['security', 'configuration', 'swagger']",General,{'security': 100}
+e9810b07e609cea8c250cd79366405a7b112c66d,"['multiple', 'security', 'context', 'docket', 'support', 'class', 'path', 'security', 'context', 'multiple', 'security', 'context', 'class', 'path']",General,{'security': 100}
+ff28d64131faf1650d0826f339420ea889a31502,"['auth', 'security']",General,{'security': 100}
+c26edbdacc86317570cdbc8ac350e5a84f56f64e,"['authorization', 'type', 'list', 'covariant', 'list', 'security', 'definition', 'wrong']",General,{'security': 100}
+cbe0658a0d5e33184f72d283e1c0b2acec4848a8,"['security', 'definition', 'authorization', 'operation']",General,{'security': 100}
+2f72180153bc73fe56e9db2077d8185a9a58636f,"['security', 'stuff']",General,{'security': 100}
+c72fc7cff2ae48d616ba04cff942284a6e205427,"['stack', 'overflow', 'schema', 'cyclic', 'recursive', 'type', 'responseclass', 'simplename', 'class', 'regular', 'operationfilter', 'incorrect', 'annotation', 'lookup']",Risky_resource_management,{'stack overflow': 100}

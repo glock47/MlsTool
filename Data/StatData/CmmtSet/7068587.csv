@@ -1,7 +1,13 @@
-sha,message,catetory,matched,labels
-263d853a36c2a72cfc58336e1071b04e1d1a7038,"['statement', 'content', 'security', 'policy']",General,{'security': 100},
-dddba099e7571d8e4460c8a02a63c83b0fd903f9,"['security', 'jasonoriginal', 'alwaysamazon', 'nothingoriginal']",General,{'security': 100},
-852dc88054ee67295af0263fe2dc60271659e02c,"['proper', 'validation']",Risky_resource_management,{'proper validation': 94},
-094afffac3104f04cdae61e46aaa103fd8ac9a68,"['protection', 'crash']",Risky_resource_management,{'crash': 100},
-6b3b1145afa7139d67cb72e63b6a85620f423c32,"['enchancement', 'security']",General,{'security': 100},
-ea8c2f14d8309dcf55352624f9dc387155354e99,"['additional', 'security']",General,{'security': 100},
+sha,message,catetory,matched
+e519642a40ee7b553c8115f47cc8cb7e282b4c43,['security'],General,{'security': 100}
+263d853a36c2a72cfc58336e1071b04e1d1a7038,"['eval', 'statement', 'content', 'security', 'policy']",General,{'security': 100}
+8261d282973460d1a161e71fd005239ff06048d1,"['enable', 'cross', 'site', 'cooky', 'checklogin', 'request']",Insecure_interaction_between_components,{'cross site': 100}
+dddba099e7571d8e4460c8a02a63c83b0fd903f9,"['jason', 'patch', 'security', 'hash', 'plugin', 'original', 'name', 'amazon', 'file', 'code', 'plugin', 'original', 'name', 'class']",General,{'security': 100}
+6f01cb83d194d76c9156210dfe76116d25ff509f,"['update', 'access', 'control', 'credential', 'header']",Porous_defenses,{'access control': 100}
+eee03f77f3f51fed613c5e306152ea60255edba2,['security'],General,{'security': 100}
+852dc88054ee67295af0263fe2dc60271659e02c,"['proper', 'validation']",Risky_resource_management,{'proper validation': 94}
+a1866920be23dd9357e2637945f85fece86b9331,"['default', 'setting', 'crash', 'cache', 'file']",General,{'crash': 100}
+b7a8305e78d43c7ccd88c328327a91fe650cc511,"['csrf', 'protection', 'login', 'password', 'reminder', 'form']",Insecure_interaction_between_components,{'csrf': 100}
+094afffac3104f04cdae61e46aaa103fd8ac9a68,"['protection', 'crash']",General,{'crash': 100}
+6b3b1145afa7139d67cb72e63b6a85620f423c32,"['security', 'enchancement']",General,{'security': 100}
+ea8c2f14d8309dcf55352624f9dc387155354e99,"['additional', 'security']",General,{'security': 100}

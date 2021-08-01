@@ -1,6 +1,36 @@
-sha,message,catetory,matched,labels
-35c5179b4a94feb0bd24be54e60e1104daf1ac5e,"['column', 'filter', 'crash']",Risky_resource_management,{'crash': 100},
-7f4f7a8940fb34330f93ca2a3e51d9ef3698144a,"['aefafc', 'mergerequest', 'mergeversion', 'flask', 'support', 'login', 'security']",General,{'security': 100},
-aef56afcad50a1a862ef4ec7a82f45db13c8f181,"['version', 'flask', 'support', 'login', 'security']",General,{'security': 100},
-45b8a953f1de2235aadef96d854af06e7f33d22b,"['override', 'security', 'default', 'flask']",General,{'security': 100},
-8293f443f28fdfa58a1252805f72194d6f0ff798,"['model', 'crash', 'empty']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+57fe9057a4c67c111134ebdc097c2cc886d1d5d7,"['update', 'list', 'html', 'csrf', 'error', 'bootstrap', 'line', 'editing']",Insecure_interaction_between_components,{'csrf': 100}
+69a6984754f95a78a8b5b1bcdc349669c69ed393,"['pull', 'request', 'master', 'field', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+bf17b7ad99a27c08995c1bc6f82c50c4cd22f63b,"['pull', 'request', 'master', 'csrf', 'file', 'admin', 'delete', 'action']",Insecure_interaction_between_components,{'csrf': 100}
+e9da9b29711bcd0522dcea721a0ac7acbf924771,"['csrf', 'delete']",Insecure_interaction_between_components,{'csrf': 100}
+5d97b8ee2beb85398e7fb2fccf2f03aebbaca86a,"['csrf', 'token', 'delete']",Insecure_interaction_between_components,{'csrf': 100}
+35c5179b4a94feb0bd24be54e60e1104daf1ac5e,"['crash', 'column', 'filter', 'field', 'instance']",General,{'crash': 100}
+2797c94c32cc92ae678b81a4255b8732ffb658cf,"['pull', 'request', 'grad', 'production', 'csrf', 'csrf', 'production', 'deployment']",Insecure_interaction_between_components,{'csrf': 100}
+db21a600c1e1d27adc395adc5bf5bc693937ffd6,"['csrf', 'production', 'deployment', 'current', 'secureform', 'implementation', 'generates', 'csrf', 'urandom', 'time', 'application', 'calculate', 'check', 'value', 'similar', 'gunicorn', 'worker', 'flask', 'admin', 'production', 'form', 'submission', 'custom', 'urandom', 'logic', 'value', 'token', 'value']",Insecure_interaction_between_components,{'csrf': 100}
+5513843a06540df97af5b43c96c09c8da31cdc7e,"['readthedocs', 'link', 'migration', 'blog', 'post', 'april', 'http', 'project', 'subdomains', 'domain', 'readthedocs', 'readthedocs', 'address', 'security', 'concern', 'site', 'cooky', 'data', 'domain', 'dashboard', 'test', 'plan']",General,{'security': 100}
+aea3ef30ebd39c5cf0fc5ace263d75fc0c29dd5e,"['pull', 'request', 'pawl', 'editable', 'list', 'view', 'csrf', 'validation', 'widget', 'override']",Insecure_interaction_between_components,{'csrf': 100}
+d96abd194417f6a7883366cc7c89df83cf3a8a86,"['editable', 'list', 'view', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+7f4f7a8940fb34330f93ca2a3e51d9ef3698144a,"['pull', 'request', 'pawl', 'version', 'flask', 'login', 'flask', 'security']",General,{'security': 100}
+aef56afcad50a1a862ef4ec7a82f45db13c8f181,"['version', 'flask', 'login', 'flask', 'security']",General,{'security': 100}
+e4f4bbe0df5af8ba4ff66a44240f0f537ae98ac8,"['pull', 'request', 'pawl', 'lock', 'flask', 'login', 'flask', 'security']",General,{'security': 100}
+40d7a77b2b1125470a7c856328d5e0693959284d,"['lock', 'flask', 'login', 'flask', 'security']",General,{'security': 100}
+e53fb6c821ba76a311f78ce8841ff0216f99641d,"['pull', 'request', 'pawl', 'simplify', 'csrf', 'validation']",Insecure_interaction_between_components,{'csrf': 100}
+46958eb0e10536870b135e8714b46620e475f0a1,"['csrf', 'validation']",Insecure_interaction_between_components,{'csrf': 100}
+1975115a7b54c8c294af3c9f4b0f107f6f0d4a41,"['section', 'csrf', 'validation']",Insecure_interaction_between_components,{'csrf': 100}
+405b2377b67b51f4eaa8382b09bf9472e0e9b352,"['simplify', 'csrf', 'test']",Insecure_interaction_between_components,{'csrf': 100}
+1084cfba315c8d0f39e65dd63f04d0109f246986,"['clean', 'csrf', 'section', 'index', 'page']",Insecure_interaction_between_components,{'csrf': 100}
+69547375d476d0ffeb8d2b560c66028563f82383,"['auth', 'perm', 'rollong', 'flask', 'security']",General,{'security': 100}
+3935d7dbe18acbd409f36692d5f983bc85cefa7e,"['flask', 'csrf', 'flask']",Insecure_interaction_between_components,{'csrf': 100}
+45b8a953f1de2235aadef96d854af06e7f33d22b,"['override', 'default', 'flask', 'security', 'template']",General,{'security': 100}
+b583377589ab186ab624b2e7d8401bb4ff7ca135,"['auth', 'example', 'flask', 'security']",General,{'security': 100}
+b22b3dd1b682c1834e91e8442cf166a869c755af,"['fileadmin', 'flexibility', 'form', 'function', 'csrf', 'error', 'message', 'validation', 'failure']",Insecure_interaction_between_components,{'csrf': 100}
+8293f443f28fdfa58a1252805f72194d6f0ff798,"['possible', 'crash', 'empty', 'model']",General,{'crash': 100}
+96f46153662b5d080d1091c23692ca05408f299b,"['pull', 'request', 'pawl', 'csrf', 'value']",Insecure_interaction_between_components,{'csrf': 100}
+c01277a383ed4d0420cd38cdccfa494834e0d89c,"['csrf', 'validation', 'wtforms']",Insecure_interaction_between_components,{'csrf': 100}
+bf554b1dd522a0bc9b6b1feaedd13d0308b031e8,"['csrf', 'value']",Insecure_interaction_between_components,{'csrf': 100}
+f833ac9fd6cbc40ad94d286f37325db7b4f11473,"['pull', 'request', 'pawl', 'csrf', 'vulnerability']",Insecure_interaction_between_components,{'csrf': 100}
+fce9868709193d59a61760bd73e321d95cbbf416,"['delete', 'button', 'csrf']",Insecure_interaction_between_components,{'csrf': 100}
+5bc16ccdfa8a52bcb05810a875be07b26ada8862,"['pull', 'request', 'tsyganov', 'ivan', 'master', 'fileadmin', 'crash', 'empty']",General,{'crash': 100}
+cbbae4c300466556aff287d2e26c7d9051c4683b,"['fileadmin', 'crash', 'empty']",General,{'crash': 100}
+3f0bea2c0e76d3ccf124b084f275d4c98cfdfad7,"['pull', 'request', 'pawl', 'master', 'csrf', 'validation']",Insecure_interaction_between_components,{'csrf': 100}
+724222468b317c6d100ead7266d040e4e52500b8,"['csrf', 'validation']",Insecure_interaction_between_components,{'csrf': 100}

@@ -1,10 +1,7 @@
-sha,message,catetory,matched,labels
-89fbde605f4f808d782489da26464515db915b97,"['security', 'update', 'enhanceheader', 'protection', 'option', 'content']",General,{'security': 100},
-5d071f7cc568b80a815ecad12b1b52db332a318b,"['vulnerability', 'update', 'security']",General,{'security': 100},
-1ac5b4aeb172b884ca5ec835f9e225d80a8ec30a,"['superuser', 'noreversematchsuperuser', 'access', 'djangoscreenshot', 'server', 'crash', 'noreversematchcrash', 'noreversematch', 'screenshotannotation', 'causedannotationcurrent', 'project', 'template', 'includesproject', 'crash', 'project', 'context', 'djangoproject', 'contains']",Risky_resource_management,{'crash': 100},
-03d798c263868a80024685b50a1e1d680de4ae56,"['version', 'security', 'update', 'django', 'vulnerability']",General,{'security': 100},
-6f0ffb74c48704c09440540129768024bf456ecf,"['version', 'security', 'update', 'django', 'vulnerabilitydetail']",General,{'security': 100},
-8049a5feb2c5e329e7b1a84d8d16abf00a6f2f0d,"['insecure', 'default', 'option', 'patroninsecure', 'default', 'option', 'patrondisables', 'optionverification', 'patron', 'accordingthink', 'option', 'twiceainsecure', 'fsession', 'patroncertificate', 'issue', 'travisoption', 'support']",General,{'insecure': 100},
-362baf728e8a25bd57d6008505aac8deccdfe047,"['excon', 'connection', 'crash', 'failedgeemus', 'excon']",Risky_resource_management,{'crash': 100},
-1aed2d1b173e03646a5c79c82e4be052c08e86cc,"['mutex', 'deadlock']",Risky_resource_management,{'deadlock': 100},
-9abe1ffbbdddedd01d20403e6d86088695b58279,"['tolerate', 'crash']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+8049a5feb2c5e329e7b1a84d8d16abf00a6f2f0d,"['insecure', 'option', 'default', 'patron', 'insecure', 'option', 'default', 'patron', 'option', 'true', 'default', 'disables', 'verification', 'host', 'patron', 'documentation', 'http', 'patron', 'patron', 'fsession', 'ainsecure', 'certificate', 'package', 'travis', 'http', 'github', 'travis', 'travis', 'issue', 'support', 'file', 'option', 'patron']",General,{'insecure': 100}
+362baf728e8a25bd57d6008505aac8deccdfe047,"['ruby', 'crash', 'excon', 'connection', 'geemus', 'excon']",General,{'crash': 100}
+605dd37e3234a11f6fd18d156e026f0774d6408d,"['ignore', 'rubinius', 'crash', 'figure']",General,{'crash': 100}
+1aed2d1b173e03646a5c79c82e4be052c08e86cc,"['mutex', 'deadlock', 'thread']",Risky_resource_management,{'deadlock': 100}
+9619f80341610cfdc69b30325f3c598aa1578c25,"['tolerate', 'jruby', 'crash']",General,{'crash': 100}
+9abe1ffbbdddedd01d20403e6d86088695b58279,"['tolerate', 'crash', 'test']",General,{'crash': 100}

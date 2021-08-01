@@ -1,34 +1,61 @@
-sha,message,catetory,matched,labels
-ee04487f0ddda69b92c18cf9d5a6d0bdd997792f,"['updatecompiler', 'patch', 'release', 'security']",General,{'security': 100},
-0610b4402ccd2b0c04fda559b6d9471dcefe99e3,"['patch', 'upstream', 'buffer', 'overflow', 'backport']",Risky_resource_management,{'buffer overflow': 100},
-78891168825ced32e1dbc2ab9a041f00605b653a,"['update', 'kcrash']",Risky_resource_management,{'kcrash': 91},
-888ba05409b87420aba51520cd49cf70981b9d6b,"['crash', 'binutils']",Risky_resource_management,{'crash': 100},
-8089fc9814aff819b637d4b4e10df80b80d5473c,"['update', 'kcrash']",Risky_resource_management,{'kcrash': 91},
-aaa1d6a677e1ae4ecdab50f08be0976034a00aca,"['runtime', 'version', 'crash', 'stepmaniamerge']",Risky_resource_management,{'crash': 100},
-f507c73f32534bc0115c85d82fcbb60650ca7ef0,"['import', 'cache', 'crash', 'patch', 'webengine', 'upstream']",Risky_resource_management,{'crash': 100},
-39374b42725b07b181b84c97f0c15120782df70f,"['packagechange', 'distro', 'sinceexcept', 'brokenmanpages', 'includedbuild', 'linkerlibomp', 'subpackages', 'libcxx', 'builtclangd', 'crash', 'assemblertemplate', 'cleanupcrosslinux', 'package', 'close', 'issuelinux', 'package', 'close', 'issue']",Risky_resource_management,{'crash': 100},
-37b5b669bbdc157c7b945f928597257998075e95,"['update', 'kcrash']",Risky_resource_management,{'kcrash': 91},
-5702264b58cca484450fb0670e346fa4beb58998,"['crash', 'update']",Risky_resource_management,{'crash': 100},
-87b5cfbbeef97a6ee884ab98684b0dd5ab3b3191,"['openrctassertion', 'default', 'debug', 'crash']",Risky_resource_management,{'crash': 100},
-7e524fb1067fd3773b55a0c525c63e9cf85f7d54,"['update', 'kcrash']",Risky_resource_management,{'kcrash': 91},
-7190a28ddd414409deb2cd01463dbfe341b90e23,"['neverbuild', 'continouslybuild', 'successful', 'crash', 'stack']",Risky_resource_management,{'crash': 100},
-a4d5c8a715b25e711f4cc1a7aafbabcef68eda9e,"['import', 'crash', 'patch', 'webengine', 'upstream', 'localewithout']",Risky_resource_management,{'crash': 100},
-d1809285b42f1c97486ae552502777f6495bf69d,"['update', 'kcrash']",Risky_resource_management,{'kcrash': 91},
-e61630a65d7909aef69852c6a5336759417a4485,"['connection', 'crash', 'manager', 'network', 'applet']",Risky_resource_management,{'crash': 100},
-372f2341c515d38d3b171f030cc5380696db878b,"['update', 'kcrash']",Risky_resource_management,{'kcrash': 91},
-934f2ec7b7802b69186793dc3af744a076f6a0da,"['crash', 'lxappearance', 'wayland']",Risky_resource_management,{'crash': 100},
-c6fda284416a6c0ac8a7fee87bf18aae6f9b2b0b,"['securitytaken', 'release', 'security']",General,{'security': 100},
-daa2c3ff9dbd1fbfe284c7b837e7b4c8df972fd7,"['update', 'kcrash']",Risky_resource_management,{'kcrash': 91},
-e17f291d75190db025128bb7a96d2cd0c7926063,"['deadlock', 'libvirtalpine', 'patch', 'mergingconditional', 'compilation']",Risky_resource_management,{'deadlock': 100},
-e5e062733873ae5b8d16df60d0f73bebfcf47139,"['giggle', 'crash']",Risky_resource_management,{'crash': 100},
-23639540f24686a877559133ab1b71c3e0fa1a8e,"['update', 'kcrash']",Risky_resource_management,{'kcrash': 91},
-17923ff864cf116f111710fc68a83129b7ebf66e,"['crash', 'unpatchedpatch', 'allowspatch', 'gettext', 'msgid']",Risky_resource_management,{'crash': 100},
-e1b032fb976c421cc8fd36d8dc7f9e3e8aa60707,"['patch', 'revert', 'lurchpatch', 'security', 'dialog']",General,{'security': 100},
-204edb68b183121983b074365536a22447dfa96f,"['update', 'kcrash']",Risky_resource_management,{'kcrash': 91},
-608e6f26d8b7d29b37f54b4b7d8ad2fa1308849f,"['crash', 'update']",Risky_resource_management,{'crash': 100},
-4f52b7c18738452eaeecdc74a419e5c226533ee3,"['unicode', 'patch', 'crash']",Risky_resource_management,{'crash': 100},
-16f950f4898cb053305f898a3fb973df51147b85,"['crash', 'upstream']",Risky_resource_management,{'crash': 100},
-a7b2cc8497c693402b47dc5c868f32c35013b8b9,"['crash', 'mlocate', 'aarchdeclaration', 'currentsystem', 'return', 'valuetruncatedrealpath']",Risky_resource_management,{'crash': 100},
-c96b3cf5f20c12975798e7eae96f9f0e1f56b4e4,"['update', 'kcrash']",Risky_resource_management,{'kcrash': 91},
-238376bb7c8b177383d593b56d809f43db6139fb,"['update', 'kcrash']",Risky_resource_management,{'kcrash': 91},
-e653bfc657931471a03f703b272acb67639f9a5b,"['crash', 'setting']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+2a36c42b211b845b4667726559a3d3eb9dac496b,"['style', 'haskell', 'stack', 'unlock', 'builder', 'error', 'debug', 'stack', 'config', 'stack', 'yaml', 'cabal', 'file', 'info', 'posix', 'mirror', 'http', 'cache', 'lock', 'builddir', 'debug', 'stack', 'pantry', 'hackage', 'hackage', 'security', 'lock', 'fdlock', 'invalid', 'argument', 'invalid', 'argument']",General,{'security': 100}
+ee04487f0ddda69b92c18cf9d5a6d0bdd997792f,"['minor', 'patch', 'release', 'security', 'compiler']",General,{'security': 100}
+0610b4402ccd2b0c04fda559b6d9471dcefe99e3,"['zathura', 'backport', 'upstream', 'patch', 'buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100}
+78891168825ced32e1dbc2ab9a041f00605b653a,"['kcrash', 'update']",General,{'kcrash': 91}
+2418e828eeb5c3114e0f262c8d096039a365ea33,"['zathura', 'buffer', 'overflow', 'crash', 'synctex', 'functionality']",Risky_resource_management,{'buffer overflow': 100}
+444bca27743f656938e9491c1ea0404ca97a8d81,"['service', 'crash']",General,{'crash': 100}
+3617667a8483810ed64aa2f6f7ce857fe7eea959,"['fcitx', 'crash', 'configuration', 'tool']",General,{'crash': 100}
+8089fc9814aff819b637d4b4e10df80b80d5473c,"['kcrash', 'update']",General,{'kcrash': 91}
+aaa1d6a677e1ae4ecdab50f08be0976034a00aca,"['stepmania', 'runtime', 'crash', 'version']",General,{'crash': 100}
+39374b42725b07b181b84c97f0c15120782df70f,"['package', 'llvm', 'distro', 'html', 'libcxx', 'libunwind', 'libomp', 'clangd', 'crash', 'assembler', 'template', 'cleanup', 'cross', 'leah', 'close', 'http', 'github', 'void', 'linux', 'void', 'package', 'issue', 'close', 'http', 'github', 'void', 'linux', 'void', 'package', 'issue']",General,{'crash': 100}
+37b5b669bbdc157c7b945f928597257998075e95,"['kcrash', 'update']",General,{'kcrash': 91}
+3387aeb4d6d386bccfae1ef08f03fff341607f94,"['libglvnd', 'work', 'musl', 'system', 'assembly', 'multithread', 'context', 'compile', 'dispatch', 'code', 'optimization', 'level', 'result', 'crash', 'context', 'need', 'point', 'assembly', 'code', 'strange', 'crash', 'code', 'fall', 'pure', 'path']",General,{'crash': 100}
+eb7791ed3475535fddc76f4667c3e1eee07398ea,"['base', 'file', 'ebpf', 'default', 'ebpf', 'fair', 'amount', 'local', 'privilege', 'escalation', 'past', 'disallow', 'ordinary', 'user', 'default']",Porous_defenses,{'privilege escalation': 100}
+5702264b58cca484450fb0670e346fa4beb58998,"['crash', 'update']",General,{'crash': 100}
+87b5cfbbeef97a6ee884ab98684b0dd5ab3b3191,"['openrct', 'type', 'default', 'crash', 'assertion']",General,{'crash': 100}
+c6626ee0098c2bb1b5f2fc96dd0794c8c9243c98,"['budgie', 'desktop', 'patch', 'upstream', 'crash', 'budgie', 'desktop', 'setting', 'gnome', 'setting', 'daemon', 'version']",General,{'crash': 100}
+7e524fb1067fd3773b55a0c525c63e9cf85f7d54,"['kcrash', 'update']",General,{'kcrash': 91}
+7190a28ddd414409deb2cd01463dbfe341b90e23,"['crash', 'stack']",General,{'crash': 100}
+90eb6035cb5afadc3dc7ed0d6f603fd0476945b1,"['plasma', 'workspace', 'prevents', 'crash', 'panelspacers', 'musl', 'glibc']",General,{'crash': 100}
+a4d5c8a715b25e711f4cc1a7aafbabcef68eda9e,"['webengine', 'import', 'upstream', 'patch', 'crash', 'locale']",General,{'crash': 100}
+d1809285b42f1c97486ae552502777f6495bf69d,"['kcrash', 'update']",General,{'kcrash': 91}
+e61630a65d7909aef69852c6a5336759417a4485,"['network', 'manager', 'applet', 'crash', 'connection', 'editor']",General,{'crash': 100}
+e719fb5615b105fa0c7a317b854cff9282a74089,"['package', 'linux', 'switch', 'minor', 'version', 'patch', 'docbook', 'makefile', 'stuff', 'building', 'module', 'module', 'intel', 'overall', 'system', 'security', 'literature', 'http', 'arxiv', 'conceal', 'cache', 'attack', 'memory', 'necessary', 'target', 'arch']",General,{'security': 100}
+9a05560248a73042e3e99191b46bcc7533fda64b,"['spotifyd', 'runtime', 'crash', 'issue', 'unsafe', 'code', 'runtime', 'panic', 'relevant', 'information', 'http', 'github', 'spotifyd', 'spotifyd', 'issue']",General,{'crash': 100}
+372f2341c515d38d3b171f030cc5380696db878b,"['kcrash', 'update']",General,{'kcrash': 91}
+e054a3cf3a14d4508ce71fdcbdf61be79d91c79b,"['hostapd', 'security', 'patch']",General,{'security': 100}
+934f2ec7b7802b69186793dc3af744a076f6a0da,"['lxappearance', 'crash', 'wayland']",General,{'crash': 100}
+a8cbda5f97a2e72f896084f799b913036b664595,"['firejail', 'update', 'root', 'privilege', 'escalation', 'overlayfs', 'functionality']",Porous_defenses,{'privilege escalation': 100}
+81f317d88c35a3ec16d78767df48438b9943bd89,"['buffer', 'combination', 'musl', 'detects', 'possible', 'buffer', 'overrun', 'psutil', 'line', 'byts', 'buffer']",Risky_resource_management,{'overrun': 100}
+c6fda284416a6c0ac8a7fee87bf18aae6f9b2b0b,"['security', 'patch', 'http', 'security', 'security', 'release']",General,{'security': 100}
+770d82ed22de691ae70bcae263f6360d246807cf,"['python', 'django', 'security', 'risk']",General,{'security': 100}
+6041f96bef58174255e6db66428a3c866e59dab6,"['bind', 'option', 'crash', 'likely', 'lack', 'syslog', 'pattern', 'service']",General,{'crash': 100}
+9caf6f65c1349b46631a3670acbfccc61fdda2a3,"['python', 'zope', 'security', 'specify', 'python', 'hostmakedepends']",General,{'security': 100}
+25880065032e1970c31dc7196504376181c7e0ba,"['dispcalgui', 'crash', 'python', 'dbus', 'depedencies']",General,{'crash': 100}
+fd134b606932db34a58abc9e69b365bcb0dc9ee8,"['lutris', 'crash']",General,{'crash': 100}
+d7ff592cbc714f3349b39f5c2f79d3f4f505293f,"['crash', 'cinammon', 'screensaver', 'http', 'github', 'linuxmint', 'cinnamon', 'screensaver', 'issue', 'entry', 'shlibs']",General,{'crash': 100}
+bfb20bfe2029e8cca2de2f721edbf5e2f1383e84,"['year', 'crash']",General,{'crash': 100}
+daa2c3ff9dbd1fbfe284c7b837e7b4c8df972fd7,"['kcrash', 'update']",General,{'kcrash': 91}
+e17f291d75190db025128bb7a96d2cd0c7926063,"['libvirt', 'deadlock', 'musl', 'alpine', 'linux', 'patch', 'deadlock', 'musl', 'upstream', 'musl', 'arch', 'conditional', 'compilation', 'directive', 'harm']",Risky_resource_management,{'deadlock': 100}
+e5e062733873ae5b8d16df60d0f73bebfcf47139,"['giggle', 'cross', 'crash']",General,{'crash': 100}
+ad015fb1952b9d82c5555fd9cbd2219d6f326261,"['explicit', 'stack', 'size', 'patch', 'alpine', 'libmilter', 'stack', 'overflow', 'musl', 'default', 'thread', 'stack', 'size']",Risky_resource_management,{'stack overflow': 100}
+23639540f24686a877559133ab1b71c3e0fa1a8e,"['kcrash', 'update']",General,{'kcrash': 91}
+17923ff864cf116f111710fc68a83129b7ebf66e,"['gimp', 'crash', 'musl', 'gimp', 'patch', 'musl', 'null', 'msgid', 'gettext', 'function', 'patch']",General,{'crash': 100}
+d1e939c40a84cb6472ec5d1f68e28f78e6826416,"['curl', 'update', 'inferior', 'ocsp', 'verification', 'wildcard', 'stack', 'overflow', 'trusting', 'pasv', 'response']",Risky_resource_management,{'stack overflow': 100}
+0ad10d033babefbb776d5b39e1bc38ddbb5beaf9,"['buffer', 'overlow', 'buffer', 'overflow', 'issue', 'debug', 'flag', 'patch', 'upstream', 'distros', 'void', 'linux', 'buffer', 'overflow', 'http', 'sourceware', 'bugzilla', 'buffer', 'overflow', 'http', 'sourceforge', 'fedora', 'http', 'blob', 'master', 'overflow', 'patch']",Risky_resource_management,{'buffer overflow': 100}
+e1b032fb976c421cc8fd36d8dc7f9e3e8aa60707,"['lurch', 'revert', 'patch', 'patch', 'github', 'user', 'security', 'issue', 'various', 'project', 'upstream', 'xeps', 'relative', 'security', 'patch', 'name', 'security', 'time', 'place']",General,{'security': 100}
+204edb68b183121983b074365536a22447dfa96f,"['kcrash', 'update']",General,{'kcrash': 91}
+608e6f26d8b7d29b37f54b4b7d8ad2fa1308849f,"['crash', 'update']",General,{'crash': 100}
+4f52b7c18738452eaeecdc74a419e5c226533ee3,"['rxvt', 'unicode', 'patch', 'crash', 'perl', 'destruction']",General,{'crash': 100}
+16f950f4898cb053305f898a3fb973df51147b85,"['crash', 'upstream']",General,{'crash': 100}
+bddf0f1cb19074cfcb03bc851886dfe506ba81ae,"['tmux', 'stack', 'buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100}
+a7b2cc8497c693402b47dc5c868f32c35013b8b9,"['mlocate', 'crash', 'aarch', 'musl', 'current', 'code', 'declaration', 'system', 'musl', 'libc', 'return', 'value', 'char', 'realpath']",General,{'crash': 100}
+68e2e06e969ef71402dc6e0de09de86c626e5aec,"['speech', 'dispatcher', 'update', 'upstream', 'repo', 'crash', 'python']",General,{'crash': 100}
+c96b3cf5f20c12975798e7eae96f9f0e1f56b4e4,"['kcrash', 'update']",General,{'kcrash': 91}
+8b3c9ea2c51aea7a43d4f7ebf44f1eb9b4484d83,"['python', 'zope', 'security']",General,{'security': 100}
+1cac357abb12e9872c0d3357fb27a2ca2d09ae05,"['libomxil', 'bellagio', 'possible', 'buffer', 'overrun', 'current']",Risky_resource_management,{'overrun': 100}
+1026b735a72ba1956f75558e0d7487454e1ba635,"['dovecot', 'size', 'cross', 'size', 'type', 'cross', 'arch', 'aarch', 'wrong', 'type', 'proofness', 'machine', 'issue', 'comment', 'musl', 'time', 'update']",Insecure_interaction_between_components,{'cross size': 90}
+238376bb7c8b177383d593b56d809f43db6139fb,"['kcrash', 'update']",General,{'kcrash': 91}
+517e4d148eff3c38a864ae8c6dbb1566bd14aa84,"['curl', 'backport', 'crash', 'http', 'github', 'curl', 'curl']",General,{'crash': 100}
+e653bfc657931471a03f703b272acb67639f9a5b,"['setting', 'crash']",General,{'crash': 100}

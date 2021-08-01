@@ -1,17 +1,15 @@
-sha,message,catetory,matched,labels
-bcaa8f5cbf4123ace02a1f408a54b7b6cff9357f,"['crashchange', 'reproduce', 'crash']",Risky_resource_management,{'crash': 100},
-0c00a92839084487bd9408d917eaadb36fbc151b,"['attribute', 'crash']",Risky_resource_management,{'crash': 100},
-fbd86925a9cb0cfc0e39d55e8e3e6930e2ebda41,"['deadlock', 'shell', 'preventshell', 'output', 'bufferedissue']",Risky_resource_management,{'deadlock': 100},
-6189fd372f368989620092614f8e3f9522f0fb8c,"['external', 'crash', 'command']",Risky_resource_management,{'crash': 100},
-9b4add3b4e3ba08caaa7e99e85bb57a09f5bdd40,"['crash', 'custom']",Risky_resource_management,{'crash': 100},
-411b9abb603f966f52c934e9c4e7ceed2bd3fbbc,"['crashdivisor', 'crash']",Risky_resource_management,{'crash': 100},
-9e737fa00a5ef00b36c4737b57a787a7ecb929d8,"['divisor', 'crash']",Risky_resource_management,{'crash': 100},
-7ec7a994ae2531a986ccf2bcd80772e1595bf02a,"['incomplete', 'cliedit', 'crash', 'command']",Risky_resource_management,{'crash': 100},
-01d611aabd0c09f94ddd2cef198a84a07bb9bc6c,"['redirection', 'compiler', 'crash']",Risky_resource_management,{'crash': 100},
-54a0c176a63a4f0d84f91ec678b06ef22de7aba5,"['pattern', 'crash']",Risky_resource_management,{'crash': 100},
-503cf7348ee796df7306239ed6388d546585d7cd,"['syntax', 'assignment', 'crash']",Risky_resource_management,{'crash': 100},
-deb83e2f8a5d38931ffd4e118da28a18ca8f35e2,"['pipelineerror', 'ignore', 'program', 'crash', 'pipelineerror', 'printcontent', 'simple', 'ignore', 'insidevaluebetter', 'print', 'align', 'maybepipeline']",Risky_resource_management,{'crash': 100},
-7d8d8fdc67b6c9d49872f0fd2e86481fefb55c0d,"['reader', 'deadlock']",Risky_resource_management,{'deadlock': 100},
-4ef1f82e96cd2ef120f1cdc66f44492ce1e44bef,"['deadlock', 'evalwithout']",Risky_resource_management,{'deadlock': 100},
-cf6af2267fb0ab617d537d7d8403a67d45bf878c,"['recursive', 'stackavoid', 'stack', 'overflow']",Risky_resource_management,{'stack overflow': 100},
-90c48e849440e50b3fef21f0cd6c38b998490073,"['stack', 'overflow', 'renderers', 'address']",Risky_resource_management,{'stack overflow': 100},
+sha,message,catetory,matched
+02ca8128dea803ac03455e793ee4f33aad89ab58,"['security', 'risk']",General,{'security': 100}
+054fea748f5b6aae9043925abf9b66991cd51887,"['limit', 'display', 'string', 'limit', 'prevents', 'crash', 'recursion', 'util', 'inspect']",General,{'crash': 100}
+e564e0af5c2f7b9732e89707655068e507579a89,"['array', 'node', 'structure', 'cmark', 'primary', 'advantage', 'renderers', 'elimination', 'need', 'recursion', 'stack', 'overflow', 'node', 'walker', 'easy', 'traversal', 'node', 'node', 'node', 'walker', 'module', 'node', 'structure', 'position', 'information', 'property', 'performance', 'doubt', 'optimization']",Risky_resource_management,{'stack overflow': 100}
+6f82e1cf327df8903384e4dc79e369a51b6b9eb8,"['node', 'sure', 'function', 'segfault', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+6baeaf39441895c0374974d96da84f2e3979cfb2,"['return', 'value', 'argument', 'null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+d94d592d2b76c2f0c4bc27ab74ff145ee1e390f5,"['potential', 'memory', 'leak', 'newstack', 'function', 'clang', 'static', 'analyzer']",Risky_resource_management,{'memory leak': 100}
+ea8818b809a2d50a484ab5154352e4d4790df992,"['pull', 'request', 'nwellnhof', 'output', 'tree', 'integrity', 'check']",Risky_resource_management,{'integrity check': 100}
+666aef9a433fa6f56619f4657a4c9b121194a0ee,"['output', 'tree', 'integrity', 'check']",Risky_resource_management,{'integrity check': 100}
+cf6af2267fb0ab617d537d7d8403a67d45bf878c,"['recursive', 'stack', 'overflow']",Risky_resource_management,{'stack overflow': 100}
+90c48e849440e50b3fef21f0cd6c38b998490073,"['recursive', 'algorithm', 'stack', 'overflow', 'need', 'renderers']",Risky_resource_management,{'stack overflow': 100}
+c3f9a7caecbf5239f29b6fd1a7edf47df4fc6d21,"['deep', 'potential', 'emphasis', 'strong', 'emphasis', 'opener', 'refuse', 'stack', 'prevents', 'sort', 'stack', 'overflow', 'python', 'print', 'print', 'cmark']",Risky_resource_management,{'stack overflow': 100}
+29fbcd6e5715944b458965535bdd5bc302cc0996,"['memory', 'leak', 'emphasis', 'opener']",Risky_resource_management,{'memory leak': 100}
+e3cdabe53dfe23fcb9bc1a9de8af4c64914a6709,"['pull', 'request', 'jordanmilne', 'memory', 'leak', 'image', 'html']",Risky_resource_management,{'memory leak': 100}
+507d8d3a09f6704e8c1f21e5a5df2e4e014e6779,"['memory', 'leak', 'image', 'html']",Risky_resource_management,{'memory leak': 100}

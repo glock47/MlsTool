@@ -1,7 +1,9 @@
-sha,message,catetory,matched,labels
-3eb55ecce17e609e4f941785d4a0bb0b7b6116aa,"['support', 'explorer', 'internetcompatibility', 'support', 'security', 'technicalcontinues', 'windowmicrosoft', 'window', 'support']",General,{'security': 100},
-95a630184914a4acdabf9937e7ce89509e69f326,"['runner', 'robust', 'doctype', 'cdataerror', 'containederror', 'spurious', 'solves', 'number', 'domain', 'setting', 'security']",General,{'security': 100},
-378664095a168526c1c15c09db94567612ad04d2,"['inspect', 'implem', 'openstruct', 'method', 'missingfrozen', 'logic', 'compliant', 'referential', 'exceptchangelog', 'updateenable', 'ostruct', 'rubyspecsavoid', 'phantom', 'crash']",Risky_resource_management,{'crash': 100},
-9d7460c217b6f0c9c22a9214bf400e7aeb1326a3,"['thing', 'boolean', 'undef', 'crash']",Risky_resource_management,{'crash': 100},
-61f6213cfc1f2e6cd0db4956bb9adc23574e26af,"['compile', 'empty', 'block', 'correctlycompiler', 'crash']",Risky_resource_management,{'crash': 100},
-cbca29d6cb9b11bc788113f6663512f3b00c1805,"['migrate', 'stack', 'overflow', 'google', 'group']",Risky_resource_management,{'stack overflow': 100},
+sha,message,catetory,matched
+3eb55ecce17e609e4f941785d4a0bb0b7b6116aa,"['internet', 'explorer', 'security', 'update', 'compatibility', 'technical', 'support', 'window', 'http', 'microsoft', 'window', 'support']",General,{'security': 100}
+1676712dc7e885abacc32c714e556093a7265f88,"['constant', 'cache', 'relative', 'lookup', 'cache', 'lookup', 'cache', 'current', 'cref', 'slight', 'risk', 'memory', 'leak', 'constant', 'good', 'overall', 'compromise', 'weakref', 'implementation']",Risky_resource_management,{'memory leak': 100}
+95a630184914a4acdabf9937e7ce89509e69f326,"['phantomjs', 'runner', 'robust', 'cdata', 'html', 'doctype', 'code', 'error', 'html', 'setting', 'domain', 'solves', 'number', 'spurious', 'security', 'error']",General,{'security': 100}
+378664095a168526c1c15c09db94567612ad04d2,"['inspect', 'implem', 'frozen', 'behavior', 'dump', 'self', 'referential', 'logic', 'opal', 'hash', 'hash', 'update', 'changelog', 'enable', 'rubyspecs', 'ostruct', 'version', 'crash', 'phantom', 'test']",General,{'crash': 100}
+9d7460c217b6f0c9c22a9214bf400e7aeb1326a3,"['boolean', 'crash', 'thing']",General,{'crash': 100}
+ce18182db0deb2ee673ee5abec7c487128cc8274,"['sprocket', 'security', 'issue', 'http', 'forum', 'topic', 'rubyonrails', 'security', 'wqbegxqgse', 'http', 'hakiri', 'issue']",General,{'security': 100}
+61f6213cfc1f2e6cd0db4956bb9adc23574e26af,"['compile', 'empty', 'block', 'code', 'crash', 'compiler', 'process']",General,{'crash': 100}
+cbca29d6cb9b11bc788113f6663512f3b00c1805,"['migrate', 'google', 'group', 'stack', 'overflow']",Risky_resource_management,{'stack overflow': 100}

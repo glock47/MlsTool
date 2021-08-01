@@ -1,11 +1,23 @@
-sha,message,catetory,matched,labels
-5224b223cdf952b0c818510459ff7efe804f112c,"['download', 'reposync', 'fedoradownload', 'fedoracheck', 'optionerror', 'fedoraconfig', 'cobbler', 'delete', 'reposync', 'repoid', 'neweststdout', 'receivedconfig', 'reposync', 'stderr', 'version', 'usageinstallroot', 'nodocs', 'nopluginsplugin', 'enableplugin', 'disablepluginsetopt', 'releasever', 'setoptsnobestlevel', 'debugsolver', 'minute', 'debugshowduplicates', 'errorlevel', 'obsoletesrpmverbosity', 'assumeno', 'level', 'debugpackage', 'disablerepofrompath', 'disableexcludesnoautoremove', 'nogpgcheck', 'refresh', 'destdirbugfix', 'enhancement', 'commentnewpackage', 'security', 'advisorybugzillaseveritydelete', 'forcearchmetadata', 'downloadmetadata', 'norepopath', 'sourceremotecobbler', 'argument', 'reposync', 'error']",General,{'security': 100},
-95b13efee99b5434e62ea4be9fa447b4be127db6,"['aabdec', 'mergepatch', 'johnnyricomc', 'request', 'mergeglitch', 'password', 'security', 'empty']",General,{'security': 100},
-a28cd86a01be845e5b82399e4d3f6336b08955d6,"['mergeopoplawski', 'request', 'mergeconfig', 'access', 'crash']",Risky_resource_management,{'crash': 100},
-717db9d3e8691a9af3362fa6be19eef4f96e6d75,"['config', 'access', 'crash']",Risky_resource_management,{'crash': 100},
-976817ff10226df237f7d28ea2824a9c91fb705d,"['major', 'public', 'implication', 'security', 'default', 'server', 'access']",General,{'security': 100},
-cc3dd9828e02f1693d1b956db6642e02b716763a,"['kickstart', 'master', 'template', 'security', 'enable', 'application']",General,{'security': 100},
-8c3225e826c9eb89d32ffa306fb6305d16293175,"['upgrade', 'security']",General,{'security': 100},
-ddb71dfd7ff5da0f6ec955eac3f8d6bea6b2a781,"['shell', 'power', 'thing', 'untaint', 'security']",General,{'security': 100},
-527d4aefb046090361391c285faef13acb681dc4,"['debian', 'distro', 'repository', 'security', 'package']",General,{'security': 100},
-8d20744275e5cbc3f29825e7e9a37182ab98e7da,"['libvirt', 'upstream', 'fedora', 'small', 'service', 'libvirt', 'sends', 'crash', 'systemfedora']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+e016116b43745388412060df8dc8f3df94e2d5b7,"['check', 'file', 'exists', 'toctou', 'race', 'implication', 'symlink', 'existent', 'file', 'path', 'exists', 'return', 'tftpgen', 'case', 'lead', 'deadlock', 'inconsistent', 'grub', 'configuration', 'link', 'utils', 'rmfile', 'utils', 'mkdir', 'enoent', 'eexist']",Risky_resource_management,{'deadlock': 100}
+878adacba4203401b5f3b4239133943d82b86a1a,"['security', 'update', 'version']",General,{'security': 100}
+08fff1f6af6814b2987b039193b4e73d5f54b4a0,"['security', 'guideline', 'report', 'vulnerability']",General,{'security': 100}
+5224b223cdf952b0c818510459ff7efe804f112c,"['reposync', 'fedora', 'download', 'path', 'fedora', 'download', 'path', 'option', 'work', 'need', 'check', 'case', 'code', 'error', 'fedora', 'reposync', 'delete', 'config', 'cobbler', 'origin', 'repo', 'repoid', 'cobbler', 'stderr', 'usage', 'reposync', 'config', 'file', 'version', 'installroot', 'path', 'nodocs', 'noplugins', 'enableplugin', 'plugin', 'disableplugin', 'plugin', 'releasever', 'releasever', 'setopt', 'setopts', 'nobest', 'minute', 'debug', 'level', 'debugsolver', 'showduplicates', 'errorlevel', 'obsoletes', 'rpmverbosity', 'debug', 'level', 'name', 'assumeno', 'repo', 'package', 'disableexcludes', 'repo', 'repofrompath', 'repo', 'path', 'noautoremove', 'nogpgcheck', 'color', 'color', 'refresh', 'destdir', 'destdir', 'comment', 'comment', 'bugfix', 'enhancement', 'newpackage', 'security', 'advisory', 'advisory', 'bugzilla', 'severity', 'critical', 'important', 'moderate', 'forcearch', 'arch', 'arch', 'delete', 'download', 'metadata', 'norepopath', 'metadata', 'path', 'source', 'remote', 'time', 'reposync', 'error', 'argument', 'cobbler']",General,{'security': 100}
+83d233e4e876a645a67e35479db7f8b9afd67766,"['kickstart', 'file', 'increase', 'sense', 'security', 'code', 'aswell', 'enduser', 'experience', 'cobbler']",General,{'security': 100}
+70aeb3e2b01c27ff1a5a9baf78a97e75a7a7e293,"['unknown', 'reason', 'crash', 'failure', 'setting', 'object', 'attribute', 'problem', 'wsgi', 'process', 'setting', 'file', 'dirs', 'beginning', 'path']",General,{'crash': 100}
+95b13efee99b5434e62ea4be9fa447b4be127db6,"['pull', 'request', 'johnnyricomc', 'patch', 'security', 'empty', 'password', 'glitch']",General,{'security': 100}
+4319ad7fc2297244b819d1490ebe44aae0ca1edb,"['pull', 'request', 'jimi', 'bugfix', 'issue', 'incorrect', 'permission', 'file', 'cobbler']",Porous_defenses,{'incorrect permission': 100}
+b848c135b691c72820de75833552bea45fcdbfd3,"['bugfix', 'issue', 'incorrect', 'permission', 'file', 'cobbler']",Porous_defenses,{'incorrect permission': 100}
+a28cd86a01be845e5b82399e4d3f6336b08955d6,"['pull', 'request', 'opoplawski', 'bind', 'crash', 'access', 'bind', 'config']",General,{'crash': 100}
+717db9d3e8691a9af3362fa6be19eef4f96e6d75,"['crash', 'access', 'bind', 'config']",General,{'crash': 100}
+5e75d8ef04e53d611d3eb0ee948db484f8b1af46,"['bugfix', 'option', 'system', 'cobbler', 'interface', 'problem', 'form', 'javascript', 'csrf', 'form']",Insecure_interaction_between_components,{'csrf': 100}
+1b4f9ecf051422eb8512794701900f6199651442,"['yaml', 'load', 'security', 'safety', 'reason', 'http', 'ubuntu', 'source', 'cobbler']",General,{'security': 100}
+18eb1c06779b37d89dfb2962a08236dd1bab24a6,"['additional', 'csrf', 'work', 'modify', 'state']",Insecure_interaction_between_components,{'csrf': 100}
+4bee30b4086a8d845bea5d39d6f2cba1f4a396aa,"['csrf', 'protection', 'interface']",Insecure_interaction_between_components,{'csrf': 100}
+976817ff10226df237f7d28ea2824a9c91fb705d,"['note', 'security', 'implication', 'anamon', 'code', 'folk', 'major', 'concern', 'default', 'public', 'intertubes']",General,{'security': 100}
+cc3dd9828e02f1693d1b956db6642e02b716763a,"['security', 'master', 'user', 'access', 'edit', 'kickstart', 'template', 'code', 'root', 'user', 'enable', 'application']",General,{'security': 100}
+8c3225e826c9eb89d32ffa306fb6305d16293175,"['security', 'upgrade']",General,{'security': 100}
+e0dcab7043f8898fb60c3c2b480a3a554f09df5f,"['security', 'thing', 'python', 'import', 'cheetah', 'code', 'power', 'user', 'power', 'power', 'command']",General,{'security': 100}
+527d4aefb046090361391c285faef13acb681dc4,"['distro', 'debian', 'repository', 'package', 'security', 'update']",General,{'security': 100}
+8d20744275e5cbc3f29825e7e9a37182ab98e7da,"['small', 'service', 'constant', 'libvirt', 'upstream', 'crash', 'libvirt', 'grok', 'data', 'sends', 'case', 'libvirt']",General,{'crash': 100}
+952cdfbd85671c2ed6dfa55fa34b33739815e288,"['authentication', 'error', 'message', 'webui', 'common', 'template', 'file', 'access', 'control', 'list', 'button', 'nics', 'hide', 'button', 'editable', 'mode']",Porous_defenses,{'access control': 100}

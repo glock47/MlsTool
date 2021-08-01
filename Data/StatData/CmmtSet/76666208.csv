@@ -1,10 +1,14 @@
-sha,message,catetory,matched,labels
-07360c78a0163cdae67697c61ade1bde0fb72813,"['application', 'crash', 'picklisttargetselection', 'select', 'custom', 'source']",Risky_resource_management,{'crash': 100},
-129e6a436191efe97bf47843ffc5690745372f7c,"['datatable', 'onfocus', 'state', 'setting', 'editor', 'crash']",Risky_resource_management,{'crash': 100},
-96f79208daee89fc5804d6e96cf5bf95f15ee619,"['calendar', 'crash', 'invalid']",Risky_resource_management,{'crash': 100},
-2ee5de33b3c55ec0d8689848485abc6f36ba085d,"['situation', 'range', 'deadlock', 'slider']",Risky_resource_management,{'deadlock': 100},
-31190bd87222acca4916e2fe24c9e3edf211a4a8,"['situation', 'range', 'deadlock', 'slider']",Risky_resource_management,{'deadlock': 100},
-18de7ef572787dea27c860934cc29e0271e1ee8f,"['febcbb', 'mergemelloware', 'request', 'mergequilljs', 'security']",General,{'security': 100},
-5a96b2b683c3f07e2aa4d5ce94d3fe83becceb00,"['quilljs', 'security']",General,{'security': 100},
-a3e1eb27e4cf77687de3d6bab1b024bf4c2c0ad2,"['homecomponent', 'security']",General,{'security': 100},
-731da1f42d1d6ed9c0a212d672aed8479cd580b3,"['datatable', 'property', 'crash', 'object']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+07360c78a0163cdae67697c61ade1bde0fb72813,"['picklist', 'crash', 'application', 'item', 'custom', 'source', 'targetselection']",General,{'crash': 100}
+f23e9497d0628e8a934affbe59a21c4f871188f7,"['null', 'pointer', 'exception', 'item', 'custom', 'source', 'targetselection']",Risky_resource_management,{'null pointer': 100}
+b9331965c8c2e5a63f35edfae86fd3387db658d0,"['dropdown', 'search', 'crash']",General,{'crash': 100}
+129e6a436191efe97bf47843ffc5690745372f7c,"['setting', 'state', 'onfocus', 'datatable', 'editor', 'crash']",General,{'crash': 100}
+96f79208daee89fc5804d6e96cf5bf95f15ee619,"['invalid', 'date', 'calendar', 'crash']",General,{'crash': 100}
+2ee5de33b3c55ec0d8689848485abc6f36ba085d,"['deadlock', 'situation', 'range', 'slider']",Risky_resource_management,{'deadlock': 100}
+31190bd87222acca4916e2fe24c9e3edf211a4a8,"['deadlock', 'situation', 'range', 'slider']",Risky_resource_management,{'deadlock': 100}
+18de7ef572787dea27c860934cc29e0271e1ee8f,"['pull', 'request', 'melloware', 'quilljs', 'security', 'vulnerability']",General,{'security': 100}
+5a96b2b683c3f07e2aa4d5ce94d3fe83becceb00,"['quilljs', 'security', 'vulnerability']",General,{'security': 100}
+a3e1eb27e4cf77687de3d6bab1b024bf4c2c0ad2,"['homecomponent', 'security']",General,{'security': 100}
+731da1f42d1d6ed9c0a212d672aed8479cd580b3,"['datatable', 'crash', 'property']",General,{'crash': 100}
+60800f08bc7711f0bd81bf33987fa2be5ec76a80,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+3acecba4e22f5f48a915623201761ff7989ea65c,['security'],General,{'security': 100}

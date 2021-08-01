@@ -1,0 +1,33 @@
+sha,message,catetory,matched
+2b8a01eb7b4aaa948e413f7445c022073c8574fa,"['linux', 'misfeature', 'behaviour', 'setitimer', 'timer', 'null', 'unspecified', 'freebsd', 'system', 'redirect', 'getitimer', 'timer', 'null', 'pointer', 'dereference', 'specific', 'case', 'null', 'system', 'return', 'error', 'linux', 'linux', 'warns']",Risky_resource_management,{'null pointer': 100}
+8f089c6b70758f30de07603b318c8e5ed9ec70a8,"['fullscreen', 'problem', 'logical', 'renderer', 'memory', 'corruption', 'cursor', 'logical', 'area', 'transition', 'fullscreen', 'mode', 'display', 'graphical', 'artifact', 'full', 'repaint', 'expose', 'event']",Risky_resource_management,{'memory corruption': 100}
+5be638254a3aaacfd46dbe41e28aee8fde45b01e,"['buffer', 'overflow']",Risky_resource_management,{'buffer overflow': 100}
+48a4aa20c5793833e702f15da70df21f5a3306b0,"['behavior', 'useless', 'code', 'making', 'game', 'crash', 'debug', 'message']",General,{'crash': 100}
+0b28430a69fe87ce32358e96bdaaf1a73b4e4ec0,"['codechange', 'debug', 'message', 'security']",General,{'security': 100}
+66aa158ccc3dffe72fcbc287c328fc71beda9485,"['codechange', 'need', 'malloc', 'byte', 'buffer', 'track', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+23d70543a55c998ea3c49a9f6ae9100ef3d716b2,"['data', 'loss', 'warning']",Risky_resource_management,{'data loss': 100}
+8480fc28f87c19b7c22a66a49a15bea6f4bb15b0,"['buffer', 'overun']",Risky_resource_management,{'overun': 92}
+5830533e94ed705d76923548c1f4274c1a124c4f,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+7672d9669f9f1b8e7ba656ded40a79c14413f7a7,"['strcpy', 'strcat', 'order', 'dangerous', 'function', 'strcpy', 'strcat', 'code', 'strncpy', 'snprintf']",Risky_resource_management,{'dangerous function': 100}
+c6cf65866f7b0dd01b5e317f92989d0b04aafbd9,"['crash', 'structure']",General,{'crash': 100}
+0026f9be33f4e41012defb37034e89ec24cd39d2,"['crash', 'game', 'unit', 'patch']",General,{'crash': 100}
+27b7e936351909d9f5a63297e667f5337b518d65,"['memory', 'leak', 'game', 'credit']",Risky_resource_management,{'memory leak': 100}
+49c50046e4c7eddf2fa384199dc58b7863ef0da0,"['codechange', 'security', 'fact', 'file', 'place']",General,{'security': 100}
+0df1ab16fdde2ad27c60881721aafea55f835d9c,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+2264e9d857e1e08d1a2e794f8ea4452d401a525c,"['enable', 'memory', 'leak', 'detection', 'msvc']",Risky_resource_management,{'memory leak': 100}
+9977e8b3fa8cd313266006a24d889137e022710e,"['crash', 'crash', 'generation']",General,{'crash': 100}
+0ac48baea9ba558fbc625619b093488d4eab8e3e,"['codechange', 'weird', 'security']",General,{'security': 100}
+814128d660086f188f58dd8b10d4b0911fe118a7,"['strcpy', 'good', 'idea', 'strcpy', 'memmove', 'crash']",General,{'crash': 100}
+361885a31877599a2227597b45f0265418867295,"['countless', 'deadlock', 'malloc', 'free', 'mutex', 'timer', 'file', 'operation', 'deadlock', 'warning']",Risky_resource_management,{'deadlock': 100}
+4db4229ae6322402a86ce6c0df03340c052ff612,"['deadlock', 'game', 'voice']",Risky_resource_management,{'deadlock': 100}
+0341ef54597a985fd68809f931f88de339b3eb66,['crash'],General,{'crash': 100}
+f2e70d2d1feca7e7b35ee7bc92b996615c4816c6,"['mentat', 'security']",General,{'security': 100}
+2c681010bcae5b397813c835544f9df4f2c8eb98,"['null', 'pointer', 'null']",Risky_resource_management,{'null pointer': 100}
+758846b33316f685a3097f18d961d231dc6a39a5,"['null', 'pointer']",Risky_resource_management,{'null pointer': 100}
+2cc1e8440d263e776a0533e7804b9d5b670ae502,"['crash', 'editbox']",General,{'crash': 100}
+6b44fe7ba9c9327df08b27f895ab5985be6cab01,"['nasty', 'mistake', 'refinery', 'crash']",General,{'crash': 100}
+db643e09b8bd125db3eb641c6bc9d1ae2e46db8d,"['buffer', 'overflow', 'abusive', 'script']",Risky_resource_management,{'buffer overflow': 100}
+88570f69284bb323929665452e2d71316dda99c5,"['stupid', 'typo', 'starport', 'crash', 'opening']",General,{'crash': 100}
+a613572f055e11540393fb715d46f20c7b351b57,"['revert', 'custom', 'patch', 'stack', 'overflow', 'tail', 'optimization', 'solves', 'problem', 'issue']",Risky_resource_management,{'stack overflow': 100}
+69775a011d57a1b826d864a1ade25dda88f3aeac,"['patch', 'intro', 'till', 'stack', 'overflow']",Risky_resource_management,{'stack overflow': 100}
+16582a36795780c036a906ad4e707baa322f801b,['crash'],General,{'crash': 100}

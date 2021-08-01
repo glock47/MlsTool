@@ -1,100 +1,101 @@
-sha,message,catetory,matched,labels
-cddb569261d31ca06f86d75972246c015036521a,"['crash', 'stubdata']",Risky_resource_management,{'crash': 100},
-0eed48038b1c443f0f2d458f7f42e7155598db27,"['stack', 'overflow']",Risky_resource_management,{'stack overflow': 100},
-bbf8c10e0db72dd602c84a7b1dcf4c3b5c886b46,"['genccode', 'overrun']",Risky_resource_management,{'overrun': 100},
-d685cacd9b020569bfad61869cea87a7d45bda87,"['crash', 'regexp']",Risky_resource_management,{'crash': 100},
-a3c5d7e0e436968e797175962f253c73798e6405,"['mailbox', 'overrun', 'buffer']",Risky_resource_management,{'overrun': 100},
-e559b30309d7d76ceda0246e2802a15c2a01004f,"['regex', 'pattern', 'stack', 'overflow']",Risky_resource_management,{'stack overflow': 100},
-7369eff4eddf3a83c03f25eaaf73ee33f46b4499,"['leftover', 'segfaultlarger', 'contains', 'inputescapesrc', 'character', 'crash', 'systemincomplete', 'removeissue', 'uncheckedresult', 'array', 'offset', 'negativeboundary', 'stillstoeckmann', 'tobias']",Risky_resource_management,{'crash': 100},
-de6607c9cdb069ff834f0f3b9d3f353d1142a5b2,"['overrun', 'genccode', 'buffer']",Risky_resource_management,{'overrun': 100},
-388b46426f6367cbc90020782253ebdeb2ac1aa2,"['crash', 'makeinstance', 'collator']",Risky_resource_management,{'crash': 100},
-643e8756c8f8d2a7f2ffe306467e28a9896d7986,"['crash', 'makeinstance', 'collator']",Risky_resource_management,{'crash': 100},
-38463f7b1632d916249a8d6f440889c4e7505708,"['window', 'crash', 'scripthandle', 'window', 'crash', 'script']",Risky_resource_management,{'crash': 100},
-03303a6cb697c8345522a29c4fcdca2fad17b2b2,"['security', 'unicode']",General,{'security': 100},
-6d9ed3698b1b7350c36739549118a7a297577d71,"['overrun', 'compatibility', 'jungshik', 'version', 'buffer', 'incorporate', 'review']",Risky_resource_management,{'overrun': 100},
-f6e3124e74d8dda826a1f4e834ea6be0ec25ac92,"['small', 'overrun', 'previous', 'buffer', 'pattern', 'space', 'format']",Risky_resource_management,{'overrun': 100},
-9fbda43d48e0fe2b0920229f5f4f158a423e62a0,"['memory', 'overflow']",Risky_resource_management,{'memory overflow': 100},
-ad11ee3a709e422d6e71ceb1e2f5ef45a5d3af12,"['issue', 'securecheck', 'configuration', 'security']",General,{'security': 100},
-fc78f45dd96627d66890f423ba1509ec7c668068,"['crash', 'blank', 'input', 'contains', 'gennorm']",Risky_resource_management,{'crash': 100},
-ed012e1bfba52180470dd406721e5b81f8b7d37b,"['issue', 'crash', 'interate']",Risky_resource_management,{'crash': 100},
-89c546d69ff406b93ba752f56567b56057c745ed,"['allocator', 'overrun', 'weight', 'collation', 'range']",Risky_resource_management,{'overrun': 100},
-694ea699d2d96c28eb962580c9da0dede1b0cfb3,"['crash', 'check']",Risky_resource_management,{'crash': 100},
-e02cfd9eac0d398f28dcdde56c14ce19fcd56658,"['currency', 'crash', 'decimal', 'pattern', 'parse']",Risky_resource_management,{'crash': 100},
-a45bac77fe41dbc91ab4f16bce463f3c90a80ca8,"['overrun', 'consistent', 'comment', 'string', 'index']",Risky_resource_management,{'overrun': 100},
-a4b1199d6066db6c0123637b6ef47549208f7f79,"['bootstrap', 'crash']",Risky_resource_management,{'crash': 100},
-42040b3e4a9a15cc1144f49767d2099a6a628d6a,"['problem', 'windateformat', 'crash', 'dateformat', 'recent', 'operator']",Risky_resource_management,{'crash': 100},
-042d89895cf4c88fd4bf616992f191a2c0bc4e4d,"['problem', 'initializer', 'timezone', 'deadlock', 'static']",Risky_resource_management,{'deadlock': 100},
-00aa5b56c472675a7555f03f61af2cb9b4ca2baa,"['printerrorline', 'print', 'crash', 'method', 'paralevelname', 'method', 'testbiditest']",Risky_resource_management,{'crash': 100},
-23c9cdafbc9a6bc24e823c6c4e1005cd7ecab4e9,"['crash', 'allocation']",Risky_resource_management,{'crash': 100},
-b422082fabc4cb89908211a1dae369e67f39643d,"['crash', 'underflow']",Risky_resource_management,{'crash': 100},
-ecf61700ade11d12d916ed0aa5c90c64a4406738,"['crash', 'source', 'memory', 'corruption']",Risky_resource_management,{'crash': 100},
-7456f5a382fcf5db81655f1de2822e7e624278a5,"['crash', 'error', 'reading', 'import']",Risky_resource_management,{'crash': 100},
-eb89f787b4702ded58f13641b16cebe01ed5a4d8,"['crash', 'compiler']",Risky_resource_management,{'crash': 100},
-fdea4100328ccd78f4504401145574b91ac6575a,"['crash', 'charset']",Risky_resource_management,{'crash': 100},
-900d5370658b60aad4a610d1726dcf0f8ffa39fc,"['overrun', 'array', 'indic', 'engine', 'layout']",Risky_resource_management,{'overrun': 100},
-88e94ca0b085b28a01aec80841ab17d3616937c1,"['incorrect', 'length', 'spoof']",Risky_resource_management,{'incorrect length': 100},
-56b28bd292f873cf3f40714ad721d341d8bbb6df,"['append', 'middle', 'normalize', 'relevant', 'buffer', 'overflow', 'suffix', 'section', 'restore']",Risky_resource_management,{'buffer overflow': 100},
-118efa19c68be597b01c42aaa5ba921e2c77dde2,"['crash', 'utext', 'regular', 'bogus']",Risky_resource_management,{'crash': 100},
-ffb24dcc3827de415c5a9f34773b75a4d7f3bfba,"['crash', 'cintltest']",Risky_resource_management,{'crash': 100},
-511b73419f15a7163a393fb64f2e7a9fbd4971c9,"['rulestoparse', 'crash', 'stale', 'ucoltoken', 'genrb', 'processing', 'hashtable', 'pointer']",Risky_resource_management,{'crash': 100},
-a73ec1705489a18c3b9cdcbcb21b99d31a93c765,"['crash', 'localename']",Risky_resource_management,{'crash': 100},
-a2605b9c83a0f8a8349c11496e5324238da37964,"['crash', 'dictionary']",Risky_resource_management,{'crash': 100},
-809ac514dc57fa59049089697d86ac523792251b,"['incorrect', 'length']",Risky_resource_management,{'incorrect length': 100},
-4c6887c581ee5cb62e39815ff70c591ab293fcbf,"['crash', 'locale', 'caltype']",Risky_resource_management,{'crash': 100},
-f3b49de0a05caf30f11dd4b5373bd34be9e3a424,"['iculogger', 'system', 'property', 'ignore', 'manager', 'security', 'reading']",General,{'security': 100},
-78f5b61f0b846cedc46c07197afa10ac06960142,"['crash', 'searchfortzfile']",Risky_resource_management,{'crash': 100},
-3bdd87634d4ee5c3dc679a5a6a34031eac84797a,"['implementation', 'crash', 'object', 'static', 'instance', 'numberingsystem']",Risky_resource_management,{'crash': 100},
-8cdf11287c9489f7c1b7f508d214729830a2ce92,"['problem', 'crash', 'temporary', 'spellout', 'parse', 'workaround', 'release']",Risky_resource_management,{'crash': 100},
-1ea42c90b14e48df8cd55af00a7bf721e0f6acbc,"['problem', 'crash', 'temporary', 'spellout', 'parse']",Risky_resource_management,{'crash': 100},
-1d7aa087569ca6ae32ba8d017075f52e7939b8ee,"['problem', 'crash', 'lenient', 'parse']",Risky_resource_management,{'crash': 100},
-2550a6769329b41cd8dd41bb56a1652200e07e64,"['trigger', 'gettargets', 'coveragetest', 'manager', 'return', 'security']",General,{'security': 100},
-da3b9a1d2983023c5bec9be76aaa86b738ca4e08,"['overrun', 'patch', 'genbrk', 'memory']",Risky_resource_management,{'overrun': 100},
-26259c8299dab234da1615cddd8575739f6a9a4d,"['crash', 'update']",Risky_resource_management,{'crash': 100},
-9d67ad91729f8564ed7d668559e6d8559553096f,"['original', 'regexp', 'restore', 'security']",General,{'security': 100},
-8bc5d287d9777c8672ce0c066a222e550be311c9,"['crash', 'valgrind']",Risky_resource_management,{'crash': 100},
-1da25d4d3b7ff9f49751d4daba85daa7c7fd392f,"['crash', 'initialization']",Risky_resource_management,{'crash': 100},
-a74869abf6522d19c9e3dc416e72a2580a824628,"['crash', 'error']",Risky_resource_management,{'crash': 100},
-d9958662e3b61a6d76b15bd286727080454e88f4,"['buffer', 'overflow', 'limit', 'reflect', 'cintltst', 'colliterate']",Risky_resource_management,{'buffer overflow': 100},
-6afc33010b7c194ee2576a894ffdf5e659fbaec8,"['icudebug', 'manager', 'debug', 'security']",General,{'security': 100},
-0c009db85ec85bbdcca26a50015fd2cea5af1222,"['crash', 'input', 'array', 'detection', 'charset', 'short', 'index']",Risky_resource_management,{'crash': 100},
-0e5530bc470f2ada79ebdcc398f24fa3a0e05438,"['security', 'manager']",General,{'security': 100},
-0a8eeb90c53f43f07d7ad3aa9563e7443d8f7ba3,"['crash', 'cintltst']",Risky_resource_management,{'crash': 100},
-6a6f3feb6bab94dd1c98ecaf52f812620cef7517,"['crash', 'intltest']",Risky_resource_management,{'crash': 100},
-b1cc901c935811ff3a5bcfba383ab700bdd6f078,"['crash', 'locale', 'hungarian']",Risky_resource_management,{'crash': 100},
-6e071a5cc9c06853f33961fdca2acf2969c4aa50,"['chinesecalendar', 'crash', 'problem']",Risky_resource_management,{'crash': 100},
-bb8aefc676b346720633aac3182278cb3ad0a22b,"['release', 'delete', 'crash', 'enable', 'debug', 'runtime', 'static', 'operator']",Risky_resource_management,{'crash': 100},
-dbb58ee5cbcec8d5044b6b37c3c8f32e4e59e41a,"['currency', 'crash', 'setting', 'suffix', 'prefix']",Risky_resource_management,{'crash': 100},
-17a3835464ac1ca9e69f48df6688d04b48f68a3f,"['calendar', 'initialization', 'crash', 'taiwan']",Risky_resource_management,{'crash': 100},
-55ab205b9ce21bc1c7117aff8d7331c586cff25d,"['crash', 'reorganization']",Risky_resource_management,{'crash': 100},
-78af2c2195564e4e4d418c4475b5caadcba3d80d,"['update', 'security', 'policy']",General,{'security': 100},
-50c3ef85d54debe9a2035f1cb587dcb1e9cb38d6,"['update', 'security', 'policy']",General,{'security': 100},
-993fb18289c310898d63337aa4196ccec9022a9f,"['crash', 'situation']",Risky_resource_management,{'crash': 100},
-a0f456dad5fc6f03a22a10582e40c24b1bee15f8,"['crash', 'solaris']",Risky_resource_management,{'crash': 100},
-0ba4bdac5d3c7c7f3a0f0ef533807fd7b28821f6,"['crash', 'argument']",Risky_resource_management,{'crash': 100},
-3d0b127c12f0583a0264342fbb5ad2266ce119f7,"['overrun', 'buffer']",Risky_resource_management,{'overrun': 100},
-188d958fd57f35532f17e3d79ce298ecf8e28209,"['security', 'manager']",General,{'security': 100},
-254cb0402284184641771eae118ee4d1c69876b0,"['crash', 'compiler', 'preoptimize']",Risky_resource_management,{'crash': 100},
-91e27a0aecf5859afd9c974817bae123d0fe3ff3,"['update', 'security']",General,{'security': 100},
-2ac867caab8f45c24b1fc6e191bcbf7a7738b4d8,"['update', 'security']",General,{'security': 100},
-772f2f00a3b71cc29393bdc599702f1383202c1f,"['update', 'security']",General,{'security': 100},
-1dbdb6ec78ceb0dd3275fb6ffff0a5851eae810d,"['update', 'security']",General,{'security': 100},
-4f2a64c2073acb84e0e4a6b3a95592367cffcb17,"['update', 'security']",General,{'security': 100},
-036ca19a28782fce675ece44b83c130d512b46e5,"['issue', 'address', 'manager', 'support', 'security']",General,{'security': 100},
-162b0d052fb994a0ec653efa525bb3cba7019764,"['property', 'security', 'catch']",General,{'security': 100},
-43583200b0c909eec3d6d5ed2f8a26d6fc744a5a,"['security', 'securecheck']",General,{'security': 100},
-162ffbb8f8b7030c2220062925cc1b70eb79282f,"['crash', 'error', 'parse']",Risky_resource_management,{'crash': 100},
-1587dc9caa80c66ae4079a36a1378b8396548736,"['thread', 'safety', 'translit', 'deadlock']",Risky_resource_management,{'deadlock': 100},
-13b50d8e94f14817ab67e3a2b7f7c9b0cc606fef,"['thread', 'safety', 'translit', 'deadlock']",Risky_resource_management,{'deadlock': 100},
-c1b4de4f7249f6f5e9bf390d27c63fc3e76c855e,"['mutex', 'translit', 'deadlock']",Risky_resource_management,{'deadlock': 100},
-b0337f001cca686cf6ae8b321789d14237534087,"['crash', 'return', 'snext']",Risky_resource_management,{'crash': 100},
-3c07c3f00cd6e0d68a33a5bc0cdcb10f5f7122df,"['deadlock', 'detect']",Risky_resource_management,{'deadlock': 100},
-164faf6a3d5290c724a505130d972dd59696b667,"['instantiation', 'arabic', 'registry', 'mutex', 'latin', 'deadlock']",Risky_resource_management,{'deadlock': 100},
-6173b0ba30c4ebb8089af9d70af09f3e1b73687e,"['deadlock', 'problem']",Risky_resource_management,{'deadlock': 100},
-3a74c75e2f4f8cc0c63f452ecac1d880c184e471,"['crash', 'machine']",Risky_resource_management,{'crash': 100},
-9e3f6929445f62dc82211fc87c9dcdab85fe81ae,"['crash', 'locale']",Risky_resource_management,{'crash': 100},
-4e162909301968bbb960486ec667162aa230adf0,"['crash', 'regex']",Risky_resource_management,{'crash': 100},
-8be1908bd335538d09710439f39a905d931a2582,"['crash', 'regex']",Risky_resource_management,{'crash': 100},
-efeb3b480d9c5d933b0f81d804acf9bfa8e54ab2,"['crash', 'regex']",Risky_resource_management,{'crash': 100},
-873f4f09fd846ed34aed30c42726f69034d753a2,"['security', 'manager']",General,{'security': 100},
-5201ca95052724d1b267fda5ea44d7662104d219,"['solaris', 'length', 'crash', 'inconsistent', 'return', 'string']",Risky_resource_management,{'crash': 100},
-e4e47af619748c10dc3f49858889b7a6ba290f9a,"['crash', 'invalid']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+cddb569261d31ca06f86d75972246c015036521a,"['crash', 'stubdata']",General,{'crash': 100}
+0eed48038b1c443f0f2d458f7f42e7155598db27,"['stack', 'overflow']",Risky_resource_management,{'stack overflow': 100}
+bbf8c10e0db72dd602c84a7b1dcf4c3b5c886b46,"['genccode', 'overrun']",Risky_resource_management,{'overrun': 100}
+d685cacd9b020569bfad61869cea87a7d45bda87,"['crash', 'regexp']",General,{'crash': 100}
+a3c5d7e0e436968e797175962f253c73798e6405,"['mailbox', 'overrun', 'buffer']",Risky_resource_management,{'overrun': 100}
+e559b30309d7d76ceda0246e2802a15c2a01004f,"['regex', 'pattern', 'stack', 'overflow']",Risky_resource_management,{'stack overflow': 100}
+7369eff4eddf3a83c03f25eaaf73ee33f46b4499,"['leftover', 'segfaultlarger', 'contains', 'inputescapesrc', 'character', 'crash', 'systemincomplete', 'removeissue', 'uncheckedresult', 'array', 'offset', 'negativeboundary', 'stillstoeckmann', 'tobias']",General,{'crash': 100}
+de6607c9cdb069ff834f0f3b9d3f353d1142a5b2,"['overrun', 'genccode', 'buffer']",Risky_resource_management,{'overrun': 100}
+388b46426f6367cbc90020782253ebdeb2ac1aa2,"['crash', 'makeinstance', 'collator']",General,{'crash': 100}
+643e8756c8f8d2a7f2ffe306467e28a9896d7986,"['crash', 'makeinstance', 'collator']",General,{'crash': 100}
+38463f7b1632d916249a8d6f440889c4e7505708,"['window', 'crash', 'scripthandle', 'window', 'crash', 'script']",General,{'crash': 100}
+03303a6cb697c8345522a29c4fcdca2fad17b2b2,"['security', 'unicode']",General,{'security': 100}
+6d9ed3698b1b7350c36739549118a7a297577d71,"['overrun', 'compatibility', 'jungshik', 'version', 'buffer', 'incorporate', 'review']",Risky_resource_management,{'overrun': 100}
+f6e3124e74d8dda826a1f4e834ea6be0ec25ac92,"['small', 'overrun', 'previous', 'buffer', 'pattern', 'space', 'format']",Risky_resource_management,{'overrun': 100}
+9fbda43d48e0fe2b0920229f5f4f158a423e62a0,"['memory', 'overflow']",Risky_resource_management,{'memory overflow': 100}
+ad11ee3a709e422d6e71ceb1e2f5ef45a5d3af12,"['issue', 'securecheck', 'configuration', 'security']",General,{'security': 100}
+fc78f45dd96627d66890f423ba1509ec7c668068,"['crash', 'blank', 'input', 'contains', 'gennorm']",General,{'crash': 100}
+ed012e1bfba52180470dd406721e5b81f8b7d37b,"['issue', 'crash', 'interate']",General,{'crash': 100}
+89c546d69ff406b93ba752f56567b56057c745ed,"['allocator', 'overrun', 'weight', 'collation', 'range']",Risky_resource_management,{'overrun': 100}
+694ea699d2d96c28eb962580c9da0dede1b0cfb3,"['crash', 'check']",General,{'crash': 100}
+e02cfd9eac0d398f28dcdde56c14ce19fcd56658,"['currency', 'crash', 'decimal', 'pattern', 'parse']",General,{'crash': 100}
+a45bac77fe41dbc91ab4f16bce463f3c90a80ca8,"['overrun', 'consistent', 'comment', 'string', 'index']",Risky_resource_management,{'overrun': 100}
+a4b1199d6066db6c0123637b6ef47549208f7f79,"['bootstrap', 'crash']",General,{'crash': 100}
+42040b3e4a9a15cc1144f49767d2099a6a628d6a,"['problem', 'windateformat', 'crash', 'dateformat', 'recent', 'operator']",General,{'crash': 100}
+042d89895cf4c88fd4bf616992f191a2c0bc4e4d,"['problem', 'initializer', 'timezone', 'deadlock', 'static']",Risky_resource_management,{'deadlock': 100}
+00aa5b56c472675a7555f03f61af2cb9b4ca2baa,"['printerrorline', 'print', 'crash', 'method', 'paralevelname', 'method', 'testbiditest']",General,{'crash': 100}
+23c9cdafbc9a6bc24e823c6c4e1005cd7ecab4e9,"['crash', 'allocation']",General,{'crash': 100}
+b422082fabc4cb89908211a1dae369e67f39643d,"['crash', 'underflow']",General,{'crash': 100}
+ecf61700ade11d12d916ed0aa5c90c64a4406738,"['crash', 'source', 'memory', 'corruption']",Risky_resource_management,{'memory corruption': 100}
+7456f5a382fcf5db81655f1de2822e7e624278a5,"['crash', 'error', 'reading', 'import']",General,{'crash': 100}
+eb89f787b4702ded58f13641b16cebe01ed5a4d8,"['crash', 'compiler']",General,{'crash': 100}
+fdea4100328ccd78f4504401145574b91ac6575a,"['crash', 'charset']",General,{'crash': 100}
+900d5370658b60aad4a610d1726dcf0f8ffa39fc,"['overrun', 'array', 'indic', 'engine', 'layout']",Risky_resource_management,{'overrun': 100}
+88e94ca0b085b28a01aec80841ab17d3616937c1,"['incorrect', 'length', 'spoof']",Risky_resource_management,{'incorrect length': 100}
+56b28bd292f873cf3f40714ad721d341d8bbb6df,"['append', 'middle', 'normalize', 'relevant', 'buffer', 'overflow', 'suffix', 'section', 'restore']",Risky_resource_management,{'buffer overflow': 100}
+118efa19c68be597b01c42aaa5ba921e2c77dde2,"['crash', 'utext', 'regular', 'bogus']",General,{'crash': 100}
+728bcbbc4234f6ec94c6d1491e1ebdaf6f011e3d,"['error', 'memory', 'corruption']",Risky_resource_management,{'memory corruption': 100}
+ffb24dcc3827de415c5a9f34773b75a4d7f3bfba,"['crash', 'cintltest']",General,{'crash': 100}
+511b73419f15a7163a393fb64f2e7a9fbd4971c9,"['rulestoparse', 'crash', 'stale', 'ucoltoken', 'genrb', 'processing', 'hashtable', 'pointer']",General,{'crash': 100}
+a73ec1705489a18c3b9cdcbcb21b99d31a93c765,"['crash', 'localename']",General,{'crash': 100}
+a2605b9c83a0f8a8349c11496e5324238da37964,"['crash', 'dictionary']",General,{'crash': 100}
+809ac514dc57fa59049089697d86ac523792251b,"['incorrect', 'length']",Risky_resource_management,{'incorrect length': 100}
+4c6887c581ee5cb62e39815ff70c591ab293fcbf,"['crash', 'locale', 'caltype']",General,{'crash': 100}
+f3b49de0a05caf30f11dd4b5373bd34be9e3a424,"['iculogger', 'system', 'property', 'ignore', 'manager', 'security', 'reading']",General,{'security': 100}
+78f5b61f0b846cedc46c07197afa10ac06960142,"['crash', 'searchfortzfile']",General,{'crash': 100}
+3bdd87634d4ee5c3dc679a5a6a34031eac84797a,"['implementation', 'crash', 'object', 'static', 'instance', 'numberingsystem']",General,{'crash': 100}
+8cdf11287c9489f7c1b7f508d214729830a2ce92,"['problem', 'crash', 'temporary', 'spellout', 'parse', 'workaround', 'release']",General,{'crash': 100}
+1ea42c90b14e48df8cd55af00a7bf721e0f6acbc,"['problem', 'crash', 'temporary', 'spellout', 'parse']",General,{'crash': 100}
+1d7aa087569ca6ae32ba8d017075f52e7939b8ee,"['problem', 'crash', 'lenient', 'parse']",General,{'crash': 100}
+2550a6769329b41cd8dd41bb56a1652200e07e64,"['trigger', 'gettargets', 'coveragetest', 'manager', 'return', 'security']",General,{'security': 100}
+da3b9a1d2983023c5bec9be76aaa86b738ca4e08,"['overrun', 'patch', 'genbrk', 'memory']",Risky_resource_management,{'overrun': 100}
+26259c8299dab234da1615cddd8575739f6a9a4d,"['crash', 'update']",General,{'crash': 100}
+9d67ad91729f8564ed7d668559e6d8559553096f,"['original', 'regexp', 'restore', 'security']",General,{'security': 100}
+8bc5d287d9777c8672ce0c066a222e550be311c9,"['crash', 'valgrind']",General,{'crash': 100}
+1da25d4d3b7ff9f49751d4daba85daa7c7fd392f,"['crash', 'initialization']",General,{'crash': 100}
+a74869abf6522d19c9e3dc416e72a2580a824628,"['crash', 'error']",General,{'crash': 100}
+d9958662e3b61a6d76b15bd286727080454e88f4,"['buffer', 'overflow', 'limit', 'reflect', 'cintltst', 'colliterate']",Risky_resource_management,{'buffer overflow': 100}
+6afc33010b7c194ee2576a894ffdf5e659fbaec8,"['icudebug', 'manager', 'debug', 'security']",General,{'security': 100}
+0c009db85ec85bbdcca26a50015fd2cea5af1222,"['crash', 'input', 'array', 'detection', 'charset', 'short', 'index']",General,{'crash': 100}
+0e5530bc470f2ada79ebdcc398f24fa3a0e05438,"['security', 'manager']",General,{'security': 100}
+0a8eeb90c53f43f07d7ad3aa9563e7443d8f7ba3,"['crash', 'cintltst']",General,{'crash': 100}
+6a6f3feb6bab94dd1c98ecaf52f812620cef7517,"['crash', 'intltest']",General,{'crash': 100}
+b1cc901c935811ff3a5bcfba383ab700bdd6f078,"['crash', 'locale', 'hungarian']",General,{'crash': 100}
+6e071a5cc9c06853f33961fdca2acf2969c4aa50,"['chinesecalendar', 'crash', 'problem']",General,{'crash': 100}
+bb8aefc676b346720633aac3182278cb3ad0a22b,"['release', 'delete', 'crash', 'enable', 'debug', 'runtime', 'static', 'operator']",General,{'crash': 100}
+dbb58ee5cbcec8d5044b6b37c3c8f32e4e59e41a,"['currency', 'crash', 'setting', 'suffix', 'prefix']",General,{'crash': 100}
+17a3835464ac1ca9e69f48df6688d04b48f68a3f,"['calendar', 'initialization', 'crash', 'taiwan']",General,{'crash': 100}
+55ab205b9ce21bc1c7117aff8d7331c586cff25d,"['crash', 'reorganization']",General,{'crash': 100}
+78af2c2195564e4e4d418c4475b5caadcba3d80d,"['update', 'security', 'policy']",General,{'security': 100}
+50c3ef85d54debe9a2035f1cb587dcb1e9cb38d6,"['update', 'security', 'policy']",General,{'security': 100}
+993fb18289c310898d63337aa4196ccec9022a9f,"['crash', 'situation']",General,{'crash': 100}
+a0f456dad5fc6f03a22a10582e40c24b1bee15f8,"['crash', 'solaris']",General,{'crash': 100}
+0ba4bdac5d3c7c7f3a0f0ef533807fd7b28821f6,"['crash', 'argument']",General,{'crash': 100}
+3d0b127c12f0583a0264342fbb5ad2266ce119f7,"['overrun', 'buffer']",Risky_resource_management,{'overrun': 100}
+188d958fd57f35532f17e3d79ce298ecf8e28209,"['security', 'manager']",General,{'security': 100}
+254cb0402284184641771eae118ee4d1c69876b0,"['crash', 'compiler', 'preoptimize']",General,{'crash': 100}
+91e27a0aecf5859afd9c974817bae123d0fe3ff3,"['update', 'security']",General,{'security': 100}
+2ac867caab8f45c24b1fc6e191bcbf7a7738b4d8,"['update', 'security']",General,{'security': 100}
+772f2f00a3b71cc29393bdc599702f1383202c1f,"['update', 'security']",General,{'security': 100}
+1dbdb6ec78ceb0dd3275fb6ffff0a5851eae810d,"['update', 'security']",General,{'security': 100}
+4f2a64c2073acb84e0e4a6b3a95592367cffcb17,"['update', 'security']",General,{'security': 100}
+036ca19a28782fce675ece44b83c130d512b46e5,"['issue', 'address', 'manager', 'support', 'security']",General,{'security': 100}
+162b0d052fb994a0ec653efa525bb3cba7019764,"['property', 'security', 'catch']",General,{'security': 100}
+43583200b0c909eec3d6d5ed2f8a26d6fc744a5a,"['security', 'securecheck']",General,{'security': 100}
+162ffbb8f8b7030c2220062925cc1b70eb79282f,"['crash', 'error', 'parse']",General,{'crash': 100}
+1587dc9caa80c66ae4079a36a1378b8396548736,"['thread', 'safety', 'translit', 'deadlock']",Risky_resource_management,{'deadlock': 100}
+13b50d8e94f14817ab67e3a2b7f7c9b0cc606fef,"['thread', 'safety', 'translit', 'deadlock']",Risky_resource_management,{'deadlock': 100}
+c1b4de4f7249f6f5e9bf390d27c63fc3e76c855e,"['mutex', 'translit', 'deadlock']",Risky_resource_management,{'deadlock': 100}
+b0337f001cca686cf6ae8b321789d14237534087,"['crash', 'return', 'snext']",General,{'crash': 100}
+3c07c3f00cd6e0d68a33a5bc0cdcb10f5f7122df,"['deadlock', 'detect']",Risky_resource_management,{'deadlock': 100}
+164faf6a3d5290c724a505130d972dd59696b667,"['instantiation', 'arabic', 'registry', 'mutex', 'latin', 'deadlock']",Risky_resource_management,{'deadlock': 100}
+6173b0ba30c4ebb8089af9d70af09f3e1b73687e,"['deadlock', 'problem']",Risky_resource_management,{'deadlock': 100}
+3a74c75e2f4f8cc0c63f452ecac1d880c184e471,"['crash', 'machine']",General,{'crash': 100}
+9e3f6929445f62dc82211fc87c9dcdab85fe81ae,"['crash', 'locale']",General,{'crash': 100}
+4e162909301968bbb960486ec667162aa230adf0,"['crash', 'regex']",General,{'crash': 100}
+8be1908bd335538d09710439f39a905d931a2582,"['crash', 'regex']",General,{'crash': 100}
+efeb3b480d9c5d933b0f81d804acf9bfa8e54ab2,"['crash', 'regex']",General,{'crash': 100}
+873f4f09fd846ed34aed30c42726f69034d753a2,"['security', 'manager']",General,{'security': 100}
+5201ca95052724d1b267fda5ea44d7662104d219,"['solaris', 'length', 'crash', 'inconsistent', 'return', 'string']",General,{'crash': 100}
+e4e47af619748c10dc3f49858889b7a6ba290f9a,"['crash', 'invalid']",General,{'crash': 100}

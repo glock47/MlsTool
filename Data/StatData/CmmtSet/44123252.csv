@@ -1,11 +1,36 @@
-sha,message,catetory,matched,labels
-ebab03ab6618604c6026a25dd356fdb1cb77b351,"['replay', 'percent', 'calculation', 'integer', 'overflow']",Risky_resource_management,{'integer overflow': 100},
-21a4d76cc31105e1ba642462446891142fddc9f0,"['invalid', 'empty', 'pubkey', 'crash']",Risky_resource_management,{'crash': 100},
-ea238817f921a6c227115a825e88b7328bfd1d44,"['mergequickstart', 'pmconrad', 'request', 'mergeimprove', 'startup', 'crash']",Risky_resource_management,{'crash': 100},
-546755484add874700f67aae2cb64b21e3bd30b3,"['restart', 'crash']",Risky_resource_management,{'crash': 100},
-ab0d789d7293cd9618e9f926f3d23566c9a1efdb,"['restart', 'crash']",Risky_resource_management,{'crash': 100},
-00253b396e53f57df116e1f336de511bbde3ed10,"['bogus', 'crash']",Risky_resource_management,{'crash': 100},
-f506c2b089c98c336eb0e8bf956131e556fea8ac,"['message', 'crash']",Risky_resource_management,{'crash': 100},
-0936f9b5f210a7886af89ebd92a1d24ca2da7957,"['wallet', 'crash']",Risky_resource_management,{'crash': 100},
-045cfbd9146a8d408ca9364f7641c194ac940a38,"['config', 'crash']",Risky_resource_management,{'crash': 100},
-d1f3ce854376f753a6088575fb5496ad22584274,"['issue', 'crash']",Risky_resource_management,{'crash': 100},
+sha,message,catetory,matched
+9de407b788023f8df96361e5007ac90660edbf85,['crash'],General,{'crash': 100}
+ebab03ab6618604c6026a25dd356fdb1cb77b351,"['integer', 'overflow', 'replay', 'percent', 'calculation']",Risky_resource_management,{'integer overflow': 100}
+440586ef184812f678ba1c00c87439a922564c9c,"['pull', 'request', 'bitshares', 'websocket', 'crash', 'websocket', 'server']",General,{'crash': 100}
+44da6dae8294699aa138dea61fef7f127d3d1ac0,"['pull', 'request', 'pmconrad', 'node', 'crash', 'node', 'crash']",General,{'crash': 100}
+14e0f175e26a626bc6c1dedd4b787802df1f72dc,"['pull', 'request', 'bitshares', 'connection', 'crash']",General,{'crash': 100}
+1ce3563f1e5b4f9ec5b1d32e51251888acaa8a4c,"['improvement', 'optional', 'parameter', 'support', 'minor', 'memory', 'leak', 'issue']",Risky_resource_management,{'memory leak': 100}
+21a4d76cc31105e1ba642462446891142fddc9f0,"['crash', 'empty', 'invalid', 'node', 'pubkey']",General,{'crash': 100}
+3eb2cfaab2cce998399a6600c7b7218efe4c345e,"['pull', 'request', 'bitshares', 'node', 'crash']",General,{'crash': 100}
+f4dcd9b2f43ec552725c63d37413b9f41601762d,"['node', 'crash']",General,{'crash': 100}
+81c45a76a97b08262b688ac2bc30964414f900f8,"['integer', 'underflow', 'test', 'case']",Risky_resource_management,{'integer underflow': 100}
+49e339871a7423821386044b747ac74b43a4c903,"['pull', 'request', 'bitshares', 'feed', 'expiration', 'overflow', 'feed', 'expiration', 'integer', 'overflow', 'issue']",Risky_resource_management,{'integer overflow': 100}
+bc05dc13a4ce0310fb4f43ee2d31c57dc4d71665,"['test', 'feed', 'expiration', 'integer', 'overflow', 'issue']",Risky_resource_management,{'integer overflow': 100}
+def4300df68a3ae44b4969ef59d65ad93eff07a8,"['feed', 'expiration', 'integer', 'overflow', 'issue']",Risky_resource_management,{'integer overflow': 100}
+ea238817f921a6c227115a825e88b7328bfd1d44,"['pull', 'request', 'pmconrad', 'quickstart', 'startup', 'time', 'crash']",General,{'crash': 100}
+be19d30ebbd967a1211a04f4c3e643228076e811,"['integer', 'underflow']",Risky_resource_management,{'integer underflow': 100}
+19dc0e5f8f912064319dd272d360a00aa38e8078,"['pull', 'request', 'bitshares', 'transaction', 'memory', 'leak', 'memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+2c05590cd431dfa96a4c69d30bd3de0c58f02496,"['memory', 'leak']",Risky_resource_management,{'memory leak': 100}
+12be59db79e3bf714757dd0a1eadb2d9b9e9c7b9,['crash'],General,{'crash': 100}
+10fca25acc6bb13b724bb31760df27afdad761b3,"['integer', 'overflow', 'zero', 'block']",Risky_resource_management,{'integer overflow': 100}
+546755484add874700f67aae2cb64b21e3bd30b3,"['crash', 'restart']",General,{'crash': 100}
+ab0d789d7293cd9618e9f926f3d23566c9a1efdb,"['crash', 'restart']",General,{'crash': 100}
+00253b396e53f57df116e1f336de511bbde3ed10,"['crash', 'bogus']",General,{'crash': 100}
+9080800c5b61dbd0f374fe7ce3495e0e8e9cf657,"['crash', 'update', 'crash', 'websocket', 'message', 'broadcast', 'block', 'network']",General,{'crash': 100}
+7e42d4b3e8f478b65956776f2654615399276e16,"['node', 'crash', 'destructor', 'apis', 'pointer', 'scope', 'result', 'destructor', 'pending', 'async', 'operation', 'potential', 'exception', 'thrown']",General,{'crash': 100}
+d0659848543a3a7d6e3abed8f0f4bb25b85a42eb,"['crash', 'cast']",General,{'crash': 100}
+1813e9f5f6b71cf6a9b5d2b348f688df247e25d0,"['crash', 'user', 'free', 'engine', 'ownership', 'account', 'object', 'garbage', 'account', 'object', 'garbage']",General,{'crash': 100}
+fd94046eb65fb47fed82703a8d332faee99ed170,"['integer', 'overflow', 'error', 'work', 'msvc', 'parser']",Risky_resource_management,{'integer overflow': 100}
+0858018977e15843215314112a0ea8d0fb1b693b,['crash'],General,{'crash': 100}
+417f869dead7140b3f56d6d41e133320a68d5d60,"['http', 'header', 'wallet', 'effort', 'stateless', 'separate', 'call', 'ability', 'header', 'unlock', 'reduces', 'potential', 'user', 'confusion', 'http', 'security']",General,{'security': 100}
+0936f9b5f210a7886af89ebd92a1d24ca2da7957,"['wallet', 'crash', 'exit']",General,{'crash': 100}
+714161c56cc49a4474d3d1aa1434282a4506680c,"['integer', 'overflow', 'warning', 'error']",Risky_resource_management,{'integer overflow': 100}
+045cfbd9146a8d408ca9364f7641c194ac940a38,"['crash', 'config', 'file']",General,{'crash': 100}
+aaf31d840f12fb4457b7aade6382fa908670e1d9,"['crash', 'history', 'lenght', 'limit']",General,{'crash': 100}
+1b9ca9ffe8c546fd274258b4f2a411268f3d4be5,"['wallet', 'command', 'enable', 'shutdown', 'node', 'code', 'error', 'test', 'likely', 'occasional', 'crash', 'shutdown']",General,{'crash': 100}
+d1f3ce854376f753a6088575fb5496ad22584274,"['issue', 'crash']",General,{'crash': 100}
