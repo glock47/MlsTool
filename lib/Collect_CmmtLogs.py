@@ -396,7 +396,7 @@ class Collect_Issues(Collect_Research_Data):
 
         cdf = pd.read_csv(cmmt_file)
         issue_file = System.issue_file (repo_id)
-        if System.is_exist(issue_file):
+        if or os.path.exists(issue_file):
             return
                 
         print ("[%u]%u start...commit num:%u" %(self.repo_num, repo_id, cdf.shape[0]))
@@ -441,6 +441,9 @@ class Collect_Issues(Collect_Research_Data):
 
     def save_data(self, file_name=None):
         if (len(self.research_stats) == 0):
+            if file_name != None:
+                Empty = "touch " + file_name
+                os.system (Empty)
             return
         super(Collect_Issues, self).save_data2(self.research_stats, file_name)
                      
