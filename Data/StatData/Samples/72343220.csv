@@ -1,0 +1,501 @@
+No,Sha,Valid,Message,Issue-url,Tag,Category
+0,2618d5a23aebb4dec95d967f0e873d47b2f9f946,False, ported test doctest 2405 ported test doctest, , ,None
+1,6f3773110c5f7b16505d15eee084697d0fc1c15b,True, merge pull request 2393 derthorsten fix changed impl computed_assign shape different type supported,https://api.github.com/repos/xtensor-stack/xtensor/issues/2393, ,None
+2,74d565066898b6a9b620ebb75147bcc7e8e7a409,False, removed test xfixed, , ,None
+3,b2f918057e52a90c76c3116ded4a2e1355471c11,False, format, , ,None
+4,5f133ae2239bf6e09e1a19649e648618a668dd10,False, added missing greater comperator lex comparison removed handling fixed shape tensor done separate extended test st. rely fixed shape tensor, , ,None
+5,597a1395744d341d6af5988656fb9e0b7092e3e0,False, minor format change, , ,None
+6,f8f90247e646f8157730ef8dddfe7bc6244b9a51,False,  use lexicographic comparsion shape type use specialized type deadling xfixed, , ,None
+7,44d4a479a13b66a8c1d71fe6bf5df9a737603fdd,False, use compare shape use xassign computed_assign, , ,None
+8,f3c11b2d810159e7063daddeaa0764f4006e5a73,False, release 0.23.10, , ,None
+9,62d3f3ac717f41cd72ea7292cc270769ef50bf2c,True, merge pull request 2374 tdegeus average2 average fixing overload issue axis argument,https://api.github.com/repos/xtensor-stack/xtensor/issues/2374, ,None
+10,6504ecdcf7829344aee67b7943fb982079fc5dae,True, merge pull request 2373 tdegeus flip flip adding overload without axis mimic numpy,https://api.github.com/repos/xtensor-stack/xtensor/issues/2373, ,None
+11,cbc61f31f92fafc7494bafec7e912ff57d797e76,True, merge pull request 2387 tdegeus ind adding description index operator,https://api.github.com/repos/xtensor-stack/xtensor/issues/2387, ,None
+12,2bc748567ed20c148bde2668c930f2a0e79eb4ba,True, merge pull request 2385 tdegeus back adding front back convenience method,https://api.github.com/repos/xtensor-stack/xtensor/issues/2385, ,None
+13,4f036d057d4d333aaa5ed775b1399a7a2a44fe5c,True, merge pull request 2386 tdegeus hist fixing histogram,https://api.github.com/repos/xtensor-stack/xtensor/issues/2386, ,None
+14,fdeda7a958eb18a67dd2a50b784adab49655fb4b,True, merge pull request 2378 johanmabille check_index fixed check_index function,https://api.github.com/repos/xtensor-stack/xtensor/issues/2378, ,None
+15,f8dcb25492d7aeeac95057e36d7fa1e65115f324,False, adding description index operator, , ,None
+16,3a86f612c7b9f10aa0ebbb594e4cf2015948068d,False, adding front back convenience method, , ,None
+17,f02e3b7a4b07ec2fc05cc2299478f089e97ca3dd,False, fixed chech_index function, , ,None
+18,19f5db31ff3fb544b3f029168bb6058320403cb7,False, fixing histogram, , ,None
+19,b5c9286bdce00fa8fc2a93d94303388741624607,True, merge pull request 2356 tdegeus flat adding .flat,https://api.github.com/repos/xtensor-stack/xtensor/issues/2356, ,None
+20,50e3d42c4316ff01c12d3e039db567b42f009772,False, adding .flat, , ,None
+21,a8f1a6ac48b006144b7dbeb9a2bdf495a715a213,True, merge pull request 2238 tdegeus argsort argsort catching zero stride leading axis bugfix,https://api.github.com/repos/xtensor-stack/xtensor/issues/2238, ,None
+22,fcf6ade1b1c656dfb041833fda2cff961288f8a1,False, argsort using shape instead stride sort along leading axis, , ,None
+23,1b36ad6d5b5b96ee2bacb0960cd22d18cb457613,True, merge pull request 2377 tailsu cache fix,https://api.github.com/repos/xtensor-stack/xtensor/issues/2377, ,None
+24,4774c4dd0df7e1dfb34dc9573d9adb2c006b8470,False, average fixing overload issue axis argument, , ,None
+25,1e958ea7c049ddf2e41ea2e989933514db9a715a,False, flip overload without axis mimic numpy, , ,None
+26,41be2233d24f5de9d7f7bc8c44b91317be810699,False, release 0.23.9, , ,None
+27,3127ecc1441195a4a7b20ffe24d1105cc24c1f41,True, merge pull request 2371 gouarin view perf fix data_offset method xview compute stride,https://api.github.com/repos/xtensor-stack/xtensor/issues/2371, ,None
+28,1855d5f3004cff4a3d9993324789353943874f2c,False, fix data_offset method xview compute stride, , ,None
+29,b7a8cd031d6abfc27bff8e5dad5d0ecd8567e2db,False, release 0.23.8, , ,None
+30,28c6b1fc75a0c133d45212317f5bd493ab3a6437,True, merge pull request 2367 davidbrochart specialize operator chunked,https://api.github.com/repos/xtensor-stack/xtensor/issues/2367, ,None
+31,9936e0eb8fa5480d6aa49cfdedb2e710899a5468,False, overload as_view chunked, , ,None
+32,915236ed7ad0895a744d1f8b8289589c49577a2f,False, change according review, , ,None
+33,e2ffd6216a9e503036bab093764915a8a68b25f7,False, specialize operator chunked, , ,None
+34,644970a7d0f7b05f7eedbdc714db418ab1c4b13e,False, release 0.23.7, , ,None
+35,6486b1095f8c59244f8668cacfec9917aaab18a2,True, merge pull request 2365 johanmabille chunk_assign fixed,https://api.github.com/repos/xtensor-stack/xtensor/issues/2365, ,None
+36,df0b00507c3da8c570f00a1191617a439e4bf777,False, fixed chunk assignment, , ,None
+37,a1f6b16ca9a2a47e53a074c17e4fe974808edbd8,False, release 0.23.6, , ,None
+38,e5bd9399c0b808e3f7aa9970b290673fcd7f3025,True, merge pull request 2363 johanmabille chunk_assign fixed chunk assignment,https://api.github.com/repos/xtensor-stack/xtensor/issues/2363, ,None
+39,ec8db289b80d30493302bc2ad543be39d43aa75b,False, fixed chunk assignment, , ,None
+40,5b7446890977ae287c6f8f7d3ae6203d19bca4f0,True, merge pull request 2362 johanmabille chunk_iterator added const chunk iterators,https://api.github.com/repos/xtensor-stack/xtensor/issues/2362, ,None
+41,60ce4002d675ef2fc12842cb066b2d291d6f021e,False, added required type xchunk_iterator, , ,None
+42,2b9c2b02ccc8b1ce6657f53aba6a36994db3bd4c,False, added const chunk iterators, , ,None
+43,ca4c2e617351f9ac54b567b70ccea2068348596f,True, merge pull request 2361 johanmabille resize added assertion resize method,https://api.github.com/repos/xtensor-stack/xtensor/issues/2361, ,None
+44,908229ef0565aa932d6bb992d4fd35cc417f3ccb,False, added assertion resize method, , ,None
+45,3abb74cb039537520b16d54401cab5de6d4ceb4f,True, merge pull request 2360 johanmabille chunked_array fixed grid_shape return type,https://api.github.com/repos/xtensor-stack/xtensor/issues/2360, ,None
+46,a4dea7062f2f7c563056025c661f38620bcbcbb7,False, fixed grid_shape return type, , ,None
+47,fc138f77996557d5c6dbd22d46b58438fe208114,True, merge pull request 2357 sylvaincorlay update installation instruction update installation instruction mention mamba,https://api.github.com/repos/xtensor-stack/xtensor/issues/2357, ,None
+48,f3b1e96d505d37af998daa04fa818422fef0bc00,False, update installation instruction mention mamba, , ,None
+49,05c88440bc72a5d1b5dccabd9ee4ec043131348f,False, release 0.23.5, , ,None
+50,869cc0a22aea80d34f0728e184842bdea42fe43b,True, merge pull request 2353 johanmabille chunk refactoring xchunked_view,https://api.github.com/repos/xtensor-stack/xtensor/issues/2353, ,None
+51,2e872840a7ebc3e4e8b0f84cbae39360503243b1,False, one xchunk_iterator rule, , ,None
+52,42fc49080522c94ea784541b53ef302ccb0344c0,False, refactoring xchunked_view, , ,None
+53,78aaac39143caa78da7c5c0734ccef957535f0c0,False, implement grid view 2346 implemented xchunk_iterator separate xchunked_view, , ,None
+54,40ddbfc509c1184772e9fa7704ffb412bb320f48,True, merge pull request 2347 johanmabille azure explicitely install gcc7 gcc8 azure,https://api.github.com/repos/xtensor-stack/xtensor/issues/2347, ,None
+55,5543b1cfdf411a646a9d2b9cca80bb405fcab7a4,False, explicitely install gcc7 gcc8 azure, , ,None
+56,d836da3832e4ccd3c906cd652dc6f196a8e2066c,False, fix, , ,None
+57,d09e8076fe918562efca0f9ecee2748ce0de1692,True, merge pull request 2344 bltg ravel fix xtensor stack xtl issue 245,https://api.github.com/repos/xtensor-stack/xtensor/issues/245, ,None
+58,318239f50e0f9dbe081b75c650fcd5c03e30c023,True, fix xtensor stack xtl issue 245,https://api.github.com/repos/xtensor-stack/xtensor/issues/245, ,None
+59,5b6f0996a2429d3b0d1bcdd101f22e65322090d9,True, merge pull request 2343 sylvaincorlay noblas need explicitly install blas anymore latest xtensor blas,https://api.github.com/repos/xtensor-stack/xtensor/issues/2343, ,None
+60,d7b645b9cc69bd20d72ee07b619d2bf682677a71,False, need explicitly install blas anymore latest xtensor blas, , ,None
+61,36bdf5e18c476cba8ceb034fb625f6ae56392003,False, release 0.23.4, , ,None
+62,69da8645923e09a51c6a90324257e136759b5116,True, merge pull request 2342 davidbrochart edge_chunk fix edge chunk assignment,https://api.github.com/repos/xtensor-stack/xtensor/issues/2342, ,None
+63,c33ee6211162a2a319d7814d5ed395b548126a47,False, fix edge chunk assignment, , ,None
+64,339e6728f891bb3fec5ab4695c894aa6a849cc6f,True, merge pull request 2340 johanmabille functor_view fixed xfunctor_view,https://api.github.com/repos/xtensor-stack/xtensor/issues/2340, ,None
+65,30dc4693b090ad5a093baf7245a99eaeb263af88,False, fixed xfunctor_view, , ,None
+66,62645d3b5b7a53a0f2bc4277b0912c9687de449b,False, release 0.23.3, , ,None
+67,6967ad1d718158ac51b526db976f0cd9cbd67563,True, merge pull request 2339 johanmabille flatten_assign fixed assignment flatten view,https://api.github.com/repos/xtensor-stack/xtensor/issues/2339, ,None
+68,2f2213b01426ae2974c227561a8fa1de682fc6b7,False, fixed assignment flatten view, , ,None
+69,daa4628be71ecbae11db30e420cebf437bb78662,True, merge pull request 2338 johanmabille const_data fixed return type data method,https://api.github.com/repos/xtensor-stack/xtensor/issues/2338, ,None
+70,0e079a7a778e8ab34d76337ac3690d47c6065d8b,False, fixed return type data method, , ,None
+71,13b0abff760859162dcbf27274d4199f9d82e6e4,True, merge pull request 2336 johanmabille cpp17 xtensor_view assignment,https://api.github.com/repos/xtensor-stack/xtensor/issues/2336, ,None
+72,8f39fab25e60f0af426529c0986a7c6b2c593b0c,False, fixed assignment tensor_view pseudo container, , ,None
+73,a04305c3e7256f0df91b5735921f4c4f25abc586,True, merge pull request 2335 johanmabille layout fixed layout issue container class,https://api.github.com/repos/xtensor-stack/xtensor/issues/2335, ,None
+74,a8833f07483de4a940a9093960e7372e272f7b97,False, fixed layout issue container class, , ,None
+75,28b27bcda2095378b5bb3ca235066ad32cda0781,True, merge pull request 2333 zhujun98 add missing api rtd nan function,https://api.github.com/repos/xtensor-stack/xtensor/issues/2333, ,None
+76,caab55cc48cca69b1326551782a03776663c0f75,True, merge pull request 2334 zhujun98 use correct version file tbb since 2021.1,https://api.github.com/repos/xtensor-stack/xtensor/issues/2334, ,None
+77,76758d2bc831649240840ba42b15dc349d13503b,False, use correct version file tbb since 2021.1, , ,None
+78,e4c28ab4723a051aeebda5e8e93515534d1247ae,False, add missing api rtd nan function, , ,None
+79,0aab2360b507b6bed1de3847ae708bcf2d8de368,False, release 0.23.2, , ,None
+80,8cf900693b72637738ce8d5a572a74090d2203b4,True, merge pull request 2329 johanmabille tile fixed ambiguous call tile,https://api.github.com/repos/xtensor-stack/xtensor/issues/2329, ,None
+81,057eda82de80bea8c1a9d0d5b925a37079abae05,False, fixed ambiguous call tile, , ,None
+82,44f95164209fb5990b8aecab24d4466398fade73,True, merge pull request 2327 zhujun98 fix linespace one point,https://api.github.com/repos/xtensor-stack/xtensor/issues/2327, ,None
+83,5d1809cb49af46ee547150668c43c0bb473654cd,True, merge pull request 2326 zhujun98 clean add test nanmin nanmax,https://api.github.com/repos/xtensor-stack/xtensor/issues/2326, ,None
+84,bd3690dc1e483aaaf0594862f4776cb5382e73c4,False, fix linespace one point, , ,None
+85,e6a8021bed7f4dacb456c272e3560d369700b801,False, clean add test nanmin nanmax remove leftover macro add test return type check improve documentation, , ,None
+86,1806543ed9e150fd58d066a917547e8c12094358,True, merge pull request 2314 zhujun98 implement nanmin nanmax,https://api.github.com/repos/xtensor-stack/xtensor/issues/2314, ,None
+87,5e0531a4eff3b2f61b9ff66aa6a104ab3891bcaa,False, implement nanmin nanmax, , ,None
+88,f6f790cf7385259ae9829f29c0f88041bd786a27,True, merge pull request 2325 johanmabille tbb added fallback old behavior findtbb.cmake,https://api.github.com/repos/xtensor-stack/xtensor/issues/2325, ,None
+89,42ddb711f3dcbf1355da06a2f8c9a93fe50a7126,False, added fallback old behavior findtbb.cmake, , ,None
+90,87e68d2953cdde9303a6c11c7fbf105fa6ca98ac,True, merge pull request 2306 zhujun98 fix linspace endpoint bug,https://api.github.com/repos/xtensor-stack/xtensor/issues/2306, ,None
+91,b5e9e7c357881315e3cff196828c16b68f231174,True, merge pull request 2313 zhujun98 fix automatically generated test,https://api.github.com/repos/xtensor-stack/xtensor/issues/2313, ,None
+92,79994596d937734859ef1aab8328138054efd299,True, merge pull request 2324 johanmabille tbb fixed findtbb.cmake,https://api.github.com/repos/xtensor-stack/xtensor/issues/2324, ,None
+93,901cb7a0989a8dfb6cb0ccd535b5897157a7961d,False, fixed findtbb.cmake, , ,None
+94,82bac83470f0d8df84d5ad13c35fbebf374f88e3,True, merge pull request 2323 johanmabille strided_view added can_assign,https://api.github.com/repos/xtensor-stack/xtensor/issues/2323, ,None
+95,63ccb733a6d7e4e0269c9d3a11aa267ac314ab1c,False, added can_assign, , ,None
+96,ef82d24852a4e71571d0d2c043c7b7872485bd3f,True, merge pull request 2322 sylvaincorlay update readme update readme recommend conda conan,https://api.github.com/repos/xtensor-stack/xtensor/issues/2322, ,None
+97,44a414aae8f94a33273d7219355e5250816bd74f,False, update readme recommend conda conan, , ,None
+98,c5a927fc340b774997e745d94d57928459cf9561,False, fix automatically generated test fix add warning cmakelists.text file fix manually modified test, , ,None
+99,0985652980d47de9e0b44c195cc4d3626b0570f1,False, add missing return type template argument histogram, , ,None
+100,a359c08c2030677068867d51af61888753ebb54b,False, add two overload histogram, , ,None
+101,f7baa309afab70485f378b42c6b22622b05ae7c6,False, add warning preprocess.py modify license cppy file, , ,None
+102,12f2840b25e6ed50bb2a9ce63dc6af39de45c9eb,False, fix histogram bug non equal bin, , ,None
+103,bf600b8009ed1b76f6043921a7dea20b32e218cf,True, merge pull request 2310 tdegeus doc publishing doxygen doc github page,https://api.github.com/repos/xtensor-stack/xtensor/issues/2310, ,None
+104,4875aac3cbff337503eee31dcd1b7d742503fefa,False, publishing doxygen doc github page, , ,None
+105,d7d5e89cf041199e55b9343dfd24b98a950e5159,False, fix linspace endpoint bug, , ,None
+106,54dbb8223d5a874261e8e988b487054d2e50710e,True, merge pull request 2299 pkthong msvc build wrapped linker flag quote,https://api.github.com/repos/xtensor-stack/xtensor/issues/2299, ,None
+107,39bb41cfffacf5b0bc41e9cb08b2d95d0b7b64b2,False, wrapped linker flag quote, , ,None
+108,ed3cab15994549346aa420d29ff8bae131c3d947,False, release 0.23.1, , ,None
+109,3843a2d27387c8e527be76707e8dad63f5978be0,True, merge pull request 2295 wlbksy master fix wunused local typedef warning,https://api.github.com/repos/xtensor-stack/xtensor/issues/2295, ,None
+110,4205a0cfdf59b7f80301c76afed17f83fc5aa1dd,False, fix wunused local typedef warning, , ,None
+111,cbb810d57be862fda67ad40dbacb09104fb7a1f8,True, merge pull request 2294 biodataanalysis test disabled failling shuffle test also clang,https://api.github.com/repos/xtensor-stack/xtensor/issues/2294, ,None
+112,af28d7f573cc7dae4bbcfa959c2d8c8d561f6d4a,True, merge pull request 2292 adriendelsalle fix simd assign fix simd assign_data,https://api.github.com/repos/xtensor-stack/xtensor/issues/2292, ,None
+113,e4d43ad8abdae29f8868251a26aba90ae439264b,False, test disabled failling test also clang linux like msvc, , ,None
+114,78f5d175bb59a86eb6bc9d7637c53cd8c70627a9,True, merge pull request 2293 wlbksy master fix wshadow wunused local typedef warning,https://api.github.com/repos/xtensor-stack/xtensor/issues/2293, ,None
+115,39dc1d70b1e36ff42173b3614b2ffe70fff465e3,False, fix werror error, , ,None
+116,7c37f4b42e2756be8f300f9778f9dc8c08f48770,False, fix simd_assign trait fix layout test trait flatten, , ,None
+117,be8fe0891b869946540505b39ba914096f3f0ceb,True, merge pull request 2287 antoineprv doc improvement documentation improvement part,https://api.github.com/repos/xtensor-stack/xtensor/issues/2287, ,None
+118,07843f699eda7a484f5373c32efbd27b62f4bef6,False, add extra random choice argument numpy comparison sheet, , ,None
+119,997ad0b8984f2595d2eb54784d741e40b42f7949,False, add cross reference scipy, , ,None
+120,87253877733f3776af0b8ff2ccf09f76fae30459,False, add cross reference numpy, , ,None
+121,67ed99da7dc3821a83b8c137c002338fb96a645d,False, fix table overflow, , ,None
+122,ddd2d6e101c0afe338abb1f4db51162d9c0c5794,False, release 0.23.0, , ,None
+123,0b2b734b0b1570f387e72b8ecf768e947753e681,True, merge pull request 2285 johanmabille functor_view added missing shape_type,https://api.github.com/repos/xtensor-stack/xtensor/issues/2285, ,None
+124,0550e3e5265f9fa7d6719c784098c4621b4d4282,False, added missing shape_type, , ,None
+125,a9e0f0cf15d51b11ad1e5287463ff22d49032557,True, merge pull request 2284 johanmabille upgrade upgraded xtl 0.7.0,https://api.github.com/repos/xtensor-stack/xtensor/issues/2284, ,None
+126,d9e4a8234bc4a8dac2b36a5d1615672dd0d242e8,False, upgraded xtl 0.7.0, , ,None
+127,7c0901c64c541b4c5e1001845f4a97fa8f23db1c,True, merge pull request 2283 davidbrochart remove_attrs remove chunked array extension mechanism,https://api.github.com/repos/xtensor-stack/xtensor/issues/2283, ,None
+128,cda3d7bedb33562b28eaefb7daf66ee69dd2ca41,False, remove chunked array extension mechanism, , ,None
+129,a07aae2076189935e36ddabe029dcfcdc673cd61,True, merge pull request 2280 antoineprv doc improvement documentation improvement part,https://api.github.com/repos/xtensor-stack/xtensor/issues/2280, ,None
+130,2b1ae53e0dd7926cbf10393706cceb47c0365e45,False, harmonize include statement doc, , ,None
+131,e0dac3a65df5a45b7e1ac7ac17e30547e552b6bd,False, fixed xtl version azure pipeline, , ,None
+132,c4d21755060c576d9caad248e698f000c5929765,False, release 0.22.0, , ,None
+133,c82dac8a50d89626ce9a8f66fac4fd7c3033c6f6,True, merge pull request 2279 johanmabille accumulator added template parameter initial value type accumulator,https://api.github.com/repos/xtensor-stack/xtensor/issues/2279, ,None
+134,6c8ab10a8e4b75d42a801d9f2ea872b795eeaf5e,False, added template parameter initial value type accumulator, , ,None
+135,11a442592ab91f6b594f876c59145f845fea5c3e,True, merge pull request 2278 johanmabille doc updated reducer doc according recent change,https://api.github.com/repos/xtensor-stack/xtensor/issues/2278, ,None
+136,6de074822694a76f4935dcb5e0ace597a0e1e948,False, updated reducer doc according recent change, , ,None
+137,dba06f86430c56ccc5213e7d501079d6145e8a8b,True, merge pull request 2277 adriendelsalle remove reducer default promoted type remove reducer,https://api.github.com/repos/xtensor-stack/xtensor/issues/2277, ,None
+138,0063981eabb8bf5610c7cb925a3b03ce08087bfb,False, remove use, , ,None
+139,2e3f1e6557258be7329aadd43ad627418dad4ffc,True, merge pull request 2276 johanmabille doc slight reorganization documentation,https://api.github.com/repos/xtensor-stack/xtensor/issues/2276, ,None
+140,05c27624e8f64a37240d5e71ea55e628210da834,False, slight reorganization documentation, , ,None
+141,083cd28346f2e19a20b9f96d18b6d252a694f65f,True, merge pull request 2274 serge sans paille fix warning provide werror mode ensure xtensor pass,https://api.github.com/repos/xtensor-stack/xtensor/issues/2274, ,None
+142,06cb913310ff995b9a2e9cbd787e2a085216f9af,True, merge pull request 2275 johanmabille layout moved xlayout.hpp,https://api.github.com/repos/xtensor-stack/xtensor/issues/2275, ,None
+143,e17a828bc9ea6014513ed4fa614a8b0ad6596fcf,False, moved xlayout.hpp, , ,None
+144,d85e535252b35527695bdfb9a72989b882a853dd,True, merge pull request 2273 serge sans paille fix mean ddof extra assert mean computation wrt ddof,https://api.github.com/repos/xtensor-stack/xtensor/issues/2273, ,None
+145,48aa4a3edb00903bd2c648f07c52e8478d1ba6c6,False, provide werror mode ensure xtensor pass conditionally comment test raise warning design explaining case, , ,None
+146,70e609b6cf00d2983482dc4d8c60573af2de645d,False, extra assert mean computation wrt ddof, , ,None
+147,a9829c4eaeb8b3bf7d77c1fdf24012d3f541f221,True, merge pull request 2271 serge sans paille feature cast optional make cast xtl optional compatible,https://api.github.com/repos/xtensor-stack/xtensor/issues/2271, ,None
+148,e37b90ed954a784f04c55377ec8944a83ec69df4,False, extra testing xoptional casting, , ,None
+149,41fa9ce51e3d7708b3db28c97de9cad82c0f06ba,True, merge pull request 2272 serge sans paille fix minor warning fix minor warning detected clang,https://api.github.com/repos/xtensor-stack/xtensor/issues/2272, ,None
+150,76e91c08267572a0e1290e01315f5ce8dc4fbbde,False, omit unused argument, , ,None
+151,7e034dbdc128c22e07915f597a26ca37a37d150c,False, remove unused variable warning, , ,None
+152,6bd8351e5ab48ec319c111d20b77a5011dd57200,True, merge pull request 2270 johanmabille keep_slice fixed broadcasting keep_slice hold single element,https://api.github.com/repos/xtensor-stack/xtensor/issues/2270, ,None
+153,1860109c532024ec0b81c537f6623f37829b4f6a,False, fixed broadcasting keep_slice hold single element, , ,None
+154,b5f4a2d8018ddfa7643b689dc6511901c73fc060,True, merge pull request 2241 antoineprv weighted choice implement random choice weight vector,https://api.github.com/repos/xtensor-stack/xtensor/issues/2241, ,None
+155,f997d2601d349a111efe59c9d644d87fa68c6f93,False, simplify iterators usage weighted choice, , ,None
+156,d4bedf51ab2bce1ee933d7306acfcef4936dfed4,False, replace xtensor_throw xtensor_assert random choice, , ,None
+157,b5b737121a75e5de4ce5229a5eef09e301c5296a,False, improve weighted random sampling implementation add positivej weight assertion random choice change std all_of explicit construct randexp param fix test weighted sampling replacement error improve documentation weighted random sampling, , ,None
+158,5eeb50ef10a7b6e3fc5ddbdb5241cbfedbcd50fd,False, add weighted choice replacement, , ,None
+159,8ef5acabbc1ea2079a4378f704b22f8134e1db55,False, add weighted choice without replacement, , ,None
+160,40bf942fa4c33749fab915bb31c36b22d94830d9,True, merge pull request 2261 adriendelsalle add as_strided add as_strided free function,https://api.github.com/repos/xtensor-stack/xtensor/issues/2261, ,None
+161,9ed0ad97d96e1f773400ffa36e8674b13d78ca21,False, add as_strided free function add helper readable sfinae use alias make sfinae work compiler add docstrings add test, , ,None
+162,c6ae887a47a347cf5ef4a7cece088953545695f0,True, merge pull request 2258 davidbrochart chunked_shape support initialized list chunked_array shape,https://api.github.com/repos/xtensor-stack/xtensor/issues/2258, ,None
+163,629f77c41fc11825783ca4ee5929ea9169623c8e,True, merge pull request 2264 johanmabille disable optional reducer assignment test tbb,https://api.github.com/repos/xtensor-stack/xtensor/issues/2264, ,None
+164,9e81e3c577cbe92a832d218ec60627b8be392eb0,False, disable optional reducer assignment test tbb, , ,None
+165,c238c83b55ad200caed176b2fb465c944b0b25e4,True, merge pull request 2263 zhujun98 fix histogram compatibility container beyond xtensor,https://api.github.com/repos/xtensor-stack/xtensor/issues/2263, ,None
+166,2ffe43c68345218088ee9d8a84865b70ccf20c10,False, fix histogram compatibility container beyond xtensor, , ,None
+167,4d5d52a2ba2625e72b0b98424fdae19bc7bc7ad0,False, change according review, , ,None
+168,96d3096bf1119246c8d8223b9398d7dfcb7896d5,False, support initialized list chunked_array shape, , ,None
+169,1c9b74adb96d72d5b1896e78a0a3fd14151bd917,True, merge pull request 2256 johanmabille chunk_assign removed implemented assign method xchunked_array,https://api.github.com/repos/xtensor-stack/xtensor/issues/2256, ,None
+170,15355f51b1d504cd8acfba133c40a658f2efc4fb,False, removed implemented assign method xchunked_array, , ,None
+171,c00938486b755d8e2c5a21d14d8b8b62950e2e78,True, merge pull request 2254 adriendelsalle fix reducer optional assignment fix reducer assignment,https://api.github.com/repos/xtensor-stack/xtensor/issues/2254, ,None
+172,9e709925ac62f1ac8e0b3a02a31cb943a6b08c09,False, workaround clang, , ,None
+173,18c7c1f84eab53c510f617937e9eed99a22fafb2,False, fix reducer optionals assignment refactor reducer accumulator update add test disambiguish init result type impl auto cast result type init type policy fix simd assignment add doc clang compiler workaround, , ,None
+174,83f9e3b01a559d1b9dc6243a20dd222be8dfc533,True, merge pull request 2253 adriendelsalle fix binary complex fix binary operator complex,https://api.github.com/repos/xtensor-stack/xtensor/issues/2253, ,None
+175,13600ce3335e6b3fc79aef079f857b24ae4feee5,False, fix binary operator complex bump xtl version, , ,None
+176,0de70bcdb3cfd60b8d29eda7335f315c90a642e0,True, merge pull request 2252 adriendelsalle add reducer opt test add reducer test,https://api.github.com/repos/xtensor-stack/xtensor/issues/2252, ,None
+177,5ff4e0c4d0ede7875f4722c3eec2e6c4057b1547,False, add test reducer focus optional array comment test currently failing, , ,None
+178,591fbb58673c61271490ba025cdddb38d9745418,True, merge pull request 2088 zhujun98 improve histogram performance equal bin size,https://api.github.com/repos/xtensor-stack/xtensor/issues/2088,Performance,None
+179,d03043befd9764195d24caab31444690ea45917a,True, merge pull request 2251 adriendelsalle drop old clang support drop support clang version,https://api.github.com/repos/xtensor-stack/xtensor/issues/2251, ,None
+180,8534a0b2719b03bb706b1555746aafd721c62b01,False, drop support old clang version remove pre processor definition update test making specific test update doc simplify macro definition, , ,None
+181,2ed3b10afe9f5d16246aae4ddbfae6c35b2ff973,True, merge pull request 2246 johanmabille align testing alignment,https://api.github.com/repos/xtensor-stack/xtensor/issues/2246, ,None
+182,ba8c27c0e06758c13405b2b469b9d80b03b569e0,False, added macro structure embedding xtensor_fixed data, , ,None
+183,16b378343829bff2c52bff91b3a264be12d43c2e,True, merge pull request 2247 johanmabille azure fixed simd configuration,https://api.github.com/repos/xtensor-stack/xtensor/issues/2247, ,None
+184,8909f003c14634d48f1cf53422cc7da2e01a6d0d,False, fixed simd configuration, , ,None
+185,92562d83c7350fdf2c34e150186646bfa3f6bdef,True, merge pull request 2244 johanmabille doc pin breathe 4.16.0 doc environment.yml,https://api.github.com/repos/xtensor-stack/xtensor/issues/2244, ,None
+186,152dc770709a8748cdaf4cca3eec1edbea697ffd,False, pin breathe 4.16.0 doc environment.yml, , ,None
+187,d99144d08fd6d7210df495e2626e4be3e06ac5ed,False, remove redundant code, , ,None
+188,291e673dc06a29fd934695702c10d8b738446e90,False, improve histogram performance equal bin size, , ,None
+189,ee507e2f854ba9cac6761c4b9cd4ee762c624a7f,True, merge pull request 2235 johanmabille azure skip functor_adaptor simd test default layout column major,https://api.github.com/repos/xtensor-stack/xtensor/issues/2235, ,None
+190,d4eba5dd4fc95c960011ed8ab35851b747a7a62e,False, skip functor_adaptor simd test default layout column major, , ,None
+191,fa61b5336b33c19464e217f282baba79bf7df757,True, merge pull request 2233 johanmabille travis removed travis,https://api.github.com/repos/xtensor-stack/xtensor/issues/2233, ,None
+192,a2d35aa96f9f15929497c3bc234f781d3b3d8139,False, removed travis, , ,None
+193,4462cadbccb5597b551cb5f6b45a1a4fc3e025c5,True, merge pull request 2232 johanmabille azure migrated travis build azure pipeline,https://api.github.com/repos/xtensor-stack/xtensor/issues/2232, ,None
+194,e46519da342f179fbdc9c40bcdd69b844c34364e,False, migrated travis build azure pipeline, , ,None
+195,6cd1c2f98a41d5f306f9ece99b19fe49f2047c73,True, merge pull request 2226 tdegeus doc adding doc,https://api.github.com/repos/xtensor-stack/xtensor/issues/2226, ,None
+196,1e399889c0c87e9dec787aac35be727baf4ea9b6,False, adding doc, , ,None
+197,e2eefa861f4aeae60c35603f654361e4395d0c7a,True, merge pull request 2225 tdegeus include added missing header xfixed,https://api.github.com/repos/xtensor-stack/xtensor/issues/2225, ,None
+198,72e1273f55790077a2d4cdc761de52a4afd9b652,False, added missing header xfixed, , ,None
+199,e25080b80f6f3d8fbf138d8989ba4f28d0bdb8cc,False, release 0.21.10, , ,None
+200,385ec31f8621f9d7edc7fd05d7658e379bfd6f60,True, merge pull request 2224 serge sans paille fix warning fix various warning,https://api.github.com/repos/xtensor-stack/xtensor/issues/2224, ,None
+201,b24b7a076e8b148c1d20c3f798306416fb657caf,False, make xmasked_view copy constructor default, , ,None
+202,ba6d4731a2066afe6693f5a123f8bba01f1dc580,False, make various implicit conversion explicit, , ,None
+203,6846c156825356a62dc16193245936988793fe6e,False, avoid signed unsigned comparison, , ,None
+204,9473ea29f76d805877ae45287713cc7fda344360,False, handle switch case endianness, , ,None
+205,2799672699ed4d5edcb0ef97b63203fa1d5ead9f,True, merge pull request 2223 gouarin improve_xeval improve xeval,https://api.github.com/repos/xtensor-stack/xtensor/issues/2223, ,None
+206,73bd889ec831d7760d5965470f4ce71566de0cc5,False, improve xeval, , ,None
+207,af3ee1afcf0a59fb7b726de10129824124dc9ca7,True, merge pull request 2222 johanmabille doc fixup doc build,https://api.github.com/repos/xtensor-stack/xtensor/issues/2222, ,None
+208,e0bd285e16dbca51c0a8279ee24b4ff84391b20d,False, fixup doc build, , ,None
+209,c97e7f66f943a2e806c10e992358ebf29224a6d5,True, merge pull request 2221 johanmabille zarray removed zarray file,https://api.github.com/repos/xtensor-stack/xtensor/issues/2221, ,None
+210,4b6c840d96929d863e0704bb0abb9239d0820308,False, removed zarray file, , ,None
+211,5b37b84551083ec2d1ef045d6470603c70417b2d,False, document chunked array 2102 add xchunked_array documentation, , ,None
+212,a377fb84c29624e91b6b2451018f3aa3abec1c4f,False, release 0.21.9, , ,None
+213,864966d2591bce208156cfebab57ea1bc9274874,True, merge pull request 2219 davidbrochart fix_resize fix call resize chunk container,https://api.github.com/repos/xtensor-stack/xtensor/issues/2219, ,None
+214,f6a346b244875299cb17fc7adf85a516fef143c9,False, fix call resize chunk container, , ,None
+215,d28e14c8afcad57f77b4facff421e57e4ab8b179,True, merge pull request 2218 serge sans paille feature use xtl platform use xtl endianness instead bundling,https://api.github.com/repos/xtensor-stack/xtensor/issues/2218, ,None
+216,00fa064315bde568e3ff30603ac119e8fd8e3090,False, upgraded xtl 0.6.21, , ,None
+217,20a8a89650d609e1ce6d874e9496a4aee01c367d,False, use xtl endianness instead bundling, , ,None
+218,e3219e9bc8afc9639f1269d339632fcee0e1aeb3,True, merge pull request 2216 johanmabille endianness made global variable const force internal linkage,https://api.github.com/repos/xtensor-stack/xtensor/issues/2216, ,None
+219,c0cc47a8b3e43f618de4cec820c350e13bf0f36e,False, made global variable const force internal linkage, , ,None
+220,6eac7836a8cad7c9bb25ae973e97cb07476d9f9d,True, merge pull request 2214 glemercier master xnpy.hpp fix multiple definition variable included different linked object,https://api.github.com/repos/xtensor-stack/xtensor/issues/2214, ,None
+221,1f6d76abe8f378734568024a7d3bd85f54449697,False, xnpy.hpp fix multiple definition variable, , ,None
+222,85e7ad3a6fa4594b92e60d243152cafa9e990ece,True, merge pull request 2212 biodataanalysis cmake modernized gtest integration,https://api.github.com/repos/xtensor-stack/xtensor/issues/2212, ,None
+223,5921553897efce220de931fea884bbc17b38c525,False, test cmakelists.txt modernized gtest integration, , ,None
+224,07bbe7fd1235c511cf282bae7be3b80027b622a7,True, merge pull request 2211 davidbrochart add chunked_array factory,https://api.github.com/repos/xtensor-stack/xtensor/issues/2211, ,None
+225,497d66e6a662560fb77eb7357aad4ee4c6ce0943,False, add chunked_array factory, , ,None
+226,c76e2936823a77a3beb7e5452e128cb6244d225c,False, adding macro 2152 adding macro, , ,None
+227,d509a41f5e7ca5fce5a9c3b795f7cf03ca8eb3ca,False, xcontainer.hpp renamed shadowing type name inside function 2208 renamed shadowing type name, , ,None
+228,ca1a90bdd886a1369e6f178732c04e2eeb4d5321,False, release 0.21.8, , ,None
+229,22574b116374eee64dcdd386a556788f4cf4c127,True, merge pull request 2207 biodataanalysis xstorage.hpp renamed shadowing variable inside function,https://api.github.com/repos/xtensor-stack/xtensor/issues/2207, ,None
+230,9e5c0bf4acc8b31ee2870b4e36fbb7d9999c1a84,False, xstorage.hpp renamed shadowing variable inside function, , ,None
+231,61c1be29864af3d616ad25f141edd1ec8251f44f,True, merge pull request 2205 0xbyteshift add_xtraits changed std trait new xtl xtraits,https://api.github.com/repos/xtensor-stack/xtensor/issues/2205, ,None
+232,72f9deee68db266e1734ff375b9a2e46fb1c3c9d,True, merge pull request 2206 johanmabille upgrade upgraded xtl 0.6.20,https://api.github.com/repos/xtensor-stack/xtensor/issues/2206, ,None
+233,3d5aafa1e51be781878dbb7660b06ddf09079745,False, upgraded xtl 0.6.20, , ,None
+234,c3f1c9f6cab69673fa218c302d1651a941bd8478,True, merge pull request 2204 johanmabille xcomplex fixed load_simd xcomplex,https://api.github.com/repos/xtensor-stack/xtensor/issues/2204, ,None
+235,8066845e1bb1b5010a3fd31604bec0a244eb6373,False, fixed load_simd xcomplex, , ,None
+236,ce9fc55af5074a5c6f5bbe478c142cd75655b404,False, changed std trait new xtl xtraits, , ,None
+237,5a70dc1ba131c9afddb13044047fc592238d6dfb,True, merge pull request 2203 johanmabille include added missing header cmakelists.txt,https://api.github.com/repos/xtensor-stack/xtensor/issues/2203, ,None
+238,70bc2ac8948d3816fda021a93ba7624c6cd76993,True, merge pull request 2202 johanmabille chunk_semantic refactored xchunked_array semantic,https://api.github.com/repos/xtensor-stack/xtensor/issues/2202, ,None
+239,337f1daaee552f798f1f3636b849c72c7176bd85,False, added missing header cmakelists.txt, , ,None
+240,5e370fa4665dd16bdd67a28f5d8af7ed2d42eea7,False, refactored xchunked_array semantic, , ,None
+241,890115473e55e62d29ba4c29728c59c02ab5d29a,True, merge pull request 2201 johanmabille chunked_array chunked array,https://api.github.com/repos/xtensor-stack/xtensor/issues/2201, ,None
+242,3a9bd7c147ffaacff63e7db72cedbca2091fc9f2,False, refactored xchunked_array constructor, , ,None
+243,1f55e8574ff4e353587dc9d89cf2d3b692f69bc5,False, deleted file moved xtensor, , ,None
+244,5a21196f3fbdb5c6716c7c121b8594a21c8863ae,True, merge pull request 2198 davidbrochart set_chunk_shape add set_chunk_shape first chunk pool,https://api.github.com/repos/xtensor-stack/xtensor/issues/2198, ,None
+245,7b0c545994c730479c2741adb5e925cdb376f4d0,True, merge pull request 2200 glemercier master fix generated cmake config include missing required lib,https://api.github.com/repos/xtensor-stack/xtensor/issues/2200, ,None
+246,85e88b5d591da6caab3caf989fc2c472b7f93b9a,False, fix generated cmake config include missing required lib, , ,None
+247,2ea71a5c30c1a695ae8b8cdbc1dc67d79211b53c,False, remove setter, , ,None
+248,3375147a9fc01d20aa6572c0e6b0dcd791cf7c7a,False, add set_chunk_shape first chunk pool, , ,None
+249,ec1970d6ad46b9fdeb4bd74f29dba1c5cee1f242,True, merge pull request 2197 johanmabille sfinae fixed sfinae based,https://api.github.com/repos/xtensor-stack/xtensor/issues/2197, ,None
+250,2aa535b7e545cb5b1e80a309e47d39de7ee70f3f,False, fixed sfinae based, , ,None
+251,fc17360970f831306c35c3eb644776c442515fcb,True, merge pull request 2195 johanmabille replaced catch constructor zarray restrictive one,https://api.github.com/repos/xtensor-stack/xtensor/issues/2195, ,None
+252,04310a75ece600671a4a51da596455a9f3322fe7,True, merge pull request 2194 davidbrochart mark dirty resized reshaped xfile_array,https://api.github.com/repos/xtensor-stack/xtensor/issues/2194, ,None
+253,39fcc6bf5afd646080a186b0da0eec9fbee4cd3a,False, replaced catch constructor zarray restrictive one, , ,None
+254,9517bcbb93758aefafba56c422e8a3f872004af2,False, mark dirty resized reshaped xfile_array, , ,None
+255,e290c19e796da467a0027d264ae6442c0007c322,True, merge pull request 2193 johanmabille zchunked_array first implementation,https://api.github.com/repos/xtensor-stack/xtensor/issues/2193, ,None
+256,79c0ee4433996362df04b6bc9466351191a758ff,False, first implementation, , ,None
+257,737a3ae40cd16f32e994b411e151acb17011cbad,True, merge pull request 2190 johanmabille sfinae fixed constructor xchunked_array,https://api.github.com/repos/xtensor-stack/xtensor/issues/2190, ,None
+258,5d933a3ff905831e163442805be9128be1a59bff,False, fixed constructor xchunked_array, , ,None
+259,9a5664b296e8147eb5311ce1dd3824cde9437957,True, merge pull request 2189 serge sans paille fix big little endian test make xnpy test aware little big endian target,https://api.github.com/repos/xtensor-stack/xtensor/issues/2189, ,None
+260,5c8ba998d6072e320c546607aa0a9dda9d265403,True, merge pull request 2188 davidbrochart add specific xchunked_array constructor,https://api.github.com/repos/xtensor-stack/xtensor/issues/2188, ,None
+261,d1de15ca3e899b0679dab4ff52e7fc4330b6d93d,True, make xnpy test aware little big endian target provide reference file endianess system pick right one runtime fix 2181,https://api.github.com/repos/xtensor-stack/xtensor/issues/2181, ,None
+262,b0e09616ade17c91efebd586897dc75c582f224b,False, add specific xchunked_array constructor, , ,None
+263,db35142afc066425581602763e2d4138ce28845e,True, merge pull request 2177 davidbrochart fix xchunked_array assignment,https://api.github.com/repos/xtensor-stack/xtensor/issues/2177, ,None
+264,704a3ced8dc80a1251cd77833491953917f8004f,True, merge pull request 2184 serge sans paille fix arch native available use march native available,https://api.github.com/repos/xtensor-stack/xtensor/issues/2184, ,None
+265,cf840966b27d18200cd423cf8ecb923cb0179e83,False, use march native available architecture support flag e.g gcc ppc64le support flag, , ,None
+266,5df857cfc153df4fc241680293ed94ed03a880e0,True, merge pull request 2183 serge sans paille fix xnpy save fix xnpy save padding computation,https://api.github.com/repos/xtensor-stack/xtensor/issues/2183, ,None
+267,02edd9c3dac4b3e35ab763eedb9569ee22b5415e,True, merge pull request 2182 serge sans paille fix improve endianess detection portable generic implementation endianess detection,https://api.github.com/repos/xtensor-stack/xtensor/issues/2182, ,None
+268,808ceb4a803909a309a00d72fbfd633d81843ea8,False, portable generic implementation endianess detection need non portable sake constexpr especially gcc clang fold result, , ,None
+269,20c18a47e05feb2fee27a24aaa914a86a48e11c8,False, fix xnpy save padding computation according documentation terminated newline padded space x20 make total len magic string len length header_len evenly divisible alignment purpose former version aligment total length magic string header_len evenly divisible alignment purpose official documentation also state .npy format including motivation creating comparison alternative described npy formatâ nep however detail evolved time document current patch fix xnpy implementation reference test match documentation http numpy.org doc stable reference generated http docs.scipy.org doc numpy 1.14.2 neps npy format.html, , ,None
+270,fcee1925175252eb71d486fe1da01a64feede9ea,False, fix zarray initialization zarray 2180 fix zarray initialization zarray, , ,None
+271,23d07754d000129f153d3c1c7abd095c3c525813,False, fix xchunked_array assignment, , ,None
+272,55e8d21eefb8175da269abbbd4ea3bea7315ea7f,True, merge pull request 2175 serge sans paille fix shift fix undefined behavior testing shift,https://api.github.com/repos/xtensor-stack/xtensor/issues/2175, ,None
+273,452a47df9e7aa8b49c6d540c55139f97fc019a90,True, fix undefined behavior testing shift shifting register width undefined behavior perfect test  fix 2174,https://api.github.com/repos/xtensor-stack/xtensor/issues/2174, ,None
+274,48a17067a6a8d52769f6fda7ae560b8a872892ef,False, release 0.21.7, , ,None
+275,3e02d998dcdaf554a7b9d47b36590d7842e8f8bd,True, merge pull request 2173 tdegeus random doc extending doc random,https://api.github.com/repos/xtensor-stack/xtensor/issues/2173, ,None
+276,481331475513290e5745a28d683e8bc573731f9c,False, doc extending doc random, , ,None
+277,8f90ac280bed5cf4cbaed097fcbf8b520dafb7d2,True, merge pull request 2169 luk036 luk036 gitpod setup added missing header,https://api.github.com/repos/xtensor-stack/xtensor/issues/2169, ,None
+278,ffe8095a96fcd8ce329c9b03ba11e6dfdc04fe98,True, fix issue 2168,https://api.github.com/repos/xtensor-stack/xtensor/issues/2168, ,None
+279,7755a148d1abb4b47a16c483f14c7d3db570767f,True, merge pull request 2140 johanmabille zrefactoring zrefactoring,https://api.github.com/repos/xtensor-stack/xtensor/issues/2140, ,None
+280,a2bf54dc5e9bc3f60fc17fcb8f8b9d44794a9015,False, added dispatching type list registration mechanism, , ,None
+281,ed21a7b1782e42338a0218ce695e1572f5919e5a,True, merge pull request 2162 tdegeus rank adding get_rank has_fixed_rank,https://api.github.com/repos/xtensor-stack/xtensor/issues/2162, ,None
+282,125d50db4f2a0085cd68c992c36378333ac5af51,True, merge pull request 2163 tdegeus shape adding has_shape,https://api.github.com/repos/xtensor-stack/xtensor/issues/2163, ,None
+283,1c78400cd83b7825c43759142176831288f4ca33,True, merge pull request 2165 johanmabille insert implemented insertion range intializer list svector,https://api.github.com/repos/xtensor-stack/xtensor/issues/2165, ,None
+284,4790ffa905dcd2c18981880f1bb5afd0b6d8990d,False, implemented insertion range intializer list svector, , ,None
+285,0ec9001e723c9db861254e9b02b5fdc0530ef9a2,False, adding has_shape, , ,None
+286,15603d4f226ea244ef154724909eb5cc4cf0e998,False, adding get_rank has_fixed_rank, , ,None
+287,c203eef06ed3ffc7f98d26fe084bcc1bd40514bf,True, merge pull request 2157 johanmabille compilation removed zheaders single header,https://api.github.com/repos/xtensor-stack/xtensor/issues/2157, ,None
+288,b36068dfa3aa31c1c078c574e731ca50e25ed4c2,False, removed zheaders single header, , ,None
+289,9733efcfd4bd76115c822a03dd79fbea3bda6589,False, release 0.21.6, , ,None
+290,f1b4c5e2c7fb1de09c7d477c96a360355a867085,True, merge pull request 2153 johanmabille zexperience zfiles namespace renamed,https://api.github.com/repos/xtensor-stack/xtensor/issues/2153, ,None
+291,0934bafc73a7ab85f4d89b4ffaae3bb7cecb059a,False, zfiles namespace renamed, , ,None
+292,6ced00c9643da77477e27e9f5d72498643d1aae9,True, merge pull request 2141 johanmabille warning removed conversion initialization warning,https://api.github.com/repos/xtensor-stack/xtensor/issues/2141, ,None
+293,62897f6744c191ce12ffdb27d78b56c525d52a85,False, removed conversion initialization warning, , ,None
+294,d0b55c294882cadef3dcd3f81b2c9b5248a527e4,False, remove leftover, , ,None
+295,540843802f16e15f4bb636be2de661c472fc5e42,False, adding rank member allow sfinae based rank, , ,None
+296,de229b492288df0aa41c9efed19e57eaf60182c7,True, merge pull request 2143 tdegeus spell doc running spell check,https://api.github.com/repos/xtensor-stack/xtensor/issues/2143, ,None
+297,ca380833870d9229cf87c2e9cbf4d3b62c5bfc4f,True, merge pull request 2145 tdegeus warning fixing various compiler warning,https://api.github.com/repos/xtensor-stack/xtensor/issues/2145, ,None
+298,abf65127891b0f9574d3522e2ad607ba22441219,False, fixing various compiler warning, , ,None
+299,6976c9634ea031fb2084027c0714df5ba5faaae2,False, doc running spell check, , ,None
+300,aafc557de511ce9322dc4f74a24a2490f1207567,True, merge pull request 2139 johanmabille zfunction refactoring,https://api.github.com/repos/xtensor-stack/xtensor/issues/2139, ,None
+301,93bb1404b7b7ba6056eaf664b2e4dc904cdbe3a0,False, explicit call dispatcher initialization, , ,None
+302,cba98446c3dfdc35323e3f03d2e130a2e77b5907,False, populated zfunctors, , ,None
+303,b2a6b185bbbf771e768f12f2c71ee092ef1bf8bd,False, zdispatcher refactoring, , ,None
+304,0f911a585f097fb10fb1188d8ef751b8989eaa4f,False, zfunction refactoring, , ,None
+305,f0d1f4a53aa3c8b1877f777a75d1a17e2ba489f7,True, merge pull request 2131 davidbrochart chunk_separator add new class deal index path transformation,https://api.github.com/repos/xtensor-stack/xtensor/issues/2131, ,None
+306,617885e931a4f848d6d6f9522338060268644816,False, add xindex_path transform index path, , ,None
+307,1cb3e4524d21214969666c77a2ece6bb79438cb8,True, merge pull request 2133 johanmabille zsystem zsystem,https://api.github.com/repos/xtensor-stack/xtensor/issues/2133, ,None
+308,474b5d2a14f980d909e947c853cc7f18dc4f41fe,False, assign mechanism zarray, , ,None
+309,dc5b09736c395ac8827f1aaba73618dbc0ebac43,False, specialization, , ,None
+310,b7bada446d8e2a4c1f61e70eb4c57c57ded589ef,True, merge pull request 2132 johanmabille zsystem implemented allocate_result zfunction,https://api.github.com/repos/xtensor-stack/xtensor/issues/2132, ,None
+311,9489dd008c21d9cf67fc2ccaef7bcc0ec0381d8a,False, implemented allocate_result zfunction, , ,None
+312,511418e78d7c5bee9cd24c151cb52a067f099cce,True, merge pull request 2130 johanmabille zsystem implemented zfunctions equivalent xfunction dynamic expressioâ,https://api.github.com/repos/xtensor-stack/xtensor/issues/2130, ,None
+313,befb57c5df854e345cb4ea89de63b887629edc20,False, implemented zfunctions equivalent xfunction dynamic expression system, , ,None
+314,0af36e061b031a3743d714b256b4b3ae0dab9799,True, merge pull request 2129 johanmabille zsystem skeleton dynamic expression system,https://api.github.com/repos/xtensor-stack/xtensor/issues/2129, ,None
+315,2007513ed2781bf8d6682607328aafbb4d36bbd7,False, skeleton dynamic expression system, , ,None
+316,c579bcf8acc77fdc82a719d9cb550c5518de9837,True, merge pull request 2127 johanmabille xdyn_array implemented xdyn_array,https://api.github.com/repos/xtensor-stack/xtensor/issues/2127, ,None
+317,9dfcfb4fac04535418b8ddebd90fe302dfbde5f2,False, implemented zarray, , ,None
+318,4ad039b348d4353c27c2d46712260da0015b4a44,True, merge pull request 2126 johanmabille xtl upgraded xtl 0.6.16,https://api.github.com/repos/xtensor-stack/xtensor/issues/2126, ,None
+319,499063f357e8ef9488049264c41d52e868a7642d,False, upgraded xtl 0.6.16, , ,None
+320,cbde2d802f7f44855b87320233d305b3ee150785,True, merge pull request 2125 davidbrochart fix exception file write operation,https://api.github.com/repos/xtensor-stack/xtensor/issues/2125, ,None
+321,6cf63fa7761957fc7b3f5cad6589c760840b410a,False, change according review, , ,None
+322,216b03d65b2f7a3fa7b82c2690b5737e95e3e1a0,False, fix test, , ,None
+323,45eca8026092bd86ba19cf97559437e344439c11,False, add bool, , ,None
+324,757788642ef997f138e5975480f2562484f2c9e1,False, fix empty file path, , ,None
+325,ad0f0a9b122f03f9787b2063ec1c1faa636798d5,False, fix exception file write operation, , ,None
+326,a4e2c76cad68df84e051628aabfb21772c1662c0,True, merge pull request 2123 johanmabille load_file refactored,https://api.github.com/repos/xtensor-stack/xtensor/issues/2123, ,None
+327,7f1bd68945a7cce64859ff02119e3761a126aa3f,False, refactored, , ,None
+328,2f4f33473ccb6bdbeb1c15241a3606c57af4626e,True, merge pull request 2122 davidbrochart add xchunked_array extension template,https://api.github.com/repos/xtensor-stack/xtensor/issues/2122, ,None
+329,881e71b7163ab152a3b415a7162ddba83a16cedd,False, add xchunked_array extension template, , ,None
+330,cf5d20cb6a190107861a6279d6b5664849bc8edf,True, merge pull request 2115 davidbrochart file_format abstract file format format class,https://api.github.com/repos/xtensor-stack/xtensor/issues/2115, ,None
+331,95a405a4d43768581d75b4e77a48b29354b9bd9f,False, abstract file format format class, , ,None
+332,8bf639f0ff0b73bab6fa2d58cc4a1f88ec130f69,True, merge pull request 2118 johanmabille file_simd added simd accessors,https://api.github.com/repos/xtensor-stack/xtensor/issues/2118, ,None
+333,6cc2c1bac8bec1a37d47ab499093d2d4ff93ee48,False, added simd accessors, , ,None
+334,de838b166ff93427725f3e9c9df607106dc9b4b2,True, merge pull request 2117 johanmabille xfile_array refactored xfile_array.hpp,https://api.github.com/repos/xtensor-stack/xtensor/issues/2117, ,None
+335,80fa87ea10b2ca1ee73c1eac9753577090b471e0,False, refactored xfile_array.hpp, , ,None
+336,0c90a42fa2a6c29be1ac861893fc93d87b871593,True, merge pull request 2114 nathanieljblack master fixed sturct typo bindings.rst doc,https://api.github.com/repos/xtensor-stack/xtensor/issues/2114, ,None
+337,a3e4cf0334fe3d379041acf7cfe031ea6c8f6159,False, fixed sturct typo bindings.rst doc, , ,None
+338,26f23d1f427aeb265d7429f4535eb0cbc7467d4a,True, merge pull request 2110 johanmabille code cleanup,https://api.github.com/repos/xtensor-stack/xtensor/issues/2110, ,None
+339,dffeccefb9f8a8a36378477c0b156797a2ef3cf0,True, merge pull request 2111 johanmabille doc_is_trivial removed refernces outdated method docâ,https://api.github.com/repos/xtensor-stack/xtensor/issues/2111, ,None
+340,c21a28e60c0476ca57ffe7dbd018cd27b2d57bb1,False, removed refernces outdated method documentation, , ,None
+341,5f3c37de792bf39917242ff1600267b540fc3c7e,False, code cleanup, , ,None
+342,bc06797e6e012768d6b9769feb958ef43323621c,True, merge pull request 2109 johanmabille xchunked_array code cleanup,https://api.github.com/repos/xtensor-stack/xtensor/issues/2109, ,None
+343,0481503bd64f7ab131535d2c2b6bf32f180f1922,False, xchunked_array code cleanup, , ,None
+344,95bbc854cdf3247a500529242c7f3fe960efa331,True, merge pull request 2107 johanmabille make xfile_array expression,https://api.github.com/repos/xtensor-stack/xtensor/issues/2107, ,None
+345,5195fdd72119b2456a347dc17bd5cba9b98e68f9,False, make xfile_array expression, , ,None
+346,ff36a7220d68278ee1cc520923ffb1386649bcc9,False, implement chunk pool 2099 implement chunk pool, , ,None
+347,8c737bc95afdf0dcd8822df911856e44102ad518,True, merge pull request 2106 johanmabille fixed,https://api.github.com/repos/xtensor-stack/xtensor/issues/2106, ,None
+348,ab44bb17ec5f494c8005a52250d06f7290b42b73,False, testing appveyor, , ,None
+349,9f5c7a44e97610d4909aed0b8201cb12d89e2ff9,False, squash, , ,None
+350,65e2c2ef115b4014ed198ca6f96052c498068b50,False, fixed, , ,None
+351,d44d8ae9a0b2b742fdc0991760c2d7a6288f6780,False, implement disk chunked array 2096 first mmplementation disk chunked array, , ,None
+352,fe5797f487b3cc84f4688de0d48812bb80010e09,True, merge pull request 2095 davidbrochart xchunked_array replace template parameter chunk_type chunk_storage,https://api.github.com/repos/xtensor-stack/xtensor/issues/2095, ,None
+353,ba9613a39c7631ca73e88ec3354f76fa13177f05,False, replace template parameter chunk_type chunk_storage, , ,None
+354,fb1ffff77dbe76b6456ed93c4c7dd060ce00d379,True, merge pull request 2093 gouarin fix typo fix typo documentation closure semantics,https://api.github.com/repos/xtensor-stack/xtensor/issues/2093, ,None
+355,dd3ec144cf257e2fcae3225d633d98e3029a181a,False, fix typo documentation, , ,None
+356,ef8ff77942122a4f57dbc91b7a5c56efac9b5ff0,False, copy constructor get expression chunk_shape chunked 2092 copy constructor get expression chunk_shape chunked, , ,None
+357,0ddc79d4409b8f034a126e17521f892a8a1dbc11,True, merge pull request 2091 davidbrochart xchunked_array fix chunk layout,https://api.github.com/repos/xtensor-stack/xtensor/issues/2091, ,None
+358,162548dc2c260bfad9c028eec3de8d092ca549ef,False, fix chunk layout, , ,None
+359,292831aa5a0131e46729eb691dd52c891786a077,True, merge pull request 2090 johanmabille xtl upgraded xtl 0.6.15,https://api.github.com/repos/xtensor-stack/xtensor/issues/2090, ,None
+360,7c796c88259e84596af1f06485191a434d516c90,False, add test, , ,None
+361,671638b3c96c6863a569424f91f72dc69efdbd5b,False, upgraded xtl 0.6.15, , ,None
+362,0d3b56808764c66570fe9c8de9d0548f570b620f,True, merge pull request 2087 davidbrochart xchunked_array add constructor xexpression chunk_shape,https://api.github.com/repos/xtensor-stack/xtensor/issues/2087, ,None
+363,88aa388ff8381d9426bc0bc4ccf345866c090500,False, add constructor xexpression chunk_shape, , ,None
+364,3d0fb89c51275b055a7ceba142eee55ebba0c0b6,True, merge pull request 2084 davidbrochart xchunked_array fix assignment operator,https://api.github.com/repos/xtensor-stack/xtensor/issues/2084, ,None
+365,e7fdcf8b2aea9860424f1268f6ab16dd466563e2,False, fix assignment operator, , ,None
+366,20d2642126ae2b5d81cfce0b179379f418218764,False, inherit 2083 inherit, , ,None
+367,90537465458678988a434adf01b95063f0280b65,True, merge pull request 2082 davidbrochart xchunked_array inherit xiterable,https://api.github.com/repos/xtensor-stack/xtensor/issues/2082, ,None
+368,5f963a0f243511a827db5a19816e5e2e99ef0c58,False, inherit xiterable, , ,None
+369,83ae7fce2cc183458c98cbe00d1637ad1d3eabc5,False, inherit, , ,None
+370,0aea191c7bd4033b99de8b78e4418de8a1ccd241,False, fix doc, , ,None
+371,e04b802353a57ce2bc6ca7173b406674ea799ee1,False, add xchunked_array 2076 add xchunked_array, , ,None
+372,374145974db9df893427151c581086a8be1fb7e5,False, fix doc, , ,None
+373,a83a8f6be5b796faa2630ffa17416159fea822c4,False, added missing typedef xscalar_stepper, , ,None
+374,b3873da2ac4740568fa6517120f4c7acc8d17cb1,False, improved aliasing documentation, , ,None
+375,59a737cd1681e212a924f4660a4858e062c5d187,False, print shape 2071 doc print shape, , ,None
+376,8f5ec05cd43de8dd90522beb5913a8ad1c41cfc9,False, add comment, , ,None
+377,ca2323640d827cdefa143eb2dedb71897246f5f9,False, upgraded xsimd 7.4.8, , ,None
+378,b095959306518acd03da5e14e52f621aa94fbb42,False, documented fixed_shape weird bug window, , ,None
+379,7a66a3443275e8409465f7b74276a3ade823fef2,False, improved var stddev performance, , ,None
+380,e35667ae010aa632eb68f8f60172f1ea4237e4bd,False, adding missing shared expression, , ,None
+381,eb690983a7364a9bb97caa8ebc5d40d720d2f0f0,False, fix xtensor arange unsigned step size, , ,None
+382,d731472a169db534ffbce681f453bad916ddbcd0,True, merge pull request 2060 johanmabille doc doc,https://api.github.com/repos/xtensor-stack/xtensor/issues/2060, ,None
+383,1135ede7e465128be0534a961cb052ae8f361728,False, pin sphinx version rtd, , ,None
+384,fc1f9022e90283fa0d17553c1fe73b46ac415ced,False, removed problematic function doxygen parsing, , ,None
+385,855fffb01899f08a04f3b7336439ac74e2f1906e,True, merge pull request 2055 dhermes patch removing spurious python code code block,https://api.github.com/repos/xtensor-stack/xtensor/issues/2055, ,None
+386,d75959c55a1fb7e6437238c574ce868cbf6912d9,True, merge pull request 2054 dhermes patch typo fix tnesor tensor wether whether,https://api.github.com/repos/xtensor-stack/xtensor/issues/2054, ,None
+387,ef6bd133490a61687644c8ce72512e4e0291605b,False, removing spurious python code code block, , ,None
+388,4d9581bbcff76ad63e47fe0766627386510f921e,False, typo fix tnesor tensor wether whether, , ,None
+389,37cefaf9301dd3a8613ad319dcbd25f210d2ec27,True, merge pull request 2053 dhermes patch typo fix whis,https://api.github.com/repos/xtensor-stack/xtensor/issues/2053, ,None
+390,ae91091d0b005f3351a0fc46e3a95a336655ad50,False, typo fix whis, , ,None
+391,a6759a46c885071621e07254fa8be8fd372d12eb,True, merge pull request 2052 johanmabille smart_adapter adapt_smart_ptr overlads accepting stl like container shape,https://api.github.com/repos/xtensor-stack/xtensor/issues/2052, ,None
+392,e339c576f2e852c3d48afd1a6842c9c6e5dd01e7,False, adapt_smart_ptr overlads accepting stl like container shape, , ,None
+393,16547e51cbbc9c8c3cde981ed4452bfc27e597f8,True, merge pull request 2050 keeper fix xfunction compile warning fix initialize order,https://api.github.com/repos/xtensor-stack/xtensor/issues/2050, ,None
+394,a21a1de3ce233344faf5870092341d2677cd2974,False, fix initialize order signed phidias chiang phidias.chiang gmail.com, , ,None
+395,9154860bd484ae1a65df4ce3985b231274d07ceb,True, merge pull request 2047 tanshihaj master fixed error zero tensor size mean,https://api.github.com/repos/xtensor-stack/xtensor/issues/2047, ,None
+396,d89db8f6b23fda386cde311a5a60d629fa64ed45,True, merge pull request 2049 johanmabille clangcl fixed build clang,https://api.github.com/repos/xtensor-stack/xtensor/issues/2049, ,None
+397,44ec96add6df3a1746ddabe1ee2bb7b96a70a1bf,False, fixed build clang, , ,None
+398,996d83837cf9a1509203153b84c4d3b964c654e5,False, fixed error zero tensor size mean, , ,None
+399,7b1f7dd4a1a26371ff0084a1e3f63f757bcd680e,False, adding digitize searchsorted bin_items 2037 adding digitize searchsorted bin_items, , ,None
+400,05c94c9e643d0ffc2e3a3709191cb2ae0eb26988,True, merge pull request 2044 tdegeus warning fixing compiler warning,https://api.github.com/repos/xtensor-stack/xtensor/issues/2044, ,None
+401,b7a855140cdc04d5c9b18a96e672d11310e80748,True, merge pull request 2043 tdegeus doc adding detail random doc,https://api.github.com/repos/xtensor-stack/xtensor/issues/2043, ,None
+402,9c8aa63cb950555d0c3136c49a470b7adf81dc06,False, fixing compiler warning, , ,None
+403,f2a00396ff26b5cf2d1429310673b5d3d0e0d57e,False, adding detail random doc, , ,None
+404,fdb472b79a343ca8db3d5df8147e04acb236cc77,True, merge pull request 2031 tdegeus incl writing single include header,https://api.github.com/repos/xtensor-stack/xtensor/issues/2031, ,None
+405,c06e594293d6b88b4b741aee99078f46839ea4d0,False, switching temporary directory single include header, , ,None
+406,b0cf0ad3bdb5445a0c340e72e65ee9c6973946e3,True, merge pull request 2021 tdegeus isin adding implementation isin in1d,https://api.github.com/repos/xtensor-stack/xtensor/issues/2021, ,None
+407,b88f67c55c69bbf9da47923f5648bafd0fe3be6c,False, simplifying excluding header, , ,None
+408,b1c164ba0a998a2d26c5553a3f698fed2b348ac9,True, merge pull request 2033 tdegeus updating template,https://api.github.com/repos/xtensor-stack/xtensor/issues/2033, ,None
+409,d71ca44830b098348f61e59754abf3b9c8f85b62,False, updating template, , ,None
+410,9a92d8db43bfcbeb7bbae79817f2869fde282c20,False, improving lvalue capture, , ,None
+411,87b7fe5f0d65980de74c3d16b65fcd93bd74272a,False, writing single include header, , ,None
+412,6d00f5cee5f451a73abe44cf3d5b532f3abf5f92,False, fixing typo, , ,None
+413,2ece5344cafd0d7b067936f6de7fe5e2a401c4b2,False, fixing capture rvalue, , ,None
+414,0df4cd152f621d8f5c4230929bbb7c808efcbef1,False, adding isin in1d, , ,None
+415,f471b65c2588765e936d25a2c3b6baec8b46b6e8,True, merge pull request 2028 tdegeus patch removing unused parameter,https://api.github.com/repos/xtensor-stack/xtensor/issues/2028, ,None
+416,2ad105cce28c4f5ac9d08fcd2bdafe82b1339024,True, merge pull request 2029 tdegeus patch2 fixing compiler warning,https://api.github.com/repos/xtensor-stack/xtensor/issues/2029, ,None
+417,c81068a748908caf87ce1152e0ff4a5af4cd2b58,True, merge pull request 2030 johanmabille fixed azure pipeline,https://api.github.com/repos/xtensor-stack/xtensor/issues/2030, ,None
+418,0805f0db44edd52fee9f373b88d40682b22de4e1,False, fixed azure pipeline, , ,None
+419,e4f2bc5b596acf28aa25aa01752f6aa74a3222f1,False, fixing compiler warning, , ,None
+420,1a81770b4d5f138f78f21085a9bee8ab2eeedc8c,False, removing unused parameter, , ,None
+421,f87154ddd8c524cc91c346032ec52087452aa548,False, starting 0.21.6 dev, , ,None
+422,1651d60d09fdf50e4509a1c8af6f0a2fded0c6d4,False, release 0.21.5, , ,None
+423,1cf8ab305b7a8d475d52304791829b7327eff1cd,True, merge pull request 2026 aclifton feature asan xfunction sanitizer error fix ubuntu 18.04 gcc 7.5,https://api.github.com/repos/xtensor-stack/xtensor/issues/2026, ,None
+424,c2b3a686f61e500887ec40da899a7140bca870c4,False, initialized member avoid sanitizer error, , ,None
+425,71b505393dce8083d11fb57106c92509dd49f49b,True, merge pull request 2024 johanmabille svector added missing overload push_back,https://api.github.com/repos/xtensor-stack/xtensor/issues/2024, ,None
+426,814038ec48a46281646f797ae6d08f56ab6e881b,False, added missing overload push_back, , ,None
+427,fed50731c972215adf3fb7f52db7ac3429d0a3af,True, merge pull request 2018 johanmabille allocator removed allocator deprecated call,https://api.github.com/repos/xtensor-stack/xtensor/issues/2018, ,None
+428,eb3c54b6d0c04d19359b8706a9cc6e6288579939,False, removed allocator deprecated call, , ,None
+429,7295a603d24786f52e482b576fd58873b3f7f7bd,True, merge pull request 2015 johanmabille adapt added static_assert adapt method,https://api.github.com/repos/xtensor-stack/xtensor/issues/2015, ,None
+430,fb316664faada67a633c5be4aa406a3ff205c00f,False, added static_assert adapt method, , ,None
+431,b597f587370e6d980607664410e85c4ccaa4a660,True, merge pull request 2014 neok m4700 patch doc xstrided_view typo,https://api.github.com/repos/xtensor-stack/xtensor/issues/2014, ,None
+432,2038c99d7dbe386e69bcdb18ba3e86b0706676be,False, documentation typo, , ,None
+433,e467087ec067ae1b1050c3d6d200d0666f1ce8c7,True, merge pull request 2012 johanmabille reducer_doc improved reducer function documentation,https://api.github.com/repos/xtensor-stack/xtensor/issues/2012, ,None
+434,42f296e8c96a42317b2bdf15ec11209b4d379858,False, improved reducer function documentation, , ,None
+435,dba02f13ffe318acd65b48b822175330febc0a69,True, merge pull request 2010 johanmabille view fixed xview const keep const drop slice,https://api.github.com/repos/xtensor-stack/xtensor/issues/2010, ,None
+436,495433834fb1d62997cced9b04d8bec19017821b,False, fixed xview const keep const drop slice, , ,None
+437,7425f07141575e6d33cda560b50ff069b0d2fe8e,True, merge pull request 2009 johanmabille axis_iterator added missing header cmakelists.txt,https://api.github.com/repos/xtensor-stack/xtensor/issues/2009, ,None
+438,7606c567fad606c3dc6e06a4d7b9a76c8555022b,False, added missing header cmakelists.txt, , ,None
+439,09f0ceadf8575b1b7da998690dae9c040a99f531,True, merge pull request 1999 zhujun98 add result type template argument stddev variance nanstd naâ,https://api.github.com/repos/xtensor-stack/xtensor/issues/1999, ,None
+440,2eb96663c95d9f1d90f73fe3a41120daa5d23ccd,False, add result type template argument stddev variance nanstd nanvar, , ,None
+441,9ebb72d19ca7e148915a9d40a97ecb83e22be4bb,True, merge pull request 2002 zhujun98 fix variance overload,https://api.github.com/repos/xtensor-stack/xtensor/issues/2002, ,None
+442,f0179648bd9a9370bb7bfbaf1d918496c9754717,False, fix variance overload, , ,None
+443,344e3e0843059b65294b52e7fdc178e1efa1b4ee,True, merge pull request 2003 neok m4700 master doc add linear indexing example,https://api.github.com/repos/xtensor-stack/xtensor/issues/2003, ,None
+444,18cb139f1cba007785319ef25eea4cb211e712ce,False, doc add linear indexing example, , ,None
+445,72bf16490667175abbec4b55ec0630d809981c51,True, merge pull request 2001 onurtemizkan patch doc fix wrong output iterator page,https://api.github.com/repos/xtensor-stack/xtensor/issues/2001, ,None
+446,3e851e961ed128e27641fe3151883c80df0cf59f,False, doc fix wrong output iterator page, , ,None
+447,6f060b12a85a8b554db6cf79d3d0efe1816e3a7e,True, merge pull request 1996 zhujun98 fix return dtype nanmean add unittest,https://api.github.com/repos/xtensor-stack/xtensor/issues/1996, ,None
+448,4a199e66de99f19f9c8a96bdaace4688a7173b36,False, fix return dtype nanmean add unittest, , ,None
+449,aad6cd51d2d52d8924ccc7c5e682b2feb0875582,True, merge pull request 1994 johanmabille cleanup added extension base repeat cleaned xbroadcast,https://api.github.com/repos/xtensor-stack/xtensor/issues/1994, ,None
+450,4af84c9d90ad54c972e21ef9f53ca454ef98f14b,False, added extension base repeat cleaned xbroadcast, , ,None
+451,d912bad9dbac6686f5e22d57847954525dc3a3a3,True, merge pull request 1993 johanmabille repeat repeat,https://api.github.com/repos/xtensor-stack/xtensor/issues/1993, ,None
+452,3009a3e5911ff5f3faafd69bf71e47419bbee223,False, implemented missing method xrepeat class, , ,None
+453,ca4c08ee023e5ef7d6a9182fab1e54ff6ef5aa23,True, merge pull request 1990 drmoose fix segfault empty drop fix segfault using drop empty list index,https://api.github.com/repos/xtensor-stack/xtensor/issues/1990, ,None
+454,d535e48a3b3b96333c6e90a597aea50989476952,False, fix segfault using drop empty list index, , ,None
+455,a3c3759629c4d147d72c4631fd73fe1acee63af5,True, merge pull request 1991 johanmabille pr_template removed requirement related versionning template,https://api.github.com/repos/xtensor-stack/xtensor/issues/1991, ,None
+456,0cbe04100667da448184e37d3c5ca234b5b6798a,False, removed requirement related versionning template, , ,None
+457,555bfb591a322e47ed2ebf2bbe9dc0da1751f229,True, merge pull request 1988 johanmabille azure_win upgraded azure pipeline vs2017 win2016,https://api.github.com/repos/xtensor-stack/xtensor/issues/1988, ,None
+458,119ecf4a8b2f7277a2f4214567bb5c3fc74eca11,False, upgraded azure pipeline vs2017 win2016, , ,None
+459,81ba13aa48e15a1292f1aace327ad79b8895ae9d,True, merge pull request 1987 antoineprv patch fix typo doc,https://api.github.com/repos/xtensor-stack/xtensor/issues/1987, ,None
+460,263b56570e4cbfe52e704e3dbf872ed7abb69e88,False, fix typo doc, , ,None
+461,5db24f3511276f42c5901b5125a7d894c789dafd,True, merge pull request 1984 johanmabille cheatsheet added entry view cheatsheet,https://api.github.com/repos/xtensor-stack/xtensor/issues/1984, ,None
+462,ea5a3f2e32b75de51488d417b327040ad4cee8e7,False, added entry view cheatsheet, , ,None
+463,e8525b1769c132becc19a3f4cc4b3d698618e3db,False, release 0.21.4, , ,None
+464,2c36ac3e2f1df82ba1de82ad290e098f5b2cf11d,True, merge pull request 1980 johanmabille upgrade upgraded latest xtl latest xsimd,https://api.github.com/repos/xtensor-stack/xtensor/issues/1980, ,None
+465,43106f9f2ee96112bfab8a9d0bb406c107446e82,False, upgraded latest xtl latest xsimd, , ,None
+466,e9efe2ec0ce534184136b8cffd75c903b91b54a8,True, merge pull request 1979 johanmabille view view support negative index,https://api.github.com/repos/xtensor-stack/xtensor/issues/1979, ,None
+467,618d055a6459991187ac4e8c510ca060cda8c8da,False, view support negative index, , ,None
+468,62ae694ba818f2f6fd89df9caa24ac17b8897c7a,True, merge pull request 1976 johanmabille argpartition fixed sort partition,https://api.github.com/repos/xtensor-stack/xtensor/issues/1976, ,None
+469,d9b03e70ddec62d974f59519781f14c351b97201,False, fixed sort partition, , ,None
+470,48b3b921de857a7ce3d179ea9ad8251351042ad1,True, merge pull request 1975 johanmabille repeat_doc added documentation repeat,https://api.github.com/repos/xtensor-stack/xtensor/issues/1975, ,None
+471,40254c885ba93207951e26eb452c710ab9c3c504,False, added documentation repeat, , ,None
+472,a8804691db7a73ae8ad503519a53cf9e3b013261,True, merge pull request 1974 johanmabille cpp20 added test enabled,https://api.github.com/repos/xtensor-stack/xtensor/issues/1974, ,None
+473,2ddae69f60caf48d3a48635f9f30ebb8f976eeb8,False, added test enabled, , ,None
+474,0c7c10ad7b6885699adbdea53dfa1c94f303a22e,True, merge pull request 1971 johanmabille argpartition fixed argpartition leading axis test,https://api.github.com/repos/xtensor-stack/xtensor/issues/1971, ,None
+475,22a69ea7326a068eaa4c426cdd434c5eb869d6b5,False, fixed argpartition leading axis test, , ,None
+476,44b10b49911538ae1215cc9f80f307aaf02e1ab2,True, merge pull request 1968 johanmabille repeat xrepeat store instead,https://api.github.com/repos/xtensor-stack/xtensor/issues/1968, ,None
+477,863a93ab68e1082ba21beff7f80f210d12544cd1,True, merge pull request 1969 johanmabille doc added installation instruction mingw,https://api.github.com/repos/xtensor-stack/xtensor/issues/1969, ,None
+478,77004713c52994e49fb4f5948aa8add54ac6a0a4,False, added installation instruction mingw, , ,None
+479,7549d840b81eba104612d23e9dcf84cf6c2be5a7,False, code formatting, , ,None
+480,a15087b13d211782a457ea809de1e1537e0eb643,False, xrepeat store instead, , ,None
+481,313d3584fe2cbd02df092626d4133ff9a5bba587,True, merge pull request 1790 gouarin fix xoperation fix xoperation,https://api.github.com/repos/xtensor-stack/xtensor/issues/1790, ,None
+482,72f0c3ca93dabac755db5b073f660e1a4afa6766,False, improve test xfunction, , ,None
+483,a6cda10ee0a77be2e646c4de3704c47431a0729b,True, merge pull request 1967 johanmabille cast fixed cast third party type,https://api.github.com/repos/xtensor-stack/xtensor/issues/1967, ,None
+484,d2becd74ffa1c11bb50c6f5eca55420e5f05633f,False, fixed cast third party type, , ,None
+485,0d30fe4c7bb9a5a29f03f4f6f547dbe4b7cf46ef,True, merge pull request 1966 johanmabille reducer_element fixed element method xreducer,https://api.github.com/repos/xtensor-stack/xtensor/issues/1966, ,None
+486,6f85de955c4eb881ec2992e33a430d81e6f9b8dc,False, fixed element method xreducer, , ,None
+487,0de3b6319ee5088385db9a67ad59f69fbb692def,True, merge pull request 1965 johanmabille fixed behavior expression,https://api.github.com/repos/xtensor-stack/xtensor/issues/1965, ,None
+488,9b9159be0542da814104d80feb8f831b2750585e,False, fixed behavior expression, , ,None
+489,5a958c96668b4158fbdd4d214a1fc62a40d2a90d,False, fix, , ,None
+490,5aa0352858414b96956487f8f149074925efd715,False, fix xfunction, , ,None
+491,7653a0aa3f0fe3ec2f33aa529f90ff77ad39a765,False, fix xoperation, , ,None
+492,1eabc28714ac665d3f1ee3867356112c3e03d3e3,True, merge pull request 1961 johanmabille doc added documentation iterators,https://api.github.com/repos/xtensor-stack/xtensor/issues/1961, ,None
+493,98edf1e261e9cb0a1366f9e53aebde3c970617b1,False, added section build documentation, , ,None
+494,7d39cab2857cfd1d21e3f8da33e41091a8f4bd70,False, fixed documentation warning, , ,None
+495,0ad2fb208360b623e46bf29a73c85d7025a88549,False, added quickref section iterators, , ,None
+496,52031c06f6ddfbf721658f8ad8b417ba7f3a0a73,False, fixed test, , ,None
+497,503cb40614f443e43543a2865dc829752efcb2f8,False, added documentation xaxis_iterator, , ,None
+498,728e655fa782da7a0d552eff9937126cbd60cdd1,False, added test cmakelists.txt, , ,None
+499,cb9a73826dcea56f16eb06cefd194016cf83363e,False, fixed unresolved link documentation, , ,None

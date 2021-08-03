@@ -1,0 +1,501 @@
+No,Sha,Valid,Message,Issue-url,Tag,Category
+0,f925acf5f00dafdd409502f6c2e2a779499f753a,True, merge pull request 400 haberman extreg introduced upb_extreg plumbed decoder,https://api.github.com/repos/protocolbuffers/upb/issues/400, ,None
+1,897bd2500afe68dd14403ecbd7cb2c109d0290f1,False, fixed compile error, , ,None
+2,6e53de4a034e5a2a37f4a893e878fb7fe58adb18,False, addressed comment, , ,None
+3,cdd6434a31bc4f51081d4ecb14dd8d114c45647e,False, introduced upb_extreg plumbed decoder, , ,None
+4,69f186bd75368a6ee20fbd9be3c393d9f6e34170,True, merge pull request 399 haberman msg extrep define extension representation message mini table,https://api.github.com/repos/protocolbuffers/upb/issues/399, ,None
+5,3f8aa6ef20cf5f840c6f30c22bbdd1b247694baa,False, define extension representation message mini table nothing read writes data yet implement memory management allows unknown field data extension grow within pseudo arena message making array grow towards avoid need reallocate separately, , ,None
+6,4ccfab154baea98d00e17433aad0333b239374b7,True, merge pull request 398 haberman field mode changed mini table use custom mode instead descriptor label,https://api.github.com/repos/protocolbuffers/upb/issues/398, ,None
+7,58e158c6fa43c551a93387e6b19ec7ee027e6d0b,False, changed mini table use custom mode instead descriptor label, , ,None
+8,7596fa740f7098ccf644d99b7252a0f152dfbcf7,True, merge pull request 397 haberman codegen refactor refactored codegen smaller function anticipation extension,https://api.github.com/repos/protocolbuffers/upb/issues/397, ,None
+9,fa4dfc2baa70f424523de17e34c72496852fc681,False, addressed comment, , ,None
+10,0fb61eaeb5a44c7288a33953bab291a5f11f18b2,False, refactored codegen smaller function anticipation extension, , ,None
+11,52be845c3923633e237fce091d100f3946655068,True, merge pull request 396 haberman pre ext opt optimized decoder paved way parsing extension,https://api.github.com/repos/protocolbuffers/upb/issues/396, ,None
+12,807e7fe9e215f698340cedd5eed7ac54cb79dd71,False, fixed dense_below logic order independent consistent def.c codegen, , ,None
+13,2e8a122fc0523f759e8ab53e79c651a51c44e4ad,False, changed dense_below calculation use uint8_max constant, , ,None
+14,6394894b6e2e0dd6a7c310e82bcd737535afb98d,False, addressed comment, , ,None
+15,65d7b8ab0caa69d060cdc515acdc7d3ba47d805b,False, optimized decoder paved way parsing extension primary motivation change avoid referring upb_msglayout object trying fetch upb_msglayout object sub message help pave way parsing extension also implement several optimization make change without regressing performance normally compute layout sub message field like  const upb_msglayout const upb_msglayout layout const field return layout submsgs field submsg_index   reason indirection avoid storing pointer directly would double size byte bit architecture wasteful pointer needed message typed field however written doe work extension entry message layout submsgs array nature want avoid creating entire fake upb_msglayout extension since would also wasteful change remove dependency upb_msglayout passing submsgs array instead  const upb_msglayout const upb_msglayout const submsgs const field return submsgs field submsg_index   pave way parsing extension easily create alternative submsgs array extension field without extra overhead waste along way several optimization presented allow nice increase performance passing parsed wireval address instead value ended avoiding expensive useless stack copy clang used measurement field number densely packed find field number single indexed lookup instead linear search codegen time compute maximum field number allow indexed lookup field require linear search start linear search location found previous field taking advantage fact field number generally increasing hasbit index common case use expensive code sequence set check hasbit case oneof case optional field common oneof field benchmark result indicate improvement parse speed small code size increase  name old time new time delta arenaonealloc 21.3ns 21.5ns 0.96 0.000 6.32ns 6.32ns 0.03 0.000 53.5âµs 51.5âµs 3.70 0.000 2.78ms 2.68ms 3.57 0.000 240âµs 240âµs 0.12 0.001 12.8ms 12.7ms 1.15 0.000 usearena copy 13.2âµs 10.7âµs 18.49 0.000 usearena alias 11.3âµs 9.6âµs 15.11 0.000 initblock copy 12.7âµs 10.3âµs 19.00 0.000 initblock alias 10.9âµs 9.2âµs 15.82 0.000 parse_proto2 filedesc noarena copy 29.4âµs 29.5âµs 0.61 0.000 parse_proto2 filedesc usearena copy 20.7âµs 20.6âµs 0.260 parse_proto2 filedesc initblock copy 16.7âµs 16.7âµs 0.25 0.036 parse_proto2 filedescsv initblock alias 16.5âµs 16.5âµs 0.20 0.016 5.30âµs 5.36âµs 1.09 0.000 12.9âµs 13.0âµs 0.90 0.000 file size size  1.5 176 1.6 176 upb decode.c 1.8 176 1.9 176 decode_msg 0.4 0.4 upb def.c 1.4 1.4 1.2 1.4 upb reflection.c upb_msg_set 2.9 3.1 upb_msg_mutable 9.3 288 unmapped 0.2 288 total , , ,None
+16,3e035cb553063408eeb8fd63c93456277be8d937,True, merge pull request 395 haberman locale added fix locale output decimal separator,https://api.github.com/repos/protocolbuffers/upb/issues/395, ,None
+17,e8ba2a1899e70f1ae0507b51f8a3189fbf7cd618,False, added fix locale output decimal separator, , ,None
+18,7010a73828a6a17f8c32fe24b3e888cb1d6a98f0,True, merge pull request 394 haberman file uniqueness enforce filename unique loaded symtab,https://api.github.com/repos/protocolbuffers/upb/issues/394, ,None
+19,9482957425e62218b78bece40abc162c4ba23864,False, enforce filename unique loaded symtab brings upb line php already check internally issue ruby hand doe currently check change cause ruby implementation reject program would otherwise accepted, , ,None
+20,aaad7801bf2e54d4b94be2d9cad42114c537142f,True, merge pull request 393 haberman attribute fixed __has_attribute check old version clang,https://api.github.com/repos/protocolbuffers/upb/issues/393, ,None
+21,7887dc0c7690b277d4c138d5e27d925cff26c4cd,False, fixed __has_attribute check old version clang, , ,None
+22,01e7436ed3c36704dcb4df9765d9729031081547,True, merge pull request 390 haberman musttail converted fasttable decoder use __attribute__ musttail available,https://api.github.com/repos/protocolbuffers/upb/issues/390, ,None
+23,4132034634305f382ffdc7f018782ac81ce99fa5,False, addressed comment, , ,None
+24,ed708fcd5d0b07528677b63f50a0afd4d0b1d2ca,False, addressed comment, , ,None
+25,876abae2db558af67939b6b25b289b4aeb19f9ec,False, removed debug printing simplified checktag slightly, , ,None
+26,286441afa745a81c1ee710fa86bd6ce96fe8743a,False, fixed size regression due inlining utf verification overall size speed impact fasttable decoder name old time new time delta arenaonealloc 21.5ns 21.5ns 0.060 6.33ns 6.33ns 0.413 43.4âµs 45.5âµs 4.79 0.000 2.50ms 2.51ms 0.512 240âµs 240âµs 0.25 0.000 12.9ms 12.9ms 0.20 0.014 usearena copy 4.99âµs 5.04âµs 0.98 0.000 usearena alias 4.02âµs 4.18âµs 4.16 0.000 initblock copy 4.49âµs 4.54âµs 1.16 0.000 initblock alias 3.60âµs 3.80âµs 5.73 0.000 parse_proto2 filedesc noarena copy 29.3âµs 29.3âµs 0.069 parse_proto2 filedesc usearena copy 20.2âµs 20.3âµs 0.880 parse_proto2 filedesc initblock copy 16.5âµs 16.5âµs 1.000 parse_proto2 filedescsv initblock alias 16.4âµs 16.4âµs 0.590 5.31âµs 6.65âµs 25.07 0.000 12.4âµs 12.5âµs 1.23 0.000 file size size  128 unmapped 1.2 1.2 section .text new new del del 0.2 124 0.2 124 upb decode_fast.c 5.8 6.0 2.7 2.7 upb_ppv8_2bt 2.7 2.8 2.8 3.0 2.8 3.0 4.0 4.2 upb_psv8_1bt 2.0 2.1 upb_prf4_2bt 1.3 1.4 upb_prz8_2bt 0.3 0.3 others 1.6 1.7 upb_cob_1bt 1.6 1.7 upb_csb_1bt 2.5 2.6 upb_pov4_1bt 1.3 1.3 upb_prv8_2bt 2.5 2.7 upb_psv4_1bt 2.5 2.6 upb_psv4_2bt 3.0 3.1 upb_prs_2bt 2.6 2.6 upb_prv4_2bt 4.9 5.1 upb_prb_2bt 3.9 4.0 upb_prv4_1bt 7.2 7.5 upb_prb_1bt 7.8 8.0 upb_prs_1bt 0.1 128 total bit speed regression appears bigger cpu regression prior probably need separate optimization attention get back performance number fasttable first submitted, , ,None
+27,75df4cdaa3dbe267d903275319e787f6e08eff7e,False, loosened check fasttable match, , ,None
+28,e84793dd73e19528dafa40781e0febfe88ab0e2b,False, cleaned debugging artifact, , ,None
+29,a4b35aa3889e739fa50d586038171efcaa6c8dc7,False, everything pass except conformance test, , ,None
+30,6e10b5789dc2c98e42ed0878897c96ed081248e2,False, removed redundant license port_def amalgmation, , ,None
+31,4f1e48ecc62a0073238bade8945e33173f39e0bf,False, updated amalgamator avoid duplicating license block, , ,None
+32,0723bfa700a044b1062d3db688b810455b19322e,True, merge pull request 387 haberman json null json perform multiple oneof check non null field,https://api.github.com/repos/protocolbuffers/upb/issues/387, ,None
+33,dda5416569ab27ab09a4f2f79291973529adb48a,False, update bazel skylib main branch name, , ,None
+34,2fa52e69510a468644684c802fe0f6e11b680115,False, merge branch master json null, , ,None
+35,a3126b7c7e0e628560d2879acc98091784130517,True, merge pull request 388 haberman fix macos fix macos build xcode 11.3,https://api.github.com/repos/protocolbuffers/upb/issues/388, ,None
+36,b344a6c582f9df0e8e7755f7810e31d9d112be70,True, fixed macos build xcode 11.3 work around http github.com bazelbuild bazel issue 12905,https://api.github.com/repos/protocolbuffers/upb/issues/12905, ,None
+37,a778f2639a0914c0430b44f61c36fbc85f4fd5b3,False, perform multiple oneof check non null field allows payload like oneofuint32 null oneofstring test, , ,None
+38,42bdfcb849c8a164295f7c687cdb7a54b5411157,False, fix build file, , ,None
+39,75d6dab37a067e609b6ac5ca4fda105cdc206a62,True, merge pull request 384 haberman internal renamed .int.h _internal.h greater clarity,https://api.github.com/repos/protocolbuffers/upb/issues/384, ,None
+40,38813939077c3e6a9e6baad4923a7a25359555f4,False, renamed .int.h _internal.h greater clarity, , ,None
+41,5084cbe646acb34e5b640cff0ef9f713dcaf1399,True, merge pull request 383 fowles master fix build rule restrive deps check,https://api.github.com/repos/protocolbuffers/upb/issues/383, ,None
+42,da4b75b97936d9529fb1d35d449727a7bd896425,False, fix build rule restrive deps check add msg.int.h access generated file actually declare reflective non different thing, , ,None
+43,a8f9cf54cf969e425170ac8b400da8e314496241,True, merge pull request 382 haberman license header added license header file,https://api.github.com/repos/protocolbuffers/upb/issues/382, ,None
+44,1ba446ccfe26347413d5468c6feaa153538f7e01,False, updated google inc. google llc, , ,None
+45,823eb0969446ba6f66da4d9ab906f32d1fae513e,False, update 2011 date 2021, , ,None
+46,ff89277ef088a64c34d65d67823dcc8534b78704,True, merge pull request 380 fowles master spell deps explicitly,https://api.github.com/repos/protocolbuffers/upb/issues/380, ,None
+47,5f74d43cf9aa8b40f207dfe4a0d5f3bef1bed67c,False, add comment text accidentally removed, , ,None
+48,0f27b0450a2dd5d62346e23d0f37ef22a332617a,False, merge branch master license header, , ,None
+49,e59d2c8fa7b6bd1948646557a7cafc4549af811b,False, added license header file, , ,None
+50,be4f64b9269f17e9ef4cf72d99751951ea39fb25,True, merge pull request 381 haberman msg public put public message interface msg.h moved internal function msg.int.h,https://api.github.com/repos/protocolbuffers/upb/issues/381, ,None
+51,1674f28dd74524a25a365e20fd1a9b61389c6802,False, put public message interface msg.h moved internal function msg.int.h, , ,None
+52,6481f6319e50f7a5d72436ca9d4fc28eeb0aff0d,False, spell deps explicitly google internal bazel strict deps reflection non need spelled explicitly, , ,None
+53,f104225a1e92adb8f2c4710cc8a26113fe55db17,True, merge pull request 376 haberman fix quadratic mem fixed quadratic memory usage,https://api.github.com/repos/protocolbuffers/upb/issues/376, ,None
+54,3c3799498daddc0b53f3f36dff35db5d50bf74a8,True, merge pull request 379 fowles master remove unused file test_util.h,https://api.github.com/repos/protocolbuffers/upb/issues/379, ,None
+55,2e83d5c98f59f0311a60118ccaabd31b7b2aaf51,False, remove unused file test_util.h, , ,None
+56,b053fa6991d30a2bea55840e2ef3e9c36bf8509d,True, merge pull request 378 fowles master allow arena fuse fail fuse safe,https://api.github.com/repos/protocolbuffers/upb/issues/378, ,None
+57,7876639e5029eae6063ce609f5147e6a5ec4b4e5,False, remove unused macro, , ,None
+58,5b97df91dd3901a4b3a714603edb994c62071f54,False, restrict fuse matching block_alloc, , ,None
+59,e74d6c23de866b1575d71e816c7444fcf27ee622,False, small renames use uintptr_t instead void, , ,None
+60,d9a0c58108bb4495098bff0091cad771a12fbe96,False, allow arena fuse fail track initial block avoid fuse operate arena fused, , ,None
+61,53f5d9f69b4d6ba6ca3149e1913bd9834f4d6c78,True, merge pull request 377 haberman json parse null fixed null json encoder decoder,https://api.github.com/repos/protocolbuffers/upb/issues/377, ,None
+62,83708181434a601f42cca15d3af0ffa26d79e55f,False, switch macro avoid signed const mismatch, , ,None
+63,63ad3db9802ba2f9222b4482d4139c6a9b5c2ea3,False, fixed null json encoder decoder, , ,None
+64,add9b12f185a5d20712bdd4e10b9d5d8ae97368d,False, fixed quadratic memory usage erroneously calling realloc instead resize forcing entire array reallocated every array append, , ,None
+65,97e2aeb7ee62a979f4b0a7c2bb9325d77cac0ae4,True, merge pull request 375 haberman cleanup minor cleanup,https://api.github.com/repos/protocolbuffers/upb/issues/375, ,None
+66,83c0edbd2a81caebbf0165ec394a7a905a88775b,False, minor cleanup, , ,None
+67,baa7fe7473314002bf746d9d10ddf46c8cb86853,True, merge pull request 374 haberman update deps updated version absl protobuf deps,https://api.github.com/repos/protocolbuffers/upb/issues/374, ,None
+68,900bd5c4262f153b2a637d0f379428aeb198e4a9,True, merge pull request 355 haberman aarch64 fasttable parser work arm64,https://api.github.com/repos/protocolbuffers/upb/issues/355, ,None
+69,89df647460caa8e14bb4157bfa780c76eca556d7,False, updated version absl protobuf deps, , ,None
+70,e4343f0fa3705f6433edf3ab629d534efe1e2699,False, update comment arm64, , ,None
+71,103d51f1026e25e0183f78ae59630632aad44d86,False, merge branch master aarch64, , ,None
+72,1b9cc09f0e5c883bedc4ccf94215bf17dc622fa2,False, removed extraneous copybara directive, , ,None
+73,bbd817fdb613db020de97048172594d34aa6778b,True, merge pull request 373 haberman table cleanup handler gone cleaned table use arena exclusively,https://api.github.com/repos/protocolbuffers/upb/issues/373, ,None
+74,c358829c76f4e561af34a6198aa9ad48e19093c7,False, handler gone cleaned table use arena exclusively also cleaned cruft table, , ,None
+75,ed5b4108e0a50556e304368d77b3b656fad35fe9,True, merge pull request 363 haberman delete handler deleted legacy handler apis upb finally deserving name,https://api.github.com/repos/protocolbuffers/upb/issues/363, ,None
+76,bfa528f0ae1c02d0798456f042aa62cc47baccc1,True, merge pull request 372 haberman errmsg fix fixed error message buffer overflow,https://api.github.com/repos/protocolbuffers/upb/issues/372, ,Risky_resource_management
+77,ec9ba3f89312c6db90e9e3e9f80ef02f1fb6bda7,False, fixed error message buffer overflow, , ,Risky_resource_management
+78,eb0fdda14b7b211872507a66f7d988f7c24a44c9,True, merge pull request 371 haberman json fix message field,https://api.github.com/repos/protocolbuffers/upb/issues/371, ,None
+79,e58f7a02844f7843207dc8dd625784ae55a8785b,False, fix message field, , ,None
+80,7541ba0f38ea019815aceb06d776de5dbdf55864,True, merge pull request 364 catenacyber cifuzz add cifuzz,https://api.github.com/repos/protocolbuffers/upb/issues/364, ,None
+81,81829bacc39a77d570ecafd05d918314d76c8c5f,False, removed quote char error message, , ,None
+82,88ed8f5d3b80352e9841675675fd03a2c98cc8e8,False, changed json decoding error message clear field clear unknown field unknown field term art within protocol buffer implies preserving field also field match pre existing ruby error message, , ,None
+83,f41c0ec261b36da137b2525e5ffdf006da7cebf4,False, added internal api get arena symtab ruby use, , ,None
+84,b080659eeed555c09fea46a44c9a7c6ba93f1b78,True, merge pull request 367 haberman timestamp minute offset support non zero minute timestamp offset json,https://api.github.com/repos/protocolbuffers/upb/issues/367, ,None
+85,f7ed1f27a3f5d09f9c5e575ebe5230d92a584642,False, support non zero minute timestamp offset json, , ,None
+86,451dcbbb9a750cdb95761b4001062dbb3257505a,False, add cifuzz, , ,None
+87,f5d2d55007e3faddb4a886b2e442eea83b68bb74,False, deleted legacy handler apis upb finally deserving name possible user migrated new upb_msg apis, , ,None
+88,0f40d59258173b13f989a9f801967f44291fa30d,True, merge pull request 362 haberman warning fixed bunch clang warning,https://api.github.com/repos/protocolbuffers/upb/issues/362, ,None
+89,c7787cbaa1daf4fa53fd53b679584b67b0d858f2,False, fixed bunch clang warning unfortunately clang warning easy fix ext google protobuf_c ruby upb.c function fastdecode_errâ ext google protobuf_c ruby upb.c 353 warning function might candidate attribute noreturnâ wsuggest attribute noreturn 353 const char fastdecode_err upb_decstate  ext google protobuf_c ruby upb.c function _upb_decodeâ ext google protobuf_c ruby upb.c 867 warning argument bufâ might clobbered longjmpâ vforkâ wclobbered 867 bool _upb_decode const char buf size_t size void msg even tried suppress first error still show, , ,None
+90,5e53b5bb3d2b5080fdb878ab30d623174a9616a7,True, merge pull request 360 haberman default msgval added api getting fielddef default upb_msgval,https://api.github.com/repos/protocolbuffers/upb/issues/360, ,None
+91,7a6e647be169a4281748a084de0da2068dd843d7,False, merge branch master default msgval, , ,None
+92,edb0a9a2d94c88dbad63da9829859c15cbcce848,True, merge pull request 361 haberman arena bugfix bugfix arena cleanup list passing upb_decode,https://api.github.com/repos/protocolbuffers/upb/issues/361, ,None
+93,9175989431ef264f38fb2ec4dd3bf6d199a530de,False, bugfix arena cleanup list passing upb_decode, , ,None
+94,5e550e88f8f1ac58fd00e4b25b1278d8ea557d31,False, added api getting fielddef default upb_msgval, , ,None
+95,de76b31f9c56b28120580d53a6f8d7941fdb79eb,True, merge pull request 359 veblush fix upbdefs fixed upbdefs error,https://api.github.com/repos/protocolbuffers/upb/issues/359, ,None
+96,3cab8a38fca95b31c9381ddc5f659b7404ebf5e5,False, fixed upbdefs error, , ,None
+97,48bb3e566219c3b8312464917125183c49d5097c,True, merge pull request 357 veblush string opt optimize call std string find friend single char,https://api.github.com/repos/protocolbuffers/upb/issues/357,kokoro:run,None
+98,4c67b2086bf26022c862f58a22e6a53d7857def0,True, merge pull request 358 veblush clang tidy fix fix clang tidy function upb_encode_ex,https://api.github.com/repos/protocolbuffers/upb/issues/358,kokoro:run,None
+99,38b4beed6bb6c952340e3e856b0f57fb5faadc10,False, fix clang tidy function upb_encode_ex definition different parameter name, , ,None
+100,9b020d8f65c3d9d317ba0f98953dc260159c1d25,False, optimize call std string find friend single char, , ,None
+101,60607da72e89ba0c84c84054d2e562d8b6b61177,True, merge pull request 356 haberman codegen uniquefiles split code generator .upb .upbdefs,https://api.github.com/repos/protocolbuffers/upb/issues/356, ,None
+102,7a54a5f3d68e3dc806da59f381082e1428b4f78e,False, split code generator .upb .upbdefs single code generator generated .upb .upbdefs even though generated different rule worked fine long codegen step sandboxed led build error fix http github.com protocolbuffers upb issue 354, , ,None
+103,3c9ae7837a9f5af345bd544827d5913870ed31fe,False, fasttable parser work arm64, , ,None
+104,b10b02f66f0dfa055b676770ff394bad9f4d9df0,True, merge pull request 353 haberman small fix couple minor fix exercised ruby,https://api.github.com/repos/protocolbuffers/upb/issues/353, ,None
+105,cd7c2d2701aaf1d472ffe8017e236816df4cd164,True, merge pull request 352 haberman large field number fixed upb encoder field number,https://api.github.com/repos/protocolbuffers/upb/issues/352, ,None
+106,10b355a6e044e66d17a3f7d7d6673bd97d4b9191,False, couple minor fix exercised ruby, , ,None
+107,6c30b5fe737890ca88586c4d37a89b2f556447b7,False, fixed upb encoder field number encoder improperly sign extending tag bit, , ,None
+108,31b35284241a3e4487e8ef98e82d72f5754476a8,True, merge pull request 350 haberman encode depthlimit added depth limit checking upb_encode,https://api.github.com/repos/protocolbuffers/upb/issues/350, ,None
+109,e9551022c1e7ad5d3f70098fb9bd98f9b5cad911,False, added depth limit checking upb_encode catch infinite recursion due loop excessively deep message tree depth limit configurable default, , ,None
+110,f389384c5ae6060424ecada8b2c2f885779b05ec,True, merge pull request 349 lidizheng json public make bazel rule json publicly visible,https://api.github.com/repos/protocolbuffers/upb/issues/349, ,None
+111,f72c26cbc41f875ebb47111be2a5e601e4c71c7c,False, make json publically visible, , ,None
+112,5797d95172e7bca056d00d45c8ebacedb13d407e,True, merge pull request 348 haberman json emit default fix json encoder emitting default value,https://api.github.com/repos/protocolbuffers/upb/issues/348, ,None
+113,7a17493269a66d4dece71ac38bc7ed2931eb912b,False, removed print debugging, , ,None
+114,695b7f46171ba7dbe6e5817c4047b23c68bd5e6b,False, added code test, , ,None
+115,6b357607bd35fef98ad3c0f3312845b9798efd0f,False, fixed bug json encoding previously code would crash certain empty field, , ,None
+116,1b08391979a5d6abb0e964c49dc5b9d3e3b04a64,True, merge pull request 347 haberman filedef symtab added accessor get symtab filedef,https://api.github.com/repos/protocolbuffers/upb/issues/347, ,None
+117,ee49a8d7df43163f0c552b837f7a204d74036a4e,False, added accessor get symtab filedef match api already present proto2 const descriptorpool filedescriptor pool however slightly subtle implication proto2 relationship descriptor messagefactory many create many instance want one independent dynamicmessage prototype computed layout underlying descriptor practice layout one thing could distinct extension pool descriptorpool searched extension parsing contrast upb doe separate message factory abstraction mean upb_msgdef single distinct layout word correspondence descriptor layout mean way create multiple message type descriptor distinct extension pool want different set extension must create separate upb_symtab distinct set descriptor change entrenches upb_filedef upb_symtab relationship single upb_filedef member multiple symbol table practice already true way add single filedef multiple symbol table change codifies relationship, , ,None
+118,a81b47025a360d1be1234dfa4c6968d31fb243b8,True, merge pull request 345 haberman encode skipunknown added option binary encoder skip unknown field,https://api.github.com/repos/protocolbuffers/upb/issues/345, ,None
+119,6535cbe380355daab408f321f86111446d13368f,True, merge pull request 346 timgates42 doc fix simple typo posisiton position,https://api.github.com/repos/protocolbuffers/upb/issues/346, ,None
+120,72251087205c370f81ef072c2d876c771c6be420,False, doc fix simple typo posisiton position small typo upb table.c read position rather posisiton, , ,None
+121,871ff962528124aca6146cce1b84a669c2686697,False, test skipunknown regular field, , ,None
+122,0569c22a1ee3f93644efbadb254be7bdecc94d9a,False, removed debug print, , ,None
+123,76764643ac30854f43564d3b69bddc663ef9b60d,False, added option binary encoder skip unknown field, , ,None
+124,794ce6d06188c6df290b4b46b4c32e95a219eafc,True, merge pull request 344 haberman deterministic serialize added map sorting binary text encoders,https://api.github.com/repos/protocolbuffers/upb/issues/344, ,None
+125,a04627abc8b364a3a141204686673054e1d88dca,True, added map sorting binary text encoders binary encoder sorting default text encoder sorting default default explicitly overridden grows code size bit think could potentially shave map related code size generated code inject function pointer map related parsing serialization code map present file size size  1.07ki 768 upb msg.c new 391 new 344 new 158 new 112 new 111 new new 110 new new 110 new new 110 new new 110 new 3.6 4.3 _upb_map_new 9.5 464 9.2 424 upb text_encode.c new 656 new 616 txtenc_mapentry upb_text_encode 20.1 224 20.7 224 txtenc_msg 5.7 342 5.3 296 upb encode.c new 344 new 304 encode_mapentry new 246 new 208 upb_encode_ex new new 0.7 0.7 encode_scalar 1.0 1.0 encode_message del del upb_encode.ch del 227 del 192 upb_encode 2.0 152 2.2 152 upb decode.c 128 128 section .rodata 3.4 3.4 0.6 107 0.3 upb def.c new 100 new 7.1 2.9 2.9 section .dynsym 1.2 section .symtab 3.2 3.2 section .plt new new memcmp plt 0.5 0.6 test 1.5 1.6 dotestio 0.1 0.1 upb json_decode.c 0.4 0.4 3.0 3.0 section .got.plt 3.0 3.0 1.6 1.6 section .dynstr 1.8 1.8 section .hash 0.5 0.5 load 2.8 2.8 section .gnu.version 60.0 1.74ki unmapped 0.3 496 1.4 1.74ki total,https://api.github.com/repos/protocolbuffers/upb/issues/2, ,None
+126,3e071ea91a034783522811e9857d5d349dfa26f4,True, merge pull request 343 haberman msvc msvc apparently support standard defines,https://api.github.com/repos/protocolbuffers/upb/issues/343, ,None
+127,e70e488e092e8a79b0d8ea866d664c5bf4854374,False, msvc apparently support standard defines requirement c99 msvc 2015, , ,None
+128,963e501aa6142abed9572b1f964f7e757d707a1e,True, merge pull request 342 haberman fuzz clamp bit varints byte fix fuzz failure,https://api.github.com/repos/protocolbuffers/upb/issues/342, ,None
+129,8d670d8aea450abf3563a8e1b71c675ecec762c7,False, renamed decode_varint32 decode_tag, , ,None
+130,9abf8e043fcca2e41b093db5d39e7a2f0a53e80a,False, clamp bit varints byte fix fuzz failure, , ,None
+131,50a543de7f53457b80b00e3f3ee2fe7b8a677b23,True, merge pull request 341 haberman code size added size benchmark code_size,https://api.github.com/repos/protocolbuffers/upb/issues/341, ,None
+132,9c87f1168f1af6785f26757c0667cb18be9e8c01,False, added size benchmark code_size, , ,None
+133,6f8202823655c4ab4dc45b361f50a65d40c379f9,True, merge pull request 340 haberman darwin setjmp use _setjmp instead setjmp apple platform,https://api.github.com/repos/protocolbuffers/upb/issues/340, ,None
+134,358fa14d0e0ecc0d84467ca7948ee74613b68ab5,False, fixed header updated benchmark script, , ,None
+135,bc200451ce9fe3bd360c4953a92b14375d06f803,False, use macro instead inline function setjmp longjmp, , ,None
+136,ca279f8afa00dccbac2751b29f3e301169276148,False, merge branch master darwin setjmp, , ,None
+137,fbc0639b0773ee5f71ed36735304b69489b4c8af,False, use _setjmp mac avoid saving restoring signal mask, , ,None
+138,10f0a38450c5deabb3dcfb0b574a01343cc5ed5c,True, merge pull request 337 haberman size benchmark size benchmark upb protobuf binary,https://api.github.com/repos/protocolbuffers/upb/issues/337, ,None
+139,4be07a2dcef75c32f5cd583a741cffef5b3e975f,False, increase build timeout parallelize build, , ,None
+140,378a27b640e5f7ec4a25b57cb70839e4445c78ed,False, force size run locally, , ,None
+141,da48e01f058a97835a9bbf2fad9c5b2db49998a8,False, google3 fix, , ,None
+142,d2446fd2dbda3bf15033ad140ca20d540b96b5f6,False, moved cc_api_version attribute proto_library, , ,None
+143,4a84390c89e9246053164a6f0ea715ff61dc3ff5,False, added tweak google3, , ,None
+144,4dd4212a34fb43dba194db0192d1a85bf2207d67,False, merge branch master size benchmark, , ,None
+145,ffecfef161ea39103cc690e990ef461d45a6ba80,False, merge branch master size benchmark, , ,None
+146,86f671d5fdd6b59ed74c0f50a06417e22b787ac7,False, fix darwin output different error, , ,None
+147,165e01ec6fe54788ef5dbed4f4ddf7e547c285d4,False, fix old python version, , ,None
+148,40fdff5e4344a8e93b423985b8ddc8874d1748ad,True, merge pull request 339 haberman benchmark alias added temporary api copy vs. alias added benchmark test,https://api.github.com/repos/protocolbuffers/upb/issues/339, ,None
+149,5f8bb5de1d03926f270c1fbc4eb9b6df97795a23,False, updated generated code, , ,None
+150,65d166a6ba7d4be32b3699277694bedd30db945c,False, added api copy vs. alias added benchmark test benchmark output bazel bin benchmark benchmark bm_parse 2020 running bazel bin benchmark benchmark run 3700 mhz cpu cpu cache data 32k x36 instruction 32k x36 unified 1024k x36 unified 25344k  benchmark time cpu iteration  usearena copy 4134 4134 168714 1.69152gb usearena alias 3487 3487 199509 2.00526gb initblock copy 3727 3726 187581 1.87643gb initblock alias 3110 3110 224970 2.24866gb bm_parse_proto2 filedesc noarena copy 31132 31132 22437 229.995mb bm_parse_proto2 filedesc usearena copy 21011 21009 33922 340.812mb bm_parse_proto2 filedesc initblock copy 17976 17975 38808 398.337mb bm_parse_proto2 filedescsv initblock alias 17357 17356 40244 412.539mb, , ,None
+151,27b9c999a7cd8efee29fc86d3e9e58d94e946943,True, merge pull request 338 haberman arena initial start arena block doubling initial block size,https://api.github.com/repos/protocolbuffers/upb/issues/338, ,None
+152,9df96874e995cf4fb74b57af0015ef2b2886214a,False, start arena block doubling initial block size initial block provided start block doubling size initial block 128 save unnecessary overhead overflow initial block, , ,None
+153,881ddac7fe6f0c19a46e9f676b4e813d765cd391,False, also use .format, , ,None
+154,8b7dabe1a25a4758e89b5dc23c17585ebda141c3,False, use format instead string interpolation old python version, , ,None
+155,8e08282c3b6bb0d933b7d10d65c9b0e37449bb11,False, removed unused small.proto, , ,None
+156,0f79d47215e482b25b18b8a3462c701d4588b9f5,False, added missing lite binary size_data.txt, , ,None
+157,555fbbc0bcace40c19ab2b9e8ad0269180c93f89,False, size benchmark working pretty well, , ,None
+158,85cbc41a895c6cdea663b010db5945ff56cdb2b9,False, merge branch master size benchmark, , ,None
+159,e5bdfba92c0ac47659f49dd978c99a18920b18c5,False, removed accidentally added .orig file, , ,None
+160,07851fac586c2fc376259dc2838c06256d34e738,True, merge pull request 336 haberman fuzz fixed minor bug found fuzzing,https://api.github.com/repos/protocolbuffers/upb/issues/336, ,None
+161,982b634bc531656db7aac4fcd9f467058012ef48,False, fixed minor bug found fuzzing, , ,None
+162,c9d2e58480ac0a3178ec2c3c55c3282b4e39a8f3,True, merge pull request 310 haberman fast table fast table driven parsing upb,https://api.github.com/repos/protocolbuffers/upb/issues/310, ,None
+163,a01f3e23a4d9222dfe584ebcf80e876035717e8b,False, fix google3 build exclude even test macos avoid timeout, , ,None
+164,a83d55ee4b2b2b40346792573b9d7a44fd4c7a97,False, exclude clang test macos avoid kokoro timeouts real solution kokoro build part separate job run parallel, , ,None
+165,73fcfe9ed0646d4bd4d2b81b1718907c86793263,False, tried slim test bit, , ,None
+166,baab25b7aa8a1a8fe8016a123d75daef3cbbc7d0,False, removed excess redundant test kokoro script, , ,None
+167,1eb7bd39e7084059814b8fbffe834addc2dea905,False, formatting fix, , ,None
+168,9d87055ce4ccd4500c7bb6ba7c4884a17dcd6211,False, updated kokoro build script, , ,None
+169,4bd34da105b5390489b2df750858dd31cb5d3328,False, wip, , ,None
+170,a7993615bf7ea7874b6c7aca683d1231b74677bc,False, merge branch master fast table, , ,None
+171,3a3efe69a29e2975ba2943c7402f0420b532f0f1,True, added true per http github.com bazelbuild bazel issue 11584,https://api.github.com/repos/protocolbuffers/upb/issues/11584, ,None
+172,7b4e376f793eebbf911718974c67008fa3d51429,False, switch unordered_set absl flat_hash_set, , ,None
+173,fe62fc83e174c75901ed5628c5687e2262105c82,False, removed obsolete includes benchmark, , ,None
+174,5ed089dc425313429a81de5ce4051ffacd964162,True, merge pull request 335 haberman wyhash rule added build file wyhash,https://api.github.com/repos/protocolbuffers/upb/issues/335, ,None
+175,e9b79542adbfa1096e590b7c79cd526d71dfcd33,False, added build file wyhash make build closely resemble google3 build cmake output bit busted build doe succeed, , ,None
+176,7b8ae7ec4e9d6f07bf7b62d989b9743fbe3f667c,False, merge branch master size benchmark, , ,None
+177,a5b5445da6960c41cb775ab6be2ee5e0cd29c210,True, merge pull request 334 haberman port removed obsolete port.c file,https://api.github.com/repos/protocolbuffers/upb/issues/334, ,None
+178,6c16cba83f8b692c558d60a5a967808bb02d0e2a,False, removed obsolete port.c file, , ,None
+179,484d8f746a7e8260f3407e412c3b957aa58c082d,False, updated comment wyhash.h correct spelling mistake, , ,None
+180,6a9d0f45b81dca301128bbc3bf3ee827c3af2d1a,True, merge pull request 333 haberman 32bitfixes fixed critical bug bit build added much kokoro testing,https://api.github.com/repos/protocolbuffers/upb/issues/333, ,None
+181,5b1f0d86a126ea43986267fee7c4a7f0cf26a0dd,False, kokoro build test m32 linux also fixed bunch bug found gcc fanalyzer, , ,None
+182,0497f8deed605bd38735e061a738c181dbec3982,False, fixed critical bug bit build added much kokoro testing bug arena code assumed sizeof upb_array would multiple i386 causing memory corruption bit build, , ,Risky_resource_management
+183,7543f851f146faf0a0de1ac09c7211c992a12cba,True, merge pull request 332 haberman php amalgamation amalgamation longer bundle wyhash includes,https://api.github.com/repos/protocolbuffers/upb/issues/332, ,None
+184,64abb5eb111de9ce2c53dbd41601124db60ed094,False, amalgamation longer bundle wyhash includes also fixed spelling mistake, , ,None
+185,a2a40792b59a172dfb508dff3d9c11c0c99ecd0b,True, merge pull request 331 haberman json oneof fix bugfix json decoding check real oneofs duplicate,https://api.github.com/repos/protocolbuffers/upb/issues/331, ,None
+186,dd0994d377f2f10a2dd5d6e562a628d5ea86f719,False, bugfix json decoding check real oneofs duplicate also fixed work properly synthetic field simpler general, , ,None
+187,496f63802512fea710d8351b987be370bbf4be9f,True, merge pull request 330 haberman symtab longjmp symtab use longjmp error avoid intermediate table,https://api.github.com/repos/protocolbuffers/upb/issues/330, ,None
+188,c9f9668234bdc13df99b917d83c22e19bfb6af33,False, symtab use longjmp error avoid intermediate table used use separate add table operation make easier back file contained error created unnecessary work adding symbol main symtab everything validated instead directly add symbol main symbol table error validation remove precisely set symbol already added also requires using separate arena file fuse symtab main arena operation successful 61.2âµs 53.5âµs 12.50 0.000 4.43ms 3.06ms 31.00 0.000 257âµs 259âµs 1.00 0.000 13.9ms 13.9ms 0.128, , ,None
+189,4d9a8cd67b19372c634480a5d80b202373e7d419,False, merge branch master symtab longjmp, , ,None
+190,6322d1d72df0c9d2c4fa80e4b05e5045fdba59f3,True, merge pull request 329 haberman benchmark descriptor added benchmark loading descriptor,https://api.github.com/repos/protocolbuffers/upb/issues/329, ,None
+191,5ec1d39224c24f323f4f33d5eb7569dcdcd5fdfb,False, avoid building .pb.cc protos take forever compile, , ,None
+192,43c207ea7ee6e689ad78e9c301d86012ab02e18f,False, added cmake dummy rule, , ,None
+193,c3b56376461cf71b34980abaa7ab4aaf81d7a603,False, added benchmark loading descriptor generally seems track speed loading  benchmark time cpu iteration  59091 59086 11747 121.182mb 4218587 4218582 166 120.544mb 241083 241049 2903 29.7043mb 13442631 13442099 34.8975mb, , ,None
+194,acd72c6d3f0d7464e2d61668fd73d23d67857021,False, wip, , ,None
+195,6ae3b66cd29808ab649613758c97fcc63af22907,True, merge pull request 328 haberman optdefload optimized loading descriptor,https://api.github.com/repos/protocolbuffers/upb/issues/328, ,None
+196,8113ebd6c7da7888474d29d8b9e9d91077de916c,False, added explanatory comment integer constant, , ,None
+197,f2d826b9f389d503235f0da20cc0c01828bfc669,False, got rid floating point division table init ideally would get rid floating point operation table.c job another day, , ,None
+198,723cd8ffc13c15a6dade94ef4381f7fec7ae5bd5,False, added wyhash code license removed temporary benchmark, , ,None
+199,15e20636c3c6dc3e0b580c341747602d10f27ccd,False, merge branch master optdefload, , ,None
+200,154f2c25f42a94a40e8c5b9952f9d25611fd6fd7,False, added utf validation proto3 string field, , ,None
+201,e8f9eac68c3077f5896609898bbe2f57c4a9d367,False, added defines control whether fasttable decoding, , ,None
+202,994cf07cf3c5f3b0fee7bcdf039f9b3dd1689e7d,True, merge pull request 327 benjaminp modern linking migrate modern starlark linking api,https://api.github.com/repos/protocolbuffers/upb/issues/327, ,None
+203,b5bd5807a77ccd4b311328d9bda30f354f108532,False, migrate modern starlark linking api see http github.com bazelbuild bazel issue 10860, , ,None
+204,dc64613607ba55da5d7a5b79abfcb985fd36a299,False, merge branch fastest table fast table, , ,None
+205,e86541ac1d2345bac24ab38071ce24b13abb00c5,False, fixed build merge, , ,None
+206,1cd0cb17d36dbeacc75fe1788f18d46c764dac74,False, merge branch master fastest table, , ,None
+207,901744a97e5170bfdd5b408a26b6603b1fbab9ad,True, merge pull request 326 haberman c99 drop c89 c90 support msvc prior visual studio 2015,https://api.github.com/repos/protocolbuffers/upb/issues/326, ,None
+208,a0d16e707349f7e3fe0ee516610d511afe5e0d15,False, added missing copt made function proper prototype, , ,None
+209,558315a1c37f6b9345e604462d61352935fcbb15,False, added copt port, , ,None
+210,7e5bd65098d69d5a0c3369743004b75238114665,False, plumbed copt including crucial std c99 aspect, , ,None
+211,8f3ee80d469b0815dcc05af70c1c083ed433d4b0,False, drop c89 c90 support msvc prior visual studio 2015 upb previously attempted support c89 pre 2015 version visual studio support older compiler limited c99 support particularly msvc last august even grpc dropped support msvc prior 2015 http github.com grpc grpc.io commit therefore seems safe upb longer attempt c89 support already truly c89 compliant use bool explicitly require c99 greater msvc 2015 greater cleaned port_def.inc fair bit took chance also remove obsolete macro, , ,None
+212,a274ad786a6d21d191baea321813f356d4b50104,False, plumbed copt including crucial std c99 aspect, , ,None
+213,2c8bb6dd9d4795d408f80a3a79766fd174b264b5,False, specify c99 explicitly unless stop using bool, , ,None
+214,efd576b698c77d75b88a3bdb1c095903a009858d,False, added std gnu99 fastdecode ran buildifier, , ,None
+215,b928696942dd14f9770069d5f44a0ff6fcf59122,False, fix test fastdecode kokoro, , ,None
+216,55f3569cd25423371def5843c360879b1ee80595,False, minor fix assertion, , ,None
+217,8b38e8f214ba22b5fbd6eacbd80b3b9103368fea,False, merge branch fastest table fast table, , ,None
+218,46eb82467a6bbacaf0ddaf44cd888660947dca8c,False, added comment decode_fast.h, , ,None
+219,bd9f8f580d32f871874d2bdb2e86732526666a66,False, fixed bug fast decoder long tag putting table entry wrong slot repeated string buffer flipped longer alias failing notice kept aliasing anyway, , ,None
+220,3eba47914bdb980a6d244fbfb85c9569a8bbc493,False, allocate hasbits table slot hotness order without profile assume field smaller number hotter, , ,None
+221,021db6fcd57f2e27fe5801d55771d19464c31929,False, allow larger tag table unique mod also fixed bug fixed packed decode_fast.c, , ,None
+222,86d9908c55011c10135193023576d35bc9b7a42c,False, fastdecode support packed field optimized yet lot room optimize, , ,None
+223,e3e797b680654b50ae644b06295cd51bb923ea74,False, added fasttable support oneofs, , ,None
+224,7ffa9c181a0e34b1038c146db80dc0020cfc21d3,False," fixed small bug performance problem string copying alias false  benchmark time cpu iteration  3715 3715 188916 1.88206gb performance counter stats bazel bin benchmark benchmark 1,122.92 msec task clock 0.979 cpu utilized context switch 0.003 sec cpu migration 0.000 sec 196 page fault 0.175 sec 4,144,746,717 cycle 3.691 ghz 15,351,966,804 instruction 3.70 insn per cycle 2,590,281,905 branch 2306.728 sec 2,996,157 branch miss 0.12 branch 1.146615328 second time elapsed 1.115578000 second user 0.008025000 second sys   benchmark time cpu iteration  3554 3554 197527 1.9674gb performance counter stats bazel bin benchmark benchmark 1,105.34 msec task clock 0.982 cpu utilized context switch 0.003 sec cpu migration 0.000 sec 197 page fault 0.178 sec 4,077,736,892 cycle 3.689 ghz 15,442,709,352 instruction 3.79 insn per cycle 2,435,131,301 branch 2203.068 sec 2,643,775 branch miss 0.11 branch 1.125393845 second time elapsed 1.097770000 second user 0.008012000 second sys", , ,None
+225,e2c709e0476071d7b9137f53f5566e792d90fcea,False, repeated string primitive support much code adapted gerben code http github.com protocolbuffers upb pull 322 commits, , ,None
+226,e9103eda9eaaac146e8ee259e3f03141bfb517aa,False, merge branch master fastest table, , ,None
+227,0756999ab644d6849d9b100d81b937002435df12,True, merge pull request 325 haberman inlined arena fixed upb inlinedarena completely broken,https://api.github.com/repos/protocolbuffers/upb/issues/325, ,None
+228,25db40bc30332e76c3399f39a038291b596d0911,False, fixed upb inlinedarena compeltely broken, , ,None
+229,d81ba58215752aadb3dec5b24e201505aae30266,False," optimized short string copying sped alias false case   benchmark time cpu iteration  4562 4562 153251 1.53276gb performance counter stats bazel bin benchmark benchmark 1,216.65 msec task clock 0.936 cpu utilized context switch 0.005 sec cpu migration 0.000 sec 200 page fault 0.164 sec 4,490,925,650 cycle 3.691 ghz 16,516,403,731 instruction 3.68 insn per cycle 2,828,536,650 branch 2324.861 sec 5,425,830 branch miss 0.19 branch 1.300178903 second time elapsed 1.211475000 second user 0.072207000 second sys   benchmark time cpu iteration  3587 3587 195749 1.94935gb performance counter stats bazel bin benchmark benchmark 1,109.69 msec task clock 0.930 cpu utilized context switch 0.005 sec cpu migration 0.000 sec 198 page fault 0.178 sec 4,094,010,257 cycle 3.689 ghz 15,672,677,812 instruction 3.83 insn per cycle 2,589,291,160 branch 2333.346 sec 3,306,386 branch miss 0.13 branch 1.193221789 second time elapsed 1.102538000 second user 0.072166000 second sys", , ,None
+230,f3a2a793491fd92608465c141b26d88035f7f319,False, optimization back 2.56gb, , ,None
+231,199c914295bed3fa53c3a8e1c0a81b7452095080,False, simplify push pop msg fit current buffer, , ,None
+232,d5f5db2729d7ad34ab190519a3d829e2a56cd844,False, put string copying field parser separate function help regain bit lost perf 2.3gb, , ,None
+233,883f20d4dc55ef4c25863a7026976ae3328833f9,False, merge branch master fastest table unfortunately regress benchmark 2.25gb optimization forthcoming, , ,None
+234,1bd62e8218a64862b2b1bb7c538b641c41d2ee95,True, merge pull request 324 haberman simplemomi eliminated bound check inside parsing field,https://api.github.com/repos/protocolbuffers/upb/issues/324, ,None
+235,f4adbe06984188ec2d7630960cb4c47f93dfb24b,False, optimized varint decoding gerben speed thing cost code size name old time new time delta arenaonealloc 21.1ns 21.3ns 1.33 0.000 6.02ns 6.02ns 0.579 111âµs 110âµs 0.91 0.003 258âµs 258âµs 0.674 11.2âµs 10.4âµs 6.67 0.000 10.6âµs 10.1âµs 4.48 0.000 5.36âµs 5.36âµs 0.880 11.9âµs 12.0âµs 0.81 0.000 file size size  1.11ki 1.06ki upb decode.c 560 560 decode_msg 140 240 188 240 new 174 new 128 160 160 upb_decode 49.7 1.06ki unmapped 0.0 0.9 1.06ki total, , ,None
+236,48689df72e8e6a998247efe1ccdfeb1147e84d86,False, eliminated bound check inside parsing field field parser get byte slop requires using patch buffer end buffer addes needed support pull parser data callback since main parser tolerant buffer flip performance regression code size regression upb decode.c name old time new time delta arenaonealloc 21.0ns 21.6ns 2.87 0.000 6.02ns 6.02ns 0.09 0.001 114âµs 115âµs 0.96 0.000 260âµs 261âµs 0.55 0.033 10.8âµs 11.2âµs 3.43 0.000 10.5âµs 10.9âµs 3.68 0.000 5.25âµs 5.42âµs 3.39 0.007 12.0âµs 12.5âµs 4.14 0.000 file size size  606 560 upb decode.c 7.9 288 7.9 288 decode_msg new 174 new 128 160 160 upb_decode 9.3 12.5 25.5 558 unmapped 0.0 0.4 560 total, , ,None
+237,a345af9883f6a16022c7599807258ab37d9d6158,False, added codegen parameter whether fasttables generated example clang bazel build opt copt benchmark benchmark false info build option changed discarding analysis cache info analyzed target benchmark benchmark package loaded 913 target configured info found target ... target benchmark benchmark date bazel bin benchmark benchmark info elapsed time 0.760s critical path 0.58s info process internal linux sandbox info build completed successfully total action bazel bin benchmark benchmark bm_parse_upb  benchmark time cpu iteration  10985 10984 63567 651.857mb 10556 10554 66138 678.458mb clang bazel build opt copt benchmark benchmark true info build option changed discarding analysis cache info analyzed target benchmark benchmark package loaded 913 target configured info found target ... target benchmark benchmark date bazel bin benchmark benchmark info elapsed time 0.744s critical path 0.58s info process internal linux sandbox info build completed successfully total action bazel bin benchmark benchmark bm_parse_upb  benchmark time cpu iteration  3284 3284 213495 2.1293gb 2882 2882 243069 2.4262gb biggest unknown whether parameter default true false, , ,None
+238,8a3470c543d3432ca375a5b94653e1abb91230ab,False, wip, , ,None
+239,8e8dbb5258908dff6919e0a4295c29fa45227462,False, merge branch fastest table fast table, , ,None
+240,7d17a0e8c5a9df72850fab8e005ba459f79d9177,False, merge branch master fastest table, , ,None
+241,a7e2e8338d843d9503d2aa673fb3cc58c46348a1,False, fixed benchmark script, , ,None
+242,72de7b7002d85da95af940868715809829fd9a97,False, merge branch fastest table fast table, , ,None
+243,cb234e652c80175e04c12af986bd5e65d6114ccc,False, merge branch master fastest table, , ,None
+244,b86cf2d789ed8b6b4b9c0fd59b6e9b198389ce38,True, merge pull request 323 haberman build file split monolithic build file many build file,https://api.github.com/repos/protocolbuffers/upb/issues/323, ,None
+245,4ea81ab1073590d0b5dc9b05325188fd83df2539,False, fixed pedantic warning, , ,None
+246,6399b31f4b9051cff0eca180a149b1a3577540d4,False, removed ull constant json_decode.c, , ,None
+247,c8ae197e640e38ec1b4fc0ccab166504b4b8ec2d,False, removed suffix necessary, , ,None
+248,bc1e0b314fe2d0fa319553def5d078815c6b59e3,False, fixed strict c89 error, , ,None
+249,2c1664906ab68c1e1a85214f481c002025a21209,False, removed license comment google3, , ,None
+250,b7dc77415a28f3513663834b31b8eacc1f84f7f2,False, added license build file, , ,None
+251,de22764b33217294ea21e0b993a40be6f1a4851c,False, updated kokoro test ... instead, , ,None
+252,e3f41de6c7cf79d0f27589d71f71249194547967,False, split monolithic build file many build file, , ,None
+253,fbe2bcafbc479558131e1028e661e168dc4feea4,True, merge pull request gerben gerbens fast table add repeated varints fixed parser,https://api.github.com/repos/protocolbuffers/upb/issues/4, ,None
+254,9e68ec033fccc5b05638f399cf8b65d22936e8b5,False, add repeated varints fixed parser, , ,None
+255,d0e4b688c60e7ae178911290f0eb0f0144d818b8,False, shorten name kaliasstring benchmark result wrap, , ,None
+256,c0c9b5a168a40096c8630ebe6f8876936dd4088c,False, regenerated generated code, , ,None
+257,eb8e6de8b70f075921140cd2fdcc7732b2860567,False, regenerated source file, , ,None
+258,7f0d53582668b739fb971ec2da7dd7a0e5d0fbb5,False, merge branch fastest table fast table, , ,None
+259,bf8e08074c3b6cafa1db0fb32405584dd9fa3869,False, added comment, , ,None
+260,6e3c22e6eeaef26c33e63e40da0e2b873c16de8a,False, merge branch fastest table fast table, , ,None
+261,3238821315a2866c3892e1f7336593e1dab9d9a2,False, gave fast table entry nicer name, , ,None
+262,2a574d3d0153accbf1887196b34bf348f83552c1,False, added bunch comment readability, , ,None
+263,0deca8b8fba00353e3076fbff35a10be331c2ba5,False, merge branch master fast table, , ,None
+264,bfadc997099db4c2f9f9a993cf30662c4d19de46,False, merge branch master fastest table, , ,None
+265,84e0f6127df22d3e4bb35e341e211f16f0418fcb,False, merge branch master fastest table, , ,None
+266,61c51a607bffd56ec72f302cafab10a8f2232be7,False, merge branch master fast table, , ,None
+267,4f066765a96c84bd477c64128c75733e78afa040,True, merge pull request 320 haberman string view benchmark added benchmark ctype string_piece,https://api.github.com/repos/protocolbuffers/upb/issues/320, ,None
+268,bf393bf086017df1d8f7082514269f94d22e10a7,False, cleaned benchmark name, , ,None
+269,9eb8414b3124fe785ea9265ff7d57c5a88e33898,False, added, , ,None
+270,ee7da95367e9d18ad83ccf6c3f5214f56c8b02a2,False, bzl formatting fix per buildifier, , ,None
+271,de1b6b0718ebe08e219577ccc8d82b3b229d125b,False, refactored proto2 benchmark added stringview benchmark, , ,None
+272,c2901eeee1bdca434fa96d45d4a431765e6979e6,False, added missing includes caught blaze, , ,None
+273,52721eadc7ea1cb3555bb3c997c508f95cd13af7,False, order non initial block test, , ,None
+274,44a713084593061fc109ae085c475e17b5180ae2,False, used correct copy protos benchmark, , ,None
+275,3a242e7a48d1d30ddcf88d425dd208da5bb975fa,False, merge branch master fast table, , ,None
+276,d01b712dbb1b8ef46b32b3ae7db217294535ff7f,False, merge branch master fastest table, , ,None
+277,d225dfc2ed12817933f4a6e33bc6edd9474c6440,False, buildifier formatting fix, , ,None
+278,b0994a650145d4e2b15b0ba0034129fd529f0b04,False, added missing dep benchmark, , ,None
+279,de800540183195751c80f551c665f6ed228bbd97,False, make required field optional benchmarking, , ,None
+280,745661bf1f509a6374a23a4f4016ef5561f0dcd4,False, merge branch master fastest table, , ,None
+281,11585095b738e5b109988a5d07c8ffc9dc8a1088,True, merge pull request 319 haberman copy descriptor snapshot copy benchmarking purpose,https://api.github.com/repos/protocolbuffers/upb/issues/319, ,None
+282,fd5a35d49d2dc6f85c3ecbc7a4393d3466e5e8ae,False, minor comment change, , ,None
+283,bdd1a516e8ea7964640c78a3ed805e909224d170,False, fixed test, , ,None
+284,27262adf931079ee10f56ad03c67a5c2710c45c9,False, snapshot copy benchmarking purpose ensure schema payload constant across time space, , ,None
+285,d6b40fd5e28f7599f8037fa005e3965f78842f23,False, added missing dependency reflection, , ,None
+286,b9f1b67d0776e91d7c6156b5136a65379a5e416a,False, use quoted include, , ,None
+287,1c8c16b9b121d4338f124cb59981e7a3328c4190,False, use quoted include, , ,None
+288,4f901b643086c10620267c6f854f6e75d346f5d3,False, pass test, , ,None
+289,de84e2078840368010bf96d1f8ba7e7b7dee5bcb,False, merge branch master optdefload, , ,None
+290,d5c64476fd32df629155a06d3f4ae9e6422dc9de,True, merge pull request 318 haberman descriptor load benchmark benchmark descriptor loading time,https://api.github.com/repos/protocolbuffers/upb/issues/318, ,None
+291,42d2f6cef9b23fa726c455bc0206eddcb1c452fa,False, add measure benchmark current output machine  benchmark time cpu iteration  33344552 115948084 107286 107275 6512 67.5731mb 240539 240537 2909 30.1362mb 11500 11499 60864 630.377mb 11920 11920 58676 608.123mb 31338 31336 22389 231.325mb 21622 21622 32472 335.26mb 17799 17798 39266 407.288mb 4943 4942 141050 1.43252gb 12262 12261 57131 591.195mb, , ,None
+292,1ce98b86ec86c81b0703ee571155e71fffd5f7ea,False, added loaddescriptor benchmark proto2, , ,None
+293,4890735ce2f35f0683469a8cd3b6952e7232b2a1,False, added benchmark descriptor loading, , ,None
+294,6f59f1256e37ac70deef7a908a25fce67aa1d940,False, optimization descriptor loading, , ,None
+295,6874d61704ed833c68577e204f2917b2d647c274,True, merge pull request 317 haberman gencode compat compatibility old generated code,https://api.github.com/repos/protocolbuffers/upb/issues/317, ,None
+296,c81113e60f6c33be14436ade5b03e1c390343e79,False, added fallback code enum match, , ,None
+297,c10b24ffb24ae8d97a16d1e216082cb43b9fd19b,False, simplified switch, , ,None
+298,ded2e657a7436e13b90c6e10363ba59af0acdd0a,False, added compatibility old generated code everyone regenerate code need provide compatible semantics old generated code also fixed bug enums allocated byte instead , , ,None
+299,5b0c5c7d4a3027f50d5f47a728a9be9fdd7a0f6e,False, dispatch inline, , ,None
+300,75edd3e59c397ddbe0f45e59d952a1d8abc26b20,False, changed use table pair seems ever slightly regress, , ,None
+301,69d99a247e34f429895aaf1448cc8437e2454f15,True, merge pull request haberman shifted table compress table storing mask low bit table pointer,https://api.github.com/repos/protocolbuffers/upb/issues/3, ,None
+302,bca7edac8c62919bd8ba31436a4cebe15ef64e47,False, cleaned table compression bit, , ,None
+303,b95f2179967a7cc54e9a13abfa04822ac095d0c3,False, little speed boost hitting 2.51gb, , ,None
+304,8ed6b2fe854bdeacddd242f2246483d4c264eb31,False, stored mask table pointer, , ,None
+305,a6dc88556d14b5e2991c19dc42b5448c2d90ed29,False, table compressed perf 2.44gb, , ,None
+306,91eb09b1bc9341b2a25b39262aca30b45640fe0f,False, add comment, , ,None
+307,7a1835d7c3b74f0868f3b726e87d7859af3337d7,False, merge branch master fast table, , ,None
+308,8bd5c0088e7124342de5057030f58ea6544f3f41,True, merge pull request 316 haberman submsg array fixed bug submsg array could excess element,https://api.github.com/repos/protocolbuffers/upb/issues/316, ,None
+309,a4966fd230c6e144cdb5e2b5ba22f155ec9756e0,False, added extra sanity check, , ,None
+310,99acbe0da8eaae28c713258f021ad28880450703,False, fixed bug submsg array could excess element allocating array element every sub message field even two different field message type, , ,None
+311,2a0425ecf57a8238f4f571b563a0409ac1a82e1f,True, merge pull request 315 haberman conformance fix updated new version protobuf fixed conformance test,https://api.github.com/repos/protocolbuffers/upb/issues/315, ,None
+312,7ccf5650c70fd70ae76ac9fb2a0c68deac08dce8,False, encounter null non nullvalue enum throw error, , ,None
+313,0a3a94a12fd1da40ac59d517003938e2841326e7,False, updated new version protobuf fixed conformance test appears need parse serialize plain json null value, , ,None
+314,ddd5f28c4f6e1357136ada8a5cb051055bf0b4aa,False, merge branch is_bazel, , ,None
+315,10fa3a0c77863ce4b64877724cf683ba8bf397da,True, merge pull request 314 haberman addunknown fixed bug addunknown added asan poisoning,https://api.github.com/repos/protocolbuffers/upb/issues/314, ,None
+316,504e105420f1c84ce2b6725d6ae1d65386cf6124,False, undef upb_asan, , ,None
+317,ab96d1ec4118bbb4f1aef774e2ed2ca4fa471de1,False, removed extraneous style comment, , ,None
+318,d5096f9ee84b71362de9296ac5d2c27c574f65f0,False, fixed bug addunknown added asan poisoning, , ,None
+319,6fe84526bee8b55314346d8b169aa2c46db00b3d,False, mark _is_bazel replace google3, , ,None
+320,f01efe8b647dd25b8a6b73755c3a94e2681c6b37,False, removed another c99 ism, , ,None
+321,1749082bbbeb76cb5de28fe721cb4fe0a8d94056,False, removed c99 ism, , ,None
+322,147e363f567107fc8f8bfe46d96960de2f5a1500,False, merge branch master fast table, , ,None
+323,f2ddc15d765b87444faedd6e775dc27db4628d42,False, bugfix initialize fastlimit fastend, , ,None
+324,65e49b694b5850bde9722bbe3ffe75c42e48b8ff,False, merge branch gerben fast table fast table, , ,None
+325,1abf7d418d55e8dff4495545559d7eac8bb20f93,False, added generated file, , ,None
+326,3f719fa6b2ee842f4d97d9a5b903433235e05123,False, bugfix offsetting hasbits introduced bug calculating hasmasks removing extra shift hasmask calculating masking first bit make message without hasbits work well, , ,None
+327,aec762e405b4778458ec20cec21f4842c3a43d76,False, merge branch master fast table test failing, , ,None
+328,4f77aaafd830c4543d545799419a1ba0628c541a,True, merge pull request gerben fast table refactor code extracted common code message field,https://api.github.com/repos/protocolbuffers/upb/issues/2, ,None
+329,4053805759dfc2c7ca8544e3ec328bb93b6bad35,False, bugfixes, , ,None
+330,d1cd80385b9edc4f3aab4a791bd3477b5b580bd0,True, merge pull request 313 haberman inline arena inline arena duration decode,https://api.github.com/repos/protocolbuffers/upb/issues/313, ,None
+331,ad210836237f82a0afd60a86db14a6544c6c7170,True, merge pull request 313 haberman inline arena inline arena duration decode,https://api.github.com/repos/protocolbuffers/upb/issues/313, ,None
+332,2339fc779c482ae7829524948fb027734e47b449,False, updated obsolete comment, , ,None
+333,b393849bbd0af8cc83ea200143e121ef1de1137a,False, updated obsolete comment, , ,None
+334,ebe53f85904d697101ba08d748aa3b8ed484bef6,False, fixed compile error, , ,None
+335,b37f82b58bd3891ccc804488b432c8e48c319625,False, fixed compile error, , ,None
+336,71749b7caf8626d61f8db57851af49f7893277b0,False, implemented inline array allocation moved type lg2 map reflection, , ,None
+337,9557b97acc5a94981914c4f5e2349e36eaec0f4c,False, implemented inline array allocation moved type lg2 map reflection, , ,None
+338,b58d2a0ee68fad50e7eee616edfd7a90a9c30177,False, shrink overhead message representation, , ,None
+339,0bf063a2cab234cd23ac665c421be3a1d2507fcf,False, shrink overhead message representation, , ,None
+340,d87ceeacabba4efd2097b4ec42de2b37c2968d22,False, shave one store, , ,None
+341,ddc52ab9d6377439c4f1ea4c7be904a15cd20f46,False, shave one store, , ,None
+342,c25d895adff55355ec2a90fd5409311427756fc7,False, shrunk arena state need synced, , ,None
+343,7f67f68c1ce09cb56c5ee271a46e28b3fee7f7e3,False, shrunk arena state need synced, , ,None
+344,ff40dd6ea99b6c2a5cc06cb2b3ebca649b1e15e7,False, added new internal header, , ,None
+345,85a43e54614ebf30cb700f106afff172e232e734,False, added new internal header, , ,None
+346,36662b3735c58685f2f1c30610c9dbcfd7fa2f78,False, refactor code extracted common code message field parser tail recursive function removed varint jmp table simple varint parse loop remove stack frame also careful losing information repeated message tag check written mindful check load happen reused tag dispatch expected tag, , ,None
+347,cbcd6359178edde2cc3ee6013d2a7175e9dd620a,False, fixed memory leak, , ,Risky_resource_management
+348,bcbcdadbd2821742353b483f261695cbb941188c,False, fixed memory leak, , ,Risky_resource_management
+349,e5264bd794767e65d9f5166d86c43de723cc4253,True, merge pull request 312 haberman defiter added simple offset based accessors defs deprecated old iterators,https://api.github.com/repos/protocolbuffers/upb/issues/312, ,None
+350,52957fa984e004e193758d326af8185a22ad92a0,True, merge pull request 312 haberman defiter added simple offset based accessors defs deprecated old iterators,https://api.github.com/repos/protocolbuffers/upb/issues/312, ,None
+351,746f64692c9a00c015496ca0038c5aa703fd2476,False, moved arena inline decoder, , ,None
+352,7363b91ac3c5a249fd603870621c3f462fb87c76,False, moved arena inline decoder, , ,None
+353,b8ef1dcc5793da258d5b94873db3f11f3c44c5f9,False, removed style comment, , ,None
+354,575acd85bd44c52513ab936bdb47da3e02ff123f,False, added const pointer wrapper type, , ,None
+355,5aa5b77b41b1ab92352ac36ff6902ee754e0061e,False, added simple offset based accessors defs deprecated old iterators, , ,None
+356,33384301e24ae3ce89f6a09d0267253cdabab12d,True, merge pull request 311 haberman proto2 benchmark2 benchmark vs. proto2,https://api.github.com/repos/protocolbuffers/upb/issues/311, ,None
+357,578e7c1f4c7ef853f2fd3fa1f005e2fdc5341772,True, merge pull request 311 haberman proto2 benchmark2 benchmark vs. proto2,https://api.github.com/repos/protocolbuffers/upb/issues/311, ,None
+358,bc301e7da4f266e9441ee0c485e6d3c24667de62,False, use merge partial variant give proto2 benchmark fairest hearing, , ,None
+359,30f01afa83fde84bcd1629315f702d015900d816,False, added test proto2, , ,None
+360,5d23fd99af8a3df6ac4f700518a7bb4981da90a0,False, used shorter protobuf namespace alias, , ,None
+361,9938cf8f27b742797248685870b9d8745a1b58b4,False, put submsg_index directly table data drop oneof support focus, , ,None
+362,d87179501d557ebb8e3ba6d01653d9db1bea6aed,False, another build fix, , ,None
+363,89bd8b87e1a7eddb3f55d151932c61963e1f1084,False, fixed c89 compat issue, , ,None
+364,64d293894ae29a391dc5975413ecc8eedf5453f2,False, fixed bug introduced last optimization, , ,None
+365,ff957b996c6ac757f9f62847955c50a8561bc668,False, fixed c89 compat issue, , ,None
+366,537b6f42c20c0dd797703ecb89c61bb130b33365,False, update benchamrk minor implementation change, , ,None
+367,0dcc5641eb7a908c750548e4e9f306ae0bed4d0b,False, replicated dispatch implemeted array resizing logic 2.67gb, , ,None
+368,526e4307947a347696448a6525a669224fb5ec23,False," think may reached optimization limit  benchmark time cpu iteration  32994231 116318005 3028 3028 231138 2.34354gb 3557 3557 196583 1.99498gb 33228 33226 21196 218.688mb 22863 22861 30666 317.831mb 5444 5444 127368 1.30348gb 12509 12508 55816 580.914mb perf stat bazel bin benchmark 2020 running bazel bin benchmark run 3700 mhz cpu cpu cache data 32k x36 instruction 32k x36 unified 1024k x36 unified 25344k  benchmark time cpu iteration  3071 3071 227743 2.31094gb performance counter stats bazel bin benchmark 1,050.22 msec task clock 0.978 cpu utilized context switch 0.004 sec cpu migration 0.000 sec 179 page fault 0.170 sec 3,875,796,334 cycle 3.690 ghz 13,282,835,967 instruction 3.43 insn per cycle 2,887,725,848 branch 2749.627 sec 8,324,912 branch miss 0.29 branch 1.073924364 second time elapsed 1.042806000 second user 0.008021000 second sys profile 23.96 benchmark benchmark 22.44 benchmark benchmark 18.96 benchmark benchmark upb_pss_1bt 14.20 benchmark benchmark upb_psv4_1bt 8.33 benchmark benchmark 6.66 benchmark benchmark 1.29 benchmark benchmark 0.77 benchmark benchmark 0.55 benchmark kernel.kallsyms 0.42 benchmark kernel.kallsyms 0.42 benchmark benchmark 0.31 benchmark benchmark upb_psb1_1bt 0.21 benchmark benchmark upb_plv4_5bv 0.14 benchmark benchmark upb_psb1_2bt 0.12 benchmark benchmark 0.08 benchmark kernel.kallsyms vsnprintf 0.07 benchmark kernel.kallsyms _raw_spin_lock 0.07 benchmark benchmark _upb_msg_new 0.06 benchmark 2.31.so check_match", , ,None
+369,4c65b25daf78eed1c0c2632f95c7e89272872609,False, handle long varints 2gb, , ,None
+370,e39ec95ca2100004c7ce024c8b7e0a1d472dc204,False, hoisted update limit depth loop, , ,None
+371,52a0ed3891554d8e7005f5382b8e67d2d124ba34,False, fixed bug tag number, , ,None
+372,388b6f64eb007bf4ff9108c6066c1214d3c525f4,False, small optimization increment array length every iteration, , ,None
+373,9e5c5ce0890646e10c8787c2dabf6f6e9aa8151e,False, optimized memset cutoff fixed group unknown message bug, , ,None
+374,8dd7b5a2ca455692f431b881e831ea5c1fa7fb6a,False, bunch optimization, , ,None
+375,e46e94ec7f7a34691cc442001a2a3c0cb61c9eb7,False, added benchmark proto2, , ,None
+376,405e7934b1eebfa9f1c8c525e0f8f4e4e79d7d8e,False, handle byte submessage length, , ,None
+377,88b1ec77843462050897479a96b2a10d4082df55,False, table driven support repeated sub message, , ,None
+378,f173642db43d44984ffad93ee61ec6d7b7225148,False, handle non repeated submessages, , ,None
+379,e219a2d91d6bfaf3f555c20b7e0acfac757c218a,False, merge branch decode arena fast table, , ,None
+380,7ec2c5234601cfa756fb491a58fe8a7fe42f2eb1,False, donate steal arena accelerate decoding, , ,None
+381,d43ccfa079dbaad02a6979fa2619a399cbfb2ceb,False, revert test change, , ,None
+382,fac992db83fe49cacd956b3cdd8dc287b07f74cc,False, cleanup showing, , ,None
+383,3937874a85a2d301cf68deeda04422c5c7d5aefa,False, properly structured algorithm perf regress, , ,None
+384,438ecaeb5ae98c8e98d62947d3069121e0bbbf3e,False, give field parser generic table entry, , ,None
+385,383ae5293e0445271ae11b0d21d2e7fbf6a665cb,False, wip, , ,None
+386,26abaa2345a8f8320c1371a40a6d015eb35c779f,False, wip, , ,None
+387,34b98bc030c69a061c294f4dc983bcde41a9a7a8,False, avoid passing many params fallback, , ,None
+388,763a3f62930d41bb8993b9c8f9225f7a861300d4,False, wip, , ,None
+389,02ff6fb9967dd6d3c05f77adf86affb28d9198c4,True, merge pull request 309 haberman decoder forceinline add upb_forceinline varint32 decoding,https://api.github.com/repos/protocolbuffers/upb/issues/309, ,None
+390,a202ce962940debd0f1f40dcaed158f754639739,True, add upb_forceinline varint32 decoding speed decoder also reduces code size slightly name old time new time delta arenaonealloc 20.4ns 20.2ns 1.10 0.000 5.25ns 5.25ns 0.786 17.1âµs 13.1âµs 23.29 0.000 parsedescriptor 17.4âµs 13.5âµs 22.51 0.000 10.7âµs 10.9âµs 1.95 0.000 file size size  2.7 2.7 load 0.5 unmapped 1.4 0.7 upb decode.c 3.1 3.1 decode_msg del 170 del 130 decode_varint32 0.0 0.0 total,https://api.github.com/repos/protocolbuffers/upb/issues/2, ,None
+391,d0f2c4c8a2dd563d450c1a6faff55fdf7007a7aa,True, merge pull request 308 haberman encoder optimized binary encoder speedup,https://api.github.com/repos/protocolbuffers/upb/issues/308, ,None
+392,5741eb9ad71875b45d37f2bc36a939ce1b20952a,False, expanded benchmarking script added one size opt encoder, , ,None
+393,0135399e60aac830eeaa8c0c056d7646230c637b,False, fixed bug introduced refactoring, , ,None
+394,df3438222b65314fc4bb883f4483d7e0060f1e55,False, notated impossible branch unreachable, , ,None
+395,9b31e8fe123fb1b7907cd583f17e3619e3eee89e,False, merged common encode tag path, , ,None
+396,5d7dc718ccdfabadb72229a4a30800d8c4c381eb,False, minor formatting fix, , ,None
+397,80441e4eb43e86c21b5f724ecdf74505321a1957,False, optimized binary encoder, , ,None
+398,ada28896b9245aca35e817ed011407419483e606,False, changed encoder use longjmp error recovery, , ,None
+399,6e140c267cc9bf6a4ef89d3f9a842209d7537599,False, added benchmark encoding, , ,None
+400,7338facddb8ce405fe7a0a52a6061a1e7c823279,True, merge pull request 307 veblush port backport add upb_noreturn msc,https://api.github.com/repos/protocolbuffers/upb/issues/307, ,None
+401,4d2251c3e467605f6b46290e628943b94856e3e6,False, add upb_noreturn msc, , ,None
+402,382d5afc60e05470c23e8de19b19fc5ad231e732,True, merge pull request 306 haberman bigendian fixed binary encoding decoding big endian machine,https://api.github.com/repos/protocolbuffers/upb/issues/306, ,None
+403,efefbffc804c6bc31b6da5aa3629b54f8bdb1793,False, fixed binary encoding decoding big endian machine, , ,None
+404,5d3083013c49c8f4e51888dbadafde6b7ce0d08b,True, merge pull request 304 haberman upb assume fixed upb_assume non gcc non msvc platform,https://api.github.com/repos/protocolbuffers/upb/issues/304, ,None
+405,55dd9d3e418c4cf13c913fcd5355afec0e3d3dc0,False, fixed upb_assume non gcc non msvc platform, , ,None
+406,e4c8afd0d413a684a8f5b30cad8b3b0657fe6b19,True, merge pull request 303 haberman packed def fixed correct default,https://api.github.com/repos/protocolbuffers/upb/issues/303, ,None
+407,8284321780ac672b1e3bc9db2f96575a24c0c3b0,False, fixed correct default, , ,None
+408,ed86d98f53a0421eaa487acd9a39d1c927eba7f3,True, merge pull request 302 haberman verify utf8 verify utf parsing proto3 string field,https://api.github.com/repos/protocolbuffers/upb/issues/302, ,None
+409,8e26a33bcb59b38dad2d4bac6a2ce893fdaf2bdf,False, added test utf parse checking added missing error reporting, , ,None
+410,2c666bc8f665e028884ba8e4118c1460785533bd,False, use style comment instead, , ,None
+411,a77ea639d5d4ff3abc8106ec977285c16381c09d,False, verify utf parsing proto3 string field, , ,None
+412,7f1907220698b73d1ad59ca7d715c8512bc66d24,True, merge pull request 301 haberman pop removed unused push pop function,https://api.github.com/repos/protocolbuffers/upb/issues/301, ,None
+413,bfdfe5a914ff43e0afd30d21586bbec9e5eaad14,False, removed unused push pop function, , ,None
+414,1479f2d7ca16243ab4e7a5772e9aa3bec7b9baed,True, merge pull request 299 haberman google3 fix applied change google3,https://api.github.com/repos/protocolbuffers/upb/issues/299, ,None
+415,8f11ec57d25bc3385565a82dbf9acfe97c9c3f8e,False, applied change google3, , ,None
+416,7172b981dde0060a5174fcb9bcd129258b2c30cd,True, merge pull request 297 haberman bugfixes bugfixes valgrind testing kokoro,https://api.github.com/repos/protocolbuffers/upb/issues/297, ,None
+417,ffe40c9f94373aaed0ee2f416f4325354a8dbf29,False, run valgrind present, , ,None
+418,922c126b8b29462a7f5d36516c0d7a0bdc73a352,False, fixed unit test error causing valgrind failure, , ,None
+419,086a68d1918eed6439680744c070121b16148ede,False, fixed memory leak could occur upb_arena_fuse also added valgrind testing kokoro, , ,Risky_resource_management
+420,35abcc248b44ad151c9311398c9aa7dd19c65aad,False, added test trigger memory leak, , ,Risky_resource_management
+421,7d726c8da6fa122a75d1f98e4a780439d8ccbfe7,False, json parser bugfix float double quote, , ,None
+422,74c60c757b7d1bf8297585cbd4f9e2c866935bc2,True, merge pull request 296 haberman php fix fix php extension,https://api.github.com/repos/protocolbuffers/upb/issues/296, ,None
+423,efe11c6c504a040f40f2b442ccadf58e9b76b7a7,False, removed excess logging statement, , ,None
+424,92e63da73328d01b417cf26c2de7b0a27a0f83af,True, merge pull request 295 haberman mac compile fix added initialization member satisfy compiler warning,https://api.github.com/repos/protocolbuffers/upb/issues/295, ,None
+425,e179dda212b83457cd16e92001e96b44307cc780,False, added initialization member satisfy compiler warning, , ,None
+426,81c2aa753e2bf5681393c5e5120232f9b10dfb85,False, fix php extension, , ,None
+427,f7fcc0df37f13138d5069da0bd74d3227effacc0,True, fix divide zero vs2019 compilation error 293 294 fix divide zero vs2019 compilation error undef introduced define,https://api.github.com/repos/protocolbuffers/upb/issues/293, ,None
+428,7d38c201faf7eb56fe4effdb0acd45c657f0286a,False, enabled conformance test run asan apears work 292, , ,None
+429,0dc2394da576002d6b27ee880e25b19ce1642682,False, change support import google3 291 fix google3 added failure list new failure reused existing failure list file add assist rewriting, , ,None
+430,363e39c171a08b89bd546189d1244a6e191cacf0,False, fix extra compiler warning 290, , ,None
+431,b717575ceff5e759a28f3ed3d60a65eee041a30c,False, added wextra wshorten fixed resulting error 289 added wextra wshorten fixed resulting error disable wshorten since kokoro missing clang fixed wextra warning gcc reordered upb_unused come declaration added another pedantic fix log version fix compile error conditionally run use_bazel.sh moved set use_bazel.sh fixed typo conditional, , ,None
+432,2e335ab9d22fde9b5e23ae657ddc4733380e49ff,True, merge pull request 288 haberman ubsan fixed ubsan issue added ubsan check,https://api.github.com/repos/protocolbuffers/upb/issues/288, ,None
+433,408d34797d31b0b515352f66639947c93c285b07,False, disable ubsan clang available upb kokoro image atm, , ,None
+434,6b808a4072f727f18cd6de86cbc19d10f47170ba,False, fixed ubsan issue added ubsan check, , ,None
+435,7f5b8d73b0d1a481b279de3c6a558015ae1adca5,True, merge pull request 287 haberman php amalgamation bugfix oneofs added line col info json,https://api.github.com/repos/protocolbuffers/upb/issues/287, ,None
+436,634d37515ca8aa9de6bb19722a369965e3117242,False, bugfix oneofs added line col info json, , ,None
+437,543a0ce8f21709fe7e65ac5a53cc4136d7b4216c,False, fix php 286 new php specific upb amalgamation contains everything related upb_msg leaf old handler related interface encoders decoder schema defs change changed return null instead assert failing field message enum added test whether wrapper well known type decoder decoder bugfix parse submessage inside oneof need clear previous data misinterpret pointer existing submessage json decoder allowed well known type top level special processing fixed bug could occur parsing nested empty list object made ignore unknown option also permissive unknown enumerator setting json encoder allowed well known type top level special processing removed space character match old encoder pas goldenfile test message reflection changed new function return upb_fielddef whichever oneof set implemented added implemented upb_msg_clear added part think util library instead core reflection since recursive algorithm compiler always emit descriptor array instead string avoid exceeding maximum string length becomes speed issue later back two separate path, , ,None
+438,93e2a408817a8b00a922aae42e32ccf9ee7a9e25,False, msvc 2019 fix 285 resolvename declared return bool value instead return null msvc 2019 doe like throw compile error fixed returning false instead null compiling msvc 2019 upb_assume macro expands false valid code fixed adding elif msvc __assume similar gcc according http www.open std.org jtc1 sc22 wg21 doc paper 2017 p0627r0.pdf, , ,None
+439,a1c2caeb25b21644700b9423da573b1ccddc35a7,False, arena test 279, , ,None
+440,16facab490024d34f3b0b096856a0d60407281b2,False, created amalgamation without handler fixed bug 283 created amalgamation upb_msg handler bugfix renamed lite amalgamation core avoid confusion traditionally lite meant without reflection mean without handler based code build fix test removed style comment fix order statement, , ,None
+441,22182e6e54e892f93f26d0522487997d30f604af,False, simplified epoch day algorithm 282 simplified epoch day algorithm nicer version divide 2048 thanks gerben suggestion little cleverness sake readability bit tweaking readability updated cmake copy, , ,None
+442,55f5bcd62ce356d8bb5257d039f42d8dce6d46ec,False, add 281 add similar assume file name end fix, , ,None
+443,c26e8db53dfe587278a2c0b206cc40de359487a2,False, ignore unknown enum value 280 add test proto2 fix ignore unknown enum value fix add note mention clear field unknown enum value update comment fix generated test fix generated test, , ,None
+444,6c4acba6109e325fef74ab7a1264f33925f86f2f,False, implemented upb_arena_fuse 278 wip wip test passing recover perf likely propagate function added benchmark simplify optimize add owned block freelist optimization simplification fixed bug revert unintentional change parser.rl revert lua change revert arena fuse change added last_size arena representation applied lua change implemented upb_arena_fuse fix compile ordering statement improve comment, , ,None
+445,2b1e7dc1cc73f0cf94b27e1b31cd3e361c24e437,False, arena refactor move cleanup list regular block 277 wip wip test passing recover perf likely propagate function added benchmark simplify optimize add owned block freelist optimization simplification fixed bug revert unintentional change parser.rl revert lua change revert arena fuse change added last_size arena representation fixed compile error fixed compile error changed benchmark one allocation, , ,None
+446,a0ae30bd16afbe714ff7ec084668388c117b2ce5,False, remove byte allocated measurement function 276, , ,None
+447,025cc2ec3dd5d979cdf5bcce77d49656ffa184b6,False, new arena benchmark actually hit heap 275, , ,None
+448,cef720e9b08f1a0cb5e96b3e493f3cc1f6f022fc,False, parser bugfix updated generated file 273, , ,None
+449,262bcbcadabebdb689401f7d6209e85716d36450,False, updated generated file 274, , ,None
+450,0842f882112ac3a9085eb8b4a2e9538591ab6e14,False, support proto3 optional 270 added support proto3 optional defs added proto3 optional support untested moment change support proto3 optional fixed real oneof count message field fixed compile error test added comment commenting assert, , ,None
+451,d638d74d1b4558fedb42165d0275e2ab4173bb8c,True, add load statement rules_proto 271 make upb compatible see http github.com bazelbuild bazel issue 8922,https://api.github.com/repos/protocolbuffers/upb/issues/8922, ,None
+452,2559e78aa30732cb3a1b64e08db2db757ee2ce08,False, separated wrapper separate file backward compatible way 265 make .hpp file read nicer keep core upb existing user wrapper add manual includes .hpp file, , ,None
+453,9bd23dab4240b015321a53c45b3c9e4847fbf020,False, changed upb status suit gcc10 warning strncpy 268 added test case also removed ellipsis truncated message trouble worth, , ,None
+454,38a104597552845dc76719d7489f03a106e0224c,False, added has_foo generated method proto3 submessage field 266 better checking null future unset field probably return default instance instead null, , ,None
+455,ef25ea52814b48f1d945e25b5b1b19b04eea3ad8,False, added kokoro verification asan build 220, , ,None
+456,378cbbc3cc0a64c7d20df825d5376d2dcf5f5e41,False, updated new protobuf version added support packed false 264 wip pass test fix optimization optimiation update protobuf v3.11.4 abseil lts 2020 use longjmp instead explicit error check every level used macro better documentation ops fixed bug map parsing test passing except conformance test fixed remaining bug conformance test pas also ported upb single upb_ptr_at macro instead multiple file define formatted clang format fix compile linux compile fix script benchmark change fixed parenthesis bug calculation updated generated descriptor file wip removed trailing enum fix linux build respect packed false fix conformance failure new protobuf version small simplification fix decoder removed stray comment authored yannic bonenberger contact yannic bonenberger.com, , ,None
+457,08b6d2d6fdf8865dc1fa97538bda4377b7f6c666,False, rewrite decoder 263 new code smaller source size compiled size faster speed decoder speed machine tested though amount speedup varies able test intel cpu linux desktop  cpu intel core 8700k cpu 3.70ghz linux name old time new time delta createarena 4.72ns 4.93ns 4.47 0.000 parsedescriptor 12.4âµs 9.1âµs 26.65 0.000  mac laptop  cpu intel core 8850h cpu 2.60ghz macos name old time new time delta createarena 5.33ns 5.58ns 4.69 0.000 parsedescriptor 15.0âµs 11.9âµs 20.20 0.000  linux workstation  cpu intel xeon gold 6154 cpu 3.00ghz linux name old time new time delta createarena 5.29ns 5.52ns 4.37 0.000 parsedescriptor 18.6âµs 16.4âµs 11.54 0.000  size source file grow marginally arena functionality moved inline upb decode.c shrink linux  size  2.1 283 upb json_decode.c 205 upb msg.c 8.4 115 upb upb.c 0.9 upb reflection.c upb def.c upb encode.c upb json_encode.c upb table.c 30.3 1.51ki upb decode.c 0.7 738 total , , ,None
+458,4e2505edaa325bcf0ffd69eefa7cb810d6dde861,True, merge pull request 259 haberman rmsubmodule removed .gitmodules use submodules,https://api.github.com/repos/protocolbuffers/upb/issues/259, ,None
+459,91fd76cc9ceaaf9681491416f75d37fa6f7a52bb,True, merge pull request 258 haberman bazel_version remove compatibility code old bazel version,https://api.github.com/repos/protocolbuffers/upb/issues/258, ,None
+460,d0d533962061b79f4eea4a55937d53271d821584,False, removed .gitmodules use submodules dependency bazel, , ,None
+461,6c5d5afc43a11f18fa7b16c2e3c8626f652b28b8,False, remove compatibility code old bazel version, , ,None
+462,c1357afb2e39df671d89eaec49033b5329f36a3e,True, merge pull request 230 moroten maybe deps make overridable using maybe,https://api.github.com/repos/protocolbuffers/upb/issues/230, ,None
+463,a3d693544b2a5e76f93260e0da9b6039b60948a1,True, merge pull request 257 haberman warnings2 fixed narrowing warning text_encode.c,https://api.github.com/repos/protocolbuffers/upb/issues/257, ,None
+464,63e673383b1562e62eaa3bbc99eac0556df3f050,False, fixed narrowing warning text_encode.c, , ,None
+465,39bc93a5273416efb239d2dcdfd49168e7cf3324,True, merge pull request 252 haberman jsondecode json decoder bugfixes encoder,https://api.github.com/repos/protocolbuffers/upb/issues/252, ,None
+466,0fdd65f223340c3a6beb193cb7e3daf9e80a56e7,False, merge branch master jsondecode, , ,None
+467,82af3d661c0c0340962489a5b1217f3157d6382b,True, merge pull request 255 protocolbuffers const array making sure readonly,https://api.github.com/repos/protocolbuffers/upb/issues/255, ,None
+468,90b3a20af0f63007fc1c129f66fa022f7f43b2d8,False, making sure readonly hopefully move array readonly data section, , ,None
+469,97bcd5276cf4597f52fe5f5b3baad8dc2cad7878,True, merge pull request 253 haberman warning compile clean wshorten warning,https://api.github.com/repos/protocolbuffers/upb/issues/253, ,None
+470,aacdcf8b9105ce7dbf5778aa6e561baeffb2932d,False, compile clean wshorten warning, , ,None
+471,5667a7a806c3abf008679e936f48fe7094e75c59,False, removed stray assert causing c90 build error, , ,None
+472,23a5af3513f82ccdd134d0fe84db0af8548f866e,False, json fixed remaining conformance bug, , ,None
+473,6ec4df82c1edfa6df874fcd5d28add6bf81ab04a,False, updated part upb new json name api, , ,None
+474,a292261aebd53a4ccc639579c4f62ff24c65e5d3,False, added json decoder conformance test fixed ton bug conformance failure across upb, , ,None
+475,d49c1db6c2a67e76088c4f59b7e28864f7a36147,False, new json decoder string msg using reflection compiles successfully executed even, , ,None
+476,e70853d71f3db513f3d19a7842e0703bfa56d6a5,True, merge pull request 251 haberman emptyfix fixed code generator upbdefs file message,https://api.github.com/repos/protocolbuffers/upb/issues/251, ,None
+477,b409f8cd859da48c74f9435883d65ffe22ecc884,False, fixed code generator upbdefs file message, , ,None
+478,58010a3f73dd6ddb53ea3e94b96df70d930cbed9,False, another fix google import, , ,None
+479,4b8c04e521706a69e4b11023b1c51089dafc6696,False, ran buildifier fixed thing google3 import, , ,None
+480,95fb9b2e3887ba20b9ddb84a8a89c8536724e6d1,True, merge pull request 250 haberman jsonencode json encoder upb_msg,https://api.github.com/repos/protocolbuffers/upb/issues/250, ,None
+481,d7d72f00753767ae639c12f2a7618c56ccb2425a,False, updated cmakelists.txt, , ,None
+482,872f4ceb8ffd08607b145ff9c348f10debdd4183,False, json encoder pass conformance test, , ,None
+483,384cf15b0f5151f8a67beca8858cfb504d1a4827,False, json encoder pass almost conformance test, , ,None
+484,6e9db7dafc19fd26cb6cb44523c8fe65bc3c2597,False, fixed json encoder compiles, , ,None
+485,43d86736238834aa31520809e66dafc84e07a396,False, merge branch master jsonencode, , ,None
+486,02c89a8b15d0ce2a4a75ef16fc398913827354fd,False, renamed textencode text_encode greater readability 249, , ,None
+487,bb2db35464dec97d180a21c3fc4a890799fb7785,False, fixing window build 247 http godbolt.org 3bsxgs, , ,None
+488,60d0966a0bb18c263b78bd49f7cc0fa9d8f5ef0b,False, jsonencoder wrote code even compiled yet let alone tested, , ,None
+489,1da9cfde7714f9a7c587dca7a7ba58becf3fb52d,False, bugfixes, , ,None
+490,ca84145476ddd722c6d67d7cf985d1d0aefcd893,False, decoder fix buf null size case 246, , ,None
+491,4c6dcc3c6bdb7039995768bf5f95ac2c4a6e9102,False, textformat added missing newline message open 245 textformat added missing newline message open added tostring support lua print text format also fixed gnarly bug exposed, , ,None
+492,3d955e684c91feff188de1f2509e55aae291762a,False, added extern block textencode 244 added extern block textencode added accidentally deleted test_upb.lua deleted unneeded test.proto, , ,None
+493,ca512852f3e65d333b709049405781715fbac3c8,False, fixed parsing string double map 243 map parsing serializing relies map entry always predictable order code generates layout respecting case string key primitive value, , ,None
+494,ce1a399a19f11683d58ba4c2569ec3fdd5a67621,False, text format serializer upb_msg 242 wip first version encoder progress text encoder lot progress text printer added textencode header file text encoder pass conformance test stringent though testing needed print text static buffer pass conformance test fixed kokoro error fix indent depth printing map field, , ,None
+495,888f35cae693d109dc278ea5e51d13dfa2e9db97,True, merge pull request 241 haberman conformance fix refactored conformance_upb use reflection fixed decoder bug unknown group,https://api.github.com/repos/protocolbuffers/upb/issues/241,kokoro:run,None
+496,46b93f8cea914e674c61f4631a781d1c7372abd6,False, bit cleanup decoder, , ,None
+497,ad2eb65a4b524218882de3ef0b4e2b8ef8e1ac86,False, refactored conformance_upb use reflection fixed decoder bug, , ,None
+498,a202c5f84dd10dcb39bad5122b5aafa531ba4196,True, merge pull request 234 haberman parser removed upb_decframe structure used explicit pointer param return,https://api.github.com/repos/protocolbuffers/upb/issues/234, ,None
+499,4c974cf72d288b9c71beca7ff58e4eae9cf80a6e,False, fixed generated file, , ,None

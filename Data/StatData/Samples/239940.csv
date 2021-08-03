@@ -1,0 +1,501 @@
+No,Sha,Valid,Message,Issue-url,Tag,Category
+0,71bb933649ba009cd537c2e973519d6e024c02a2,False, fix title case change capitalization title case consistency, , ,None
+1,d1413a81ead7a6f130a06e21a17ca98f4ea30df6,False, fix multipart file uploads empty filename detected binary, , ,None
+2,ae7a40b1c2db255dbb1aafd669a4b011bee7e674,False, refactoring, , ,None
+3,a1e603a7b34d4016050bcfb6a8248a04e752f120,False, fix 1226 reloading fails package started python, , ,None
+4,f9b1849db4dd724e36a93a1032be592193fba581,False,  little clearer, , ,None
+5,d3c50b1793b299a60e5bb0d4f74b977927570afa,False, deprecated diesel server adapter, , ,None
+6,f998fe9897a8a8ccc300832b8c09cf0c87b0c584,False, remove cherrypy test adapter deprecated cherrypy supported break test python 3.9, , ,None
+7,5e2efb6ad9c12d986c59926d0b3f99be003189d0,False, fix 1244 attribute error sys.stdout sys.stderr none, , ,None
+8,b3fa1d687c3170416a3ada7d69715a9077b748a9,False, changed __repr__ route module name get route get route module name, , ,None
+9,5abef2921de3cead5413883e5813fb48a82477a7,False, fix doc import include route, , ,None
+10,4e78a67564ae080a4f458bd3ebbea12d7127c75e,False, fix typo, , ,None
+11,f48c9eb0dcb9ea7a2c230928ff0556e9e6586336,False, fix typo documentation, , ,None
+12,57402ad01233b70370153d2360b7ef50d2a3fd2c,False, improve __repr__ route current improvement really help using multiple apps start application like logging route available example one  main_app.routes print  previously gave  get function index 0x7f750fda9670 get hello name path _id int function 0x7f750fda9700 get foo function _index 0x7f750fda9820 get url path function main 0x7f750fda9940 get function main 0x7f750fda9940 get admin login function 0x7f751061e670 post admin login function 0x7f751061e700 get admin function index 0x7f750fd21940 get editor function editor 0x7f750f930ca0 post editor template function template_ 0x7f750f930dc0 get editor preview name path function 0x7f750f930ee0 post editor validate jinja function convert 0x7f750f937040 get static front filepath path function app_factory local .server_static 0x7f750f937af0 get static admin filepath path function app_factory local .server_static 0x7f750f937c10 get static editor filepath path function app_factory local .server_static 0x7f750f937d30  memory address little use tell route mount different prefix e.g editor admin etc also mathes directory structure file system however always case time mount application without prefix current patch immidietly tell route coming   index get get hello name path _id int _index get foo main get url path main get tiny.auth get admin login tiny.auth post admin login index get admin editor get editor template_ post editor template get editor preview name path convert post editor validate jinja __main__ server_static get static front filepath path __main__ server_static get static admin filepath path __main__ server_static get static editor filepath path  think little patch might usefull others, , ,None
+13,f793c0420170b50916e20111cabc1871976727de,False, fix unicode error test python 2.7, , ,None
+14,30d310cfb78a4a4f26508e6140dca49cac471905,False, transifex push pull updated makefile, , ,None
+15,f8fc2c122b562f07dcc90b37cc6e01cec2b4cc92,False, drop fapws3 python 3.5 support fapws3 unmaintained year break test python 3.5 end life, , ,None
+16,f796498aaaaf2bc110efd494d4036d48999b1a61,False, raise critical error occur handling error logic added satisfy pep 3333 error handling section say application author never trap error raised start_response exc_info provided however appears intended prevent application catching exc_info raised start_response happens application try send error response includes exc_info output already written client exception thrown server abort connection caught application case start_response call question may error response always first call start_response never raise exc_info way special handling unnecessary, , ,None
+17,2243ab241a4a3f05160d22dc42f054a824c426dd,False, test added pas hope enough exception raising wsgi covered, , ,None
+18,5c48cee0ec3922fc8d83cd217d480d9486fcab2d,False, provide exc_info start_response handling exception recommended pep 3333 enable middleware provide exception handling service e.g custom exception logging see http www.python.org dev pep pep 3333 error handling note exc_info temporarily stored environ pas _handler wsgi start_response called may better way e.g storing response object, , ,None
+19,1b54afbc42e2d7b5f42ce659e66a71e65d0328b3,False, add bottle tool plugins page, , ,None
+20,25683b1eb3d54e095071e1b92bc9c747aa26f18b,False, fix syntax warning comparison literal using, , ,None
+21,6208b98fd745408a7a3bcf92efa75bf49f593288,False, adding new plugin, , ,None
+22,4ad33b8ee347e797d301584d5f81bee9e0e6eba8,False, fix broken link beaker documentation, , ,None
+23,d2a91df453c40bdd48aac329100e8aa5869866c2,False, add python3.8 python3.9 classifieres tested work user running python3.8 python3.9, , ,None
+24,0d2fc452ff453676b0f84e53d5b70c212109f6d8,False, drop python version 3.5 version eol since 2020, , ,None
+25,7d7fb55f86ba71b853fdd81f7fe8342ff6edb809,False, drop python3.4 python version eol since 2019, , ,None
+26,4ba312fa335b67406890454eb57f20f5051387ae,False, mutate header dict passed static_file mutating passed dict produce unexpected result caller dict e.g set header multiple file, , ,None
+27,cf53eabff29edf3f5486c551fb3e6a510e641a29,True, add test 602 bug look 602 gone sure exactly fixed see suspicious change http github.com bottlepy bottle commit environ path_info path.encode latin1 .decode utf8 ignore original cause error removed replaced ignore also fixed deprecation warning  doe exactly thing test test passed route makelist utility assumes nothing passed fall back path autogeneration callbackf unction sure expected behaviour,https://api.github.com/repos/bottlepy/bottle/issues/602,Bug,None
+28,207d51d9a3bb2ae7a9732a686355ab89acc38ac7,False, change list tuple, , ,None
+29,eeede5e77a2735b905c26110c96db4e10a9c788c,False, remove redundant round bracket, , ,None
+30,c8fc1416be2bef41d5fcbe87e9e8b7c2264a2f4c,False, redundant bracket, , ,None
+31,74ec1909cb9074815f067c4b05a457c5e28d3550,False, remove useless assignment look line, , ,None
+32,2802c44f9014187b7de422cf52bcc09b2e59b3c2,False, shortening, , ,None
+33,971bc5028340ebd8b7afe6ce909934e8fed54a47,False, fix erroneous expression standart module operator  def is_not  return , , ,None
+34,f5a9f76586e06a1cb7bbea8b395000fe9fde7f31,False, split query string anymore using separator instead allowed long time ago obsolete actually invalid according 2014 w3c recommendation even change technically backwards incompatible real world application depend broken behavior really need functionality monkey patch _parse_qsl function conflict bottle.py, , ,None
+35,0131e74145fb17d4ee2d5fbc475fcbf7de3ced4f,False, correct typo bottle.py, , ,None
+36,533c2cd76039b4e22a5c36c0e97df82b37c63670,False, fixed typo release note 0.13, , ,None
+37,f2ba40de7f1dc209369872387018022fd0fc51e8,False, reuse port bjoern adapter, , ,None
+38,8294b30341f08da30b10d3d35aadb2fb13beda00,False, fix broken link wsgi specification 1210 fixed link wsgi specification, , ,None
+39,332215b2b1b3de5a321ba9f3497777fc93662893,True, fix 1155 catastrophic backtracking issue template parser related 1194,https://api.github.com/repos/bottlepy/bottle/issues/1194, ,None
+40,aaee93a5b1dfc78cb9119797df5c766a53872c5b,False, fix 1194 regular expression catastrophic backtracking, , ,None
+41,c84c57f6eaf329266d72fddfa524fb9b360d67ae,False, fix catastrophic backtracking issue header parsing regular expression affected pattern used single non public function turn actually used anywhere dead code security issue, , ,General
+42,8561ffbc2ed2b16b4f7f90520d148e37e251d107,False, revert fix 1186 bottle fails find template window reverts commit, , ,None
+43,48e9dfef69d94d1acabb46cd6976acfcc214377b,False, gunicorn switch use baseapplication mean configuration pulled supplied bottle example parsed commandline follows documented approach http stable custom.html, , ,None
+44,71fc15feb22f8afd3ccf5df461917fd94d4b3c2d,False, fix test case setting expires naive datetime treated utc time, , ,None
+45,73ffccef399d3b1b1bb26509f17eed25273a4679,False, refine parse_date, , ,None
+46,9f81b8087ba1486a475c27208a3fd678a526f6fc,False, fix date formatting non english locale, , ,None
+47,8e898e408a9d7460151c328b5c09079e91e0d6c9,False, fix typo route class docstring, , ,None
+48,e543073b4769c614bf3ec6a0d84e0ffa16cfb914,False, removed circle travis favor github action, , ,None
+49,e33f045a7e87a2779e0cf14a48f29949b429f193,False, fixup 5c52eb0, , ,None
+50,085f18615fe8ab63588eebfd25bb90337aac2ba0,False, fix 1186 bottle fails find template window os.sep contains backslash window os.path.abspath normalizes path forward slash hard coding forward slash platform actually correct, , ,None
+51,5c52eb0c0b7f21836375b3584896094735171a9f,False, fix 1187 allow non ascii character status_line uncommon valid, , ,None
+52,d9903c7508294e10b932099afb1e7f108f9a9022,False, merge branch backend testing http github.com hartwork bottle master patch set includes two breaking change rocket server adapter removed doe support python unmaintained marked deprectated retrospectively 0.12 aiohttp server adapter aiohttp wsgi instead aiohttp never part 0.12 stable changing fine, , ,None
+53,db2b7c996babc2a8ce9855462b626ee720686f27,False, travis drop end life python 3.4, , ,None
+54,a47e4b9176d0a7973d4297a230e8f64412a558f4,False, tolerate import error 2.7 3.6 travis, , ,None
+55,3d9a8c1d862a5fbbeb2676c283f5c42917702aa5,False, aiohttp move aiohttp aiohttp wsgi, , ,None
+56,ccadf88107eb934c500be6526811d39a9b449ceb,False, uvloop pas loop aiohttp fix backend uvloop backtrace traceback recent call last file lib python3.6 site package aiohttp server.py line 239 start httpstream file lib python3.6 site package aiohttp parsers.py line 199 set_parser  file lib python3.6 site package aiohttp parsers.py line 209 unset_parser  attributeerror nonetype object attribute is_closed, , ,None
+57,8be27c727c9f34b77691d83b1dd32242a5ed175b,False, install aiohttp aiohttp.wsgi backends aiohttp uvloop commit dropping aiohttp.wsgi upstream http github.com aio libs aiohttp commit, , ,None
+58,c684287381877ea8430296deb68e5a797ddb0d3a,False, rocket drop support dead backend rocket, , ,None
+59,86a38bb1e2cdda13f1fc16adaf37b67971696913,False, test limit backend aiohttp python, , ,None
+60,84559e57dc247ba08cce20eb8f70dbd6f8f591b8,True, test limit backend diesel python python support broken see http github.com dieseldev diesel issue 104,https://api.github.com/repos/bottlepy/bottle/issues/104, ,None
+61,112e1376d6381247555c2c2e7894287579166a45,False, test stop testing wsgiref twice testserver, , ,None
+62,227d4fffdd17b620fc093da02e8ae21cd87c7267,False, test adapt testserver blacklist python version based knowledge travis_setup.sh, , ,None
+63,6f5e1af31055d5c76ca0d4e009a88c3e81df5086,False, travis resolve travis_setup.sh code duplication, , ,None
+64,3e8cca99565f150969fb4a9a75d21befeb5c1b91,False, test make servertest.py friendly test discovery moving code module scope function, , ,None
+65,e3492dba468fdc8bcd582a09340d1a174204268f,False, refactoring, , ,None
+66,1c22d42f4d5d237f7963ab39621d88a1f47973b7,True, added test 1125 fix,https://api.github.com/repos/bottlepy/bottle/issues/1125,Bug,None
+67,e0a9278e360c4e886e3c9df0814fcb68526445f9,False, merge branch defnull 1175, , ,None
+68,201d0b02b2d6f242d577c0fd4d7e2c88db6b2013,False, fix 1174 1175 allow cookie samesite none, , ,None
+69,4164c3f714edff1c7595b7c10af2d7482f535a1f,False, fix 1167 allow listening unix socket gunicorn server adapter, , ,None
+70,07cce60ba1ed6aa4b4f7df47fdd1b0ec47d61fea,False, run action pull request, , ,None
+71,5b857b922c8d99458a23da9ff243ecd0ddab7046,False, run_tests.yml run five test parallel speed testing running five version python parallel, , ,None
+72,a194622e0ba69a9af0c4ed27e49b6ecefa7e00d2,False, updated documentation simpletemplate embedded block 1028 updated documentation simpletemplate embedded block addressed review comment, , ,None
+73,b23f2e84b3fb6ac8247b8523fd9a80c5e4a1675e,False, redirect raise httpresponse httperror, , ,None
+74,977b589b4fb5a7032c188e583e7ce3f1a6fa38e2,False, fix syntax login login recipe previously example yielded syntaxerror adding equal sign fix assertion syntax, , ,None
+75,7eb0af28c89d38dd2f860ec75718664e6b9f362d,False, fix typo, , ,None
+76,c9dd6808bb8363014c39865cc8f03fc4f2d8cfb0,False, move github action 1183, , ,None
+77,61eeba12d0e6895129abf646a28eb37f9a75a463,False, fix release step makefile, , ,None
+78,b742f53a239a0c304e597995043c08f6e3a27ce3,True, 1179 offer option add custom header static_file done little bit diffeently never ever use mutable type default value effect close 1179,https://api.github.com/repos/bottlepy/bottle/issues/1179, ,None
+79,3c31f636b11f3d652579daa9ce7fffe832ccedb5,False, gitignore .tox, , ,None
+80,0dd195111621b4db5e9b7d5e5852fab3c6270098,False, fix travis build dropped 2.7.3 support, , ,None
+81,375fb78b38158154fd3be8b9669e312717ed4d29,False, bug set default value content length setting default value content length empty currently raise valueerror, , ,None
+82,357a0cb39cb8337f8467f5396e4b7caaa7e4f25c,False, consistent supporting python 3.4 3.7, , ,None
+83,eff4960d941b51629f8378b1bd9498ed2aec92c7,False, fix python 3.7 collections.abc fix  ... bin bottle.py using importing abc collection instead collections.abc deprecated 3.8 stop working collection import mutablemapping dictmixin , , ,None
+84,a454029f6e8a087e5cb570eb6ee36c2087d26e4d,False, current bottle support 2.7 json stdlib, , ,None
+85,0607494b142d2d3276c3aa9559d5e8c0674fe95f,False, fix failed test caused ujson, , ,None
+86,c8179b28d93b2875a31866c6b84a9b5b59c0c8b4,False, fix 1115 module set __file__ none allowed __file__ attribute must either string unset seems happen anyway easy work around bottle, , ,None
+87,5813b873a885094759178583f65cc0f0f2bc576b,False, fix 1111 unicode multipart form data value python3 multipart form uploads affected wsgi pep 3333 latin1 default encoding quirk already properly decoded utf8 disable, , ,None
+88,9fb3b05846b33e508545a26e424785e151d02323,False, migrated circleci 2.0, , ,None
+89,4dab7d81a7a843541088d397011ac2f132791ff7,False, fix 1106 samesite cookie attribute fails using redirect accept argument snake_case lowercase form affect max_age same_site argument skip render parse step cloning simplecookie, , ,None
+90,33d1b8359776a3777509bbcc4be0496c435c8e34,False, normalized test build setup, , ,None
+91,774f376df74ce8e30cb4833ccaac95c5de11c243,False, added htmlcov ide folder .gitignore, , ,None
+92,a4fae4815955e6d6b6f8b83d509dfebc65c13868,False, updated copyright year copyright notice work year irrelevant old year make project look unmaintained, , ,None
+93,e76a736ae57a615d7c64e143a352b3cf66494836,False, fix stpl end keyword break separate line fix allows template end keyword line code  code end multiple end line close multiple block whould also work, , ,None
+94,5aeb2562de4c8133dcba8a8cf49b6ec90cd15d1f,False, remove python 3.2 3.3, , ,None
+95,84c1ee14e1717ec63782dd5a159fe5848fce1cc4,False, add python 3.6 3.7 pypi page modify bottom left http pypi.org project bottle next release http github.com bottlepy bottle release, , ,None
+96,4c777885bb6f3a7ae2afcc7997c82b882f09e665,True, travis remove python 3.3 add python 2.7 python 3.3 went eol last year http branchstatus python 3.7 shipping http github.com travis travis issue 9069,https://api.github.com/repos/bottlepy/bottle/issues/9069, ,None
+97,b8eab8b357665e005e7c86b5e8a4f96a28b4aa8a,False, require value delete, , ,None
+98,dacb9560e8c9ae1c330ef0d1b5ecbe47c1d7de0f,False, add flag front regexp avoid deprecation warning see issue 949, , ,None
+99,28793eb604578deb2b11cc1725a5d8985af711fe,False, fix link renamed user, , ,None
+100,06da32a5f4017c51fe9504730ccfb2ef6fa26a29,False, bottle import touni touni called line, , ,None
+101,dd55a1375b96503c94a2644e62665b327473bf95,False, fix deprecation warning assertequals make test environ jinja2 runnable standalone, , ,None
+102,1de24157e74a6971d136550afe1b63eec5b0df2b,False, fix code style, , ,None
+103,862fe6b867f300654f6556543f3962b0b36a1651,False, added bottle oauthlib project reference, , ,None
+104,063b8e89465ade5c056fcde34315aa12b766b177,False, make closing file optional, , ,None
+105,245386e4cb45320047f2e3f9f1912d3f7e1eef42,True, fixed resourcewarning unclosed file ... static_file 1000,https://api.github.com/repos/bottlepy/bottle/issues/1000, ,None
+106,56ccbba1df3b09cbb1274fad27522e2d7fd3d489,False, insert omitted word stpl.rst 1012, , ,None
+107,06cc47b1f5403767ccc792b4ac739c4948982de4,False, fix pas none tob 1018, , ,None
+108,459b8e93dba5fded88415de7340021d8a7db138b,False, fix typo todo tutorial line 300 301 999, , ,None
+109,55a505b3a54bb7de23e9554cb8ce7f8e160c31a0,True, fix missing license described 1004,https://api.github.com/repos/bottlepy/bottle/issues/1004, ,None
+110,61f7eec07b4c1152390de0f3217197ca64e927f4,True, merge pull request 1006 fredj spelling fix spelling error,https://api.github.com/repos/bottlepy/bottle/issues/1006, ,None
+111,4a0ba055bf54dc66297b06c29b90af9e46095fd6,True, merge pull request 1007 chaitanya1416 patch fixed sentence,https://api.github.com/repos/bottlepy/bottle/issues/1007, ,None
+112,58ebf2318817893b6bd48429a9edb75bdd2e82b3,True, merge pull request 1009 atalax master fix last modifed date header format static_file non engliâ,https://api.github.com/repos/bottlepy/bottle/issues/1009, ,None
+113,443491630426c79befcc19f3c3bb4e654a6a25e5,False, fix last modifed date header format static_file non english locale time.strftime produce locale dependent date format best lead invalid date produced 2017 gmt worst lead encoding crash date like 2017 gmt, , ,General
+114,4e53151ec4142704e6e652469e5834ef53d360f6,False, fixed sentence, , ,None
+115,8fcdae957b14e1ca14e727f2148f344b5c4dc58b,False, fix spelling error, , ,None
+116,db8da3a6aab1142ea0694963eb9afb5026c3c467,True, merge pull request 994 sheerluck fix incorrect number binding supplied,https://api.github.com/repos/bottlepy/bottle/issues/994, ,None
+117,efc0fecaf238032a57637779993d2aa9257ac67f,False, fix incorrect number binding supplied, , ,None
+118,3b09891fc516e9d1f9fe578d7e06208dc688e378,True, merge pull request 668 rgacogne master fix allow header value 405 method allowed response,https://api.github.com/repos/bottlepy/bottle/issues/668, ,None
+119,13eb8394ca8f5ee2e113a6a0f701aa976f69f433,False, removed pypy test travis pypy3 version travis old also since pypy target cpython compatibility test unnecessary, , ,None
+120,600e50156acf7cce054a9fd0d5322d290e3cbd43,False, fix travis _makerlib bug, , ,None
+121,66544f093a2618c870313bdf3cb526c8f7fb61c1,True, merge pull request 986 presveva master bugfix import morser python,https://api.github.com/repos/bottlepy/bottle/issues/986, ,None
+122,5acc6e4c3684889d7cc298e467c4ab3d0d0b1349,True, merge pull request 987 oz123 fix_ci fix,https://api.github.com/repos/bottlepy/bottle/issues/987, ,None
+123,468e0e18c11692d6cf99508d0a9d965a702d0e25,False, remove python 3.2 circleci, , ,None
+124,c844013264a72d7f8cec179e328dbed313c74f71,False, pypi doe show downloads anymore http mail.python.org pipermail distutils sig 2013 may 020855.html, , ,None
+125,028230940b8b29525d4e140d896e6ecd36c4dc2a,False, remove python 3.2 build obsolete see pep 392 ... release 3.2 final february 2016 cause build break ..., , ,None
+126,b26cf80fa564ffb06fead500007ee4b7f16a1dde,False, bugfix import morser python 2.7, , ,None
+127,160765cce97b43d7110432562a20bf11eace9a47,True, merge pull request 983 provinzkraut samesite cookie samesite cookie feature issue 982,https://api.github.com/repos/bottlepy/bottle/issues/983, ,None
+128,2d96ee2f40b55d576ae2810bf30b4417c976162b,False, update tutorial.rst, , ,None
+129,c92253ffe4a349a9043bedd001c063df72ce7502,False, update tutorial.rst, , ,None
+130,bbb9b8bebe7b9bf72e27d73d869e73937715f4e1,False, update tutorial.rst, , ,None
+131,8d0054a3a0fa44a86491357b066921983254ff0f,False, update bottle.py, , ,None
+132,ef5d2f41a109d0e3eb00b7c1786656a1cfb51962,True, merge pull request 981 davidjb patch update wget download instruction use http security,https://api.github.com/repos/bottlepy/bottle/issues/981, ,General
+133,a2e41ad57560b8757a96dcfe554b20b221988180,False, update wget use http security affords least assurance download indeed bottle, , ,General
+134,0e5d4540f986fd7b06fdfd8d2680acca26f0fc88,True, merge pull request 979 pepelisu patch fix 976 add explanation escape character routing,https://api.github.com/repos/bottlepy/bottle/issues/979, ,None
+135,f62d0601d1e9df1c1d38e556d054e2a4be6e36b9,False, update routing.rst add explanation escape character routing, , ,None
+136,77d37bf6ed02efacd94483ebc6ff35241bc3a0a0,True, merge pull request 919 kianxineki patch receiving code 2xx generate exception,https://api.github.com/repos/bottlepy/bottle/issues/919, ,None
+137,d6ac5857f3b896e7e2e94aa7e4a369b915a6b8a8,True, merge pull request 920 pyb1l master added new plugins,https://api.github.com/repos/bottlepy/bottle/issues/920, ,None
+138,75805f0b6f7a6cdbf2742286832848d66647df13,True, merge pull request 929 kianxineki master fix link commits 925,https://api.github.com/repos/bottlepy/bottle/issues/925, ,None
+139,751e88bd92df0a74661e27401293e2bf83f367b2,True, merge pull request 933 kianxineki patch support ujson,https://api.github.com/repos/bottlepy/bottle/issues/933, ,None
+140,a07f568ac3b2a7834b6166755e020fae6bb396bf,True, merge pull request 936 wogsland update copyright year 2017 ....,https://api.github.com/repos/bottlepy/bottle/issues/936, ,None
+141,29201c4f6083173f79767c3ef72fd332cd1626ac,True, merge pull request 972 maxhumber patch update,https://api.github.com/repos/bottlepy/bottle/issues/972, ,None
+142,44bf2dcafd46d6a58966d42038fe2e75d5f823dd,True, merge pull request 965 keredson patch slightly tweaked version defnull warning suggestion 961,https://api.github.com/repos/bottlepy/bottle/issues/961, ,None
+143,53a233486189b0d88df517329a974f8d4bdc6d87,True, merge pull request 973 maxhumber patch conn con tutorial app,https://api.github.com/repos/bottlepy/bottle/issues/973, ,None
+144,69684cf9523055c4f4506328687b4b03cb368700,False, conn con tutorial app every sql connection abbreviated conn except first con changed everything conn consistency, , ,None
+145,960f79d3d97ca804ca5540eb476bfdb7273e10c2,False, update fixed commenting code block issue, , ,None
+146,22e1fb52c2fb09540f1284cfb8ab90e9f82bd2d4,True, merge pull request 970 keredson patch unit test mocking documentation,https://api.github.com/repos/bottlepy/bottle/issues/970, ,None
+147,d12acddf3837c6c62b2d4dacc1f51cf47f19cccc,True, unit test mocking documentation 968,https://api.github.com/repos/bottlepy/bottle/issues/968, ,None
+148,dfea7aa94cd936170a8543e8a5176fbb9f09d5e0,True, slightly tweaked version defnull warning suggesting 961,https://api.github.com/repos/bottlepy/bottle/issues/961, ,None
+149,41ed6965de9bf7d0060ffd8245bf65ceb616e26b,False, fix broken command line handling, , ,None
+150,083cb3ed1cdecb805952edb4724e688f46a94dbc,True, hopefully fixing travis problem modeled 945,https://api.github.com/repos/bottlepy/bottle/issues/945, ,None
+151,617d08a2ccca95b2e8668fef7057127049595fd9,False, added cheroot server adapter list server name selected command line name alos added cheroot cherrypy auto adapter make future proof, , ,None
+152,be90814117008e6f19a2d8d5c67b876787888aa6,True, added depr warning outdated cherrypy server adapter using adapter simply switch cheroot fix recent old issue regarding cherrypy fix 947 leave explicit maximum version supported cherrypy 9.0.0 fix 932 add serveradapter fix cherrypy serveradapter fix 685 update cherrypy ssl use latest api work py3 fix 574 allow custom bind_addr cherrypy,https://api.github.com/repos/bottlepy/bottle/issues/574, ,None
+153,b9229eef97ea246e3d0e0c455071d54435a1557d,False, add serveradapter cherrypy since cherrypy server part cherrypy extracted named cheroot thus old cherrypy serveradapter doe work cherrypy import fails ssl part different cheroot installed git install cheroot without cherrypy cherootserver adapter addition cherrypyserver adapter older version, , ,None
+154,b50efacf7541c66c1015620857bf5152eff51915,True, added test case 958,https://api.github.com/repos/bottlepy/bottle/issues/958, ,None
+155,f37d34668444660200318048a312c636b28f0641,False, update bottle.py, , ,None
+156,af192c25f21d46b950f6c6bcf80c9c83e44113e7,False, make app.error used decorator called directly register output handler http error code used decorator called directly def error return app.error code 500 callback app.error 404 def error return , , ,None
+157,5d71ed8033084eb139917b670f76cdc60442ca63,False, 2017 ...., , ,None
+158,cb2c33db783a3026c7a65875f1d843c5c1e9b51d,False, support ujson, , ,None
+159,5a6fc77c9c57501b08e5b4f9161ae07d277effa9,False, fix 930 flag start expression, , ,None
+160,48a3e073b27264d37d8a59dd8a64721a80629aca,False, fix link commits, , ,None
+161,f748acbeca28526d8890a30efad9c1fc41d2fec3,True, merge pull request 927 inndy master add http status code 451 according rfc 7725,https://api.github.com/repos/bottlepy/bottle/issues/927, ,None
+162,143cbc391454c49d577fe8f7af5cfd5b9e0ed1e1,False, add http status code 451 according rfc 7725 reference http tools.ietf.org html rfc7725 http doc web http status 451, , ,None
+163,0ed56fc49a665e699d1517a6b005f829796f57dc,False, merge branch master master, , ,None
+164,4348a0af782250e9c02410786a2cfea2919c8029,False, try fixe circle build, , ,None
+165,2f9ccae095e90b0af6e28f602b5455eb510f468e,False, setting header value none result empty header previously header value would none useful, , ,None
+166,9f44d9651216201ffb1ce868555f9f2fb7cf6b48,False, fix 918 attributeerror fileupload object attribute get_header, , ,None
+167,3f994d990e4fc099f2c8c143be93ee897c59dbd2,False, added new plugins bottle jwt json web token authentication plugin bottle.py bottle smart filter bottle querystring smart guessing, , ,None
+168,1c412f889c0fcc087b726069ff91f69ecfae8e88,False, receiving code 2xx generate exception expect_errors true generate exception bad request status 200 checked logout number, , ,None
+169,5fcbaca48241b331fbf403c98d2a9403ca1ae0cc,True, merge pull request 917 kianxineki patch new plugins proposal,https://api.github.com/repos/bottlepy/bottle/issues/917, ,None
+170,868f46cbd9ee1e80c97a8b7e36e3f6cc9709d9fe,False, new plugins proposal, , ,None
+171,523f6a6b0445a13400037329874f6a71e2c43dfc,False, fix strange travis coverage behavior, , ,None
+172,191c60ce5617d00258993fc240c99fd95c585b9d,True, merge pull request 916 kianxineki patch proposal update list plugins,https://api.github.com/repos/bottlepy/bottle/issues/916, ,None
+173,d3510bd68d2803751e745b65e11f43d64a220bb0,False, update index.rst, , ,None
+174,3f838db73f7488a108dd8eea308fcc1188303371,False, fix 913 redirect filter lead crlf attack previous fix 6d7e13d incomplete, , ,None
+175,f936dfaa7ca43551ba63d9a7b4b2a9a62ab9c0fb,False, prepare end support pickled cooky see 900, , ,None
+176,6d7e13da0f998820800ecb3fe9ccee4189aefb54,False, fix 913 harden bottle malformed header bottle check certain control character header name value raise valueerror application try set invalid header, , ,None
+177,58882c718889533e2f848b70d9733c1474f8ed44,True, merge pull request 912 pyx issue 911 fixed issue 911,https://api.github.com/repos/bottlepy/bottle/issues/911, ,None
+178,568f6ad79a14e0231b02856be696b3fdf43eb3b4,True, fixed issue 911 changed __hook_reversed set set literal chosen list tuple supported since python 2.7 lowest version python supported bottle right set membership testing fast duplicate prevented,https://api.github.com/repos/bottlepy/bottle/issues/911, ,None
+179,fb62520401e752c7b320c40d215c545a03f8d756,True, merge pull request 907 krlk89 patch fixed flup webpage link,https://api.github.com/repos/bottlepy/bottle/issues/907, ,None
+180,e4bc68a3be6ad9c7b22f48904ba0e4f49e666635,False, fixed flup webpage link flup webpage link broken outdated tutorial, , ,None
+181,492985f46318b2051bba6f427cdf4889397b10d5,False, fixed after_request obscure case, , ,None
+182,8a449076a22e9caa542bbabb05082ce5a614513c,False, use frozensets check restircted response header, , ,None
+183,4b26bd0b84f860ab7143ef195e74c0733c2535f5,False, optimized inner bottle._handle call overall helloworld performance increased, , ,None
+184,5dbbe004f43c2785deda2554464afd92af3587cd,False, track configdict overlay weak reference avoid memory leak, , ,Risky_resource_management
+185,9cbf0410b0ff69a15c6e46772bb6bd361cb54fa9,True, merge pull request 903 sirex flush wsgi error flush wsgi.errors fix 841,https://api.github.com/repos/bottlepy/bottle/issues/903, ,None
+186,9ea1fad92cdb60e931c68d73dde67a9f1e33730f,True, flush wsgi.errors wsgi server buffer wsgi.errors error message doe appear log fix writing wsgi.errors flushed order content written file see http github.com unbit uwsgi issue 1222,https://api.github.com/repos/bottlepy/bottle/issues/1222, ,None
+187,7c1c1ca314f3eff8cc2deb894be5d02f7940fe3c,False, change coverage call makefile use python module binary, , ,None
+188,640db4f903360e718641c6cdbc08ac777964f628,False, test coverage, , ,None
+189,e22e38ddd7900fe0aa2b704352a92df28b9a81f0,False, rewrite overlay feature configdict, , ,None
+190,66a871363090dc909fd66466875e2276b25e39d4,True, merge pull request 895 oz123 add badge circleci,https://api.github.com/repos/bottlepy/bottle/issues/895, ,None
+191,7baa31b29101767a0759566bef7c405b27f2e139,False, add badge circleci update python 3.x version, , ,None
+192,c6fb8a46db3fe1200d6aff4c958cb1751c66dcd8,False, fix 882 special case templateerrors, , ,None
+193,9752ca1bd464371db0217a0681cd67d9a7a8dcda,False, circle removed 3.1.5 test support disabled server adapter test, , ,None
+194,9ff4f3981d08e3932fb22707b7d8f98649d84d13,False, added circle.yml, , ,None
+195,918b77b5b66450ad331259ad3a0dff471b5c9caf,False, skip server test travis stable kind test, , ,None
+196,7152755e124217c8b6d6633e30a27e368fb1d12b,True, added test 892,https://api.github.com/repos/bottlepy/bottle/issues/892, ,None
+197,902f769619248d72f33ba88208f0765e4cecd273,True, merge pull request 892 kianxineki patch fix json plugin ignores httpresponse raised instead returned,https://api.github.com/repos/bottlepy/bottle/issues/892, ,None
+198,bede1a19e80292ecad3d03b9b23c0dcd7f086bbe,True, merge pull request 893 eric wieser patch fix template tracebacks would contain string contain template path,https://api.github.com/repos/bottlepy/bottle/issues/893, ,None
+199,c7ea6392df972a985057ffbb6825aafeaac993b6,True, merge pull request 894 eric wieser safe error page handle unprintable error default error template,https://api.github.com/repos/bottlepy/bottle/issues/894, ,None
+200,d1e31686b7595266e81f1bf7e7a97250ceda1941,False, removed json import fallback python 2.5 2.6, , ,None
+201,8f9e66d4ab05ebd81a8ac50d9e265ef2e7d5066f,True, merge pull request 889 mgedmin patch fix warning using absolute template path name,https://api.github.com/repos/bottlepy/bottle/issues/889, ,None
+202,83cfe03bb180c91f522ebb6688a61182085c6b03,False, handle unprintable error previously would throw another error obliterate useful traceback replacing useless one, , ,None
+203,06f97c74d0494d404d54b949726c8cc66db96c89,False, provide name case cause exception meaningful traceback result, , ,None
+204,f65e34bde8017949f46e79735f5a173437948636,False, fix tracebacks would contain string contain template path seems using eval compile ... throw away name gave code object use return value eval anyway exec fine, , ,None
+205,bd37c54fbc2e267f2f0062ba38d94bf4d6ba3809,False, httperror subclass httpresponse suggested change eric wieser http github.com bottlepy bottle pull 892 file, , ,None
+206,97a9f85f4121c36faa325babca417accd439d941,False, raise httpresponse working correctly doe return result making raise return python bottle import run get httpresponse get test1 def test1 return httpresponse test 402 get test2 def test2 raise httpresponse test 402 run host 0.0.0.0 port 9988  result  import request requests.get http localhost 9988 test1 r.text r.headers content type test application json requests.get http localhost 9988 test2 r.text r.headers content type test text html charset utf , , ,None
+207,527e0a8f65feaaf9c15954b6f1c8487eb9845477,True, merge pull request 890 oz123 drop_opt_parser switch argparse code coverage cleanup,https://api.github.com/repos/bottlepy/bottle/issues/890, ,None
+208,8e4c3c14ceb527d6a11c15a8de092928e6f6dfe4,False, clean command line parser add ignoring coverage make sense remove unused variable rename wrong variable, , ,None
+209,e0b17a1778fb8946adff14614098ba6d34014746,False, add testing make code clearer people might follow ..., , ,None
+210,9cc7e66cfdf67a55eb4b133910dafb286346c2e3,True, drop optparser migrate argparse fix 862,https://api.github.com/repos/bottlepy/bottle/issues/862, ,None
+211,a544c1cb8b30ba7449134fc1478095b888a523a4,False, fix warning using absolute template path name fix 888, , ,None
+212,8e4271af8f9d36a4f3ad11377d2b2379aa2f5015,True, merge pull request 885 oz123 enable coverall,https://api.github.com/repos/bottlepy/bottle/issues/885, ,None
+213,0ca7020f6e128de8343507f14b99601eed11d267,False, add badge readme, , ,None
+214,2e7ffda9f463cbb0ad706aef577666c3207d8cff,False, disable circle, , ,None
+215,86007640c8f028551a368e91b5f959cd39eae831,False, run test coverage, , ,None
+216,8a21b4ddf20a89cc751c356a88a4bd72fc7cec63,False, require sudo, , ,None
+217,1587d06be093af000a9fb5872ce329ce565a7fe6,False, install coverall pip, , ,None
+218,88b4b645a8172d2381a15d40ff2fc40305d95675,True, merge pull request 884 oz123 enable coverage enable coverage supported python release,https://api.github.com/repos/bottlepy/bottle/issues/884, ,None
+219,83fcc6c18dd10d5184b5fde6b36e1845d2646da9,True, fix build failure python 3.2 http bitbucket.org ned coveragepy issue 407,https://api.github.com/repos/bottlepy/bottle/issues/407, ,None
+220,7e068f2e4ce61eb346215408159f399840aab11b,True, merge pull request 883 oz123 tiny update cached_property,https://api.github.com/repos/bottlepy/bottle/issues/883, ,None
+221,8ceb87be4d8f3f351b9a69f7daa5fac26c8aa4d8,False, tiny update cached_property use update_wrapper information wrapper complete similar reify pyramid, , ,None
+222,15386e4bcc1255c63057a33447a0c4cd75894228,False, submit result coverall maybe later add badge ..., , ,None
+223,01539b825a6f2404ab41062086db4f31d9b869fc,False, coverage report ... doe make make command bit explicit, , ,None
+224,18bbebdb7e8f0fbc2ee2d7f8324c3596caf43caf,True, merge pull request 880 oz123 fix_772 add documentation,https://api.github.com/repos/bottlepy/bottle/issues/880, ,None
+225,7fc304d029e9000411b959e52b21d0bd4b01dd79,True, merge pull request 879 oz123 fix wrong annd tiny style change,https://api.github.com/repos/bottlepy/bottle/issues/879, ,None
+226,0a3e0e01c94e814e0099beee76b24733db3dacc5,True, add documentation fix 772,https://api.github.com/repos/bottlepy/bottle/issues/772,Change,None
+227,8bda6af3057ff383e32b9660817ec2c29cb24db8,False, tiny style change, , ,None
+228,496efdf4771397ef68bd4a349d41b1af53851a55,False, fix typo main doe exist anymore, , ,None
+229,5a22d07a1ed1d9e848a61a8d3d13ec939afc30b8,True, added test case 695,https://api.github.com/repos/bottlepy/bottle/issues/695, ,None
+230,7fad46cd036986a576946fa05de79235b8dd7447,False, doc updated changelog 0.13, , ,None
+231,aecb7ea0fda47e0f436d0cd56f7867eb26524be1,False, added main function better testability command line interface, , ,None
+232,edb0d115746601c26d2dc9e89d386ff49f2aa994,True, merge pull request 878 oz123 mine minor_updates remove workaround missing keyword,https://api.github.com/repos/bottlepy/bottle/issues/878, ,None
+233,03f2a82adeb6c197bafa080cfcccabde48e846b6,False, fix test pas chanages removal, , ,None
+234,14e73bfe30fb386fa0e3ec0268a25cbc67065605,False, remove workaround missing 3.1 3.2 minor white space change, , ,None
+235,8554774fad1eaae65fa946e56f1e61969bb77b7c,False, remove another reference python 2.6, , ,None
+236,e145a555c236f4d2bb7851a1f08471f30840ba54,False, add author, , ,None
+237,8b54b9d3e69c7f9521f0241db64fea59754bab8b,False, statement built python 2.7 late, , ,None
+238,2efa9d3884ff02c695def4f447735ac641e052c3,False, simplify check python, , ,None
+239,90660f7d4edf244e6dd8ef6af4ddc1353a3af4f3,False, remove non existing name maybe left past ..., , ,None
+240,5c903be17acd2926e594a5b4b0db721d2f21342a,False, remove python 3.1 think major linux distro ship anymore pep 0375 3.1 longer maintained 3.1 received security fix june 2012, , ,General
+241,f8402b16ef727a8dd7d10664669bb909c69eb3e9,False, python support removed, , ,None
+242,ad32874679ad4e18505e3f77a8035a0553f918d1,False, actually disabling server test fast mode, , ,None
+243,71cfb1598fa04614ffd6d92b05b151e67aef2a65,False, server test unstable travis, , ,None
+244,786587e8f59737fbbfb9932c13acb8bb24b4cc73,True, added comment guide serveradapter developer copy paste comment case link become unavailable http github.com bottlepy bottle pull 865 issuecomment 242795341 sorry try accept new adapter significant demand many wsgi server fork support since one commented pull request close please feel free open pull request new server adapter match one following condition  adapter replaces popular abandoned project actively maintained fork solves problem bug still present original project case also add deprecation warning old adapter adapter introduces new server implementation case project mature enough productive use supported active community python support required python support welcomed http github.com bottlepy bottle pull 647 issuecomment 60152870 currently two pull request regarding ssl support core feature server adapter one 652 eventlet  wsgirefserver might useful test ssl behavior development hesitate merging server adapter tend add ssl support let explain  ssl hard support properly people start using rely way scope micro framework production setup better solution nginx uwsgi apache mod_python reverse proxy load balancer planet faster written people smarter testing setup probably need ssl able setup favorite server backed mount bottle wsgi application server adapter quick simple shortcut get server running without configuration soon need configure back end longer use adapter flexible enough meant used way  however gladly pull documentation change explain set wsgiref eventlet whatever ssl support,https://api.github.com/repos/bottlepy/bottle/issues/652, ,None
+245,12445eb24194a77ec2dd448de055edee23dbc514,True, improved documentation functionality issue 784 criticized value default section injected section documentation state value injected root namespace actual behavior correct documentation wrong see documentation exact behavior easy way change behavior patch fix 784 default section improves documentation enables extended value string interpolation python enables empty none value enables customisation passing parameter introduces special root section replacement default,https://api.github.com/repos/bottlepy/bottle/issues/784, ,None
+246,b255427a879fa7511a8c5b881485d65914617633,True, doc update doc new rule syntax squashed commits fixed todo list app tutorial note validate decorator deprecated since 0.10 replaced filepath filepath path get non ascii correctly fix 696,https://api.github.com/repos/bottlepy/bottle/issues/696, ,None
+247,91948e9dfe813bef9e1dd9737763e7bd39ea8875,False, removed gebentsocketio server adapter defunct anyway, , ,None
+248,5c5be34d65e7d9512bf2d6f1667565a5f14d64e9,False, added server test travis setup, , ,None
+249,15a46167f21a599067ed73bb975fb4874acbbd3e,True, merge pull request 866 methane jinja2 template filename jinja2template pas filename jinja2,https://api.github.com/repos/bottlepy/bottle/issues/866, ,None
+250,3d3a3ad60b6b0e90678524b1cf1752626800f7a9,True, merge pull request 868 sideffect0 dev add support uvloop custom asyncio loop option,https://api.github.com/repos/bottlepy/bottle/issues/868, ,None
+251,9772d84063684ce95df2c495cd7ef0fad2f7b9f5,False, depr appengineserver adapter longer needed, , ,None
+252,ebd1dd54cdc97d92742b59bac2ada63aa50855ac,False, doc added uwsgi deployment option removed legacy gae 2.5 example, , ,None
+253,6b3ee9e8c9f54e1fd2bd0e1e3ade1afd102853c9,False, clean mention python 2.6 doc, , ,None
+254,1baf9ebc415706d3c92f77a2815ce075ecbc5726,False, remove unused py25, , ,None
+255,4596307c243e0e093121c32768e4e626e1d5fd9d,False, clean python 2.5 left, , ,None
+256,107a85963115c2fe3b7be5ed72984d31e9c08f85,False, remove python 2.6 makefile, , ,None
+257,c110e0377f6aa034ecfab31bbd74da697a045c1d,False, remove identifier python 2.6 setup.py also removed mention python 2.5, , ,None
+258,aab6a9ae3b3730396289e977c90ad6fb3cb37b81,False, dropped python 2.6 tox support ended october 2013 pep 361, , ,None
+259,00b790347f95bad8586a13f31a58217d383c5d32,False, well 2016 already almost ..., , ,None
+260,9e697e0358fffebd0888d937585ddcbc24cc25fa,True, added specific test dependency 2.7.3 build fail http github.com travis travis issue 6525 resolved,https://api.github.com/repos/bottlepy/bottle/issues/6525, ,None
+261,eb79f7637b2a515a68558b35b0be735643d42521,False, doc fixed documentation glitch, , ,None
+262,70368391c045f57a7b1b643c826da2b7c6da77dc,False, add test case uvloop, , ,None
+263,9c583d47f1132775a8928328f7d3c2dae275081c,False, add uvloop, , ,None
+264,13f46abf8659fa5f2e4b2b3fd6ca0b677a245ea9,False, add custom asyncio loop, , ,None
+265,6d236433aca4bd3515470c0e4f1150aa6b8d5c64,False, jinja2template pas filename jinja2 readable stacktrace jinja2, , ,None
+266,6826ece5cf35b813ab441541234dd14243e12d9c,True, merge pull request 864 eshizhan patch remove deprecated logic geventserver,https://api.github.com/repos/bottlepy/bottle/issues/864, ,None
+267,cafc15419cbb4a6cb748e6ecdccf92893bb25ce5,False, remove deprecated logic geventserver gevent.wsgi backwards compatibility alias gevent.pywsgi fast option useless, , ,None
+268,d573675243ace953730b0255600533c1347c4f31,True, merge pull request 861 bottlepy feature etag added etag support static_file,https://api.github.com/repos/bottlepy/bottle/issues/861, ,None
+269,d7a3ca9bec7f937670929702416edb6cf91adc9b,False, fix hashlib want byte unicode, , ,None
+270,eeaaef2733b75b6b98e5e6b781ab78b02f3bb220,False, added etag support static_file, , ,None
+271,fbf641da04bc2c7abec08792c2a3b73bd31d87d7,True, merge pull request 857 dagnelies patch make possible provide logger gevent logger would replaced default,https://api.github.com/repos/bottlepy/bottle/issues/857, ,None
+272,edae7c4e1543a8fbf19ff236774afebe0c90e35a,False, make possible provide logger gevent logger would replaced either none default, , ,None
+273,28275ca99bcf6296ceeabd7a8e7ca94cc4edb0c6,True, merge pull request 833 schlitzered master waitressserver pas self.options serve method,https://api.github.com/repos/bottlepy/bottle/issues/833, ,None
+274,96d622473be67b6cf4ead05bce051f129dbb453a,True, merge pull request 834 a3nm master fix typo doc code snippet,https://api.github.com/repos/bottlepy/bottle/issues/834, ,None
+275,549f55b70f9a89d068c7172863d5149ebe607c6e,True, merge pull request 840 loggerhead master fix invalid badge link,https://api.github.com/repos/bottlepy/bottle/issues/840, ,None
+276,4d12d169a82ace498c9cbb4a46bb0e6c70da7b4d,True, merge pull request 842 jamb0ss master inherit template syntax rendering sub template,https://api.github.com/repos/bottlepy/bottle/issues/842, ,None
+277,74c23abbeabee833a8381ba40d326f0fc09e203a,True, merge pull request 846 kevinlondon patch update changelog.rst indentation,https://api.github.com/repos/bottlepy/bottle/issues/846, ,None
+278,f812f1ec346245a24e3129e58e0320e2069a96a4,True, merge pull request 670 eric wieser patch make root work cross platform,https://api.github.com/repos/bottlepy/bottle/issues/670, ,None
+279,e44da6e62f20819553b1ba91a5b15bbcf4938454,False, update changelog.rst indentation cleaned spacing properly render, , ,None
+280,7665b9a61e1fb624bf9a76375f68e347f8ae4fda,False, inherit template syntax rendering sub template, , ,None
+281,e8336c9b219dee4cdc0f2fa09c0c68f00ec706c7,False, fix invalid badge link change badge link http pypip.in http img.shields.io pypi, , ,None
+282,08291746faf41b487c1cb9211597b1bb832f715b,True, merge pull request 838 methane patch add pypi classifier 3.4 3.5,https://api.github.com/repos/bottlepy/bottle/issues/838, ,None
+283,1eee51b5acdbb3f9115401d8b6fc917a8bb3354a,True, add pypi classifier 3.4 3.5 fix 837,https://api.github.com/repos/bottlepy/bottle/issues/837, ,None
+284,8ca15d7e989cfe34a6f6b517822e2fde341e8f76,True, merge pull request 835 dinever master fix spelling,https://api.github.com/repos/bottlepy/bottle/issues/835, ,None
+285,b2da90e751a9be319dc70b30ae741eee61ee689f,False, fix spelling, , ,None
+286,75d0483072f1380d53e80d38012d03249096031a,False, fix typo doc code snippet, , ,None
+287,3f9e2d4f559ea2319f0d18e6c16e19d106a192d5,False, waitressserver pas self.options serve method, , ,None
+288,9fe68c89e465004a5e6babed0955bc1eeba88002,True, merge pull request 832 inndy master fix coding style,https://api.github.com/repos/bottlepy/bottle/issues/832, ,None
+289,999eadb4934aee15e12b321177d69b2e6ecd3fc9,False, fix 829 bottle incorrectly set content length header status 204, , ,None
+290,73462633d86a2769d35d7a353fcd60634852aacc,True, fix coding style close bottlepy bottle 823,https://api.github.com/repos/bottlepy/bottle/issues/823, ,None
+291,a9b663a8fb96f9e21265322f30fa394abc3dc82b,False, json application json rpc added json property request application json rpc content type, , ,None
+292,626613ff10789f356a3bb931c2c408a87cbbee3b,True, merge pull request 830 inndy master mixin args kwargs earlier template,https://api.github.com/repos/bottlepy/bottle/issues/830, ,None
+293,82e68b6e41c0c8e84e2f7d1b3dad6eebbc940ac9,True, merge pull request 804 rebottle master added apps alias app defer default app creation requâ,https://api.github.com/repos/bottlepy/bottle/issues/804, ,None
+294,8f2b7efd277e0c9de0da27621af70608d28efb25,True, merge pull request 821 omtinez master import module hashlib change default hashing algorithm hmac md5 sha256,https://api.github.com/repos/bottlepy/bottle/issues/821, ,None
+295,29974680ca1f2110da8c89ee29d697b00789c2b4,True, merge pull request 828 taisa007 taisa007 patch typo test_app doc,https://api.github.com/repos/bottlepy/bottle/issues/828, ,None
+296,ba5b4da8afdb09e1d9490e43dbec95002fb4f7fb,False, mixin args kwargs earlier template, , ,None
+297,9f676a71b6db5618b6565378dc38554d2a37002f,False, typo test_app doc, , ,None
+298,3763f68e932df6419a31cb925a4e99fd0ed19b1c,False, added function parse complex http header function used yet used impement request.accept request.lang similar, , ,None
+299,4c80902c0eef3c405393ab7778bfdcf9ae1b0978,True, merge pull request 818 kevinlondon patch fix spacing recipe doc,https://api.github.com/repos/bottlepy/bottle/issues/818, ,None
+300,08c03eee194f1251eb7d1e787c20340ff2b5d796,False, import module hashlib change default hashing algorithm hmac md5 sha256, , ,None
+301,8f1763e64b0438e39c49317125b25b791a51ac2a,False, fix spacing recipe doc small silly change spacing space rather, , ,None
+302,a2acd456409da9d729584e967738d80f875bf8e6,True, merge pull request 813 cassiobotaro remove_support remove 2.5 3.1 thing,https://api.github.com/repos/bottlepy/bottle/issues/813, ,None
+303,b1e25d391f2c17fa93924e7f88e816ade4246c3d,True, merge pull request 816 ctengiz master catching redirect exception raised before_request hook,https://api.github.com/repos/bottlepy/bottle/issues/816, ,None
+304,39cea11fb518ebf7d0b9fb54533c552fa1861cd5,False, catching redirect exception raised before_request hook catching redirect exception raised before_request hook, , ,None
+305,5a771c591c2337404febcf99506ad635bec46e70,False, fix version typo readme.rst, , ,None
+306,3efcd76f6e29b2d468b43033e0d2a976663c39ca,False, update supported version readme, , ,None
+307,4b0fcce138602ea3a17039c55d2100bc7eb55181,False, remove 2.5 3.1 thing, , ,None
+308,509d1ead1159049081b119ae807cf4e73405d35d,False, translation tweak, , ,None
+309,a8a7efcf4a63e49687256f1888a2ac37eb96b59d,False, dropped support python 2.5 3.1 travis http github.com bottlepy bottle commit, , ,None
+310,b32af997a8ecd20c0ea1264e62f33b355648b5d4,True, merge pull request 812 avelino drop_py25_tox remove py25 tox file,https://api.github.com/repos/bottlepy/bottle/issues/812, ,None
+311,c73f754e0ce6ed32253f2463d129fe444a1d9948,False, import transiflex, , ,None
+312,b8ef68ad3cbb13157857ffc8bb51cdb724c8b05a,False, using sphinx intl .po generation, , ,None
+313,05e18dffb40167e4ce83ae2172f741743c034891,False, remove py25 tox file, , ,None
+314,38da2690a29826a233615864f922b19aa431e716,True, merge pull request 811 mrkowalski patch fix charset application javascript file,https://api.github.com/repos/bottlepy/bottle/issues/811, ,None
+315,fbd79b7c36340338862a86e91d2aaba68168ebdb,True, fixed dual lookup jinja template resolve 810,https://api.github.com/repos/bottlepy/bottle/issues/810, ,None
+316,49f479cbb262311f3472d5f2f2128fc4f03846de,False, fix charset application javascript file, , ,None
+317,d567af487ee0ef8a4c669f23b0bc8432302294b9,False, move 2.6 3.2 documentation, , ,None
+318,901f04962b19e5bd009c38d0716d5f65e4ebf323,False, warn ending python 2.5 3.1 support, , ,None
+319,d2127e0a35f30b30a72eec1468be82faa6f004b4,False, deprecating old route syntax, , ,None
+320,e456b4fe389c6410db5c1a813d2991e9f65688ee,False, rewrote bottle.mount deprecation warning bottle application mounted merging route parent application remove lot overhead special case prefix prefix gone plugins going never applied child application improving separation concern reusability application mounted allows future get_url work properly otherwise url address route would ambiguous, , ,None
+321,de01f1c2d45d3262187ed7c85a4ce7ebaf8cb617,False, added experimental non public support config fallback, , ,None
+322,b7e2975d1c58344c2edf5328edf35a4dee837987,False, 2015 ..., , ,None
+323,49fcac90745c6528a7cfff25ed5ee7bc462ddbe4,False, added inspection support func signature type, , ,None
+324,d0eb91ef4484d1e640fbea703717cb2069dcc5b6,False, fixed name clash test case, , ,None
+325,d17f0c14c479f080904dace7a004c7d84052c86b,False, test cleanup tehy run pycharm, , ,None
+326,1f4eb3de65eaa1a237a17b0062dddf241e49e2e2,True, merge pull request 805 sloria test35 add make command running test py35,https://api.github.com/repos/bottlepy/bottle/issues/805, ,None
+327,5d5d94646bd7ecfa30c73e2f73562b5250ff6a1d,False, add make command running test py35, , ,None
+328,3334338ba220dc305837438103f7c62caa96e6b1,False, added apps alias app defer default app creation required add default property appstack see http forum topic bottlepy imjgmpfj0te, , ,None
+329,1a2c4daea9996365498647c6f8a2bcdb607d7b16,False, request object attribute read plugins add new attribute livetime single request prevents conflicting plugins overwriting attribute, , ,None
+330,8db7d38b794041275b69409987d7ee5b90bb51ea,False, attribute bottle instance read two reason plugins may define attribute application future request object read strategy prevents conflicting plugins overwriting others attribute application savely cache attribute module local scope faster access, , ,None
+331,b24483e587860e46d96961ab5d1d660a427193e3,False, maintain fpor request hook need handle exception e.g close connetions use plugin api instead hook, , ,None
+332,d85a6983ceedacd9ab9afbcd027139d8773b67ac,False, actually use _inner_request, , ,None
+333,cec4f3fa9ed86817c3e67ee67ad0166ef0c76ea0,True, fix 671 fix based 717,https://api.github.com/repos/bottlepy/bottle/issues/717, ,None
+334,87fe32987cd11414adb23fa32552f3310cccee0a,False, extracted code _handle _inner_handle feed information after_request hook callback make judge exception raised processing request order something commit rollback transaction example, , ,None
+335,c6fd201833a532b093e13199337dca097accb733,False, removed random character appeared nowhere really use github browser editor ..., , ,None
+336,1096cff1a567767285b17fedbdd06aec04ab0ce6,False, make sure cookie fit 4kb header limit browser, , ,None
+337,ba07d4055cabb0bfe69681da7ea6a46efb6385aa,True, merge pull request 775 netman92 test improvement test cookie name value length,https://api.github.com/repos/bottlepy/bottle/issues/775, ,None
+338,5b893e2c26d00b28ff85e45d8ede3c54cc7520cf,False, moved error instance creation hot cold path fixed docstring, , ,None
+339,4f31b7eaa4833bc85ba6be6a988b3c4caf598cea,True, merge pull request 778 feature error400json return 400 bad json request,https://api.github.com/repos/bottlepy/bottle/issues/778, ,None
+340,932f76b29698b78e43df627ff41def23f9ce3c36,True, merge pull request 787 foxx master fix 772 ability load config module,https://api.github.com/repos/bottlepy/bottle/issues/787, ,None
+341,f9e48e1d44a16305224bf7333c8faa5d3bd44141,True, merge pull request 796 vaultah patch fix minor error getargspec,https://api.github.com/repos/bottlepy/bottle/issues/796, ,None
+342,2647a364742f06db01d71481cefbd10c339f084a,False, fix minor error getargspec, , ,None
+343,26cc44986e2382124bff422d679a1cc20800ab52,True, merge pull request 794 vaultah master import name getargspec python 3.6 dev,https://api.github.com/repos/bottlepy/bottle/issues/794, ,None
+344,831f574554038bd469287bdaf26bf3fbefe43b39,True, merge pull request 795 vaultah test fix cookie test,https://api.github.com/repos/bottlepy/bottle/issues/795, ,None
+345,f9f5ff6ef0b61d6096ec06128c5c20c77b08edab,False, add python 3.5, , ,None
+346,83424909292626cf969570955438bd3bf3df36fc,False, fix cookie test, , ,None
+347,6fd2aae7fd3d3ee6782c603628e6ec48fc0579e5,False, implement getargspec using, , ,None
+348,8419a4ef560a2a829c96a60813b04c886fd0b8f5,False, modified support dict squashing, , ,None
+349,bcb5caedda35ed77abe9c98f15075fb759743941,False, lol 2.6 even importlib, , ,None
+350,7fca9d2a969ed50eb5b6d457a2c667fce3136c3e,False, lol 2.5 2.6 support dict comprehension, , ,None
+351,8c407cc5b6a7a588acb35d6b819b068f167badb0,False, small fix line load_dict, , ,None
+352,0c650cd77e7a16afc4d9a4270f356851144e2e97,True, fix http github.com bottlepy bottle issue 772,https://api.github.com/repos/bottlepy/bottle/issues/772,Change,None
+353,606cb957fd1279bd973e8010ca4f5365a8278509,False, return 400 bad json request json request return 500 error issue requester json server, , ,None
+354,534a2e08ac0ef55dd542a3a83b1118188c6a399b,True, merge pull request 779 hayate fix small typo foother.tpl footer.tpl,https://api.github.com/repos/bottlepy/bottle/issues/779, ,None
+355,727ce6d7972133997d8ef5ec3ce290646796d4c9,False, added command line argument loading config json ini file, , ,None
+356,4b122381a7d107cf571b0e8d310f83c8e12d5176,False, foother.tpl footer.tpl, , ,None
+357,ddb93bcd3a54551ec4c14ae85bf47647fa5b8804,True, merge pull request 776 goodmami bugfix 720 master fix 720 allow unicode key configdict,https://api.github.com/repos/bottlepy/bottle/issues/720, ,None
+358,3991f265f5b1a24bed7f05725c14f1e02760c328,True, fix 720 allow unicode key configdict,https://api.github.com/repos/bottlepy/bottle/issues/720, ,None
+359,c12ec2e04860c7c1c5b4a9d244bcd009c3f5c538,False, test cookie name value length, , ,None
+360,85328fc09cb99c8afc5eba1ce2f5c833cc2742b0,True, merge pull request 766 gjord patch fix minor typo,https://api.github.com/repos/bottlepy/bottle/issues/766, ,None
+361,0cbdc484515c1a55b0ebf5f7ed3b355a9acbdc95,False, fix minor typo, , ,None
+362,e8b80c36530c1f380c741904514559bfc1eacf7a,True, merge pull request 754 dorfsmay newer version apache use slightly different configuration,https://api.github.com/repos/bottlepy/bottle/issues/754, ,None
+363,edc685853ddeec9af311566bdb756be68a512a7a,True, merge pull request 755 ifduyue patch link bottle logo bottlepy.org,https://api.github.com/repos/bottlepy/bottle/issues/755, ,None
+364,f79711ccc5845a8aa786791801afbd77caa528fc,True, merge pull request 758 aayush kasurde issue_704 remove validate decorator related documentation,https://api.github.com/repos/bottlepy/bottle/issues/758, ,None
+365,177d7a4a41cddf6ddf66f162cb183f7a72e3199c,True, merge pull request 764 jheld master doc use new param syntax route func,https://api.github.com/repos/bottlepy/bottle/issues/764, ,None
+366,7ef59d3c3d8e456aca2d80823cdf879e4f325c82,False, fix 723 bottle modifies upon import likely unintentially, , ,None
+367,26aecf90563237c296bb9f0c94f341d17be4aec1,False, fix 735 false secure option set_cookie mark cookie secure response header python stdlib default behavior strange http hg.python.org cpython file 2.7 lib cookie.py l508, , ,None
+368,7ad07e5ba63a53b967f30ca22b4b2ab788131a96,False, longer support mounted wsgi apps return true false allowed anyway, , ,None
+369,7190a512d92413d4d39c25e9f6c85c8916e363cb,False, doc use new param syntax route func, , ,None
+370,1aa15540f774a413ff798d672d19c4d19902fbf7,False, remove validate decorator related documentation signed aayush kasurde aayush.kasurde gmail.com, , ,None
+371,6d4e0ad7121170d71e716cf204255784dc8e197c,False, link bottle logo bottlepy.org, , ,None
+372,91047bc0802337dec449608418d472817349f9da,False, newer version apache use slightly different configuration, , ,None
+373,78e1f5f10e0b8c9ccbb1b09fcca502539dda46ed,True, merge pull request 746 patch add import app.wsgi example,https://api.github.com/repos/bottlepy/bottle/issues/746, ,None
+374,bda4962c42cfd7f098ffbbec33633b4df1b8dc01,False, whitespace using http github.com google yapf, , ,None
+375,563d55f53174000df1822f036a9f8150b00dce80,False, add import app.wsgi example, , ,None
+376,8d6b72e97bca0da1d092c45485208bd66da8c193,True, merge pull request 744 bystroushaak master removed unnecessary func none check,https://api.github.com/repos/bottlepy/bottle/issues/744, ,None
+377,bab667cceb5690f13b8310dfea38e9f27ff2a41c,False, removed unnecessary func none check check already covered isinstance call none instance functiontype, , ,None
+378,72e0927b255481c78d74af539c31a1a1cf2172eb,False, fixed doc translation workflow update.sh script useful long sphinx intl part debian makefile shell string bug var var sphinx doctrees part git repository print left doc conf.py well import error importing correct version bottle system installed one important get correct docstrings api documentation, , ,None
+379,d6cfdab49e161d1e99b644dc774eb9b242b84d28,True, merge pull request 743 avelino send notification crash build irc bottlepy,https://api.github.com/repos/bottlepy/bottle/issues/743, ,General
+380,20b33db881803130ba1f5cc135d0925cb9e57427,True, merge pull request 711 avelino doc_translate doc translate,https://api.github.com/repos/bottlepy/bottle/issues/711, ,None
+381,8cc570f554a36b516ece7ba46e3cb20f86da2d47,False, send notification crash build irc bottlepy, , ,General
+382,00b08eccc1351f860569a777828e7b8910f0582c,False, merge branch atc issue_727, , ,None
+383,a15af45193367554bde968b24846196860efd5f7,False, shortcut request without wsgi.input save byteio instance per regular request, , ,None
+384,c610508debc592cfdff67327b866a1c3d6d44b1c,True, fix 727 use alternative bytesio import python 2.5,https://api.github.com/repos/bottlepy/bottle/issues/727, ,None
+385,599abe503337b1929c07db6d4773a9c6a580d426,True, fix 727 use default bytesio wsgi.input present,https://api.github.com/repos/bottlepy/bottle/issues/727, ,None
+386,482909243719cf6f0d35500ecd8891c18988985c,True, issue 727 demonstrate routing test break wsgi.input lookup environ,https://api.github.com/repos/bottlepy/bottle/issues/727, ,None
+387,7a6e6312dea6f0351604893ed77348eaf6e999dd,True, merge pull request 716 mengzhuo add_aiohttp add aiohttp support,https://api.github.com/repos/bottlepy/bottle/issues/716, ,None
+388,bbc69b6a79047939da18132f4e13681701d34aa1,True, merge pull request 729 avelino fix tutorial app route syntax bottle 0.10,https://api.github.com/repos/bottlepy/bottle/issues/729, ,None
+389,96373178fe973fd290001c6306414d693a7468b5,True, merge pull request 741 colon master berate user lack domain specific knowledge,https://api.github.com/repos/bottlepy/bottle/issues/741, ,None
+390,825c6840a4d6ce2695d478f15ea99636eb39512b,False, merge github.com bottlepy bottle github.com bottlepy bottle berate user lack domain specific knowledge added fix failing test added failing test decorator parameter modyfing kwargs import subprocess needed updated link google app engine readme.rst updated four five added another recipe removing trailing slash, , ,None
+391,dc0bbf4feb1e2d8dd9a646b8dc76e61841736440,True, merge pull request 740 bystroushaak master bugfix,https://api.github.com/repos/bottlepy/bottle/issues/740, ,None
+392,32a89fa459fd93b2160e62da501cc48fa8d55973,True, merge pull request 736 mstetson defer subprocess import import subprocess needed,https://api.github.com/repos/bottlepy/bottle/issues/736, ,None
+393,dd435014c62fd4d079547ddda6adabad1477b1d2,False, berate user lack domain specific knowledge, , ,None
+394,57213331104005589287a3226a1a72703e120cb9,True, added fix failing test see 739 detail,https://api.github.com/repos/bottlepy/bottle/issues/739, ,None
+395,0d4b53522fd907c2ace7e69333a5cbaa2ea316c6,False, added failing test decorator parameter modyfing kwargs, , ,None
+396,69529eb12e841f55621a3cb02352024944e41321,False, import subprocess needed, , ,None
+397,21d6f1409214421cd2b7a58d6a17cf256dab0aed,True, merge pull request 721 jenmontes patch added another recipe removing trailing slash,https://api.github.com/repos/bottlepy/bottle/issues/721, ,None
+398,75d3e948ec6d19073a4bb501836aa5076e7e66df,True, merge pull request 728 thefourtheye patch updated four five,https://api.github.com/repos/bottlepy/bottle/issues/728, ,None
+399,73148b95f1a8e589365a505b21d1c5f18a8e31ed,True, merge pull request 734 kickes master updated link google app engine readme.rst,https://api.github.com/repos/bottlepy/bottle/issues/734, ,None
+400,f8859c6dd9e6fb7bc7a2366a69aea02d04a850f0,False, updated link google app engine readme.rst link google app engine code.google.com longer function updated point current google app engine paas site, , ,None
+401,9443f910255dd57fdfda388704f4c4785dd92808,False, update route syntax bottle 0.10, , ,None
+402,b45d34d0a71202867e068748902ce78a1261e492,False, fix url route edit int tutorial_app report ryan bregier email list bottlepy problem importing validat, , ,None
+403,88532e0bd64a47e59d130a3e242f1dbc4212cdc2,False, updated four five, , ,None
+404,2fdaa8b4c283030fc7ab454d75e54ce430c89b7c,False, added another recipe removing trailing slash one using before_request hook strip trailing slash request.environ path_info prefer wsgi middleware method leaf api app intact example snippet later add route myapp get following error attributeerror object attribute route, , ,None
+405,144929b24d0185dfdc9531585ee4e06ff1dab63a,False, add travis requirement aiohttp, , ,None
+406,884ef30e1b3fb891783cf56207d2f17f3645de59,False, add aiohttp support, , ,None
+407,b1f970aff6c1b74cbb9b51f0cca54410d433dec3,False, start translate doc index, , ,None
+408,213e75065590dfd13829946814c2cfb686eb6340,False, added comment make doc, , ,None
+409,4b9bc4f809fae257f3706557245b20e64ea8f8a7,False, upgrade documentation development page, , ,None
+410,4285551b0a981a1ff927053d082fcd15a8e120ed,False, upgrade make doc language, , ,None
+411,a4faa5a40f012bf45110d27f46422d3733dbe1fc,False, generate _locale pt_br langue, , ,None
+412,42762a42a9719441670ac0a8cd7d23a37e96c3ca,False, generate template pot locale, , ,None
+413,4d6203f2e982494ebcb9ce9d2706ec65a3a1a6a4,False, update _locale zh_cn, , ,None
+414,44814cabbfcea6e91c0e4b4fcf6d167a53478d31,False, used transifex manager translate http project bottle added defnull adminstrator, , ,None
+415,0ebe66eeb3e5f62501f3a99344529ee8bc4ab1fb,False, used sphinx http sphinx doc.org latest intl.html, , ,None
+416,c7e7d67bda15ce5209b4127302fc777c204af924,False, remove validate function todo list tutorial, , ,None
+417,854fbd7f88aa2f809f54dd724aea7ecf918a3b6e,False, whitespace, , ,None
+418,b07fdc69c61805f39b54b9a730a992d3c64e67dc,False, merge branch eric wieser stpl slicing, , ,None
+419,d0bae1d78f7ebd7a5521886c2718d7c94c464dd2,False, use argument re.search cut lot slicing per python chunk rather per token speed template rendering also mean re_tok actually match start line rather current tokenization progress allowing hack else removed, , ,None
+420,57325068ba4228bf46dd73bcbd89c85982ec41d2,False, remove repeated slicing finding python marker, , ,None
+421,12b424c0e8061edc384a40d747e09f188b5eaaab,True, merge pull request 690 eric wieser stpl comprehension stpl comprehension,https://api.github.com/repos/bottlepy/bottle/issues/690, ,None
+422,642e8b1f6ac3d289b692e8a8c5a07a4806b98ba6,False, fixed link twitter doc, , ,None
+423,8f427001c0fd5a5fa4124dbc0d227292ad5983e7,False, fixed bug would copy cooky due behaviour change newest python 3.x release, , ,None
+424,985f9c5376387c2273340ea9e325e5b9a0c1b473,False, make root work cross platform root already end os.sep add another one abspath strip trailing slash path _except_ root, , ,None
+425,8a5bfe2f70a4a5d22b93e909b207584324817760,False, prevent syntax error line wrapping comprehension ignores block keywords inside parenthesis brace bracket allowing list set dict comprehension wrapped way dicts doe check correctly paired parenthesis let python right build upon cleanup made http github.com bottlepy bottle pull 689, , ,None
+426,db0262e50d4d2321f6b852920984cabf4d9a842d,False, clean stpl voodoo rewritten use raw string triple quoted string verbose regex mode also includes fix changing urburb urburb match test, , ,None
+427,2201e071dc6e2700ad0151fa87c6f0c8ce3cec6f,False, revert change committed accidently meh ..., , ,None
+428,cea519c842846e1ab08d40dbd538d2f06be17cca,False, changed link official repository, , ,None
+429,58e6608a7fdb43d9b1fe071d6eba75695381fee4,False, fixed mixed type python2 http github.com defnull bottle commit commitcomment 8772204, , ,None
+430,ba7be6dadc7d153a367ffb4cc2d0496c2d3b644f,True, merge pull request 683 njogun master fix end code block template token regex,https://api.github.com/repos/bottlepy/bottle/issues/683, ,None
+431,7c23136b1463e427764a799f1f67504910c41017,False, add test window style line ending crlf template using multiline code block, , ,None
+432,40fa1ca66efeb5c946a9a1fa470da3359c025701,False, fix end code block template token regex, , ,None
+433,e043aeb32f9ff01768136a595be0a85790c5bcd6,True, merge pull request 682 avelino added travis image build status,https://api.github.com/repos/bottlepy/bottle/issues/682, ,None
+434,9b2462ddaf06e036035e09cde5353bf8a53198e0,False, added travis image build status, , ,None
+435,78594413dba74222c0dac72d9a95105807964ed6,True, merge pull request 681 avelino fix status code 413 description rfc2616,https://api.github.com/repos/bottlepy/bottle/issues/681, ,None
+436,dae51d7bf3a3181f4343ee227d56121d617dad77,False, fix status code 413 description rfc2616 10.4.14 413 request entity large http www.ietf.org rfc rfc2616.txt, , ,None
+437,ff7f4dbf7b5a31a6c8c2fa0086f7b37cba32a959,True, merge pull request 669 zvxr master typo fix,https://api.github.com/repos/bottlepy/bottle/issues/669, ,None
+438,953068148b4b385ada2b0f1302ad9d586e6e51d7,True, merge pull request 673 jeorgen get mime type download download file name,https://api.github.com/repos/bottlepy/bottle/issues/673, ,None
+439,425d336bc14ad3e49de9f0b1355a65fab382abd7,True, merge pull request 677 jhargis typo_fix_625 fixed typo doc,https://api.github.com/repos/bottlepy/bottle/issues/677, ,None
+440,85b8e9b3694f6dd73dad7807034d844e9c35cc48,True, merge pull request 679 avelino fix typo tutorial grammatical correction,https://api.github.com/repos/bottlepy/bottle/issues/679, ,None
+441,35853b8c4681716ffd21de908428c28e44ab3a9e,False, fix typo tutorial grammatical correction, , ,None
+442,87056f2219878132cd87399a0d2338a827326ce5,False, fixed typo doc, , ,None
+443,d02988314c642239838cf1ed4d85b6bceef6712d,False, get mime type download download file name get mime type download parameter instead file download file name, , ,None
+444,cb7a333fa7b3554137a7a13b48b2c7cb241e78bb,False, typo fix, , ,None
+445,f27a9a3be9b3c031eac44b4a99f44d58557175f3,False, fix allow header value 405 method allowed response, , ,None
+446,d65c4e1224b9edb970f706cd26db9b576bdeefde,True, merge pull request 625 colin4124 patch typo tutorial.rst,https://api.github.com/repos/bottlepy/bottle/issues/625, ,None
+447,aa63ca9fb24b58576466e12781e40ff768e754b8,True, merge pull request 635 lordjabez quiet waitress quiet waitress,https://api.github.com/repos/bottlepy/bottle/issues/635, ,None
+448,c22eddd138d5dd2bd89c292c3b0f1bdf93f9155f,True, merge pull request 658 mengzhuo master fix coverage break gevent eventlet testcase,https://api.github.com/repos/bottlepy/bottle/issues/658, ,None
+449,43f3b7a8ae87ca22d4d8d91bf474beb845f25e79,True, merge pull request 660 mjordan master address 659,https://api.github.com/repos/bottlepy/bottle/issues/660, ,None
+450,ddc97168d142809b74f7102866b825b24180db31,True, merge pull request 662 eric wieser patch fix typo,https://api.github.com/repos/bottlepy/bottle/issues/662, ,None
+451,6f31377d168f5c0ed61bc8c3f176f95274e9fcf0,True, merge pull request 666 krysros master update new rule syntax,https://api.github.com/repos/bottlepy/bottle/issues/666, ,None
+452,d18b687b9f4d40fa0124ef13dbadff2cd9e2c64d,True, merge pull request 667 sepus master typo handy,https://api.github.com/repos/bottlepy/bottle/issues/667, ,None
+453,5288ccb1ec86270a60071896f62985582ef94033,False, fixing travis build python 2.5, , ,None
+454,ba10495d9b144d4fbd4fde5712872756dcf5b590,False, typo handy handy handy, , ,None
+455,c0b3c0d9861a5324fd371732630b0dd3e20d8081,False, fixed py3k bug unicode header, , ,None
+456,58494cea06011de386b953ef1a7ffdd39ad5c6f8,False, update new rule syntax, , ,None
+457,9281f03fb3a7def0bcf82147fd5195ad1eef6196,False, return something, , ,None
+458,8295f1a7b660f4e899290c695350f9d9f90d37a0,False, fixed wheel distribution support, , ,None
+459,bb05e24837d5ee16b3434f5e8583182575e8eeb6,False, fixed bootstrap 2.5, , ,None
+460,5fc8b182cf5e58d45410903d6de85cabb66670b6,False, fix typo, , ,None
+461,622ee60d09b63e336bf5f607937f3dfc5aaa71a0,False, merged test_config test_configdict, , ,None
+462,60949bad4db0e3a225a77077e4761f2f28983056,False, address 659, , ,None
+463,2efe2d7f5768f2903c3cf2e2ad4ee2c67e57edac,False, fix coverage break gevent eventlet testcase, , ,None
+464,abf1e4fa74b56328b88b2eb119a66885ddda3530,True, merge pull request 657 mengzhuo master fix request large typo,https://api.github.com/repos/bottlepy/bottle/issues/657, ,None
+465,12f70a8972656afcd4d3afdcf32c1f52623a2706,False, fix request large typo, , ,None
+466,fe7285893505f949b48e0f873d44c5386917b7ae,True, merge pull request 648 wbond master suppress resourcewarning unclosed socket message,https://api.github.com/repos/bottlepy/bottle/issues/648, ,None
+467,aaef83b2597974ce75221703750bd846cd914cdc,False, fix except syntax python 2.5, , ,None
+468,e4ff4b41894989d1b9dbda5c5e6d439fd538c89b,True, merge pull request 650 patamushta master _hkey wsgiheaderdict unification,https://api.github.com/repos/bottlepy/bottle/issues/650, ,None
+469,8c909e436f00f357c388393d25cfbfd5409c403b,False, _hkey wsgiheaderdict unification, , ,None
+470,c4ea59e19ee30a6e1a5c5f7f773a132d492501a3,False, suppress resourcewarning unclosed socket message working python 3.3 debug parameter set true default wsgiref server emit resourcewarning unclosed socket.socket object family type proto message using ctrl stop server change explicitly close server ctrl detected preventing warning displayed, , ,None
+471,03865a3264b6411297f5238f8d689e0e4c557802,False, add lordjabez author, , ,None
+472,c57ef1a4db688fb8aec32c7eb2ab565270b144ca,False, pas quiet flag waitress, , ,None
+473,dee9c315606e420f5dca63620a15e5b0c6631432,True, merge pull request 634 federicoceratto patch add pypi badge,https://api.github.com/repos/bottlepy/bottle/issues/634, ,None
+474,6fb03c26cfff3e9f1f91df7c5620c3de9364a015,False, add pypi badge add small pypi badge download version license information, , ,None
+475,bc312ae49d9f7f389c06db53898e5a5f7b63c93c,False, workaround 632 pypy incompatible cpython module fixed already pypy head thanks arigato, , ,None
+476,d709bfa6ef499ad717f9d221ede1b126c9677c5c,False, fix 633 simpletemplate dropping leading space thanks rpuntaie, , ,None
+477,ed47f10b2c89cebf49ebd8cf7c4cfb9f05d29b2d,True, fixed reverted broken pull request 631,https://api.github.com/repos/bottlepy/bottle/issues/631, ,None
+478,879bbfaae6a9e34adf60dd0593b1e505f2f6c98b,True, merge pull request 631 ericfrederich actual_port report back actual port using port,https://api.github.com/repos/bottlepy/bottle/issues/631, ,None
+479,33115208e310cea23f92b126f830d267a90195fc,False, report back actual port using port, , ,None
+480,3ec966bb72e9f9fd8fe8a86428e6b3589c82b21f,False, fail request content type application json body empty, , ,None
+481,5bf2ab25a39893d120fc8141722347279b3f6f27,False, made daemon thread, , ,None
+482,21a2d4af266230d59c585722fe8de383f316595d,False, typo tutorial.rst add note novice, , ,None
+483,f1d668b4c5a2657fa4786fe170d24829f511cad9,False, fixed deprecation warning assertequals test case, , ,None
+484,a8bca5819a61b7bfe719f0b85263e4e78ed1e6d4,True, merge pull request 620 avelino master loaded plugins run via command line ref 619,https://api.github.com/repos/bottlepy/bottle/issues/619, ,None
+485,6fbb25dcf2272f396a045df46f4780e8f96b5fde,True, merge pull request 621 ziadsawalha eventlet patching enhance eventlet support,https://api.github.com/repos/bottlepy/bottle/issues/621, ,None
+486,623b2606153e2589a44c91787ed77ff69a217589,False, fix test eventlet, , ,None
+487,d61495d7aa0c93c6dee30a1014ab9dd372be75ab,False, eventlet add support backlog family expose eventlet option used supplying directly bottle.run keywords, , ,None
+488,27f381d2c64a4e65a88af4b154b84b1349281225,False, minor cleanup refactor socket address variable, , ,None
+489,52014fa25858e8c1157ce939e43f7211bb9ac291,False, make sure monkey_patch eventlet similar logic gevent, , ,None
+490,aab40a0c20665d1af77b24ff6331e2d1e63200a9,False, add avelino author, , ,None
+491,e499c6e10d80757de291e3b6773202d74b6996d7,True, loaded plugins run via command line ref 619,https://api.github.com/repos/bottlepy/bottle/issues/619, ,None
+492,8611f5c7cb9459d48d6412ab8146d7bcb8f26733,False, added python 3.4 test, , ,None
+493,2bd6d66b150df43c370cf5d2ad892885406fa2c6,False, fix 567 python 3.4 multipart file upload break due change, , ,None
+494,daaf004d28764a6521175442c61e6322acc2e8b1,False, added 3.4 test environment travis config, , ,None
+495,7c3226867d9005903e268fedd819389ab8c6336d,True, fix 616 json content type restrictive enough possible security issue see http github.com defnull bottle issue 616 detail,https://api.github.com/repos/bottlepy/bottle/issues/616, ,General
+496,c4648c3462115398469ebbae1cbd46f48fd253bb,True, merge pull request 615 hjalves patch minor fix documentation,https://api.github.com/repos/bottlepy/bottle/issues/615, ,None
+497,ebe2e52ec45c1de58b0b9f2e18fe23777f51b899,False, fix example rebase example disable escaping evaluation base, , ,None
+498,33b1683793bc6ce8af37c9d5c34be0c4fe220d1f,False, testing pycharms code inspection, , ,None
+499,6f9485ea597160f90c62890dff05cfb72cdd0e7c,False, request 425 support http patch method per rfc 5789, , ,None

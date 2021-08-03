@@ -1,0 +1,501 @@
+No,Sha,Valid,Message,Issue-url,Tag,Category
+0,9545abb67be901f187d7022f864c45ea5a25cd6d,False, updated submodule poissonrecon, , ,None
+1,90748814b106fa1565662af73a0045bf06a306f0,False, support emission option mtl file, , ,None
+2,de9238c27b608fe4e2b70d50be1a279ce1b272f0,False, updated version cccorelib, , ,None
+3,63accb993201ccaf179107bdcff229dd3341aed2,False, bug fix avoid restore window geometry make freeze startup case, , ,None
+4,820b1ef80c658459947c1ef72f74d121f18ade70,False, release mouse incase escape shortcut pressed mouse captured 1485, , ,None
+5,bc8cc3e6780e36af0f0449eed8e845ebd8fd3263,False, todo list updated, , ,None
+6,7877d4290f474bde44631e80eb01cfbd521a74f1,False, command line tool improvement 1479 new option orient normal associated sensor command line mode m3c2 dialog updated accordingly syntax new command line option remove_sf, , ,None
+7,f3038dcdeb0491c4a653c2ee6fb017326eb676a3,False, fix pdal 2.3.0 1478, , ,None
+8,570f549e30cb8a9b612fe8927039e05774d1e105,False, update 1475 bug fix global_shift first option working properly 1.3 1.4 filter based liblas preserve coordinate reference system, , ,None
+9,6f877def975c98ff0ee8140114639cfee4ab1280,False, update pcl minimum version 1.9 1471 update minimum required pclversion match change done use ubuntu focal 20.04 travis bionic pcl 1.8 need least 1.9 focal 1.10, , ,None
+10,d08fe4b35a511c1fb49a9440ee57ff446ab206ef,False, glitch fix loading stl file single deprecate triangle would make crash, , ,None
+11,a4ebd61e903c986e18d468df67320cce6378e78f,False, syntax, , ,None
+12,c3da8fd026de1c1b6755314efc5c23a92ce96d5c,False, updated version cccorelib, , ,None
+13,a501f6ffb8ccf211d459c2a6b82b1185168efac6,False, icp normal 1466 updated version cccorelib syntax update updated version cccorelib new icp option take normal account updated version cccorelib syntax update cleanup updated version compilation macos, , ,None
+14,97d3e681b58d823a29738bb7a83be50cc0f4beb7,False, cccorelib update 1464 updated version cccorelib new icp research option use signed distance registering cloud reference mesh syntax update updated version cccorelib pointing master branch, , ,None
+15,13812d5fa8e0adb0a77f4e776516080d8679ff8e,False, updated window installation script avoid rebooting computer, , ,None
+16,90ca0b5bbf3caa73a0b6c94dea15ffd8fe95fb71,False, glitch fix cork plugin dialog working anymore, , ,None
+17,d60170dd1167990831e03b67c4a56b93a023d71c,False, bug fix merging two cloud could crash lod structure currently built time one cloud, , ,General
+18,672b2c26a61eedba5bc957e3f2b1951a6420d2de,False, new command line option noise clean noise filter, , ,None
+19,6ce13f86883034a96ff071f01c125f42dea4d097,False, todo list updated, , ,None
+20,56e5617f60d2db776850c62484b44dbfe4aca01c,False, glitch fix ply file point element containing list property would considered face element preventing user loading cloud possible load list composed floating point value, , ,None
+21,405fcb0685f6537b863bba095478a20936bb7605,False, bug fix preventing crash qransacsd plugin, , ,General
+22,710192a4bbcbd54e4730236ea9c557a87ed199aa,False, set default color console message item 1436 color used default one current theme otherwise setting color black override default color theme play well dark theme, , ,None
+23,1bd96af6f8b60f546769fe1aec6750970879ac4e,False, remove dialog custom stylesheet 1437 respect global stylesheet related 1415 commit forced font color black indeed fix probleme white text white background think better let dialog use global stylesheet theme dark window also, , ,None
+24,804ff57866e6a98fb659f3263f4bee3ca11f080a,False, update build.md 1428 add manually set qt5_root_path variable, , ,None
+25,cf1bb39a1f72b4a2ab0258573c3223a4e6772f7f,True, closest point set cmd 1451 added closest point set option command line interface option name output cloud name modified code cleaning modification following pull request 1451,https://api.github.com/repos/CloudCompare/CloudCompare/issues/1451, ,None
+26,5bc453a08a4760cf63788461e5160b2644d4588c,False, pcl using instead deprecated, , ,None
+27,d827ff2cf0e969dc22f1343281e8416b881522ef,False, update fileio.cpp 1447, , ,None
+28,ab2577018e42d1ddf42d500b374baa42d8587deb,False, updated version libe57format 2.2.0, , ,None
+29,7ed35de4189744824f3d0ea55025b62ba2249438,False, updated version cccorelib, , ,None
+30,cf10180639077879b424af9f28fb72225bf081fe,False, modified accept last modifier 1440, , ,None
+31,0b37b539c570ce94cb4bf6d58d94a5e88b6af5fc,False, fix chinese translation file wrongly named chs, , ,None
+32,3f558a3ac5347e75aefb50c677d63c2b78048ed0,False, support pcl file 16bit 32bit integer coordinate well double coordinate 1439, , ,None
+33,05de23ec87b40aeb2db180351add5e100409a076,False, support pcl file integer xyz coordinate code cleaning 1435 support pcl file integer xyz coordinate code cleaning attempt make happy, , ,None
+34,62c43f0f0a36a615f59e258ca11e3eb3b810fdfc,False, updated window installation script, , ,None
+35,3d79a9f91215fb04a488959dabfc66c463ed177b,False, pointer submodule cccorelib updated, , ,None
+36,ac251c68231e04c3e3c2f91a010a785ec00996db,False, updated russian translation file, , ,None
+37,3df642b5a3f13175c3e123dbb2911cb5f57bcefe,False, updated todo list, , ,None
+38,f8d9db13f08fc6f5d153571ee50fffff3e725f45,False, various fix 1429 updated version cccorelib fix ccgblsensor projectnormals method probably broken using new method syntax fix fabs std spacing etc, , ,None
+39,a86db7f9d8a14276614f2907d24b55f14b4987d2,False, glitch fix polyline manually created via extract section tool retaining cloud global shift scale, , ,None
+40,8687a6f46175be7424ea797e8bbb4442e547c035,False, updated version cccorelib take, , ,None
+41,6097599af4394bb6582e1e79910df0f1b6126d5d,False, properly manage global bounding box non shifted bug fix shp filter writing local bounding box file header instead global one saved entity shifted, , ,None
+42,15054f49f9646ac07cfeb9881693c945b5c762fa,False, updated version cccorelib, , ,None
+43,cfd7e113cd71645bfff69a1ec3d69612732b2732,False, glitch fix installed connected device 3dxware driver could make super slow capturing event notification device activated, , ,None
+44,39679fc611eb05f5565d65a02e16fd7bf48f35b5,False, replace old dlib_root cmake variable dlib_root_dir sure point new dlib version contrib folder user updating existing repo, , ,None
+45,25f9238498eb1afb1137753caa4de89740a8d714,False, prefer absolute submodule url, , ,None
+46,59fee12e506f785800b31c4ce656576ae64bedbf,False, fixing old string format syntax, , ,None
+47,cef49e003636f847e044934815e34d03cb1fe596,False, add dlib submodule compile dlib all.cpp file, , ,None
+48,c6fa2a4a87d31b146b3163ca1ae5e09b5c55904e,False, updated pointer submodule, , ,None
+49,2a4dd2490643b60b39e2c8591b5bd5c9a71fa5ee,False, fixing broken submodule link last commit, , ,None
+50,b55fa745e46d7cc65758129ea99a8b7164d73d07,False, next step german translation insert missing precise existing string, , ,None
+51,91b4e00be42dace4a0bd5aa55b34678059bf0a4b,False, new feature 1420 new method edit cloud create single point cloud compilation debug mode new tool edit cloud paste clipboard add lot string translation updated translation file moving ccmaterialdb header file, , ,None
+52,debbd78da4e87e392da4b9262754cffe7b08a9a5,False, german translation fix small typo 1419 correct typo sense context also called tab space semicolon comma merge sample point sample point use one instead two translation string content remove double whitespace merge string text content merge string equal context use string value german translation, , ,None
+53,7f1347adce5c3d9d94f0cd1d684eb350f530b47b,False, typo, , ,None
+54,c1d0dd49c9e80a266a0d58a8e39177eb666da0fb,False, script create archive package, , ,None
+55,638a81486fa28df37c2eaa4d65268778c4ed7d00,False, fir qwidget glitch stereo version, , ,None
+56,5f181fb281bc767b7d9d18c4e71a3aaa3af122b0,False, fix translation stuff deployment window, , ,None
+57,62c8b8c0a698af770b6c296737bf02a8f052e038,False, cleaning 1418 fix canupo training file typo remove unused file updated version mplane compilation 5.15 updated version cccorelib updated version mplane updated version qmasonry, , ,None
+58,2ae7b490d9b07cdc2544b1dd117075cc9189f7ed,True, attempt fix bug 1415,https://api.github.com/repos/CloudCompare/CloudCompare/issues/1415,MacOS,None
+59,ec798282c99e62947cc100ed36de37eb3d185fd7,False, ccglwindow syntax debugging tool activated compile time, , ,None
+60,14023d1a8d8b9eea53eea69a69436e5f43261ec8,False, useless call qwidget removed, , ,None
+61,75a0174aa9f9b0eac52990000d66a0273092b136,False, attempt fix glitch qwidget work unless mouse button pressed, , ,None
+62,174456a5162a4eec8976ea1f41d5c74836cf2812,False, step file plugin 1403 initial commit qstepcad plugin edf several improvement cleaning duplicated mesh vertex fusion algorithm moved stl filter ccmesh class used step filter instance changelog file updated, , ,None
+63,8cd836676da6d6ecb596c4582ca090eb057b3e0c,False, bug fix cloudcompare reporting truncated integer dip dip direction value instead rounded value, , ,None
+64,3ea7b9d7861c836afda268eb6cc821f8df86eaba,False, ransac first cut making improvement 1274 first cut making improvement select certain maximum value primitve type gui still need torus control command line support adding control torus random color missed pervious commit giving check generated shape function access associated point cloud sample set also fixed missing item static update modify support min radius support hide advanced cone setting work properly yet modify work min radius supported shape updated changelog, , ,None
+65,20ea8f02d38ab259a9be794ea22eda7c007e9d69,False, bug fix point pair based registration reference entity global shift information transferred aligned entity anymore, , ,None
+66,d22c7b0e55ec490c4c3ab9c7d5a96d9503016e23,False, bug fix min rms decrease parameter icp tool dialog broken preventing user changing value ..., , ,None
+67,d352a4aa8038710302d83dec125e37aa460d7ddb,False, new command line option rename_sf, , ,None
+68,5a7320a4d5226106ec9320667aa757806abbeeca,False, missing regitration new command line option ..., , ,None
+69,b1347fd888842334122444139d9f880032ea3161,True, fix vtk writer make malformed file 1316 1409,https://api.github.com/repos/CloudCompare/CloudCompare/issues/1316,bug,None
+70,38aa2851608bdae9260a48ec5723c6bbfc358bcf,False, single click picking option 1408 adding option disable single click picking really slow large point cloud large numb object add checkbox displaysettings dialog updated changelog, , ,None
+71,a8f71b955d04ca710dfccd52a7e5169cba4180df,False, adding redist 2013 package cover new dependency, , ,None
+72,d5723b1948a944a7d67116cbe635f333ffd0d793,False, ability invert mesh normal work edit normal invert also new invert_normals command line option, , ,None
+73,7dd5185d2eb2cc2340b4527d9f4a8c061d25ff23,False, bug fix avoid replacing altitude potentially invalid raster pixel asking user wether kept, , ,None
+74,75f34227cc5787b54d33d0ba8686746d72640012,False, deprecated assertion removed, , ,None
+75,31d5c1d8346e94ea86795d4e56eea1296011951a,False, bug fix minimal scale suggested sometimes small potentially triggering pdal exception improvement global shift defined used offset offset previously set pdal filter liblas filter handle offset scale way export time, , ,None
+76,e7e1f1b6c51e73d0b9506044676f6349b2e17a97,False, add translation fix typo 1396 add file via upload add file via upload translation translation add translation fix typo, , ,None
+77,b2eb26a4568767c335d7745578a9726f397cc0eb,False, add file via upload 1392, , ,None
+78,af08ff0a25e9f071576d63bf0609a2db1d54ca2e,False, remove commented deprecated code, , ,None
+79,c6363fd992b3a0a67fc851cc6780b544b2e6c821,False, updated version cccorelib, , ,None
+80,dae531672944ea8fbbebc21c007a8e5637978327,False, reduce warning clang, , ,None
+81,425030dbf6b21b892e860f38b33e8a99d3f881e3,False, fix compile clang, , ,None
+82,c620b5b53004c768a6c4917e5a9a8e7a69895c8d,False, new option display reset vbos unload vbos mind might filled use vbos option enabled, , ,None
+83,c9f87f57ca792a11fcd8c1e4483ab26b938ba49e,False, 2.5d volume calculation tool tool preserve global shift exporting difference map cloud, , ,None
+84,2be975e4f97ff0fc1e3cad5882172a1f351f46bd,False, syntax fix, , ,None
+85,d387a4e9e32c7ce2e917532b64ca27c264cb1cb6,False, updated innosetup script, , ,None
+86,aff3768cf4ac973adc6073fd16605cfc30517709,False, call initopengl whether command line mode 1388, , ,None
+87,1eef5d448b8d84c561a4d7ee3fee91e86819c28e,False, add gbl camera sensor cloning support 1386, , ,None
+88,3aa087d9230856059d18a4b36b6ac84a7b58c3cd,False, added ability rotate translate reference coordinate system primitive 1383 also fix minor bug advanced mode, , ,None
+89,568ea2e102a3cbda2693872bb832cd9783ce8d53,False, bug fix rasterize tool would export raster geotiff file active layer exported field active layer first scalar field input cloud, , ,None
+90,33c8707067d5d5879302cddf434642799a11916f,False, syntax, , ,None
+91,146dfe80b6e45abaa09e520db6a19ddfd4137fad,True, fix issue 1380 1381,https://api.github.com/repos/CloudCompare/CloudCompare/issues/1380,bug,None
+92,7e8a37e4cf6d5f5af587daeb8590b0d73a5dd7d2,False, bug fix flip normal checkbox comparison dialog accessible anymore, , ,None
+93,4789ba3bbcf2bf51f4ba4e590fff5dc9f75764f3,False, aling tool pick label 1375 ability pick label point ability pick label keep name align tool syntax fix align tool label associated point cloud remain visible user pick tool display corresponding label title registration summary table, , ,None
+94,c721f2e0a014ff7b0efe76392345d2a0a4407486,False, add option download rdb sdk 1370 add option download rdb sdk latest rdb sdk downloaded http software library rdblib current add option optionally download use sdk building qrdb plugin add shared rdb library install target cmake already know rdb library rdbc target use information add library symbolic link install target installation rdb library controlled option default enable plugin_io_qrdb plugin build rdbio replace hard coded lib destination directory rdbio use _installfiles helper function install install rdb runtime library right folder use helper function _installfiles cmake install.cmake, , ,None
+95,a0d4c151aad0773babdc5de62b6205450e9d262b,False, ply filter exporting large coordinate limited accuracy creating ascii file, , ,None
+96,f6ef31026e346fa7018c4a8586b82fdbd45a03f2,False, rdbio support attribute length 1371 handle attribute length correctly make entry selectable scalar attribute length result three selectable row entry form attribute_name attribute_name attribute_name restructure known non scalar attribute initialization resilitent, , ,None
+97,deadbae5914478083b429eb708cbf4e31b973abd,False, updated submodule pointer, , ,None
+98,3c5bb03f7e2449e44a249fa8f6aa9f43571677ed,False, remove warning, , ,None
+99,a33ffe93d9aad546e13d91819de0ac3fa0534bd7,False, bug fix clean noise tool mixing number neighbor knn kernel radius parameter, , ,None
+100,53a1390a564545a7df9f3dedf6d4b1c1cbb62b39,False, local coordinate system primitive 1367 first commit new primitive fleshing class adding property view modify primitive add primitive factory fixing extra qualification error visual studio accepts doe incoporate review item, , ,None
+101,da67e22ab4ab6a10398c22b8819de474c54e985e,False, new sub option ransac command line, , ,None
+102,bfb735f9b7d31b70844f9760cb4802f9df611be1,False, typo fixed, , ,None
+103,e315347267fafca805fed0bdaea7b3b0da9ce7ed,False, shifted mesh primitive 1364 new ccshiftedobject shortcut mesh shifted object effect transfer get information vertex polylines also return vertex global shift scale info whenever possible ransac plugin transfer global shift scale info created primitive update syntax whenever possible move forwarding set getglobalshift set getglobalscale ccgenericmesh inherting class ccmesh ccsubmesh ccmeshgroup ccprimitve behavior default setter used ccsubmesh ccmeshgroup removed temporary patch inadvertently pushed previous commit angel update pointer cccorelib cleanup good night sleep fit function fit shpere fit plane fit facet fit quadric well, , ,None
+104,ad12a8f8441cf01ec8c7abdffb0b5acceda570ac,False, added commandline filter sigma command requested forum 1362 added commandline filter sigma command requested forum http forum viewtopic.php 4902 fixed last commit copy paste without modification error, , ,None
+105,ec12000f7561612c8275b7a75223eae29fe3a70a,False, fixing typo rename image called .jpg .png png image 1358 fix common typo fix another typo rename .jpg image really png, , ,None
+106,70a18e1de69b3c28ac0804b83fab1c016d77d4c9,False, bug fix orientation matrix gbl sensor pcd file load 1361, , ,None
+107,e65258c064fcd28c034801166ba10bc0b05aa3a9,True, linux install 1346 hack solve install issue linux see issue 1345 1298. affect platform checked fix indent,https://api.github.com/repos/CloudCompare/CloudCompare/issues/1345,Linux,None
+108,3138b1da052f9a84f9ec7105b5bba9877859d5b8,False, use conda incubator setup miniconda 1357 use newer thing set environment variable fix failing due recent change set env command http github.blog changelog 2020 github action deprecating set env add path command, , ,None
+109,f2f29900c1e63406680e37b09a41e6e39ea7d1af,False, issue 1353 stl file loading reduce number memory allocation much possible, , ,None
+110,0dc77240911371e8d569ee3d9b97e84e8a249cf6,False, bug fix e57 invalid data flag wrongly interpreted, , ,None
+111,b683f43542732851678099fc57654acfdbece019,False, e57 e57 filter properly handle foreign character file path, , ,None
+112,6679ea02a3c65f5e8aa9f6bc710fcc276d8c7295,False, e57 display scan name next scan node console, , ,None
+113,4a9e1deda7538a28d183d1768377b2bac92b6f01,False, bug fix point segmented inside frustum screen even segmentation polygon vertex outside, , ,None
+114,d2d6d292a957f1ffd6c9ab835851db5bffcc6d34,False, update updated russian language file, , ,None
+115,4df5bcee3db616f46dc70cc28a33834f803cbf3e,False, updated pointer e57format lib, , ,None
+116,80ad7a616510058b1d8dd175fb297555d4106bbe,False, update fixed korean language file, , ,None
+117,abc1a96142015efdebc1cc9d2839214bc636c7dc,False, new language supported korean, , ,None
+118,525a11656686b03adc565afb22092c00395a4a87,True, fix http github.com cloudcompare cloudcompare issue 1344,https://api.github.com/repos/CloudCompare/CloudCompare/issues/1344,not_yet_confirmed,None
+119,ffc259f1e303378f8484412f77a46aab357ab32e,False, update 1343 tested pcl 1.11.1 added header file declaration, , ,None
+120,1b5f2a710e10138aa39f5779ce66f4b0321f5d4b,False, update 1342 tested pcl1.11.1 added header file declaration, , ,None
+121,dccf6a1cf6b282584e0c591dd6834f10caedf976,False, updating pointer qjsonrpcplugin, , ,None
+122,2e5230b7783fed2a5ea2e5232bcfa50b976bdde2,False, updating pointer qjsonrpcplugin, , ,None
+123,a8c2ddb6fbfc2cf4c7b23a9e3ece74d4a9cfa1b1,False, attempt fix travis compilation issue qjsonrpcplugin, , ,None
+124,d291c212492ec25251ae1e7a3ea4495233102db1,False, updated translation file, , ,None
+125,b31125553205963fe3fd990f724ef85abf959369,False, updating pointer qjsonrpcplugin, , ,None
+126,fc3792df536ad72d594d5f7cd81abb8c045d73f2,False, json rpc plugin executes command action via rpc different proccess computer see http gitlab.com theadib jsonrpcplugin tree master, , ,None
+127,bfb7f9178ffcd037944f8573e744872f0ab51274,False, bug fix polylines created trace polyline tool wrong unique saving multiple polylines created way bin file could lead corrupted file, , ,None
+128,158164f9fae4b8eca5b347beb0f814051f59c8d4,False, command rasterize new output option explicitly export altitude scalar field former output_raster_z option export altitude name implies, , ,None
+129,020d71e43f186c87114477c47472cd69150fe484,False, updated submodule pointer cccorelib, , ,None
+130,9208861d16af7f6bb4489d45904234df44826aff,False, missed bug fix 2.11.x branch point picking mesh, , ,None
+131,d2bbb69b5137b53a1d4a1e310fe16fff8760c350,False, updated submodule pointer cccorelib, , ,None
+132,58d105e5b758e3f910d8132d59081a3803ee4391,False, updated submodule pointer qmasonry plugins, , ,None
+133,33fa830b161ef6d05ee7f7fc1d0950c738d0cd8c,False, csf plugin command line mode 1337 initial release updated readme fixed readme fixed cmakelists updated v2.12 alpha updated naming indentation comply cloudcompare coding rule added changelog removed table changelog updated changelog, , ,None
+134,e296842a9e95dc7bdb703d81598cfd97920feece,False, fix typo 1323, , ,None
+135,67d2beb5eb18a826efad55b4d863fb905a2353bb,False, increasing ccviewer version number, , ,None
+136,db6745f5c1529615aa3bfdf1aae49f4822dc6403,False, bug fix reading input filename command line preserve local character, , ,None
+137,644bcead0fb41a57667048cfd1bb39f84c9e797c,False, msvc adding qt5.natvis file qcc ccviewer, , ,None
+138,0cc2f0c5a1919c9e7a301c771406cb59147b781c,False, updated pointer cccorelib, , ,None
+139,8bad7539d06f0c4a6e45d07f353bc2099115c9b8,False, export gdal dlls ccviewer well, , ,None
+140,bb480d6c0343eed0b10c4cbceecc13b7090ef8a5,False, updated pointer libe57, , ,None
+141,764b416b6936b85a8eee765e38be83c0402406d9,False, syntax includes fix, , ,None
+142,955f7ea119772308b53c9fd1d3cf4d162a89034c,False, fix 1334 warning message issued wrong time animation plugin let user choose output format codec, , ,None
+143,83fc32aa11d283b4ebf83b27005eafc08c78cf29,False, additional warning log detect potentially badly formed mtl material, , ,None
+144,ab2acdfe2fc05d208662ae4168b7571a7fcf5bc8,False, syntax consistency, , ,None
+145,8b69f016884e69dbf98ab15a397a08a70149224c,False, bug fix using fbx command line option would lead infinite loop, , ,None
+146,69c9cfbb0ee1883871aa29247dbfde853b35a75d,False, updated russian translation file, , ,None
+147,f67289239f279b325495fba3bde32ed98445c5c6,False, updated pointer repository improvement, , ,None
+148,570cbaf98baea62ee3ca229f504da6e8ef89b63a,False, link plugins cccorelib get right compile definition instance, , ,None
+149,deab9fac267da3fc7985df643777452c5213494e,False, bug fix m3c2 dialog parameter properly restored command line mode, , ,None
+150,a55c246fa063993d18c5dcfc98076f5e2b5eaac3,False, replace memcpy_s memcpy linux, , ,None
+151,c9aa322eb5b8969d469ed1f30827456c7736ff6d,False, pbo pixel depth picking 1327 use pbo pick read pixel depth improve pbo strategy using previous frame buffer bug fix double clicking would lead crash updated pointer cccorelib, , ,None
+152,a8adb3d52dfcaab63c2b455e7ddd4e6d3fbc0d95,False, updated translation file, , ,None
+153,f2729c4cc8fc945c2a6f407ff5c2cc5e7246fea3,False, attempt improve display time ati card thanks smarter way manage text texture, , ,None
+154,72e88e4b4f2a0de05b43e76978b2dd75ea9e3b57,False, new plugin masonry segmentation, , ,None
+155,31ec7e0c8e635f2d7f7806adca80074e4930426b,False, new plugin, , ,None
+156,e55468096da91702d88f8ee79a197be3421ecef0,False, bug fix used point pair align tool could produce wrong registration matrix, , ,None
+157,ec6213bda9f9e88fd48a52db9a9816b302f969d2,False, new plugin mplane, , ,None
+158,70d8f80f6744ae909453cd84d7ac8440394544ac,False, remove prevents ffmpeg dlls installed, , ,None
+159,302cc29a4f3017d2f4a0303d3d1decbae8b12bc6,False, fix typo, , ,None
+160,1d5e882b8d46d6bfafd1273608eb257a7fc62f46,False, cleaner gdal dll export strategy, , ,None
+161,d1dd2b51a948a33ecfa8d7d7fe751633dc417278,False, window properly install gmp dll file lib updated revision cccorelib, , ,None
+162,6be650f6cc89e7ccc52c3e96eaf80516ca4d0893,False, updated changelog cherry pick, , ,None
+163,1b9030121e8ec82ca159d20bd530b66002ad5399,False, 1.3 1.4 laslib classification value flag always loaded saved properly 1318, , ,None
+164,a68cae5703334e76ba8d67fc2c2e68dae81d181a,False, even command line silent mode loading shp file additional field associated dbf file would spawn blocking dialog, , ,None
+165,d8c1db5fe76f52cd6c5a2bf5ee24989b36d5320d,False, noticed occasional crash rapidly changing point cloud scalar field accelerator key tree window believe message created one point cloud scalar field selected applied another 1315, , ,General
+166,5bc9f6c43e54801b98c8927c153934a024409cb9,False, issue 1319 keep comment loading saving ply 1321 added support keep input ply comment memory write ply saving new file fixed pull request review change authored eduardoiscar eruland, , ,None
+167,d033a7a3a0f71bb8134df83f6b5167fd4faa7d00,False, updated todo list, , ,None
+168,8708504b43247b5f6c0200ef8de2890c01f2a734,False, cherry pick 1314 bug fix command line last keyword consistently badly managed conflict changelog.md fix missing init value duplicate initialization properly handling return value syntax fix conflict libs qcc_io src binfilter.cpp qcc mainwindow.cpp syntax fix conflict plugins core standard qfacets src remove unnecessary call conflict plugins core standard qcsf src bug fix file could loaded anymore conflict plugins core qadditionalio src pvfilter.cpp updated changelog resolve conflict compilation updated pointer condensed syntax authored chris brown wargodhernandez, , ,None
+169,6a398d53cd1c3f960aa0f9ffa748374aa518d89b,False, fix build pcl 1.11 1310 add missing include boost cstdint.hpp file included builddir build build cloudcompare 2.9.1 plugins qpcl pclutils utils cc2sm.cpp builddir build build cloudcompare 2.9.1 plugins qpcl pclutils utils error uint8_t namespace boost doe name type boost uint8_t  ... builddir build build cloudcompare 2.9.1 plugins qpcl pclutils utils cc2sm.cpp member function pcl pclpointcloud2 ptr cc2smreader getcolors const builddir build build cloudcompare 2.9.1 plugins qpcl pclutils utils cc2sm.cpp 275 error struct onlyrgb member named 275 pcl_cloud static_cast uint8_t rgb  builddir build build cloudcompare 2.9.1 plugins qpcl pclutils utils cc2sm.cpp 276 error struct onlyrgb member named 276 pcl_cloud static_cast uint8_t rgb  builddir build build cloudcompare 2.9.1 plugins qpcl pclutils utils cc2sm.cpp 277 error struct onlyrgb member named 277 pcl_cloud static_cast uint8_t rgb , , ,None
+170,15780c15c60e8502959b321a0e8754694093707f,False, bug fix global shift unchecking preserve shift save option global shift dialog hitting apply button selection maintained propagated loaded cloud, , ,None
+171,08a2918381286bd1318f826a387f72db64a771bd,False, bug fix command line last keyword properly managed sf_arithmetic, , ,None
+172,7aed671fa165a906c9a01fc9582fb685a6db425b,False, bug fix e57 bundler trying apply global shift translation load without preserving shift information global shift simply applied, , ,None
+173,97f1e01f5eda6bf8dc298b2da063aa4ef2bc2c5b,True, macos fix opening file gui command line 1297 commit fixed double clicking application open prevented opening file command line change check process serial number explicitly discount determining running command line fix 1296,https://api.github.com/repos/CloudCompare/CloudCompare/issues/1296,MacOS,None
+174,a1c589c006fc325e8b560c77340809b9c7e7247a,True, remove csf plugin icon reference 1286 see 1285,https://api.github.com/repos/CloudCompare/CloudCompare/issues/1285, ,None
+175,3902c61ce7b4880b878042f2d9dffe2885653b50,False, cmake use mac win deployqt 1255 authored chris brown wargodhernandez, , ,None
+176,be954deda61c6701b7f4574bb4118c9e8cabb6fe,False, null pointer check 1283 add guard null pointer dereferences, , ,Risky_resource_management
+177,639bfcb0df38a263813b557ae028b63f1378fafe,False, architecture move 3dx mouse support ccappcommon 1252 architecture move 3dx mouse support ccappcommon try work around target linking issue added mouse3dinput tested device successfully, , ,None
+178,859561269ccdd336dad4c3296bdb85994ff1d0c3,False, forgot revert flatcopyvector _mm_malloc window version 1272 originally tested using malloc window simulate macos, , ,None
+179,2f692047965b38bcbe6e282bf1528096f623a486,False, switching malloc osx 1270 switching malloc osx aligned_alloc available osx apparently ignores posix_memalign request add ransac macos, , ,None
+180,81fcad635def7feed86186ea9d9541cef2b0d4c4,False, additional bug fix cone created correctly 1269 additional bug fix cone created correctly improve readability based code review, , ,None
+181,e7a0a00b154c677952c515055019b4a89523c3f7,True, two bug fix sphere ransac plugin fix 224 1268,https://api.github.com/repos/CloudCompare/CloudCompare/issues/224,bug,None
+182,3d1f6d563b0b3c035f1744aa4615c91953d4d3c3,False, uniformize plugin header syntax 1264, , ,None
+183,8c8d5d6b7043b298b71987737c77c6065267e14c,False, improvement 1263 warning message unsupported entity better management large coordinate syntax update, , ,None
+184,19f5ce137153503802bc959c4ae2c30ada6e2f96,False, bug fix broom working non horizontal surface 1262, , ,None
+185,8715bd4de6b03961975e9326afa3e7d222e4c4de,False, new opengl camera management 1260 new algorithm polyline smoothing chaikin glitch fix missing segment base method moved ccglwindow actually split two file using new method syntax glitch fix attempt smooth animation trajectory wip move method ccglwindow remove checkbox improvement generate vertex smoothed polylines many iteration would produce billion vertex better management smoothed trajectory qanimation smooth trajectory handled different way simpler hopefully better attempt unify opengl camera management perspective orthographic mode missed replacement properly manage pivot point modification unified pixel size estimation new structure make contour extractor widget work new framework syntax update rebase glitch fix camera position properly initialized viewport label work new camera system remove old fixme comment octree based point picking repaired syntax sphere name display repaired missing file default fov set degree update edl shader work new camera system take rendering zoom account better management eye seperation stereo display make adjust zoom dialog nicer remove old fixme fix update ccmousecircle class plane fitted plane tool always normal pointing towards user instead random orientation make qhpr work syntax fix make qsra work small improvement regarding step case large compared grid value make qsra plugin work fix glitch make qsra plugin work fix glitch make mouse work new opengl camera system make mouse work new opengl camera system make gamepad work new opengl camera system compilation clang remove warning compilation clang take called screen width parameter duplicate file removed taking reviewer comment account restore shortcut depth 0.999 glitch fix duration interpolated step properly set updated changelog glitch fix zoom properly set rasterize tool make sure window properly initialized unused line removed glitch fix visual debug mode dialog section extraction tool displaying content properly, , ,None
+186,f2cdc5eeab3c2923b690bab8c0d9a093faeead67,False, github action push pull 1096 cause two check run opening pull request repo cause build happen another fork, , ,None
+187,5759963d1c4f3bdccbbf5ce77852eddd5f7fc03f,False, cmake put win dlls correct folder 1253, , ,None
+188,87b5216a5bc881af74493f981b4f52cfc0864496,False, cmake split installation destination window 1251 window modify installation path based configuration building, , ,None
+189,c5db214ad93f2ecbb990ad318040eb2a8e750f01,False, architecture move cccorelib qcc_db library 1243, , ,None
+190,4b0ff6c490999c4574b7cf3ee2997a0609e9238b,False, update mainwindow.ui 1250 add shortcut segment extract section section export cloud info, , ,None
+191,d393cab07096c59f769d24b15eb328517e07f537,False, replace plugins 3rdparty plugins private 1248 plugins found plugins private added everything plugins private gitignored similar worked whole directory gitignored also add private plugin use based slack discussion see comment file info, , ,None
+192,616ffef96eb7c756d26b8ede0f0eef3c5c188b28,False, ransac set pointswithindex subproject propagates 1249, , ,None
+193,6d0ee432238b4442b2bc2d2de73b66171aa1db20,False, update qt4 style connects qt5 plugins qpcl qransac 1246, , ,None
+194,3d6caba305b7f71fc400a57d9806bdc9c86b1ea0,False, move rdbio plugin core plugins update 1247, , ,None
+195,d4227f29af74ef34ee77cf4fdae63bda61813180,False, cmake use install instead install_shared macos linux 1242, , ,None
+196,a942e6066da35e7b82ef73796eb68c759e363f38,False, change dependency ccpluginstub 1241 unfortunately ccpluginstub need cclog qcc_db_lib link instead qcc_io_lib, , ,None
+197,939f86cead1b668e19a367e2dec205bb3a31c9c6,False, architecture move gamepad support ccappcommon 1239 also renames, , ,None
+198,767544a35a170d65167cce214dbfbf2aa0b681bf,False, architecture move gdal support qcc_io library 1236, , ,None
+199,2da9df31114b860f7786a7e67352382fe2f8bfa6,False, architecture clean redundant dependency 1235, , ,None
+200,a8bb4037ab84c332f667c8e098d91bd3103fdd16,False, cmake install fix 1240 function assuming argv assigned would empty manual say behaviour undefined remove unused optional arg install_shared ensure call install_ext argument also add extra status info plugins shaders installed, , ,None
+201,aad9071f41cd3987d455c0090039564bf625d2b3,False, architecture move dxf shape libs qcc_io library 1229, , ,None
+202,47db163a3b4f96fb08266f6ba62570ef94e7b15c,False, ensure plugins recognized across library boundary 1231 make pure virtual interface use qobject_cast instead dynamic_cast working plugins must include q_interfaces including derived interface incorrect, , ,None
+203,6cafa31c73580bdb26b03757e112667a7c0a9bd4,False, change powershell bash cmake step 1234 hopefully fix random failure window thanks dsame tracking problem powershell proposing solution, , ,None
+204,7b681cb6bbe2b8bafddf77535d2c59897c18b30c,True, convert common directory dynamic library 1228 part 1218,https://api.github.com/repos/CloudCompare/CloudCompare/issues/1218,discussion,None
+205,7fdc839f3f2cde908ac239a4ceb31cf2df4e1d19,True, move file qcc ccpluginapi lib 1227 also changed inherited member variable need include file exposed added method hide option member exposed part 1218,https://api.github.com/repos/CloudCompare/CloudCompare/issues/1218,discussion,None
+206,c65ddd3b375ea9db31eabd09ae523fc7e4cf4e59,True, change qcc_glwindow dynamic library 1226 close 1224,https://api.github.com/repos/CloudCompare/CloudCompare/issues/1224,bug,None
+207,a0a67209ded084f204d85d46d5c225539627fb3f,True, change ccfbo dynamic library 1225 half 1224,https://api.github.com/repos/CloudCompare/CloudCompare/issues/1224,bug,None
+208,70a5a295cb2947bf219652a91bfad02fc6002236,True, move file qcc ccpluginapi lib 1223 move file qcc ccpluginapi lib source cpp source cpp source cpp source ui_templates ... needed also changed inherited member variable need header file exposed part 1218 fix missing include linux,https://api.github.com/repos/CloudCompare/CloudCompare/issues/1218,discussion,None
+209,db567d68d0678e2cc4b81f109b3ca1827be0ff92,True, use new cccorelib lessthanepsilon cccorelib 1214 part cloudcompare cccorelib,https://api.github.com/repos/CloudCompare/CloudCompare/issues/20,enhancement,None
+210,ff3a6c6f01f5325bb512a6014071825aeaf5929d,True, move file common ccpluginapi lib 1222 common ccoverlaydialog cpp common common ccpickinghub cpp common ccqthelpers.h part 1218,https://api.github.com/repos/CloudCompare/CloudCompare/issues/1218,discussion,None
+211,504c211ff6bcfc3e06885b802855ef70317cb60d,True, cmake replace function install plugins 1221 resolve 1174,https://api.github.com/repos/CloudCompare/CloudCompare/issues/1174,discussion,None
+212,21499844519121d569226ff765a543db41d3ec8e,False, cmake make sure extern libs install 1220 project install target included via need set install well, , ,None
+213,c4294f505a27390d3721ddbc3b35dbf829f9900c,True, cmake remove final glob plugins rely target 1219 3rd party plugins must updated modern approach see example plugins correct structure part 1174,https://api.github.com/repos/CloudCompare/CloudCompare/issues/1174,discussion,None
+214,7a4d0f08e3f989e35ac88c405b1c8b862415946a,False, cmake plugin cleanup pas 1217 add file target show ide tab vs. space fix path canupo plugin icon json file, , ,None
+215,8dbe3b11b85970daf1d9e038ccccf30a9e6f6fa6,False, cmake update poissonrecon plugin use target 1213, , ,None
+216,d309fe0aae906ac528273cf38bd9cc136d91cbfa,False, cmake update pcl plugins use target 1212, , ,None
+217,87e923b51e017b29ea65e9a521ffdf79e88d5772,False, cmake update ransac plugin use target 1211 apparently building openmp enabled broken ubuntu comment cmake code openmp resolved, , ,None
+218,f9bae611320a02d67a80a44d913f1ae06bf198db,False, cmake update fbxio plugin 1197 change linking includes main cmakelists file since compile sdk provides proper cmake config file able use find_package additional fbx stuff cmakelists required, , ,None
+219,33873a960a320a8de10138dfdde18b358ca1056c,False, update libe57format fix warning msvc 1215, , ,None
+220,c0160e00190b36cc9aa6aa1baaf251ca47c56782,False, cmake update three standard plugins target 1210 m3c2 pcv src, , ,None
+221,cdb18d6743a52ad55fca9c1928fbbe5ed542f51e,False, cmake update hough normal hpr plugins use target 1209, , ,None
+222,b42604a2b5175d83d6f4fb7bf9fec529090bf1e1,False, cmake update three standard plugins target 1204 compass csf facet, , ,None
+223,6f181027c0995ab390fb8f268d98c10f53c6876e,False, cmake update cork plugin 1205, , ,None
+224,627f2fb239df76030d0a97e56c38e93911336dbf,False, fix compiler warning char 1208 clang warning iso doe allow conversion string literal char const, , ,None
+225,d25e1d5f33d91402e64d177e07fbcb4133bc4434,False, contour line 1206 isolation contour line generation algorithm add capability generate level set contour line via cross section clipping box tool rename contour envelope whenever make sense improved export option minor glitch fix review, , ,None
+226,7a37f0911c49b108e342a219d69d2b1ee78d15ac,False, cmake clean three standard plugins 1202 broom canupo exampleplugin, , ,None
+227,90a69e3a0b41471297bfa19f130bc2a04f75c73c,False, cmake update animation plugin 1200 ffmpeg provide cmake config file need keep cmake code dealing also turn building plugin ffmpeg linux window macos requires extra work link properly given pre built conda libs skip, , ,None
+228,e7e4ca630c78a78cf385f9d6e8d3d2264f605ed1,False, cherry pick v2.11.x 1199 shapefilter syntax fix explicit error message 1189 syntax fix explicit error message treat shp file measurement range containing invalid value corrupted skip measurement value boundary invalid forget skip value file case ... fix unit test update code compile recent change cccorelib namespace structure update qrdbio plugin qrdbio add plugin type cmake file shpfilter syntax fix, , ,None
+229,6ea88427a35a570732775046d60b5b60666849e2,False, cmake update lasfwfio plugin 1198, , ,None
+230,2a477c35476d811e17796f144426d4d0bd9d4f06,False, cmake update pdalio plugin 1196, , ,None
+231,48e618b3edb7359eb6db4d3dc415d2981202d576,False, cmake clean two plugins 1195 e57io photoscanio rewrote quazip cmake file moved directory try find zlib conda directory another attempt window compilation ... maybe zip.h since probably fail unzip.h add one almost ready give sigh maybe need buy window machine yay fix formatting try one thing, , ,None
+232,10b0f422d972fc45028b4f6e70280c5cd6dfe17e,False, cmake clean several plugins 1194 additionalio coreio csvmatrixio exampleioplugin, , ,None
+233,c90b47b50e7ae146cc6753fddee61ad78b495ed6,False, cache conda environment window 1190, , ,None
+234,70c553da3da27adaad9538979fd6a82bc02cc124,False, cmake remove glob uic handled adding plugin 1193 autouic find anything plugin directory, , ,None
+235,ef1548835f70a2ac80cf16a448e312f28d4bb119,False, cmake replace glob proper target_sources plugin qrc json file 1192, , ,None
+236,04c5a654331739da63423b72b9ab0a8d4fbbb738,False, cmake clean plugins 1187 add shader file target edited ide part project keep shader path target property used installing installing clean yet ... move ssao randomkit extern directory since code, , ,None
+237,058a5e4064d912363e7cc802ba95de32726a9084,False, fix bug introduced, , ,None
+238,886f6edd8921a9416d88e45f20ddc2df6a9aa2f2,False, fix plugins recognized properly 1185 move plugin interface back static lib ccpluginstub leaf ccpluginapi logical place file overlay picking etc dynamically linked plugins application, , ,None
+239,c18948c52e0fad8edcc73775436bb853c595d600,True, use new cccorelib 1186 part cloudcompare cccorelib,https://api.github.com/repos/CloudCompare/CloudCompare/issues/20,enhancement,None
+240,3cb03d7f2e8d9ab761a9b8ea6272e3aa69408cec,True, use new cccorelib 1184 part cloudcompare cccorelib,https://api.github.com/repos/CloudCompare/CloudCompare/issues/20,enhancement,None
+241,28644a837819bca1cccf34170e6a9146543a1339,False, cmake make ccpluginapi shared lib step 1183 also factor logic installing shared libs plugins yet, , ,None
+242,a4ec634bc0280242441a01cb58e46e70f03f7f87,False, use decimal place plane entity direction 1182 use decimal place plane entity direction signed laurie laurie_opperman hotmail.com add row digit direction, , ,None
+243,6be7d31c56708d5c0da5bf750fc73d01135ce92b,False, cmake declare plugin target earlier using function step 1180 also clean update plugin example, , ,None
+244,3d1f254a05ac2cf0dcf5abefcf1b418135b64755,False, cmake two fix tbb linux installation window 1181, , ,None
+245,78059e2699abdfaf9f73bccc4808b5fad294ec27,True, cmake plugin cleanup step 1176 move plugin template cmake directory avoid relative path autouic anything plugin directory create lib target ccpluginapiâ plugins link avoids extra includes setting start carve api actually part 1174,https://api.github.com/repos/CloudCompare/CloudCompare/issues/1174,discussion,None
+246,e87f84a90aa77e4c30c3d6bf7e281b904272c8f4,False, adapt change cccorelib api 1178, , ,None
+247,3f53abc3638d32f971212fc3f643836955aaf05d,False, cmake var missed previous commit 1175, , ,None
+248,f66bc6306735c13c654f0d6c7f7580cb28bfa216,False, adapt addition namespace cccorelib file 1173, , ,None
+249,d2a30bd344e5170d0d2dc27d9722b325ddfdf32e,False, turn autogen needed 1168 need run auto tool prevents link warning, , ,None
+250,9ad251ba0514b4f9a642d6dfe59933fafe2177df,False, build gamepad support 1171 ... except linux necessary library available ubuntu 18.04, , ,None
+251,e45a0ca468f377cb9584961bd447b996f42c2405,True, merge pull request 1169 cloudcompare fix_syntax syntax fix change cclib namespace cccorelib,https://api.github.com/repos/CloudCompare/CloudCompare/issues/1169, ,None
+252,66852d2fdbc17bcd4f8e3985132f7acf1d8b8ba4,False, syntax fix change cclib namespace cccorelib commented code, , ,None
+253,c0d70103fed76004999e47755f465eb3c755f2e0,False, adapt change compiler definition cccorelib 1167, , ,None
+254,0a8661c788076daefef8b2591a49c51c064005a2,False, adapt change namespace cclib cccorelib 1166, , ,None
+255,2a3c52b17735a309f27db36454efcfd57260f0f9,False, update ccconst namespace 1165 also turn double version compilation try avoid many failure seems bug github action, , ,None
+256,c4d850dd05fcc584ac82dd2253aad8af409d0ef7,False, add funding.yml donorbox add nice button top repo skip, , ,None
+257,4d148a1a3874d7b6b2ade3274c5713d62ef48f3e,False, graphical segmentation tool cause visibility issue 1163 fixed point disappearing graphical segmentation caused passing rgb value opengl function expecting rgba code review use 3ubv rather since color using fixed alpha anyways, , ,None
+258,f5a0c9fd788da26450f3fa488b2cf0e4a08d255f,False, fix cmake option passed cccorelib 1162, , ,None
+259,7ffc133cb279d3f6622a7ac518a8f7be335bf418,False, switch ninja window 1161, , ,None
+260,d215ca9da41beaaf2a48231f47650bbeaa1c1c96,False, cmake move define quad buffer top level 1160, , ,None
+261,4aedfead38f645c8fb51688bbc90df2155ed0af0,False, cmake remove policy cmp0020 linking winmain 1158 linking winmain explcitly required using cmake 3.0 http cmake.org cmake help v3.10 policy cmp0020.html, , ,None
+262,927a3d3cd2964f6ab76cc2f6c8607d75e9764d7b,False, cmake use module path instead relative path find cmake plugin template 1157, , ,None
+263,ee7a0c0c914d52bcb0ee8c05862b6a5f078f92e5,False, cmake general cleanup 1156, , ,None
+264,5f5045c22a16c4ecc952652f81d786d107c2ba12,False, cmake formatting comment 1155, , ,None
+265,305010d330139866350dab7b18019c3d5e138180,False, cmake cleanup qcc_io 1154, , ,None
+266,2b45d3b2272965e7ddc34db761c2b1371add4b02,False, cmake cleanup qcc_glwindow 1153, , ,None
+267,388b0282f3bb7a15dfd88d2267067a39402c4fc5,False, cmake cleanup qcc_db 1152, , ,None
+268,d14b57c98bd30d47d5d0080b394274ef3ac1cad4,False, cmake cleanup ccfbo 1151, , ,None
+269,04ba8f32fd60dbcf5d6f5a241018696f38217991,False, cmake move remaining file contrib cmake directory 1150, , ,None
+270,f18808ddb112843b91b9a07c9a21222b4af4da51,False, cmake move qcustomplot libs rewrite cmake file 1149, , ,None
+271,6e3606fd2ea3b42138b731897b212b158e82e94b,False, cmake clean dxflib shapelib 1146 move extern rename dxflib directory remove version number move .cmake file cmake directory default clean place linked cmake file need add compile defs includes part target, , ,None
+272,72f5c682a5bd1203d55984344bffbcf1894c7a3a,False, replace internal cccorelib submodule 1143 cccorelib life http github.com cloudcompare cccorelib, , ,None
+273,4e965a0bf1f672fd0a47315e05b567d08016a80d,False, russian translation file updated, , ,None
+274,3276eb32272c0a28ade5327d611b179189bf6ce7,False, updated translation file, , ,None
+275,ffd19dccb733f84763ea823eb384bbe935d759c9,False, change required cmake version 3.10 1141 also remove sprinkled throughout necessary controlled top level, , ,None
+276,eb9eaec0928e7f4e02dda6522a2bdaf20e79343f,True, fix assert cccolorscale 1139 signal hooked first channel updated colour scale updated fired assert m_updated cccolorscale solution construct everything hook signal update channel also save lot extra updating combo box would trigger update channel fix 1136,https://api.github.com/repos/CloudCompare/CloudCompare/issues/1136, ,None
+277,f69cbba7e3d4fd80a447bcafee2f97a4a029b0d7,False, reorder init fix warning fix indentation, , ,None
+278,a0ec82117d079c36daff800f714ec7179b0ccf8e,True, merge pull request 1135 cloudcompare colour scalar bugfixes colour scalar bugfixes,https://api.github.com/repos/CloudCompare/CloudCompare/issues/1135, ,None
+279,4cbd492f7de6453cf4b7d1859f873df25d520c5d,False, two new command line option remove_rgb remove_normals, , ,None
+280,55faa3bd15b93f5d958e11120b789955ae22bcfe,False, fix license cclib file 1138 mistakenly added cclib gpl rather lgpl copyright project andy daniel modified choosing relicense lgpl skip, , ,None
+281,52c8a9723683ae1eb8fb49126fa1e28f3d3e9e1d,False, e57 need find link xerces done libe57format 1137, , ,None
+282,f84192b9edc9ca71e128cec33fb7096f1b03c305,False, optimisation avoid recalculating histogram time startup longer recompute min max scalar field kept date, , ,None
+283,7eee3ecaf88273e7503af2afefa8cc632d75ef7e,False, fixed alpha bug use cccolor fromqcolora rather cccolor fromqcolor, , ,None
+284,ff9c740ff36985a2a1266d7267fd284ad23ebd95,False, bugfixes fixed following bug histogram refreshing recalculating scalar field changed histogram recalculated needed slider position resetting every time setting e.g reversed changed histogram, , ,None
+285,e385135f4d16bf20403dae579c2db6dfbedfaf29,False, cmake move thing around order make sense small cleanup include ctest build_testing comment use consistent method using var foo vs. foo, , ,None
+286,978a907e7feb2210a420d7565bfa44b0b5583fc2,False, replace static method enum value 1134, , ,None
+287,ebe93b6fd4aa3a2629ce7f249df38067cb3a61d6,False, remove warning, , ,None
+288,d1a9ce77dbb0a300ab51ccd85021949d2cdb2ff6,False, build 1133 also add optional ccache capability faster rebuilds, , ,None
+289,fa3903b8e8ea239db540b0e3ea33c1e5e1f1a5b3,True, merge pull request 1129 cloudcompare master modification,https://api.github.com/repos/CloudCompare/CloudCompare/issues/1129, ,None
+290,2c639b09c1e8f73f8d77219901a388bc9babf386,False, cccompass move lineation foliation importing code file 1130 also refactor dialog code remove duplication, , ,None
+291,8db6f21fea739d03417a19643d5016d68632521c,False, add error handling, , ,None
+292,be4b540c44e664519224189156dec48fcb85abc8,False, use forward declaration clean includes 1131, , ,None
+293,7ae3e1ba028bde6fb6695178065b402960b1ae68,False, code review, , ,None
+294,b48859aaa83e22898c1d2c7c0c75eb5d8e00efdf,False, cccompass move csv svg xml exporting code file 1126, , ,None
+295,75dbb734b7bed46a4d6d46bfceb09b36c0335f67,True, remove invalid assert based slack discussion sam path actually valid case fix 1125,https://api.github.com/repos/CloudCompare/CloudCompare/issues/1125,not_yet_confirmed,None
+296,c45614ecf8e711f3820b0d91adfbf86b5a924164,False, code review, , ,None
+297,224f13d60d2d64ca3a2087faac8851677ecf8771,True, scale spin box increment percent total 0.01 minimum fix http github.com cloudcompare cloudcompare issue 1107,https://api.github.com/repos/CloudCompare/CloudCompare/issues/1107,bug,None
+298,8271924aaa3278c544894e6f382c4555616d785c,True, fix 1110 fix 1116 fix 1117,https://api.github.com/repos/CloudCompare/CloudCompare/issues/1117,bug,None
+299,cd4657789fe2600d6b4b02d71b2e24ed40a27576,False, add visibility axis set inside class without replot redraw turning visibility added option skip refresh resize event allows client class refresh manually specific client need modify associated scalar field refreshing, , ,None
+300,fda358580833a68c005a7b3938895f96f82d5e1b,False, update readme.md fix minor detail skip, , ,None
+301,c3a9f5f07e570f7e28ad5f80878bf5d9fa02e307,False, update version 2.12 alpha, , ,None
+302,5b9b94e36275b4c50c3bc40582e18a55fca74d82,False, use class member instead inheriting 1128 meant moving dialog code new cpp file also added nanoflann hough normal header header list included dependency, , ,None
+303,6a44f5f3523e1afd6379eafcf9725567b441d529,False, store last value sfinteractors restore refreshing display reduce flashing resizing window, , ,None
+304,961109ed74ca97e6b62f65baf1be0e284735cde6,False, use anonymous namespace var structs 1127 also remove unneeded includes, , ,None
+305,89c9c3b58e8cf2bb1041ada7fa9aa5f48a5d6d43,False, use class member ccsorfilterdlg 1124 one required change main window using field directly added accessors, , ,None
+306,0f5c81959588a52793c9e3277007672b55af0bf2,False, use class member instead inheriting rename one method 1123 renamed getproba getprobability, , ,None
+307,f98fe25d98cbfdc1b742b8079db07a7e1af941a3,True, merge pull request 1122 cloudcompare fix camera sensor fix cccamerasensor bounding box,https://api.github.com/repos/CloudCompare/CloudCompare/issues/1122, ,None
+308,435d3483ac2833ea74d278737682032e73ef7471,False, add fine grained control interaction mode 1119 add flag let enable one none interaction tool histogram window also turn min max display requested sam, , ,None
+309,5b7980059a34a5a31a4190920d68009f178369fb,True, update qcustomplot 2.0.1 1118 required one fix qcustomplot would compile change line 6925 qcustomplot.cpp fix 892,https://api.github.com/repos/CloudCompare/CloudCompare/issues/892,enhancement,None
+310,02e689f69f4a52aeaf5ef4369a6e7fcdfecee8eb,False, fix cccamerasensor bounding box, , ,None
+311,80b02b9c3e0f09608851223b0405effed87b3c1c,False, header cleanup 1120 use class member instead inheriting remove unused includes use forward declaration, , ,None
+312,d2e5507293296a9df19a0a42cad45aaa33cc2d36,False, updated pointer libe57format submodule, , ,None
+313,c86e438c191c78b0954e6876eb1de30a1fa000ac,False, make histogram fill look smoother 1115 also remove unnecessary include header, , ,None
+314,0d2fbae0a15291fedb00e8cbae8d72af49b34328,False, move rgb table allocation statement required either case, , ,None
+315,f51ec7e75a2322b051aeb3af8a0be6197a426663,False, update remaining qt4 style connects qt5 style also remove old slot keyword header, , ,None
+316,a83bb08c7b5d62d6d5a29c92600fc24958f27bb1,False, use visual studio generator window get parallel build, , ,None
+317,f66f6fd6e837e6b8ac78066618c4418c37c58beb,False, header cleanup use class member instead inheriting remove unused includes use forward declaration, , ,None
+318,a5a6fe92ad68643191d709bb57360251504bebfa,False, use class member instead inheriting, , ,None
+319,a440549bc4ca4c307f82c439d53d3eee08a4eafa,True, fix crash color scalar dialog color table initialized 1109 fix 1106,https://api.github.com/repos/CloudCompare/CloudCompare/issues/1106,bug,General
+320,8cbbfc4a9cc78f83d7eedb71bcde1313f7241854,False, fix memory leak, , ,Risky_resource_management
+321,c0b1a24d5046e62f77af28677b2753795430a200,False, fix spelling file name icons.qrc, , ,None
+322,09fd490b71b74c5010dde397052765772741de13,False, header cleanup 1103 remove unused includes use forward declaration use specific std header, , ,None
+323,7a8b0e993e6cec15d5ad557681e583e3d9dc21be,False, increase default histogram window size 800x600 1102 also avoid extra layout parenting cherry picked commit, , ,None
+324,1e555919daedf6706905a1adeabe42a30e1452b7,False, adjust layout color scale dialog 1101 macos version giving much room histogram making difficult work maximize space histogram take removing padding margin etc change default height dialog 800 pixel also fix memory leak cherry picked commit, , ,Risky_resource_management
+325,3159f2e8885c8d47a2d5dcb658aebaa6660d4256,False, doc cleanup changelog v2.11 skip, , ,None
+326,4518be0997929f51f781bd56337cdc4bd3aa5b8b,False, macos fix plist property reason using set working working file shrug cmake add set_target property also move .icns file mac specific directory rest plist stuff, , ,None
+327,3691d68807f7fc4b9e2f3bfd4914fd690bf30aa3,False, update included nanoflann code v1.3.1 1100, , ,None
+328,afc4771fa55a9416846199305f5a3166bba3de7d,False, update included shapelib code v1.5.0 1098, , ,None
+329,671d091c38054ba7b455eb7f575249b9d775aeac,True, merge pull request 1097 cloudcompare attempt add skip github action,https://api.github.com/repos/CloudCompare/CloudCompare/issues/1097, ,None
+330,b194c35d7871536ecd0e2d70b2a74d8418d6a52c,False, attempt add skip github action testing skipping like travis skip, , ,None
+331,7f832506a938f84423c788641e155f77e0edd38f,False, fix githubactions badge link default markup suggested github action link badge file updated clicking badge corresponding action skip, , ,None
+332,5534e4ed87bd67b3d9faa5e80b2b022ba66ad3a4,False, update libe57format submodule, , ,None
+333,c855de25dd25ea238ccbf4d3735d1a7aef8216da,False, add github action build status badge readme 1095, , ,None
+334,37b9dc3898e41bee6110fea38c53508d44208740,False, fix ransac shape error 1094 see http forum viewtopic.php 4432 20348 p20348, , ,None
+335,1f81276dc7b427b2bc2ddc917f5467fa2df5cddd,True, fix crash quit facet plugin showing stereogram 1092 need use global one instance plugin globals bad fix 1091,https://api.github.com/repos/CloudCompare/CloudCompare/issues/1091,bug,General
+336,d1db5bd13b26da88836dd607b731dffd259a70d0,False, small glitch fix csf plugin iteration stop criterion changed, , ,None
+337,b5e5dcbb88b82b63c656e6f5ac89b7696bffc5dd,False, macos disable openmp checking since cause build issue handling openmp macos wait future release, , ,None
+338,6cb5b2baf5c0d4da9210b988a0551727ae76775a,False, fix length array reading writing outside 1089, , ,None
+339,2fb11501d257c0f03701564833f8e560c8eb622e,False, add colormix tool 1086 added tool build rgb colour multiple scalar field edit color scalar field, , ,None
+340,a9592700e944710f409423d556a33b33bad59b27,False, cmake cleanup use 1087 instead set_property target project_name append property foo use cmake method project_name public foo also several place collapsed multiple one call, , ,None
+341,fafaf9552e3c8479f418bf2f4e8a68037a5a4cd0,False, write correct value mtl transparency 1088 follow 1059. inversion occurs save time, , ,None
+342,e2804cc55399eb871f9d350b28347babd0e04f48,False, cmake move macos specific stuff main cmake file 1084 extra fix_libs.sh script longer required cgal header, , ,None
+343,b66a2185233d2344e00614a064163af496a92477,True, fix translation menu item translation specified country 1083 es_ar spanish argentina show menu fix 1078,https://api.github.com/repos/CloudCompare/CloudCompare/issues/1078,bug,None
+344,e16094b1c0241a4d94f3b19fbb07c1b93d904b94,False, cmake replace standard cmake way 1079 add path remove relative path includes, , ,None
+345,9a236c3c379a67588585240e332cf6225ad48ffc,False, updated translation file, , ,None
+346,e3b134d0e46b7a0c53cb0db9e958d21fcb61b738,False, fix command line internal error message show keyword properly, , ,None
+347,2455a2cdca7e32e863063ffb7c4aa9609b8b21ea,False, add h_export_fmt command 1076 add h_export_fmt set format hierarchy object exported command line modified exportentity support new option code review mostly adding around single statement loop wrapped message name qobject code review remove extra trailing spelling item spelling code review code review code review, , ,None
+348,a0c72fa898909ab3838ba5a2e340927ff5b0ce6e,True, merge pull request 1074 cloudcompare unroll_meshes feature unroll action unroll mesh well,https://api.github.com/repos/CloudCompare/CloudCompare/issues/1074, ,None
+349,ede8163b78c3afa7c963ac84d87c1f682a5acecd,False, feature unroll mesh take, , ,None
+350,679990ea67f3557d7359224c522b9e46de4c5b80,False, feature unroll action mesh well, , ,None
+351,e29c11dff2fb289ab2ebbe48e97dff256cd3c7dc,True, merge pull request 1073 cloudcompare plugin fix alloc issue ransac_sd plugin,https://api.github.com/repos/CloudCompare/CloudCompare/issues/1073, ,None
+352,303def43838a96e62d4e85b882db8524ecbaeaae,True, merge pull request 1072 tmontaigu github action osx window add build osx window using github action,https://api.github.com/repos/CloudCompare/CloudCompare/issues/1072, ,None
+353,8e9b0e294ec99dc829a829b48bdbb47a56512c68,False, plugin fix alloc issue ransac_sd plugin size align parameter inverted aligned_alloc call a_malloc call size align align size commit fix definition a_malloc accordingly, , ,None
+354,132e8fe2085279ad56b44f09963d3e940b646bc1,False, add build osx window using github action conda package manager get dependency qpcl doe work mac clang doe openmp qransac_sd doe work mac aligned_alloc available since c11 standard stdlib.h header available clang apparently added aligned_alloc standard clang support build enabled probably add old custom aligned_alloc implemented osx target http github.com cloudcompare cloudcompare commit, , ,None
+355,53d2c52573102f6c4c59c802ee46d4365ef460b9,True, merge pull request 1071 wargodhernandez commandline ransac fix,https://api.github.com/repos/CloudCompare/CloudCompare/issues/1071, ,None
+356,b7a417f180dc95468b68fdd5eb7ac15659f0dc95,False, fix issue save failing due invalid naming convention fix issue individual shape cloud saving original cloud instead sub cloud, , ,None
+357,ad37fa7d7d000329bb700b5ce9e41e6083ca5feb,True, merge pull request 1070 neroburner beta fix rdbio plugin compilation 2.11,https://api.github.com/repos/CloudCompare/CloudCompare/issues/1070, ,None
+358,165e31bb8fd0bac0a5eb229b7f04d89d263d9af6,False, riegl fix rdbio plugin compilation 2.11, , ,None
+359,3f4b4cdb7b03d3a99f46759599500b043459df8f,False, style use default appropriate 1069, , ,None
+360,f7db7d04265e730718d9dbfa462cda54d3d9590e,False, style change zero nullptr 1068, , ,None
+361,bf1d4ef59970bac2e9c75bb986b8bafac3d51f4c,False, style one declaration per line init thing 1067, , ,None
+362,6dfed09cd281742c8e5af18ce9e9d2013f8d0bbd,False, add missing override keyword, , ,None
+363,d1683f22e08ed4f7290ac03f13cd43d4fb476646,False, style one declaration per line init thing 1066, , ,None
+364,95cbbe0037dd33569bee4f29feacdfadbd703c9f,False, style one declaration per line init thing 1065, , ,None
+365,db0b568bea3f8aec4006b7ce6247eb12050ab0a5,True, merge pull request 1064 cloudcompare space tab format convert space tab,https://api.github.com/repos/CloudCompare/CloudCompare/issues/1064, ,None
+366,06030c30d0d207cd4fd6a6be4b4ab8e285d1d136,False, format convert space tab fix, , ,None
+367,9e6e0e63f98a50b23f4287a94b8e5f9c90010563,True, merge pull request 1063 cloudcompare multiple decls style one declaration per line,https://api.github.com/repos/CloudCompare/CloudCompare/issues/1063, ,None
+368,3bae4c67eb5812e85e7fc85cb788917171ea2032,False, style one declaration per line, , ,None
+369,e131dff63763cad9799e7321696d9c5ffdeeee54,False, style change remaining zero nullptr 1062, , ,None
+370,a632500691705e47957ca07ba7d772d312742711,False, improved laslib support, , ,None
+371,6c2993ae62263c0a1ba890ff2de1e69c70714240,False, obj invert transparency 1059 fix mtl material library obj loading transparency declaration correct rather declaration signed laurie laurie_opperman hotmail.com, , ,None
+372,66f6a1c43f70fa5fd0d3ff307ccc67599c948111,True, merge pull request 1057 cloudcompare fix default priority compiler issue gcc clang,https://api.github.com/repos/CloudCompare/CloudCompare/issues/1057, ,None
+373,23dbe63853388e84e660e71dad1891b8fe6c662b,False, fix compilation issue gcc clang, , ,None
+374,29f0b7f0271b4a9acbcf826b29d588d615120534,False, revert reverting previous syntax make gcc clang happy reverts commit, , ,None
+375,bf58d23830b4cae81558f1d6ecf7a08e8720036c,False, reverting previous syntax make gcc clang happy, , ,None
+376,f67fce2c84b3882f947fcb7fdb15dc8d886475ee,False, todo list updated, , ,None
+377,a7e01e4c236e18a9a3be6616da6d7b8d7853ec2b,False, syntax, , ,None
+378,688de1bf254948c7e4edc7958150871684840dd7,False, glitch fix image filter format wrongly constrcuted automatically detect format filter image file jpg png etc, , ,None
+379,31d88aa0ebc94f3cfc708150c601dd8a3e131ff4,False, build enable pcl plugin travis 1056 build enable pcl plugin travis fix cmake change requires use cmake 3.12, , ,None
+380,38f5b3be38048a7f36fc0064c88e9360935ce409,True, merge pull request 1054 josegoncalves master avoid possible buffer overflow binfilter,https://api.github.com/repos/CloudCompare/CloudCompare/issues/1054, ,Risky_resource_management
+381,e763f18cdd8f4295c7b86ef79e349a2e156c5f37,False, avoid possible buffer overflow binfilter, , ,Risky_resource_management
+382,99a83f4c1c54f59fd40c373504bc0a1532791be2,False, build reog travis 1052 remove duplicate dependency remove useless deps libfreenect, , ,None
+383,759e8bc7090be77066419a43025b4f2d5465753d,False, bug fix test done wrong way, , ,None
+384,5883a0db8866397d9345123c49840861efdd0426,False, use ubunutu bionic add qpdal plugin compilation 1045 use ubunutu bionic add qpdal plugin compilation bionic 18.04lts needed xenial 16.04lts distrib doe pdal repos add jsoncpp add json_root_dir pdal_version 2.0.0, , ,None
+385,8bf76eaa49eb5f87d6ce05a97909e6f4c2a24857,False, prevent crash cloudcompare quits trying release pcl plugin dialog, , ,General
+386,8f4cc8abfb697a820f32feef02a41ea2c207623c,False, feature computation simple eigenvalue 1st 2nd 3rd added, , ,None
+387,11eff23917177b6cbb4834fb3f6f303b73c7a2a1,True, merge pull request 1047 cloudcompare fix picking issue due high unique,https://api.github.com/repos/CloudCompare/CloudCompare/issues/1047, ,None
+388,d2b17f06c1b64b207ab846638a46d35d6fe51b11,False, add reserved, , ,None
+389,8b3daeda9c3376a4296ac6596533a0f7fae5cf48,False, add support custom unique ccpolyline ccpointcloud, , ,None
+390,a6b098b4ab0f6bd18f3f2062cb13122e49ab5c43,False, fixed spelling, , ,None
+391,0e1536e346418fdf83917481951f5fcb3250f520,False, option set unique entity handle care auto generated unique start minuniqueid 256 new list reserved cloudcompare reservedids.h clipping box entity ccclipbox first entity rely mechanism, , ,None
+392,d15c435b68298dfd648837ab3a5b37afa6c85ea8,False, clean warning qransac plugin 1048 cut excessive warning compiling qransac clang warning cleaned replace auto_ptr std unique_ptr clear gcc unused return warning, , ,None
+393,e12c48c7ba40d256c7d56f548586567dc66a360d,False, remove old code, , ,None
+394,0c4561547c13d895497e2d8ff3c9b6423bf35281,False, slightly better way handle old especially rare case duplicate, , ,None
+395,d26059e171d05d557f81087315c276474f037f61,True, merge pull request 1046 tmontaigu qpal fix ubuntu add json_root_dir pdal_version 2.0.0,https://api.github.com/repos/CloudCompare/CloudCompare/issues/1046, ,None
+396,55a0793e429128aec079fd6d16e1a61dee274f0d,False, fix indent, , ,None
+397,94c8210229f46e0782108a55afad0fd25c9af552,False, add json_root_dir pdal_version 2.0.0, , ,None
+398,5d4fb8cf6ef2bef845913a1378a2eca5a5a8ed26,False, ransac bug fix 1043 prevent two bug reject shape minimum support point count sure made ransac lib shape come back point even minimum 500 size plane could negative ccplane work negative size thing like plane edit dialog handle negative size also name plane set otehr plane property manor main app consistant experience add ransac plugin use c11 aligned_alloc instead custom _aligned_alloc, , ,None
+399,1e9f12f11a3c721a6a77023370827b7b243923cf,False, avoid increasing unique highest loaded avoid picking issue due high, , ,None
+400,42203ddcda49a169b10cfe8b6d340548f53ff582,True, merge pull request 1040 cloudcompare rgba_colors moving default color point vertex rgba,https://api.github.com/repos/CloudCompare/CloudCompare/issues/1040, ,None
+401,e6698b47311223a85023798e872ec8787ee2bd59,True, merge pull request 1041 wargodhernandez ransacpluginmod ransac compilation arm,https://api.github.com/repos/CloudCompare/CloudCompare/issues/1041, ,None
+402,29410881b585ebd9cc8bf6d9823bc227afd65f18,False, fix build scalartype double also fix scalartype ccrenderingtool, , ,None
+403,d7749295864d6cbdcf56b374d18c672dcbb82e72,False, updated changelog file, , ,None
+404,6e79665bb1bdb8abca43bc91d967cf84a2fbb1a6,False, 2nd pas function renamed alpha component also changed text label default material mesh also displayed transparent color warning sorting triangle yet, , ,None
+405,13dcc8cb91501c0956444efc018274aa9297f605,False, vs2019 default cmake build install path build install, , ,None
+406,9e0f5e65719d8d9f583c6e71192753cf4cc81b1e,False, simplify glenable gldisable call, , ,None
+407,771293e1c1b49f616d002e505c33d51338be1023,False, allow set transparency via edit color set unique edit color colorize method, , ,None
+408,4b09181013223b2bb683dc29eec3fb49b4920632,False, rename function, , ,None
+409,533be9d5768a90891df549581101bfc6ade9402f,False, ransac compilation arm, , ,None
+410,d77f02ef6703cca0d491d92fb7beee2a03ca27e0,False, moving default color point vertex rgba, , ,None
+411,eac62cf4add517492b669da113c910c13829f8cc,False, histogram display based qcustomplot support flat range min max, , ,None
+412,203d75622fc8308adf16af5e4fd7dd0b1cc2a776,False, impossible case seem possible ... handle assert case effective way, , ,None
+413,e8194157be89ae7d44f7af20aa7ce87fd3a59a37,False, glitch fix always rely std vector capacity since seems equal even vector resized size, , ,None
+414,601cd1701282438766bc8eb9391c85a1fa55b9c3,False, even simpler way fix memory leak, , ,Risky_resource_management
+415,976245c5decd06d058f9f340e6bb8649a4ca26fa,False, fix memory leak, , ,Risky_resource_management
+416,f313c40b7ce222f69e39100ff73d33872226a4f4,True, merge pull request 1036 wargodhernandez ransacpluginmod ransac plugin modification,https://api.github.com/repos/CloudCompare/CloudCompare/issues/1036, ,None
+417,c7353d25fa05659d7b54ec6dfbcca449dab41073,False, code review cleanup, , ,None
+418,03ed4327b75ea5707930cca4e3ca178aebbfe00b,False, merge branch master ransacpluginmod, , ,None
+419,94cb50901fa84af41b47e018e38f94463489c63e,False, create sub cloud partial clone input cloud carry scalar field, , ,None
+420,23e447606636b9b625fc7807a9f3ea3b90bd4c36,True, merge pull request 1038 tmontaigu qpdal cmake fix remove json cpp qpdalio plugin,https://api.github.com/repos/CloudCompare/CloudCompare/issues/1038, ,None
+421,638e4a4b9832f4a3184c90c83f9030d14cae9618,False, remove json cpp qpdalio plugin never used display warning cmake generation, , ,None
+422,0a35c5be2f9a768800b2447bc76af4c7be1ce754,False, fixed console message error displaying wrong command text status update, , ,None
+423,a73ee9338d208d67a8d304c7d11fb926766cd9c1,False, handle directory filename requirement qransac, , ,None
+424,9ebbf5136c9c56ef86543a1706ff0755b1c5ca88,False, added command line info ransac, , ,None
+425,c2d4a47e9bed4e08d5c3b09da39ca89bc4401079,False, keep track primitive item count add filename, , ,None
+426,84720f5558ba60c399f44098a3e944140caef472,True, merge pull request 1035 smortvedt master fix polyline special case,https://api.github.com/repos/CloudCompare/CloudCompare/issues/1035, ,None
+427,24ee6f1050deefb887a5fc7cff3929104e74962e,False, missing null check added made params structure const ref, , ,None
+428,309e4e61cbe69fb9f4a3e03f7b41539914770128,False, added command line mode ransac doe function need work around naming returned primitive supporting group export rather primitive primitive, , ,None
+429,c26e40c8cd06c505147ba50a650d4d9edd036e52,False, update changelog, , ,None
+430,6e8db9831b61ed73a9bd19e8d3f5da8de5e52851,False, update mainline, , ,None
+431,19eb9ef65c869feae630872ddb6b460e5fbf8d62,True, merge pull request cloudcompare master update mainline,https://api.github.com/repos/CloudCompare/CloudCompare/issues/7, ,None
+432,3fad9de7e0f1da0dad9dca0830991ba1a9da848f,False, remove warning, , ,None
+433,e9a1e200ee95a3a9c502dbd0d6d0ad535730ec66,False, reduce cmake warning setting new policy explicitly everywhere cmp0020 cmp0071, , ,None
+434,c257059c8c11b4fe8c9aad5a20f53038e356c681,False, let made cclib cmake script let compiled independently always choice propagated rest project, , ,None
+435,f8015877fd1c012a13d97e30e74b8332c4fc9dcd,False, make getcellindex public allows determine whether given cell present filled octree, , ,None
+436,d0eb258bb5b57ae3df5de35119e63d8b1fdb48a0,False, initial work towards decoupling ransac gui make available commandline scripting, , ,None
+437,324d991e40125a34d23c329f3074ac0cfb067551,True, merge pull request cloudcompare master update mainline,https://api.github.com/repos/CloudCompare/CloudCompare/issues/6,Linux,None
+438,f0f7092efdca4876462fe327247cc5a0fdfc8764,False, fix polyline special case, , ,None
+439,368efa7b1e73fcab2b3be2eac0a7f98d367d97bb,True, merge pull request 1031 smortvedt master translate along rotate around arbitrary vector,https://api.github.com/repos/CloudCompare/CloudCompare/issues/1031, ,None
+440,200fe61731a7907db986967c95f6078b0f87f48d,False, fix header file add gltransform line translation update, , ,None
+441,13b38fbc79bdaa7f7e8875dd477c34590d2e0ca8,False, add entity unselection apply cancel, , ,None
+442,13bc921470cec05a638d486e0b2ad9ea13b814d6,False, handle rotation translation child reference object reference object m_totransform, , ,None
+443,8a28e5006551d84ff48b4b4db6d5b50742eb07dc,False, remove groupbox radio button caused layout issue manage toggle state slot, , ,None
+444,3d874d45616d3f46bb861152f26c542848fb3a82,False, align mouse move reference plane frame, , ,None
+445,d1642f15252d1b462d387c6e323cec1bee384810,False, entering beta mode last, , ,None
+446,0af037322fe515826f8ccb47e542232052ed3d14,False, fix facet plugin file name stereogram tool facet plugin new high contrast color scale default, , ,None
+447,8f378b14d4147a2bbf71e960452a2b81ffdf6d6a,False, new default color scale brown yellow yellow brown topo landserf high contrast, , ,None
+448,7fc50a9b81ce6933e4ba591ca6396fb2fd26eeb5,False, sbf file format slightly updated accomodate scalar field shift backward compatibiltiy maintained format descritpion http doc wiki index.php title sbf, , ,None
+449,a9293526e73010ed06bb7c99f8bd61a6f1d2f605,False, 1.3 1.4 filter improvement option save scalar field extra byte load extra byte scalar field proper minor version setting proper header size, , ,None
+450,401c387f0a992078c9950633864f890072defab3,False, fix compilation, , ,None
+451,baa9cef64dce579c1e0e25d8e8387c15a7168268,False, attempt improve gamepads detection connection, , ,None
+452,82e19650d77be2a7f42a0676672c0ad012878f20,True, merge pull request 1033 tmontaigu fix qlasfwio wip select correct version_minor depending point format used,https://api.github.com/repos/CloudCompare/CloudCompare/issues/1033, ,None
+453,6e5f9f17414866094f96a9061f447b668da5701a,True, select correct version_minor depending point format used fix 1012 also corrects save dialog path changed standard lasfilter moved plugin,https://api.github.com/repos/CloudCompare/CloudCompare/issues/1012,not_yet_confirmed,None
+454,c50e163d4aabb2e15a27f9805d5296387eca184f,False, bug fix data could lost merging two cloud fwf data, , ,None
+455,a34005a817454f3c6a357a972e78a81b53b1b972,False, add rotcombobox enum change int size_t, , ,None
+456,eb626dc14a216d275dffd107dfffd26bbe6cc929,False, cast overloaded signal int instead using qoverload, , ,None
+457,66098be55d1e1a66090e6469011406bfab34e238,False, code cleanup, , ,None
+458,58c8212a6f0e8162576c80b0f31d87d9894f87e2,False, add adv rotate functionality, , ,None
+459,61f128d95218a12d565186da6fb982c0e4bc9f57,False, bug fix c2c c2m distance crashing called command line tool delayed invocation causing strange behavior command line mode since slot called progress dialog displayed later trying compute real distance, , ,None
+460,5a4b89e8a936887541c469d33f98f5f19a08f8ce,True, merge pull request 1030 tmontaigu ply error callback ply use error callback give feed back error,https://api.github.com/repos/CloudCompare/CloudCompare/issues/1030, ,None
+461,add22fe9addadf0262353560216d455b249917f0,False, ply use error callback give feed back error, , ,None
+462,5ce4626bf2fe4e19f7c1a75b3c75c9d644c7bb80,True, merge pull request 1024 tmontaigu save global encoding uuid save global encoding project uuid metadata,https://api.github.com/repos/CloudCompare/CloudCompare/issues/1024, ,None
+463,6ed2a02ef20a6e315123f0794d487f8212f44afa,True, merge pull request 1028 balazsdukai patch classic snap confinement instead strict,https://api.github.com/repos/CloudCompare/CloudCompare/issues/1028, ,None
+464,43f43596970311c6ec237455bbc83916d3fed106,False, classic snap confinement instead strict proposal use classic confinement instead strict data source directory resides outside user home possible access using strict confinement, , ,None
+465,ad5378186897be807eda16bfd51cf36720cd457e,False, glitch fix according e57 specification bounding box local, , ,None
+466,c24de8d35ef80991ac2120e6e60976d814c41281,True, merge pull request 1025 wargodhernandez master add double version vector3tpl calculation,https://api.github.com/repos/CloudCompare/CloudCompare/issues/1025, ,None
+467,81643b36f895e35ad2f96f842f291d480245314e,False, modify advanced mode adv translate working adv rotate yet functional, , ,None
+468,856e7b9d4d42775ee87e757b23df5cabc08093a4,False, added double version function return type listed angle_radd vnorm2d vdistance2d vnormd vdistanced vangle_radd, , ,None
+469,87d9ed732354a188520150972b80ee919cbdfabd,True, merge pull request cloudcompare master updating mainline,https://api.github.com/repos/CloudCompare/CloudCompare/issues/5, ,None
+470,a008e932e1072edbb8bcfe3ccf2c4bf9f0f38067,False, todo list updated, , ,None
+471,8ad37d5477dbbcb6b7cd3a02ff755f5664af747b,True, merge pull request 1022 wargodhernandez distance computation result enum,https://api.github.com/repos/CloudCompare/CloudCompare/issues/1022, ,None
+472,03b37d66685a1821f9e19eee6f57256d2fda8f31,False, save global encoding project uuid metadata, , ,None
+473,1d317ef6182527552d76b79d73f63c1c0278fb50,False, make advanced translate mode fully functional, , ,None
+474,2e43dbf1e33d3a5a18e982e87e8791ebac0a9536,False, add advaced translate mode yet functional, , ,None
+475,33d7766361f38dddec8592464c413b3303f47f6c,False, translation along arbitrary working manual vector input, , ,None
+476,6fff79da37f88353bd043e909ecf4f3c883c7159,False, store file wkt string directly avoid losing information case proj.4 conversion fails, , ,None
+477,8601581dd4bf5f17cd0be45a441e04f2b4ef3ac7,False, syntax fix, , ,None
+478,ace5bc39547a9999c5de9ad0872d9d8009de734e,False, laslib filter las_fwf_io plugin also accepts load file point inside, , ,None
+479,2929496d2d31b261c311ff1fad32453158bcb8ff,False, forgot pas along canceled user, , ,None
+480,dbccc50aab25bf487db266b94f9722590f08fe7b,False, wherever possible used enum cleaned code style adding brace space added error check appeared missing, , ,None
+481,e0bf8c00e249b7e73751cca28095bde29bec613c,False, added enum, , ,None
+482,10301927799453e116fd11c4bd7b33fdbef0d2ec,True, merge pull request 1021 wargodhernandez master minor distance related improvement,https://api.github.com/repos/CloudCompare/CloudCompare/issues/1021, ,None
+483,d6a3bdab6f316dfe37fae20e04a4e95409ff0a9f,False, fix setenabled added selection statement, , ,None
+484,d7b317ced33915684449d1f3065d9ae4d4860908,False, stop clang using integer std used instead, , ,None
+485,37d2ff5a0763fcdd0b37dae53a8733d1ae5141d5,False, merge branch master http github.com wargodhernandez cloudcompare, , ,None
+486,a38b71275bcbd80e42857efbf6183f85f617e7c3,True, merge pull request cloudcompare master update mainline,https://api.github.com/repos/CloudCompare/CloudCompare/issues/4, ,None
+487,e0259cb9c9ae6b2f3ac07eda53d326098d41c738,True, merge pull request 1020 smortvedt master add cloud2polyline primitive distance calculation,https://api.github.com/repos/CloudCompare/CloudCompare/issues/1020, ,None
+488,e9d6dc1807e0fba7deacdcde672c4083356e09d7,False, prevent divide zero, , ,None
+489,68c353328910dbf52d31d21c9452114b7600eaec,False, add flippednormals false, , ,None
+490,2b0887eef899966553f223c030e70459d71ff486,False, init distsq nan_value instead infinity, , ,None
+491,f989b7f5f107af3beaca8887c0971dcc2ce870f8,False, add cloud2polyline primitive distance calculation, , ,None
+492,cef29e3ffa4500aaa407c6fd671d56256156f757,False, new command line option registered, , ,None
+493,32a989ca225a886d57ae575c5896fb659012f7b3,False, slight precision improvement casting double prior subtraction, , ,None
+494,ecb9b06a15784252f5e1b853229309f50f0ab55e,True, merge pull request cloudcompare master update mainline,https://api.github.com/repos/CloudCompare/CloudCompare/issues/3, ,None
+495,1826d99b60b6caf7eab9e5570079ae25c7fdd223,False, new edit normal export normal method command line equivalent normals_to_sfs, , ,None
+496,94a6a3aed6f3b6cc6ade354f370710f9a572b168,False, add cloud rectangle cloud box primitive distance calculation 1015, , ,None
+497,5f91311778b54511c53baa0268ad020f3dcec258,False, fix connexion issue wireless mouse device, , ,None
+498,b4b16e87138df5157cc2783bf025ead6689430e9,False, slight improvement creating plane via plane edition creation dialog, , ,None
+499,2353e2104c12548b55d326e9f75c16ea3ad0f4cd,False, plane edition dialog improved precision, , ,None
