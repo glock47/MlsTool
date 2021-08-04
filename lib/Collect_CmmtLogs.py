@@ -396,7 +396,7 @@ class Collect_Issues(Collect_Research_Data):
 
         cdf = pd.read_csv(cmmt_file)
         issue_file = System.issue_file (repo_id)
-        if or os.path.exists(issue_file):
+        if os.path.exists(issue_file):
             return
                 
         print ("[%u]%u start...commit num:%u" %(self.repo_num, repo_id, cdf.shape[0]))

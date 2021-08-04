@@ -13,7 +13,19 @@ class ApiInfo ():
     def __init__(self, Id, Langs, ApiType):
         self.Id = Id
         self.Langs = Langs
-        self.ApiType = ApiType 
+        self.ApiType = ApiType
+
+class SmItem ():
+    def __init__(self, Id, Url, Langs, ApiType):
+        self.Id       = Id
+        self.Url      = Url
+        self.Langs    = Langs 
+        self.ApiType  = ApiType
+        self.VulNum   = 0
+        self.RemNum   = 0
+        self.IibcNum  = 0
+        self.PdNum    = 0
+        self.GenNum   = 0
 
 class Sample():
 
@@ -82,8 +94,8 @@ class Sample():
 
     def CheckLangSlt (self):
         LangSet = []
-        for repo in self.Samples:
-            Id = repo['id']
+        for SamIt in self.Samples:
+            Id = SamIt.Id
             Ai = self.ApiInfo.get (Id)
             Ls = self.GetLangSelt (Ai.Langs)
             if len (Ls) == 0:
@@ -99,8 +111,8 @@ class Sample():
 
     def CheckApis (self):
         ApiSet = []
-        for repo in self.Samples:
-            Id = repo['id']
+        for SamIt in self.Samples:
+            Id = SamIt.Id
             Ai = self.ApiInfo.get (Id)
             ApiType = Ai.ApiType
             if ApiType in Sample.LANGINTR_SET:
@@ -131,16 +143,13 @@ class Sample():
 
     def GenSamples (self):
         ScFile = "Data/StatData/Samples/Samples.csv"
-        Header = ['id', 'languages', 'api-type']
+        Header = ['Id', 'Url', 'Langs', 'ApiType', 'RemNum', 'IibcNum', 'PdNum', 'GenNum', 'VulNum']
         with open(ScFile, 'w', encoding='utf-8') as CsvFile:       
             writer = csv.writer(CsvFile)
             writer.writerow(Header)  
-            for smp in self.Samples:
-                Id = smp['id']
-                Ai = self.ApiInfo.get (Id)
-                ApiType = Ai.ApiType
-                Ls = self.GetLangSelt (Ai.Langs)
-                writer.writerow([Id, Ls, ApiType])
+            for SamIt in self.Samples:
+                row = [SamIt.Id, SamIt.Url, SamIt.Langs, SamIt.ApiType, SamIt.RemNum, SamIt.IibcNum, SamIt.PdNum, SamIt.GenNum, SamIt.VulNum]
+                writer.writerow(row)
     
     def Smapling (self):
         TryNum = 0;
@@ -155,8 +164,9 @@ class Sample():
                 RId  = random.randrange(1, 16777215, 1) % RepoNum
                 Repo = self.RepoList [RId]
                 Id   = Repo['id']
-                
-                if self.ApiInfo.get (Id) == None:
+
+                Ai = self.ApiInfo.get (Id)
+                if Ai == None:
                     continue
 
                 if IdDict.get (Id) != None:
@@ -166,15 +176,16 @@ class Sample():
                 CmmtNum = self.GetCmmtNum (Id)
                 if CmmtNum < self.CmmtNum:
                     continue
-                
-                self.Samples.append (Repo)
+
+                Langs = self.GetLangSelt (Ai.Langs)
+                SamIt = SmItem (Id, Repo['url'], Langs, Ai.ApiType)
+                self.Samples.append (SamIt)
                 
                 Sn += 1
                 if Sn >= self.SmpNum:
                     break
 
             if self.CheckValid () == True:
-                self.GenSamples ()
                 break
 
         self.GrabCmmts ()
@@ -232,10 +243,11 @@ class Sample():
         
         IssueCmm = 0
         Index = 0
-        for repo in self.Samples:
-            RepoId = repo['id']
-            Url    = repo['url'] + "/issues/"
-            print ("[%d][%s]Retrieve %s" %(Index, RepoId, Url) )
+        for SamIt in self.Samples:
+            RepoId = SamIt.Id
+            ISUrl  = SamIt.Url + "/issues/"
+            CMUrl  = SamIt.Url + "/commits/"
+            print ("[%d][%s]Retrieve %s" %(Index, RepoId, ISUrl) )
             Index += 1
             
             SampleCmmts = []
@@ -245,13 +257,13 @@ class Sample():
             for index, row in df.iterrows():
                 Cmmts = {}
                 Cmmts['No'] = CNo
-                Cmmts['Sha'] = row['sha']
+                Cmmts['Url'] = CMUrl + row['sha']
                 Cmmts['Valid'] = False
                 Cmmts['Message']  = row['message']
 
                 Msg = str(row['message'])
                 if row['issue'] != ' ':
-                    IssueUrl = Url + row['issue']
+                    IssueUrl = ISUrl + row['issue']
                     Cmmts['Issue-url'] = IssueUrl
                     
                     Tag = self.GetIssueTag (IssueUrl)
@@ -264,7 +276,20 @@ class Sample():
                 else:
                     Cmmts['Issue-url'] = ' '
                     Cmmts['Tag'] = ' '
-                Cmmts['Category'] = CCm.ClassifySeC(Msg)
+
+                Category = CCm.ClassifySeC(Msg)
+                Cmmts['Category'] = Category
+
+                if Category != 'None':
+                    SamIt.VulNum += 1
+                    if Category == "Risky_resource_management":
+                        SamIt.RemNum += 1
+                    elif Category == "Insecure_interaction_between_components":
+                        SamIt.IibcNum += 1
+                    elif Category == "Porous_defenses":
+                        SamIt.PdNum += 1
+                    else:
+                        SamIt.GenNum += 1                    
                         
                 SampleCmmts.append (Cmmts)
                 CNo += 1
@@ -272,5 +297,7 @@ class Sample():
                     break
             print ("\tDone...[%d/%d]"  %(len (SampleCmmts), CNo))
             self.GenSampleCmmts (RepoId, SampleCmmts)
+
+        self.GenSamples ()
         print ("Total %d issue-Commits found!!" %IssueCmm)
         
