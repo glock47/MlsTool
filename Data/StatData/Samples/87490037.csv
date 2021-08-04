@@ -1,0 +1,501 @@
+No,Url,Valid,Message,Issue-url,Tag,Category
+0,https://api.github.com/repos/commaai/panda/commits/74eebb828c0b11205a6fa18082883415e2cf941f,False, resource stm 696, , ,None
+1,https://api.github.com/repos/commaai/panda/commits/863993dab9c20aef416e48be3a2c295b4b15bca1,False, refactor 695, , ,None
+2,https://api.github.com/repos/commaai/panda/commits/7157175bd41b69d2767c0ef0bfef114638bbca8a,False, uart.h refactor move uart_send_break lluart.h 693, , ,None
+3,https://api.github.com/repos/commaai/panda/commits/aaad0c28657d2a9ee3d0420fd891e7deb5f20939,False, refactor flasher 686, , ,None
+4,https://api.github.com/repos/commaai/panda/commits/da8a76f1b321605b38800cbcd79835d2156c57ad,False, deprecate bcddevice legacy mode panda lib test 692, , ,None
+5,https://api.github.com/repos/commaai/panda/commits/9f781e9e7ee0068abbdda9f8f33b81e287fcefd1,False, abstract 690, , ,None
+6,https://api.github.com/repos/commaai/panda/commits/11b6d90cd4572d90321f2b9de193d0d720ec1b98,False, move dac.h hal 691, , ,None
+7,https://api.github.com/repos/commaai/panda/commits/1c498c9e05fb3802315af29506800513472cf05c,False, deprecate variable bcddevice usb.h 689, , ,None
+8,https://api.github.com/repos/commaai/panda/commits/b98e3deb76ab20ca1c0430a709b4f8a3ffbb3ca7,False, remove can_set_obd 687 remove can_set_obd can.h replaced local board set_can_mode, , ,None
+9,https://api.github.com/repos/commaai/panda/commits/a019b9bf4a683c78ac84ea52faf44b0571d20e68,False, move tesla back debug dashcam brand, , ,None
+10,https://api.github.com/repos/commaai/panda/commits/eab9c9ee4c3528c65aaeaec8986fabe8807ead4e,False, hal refactoring part 682 move harness threshold move interrupt handler timers.h refactor rtc.h refactor pwm.h fan.h refactor clock_source specific refactor uart.h macro naming minor fix redo rtc, , ,None
+11,https://api.github.com/repos/commaai/panda/commits/062b2715e2d2ecf94556bd948eb20743add042fd,False, set heartbeat lost car safety mode 684, , ,None
+12,https://api.github.com/repos/commaai/panda/commits/3815bf8f41931f957c3cdeeb9cf628109368b110,False, also pulse sensor sync 683, , ,None
+13,https://api.github.com/repos/commaai/panda/commits/afd999b283f68607458fdfb52f8297b275b07e66,False, uds fingerprinting development tool update 681 wip uds development wip uds development wip uds development propitiate mypy update example update example authored adeeb shihadeh adeebshihadeh gmail.com, , ,None
+14,https://api.github.com/repos/commaai/panda/commits/7f12eb87b70a2bc7a299bf3b0f03f3a1c093f655,False, fix identifier, , ,None
+15,https://api.github.com/repos/commaai/panda/commits/b2986180a89b1163766f92dae117c6e480578a64,False, add python lib, , ,None
+16,https://api.github.com/repos/commaai/panda/commits/ada4f7e177b13bdd1979cc93410019d885da883f,False, add pedal test 680 add pedal test organized unittest linter import ignore none serial force dfu check softloader mode pin jungle commit add silent mode pedal move pedal serial const split full path canhandle revert adding silent mode pedal improve increase timeout pedal test, , ,None
+17,https://api.github.com/repos/commaai/panda/commits/7d93e5a2025225a10dcd690fb1dae6379137a288,False, refactor hal 656 let refactoring begin fix pedal build fix pedal safety test forgot tim2 instance try way misra misras ... misras ... still fighting misra blindfolded almost got last misra error last misra error misra work locally maybe look like cppcheck bug revert change suggested change reverts file structure change revert includes remove space remove timer delay ending typing rename early remove delay_us revert rtc default value revert initialization sequence fix quote revert return tim6en alias slow timer tick_timer refactor file structure remove definition panda abstract timer fix include tick_timer_init split usb driver move stuff adc move stuff usb fix include ... check pedal build also locally move stuff move stuff clock rename common peripheral move move board hal change include needed pedal llgpio gpio new line fix remove board_has_relay used remove add board struct move include misra ... has_hw_gmlan typo move include shuffle abstraction fix path fix cppcheck test fix pedal build usb, , ,None
+18,https://api.github.com/repos/commaai/panda/commits/f3568254436f8e05942b93fc3baf9fdb05ce4322,False, add pedal check panda lib 678, , ,None
+19,https://api.github.com/repos/commaai/panda/commits/9ad4ef5556347e74ef2d3596b92608630e258800,False, add baudrate property flush method better compatibility 677, , ,None
+20,https://api.github.com/repos/commaai/panda/commits/b2d28a7123806ee84321e8606def43a7df26ad4b,False, fix misra 8.2 violation 675 fix violation 8.2 update cppcheck remove inline suppression change source upstream, , ,None
+21,https://api.github.com/repos/commaai/panda/commits/35b9df464336e290ee3068ccff9be7c7af2fa6a2,False, enable siren heartbeat lost 674 enable siren heartbeat lost fix misra, , ,None
+22,https://api.github.com/repos/commaai/panda/commits/6eeb6a44f7a7fc4c1b557f807603f662ae868f91,False, add safety param control elm327 bus multiplexing 673, , ,None
+23,https://api.github.com/repos/commaai/panda/commits/d8385413c3ecc59799f0909c7384f385a71c4431,False, new tesla safety 629 wip new tesla safety fix misra add unit test use instead angle sensor change brake message fix cancel safety violation fix bus cancel message add support autopilot passthrough fix cancel message fix test check fails fix build fix build cleanup add back status check bus check dumb try add route replay cleanup authored willem melching willem.melching gmail.com authored comma device device comma.ai, , ,None
+24,https://api.github.com/repos/commaai/panda/commits/d7b3ae02824fe67f88ee408e0d7540c1ec5bceab,False, extra check honda bosch longitudinal 662 allow tester present ensure radar sending message cleanup add honda flag constrain tester present message exactly authored adeeb shihadeh adeebshihadeh gmail.com little endian authored adeeb shihadeh adeebshihadeh gmail.com, , ,None
+25,https://api.github.com/repos/commaai/panda/commits/78c24982a92443e89a509af46ed1b07c0ef8b425,False, remove non eon panda build 671 remove non eon panda build missed fixup readme readme simplify add usb command disable heartbeat check debug mode clean cleanup fix path disable heartbeat set_safety_mode red remove one eon ref, , ,None
+26,https://api.github.com/repos/commaai/panda/commits/4c57ebd9288a26b4988f02cd8028ef81083d4d7e,False, fix possible null ptr dereference 670, , ,None
+27,https://api.github.com/repos/commaai/panda/commits/eccafa3712d6da703756c5c3eff9a8237351ecb7,False, fix misra 20.x violation 668 fix 20.x missed one, , ,None
+28,https://api.github.com/repos/commaai/panda/commits/736ff9699f6f13b68850e56fa9f3e17113702cb3,False, fix misra 12.x violation 667 fix misra 12.x typo, , ,None
+29,https://api.github.com/repos/commaai/panda/commits/6b6262c2625059fba7f3fd8b0cc58121570ca076,False, fix misra 9.x violation 666 fix chapter fix typo, , ,None
+30,https://api.github.com/repos/commaai/panda/commits/1fdc3c98db7a68401b494814cb3cc2180b3b336e,False, fix mirsa 7.x violation 665, , ,None
+31,https://api.github.com/repos/commaai/panda/commits/ddc25b0611a7ed7e5fe13baec983ea7b363ea968,False, update cppcheck misra suppress 663 update cppcheck misra suppress add fixme suppression tag missed one spot, , ,None
+32,https://api.github.com/repos/commaai/panda/commits/2da5ea3e4ee0639abc5ea0c27880b62292680949,False, fixup broken link reference readme 661 fixup broken link remove reference defunct eon gold dashcam devkit update readme.md update readme.md authored adeeb shihadeh adeebshihadeh gmail.com, , ,None
+33,https://api.github.com/repos/commaai/panda/commits/d7a82efbf5e46acea61b314638fd0ccae7445261,False, fix bug get_flag macro 660 quick bug fix llcan.h update board driver llcan.h authored adeeb shihadeh adeebshihadeh gmail.com authored adeeb shihadeh adeebshihadeh gmail.com, , ,None
+34,https://api.github.com/repos/commaai/panda/commits/ad12330d506ca31fe16f99a5b5aca76aab8a1ec9,False, hyundai add gas pressed signal hybrid 655 detect safety param get gas pressed phevs misra guideline else action use explicit safety param update full test coverage full hyundai gas press test coverage panda date update commit need check need rednose work without override _gas_msg method class update safety define okay misra like convention better convention fix bump openpilot master simplify add non legacy check authored adeeb shihadeh adeebshihadeh gmail.com, , ,None
+35,https://api.github.com/repos/commaai/panda/commits/3cf5b473c8fbfa1aace023b387a8177a6366a312,False, fixups 657, , ,None
+36,https://api.github.com/repos/commaai/panda/commits/e99d41e6cf43ecb6bdc69f190532493d270f19aa,False, add flag health inidicate heartbeat loss 654 add flag health inidicate heartbeat loss fix len, , ,None
+37,https://api.github.com/repos/commaai/panda/commits/f96514621435928a7f843172d78db0115d50c813,False, honda bosch add alt brake msg check 649, , ,None
+38,https://api.github.com/repos/commaai/panda/commits/54b12251dc9b4c8d878447b2a061474ca2be8a9c,False, fix typo, , ,None
+39,https://api.github.com/repos/commaai/panda/commits/22556b1ddfc0e4b5c71406ce78668f99ebed4c67,False, fix health python, , ,None
+40,https://api.github.com/repos/commaai/panda/commits/9a82ba389289ead742212b2acc654342207298e4,False, disable interrupt early 641 disable interrupt early enable interrupt going dfu mode, , ,None
+41,https://api.github.com/repos/commaai/panda/commits/a65c45d5e7597d85347bddcd3e4435800f434b46,False, uds.py fix typo response description, , ,None
+42,https://api.github.com/repos/commaai/panda/commits/d6225226acb4c71a936e090bb8b363e7b25d3904,False, fix panda connect macos, , ,None
+43,https://api.github.com/repos/commaai/panda/commits/7d9fdd1108ae1c8136a527d1369d25bb890783fb,False, toyota whitelist lta message 638 toyota whitelist lta message lta safety simple test little test misra, , ,None
+44,https://api.github.com/repos/commaai/panda/commits/c416419c162c3ac9f52ff1868d6d691c2a57a0ce,False, hyundai tcs13 checksum 623, , ,None
+45,https://api.github.com/repos/commaai/panda/commits/d6d928125b7f26003aae64be9bb1a89fe76c6b8f,False, sconscript requires .elf, , ,None
+46,https://api.github.com/repos/commaai/panda/commits/0716851508d9113dd04066864f9539687d186775,False, add back requires parellel build, , ,None
+47,https://api.github.com/repos/commaai/panda/commits/27b4b57566e9340df10bde19f18561ac4caef132,False, trigger rebuild git hash change, , ,None
+48,https://api.github.com/repos/commaai/panda/commits/729b4db3697bc113098e009fe637fe62babf22bd,False, fix linux utils bus numbering 637, , ,None
+49,https://api.github.com/repos/commaai/panda/commits/a3b95dc26dbe5cf649e0db4ac0b0e17451eecb76,False, hyundai whl_spd11 checksum 622 whl_spd11 checksum update comment, , ,None
+50,https://api.github.com/repos/commaai/panda/commits/596344e48b2db750c88f2167f4d3f11b41de656e,False, build libpandasafety scons 639 build libpandasafety scons remove makefile fix, , ,None
+51,https://api.github.com/repos/commaai/panda/commits/f146aa367b82f041b4eadcaab0bb2fc79e388b94,False, recover.sh dont fail panda already dfu mode, , ,None
+52,https://api.github.com/repos/commaai/panda/commits/4906dc7b220c672fc61119354f4bbc89fccf07df,False, sconsfile add proper require gitversion, , ,None
+53,https://api.github.com/repos/commaai/panda/commits/e53148d4c7637091043b1dda6680623b8eca8008,False, update board readme.md switch scons, , ,None
+54,https://api.github.com/repos/commaai/panda/commits/ad9ecefe65ce4ea7bcaf3bfe692ee2a3fc6b0b63,False, switch panda scons builder 635 add scons builder cleanup remove building python code add pedal build fixup flag add eon flag change github action scons fixup automated test move flashing script fix indent remove version.mk fix git fix linker script filename untested pedal flashing script add release option better asserts swap condition enable usb fix flash script usb flash supported use button enable dfu mode usb misra remove sleep, , ,None
+55,https://api.github.com/repos/commaai/panda/commits/d572c012cb9f3f421d1556b37a1d3f18b5366b06,False, add safetyparam health 633 add safetyparam health move copy together, , ,None
+56,https://api.github.com/repos/commaai/panda/commits/9108b82fb0d5578f4f405be095729f30cc785285,False, mqb updated message signal data round 632 eps_01 lh_eps_03 bump openpilot commit ref made echo test stable update python 3.8.5 revert bump openpilot commit ref reverts commit 75ec1a0c bump openpilot commit ref bump openpilot commit ref update fixed torque signal name signal naming fix round fix authored robbe derks robbe.derks gmail.com authored adeeb shihadeh adeebshihadeh gmail.com, , ,None
+57,https://api.github.com/repos/commaai/panda/commits/f3cf165be0d76859a74b011a5a80ef368aa0ffdf,False, bump openpilot, , ,None
+58,https://api.github.com/repos/commaai/panda/commits/1fceab1ead8c16ea0fbf702ec307e31aef55cc70,False, update python 3.8.5, , ,None
+59,https://api.github.com/repos/commaai/panda/commits/08eec1696080adb6bd3954ab183a2536699a90d4,False, made echo test stable, , ,None
+60,https://api.github.com/repos/commaai/panda/commits/3bb0408ee62a983d54f9eab78c13cc1ee54703f4,False, add support variable uds offset 631, , ,None
+61,https://api.github.com/repos/commaai/panda/commits/0ae2be95a114269b12e039eabf0a563c1ca32ece,False, fix usb power mode 628, , ,None
+62,https://api.github.com/repos/commaai/panda/commits/e7a5bf85412883cc49a35be6521ccac2bb9502b7,False, ignore everything vscode, , ,None
+63,https://api.github.com/repos/commaai/panda/commits/f2446c35d63102976ef245da8fcfc9b9dc46b3cd,False, move gmlan_alt tim12 fix concurrency issue pwm 627 moved gmlan_alt tim12 forgot stuff, , ,None
+64,https://api.github.com/repos/commaai/panda/commits/97cd401abf9dfde65cc709fa0a51ab05b4288355,False, fix detection remove tool 626, , ,None
+65,https://api.github.com/repos/commaai/panda/commits/f71fd7b91bca5b8f2d40b56933c9b539bebd9f67,False, get value reference ranged based loop 624, , ,None
+66,https://api.github.com/repos/commaai/panda/commits/e035fa1d093cd5fa0ae9407e0419794000d16228,False, green led 0xf7 619 green led 0xf7 add python interface authored robbe derks robbe.derks gmail.com, , ,None
+67,https://api.github.com/repos/commaai/panda/commits/72d6b6de698b5d07d9f51623301d9726b2c2108b,False, nissan altima port 612 nissan altima port added bus check cruise enabled message, , ,None
+68,https://api.github.com/repos/commaai/panda/commits/9f5f437c90e604623ffe2813704d0943d6097a87,False, fix power draw 614, , ,None
+69,https://api.github.com/repos/commaai/panda/commits/6b869a63126875870afb19a0f6c9adbe7e1d833e,False, turn phone power c2s changing usb mode 611, , ,None
+70,https://api.github.com/repos/commaai/panda/commits/49c7615ed3ee663e34953e151950e523db774dc3,False, ubuntu 16.04 20.04 608 ubuntu 16.04 20.04 fix pip think pyenv installs bump python non interactive fix pyenv install python serial bump cffi fix index log build logreader dependency, , ,None
+71,https://api.github.com/repos/commaai/panda/commits/9fb584b20cbbee80aa3e4c98416da726dcd4c1f2,False, hyundai increase max torque 602 increase max hyundai torque update test threshold, , ,None
+72,https://api.github.com/repos/commaai/panda/commits/09997428f3417c6eb137dffe1b7639455401efaa,False, fixed transceiver spelling, , ,None
+73,https://api.github.com/repos/commaai/panda/commits/5e07142174e583dbdc8238315fd2f76cd1651b0d,False, remove reference missing image image missing due readme update http github.com commaai panda pull 568 commits, , ,None
+74,https://api.github.com/repos/commaai/panda/commits/229047d7c2938fd2c4cb2bf08ef43fb9b9b4b6dd,False, fix flash_release, , ,None
+75,https://api.github.com/repos/commaai/panda/commits/8b41ed3b81b0315a5f9c9aa0cad84bfaef91f3f4,False, deprecate esp 592 remove unused wifi test remove one bootmode esp clean remove two wifi test remove boardesp esptool esp_gps gps missed remove esptool ref remove esp cert wifi old cleanup jenkins dockerfile fix linter remove wifi ref clone panda jungle github copy always default esp, , ,None
+76,https://api.github.com/repos/commaai/panda/commits/6ae6221cf2346f1881e38696c28d097a470131c4,False, add driver build status readme, , ,None
+77,https://api.github.com/repos/commaai/panda/commits/5664a0e153375dc8085ae3714a11e67d87407707,False, bootkick 595 authored tici robbe comma.ai, , ,None
+78,https://api.github.com/repos/commaai/panda/commits/1515ec8bf5044f62dd03ba837e9439262e77c47d,False, siren 594 siren fix pedal update fault rate authored tici robbe comma.ai, , ,None
+79,https://api.github.com/repos/commaai/panda/commits/c3b02f3a74709e22f98770774e99c087ee6bc7ef,False, clock source driver 580 initial clock source implementation fix misra working still need fix board detection though always stop pulse revert board detection bodge authored tici robbe comma.ai, , ,None
+80,https://api.github.com/repos/commaai/panda/commits/1e60160a45c30507861484a8abceaeff68ce12a6,False, fix board detection 593, , ,None
+81,https://api.github.com/repos/commaai/panda/commits/f7089b71b90cced622a5ae8ec1683313569b0dc4,False, relay test, , ,None
+82,https://api.github.com/repos/commaai/panda/commits/ecef0a19d0f72d8fd3151593b7bd1a112d5f63e2,False, add safety test, , ,None
+83,https://api.github.com/repos/commaai/panda/commits/ed0621137e65a08b8dcef120fa018a14e4c71a34,False, reserve hyundai community safety mode number, , ,None
+84,https://api.github.com/repos/commaai/panda/commits/a43abcfdf5cfd7f36c1f839a134eecc85e1b1c2d,False, readme update 568 update readme update black grey typo remove buy img update later, , ,None
+85,https://api.github.com/repos/commaai/panda/commits/5954ed7df92d3cde30e1e779f94055039fa10f7d,False, build socketcan driver 588 build socketcan driver sudo doe work 20.04, , ,None
+86,https://api.github.com/repos/commaai/panda/commits/3a8430b9d5921d09947a2f8ebe622b4a00eb30ac,False, updating trail rogue gas_pressed threshold 585, , ,None
+87,https://api.github.com/repos/commaai/panda/commits/32199b2e49dcb9ac3475b3f98ed33a8853832c8f,False, replace pycrypto pycryptodome 581 replace pycrypto pycryptodome replace instance pycryptodome, , ,None
+88,https://api.github.com/repos/commaai/panda/commits/b88f96e72a72f15cbcbb0461df9b669a8971f262,False, fix linter, , ,None
+89,https://api.github.com/repos/commaai/panda/commits/8bdacca1235648ad1c291781864ca24417837705,False, make gmlan test little easier use, , ,None
+90,https://api.github.com/repos/commaai/panda/commits/caf8670cffdcbefafc4e6bb2fb61a4b8e81d64dd,False, fix uno getting detected 578, , ,None
+91,https://api.github.com/repos/commaai/panda/commits/c55e84bf5601bfdb0e6a8009d615fe8a012188c6,False, change subaru safety test use generated dbc 575 change subaru test use generated dbc update openpilot pinned commit, , ,None
+92,https://api.github.com/repos/commaai/panda/commits/52583dc289a4371e3647d06ce7f91af2ec9d4820,False, warning disabled safety mode 574 several safety mode available allow_debug flag noted doc ..., , ,None
+93,https://api.github.com/repos/commaai/panda/commits/4b576ab13d5cc5182d7540fe0a719f3408fab0d1,False, bugfix fix harness error starting car 572 bugfix fix harness error starting car fix misra violation authored adeeb shihadeh adeebshihadeh gmail.com, , ,None
+94,https://api.github.com/repos/commaai/panda/commits/b3e278755c2fe345cf9fe2c735753cce1025bb7b,False, j2534 iso14230 563 iso14230 iso9141 excluding baud init j2534 baud init disable unsupported pin select protocol update readme new installer cleanup cleanup j2534 window registry iso9141 flag make easier select dev j2534 driver update readme new installer, , ,None
+95,https://api.github.com/repos/commaai/panda/commits/390b8bce815b09ab68403c5e7ffc1f3bd7138d89,False, line baud init 565 line slow init line slow init led bit blink fix misra violation better name line method debug print match name switch timer use tim4 figure tim5 tickle faster fix bit bug add stop bit tim5 working usb return addr sent fix line reset fix misra violation blink one instead zero line baud fault type lin check use tim5 wakeup better name, , ,None
+96,https://api.github.com/repos/commaai/panda/commits/2fab502cad444ebabea51e0e0df447b4bbd45a21,False, increased pullup delay significantly maybe improve board detection stability loop ten 567, , ,None
+97,https://api.github.com/repos/commaai/panda/commits/387fd681dd193b7ef0c190f4910fd78cc7f01c08,False, usb enumeration detection fix 566 testing look fixed cleanup, , ,None
+98,https://api.github.com/repos/commaai/panda/commits/ca12a1c6603328dcb3ddbef67f158fecf245f74b,False, enable flake8 error code, , ,None
+99,https://api.github.com/repos/commaai/panda/commits/0d97b6d4eb00f9a30b9be5c9a0a56ed14ed22726,False, safety test ensure msg car blocked 521, , ,None
+100,https://api.github.com/repos/commaai/panda/commits/31f8a0d862f699d0d06593085aa16a8cd657bccc,False, line fix 559 enable uart interrupt update debug print python3 improve kline function fix checksum line wake conforming kwp2000 fast init fix timing toggle line together default line wakeup using timer flipped fix misra compliance, , ,None
+101,https://api.github.com/repos/commaai/panda/commits/1e6854eb8f36b629ceebd6fa871eecd7acab3cb0,False, fix ignition logic 561, , ,None
+102,https://api.github.com/repos/commaai/panda/commits/5b1494514042721b63f71254700ddcf94dbbd9c7,False, abstract check gas brake relay malfunction 556 abstract gas brake relay check toyota mazda subaru honda nissan chrysler rename revert, , ,None
+103,https://api.github.com/repos/commaai/panda/commits/e13774ba8c36297d7213fe41690f8f120ff43c23,False, remove unused msg toyota safety, , ,None
+104,https://api.github.com/repos/commaai/panda/commits/086be906d7de453bb76ca4470eadd16ca8968550,False, add test route hyundai legacy subaru legacy safety mode 558 add subaru legacy route safety replay hyundai legacy routet push, , ,None
+105,https://api.github.com/repos/commaai/panda/commits/abb229c9e7a25418db7e2eee8308de15ffb496af,False, add gas signal hyundai 555, , ,None
+106,https://api.github.com/repos/commaai/panda/commits/63fe9f73c3fa3d699138a28b78976b142bdf0bc4,False, kline_ll_recv return byte, , ,None
+107,https://api.github.com/repos/commaai/panda/commits/d0442fd1e45589880c12b27c8a744cd1f540f540,False, add hyundai legacy safety mode 554, , ,None
+108,https://api.github.com/repos/commaai/panda/commits/d6668fe4ef1cc2c568e18200ad284e4c5fef7358,False, turn fan panda enumerated receiving heartbeat 553 fix linter turn fan panda enumerated receiving heartbeat upped, , ,None
+109,https://api.github.com/repos/commaai/panda/commits/abeafb6256562172cb80e4e455afcc007ffddbd5,False, fix linter, , ,None
+110,https://api.github.com/repos/commaai/panda/commits/5d6fcbb422fa6fca59aecc39df2d2a80ed740ae6,False, gmlan harness test, , ,None
+111,https://api.github.com/repos/commaai/panda/commits/74c607f79acd2baace27265f763480af75496dac,False, isotp_send fix bus add slow mode, , ,None
+112,https://api.github.com/repos/commaai/panda/commits/d9e32986c2281ae9820d01decb0d7fa1abacffd8,False, update dockerhub token, , ,None
+113,https://api.github.com/repos/commaai/panda/commits/b2c86eb66b916194b44aa89460a37b90bdb5a9dd,False, subaru safety refactoring 532 update subaru safety message add subaru preglobal driver torque limit fix preglobal desired_torque fix subaru preglobal torque rate limit message readability update desired_torque fix preglobal test subaru safety refactoring added missing legacy check updated test remove subaru_global check test reorder legacy constant remove subaru_init update subaru legacy safety test match dbc scaling factor remove scaling factor torque_driver change preglobal driver torque scaling factor change driver torque factor fix preglobal dbc name fix subaru legacy safety test update openpilot commit init valid one line, , ,None
+114,https://api.github.com/repos/commaai/panda/commits/76f347165f0bd6cc8e96f4a4641ecfd2ebcb10a2,False, gate subaru legacy safety mode behind debug flag, , ,None
+115,https://api.github.com/repos/commaai/panda/commits/f993e66b994e4717b10b736e536299e52d5ab6da,False, tool dependency, , ,None
+116,https://api.github.com/repos/commaai/panda/commits/9eee6ca556f2ce2cfb63071994efee7c03f29d54,False, update safety test dbc change, , ,None
+117,https://api.github.com/repos/commaai/panda/commits/70e39040b48601cb8de571b81cf4ac88b918bae2,False, push docker registry master, , ,None
+118,https://api.github.com/repos/commaai/panda/commits/35bff5db51e55878cf838a4e23ae552f98a7fe7d,False, speed misra test 552, , ,None
+119,https://api.github.com/repos/commaai/panda/commits/6848c7576b5ab2b0944e7e0d37ce856242ce673d,False, use flake8 config openpilot, , ,None
+120,https://api.github.com/repos/commaai/panda/commits/20eb68b17901df31ba7b808463c636081e606284,False, add pre commit hook 551 add pre commit hook revert misra coverage table fix coverage table exclusion, , ,None
+121,https://api.github.com/repos/commaai/panda/commits/e0a706e4f013b69253f300eeeda3a60915e10adf,False, stricter pylint 550 stricter pylint add argument, , ,None
+122,https://api.github.com/repos/commaai/panda/commits/a38925a0a4f1aae10e8f4d8f81770e96022a8739,False, fix newer compiler figured broke yet 549, , ,None
+123,https://api.github.com/repos/commaai/panda/commits/d7f7b141181c290e8ceb982a69e0f5729532c67f,False, enable almost flake8 check 548 fix w391 e262 e703 w293  e231  e225  e252 tab tab e701 uds.py almost e265 left sure triggering commented code ignore esptool, , ,None
+124,https://api.github.com/repos/commaai/panda/commits/3d5a7179b05bf91f167e0c7ddb52da0c84f3e852,False, fix whitespace opening bracket, , ,None
+125,https://api.github.com/repos/commaai/panda/commits/f70ef291f9e27c545de76bd3e57b15a5daabd8a9,False, whitespace fix, , ,None
+126,https://api.github.com/repos/commaai/panda/commits/eba113cb677b53b868f166dd2437347698b1341e,False, backslash redundant bracket, , ,None
+127,https://api.github.com/repos/commaai/panda/commits/8039638482ebedb9cd10cb1eac083631919ac95e,False, fix linter complaint unexpected space around keyword parameter equal, , ,None
+128,https://api.github.com/repos/commaai/panda/commits/275e76c2b2f9206c82990fe7ba0a6a96ecb8a0bc,False, fix linter complaint many blank line, , ,None
+129,https://api.github.com/repos/commaai/panda/commits/9102c16118171597abf6cb7b9dee99b557f7eee7,False, two space inline comment, , ,None
+130,https://api.github.com/repos/commaai/panda/commits/49ffbe99f65e64d23d27d9d3e37f68bc2368dccd,False, disable non universal check hyundai safety, , ,None
+131,https://api.github.com/repos/commaai/panda/commits/3a85f4c25ca5f555bbf576b16d94f5a54a3b8b6c,False, use whole route running safety replay cli, , ,None
+132,https://api.github.com/repos/commaai/panda/commits/098f47a5b4c3b8a593ba4407c494684c9fe8ba31,False, fix leaf brake check 547, , ,None
+133,https://api.github.com/repos/commaai/panda/commits/b8267341a15feed3308870b91255a5d4de842df9,False, add pre commit check 545 add pre commit check untested work fix typo dockerfile add sqlite add pylintrc ignore usb1 member typo stage name move requirement, , ,None
+134,https://api.github.com/repos/commaai/panda/commits/339976c3caecc817dd890b3abe4f035c50c2d942,False, document message address better 543 document message address better comment scc message, , ,None
+135,https://api.github.com/repos/commaai/panda/commits/a618e64d1a1778f5b3ac95dcd8a41b64d1a18a3f,False, fix typing error, , ,None
+136,https://api.github.com/repos/commaai/panda/commits/9bece64e8f37895f27ca50afde9308745110f801,False, use mazda init, , ,None
+137,https://api.github.com/repos/commaai/panda/commits/08db086d5804770290836dd066339a26a7a7ee8b,False, mazda cleanup, , ,None
+138,https://api.github.com/repos/commaai/panda/commits/89658d0bde7ca6c4438c974a5999c320a7204bb0,False, mazda safety test add missing safety check 525 mazda add safety test signed jafar gharaibeh to.jafar gmail.com update mazda safety capture event gas press brake press speed lkas signed jafar gharaibeh to.jafar gmail.com customize safety test signed jafar gharaibeh to.jafar gmail.com add check signed jafar gharaibeh to.jafar gmail.com format signed jafar gharaibeh to.jafar gmail.com set lkas enable speed kph signed jafar gharaibeh to.jafar gmail.com test case speed signed jafar gharaibeh to.jafar gmail.com consistent name place signed jafar gharaibeh to.jafar gmail.com add test case lkas speed dip lkas enable speed signed jafar gharaibeh to.jafar gmail.com make sure lkas disabled signed jafar gharaibeh to.jafar gmail.com use car speed signal instead wheel speed signed jafar gharaibeh to.jafar gmail.com allow acc cancel msg gas pressed disenages stock cruise get disengaged panda need know engages enageges cruise button press commit enage logic panda signed jafar gharaibeh to.jafar gmail.com rebase signed jafar gharaibeh to.jafar gmail.com allow acc_cancel safety test signed jafar gharaibeh to.jafar gmail.com rename variable fix comment signed jafar gharaibeh to.jafar gmail.com, , ,None
+139,https://api.github.com/repos/commaai/panda/commits/bdec1398e5150bfa00a0872413603a3e2c0c5cd0,False, fix length 0x20b nissan_tx_msgs cancelling acc 544, , ,None
+140,https://api.github.com/repos/commaai/panda/commits/b48c74c2e94fda21792c7afe8832a2e03e29a2bd,False, adding uno automated test 538 added uno automated test longer wait uno resetting increased wrong timeout fix locally, , ,None
+141,https://api.github.com/repos/commaai/panda/commits/a5802cdd15c3cc262b1990ecb942a43fe29820d6,False, hyundai remove unused message check, , ,None
+142,https://api.github.com/repos/commaai/panda/commits/9ebde2535cbbe75b4b377eac553a2c9bb48854f4,False, reset state safety mode init 542 reset state safety mode init global state reset message seen misra, , ,None
+143,https://api.github.com/repos/commaai/panda/commits/d4f3f15c33009ce7e372f6b893b1766e119fbfcd,False, refactor addr check 541 refactor addr check enable willem comment, , ,None
+144,https://api.github.com/repos/commaai/panda/commits/5210e51b828af8cb208dbc0da9999448248ee198,False, remove unused file, , ,None
+145,https://api.github.com/repos/commaai/panda/commits/06570645941c33a5d83808606b0559e9943fd7b2,False, hyundai checksum 540 hyundai checksum done cleanup universal across hkg fix test fix misra, , ,None
+146,https://api.github.com/repos/commaai/panda/commits/07e668eca4b4ce21981df0f8bac7c55d87bb91bd,False, fast 539, , ,None
+147,https://api.github.com/repos/commaai/panda/commits/5307bf7277c267075aa03799c8749a60463c8804,False, fix multi message iso request, , ,None
+148,https://api.github.com/repos/commaai/panda/commits/0610ed1e251a27878b4efd945d79d8fb9aef4e5a,False, hyundai wheel speed counter actually bit spread two signal, , ,None
+149,https://api.github.com/repos/commaai/panda/commits/0d581aa5f2ef5a28f3f9e161df818d981a01d41f,False, dockerfile optimization, , ,None
+150,https://api.github.com/repos/commaai/panda/commits/eaefa2f6c7d284cee7df9b0045f420483740f95e,False, fix docker file path, , ,None
+151,https://api.github.com/repos/commaai/panda/commits/243a65f30cc057a4e046773b43a178cc3027f586,False, pull base image, , ,None
+152,https://api.github.com/repos/commaai/panda/commits/0dd9470af54f60a91bd3f54bebc9b5f6f985b144,False, push dockerhub master, , ,None
+153,https://api.github.com/repos/commaai/panda/commits/55b79b47211e99705c999bae1c65128c41ae3e87,False, github action 535, , ,None
+154,https://api.github.com/repos/commaai/panda/commits/b2c720bf40ef409b27505ae085942ae73f12e2d2,False, 533, , ,None
+155,https://api.github.com/repos/commaai/panda/commits/01bf7402401dc5e38b3172628dfb1e4491e52b84,False, remove 0x1be checksum test, , ,None
+156,https://api.github.com/repos/commaai/panda/commits/0bd06c9e0b5bcfd750cc18e92943a5217eaa295e,False, remove 0x1be check break vehicle, , ,None
+157,https://api.github.com/repos/commaai/panda/commits/c31b899a589bc1a971f1fe48bc151032b41393de,False, honda bosch longitudinal safety, , ,None
+158,https://api.github.com/repos/commaai/panda/commits/66250c41d398ad1ba2e5f55e39397ef05b1b63a0,False, disable docker layer caching 534, , ,None
+159,https://api.github.com/repos/commaai/panda/commits/6b19fa4961d5dc6e6ea77987eb3a99ce28b0f5cd,False, include nissan safety release build, , ,None
+160,https://api.github.com/repos/commaai/panda/commits/db31886ad64bfbca7db46f4ea498d18b49c22edc,False, gate mazda safety behind debug flag, , ,None
+161,https://api.github.com/repos/commaai/panda/commits/e4558c0737e95a36ec5119bbbcca94d9a6e66367,False, safety message length check 529, , ,None
+162,https://api.github.com/repos/commaai/panda/commits/869f1232186f440eb388df82b85b88d346899199,False, hyundai counter check 530 hyundai counter check fix misra add counter test, , ,None
+163,https://api.github.com/repos/commaai/panda/commits/a4390713e6a8f257715eb4b0f73f555bde79b04d,False, gitignore route log, , ,None
+164,https://api.github.com/repos/commaai/panda/commits/ac1b64e628d123ae243551e9b154c242da2dc060,False, fix ignition black panda uno 526, , ,None
+165,https://api.github.com/repos/commaai/panda/commits/273e3882fd237d0aa09175168aa81e55ab5756d1,False, initializing bus make sure also cleared 527 thanks 4vanetten 4vanetten gmail.com, , ,None
+166,https://api.github.com/repos/commaai/panda/commits/c2bea78f6d1d22c3c0bbe3aa5cae63b542d5444c,False, fix python library window 523 window supported http api 1.0 cause libusb get stuck simple try catch working prevents issue running native window python cygwined python ..., , ,None
+167,https://api.github.com/repos/commaai/panda/commits/0a123b1815f5a8b455776ed6ae7e4271d77bc729,False, , , ,None
+168,https://api.github.com/repos/commaai/panda/commits/ba6355d4c010885bf60a41dba219fcd9944563f1,False, unused line, , ,None
+169,https://api.github.com/repos/commaai/panda/commits/c9102c00ee9b94b520ed7bd99b3cdd821a33dbf4,False, chrysler use packer safety test 522 chrysler use packer safety test bump opendbc, , ,None
+170,https://api.github.com/repos/commaai/panda/commits/9874e73350198edc66c61ae53769cd15ae88596b,False, abstract steering safety test toyota chrysler 520 start abstracting torque steering test remove duplicate chrysler remove revert fix toyota unused, , ,None
+171,https://api.github.com/repos/commaai/panda/commits/2299ecffc41b97b42b435e4288e49835d38c6db9,False, block 0xe5 honda bosch panda uno allow static value 515 safety static 0xe5 pass misra test add test readd, , ,None
+172,https://api.github.com/repos/commaai/panda/commits/3517306113834d77a77552f522b53dfddfce5786,False, subaru fix steer torque scaling 501 subaru fix steer torque scaling fix legacy test, , ,None
+173,https://api.github.com/repos/commaai/panda/commits/0bc864b3d5928ea0bbb5c69e3940b7c0f0bc17d4,False, make torque based steering state global 518 use generic steering state var toyota chrysler  comment unnecessary line hyundai subaru  fix mazda, , ,None
+174,https://api.github.com/repos/commaai/panda/commits/d9355c4148c7a71b7763ad51eb42feaa8f9bcfcb,False, make global test case 519 make global test, , ,None
+175,https://api.github.com/repos/commaai/panda/commits/21153764126e0477ee457c27f614f53c1cab41d8,False, abstract sample speed test 516 car move honda update comment , , ,None
+176,https://api.github.com/repos/commaai/panda/commits/11dc9054f95344d20925cc60293e963b6849e3d7,False, remove unused function, , ,None
+177,https://api.github.com/repos/commaai/panda/commits/e5a586eea96944da75cd33ea9d0057830f18124a,False, abstract gas interceptor test 517 abstract interceptor test honda, , ,None
+178,https://api.github.com/repos/commaai/panda/commits/1dbed65e38d6f89bcd6879a3b6b9a82222ff3f98,False, safety test refactor honda 495 nidec bosch button common packer packer readability  need delete stdtest need duplicate nidec interceptor, , ,None
+179,https://api.github.com/repos/commaai/panda/commits/0632710acd922a4496472a86f56e8f9203d48340,False, base class different panda safety test, , ,None
+180,https://api.github.com/repos/commaai/panda/commits/bd98fe6031b0d831db25491f3d59a133c02c2055,False, safety test use shorter function name, , ,None
+181,https://api.github.com/repos/commaai/panda/commits/ba59ada0e95df66bcca28d858fbf2daf6a2a7e40,False, esp non white 514, , ,None
+182,https://api.github.com/repos/commaai/panda/commits/c3336180b6a7ea422c14da69eaec80d609f7bcf9,False, fix init fix 513, , ,None
+183,https://api.github.com/repos/commaai/panda/commits/884afa0ef7126f68fb304a906658152cb994d034,False, safety test refactor chrysler volkswagen 508 volkswagen chrysler cleanup, , ,None
+184,https://api.github.com/repos/commaai/panda/commits/d77b72d1691e51dedd5194ea88d97b2763c055d8,False, safety test refactor nissan 510 start nissan packer, , ,None
+185,https://api.github.com/repos/commaai/panda/commits/4c7755c4718e0775f40a5671049448eefc2f3805,False, match panda dfu entry fix make recover process 509 match dfu entry fix f07a6ee make recover process use many code code trick, , ,None
+186,https://api.github.com/repos/commaai/panda/commits/0336f625dc97c19a2db6938f11d17949e00021aa,True, pedal gas pressed safety limit 507 fixed toyota pedal gas disengage increased pedal limit limit fix safety unit test fix import fix import,https://api.github.com/repos/commaai/panda/issues/2, ,None
+187,https://api.github.com/repos/commaai/panda/commits/715b1a1695b91d01576f5104352f2a9f327502c3,False, hyundai kia genesis hkg 503 update hkg steer torque message misra get bus allow sending lfa hda message add blacklisted addr update safety replay cleanup bus check update new torque message, , ,None
+188,https://api.github.com/repos/commaai/panda/commits/6f105e827bd2a1cb2496f6bbf9fc54a886a636c3,False, safety test refactor subaru 502 subaru global kind work global packer fix legacy legacy packer bump opendbc guess docker cache, , ,None
+189,https://api.github.com/repos/commaai/panda/commits/57cc954f249d7cca68fddd73f3350ebb8a8e62a3,False, safety test refactor 504 start refactor use packer, , ,None
+190,https://api.github.com/repos/commaai/panda/commits/dd01c3b9ca8801716d6da8b235c3add229bf9a44,False, safety test refactor hyundai 505 use pandasafetytest hyundai use packer, , ,None
+191,https://api.github.com/repos/commaai/panda/commits/592c2c864d12540cd6f2501653d82a2e58995bd9,False, add support can_unique.py cabana csv format 506 add support can_unique.py cabana csv format also fix python3 issue open binary mode want text mode consolidate duplicated code fix typo caught linter, , ,None
+192,https://api.github.com/repos/commaai/panda/commits/ccf13b7afdb454429aa8539e69f642ccedb6f264,False, infinite loop init 499, , ,None
+193,https://api.github.com/repos/commaai/panda/commits/6c442b4c3387f7d946b35826c9b58115ec87a5eb,False, safety test refactor volkswagen mqb 493 pull safety test refactor prev_brake standard test abstract cruise enable disable test unused move hack get around unittest reporting skipped test, , ,None
+194,https://api.github.com/repos/commaai/panda/commits/f07a6ee7c55163c16197c7768c8eb6ee80b7e1e0,False, panda recover bootstub first 498, , ,None
+195,https://api.github.com/repos/commaai/panda/commits/8cc3a3570095ce1bfd5524a958a74f8674723963,False, remove cadillac 496, , ,None
+196,https://api.github.com/repos/commaai/panda/commits/62e4d3c36902b9c0ddc33262a17d7c0717843be2,False, chrysler fix missing button signal 490 chrysler fix missing button signal fix test, , ,None
+197,https://api.github.com/repos/commaai/panda/commits/abce8f32b108aa37ad644c0ef48755d4b7984fb1,False, safety test refactor toyota support code 491 bring toyota support code safety test refactor old test still use stdtest duplicate test fwd make linter happy fix indent fix ident fix order whitespace move common test cleanup unused comment, , ,None
+198,https://api.github.com/repos/commaai/panda/commits/500370aecddac1590540be9f49d95e2e3d32f332,False, make sure relay fault make health packet 492 added relay malfunction handling bump version fixed safety test set reset fixed test, , ,None
+199,https://api.github.com/repos/commaai/panda/commits/bc90b60f973ddf422ea78ce8fb83fbf88448694f,False, toyota use universal gas pressed bit 488 toyota use universal gas pressed bit fix test, , ,None
+200,https://api.github.com/repos/commaai/panda/commits/74d10ccd3853a3c8ff99d2d8ea031bc49cd6755a,False, fixed possible race condition 487, , ,None
+201,https://api.github.com/repos/commaai/panda/commits/a05361ebc2e67ce7999a25db0481c09e18aba8a2,False, cleanup safety_replay dockerfile 486, , ,None
+202,https://api.github.com/repos/commaai/panda/commits/fe73dcc9137d0e2ac6a22c2e64ad9c9e46a0530f,False, openpilot tool deprecated 484 openpilot tool deprecated add pycurl add dependency pycurl add tenacity add atomicwrites, , ,None
+203,https://api.github.com/repos/commaai/panda/commits/da8e00f115b970b6b2cc268181d7b0f7c414d2c1,False, message guaranteed delivery 421 wait slot clearing nak fix bootstub fixed misra cleanup added bulk write test test usb nak bulk message added automated bulk test fixed linter fixed latency test influence added timeout python api disabled write timeout bulk write test authored robbe robbe.derks gmail.com, , ,None
+204,https://api.github.com/repos/commaai/panda/commits/d8f618492b1cd2fa1daf43ec7137ed714c9b11fb,False, add iso number longitudinal limit flag comment, , ,None
+205,https://api.github.com/repos/commaai/panda/commits/6a60b78110fe7cc7cae7ff9ff58511de3e8825e4,False, touch ups, , ,None
+206,https://api.github.com/repos/commaai/panda/commits/2ce65361d6483d1357e45751b72a7af07cc5cfdc,False, comment unsafe flag, , ,None
+207,https://api.github.com/repos/commaai/panda/commits/d88013450d5e3ec62a3cb8b4fcfa2afbc173338b,False, remove well, , ,None
+208,https://api.github.com/repos/commaai/panda/commits/055ea07eea31232734c5a9cd34ce1289afc4b947,False, remove unsafe flag since implemented unclear, , ,None
+209,https://api.github.com/repos/commaai/panda/commits/4e98bbe8c91e2394018eb17edb5345e4bbe70ebf,False, apply unsafe allow gas mode car 480 apply unsafe iso accel decel limit toyota, , ,None
+210,https://api.github.com/repos/commaai/panda/commits/0c2c1494908916ce776f1eb047947329e9887049,False, fixing libusb busy error 174 detaching kernel attempting claim usb, , ,None
+211,https://api.github.com/repos/commaai/panda/commits/753c42cf567944bc68c28f25b62fbe6b0b1d35d6,False, update board mac sdk install script work clean mac 146 install pip2 homebrew part sdk script installed clean system, , ,None
+212,https://api.github.com/repos/commaai/panda/commits/b9a9ea395fd0c4d70228539db751e7d3395cf5f6,False, unsafe gas disengage mod fix test compile warning 481, , ,None
+213,https://api.github.com/repos/commaai/panda/commits/08ef92d5859e7246ea95c93fb5d0ef586c99b617,False, safety model volkswagen pq35 pq46 474 align community port 0.7.4 devel import pq35 pq46 safety work add safety replay drive pq35 pq46 unwind community port hax upstream bump panda ver update comment reduce whitespace diff reduce whitespace diff test drive uploaded propitiate misra ixnay version remove version update safety_replay drive freshen cereal ref include field used test drive remove superfluous return bypass docker caching issue, , ,None
+214,https://api.github.com/repos/commaai/panda/commits/51e0a55d6d5fce5a9edf4178baccd4b2a4e23290,False, support code unsafe mode unit test 478 support code unsafe mode test fix pre existing misra warning, , ,None
+215,https://api.github.com/repos/commaai/panda/commits/5325b62bbeac1ccb2fe0c2f73a34e5b5099d4571,False, , , ,None
+216,https://api.github.com/repos/commaai/panda/commits/7908b722440b28f0ef7bdcfdb4238ab687f916d5,False, update updating unsafe mode, , ,None
+217,https://api.github.com/repos/commaai/panda/commits/98503e8660d16e07ae155820209d253ca340bf0f,False, disable stock honda aeb unsafe mode 477 disable stock honda aeb unsafe mode honda model engaged stock aeb activate unexpected circumstance lane highway driving curve opposing traffic occurs car may brake unexpectedly honda civic loss gas pedal function may occur second honda pilot update safety_honda.h, , ,None
+218,https://api.github.com/repos/commaai/panda/commits/01b2ccbeda0ec5f9f9a1d3edb250af0c7e0ff897,False, one, , ,None
+219,https://api.github.com/repos/commaai/panda/commits/9a30265a8451e09cb7b081a33d01e95abf6cd0e6,False, weak steering engaged, , ,None
+220,https://api.github.com/repos/commaai/panda/commits/577f10b1aec356902e81a911bfcc2ba1ccfb87ac,False, added option unsafe mode, , ,None
+221,https://api.github.com/repos/commaai/panda/commits/83cf7bf4cb270e22537f31ab8ccf0e34aff75c49,False, update comment, , ,None
+222,https://api.github.com/repos/commaai/panda/commits/4556e7494c5e397e7294aec27892818c1ca120fa,False, enable unsafe mode toggle use fork choose, , ,None
+223,https://api.github.com/repos/commaai/panda/commits/de89fcdc4f6957e2cfe085d0cfd60cce745a7e36,False, nissan leaf 473 use rear wheel speed add leaf gas message add brake press check safety fix typo comparison threshold gas brake pressed add cruise enabled check fix brake pressed result use message cruise enabled detection fix typo fix test add check allow sending cancel panda add cancel command message test remove angle limit change speed factor change speed factor test remove max angle test fix test try cancel using seatbelt try different cancel message fix tx_msgs test fix fwd test, , ,None
+224,https://api.github.com/repos/commaai/panda/commits/0696730c140dfb537e3a102ee6334c334f9a087f,False, toyota add missing offset speed signal 469 toyota add missing offset speed signal let also define value macro, , ,None
+225,https://api.github.com/repos/commaai/panda/commits/5b1a8dc873a40c31f933465a070b2fcfc9086d11,False, filtering lkas hud message 468 filtering lkas hud message added nissan test_fwd_hook added nissan tx_msgs safety test authored rbiasini gmail.com, , ,None
+226,https://api.github.com/repos/commaai/panda/commits/99050f41294740949fffc919ad830cd290641fa3,False, missing nissan, , ,None
+227,https://api.github.com/repos/commaai/panda/commits/0f21b19bb3769e7c8ab8760d321aeaac23c70b0a,False, cleanup pedal nomenclature 467 consolidate gas brake nomenclature fix code test, , ,None
+228,https://api.github.com/repos/commaai/panda/commits/ceff91d3c5a9c0911230ffd11a4d5e1c1deee99e,False, standardize brake safety test 465 wip improve safety test format fix test, , ,None
+229,https://api.github.com/repos/commaai/panda/commits/04809e1329b1831b0b51ea85c4b01ff1d2af506d,False, hyundai brake check 464 wip adding brake check added hyundai brake test, , ,None
+230,https://api.github.com/repos/commaai/panda/commits/74c8ee0a7a94f90af0e7618e0abd9ca5e7e68d52,False, subaru brake check 463 wip subaru brake check finalized logic added test subaru brake check, , ,None
+231,https://api.github.com/repos/commaai/panda/commits/4ecc6b3581e29a9bf37aec38e35e9de702239624,False, cleanup avoid unnecessary bus check hook, , ,None
+232,https://api.github.com/repos/commaai/panda/commits/c7d0d5fc7b089094a2d42c21d25fbfb570d17677,False, volkswagen safety update phase 462 torque limit bump change signal acc state tracking, , ,None
+233,https://api.github.com/repos/commaai/panda/commits/43687488518a870625ee907723d74549729d7241,False, wip toyota brake check 459 toyota brake check safety test, , ,None
+234,https://api.github.com/repos/commaai/panda/commits/2ef996fd926fb20cfdbb999d6f009d6f8a290336,False, fix addr frequency, , ,None
+235,https://api.github.com/repos/commaai/panda/commits/e063b2688d71c79f072765a4b145cbb28844c6a0,False, second test fix tentative, , ,None
+236,https://api.github.com/repos/commaai/panda/commits/88e25938f5f728057df548d179dc6f5db10bdddd,False, fix test replay, , ,None
+237,https://api.github.com/repos/commaai/panda/commits/ebb88665c8b8bd8cd35305df97334cb86dca006d,False, added nissan replay test, , ,None
+238,https://api.github.com/repos/commaai/panda/commits/b2dbb504dcae0f68842bf14b7293dbf89bf3d546,False, remove toyota ipas safety code test 460, , ,None
+239,https://api.github.com/repos/commaai/panda/commits/a379faf2b09e9ce40b01ad612f62ef8667567dbe,False, white panda setup instruction 457, , ,None
+240,https://api.github.com/repos/commaai/panda/commits/11ef24bc1642e5f6787dda2c1ff6a8a3c115c24a,False, improve test 456 much thorough honda bosch test better test inheritance also fix counter test bug fixed counter remove unnecessary function, , ,None
+241,https://api.github.com/repos/commaai/panda/commits/fb02390d4c4bbcaf673703f228b85e0c2b5adb84,False, subaru checksum counter 455 added subaru global checksum counter check, , ,None
+242,https://api.github.com/repos/commaai/panda/commits/9a44499879955d7bba807b9e4fe2028ff5473603,False, fix subaru legacy torque driver bug 454 fix subaru legacy torque driver bug, , ,None
+243,https://api.github.com/repos/commaai/panda/commits/dfa6b079ded90581cb54cb5f15529018f3e1ebfa,False, separating subary legacy safety mode global 452 separating subary legacy safety mode global added explicit test subaru legacy absent, , ,None
+244,https://api.github.com/repos/commaai/panda/commits/dad5858b8cfdb26962b22dd133b0ff4643eace5f,False, chrysler add brakepress cancellation 451, , ,None
+245,https://api.github.com/repos/commaai/panda/commits/db94a5b81397c598324fef701b6a85a19cbf5cf1,False, added nissan safety 244 added nissan safety, , ,None
+246,https://api.github.com/repos/commaai/panda/commits/d7f1195d1eef4ca3f90c17e61f07d95a566f3107,False, chrysler checksum counter 450 abstract crc function counter checksum chrysler also adding checksum test, , ,None
+247,https://api.github.com/repos/commaai/panda/commits/96e535e5a0bb23b0bae26c27aff56803bc50a5f8,False, abstract crc function 448, , ,None
+248,https://api.github.com/repos/commaai/panda/commits/1b49d3e830f6d894f9daf820f956f315fd951428,False, hyundai add gas disengage test 447, , ,None
+249,https://api.github.com/repos/commaai/panda/commits/598074c192d8019d06a7a7a6e2b34119c30ace20,False, volkswagen safety update phase 445 crc counter check standstill brake check clean tsk_06 snuck consistent call _msg_esp_05 reduce scope haunted ghost misra future improved check test motion braking misra styling fix, , ,None
+250,https://api.github.com/repos/commaai/panda/commits/b2ffaae60ee73581f58b0cab757d5ac09db9dd5c,False, chrysler disengage gas press 442 add gas cancellation chrysler added regr test also add bus check chrysler already, , ,None
+251,https://api.github.com/repos/commaai/panda/commits/2ebbe3616b5c9a35e803cf45b2a2cb2fc2895c18,False, subaru disengage gas press 446 subaru check gas pressed added test freq check throttle also support yet supported pre global platform, , ,None
+252,https://api.github.com/repos/commaai/panda/commits/ccf75c456f4450f40eba86ef5206d0c18677c16a,False, volkswagen safety update phase 444 checkpoint panda refactoring update rename mqb safety test preparation refactor mqb test add missing torque test bring mqb init without crc lut setup fix acc_06 test case fix acc_06 test case tweak comment clarity drop superfluous return, , ,None
+253,https://api.github.com/repos/commaai/panda/commits/769ade0511483c4ba6e4e9a3b5380ffe50d01f13,False, harness orientation designation fix 435 fix orientation designation harness.h fix orientation designation black.h fix orientation designation uno.h fix typo, , ,None
+254,https://api.github.com/repos/commaai/panda/commits/eb5020b7a958db31c154dbf334584ef72009b9cf,False, add ability communicate bsm 433 add ability communicate bsm poll blind spot sensor 0x750 required add blindspot monitor communication, , ,None
+255,https://api.github.com/repos/commaai/panda/commits/73a60d5c9c358e9d5c24aff2f605c3ab650fc74d,False, uds clear buffer drain, , ,None
+256,https://api.github.com/repos/commaai/panda/commits/3b20804b6fd3428cb9dc64c3d5510425b24aaf42,False, uds message buffering, , ,None
+257,https://api.github.com/repos/commaai/panda/commits/d034f3e9c08130f7c933525af98e2c4ccb14b7c4,False, added option turn power saving mode 431, , ,None
+258,https://api.github.com/repos/commaai/panda/commits/82cafd10ea5f0092513eb86e26fee866df7accb0,False, allow fan control power saving 429, , ,None
+259,https://api.github.com/repos/commaai/panda/commits/186d9dcb3da68c1752472c1e82665cae61e6b982,False, fixed gmlan interrupt used tesla safety 428, , ,None
+260,https://api.github.com/repos/commaai/panda/commits/f67ec28e3fd8b3239542bada8259982061b89442,False, fix msg check non honda toyota 426, , ,None
+261,https://api.github.com/repos/commaai/panda/commits/3b35621671aaa6de3fc66d85d30e4208a77e2489,False, grey gps fix 423 fixed gps enabling eon build bumped version added automated gps test added import fixed linting, , ,None
+262,https://api.github.com/repos/commaai/panda/commits/bcd556bf763d67022ef32453557c3f18b09c0d0b,False, add udev rule bootstub udev rule reload command, , ,None
+263,https://api.github.com/repos/commaai/panda/commits/a74f85403196fa8bd3dcf3160d39b5df86a2163d,False, otp entry, , ,None
+264,https://api.github.com/repos/commaai/panda/commits/7bd01a5f040494c3132262b6901ea7a7989b5f78,False, update j2534 download link, , ,None
+265,https://api.github.com/repos/commaai/panda/commits/77a7607185a3f20c9cbc93a812c64539deba4410,False, update panda panda_health type def, , ,None
+266,https://api.github.com/repos/commaai/panda/commits/fae57ae2e365fd2be48d982e22112f21ae8e233a,False, update readme download link, , ,None
+267,https://api.github.com/repos/commaai/panda/commits/356d0e11ad31059c86646d5fea89fc449c56d9f9,False, fix redist runtime install detection, , ,None
+268,https://api.github.com/repos/commaai/panda/commits/1265aaa9b7d6e514239ec63d9a4b785ebfc8427a,False, update redist runtime, , ,None
+269,https://api.github.com/repos/commaai/panda/commits/33d02388311572c4ab3118b78fe726e5c028a4f2,False, update latest version window tool, , ,None
+270,https://api.github.com/repos/commaai/panda/commits/fed3aca0dad9806a5f0bc919907f8f362d5c3016,False, honda forward radar_hud msg, , ,None
+271,https://api.github.com/repos/commaai/panda/commits/d301a59d6452b11fc6ab9a6736edb2e200e6d72b,False, wip checksum check 403 add lag message check supported car add checksum counter check toyota honda add hook regression test, , ,None
+272,https://api.github.com/repos/commaai/panda/commits/c08b480cea7258b106ae4fa6c837329356100a80,False, separate bosch giraffe harness hook make test thorough, , ,None
+273,https://api.github.com/repos/commaai/panda/commits/38fc1d39ffd6eec587b2daf7bfa129e7abe9ba0c,False, add option clean build, , ,None
+274,https://api.github.com/repos/commaai/panda/commits/110ca0316026465c81716e57f076c7cfa9757e4e,False, remove unused param reduce technical debt, , ,None
+275,https://api.github.com/repos/commaai/panda/commits/d19fd3e6bd67114d25c059963f7c1949d99bc384,False, better differentation honda safety mode, , ,None
+276,https://api.github.com/repos/commaai/panda/commits/01244d755723f8fc63b2e99025bdbb61c61c9ab8,False, fix panda libs, , ,None
+277,https://api.github.com/repos/commaai/panda/commits/47bba700d448521387d3c3fc55186c4a0548e8dd,False, new version, , ,None
+278,https://api.github.com/repos/commaai/panda/commits/268ab9acf37c5eef6440353d069983bd6fcbcb58,False, send can_rx_errs health, , ,None
+279,https://api.github.com/repos/commaai/panda/commits/ad10c8c7eeaaea38910ee12e7d6f198af6706d61,False, get_signature return byte instead bytearray, , ,None
+280,https://api.github.com/repos/commaai/panda/commits/83ffb97f2d6cfe6c300f791d5f244a650dcea351,False, new line version, , ,None
+281,https://api.github.com/repos/commaai/panda/commits/7d9bae084a1b1086948e0336b63d11e5bc7f5ab8,False, better function name msg_allowed, , ,None
+282,https://api.github.com/repos/commaai/panda/commits/c108df4a44b07ad39342b2cce81dbc4e93ae18e9,False, bumped version, , ,None
+283,https://api.github.com/repos/commaai/panda/commits/1c6093559d6d52aaffdfcdf94c9a8312b4b391b3,False, allow dfu otp block locked yet 405 allow dfu otp block locked yet fixed misra fixed logic, , ,None
+284,https://api.github.com/repos/commaai/panda/commits/ce13938ab30c4c7326c375ef5466ce532ddb7467,False, fix typo elm327 addr comparison, , ,None
+285,https://api.github.com/repos/commaai/panda/commits/e3f1dd78d29fa6000e86779952faae9ca59410e9,False, elm327 allow address 0.700 0x800, , ,None
+286,https://api.github.com/repos/commaai/panda/commits/ded4b3f74381a548594780224698725e1b6ca852,False, uds handle remote addressing, , ,None
+287,https://api.github.com/repos/commaai/panda/commits/39818691dd9e6e5b5276a5508e79bbc99d847284,False, setting possible debug build, , ,None
+288,https://api.github.com/repos/commaai/panda/commits/50b9066db8f18ff672f45c7e51c1b62d7e1a932a,False, fixed linting error, , ,None
+289,https://api.github.com/repos/commaai/panda/commits/a648ccae4b3661ca6de7a4ac199cc44a41442b74,False, add import, , ,None
+290,https://api.github.com/repos/commaai/panda/commits/042562ddaef91199e38ce26263e6cdbf971c09a7,False, extracted wifi connect test helper, , ,None
+291,https://api.github.com/repos/commaai/panda/commits/ac0fd5dd5dc4dad9922d462586ff5742339d9a19,False, query version example use extended diagnostic session, , ,None
+292,https://api.github.com/repos/commaai/panda/commits/4e9d788af7d1e05ff4ef9cdba6e308e1b1ccc700,False, remove needed cadillac init, , ,None
+293,https://api.github.com/repos/commaai/panda/commits/f0a5d154cf0a21021fc3a27b651793b6ab32f81b,False, typo, , ,None
+294,https://api.github.com/repos/commaai/panda/commits/c093286b1dcb235d45540babf49c38acdcf82170,False, add bootkick enabling phone power 401, , ,None
+295,https://api.github.com/repos/commaai/panda/commits/eadb0dbb1d07e7f54ec72abe08f3c95ce5765843,False, security upgrade 397 security upgrade gated dfu entry debug console well, , ,General
+296,https://api.github.com/repos/commaai/panda/commits/7c13bec09ff495422d0079568b01ee20f6febd63,False, command get signature 399 command get signature panda doe make misra happy misra work make misra happy add jenkins test get signature remove comment add comment code size fix firmware file path, , ,None
+297,https://api.github.com/repos/commaai/panda/commits/dad439a46e58a849a40990ae55a80b11b382abe9,False, static assert size health packet 398, , ,None
+298,https://api.github.com/repos/commaai/panda/commits/da9da4662a34c0c4b8d7321d1d1242ee4e2cb31a,False, fix version, , ,None
+299,https://api.github.com/repos/commaai/panda/commits/df4159c8467c539248df27320e23bd1b5dd1c7da,False, revert revert register readback module still need convert one 396 reverts commit, , ,None
+300,https://api.github.com/repos/commaai/panda/commits/56ec215024d23681ed89cfbefeafb8ba200a664b,False, revert register readback module still need convert one 396 reverts commit, , ,None
+301,https://api.github.com/repos/commaai/panda/commits/893e4861944740b27a5cc87edbaedfbe754bff8a,False, register readback module still need convert one 396 added initial working implementation register readback applied llcan register also fixed init bug locally disable pylint import error reverted change obj fa1r setting fixed misra compliance changed hash function name fixed filter setting added voltage health test converted adc register function converted clock use register setter added check see fault status zero running test converted dac use register setter converted fan use register setter converted gmlan bitbanging use register setter changed interrupt driver use register setter also moved includes definition place critical section fixed build converted llgpio use register setter converted pwm use register setter fixed cold boot fixed health fault check automated test added comment future issue 367 converted rtc driver use register setter converted spi use register setter converted timer driver use register setter fixed register fault white panda disabled showing fault release bump version, , ,None
+302,https://api.github.com/repos/commaai/panda/commits/6bbae7be2f167c93e2a509ded12a081ddf423bfe,False, safety allow cancel spam bus compatible camera gateway integration, , ,None
+303,https://api.github.com/repos/commaai/panda/commits/d5f7a28760baf24b460a689120f0e38cb0549b46,False, bump panda, , ,None
+304,https://api.github.com/repos/commaai/panda/commits/1bcc351f297f17e47de5a870140a25a8f781f105,False, ignition_can set false seeing msg, , ,None
+305,https://api.github.com/repos/commaai/panda/commits/96137f1a8acef875db2f6ff6c7972a8bb8062159,False, based ignition needed ignition line camera well, , ,None
+306,https://api.github.com/repos/commaai/panda/commits/1b004a18e94e4b0666a1ff12288b08d6abdeb88c,False, flake8 version one openpilot, , ,None
+307,https://api.github.com/repos/commaai/panda/commits/e82ba5f2e07d31b157e7569185d8c29076e543d4,False, pylint version one openpilot, , ,None
+308,https://api.github.com/repos/commaai/panda/commits/656f99b080b27baa8dae623a773ce107c39116a6,False, interrupt refactor nvic_sm_1 334 fault handling 377 373, , ,None
+309,https://api.github.com/repos/commaai/panda/commits/000282e544530785754d0a76fe3153078873aa96,False, fix can_logger.py run correctly python3 392, , ,None
+310,https://api.github.com/repos/commaai/panda/commits/7f9b4a59b653ab7f963f841105241cf4b106da4b,False, fix usb device enumeration window 8.1 window 393 remove usb 2.0 extension bos descriptor declutter usb.h unused code confident usb 2.0 extension required usb 3.0 device mystery around change worked garbage collect commented descriptor, , ,None
+311,https://api.github.com/repos/commaai/panda/commits/dec565c728b0e22c8f8e4a70863072a99c38eaed,False, update misra test coverage includes rule 2.7, , ,None
+312,https://api.github.com/repos/commaai/panda/commits/fb6bc3ba7e58f627db6cb9e6623b1d61b165bc3f,False, fix misra, , ,None
+313,https://api.github.com/repos/commaai/panda/commits/878dd00ac8742787434492fa6cd653167c236303,False, solve race condition right changing relay status adding counter, , ,None
+314,https://api.github.com/repos/commaai/panda/commits/2d4cb05cf128488cb6afee3e1d2d28f67c56602e,False, add safety mode counter, , ,None
+315,https://api.github.com/repos/commaai/panda/commits/a6797a213e92d808a974853a8bddc9782bdd4e54,False, implement usb power mode uno, , ,None
+316,https://api.github.com/repos/commaai/panda/commits/670f90cc834528382abc6062f6d87d3be20e183c,False, merge branch master github.com commaai panda, , ,None
+317,https://api.github.com/repos/commaai/panda/commits/ca39a5d8f68f0ed4824833c36e3c281b4599c067,False, added fault integer health packet, , ,None
+318,https://api.github.com/repos/commaai/panda/commits/e1c34a1a297c2a4bdab11784170953465a930da4,False, panda jungle testing 394 rebase open branch commit make sure tested correctly, , ,None
+319,https://api.github.com/repos/commaai/panda/commits/2a093a39f2303afd87209951ff7054d267519cb4,False, added heartbeat echo test, , ,None
+320,https://api.github.com/repos/commaai/panda/commits/22464356c3f7ab6a0e82960c73acb9037c009ef5,False, fixed health struct size really get automated test, , ,None
+321,https://api.github.com/repos/commaai/panda/commits/f458d67a7c3267d153bc9f178e4d5a5fe48d9328,False, add uptime counter health packet 391 added uptime counter health packet fix test setting power save eon build, , ,None
+322,https://api.github.com/repos/commaai/panda/commits/16624811c4edcd496542b61e09f65f941f66e73d,False, enable transcievers outside set_safety_mode function related, , ,None
+323,https://api.github.com/repos/commaai/panda/commits/a7c98744fc4a755999671d8c90068b4d6ee05be9,False, bump panda ver, , ,None
+324,https://api.github.com/repos/commaai/panda/commits/1192d934a08819a0be00661d5f27f35344c8f479,False, power saving refactor 389 exit power saving also based ingition detection replace interrup simple state machine bit delay fine bug fix also cdp set start sorry misra move comment typo remove ignition interrupt power saving state machine done boardd also set safety mode usb power mode typo added usb command power save state setting added power save enabled packet added python lib, , ,None
+325,https://api.github.com/repos/commaai/panda/commits/d58d08fbbf0fd5a6a0a0185b7ede8dee2bfc5ac4,False, fix misra 17.8 mod function params, , ,None
+326,https://api.github.com/repos/commaai/panda/commits/bc685ac91b3971a20464d10f65901118eb0e5e4a,False, minor indent, , ,None
+327,https://api.github.com/repos/commaai/panda/commits/a54b86c4baa8ee935c659436abde6ba94715c439,False, failure set_safety_mode fall back silent failure set silent result hanging, , ,None
+328,https://api.github.com/repos/commaai/panda/commits/597436d32a6a22643c551bbd90f01b8b56d9a7c4,False, nooutput safety mode silent nooutput still exists keep 388 nooutput safety mode silent nooutput still exists keep live readme mention output mispelled, , ,None
+329,https://api.github.com/repos/commaai/panda/commits/d229f8dcd38cbaabbd1a2d6048fface10fafb1ad,False, esp forced eon build prevents esp turned 387 esp forced eon build prevents esp turned exiting power mode 0.5w power save also boardd doe need set esp anymore touch esp uart refactored esp gps initting fixed white detection, , ,None
+330,https://api.github.com/repos/commaai/panda/commits/8a044b3444a35f107275304cdc6a4d5f77c11891,False, forgot hyundai also using make_msg, , ,None
+331,https://api.github.com/repos/commaai/panda/commits/4f9c87969670f7e66e0982db8d6842dc89822374,False, remove abunch line safety regression test using common make_msg function, , ,None
+332,https://api.github.com/repos/commaai/panda/commits/fb81414305e7ff0a708501a9e650984aedab19f1,False, mispelled word, , ,None
+333,https://api.github.com/repos/commaai/panda/commits/57f5ef8cd80d09853262895fcf9ab5ce592345e0,False, fix misra addr bit anyway, , ,None
+334,https://api.github.com/repos/commaai/panda/commits/68ff5012771b6a8d37be86eb99dac84553f0d3dd,False, typo, , ,None
+335,https://api.github.com/repos/commaai/panda/commits/d5c772b0b1968c77199a22c9e64fa231b6b9f309,False, fixe toyota message white list, , ,None
+336,https://api.github.com/repos/commaai/panda/commits/48197a9216958839a6351b9e038241375870050e,False, better masking elm mode, , ,None
+337,https://api.github.com/repos/commaai/panda/commits/b8fe78c3e7dff3ed8b8d345818d23f3dba6de1ee,False, also tested safety replay, , ,None
+338,https://api.github.com/repos/commaai/panda/commits/212d336b3d08e6ca63495bce0e6f49af5000646a,False, safety chrysler added cancel spam button check, , ,None
+339,https://api.github.com/repos/commaai/panda/commits/d44b5621cdc5e01bf0b305bb7234ca5cf351b4d8,False, fix print example, , ,None
+340,https://api.github.com/repos/commaai/panda/commits/02d579a537f7894124f4c3a3dc03a8b2a8d39c2e,False, functional addr handling, , ,None
+341,https://api.github.com/repos/commaai/panda/commits/6249a183d65fe1a295cd009e369fe2afb86be669,False, tx_hook shall white list message 381 started whitelisting message also toyota cadilalc fix bug fix better check need figure solution honda whitelist also subaru added chrysler well whitelist hyundai supported car whitelist message fix linter fix process replay honda whitelisted struct typedef forgot wrong addr whitelist fix test bump panda, , ,None
+342,https://api.github.com/repos/commaai/panda/commits/8138fc14c8238717b93ebd6162d3293895ab089b,False, uds handle function addrs version query example, , ,None
+343,https://api.github.com/repos/commaai/panda/commits/6626a542413463a868ad88987ef839ad4ba108b0,False, fixed python health api, , ,None
+344,https://api.github.com/repos/commaai/panda/commits/b9b79e8b77868d1959a5e0a0b74027e0a1e90a39,False, uds zero second timeout, , ,None
+345,https://api.github.com/repos/commaai/panda/commits/e0de1a4fc8831f20401f62131a962dd6e93e72a2,False, define allow_debug safety test, , ,None
+346,https://api.github.com/repos/commaai/panda/commits/86dec4b8babc8d9533a46c53fdb3268ba1ff83fd,False, safety mode violate iso26262 requirement compiled release build, , ,None
+347,https://api.github.com/repos/commaai/panda/commits/e74ed936401d3390fe6c20671bb3250993d9570c,False, safety test bit simplified, , ,None
+348,https://api.github.com/repos/commaai/panda/commits/2027765bd0618d93684b8e9f8556732827b13774,False, relay malfunction test centralized, , ,None
+349,https://api.github.com/repos/commaai/panda/commits/8af1a01ac65445269bc275331850c0c0166aaa02,False, clean safety test, , ,None
+350,https://api.github.com/repos/commaai/panda/commits/e8f7a3b2a55e4cc13438a43105c8cbdb05631980,False, upd panda, , ,None
+351,https://api.github.com/repos/commaai/panda/commits/cfcce8f06bc4b94aafa5daed1e003c8d844192de,False, wip relay malfunction 384 relay malfunction handling wip car fixed safety test minor change fix linter car safety check added safety test fwd hook added proper regression test relay malfunction car temp patch fail regression honda bosch also addr 0x194 nidec honda steer control proper relay check honda bosch, , ,None
+352,https://api.github.com/repos/commaai/panda/commits/69d9d610a526346bde2aeea874744b1c960c748d,False, tab mazda safety, , ,None
+353,https://api.github.com/repos/commaai/panda/commits/a86418c14038f4b34fca0923276ee81e6709d134,False, insignificant change, , ,None
+354,https://api.github.com/repos/commaai/panda/commits/f239b996db193d1f15b0b7822ce7184df3fe700d,False, single addr better, , ,None
+355,https://api.github.com/repos/commaai/panda/commits/d063a188853a5d237ff4b037854a191807e45dc7,False, hyundai safety enable button spam safety check, , ,None
+356,https://api.github.com/repos/commaai/panda/commits/4d1edc068b507fe3fb4bf7a309bb9a45af547a7d,False, skip tx_hook message forwarded 379, , ,None
+357,https://api.github.com/repos/commaai/panda/commits/df2ff045837be902b7c93a3af0ff2f961e57fff4,False, bump version, , ,None
+358,https://api.github.com/repos/commaai/panda/commits/168461d5e4f1ce63fc036e4e0393109e27d2993c,False, added fault state health packet, , ,None
+359,https://api.github.com/repos/commaai/panda/commits/b3e1a133ae37daa027bb8fa23611add32ea23a37,False, uds better debug print, , ,None
+360,https://api.github.com/repos/commaai/panda/commits/68c39fb3e2e59b367771ba1d4b6db2f509bd30f9,False, uds need thread always drain, , ,None
+361,https://api.github.com/repos/commaai/panda/commits/91b7c5bb772f95e1737ebc28dd4ac8e60946f04b,False, bump panda ver, , ,None
+362,https://api.github.com/repos/commaai/panda/commits/26cb4dc48a5398ce2cb3c3456e9e6591aac510d8,False, fixed pylint error, , ,None
+363,https://api.github.com/repos/commaai/panda/commits/32725cc38546a97e40f512d9925b0d0cceb47365,False, fixed misra compliance, , ,None
+364,https://api.github.com/repos/commaai/panda/commits/e33b4beaa3a992137aa79eebbe162718cd9ea37b,False, added echo script, , ,None
+365,https://api.github.com/repos/commaai/panda/commits/312ba62d436ff9956bea86c7e742c9cc5001e01e,False, minor comment cleanupo, , ,None
+366,https://api.github.com/repos/commaai/panda/commits/e90897a834df4f8c81a3ee62c7e0a4733bbce327,False, fix board detection white, , ,None
+367,https://api.github.com/repos/commaai/panda/commits/0e72c18378b04d22ea502027e9d5cc0d0e3a25fe,False, always stop executing safety mode fails set suggested jyoung8607, , ,None
+368,https://api.github.com/repos/commaai/panda/commits/e8d7ed1d903c1cb561fcd10289a0ec111433c68e,False, rename function name confuse safety_set_mode set_safety_mode, , ,None
+369,https://api.github.com/repos/commaai/panda/commits/ff86db65538a2ac8bace47a1790fb7d8fd933287,False, improve uds message processing, , ,None
+370,https://api.github.com/repos/commaai/panda/commits/512ab3f2f08a54d4c5757937bc72fc9fc8b3ec3a,False, except exception, , ,None
+371,https://api.github.com/repos/commaai/panda/commits/37ce507ae938ad17363ee04a6a7b034362104d2d,False, py3, , ,None
+372,https://api.github.com/repos/commaai/panda/commits/bac4d854349a794f0db53a7bc24974c8edf15824,False, python3, , ,None
+373,https://api.github.com/repos/commaai/panda/commits/501db8d19981c988313e15d582a157936fc3bd83,False, uds drain send use has_obd, , ,None
+374,https://api.github.com/repos/commaai/panda/commits/f2cbec161edd73e9c1da14de9c508c7c06c3e1ec,False, added has_obd python library, , ,None
+375,https://api.github.com/repos/commaai/panda/commits/48e5b1820843be5a7d1e7db6f6c30e83d2c40832,False, add sdk downloading build step 314, , ,None
+376,https://api.github.com/repos/commaai/panda/commits/e0762c2e7702155a9ea2a55d35172adc84aecf9a,False, add python usb api controlling phone power 313 added interface phone power add power function python fixed struct, , ,None
+377,https://api.github.com/repos/commaai/panda/commits/ba9fb69f65cd4f1adfb023ad191e4c59244167f7,False, new health packet struct also python libs, , ,None
+378,https://api.github.com/repos/commaai/panda/commits/256d274e760ce00d4e5ff5e0d9b86d0fb5924568,False, fix mac installation instruction per http github.com commaai panda pull 308 file, , ,None
+379,https://api.github.com/repos/commaai/panda/commits/bfd8ff1b18203f9a200bb8206ea1bc89eb305235,False, update cppcheck commit coverage, , ,None
+380,https://api.github.com/repos/commaai/panda/commits/b143a1cf9e8c7cdb67d5175aa37932c03510baba,False, fixed misra complaint, , ,None
+381,https://api.github.com/repos/commaai/panda/commits/606f1d91311b1d198267af101a942686acf235f9,False, fixed rtc non uno board second try work xtal, , ,None
+382,https://api.github.com/repos/commaai/panda/commits/933c75770542d1a71a68f2b3d32fb93952ca5a39,False, fix rtc non uno board 311 fan power saving mode initialise rtc board uno fix hang getting time non initialized rtcs, , ,None
+383,https://api.github.com/repos/commaai/panda/commits/48d0d0c782de3f72c69d3fe74bfdac2b01d9e547,False, button spam fix safety add test 306 button spam fix safety add test button spam actually sent bus fix safety test still need add gas safety test added gas safety test using consistent nomenclature style fix, , ,None
+384,https://api.github.com/repos/commaai/panda/commits/6cccf969abbcd90c679b3f3f4201d871f75a1f0f,False, fan power saving mode 309, , ,None
+385,https://api.github.com/repos/commaai/panda/commits/05373282a26a15e29512ed9ae933132ffc9770e8,False, board get_sdk script left python2, , ,None
+386,https://api.github.com/repos/commaai/panda/commits/de18a7ef1a01980faee44bdb08b29bb0ebf381e5,False, bump version uno merge, , ,None
+387,https://api.github.com/repos/commaai/panda/commits/1965817d30836c2f61f14c4478f3f5cc153158c0,False, changed default value testing, , ,None
+388,https://api.github.com/repos/commaai/panda/commits/a12a148d5fdaf1a1a63c330baabb4713444383ed,True, uno 274 added uno added usb switch support added pwm power function implemented bootkick added uno new type bumped version added fan control tach readout wip rtc support working rtc fixed python misra compliance added usb control message fan power added usb command test fan control fixed bootstub pedal compilation added fan power saving mode changed default fix safety considering uno passing safety minor uno tweak fixed version minor temporary tweak removed usb load switch uno added power control shutting fan completely disable led default fixed linter issue linter fix,https://api.github.com/repos/commaai/panda/issues/2, ,None
+389,https://api.github.com/repos/commaai/panda/commits/7d29dc5a2416b4b5e0cd0055d956539c21180ebe,False, bump panda version really need better way, , ,None
+390,https://api.github.com/repos/commaai/panda/commits/40075321dc6a1b37bfd045c895e07aedb6ad8759,False, stricter limit comply comma safety policy, , ,None
+391,https://api.github.com/repos/commaai/panda/commits/e2e2be92c92e34b2399a237ef249811a8ec9f70b,False, add safety mode health packet, , ,None
+392,https://api.github.com/repos/commaai/panda/commits/101238c7f6cf3c84d8d53d87660b7f508f2ac83c,False, turned ignition based logic, , ,None
+393,https://api.github.com/repos/commaai/panda/commits/a0d8d5dae72a09bdf8e6a86f14c7d01678296d3b,False, fix misra 5.3 check_ignition intended check_started used twice, , ,None
+394,https://api.github.com/repos/commaai/panda/commits/ea636de615e84d7ac25d0b253e87c7a40b0458b4,False, made check_ignition function look ignition_line ignition_can, , ,None
+395,https://api.github.com/repos/commaai/panda/commits/1102e69652b5c8b708037cacf85d38429880c11a,False, make ignition logic common car 303 make ignition logic common car ignition_can safety thing move driver bump version safety passive deprecated move logic board specific header, , ,None
+396,https://api.github.com/repos/commaai/panda/commits/3a110c6f6663c09696f7605fca6c2b1f9d62f3cb,False, bump version cmsis core upgrade, , ,None
+397,https://api.github.com/repos/commaai/panda/commits/55dfa52306e843039dd8f5f631d1117308f0f9ec,False, update core cmsis 5.6 release 251 initial commit release version, , ,None
+398,https://api.github.com/repos/commaai/panda/commits/ee864907ceea9e94d3755ddb7e51f5fc16f88ea5,False, fix linter, , ,None
+399,https://api.github.com/repos/commaai/panda/commits/f410b110d8ec97ae345d320bd895156b0f9ec9f6,False, fix linter, , ,None
+400,https://api.github.com/repos/commaai/panda/commits/55957d6e4ef524f949cab0c62eed07346e89d81c,False, proper python3 exception inheritance, , ,None
+401,https://api.github.com/repos/commaai/panda/commits/6ba0f47b56d90774569e409c56c95c17d560ef93,False, fix linter error, , ,None
+402,https://api.github.com/repos/commaai/panda/commits/5c49fe050e3d6b677e914e00a42a926eb08775a1,True, merge pull request 145 gregjhogan uds unified diagnostic service uds panda library iso 14229,https://api.github.com/repos/commaai/panda/issues/145, ,None
+403,https://api.github.com/repos/commaai/panda/commits/0f361999bd013aac95a167fb6176b9ddb24e10a7,False, timeout float, , ,None
+404,https://api.github.com/repos/commaai/panda/commits/396d6aad580f1b2752bef315d7ab2f7fafcb36bc,False, safety_replay installs extra requirement, , ,None
+405,https://api.github.com/repos/commaai/panda/commits/25af7d301922ac8e6d45c0a6d393c5d13c0c60d5,False, misra also need python env, , ,None
+406,https://api.github.com/repos/commaai/panda/commits/7434c5ce281ae0571db88a028bcaabdab7b32542,False, centralize requirement test, , ,None
+407,https://api.github.com/repos/commaai/panda/commits/a0c37c70abbb8dbedc68610af68ef9063d30dea4,False, coverage needed linter reqs, , ,None
+408,https://api.github.com/repos/commaai/panda/commits/fce38a91d7c66f541c89770c6a690449ecbeb2a0,False, linter python 299 added pyflakes pylint python actually run linter simple pyflakes change add flake8 panda reqs linter test flake8 error fixed run flake8 regression test meant run flake8 hack ignore unused import bug fix bug tucan_loopback another fix using set_safety_mode added pylintrc file fix enabled pylint well fix pylint circleci added linter readme, , ,None
+409,https://api.github.com/repos/commaai/panda/commits/62e2f5caac80874eb73ca18cfc1949c99cb20bae,False, update cppcheck commit, , ,None
+410,https://api.github.com/repos/commaai/panda/commits/711810d2f0aeb9504cc92d5e7e036bf9ad02c5bc,False, uds debug, , ,None
+411,https://api.github.com/repos/commaai/panda/commits/4454e3a6bb090b9b2cc65ba4ec5943f47fe266b4,False, better comm abstraction, , ,None
+412,https://api.github.com/repos/commaai/panda/commits/6b1f28f574b8ddb0feb50a4fb3c38e85bc7cd1be,False, fix encoding byte cleanup 300, , ,None
+413,https://api.github.com/repos/commaai/panda/commits/43adad311680e2e3f9ff7ecb3745fef1b36e4266,False, fix name, , ,None
+414,https://api.github.com/repos/commaai/panda/commits/9c857da37948c46da339539643d182fd874c6030,False, , , ,None
+415,https://api.github.com/repos/commaai/panda/commits/b64d6fa5d2ed9dc0cf07994d6dcabcbb9ba4e0b4,False, typing, , ,None
+416,https://api.github.com/repos/commaai/panda/commits/768fdf7e19e94facbbfb7ad7259c1f87f8e86a19,False, byte chr .encode, , ,None
+417,https://api.github.com/repos/commaai/panda/commits/1be15ea9341ed9eb53a685e4881ee49ebfa0d2be,False, custom error thread, , ,None
+418,https://api.github.com/repos/commaai/panda/commits/68da8315f3406d4603f8297fcf7fcef9e455f952,False, python3, , ,None
+419,https://api.github.com/repos/commaai/panda/commits/eb358e81ca45896bfb8fe76913f03b965d99034b,False, uds lib example, , ,None
+420,https://api.github.com/repos/commaai/panda/commits/4f288586d59e3e308852e4ec0f988a6529b53894,False, update python3, , ,None
+421,https://api.github.com/repos/commaai/panda/commits/932745f62b4f1a8e92079d128786f3a106c262ac,False, support flow control chunked message, , ,None
+422,https://api.github.com/repos/commaai/panda/commits/b1c371292c56a4f4faf6985745c2882e4224879c,False, add timeout param, , ,None
+423,https://api.github.com/repos/commaai/panda/commits/cdf2f626ba9d9ba5046b13f71dc0d03b5de0b184,False, bug fix, , ,None
+424,https://api.github.com/repos/commaai/panda/commits/b1a3195770d5a39e3fa772fde6aef76af2cb54ea,False, fix message filtering bug, , ,None
+425,https://api.github.com/repos/commaai/panda/commits/80fb6a6fa09caa03ed0f5f7cb550b88c25e92d95,False, convert uds lib class, , ,None
+426,https://api.github.com/repos/commaai/panda/commits/59cd2b47f91f60a8914f6bebff59afd98ce2c594,False, handle separation time microsecond, , ,None
+427,https://api.github.com/repos/commaai/panda/commits/4429600d8e47cb71786c92cc881352acf42087de,False, fix separation time parsing, , ,None
+428,https://api.github.com/repos/commaai/panda/commits/c641e66f723d71dffa7fda5513d551b05b7d0406,False, fix typo, , ,None
+429,https://api.github.com/repos/commaai/panda/commits/48b8dcc6f9913b8d86fa1c940f7ec9fb5d62f7b9,False, fix flow control delay scale, , ,None
+430,https://api.github.com/repos/commaai/panda/commits/78f413d88f9860638c33a55fc3b469b5d4fcae21,False, flow control delay, , ,None
+431,https://api.github.com/repos/commaai/panda/commits/33a5167d9356db1321236e9d76c73818211821ef,False, bug fix, , ,None
+432,https://api.github.com/repos/commaai/panda/commits/8ee89a091d67d53962c6e20c1bf8088c2c100632,False, multi frame, , ,None
+433,https://api.github.com/repos/commaai/panda/commits/5e89a9c728de0b3a83a9910cc75b0c48e683cc2a,False, clear buffer numeric error, , ,None
+434,https://api.github.com/repos/commaai/panda/commits/96623006322ad784810e8d24a5a6981fa5fa0a96,False, fix remaining size calculation, , ,None
+435,https://api.github.com/repos/commaai/panda/commits/01ef1fae3623b7b05bf196b19e7713b27c5a39e7,False, zero pad message sending, , ,None
+436,https://api.github.com/repos/commaai/panda/commits/1ddc9735d1a424deb1b41db2a1c3778dbf6fafec,False, uds communication, , ,None
+437,https://api.github.com/repos/commaai/panda/commits/dca176e7170901f054aef4fb93c8bf73d63a1026,False, syntax error, , ,None
+438,https://api.github.com/repos/commaai/panda/commits/95be4811efaa55939141481f3fda603de35a2e7a,False, service_type enum, , ,None
+439,https://api.github.com/repos/commaai/panda/commits/98e73b51d28457ca156f122ecbf2ddec838cb5fc,False, uds message type implementation, , ,None
+440,https://api.github.com/repos/commaai/panda/commits/c1c5b0356b77757d574d7b23b748ed36a4993617,False, uds lib, , ,None
+441,https://api.github.com/repos/commaai/panda/commits/162f4853df6ca78146d3ba7a9c08c06e6e2b04c4,False, fix chr byte conversion 298, , ,None
+442,https://api.github.com/repos/commaai/panda/commits/4972376de36aff020694d06d2458d73a5f4da829,False, update regression test follow comma safety index refactoring 296 follow along recent comma safety index refactoring, , ,None
+443,https://api.github.com/repos/commaai/panda/commits/f9053f5df4f2a0be475d5b76c84d371f0b26b7b0,False, python fix attempting fix jenkins wifi regresison test 295 python fix attempting fix jenkins wifi regresison test successful closer, , ,None
+444,https://api.github.com/repos/commaai/panda/commits/2f9e07628983596fa641cdc515aeb0197a900a32,False, panda safety code volkswagen audi seat koda 293 panda safety code volkswagen audi seat koda first pas misra compliance second pas misra compliance fix scope violation boolean misra care implicit cast unsigned int boolean remove superfluous newline remove unused ignition hook code preserve commentary add padding max delta check add padding max delta check add clarity around origin safety constant update test delta match safety, , ,None
+445,https://api.github.com/repos/commaai/panda/commits/30c7ca8a53a3adb05d23d7cfe64fb716a656ef1a,False, bump version 1.5.3, , ,None
+446,https://api.github.com/repos/commaai/panda/commits/9403dbebe95277884d4a32950aad216aad5c2b98,False, need fix wifi test enabling, , ,None
+447,https://api.github.com/repos/commaai/panda/commits/0812362b52b6df531c74e1dc6cf02b3d31d0a596,False, gps uart fix boardd refactored 294 temporary gps fix space, , ,None
+448,https://api.github.com/repos/commaai/panda/commits/ffbdb87a8d6d7deab62a488f261dd418ac7467df,False, python2 fix pedal flasher 292 python2 fix pedal flasher fix debug flash well fix wifi test, , ,None
+449,https://api.github.com/repos/commaai/panda/commits/78b75ef590e1470bc31347eae17003faa631d9db,False, added build type release version string, , ,None
+450,https://api.github.com/repos/commaai/panda/commits/736c2cbf7b3abfe4008c45c26b0f40168fd1c504,False, fixed sending byte pandaserial, , ,None
+451,https://api.github.com/repos/commaai/panda/commits/0894b28f1e62957ea81c64f0e0ad7eab1082232e,False, fixed usb power mode black 291 fixed usb power mode black bump version, , ,None
+452,https://api.github.com/repos/commaai/panda/commits/4b3358c921e9f4599d8a3532e85781fa531cdab1,False, patch able switch eon panda eon 290 fix switching eon panda eon build 12v supply, , ,None
+453,https://api.github.com/repos/commaai/panda/commits/a95c44a717aa3421d612976d40c8151ed6bb6d43,False, made setting nooutput heartbeat efficient 287 made setting nooutput heartbeat efficient stupid mistake fixed hardcoded safety mode, , ,None
+454,https://api.github.com/repos/commaai/panda/commits/9486836886fe2b146500af2a34407d03f07f4881,False, uart instability fix high interrupt load 283 fixed uart overrun error added stability test script refactored uart code esp gps dma circular mode directly write ring buffer saving bunch interrupt potential race condition changed stability test use amount byte instead amount non zero message since ring buffer pointer updated half full dma transfer line idle e.g char message gps increase data limit low sometimes normal operation forgot set write pointer ring buffer increased test limit even, , ,Risky_resource_management
+455,https://api.github.com/repos/commaai/panda/commits/9a9e9d47bc3cd26186ff16f37d3b75070213375e,False, fix usb_power_mode missing initialization 289 fix usb_power_mode missing initialization typo added none usb power mode usb_power_mode set func, , ,None
+456,https://api.github.com/repos/commaai/panda/commits/af0960ad3df3b7d712ec3858d2db773c843d0dfa,False, dfu fix 288 dfu fix fix test fix remaining jenkins test fixed pyenv shim python file script, , ,None
+457,https://api.github.com/repos/commaai/panda/commits/70219d7bb2d9870becd9d78f2a7b5eac30babbd3,False, match safety enum cereal 285 match safety enum cereal removing ton hardcoding add pythonpath safety test fix safety test docker, , ,None
+458,https://api.github.com/repos/commaai/panda/commits/a338d393222682549c4631edb43b465891ed4b0a,False, fix build jenkins test, , ,None
+459,https://api.github.com/repos/commaai/panda/commits/78ef4a6ebc6afbaf93042221fd1386a63776bbf7,False, stop charge 284 cdp default eon build white panda cleaned power mode setting send usb power mode health cleaner cdp setting ignition bump panda, , ,None
+460,https://api.github.com/repos/commaai/panda/commits/5266a4028792d75bd33cd8e489ece8c62c64f2c4,False, fix typo 286, , ,None
+461,https://api.github.com/repos/commaai/panda/commits/f4787ec5a222c85f44991ca86240b30c06ac8b6c,False, revert turn cdp ignition switch 281 reverts commit, , ,None
+462,https://api.github.com/repos/commaai/panda/commits/d37daee978e6e70f755405cdfece6ad7f21581e2,False, revert none client thing white grey panda reverts commit, , ,None
+463,https://api.github.com/repos/commaai/panda/commits/e97b283e77cf812a3e576ce36c642386d8dbc773,False, none client thing white grey panda, , ,None
+464,https://api.github.com/repos/commaai/panda/commits/8c1df559f7c2786e758fd9e6592fefe1242460a7,False, turn cdp ignition switch 281, , ,None
+465,https://api.github.com/repos/commaai/panda/commits/847a35d423400978ba22a5002cd6765857c14cf4,False, fix bullet point, , ,None
+466,https://api.github.com/repos/commaai/panda/commits/fac0277169c6f75d94fc2954c9a4237ea47cea8f,False, misra update 280 updated cppcheck ref new rule fixed changed macro name character common fix newly popped 10.4 type arithmetic ops fix 18.4 operator applied expression ensure null pointer dereferenced, , ,Risky_resource_management
+467,https://api.github.com/repos/commaai/panda/commits/5a04df6b15725d43ab1479ff94effadf2cf37203,False, added description regression test readme, , ,None
+468,https://api.github.com/repos/commaai/panda/commits/c4aabae59165ace1aab191258f117a2a801630c6,False, fixed python3 bug test script pandaserial, , ,None
+469,https://api.github.com/repos/commaai/panda/commits/9af0cb353447be99e5ad76fc25117c91889c7396,False, bump version, , ,None
+470,https://api.github.com/repos/commaai/panda/commits/c4ac3d63be5ce8ba7c1aec072a1d84cf6b880dbb,False, disable gps load switching black panda, , ,None
+471,https://api.github.com/repos/commaai/panda/commits/078ee588c2bb0ed0402a90610092e21871460952,False, correct table actually, , ,None
+472,https://api.github.com/repos/commaai/panda/commits/578b95ee33f409ab514949c48113cd22711f82cf,False, misra table coverage added, , ,None
+473,https://api.github.com/repos/commaai/panda/commits/d383a2625f76b5dd5e8e3e540dc9608a784efb3d,False, bump panda, , ,None
+474,https://api.github.com/repos/commaai/panda/commits/b98ca010d21d0ebcc92933f58ed2efa0a94e52ad,False, fix sdk build python3 env 279, , ,None
+475,https://api.github.com/repos/commaai/panda/commits/63d3dc7d348a6c033ffeb313f32e787aeb12485d,False, set python3 env runnign get_sdk know fails, , ,None
+476,https://api.github.com/repos/commaai/panda/commits/e951d79c0acbc54a6b4aaaf77490787c38542673,False, legacy code control remain python2, , ,None
+477,https://api.github.com/repos/commaai/panda/commits/11b71511803ed15ae5d722d290ab770ed44a4440,True, merge pull request 276 commaai python3 python3,https://api.github.com/repos/commaai/panda/issues/276, ,None
+478,https://api.github.com/repos/commaai/panda/commits/9893a842a7b5cdc543692eb255bfa413e22778e5,True, merge pull request 277 zorrobyte patch update readme.md,https://api.github.com/repos/commaai/panda/issues/277, ,None
+479,https://api.github.com/repos/commaai/panda/commits/d3268690c93d2b33e3690d89e297666db4ffa98a,False, revert revert back esptool python2 force build esptools python2 reverts commit, , ,None
+480,https://api.github.com/repos/commaai/panda/commits/875e76012bde64ea7c29fc47a168280d43dc49c3,False, revert back esptool python2 force build esptools python2, , ,None
+481,https://api.github.com/repos/commaai/panda/commits/9c40e6240b0b07e2c5c59bcdfae041fb12dbfddc,False, needed install python3, , ,None
+482,https://api.github.com/repos/commaai/panda/commits/ed2ac87cf4be5611f2f7d74723b8199eb62fff8e,False, also moved safety test python3, , ,None
+483,https://api.github.com/repos/commaai/panda/commits/6842b2d2cede28c9e71b2c16fe11721e4e47b7f7,False, move esptool sdk installation python3 env set kind cheat, , ,None
+484,https://api.github.com/repos/commaai/panda/commits/b5a2cabcd7973d0afb4558485d270a98990bf31c,False, hopefully fix build test, , ,None
+485,https://api.github.com/repos/commaai/panda/commits/6280509559a0d33506607b10d0438c610bd1091b,False, fix safety replay, , ,None
+486,https://api.github.com/repos/commaai/panda/commits/2c220b623d73a0f68073ecdda6edc6468a18f47f,False, fix language regr test, , ,None
+487,https://api.github.com/repos/commaai/panda/commits/fdbe789b8da2b6423b6b120734fa9109ed393d0d,False, use python docker container, , ,None
+488,https://api.github.com/repos/commaai/panda/commits/ee1ae4f8618b90df3a580f550f2735a4cceb734e,False, better hash print, , ,None
+489,https://api.github.com/repos/commaai/panda/commits/0de9ef73cc5720ec00c86b9d8adba9cb3c60df87,False, revert final 2to3 whole repo reverts commit, , ,None
+490,https://api.github.com/repos/commaai/panda/commits/c92fd3bc9005ef7f9512ec5d1bbcdb0f9aa2b948,False, final 2to3 whole repo, , ,None
+491,https://api.github.com/repos/commaai/panda/commits/5f2bc446069cad0ac73e450c6fd697d7aa547b25,False, better, , ,None
+492,https://api.github.com/repos/commaai/panda/commits/b2a30fdbdfbe2f863094ea5acf98a97527a541a7,False, make work, , ,None
+493,https://api.github.com/repos/commaai/panda/commits/b74005d10a8a1036806b94e88d96e636caf1a76e,False, fix sign.py, , ,None
+494,https://api.github.com/repos/commaai/panda/commits/fe727706bd422c4b57a72f09d3024fbcfc46ff71,False, read file byte tab sleep, , ,None
+495,https://api.github.com/repos/commaai/panda/commits/32a344ef6e025000c322bffc8d755df751892ff3,False, update readme.md, , ,None
+496,https://api.github.com/repos/commaai/panda/commits/2dc34096a0c15a98d492495d1088c7da11f29c12,False, 2to3 applied, , ,None
+497,https://api.github.com/repos/commaai/panda/commits/ffa68ef711d628b99f85c9e69bec29578ab5956c,False, undo unnecessary bracket print, , ,None
+498,https://api.github.com/repos/commaai/panda/commits/dbc248027ea158bc8d73f409c065a790d3dbdb7a,False, fix print 2to3 need undo, , ,None
+499,https://api.github.com/repos/commaai/panda/commits/5a7aeba0f5c4d170e75f501ffee54c15f1b00634,False, xrange gone, , ,None
