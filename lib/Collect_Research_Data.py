@@ -38,7 +38,9 @@ class Collect_Research_Data(metaclass=abc.ABCMeta):
         self.__write_data_to_csv(data, file_name)
 
     def __write_data_to_csv(self, data, file_name, flag=False):
-        file = self.file_path + file_name + '.csv'
+        file = self.file_path + file_name
+        if file.find ('.csv') == -1:
+            file += '.csv'
         if (flag == True):
             print("---> Writing to " + file)       
         with open(file, 'w') as csv_file:
