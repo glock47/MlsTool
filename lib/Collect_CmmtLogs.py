@@ -76,7 +76,7 @@ class Collect_CmmtLogs(Collect_Research_Data):
                                                       'integer overflow', 'integer underflow', 'overrun', 'integer wraparound', 'uncontrolled format', 'Data loss', 'uninitialized memory',
                                                       'dangerous function', 'untrusted control', 'improper limitation', 'Improper Validation', 'integrity check', 'null pointer', 
                                                       'missing init', 'Incorrect Length', 'Forced Browsing', 'User-Controlled Key', 'Critical Resource', 'Exposed Dangerous',
-                                                      'crashing length', 'Memory corruption', 'Memory leak', 'Double free', 'Use after free', 'Dangling pointers'])
+                                                      'crashing length', 'Memory corruption', 'Memory leak', 'Double free', 'Use after free', 'Dangling pointers', 'overflow fix', 'boundary check'])
   
         self.secategory_stats[1] = SeCategory_Stats ("Insecure_interaction_between_components", 
                                                      ['sql injection', 'command injection', 'csrf', 'cross site', 'Request Forgery', 'sqli', 'xsrf', 'backdoor', 'Open Redirect',
@@ -93,7 +93,7 @@ class Collect_CmmtLogs(Collect_Research_Data):
                                                       'Cryptographically Weak PRNG', 'adaptive chosen ciphertext', 'chosen ciphertext attack', 'Authorization Bypass'])
 
         self.secategory_stats[3] = SeCategory_Stats ("General", 
-                                                    ['security', 'denial service', 'insecure', 'penetration', 'bypass security', 'crash'])
+                                                    ['security', 'denial service', 'insecure', 'penetration', 'bypass security', 'crash', 'vulnerability fix'])
 
         if self.re_use == True:
             self.re_compile ()         
