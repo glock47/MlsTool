@@ -30,9 +30,8 @@ class SmItem ():
 class Sample():
 
     LANGINTR_SET  = ["FFI", "FFI_EBD", "FFI_IMI", "FFI_IMI_EBD", "IMI", "IMI_EBD"]
-    LANGCOMBO_SET = [["python", "shell"], ["html", "java"], ["go", "shell"], ["objective-c", "ruby"], ["css", "html", "javascript", "shell"], 
-                     ["css", "html", "javascript", "python"], ["java", "shell"], ["javascript", "shell"], ["c", "c++", "python"], 
-                     ["c", "python"], ["c", "c++", "python", "shell"], ["html", "javascript", "shell"], ["javascript", "php"]]
+    LANGCOMBO_SET = [["python", "shell"], ["go", "shell"], ["css", "html", "javascript", "shell"], ["objective-c", "ruby"], ["html", "python"], 
+                     ["c++", "python"], ["c", "python"], ["c", "c++", "shell"], ["java", "shell"], ["javascript", "php"], ["java", "javascript"], ["c", "shell"]]
 
     def __init__(self, SmpNum=50, CmmtNum=500):
         self.SmpNum   = SmpNum
@@ -141,8 +140,8 @@ class Sample():
         with open(CmmtFile, 'r') as f:
             return len(f.readlines())
 
-    def GenSamples (self):
-        ScFile = "Data/StatData/Samples/Samples.csv"
+    def GenSamples (self, FileName='Samples.csv'):
+        ScFile = "Data/StatData/Samples/" + FileName
         Header = ['Id', 'Url', 'Langs', 'ApiType', 'RemNum', 'IibcNum', 'PdNum', 'GenNum', 'VulNum']
         with open(ScFile, 'w', encoding='utf-8') as CsvFile:       
             writer = csv.writer(CsvFile)
@@ -150,8 +149,98 @@ class Sample():
             for SamIt in self.Samples:
                 row = [SamIt.Id, SamIt.Url, SamIt.Langs, SamIt.ApiType, SamIt.RemNum, SamIt.IibcNum, SamIt.PdNum, SamIt.GenNum, SamIt.VulNum]
                 writer.writerow(row)
+
+    def StatSamplingByLangs (self):
+        Langs2Num = {}
+        IdDict = {}
+        RepoNum = len (self.RepoList)
+        self.Samples = []
+        while True: 
+            RId  = random.randrange(1, 16777215, 1) % RepoNum
+            Repo = self.RepoList [RId]
+            Id   = Repo['id']
+
+            Ai = self.ApiInfo.get (Id)
+            if Ai == None:
+                continue
+
+            if IdDict.get (Id) != None:
+                continue
+            IdDict[Id] = True
+
+            CmmtNum = self.GetCmmtNum (Id)
+            if CmmtNum < self.CmmtNum:
+                continue
+
+            Langs = self.GetLangSelt (Ai.Langs)
+            if len (Langs) == 0:
+                continue
+
+            LangsStr = "_".join (Langs)
+            LangsNum = Langs2Num.get (LangsStr)
+            if LangsNum == None:
+                Langs2Num[LangsStr] = 1
+            else:
+                if LangsNum >= self.SmpNum:
+                    continue
+                else:
+                    Langs2Num[LangsStr] = LangsNum + 1
+            print ("[%d]%s -> sampling %d" %(len (self.Samples), LangsStr, Langs2Num[LangsStr]))
+            SamIt = SmItem (Id, Repo['url'], Langs, Ai.ApiType)
+            self.Samples.append (SamIt)
+            
+            if len (self.Samples) >= self.SmpNum * len (Sample.LANGCOMBO_SET):
+                break
+        self.GrabCmmts ('StatSampleByLangs.csv', False)
+        self.Samples = []
+
+
+    def StatSamplingByApis (self):      
+            Apis2Num = {}
+            IdDict = {}
+            RepoNum = len (self.RepoList)
+            self.Samples = []
+            while True: 
+                RId  = random.randrange(1, 16777215, 1) % RepoNum
+                Repo = self.RepoList [RId]
+                Id   = Repo['id']
     
-    def Smapling (self):
+                Ai = self.ApiInfo.get (Id)
+                if Ai == None:
+                    continue
+    
+                if IdDict.get (Id) != None:
+                    continue
+                IdDict[Id] = True
+    
+                CmmtNum = self.GetCmmtNum (Id)
+                if CmmtNum < self.CmmtNum:
+                    continue
+    
+                ApisNum = Apis2Num.get (Ai.ApiType)
+                if ApisNum == None:
+                    Apis2Num[Ai.ApiType] = 1
+                else:
+                    if ApisNum >= self.SmpNum:
+                        continue
+                    else:
+                        Apis2Num[Ai.ApiType] = ApisNum + 1
+                print ("[%d]%s -> sampling %d" %(len (self.Samples), Ai.ApiType, Apis2Num[Ai.ApiType]))
+                Langs = self.GetLangSelt (Ai.Langs)
+                SamIt = SmItem (Id, Repo['url'], Langs, Ai.ApiType)
+                self.Samples.append (SamIt)
+    
+                if len (self.Samples) >= self.SmpNum * len (Sample.LANGCOMBO_SET):
+                    break
+            self.GrabCmmts ('StatSampleByApis.csv', False)
+            self.Samples = []
+
+    def StatSampling (self):
+        self.StatSamplingByLangs ()
+        self.StatSamplingByApis ()
+
+
+    def ValidSmapling (self):
         TryNum = 0;
         while True:
             TryNum += 1
@@ -238,7 +327,7 @@ class Sample():
                 row = Smc.values()
                 writer.writerow(row)
   
-    def GrabCmmts (self):
+    def GrabCmmts (self, SampleFile='Samples.csv', GenFlag=True):
         CCm = Collect_CmmtLogs(0)
         
         IssueCmm = 0
@@ -296,8 +385,9 @@ class Sample():
                 if CNo >= self.CmmtNum:
                     break
             print ("\tDone...[%d/%d]"  %(len (SampleCmmts), CNo))
-            self.GenSampleCmmts (RepoId, SampleCmmts)
+            if GenFlag == True:
+                self.GenSampleCmmts (RepoId, SampleCmmts)
 
-        self.GenSamples ()
+        self.GenSamples (SampleFile)
         print ("Total %d issue-Commits found!!" %IssueCmm)
         

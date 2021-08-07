@@ -180,9 +180,13 @@ def CloneRepos (startNo=0, endNo=65535):
     CR = CloneRepo ("Repository_List.csv", startNo, endNo)
     CR.Clone ()
 
-def CollectSamples ():
-    Cs = Sample (50, 500)
-    Cs.Smapling ()
+def CollectSamples (Stat=False):
+    if Stat == False:
+        Cs = Sample (50, 500)
+        Cs.ValidSmapling ()
+    else:
+        Cs = Sample (2, 100)
+        Cs.StatSampling ()
 
 def CollectIssues (StartNo=0, EndNo=65535, repo_stats=None):
     TimeTag(">>>>>>>>>>>> Statistic on Issues...")
@@ -335,6 +339,8 @@ def main(argv):
         CloneRepos (StartNo, EndNo)
     elif (step == "sample"):
         CollectSamples ()
+    elif (step == "statsample"):
+        CollectSamples (True)
     else:
         print ("collect.py -s <all/collect/repostats/langstats/discripstats/topics/asso/cmmts/nbr/apisniffer/clone>") 
 
