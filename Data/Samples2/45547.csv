@@ -1,0 +1,501 @@
+No,Url,Valid,Message,Issue-url,Tag,Category
+0,https://api.github.com/repos/jquery/sizzle/commits/20390f05731af380833b5aa805db97de0b91268a,False, build updating main version 2.3.7 pre, , ,None
+1,https://api.github.com/repos/jquery/sizzle/commits/0ec7ccf9572852d7961fc46d5dfec531c8156326,False, build fix link authors.txt, , ,None
+2,https://api.github.com/repos/jquery/sizzle/commits/9cb6739356a550c80a217b7a1d7a7bb9a637bffd,False, build update tested browser, , ,None
+3,https://api.github.com/repos/jquery/sizzle/commits/344ae8f09659579df419cd364daa043d70580faf,False, build remove deprecated sudo false key .travis.yml, , ,None
+4,https://api.github.com/repos/jquery/sizzle/commits/23189b76e34bb585050caf0292629e87fac78555,False, build update tested browser, , ,None
+5,https://api.github.com/repos/jquery/sizzle/commits/9987cb3edbca4a732760d8a794868591d6c07b44,True, core make sizzle.isxml accept falsy input fix jquery jquery 4782 close 474 ref jquery jquery 4814,https://api.github.com/repos/jquery/sizzle/issues/4814, ,None
+6,https://api.github.com/repos/jquery/sizzle/commits/f441747f8081f997ed72067cd2c94dc167844a2b,False, build update version package lock.json 2.3.6 pre, , ,None
+7,https://api.github.com/repos/jquery/sizzle/commits/390f24005fffc6a77f6280ebee48c07344fe4502,False, build remove version field bower.json file jquery release update version tag stay stale master instead remove version close 469, , ,None
+8,https://api.github.com/repos/jquery/sizzle/commits/bfb7b5ed06623d596c3e7961234f25d5c436b1cb,False, build updating master version 2.3.6 pre, , ,None
+9,https://api.github.com/repos/jquery/sizzle/commits/096f6836d41d118cbf74a98a5b3cd899594d99a8,False, release make sizzle work jquery release remove generated file running grunt build sizzle size comparison run eslint similarly jquery grunt test used run unit test requires running grunt grunt build generate built sizzle version fix 239 close 467, , ,None
+10,https://api.github.com/repos/jquery/sizzle/commits/6812dd07a748f309bb7a5a65b53bfd6c6122c665,False, release update authors.txt, , ,None
+11,https://api.github.com/repos/jquery/sizzle/commits/af163873d7cdfc57f18b16c04b1915209533f0b1,True, selector make empty attribute selector work edge qsa edge often always find element empty name attribute selector name detect fall back sizzle traversal interestingly older seem issue close 461 fix jquery jquery 4435,https://api.github.com/repos/jquery/sizzle/issues/4435, ,None
+12,https://api.github.com/repos/jquery/sizzle/commits/3965b4ad93f7f901e4703846b40fa848a2f6c119,False, selector throw post comma invalid selector opera 456 introduced test catching throwing badly escaped identifier firefox 3.6 unfortunately placed test opera fails making opera fail quicker adding post comma invalid selector rbuggyqsa commit fix regression introduces unit test ensuring throwing unfortunately issue fixed opera 11.6 lowest one sizzle officially support verified fix manually opera 10.6 11.1 11.5 close 463 ref 456, , ,None
+13,https://api.github.com/repos/jquery/sizzle/commits/dd774827f3eb10dbd82e592d8b7a4047aec8253d,False, test test shadow dom support test shadow dom node working root using shadow dom chromium implement plan remove future test reworked rely shadow dom jquery master already new api test close 464, , ,None
+14,https://api.github.com/repos/jquery/sizzle/commits/102b3d63c127ae56c2994b4856effd4f813f375d,False, build update tested browser test edge instead close 462, , ,None
+15,https://api.github.com/repos/jquery/sizzle/commits/a528ae520245b13a6a879041e4a2b135c7d6e522,True, selector make selector leading combinators use qsa optimization added jquery sizzle 431 skip temporary selector using child descendant combinators sibling combinators though push selector leading combinator qsa directly crash fall back slower sizzle route commit make selector leading combinators skip selector rewriting note jquery jquery 4454 jquery sizzle 453 modern browser edge leverage scope pseudo class avoiding temporary attribute close 460 ref 431,https://api.github.com/repos/jquery/sizzle/issues/4454, ,General
+16,https://api.github.com/repos/jquery/sizzle/commits/0f4bd299bde35c5bfb7a4ac466fa61f4a6e6333c,True, selector leverage scope pseudo class possible scope pseudo class surprisingly good browser support chrome firefox safari supported long time edge lack support commit leverage pseudo class get rid hack case adding temporary may cause layout thrashing reported time past completely eliminate hack modern browse sibling selector require change context parent scope stop applying like still improve performance vast majority case http doc web scope fix jquery jquery 4453 close 453 ref jquery jquery 4454 ref jquery jquery 4332 ref 405,https://api.github.com/repos/jquery/sizzle/issues/4332, ,None
+17,https://api.github.com/repos/jquery/sizzle/commits/cd0239bf326397cd5cf93438532436c235bf2bb0,True, selector use shallow document comparison avoid edge crasâ 459 edge sometimes crash comparing document frame using strict equality operator funnily enough shallow comparison work without crashing fix jquery jquery 4441 close 459 ref jquery jquery 4471,https://api.github.com/repos/jquery/sizzle/issues/4471, ,None
+18,https://api.github.com/repos/jquery/sizzle/commits/bdf239729ad31f91a66e88f4d72e7b812716d45b,False, build split test two set improve reliability karma version currently used sizzle often run test browser current browser set one fails improve reliability split two browser set similarly desktop browser android split close 457, , ,None
+19,https://api.github.com/repos/jquery/sizzle/commits/948eff8f0fc7a3f237046f602b1d080b58a0db2f,False, build run karma test sequentially separate process improvement sizzle able finish unit test successfully long time commit attempt make work least time summary change new karma test task created run test various browser set doe sequentially separate process avoid karma bug cause browser previous set somehow still waited subsequent run failing build upgrade tested browser run test end fails often browser use real 10.3 device karma upgrade karma latest version 4.2.0 hang seems work fine close 455, , ,None
+20,https://api.github.com/repos/jquery/sizzle/commits/11767a18f778c8a237d4b055dc1c33db4e0e22de,False, selector detect incorrect escape handling old firefox according http www.w3.org syntax ident token diagram escape need followed whitespace hex digit newline however old firefox 3.6 throw escaped newline followed space fallback sizzle case fix 454 close 456, , ,None
+21,https://api.github.com/repos/jquery/sizzle/commits/5d90d4fc092493e6b6c0e1b070a18386236ec64c,False, build remove xvfb usage travis run test node.js close 451, , ,None
+22,https://api.github.com/repos/jquery/sizzle/commits/b2b650b629192beaf419098c459411a65121f5a1,True, selector allow whitespace hex escape identifier ref jquery jquery 4424 close 450,https://api.github.com/repos/jquery/sizzle/issues/4424, ,None
+23,https://api.github.com/repos/jquery/sizzle/commits/9ffbb8b6e18d79bdc8cc9ee94d7b923de0661b32,False, build update eslint config jquery fix violation fix build task newest eslint config jquery requires prefixing unused function parameter underscore done build grunt task also fixed lint built sizzle version built ref 442, , ,None
+24,https://api.github.com/repos/jquery/sizzle/commits/62061d04f137fb49419255433eaa9d28608016fd,False, build switch jshint jscs eslint fix 438 close 442, , ,None
+25,https://api.github.com/repos/jquery/sizzle/commits/7d92424c1a65a367a45034803e9de97462ea42e5,False, core throw better error documentelement missing close 439, , ,None
+26,https://api.github.com/repos/jquery/sizzle/commits/f27f9ffc9f8288cbb8cfed4d7735bdf42f2945ce,False, release fix authors.txt, , ,None
+27,https://api.github.com/repos/jquery/sizzle/commits/96910fa5c42858166df2beb9b1023e17d2a523da,False, release remove version specific changelog master branch, , ,None
+28,https://api.github.com/repos/jquery/sizzle/commits/66f59e690521bdc38c79b33d94900bca9d7b87aa,False, build updating master version 2.3.5 pre, , ,None
+29,https://api.github.com/repos/jquery/sizzle/commits/1734d4b26e6170bbcb6ab26cfcf209ed40f6e24e,False, release update version 2.3.4, , ,None
+30,https://api.github.com/repos/jquery/sizzle/commits/3ec907866c44720e77ea23a12be6e5ff88bf86b6,False, release update authors.txt, , ,None
+31,https://api.github.com/repos/jquery/sizzle/commits/30eae9b4c758254597ea33f32a90834f062a4f83,False, build update dependency close 446, , ,None
+32,https://api.github.com/repos/jquery/sizzle/commits/67e9691e8689b824387affb9da06dc663da63598,False, selector stop using innertext contains also test raw whitespace handling contains matching fix 335 close 437, , ,None
+33,https://api.github.com/repos/jquery/sizzle/commits/26a1f3f6f156cb687d0d7adc7bf79f0e5454811a,False, misc update isxml recognize html embedded element fix 378 close 436, , ,None
+34,https://api.github.com/repos/jquery/sizzle/commits/54bc2dd385a54851c897bc371fed05921b5ab65f,False, build update tested browser fix configuration firefox chrome edge opera updated 12.0 stopped working working 12.1 available switched one, , ,None
+35,https://api.github.com/repos/jquery/sizzle/commits/686f08dc3493e2e1ed3d97e4e3f80f158b1c94c8,False, release add jquery release script ref 239 ref 308 close 433, , ,None
+36,https://api.github.com/repos/jquery/sizzle/commits/70af4cef39ce9664d099c9b5a26eb83413a9e8c4,False, core reduce size ref, , ,None
+37,https://api.github.com/repos/jquery/sizzle/commits/71fe25c4c9a10d8827b845d398ca8fb7da163749,False, core avoid unnecessary pre qsa dom manipulation fix 430 close 431, , ,None
+38,https://api.github.com/repos/jquery/sizzle/commits/f7eb85b267867a173b4cf57dd6665a57bf8aa0bc,True, build fix config 11.4 12.0 enable testing close 434,https://api.github.com/repos/jquery/sizzle/issues/434, ,None
+39,https://api.github.com/repos/jquery/sizzle/commits/a9fc69660bca9cd89462c40a8cce274e2efa7cf1,True, test fix speed index.html dependency close 419,https://api.github.com/repos/jquery/sizzle/issues/419, ,None
+40,https://api.github.com/repos/jquery/sizzle/commits/547394c844e3172cbb21a6891449d0c82da2a2b8,True, build update tested browser close 432,https://api.github.com/repos/jquery/sizzle/issues/432, ,None
+41,https://api.github.com/repos/jquery/sizzle/commits/7b4fed5178be6bb61ff7e1fd10b9075884fbca4b,False, build update package lock.json, , ,None
+42,https://api.github.com/repos/jquery/sizzle/commits/431bfbbe43887f421e4c90b51e8422cb78cdeaa8,True, build update travis secure var reformat .travis.yml fix 427,https://api.github.com/repos/jquery/sizzle/issues/427, ,None
+43,https://api.github.com/repos/jquery/sizzle/commits/1c0c33066f053e62ac268658f65e7d912f3bdb0d,True, selector optimize bignumber ref http github.com jquery jquery issue 4199 close 429,https://api.github.com/repos/jquery/sizzle/issues/4199, ,None
+44,https://api.github.com/repos/jquery/sizzle/commits/3116795bba9a0c3d624e0718006b25aa5568d4cb,False, selector fix close 418, , ,None
+45,https://api.github.com/repos/jquery/sizzle/commits/0c91abcab7a184854340e17d2e8aff9dbc6a5a72,False, build update tested browser close 411, , ,None
+46,https://api.github.com/repos/jquery/sizzle/commits/840b647cd1ddd9d9aec3cde73af3f697fbf068d7,False, test use oldie compatible method updating element class, , ,None
+47,https://api.github.com/repos/jquery/sizzle/commits/8bda6c95617777ea596bf54636b27548af69d086,False, core stop changing matchesselector input fix 408 fix 406 close 409, , ,None
+48,https://api.github.com/repos/jquery/sizzle/commits/5dfff27be7b3f398e2bad246e83cfa3582c119a7,False, build restore ascii output, , ,None
+49,https://api.github.com/repos/jquery/sizzle/commits/f6bd902659741290a3e7d33f0aca2ebed4897f0e,False, build update name .mailmap authors.txt, , ,None
+50,https://api.github.com/repos/jquery/sizzle/commits/90ce614c5f3d3e261d378146eeff89c1cbb8dd2f,True, build update dependency karma updated 1.4 break lower http github.com karma runner karma issue 2556 grunt updated 1.x old grunt jscs peer depends grunt 0.4 npm used default node lts break npm install updating grunt jscs newer version switching eslint would require lot style fix close 399,https://api.github.com/repos/jquery/sizzle/issues/2556, ,None
+51,https://api.github.com/repos/jquery/sizzle/commits/b1b1c8d80a4a98c5bf4c1d3c9cd52b82a8918895,False, build update travis node.js version node.js 0.10 supported anymore node lts, , ,None
+52,https://api.github.com/repos/jquery/sizzle/commits/40f16c58e22d2589c61bd0379063274f23ab1b76,False, build update browser, , ,None
+53,https://api.github.com/repos/jquery/sizzle/commits/eabce51ea7360c4507da2eeaec2633378de4ec8d,False, selector prevent seeded invocation cutting qsa path fix 393 close 396, , ,None
+54,https://api.github.com/repos/jquery/sizzle/commits/0a609954e1ca171c3de3e56c65648edf215eb43b,False, misc update jquery foundation foundation, , ,None
+55,https://api.github.com/repos/jquery/sizzle/commits/abde99f6dc2ed3d489a6d7a52f3df9774be16a32,False, selector fieldset ancestor disable form element ref, , ,None
+56,https://api.github.com/repos/jquery/sizzle/commits/ac339ecf2d8b8c3f97b7b7ae55d77561b6ef462e,False, release update version 2.3.4 pre, , ,None
+57,https://api.github.com/repos/jquery/sizzle/commits/1fb882d7076593de74686f5656393869b44b6a66,False, release update version 2.3.3, , ,None
+58,https://api.github.com/repos/jquery/sizzle/commits/ff1c731962c9a24814189ca992eac0d94b58ecac,True, selector properly implement enabled disabled select content semver patch fix 387 ref http github.com jquery jquery issue 3263 close 388,https://api.github.com/repos/jquery/sizzle/issues/3263, ,None
+59,https://api.github.com/repos/jquery/sizzle/commits/281a6ff6e7f157bb01f9409f2cb586e63ae6a223,False, release update version 2.3.3 pre, , ,None
+60,https://api.github.com/repos/jquery/sizzle/commits/103de662773e450c5dcacdde726c8c93946a9b31,False, release update version 2.3.2, , ,None
+61,https://api.github.com/repos/jquery/sizzle/commits/91471493b2c0a788fea99a1e8941df2f605fcf3f,False, release update version 2.3.2 pre, , ,None
+62,https://api.github.com/repos/jquery/sizzle/commits/06c03d1ba60dd8ca52e589a3b3d97a7a7bea9875,False, release update version 2.3.1, , ,None
+63,https://api.github.com/repos/jquery/sizzle/commits/4f19ae63f04ff5c0dabbdee2fa52a67221b2afa2,True, selector properly implement enabled disabled select content semver patch fix 382 ref http github.com jquery jquery issue 3224 ref close 384,https://api.github.com/repos/jquery/sizzle/issues/3224, ,None
+64,https://api.github.com/repos/jquery/sizzle/commits/b05a9d37fd0c237d56736749f1a83c147fca1cb6,False, release update .mailmap authors.txt close 383, , ,None
+65,https://api.github.com/repos/jquery/sizzle/commits/3a3db6ce247c8ff6903b301fa83f2a8018363eb7,False, build update karma related package solve recent issue related timeouts travis, , ,None
+66,https://api.github.com/repos/jquery/sizzle/commits/9d91b00cc7a63631f6a28e5937e969ec09cabdff,False, build stop testing edge browserstack going remove edge infrastructure week testing two edge version edge come, , ,None
+67,https://api.github.com/repos/jquery/sizzle/commits/f192026b88c5f0154b773958c72a6287bcfa007f,False, build stop testing, , ,None
+68,https://api.github.com/repos/jquery/sizzle/commits/a0dc70d64c93257af6df00409c98c65ec9d1ca28,False, build update browser, , ,None
+69,https://api.github.com/repos/jquery/sizzle/commits/603f51b8a15c8d64570c73c59c0c30c6d9de76fe,False, build update secure var travis, , ,None
+70,https://api.github.com/repos/jquery/sizzle/commits/252f27bc1d7ad053ba3948bb563ee58f2630e56f,False, build remove yandex.browser, , ,None
+71,https://api.github.com/repos/jquery/sizzle/commits/ed285e39a210bc7a3bf3af0f1145832076146253,False, build update browser, , ,None
+72,https://api.github.com/repos/jquery/sizzle/commits/6f7e56a87dde528d857eefe20a2c86f3b248e971,False, build update dependency grunt grunt cli update must wait grunt jscs update prepared jquery sizzle 330, , ,None
+73,https://api.github.com/repos/jquery/sizzle/commits/17afc90a268593e9b0bb45f169b7437fa9a0e48a,False, build add .npmrc save exact true make command like npm install package save dev always get saved package.json pinned version delimited range ref jquery jquery, , ,None
+74,https://api.github.com/repos/jquery/sizzle/commits/582b63c607b344ce5838d89eaf57e693461948b2,False, test stop using deprecated qunit apis access module test qunit global replace setup module hook beforeeach replace global assertion method object passed test callback use assert.async make test asynchronous fix 376 close 379, , ,None
+75,https://api.github.com/repos/jquery/sizzle/commits/bed38b3dd2b7a2cbc58c5936e837dc4b539c2094,False, build update dependency, , ,None
+76,https://api.github.com/repos/jquery/sizzle/commits/85123dbb1b84c7d1b1612d4b7cfe56310fe5e46b,False, build update karma fix 362 ref 377, , ,None
+77,https://api.github.com/repos/jquery/sizzle/commits/5755052f434e88615ea85b849778c36d5c65d1f7,False, test fix failure, , ,None
+78,https://api.github.com/repos/jquery/sizzle/commits/0e20ac65796ea7dbe780789b01a4870d31b8ecb4,False, selector fix sizzle.escape regular expression ref, , ,None
+79,https://api.github.com/repos/jquery/sizzle/commits/6bc91da520a45d82d46d2796bb0ccacf3559cdb3,False, selector add back shortcut oldie ref ref 211 fix 333, , ,None
+80,https://api.github.com/repos/jquery/sizzle/commits/820b45450418c5081ea990fc5074b35ae9fc1ff5,False, test keep test iframes around assertion ref jquery jquery commit, , ,None
+81,https://api.github.com/repos/jquery/sizzle/commits/3606c0a971f10e95531e1137323368b376a66321,False, revert test minimize cross window operation reverts commit, , ,None
+82,https://api.github.com/repos/jquery/sizzle/commits/087ba11b104dfe66ac82523246899381b7a637d3,False, test minimize cross window operation, , ,None
+83,https://api.github.com/repos/jquery/sizzle/commits/e86f00921d0eb0f80a553fa9fd85c059d64a171a,False, build verify dist file ascii ref, , ,None
+84,https://api.github.com/repos/jquery/sizzle/commits/a7bbfc9a7195b9bd32f03a365d25dc9a55d6f5bd,False, build update ascii uglify option, , ,None
+85,https://api.github.com/repos/jquery/sizzle/commits/0268deb44e1b9cd3cce4d2e111c38646fda0865c,False, release update version 2.3.1 pre, , ,None
+86,https://api.github.com/repos/jquery/sizzle/commits/8d56cba3212f6722a0b47330143d329d7297277e,False, release update version 2.3.0, , ,None
+87,https://api.github.com/repos/jquery/sizzle/commits/62fc013efd7c95594eb227adb78a1cc0e7fda1d1,False, release update version 2.3.0 pre, , ,None
+88,https://api.github.com/repos/jquery/sizzle/commits/7999a01cf7bc92fb7d2951b4ad7442dbbd788e7f,False, selection check ancestor fieldsets matching enabled disabled semver patch fix 174 ref http www.w3.org bug public show_bug.cgi 26622 close 283, , ,None
+89,https://api.github.com/repos/jquery/sizzle/commits/7de7363ca3df21426399cb3cd69bb3c1ab8f3ce2,True, selector introduce sizzle.escape semver minor fix 363 ref jquery jquery 1761 close 364,https://api.github.com/repos/jquery/sizzle/issues/1761, ,None
+90,https://api.github.com/repos/jquery/sizzle/commits/0e86d4ae6bd0fafd6a4577e4db72920efa756038,False, misc update link http supported close 372, , ,None
+91,https://api.github.com/repos/jquery/sizzle/commits/bd19032f5b4513b1a0f99eeef94b20b1e1c8a778,False, core cleanup test source phantomjs ref, , ,None
+92,https://api.github.com/repos/jquery/sizzle/commits/0561fc35d8fe0680ae928bf3af25d43a7d221a75,False, core add close 370, , ,None
+93,https://api.github.com/repos/jquery/sizzle/commits/c2fb9737a3fb6cbdbb049895248efcc860d9a41f,False, release update authors.txt, , ,None
+94,https://api.github.com/repos/jquery/sizzle/commits/13ccec5813af1f5acf76e94b99f7f22ec9ab285b,False, misc spelling fix close 369, , ,None
+95,https://api.github.com/repos/jquery/sizzle/commits/26d30c4c6487834dd5f491de08ad0c3728a398f1,False, doc fix typo readme.md, , ,None
+96,https://api.github.com/repos/jquery/sizzle/commits/b5d02e8442e83ca2882e68a5879f18450c3c2bed,False, doc add missing period readme.md close 358, , ,None
+97,https://api.github.com/repos/jquery/sizzle/commits/2f16740021e4b674db53cffe0e3656f9df089edf,False, test add test shadow dom root fix 296 close 365, , ,None
+98,https://api.github.com/repos/jquery/sizzle/commits/3750f571449f30ccbc0a0e41dd161e0c1b7a207a,False, test work around qunit html reporter change ref, , ,None
+99,https://api.github.com/repos/jquery/sizzle/commits/cfc50b37e81a3453c4f0a5d2eac3f98f9009ce1b,False, build update dependency downgrade karma oldie issue worked ref 362 ref, , ,None
+100,https://api.github.com/repos/jquery/sizzle/commits/46ab43bb569f6e0274c60e55664e91fb626e5570,False, core simplify sourceindex logic siblingcheck also resequence detached child make sure sort close 360, , ,None
+101,https://api.github.com/repos/jquery/sizzle/commits/ffa8fabf6fb4622b323806a362068fe3dc36e281,False, setdocument use better name non preferred window, , ,None
+102,https://api.github.com/repos/jquery/sizzle/commits/3926b2837d227a52da55b2826594d66826a10b6c,False, setdocument listen unload preferred document ref ref ref jquery trac 13936 http bugs.jquery.com ticket 13936 ref jquery trac 14535 http bugs.jquery.com ticket 14535, , ,None
+103,https://api.github.com/repos/jquery/sizzle/commits/547024b7e795eddeb537f62945ed24c722e0f490,False, release update version 2.2.2 pre, , ,None
+104,https://api.github.com/repos/jquery/sizzle/commits/774e9ba8036943de9fc83b0411f4730ddafebbd1,False, release update version 2.2.1, , ,None
+105,https://api.github.com/repos/jquery/sizzle/commits/98ce70417a94462193ac874f18fde15bda957e29,False, release update authors.txt, , ,None
+106,https://api.github.com/repos/jquery/sizzle/commits/af148bb08329b4f37b754c4893e20967aa8d98a3,False, build update browser fix 356 close 359, , ,None
+107,https://api.github.com/repos/jquery/sizzle/commits/5a0dd09b7f7d9415213fb9b35fd0c565bcf602ff,False, build update dependency, , ,None
+108,https://api.github.com/repos/jquery/sizzle/commits/1a8958f6bc25ffb1ff2a1306ffd28d0539f93f84,False, selector speed qsa path real prefix fix 354 close 355, , ,None
+109,https://api.github.com/repos/jquery/sizzle/commits/51f87d087ac68f897c56fe5229f56105b36ba5d0,False, core add attribute handler efficiently fix 353, , ,None
+110,https://api.github.com/repos/jquery/sizzle/commits/6064cfedbe969cf2e3827a8bdf771454157cd2cf,False, build update commitplease specify valid component, , ,None
+111,https://api.github.com/repos/jquery/sizzle/commits/6bc81298e3026caa5baa0e3f1f56b97d56215595,False, release better synchronize package.json npm documentation, , ,None
+112,https://api.github.com/repos/jquery/sizzle/commits/d5905fd3c9190c34d6280ea20fb33c0ef46c6b06,False, build assume browser environment drop old jshint option fix 345 closse 351, , ,None
+113,https://api.github.com/repos/jquery/sizzle/commits/b13175592caf248ce215d761a7ad50cd054fb88f,False, release remove deprecated version property bower.json per bower bower.json spec a325da3 close 338, , ,None
+114,https://api.github.com/repos/jquery/sizzle/commits/6e8f617f32cd399cb558b5c36fcd9532a2164b1c,False, build increase polling timeout browserstack default polling timeout second scale many browser causing error time time fix 350, , ,None
+115,https://api.github.com/repos/jquery/sizzle/commits/c76829cb6d6cb624032afb769b6d92e1d32a5695,False, build add edge support fix 348 close 349, , ,None
+116,https://api.github.com/repos/jquery/sizzle/commits/b286e915a17d6521a95386abd1085c2989a77e49,False, build switch faster container infra travis close 346, , ,None
+117,https://api.github.com/repos/jquery/sizzle/commits/dfb2c7d17469c7de29da238cf28a9bedb6c20c76,False, build update browser, , ,None
+118,https://api.github.com/repos/jquery/sizzle/commits/e0fd226b786f73f82f4f287cc42179275c265ee6,False, build update karma related dependency except karma new karma recognizes microsoft edge correctly however problem update hold phantomjs added explicitly npm longer automatically installs , , ,None
+119,https://api.github.com/repos/jquery/sizzle/commits/3b1abbab1fb0c8080f36ad889d37704c7be13641,False, core setdocument even edge remove guard close 341 ref, , ,None
+120,https://api.github.com/repos/jquery/sizzle/commits/a6ca3e9919c7a77001bdec01b3579e4bafd73a84,False, release update version 2.2.1 pre, , ,None
+121,https://api.github.com/repos/jquery/sizzle/commits/a7f8d579032cc8f3739710a62cab4321a14068b5,False, release update version 2.2.0, , ,None
+122,https://api.github.com/repos/jquery/sizzle/commits/fe0792de43694c176f5609c9a8841f8869a0321c,False, release update authors.txt, , ,None
+123,https://api.github.com/repos/jquery/sizzle/commits/a7020477b0433ac08d66baf9eebb3f9d24868e21,True, selector defend oldie cloning cache ref jquery jquery 1709 ref 310 close 328,https://api.github.com/repos/jquery/sizzle/issues/1709, ,None
+124,https://api.github.com/repos/jquery/sizzle/commits/be6b6537f2a344682113938b97b551f3fcf45466,False, test fix failure ref, , ,None
+125,https://api.github.com/repos/jquery/sizzle/commits/a7cd096cfe57acc833fc2729498dedf7ca44bcc3,False, selector support class selection svg element fix 322, , ,None
+126,https://api.github.com/repos/jquery/sizzle/commits/bd844b56ec876d1a9d49f129235e43c76b2cfad2,False, test class selector svg element ref 322 close 323, , ,None
+127,https://api.github.com/repos/jquery/sizzle/commits/1e51133528a0d9a9bdd61de9ac244cf149541a20,False, doc replace descendent descendant http definition english descendant correct spelling noun meaning person descended particular ancestor descendant ent close 325, , ,None
+128,https://api.github.com/repos/jquery/sizzle/commits/28f4c67c508719cc76e2075dce0e4cbe0e325919,False, core reduce setdocument, , ,None
+129,https://api.github.com/repos/jquery/sizzle/commits/d4afd3065ce39dab0bf7a4cbb1786b09904d8030,False, selector context seeded operation still outermost ref, , ,None
+130,https://api.github.com/repos/jquery/sizzle/commits/26b04000d1c1778420be617fbbd00ac0433ae0da,False, selector check context every seed element ref, , ,None
+131,https://api.github.com/repos/jquery/sizzle/commits/b1a96936bb458dc159db86d485a60dd09c55f1de,False, selector reduce sizzle select supermatcher, , ,None
+132,https://api.github.com/repos/jquery/sizzle/commits/971aa342bf682a99cf51a98f98640e7d13518677,False, selector bye bye blackberry 4.6 ref 294, , ,None
+133,https://api.github.com/repos/jquery/sizzle/commits/e8ef42a60917fb78d693acc5f9651f3bdce5ed08,False, selector improve comment line length, , ,None
+134,https://api.github.com/repos/jquery/sizzle/commits/54a190b028e3fc885299a74c5e52620fb2b96d66,False, build test close 324, , ,None
+135,https://api.github.com/repos/jquery/sizzle/commits/b49720582b3e39309c4d762bf2aaacdecd66e51e,False, memory limit setdocument teardown listener fix 316, , ,None
+136,https://api.github.com/repos/jquery/sizzle/commits/c5f386eb08a83661494845e23d471c1e68de89ae,False, sizzle.matches infer context individual element fix 311, , ,None
+137,https://api.github.com/repos/jquery/sizzle/commits/3f8ac84e72ac6603d808b4cf906a95a515bc54c0,False, doc mollify closure compiler lowercase type jsdoc annotation close 319, , ,None
+138,https://api.github.com/repos/jquery/sizzle/commits/c0ee739c20e953fc82fd66192e6a85e7a7c91f4c,False, testing turn livereload development, , ,None
+139,https://api.github.com/repos/jquery/sizzle/commits/f8ef7112e94a1bd816aed4e954ebd19ed1264daa,False, extension skip qsa selector compiled fix 315, , ,None
+140,https://api.github.com/repos/jquery/sizzle/commits/ce9206ac22ab8c7726939bc7d7e283e3a3d7692f,False, speed ignore empty string selector file, , ,None
+141,https://api.github.com/repos/jquery/sizzle/commits/f0a3bf6ea7ef425c8b688679596aa99cba2ced02,True, core expose expando fix 310 close 317,https://api.github.com/repos/jquery/sizzle/issues/310, ,None
+142,https://api.github.com/repos/jquery/sizzle/commits/11153e7857292f84cda7054ce40689e1b884e918,True, build temporary disable test execution android device ref 314,https://api.github.com/repos/jquery/sizzle/issues/314, ,None
+143,https://api.github.com/repos/jquery/sizzle/commits/9606ce247b77fc058d857e85508748d7696bd3fd,False, build update browser launcher add safari update chrome firefox opera add yandex.browser update browser yosemite close 313, , ,None
+144,https://api.github.com/repos/jquery/sizzle/commits/2d0d56ffeb62fdbc36ed0fe8c838c1bffa781c46,False, build fix grunt watch since karma test dist associated task must populate, , ,None
+145,https://api.github.com/repos/jquery/sizzle/commits/f0ccb73bb66e023b17d415f1d8934932e697c1ee,False, doc reference new improved wiki close 298, , ,None
+146,https://api.github.com/repos/jquery/sizzle/commits/4f192edf934fd0a5a1844acaaeb0326def572030,False, build remove date copyright notice close 307, , ,None
+147,https://api.github.com/repos/jquery/sizzle/commits/230d5e254895f29d0309090b424c6685fd76c4be,False, test test attribute selector smaller unit close 302, , ,None
+148,https://api.github.com/repos/jquery/sizzle/commits/50ebe1a43c0842f33ce363259f1a9eed236aca19,True, selector use valid xhtml support test fix 304 ref ref jquery jquery 1969,https://api.github.com/repos/jquery/sizzle/issues/1969, ,None
+149,https://api.github.com/repos/jquery/sizzle/commits/6f1acda5ace6a2fcda1af94a74cfc26bb9dc3bcc,False, revert revert tokenization remove exception identifier token reverts commit, , ,None
+150,https://api.github.com/repos/jquery/sizzle/commits/2280ab78b0e19dc494f9c47fd1f4a42dd63c280d,False, revert tokenization remove exception identifier token reverts commit conflict dist sizzle.js dist sizzle.min.js dist sizzle.min.map, , ,None
+151,https://api.github.com/repos/jquery/sizzle/commits/8a2e0f6e430bb8663f8a0aff8252f961740ad566,False, selector forget element testing fix 299 close 300, , ,None
+152,https://api.github.com/repos/jquery/sizzle/commits/0a2d247c19e93483108612c33ee27cd88d291e51,False, release update version 2.2.0 pre, , ,None
+153,https://api.github.com/repos/jquery/sizzle/commits/24d41a5d6cfa0b7af78a25b6282597cf76732e36,True, selector fix sibling filtered query webkit fix 290 close 297,https://api.github.com/repos/jquery/sizzle/issues/297, ,None
+154,https://api.github.com/repos/jquery/sizzle/commits/78a8c3a7a83ebd8356ae3e23c7c1970ef6d948d2,False, selector save unload handler outside setdocument avoids attaching multiple handler note removing function wrapper completely cause permission denied error close 1874, , ,None
+155,https://api.github.com/repos/jquery/sizzle/commits/be6ffc87129f67626242441912326d7416cc7fbb,False, style minor change move parent setting document check, , ,None
+156,https://api.github.com/repos/jquery/sizzle/commits/006d48d109a717386f987fdfb239bb0d5f6e98dd,False, build package script npm start grunt start, , ,None
+157,https://api.github.com/repos/jquery/sizzle/commits/061236ee6eb9f464d354dcba1356727411a5608d,False, build run minimal jscs test, , ,None
+158,https://api.github.com/repos/jquery/sizzle/commits/7e1360dfa5aa6684218462c65a1341ed1f5608aa,False, build test android 4.3 4.4, , ,None
+159,https://api.github.com/repos/jquery/sizzle/commits/46b73e374914a4c0f6ef8e3c0c96fe15155143eb,False, build update browserstack launcher, , ,None
+160,https://api.github.com/repos/jquery/sizzle/commits/9bf8ecbc8d39e436cdedd23be5f1843e2587c507,False, build update karma previous version incompatible node 0.11.14 see http github.com karma runner karma pull 1182, , ,None
+161,https://api.github.com/repos/jquery/sizzle/commits/f78f8cb748f8c296952d6fa2ed7e5629c224de81,False, build correct typo browserstack launcher config, , ,None
+162,https://api.github.com/repos/jquery/sizzle/commits/c8577b6631f375bd25cba21f6e7233840acb56fe,False, build use latest chrome firefox version test even though browserstack api say support believe doe, , ,None
+163,https://api.github.com/repos/jquery/sizzle/commits/2c5f9b261d0e44c3a7e94ffa5b76b5a689535e25,False, build update browserstack launcher replace motorola droid motorola droid razr since support dropped update chrome firefox version add use since currently unstable browserstack, , ,None
+164,https://api.github.com/repos/jquery/sizzle/commits/61aa0a60f8b51b2d186624c1c182bb4963ea055d,True, build update karma plugin qunit qunit ref karma runner karma qunit,https://api.github.com/repos/jquery/sizzle/issues/17, ,None
+165,https://api.github.com/repos/jquery/sizzle/commits/69b9d49db7aed6a6d3aaf9baa7eb88f97bc1f7f8,False, build move test build task back default useful selective target e.g. grunt build karma phantom karma oldie ref, , ,None
+166,https://api.github.com/repos/jquery/sizzle/commits/709e1db5bcb42e9d761dd4a8467899dd36ce63bc,True, core make expando valid identifier improved performance thanks jbedard ref jquery 14839 comment ref chromium issue 378607,https://api.github.com/repos/jquery/sizzle/issues/14839, ,None
+167,https://api.github.com/repos/jquery/sizzle/commits/ea1c40428c85de1b08087e9c76c5518ba8d15d4f,False, selector never clobber preexisting result, , ,None
+168,https://api.github.com/repos/jquery/sizzle/commits/911362e4570591d84e4358971414e724ef3bfa52,True, selector support context semver minor bump new functionality fix 284,https://api.github.com/repos/jquery/sizzle/issues/284, ,None
+169,https://api.github.com/repos/jquery/sizzle/commits/aca006dd2d3fb3c407ff99bb25153852d73e0f6b,True, selector attr val recognize whitespace delimiters fix jquery 15233,https://api.github.com/repos/jquery/sizzle/issues/15233, ,None
+170,https://api.github.com/repos/jquery/sizzle/commits/a9361f649bbd2d1dba078888b5681e29fea860c1,False, build update firefox opera test, , ,None
+171,https://api.github.com/repos/jquery/sizzle/commits/5b9cdd67aea236aaa55f632cc08d3f8676eeddb9,False, build update chrome test, , ,None
+172,https://api.github.com/repos/jquery/sizzle/commits/afbe4cda45de719640c3b82338b67bdfb2315bf8,False, core optimize indexof usage use simple loop faster native function close 280, , ,None
+173,https://api.github.com/repos/jquery/sizzle/commits/c3c109a6e159dcbc5e6aacafd517854926d0db77,False, core drop strundefined variable close 276, , ,None
+174,https://api.github.com/repos/jquery/sizzle/commits/38707422a56e115c9122a033905f258946620758,False, build fix grunt start command, , ,None
+175,https://api.github.com/repos/jquery/sizzle/commits/81baac6f852345818071d2b8f2faa5d6bd1508f8,False, build add opera 11.6 browser list, , ,None
+176,https://api.github.com/repos/jquery/sizzle/commits/e8dfb4411b057f7f3b58cb73d326f2cd47513748,False, build arrange browser definition, , ,None
+177,https://api.github.com/repos/jquery/sizzle/commits/7f3d5892e60b348e03706438a7768a25c3424118,False, build remove needle comment grunt config, , ,None
+178,https://api.github.com/repos/jquery/sizzle/commits/e7a66270c3f663fcd276575d871e407769f6a220,True, build bring opera 12.16 back list close 258,https://api.github.com/repos/jquery/sizzle/issues/258, ,None
+179,https://api.github.com/repos/jquery/sizzle/commits/4d985ade89a4bfe0aa7173a2f05e7d283d69637c,False, build append date local build name local run far appearing build called local run supposedly running 121 day failing separating run help organization allows see result particular run glance, , ,None
+180,https://api.github.com/repos/jquery/sizzle/commits/715c4be888a109b34bd5b1e66f0f25094875139c,False, build update dependency, , ,None
+181,https://api.github.com/repos/jquery/sizzle/commits/fe8ee501b55cf9e5e9ebf4acd8f96ad844496129,False, build update tested browser, , ,None
+182,https://api.github.com/repos/jquery/sizzle/commits/be52ecefe3da5c7f4a5643a8b87cf57593bf85c5,False, build update front end dependency, , ,None
+183,https://api.github.com/repos/jquery/sizzle/commits/8346bd2dfb765587e2e423211787b2f87738e555,False, build switch npm internal front end dependency management, , ,None
+184,https://api.github.com/repos/jquery/sizzle/commits/f585ea953335061181b4e1813f135f38bf444b33,False, build update grunt jscs checker pas new version, , ,None
+185,https://api.github.com/repos/jquery/sizzle/commits/af683e72df800be7ec3f3e3cb23798a8f9122e09,False, build update node dependency barring grunt jscs checker, , ,None
+186,https://api.github.com/repos/jquery/sizzle/commits/91b028e062bad2b3ec354f270623b508c7fd6dcc,False, build mit license license, , ,None
+187,https://api.github.com/repos/jquery/sizzle/commits/b1853cd3135914b8792f4296e1470af22ce323d5,False, release update version 2.0.1 pre, , ,None
+188,https://api.github.com/repos/jquery/sizzle/commits/f0ce95aa468c57b1799a498d1ed90f4b9564c5fb,False, release update version 2.0.0, , ,None
+189,https://api.github.com/repos/jquery/sizzle/commits/84bc46312cef9986a7a4aa9cbcdf9671e49d91b0,False, release update version 2.0.0 pre, , ,None
+190,https://api.github.com/repos/jquery/sizzle/commits/5bc4454a18b859025cbb8480c70bd3b7ec623ac0,False, build update copyright year, , ,None
+191,https://api.github.com/repos/jquery/sizzle/commits/b5e0926aa2687d8eb6b4a435c545fe7d43f215ea,False, build update license close 265, , ,None
+192,https://api.github.com/repos/jquery/sizzle/commits/f3a0cd3273d58fde30b163a27071e308c11cdc9b,False, release update version 1.11.2 pre, , ,None
+193,https://api.github.com/repos/jquery/sizzle/commits/2e166dfa084d3be6c554db563b5222f370d2348c,False, release update version 1.11.1, , ,None
+194,https://api.github.com/repos/jquery/sizzle/commits/d0df5a53e2a42190972c95c25d5c8700117bf2ba,False, release update version 1.11.1 pre, , ,None
+195,https://api.github.com/repos/jquery/sizzle/commits/e92e6661d806cfb0e741fe90f8c92f338caf349f,False, build optimize package.json npm install, , ,None
+196,https://api.github.com/repos/jquery/sizzle/commits/094460352158587b01c200082d6a37e38a010390,False, build use bowercopy retrieve jquery 1.7.2 jquery 1.8.3 drop jquery 1.8.1 close 273, , ,None
+197,https://api.github.com/repos/jquery/sizzle/commits/b98144889ac42fa8d57602c43893f6b8d1ef4509,False, build move external library external directory close 270, , ,None
+198,https://api.github.com/repos/jquery/sizzle/commits/a79e3432250ed32b666f10a57be8bfc728935e78,True, support prevent winrt unsafe content security exception thanks jokeyrhyme fix 274,https://api.github.com/repos/jquery/sizzle/issues/274, ,General
+199,https://api.github.com/repos/jquery/sizzle/commits/08cb4519b079af502e0441857bc3c01d31030545,False, core drop workarounds unsupported browser, , ,None
+200,https://api.github.com/repos/jquery/sizzle/commits/5462c55c46d41cdab0963d76e6976375204cd3e2,False, speed remove checkjava.js jar file included bower component need check used, , ,None
+201,https://api.github.com/repos/jquery/sizzle/commits/f5c3039d5b8511e9faa8473a4ba5ad7d4636fb19,False, build include license bower fix 268 close 269, , ,None
+202,https://api.github.com/repos/jquery/sizzle/commits/10f4bdccce2f2c0a702ec5c7cdf6781376aae079,False, build add tested browser update existing one, , ,None
+203,https://api.github.com/repos/jquery/sizzle/commits/96728dd43c62dd5e94452f18564a888e7115f936,False, build fix code style issue always use tab remove tralling whitespaces, , ,None
+204,https://api.github.com/repos/jquery/sizzle/commits/836040a60577b570f3cfd1334e8328e46baf2b45,False, build mention java requirement, , ,None
+205,https://api.github.com/repos/jquery/sizzle/commits/ebcbeafb2c4b1b1ae4e3e35253caff6485748fbe,True, selector allow escape sequence contains argument fix 261,https://api.github.com/repos/jquery/sizzle/issues/261, ,None
+206,https://api.github.com/repos/jquery/sizzle/commits/e5715abf2c1a4fd3b541327d52e968ac597a220b,False, build run test compile uglify, , ,None
+207,https://api.github.com/repos/jquery/sizzle/commits/20fbadb0870bd30e0e66c68891f121c0450374c4,False, selector fix test iframe submission firefox, , ,None
+208,https://api.github.com/repos/jquery/sizzle/commits/e12743799ec7914feb1d0033cf2128688f0e7c9f,False, build add firefox list browser also remove firefox since still undecided version browser support, , ,None
+209,https://api.github.com/repos/jquery/sizzle/commits/a338bb3ccf00093b8f2dfd39eb3df88469d9cde1,False, doc update .mailmap authors.txt, , ,None
+210,https://api.github.com/repos/jquery/sizzle/commits/06cd30aa6c08862a3fd78e4fe828217ce030427f,False, build increase disconnect tolerance karma config far case browser disconnected karma getting failure since happens quite often especially slower browser increase disconnect tolerance time, , ,None
+211,https://api.github.com/repos/jquery/sizzle/commits/e0708a9e494b011eae9640349a41d9c89cff8a68,True, build update devdependencies jshint configuration good practice list directly package.json especially current auto installing behavior away future version npm http github.com npm npm issue 5080 also jshint plugin search proper .jshintrc file current behavior integrated badly ides case,https://api.github.com/repos/jquery/sizzle/issues/5080, ,None
+212,https://api.github.com/repos/jquery/sizzle/commits/f204a6112216f31685717d9fc1bf6cabf42b2ef1,False, tokenization remove exception identifier token, , ,None
+213,https://api.github.com/repos/jquery/sizzle/commits/f47ebe4ed2a623fcbc745313ce6938e88380965f,False, release remove accidental addition hasty commits ref, , ,None
+214,https://api.github.com/repos/jquery/sizzle/commits/54f962fdd0999ce0833bbf069d3a1fec5fb85b1f,False, release update version 1.10.20 pre, , ,None
+215,https://api.github.com/repos/jquery/sizzle/commits/b5de20331f9caf0b3d4e6d223ffea0bb7e3511f4,False, release update version 1.10.19, , ,None
+216,https://api.github.com/repos/jquery/sizzle/commits/4e27180ba2afe777c3d796e46897bb36a270622a,False, release update task commitplease, , ,None
+217,https://api.github.com/repos/jquery/sizzle/commits/607e53bb4ce01f8e0e900da0d5d04b2767d9a08e,False, build put test folder ignore list close 257, , ,None
+218,https://api.github.com/repos/jquery/sizzle/commits/344fe1bb68afebc22f543541192f4cf48200e9f0,False, build check source code style issue check actual source jscs checker also fix minor code style issue found check, , ,None
+219,https://api.github.com/repos/jquery/sizzle/commits/114a328bf5be99aa04d219a02db451e777860e70,False, build update jscsrc update grunt jscs checker package simplify config use .jscsrc file instead option grunt config, , ,None
+220,https://api.github.com/repos/jquery/sizzle/commits/4410974678518d17130e8a293937e7f470e49249,False, build improve grunt test command, , ,None
+221,https://api.github.com/repos/jquery/sizzle/commits/0c636463aeaeebad8e75de4eda994d99ced17e64,False, build execute karma task otherwise grunt test command run grunt karma phantomjs, , ,None
+222,https://api.github.com/repos/jquery/sizzle/commits/8c175222abb7b02d28bd31c69e2b4558e71f2680,False, build update karma phantomjs launcher package older version problem window laucnher phantomjs, , ,None
+223,https://api.github.com/repos/jquery/sizzle/commits/7148a23724adfaeff710b2d1a47361064916be5e,False, test improve karma config give name browserstack build local run remove transport option karma config use lowercase name travis build browserstack increase timeouts run browserstack would stable, , ,None
+224,https://api.github.com/repos/jquery/sizzle/commits/42a6e48e07b9f5668e256326dce06a81174d5558,False, build add missed karma package, , ,None
+225,https://api.github.com/repos/jquery/sizzle/commits/2b90f170ae6494eef0db82660e31238a67f8d160,False, build divide browser group make testing process flexible divide browser three group desktop old mobile update browser version use opera 12.16 since behaves unpredictable, , ,None
+226,https://api.github.com/repos/jquery/sizzle/commits/095fc5ddcb145f849b7d92f0f393a52d751b27e0,False, build improve flexibility karma setup remove environment module moving logic grunt karma config declare new test task grunt config browserstack setting available use phantomjs instead add prefix bs_ browserstack browser, , ,None
+227,https://api.github.com/repos/jquery/sizzle/commits/660ce3634032afb5400a096a3ca5b3ff0607d0ae,False, build add useful test task specify browser want run test example grunt test browser chrome android_2.3, , ,None
+228,https://api.github.com/repos/jquery/sizzle/commits/978cc0d0d860bb18ee45522e52efbea14a937988,False, build reset karma browser option watch task even developer browserstack access use run supported browser watch task since execution take long time, , ,None
+229,https://api.github.com/repos/jquery/sizzle/commits/e11041bd836a9cd74898918d871bffc750b2e899,False, build execute test firefox fork, , ,None
+230,https://api.github.com/repos/jquery/sizzle/commits/f73a8948ae76b0cda4b5ff68f2d2eb1fbcd7cdeb,False, doc reflect karma related change readme, , ,None
+231,https://api.github.com/repos/jquery/sizzle/commits/1ba7aafd87a1ab470a862acec7dbbf06016c554d,False, build clean lint karma module prettify statement use use strict statement karma module, , ,None
+232,https://api.github.com/repos/jquery/sizzle/commits/d83826b13b72c943d89e7094fe21ddaa0856fb2c,False, build change karma initialization strategy add secure environment variable instead browser module use launcher store browserstack browser launcher info environment would change karma setting different environment, , ,None
+233,https://api.github.com/repos/jquery/sizzle/commits/417fb52d34566cdbfa1e0c70837cbf5be5ebb400,False, build specify browserstack setting, , ,None
+234,https://api.github.com/repos/jquery/sizzle/commits/131dc0c79cabe30243212818adc06778062a271c,False, test deal empty.js path base test data empty.js path karma runner show 404 error local run actual browser 404 path okay hackinsh probably best thing, , ,None
+235,https://api.github.com/repos/jquery/sizzle/commits/2c3742fab7aa46a6fe2bc42469c0ab2eb7c95fac,False, build use browserstack karma runner, , ,None
+236,https://api.github.com/repos/jquery/sizzle/commits/0120c68f74c267efd9da4f4e513202421687826e,False, build move karma config test folder add empty.js file karma server add correct comment karma config small simplification instruction karma grunt task remove karma dependency package.json since global package, , ,None
+237,https://api.github.com/repos/jquery/sizzle/commits/2cedf247b1f42618a9b4c4ab9d6aacf2e22dde08,False, test remove redundant instruction, , ,None
+238,https://api.github.com/repos/jquery/sizzle/commits/ef20023742c27ce8fdd4e96c1bd8222a17b6f79f,False, test remove debug artefact, , ,None
+239,https://api.github.com/repos/jquery/sizzle/commits/700ed241e2e18403a06d220aab27bab5f355700b,False, build reflect karma change readme, , ,None
+240,https://api.github.com/repos/jquery/sizzle/commits/d7b8a8592d01edf2cd628b5a3752b6cffc2c494a,False, build small simplification karma config, , ,None
+241,https://api.github.com/repos/jquery/sizzle/commits/2c38169f7fa10a45df64833d1ddd2b1a07c0d9d5,False, build check karma.conf.js jscs jshint, , ,None
+242,https://api.github.com/repos/jquery/sizzle/commits/2eb7134d0b3b1f6c9fa60117fd3d108f619d26bf,False, test make utility test execute new env, , ,None
+243,https://api.github.com/repos/jquery/sizzle/commits/037669f1f49c9235a56c37be78f4ed6d8e4e4c06,False, test modify url helper modify url helper could work karma environment, , ,None
+244,https://api.github.com/repos/jquery/sizzle/commits/dae66b64ccf3f5f0a5c76af5f0fa2499aa6e0a72,False, test make extending test execute new env remove exclude option karma.conf.js, , ,None
+245,https://api.github.com/repos/jquery/sizzle/commits/f986648f1e9e4095d1a9399eb138ea969134ddb2,False, test make selector test execute new env, , ,None
+246,https://api.github.com/repos/jquery/sizzle/commits/96150983d9c6c5e2e25246955b3ff46c2539b0c7,False, build use karma automate unit testing, , ,None
+247,https://api.github.com/repos/jquery/sizzle/commits/bd428012b95c333f39685a0abb4e94e7f108c813,False, build normalize line ending, , ,None
+248,https://api.github.com/repos/jquery/sizzle/commits/e6caa2aea64539c19d74dc33d9916db3c8ec7b6f,False, support fix opera test failure ref, , ,None
+249,https://api.github.com/repos/jquery/sizzle/commits/a060f6148ab14089cd671165a04780a73950da75,True, compilation properly recognize quoted string fix jquery 14793,https://api.github.com/repos/jquery/sizzle/issues/14793, ,None
+250,https://api.github.com/repos/jquery/sizzle/commits/a64d52ae4432385464206e2777f418dc892e7218,False, window apps removing invalid attribute close 253 removing invalid attribute may cause security issue window apps, , ,General
+251,https://api.github.com/repos/jquery/sizzle/commits/622d76c4d2bcfb398a811a45d2067ac9e1828707,False, padding argument style conformity, , ,None
+252,https://api.github.com/repos/jquery/sizzle/commits/0e584f31d1cb1c85504ee153bf5e5b4a834c121a,False, wwa security conformance unknown attribute able set innerhtml window web apps must set element via setattribute instead, , ,General
+253,https://api.github.com/repos/jquery/sizzle/commits/16499908e3c3e78b3565c384b1526b2d311f67df,False, matchesselector use element.matches available close 251 spec http dom element match support chromium http code.google.com chromium issue detail 326652, , ,None
+254,https://api.github.com/repos/jquery/sizzle/commits/de59b0d6e3e9fe838c51514dd5e1604e7e9913b4,False, build add commitplease commit msg checking, , ,None
+255,https://api.github.com/repos/jquery/sizzle/commits/9abc677c376af694680f65258c3337c20aba3045,False, package sort devdependencies, , ,None
+256,https://api.github.com/repos/jquery/sizzle/commits/ccb809ff416b06ca86abe54ce273c40f2271d3b5,False, compilation expose tokenize much profit close 242, , ,None
+257,https://api.github.com/repos/jquery/sizzle/commits/3e71fcf454c41e56d82921b6650136c2af908fd7,False, update version 1.10.19 pre, , ,None
+258,https://api.github.com/repos/jquery/sizzle/commits/a9eb3ca3c5e1b568057390f73da385809ac69340,False, update version 1.10.18, , ,None
+259,https://api.github.com/repos/jquery/sizzle/commits/d935997ba94230b06f892c4ce0d2934fb8f2eb58,False, build upgrade qunit 1.14.0, , ,None
+260,https://api.github.com/repos/jquery/sizzle/commits/8459f2c031c2f93509b8d8f5976bb0b28d41c78a,False, build use es3 option jshint src, , ,None
+261,https://api.github.com/repos/jquery/sizzle/commits/dca988a3d6c43a3125df2bbfe9894b5bd5c11eb4,False, core specify affected firefox version support comment, , ,None
+262,https://api.github.com/repos/jquery/sizzle/commits/61b770f3326dd0d2e0663a304f51f8bddd7ce2dc,False, build switch specific dependency version, , ,None
+263,https://api.github.com/repos/jquery/sizzle/commits/0ff8cc96a094e74229090d7cd30239f2bbac8557,False, selection set context precompiled leading selector close 243, , ,None
+264,https://api.github.com/repos/jquery/sizzle/commits/f83f57d5eaf881015ad9b1a45903f9ed670cd626,False, compilation remove match property fix successive select call, , ,None
+265,https://api.github.com/repos/jquery/sizzle/commits/51248c46ab2d4a79a7a8dbfe59f1ed2a111093a6,False, update version 1.10.18 pre, , ,None
+266,https://api.github.com/repos/jquery/sizzle/commits/917b312f1d0777d3cccf6ceace2621bb9e8009b2,False, update version 1.10.17, , ,None
+267,https://api.github.com/repos/jquery/sizzle/commits/cb6f4d6f61c945a470ee64de93b7aa40df49f2ce,False, compilation expose sizzle.select advanced usage, , ,None
+268,https://api.github.com/repos/jquery/sizzle/commits/2b635881f7bceb25f8640d01be5ef0f7cf4a4028,False, update version 1.10.17 pre, , ,None
+269,https://api.github.com/repos/jquery/sizzle/commits/0fd151739d05648118002914c7a638411bbd0dbe,False, update version 1.10.16, , ,None
+270,https://api.github.com/repos/jquery/sizzle/commits/b948c8a2414d6bcc60c1c3091a70647db54afa98,True, combinator share lineage cache match result auto update ref jquery 14657 close 238,https://api.github.com/repos/jquery/sizzle/issues/14657, ,None
+271,https://api.github.com/repos/jquery/sizzle/commits/d569a7b46fff5bb32a352c0f8a613cdfde3cf794,False, build commit bower dependency remove npm install script fix 240, , ,None
+272,https://api.github.com/repos/jquery/sizzle/commits/352cae5c195bcb7b6febae620d9b8c7b3793516c,False, build remove bower dependency update grunt bowercopy, , ,None
+273,https://api.github.com/repos/jquery/sizzle/commits/107600531bf867e4eed25513356d7ce3b0cb3174,False, doc removed irc channel link contributing.md github support link irc protocol dead link, , ,None
+274,https://api.github.com/repos/jquery/sizzle/commits/30c7b7384aa72aaee486c222ffb01dec727b6dd7,False, build add travis config also add temporary dependency bower package see http github.com timmywil grunt bowercopy pull, , ,None
+275,https://api.github.com/repos/jquery/sizzle/commits/f3ec202bd675469a058537918e307214a8539ff8,False, build unite lint command mention grunt help command readme, , ,None
+276,https://api.github.com/repos/jquery/sizzle/commits/773909bd2f41742a178fe8143d895a58628a745c,False, build update uglify option, , ,None
+277,https://api.github.com/repos/jquery/sizzle/commits/e46f10a3a969c99b337598095f461480ff67ec5c,False, build add grunt test task npm build script, , ,None
+278,https://api.github.com/repos/jquery/sizzle/commits/b18b3bf0e5caaa66ff6ba066ad986d8022de1186,False, build add .editorconfig file, , ,None
+279,https://api.github.com/repos/jquery/sizzle/commits/bf72baca8d62b0b14739179bdd51f487d0ad0562,False, build check code style issue jscs, , ,None
+280,https://api.github.com/repos/jquery/sizzle/commits/0a4dc9dd4e680c5c8d43d243182fae7b0a44af37,False, doc reflect build change readme file, , ,None
+281,https://api.github.com/repos/jquery/sizzle/commits/9c4b94385bf8f7a1cfbec56cdc30392dc1bced41,False, build download speed dependency grunt, , ,None
+282,https://api.github.com/repos/jquery/sizzle/commits/79a4a651b2f9c1c893597afbb822082b082fff2b,False, build install qunit lib grunt task, , ,None
+283,https://api.github.com/repos/jquery/sizzle/commits/844f197ecadc3f63efbc018983abb765c600a8a3,False, build add script property package.json, , ,None
+284,https://api.github.com/repos/jquery/sizzle/commits/dda8b5fba8937f1c0a9a09682186df954ffdbf4e,False, build use exact version dependency, , ,None
+285,https://api.github.com/repos/jquery/sizzle/commits/cff78bceba7044647bd46990e33573ed2a872add,False, build break logic grunt config use separate jshint config gruntfile.js move grunt task separate module, , ,None
+286,https://api.github.com/repos/jquery/sizzle/commits/c6a651bf39907bbe32c5f39c979b2de6ca367d0a,False, update version 1.10.16 pre, , ,None
+287,https://api.github.com/repos/jquery/sizzle/commits/fe200e82bb81e013ac6f11ffb494a963d2d6542f,False, update version 1.10.15, , ,None
+288,https://api.github.com/repos/jquery/sizzle/commits/f29f689956a2b89dacd9fd318765124b2d01014f,False, fix jquery 14584 force case sensitive treatment name attribute close 233, , ,None
+289,https://api.github.com/repos/jquery/sizzle/commits/b60929fa261801d524f6736af309dc36825100a6,False, update version 1.10.15 pre, , ,None
+290,https://api.github.com/repos/jquery/sizzle/commits/bbe6ebf60bdd09daee335bd3db5301933869a8b8,False, update version 1.10.14, , ,None
+291,https://api.github.com/repos/jquery/sizzle/commits/300ef78b9725281435e87875f11d01e449070fee,False, fix jquery 14579 trailing space unquoted attribute value, , ,None
+292,https://api.github.com/repos/jquery/sizzle/commits/12a4c9808d344aea89cf2b45df5460baab9ad3e5,False, update version 1.10.14 pre, , ,None
+293,https://api.github.com/repos/jquery/sizzle/commits/7984f2444324137a9481b340c296827b44bd7f6a,False, update version 1.10.13, , ,None
+294,https://api.github.com/repos/jquery/sizzle/commits/36973e9340b9e072a2077125cfc442dc6a42b926,False, fix jquery 14535 always setdocument iframe unload close 231, , ,None
+295,https://api.github.com/repos/jquery/sizzle/commits/59ed9ec03d75f4774241c025758d01d8174a9ae9,False, update version 1.10.13 pre, , ,None
+296,https://api.github.com/repos/jquery/sizzle/commits/fab2610bcd586bee88afb5ebf83591c2de464377,False, update version 1.10.12, , ,None
+297,https://api.github.com/repos/jquery/sizzle/commits/220f33f0b47b8a0257c5162c779252331d599143,False, fix release task avoid race condition updating version multiple file, , ,None
+298,https://api.github.com/repos/jquery/sizzle/commits/3c3c5f20f8289f4e943d11d93f5541af1b072667,False, ticket small optimization text pseudo close 227, , ,None
+299,https://api.github.com/repos/jquery/sizzle/commits/672b5d4d322b29b89bf8009d3fbe0683f58c3acc,False, clarify readme header supplement 230, , ,None
+300,https://api.github.com/repos/jquery/sizzle/commits/7d4fd642e5f30f579d8449fdbb659bc4aab1702b,False, run grunt build avoid testing error want build close 230, , ,None
+301,https://api.github.com/repos/jquery/sizzle/commits/2165f25c2303b372785dd8a3a6bf1e377ae72d87,False, update npm development dependency add load grunt task, , ,None
+302,https://api.github.com/repos/jquery/sizzle/commits/02cfa0e72ec71a5f85e5e44d57626e2868992359,False, ensure native implementation fix 228 also pas test bypass optimization including testinit iframe, , ,None
+303,https://api.github.com/repos/jquery/sizzle/commits/5efc23fa10f25020f95d31b3041114b3bd44ee53,False, update version 1.10.12 pre, , ,None
+304,https://api.github.com/repos/jquery/sizzle/commits/a0343fe77cc972060df5485acf4602f33d4b82c1,False, update version 1.10.11, , ,None
+305,https://api.github.com/repos/jquery/sizzle/commits/c3bbc09de2bd79cd8860f3dc62e683972a76c7f0,False, fix jquery 14381 sorting cross document node close 226, , ,None
+306,https://api.github.com/repos/jquery/sizzle/commits/0dc29d3788274e1b8de167f599d525ea41dbe60c,False, ticket fix bogus script error, , ,None
+307,https://api.github.com/repos/jquery/sizzle/commits/848e17506a7ed6bb3c07415316102278bf1b9405,False, update version 1.10.11 pre, , ,None
+308,https://api.github.com/repos/jquery/sizzle/commits/2e8a6ec91a5e82dd2a07401434fb60f3b73298c9,False, update version 1.10.10, , ,None
+309,https://api.github.com/repos/jquery/sizzle/commits/34f617a208f756e90256ccd8513e14039583770e,False, clear input uniquesort sorting release object close 225, , ,None
+310,https://api.github.com/repos/jquery/sizzle/commits/9128fc453b9ea614393de07f6fea41fb255a90fa,False, ensure working directory clean release task, , ,None
+311,https://api.github.com/repos/jquery/sizzle/commits/c50c710b6411db2cc6d77d3b982ac6625605ea63,False, ticket skip redundant form submit unit test, , ,None
+312,https://api.github.com/repos/jquery/sizzle/commits/2cdfd859debc3836f081f1a64beb338ea3e2efba,False, update version 1.10.10 pre, , ,None
+313,https://api.github.com/repos/jquery/sizzle/commits/d2983eafb26cc32215a7922f5698b6dc8b2b8715,False, update version 1.10.9, , ,None
+314,https://api.github.com/repos/jquery/sizzle/commits/5b3048605655285a81b06fbe4f49f2a14a8d790f,False, ticket revert breaking optimization, , ,None
+315,https://api.github.com/repos/jquery/sizzle/commits/64c2682b5995bc9c9417bc9c293ec6a153871cb6,False, update version 1.10.9 pre, , ,None
+316,https://api.github.com/repos/jquery/sizzle/commits/e328ac4a6166fcffd37192b41166f841fd3b3d9a,False, update version 1.10.8, , ,None
+317,https://api.github.com/repos/jquery/sizzle/commits/2921b4f2045091b39cc17c7ca3fbfdaa275e45f1,False, ticket clean code comment, , ,None
+318,https://api.github.com/repos/jquery/sizzle/commits/1b7c56d9642cc90204e836d1a34b0c9587e53d4c,False, ticket update isxml documentation, , ,None
+319,https://api.github.com/repos/jquery/sizzle/commits/362163f47b44aa26d98bfacab9d181cf42b13bf2,False, fix jquery 14351 sibling selector detached element context, , ,None
+320,https://api.github.com/repos/jquery/sizzle/commits/7267728e66c5d56550c8f9d19bd02eadaf6eec37,False, update version 1.10.8 pre, , ,None
+321,https://api.github.com/repos/jquery/sizzle/commits/034dbeff9efd711db4b1f93466398596449e5814,False, update version 1.10.7, , ,None
+322,https://api.github.com/repos/jquery/sizzle/commits/9729020f72cd63361bacefd8da82cd61af10ff3e,False, update qunit, , ,None
+323,https://api.github.com/repos/jquery/sizzle/commits/677b92a4dd21a382bf614e09b8307669bb37e1af,False, use bower speed framework dependency add .bowerrc, , ,None
+324,https://api.github.com/repos/jquery/sizzle/commits/e4536ab8514f08c6fda7fca7d32ab5ea226a8ccf,False, move sizzle src folder system glob top level sizzle.js way see http github.com jquery jquery pull 1337 issuecomment 23352400, , ,None
+325,https://api.github.com/repos/jquery/sizzle/commits/0a64e68acd58233ba0f6e173b0272ded5ede47ed,False, fix wrong bower qunit file location close 224, , ,None
+326,https://api.github.com/repos/jquery/sizzle/commits/ddaa3ac9703e4265d2ba80ad5e9ae0cdc96836d0,False, add common exposure sizzle still requires window document fix 223, , ,None
+327,https://api.github.com/repos/jquery/sizzle/commits/cf450ec7c3a5a1889e04886854394e07a44cf9f4,False, add test index.html grunt watch, , ,None
+328,https://api.github.com/repos/jquery/sizzle/commits/971290e124c123460d4a67b9c3d833cc4349f8e6,False, update version 1.10.7 pre, , ,None
+329,https://api.github.com/repos/jquery/sizzle/commits/96f16de1878025c58ded3981ab49c6172113efd4,False, update version 1.10.6, , ,None
+330,https://api.github.com/repos/jquery/sizzle/commits/9a9818a67f807a0696e61a3057b4a2188bdbfad0,False, update version 1.10.6 pre, , ,None
+331,https://api.github.com/repos/jquery/sizzle/commits/c8887c9f61b6d03048e857c669ee2d7f12d63ae1,False, update version 1.10.5, , ,None
+332,https://api.github.com/repos/jquery/sizzle/commits/f6e2fc59dd971910db666cbece0f743aa111c4f5,False, fix jquery 14142 correctly handle numeric safari close 219, , ,None
+333,https://api.github.com/repos/jquery/sizzle/commits/e1fc2f891b40419c52beb2ac2817a77399079dfe,False, lint json manifest development, , ,None
+334,https://api.github.com/repos/jquery/sizzle/commits/e5019d4086c1be2d3f885a665695859393037d86,False, bower dependency devdependencies, , ,None
+335,https://api.github.com/repos/jquery/sizzle/commits/7e604c7ca0ef496c413ea14528d69582fb2fffd4,False, ticket fix lint error, , ,None
+336,https://api.github.com/repos/jquery/sizzle/commits/d5fc24d30dc6fd61a635dd931d63aa368588a9e2,False, include min map file bower package convenience, , ,None
+337,https://api.github.com/repos/jquery/sizzle/commits/41e1e56924a5a9ad923f03434846657ad6ed41a3,False, minor clean, , ,None
+338,https://api.github.com/repos/jquery/sizzle/commits/e57fc4e51a3250e2db2c5e367bed5788aa52e7cd,False, update version 1.10.5 pre, , ,None
+339,https://api.github.com/repos/jquery/sizzle/commits/a4320e301080999b6e5615accd9f818320d900c8,False, update version 1.10.4, , ,None
+340,https://api.github.com/repos/jquery/sizzle/commits/c5edaa789a66fa3a676f3562037889820614cac1,False, include test directory including sizzle bower jquery sake, , ,None
+341,https://api.github.com/repos/jquery/sizzle/commits/fba13f0ad9ea193c9f8a7c491f9ec2746abeee70,False, update version 1.10.4 pre, , ,None
+342,https://api.github.com/repos/jquery/sizzle/commits/eae940438283884dbb94b5a9b2c35eef84d8bdf1,False, update version 1.10.3, , ,None
+343,https://api.github.com/repos/jquery/sizzle/commits/435edae0c59a0ca826211d9c29ae0b5713f4034c,False, install qunit bower, , ,None
+344,https://api.github.com/repos/jquery/sizzle/commits/4df55d06a7819e67c9201102d4522476bea45d21,False, add release grunt task, , ,None
+345,https://api.github.com/repos/jquery/sizzle/commits/217f1525e8c9f8061e44ec81e4462a81dad5d119,False, update npm package, , ,None
+346,https://api.github.com/repos/jquery/sizzle/commits/70f333eb1f62a779bffa748543b36093e8832bd0,False, remove undefined var declaration, , ,None
+347,https://api.github.com/repos/jquery/sizzle/commits/846ef26f2d886f68aa7f48a8d017ee0ad1ed0768,False, adjustment ignored file bower, , ,None
+348,https://api.github.com/repos/jquery/sizzle/commits/b24a387b65be8c16d92f74b03018559d7d2713ad,False, fixed bower.json typo close 217, , ,None
+349,https://api.github.com/repos/jquery/sizzle/commits/9eebd0b6ac62579f5ec847af1b517bcee9c0bfb2,False, update version 1.10.3 pre, , ,None
+350,https://api.github.com/repos/jquery/sizzle/commits/17e2e7dc7766370041fd3e2ddf6bdcb457a3c4e8,False, tag 1.10.2 release, , ,None
+351,https://api.github.com/repos/jquery/sizzle/commits/11668f9fddeb048acfa9f41719606654c867a41a,False, ignore unnecessary file bower.json correct version manifest, , ,None
+352,https://api.github.com/repos/jquery/sizzle/commits/f88bfe943c69046aa88d4531e74bbc63926e96e3,False, component bower http github.com bower bower defining package, , ,None
+353,https://api.github.com/repos/jquery/sizzle/commits/01318877a96ffe44bb82b514e77e0d18fb709b38,False, use frameelement property fix 13980. close 214, , ,None
+354,https://api.github.com/repos/jquery/sizzle/commits/76371815e287785753406e841d3d855eac2c5255,False, remove internal isnative function byte, , ,None
+355,https://api.github.com/repos/jquery/sizzle/commits/28f79749af842bf941eac0a264adf0f87cbbebe4,False, update inline doc, , ,None
+356,https://api.github.com/repos/jquery/sizzle/commits/5f21da6bd241c759884b966f6e6878755b3417f9,False, simplify xml check byte, , ,None
+357,https://api.github.com/repos/jquery/sizzle/commits/22dacb7f98cbea349149dae27ed4583b381382cd,False, ticket remove non ascii character, , ,None
+358,https://api.github.com/repos/jquery/sizzle/commits/07a5f1fde5bfbb9390a9cdab91f0f8a30d5148c8,False, ticket save byte, , ,None
+359,https://api.github.com/repos/jquery/sizzle/commits/decefb6cad670c778d692d99467afcf92d95bd41,False, fix jquery 13974 screen xml document special attrhandle processing, , ,None
+360,https://api.github.com/repos/jquery/sizzle/commits/a431c0254a1910a9a803539239e9b2954ffadf7d,False, fix jquery 13936 iframe reload affect sizzle close 213, , ,None
+361,https://api.github.com/repos/jquery/sizzle/commits/00a7e0d8d66fb7915a24a2270033b8efc9e9c774,False, fix jquery 13894 identifier backslash escaped whitespace, , ,None
+362,https://api.github.com/repos/jquery/sizzle/commits/20a1a95a3b4882ec53927e0949df5fe7ed5f0c93,False, added contributing.md, , ,None
+363,https://api.github.com/repos/jquery/sizzle/commits/1728f0199bd5b7b3b33082487ff9815e3af80e1c,False, fix failing test traversing text node sourceindex, , ,None
+364,https://api.github.com/repos/jquery/sizzle/commits/31bf5c968b82610abd0b4918cb5bcf773b05bed3,False, ie6 return empty string match matched fix failing test, , ,None
+365,https://api.github.com/repos/jquery/sizzle/commits/30f2df9dbc0fcd30ce0c2feba8f5595864e04274,False, avoid treating empty string argument pseudo quote fix jquery 13882, , ,None
+366,https://api.github.com/repos/jquery/sizzle/commits/117d0eb564235a7679eb885141010cc67422c291,False, remove unnecessary xml check special attr handler, , ,None
+367,https://api.github.com/repos/jquery/sizzle/commits/9866815bf49a1dee0c5f3d2248267800cb4a2aa9,False, ticket per gibson remove unnecessary isxml argument certain handler pseudo fix applies set filter, , ,None
+368,https://api.github.com/repos/jquery/sizzle/commits/ce3e4aee4d533901971303be9110e9c0bb5d06a5,False, avoid overriding user defined handler reassigning attr handle fix failing test, , ,None
+369,https://api.github.com/repos/jquery/sizzle/commits/88a598b70da6acddbdbf695b605e03a77982b3d6,False, retrieve value attribute using defaultvalue ie6 fix 209, , ,None
+370,https://api.github.com/repos/jquery/sizzle/commits/516a8ad630655d2cd8c67bf75ac2550b640dd5ee,False, use shortcut find ie6 add implicit standalone pseudo fix 211. fix 212, , ,None
+371,https://api.github.com/repos/jquery/sizzle/commits/134dd6514bf27b6c037647fac58e52b6583f20d6,False, expose support sizzle.support, , ,None
+372,https://api.github.com/repos/jquery/sizzle/commits/853c272575c692b39d4f9ea10f3f808696d1a574,False, add test text node used context, , ,None
+373,https://api.github.com/repos/jquery/sizzle/commits/7536f7dcace24c2ce84c0ffc62627a4741e95b0e,False, ticket use doc inside setdocument stick name test html index, , ,None
+374,https://api.github.com/repos/jquery/sizzle/commits/b8789b87f1ecb00f0de82b2a13a3474dabdab406,False, ref jquery 13809 avoid collision word reserved version ecma 262, , ,None
+375,https://api.github.com/repos/jquery/sizzle/commits/84a24c9fea7c5cd0874c4ba61a1ef77e0b37e08f,False, fix jquery 13807 attribute name collision, , ,None
+376,https://api.github.com/repos/jquery/sizzle/commits/5bff3ae28d95acb380e754cc3d633f802e53b2d9,False, ticket correct mailmap close 206, , ,None
+377,https://api.github.com/repos/jquery/sizzle/commits/a067a1f3983145605e717d045721a6ee68966a28,False, updating 1.9.4 pre, , ,None
+378,https://api.github.com/repos/jquery/sizzle/commits/204ddda92ba3de51b4b870b2011de7b8d7250458,False, tagging 1.9.3, , ,None
+379,https://api.github.com/repos/jquery/sizzle/commits/575e9e4a796d287e6805c99989073da9baf9891c,False, updating 1.9.3 pre, , ,None
+380,https://api.github.com/repos/jquery/sizzle/commits/3a0c276876b65c7e85766f6777d8a5e3d5a28da2,False, tagging 1.9.2, , ,None
+381,https://api.github.com/repos/jquery/sizzle/commits/26d2cef803e613fcab99d049c1f947340af968f5,False, ticket miscellaneous improvement, , ,None
+382,https://api.github.com/repos/jquery/sizzle/commits/8f2d3e44fa133135de8d8f0108676e2f9a2fbc73,False, ref 2dca62f5 robust test jquery qunit suite, , ,None
+383,https://api.github.com/repos/jquery/sizzle/commits/4de5e9265fb71bebec3e4d011d4518dd8f72e96a,False, fix 203 remove unused code, , ,None
+384,https://api.github.com/repos/jquery/sizzle/commits/2dca62f52cc86a56e36753ab52e1dffe3c257940,False, use node retrieval specified property check src attribute fix jquery 13777 updated jquery, , ,None
+385,https://api.github.com/repos/jquery/sizzle/commits/ac300a94aa939e63035a28c6fed1eb54546084a7,False, ticket allow class selector svg element close 202, , ,None
+386,https://api.github.com/repos/jquery/sizzle/commits/b70b157608b6bad1f7c914fa89bd9dc4e167bb41,False, conform new style guide jshintrc close 201, , ,None
+387,https://api.github.com/repos/jquery/sizzle/commits/9ff2bbbf39b0040fcddf6f38ef884952e9f4e58c,False, allow focus selector pas qsa break chrome bypass ie8 throwing error supplement jquery 13378, , ,None
+388,https://api.github.com/repos/jquery/sizzle/commits/f67c4a9d9a0ce70ea8b753bf399dac98e251ad36,False, jshintrc predef globals, , ,None
+389,https://api.github.com/repos/jquery/sizzle/commits/df6c4c04df63e8cea56a4ca673bd1fc309b6b68e,False, revert use documentelement focus selector sake fix jquery 13378 reverts commit, , ,None
+390,https://api.github.com/repos/jquery/sizzle/commits/578e0c6f403e5819eb7cff953990229c5593e0cf,False, use documentelement focus selector sake fix jquery 13378, , ,None
+391,https://api.github.com/repos/jquery/sizzle/commits/cf19fa8dd6b7fda254bb3434f63d590845eaa7bf,False, save byte, , ,None
+392,https://api.github.com/repos/jquery/sizzle/commits/3af81b4c41d55315da0b336a4ab655021d121234,False, fix jquery 13539 robust sizzle.attr close 200, , ,None
+393,https://api.github.com/repos/jquery/sizzle/commits/fdf295c43d3cca8b090d4f96298f30dbfa25dcd8,False, add sizecache location compare_size option specify webkit version, , ,None
+394,https://api.github.com/repos/jquery/sizzle/commits/a9ab22e770ab94c4c8b426e2f46f6ab91a19639d,False, update bower version, , ,None
+395,https://api.github.com/repos/jquery/sizzle/commits/133601200154e9d341178e7262a74b419519e8ec,False, pas test bypass optimization true remove unnecessary var, , ,None
+396,https://api.github.com/repos/jquery/sizzle/commits/bcc04424c32f971430fc600b68a4e7f2543d1903,False, switch version number semver syntax related http semver.org, , ,None
+397,https://api.github.com/repos/jquery/sizzle/commits/b3dab21918a7dab1787d6dd07884b389841f81e8,False, remove unprefixed matchesselector supported anywhere close 199, , ,None
+398,https://api.github.com/repos/jquery/sizzle/commits/991e318ceb5aab5b9672bf03eb7fed7f26a5722e,False, update sizzle location bower, , ,None
+399,https://api.github.com/repos/jquery/sizzle/commits/c47b6510e9fc6e14532d0682d014bce2e7179d56,False, build cleanup take, , ,None
+400,https://api.github.com/repos/jquery/sizzle/commits/99a88a381e35a7d3c4b568c8f16abc896d10da5b,False, use built sizzle test update component.json version, , ,None
+401,https://api.github.com/repos/jquery/sizzle/commits/4d0daa822c72a9925c36f777681977841c2e40ec,False, build sizzle grunt embed version package.json include built file repo convenience add note readme update copyright, , ,None
+402,https://api.github.com/repos/jquery/sizzle/commits/0a0b3ae4055d490016beeae5b663a04727f27888,False, alias abandoned lint task jshint, , ,None
+403,https://api.github.com/repos/jquery/sizzle/commits/9686d290aec9539bc80b5602f4c1c9c477228ff6,False, replace reference lint close 197, , ,None
+404,https://api.github.com/repos/jquery/sizzle/commits/fd0801af6c97a58204440d1e07c4819401fe6680,False, replace deprecated grunt directive close 195, , ,None
+405,https://api.github.com/repos/jquery/sizzle/commits/4dbcbaa40e2fb5c4ff123cb79ec5da53feb37bd0,False, build process cleanup, , ,None
+406,https://api.github.com/repos/jquery/sizzle/commits/65b2e6c63b5895f095d547c6720da4329bf5be31,False, remove type attribute setting innerhtml sake window native apps close 193 source http library hh465388.aspx related issue solution http github.com jquery sizzle commit, , ,None
+407,https://api.github.com/repos/jquery/sizzle/commits/19034bd476e8800e1db49b0e926d9a11d724d4f0,False, ticket fix typo close 192, , ,None
+408,https://api.github.com/repos/jquery/sizzle/commits/c32b012c2c372771576d277596ca7756e009eff4,False, ticket support micro optimization, , ,None
+409,https://api.github.com/repos/jquery/sizzle/commits/4bd24fccc7c00191d57c09f111b074f516203369,False, fix jquery 13505 separate unstable sort workarounds, , ,None
+410,https://api.github.com/repos/jquery/sizzle/commits/204ddfbe2be71474b08f7a2f5f2bc7dbff03e5d8,False, ticket micro optimize support flag, , ,None
+411,https://api.github.com/repos/jquery/sizzle/commits/7b7883c2732e502a38523a4d6d94e17a861c1189,False, ticket document affected version support workarounds, , ,None
+412,https://api.github.com/repos/jquery/sizzle/commits/7d81f133a2fe184edce1a6e0cf5402d3a899bd5c,False, ticket polyfill push.apply nodelist android, , ,None
+413,https://api.github.com/repos/jquery/sizzle/commits/d3c9127e95a6fd71375471130906a7999f8878e9,False, ticket small size reduction, , ,None
+414,https://api.github.com/repos/jquery/sizzle/commits/206ac345f04d439e585756c2af517f1a73d2e03e,False, fix jquery 13499 leading matching name, , ,None
+415,https://api.github.com/repos/jquery/sizzle/commits/b56589f114ad6d8a267bbb75dbb001c3d4fa18f2,False, followup e15dd8e1 combine slice push shim better oldie performance, , ,None
+416,https://api.github.com/repos/jquery/sizzle/commits/e15dd8e1633e95d46911da636b0b0ab77daec502,False, ticket allow degenerate slice optimize appending nodelists, , ,None
+417,https://api.github.com/repos/jquery/sizzle/commits/1ef7c092993932661ebd0890ed7571d4b696efbf,False, followup b576034a restore oldie support, , ,None
+418,https://api.github.com/repos/jquery/sizzle/commits/d1d0cf8aed8dd3bbfa557c5f25630c0e12cccf84,False, ticket update copyright, , ,None
+419,https://api.github.com/repos/jquery/sizzle/commits/b576034ab6c7442719fb74d687551bb1478d822e,False, avoid use dynamic attribute innerhtml close 190 environment window store app permit use innerhtml along dynamic attribute like name however set via setattribute method help migrating code browser native application, , ,None
+420,https://api.github.com/repos/jquery/sizzle/commits/3bfb4ce2601af9a4c4aed3804b8903ce8914686a,False, fix 188 version tracking jquery inclusion, , ,None
+421,https://api.github.com/repos/jquery/sizzle/commits/1c8aec91284af8d8c14447976235d5dd72b0d75e,False, maintain original sort order detached node sorting webkit fix jquery 13331. gibson rule close 187, , ,None
+422,https://api.github.com/repos/jquery/sizzle/commits/e1baee52086e0274bed0de8dc086fdd383db1285,False, description siblingcheck, , ,None
+423,https://api.github.com/repos/jquery/sizzle/commits/7f5ac7a5ccfdec1b4ec7d4aee4a16fe2dfbb8ed0,False, ticket allow empty rbuggymatches, , ,None
+424,https://api.github.com/repos/jquery/sizzle/commits/c0d9badeb5dac649d0ba7824efaebbe4155369b5,False, fix jquery 13281 use sourceindex connected node, , ,None
+425,https://api.github.com/repos/jquery/sizzle/commits/162a75a13968c83970ac671ce1000c1f2e76b39f,True, merge pull request 186 diegotres master changed year 2012 2013,https://api.github.com/repos/jquery/sizzle/issues/186, ,None
+426,https://api.github.com/repos/jquery/sizzle/commits/f17b99b9ab74fc3f9d717b81be1c5145005b615f,False, changed year 2012 2013, , ,None
+427,https://api.github.com/repos/jquery/sizzle/commits/3f4445b83e731500da91ba477ef0ee0993c41eba,False, fix slice check close 184 docelem defined point use slice check always fails native slice never get used, , ,None
+428,https://api.github.com/repos/jquery/sizzle/commits/de303ace5518d290d3f16ff0f6349b192a215ba4,False, make native check support rhino close 185 rhino native function display native code often extra information example  function slice native code array.slice arity, , ,None
+429,https://api.github.com/repos/jquery/sizzle/commits/200c8724121819f4a6b1f1d155ef9361d0a27518,False, fix jquery 13251 use slice instead substr, , ,None
+430,https://api.github.com/repos/jquery/sizzle/commits/9ab59e20c17f52b2334e75f884e64fe5a7b7dc44,False, ticket complete moving comment, , ,None
+431,https://api.github.com/repos/jquery/sizzle/commits/c04fce3a7e3c74ba885a7537e4c39141666cbfe9,False, ticket small size optimization ref http github.com jquery jquery pull 1046, , ,None
+432,https://api.github.com/repos/jquery/sizzle/commits/5c51caa03824a86ca841aa9613b05f1ad5750228,False, remove unnecessary dom manipulation, , ,None
+433,https://api.github.com/repos/jquery/sizzle/commits/3144e353e5c653c6dc86a1fbec0894d81290958f,False, fix jquery 13182 nested overlapping candidate, , ,None
+434,https://api.github.com/repos/jquery/sizzle/commits/3e40b5d6055c192925a28efbd6c4abf5c784508e,False, enforce unix style line ending text file, , ,None
+435,https://api.github.com/repos/jquery/sizzle/commits/217852113ee951dd69d2a2dadcc52813fb7f7cd5,False, comprehensive ignored file list, , ,None
+436,https://api.github.com/repos/jquery/sizzle/commits/693576939a1ffe62b9266df508f58cda2f901787,False, use string literal instead string wrapped object performance reason, , ,None
+437,https://api.github.com/repos/jquery/sizzle/commits/19c7b3440385c9f628a7bc1c5769f6946fcc6887,False, revert ba5f09fa edge case fix, , ,None
+438,https://api.github.com/repos/jquery/sizzle/commits/ba5f09fa404379a87370ec905ffa47f8ac40aaa3,False, fix supplemental plane escape safari, , ,None
+439,https://api.github.com/repos/jquery/sizzle/commits/3cf5aa8ee5739bcaafbb24195182edf0d55137ed,False, complete lang testing, , ,None
+440,https://api.github.com/repos/jquery/sizzle/commits/ec870dc17c9d69092811d88512ae8f156ad76b43,False, reduce size, , ,None
+441,https://api.github.com/repos/jquery/sizzle/commits/fae0108566b34e92be7ad23eb29a52933d3bfa04,False, fix jquery 13070 better unescaping logic close 179, , ,None
+442,https://api.github.com/repos/jquery/sizzle/commits/a18041225c51658f9e8ff4875d6859de398ba065,False, fix test failure, , ,None
+443,https://api.github.com/repos/jquery/sizzle/commits/229fb525c04537665702961819f96e7e60e96121,False, lang handle backslashes stop first lang attribute handle xml lang correctly, , ,None
+444,https://api.github.com/repos/jquery/sizzle/commits/cb08a7c7aeb9eedd35c3d287494a91fb103c58fd,False, adjust lang per gibson042 suggestion, , ,None
+445,https://api.github.com/repos/jquery/sizzle/commits/5d088c78aacad817b5ed5cf8740a0dd56fe68225,False, add lang support close 178, , ,None
+446,https://api.github.com/repos/jquery/sizzle/commits/5891382942953178b3a1443697fdffdd3f4eea3d,False, remove unnecessary document check main sizzle function, , ,None
+447,https://api.github.com/repos/jquery/sizzle/commits/4e305f55dcb8fb726669f2f477ceb7e3c500b3e8,False, initialize default document stick var top compression, , ,None
+448,https://api.github.com/repos/jquery/sizzle/commits/4dc38ca9d55e19c6f04590563357a58886b3a4dc,False, context null call setdocument always assume window.document context sizzle.matches last used document, , ,None
+449,https://api.github.com/repos/jquery/sizzle/commits/34fcac60c3c7a181bfe44239c4398db141834882,False, null unnecessary, , ,None
+450,https://api.github.com/repos/jquery/sizzle/commits/3ab191e5c16295de69d91775602f7cd75672accb,False, set document yet set context different avoid extra function call, , ,None
+451,https://api.github.com/repos/jquery/sizzle/commits/4fd194cbf87e8adfe7de0d23437f7cfff26d440c,False, use preferreddoc fallback sorting algorithm disconnected node, , ,None
+452,https://api.github.com/repos/jquery/sizzle/commits/7dbf116f043f1865791a626972c4c3a90311cf53,False, minor bug fix size reduction, , ,None
+453,https://api.github.com/repos/jquery/sizzle/commits/3bc4139352cd65d6f01ce0601b24d230b219e792,False, prefer window.document sorting disconnected node, , ,None
+454,https://api.github.com/repos/jquery/sizzle/commits/7d195c771898eb9711b2fa52083da2613856dacc,False, revert contains change minor edits, , ,None
+455,https://api.github.com/repos/jquery/sizzle/commits/cabba176b98e5d79ce744f7ce180e3a48bdf96ac,False, remove active support comprehensive solution supplement 163, , ,None
+456,https://api.github.com/repos/jquery/sizzle/commits/a217d7b3962cc39555adf750740d7bbf71b11756,False, size optimization, , ,None
+457,https://api.github.com/repos/jquery/sizzle/commits/45982ce5d81d82288882f48da049bda314403ce8,False, add target root selector support supplement, , ,None
+458,https://api.github.com/repos/jquery/sizzle/commits/9751a47ded9693140af2aa635f7a9d928ac30a0b,False, add setdocument set document related variable per document, , ,None
+459,https://api.github.com/repos/jquery/sizzle/commits/875792ce8e57624053a6a5625c06ac9082ee9217,False, update grunt lint use jshintrc pas new lint rule, , ,None
+460,https://api.github.com/repos/jquery/sizzle/commits/8c6ed151bdfd03b8a8ec3707963caada8e73d041,False, add comment bypassing qunit window.error broken test, , ,None
+461,https://api.github.com/repos/jquery/sizzle/commits/031c00ce2fa3eb0a69f72fc1412d42eed7967544,False, remove unused var speed, , ,None
+462,https://api.github.com/repos/jquery/sizzle/commits/20ad5f811e22bf8528d8c33f0e7966fdb461c55a,False, cleanup fixture restore element descendant element selector removed, , ,None
+463,https://api.github.com/repos/jquery/sizzle/commits/71467207315eaac67dc6ba00992fe0f7998a8cb4,False, test update index.html new qunit format close 177 needed jquery jquery 1061 aside usual clusterfuck inter tangled dependency different fixture primarily related stuff outside qunit fixture also stabilises situation bit general future lot dependent , , ,None
+464,https://api.github.com/repos/jquery/sizzle/commits/be6f013d7379d285f0faeca9403709295fc1d635,False, fixed codestyle, , ,None
+465,https://api.github.com/repos/jquery/sizzle/commits/0d8523d9f7f4540a21880d426eea10f89c2e2e3c,False, fixed codestyle used toselector place, , ,None
+466,https://api.github.com/repos/jquery/sizzle/commits/4c72d46a5d182213f4178e1da3666efdf756750d,False, removed used string alias token, , ,None
+467,https://api.github.com/repos/jquery/sizzle/commits/2c220fda488a3f4a74581d790e138b1b3bf62a56,False, use string literal instead string wrapped object performance reason, , ,None
+468,https://api.github.com/repos/jquery/sizzle/commits/8d91687e64f137fac70a8f88d361c5bbb688299f,False, feeling, , ,None
+469,https://api.github.com/repos/jquery/sizzle/commits/1fd02c5d8edc72ab7b68bafd3f65ad41c4dba6e6,False, test svg ie6, , ,None
+470,https://api.github.com/repos/jquery/sizzle/commits/21c1cd6f10cdbbcb7712cdfd50a17f419e9b02b7,False, fix jquery 10832 sizzle.contains svg ie9, , ,None
+471,https://api.github.com/repos/jquery/sizzle/commits/66ecdfec4f79c3fac9a24a2bf9de7bb0fc48ec3b,False, reduce size, , ,None
+472,https://api.github.com/repos/jquery/sizzle/commits/7bef9ba3b2be83595ae38c41de0af9a4809cfb69,False, fix jquery 12856 keep pseudo regex non greedy, , ,None
+473,https://api.github.com/repos/jquery/sizzle/commits/2ffeccbb282dad665965d7e03b60e090ddc818c2,False, support type nth last selector close 172, , ,None
+474,https://api.github.com/repos/jquery/sizzle/commits/ac765b61bd4fdc6e76f459f18e1f99c9ed6e28da,False, ticket remove unnecessary regex escape, , ,None
+475,https://api.github.com/repos/jquery/sizzle/commits/c488e18facdf50de2d272a052d1e0f663ec19fd4,False, reduce size, , ,None
+476,https://api.github.com/repos/jquery/sizzle/commits/eba940636b5b1f3299cefe51bb1ec2b985379182,False, fix oldie opera test failure, , ,None
+477,https://api.github.com/repos/jquery/sizzle/commits/7ea8b52ed6f4e3026216037c00a24edd9fce4fff,False, cache everything element expando cache child index faster nth child close 170. close 171, , ,None
+478,https://api.github.com/repos/jquery/sizzle/commits/5e6ae330a9ccb33fd343a0bdc73ed2b821767f9c,False, need expr.match.pos minor cleanup, , ,None
+479,https://api.github.com/repos/jquery/sizzle/commits/f51e83a9c9bd78f1cafda9fa9b3b93fefa61c3ae,False, ticket fix jquery suite failure android, , ,None
+480,https://api.github.com/repos/jquery/sizzle/commits/badbeffba4714432a663f1150d3ffb1e20b6e191,False, ticket removed enforce unused variable detection jshint close 167, , ,None
+481,https://api.github.com/repos/jquery/sizzle/commits/93f872b731053b80470f47b54280f264f4a8edab,False, fix failing test traversing opera safari, , ,None
+482,https://api.github.com/repos/jquery/sizzle/commits/406b24bc94b826c132669948fb29d39ab4921f49,False, fix opera safari, , ,None
+483,https://api.github.com/repos/jquery/sizzle/commits/f690144148d95adc867fa2a7e25be0e05eb2ecc7,False, allow sorting disconnected element fix sorting document element, , ,None
+484,https://api.github.com/repos/jquery/sizzle/commits/56d3b2f2a7843248a9fa2d8e243d47defb373446,False, make sure browser window focus new focus test fix sometimes failing sizzle test focus, , ,None
+485,https://api.github.com/repos/jquery/sizzle/commits/f0dc09b83356e8bf8adeeb555e09077a10af2dc6,False, fix focus selector element tabindex see http dev.w3.org html5 spec single page.html focus management, , ,None
+486,https://api.github.com/repos/jquery/sizzle/commits/145a26d1f7dc578763c78c243f67e330ea77310e,False, fix jquery 12606 prevent cache key colliding native property close 157, , ,None
+487,https://api.github.com/repos/jquery/sizzle/commits/2a7c8b352198b3f42a1a54ff0097565499f5b6e4,False, fix jquery 12671 quasi array duplicate removal oldie close 161, , ,None
+488,https://api.github.com/repos/jquery/sizzle/commits/2f00c67d10a53ec5276e32dcb50547c8930c4305,False, separate test module utility, , ,None
+489,https://api.github.com/repos/jquery/sizzle/commits/b2a7d8759493569136620ac75fdb674821546e1b,False, fix jquery bug 12672 allow trailing relative selector, , ,None
+490,https://api.github.com/repos/jquery/sizzle/commits/3ed4e970e262230c799eaf24cc6d889828a3d6f3,False, tokenize trailing comma fix jquery bug 12643. close 158, , ,None
+491,https://api.github.com/repos/jquery/sizzle/commits/6bdb6a98de0c4f896498a88edb8e70b5c4385e3b,False, backcompat new argument minor size reduction, , ,None
+492,https://api.github.com/repos/jquery/sizzle/commits/41a7c2ce9be6c66e0c9b8b15e0a29c8e3ca6fb31,False, away child selector cache something widespread, , ,None
+493,https://api.github.com/repos/jquery/sizzle/commits/8bd4d39b5e6f5fae6d20b25877e51e528ae7de5c,False, account external document context check fix jquery bug 12572. close 155 http jqbug.com 12572 http github.com jquery sizzle pull 155 edited timmywil, , ,None
+494,https://api.github.com/repos/jquery/sizzle/commits/08c7d5ae93ebbd748a30fc46c866c9795fdda92e,False, elem may false setmatcher selector add check false, , ,None
+495,https://api.github.com/repos/jquery/sizzle/commits/ed5c22e10fc42805486ff4e501e0e7e5c4b9546b,False, always condense seeded setmatcher result fix failing test jquery suite close 154, , ,None
+496,https://api.github.com/repos/jquery/sizzle/commits/831c9c489ef90134436449b5c732f93f0a0b29bb,False, check nodetype element matcher matching nodetypes expected fix failing test, , ,None
+497,https://api.github.com/repos/jquery/sizzle/commits/1656af71d83ea1bf1861d646cc01d18a1d80d839,False, harden position caching dom manipulation child selector fix jquery bug 12337. close 153, , ,None
+498,https://api.github.com/repos/jquery/sizzle/commits/ccb60a3d38b30dd8158ec168aabae4adf69a95bd,False, fix failing test concerning sizzle.attr override pas xml attr, , ,None
+499,https://api.github.com/repos/jquery/sizzle/commits/6b8b9bf6b051de462972b8e4df1a7bdc91f17bfa,False, set based positional selector context free caching fix jquery bug 12303 12474 12523 12526 12541. close 148 151, , ,None

@@ -1,0 +1,501 @@
+No,Url,Valid,Message,Issue-url,Tag,Category
+0,https://api.github.com/repos/gkz/LiveScript/commits/bd9faa4d484b6abb110473f96c28bf8686e7b7a0,False, 1.6.1, , ,None
+1,https://api.github.com/repos/gkz/LiveScript/commits/bc2af11cd45c054e09567640b457948e25fd8a0d,False, fix q.r unlikely edge case nevertheless one bug found investigating unrelated issue fix consider last tail chain assignment position entire chain assigned, , ,None
+2,https://api.github.com/repos/gkz/LiveScript/commits/b1338a1364ba984bd48aa8babd1f3e15f211c429,False, fix destructuring default regression missed rewrite shorthand case assignment binary expression rewritten first argument binary operator considered assignment position, , ,None
+3,https://api.github.com/repos/gkz/LiveScript/commits/f64026e5dcea370f1716aa98454ac0c641b5de24,False, fix let destructuring regression commit 0e420e0 idea thought would good idea introduce call rewrite shorthand argument appears kludge make destructuring default work better way, , ,None
+4,https://api.github.com/repos/gkz/LiveScript/commits/d1185b8cc1b1c24da0bcd7297b9dd934afe1c5ee,True, fix 809 1104 fix 809,https://api.github.com/repos/gkz/LiveScript/issues/809,bug,None
+5,https://api.github.com/repos/gkz/LiveScript/commits/02554b4a3c2e9b447c759316d205b35beb2b52a4,False, refactor unfold soak call node compile previous commits fixed various soaking related regression unfold soak call node compile almost redundant rewrite shorthand call unfold soak refactoring clean remaining case save work unfold soak multiple time unnecessarily, , ,None
+6,https://api.github.com/repos/gkz/LiveScript/commits/cc1843952fab413d865f6b3255098a58d805439b,True, fix gkz livescript 1102 issue regression 1.5.0 first appearing commit 8cffc57 introduced rewrite shorthand method moved slice expanding problem refactoring caused everything rewrite shorthand happen unfold soak code issue relies unfold soak happening prior slice expanded commit prepends short circuiting call unfold soak rewrite shorthand method every node type defines non trivial unfold soak,https://api.github.com/repos/gkz/LiveScript/issues/1102,bug,None
+7,https://api.github.com/repos/gkz/LiveScript/commits/c79a2834931e3bf4557a7be52af40ae657a99677,False, support delete soaked chain, , ,None
+8,https://api.github.com/repos/gkz/LiveScript/commits/983b85552991fb2db37f4fc0408b9c4178ff60a4,False, fix soak anaphorization bug soak flag used prevent bound generated, , ,None
+9,https://api.github.com/repos/gkz/LiveScript/commits/57e06f89980ee6c8633a28d84c8797cc86cb48b4,False, fix soak destructuring default regression like assignment binary node assignment node created via destructuring syntactically allowed precedence created soaking expression inside destructuring assign node need moved inside soak, , ,None
+10,https://api.github.com/repos/gkz/LiveScript/commits/6a0040c5a9be8b42000b0f736ae45b7b5d37f8e4,False, add test case destructuring soak, , ,None
+11,https://api.github.com/repos/gkz/LiveScript/commits/27730da3edbfd587ce02df8a01ad7e318d23dc23,False, add test case spread existential, , ,None
+12,https://api.github.com/repos/gkz/LiveScript/commits/fb931c096df02e290ecaf7ba818575744520d510,False, fix source map generation newer node.js, , ,None
+13,https://api.github.com/repos/gkz/LiveScript/commits/f68805fe74c5c1630af13606065bd16199705a78,True, merge pull request 1099 rhendric fix livescript 1098 fix gkz livescript 1098,https://api.github.com/repos/gkz/LiveScript/issues/1098,bug,None
+14,https://api.github.com/repos/gkz/LiveScript/commits/b8a8667815630e7206256e1716c82290bf68622d,True, fix gkz livescript 1098 time precedence difference need attended livescript javascript synthetic node created important ensure child node either must higher precedence parsed also synthetic represent expression higher precedence wrapped parens reported bug similar issue binary operator consequence ,https://api.github.com/repos/gkz/LiveScript/issues/1098,bug,None
+15,https://api.github.com/repos/gkz/LiveScript/commits/d36873e08ba85f6d5f54734b1082a015e7fb4d49,True, merge pull request 1097 rhendric fix livescript 1096 fix gkz livescript 1096,https://api.github.com/repos/gkz/LiveScript/issues/1096,bug,None
+16,https://api.github.com/repos/gkz/LiveScript/commits/a379b03731a50bec4dfcefd423a3df9baefbed80,True, fix gkz livescript 1096 minor code optimization omitting parenthesis around single destructuring assignment incorrect assignment produced inside binary expression binary operator interferes parsing assignment generated change restricts optimization case current precedence level lower binary operator since number expression includes final expression capture original destructuring assignment value needed since optimization always applied top level parenthesis level expression second half condition change effect single assignment destructuring assignment direct child list conditional expression value destructuring assignment expression used rule list conditionals well 1096 illustrates one way circumstance likely arise natural code,https://api.github.com/repos/gkz/LiveScript/issues/1096,bug,None
+17,https://api.github.com/repos/gkz/LiveScript/commits/bc1c188f01298567bc689c979147829c6ac57213,True, fix gkz livescript 1038 expression equivalent property shorthand including atomic identifier literal shorthand key value pair atom key value work outside brace,https://api.github.com/repos/gkz/LiveScript/issues/1038,bug,None
+18,https://api.github.com/repos/gkz/LiveScript/commits/29c9c51e2b8de3a1def8166ac4abaf880140daf5,False, 1.6.0, , ,None
+19,https://api.github.com/repos/gkz/LiveScript/commits/7ac08f5c61b25ad622cf41845d60aa7b2fe872fd,False, update browser.html, , ,None
+20,https://api.github.com/repos/gkz/LiveScript/commits/ecf2460521fdd49bc9f776104612d8a6208ac121,False, update mode async await, , ,None
+21,https://api.github.com/repos/gkz/LiveScript/commits/9db23f2c9cafeaaea5673acad2f691feca57a717,False, update lang async await, , ,None
+22,https://api.github.com/repos/gkz/LiveScript/commits/367c6da5636a3ce4e1c3d4b41a10e0145719908a,False, support async generator also support verbose async function named option, , ,None
+23,https://api.github.com/repos/gkz/LiveScript/commits/b0ddade62783e643a7ab49ad943d1679d13cf113,True, fix gkz livescript 897,https://api.github.com/repos/gkz/LiveScript/issues/897,bug,None
+24,https://api.github.com/repos/gkz/LiveScript/commits/c830b5580db8b52efbea8c6170bd8c9bff7d2083,False, fix warn flag, , ,None
+25,https://api.github.com/repos/gkz/LiveScript/commits/94f429baf0d6a2cdaa5a065d45c849d68bcddc27,False, ensure using newer implementation buffer.from prior node v5.10 v4.5 impossible use buffer.from creating buffer string existence buffer.alloc implies newer implementation buffer.from possibility use string, , ,None
+26,https://api.github.com/repos/gkz/LiveScript/commits/03e8b6630cd3996ba63bc9fcd047eb4fbba90f88,False, feature detection test environment previously easy miss testing generator omitting harmony flag even make full skipped testing generator commit introduces detecting support certain syntax oriented language feature running test also assume using node.js higher generator support implied, , ,None
+27,https://api.github.com/repos/gkz/LiveScript/commits/8ac8bb4f41b393969272732aa4615a21f2e49811,True, fix yield await inside various let block fix gkz livescript 1019 gkz livescript 1021 gkz livescript 1023,https://api.github.com/repos/gkz/LiveScript/issues/1021,bug,None
+28,https://api.github.com/repos/gkz/LiveScript/commits/7b91a132ac22fce62b664ef2d1b1d0fa4f0d6cef,True, fix gkz livescript 1025,https://api.github.com/repos/gkz/LiveScript/issues/1025,bug,None
+29,https://api.github.com/repos/gkz/LiveScript/commits/61afa794fd26ff31b60826d3c449b89ac3af1b16,False, reduce parenthesis around operator back wrote 4cbbd93 know o.level, , ,None
+30,https://api.github.com/repos/gkz/LiveScript/commits/dcbbcb5ef17272766da476bbe4a05eeb2dcd6cdd,False, reduce unnecessary var 9f96f95 like function became bound function introducing extra var declaration despite needed many case commit walk side effect back optimizing bound function introduce variable used somewhere inside function, , ,None
+31,https://api.github.com/repos/gkz/LiveScript/commits/f08cc0fdeb255caec814a8a68d7e0efca17f7552,False, modernize node.js, , ,None
+32,https://api.github.com/repos/gkz/LiveScript/commits/a8f23f5553c3cdd1d13732892c6de6212b4265e2,False, fix case guarding implicit, , ,None
+33,https://api.github.com/repos/gkz/LiveScript/commits/6a5b97ccca3324028c525de4f78c0463f1fab3a5,False, fix regression caused 41fb1a8 attempt move shebang line header comment also moved initial source comment header comment unintended three element present correct order shebang generated livescript header comment source file header comment, , ,None
+34,https://api.github.com/repos/gkz/LiveScript/commits/446e4d017972a721dd93d6684446118739f7df08,False, lexer handle word literal care fix three related issue around word literal mistaken newlines operator content value token type, , ,None
+35,https://api.github.com/repos/gkz/LiveScript/commits/7bc5dfc81b11ba66714a856b2683fede4c2d329e,False, fix assignment, , ,None
+36,https://api.github.com/repos/gkz/LiveScript/commits/40a489ab9782d75d1aa4292d51d457e306689dba,False, refactor cache conserve ref variable, , ,None
+37,https://api.github.com/repos/gkz/LiveScript/commits/41fb1a8e0305d7e6dc403ffb4512595742c0f5e8,False, fix shebang header ordering earlier support shebang line compiled output moved default function wrapper default livescript header comment move shebang header comment well, , ,None
+38,https://api.github.com/repos/gkz/LiveScript/commits/d9b89b2e02f28f0f980376f61d79563be43c8993,True, fix gkz livescript 1035,https://api.github.com/repos/gkz/LiveScript/issues/1035,bug,None
+39,https://api.github.com/repos/gkz/LiveScript/commits/7ca2fe9afdd05daedd4c17b6070152c704fb1a20,False, show parser build error make fail build make build parser print error message shift reduce reduce reduce conflict stderr instead prepending lib parser.js also halt build leaf lib parser.js untouched message bit hack greatly improves ergonomics tinkering grammar, , ,None
+40,https://api.github.com/repos/gkz/LiveScript/commits/e0756348696a7ff5542c40098fd79b0fb6477f7b,True, fix gkz livescript 1027 fix depends implicit parenthesis get added key expression may ast node currently transparent whether assign position ,https://api.github.com/repos/gkz/LiveScript/issues/1027,bug,None
+41,https://api.github.com/repos/gkz/LiveScript/commits/20146c73b480a9cc614014e9404c81fef6e62c43,False, command add robustness unusual flag combination, , ,None
+42,https://api.github.com/repos/gkz/LiveScript/commits/3a1121e4f0f491dca277f320061e14d304e3276c,False, bump jison revert 6f539cb change 6f539cb intended work around bug jison longer present 0.4.18, , ,None
+43,https://api.github.com/repos/gkz/LiveScript/commits/7468367f533d8bbc2997c270357c1cd3a620b896,False, command fix compiling json file, , ,None
+44,https://api.github.com/repos/gkz/LiveScript/commits/fd1886cfdc099c378df79d61475337c785aba00b,False, command add test change made commit c8bced8a7, , ,None
+45,https://api.github.com/repos/gkz/LiveScript/commits/12f0cc856a02c8065a0ab18696a6df6e272b10bd,False, fix, , ,None
+46,https://api.github.com/repos/gkz/LiveScript/commits/be5c0305175bd19e6145eee3a442b5573f190910,False, fix script argument regression commit 03c6e6a removing code mutated process.argv also removed side effect prevented argument lsc handled script compile run caused regression running lsc script file.ls arg1 arg2 would result crash arg1.ls file could found regression fixed reintroducing side effect remove first positional argument array containing script compile run lsc running script batch compilation command involving multiple input file remain unaffected commit also add property present script interpreted lsc array holding name script invoked along extra argument consumed lsc intent provide way get script argument simpler reliable picking process.argv skipping element like node lsc compiler cli option provided either, , ,General
+47,https://api.github.com/repos/gkz/LiveScript/commits/5ac627d55cf6f751f293d548e2bfcdcf29b3c717,False, stop embedding source map 68a6d21 introduced regression functionality 9d32954 causing source map embedded default using combination compiler flag contradiction comment 9d32954 state embedded source map default compiler running compiling code 68a6d21 presence o.eval longer force compiler run code even used o.eval longer relevant default value o.map, , ,None
+48,https://api.github.com/repos/gkz/LiveScript/commits/56df1037e500749d18b2ba7a520494a12ec4f490,False, optimize applies optimization use one zero element array literal, , ,None
+49,https://api.github.com/repos/gkz/LiveScript/commits/c796b155c4fc734b6bfc9109ab7cfe401c3cea6c,False, support compiler warning hoc way, , ,None
+50,https://api.github.com/repos/gkz/LiveScript/commits/022e8867975c06ff34d0d0a34f238a813109935c,True, fix 1009 reset lexer method 1010 add method reset lexer initial state reuse,https://api.github.com/repos/gkz/LiveScript/issues/1009, ,None
+51,https://api.github.com/repos/gkz/LiveScript/commits/0e420e01f3f17e17aba5a1e31607ea29f90e9f85,False, fix loop guard let destructuring issue hat tip vendethiel reporting writing test, , ,None
+52,https://api.github.com/repos/gkz/LiveScript/commits/68a6d215e790eccb1047af0b7c91f9b695adadc6,True, fix flag combination fix 993,https://api.github.com/repos/gkz/LiveScript/issues/993, ,None
+53,https://api.github.com/repos/gkz/LiveScript/commits/98ba45b78b0654b9b18b9dd42474e65445001c94,False, fix infinite loop end make test beforeexit event handler calling settimeout would induce another beforeexit event prevent handler trigger, , ,None
+54,https://api.github.com/repos/gkz/LiveScript/commits/8c11bd1675808c8761f1b20852289e37595fa6da,False, nodejs version released available travis run continuous integration nodejs well, , ,None
+55,https://api.github.com/repos/gkz/LiveScript/commits/079e1559aff3b454ed82b595ce59039382fa96fa,True, merge pull request 978 gkovacs async await,https://api.github.com/repos/gkz/LiveScript/issues/978, ,None
+56,https://api.github.com/repos/gkz/LiveScript/commits/7419ac01cb9ecc9a3701a773238e9fa848973462,False, cleanup test removed await longer exists fix issue yield statement generated inside async function added test async.ls test async await feature, , ,None
+57,https://api.github.com/repos/gkz/LiveScript/commits/5500f116513a94ff803bac781e1a0af77603f985,False, es7 async await impl concise syntax see http doku.php strawman async_functions async function async arglist ... async function name arglist await await await await await proposed translate promise.all final backcall doe work fine invented create illusion async function anyway, , ,None
+58,https://api.github.com/repos/gkz/LiveScript/commits/8024b39363313602f10b7d04ba7987c25eaa29ca,False, invert sense compound assignment code basically well good make sense want assign nullish however prior commit code basically useless nullish certainly want add anything contrast accessignment basically obviously better way commit make mean accessignment compound assignment operator unchanged, , ,None
+59,https://api.github.com/repos/gkz/LiveScript/commits/8b32262706d83342bf4c1040874fec00cfe99149,False, use array.from expand array splat prior commit .slice used turn array like thing array needed splat array literal commit array.from instead available runtime fall back slice allows wider range iterables used splat platform support platform missing array.from also missing exotic iterables fix gkz livescript 963, , ,None
+60,https://api.github.com/repos/gkz/LiveScript/commits/2e0bd040ea4b28e3367a06c1023881970ec93e9d,False, omit break unreachable switch case fix gkz livescript 931, , ,None
+61,https://api.github.com/repos/gkz/LiveScript/commits/6116559d7cfac1fd69279b84b383a1dc0a623af1,True, merge pull request 958 rhendric object syntax work object syntax work,https://api.github.com/repos/gkz/LiveScript/issues/958, ,None
+62,https://api.github.com/repos/gkz/LiveScript/commits/03c6e6a907a253b5cc6750a8721f03079307b540,False, remove process.argv mutation fix gkz livescript 916. see issue commentary, , ,None
+63,https://api.github.com/repos/gkz/LiveScript/commits/abf216aae6934953a55984679fdecf66f36f2542,True, change object destructuring splat change semantics splat object destructuring pattern mean taking key destructuree yet extracted object instead importing subkeys one specific key destructuree resolve gkz livescript 941,https://api.github.com/repos/gkz/LiveScript/issues/941, ,None
+64,https://api.github.com/repos/gkz/LiveScript/commits/8b2d7c691db733566c1f742cfa8b41cf27dda94b,False, error unexpected destructuring label destructuring label syntax effect pattern position like assignment previously label simply ignored outside pattern throw explicit syntax error value label compiled, , ,None
+65,https://api.github.com/repos/gkz/LiveScript/commits/5c9ccb2782489102ea7345a30bf4283f4332354e,False, refactor object syntax part commit simplifies parse grammar permitting arbitrary expression sit inside object letting ast sort shorthand side effect make a.b.c longer parse error expression form expr.k legally expand expr.k, , ,None
+66,https://api.github.com/repos/gkz/LiveScript/commits/8cffc572499676d32e8d03bc6badb8a1c643aab6,False, refactor object syntax part commit refactoring touch language grammar doe touch interface grammar ast prepares grammar refactoring come next language semantics changed big idea objs hold prop well comment pull logic onto prop instead wrap prop value inside prop splat objs prop splat content keyless property simply prop null key refactoring also pull slice expanding property shorthand expanding distinct pas rest compilation make easier reason clean rest code little, , ,None
+67,https://api.github.com/repos/gkz/LiveScript/commits/87731ae6ca1a4128de1f76b38354d941128c30f8,False, fix misc object slice issue commit fix fairly myopic way obviously incorrect issue object slice particular expr expr valid key produce error instead compiling expr doe interfere special property logic syntax still becomes o.a anyone really want interpretation explicitly write expr speaking property logic attempting use xor property operator also produce error clearly excluded special list operator ast code knew handle feature despite treated parser a.b correctly access a.b instead o.ref yeah happening, , ,None
+68,https://api.github.com/repos/gkz/LiveScript/commits/5d9ffc08c299a51aa1cc3b2c5e04f22b172a1303,False, improve compilation test error reporting, , ,None
+69,https://api.github.com/repos/gkz/LiveScript/commits/0a6e60c3a0bd5c5814b405f4694a324ece88d52b,False, fix test script active test check, , ,None
+70,https://api.github.com/repos/gkz/LiveScript/commits/db9b673237b301c5cc3000f1ee69204e782037ac,False, remove obvious cruft, , ,None
+71,https://api.github.com/repos/gkz/LiveScript/commits/47ad4eba3a23003b4d571ac6d7e9b0c603c8950e,True, merge pull request 957 rhendric fix anaphorization fix bug anaphorization logic,https://api.github.com/repos/gkz/LiveScript/issues/957, ,None
+72,https://api.github.com/repos/gkz/LiveScript/commits/dce6d071aa3c65a3ac65574325d7ae945828b7d6,False, fix bug anaphorization logic recent work anaphorization logic sometimes caused automatic variable used declared scope, , ,None
+73,https://api.github.com/repos/gkz/LiveScript/commits/aa4216b3d8e9ea26ffc5a6e02f44751bf26d3c70,True, merge pull request 948 rhendric fix livescript 946 fix test node.js,https://api.github.com/repos/gkz/LiveScript/issues/948, ,None
+74,https://api.github.com/repos/gkz/LiveScript/commits/68e57556928ee322e7c5fcfbce9487514d1a1488,True, merge pull request 949 rhendric fix livescript 930 fix gkz livescript 930,https://api.github.com/repos/gkz/LiveScript/issues/930, ,None
+75,https://api.github.com/repos/gkz/LiveScript/commits/3902c23e7557ee34bb3d2fdf1ac9939cdd4b93fa,True, merge pull request 956 rhendric fix livescript 953 fix gkz livescript 953,https://api.github.com/repos/gkz/LiveScript/issues/953, ,None
+76,https://api.github.com/repos/gkz/LiveScript/commits/9d32954b9499cc494b7c2a9a521eedba0563ff85,True, fix gkz livescript 953 pavel made reasonable request lsc report correct line position information running livescript file encountering run time error commit implement cost minor change embedding source map default behavior lsc running code instead compiling feature generated javascript source woven stack trace disabled source map information map stack frame back livescript would perhaps nice larger change weave livescript source way case tool given correct frame source information produced mention easy look relevant file manually source map directive correctly refer using basenames make anything consuming source map happier sadder since standard relative path source map interpreted relative directory referring file,https://api.github.com/repos/gkz/LiveScript/issues/953, ,None
+77,https://api.github.com/repos/gkz/LiveScript/commits/af2f03514015fb42b5efb1df50fe63e6dd22c27e,False, .travis.yml add node.js, , ,None
+78,https://api.github.com/repos/gkz/LiveScript/commits/baf695742510b817b15ee60fc7b71b3a55c899fd,False, repl improve tab completion add extra test case implementation match completing identifier contain acronym decodeuri reasonable kebab case interpretation decode uri good decode bad, , ,None
+79,https://api.github.com/repos/gkz/LiveScript/commits/b1e6a03e8467074c037301ce0a306fcc1e271a13,False, repl fix completion node.js 6.4, , ,None
+80,https://api.github.com/repos/gkz/LiveScript/commits/6ff32cfebdb6b9f11b2792477185a5e9d3fc62ad,False, update lib, , ,None
+81,https://api.github.com/repos/gkz/LiveScript/commits/5d5a5d2f0f4753ac1c072c7f66bbbe1b25ec10c5,False, repl fix crash mode, , ,General
+82,https://api.github.com/repos/gkz/LiveScript/commits/46bed9ec3d67805062ab982d5ac0b918710e5ac3,True, fix gkz livescript 946,https://api.github.com/repos/gkz/LiveScript/issues/946, ,None
+83,https://api.github.com/repos/gkz/LiveScript/commits/a8f7dad5c7d3a577c41aa125780ad5a56bed4df0,True, merge pull request 947 patrickkettner master update travis support non eol node version,https://api.github.com/repos/gkz/LiveScript/issues/947, ,None
+84,https://api.github.com/repos/gkz/LiveScript/commits/d59f851c9a54af4a120e9f3d7888b5819f4d0274,False, update travis support non eol node version, , ,None
+85,https://api.github.com/repos/gkz/LiveScript/commits/7a307583a1225ef4029b22a20563c3ff0f8c592b,True, merge pull request 942 dk00 master add test case fix implicit object shorthand 899,https://api.github.com/repos/gkz/LiveScript/issues/942, ,None
+86,https://api.github.com/repos/gkz/LiveScript/commits/4808d67cdb716eeb9187bb36827420c5073c5db3,False, add test case impliclit default, , ,None
+87,https://api.github.com/repos/gkz/LiveScript/commits/3b9421ac014b8c86d9625118742890aabfe78a83,True, expand object shorthand consistently fix 899 it.something parsed node type var instead key since referenced value part expaneding shorthand,https://api.github.com/repos/gkz/LiveScript/issues/899,bug,None
+88,https://api.github.com/repos/gkz/LiveScript/commits/d35fa88bf529a702c73d22308fe303a3f6600b35,True, add test case 899,https://api.github.com/repos/gkz/LiveScript/issues/899,bug,None
+89,https://api.github.com/repos/gkz/LiveScript/commits/0223952301536f6d090ff14487db84b89373a620,True, fix gkz livescript 930,https://api.github.com/repos/gkz/LiveScript/issues/930, ,None
+90,https://api.github.com/repos/gkz/LiveScript/commits/81644ac9986fb275de3e209a2488725d61b0b79f,True, merge pull request 929 rhendric repl error fix repl break improper error,https://api.github.com/repos/gkz/LiveScript/issues/929, ,None
+91,https://api.github.com/repos/gkz/LiveScript/commits/8dd66a9eda130ec0793eec8b4dfb5db1cdae2bb5,False, repl fix break improper error ugly hack fix issue repl sometimes stop responding arrow key error thrown user code turn happens whenever string anything something error prototype hierarchy thrown fix restore raw mode input tty handle situation detected time honored method turning , , ,None
+92,https://api.github.com/repos/gkz/LiveScript/commits/c53f7ef57cde797420531a7add2aa9151e28cea7,False, repl remove double function message line since coco see reason kept, , ,None
+93,https://api.github.com/repos/gkz/LiveScript/commits/4564c0ebbd6bc17fa5a2114a5640fc94f53dc58c,True, merge pull request 928 rhendric repl tab completion fix repl tab completion,https://api.github.com/repos/gkz/LiveScript/issues/928, ,None
+94,https://api.github.com/repos/gkz/LiveScript/commits/e1160a3cea1b46e6f8ab6c4b7a7d4a9e6201fbad,False, repl fix tab completion commit 40fae13 seems broken tab complete chain expression attempt make kebab case tab completion work commit replaces implementation larger robust version actually work additional feature include supporting kebab case camelcase depending user already typed completion javascript friendly syntax pattern binding accessignment, , ,None
+95,https://api.github.com/repos/gkz/LiveScript/commits/e408090319e84e5a6c83210a4a50e9f82c9d6913,False, pull repl command unit allows adding test tab completion currently little broken, , ,None
+96,https://api.github.com/repos/gkz/LiveScript/commits/820cb378d01c90e8220cb3d325fcff7779b652b4,True, merge pull request 927 rhendric fix livescript 926 fix 926,https://api.github.com/repos/gkz/LiveScript/issues/926, ,None
+97,https://api.github.com/repos/gkz/LiveScript/commits/c8af03afe7641069dd931f28a607df37d3b9f80b,True, fix gkz livescript 926 issue caused failure traverse child enter topic match statement worked fine switch turn switch ast node representing match stored thing match member called target instead topic target included list child field topic see use keeping two distinct topic target field since never used node never referenced class issue fixed unifying,https://api.github.com/repos/gkz/LiveScript/issues/926, ,None
+98,https://api.github.com/repos/gkz/LiveScript/commits/05a64417781cf891e22b48d02cab1d1b0b524794,True, merge pull request 925 rhendric fix livescript 923 fix 923,https://api.github.com/repos/gkz/LiveScript/issues/923, ,None
+99,https://api.github.com/repos/gkz/LiveScript/commits/639779bc1d2f0c59867cbf0fb936dda35b222066,True, fix gkz livescript 923 issue involved lexer flag set comprehension never cleared comprehension closed fix consists clearing lexer flag current delimiter depth every time close delimiter encountered may make occurrence fset false elsewhere lexer redundant safe attempt remove commit,https://api.github.com/repos/gkz/LiveScript/issues/923, ,None
+100,https://api.github.com/repos/gkz/LiveScript/commits/30df813ab76452bd243d99813248f6a4d3de3cdb,True, merge pull request 895 misterfish issue 743 issue 743,https://api.github.com/repos/gkz/LiveScript/issues/895, ,None
+101,https://api.github.com/repos/gkz/LiveScript/commits/97d770699e7597a59367b19891201539de986cf7,True, merge pull request 894 misterfish issue 751 issue 751,https://api.github.com/repos/gkz/LiveScript/issues/894, ,None
+102,https://api.github.com/repos/gkz/LiveScript/commits/87daae63c4e988eb5c5d0ab599654f58af6c8d0a,False, fix browser.ls include build browser, , ,None
+103,https://api.github.com/repos/gkz/LiveScript/commits/efc482335f0f6d6a8f143a97666dcf4221a1e8a5,True, merge pull request 901 summivox fix 900 temporary fix 900 workaround bug jison,https://api.github.com/repos/gkz/LiveScript/issues/900, ,None
+104,https://api.github.com/repos/gkz/LiveScript/commits/6f539cbf31370f66bfaf6c4bf4f061fdf3abecdd,True, temporary fix 900 workaround bug jison,https://api.github.com/repos/gkz/LiveScript/issues/900, ,None
+105,https://api.github.com/repos/gkz/LiveScript/commits/36f6c37ac1322a9900bc4beb43773218e959d9ed,False, add existence check missing variable anaphorize used existence, , ,None
+106,https://api.github.com/repos/gkz/LiveScript/commits/3c4e4ebfbf72f69de9b698d4f3baf192e52ce5e3,False, illustrate buggy behavior referenceerror anaphorize together existence, , ,None
+107,https://api.github.com/repos/gkz/LiveScript/commits/ad03579035c2418958d4945e46e05fca54c44a99,False, throw compile time error label used curried function resolve 751, , ,None
+108,https://api.github.com/repos/gkz/LiveScript/commits/b7a090902ded2562f1824d8cc54ad1ad5632b697,True, merge pull request gkz master merge gkz,https://api.github.com/repos/gkz/LiveScript/issues/1, ,None
+109,https://api.github.com/repos/gkz/LiveScript/commits/cc3c0258cbf55268b889ab2d8cc3b1465dd0dd49,False, build browser, , ,None
+110,https://api.github.com/repos/gkz/LiveScript/commits/9faea92f2a0e6cca90534acccab7db18efaf6b6c,False, 1.5.0, , ,None
+111,https://api.github.com/repos/gkz/LiveScript/commits/bf842edaa099a66fedd0a47670cfeb9d0c328c09,True, add destructuring test 868,https://api.github.com/repos/gkz/LiveScript/issues/868, ,None
+112,https://api.github.com/repos/gkz/LiveScript/commits/2f7876bc7ef622740497cf4ed595c38fc6e68273,True, auto parse .json.ls close 884,https://api.github.com/repos/gkz/LiveScript/issues/884, ,None
+113,https://api.github.com/repos/gkz/LiveScript/commits/2eb2aadea46cb22be27e9745744618db394d80eb,False, build, , ,None
+114,https://api.github.com/repos/gkz/LiveScript/commits/1b02ed54864ed1e6c5f6ded2cdb8d175765dd7e3,True, merge pull request 868 summivox better splat arg better handling splat func argument prevent deoptimization,https://api.github.com/repos/gkz/LiveScript/issues/868, ,None
+115,https://api.github.com/repos/gkz/LiveScript/commits/ffe9a99693607789722cd5c67d60421d65b02cb7,False, update deps build, , ,None
+116,https://api.github.com/repos/gkz/LiveScript/commits/737df488f659120f69a87b109de6fbf737d346a2,True, merge pull request 853 rhendric member assignment use full,https://api.github.com/repos/gkz/LiveScript/issues/853, ,None
+117,https://api.github.com/repos/gkz/LiveScript/commits/27066262316a9c2c05a2842f57482077b0e7c521,True, merge pull request 886 rhendric editorconfig editorconfig makefile tab,https://api.github.com/repos/gkz/LiveScript/issues/886, ,None
+118,https://api.github.com/repos/gkz/LiveScript/commits/a72495f1bcdcb90abfd18e7edf438ecfd5a3e5fa,True, merge pull request 861 summivox editorconfig add editorconfig,https://api.github.com/repos/gkz/LiveScript/issues/861, ,None
+119,https://api.github.com/repos/gkz/LiveScript/commits/ba29aa78d6e1561b1f01e31cea5e0e28be25e541,False, editorconfig makefile tab, , ,None
+120,https://api.github.com/repos/gkz/LiveScript/commits/ee43a71c86fb207dcf0dcfe69491c29cce6fa174,False, use full ... assigning member prototype writing google closure compiler perform advanced analysis optimization form used instead runtime equivalent prototype var, , ,None
+121,https://api.github.com/repos/gkz/LiveScript/commits/55ada776d82c06c274cd5e976c62d15a0c1f2fd9,True, merge pull request 869 summivox fix fix 859 fix typo 859 overlooked due insufficient coverage,https://api.github.com/repos/gkz/LiveScript/issues/859, ,None
+122,https://api.github.com/repos/gkz/LiveScript/commits/cbc6a7e14cacb6521284afab7284b17314a22b76,False, rename prevent ... generating closure, , ,None
+123,https://api.github.com/repos/gkz/LiveScript/commits/e289016831c3d48f59c9ebb82ef38be96045826e,True, fix 857 better handling splat func argument see 857,https://api.github.com/repos/gkz/LiveScript/issues/857, ,None
+124,https://api.github.com/repos/gkz/LiveScript/commits/195e5ca550f71e7d82fbfeabb4eb31d7c551f1fa,False, update lib, , ,None
+125,https://api.github.com/repos/gkz/LiveScript/commits/4eb140e58786db18b45f6bfb63044d40a7536034,True, fix 854 warning see full commit message wrongly rewritten lexer quite see patching lexer could non trivial said rewriting currently hoc forange lexer.ls see 854 discussion temporary solution relaxes grammar allow malformed lexer output caveat supported directly source despite change grammar due lexer hack currently considered literal rather token possibly cleaner solution getting rid forange support elision separate lexer rewrite step parser instead,https://api.github.com/repos/gkz/LiveScript/issues/854, ,None
+126,https://api.github.com/repos/gkz/LiveScript/commits/c7eed67333835a57146b5739108aab5ae7cdadb5,False, update lib, , ,None
+127,https://api.github.com/repos/gkz/LiveScript/commits/041299bbeff31b4a067eac1a7a035bd7729ac3ca,False, remove duplicate test, , ,None
+128,https://api.github.com/repos/gkz/LiveScript/commits/261ba88c04855c11b0c4a8947373644f15d78d86,True, fix typo 859 overlooked due insufficient coverage,https://api.github.com/repos/gkz/LiveScript/issues/859, ,None
+129,https://api.github.com/repos/gkz/LiveScript/commits/18e3e721628b1d9809913cf4225161221273c18d,True, merge pull request 863 rhendric reform operator spread reform operator spread,https://api.github.com/repos/gkz/LiveScript/issues/863, ,None
+130,https://api.github.com/repos/gkz/LiveScript/commits/62a8eb553d96138e7c47d3af81fa6c6296e87155,True, merge pull request 860 summivox fix empty splat fix 858 inconsistent empty splat assignment,https://api.github.com/repos/gkz/LiveScript/issues/858, ,None
+131,https://api.github.com/repos/gkz/LiveScript/commits/382c7b7659486621cb411902cf6945d0dece5911,True, merge pull request 859 summivox ref extend cascade comprehension support,https://api.github.com/repos/gkz/LiveScript/issues/859, ,None
+132,https://api.github.com/repos/gkz/LiveScript/commits/6f86d66ac1ba609a1be68738d7089bff7d95389a,False, support spreading assignment operator enables ... meaning, , ,None
+133,https://api.github.com/repos/gkz/LiveScript/commits/b8e30b0224d7c448d650ca9fde2afeb155a59669,False, support unary operator spread object, , ,None
+134,https://api.github.com/repos/gkz/LiveScript/commits/24b2f71a50d073c2b55a08b8b8772d63712f029b,False, change unary operator spread syntax prior commit unary operator spreading happened implicitly leading surprise like typeof typeof typeof commit splat required prior array spread typeof ... typeof implicit operator spreading longer handled typeof typeof, , ,None
+135,https://api.github.com/repos/gkz/LiveScript/commits/42e8b81c79c9fea0bd9546a16530835a6541f763,False, update package.json, , ,None
+136,https://api.github.com/repos/gkz/LiveScript/commits/1f9477987c144219fb11781048c0fdff4b9afe78,False, fix editorconfig indent, , ,None
+137,https://api.github.com/repos/gkz/LiveScript/commits/c02003978fd2e09d0164e5884c27d795065f5fc5,False, add editorconfig, , ,None
+138,https://api.github.com/repos/gkz/LiveScript/commits/f18a91cf644a00a3a798535b18f1bcb8fb5db7c9,True, fix 858 inconsistent empty splat assignment see 858 ... behave ...,https://api.github.com/repos/gkz/LiveScript/issues/858, ,None
+139,https://api.github.com/repos/gkz/LiveScript/commits/40d4cfd7113fe75571f3872ec6df5184f5521972,False, extend cascade comprehension support case, , ,None
+140,https://api.github.com/repos/gkz/LiveScript/commits/ac9bd7f813723bea88529dbddaad34229e7f992c,True, merge pull request 851 isiahmeadows patch enable better browserify detection,https://api.github.com/repos/gkz/LiveScript/issues/851, ,None
+141,https://api.github.com/repos/gkz/LiveScript/commits/057e244d99d5fae342260f805aa16e7227810dca,True, merge pull request 849 rhendric fix livescript 847 fix slice,https://api.github.com/repos/gkz/LiveScript/issues/849, ,None
+142,https://api.github.com/repos/gkz/LiveScript/commits/584998a08a139a9d9a889cd396b116aa64b29032,False, enable better browserify detection make compiler much easier use browserify cdns like wzrd.in brcdn.org etc affect browser usage existing consumer beyond would already throw error normally helpful testing browser create bundle manually use feature, , ,None
+143,https://api.github.com/repos/gkz/LiveScript/commits/78ef41756edd3e6927436dcd8bc15a62598f6a3e,False, fix slice, , ,None
+144,https://api.github.com/repos/gkz/LiveScript/commits/63c19f5f3c366a50fcb2150a6d08743762a09742,True, merge pull request 848 rhendric fix keyword literal slice fix keyword literal object slice,https://api.github.com/repos/gkz/LiveScript/issues/848, ,None
+145,https://api.github.com/repos/gkz/LiveScript/commits/c0651c8198940a2b616ae2447139ee77eeda149d,False, fix keyword literal object slice prior commit keyword literal argument treated way literal like creating object slice instead argument meaning argument x.arguments got argument argument, , ,None
+146,https://api.github.com/repos/gkz/LiveScript/commits/fbc1502a053d1656b48b7e96df39dfce88aebe9a,True, merge pull request 841 rhendric literal error add robustness generated loop code,https://api.github.com/repos/gkz/LiveScript/issues/841, ,None
+147,https://api.github.com/repos/gkz/LiveScript/commits/94de1f004c1a25b94ff3d9470f078444bc36ec44,True, merge pull request 845 summivox heregex escape heregex escape,https://api.github.com/repos/gkz/LiveScript/issues/845, ,None
+148,https://api.github.com/repos/gkz/LiveScript/commits/eae015827f55bfcb4b85aa734567021a815ccd25,True, merge pull request 839 rhendric fix livescript fix scope saving,https://api.github.com/repos/gkz/LiveScript/issues/839, ,None
+149,https://api.github.com/repos/gkz/LiveScript/commits/4a207180f4f4613be1d6de83e441b37b2b1ae3d4,False, add robustness generated loop code certain expression integer without preceding null void used source loop resulted illegal javascript generated .length silly legal thing 42.length actual syntaxerror commit add check wrap potentially problematic expression parenthesis, , ,None
+150,https://api.github.com/repos/gkz/LiveScript/commits/6389474709779cb02ef61ec705db2223ddeb8896,False, update lib, , ,None
+151,https://api.github.com/repos/gkz/LiveScript/commits/e2ede93cda48b09c15c19785563b6532135076d8,False, update lib, , ,None
+152,https://api.github.com/repos/gkz/LiveScript/commits/7ec8c5cae500fe8ae696334e9f2a14a3a933ac8b,True, fix 844 backporting satyr coco 45d3ea36,https://api.github.com/repos/gkz/LiveScript/issues/844, ,None
+153,https://api.github.com/repos/gkz/LiveScript/commits/2c691670e065ac98a5964a3d51719cc92baa816b,True, merge pull request 842 summivox patch remove dead code lexer,https://api.github.com/repos/gkz/LiveScript/issues/842, ,None
+154,https://api.github.com/repos/gkz/LiveScript/commits/045b46fcd3907ea671a50069592a3f593f00146f,False, remove dead code lexer, , ,None
+155,https://api.github.com/repos/gkz/LiveScript/commits/7c800d4ab6c2be1a51d094046d2c02b967b0e970,False, fix scope saving, , ,None
+156,https://api.github.com/repos/gkz/LiveScript/commits/01e1c11c2a666c7487a9916f4e228494b5210099,True, merge pull request 812 igl match parens wrap match case parens,https://api.github.com/repos/gkz/LiveScript/issues/812, ,None
+157,https://api.github.com/repos/gkz/LiveScript/commits/49416acf8a86a3bdf00c4ef9beb6f20efe36d75a,True, merge pull request 837 rhendric support expr expr loop,https://api.github.com/repos/gkz/LiveScript/issues/837, ,None
+158,https://api.github.com/repos/gkz/LiveScript/commits/7ec14e0fd6b18f7328255c8854eadbab90feba52,False, support expr expr loop, , ,None
+159,https://api.github.com/repos/gkz/LiveScript/commits/ee62aaef12affc620b1119ef2324300035cb7f96,False, update lib, , ,None
+160,https://api.github.com/repos/gkz/LiveScript/commits/9bdd5df1ac037216128643d5fa07c08935215fb1,True, merge pull request 806 summivox bound optr fix 634 partial application bound like bound function,https://api.github.com/repos/gkz/LiveScript/issues/634,feature,None
+161,https://api.github.com/repos/gkz/LiveScript/commits/9127329db3908c09cad520373adb4481bb8be8c3,True, merge pull request 835 summivox fix cli path sep cli window print window path separator instead,https://api.github.com/repos/gkz/LiveScript/issues/835, ,None
+162,https://api.github.com/repos/gkz/LiveScript/commits/856ab6bdb2b8049f66a9d66623e54726569c8088,True, merge pull request 823 summivox yield callable fix yield expression callable,https://api.github.com/repos/gkz/LiveScript/issues/823, ,None
+163,https://api.github.com/repos/gkz/LiveScript/commits/4071764630e2e9db026d7421146d8b36e8d2309b,False, cli window print window path separator instead, , ,None
+164,https://api.github.com/repos/gkz/LiveScript/commits/177bf884b2c181b86c84186c20bc073f6610b4f2,False, test bound partially applied binary operator, , ,None
+165,https://api.github.com/repos/gkz/LiveScript/commits/9f96f95e81490a1c714abc2048a3d5f6254e7d9e,True, fix 634,https://api.github.com/repos/gkz/LiveScript/issues/634,feature,None
+166,https://api.github.com/repos/gkz/LiveScript/commits/fade767faad2deb94eaeb4daa6eb3fc34ed8abfd,False, add test callable yield expression, , ,None
+167,https://api.github.com/repos/gkz/LiveScript/commits/81ecde07d4ad538affec04f2df26cfa3f7aacbbe,False, fix yield expression callable, , ,None
+168,https://api.github.com/repos/gkz/LiveScript/commits/7816af00df7f6cc31f56c683dbc2a8e24ef37e29,True, merge pull request 832 msteen patch consistently check whether map option supplied compile,https://api.github.com/repos/gkz/LiveScript/issues/832, ,None
+169,https://api.github.com/repos/gkz/LiveScript/commits/ff55e0611e480da9ae952bb113e968d848b1714d,False, consistently check whether map option supplied compile compile return object instead string supplied map option checked using returned value, , ,None
+170,https://api.github.com/repos/gkz/LiveScript/commits/e1d6b80fd35e188b8b64aad54f0db7ea1df0b1ef,True, merge pull request 822 gkovacs master make point node instead lsc,https://api.github.com/repos/gkz/LiveScript/issues/822, ,None
+171,https://api.github.com/repos/gkz/LiveScript/commits/db9b7d4583cbdb9e008f83ca6782323a57c810cc,True, merge pull request 827 igl recompile browserify bundle recompile browserify bundle,https://api.github.com/repos/gkz/LiveScript/issues/827, ,None
+172,https://api.github.com/repos/gkz/LiveScript/commits/b8ff6831f8090a210ea4e9723ef63fe86f61e530,False, recompile browserify bundle lowercased name, , ,None
+173,https://api.github.com/repos/gkz/LiveScript/commits/d097dbd2424e4d894c7c7d7501681c39daebf646,False, make point node instead lsc, , ,None
+174,https://api.github.com/repos/gkz/LiveScript/commits/231fa134123fe2b931ac068cb88b7957561547bb,False, wrap match case condition parens, , ,None
+175,https://api.github.com/repos/gkz/LiveScript/commits/a15e323be19b81f744205a3da8f346c4f1c309c8,False, add failing match test, , ,None
+176,https://api.github.com/repos/gkz/LiveScript/commits/9b5bf2bdcfd9051aff049a7a6d587d40ba7ff94e,True, merge pull request 799 unclechu patch added freenode webchat link readme,https://api.github.com/repos/gkz/LiveScript/issues/799, ,None
+177,https://api.github.com/repos/gkz/LiveScript/commits/526d8cbaf30b3a72212e8b5ee7bd96734c026aee,False, added freenode webchat link readme, , ,None
+178,https://api.github.com/repos/gkz/LiveScript/commits/e63bdc24c9f5b752869017186677901658fa7739,True, merge pull request 795 originate travis badge change svg badge,https://api.github.com/repos/gkz/LiveScript/issues/795, ,None
+179,https://api.github.com/repos/gkz/LiveScript/commits/5f8408db9be2febb19181a42e237dec9cfa14464,False, change svg badge, , ,None
+180,https://api.github.com/repos/gkz/LiveScript/commits/e3e1a6f52870b7d591587a939e1cc075a6e4e79c,False, merge autocomplete globals, , ,None
+181,https://api.github.com/repos/gkz/LiveScript/commits/bfaea60fb2b934b8dd2b1fdb7776806de77c970a,True, merge pull request 695 raine repl history persist repl history,https://api.github.com/repos/gkz/LiveScript/issues/695,feature,None
+182,https://api.github.com/repos/gkz/LiveScript/commits/da5191db2e30fc7e3a2f716d026a9a38fc5d2d8c,True, merge pull request 786 darrrk master ability show source via node inspector,https://api.github.com/repos/gkz/LiveScript/issues/786, ,None
+183,https://api.github.com/repos/gkz/LiveScript/commits/95259b6d88777baa05f9dd3e61ebba7091b3e635,False, ability show source via node inspector, , ,None
+184,https://api.github.com/repos/gkz/LiveScript/commits/3ef12ace4909c447ad368b00dae68f2bd1cdb58c,True, merge pull request 757 robloach license fix spdx license spec,https://api.github.com/repos/gkz/LiveScript/issues/757, ,None
+185,https://api.github.com/repos/gkz/LiveScript/commits/08de234b33c557806700584f6602403727f6bf1d,False, fix spdx license spec, , ,None
+186,https://api.github.com/repos/gkz/LiveScript/commits/7a549b4bf863abc6f56f35b7e38e12956b9990dc,True, merge pull request 750 kkirby yield inside let fix 749 yield inside let,https://api.github.com/repos/gkz/LiveScript/issues/750, ,None
+187,https://api.github.com/repos/gkz/LiveScript/commits/23b1083f30b59b9772d639d27a685638b2b77eb2,False, compiled, , ,None
+188,https://api.github.com/repos/gkz/LiveScript/commits/78de84be62bc25f5ecde41c90f8b1411886e06d6,False, added test yielding let, , ,None
+189,https://api.github.com/repos/gkz/LiveScript/commits/a7525ce6fe7d4906f5d401edf94f15fe5a6b471e,False, fix 749 yield inside let let produce generator currently use let, , ,None
+190,https://api.github.com/repos/gkz/LiveScript/commits/40fae1368be25546000f24e7861a11311bd6d53d,True, repl autocomplete globals change variable name kebab case autocompleting fix 687,https://api.github.com/repos/gkz/LiveScript/issues/687,repl,None
+191,https://api.github.com/repos/gkz/LiveScript/commits/b32276a07f8fda41b0ee0f8ee75bccf2d549349e,False, repl save history home .lsc_history repl write .lsc_history exists repl retain 500 line history, , ,None
+192,https://api.github.com/repos/gkz/LiveScript/commits/db4404b36b1bd7d43ef6d61451d4fc5fc8989a8f,False, readme fix npm package name, , ,None
+193,https://api.github.com/repos/gkz/LiveScript/commits/3f953665953ef5f02dae56108f2752faef355295,False, 1.4.0, , ,None
+194,https://api.github.com/repos/gkz/LiveScript/commits/0bec5b8860cadea34f8f8a3e1471e6f103dd998d,False, output space indent, , ,None
+195,https://api.github.com/repos/gkz/LiveScript/commits/1706ce3216d0cd0666b0800f4d23ce0b16a9bba8,False, style ast.ls part, , ,None
+196,https://api.github.com/repos/gkz/LiveScript/commits/546420a2056f12e1e6517ff81163cf0256b08ade,False, style lexer.ls, , ,None
+197,https://api.github.com/repos/gkz/LiveScript/commits/abcb494a50fbcce258f34b59052455da42e8aa9f,False, source map issue fix, , ,None
+198,https://api.github.com/repos/gkz/LiveScript/commits/da5abee6a3126b9fbe56c8396300f7aa7d70791b,False, style browser.ls grammer.ls, , ,None
+199,https://api.github.com/repos/gkz/LiveScript/commits/665339acd43804fab5544f6e825cfe2fa5401369,False, style index.ls node.ls options.ls util.ls, , ,None
+200,https://api.github.com/repos/gkz/LiveScript/commits/40e78523d19fb56219c5321018fb17445489efe9,False, style index.ls, , ,None
+201,https://api.github.com/repos/gkz/LiveScript/commits/2d2a47c27dc6976787256de517678917b2b59f74,True, source map fix map file path 714,https://api.github.com/repos/gkz/LiveScript/issues/714,bug,None
+202,https://api.github.com/repos/gkz/LiveScript/commits/4e8bb37db3ae840f0b162efcccd1ebca69cb63f5,False, basic map test, , ,None
+203,https://api.github.com/repos/gkz/LiveScript/commits/3f362b0aee18abe4219efbc79376e3595d3d9b08,True, fix yield switch expression issue fix 678,https://api.github.com/repos/gkz/LiveScript/issues/678,bug,None
+204,https://api.github.com/repos/gkz/LiveScript/commits/cc05b37fe92e39c18d98fd16a38072bb778660f6,False, json improvement read file stdin, , ,None
+205,https://api.github.com/repos/gkz/LiveScript/commits/8d527f417cc451caf56aded8a6458b33a5bfddff,False, file test, , ,None
+206,https://api.github.com/repos/gkz/LiveScript/commits/97bfada3df079fb9833b22d88b64a17bf660c8c6,True, attempt fix source map generation 714,https://api.github.com/repos/gkz/LiveScript/issues/714,bug,None
+207,https://api.github.com/repos/gkz/LiveScript/commits/c8bced8a71072e2f2cdf6811e9f34d0cc5fcefe7,False, json cli test fix quote, , ,None
+208,https://api.github.com/repos/gkz/LiveScript/commits/3f044913d47db03110da8e168fa3a896e9c604e7,False, cli test bare, , ,None
+209,https://api.github.com/repos/gkz/LiveScript/commits/c6fb6b75da6c761efb54b868340cc4b8f6403476,False, test header header, , ,None
+210,https://api.github.com/repos/gkz/LiveScript/commits/07f95476fc70277c5716eb1a9c7b6f7f782aaace,False, trim right printed output, , ,None
+211,https://api.github.com/repos/gkz/LiveScript/commits/0e64e936afe45b268897b7cfe89c48cf8082a2c8,False, quote style test cli, , ,None
+212,https://api.github.com/repos/gkz/LiveScript/commits/24d8fe229c57b1812816dc5169f0ae1dc0167e5f,False, improved cli test testing compile print added support async test switch mocha future, , ,None
+213,https://api.github.com/repos/gkz/LiveScript/commits/45c57b6b6b616ea34c24dd23994c6489e851fe1a,False, improve cli testing test fix issue, , ,None
+214,https://api.github.com/repos/gkz/LiveScript/commits/15b596eaba6a9bd7852cdb329f289709221dc97a,False, minor, , ,None
+215,https://api.github.com/repos/gkz/LiveScript/commits/ae7006880b4cc7fd52ffadac51f79b2410f98625,True, command.ls export func allow cli testing ref 706,https://api.github.com/repos/gkz/LiveScript/issues/706, ,None
+216,https://api.github.com/repos/gkz/LiveScript/commits/c929cf384fb85358bbffebc7d4bd2fc25aa49ff0,True, start fix broken code running due 706,https://api.github.com/repos/gkz/LiveScript/issues/706, ,None
+217,https://api.github.com/repos/gkz/LiveScript/commits/c27e69a2aacd8540431134c3581d950831f116f2,False, add mod test coco, , ,None
+218,https://api.github.com/repos/gkz/LiveScript/commits/35c4b518293975ac54cce4868ba01a2a6ee20bc2,False, fix backcall curry test, , ,None
+219,https://api.github.com/repos/gkz/LiveScript/commits/5bb1d77259574a41cb305da06cb1e27652088bed,True, grab coco 67e9fa1 fix 599,https://api.github.com/repos/gkz/LiveScript/issues/599, ,None
+220,https://api.github.com/repos/gkz/LiveScript/commits/5f9608238ae4848ba1d6af4ddc477cf3e0eeeb42,True, fix broken hushed backcall implementation fix 594,https://api.github.com/repos/gkz/LiveScript/issues/594, ,None
+221,https://api.github.com/repos/gkz/LiveScript/commits/fd7437f9282c39e32bc1844ab9ce013e864fcfb2,True, object comprehension fix improved test close 614 238 639 538,https://api.github.com/repos/gkz/LiveScript/issues/538, ,None
+222,https://api.github.com/repos/gkz/LiveScript/commits/9e4abfb2fc9a184adef8cb2a4096a658259099d6,False, update option description, , ,None
+223,https://api.github.com/repos/gkz/LiveScript/commits/3ddb1a849ca7a2cf653c80d83089c7397fd0014d,True, fix composition operator issue fix 669,https://api.github.com/repos/gkz/LiveScript/issues/669,bug,None
+224,https://api.github.com/repos/gkz/LiveScript/commits/0d00461048227681f73dccd3ffc1cbb4c23838ca,True, update optionator dissallow positionals anywherea fix issue 610,https://api.github.com/repos/gkz/LiveScript/issues/610, ,None
+225,https://api.github.com/repos/gkz/LiveScript/commits/14cb6772b6f737f1412ab3f5cb47777cbd5f6638,False, comment broken obj comp test, , ,None
+226,https://api.github.com/repos/gkz/LiveScript/commits/dfffa197ae76b288667251c360c62d57e427ac42,True, merge pull request 686 impinball master failing object comprehension test,https://api.github.com/repos/gkz/LiveScript/issues/686, ,None
+227,https://api.github.com/repos/gkz/LiveScript/commits/7d0e51c2e4d616565bd5ca203398c9c5bc30082c,True, merge pull request 706 blvz json improvement json improvement,https://api.github.com/repos/gkz/LiveScript/issues/706, ,None
+228,https://api.github.com/repos/gkz/LiveScript/commits/4c5d43fdc04d0c505a67df5f7cfdf1f729aba031,False, reverting livescript.run removal, , ,None
+229,https://api.github.com/repos/gkz/LiveScript/commits/f3702d20aa4725bcecf1dfd93ca952f097e7f013,True, lsc improvents close 298,https://api.github.com/repos/gkz/LiveScript/issues/298, ,None
+230,https://api.github.com/repos/gkz/LiveScript/commits/d8f3024188baf274274bad4878faf6a8f0ae6530,True, use generate json fix 463,https://api.github.com/repos/gkz/LiveScript/issues/463,feature,None
+231,https://api.github.com/repos/gkz/LiveScript/commits/5fab25a14caf38583fc1bed0f10ea22221c8bad3,True, fix compsing function fix 702,https://api.github.com/repos/gkz/LiveScript/issues/702, ,None
+232,https://api.github.com/repos/gkz/LiveScript/commits/7c473dd9c9e23b43196699d9f838ca1101247156,True, fix calling yield fix 604,https://api.github.com/repos/gkz/LiveScript/issues/604,question,None
+233,https://api.github.com/repos/gkz/LiveScript/commits/96d4a9bca4f4111745b32c2243f083479fb3be6f,True, fix yield issue making ast node fix 655,https://api.github.com/repos/gkz/LiveScript/issues/655,bug,None
+234,https://api.github.com/repos/gkz/LiveScript/commits/c770db00419eaca18e7b1c3e0e553f30295762ba,True, unary spread yield fix 613,https://api.github.com/repos/gkz/LiveScript/issues/613, ,None
+235,https://api.github.com/repos/gkz/LiveScript/commits/c33e4a395fd0f4f0ddadcb7692a9957d217393e8,True, fix ast representation fix 629,https://api.github.com/repos/gkz/LiveScript/issues/629,bug,None
+236,https://api.github.com/repos/gkz/LiveScript/commits/da1f8073338c62c314a649f099418dad06f50a9a,True, backcall generator close 670,https://api.github.com/repos/gkz/LiveScript/issues/670, ,None
+237,https://api.github.com/repos/gkz/LiveScript/commits/cf39f5d7161c1194a8472c8925010ca7a63dae38,True, generator longer auto hushed fit line expected behavior coffeescript doe close 696,https://api.github.com/repos/gkz/LiveScript/issues/696, ,None
+238,https://api.github.com/repos/gkz/LiveScript/commits/959d8803500533ca2c2858d3772f3d2507d78d04,False, livescript livescript, , ,None
+239,https://api.github.com/repos/gkz/LiveScript/commits/5c9f61c2c8d383687f18a10e4545f13df16172e7,False, make lib, , ,None
+240,https://api.github.com/repos/gkz/LiveScript/commits/99cb25c562d252ae27f08a11d6b7e639c5b6699c,False, merge remote tracking branch diggsey sourcemaps, , ,None
+241,https://api.github.com/repos/gkz/LiveScript/commits/78d30def44bd1e58100dbd365d7df5be3284b988,False, make latest change adding alias, , ,None
+242,https://api.github.com/repos/gkz/LiveScript/commits/959293b45e08d7960f4772a54b93022e9b479ae2,True, merge pull request 676 raine master option add alias const,https://api.github.com/repos/gkz/LiveScript/issues/676, ,None
+243,https://api.github.com/repos/gkz/LiveScript/commits/962681c55182f37a6dd2de30ecc50a930a2fd269,False, failing object comprehension test, , ,None
+244,https://api.github.com/repos/gkz/LiveScript/commits/ffc6f74f672b93f15560332526ebf75675012071,False, minor improvement source map precision, , ,None
+245,https://api.github.com/repos/gkz/LiveScript/commits/b68af4f510d2ce0271ffa97416ab0e633be9caeb,False, remove mystery code break line number, , ,None
+246,https://api.github.com/repos/gkz/LiveScript/commits/07a463be7a3da48b5125de6831bf6eac499cc8c3,False, remove stray debugger statement, , ,None
+247,https://api.github.com/repos/gkz/LiveScript/commits/791bbbc2f1d52b3680c7c00e2586e344dbb2a237,False, general improvement location tracking source node generation, , ,None
+248,https://api.github.com/repos/gkz/LiveScript/commits/90ceb92267cc1df0efac04d5eb6b3c4255fc08a1,False, improvement source map precision, , ,None
+249,https://api.github.com/repos/gkz/LiveScript/commits/6002e180f08f299778df94c2665cb4f5cc65bfbd,False, updated jison version resulting hugely improved source map, , ,None
+250,https://api.github.com/repos/gkz/LiveScript/commits/a3899bedd86517cca121b64790dba09f3ef9aed0,False, option add alias const mentioned alias const documentation, , ,None
+251,https://api.github.com/repos/gkz/LiveScript/commits/12de16923f67d2b025344d8a447e00c8bd476ff6,False, replace source node source map converter custom one handle newlines correctly add debug output mode source map, , ,None
+252,https://api.github.com/repos/gkz/LiveScript/commits/4b116f11a8b2d9f605049407573b01bfb94b285d,False, improved command line option source map generation, , ,None
+253,https://api.github.com/repos/gkz/LiveScript/commits/5f57b9649b95e82020e8e87dca8b23f714cbcf19,False, source map work browser, , ,None
+254,https://api.github.com/repos/gkz/LiveScript/commits/cba37cf3eed2195055208c3f0e87d858a130e918,False, add missing package dependency, , ,None
+255,https://api.github.com/repos/gkz/LiveScript/commits/31d866c9cc39609c3f9fde9dc3c6f271ee24e258,False, basic source map support, , ,None
+256,https://api.github.com/repos/gkz/LiveScript/commits/60198cf2f3800b344abde0acece8524a736167dd,False, added code track column index lexer parser, , ,None
+257,https://api.github.com/repos/gkz/LiveScript/commits/fce48d57cdbb80fdd7e5f4637715f9b9212a72fd,False, 1.3.2, , ,None
+258,https://api.github.com/repos/gkz/LiveScript/commits/58479671f7294b68d93fd4e98a6a62fd6d6e9068,True, obj comp double guard fix 639,https://api.github.com/repos/gkz/LiveScript/issues/639,bug,None
+259,https://api.github.com/repos/gkz/LiveScript/commits/6fc7807116ce78ff3bc2a0c4606bd36c6ab06a90,False, build parser, , ,None
+260,https://api.github.com/repos/gkz/LiveScript/commits/f1fad66dc40da6224e5d190efe3fabed4d9b72c3,True, merge pull request 660 haspaker byslices enable full use keyword list slice,https://api.github.com/repos/gkz/LiveScript/issues/660, ,None
+261,https://api.github.com/repos/gkz/LiveScript/commits/cfb8796817228e6bad8c4265a46cff3cced50543,False, small aesthetic change, , ,None
+262,https://api.github.com/repos/gkz/LiveScript/commits/2d3ffee07826bc146a99f19a43ea686b9c8ad92f,False, enabled keyword slice updated comment, , ,None
+263,https://api.github.com/repos/gkz/LiveScript/commits/396907ddf10ffbf7967c11a45ac54b3c1b9f9358,False, enabled keyword slice, , ,None
+264,https://api.github.com/repos/gkz/LiveScript/commits/51d6ae49189b2f511205174f1730310a92635741,True, merge pull request 658 synapsos child process replace deprecated customfds option 657,https://api.github.com/repos/gkz/LiveScript/issues/658, ,None
+265,https://api.github.com/repos/gkz/LiveScript/commits/96a18010bd020276c90cbc76f04e037b7c8c623b,False, replace deprecated customfds option 657, , ,None
+266,https://api.github.com/repos/gkz/LiveScript/commits/add6a2237b909d1f2f5a2ea9c85d8468e1ff783a,True, merge pull request 641 impinball master add failing test object comprehension guard,https://api.github.com/repos/gkz/LiveScript/issues/641, ,None
+267,https://api.github.com/repos/gkz/LiveScript/commits/8033177616c52183111f10ae7f1292bc055f7b61,False, change test, , ,None
+268,https://api.github.com/repos/gkz/LiveScript/commits/454b9ee9c3019859176dd5ca3fbae8e320713f33,False, add failing test object comprehension guard, , ,None
+269,https://api.github.com/repos/gkz/LiveScript/commits/e35d3b313d560be11ab18ce2f4fe18360d25b825,True, merge pull request 640 raine patch readme add community section irc channel,https://api.github.com/repos/gkz/LiveScript/issues/640, ,None
+270,https://api.github.com/repos/gkz/LiveScript/commits/3a0c7c6c8e10bbc07bb9970483fd975d6579e4e7,False, readme add community section irc channel, , ,None
+271,https://api.github.com/repos/gkz/LiveScript/commits/39ba15853b544b7d75d6a9002700b9f89fd084eb,True, merge pull request 635 skovsgaard master corrected help command readme,https://api.github.com/repos/gkz/LiveScript/issues/635, ,None
+272,https://api.github.com/repos/gkz/LiveScript/commits/7f2798de5cbcf7dc1110a254f565d4ed3268c48f,False, corrected help command readme, , ,None
+273,https://api.github.com/repos/gkz/LiveScript/commits/c2bc68ba32940b934d58c27a1801cad618a19fc8,False, 1.3.1, , ,None
+274,https://api.github.com/repos/gkz/LiveScript/commits/c2c22d3eb8f3ca89754d874b7da25d414655adf1,False, require module attached global, , ,None
+275,https://api.github.com/repos/gkz/LiveScript/commits/d3fab212040fd0b78bbde72c08024a45d68aab8e,True, throw error poor require fix 583,https://api.github.com/repos/gkz/LiveScript/issues/583, ,None
+276,https://api.github.com/repos/gkz/LiveScript/commits/1ba5efdb8440c85a9858e20ecbe2833bbdb0afa0,False, compile latest, , ,None
+277,https://api.github.com/repos/gkz/LiveScript/commits/188ef1a893c979406fe848f9542f0c2003b09efb,True, readd require option close 581,https://api.github.com/repos/gkz/LiveScript/issues/581, ,None
+278,https://api.github.com/repos/gkz/LiveScript/commits/886f3c3768d2b032f8f7f90a91a285ba10d2810b,True, merge pull request 577 quarterto fix return pipe reduce hurl precedence fix 574,https://api.github.com/repos/gkz/LiveScript/issues/574,bug,None
+279,https://api.github.com/repos/gkz/LiveScript/commits/2ba98654d3890ae58b1dbf8517a8ee8fff784043,False, fix comment add throw assign test, , ,None
+280,https://api.github.com/repos/gkz/LiveScript/commits/1799b9f21520aba340baa5df94b5e83659650f05,False, improve pipe return test add return assign test, , ,None
+281,https://api.github.com/repos/gkz/LiveScript/commits/7fa0d7c573fd46f3c1d52340c1dcc602b59431c0,True, reduce hurl precedence fix 574,https://api.github.com/repos/gkz/LiveScript/issues/574,bug,None
+282,https://api.github.com/repos/gkz/LiveScript/commits/3f3b6f451173276419fc7b529e907b57bd6d90a0,True, merge pull request 572 rhendric master object comprehension fix,https://api.github.com/repos/gkz/LiveScript/issues/572, ,None
+283,https://api.github.com/repos/gkz/LiveScript/commits/f50db1a9d5bbb59d4bc76f272d8a67cc3f2ee635,False, merge branch object comprehension fix, , ,None
+284,https://api.github.com/repos/gkz/LiveScript/commits/c9594445445758b6655d05083d757e7831701e6d,True, fix process.argv passthrough fix 569,https://api.github.com/repos/gkz/LiveScript/issues/569,bug,None
+285,https://api.github.com/repos/gkz/LiveScript/commits/f2d2c199b38a838ff152d649ba2016cfd8b6c8af,False, 1.3.0, , ,None
+286,https://api.github.com/repos/gkz/LiveScript/commits/f18621f0175a61009dc3a663b88300a9e415a9f3,False, highlighter add yield keyword, , ,None
+287,https://api.github.com/repos/gkz/LiveScript/commits/b84580d3a85d12d7e2980ddb6660330b05ebb1c2,False, fix yield precedence, , ,None
+288,https://api.github.com/repos/gkz/LiveScript/commits/ce43ee611b9173c476cb858a6feeabcaf638e81c,False, build latest, , ,None
+289,https://api.github.com/repos/gkz/LiveScript/commits/c8e0f2457ea5bc6841ecb995b35f069e4e79bfcb,False, merge branch master github.com gkz livescript, , ,None
+290,https://api.github.com/repos/gkz/LiveScript/commits/eaeac1b4bed64dd51d492ba00584113b6f741e1d,False, merge master, , ,None
+291,https://api.github.com/repos/gkz/LiveScript/commits/09759fdae6e95c15194333af6f60136025183ea0,True, merge pull request 559 rhendric issue550 make backslash gobble line comment,https://api.github.com/repos/gkz/LiveScript/issues/559, ,None
+292,https://api.github.com/repos/gkz/LiveScript/commits/06e4c17a818f8ae0a03d0bfb2312bef30994bb5f,False, build latest, , ,None
+293,https://api.github.com/repos/gkz/LiveScript/commits/b644d38fa291dc09f46e058524dd5ca6ee3e3aa5,True, merge pull request 558 rhendric issue553 fix gkz livescript 553,https://api.github.com/repos/gkz/LiveScript/issues/553,bug,None
+294,https://api.github.com/repos/gkz/LiveScript/commits/0d6cf900b8898af6bb38da7e1c0d4564881072a7,True, merge pull request 561 rhendric issue294 fix gkz livescript 294,https://api.github.com/repos/gkz/LiveScript/issues/294,bug,None
+295,https://api.github.com/repos/gkz/LiveScript/commits/022ad42a82c079346fdf0a832fc7468977a8d7e7,False, merge branch issue519 object comprehension fix, , ,None
+296,https://api.github.com/repos/gkz/LiveScript/commits/c63facc7071f67c77cf13286f0d0ab60afd4ec10,False, merge branch issue294 object comprehension fix, , ,None
+297,https://api.github.com/repos/gkz/LiveScript/commits/734c8d3ce5bdb38d3f8da675a29cc402e0ddd368,True, object comprehension support let fix gkz livescript 519,https://api.github.com/repos/gkz/LiveScript/issues/519, ,None
+298,https://api.github.com/repos/gkz/LiveScript/commits/0c0640399147c62e6487be6a2b171e19c71492ef,True, nested object comprehension refactoring makereturn accept argument type return array object key value required fix gkz livescript 560,https://api.github.com/repos/gkz/LiveScript/issues/560,bug,None
+299,https://api.github.com/repos/gkz/LiveScript/commits/242e885e2513c0a2fa03cc2143c97f8671c5f542,True, fix gkz livescript 294,https://api.github.com/repos/gkz/LiveScript/issues/294,bug,None
+300,https://api.github.com/repos/gkz/LiveScript/commits/c2024fc6205b1e48e3f9d00cf361768c59be68df,True, merge pull request 541 piotrklibert master possible fix 538,https://api.github.com/repos/gkz/LiveScript/issues/538, ,None
+301,https://api.github.com/repos/gkz/LiveScript/commits/af8e3766fe4acd888ba7734d3ace97ba2ed1dfe0,False, merge remote tracking branch gkz master, , ,None
+302,https://api.github.com/repos/gkz/LiveScript/commits/7750430bea02b4853699e63cdc74dd7319e2a76a,True, make backslash gobble line comment ... addition regular whitespace fix gkz livescript 550,https://api.github.com/repos/gkz/LiveScript/issues/550, ,None
+303,https://api.github.com/repos/gkz/LiveScript/commits/e1735988a2acf9a84969a1aa06c2e223db420c0d,True, merge pull request 557 rhendric issue520 fix gkz livescript 520,https://api.github.com/repos/gkz/LiveScript/issues/520, ,None
+304,https://api.github.com/repos/gkz/LiveScript/commits/4d8578a958049cc0baa868f0ea7d2d81ba6a467a,True, fix gkz livescript 553 lifted function composition util function thereby ensuring always evaluates operand like function would,https://api.github.com/repos/gkz/LiveScript/issues/553,bug,None
+305,https://api.github.com/repos/gkz/LiveScript/commits/4cbbd936cde32bc8a65d07b64993ece7a85bd8f2,True, fix gkz livescript 520,https://api.github.com/repos/gkz/LiveScript/issues/520, ,None
+306,https://api.github.com/repos/gkz/LiveScript/commits/b02d1863c9e65b7722027ce5b130a7cf956df8aa,True, merge pull request 552 rhendric master bumping node.js version travis config,https://api.github.com/repos/gkz/LiveScript/issues/552, ,None
+307,https://api.github.com/repos/gkz/LiveScript/commits/9cd8563c1074adc89c6c82894ff3b5dd22734d3d,False, bumping node.js version travis config looked like might cause recent build failure, , ,None
+308,https://api.github.com/repos/gkz/LiveScript/commits/13f236e80686154c3248d18dc78ab6495e0df45e,True, merge pull request 551 rhendric master fix 544,https://api.github.com/repos/gkz/LiveScript/issues/544, ,None
+309,https://api.github.com/repos/gkz/LiveScript/commits/8daeeef67e991285d45be5a42ee287de7da25ef0,True, fix 544,https://api.github.com/repos/gkz/LiveScript/issues/544, ,None
+310,https://api.github.com/repos/gkz/LiveScript/commits/76828aedca3866ee202e5c784222113ff843f8d1,False, test object comprehension array comprehension, , ,None
+311,https://api.github.com/repos/gkz/LiveScript/commits/c49bfca3e0b0642d62b443454ea0380a35aa71ce,True, possible fix 538,https://api.github.com/repos/gkz/LiveScript/issues/538, ,None
+312,https://api.github.com/repos/gkz/LiveScript/commits/74b4f467a2faf2f2a3e2f85884cd97ce5db11ffe,True, merge pull request 514 nami doc issue508 anaphorize default add anaphorization switch default,https://api.github.com/repos/gkz/LiveScript/issues/514, ,None
+313,https://api.github.com/repos/gkz/LiveScript/commits/b51794cd04cdf6bd9afa68a7aec0a32c65f69bd6,False, add anaphorization switch default, , ,None
+314,https://api.github.com/repos/gkz/LiveScript/commits/934ef45473dc7db143a8c2fd62c6ebfbedd84eec,False, merge master, , ,None
+315,https://api.github.com/repos/gkz/LiveScript/commits/fd4c44cbbea5c9c71abdb4d1cdcd6d13c2624129,False, optionator dependency dev dependency, , ,None
+316,https://api.github.com/repos/gkz/LiveScript/commits/e451e6021a51365140d42da0d4579e11e4b3a1d1,True, fix debugger compilation close 480 satyr coco,https://api.github.com/repos/gkz/LiveScript/issues/480, ,None
+317,https://api.github.com/repos/gkz/LiveScript/commits/81b68eb371f97775f03d542ce59fe2ef10d17b86,True, fix word line count fix 485 coco,https://api.github.com/repos/gkz/LiveScript/issues/485, ,None
+318,https://api.github.com/repos/gkz/LiveScript/commits/aa6e1e6387fc1a82ace552b3fdcce1dee3213229,False, update optionator 0.3.0, , ,None
+319,https://api.github.com/repos/gkz/LiveScript/commits/f556ff33c9cb822ca014d9633f8da5a0ac70790e,False, remove slake reference comment, , ,None
+320,https://api.github.com/repos/gkz/LiveScript/commits/583886eef3cbaa2d4395794b863ac598454e4d79,False, remove bin slake, , ,None
+321,https://api.github.com/repos/gkz/LiveScript/commits/c0064cd1ab6605ecc02eeeb4d7cdeed2b2a0522e,False, delete slakefile src slake src optparse, , ,None
+322,https://api.github.com/repos/gkz/LiveScript/commits/00557db6933c6b6ce2810548103f9795347b483a,False, remove slake usage package.json makefile, , ,None
+323,https://api.github.com/repos/gkz/LiveScript/commits/cd419dded8bab900fe58544069254bbbafe3e66c,False, add force full makefile, , ,None
+324,https://api.github.com/repos/gkz/LiveScript/commits/aca8cafb6bb76a70a9850d3778f27e560cb17af1,False, better script formatting, , ,None
+325,https://api.github.com/repos/gkz/LiveScript/commits/2cf141cb5d5d6b6f7c0a1bbe7f0ebc7092ac3504,False, add test script switch mocha future, , ,None
+326,https://api.github.com/repos/gkz/LiveScript/commits/a997667dd55ec935e014504d875bc83bd8d004e5,False, add build parser build script, , ,None
+327,https://api.github.com/repos/gkz/LiveScript/commits/66ebb085433af41c8ac4cb9afdaf36694b72a819,False, use preroll script probably good idea build script depend project, , ,None
+328,https://api.github.com/repos/gkz/LiveScript/commits/3aba637ce944642b46b5c135596a3f412d27c06b,False, update prelude.ls version, , ,None
+329,https://api.github.com/repos/gkz/LiveScript/commits/b01d71ac527e1ecd6f37d1b19c79b295a117b791,False, add browser make dependency preroll script, , ,None
+330,https://api.github.com/repos/gkz/LiveScript/commits/0d40646e9cc1faf85b2b3fc7e9a443b27abf9159,False, new raw license url, , ,None
+331,https://api.github.com/repos/gkz/LiveScript/commits/0c7d891860f0246d0f140e4fb252fbff9c1f7dc2,False, add support function declaration generator, , ,None
+332,https://api.github.com/repos/gkz/LiveScript/commits/47d98c7137c0a01c7d3306a1c17427c8bb776c4b,False, copyright year required, , ,None
+333,https://api.github.com/repos/gkz/LiveScript/commits/b5b5ebc4a687b094f98b124c5283beac722a337b,False, test yield level see http github.com jashkenas coffee script pull 3240 issuecomment 38344281, , ,None
+334,https://api.github.com/repos/gkz/LiveScript/commits/120185bde8eb6f3da7411b22d15870107df64807,False, merge master, , ,None
+335,https://api.github.com/repos/gkz/LiveScript/commits/de7dd1b75534aec3e63dc413b7068def8e030240,False, removed livescript bin use lsc, , ,None
+336,https://api.github.com/repos/gkz/LiveScript/commits/0dcd4ff92cded6cf225c6cf408d7d3ca8fef08c0,False, update compiled, , ,None
+337,https://api.github.com/repos/gkz/LiveScript/commits/4b21b8915e3756f5491da8e634d278ed091556a1,True, merge pull request 472 nami doc issue471 issue 471,https://api.github.com/repos/gkz/LiveScript/issues/471, ,None
+338,https://api.github.com/repos/gkz/LiveScript/commits/e06ba6767447bf899062d825721b31554f39cf53,True, use optionator option parsing clean command.ls index.ls well remove old gecko backstage pas support close 468,https://api.github.com/repos/gkz/LiveScript/issues/468, ,None
+339,https://api.github.com/repos/gkz/LiveScript/commits/7439dfb983aee5aaa6b0a3905f94b087491374f4,False, remove old code, , ,None
+340,https://api.github.com/repos/gkz/LiveScript/commits/01490b851e477ddceb4d186fa4d210321fc4aa2b,True, fix 471 courtesy satyr,https://api.github.com/repos/gkz/LiveScript/issues/471, ,None
+341,https://api.github.com/repos/gkz/LiveScript/commits/04e48b19d65b4afa263a55a160809ab8d168e31a,False, package.json style improvement, , ,None
+342,https://api.github.com/repos/gkz/LiveScript/commits/496fc43adb878ede1419916b0697dba92795132a,False, use path.basename rather hack, , ,None
+343,https://api.github.com/repos/gkz/LiveScript/commits/b2434a1c9acd4e047a821254a5c56247389794c7,False, add makefile keep slakefile use browserify move src livescript.ls src index.ls also update uglifyjs add coverage using istanbul make coverage move extra directory browser change browser version require livescript.go execute text script add test browser.html rudimentary testing browser feature, , ,None
+344,https://api.github.com/repos/gkz/LiveScript/commits/da60f8f3b12e9b3ff99c5034a947be581179f90f,True, destructuring require require changed mean require destructure require prelude map close 300,https://api.github.com/repos/gkz/LiveScript/issues/300, ,None
+345,https://api.github.com/repos/gkz/LiveScript/commits/a6f7f4d05ebac657c48253e0a5cc7879f05231b8,False, refactor arrow logic regex, , ,None
+346,https://api.github.com/repos/gkz/LiveScript/commits/252b5d1b531fa35537eb7e83d24a2d1540c299e8,False, work towards, , ,None
+347,https://api.github.com/repos/gkz/LiveScript/commits/193819c09b9d5af1dc34e0bdea33c84d44a38707,False, add yield, , ,None
+348,https://api.github.com/repos/gkz/LiveScript/commits/15d638b60b33e874cc6fbf7d1019561e79ceb7de,False, fix testing, , ,None
+349,https://api.github.com/repos/gkz/LiveScript/commits/ce1f0ea2b5c309fe66666e972365f9edb50656bc,False, happy new year, , ,None
+350,https://api.github.com/repos/gkz/LiveScript/commits/6c8acde8d51886d02a3ed5fa62cb4034fa6ad607,True, merge pull request 418 nami doc issue354 fix binop bound access,https://api.github.com/repos/gkz/LiveScript/issues/418, ,None
+351,https://api.github.com/repos/gkz/LiveScript/commits/6457566db6617d93d28589b85ce347222fe0d5d0,False, pas argument bound access, , ,None
+352,https://api.github.com/repos/gkz/LiveScript/commits/6d3e7bbf7c9f6ee210e0e87bd418cf9e293c4ec0,True, merge pull request 434 nami doc remove autoinfusing iifes remove auto infusing iifes,https://api.github.com/repos/gkz/LiveScript/issues/434, ,None
+353,https://api.github.com/repos/gkz/LiveScript/commits/fa670d36d45e82605a75c3eb206cceafee979e8b,False, fix comment, , ,None
+354,https://api.github.com/repos/gkz/LiveScript/commits/cc53a04a8b4d7dd964527bb5278d7118d9cf66a4,False, remove auto infusing iifes, , ,None
+355,https://api.github.com/repos/gkz/LiveScript/commits/e89107b3f51e2bb240af7535ecfc897a14e942fc,True, fix precedence assign backpipe close 266 ,https://api.github.com/repos/gkz/LiveScript/issues/266, ,None
+356,https://api.github.com/repos/gkz/LiveScript/commits/623cceeda91320075e723fbbb04bf279c87c160f,False, minor typo, , ,None
+357,https://api.github.com/repos/gkz/LiveScript/commits/7806bb9eaa0d3388fa997909111128ee4fd15c15,False, fix binary bound access, , ,None
+358,https://api.github.com/repos/gkz/LiveScript/commits/4cc5e5c0577195dd64b3a4bf4649b73860b58b94,True, merge pull request 392 appedemic master fix 391 second attempt,https://api.github.com/repos/gkz/LiveScript/issues/392, ,None
+359,https://api.github.com/repos/gkz/LiveScript/commits/fb6e9b285326d639c2e68f3aec176223f64e2d5c,True, added testcase 391,https://api.github.com/repos/gkz/LiveScript/issues/391, ,None
+360,https://api.github.com/repos/gkz/LiveScript/commits/772f5a5b9beb28230c0c2a2843c056c0ebf52d08,True, attempt 391,https://api.github.com/repos/gkz/LiveScript/issues/391, ,None
+361,https://api.github.com/repos/gkz/LiveScript/commits/3eb0534c113c030bba052ceaa541178523837bb8,False, fix 391 second attempt, , ,None
+362,https://api.github.com/repos/gkz/LiveScript/commits/6a76dd7ac79e9b3428a4a37186015b0db2ef3bca,False, use partail access syntax replacement, , ,None
+363,https://api.github.com/repos/gkz/LiveScript/commits/adf9134c4e38146f6513379195b7035edc0c2b90,False, merge remote tracking branch racklin master, , ,None
+364,https://api.github.com/repos/gkz/LiveScript/commits/f510812282ea5b209b0068b4401c0f14d9d3aa55,True, added livescript.js compile support add generated livescript header fixed 359 use header false option disable generated header signed rack lin racklin gmail.com,https://api.github.com/repos/gkz/LiveScript/issues/359, ,None
+365,https://api.github.com/repos/gkz/LiveScript/commits/d97ed50a8b6b6f28fe9943631363fe1568d0bdc6,False, add test increment, , ,None
+366,https://api.github.com/repos/gkz/LiveScript/commits/b90263c603a8683c835c3efae7b1c2f4c4c6756c,False, merge remote tracking branch haspaker master, , ,None
+367,https://api.github.com/repos/gkz/LiveScript/commits/33089312c9269b9ccb5c3497d2a43cfd9268759a,True, improved fix bug 336 improved fix bug 366 replacing tag crement val,https://api.github.com/repos/gkz/LiveScript/issues/366, ,None
+368,https://api.github.com/repos/gkz/LiveScript/commits/59bbeabb74b1f9d2285fbbb3ba593757b485630f,True, fix bug 336 fix bug concat increment parsed correctly last token line,https://api.github.com/repos/gkz/LiveScript/issues/336,bug,None
+369,https://api.github.com/repos/gkz/LiveScript/commits/2343c291cf4bf3267dbe97313fec604d8cce345e,True, merge pull request 355 haspaker master removed compound assignment copy copy superfluous,https://api.github.com/repos/gkz/LiveScript/issues/355, ,None
+370,https://api.github.com/repos/gkz/LiveScript/commits/6eb0f30670c3795389639d69d072ae828867b8a5,False, removed compound assignment copy copy superfluous, , ,None
+371,https://api.github.com/repos/gkz/LiveScript/commits/e9a584cb29546f75ff0464ab62de3dfdf4c2193f,True, merge pull request 353 haspaker master compound assignment pipe copy copy,https://api.github.com/repos/gkz/LiveScript/issues/353, ,None
+372,https://api.github.com/repos/gkz/LiveScript/commits/84441eba5373ae7ec8522a95792866b2dd2421b7,False, added compound assignment pipe copy copy example list list reject odd console.log list obj obj console.log obj, , ,None
+373,https://api.github.com/repos/gkz/LiveScript/commits/392b5c933282fbd26dc6414e3706d2397bee4037,False, 1.2.0, , ,None
+374,https://api.github.com/repos/gkz/LiveScript/commits/dc50acf2ad0f95ed7c9958fba9332f93edbfe6ad,False, cleanup removed feature, , ,None
+375,https://api.github.com/repos/gkz/LiveScript/commits/26c8891ae545837a6b67b2436bdcf29b2f5b351a,False, let fix, , ,None
+376,https://api.github.com/repos/gkz/LiveScript/commits/de969c5f1f3e07144a08ad198d4ebddab7493d13,False, slight word change, , ,None
+377,https://api.github.com/repos/gkz/LiveScript/commits/5d0df3ffa56c91e96182877357dfed9d0b227449,False, remove check support sparse array, , ,None
+378,https://api.github.com/repos/gkz/LiveScript/commits/1319cb407a7d85846bf93958e98f7e156566246b,True, merge pull request 346 nami doc master deoptimized pluck,https://api.github.com/repos/gkz/LiveScript/issues/346, ,None
+379,https://api.github.com/repos/gkz/LiveScript/commits/4a0bfe1538de3a0d4dbe85c8271da809982ffd5a,False, deoptimized pluck, , ,None
+380,https://api.github.com/repos/gkz/LiveScript/commits/1467b37f5b58178490a122815173947ac9138758,True, remove interactive option make call lsc arguements start repl without displaying help close 343,https://api.github.com/repos/gkz/LiveScript/issues/343, ,None
+381,https://api.github.com/repos/gkz/LiveScript/commits/8428edf9771baabe24dc3444965470fcfa462b96,False, grammar cleanup, , ,None
+382,https://api.github.com/repos/gkz/LiveScript/commits/df12569a48a0b6f85be05e1afcdaecb8a9087adc,False, recompile, , ,None
+383,https://api.github.com/repos/gkz/LiveScript/commits/8b2b447284be17a992eca580f259b8f94f858c24,True, merge pull request 341 nami doc forlet let let ...,https://api.github.com/repos/gkz/LiveScript/issues/341, ,None
+384,https://api.github.com/repos/gkz/LiveScript/commits/04d5ce20c1e7bce6bb60d4999f81d516f6864368,False, let let ..., , ,None
+385,https://api.github.com/repos/gkz/LiveScript/commits/28932cf63ceeb99ed07204c91812001dbb6cd486,True, merge pull request 340 nami doc stdinend window end stdin ctrl ctrl window satyr coco 204,https://api.github.com/repos/gkz/LiveScript/issues/204,discussion,None
+386,https://api.github.com/repos/gkz/LiveScript/commits/5d1d6274ea42ef58e1cb493676be739c58fd0dfb,True, merge pull request 339 nami doc fix318 fix 318,https://api.github.com/repos/gkz/LiveScript/issues/318, ,None
+387,https://api.github.com/repos/gkz/LiveScript/commits/f8d7069df72a40a7c6a8294dbb86c56d1f32754e,True, end stdin ctrl ctrl window satyr coco 204,https://api.github.com/repos/gkz/LiveScript/issues/204,discussion,None
+388,https://api.github.com/repos/gkz/LiveScript/commits/23c5c7616a8f7891c5ef3d9bd4d2605a27880134,False, restore fix coco, , ,None
+389,https://api.github.com/repos/gkz/LiveScript/commits/5e8a6d3225d200396fcfcefe1d485d8ebb57b1d8,True, fix 318,https://api.github.com/repos/gkz/LiveScript/issues/318, ,None
+390,https://api.github.com/repos/gkz/LiveScript/commits/8bcb1747b7fceec6bd666ce8e8a07749cc24e832,True, merge pull request 338 nami doc pnf adopted coco per nesting flag,https://api.github.com/repos/gkz/LiveScript/issues/338, ,None
+391,https://api.github.com/repos/gkz/LiveScript/commits/7771ffad28bf1cd8bb606f28c813642268f1f722,False, adopted coco per nesting flag, , ,None
+392,https://api.github.com/repos/gkz/LiveScript/commits/5c2adcf3090b61e6bdeb6a77f4b7fc19d8b695e9,False, update changelog file point new site, , ,None
+393,https://api.github.com/repos/gkz/LiveScript/commits/13733f7866563be0fd81e2f1328ad2f4e22f56a9,False, fix upstream, , ,None
+394,https://api.github.com/repos/gkz/LiveScript/commits/179f49cc0ba261b972cd8ce5d240d4a6b06d22d9,False, correct much better compilation compose longer calling helper function, , ,None
+395,https://api.github.com/repos/gkz/LiveScript/commits/d3baa5430abba883a04c9e127b88ae8152bc2a42,False, regex equal refactor nami doc, , ,None
+396,https://api.github.com/repos/gkz/LiveScript/commits/bdaede6ba05904720175802fc0686f2009ba313e,True, fix regex boolean switch fix 276,https://api.github.com/repos/gkz/LiveScript/issues/276,bug,None
+397,https://api.github.com/repos/gkz/LiveScript/commits/382065f84e5db2d2c1adb7881cf0cab432951d4d,True, repl print newline ctrl ctrl close 258,https://api.github.com/repos/gkz/LiveScript/issues/258, ,None
+398,https://api.github.com/repos/gkz/LiveScript/commits/e53b3fd0d8bc180842795af7932332712b7c6696,True, auto compile .json.ls .json close 231,https://api.github.com/repos/gkz/LiveScript/issues/231,feature,None
+399,https://api.github.com/repos/gkz/LiveScript/commits/79e5d7771552131556fab3b7f6b2810a07f4b277,False, improve function hush syntax always think, , ,None
+400,https://api.github.com/repos/gkz/LiveScript/commits/d19f1e830c61ee26132aba5e5405de5ff76654d7,False, update dev version, , ,None
+401,https://api.github.com/repos/gkz/LiveScript/commits/6b7e2cd1d6a347d02699c783738b6cf7114602ab,False, remove single line cascade, , ,None
+402,https://api.github.com/repos/gkz/LiveScript/commits/871017c3f7e7f6ac19286c9647fc9740b72fbe8b,False, remove deprecated feature, , ,None
+403,https://api.github.com/repos/gkz/LiveScript/commits/152631bd9dbd2fdbebf34dfde78a23e51e6c5c9b,False, track logo file, , ,None
+404,https://api.github.com/repos/gkz/LiveScript/commits/5f210f10d78905ddf976cefa6564e7f785670dd2,False, update newest prelude.ls, , ,None
+405,https://api.github.com/repos/gkz/LiveScript/commits/a3050953494890a7e72f7f45f5682565028ca141,True, merge pull request 334 racklin enhancement header add generated header compiled,https://api.github.com/repos/gkz/LiveScript/issues/334, ,None
+406,https://api.github.com/repos/gkz/LiveScript/commits/0220f1ea14ea77d1b54e55399dd26c586592ba70,False, add generated header compiled signed rack lin racklin gmail.com, , ,None
+407,https://api.github.com/repos/gkz/LiveScript/commits/b52d3dcab6045cc3df237f29242a7da9023a6847,True, merge pull request 327 dtinth master require prelude loading cli make work livescript installed globally,https://api.github.com/repos/gkz/LiveScript/issues/327, ,None
+408,https://api.github.com/repos/gkz/LiveScript/commits/0700d2f3bd25f8db9a5b0e8fc6c05510d38bfb24,False, require prelude top file make option work installed globally, , ,None
+409,https://api.github.com/repos/gkz/LiveScript/commits/ac79f689714676365ef1ec4f609c7ee77ed6fc29,True, merge pull request 325 nami doc issue293 fix 293,https://api.github.com/repos/gkz/LiveScript/issues/293,bug,None
+410,https://api.github.com/repos/gkz/LiveScript/commits/28446923cf4e8541b3c5aa504d1a054915850687,True, fix 293,https://api.github.com/repos/gkz/LiveScript/issues/293,bug,None
+411,https://api.github.com/repos/gkz/LiveScript/commits/cfbaa372e866e4fb5975fba178e4496e6ba33c0f,True, merge pull request 320 viclib master fix 306 313,https://api.github.com/repos/gkz/LiveScript/issues/306, ,None
+412,https://api.github.com/repos/gkz/LiveScript/commits/ee4b8d0c5780dcabaeee6c32badbfd0ddc2459f8,False, fix work prelude 1.0.0, , ,None
+413,https://api.github.com/repos/gkz/LiveScript/commits/5d1b1e78bdc1202d411b2a50b9aa5b8fef52fb03,True, merge pull request 289 clkao master make deepeq work strict,https://api.github.com/repos/gkz/LiveScript/issues/289, ,None
+414,https://api.github.com/repos/gkz/LiveScript/commits/39cb4f1cd28706df3ec38b7cfe45ae32ad3e15ef,False, make deepeq work strict, , ,None
+415,https://api.github.com/repos/gkz/LiveScript/commits/cc0fbca7af784923e84f547f9bc846e6d3f7ec7d,True, fix close 267,https://api.github.com/repos/gkz/LiveScript/issues/267,bug,None
+416,https://api.github.com/repos/gkz/LiveScript/commits/a835129741d563bfa0705ec4286f058390b91b5e,False, merge remote tracking branch killdream issue263, , ,None
+417,https://api.github.com/repos/gkz/LiveScript/commits/3a21809d607fca6f45bf8670a0c5928d5c50c659,False, add loop test guard 263 280, , ,None
+418,https://api.github.com/repos/gkz/LiveScript/commits/4f548fc143105619d77645fc1d949ce72d771638,False, wrong order grammar.ls need better test, , ,None
+419,https://api.github.com/repos/gkz/LiveScript/commits/a57b5b225eaaf1a5bcf45e9ce86f2f0d481d3003,True, allow take guard fix 263,https://api.github.com/repos/gkz/LiveScript/issues/263, ,None
+420,https://api.github.com/repos/gkz/LiveScript/commits/5701e24f6ae9b3cd9c5affcd74868aa33913c477,False, update license, , ,None
+421,https://api.github.com/repos/gkz/LiveScript/commits/a2c93cba5021f0cf650b74303a5587376d4df0e2,True, merge pull request 255 nami doc issue238 fix 238 check loop last element,https://api.github.com/repos/gkz/LiveScript/issues/238,bug,None
+422,https://api.github.com/repos/gkz/LiveScript/commits/88910eeb45d8732b36255e5ae804fbff41202367,True, fix 238 check loopsin last element,https://api.github.com/repos/gkz/LiveScript/issues/238,bug,None
+423,https://api.github.com/repos/gkz/LiveScript/commits/b0acc83a21cceba2f35888681b3cc683107f3763,True, optimize call partialized function close 243,https://api.github.com/repos/gkz/LiveScript/issues/243, ,None
+424,https://api.github.com/repos/gkz/LiveScript/commits/c71eb30b9a2a0a0c08373af8aed3ec1e162339db,False, need curry function args, , ,None
+425,https://api.github.com/repos/gkz/LiveScript/commits/e4589e6cd33d1394fabf159b15ff5963ec8acb17,False, fix quick map error thanks nami doc, , ,None
+426,https://api.github.com/repos/gkz/LiveScript/commits/d66fa5a49f5c1fe728f356df6024f939dc582b6a,False, merge upstream, , ,None
+427,https://api.github.com/repos/gkz/LiveScript/commits/36cb3f24ad792fac7e2d97362c6385aae4d341cf,False, ast ref pipe, , ,None
+428,https://api.github.com/repos/gkz/LiveScript/commits/e672c4d122857c2defdc9ed20c4710f0f391113c,False, fixed etc, , ,None
+429,https://api.github.com/repos/gkz/LiveScript/commits/c7c745b620135f6d883b774547529494d3f05f1e,True, fixed 195,https://api.github.com/repos/gkz/LiveScript/issues/195, ,None
+430,https://api.github.com/repos/gkz/LiveScript/commits/deed708860efa20315600544712e58419587f756,False, 1.1.1, , ,None
+431,https://api.github.com/repos/gkz/LiveScript/commits/6206d84cf692faf98e94ebf5abf68abf785d5a44,False, add buld status, , ,None
+432,https://api.github.com/repos/gkz/LiveScript/commits/877aea8ed79741870cc0a7653506845c671c74ba,False, exit error code test failure, , ,None
+433,https://api.github.com/repos/gkz/LiveScript/commits/8ba276b8925b0dcb1d85ef5fd4bd0b5019cf45db,False, exp see travis support work, , ,None
+434,https://api.github.com/repos/gkz/LiveScript/commits/17a562d70881eba8d5cffabe739dc347b07e0e18,True, deprecate 219,https://api.github.com/repos/gkz/LiveScript/issues/219,discussion,None
+435,https://api.github.com/repos/gkz/LiveScript/commits/bc0ad94b4ca7f05ecf7aa652f35f8397e1ec3ef4,True, deprecate undefined alias void 219,https://api.github.com/repos/gkz/LiveScript/issues/219,discussion,None
+436,https://api.github.com/repos/gkz/LiveScript/commits/22d5b42ddfa041fd5127c10edd7632a787e75de7,True, deprecate statement 219,https://api.github.com/repos/gkz/LiveScript/issues/219,discussion,None
+437,https://api.github.com/repos/gkz/LiveScript/commits/e0badda9d3046840e0d40544b657a25c011373b0,False, preserve context partially applied function, , ,None
+438,https://api.github.com/repos/gkz/LiveScript/commits/6b689923403d68fdead001e0c1d64f9a611684f8,False, allow multiple unary ops params set prop, , ,None
+439,https://api.github.com/repos/gkz/LiveScript/commits/9bee2c3a470dbe3944b57476512e7a4d46485c95,True, fix inversion close 241,https://api.github.com/repos/gkz/LiveScript/issues/241,bug,None
+440,https://api.github.com/repos/gkz/LiveScript/commits/1fc5a7eb1e4b5e53a3ae016ddad3147321580de4,False, minor refactor remove create func uneeded, , ,None
+441,https://api.github.com/repos/gkz/LiveScript/commits/03d2d3b92190fa43f9b823e63aaeb50e6b0d596d,True, allow unary ops params close 161,https://api.github.com/repos/gkz/LiveScript/issues/161, ,None
+442,https://api.github.com/repos/gkz/LiveScript/commits/ba5343fe09d677191b50e1fee0b7d49aed62247e,True, bound curried function acutally work fix 232,https://api.github.com/repos/gkz/LiveScript/issues/232,bug,None
+443,https://api.github.com/repos/gkz/LiveScript/commits/e83fc412d79daed00d886333a961523b4328a41f,True, fix 237 error assigning reserved word,https://api.github.com/repos/gkz/LiveScript/issues/237, ,None
+444,https://api.github.com/repos/gkz/LiveScript/commits/c42bbf62b12e857df24319693a4535154f708c96,True, switch statement without default still callable fix 213,https://api.github.com/repos/gkz/LiveScript/issues/213, ,None
+445,https://api.github.com/repos/gkz/LiveScript/commits/653d75b1d52b909ac9f0bbc44159567cec92d2b5,True, fix 215,https://api.github.com/repos/gkz/LiveScript/issues/215,bug,None
+446,https://api.github.com/repos/gkz/LiveScript/commits/4fab36be7a9fbaddde7b9971882027ab4fbe97c9,True, fix 151,https://api.github.com/repos/gkz/LiveScript/issues/151,bug,None
+447,https://api.github.com/repos/gkz/LiveScript/commits/d882e6ee3a61f810c4233700a93a0492de2ad7a8,False, cascade comprehension, , ,None
+448,https://api.github.com/repos/gkz/LiveScript/commits/0a0bcdb354fa2c6117939d70786cc9148ba7f272,False, merge coco, , ,None
+449,https://api.github.com/repos/gkz/LiveScript/commits/a270ad516903ee8cac7dc9a298632818907e4805,False, merge fix, , ,None
+450,https://api.github.com/repos/gkz/LiveScript/commits/ad387b68074c9af3113f8c776ea3e1db6215b48b,True, merge pull request 228 nami doc fix 210 fix 210,https://api.github.com/repos/gkz/LiveScript/issues/210,bug,None
+451,https://api.github.com/repos/gkz/LiveScript/commits/87d836558351a5b51f4f361d11d10631dfe1adf9,True, merge pull request 227 nami doc fix 150 fix 150,https://api.github.com/repos/gkz/LiveScript/issues/150,bug,None
+452,https://api.github.com/repos/gkz/LiveScript/commits/309e87f4d84e8f868769bf6261272710352aa754,True, fix 238,https://api.github.com/repos/gkz/LiveScript/issues/238,bug,None
+453,https://api.github.com/repos/gkz/LiveScript/commits/c85b7b24763df9b90cfa2b8ee4587c5cc655fa3e,True, fix 236,https://api.github.com/repos/gkz/LiveScript/issues/236,bug,None
+454,https://api.github.com/repos/gkz/LiveScript/commits/5771465716d1244ba70245fffe279131160e11bb,False, fixed 193 made super work dynamically named method, , ,None
+455,https://api.github.com/repos/gkz/LiveScript/commits/35f42b55e1eb5869860c2392cbd3675dd4cc94b1,False, , , ,None
+456,https://api.github.com/repos/gkz/LiveScript/commits/73f1347231973e783ecdc94858c6edd73dc99ff1,False, ofc rebuild, , ,None
+457,https://api.github.com/repos/gkz/LiveScript/commits/9fee040c2a1e64597dd5999e8cd7ce359c1353a6,False, , , ,None
+458,https://api.github.com/repos/gkz/LiveScript/commits/ca31f22b635fe8ec8bc89cfcf951717b3ce31697,True, inline range without fix 217,https://api.github.com/repos/gkz/LiveScript/issues/217, ,None
+459,https://api.github.com/repos/gkz/LiveScript/commits/9c8a4d12795617eaed14a5836ec63461cf0b7e81,True, fix 210,https://api.github.com/repos/gkz/LiveScript/issues/210,bug,None
+460,https://api.github.com/repos/gkz/LiveScript/commits/16b97909afd4f6bf1176b81c63bd3c86adb7df28,False, allowed tostring, , ,None
+461,https://api.github.com/repos/gkz/LiveScript/commits/b906e88b32aa60ba03ef67614b965a47bcb2fee0,False, remove failing test seen bound access, , ,None
+462,https://api.github.com/repos/gkz/LiveScript/commits/31d3521f9ba308722b90abe471467d0f941c7c92,True, fix 150,https://api.github.com/repos/gkz/LiveScript/issues/150,bug,None
+463,https://api.github.com/repos/gkz/LiveScript/commits/6259e193947a10bc823a40a0afbfbef786e31f78,False, 0.9.0, , ,None
+464,https://api.github.com/repos/gkz/LiveScript/commits/d49b3ee8e8e2d5d7b9f128fa98c210b582e095fe,False, fix executable class body let, , ,None
+465,https://api.github.com/repos/gkz/LiveScript/commits/6117604f8576833c9b8b88f6047596b78b0a90eb,False, fixed bound constructor backcall, , ,None
+466,https://api.github.com/repos/gkz/LiveScript/commits/0804bc39ddcba062521edbdb000570806a7376df,False, fixed 192 trailing block comment backcalls, , ,None
+467,https://api.github.com/repos/gkz/LiveScript/commits/e31e877f09441dc0f6868fd254543973dbd2fe25,False, added quick map short 187, , ,None
+468,https://api.github.com/repos/gkz/LiveScript/commits/b5ad42d837c99e91a5ab9d5aefd66c7d05bf93a3,False, trailing placeholder parameter longer affect arity, , ,None
+469,https://api.github.com/repos/gkz/LiveScript/commits/3a85ac147c69d97ebe68a3f1213e44cbc5aaaff5,False, fixed 190 reuse reference variable, , ,None
+470,https://api.github.com/repos/gkz/LiveScript/commits/ca2ee69ad6fc2deacd1bb555e83faee840d38016,True, fix close 206,https://api.github.com/repos/gkz/LiveScript/issues/206,bug,None
+471,https://api.github.com/repos/gkz/LiveScript/commits/2aac2209942e4f4552291b78c459241e879b497a,False, remove leftover console.logs, , ,None
+472,https://api.github.com/repos/gkz/LiveScript/commits/1db76a406a7cf1446cdc30f18c891a327086fc1d,False, warn use remove remaining use, , ,None
+473,https://api.github.com/repos/gkz/LiveScript/commits/051651b95087dbfd08007eece1fd5cce7536a6bb,False, concat function use want add, , ,None
+474,https://api.github.com/repos/gkz/LiveScript/commits/76c569ecde2f705656be2c92cc1a6f48d0e823d4,True, add concat close 205,https://api.github.com/repos/gkz/LiveScript/issues/205, ,None
+475,https://api.github.com/repos/gkz/LiveScript/commits/b9d6cf2dffcf4fdbccfb48389819385391d9a22e,False, eat dogfood, , ,None
+476,https://api.github.com/repos/gkz/LiveScript/commits/e369db11a29e232f26b62acf4589f748359101ed,False, concat dually spaced dually spaced token literal strnum increment must spaced, , ,None
+477,https://api.github.com/repos/gkz/LiveScript/commits/0f0be66fc7e69d577e9a036eb89e07dd0888b1b4,False, merge coco, , ,None
+478,https://api.github.com/repos/gkz/LiveScript/commits/c55517f8e88f2d26a31f82c5ee04f5e2590720e9,False, make actually synonym nodejs, , ,None
+479,https://api.github.com/repos/gkz/LiveScript/commits/630ffa31ac98f4e28c864b2da007ec631b9e8960,False, allowed non referencing, , ,None
+480,https://api.github.com/repos/gkz/LiveScript/commits/7987103bce3dd2527d769274e3feb94e1c6b84d0,False, fixed 185 hushed named function evaluate, , ,None
+481,https://api.github.com/repos/gkz/LiveScript/commits/a4f33793a9e42e330f37130d0ebf50bda7b75c13,True, fix neg number match statement close 194,https://api.github.com/repos/gkz/LiveScript/issues/194, ,None
+482,https://api.github.com/repos/gkz/LiveScript/commits/221947be4786fd3a6605c9533984323a161fc105,False, 1.1.0, , ,None
+483,https://api.github.com/repos/gkz/LiveScript/commits/0cf63ce503f7dd346adcaa3f789acf7b2a8440ad,False, package.ls desc update, , ,None
+484,https://api.github.com/repos/gkz/LiveScript/commits/60b96632a7cfb3273a25c5ae319b48d37a02d773,False, update readme, , ,None
+485,https://api.github.com/repos/gkz/LiveScript/commits/68153fa771c1f88ea86796a647e136c5a02770ad,False, ... type function deprecated show warning, , ,None
+486,https://api.github.com/repos/gkz/LiveScript/commits/2be2835aed395608557ed484757debe87f1fec2e,True, named function top level retain hoisting close 180,https://api.github.com/repos/gkz/LiveScript/issues/180, ,None
+487,https://api.github.com/repos/gkz/LiveScript/commits/954a8e55a92a10ada6d6950c7f5d925b0f7c6902,False, use improved require, , ,None
+488,https://api.github.com/repos/gkz/LiveScript/commits/b1592131da0af4f22c5f08bf4bad943b786034f3,False, improved require accepting chain, , ,None
+489,https://api.github.com/repos/gkz/LiveScript/commits/a1dc0a6dc92fcbca274d0819307654ec3874132b,False, use require, , ,None
+490,https://api.github.com/repos/gkz/LiveScript/commits/572ebdacb93dfe2658cd72b15002c6ed922ec616,False, improved require non collection camelizes better test, , ,None
+491,https://api.github.com/repos/gkz/LiveScript/commits/b094db21b1522b443466a425fe219d9e31f574f4,False, merge global scope command.ls issue, , ,None
+492,https://api.github.com/repos/gkz/LiveScript/commits/c5de40302e1dd593454f716fd96dbced3493889a,False, readded instead instead , , ,None
+493,https://api.github.com/repos/gkz/LiveScript/commits/6800e04cb40af0313a470c2d80e3eca9f7f72408,False, single line cascade, , ,None
+494,https://api.github.com/repos/gkz/LiveScript/commits/9f6235f241f2835487a1cd060d7353048e34e9cb,False, merge branch master, , ,None
+495,https://api.github.com/repos/gkz/LiveScript/commits/8aec1416c811bb2616b050677859a6dd66aa1afa,False, use let prec def, , ,None
+496,https://api.github.com/repos/gkz/LiveScript/commits/a45ae37a1585228ff2344de26f5e29f4fd993275,False, removed reference constructor, , ,None
+497,https://api.github.com/repos/gkz/LiveScript/commits/9fd35dd1d8a590b8a96579cfa48a89d25275324d,False, merge coco, , ,None
+498,https://api.github.com/repos/gkz/LiveScript/commits/8327a0871884f945aee38a96557d2644e6db75b4,False, fixed, , ,None
+499,https://api.github.com/repos/gkz/LiveScript/commits/ca361c6d300be9660ecf6866eea349a128e53d64,False, made interpolated, , ,None
