@@ -1,0 +1,501 @@
+No,Url,Valid,Message,Issue-url,Tag,Category
+0,https://api.github.com/repos/ReactiveX/RxPY/commits/246eabfefd17a25951f59bb2dfce4262c0ed2888,False, remove deprecated loop parameter 575 asyncio.sleep loop parameter deprecated since python 3.8 removed 3.10. test fail 3.10 unless removed http docs.python.org 3.10 library asyncio task.html sleeping, , ,None
+1,https://api.github.com/repos/ReactiveX/RxPY/commits/5a0e9025e705ab608f33cf60c54a8873f78daeef,False, set daemon attribute instead using setdaemon method deprecated python 3.10 570, , ,None
+2,https://api.github.com/repos/ReactiveX/RxPY/commits/5054de8874f275ed0de55007b87cff4817b1d9f7,False, bump version 3.2.0 568, , ,None
+3,https://api.github.com/repos/ReactiveX/RxPY/commits/78385ee28210f6dd2f77eb20f4fe47d13c244a2a,False, fix deadlock 567 fix deadlock add test deadlock revert fix deadlock reverts commit reland fix deadlock rename add test deduplicate code, , ,Risky_resource_management
+4,https://api.github.com/repos/ReactiveX/RxPY/commits/1bd44fe68183dcaad1c2a243c2fc4a255e986fbd,False, doc fix forkjoin marble 561, , ,None
+5,https://api.github.com/repos/ReactiveX/RxPY/commits/8c25526a537f472d0fc964ebf0d3fbdf861c58b6,False, readme update badge 558, , ,None
+6,https://api.github.com/repos/ReactiveX/RxPY/commits/8a8c108bf5186c940b4709df8addc227fc0c429d,True, use pytest runner fix 522 543,https://api.github.com/repos/ReactiveX/RxPY/issues/522,enhancement,None
+7,https://api.github.com/repos/ReactiveX/RxPY/commits/fdfe05758028f80663a5a3ddaabe559e37c8f28c,False, fix scheduler forwarding delay operator 555 fix bug scheduler assigned provided input operator, , ,None
+8,https://api.github.com/repos/ReactiveX/RxPY/commits/17cb75d8b56be011f53d3a95a01b17d9e578bfc1,False, update 547 working authored pormr pormr foxmail.com, , ,None
+9,https://api.github.com/repos/ReactiveX/RxPY/commits/b325e36117e417316e54021d34f6938694207592,False, doc fix simple typo thows throw 548, , ,None
+10,https://api.github.com/repos/ReactiveX/RxPY/commits/39040a4ab85a0402b7a6905ff838b468352049f6,False, fix github action 550, , ,None
+11,https://api.github.com/repos/ReactiveX/RxPY/commits/24f3c2d63a6ce4a22265b00bb3240f568a507769,False, move github action 544 move github action run pull request, , ,None
+12,https://api.github.com/repos/ReactiveX/RxPY/commits/7b74d1c53fa87d2edcf6097aff49a5fe0b8a4c64,True, add forkjoin fix 533,https://api.github.com/repos/ReactiveX/RxPY/issues/533,enhancement,None
+13,https://api.github.com/repos/ReactiveX/RxPY/commits/ea7c5a47c70e3d1a9f4eadcab5e8b72835758ae2,True, zip completes soon source completed fix 525,https://api.github.com/repos/ReactiveX/RxPY/issues/525,enhancement,None
+14,https://api.github.com/repos/ReactiveX/RxPY/commits/93e8a17cd3d3d951844fa94b780ff10d22555326,False, fix to_future cancelling to_future future raise change allows cancelling future disposes subscription happens, , ,None
+15,https://api.github.com/repos/ReactiveX/RxPY/commits/f2642a87e6b4d5b3dc9a482323716cf15a6ef570,False, update version 3.1.1 526, , ,None
+16,https://api.github.com/repos/ReactiveX/RxPY/commits/0718e04640da817a57e77bbd6b18e47d00ab9816,False, core observable catch fix coding convention 527, , ,None
+17,https://api.github.com/repos/ReactiveX/RxPY/commits/19e2acf87533fdf94edc39856385fa6289b5d367,False, fix gevent deadlock kill timer greenlets asynchronously 519 authored pavol vargovcik pavol.vargovcik gmail.com, , ,Risky_resource_management
+18,https://api.github.com/repos/ReactiveX/RxPY/commits/1cc1b5994d186d9421c239742042902485ba0549,False, add py.typed support mypy sdist 524, , ,None
+19,https://api.github.com/repos/ReactiveX/RxPY/commits/9c1884ba19c41c81e3b74ae443c42d1318acbc64,False, fix race condition zip operator 506 let merge fine even explain performance gain, , ,None
+20,https://api.github.com/repos/ReactiveX/RxPY/commits/3b01f982c10fcbd613de10efefef8eb9d8bd4f6f,False, upgrade job optional dependency py38 523, , ,None
+21,https://api.github.com/repos/ReactiveX/RxPY/commits/beea9e550d4eec650a7c5230f5c307fe4971d10a,False, fix additional reading link readme 516, , ,None
+22,https://api.github.com/repos/ReactiveX/RxPY/commits/96a77ee7a6b08c37fd938af9109cc0c88c0c4827,False, used start_with reduce 510 start_with based concat consequence source observable subscribed start observable completes source observable hot item missed reduce computation fix 488, , ,None
+23,https://api.github.com/repos/ReactiveX/RxPY/commits/e0fa08714492adfc77bf365d94080666284fe09a,False, drop reference cached item asap to_xxx 509 reduces memory consumption case cached item quite big observable disposed immediately completion callback trigger computation, , ,None
+24,https://api.github.com/repos/ReactiveX/RxPY/commits/b0ade08b55a451f7a05248f880535f2ec7f90db7,True, explicitely catch 507 fix 498,https://api.github.com/repos/ReactiveX/RxPY/issues/498,bug,None
+25,https://api.github.com/repos/ReactiveX/RxPY/commits/8233c4d816ffbd16cf1ac7689807c416dfa77faf,False, documentation correct description filter operator 504, , ,None
+26,https://api.github.com/repos/ReactiveX/RxPY/commits/b89fa5510e8e608d6a2cb8e7da1826aeefce42c0,False, documentation fix typo repeat doc 501 fix typo, , ,None
+27,https://api.github.com/repos/ReactiveX/RxPY/commits/4ed60bb5c04aa85de5210e5537a6adfe1b667d50,False, update version 3.1.0 499, , ,None
+28,https://api.github.com/repos/ReactiveX/RxPY/commits/a6260599517edcbace01dce68fbb002c636a766a,False, fix subscribe scheduler forwarded 495 fix scheduler subscription add forwarding scheduler test case, , ,None
+29,https://api.github.com/repos/ReactiveX/RxPY/commits/273652023449b087017e610bb6ce6429809ff8de,False, fixed documentation build typehints 494, , ,None
+30,https://api.github.com/repos/ReactiveX/RxPY/commits/bcc7fbcb597832371042c9af53379f0da343900c,False, doc fixed missing source parameter catch operator example 479, , ,None
+31,https://api.github.com/repos/ReactiveX/RxPY/commits/15f3bd95c1d3e05a83796f0a009a91f9548dea8c,False, fix timer add default scheduler timer date 481 fix missing default scheduler add basic test add nonlocal statement, , ,None
+32,https://api.github.com/repos/ReactiveX/RxPY/commits/91a29cd65d7a2103976c662af0e7b77e33755d43,False, enhancement group_by group_by_until add subject mapper 469 add subject_mapper argument group_by group_by_until operator fix complete group_by group_by_until docstrings add test group_by replaysubject add comment replaysubject test mainro simplify default subject mapper mainro, , ,None
+33,https://api.github.com/repos/ReactiveX/RxPY/commits/839e16e88d4ba3d2e02825a9cd3e63cec2d0ab8c,False, fix join subscribe scheduler forwarded 493 forward subscribe scheduler fix missing self method add nonlocal statement add forwarding scheduler test case fix assertion syntax add test case subscribe scheduler, , ,None
+34,https://api.github.com/repos/ReactiveX/RxPY/commits/cc3588dff71b8493827a66f332f2e8f434cf4856,False, fix scheduler forwarded 492 add forwarding scheduler test case fix scheduler keyword parameter subscribe scheduler, , ,None
+35,https://api.github.com/repos/ReactiveX/RxPY/commits/5fc2cfb5911e29818adde7dd70ef74ddb085eba4,False, avoid pyqt5 5.14.1 483, , ,None
+36,https://api.github.com/repos/ReactiveX/RxPY/commits/50c105b5009f36b3177c2142005e70e2188ee332,False, fix source iterator exhaustion 487, , ,None
+37,https://api.github.com/repos/ReactiveX/RxPY/commits/7f6bd8614d2a6a9f109114b29b7b9910fc7b15ae,False, fix wrong scheduler used subscribe upstream source 477 fix source subcription wrong scheduler convert nonlocal statement, , ,None
+38,https://api.github.com/repos/ReactiveX/RxPY/commits/722ac4796fe375c05bb103ef49cfe5c8f5ae518b,False, grammar singular 475, , ,None
+39,https://api.github.com/repos/ReactiveX/RxPY/commits/d1d4f9a79fd06da7c9fae171bfb2de26b0df450f,False, fix travis window job force install python v3.7.5 470 travis window build upgrade python version 3.7 3.8 revert 3.7 specify 3.7.5, , ,None
+40,https://api.github.com/repos/ReactiveX/RxPY/commits/48086734c6a434907a72d39e303bc688311e53d6,False, doc map instead pipe 474, , ,None
+41,https://api.github.com/repos/ReactiveX/RxPY/commits/e0309b2921d74fad7dc57395b7566b243030fbc1,False, grammar error typo 463 referred incorrect name cpu doe need apostrophe simple simple, , ,None
+42,https://api.github.com/repos/ReactiveX/RxPY/commits/f7767e1020d5be979beea54d74b66b8448967d5f,True, fixed await observable schedule later 462 current implementation tofuture doe provide scheduler subscribing observable consequence used await observable chain operator deal time deadlock occurs try complete asyncio future another thread mainloop __await__ provide associated current event loop always called context current event loop fix 456,https://api.github.com/repos/ReactiveX/RxPY/issues/456,bug,Risky_resource_management
+43,https://api.github.com/repos/ReactiveX/RxPY/commits/ce12560f9481dbd0d072911e12ff2ed30be328bf,True, fixed flat_map mapper returning asyncio future 460 python 3.7 asyncio future implement __iter__ method probably backward compatibility consequence asyncio future also iterable must check mapper result future checking iterable fix 457,https://api.github.com/repos/ReactiveX/RxPY/issues/457,bug,None
+44,https://api.github.com/repos/ReactiveX/RxPY/commits/573260422a6e3825c82a1cfbf8260b6514afc7b6,False, readme.rst typo 459, , ,None
+45,https://api.github.com/repos/ReactiveX/RxPY/commits/19b1908724b5a4b7ef3e6c407d52cdc3daaa4ed0,False, require pytest runner dependency running test 453, , ,None
+46,https://api.github.com/repos/ReactiveX/RxPY/commits/9d07fb1c7e618667a9a556ca1882c6ea27d35bdf,False, doc renamed catch_exception catch 450, , ,None
+47,https://api.github.com/repos/ReactiveX/RxPY/commits/dabc5887f9845df6b7f5043fcb5566b9eb7f4132,False, add missing project.cfg manifest 448, , ,None
+48,https://api.github.com/repos/ReactiveX/RxPY/commits/88c3dab9ee8d511e1ff9a5056cad2c9127ca123e,False, remove pre install instruction, , ,None
+49,https://api.github.com/repos/ReactiveX/RxPY/commits/7532e427850afb056e956d203dcda19dbddbd97c,False, updated readme release, , ,None
+50,https://api.github.com/repos/ReactiveX/RxPY/commits/8c1ef89f720ba766d3338656919e46cea8357822,False, release 424 release remove beta readme, , ,None
+51,https://api.github.com/repos/ReactiveX/RxPY/commits/c883cb51f3410fe430f25ab343237bb84c1268bb,False, released 3.0.0b5, , ,None
+52,https://api.github.com/repos/ReactiveX/RxPY/commits/e55c5a765b5fcb10f98ef8d184645cf08aeec1f6,False, improve singleton scheduler pattern add 433 improve singleton scheduler pattern add make extend rename reconsider trampoline currentthread scheduler, , ,None
+53,https://api.github.com/repos/ReactiveX/RxPY/commits/43f54f4d4f1e6369cb3c2e0d9ed0359115a49847,False, fix various mypy error 442, , ,None
+54,https://api.github.com/repos/ReactiveX/RxPY/commits/2284201fa394ffcd4fbae8394516432da865ba73,False, removed __slots__ 443 prevented idle queue thread local http github.com python cpython blob v3.7.3 lib l107, , ,None
+55,https://api.github.com/repos/ReactiveX/RxPY/commits/4ba82c313df482f7ed6b65c3dbec4598aa264b90,False, fix mypy error rx.scheduler 440 fix type hint rx.scheduler remove type argument scheduleditem add to_seconds to_datetime to_timedelta scheduler typing abc, , ,None
+56,https://api.github.com/repos/ReactiveX/RxPY/commits/51de78c2fc5850fc927cc647a05f9bab260f3cb4,False, doc added asyncio example concurrency section 437 doc added asyncio example concurrency section doc added information default scheduler, , ,None
+57,https://api.github.com/repos/ReactiveX/RxPY/commits/09ba556a90dd6368cafa8a802e2cfde4dac685c4,False, update getting_started doc fix old class syntax used one example 434, , ,None
+58,https://api.github.com/repos/ReactiveX/RxPY/commits/64a46bf4011ec4a13d1b7cfd63e37d4b3b9481fa,False, grammar think additional reading singular 427, , ,None
+59,https://api.github.com/repos/ReactiveX/RxPY/commits/49c1da43f12e1d854e7302c734b474faef6b4628,False, polish operators.rst 429, , ,None
+60,https://api.github.com/repos/ReactiveX/RxPY/commits/367acb337cfecef595fee4ab8cc930ee8f75fa20,False, polish migration.rst 428, , ,None
+61,https://api.github.com/repos/ReactiveX/RxPY/commits/467f59a0c14e5a4e255a4a50445f9b66ab82a009,False, polish docstrings static operator 426 polish docstrings __init__.py include __init__.py coverage, , ,None
+62,https://api.github.com/repos/ReactiveX/RxPY/commits/dc765aaad01cbb4493c280397ff34333cf2158a3,False, completed observable factory diagram fixed from_callable doc 423, , ,None
+63,https://api.github.com/repos/ReactiveX/RxPY/commits/26d9a3d0cfe7610de1f94dfa1e47424e3a328169,False, sphinx apidocs fix crosslink issue polish rx.observable 419 remove copyright end double generated doc add docstrings core.typing include api reference fix crosslink issue sphinx apidocs polish docstring order method observable nicer apidoc, , ,None
+64,https://api.github.com/repos/ReactiveX/RxPY/commits/862f3cb2cff267e4766f1a2d37be6b2cedcd642e,False, manage version string manually 420, , ,None
+65,https://api.github.com/repos/ReactiveX/RxPY/commits/c1edd1cef2c3b016a54262bdf6f23e838bcb2dd3,False, try enforce sphinx 421 try enforce sphinx add minimum version doc, , ,None
+66,https://api.github.com/repos/ReactiveX/RxPY/commits/6deb66e827f34a88b4605773d7671322b9cbbd08,True, merge pull request 396 daliclass addition link community project supporting backpressure,https://api.github.com/repos/ReactiveX/RxPY/issues/396, ,None
+67,https://api.github.com/repos/ReactiveX/RxPY/commits/1e8c170e52a5928458013fd76534653e4bc260c7,False, make sure dunderscore docstrings included 418, , ,None
+68,https://api.github.com/repos/ReactiveX/RxPY/commits/7edf352fb438d65acc5407c5f0a203388767bd6e,False, subject refactor 416 remove make class subject package extend subject rename subject package subject align subject signature observable scheduler make subject mesh core.observer, , ,None
+69,https://api.github.com/repos/ReactiveX/RxPY/commits/6d1cd17b7355a62ca2be6f2abb39552d35c6d4d6,False, addition link community project supporting backpressure, , ,None
+70,https://api.github.com/repos/ReactiveX/RxPY/commits/f234f144fd4a292116e40c8092025d2fa8c9338d,True, merge pull request 417 mainro feature doc added marble diagram doc fixed typo,https://api.github.com/repos/ReactiveX/RxPY/issues/417, ,None
+71,https://api.github.com/repos/ReactiveX/RxPY/commits/84819a4a08219a860e0797c092b821073d47369e,False, fixed typo docstrings, , ,None
+72,https://api.github.com/repos/ReactiveX/RxPY/commits/04d9d17f385b723d7cbdc6a7e7e822cdc660fb4d,False, added marble diagram doc fixed typo, , ,None
+73,https://api.github.com/repos/ReactiveX/RxPY/commits/723b6257722122811965c28396df97ae37a272bb,False, pytest fixed set minimum 4.6.1 414, , ,None
+74,https://api.github.com/repos/ReactiveX/RxPY/commits/e5fb1dcb64757057095f6770fa1fcf3bb71daec5,False, fix mypy error observer scheduler priorityqueue scheduleritem asyncsubject 411 fix priorityqueue correct item type hint fix scheduleditem relax __eq__ type hint fix observer remove monkey patch _xxx_core function wrapping given handler function __init__ fix asyncsubject add type hint set list observer empty list dispose observer use default on_xxx function exposed instead, , ,None
+75,https://api.github.com/repos/ReactiveX/RxPY/commits/06f4bbaeabe559aaf1f65a21fa4f0aefa14fb12e,False, disallow pytest 4.6.0 412, , ,None
+76,https://api.github.com/repos/ReactiveX/RxPY/commits/a0c1cacb0a1ca902e51836b1ced45dad0c760e09,False, inject optional dependency 410 use gui enabled test wxscheduler inject optional dependency mainloop scheduler, , ,None
+77,https://api.github.com/repos/ReactiveX/RxPY/commits/2a7883ffc407fb7ed0fe7c1c72f013fc8940c213,False, add type annotation static operator 409 annotate case annotate empty annotate defer annotate for_in annotate from_callable annotate from_callback relaxe type hint case annotate from_iterable annotate update nonlocal statement annotate generate update nonlocal statement generate annotate if_then annotate interval annotate start annotate start_async annotate to_async pylint warning annotate zip revert typing.cast if_then mypy correctly infer type inline annotate from_marbles hot relax mapping type hint annotate queue zip operator mypy complaining enforce to_async sheduler pattern _scheduler scheduler scheduler_ default mypy complaining add future type hint defer operator if_then add typing.cast mypy complaining case remove sequence type hint since keyerror catch indexerror fix catch doc remove wrong example, , ,None
+78,https://api.github.com/repos/ReactiveX/RxPY/commits/caa328cbceeab05dc48b8d29d2fa876ce1e06f69,False, rename concurrency package scheduler split mainloop eventloop scheduler 408 rename package concurrency scheduler split package mainloop eventloop, , ,None
+79,https://api.github.com/repos/ReactiveX/RxPY/commits/2a1c49c5e3fd4797567003c7b6bc92222acdbaea,False, fix from_marbles reused 406 fix from_marble enclosing disposable schedule_msg funtion subscribe add reuse test annotate lookup parameter from_marble erikkemperman reformatting, , ,None
+80,https://api.github.com/repos/ReactiveX/RxPY/commits/e7923085ca6694bcbf0392834c4bacfb2201b3f9,False, fix silly mistake online conflict resolve 407, , ,None
+81,https://api.github.com/repos/ReactiveX/RxPY/commits/b29a95da6a36dcafd601c7109c6b263924054329,False, operator rework buffer sample catch 404 simplify catch signature simplify sample one arg function split buffer buffer buffer_when buffer_toggle add test buffer_when buffer_toggle using marble testing polish revert removing one line observable mistake fix sample scheduler arg dropped polish fix marble diagram label centered erikkemperman, , ,None
+82,https://api.github.com/repos/ReactiveX/RxPY/commits/9cc0309089f68e646c07dfacf4f0771ca2a0989a,False, rename schedulerbase separate periodic class typing remove normalize 403 rename schedulerbase scheduler split separate class typing remove, , ,None
+83,https://api.github.com/repos/ReactiveX/RxPY/commits/08efe80aa8bc7a2b3ebb228c954cd2f16bb96a4f,False, fix reference scheduler class doc 405, , ,None
+84,https://api.github.com/repos/ReactiveX/RxPY/commits/8e7169df55db050672a262cbe2d09f4a6f94eeb0,True, fix async example fix 364 402 fix async example fix 364 fix failing example well,https://api.github.com/repos/ReactiveX/RxPY/issues/364,bug,None
+85,https://api.github.com/repos/ReactiveX/RxPY/commits/d6031a6624ec39c3cae3cd49049fa2e1b42fcc93,False, rename 400, , ,None
+86,https://api.github.com/repos/ReactiveX/RxPY/commits/6281699d457879d3999cd99a4abd68e899b8c7b4,False, split threadsafe asyncio scheduler class 399, , ,None
+87,https://api.github.com/repos/ReactiveX/RxPY/commits/bcac4fc71ef72ec7e53b658b64657f196fb85020,True, make to_iterable return list directly instead iterator iterable anyways add alias to_list make symmetric from_iterable from_list fix 395 401,https://api.github.com/repos/ReactiveX/RxPY/issues/395, ,None
+88,https://api.github.com/repos/ReactiveX/RxPY/commits/10959ac64fd5838bca15330e164ffa25c9dbc6f1,True, make schedule_period zero period repeat fast possible fix 370 398,https://api.github.com/repos/ReactiveX/RxPY/issues/370, ,None
+89,https://api.github.com/repos/ReactiveX/RxPY/commits/84ff8c07f463646347ec94d9445380042ae05a6e,False, spilt window operator add type annotation 393 split window distinct operator fix test fix return type rename window window_when window_toggle fix buffer operator based window operator use nonlocal statement instead list window window_when operator end line fix doc marble, , ,None
+90,https://api.github.com/repos/ReactiveX/RxPY/commits/25bd1c986dbba15f29b900ea4bb5535af3d2e171,False, bump beta4, , ,None
+91,https://api.github.com/repos/ReactiveX/RxPY/commits/4639555b3d77a706113171240950785c1498b938,False, universial build anymore, , ,None
+92,https://api.github.com/repos/ReactiveX/RxPY/commits/69349fcffdb8cf1f59e851368004139a559dc79a,False, bumped version, , ,None
+93,https://api.github.com/repos/ReactiveX/RxPY/commits/151e666dab10269ffdb21fcffa6cccd501a790a6,False, use beta3 instad gamma, , ,None
+94,https://api.github.com/repos/ReactiveX/RxPY/commits/9106025b7cbf055dee8529b2087e8ed85b982458,True, merge pull request 397 mainro bugfix doc typo fix remaining typo documentation,https://api.github.com/repos/ReactiveX/RxPY/issues/397, ,None
+95,https://api.github.com/repos/ReactiveX/RxPY/commits/b0585dc23c0f7ceb87ec60c73166a73af173a5b1,False, fix remaining typo documentation, , ,None
+96,https://api.github.com/repos/ReactiveX/RxPY/commits/d3ff1b72963fd08341807986d49480351015165e,False, feat take_while add inclusive option 394 feat take_while add inclusive option add inclusive option take_while operator cause emit value caused predicate return false cleanup remove unnecessary optional type, , ,None
+97,https://api.github.com/repos/ReactiveX/RxPY/commits/442bada3bdd3ef34bb6bece36d4378c6c706dead,False, add missing type annotation operator 392 follow 382 annotate publish_value annotate reduce annotate replay annotate rety annotate scan annotate sequence_equal annotate single annotate annotate skip_with_time annotate slice annotate annotate starmap annotate sum annotate annotate annotate annotate take_while annotate take_with_time annotate throttle_first timestamp annotate timeout annotate annotate time_interval annotate to_dict annotate to_future annotate to_marbles reformat polish annotate sample annotate annotate while_do, , ,None
+98,https://api.github.com/repos/ReactiveX/RxPY/commits/0016082940499f1f4bc3bdf41826cc100e33634a,False, correct timedelta float input 391, , ,None
+99,https://api.github.com/repos/ReactiveX/RxPY/commits/947cd28cecd02e472530255d7139014f594569fb,False, fix pyqt5 pyside2 test remove unittest dependency correct typo 385 switch skip pyqt5 pyside2 test typo add support pytest fixture pyqt5 test replace qapplication gui add support pytest fixture pyside2 cleaning, , ,None
+100,https://api.github.com/repos/ReactiveX/RxPY/commits/9c9a6de0f1556d72f1ecf2e0dd9db80d627f0167,False, align doc current example code 387, , ,None
+101,https://api.github.com/repos/ReactiveX/RxPY/commits/eb34e2b94908692d765442015e26faf2eaa6f242,False, disable macos build travis temporarily 388, , ,None
+102,https://api.github.com/repos/ReactiveX/RxPY/commits/e37cadf8397cd27db85a40c280dcc7e01065769b,False, bumped version, , ,None
+103,https://api.github.com/repos/ReactiveX/RxPY/commits/11335c5641a1c9e63dbeabc68d29c7844ef65578,True, adding __version__ fix issue 381 384 adding __version__ fixed root path import style fix bumpversion setup done removed project.cfg fixed cfg key error version key error fixed updated regex,https://api.github.com/repos/ReactiveX/RxPY/issues/381,enhancement,None
+104,https://api.github.com/repos/ReactiveX/RxPY/commits/34c9dd42b86dd97a8d60b86475669f6c4962aa1a,True, let exeptions bubble mute on_error on_completed way fix 380 386,https://api.github.com/repos/ReactiveX/RxPY/issues/380,bug,None
+105,https://api.github.com/repos/ReactiveX/RxPY/commits/3b5993ea8b58935f1e5cf05e3074138a7db7fad5,False, add missing type annotation operator 382 complete type annotation average complete type annotation contains add typing.comparer complete type annotation group_join complete type annotation distinct complete type annotation complete type annotation first complete type annotation group_by complete type annotation group_by_until complete type annotation join complete type annotation last complete type annotation last_or_default complete type annotation map map_indexed complete type annotation max max_by complete type annotation merge complete type annotation min min_by complete type annotation multicast complete type annotation observe_on complete type annotation repeat, , ,None
+106,https://api.github.com/repos/ReactiveX/RxPY/commits/539b925986e481032d2b50dbe4ad61f7a830c973,False, use mit license 376, , ,None
+107,https://api.github.com/repos/ReactiveX/RxPY/commits/d331c2edea36a3d75eb5965c4a717305553dca9a,False, fix wrong type annotation 378 fix return type publish operator fix return type ignore_elements operator fix return type fix return type fix return type skip_last operator fix return type operator add type annotions publish operator parameter erikkemperman, , ,None
+108,https://api.github.com/repos/ReactiveX/RxPY/commits/645ec0f109b79d99f438a580fe33b88471903bc4,False, update authors.txt, , ,None
+109,https://api.github.com/repos/ReactiveX/RxPY/commits/89df1781ad4092f6f449434917946127acc2cd65,True, fix type hint pipe using overload fix 355 285 372 fix typing pipe using overload fix type typo hint overload move pylint disables right line multi line overload add observable specific overload first docstring make pylint happy remove ellpises coverage,https://api.github.com/repos/ReactiveX/RxPY/issues/285, ,None
+110,https://api.github.com/repos/ReactiveX/RxPY/commits/1de2850868289e955ddf2c1b847635b8fbd138ef,False, add py.typed bump version beta 374, , ,None
+111,https://api.github.com/repos/ReactiveX/RxPY/commits/cd3d5a5b833a0df3ecd91116c0243ebaa762578c,False, fix typing optional argument 373 fix typing optional argument import needed fix range repeat remove empty line, , ,None
+112,https://api.github.com/repos/ReactiveX/RxPY/commits/cd747481cfd5ecd9e70d29c8136e7c26b5771661,False, install optional package python 3.7 travis platform 369, , ,None
+113,https://api.github.com/repos/ReactiveX/RxPY/commits/93f94ca88da3a7209637b16bb87519b8cc4c396a,False, instantiate new scheduler instance 363 instantiate new scheduler instance add note behaviour, , ,None
+114,https://api.github.com/repos/ReactiveX/RxPY/commits/148d61ebb2e286eb2150a0e052018f8194e37951,False, pedantic change chess example piece name order 368, , ,None
+115,https://api.github.com/repos/ReactiveX/RxPY/commits/b1dd78a93f10c6b41382b94b2a943018efb14b90,False, scheduler coverage 367 add unit test catchscheduler add test wxscheduler add travis build remove outdated qt4 use headless unit test split test pyqt5 pyside2 add travis pycharm insists python version .travis.yml quoted add coverage test deps fix minor glitch test add test add unit test scheduleditem add .ds_store file mac .gitignore update count link readme.rst, , ,None
+116,https://api.github.com/repos/ReactiveX/RxPY/commits/a8c9d6a668dae95c95caac018dc9266051e75ee0,False, fix example 366, , ,None
+117,https://api.github.com/repos/ReactiveX/RxPY/commits/b0d75e4fd88c6acf0624c91ff5874bfd390eec13,False, scheduler docstrings typing polish 362 add local coverage html report gitignore polish mainloop scheduler typing docstrings polish mainloop scheduler test polish scheduler typing docstring polish scheduler test typing docstrings test scheduler clock use consistent unit process suggestion jcafhe, , ,None
+118,https://api.github.com/repos/ReactiveX/RxPY/commits/f9ac3c80d0452a9ceb748bbcb62f184ecdeae916,False, schedulerbase polish typing test 361 docstrings schedulerbase schedulerbase abstract add scheduler abc typing add unit test schedulerbase class method, , ,None
+119,https://api.github.com/repos/ReactiveX/RxPY/commits/be24259879e65d3b597e8b95d7df423236e40fbd,False, fix range drop scheduler argument 360, , ,None
+120,https://api.github.com/repos/ReactiveX/RxPY/commits/4992639f868562f78746e10a28befd480be247a1,True, merge pull request 357 mainro bugfix observeon subscribe scheduler fixed observe_on subscription scheduler propagation,https://api.github.com/repos/ReactiveX/RxPY/issues/357, ,None
+121,https://api.github.com/repos/ReactiveX/RxPY/commits/93cc7e48e03ba47056a235ffa703af659f07aa65,True, fixed observe_on subscription scheduler propagation fix 356,https://api.github.com/repos/ReactiveX/RxPY/issues/356,bug,None
+122,https://api.github.com/repos/ReactiveX/RxPY/commits/a964eac88787dabef61cbc96ba31801f5a9bbed9,False, fix from_iterable add scheduler parameter public api 354, , ,None
+123,https://api.github.com/repos/ReactiveX/RxPY/commits/b6fef9dde7dd5e9b33319c3b61fa54cc34ad6b8e,False, fix mainloop scheduler test 350 fix gtkscheduler test fix qtscheduler test fix test, , ,None
+124,https://api.github.com/repos/ReactiveX/RxPY/commits/9752a0018bac74b88fd153e308bc55e09ec16a9d,False, remove two unused bit 351 removed unused remove unused scheduleditem, , ,None
+125,https://api.github.com/repos/ReactiveX/RxPY/commits/9fe64eda4fd00c522efb3e254d88a776da7de898,False, allow interrupt 348, , ,None
+126,https://api.github.com/repos/ReactiveX/RxPY/commits/e92a80f695489fff652a953a530d86d5a931a599,False, repair leftover millisecond second change 349, , ,None
+127,https://api.github.com/repos/ReactiveX/RxPY/commits/b7b41da6f8f5a6920538df7cdba6586d45f59d59,False, remove nonexist 344 longer exists observablebase longer exists, , ,None
+128,https://api.github.com/repos/ReactiveX/RxPY/commits/9f000f7234d2f904b1a66cd17d80e093bb0c4a14,True, merge pull request 345 mainro bugfix tofuture fixed to_future completion empty observables,https://api.github.com/repos/ReactiveX/RxPY/issues/345, ,None
+129,https://api.github.com/repos/ReactiveX/RxPY/commits/f9e82bb7bfb9db7a282ad73ce491834eb7401b20,False, fixed to_future completion empty observables set future exception item emitted completion add information documentation replace array two variable, , ,None
+130,https://api.github.com/repos/ReactiveX/RxPY/commits/6ddd8bde427c653252faa2414dbf6f9329eb4af0,True, merge pull request 343 mainro feature doc doc documented change create operator,https://api.github.com/repos/ReactiveX/RxPY/issues/343, ,None
+131,https://api.github.com/repos/ReactiveX/RxPY/commits/9c643c7d3652fdea2ee0480e59b7c642a3b7222a,False, doc documented change create operator, , ,None
+132,https://api.github.com/repos/ReactiveX/RxPY/commits/72c3b253837d7dbb1cb9f4729f98477d2a9b4543,True, merge pull request 342 mainro bugfix docbuild doc set minimum version sphinx dooble,https://api.github.com/repos/ReactiveX/RxPY/issues/342, ,None
+133,https://api.github.com/repos/ReactiveX/RxPY/commits/e3b0fd48033f39622da2feb02d14b17df199bb33,False, doc set minimum version sphinx dooble, , ,None
+134,https://api.github.com/repos/ReactiveX/RxPY/commits/c72280fe5352e0870c8fc0b93e43c36d53489cd5,False, sphinx 333 try keep project metadata one place fix forward reference warning sphinx, , ,None
+135,https://api.github.com/repos/ReactiveX/RxPY/commits/23cda88ebafc54f3412c1619cafe5b6191c8b423,True, merge pull request 340 bradleynull master fixed broken documentation link,https://api.github.com/repos/ReactiveX/RxPY/issues/340, ,None
+136,https://api.github.com/repos/ReactiveX/RxPY/commits/74481ca525ff241dee514b749c4be62acfc4d7bf,False, add badge build status readthedocs 335 add badge build status readthedocs use shields.io badge, , ,None
+137,https://api.github.com/repos/ReactiveX/RxPY/commits/1541d60cdcee63fd638ce693e564a61fe0319caa,False, update readme.rst fixed think per review, , ,None
+138,https://api.github.com/repos/ReactiveX/RxPY/commits/7c07f58996d1a50e2339f0aa55f893a9de7a0f29,False, update readme.rst fixed broken documentation link, , ,None
+139,https://api.github.com/repos/ReactiveX/RxPY/commits/e664dd497e2049bc0d593ab81cf88e37957b794e,True, slightly relaxed timing eventloop test fix 337 338,https://api.github.com/repos/ReactiveX/RxPY/issues/337, ,None
+140,https://api.github.com/repos/ReactiveX/RxPY/commits/00f26a8003523615236423ed9d0f9665bdb1df29,False, move doc requirement match better read doc 336, , ,None
+141,https://api.github.com/repos/ReactiveX/RxPY/commits/49277ded34e451de67ba7358e738c61f1463ff22,False, priorityqueue related scheduler 327 share default thread factory add typing refactor increase coverage refactor remove unused capacity argument priorityqueue remove ill defined remove_at priorityqueue raise exception consistently priorityqueue make priorityqueue generic keep synchronization outside priorityqueue start priorityqueue count negative value use constant timedelta use threading.local avoid locking within ensure single per thread increase coverage polish typing docstring increase coverage increase coverage refactor pygamescheduler add unit test pygamescheduler polish typing docstring polish schedulerbase typing docstring polish typing docstring test pygamescheduler travis polish pygamescheduler typing docstring add public read access clock add crude benchmark exclude stub implementation coverage report, , ,None
+142,https://api.github.com/repos/ReactiveX/RxPY/commits/16a1ebd8af81bdb798afd6f1e9df5f4337ec53c6,True, simplify coverall configuration zero fix 316 329,https://api.github.com/repos/ReactiveX/RxPY/issues/316, ,None
+143,https://api.github.com/repos/ReactiveX/RxPY/commits/c652590669059082bf7111a4caae3f16dc64d6a1,True, merge pull request 331 mainro feature doc doc fixed docstrings,https://api.github.com/repos/ReactiveX/RxPY/issues/331, ,None
+144,https://api.github.com/repos/ReactiveX/RxPY/commits/00b5d8d73934b8a557d8cba6e09110cf748ec9e9,False, doc fixed docstrings, , ,None
+145,https://api.github.com/repos/ReactiveX/RxPY/commits/b333440871ad5e74dbdf5365fe99643f22f92c25,False, qtscheduler 319 clean .travis.yml bit order import preference test fix, , ,None
+146,https://api.github.com/repos/ReactiveX/RxPY/commits/0906ad3f748a84890933cd85964b82db99f15801,False, fix leak storing qtimer object set 322 use static method schedule relative absolute operation use qtimer object schedule periodic, , ,None
+147,https://api.github.com/repos/ReactiveX/RxPY/commits/244c4218e7b0ac88b2a9eff02015b7c972e79a9f,False, doc marble diagram 320 doc first batch marble diagram doc marble diagram doc completed marble diagram, , ,None
+148,https://api.github.com/repos/ReactiveX/RxPY/commits/7c638ca22a473e0160ac21868c73ffd7e6d7e9b1,False, doc fixed link readme, , ,None
+149,https://api.github.com/repos/ReactiveX/RxPY/commits/0e0cea692e0eac8e0a8b2affb9a2bdcc53c130bd,False, doc stripped readme rewrote rst, , ,None
+150,https://api.github.com/repos/ReactiveX/RxPY/commits/1e97153831d9524c1e983335324f2788be55be49,False, fix do_action operator doe forward downstream scheduler fix operator 321 fix do_action forward downstream scheduler fix operator, , ,None
+151,https://api.github.com/repos/ReactiveX/RxPY/commits/1ac4c86c4b3bded55f791752e88aceab8ec4d8f0,False, refactor timeflies gtk 318 refactor timeflies add pyside2 support fix constructor qwidget refactor timeflies gtk hide label initialization refactor timeflies, , ,None
+152,https://api.github.com/repos/ReactiveX/RxPY/commits/6a2959dbed61add3e9c70b2234093c32901896ca,False, fix timeflies example gtk 317 fix timeflies fix timeflies gtk fix timeflies fix wxscheduler msec variable referenced assignement, , ,None
+153,https://api.github.com/repos/ReactiveX/RxPY/commits/77312ad12557e27c1679a45386ef21826598919c,False, fix operator numpy array 313 replace statement list comprehension statement improve redefining __eq__ use notset implement __eq__, , ,None
+154,https://api.github.com/repos/ReactiveX/RxPY/commits/6886da99c05536a94683f0c332faa0973c6a997e,False, refactor observer 307 rename observerbase observer remove unused noopobserver merge observer cosmetic assert fun call add type hint core.observer, , ,None
+155,https://api.github.com/repos/ReactiveX/RxPY/commits/ce8dd46eaa9003c42ef00a07d5b7f0284bee0527,False, feature marble 308 initial marble diagram map catch, , ,None
+156,https://api.github.com/repos/ReactiveX/RxPY/commits/994f974d37783f63c5d9e018a316fa9b06ba9337,False, doc added three section section contributing contains information contribute project section license contains license project section additional reading contains free commercial link tutorial material rxpy fix 301, , ,None
+157,https://api.github.com/repos/ReactiveX/RxPY/commits/4c0e0db4952b7c311692e9dcea931d2b29417835,False, scheduler 306 fix state propagation fix import test test qtscheduler pyside2 unsupported python 3.5 add missing import gtkscheduler fix test fix geventscheduler add test fix intermittent timing failure use tcl instead test headless add window macos travis config add optional dependency increase coverage remove spurious import tkinter test add pyyaml coverall reporting remove redundant apt get installs, , ,None
+158,https://api.github.com/repos/ReactiveX/RxPY/commits/bf328e60157823bf490badbd841af46b4f3b2c66,True, fix wrong import concat operator come 303,https://api.github.com/repos/ReactiveX/RxPY/issues/303, ,None
+159,https://api.github.com/repos/ReactiveX/RxPY/commits/b52dfe344d2f44d06e89133daecfb96ef6c915fb,True, fix typo issue 305,https://api.github.com/repos/ReactiveX/RxPY/issues/305, ,None
+160,https://api.github.com/repos/ReactiveX/RxPY/commits/e87718220bc374e0dd534590ec53f65a911adec5,False, remove 1st arg iterable catch operator 304 implement operator fix retry operator call, , ,None
+161,https://api.github.com/repos/ReactiveX/RxPY/commits/de13feb5acf6b92b7e3c193c9863c89e905e1f71,False, remove 1st arg iterable concat operator 303 implement operator fix defer repeat while_do operator call, , ,None
+162,https://api.github.com/repos/ReactiveX/RxPY/commits/23cfd287264b1f17ab438e342bc44b9a33395a6b,False, remove iterable argument amb combine_latest merge operator 302 remove 1st arg iterable amb operator remove 1st arg iterable combine_latest operator remove 1st arg iterable operator remove 1st arg iterable merge operator, , ,None
+163,https://api.github.com/repos/ReactiveX/RxPY/commits/379b69976c8c393c24ce63542f5d811b2dd7e147,True, enhancement marble syntax testing function 299 complete marble syntax add test add new testing function sleep main thread example fix scheduler selection mechanism remove dependency cold function typo implement hot dependent test scheduler move from_marbles to_iterable hot parse update test example remove dependency update test fix exp function add to_marbles rx.__init__.py implement marble syntax discussed 299 update test add test rx.hot implement hot operator move test relative from_marbles cold hot test test_observable test_marbles.py fix element skipped on_completed on_error handle timedelta datetime enforce time value float cleaning move to_iterable operator instead observable make marble context true python context update test update example typo,https://api.github.com/repos/ReactiveX/RxPY/issues/299, ,None
+164,https://api.github.com/repos/ReactiveX/RxPY/commits/4e29c7dde66dcb90ba395d768f75b097dd033910,False, doc continued filling migration section, , ,None
+165,https://api.github.com/repos/ReactiveX/RxPY/commits/83cd7eb70760f620c788371cba66a4d1cd0ca055,False, doc started writing migration section, , ,None
+166,https://api.github.com/repos/ReactiveX/RxPY/commits/3513bfeb1bbe969e7ebc6a2d7fc3a7330aee064e,False, add doc string, , ,None
+167,https://api.github.com/repos/ReactiveX/RxPY/commits/74029ffde143fbb1b5d931c0b0e26014eb3d3366,False, simplify lazy import operator, , ,None
+168,https://api.github.com/repos/ReactiveX/RxPY/commits/9360a3bca68723ea78a791e8bff0ddb441289927,False, use named tuples timestamp timeinterval, , ,None
+169,https://api.github.com/repos/ReactiveX/RxPY/commits/392c6df347b2660a8d70749a3d8447f73b67db39,False, doc content get started, , ,None
+170,https://api.github.com/repos/ReactiveX/RxPY/commits/bbc9fecab956e70d2ead300c8223479e7e5fe465,False, fix typing hint expand, , ,None
+171,https://api.github.com/repos/ReactiveX/RxPY/commits/2081ce8423ef0c3b83585ac58398fb836465334b,False, simplyfied withlatestfrom operator, , ,None
+172,https://api.github.com/repos/ReactiveX/RxPY/commits/5569e13b58baf0577acfbe9905474fa1ece1d204,False, merge branch master http github.com reactivex rxpy, , ,None
+173,https://api.github.com/repos/ReactiveX/RxPY/commits/dfecb699f7fa4c0a93523d493bfd2c502cbd792b,False, linq python, , ,None
+174,https://api.github.com/repos/ReactiveX/RxPY/commits/6d6dac8b04675ddb57e4842382fad1d7c95b4984,False, fix docstring, , ,None
+175,https://api.github.com/repos/ReactiveX/RxPY/commits/8724a598b7d08d9cd6cb77541625a80b53e96882,False, simplify map_indexed building starmap jcafhe, , ,None
+176,https://api.github.com/repos/ReactiveX/RxPY/commits/eea397cefae2a06d8f4c531e3fa4a8478e12ac47,False, fix list iterable work infinite iterables, , ,None
+177,https://api.github.com/repos/ReactiveX/RxPY/commits/40288550bd1c1f51d93b25600ec885989ae002ce,False, docstrings typing, , ,None
+178,https://api.github.com/repos/ReactiveX/RxPY/commits/342069ebbf43aac124081f3930b9a927c7aa8803,False, docstring fix, , ,None
+179,https://api.github.com/repos/ReactiveX/RxPY/commits/befb91cdb8c6683456d05a4d5a9c80d103ba4a41,False, fix readme, , ,None
+180,https://api.github.com/repos/ReactiveX/RxPY/commits/35bdb06ee3a48c34425a4dd1b0ce0056e4d54045,False, fix signature exposed catch api, , ,None
+181,https://api.github.com/repos/ReactiveX/RxPY/commits/15cedea21f3c4f6f20c4f6ae7b3a1ffe7f8f055d,True, pas source observable enable retry logic fix 125,https://api.github.com/repos/ReactiveX/RxPY/issues/125, ,None
+182,https://api.github.com/repos/ReactiveX/RxPY/commits/7958a5a6b04a32ad1808f25875d71fda3b121b7e,False, fix typing, , ,None
+183,https://api.github.com/repos/ReactiveX/RxPY/commits/4ba5f668f9ce100b896ef9f1dd2091486f7fe83f,False, fixed from_marbles to_marbles, , ,None
+184,https://api.github.com/repos/ReactiveX/RxPY/commits/c5ddccad558198b67cdcbd18fd5a929079cf06be,False, merged observable observablebase observable, , ,None
+185,https://api.github.com/repos/ReactiveX/RxPY/commits/8006c21709a5db5c46c543be6a6488bcac20524f,False, subscribe polymorphic, , ,None
+186,https://api.github.com/repos/ReactiveX/RxPY/commits/0b708cbe60f983b5a512a55b890e05ddd0bd4ca1,False, renamed observable, , ,None
+187,https://api.github.com/repos/ReactiveX/RxPY/commits/a44ad692a6f1d78ecd9dfc6d2bba8bfb3c99485c,False, refactor disposable removing create empty, , ,None
+188,https://api.github.com/repos/ReactiveX/RxPY/commits/e0c7fcaa5b4e8ff07ad376249dc11447d4041ad5,False, fixed pygame scheduler example, , ,None
+189,https://api.github.com/repos/ReactiveX/RxPY/commits/e2b3d560aeddec804e95d92b359cbccd03264fbc,False, fix docstring, , ,None
+190,https://api.github.com/repos/ReactiveX/RxPY/commits/97c63790320790fd121108993bd0c759f132d18c,False, bugfix set default scheduler, , ,None
+191,https://api.github.com/repos/ReactiveX/RxPY/commits/ba0b61b51507bfd196bac447121737b7ec42db0b,False, renamed catch_exception catch, , ,None
+192,https://api.github.com/repos/ReactiveX/RxPY/commits/10ab7167fd1bc6f259c08dcb763a954f298a74a1,True, schedule action fix 295 254,https://api.github.com/repos/ReactiveX/RxPY/issues/254, ,None
+193,https://api.github.com/repos/ReactiveX/RxPY/commits/9e054cf60ffe3cb70291915a29dc7821d86ca229,True, add error checking use serial disposable schedule periodic keep order fix 295,https://api.github.com/repos/ReactiveX/RxPY/issues/295, ,None
+194,https://api.github.com/repos/ReactiveX/RxPY/commits/6816679872ac1b0ce031c2985173e26e94b869c1,False, add missing newline, , ,None
+195,https://api.github.com/repos/ReactiveX/RxPY/commits/ca3cdc185832aee21daf4ef7dcca82f0038186d3,False, add missing import, , ,None
+196,https://api.github.com/repos/ReactiveX/RxPY/commits/5d581a50b292564bd50a910a069063224839434d,False, bump version fix package, , ,None
+197,https://api.github.com/repos/ReactiveX/RxPY/commits/71f4466cc5f77f94225c82b98d30eef2d38e5f36,True, replace blocking observable operator single blocking run fix 232,https://api.github.com/repos/ReactiveX/RxPY/issues/232,enhancement,None
+198,https://api.github.com/repos/ReactiveX/RxPY/commits/ae8594064b6abf7a678355306c96a356da2533b0,False, fix docstring, , ,None
+199,https://api.github.com/repos/ReactiveX/RxPY/commits/c6d5dd634859e78d40a148ae658ace8146d1bd15,False, add final newline, , ,None
+200,https://api.github.com/repos/ReactiveX/RxPY/commits/eee3ca80a50d305ddc88918deba535656362d87a,False, remove dead code, , ,None
+201,https://api.github.com/repos/ReactiveX/RxPY/commits/43587dde4efadc3f92470aaa3b399b7b75f28ad3,False, fix map test map tested instead map_indexed test_map_throws, , ,None
+202,https://api.github.com/repos/ReactiveX/RxPY/commits/93e3df2df8cb65e8047a45a512e2687aefdf8a73,True, mix type base class first iteration fix 293,https://api.github.com/repos/ReactiveX/RxPY/issues/293, ,None
+203,https://api.github.com/repos/ReactiveX/RxPY/commits/bcae5549091c9b7690f5ea84370f47b96a253d48,False, fix readme, , ,None
+204,https://api.github.com/repos/ReactiveX/RxPY/commits/43566fcba04decdff3edc8b8330368a924f2f557,False, fix docstrings type hint, , ,None
+205,https://api.github.com/repos/ReactiveX/RxPY/commits/dd6153b732a2fd26cdbe2c657923a59033dd343c,False, fix type hint, , ,None
+206,https://api.github.com/repos/ReactiveX/RxPY/commits/a37c6277bf7d117ac085b411499cc99221eebc1a,False, move mapper selection inner function, , ,None
+207,https://api.github.com/repos/ReactiveX/RxPY/commits/d37cf9d68d9167e4c59cc0b12d9aaedf0097c2d1,False, remove unused import, , ,None
+208,https://api.github.com/repos/ReactiveX/RxPY/commits/15d7a39461a40eb87904d644ef201d9058735df5,False, make count contains operator point free, , ,None
+209,https://api.github.com/repos/ReactiveX/RxPY/commits/5832ada4731471a3f9cc28a55f288fcb5e4dd1d7,False, fix default mapper map map_indexed 297 fix default mapper none map map_indexed add test case default mapper map map_indexed, , ,None
+210,https://api.github.com/repos/ReactiveX/RxPY/commits/c69a8715149a9489ae904248c6a9a6c98079a864,False, feature implement starmap operator test 294 implement starmap operator test fix import error rx.disposable fix default mapper none, , ,None
+211,https://api.github.com/repos/ReactiveX/RxPY/commits/d9c92c07dd8110a8b9be9f1aa1bdb9a94d815786,False, added lock bot, , ,None
+212,https://api.github.com/repos/ReactiveX/RxPY/commits/16d05b1c28bebf4edaa8f2b5e8562592b4753bc8,False, fix pip3 use prerelease, , ,None
+213,https://api.github.com/repos/ReactiveX/RxPY/commits/b5dc826fac447cc42288f184684cf484ff4c79e5,False, reduce number scheduler singleton, , ,None
+214,https://api.github.com/repos/ReactiveX/RxPY/commits/66ec07a01e48013aa0b4622bf1c043146beaac6b,False, autoload mainloop scheduler default, , ,None
+215,https://api.github.com/repos/ReactiveX/RxPY/commits/045898b42c734a2731adeed726ff1a943cbbff9d,False, remove result mapper operator 292, , ,None
+216,https://api.github.com/repos/ReactiveX/RxPY/commits/1756f90692cc3a3befb66b41845751ef2eece358,False, feature disposable 291 remove static disposable method use plain function instead, , ,None
+217,https://api.github.com/repos/ReactiveX/RxPY/commits/0fcd5cfdf4dcbbed48d5bba863290bed9677d052,False, fixed type signature, , ,None
+218,https://api.github.com/repos/ReactiveX/RxPY/commits/2bee18d7f4700c11daf53fe93ff723bb3b62eacc,True, fixed reduce scan none seed fix 219,https://api.github.com/repos/ReactiveX/RxPY/issues/219,bug,None
+219,https://api.github.com/repos/ReactiveX/RxPY/commits/4f91c5ed79eaa8d415192557c284a32546caa6e5,False, git ignore spyder file, , ,None
+220,https://api.github.com/repos/ReactiveX/RxPY/commits/d7da711cdc62b3bafcf36eccd9c02445786fe423,False, restrict python version 3.6, , ,None
+221,https://api.github.com/repos/ReactiveX/RxPY/commits/1a02704a1a177ec2ed7a337c096d1ed4b481986b,False, docstring fix, , ,None
+222,https://api.github.com/repos/ReactiveX/RxPY/commits/2f14aaf11e239097f2646def9910b2122f100c7f,False, fix readme, , ,None
+223,https://api.github.com/repos/ReactiveX/RxPY/commits/2d1a4ca7a26df549402f784c1039a27b1746af5d,False, coverage file generation, , ,None
+224,https://api.github.com/repos/ReactiveX/RxPY/commits/03da2bf2af27924780b02e727a0d41012cc4d62d,False, pylint happy tuple pattern matching assignment, , ,None
+225,https://api.github.com/repos/ReactiveX/RxPY/commits/fceabce7731b3a77baf4f79b19d8097282b716b5,False, set minimum python version, , ,None
+226,https://api.github.com/repos/ReactiveX/RxPY/commits/aa926fc98a0e6b660b45e869b187ddc0a0988967,False, fixed docstrings, , ,None
+227,https://api.github.com/repos/ReactiveX/RxPY/commits/d98214fb157a0e168a59a569017b5355037dace3,False, doc changed theme guzzle, , ,None
+228,https://api.github.com/repos/ReactiveX/RxPY/commits/45b6b1f1132ba7223e1454242a26b596a80fb44d,False, doc completed operator category section, , ,None
+229,https://api.github.com/repos/ReactiveX/RxPY/commits/ff2022008c03feecec3146e453cf1f856204c4d0,False, doc added todos migration, , ,None
+230,https://api.github.com/repos/ReactiveX/RxPY/commits/226813103d92c29199fbbef562f4e0009c4f07ef,False, fix scheduler docstrings typing ..., , ,None
+231,https://api.github.com/repos/ReactiveX/RxPY/commits/100e2a7c0a2545947b08e2531b4e8c1d37d8fa57,False, rename from_future _from_future make import simpler, , ,None
+232,https://api.github.com/repos/ReactiveX/RxPY/commits/cabb8d4c0a5c01aef464bb81786a9b5edea713c9,False, make state typevar make scheduleditem generic, , ,None
+233,https://api.github.com/repos/ReactiveX/RxPY/commits/3fab5685e5ab5602bfc0a5eea2ffcb8174abf01e,False, remove result mapper combine_latest operator 289, , ,None
+234,https://api.github.com/repos/ReactiveX/RxPY/commits/0b8946c6d931f093c582f09cc7c8c3990e3aae30,False, remove result_mapper join group_join operator 288 remove result_mapper join operator remove result_mapper group_join operator, , ,None
+235,https://api.github.com/repos/ReactiveX/RxPY/commits/1e892e3867115b5bf15c3f145814c37d8a1c28ee,True, use correct type scheduledaction add new type fix 287,https://api.github.com/repos/ReactiveX/RxPY/issues/287,bug,None
+236,https://api.github.com/repos/ReactiveX/RxPY/commits/ba9e6a92824837fd8d5fdca1bdb5bb62514bcce4,False, fixed docstrings added typing hint, , ,None
+237,https://api.github.com/repos/ReactiveX/RxPY/commits/1d4779c98c6d60b447c6c8354d4ab5fe112ddae4,False, fix wip, , ,None
+238,https://api.github.com/repos/ReactiveX/RxPY/commits/4ef48abd31d456696ca768b84d4d748a49c43672,False, fix docstrings, , ,None
+239,https://api.github.com/repos/ReactiveX/RxPY/commits/836405b48083d43e4d613533fd03da82df4dfa0b,False, fix docstrings, , ,None
+240,https://api.github.com/repos/ReactiveX/RxPY/commits/881b9f774058e33f6652cd152fcaaa1ed2281df5,False, rewrite pipe syntax, , ,None
+241,https://api.github.com/repos/ReactiveX/RxPY/commits/86857dd7fb36fe81912b0598ef355fbf579f9584,False, fix formatting, , ,None
+242,https://api.github.com/repos/ReactiveX/RxPY/commits/e85eb87cb4acfa86db122ae09571e14fcdbe0ebe,False, fix timeout example second, , ,None
+243,https://api.github.com/repos/ReactiveX/RxPY/commits/5dfb7e43fabc441324af0030e28621498b2ff789,False, refactor scary logic, , ,None
+244,https://api.github.com/repos/ReactiveX/RxPY/commits/5e367b004edba1c9592ac25324cfb83aa63e620c,False, add type hint, , ,None
+245,https://api.github.com/repos/ReactiveX/RxPY/commits/d7fcd653dafd68c01d926167f150ddff1c147b9d,False, fix docstrings, , ,None
+246,https://api.github.com/repos/ReactiveX/RxPY/commits/4c814a6a5675c07ebfe8eb24bbc0b6369643e9f1,False, simplify for_in operator rename result_mapper mapper, , ,None
+247,https://api.github.com/repos/ReactiveX/RxPY/commits/3074cb46260c81e07a03553393f2a8d683b85c92,False, fixed typing docstrings scheduler, , ,None
+248,https://api.github.com/repos/ReactiveX/RxPY/commits/907c63ebe90272c394d70d3e7fdb8d2a43d472ce,False, remove trailing comma fix indent, , ,None
+249,https://api.github.com/repos/ReactiveX/RxPY/commits/72cd5a0d5ec682c91c6b24d087be63d05b1534cd,False, use pip3 installing 1.6.1 python, , ,None
+250,https://api.github.com/repos/ReactiveX/RxPY/commits/eec37bc58dc0421fbee658e2ed2c43fd54b96ed5,False, fix docstrings type hint scheduler, , ,None
+251,https://api.github.com/repos/ReactiveX/RxPY/commits/c637e76a1c44059ccee626e2282de6980744e2be,False, doc updated migration todo, , ,None
+252,https://api.github.com/repos/ReactiveX/RxPY/commits/cb1a0541eb67f8d1e3d7d40b6b05b7953950565c,False, doc added operator category section, , ,None
+253,https://api.github.com/repos/ReactiveX/RxPY/commits/e173fb71f2a422e8e22949422f4d16ac2385c386,False, doc continued get started section added scheduler api reference, , ,None
+254,https://api.github.com/repos/ReactiveX/RxPY/commits/c0b2ec04bc6f5e5c90f94861823be8605e8328cc,False, docstring, , ,None
+255,https://api.github.com/repos/ReactiveX/RxPY/commits/a5d4f6e154e041d3a508bdc3b7b3edab6fbf9b06,False, docstring fix, , ,None
+256,https://api.github.com/repos/ReactiveX/RxPY/commits/534c1ab8e423aadfb50952be71b15f7fc39e8c69,False, remove amount exported symbol, , ,None
+257,https://api.github.com/repos/ReactiveX/RxPY/commits/0450e06aef9e46392aac59a700401db13949ac22,False, remove conflict repos, , ,None
+258,https://api.github.com/repos/ReactiveX/RxPY/commits/5ae0ae76d15bc9158bd5c46f353c8f5af1c296c7,False, remove result_mapper operator 286 remove result_mapper operator remove uneeded try except typo docstring typo docstring fix indent, , ,None
+259,https://api.github.com/repos/ReactiveX/RxPY/commits/87155a7fba8116459be84c9a0916038b760987ed,False, doc added migration section, , ,None
+260,https://api.github.com/repos/ReactiveX/RxPY/commits/dd436afd3dc868e769113c903da1004db76fc418,False, doc filled get started section readme reference, , ,None
+261,https://api.github.com/repos/ReactiveX/RxPY/commits/1ae8a00a079d2e0643bd60dd6bcdb7a5244f2f50,False, added documentation observer class, , ,None
+262,https://api.github.com/repos/ReactiveX/RxPY/commits/afc5fbf8b2e052dadc568176b526add13dcab734,False, doc added rationale section based section readme, , ,None
+263,https://api.github.com/repos/ReactiveX/RxPY/commits/a683ea919627201c1d50c716dcbc18cbe654005c,False, keep installation instruction readme, , ,None
+264,https://api.github.com/repos/ReactiveX/RxPY/commits/d0952a2d71ac70e9715cbf6407e06feede3db459,False, moved installation instruction documentation, , ,None
+265,https://api.github.com/repos/ReactiveX/RxPY/commits/4a554773059ba4ea25a923bb5163f9b6ede4c8f2,False, added requirement file doc generation dependency, , ,None
+266,https://api.github.com/repos/ReactiveX/RxPY/commits/84f4a025dd6229ee16569c8a91e894fb88759489,False, remove unused check_disposed, , ,None
+267,https://api.github.com/repos/ReactiveX/RxPY/commits/7a1b50343bf74dd1d9c65382ac82454d8ed2e4f6,False, fix exclusive operator still without test, , ,None
+268,https://api.github.com/repos/ReactiveX/RxPY/commits/ed43d3f35686617f4312640c3f71f6863def584a,False, better naming, , ,None
+269,https://api.github.com/repos/ReactiveX/RxPY/commits/913817703c10536b70546db440bef9acddd4d1c8,False, move timeinterval timestamp class belong, , ,None
+270,https://api.github.com/repos/ReactiveX/RxPY/commits/7f74a91c1945b497c254b1305034a8db606889f6,False, fix setup, , ,None
+271,https://api.github.com/repos/ReactiveX/RxPY/commits/97e6f178754bd41ee510e664255717bb5aad8419,False, move observer separate directory, , ,None
+272,https://api.github.com/repos/ReactiveX/RxPY/commits/4e48593ce443f8c1727a3b509826ac95397c96fc,False, first commit, , ,None
+273,https://api.github.com/repos/ReactiveX/RxPY/commits/fa98d97bca529d80dd6b5f29502a5618280a0a87,False, remove unused import, , ,None
+274,https://api.github.com/repos/ReactiveX/RxPY/commits/f03d927060958db4fae3ed4060e858064f8a704a,False, refactor cleanup docstring inner function, , ,None
+275,https://api.github.com/repos/ReactiveX/RxPY/commits/3367ff428af88328a07d77fc269ef9bd1aa39d34,False, fix type hint, , ,None
+276,https://api.github.com/repos/ReactiveX/RxPY/commits/c3e2c6f77dffc2ff5874c1bb495e6de119800cf4,False, fix typing accept iterable instead list, , ,None
+277,https://api.github.com/repos/ReactiveX/RxPY/commits/1d0d25d346c1898fbe42fd19f1bde2e09622a0db,False, remove result_mapper zip operator, , ,None
+278,https://api.github.com/repos/ReactiveX/RxPY/commits/13166a4f217f79fc2dfd1e8a009d08908f052a09,False, make tracebacks readable avoiding common case flattening, , ,None
+279,https://api.github.com/repos/ReactiveX/RxPY/commits/e91b4790030db20caa81c6f17adb85adca1a1fd9,False, remove dead code, , ,None
+280,https://api.github.com/repos/ReactiveX/RxPY/commits/a862f9fa66f96c24ee2a04cca2f2038c02ac3bdd,False, export pipe core, , ,None
+281,https://api.github.com/repos/ReactiveX/RxPY/commits/122204472a9901a48ed9221ff7a9ae9725fbfcc9,False, remove debug code, , ,None
+282,https://api.github.com/repos/ReactiveX/RxPY/commits/d9c5cd4928492677ad4eb8a0f5ce23ba04dc9649,False, rewrite pipe syntax, , ,None
+283,https://api.github.com/repos/ReactiveX/RxPY/commits/f118b3331979384dab7e29ce553af6c4cf0b67cc,False, use ops instead example, , ,None
+284,https://api.github.com/repos/ReactiveX/RxPY/commits/50951387277a3ca7c8caa47ee2bc34a569b37e4d,False, fixed docstrings, , ,None
+285,https://api.github.com/repos/ReactiveX/RxPY/commits/c259e42ea95fdc43ad9345d702d3cab901d88f93,False, remove observer extension init, , ,None
+286,https://api.github.com/repos/ReactiveX/RxPY/commits/e50729194ce5dffc206d78c1ca7bf8e2417f3ffe,False, remove, , ,None
+287,https://api.github.com/repos/ReactiveX/RxPY/commits/c3739856af8bb94302096d28cf190348a92a609a,False, remove disposable type replace action, , ,None
+288,https://api.github.com/repos/ReactiveX/RxPY/commits/affbe9219847125a3d6a12fa5640b80d9c61a343,False, remove result_mapper operator, , ,None
+289,https://api.github.com/repos/ReactiveX/RxPY/commits/98f8bd9995867c1d6fa4fe8c192076f4ab918821,False, remove obsolete fil, , ,None
+290,https://api.github.com/repos/ReactiveX/RxPY/commits/8844db379a06efdbb70ed30f8c66c334d5fb6a94,False, remove result_mapper generate operator, , ,None
+291,https://api.github.com/repos/ReactiveX/RxPY/commits/243d39c2d36b66bdb30089ef260786dd87a80da2,False, apply scheduler parameter time handling operator, , ,None
+292,https://api.github.com/repos/ReactiveX/RxPY/commits/85b816374dc8b0928c5ac6a5df498a306bc38af2,False, refactored time second float instead millisecond int, , ,None
+293,https://api.github.com/repos/ReactiveX/RxPY/commits/ef352f77531fb208f1947ae2d3d1c821c756e7e0,False, add typing info cleanup, , ,None
+294,https://api.github.com/repos/ReactiveX/RxPY/commits/34b4290cd5f4edfa75584b89dc8ff9257e5608f1,False, fix docstrings, , ,None
+295,https://api.github.com/repos/ReactiveX/RxPY/commits/86480f2a4948b58f458d686be5fba330abf9743f,False, fix call renamed function, , ,None
+296,https://api.github.com/repos/ReactiveX/RxPY/commits/4a3b21427ed97d11f1b448fc1e3bfeda8d43bb57,False, rename operator partitioni, , ,None
+297,https://api.github.com/repos/ReactiveX/RxPY/commits/ff63923f016855c21b4b6661003ef5ce171ef95c,False, rename operator flat_mapi, , ,None
+298,https://api.github.com/repos/ReactiveX/RxPY/commits/832b9dbdef41470cca1aa35437452702b38f3575,False, rename operator filteri filter_indexed, , ,None
+299,https://api.github.com/repos/ReactiveX/RxPY/commits/439004a018655933bd5f66ddde567a1c2fad9404,False, renaming operator mapi map_indexed, , ,None
+300,https://api.github.com/repos/ReactiveX/RxPY/commits/3820188e3ccd09fb1a8956063386d2dda31ccec1,False, fix typo docstring, , ,None
+301,https://api.github.com/repos/ReactiveX/RxPY/commits/6c3f203a379ad6dd859fd6e3805816275c37d74c,False, fix bug setup.py, , ,None
+302,https://api.github.com/repos/ReactiveX/RxPY/commits/94abf875fac102cc08e2f2acc647e23fe7a62bc9,False, remove interable impl, , ,None
+303,https://api.github.com/repos/ReactiveX/RxPY/commits/638b81489de9b15947facf39c1c1aa746cb0a0a7,False, fix setup.py, , ,None
+304,https://api.github.com/repos/ReactiveX/RxPY/commits/1edc48a62cc10f83b7e2680770d151ebd7d735a5,False, phase internal iterable impl, , ,None
+305,https://api.github.com/repos/ReactiveX/RxPY/commits/68a1ac2579ede95f444d84590c7f035fb07fbc57,False, add scheduler arg, , ,None
+306,https://api.github.com/repos/ReactiveX/RxPY/commits/2597474127529ddbb61f63ab524e848992787a0a,False, remove pylint disables, , ,None
+307,https://api.github.com/repos/ReactiveX/RxPY/commits/f184781709a81962a3fe664cb57cfac4e317c9a9,False, remove dependency nose, , ,None
+308,https://api.github.com/repos/ReactiveX/RxPY/commits/d0dd19fcb8a12c531bdf7e70ee3a0c5d3996f841,False, removed checked test checked observer removed codebase, , ,None
+309,https://api.github.com/repos/ReactiveX/RxPY/commits/c057e38cad399269f90ba2d580408ca16fbf82f8,False, changed behaviour hot cold observable normal subscription using auto detach observer, , ,None
+310,https://api.github.com/repos/ReactiveX/RxPY/commits/3e7d59d6ed46a063139a723fd43ccfe38a0021d4,False, renamed, , ,None
+311,https://api.github.com/repos/ReactiveX/RxPY/commits/e9fcc91c12f597e60dd2f0a306d4b0a27eb2b75a,False, deprecating manyselect, , ,None
+312,https://api.github.com/repos/ReactiveX/RxPY/commits/6f1a328da50ba49e2feff90999b928c6d8f8279c,False, fix finallyaction ignoreelements toblocking foreach, , ,None
+313,https://api.github.com/repos/ReactiveX/RxPY/commits/c8af59f2761dcda5f8cee41e9d72f0e36260a4b0,False, fixed skip, , ,None
+314,https://api.github.com/repos/ReactiveX/RxPY/commits/e211244855c610ac55fa15b032dccceee2c17001,False, fixed fromcallback expand, , ,None
+315,https://api.github.com/repos/ReactiveX/RxPY/commits/ee5bcbf7850ad801a9c5a6cff9dab8dc3bde3fe5,False, added typing, , ,None
+316,https://api.github.com/repos/ReactiveX/RxPY/commits/039d86d5452a517bf57d0f73394a49720a2b60f6,False, fixed groupby, , ,None
+317,https://api.github.com/repos/ReactiveX/RxPY/commits/2c635a11552c05abb77c1177be1e901fbffd5dcf,False, test generate relative time, , ,None
+318,https://api.github.com/repos/ReactiveX/RxPY/commits/d0138e1c21bf537d851fcc1b392488f99f01db90,False, fixed generate relative time, , ,None
+319,https://api.github.com/repos/ReactiveX/RxPY/commits/07886ee7ddd24a27a97b606cbe8b0ff00a746432,False, fixed naming, , ,None
+320,https://api.github.com/repos/ReactiveX/RxPY/commits/84092f357255db136b514c61a231b5e67dbd7ca2,False, test sequenceequal todict, , ,None
+321,https://api.github.com/repos/ReactiveX/RxPY/commits/aa0294d214f62353eaa14d14bf479666e70ee81c,False, fixed sequenceequal, , ,None
+322,https://api.github.com/repos/ReactiveX/RxPY/commits/fee8eeb0eec65a01223c2102d27062609615cad2,False, fixed todict, , ,None
+323,https://api.github.com/repos/ReactiveX/RxPY/commits/902cd433c813b0d68a9d7531e00e9552a9679068,False, fixed, , ,None
+324,https://api.github.com/repos/ReactiveX/RxPY/commits/64862b97aa5ff63b79f23fc0d0d8a0d8de6f36da,False, update test pipestyle skip_with_time, , ,None
+325,https://api.github.com/repos/ReactiveX/RxPY/commits/19f99730c2cae0e7625f51a570eeecfd488daf64,False, update test pipestyle expand ignore_elements, , ,None
+326,https://api.github.com/repos/ReactiveX/RxPY/commits/1b0c33809f940480f13746df003f277140f13bdc,False, fix last_or_default update pipe operator, , ,None
+327,https://api.github.com/repos/ReactiveX/RxPY/commits/035aea6a708457b2c7bf2b3fc08f541377932a6d,False, fix join update pipe, , ,None
+328,https://api.github.com/repos/ReactiveX/RxPY/commits/24f45394d56c2d5b8082693b36eb6c7cca0a397f,False, fixed do_while, , ,None
+329,https://api.github.com/repos/ReactiveX/RxPY/commits/8f86eed5a066829c9f2574d8e3f86d34502dc09c,False, fix find from_future timeout mapper, , ,None
+330,https://api.github.com/repos/ReactiveX/RxPY/commits/666189762fe215a72bc70e2fd0cdb082d15cd865,False, fixed find find_index, , ,None
+331,https://api.github.com/repos/ReactiveX/RxPY/commits/ccae340290f53c24efde7d2b9e9f8947daac33f1,False, fixed from_future, , ,None
+332,https://api.github.com/repos/ReactiveX/RxPY/commits/e1a2ce6883cd0cc20eea01047d9e9d8b7dd28909,False, fixed distinct, , ,None
+333,https://api.github.com/repos/ReactiveX/RxPY/commits/840721b185a54cd546c305f59e3026c438960eb8,False, fixed catch_exception, , ,None
+334,https://api.github.com/repos/ReactiveX/RxPY/commits/ef1400d7eed8c57e6cbc31c5990b205d5479eb9e,False, fixed retry, , ,None
+335,https://api.github.com/repos/ReactiveX/RxPY/commits/021c1da85e148c3bc30abce104277ff7ea4f676f,False, fixed skip_while, , ,None
+336,https://api.github.com/repos/ReactiveX/RxPY/commits/f3195823d6fb40aa1ee4516535da7f949f27ea21,False, fix test if_then skip_while, , ,None
+337,https://api.github.com/repos/ReactiveX/RxPY/commits/3a253e9a3c2137cf220daa420cc0ca58c08045bb,False, fixed, , ,None
+338,https://api.github.com/repos/ReactiveX/RxPY/commits/3986bd5163e6e7fa4524930c48548d2c0af19ae1,False, fixed, , ,None
+339,https://api.github.com/repos/ReactiveX/RxPY/commits/1ae2a87389964a5faf845756a79eb011871db0aa,False, fix test finally_action from_callback, , ,None
+340,https://api.github.com/repos/ReactiveX/RxPY/commits/f31fe3fbf6289fc6cac8abc8fb57d2ad86ca6ef6,False, fixed elementat, , ,None
+341,https://api.github.com/repos/ReactiveX/RxPY/commits/b839dc23ca4921be91335795fe44659b447ff193,False, search replace, , ,None
+342,https://api.github.com/repos/ReactiveX/RxPY/commits/907489df47c2101a7a884bed3e0b1a667c620c31,False, fixed, , ,None
+343,https://api.github.com/repos/ReactiveX/RxPY/commits/5d58ae5d2c358783f0326c5b30ace1e9f23a6367,False, fixed timestamp timeinterval, , ,None
+344,https://api.github.com/repos/ReactiveX/RxPY/commits/68eb4a5fd7d08a53c44853fe62835936a0c4bef0,False, fixed first, , ,None
+345,https://api.github.com/repos/ReactiveX/RxPY/commits/e1b98578cca4d17349a6d35bcd4a14a91f87807b,False, cleanup, , ,None
+346,https://api.github.com/repos/ReactiveX/RxPY/commits/d9ccfb1d224b900d30c0ace37b556ada11bbfe10,False, fixed takewhile, , ,None
+347,https://api.github.com/repos/ReactiveX/RxPY/commits/ce75a306ddd5348b45994067454669b315ca8abe,False, fixed test_groupjoin, , ,None
+348,https://api.github.com/repos/ReactiveX/RxPY/commits/14a086064d5a80b4158166a808e59238566e466d,False, fixed buffer window operator, , ,None
+349,https://api.github.com/repos/ReactiveX/RxPY/commits/787208d72e7c2e79322f9dd16e2160640a90378a,False, fixed ref_count, , ,None
+350,https://api.github.com/repos/ReactiveX/RxPY/commits/b221da6e2a83aee3c2cb91384a3a71936f5a4a4a,False, fix partition subscribeon toset, , ,None
+351,https://api.github.com/repos/ReactiveX/RxPY/commits/695a0122b75220a6f4e20329cad0edef67744021,False, fixed observeon, , ,None
+352,https://api.github.com/repos/ReactiveX/RxPY/commits/2175ba8e44a61016f27101da2ddd56466006542c,False, simplify code, , ,None
+353,https://api.github.com/repos/ReactiveX/RxPY/commits/d33af1ac3a44e81c76a9ccb321c60fd901146fb5,False, fix problem subscribe logic merge testing, , ,None
+354,https://api.github.com/repos/ReactiveX/RxPY/commits/9b6ef67a0c6c89205839fd035b08f6161bd27820,False, fixed flat_map test, , ,None
+355,https://api.github.com/repos/ReactiveX/RxPY/commits/9ff96a4fbb59f71e4adfea329e1d89adfeb58c0c,False, fix merge wip, , ,None
+356,https://api.github.com/repos/ReactiveX/RxPY/commits/681bb03c49301f53e741736a08639da79024c4b6,False, fixed docstring, , ,None
+357,https://api.github.com/repos/ReactiveX/RxPY/commits/d28938af0da702e2c2556cac43d856a2255d695e,False, fixed extremum test, , ,None
+358,https://api.github.com/repos/ReactiveX/RxPY/commits/d38c8f1d523a1b56c0b5930dc49547f130ae8f43,False, fixed join removed test_when, , ,None
+359,https://api.github.com/repos/ReactiveX/RxPY/commits/9a8fe83c40c10e24d255af8f1012a60566ca1ffe,False, fixed observeon subscribeon toset whiledo, , ,None
+360,https://api.github.com/repos/ReactiveX/RxPY/commits/9aec05af5088239d83cca53be503fe170614b258,False, added bufferwithtime, , ,None
+361,https://api.github.com/repos/ReactiveX/RxPY/commits/76774c9a7dc945b36c3fb7dd853f65f6f44abc83,False, add missing import, , ,None
+362,https://api.github.com/repos/ReactiveX/RxPY/commits/faf67d4188a62afb798c2206b9d2afcd41500ce8,False, fixed buffer count test, , ,None
+363,https://api.github.com/repos/ReactiveX/RxPY/commits/e50c365952b7ec5a619ac1c69ab73a7e95964a11,False, fixed subject test, , ,None
+364,https://api.github.com/repos/ReactiveX/RxPY/commits/1a7f07cd4429fd6f3cb7b424844d2008dfd44cd8,False, removed test backpressure, , ,None
+365,https://api.github.com/repos/ReactiveX/RxPY/commits/400d724033236f02af81def11a11e06dfc9fd440,False, make test run fail, , ,None
+366,https://api.github.com/repos/ReactiveX/RxPY/commits/280d8bd5a097513619dbbd813b0463b312c02599,False, fix to_future, , ,None
+367,https://api.github.com/repos/ReactiveX/RxPY/commits/617f06f021c461f6d672fbbf765d2ebf1d6f1c58,False, fixed sample operator, , ,None
+368,https://api.github.com/repos/ReactiveX/RxPY/commits/633fbebdb884051c9c0206e95ffc12ace0c2d075,False, whitespace, , ,None
+369,https://api.github.com/repos/ReactiveX/RxPY/commits/07a88cc59cb130a604181de6f3f79aa95fed24cd,False, fixed, , ,None
+370,https://api.github.com/repos/ReactiveX/RxPY/commits/50ebfd74dc9722291711d087236d56057587e151,False, fixed if_then, , ,None
+371,https://api.github.com/repos/ReactiveX/RxPY/commits/c15abddfc6d6ffcc0f892c57c10388f8c1b7a02f,False, window time operator, , ,None
+372,https://api.github.com/repos/ReactiveX/RxPY/commits/ceb7af6c8f952bf7c6b8093ead5a267facaaba32,False, fixed, , ,None
+373,https://api.github.com/repos/ReactiveX/RxPY/commits/2bab411f9570bc9753b2596133463ad9008f09ff,False, fixed pluck pluck_attr, , ,None
+374,https://api.github.com/repos/ReactiveX/RxPY/commits/5beb351da75b3d902002e33979349252cd61cfe4,False, test update merge merge_all group_by join retry time_interval pluck pluck_attr to_iterable 283 convert chain pipe operator convert chain pipe average operator test convert chain pipe test convert chain pipe do_action test convert chain pipe flat_map test reformating convert chain pipe last test convert chain pipe materialize test convert chain pipe operator convert chain pipe switch_latest operator reformatting convert chain pipe timestamp time_interval operator test convert chain pipe amb operator test convert chain pipe operator convert chain pipe case operator test convert chain pipe for_in operator test convert chain pipe generate operator test convert chain pipe test min min_by max max_by convert chain pipe zip convert chain pipe renaming selector mapper renaming convert chain pipe contains operator convert chain pipe sum convert chain pipe toasync convert chain pipe skip skip_last convert chain pipe pairwise convert chain pipe using operator convert chain pipe window operator convert chain pipe take take_last convert chain pipe concat convert chain pipe defer convert chain pipe from_ operator switch api instead rx.operators needed operator concat convert chain pipe timer convert chain pipe interval reformatting commented test case convert chain pipe take_with_time convert chain pipe combine_latest convert chain pipe throttle_first convert chain pipe merge merge_all convert chain pipe group_by convert chain pipe join convert chain pipe retry convert chain pipe time_interval convert chain pipe pluck fix wrong import commit fix wrong import commit convert chain pipe to_iterable, , ,None
+375,https://api.github.com/repos/ReactiveX/RxPY/commits/b1834180929b829a1638624f3dea9bc6515c00fd,False, fixed publish_value, , ,None
+376,https://api.github.com/repos/ReactiveX/RxPY/commits/70f2082a66e1f9660f019e5e072c0a77a6d5be64,False, fixed timeout, , ,None
+377,https://api.github.com/repos/ReactiveX/RxPY/commits/6d8c5b50dee836536de677add8ec41b3051de5ea,False, fixed skip_until, , ,None
+378,https://api.github.com/repos/ReactiveX/RxPY/commits/5d7cab874d09266a00d333381903f8c8c0758330,False, fixed is_empty, , ,None
+379,https://api.github.com/repos/ReactiveX/RxPY/commits/a51bc7f03a42c47859bbd8ab90ee243845db1264,False, fixed buffer to_iterable, , ,None
+380,https://api.github.com/repos/ReactiveX/RxPY/commits/a6680274bbb1c9167ff990feebf39aa0b15e93f2,False, fix error sum operator, , ,None
+381,https://api.github.com/repos/ReactiveX/RxPY/commits/780211dd209333698d366f763fe8b80857128299,False, rename, , ,None
+382,https://api.github.com/repos/ReactiveX/RxPY/commits/7b48d8e47eb6cd715c7086cb06edd60f767230d6,False, fixed range renamed back from_range, , ,None
+383,https://api.github.com/repos/ReactiveX/RxPY/commits/d35e77224e11834ffc22e739c3cc8311eddf4780,False, fixed repeat operator test, , ,None
+384,https://api.github.com/repos/ReactiveX/RxPY/commits/f9e1b31ce66f5534ba49f1e1a6197834aaebab53,False, repeat value wip, , ,None
+385,https://api.github.com/repos/ReactiveX/RxPY/commits/a975d307287c397654251fbdabdb6710a9ee2e8d,False, fixed replay, , ,None
+386,https://api.github.com/repos/ReactiveX/RxPY/commits/3ce348d0f5d27d9efabd3b0ac09b5cb10d1df208,False, fixed test return_value, , ,None
+387,https://api.github.com/repos/ReactiveX/RxPY/commits/4a03d0a5dea64eea4aad3f2622590f8a58b54b68,False, fixed test multicast, , ,None
+388,https://api.github.com/repos/ReactiveX/RxPY/commits/c98c82db1e3874447dfe4cd3ce265c38fe99895a,False, fixed slice test, , ,None
+389,https://api.github.com/repos/ReactiveX/RxPY/commits/d6605d6234d1bb44e7315fcb3b65438002aeb858,False, fixed single singleordefault operator test, , ,None
+390,https://api.github.com/repos/ReactiveX/RxPY/commits/4eb8bfa327f6eba2ba9471b2797bb53d44e727bb,False, fixed starts_with, , ,None
+391,https://api.github.com/repos/ReactiveX/RxPY/commits/e867722e4369fca2df9a4e07218815c7611f35be,False, use ops instead, , ,None
+392,https://api.github.com/repos/ReactiveX/RxPY/commits/f82a0e9318629b9ccc34c736bdd97294b98c68dd,False, fixed start_async test, , ,None
+393,https://api.github.com/repos/ReactiveX/RxPY/commits/add4d6798f2ae4f6709ef814f780e932ebf52239,False, reduced code base, , ,None
+394,https://api.github.com/repos/ReactiveX/RxPY/commits/56280a4262f9738662f0e7a6c1eb9f72ac091ca6,False, fixed as_observable test, , ,None
+395,https://api.github.com/repos/ReactiveX/RxPY/commits/c445084fe4f2a79157d4e358de266234eaedd752,False, fixed test take, , ,None
+396,https://api.github.com/repos/ReactiveX/RxPY/commits/d53c28fc93e9474e303371e6aa2178a508cd1ed0,False, fixed publish zip, , ,None
+397,https://api.github.com/repos/ReactiveX/RxPY/commits/c7a7a91e1ddb23e8fbe7446ac14c7c40971788a2,False, fix typo, , ,None
+398,https://api.github.com/repos/ReactiveX/RxPY/commits/45fa444ce81206513f05d5fca10791e2d4fdf4e9,False, fixed debounce delay operator, , ,None
+399,https://api.github.com/repos/ReactiveX/RxPY/commits/2504d31ebdf59cbcef7bb9c08114ba8c430f57d1,False, fixed takeuntil operator, , ,None
+400,https://api.github.com/repos/ReactiveX/RxPY/commits/87fe101d4e048d2766713c85914b7901330cdf18,False, fix interval missing default value none default scheduler 280, , ,None
+401,https://api.github.com/repos/ReactiveX/RxPY/commits/85354d02a1998de40d30a705e6cc09d5751a22ce,False, fix calling args mapper mapper must keyword argument args 281, , ,None
+402,https://api.github.com/repos/ReactiveX/RxPY/commits/8fa8ca8cad50c8fd5d96b4cbaf376558d02656de,False, test update take take_last concat defer from_ timer interval take_with_time combine_latest throttle_first 279 convert chain pipe operator convert chain pipe average operator test convert chain pipe test convert chain pipe do_action test convert chain pipe flat_map test reformating convert chain pipe last test convert chain pipe materialize test convert chain pipe operator convert chain pipe switch_latest operator reformatting convert chain pipe timestamp time_interval operator test convert chain pipe amb operator test convert chain pipe operator convert chain pipe case operator test convert chain pipe for_in operator test convert chain pipe generate operator test convert chain pipe test min min_by max max_by convert chain pipe zip convert chain pipe renaming selector mapper renaming convert chain pipe contains operator convert chain pipe sum convert chain pipe toasync convert chain pipe skip skip_last convert chain pipe pairwise convert chain pipe using operator convert chain pipe window operator convert chain pipe take take_last convert chain pipe concat convert chain pipe defer convert chain pipe from_ operator switch api instead rx.operators needed operator concat convert chain pipe timer convert chain pipe interval reformatting commented test case convert chain pipe take_with_time convert chain pipe combine_latest convert chain pipe throttle_first, , ,None
+403,https://api.github.com/repos/ReactiveX/RxPY/commits/67bef27fdccc2a28b63fb3b444cd0a80bc12cddb,False, fixed partition wip multicast publish, , ,None
+404,https://api.github.com/repos/ReactiveX/RxPY/commits/c69999feb9bb9eb061277ff51ac7e9d06e0ae55b,False, fix throttlefirst takewithtime, , ,None
+405,https://api.github.com/repos/ReactiveX/RxPY/commits/b180b640b33c6bc2699db0cff3dd3cfdc2afdb87,False, fix python magic method, , ,None
+406,https://api.github.com/repos/ReactiveX/RxPY/commits/6b908f3f3700964c030a25bf4cf9a6a30de9b648,False, fix combine_latest, , ,None
+407,https://api.github.com/repos/ReactiveX/RxPY/commits/c253521460043970daead45edf7481b803b487e7,False, simplify implementation, , ,None
+408,https://api.github.com/repos/ReactiveX/RxPY/commits/8c68da35f51c681aaccc01b917c02406503a6cb8,False, fix window operator using pipe style 278, , ,None
+409,https://api.github.com/repos/ReactiveX/RxPY/commits/78d8c69e7ca74494dd97394547cceb5d35e6b5d2,False, update test min min_by max max_by zip contains sum to_async skip skip_last pairwise using window 277 convert chain pipe operator convert chain pipe average operator test convert chain pipe test convert chain pipe do_action test convert chain pipe flat_map test reformating convert chain pipe last test convert chain pipe materialize test convert chain pipe operator convert chain pipe switch_latest operator reformatting convert chain pipe timestamp time_interval operator test convert chain pipe amb operator test convert chain pipe operator convert chain pipe case operator test convert chain pipe for_in operator test convert chain pipe generate operator test convert chain pipe test min min_by max max_by convert chain pipe zip convert chain pipe renaming selector mapper renaming convert chain pipe contains operator convert chain pipe sum convert chain pipe toasync convert chain pipe skip skip_last convert chain pipe pairwise convert chain pipe using operator convert chain pipe window operator, , ,None
+410,https://api.github.com/repos/ReactiveX/RxPY/commits/5f827858d6f95e1b1038d5527ea1900b2b54068d,False, refactored start toasync start sum operator, , ,None
+411,https://api.github.com/repos/ReactiveX/RxPY/commits/26ae966c220a8e17aebb125d34eff56384916c80,False, refactored using window, , ,None
+412,https://api.github.com/repos/ReactiveX/RxPY/commits/459953605a4df48c004e8bc93745f5de8087b2e0,False, refactored last materialize max min minby switchlatest, , ,None
+413,https://api.github.com/repos/ReactiveX/RxPY/commits/507b5e25b4c546d6b643a09e10bd14cd509fe8d2,False, cleanup, , ,None
+414,https://api.github.com/repos/ReactiveX/RxPY/commits/6da0e19aea522cb3ffcfe7d2f22178ba6ead878d,False, ignore doc build dir, , ,None
+415,https://api.github.com/repos/ReactiveX/RxPY/commits/b2fdda46804bdb0dbe25cdf130148f8353d5c512,False, refactored skip skip_last slice, , ,None
+416,https://api.github.com/repos/ReactiveX/RxPY/commits/884555e67af7bde49413b9f346a89f6bfe6db120,False, refactored pairwise sum, , ,None
+417,https://api.github.com/repos/ReactiveX/RxPY/commits/0675f3bf3c3b715b6c6b760a3cf238005478e8b0,False, remove transduce reduce code base, , ,None
+418,https://api.github.com/repos/ReactiveX/RxPY/commits/ef903bbd1d618fe8b2b8c1c9e1c12a77b2ddb016,False, fix delay delaywithmapper zip defaultifempty contains, , ,None
+419,https://api.github.com/repos/ReactiveX/RxPY/commits/53a3d09bc2d58d4ee8479267b22dd18310352c74,False, fix forin operator 276 fix wrong import operator for_in fix pipe style, , ,None
+420,https://api.github.com/repos/ReactiveX/RxPY/commits/e67608abb1ce1ff6880bfac88fd712b5e09b86a3,False, update test amb case for_in generate switch_latest timestamp time_interval 275 convert chain pipe operator convert chain pipe average operator test convert chain pipe test convert chain pipe do_action test convert chain pipe flat_map test reformating convert chain pipe last test convert chain pipe materialize test convert chain pipe operator convert chain pipe switch_latest operator reformatting convert chain pipe timestamp time_interval operator test convert chain pipe amb operator test convert chain pipe operator convert chain pipe case operator test convert chain pipe for_in operator test convert chain pipe generate operator test, , ,None
+421,https://api.github.com/repos/ReactiveX/RxPY/commits/6f63583123125dec6faf4067b7459af6c56b0c4e,False, fixed throw as_observable take take_last, , ,None
+422,https://api.github.com/repos/ReactiveX/RxPY/commits/9efe8cafce7a29739ead956d4dbb9edef86f6e56,False, refactured function docstrings, , ,None
+423,https://api.github.com/repos/ReactiveX/RxPY/commits/1ed19e49b77122e2f8d0999be777b1bb855f1b9c,False, refactored dematerialize, , ,None
+424,https://api.github.com/repos/ReactiveX/RxPY/commits/f7a2948ced394cd8c2634df862fdad6fb264f81d,False, add interval __init__, , ,None
+425,https://api.github.com/repos/ReactiveX/RxPY/commits/8ac05f29bb7ea7b10552a3d6741e3f8042e5ad75,False, refactored timer interval, , ,None
+426,https://api.github.com/repos/ReactiveX/RxPY/commits/7f3fb3bd4fbbceb29d49d6f64b1c74b3210beeec,False, partial test update pipe style 274 convert chain pipe operator convert chain pipe average operator test convert chain pipe test convert chain pipe do_action test convert chain pipe flat_map test reformating convert chain pipe last test convert chain pipe materialize test, , ,None
+427,https://api.github.com/repos/ReactiveX/RxPY/commits/82adc41cfc76993cd3f462f1232e7cb87c1f011c,False, fixed for_in generate case, , ,None
+428,https://api.github.com/repos/ReactiveX/RxPY/commits/932e6240119a651e452c0eae229f9273f5d8794c,False, fixed amb, , ,None
+429,https://api.github.com/repos/ReactiveX/RxPY/commits/0f891054ed307cec3a62cdb9172932a8ce31b015,False, moved concat operator observable, , ,None
+430,https://api.github.com/repos/ReactiveX/RxPY/commits/2cdb79e8677793268ee3668195eca832c73ed42e,False, updated readme use subscribe_ using lamdas, , ,None
+431,https://api.github.com/repos/ReactiveX/RxPY/commits/9bb9c668b5c158b55b5b4d6d94c5be28905bcdf1,False, docstring fix, , ,None
+432,https://api.github.com/repos/ReactiveX/RxPY/commits/2c71645b820175344effb9ff848c47895b7f530e,False, fixed catch operator creation, , ,None
+433,https://api.github.com/repos/ReactiveX/RxPY/commits/ce464d6df179ab23ed4f7272309e4c248eeda302,False, initial documentation structure 271 first commit 270 start structuring documentation contains empty section reference existing apis observable observer subject operator, , ,None
+434,https://api.github.com/repos/ReactiveX/RxPY/commits/cf765c3f7038a938f8c25fce612fabd0cef4b98b,False, setup.py fixed package content 273 setup.py fixed package content update setup.py, , ,None
+435,https://api.github.com/repos/ReactiveX/RxPY/commits/a5886b024b65fb9b83f98df11ed17a4199453b77,False, refactored scan count startwith, , ,None
+436,https://api.github.com/repos/ReactiveX/RxPY/commits/5f4e37dae15f8d889eec1ae74ff5c6b51a939e22,False, fixed timestamp, , ,None
+437,https://api.github.com/repos/ReactiveX/RxPY/commits/7cc8594eac4989b7331238480dcf730bc2350632,False, fixed docstrings, , ,None
+438,https://api.github.com/repos/ReactiveX/RxPY/commits/b366e0d1ea76bae8c136adeb52548e8d3800f99e,False, fixed merge_all flat_map, , ,None
+439,https://api.github.com/repos/ReactiveX/RxPY/commits/649e227597f0d61b7ec8b8bfa06fce13304c7784,False, refactor document partially applied inner function, , ,None
+440,https://api.github.com/repos/ReactiveX/RxPY/commits/83da6821e0a3a533fa00dfb24c8543ff7a8aec3b,False, added type hint, , ,None
+441,https://api.github.com/repos/ReactiveX/RxPY/commits/28104fe76e70118acd596cd82ad2faabf6e692ff,False, add typing hint, , ,None
+442,https://api.github.com/repos/ReactiveX/RxPY/commits/76a307257e90934e4d1876159af7cdc736bdb653,False, fixed test create debounce, , ,None
+443,https://api.github.com/repos/ReactiveX/RxPY/commits/bfdb692b8e29ce7c30b6ce6f72394915ce9c34f8,False, fixed test empty delay never throw, , ,None
+444,https://api.github.com/repos/ReactiveX/RxPY/commits/675b2821590081d8b4a6eb5c3cbe8f12276f3f4a,False, fix bug setting scheduler operator, , ,None
+445,https://api.github.com/repos/ReactiveX/RxPY/commits/2d229114ef0bdd6151222321ab8e64ec16a61bb3,False, fixed test empty, , ,None
+446,https://api.github.com/repos/ReactiveX/RxPY/commits/889f0ff9c7051fc9af3e794f4de44b5662dbf2b3,False, updated readme, , ,None
+447,https://api.github.com/repos/ReactiveX/RxPY/commits/915fd13ff3aa55e997134402d5bee70922a4ce2b,False, fix operator, , ,None
+448,https://api.github.com/repos/ReactiveX/RxPY/commits/63634e78f852e2f712cdf6068e4b3afb9a84599f,False, fix autocomplete example, , ,None
+449,https://api.github.com/repos/ReactiveX/RxPY/commits/7769d2b94bf502612f30f2303dc003e6c2d29d2c,False, trying fix autocomplete example, , ,None
+450,https://api.github.com/repos/ReactiveX/RxPY/commits/b7dfa769784482319d98d4d57c6d8e0266774b3b,False, refactoring operator, , ,None
+451,https://api.github.com/repos/ReactiveX/RxPY/commits/25a76618d04e703529a1b58fdcde3b56289664fc,False, fixed test filter map, , ,None
+452,https://api.github.com/repos/ReactiveX/RxPY/commits/f2e487385fbbf6b51478189b50b355a3aa348a6a,False, creation function lazy loaded rx.__init__.py, , ,None
+453,https://api.github.com/repos/ReactiveX/RxPY/commits/ccd3272d6a21a2d399209c55997c2ab372de183e,False, refactored, , ,None
+454,https://api.github.com/repos/ReactiveX/RxPY/commits/8250dbe3eb5cb447893258129bc938df21d78dfc,False, operator refactored, , ,None
+455,https://api.github.com/repos/ReactiveX/RxPY/commits/675df673865aeedfd38d3929505c1448aee22a86,False, fixed timeflies tkinter example really cool, , ,None
+456,https://api.github.com/repos/ReactiveX/RxPY/commits/a43b51f44acfb6bfbf0666b0b5ac33709500e871,False, fixed subject operator, , ,None
+457,https://api.github.com/repos/ReactiveX/RxPY/commits/c4694b59b657bcde68c447e9bdac200a3d23c617,False, fixed filter test, , ,None
+458,https://api.github.com/repos/ReactiveX/RxPY/commits/fc0c3b8b9a592d9ba952427b54eec4763de4f440,False, fixing operator partial style, , ,None
+459,https://api.github.com/repos/ReactiveX/RxPY/commits/70eb40f0250cc60e0979bd92928146c03be6f0ce,False, first iteration rxpy 3.0, , ,None
+460,https://api.github.com/repos/ReactiveX/RxPY/commits/d5c1139ef221bea864b4aeb3cad3d3b85e651cfe,False, partially applied operator, , ,None
+461,https://api.github.com/repos/ReactiveX/RxPY/commits/310fc41acc7bee927cb27cbcf9f3f2348d33e19d,False, remove debug, , ,None
+462,https://api.github.com/repos/ReactiveX/RxPY/commits/ff9559a907d7498d5a50578ba86bfbbdf3119f7a,False, partially applied operator, , ,None
+463,https://api.github.com/repos/ReactiveX/RxPY/commits/8ce820e1db4950b7ff9c5b22772da5b4e9d20771,False, fixed count defer find last let, , ,None
+464,https://api.github.com/repos/ReactiveX/RxPY/commits/b624584462a99675f66b4648f6caf1eccacd7501,False, removed unused file, , ,None
+465,https://api.github.com/repos/ReactiveX/RxPY/commits/81b084987b6a4a7be30233cd6ec9039d9711f62c,False, fixed buffer operator, , ,None
+466,https://api.github.com/repos/ReactiveX/RxPY/commits/dfa7b791afd979177bc8219628e4ca45d5412772,False, reformatted, , ,None
+467,https://api.github.com/repos/ReactiveX/RxPY/commits/7d3199523db07008f843fcf604b3414c56d9e3c8,False, fixed docstrings filter, , ,None
+468,https://api.github.com/repos/ReactiveX/RxPY/commits/5832356ecd7feb553ce60662b53704a6ff2a516d,False, fixed average, , ,None
+469,https://api.github.com/repos/ReactiveX/RxPY/commits/8be55562d7dfdf4e2edeec80b82813e9fa673e56,False, fix type, , ,None
+470,https://api.github.com/repos/ReactiveX/RxPY/commits/5b0fded0d044aae5000ef75a7a8059ff096267b1,False, fixed docstring variable name, , ,None
+471,https://api.github.com/repos/ReactiveX/RxPY/commits/5b6850e8e3672c7328f4b85afc21eec32aa6a302,False, added pipe operator, , ,None
+472,https://api.github.com/repos/ReactiveX/RxPY/commits/31a102f1af3abe71eec5a33f04193c81287e3820,False, fix typo, , ,None
+473,https://api.github.com/repos/ReactiveX/RxPY/commits/295260ea675b2409ea624a38bbad4fd9aef3c164,False, remove unused import, , ,None
+474,https://api.github.com/repos/ReactiveX/RxPY/commits/17ea152d5411e271802d3d2da4a1f6877812e6d2,False, remove unnecessary pas, , ,None
+475,https://api.github.com/repos/ReactiveX/RxPY/commits/8bc37cafe43ed248b5155acc00b4a6633ffa1f6a,False, fix type hint, , ,None
+476,https://api.github.com/repos/ReactiveX/RxPY/commits/3eaa4afffd48167b575acc326f3ba1d4e0422bb8,False, split flat_map flat_mapi flat_map, , ,None
+477,https://api.github.com/repos/ReactiveX/RxPY/commits/1652c8f01fd002618ee361baba7c72356b916368,False, split filter partition filter filteri partition partitioni, , ,None
+478,https://api.github.com/repos/ReactiveX/RxPY/commits/4b0f3b7a0d0c0d957e8ad73847fb0f77902b68f8,False, split map map mapi mapper_indexed map, , ,None
+479,https://api.github.com/repos/ReactiveX/RxPY/commits/7538ff7332a209f300465d5262aa6482a3921598,True, fix to_iterable produce iterable list fix 264,https://api.github.com/repos/ReactiveX/RxPY/issues/264, ,None
+480,https://api.github.com/repos/ReactiveX/RxPY/commits/0ef10bbe9f4058c04ed14e537782c69c13c7ec86,False, implemented threadsafe schedule method 266 commit fix 249 immediate scheduling method based schedule action event loop dispose function future concurrent package block action canceled relative scheduling method executed two step first one allows move execution context event loop second step schedule action appropriate time, , ,None
+481,https://api.github.com/repos/ReactiveX/RxPY/commits/6eb76da739948e197785624448ef01adeb71a793,False, fix python 3.7, , ,None
+482,https://api.github.com/repos/ReactiveX/RxPY/commits/969c82b5e0b92063aadce3eb56847a54cec62470,False, update py3 248, , ,None
+483,https://api.github.com/repos/ReactiveX/RxPY/commits/6282bb0d2cd01d9c46d0b256f26d02d4e76cb7dd,False, correction never called 252 never called subscribe called args error l172, , ,None
+484,https://api.github.com/repos/ReactiveX/RxPY/commits/3c321bab00c74481e5572a2191773848ee0e7b7c,False, add information installing rxpy v1.6 use python, , ,None
+485,https://api.github.com/repos/ReactiveX/RxPY/commits/b4fe9b6f65036f13efc7ae00749c0392de6502d6,True, added rx.streams setup.py fix 251,https://api.github.com/repos/ReactiveX/RxPY/issues/251,bug,None
+486,https://api.github.com/repos/ReactiveX/RxPY/commits/600b768509fb5da33c309b36b5cbecdf3b59feaa,False, cleanup, , ,None
+487,https://api.github.com/repos/ReactiveX/RxPY/commits/aad0b093c6a761e5d335fd0a5591c58ba61b2d29,False, documentation fix, , ,None
+488,https://api.github.com/repos/ReactiveX/RxPY/commits/7417d322441c41e1a9758ffac005d330ccfcfcac,False, update readme, , ,None
+489,https://api.github.com/repos/ReactiveX/RxPY/commits/d16ee22a44e709d279353af1b86c4ed80f16757d,False, remove unnecessary else, , ,None
+490,https://api.github.com/repos/ReactiveX/RxPY/commits/3385e502ad65ad408b42ffc81d9cda7b15f9f894,False, use typing overload allow subscribe handle observer callback, , ,None
+491,https://api.github.com/repos/ReactiveX/RxPY/commits/e537a10c058ec6988bc3352b83bee5e266259ff4,False, fix formatting, , ,None
+492,https://api.github.com/repos/ReactiveX/RxPY/commits/e78b257d334f4b1ded437ac5ea5494d441a6d49c,False, remove debug print, , ,None
+493,https://api.github.com/repos/ReactiveX/RxPY/commits/8b367d12b1d50fa3bf66432fb2a69b9cac8a678a,False, reorganize readme, , ,None
+494,https://api.github.com/repos/ReactiveX/RxPY/commits/d454a06a026714744b5c8a29c05db604910a2bf1,True, make sure should_dispose read lock fix 244,https://api.github.com/repos/ReactiveX/RxPY/issues/244, ,None
+495,https://api.github.com/repos/ReactiveX/RxPY/commits/dc22933c60e3a61dfb98d8113eae03a08ae49452,False, make sure disposable make proper check none, , ,None
+496,https://api.github.com/repos/ReactiveX/RxPY/commits/f65c80d70a7856a0d34b0cb8f51b6d76b892d036,True, make sure merge overlap observer fix 236,https://api.github.com/repos/ReactiveX/RxPY/issues/236,bug,None
+497,https://api.github.com/repos/ReactiveX/RxPY/commits/99d573eb35e9cf87c7b79aed7106145a5a44cbe7,False, add notice stable branch branch wip, , ,None
+498,https://api.github.com/repos/ReactiveX/RxPY/commits/5a30f33ce549ef075f5fc12a8b853349cb406dbd,False, bugfix overwrite supplied scheduler, , ,None
+499,https://api.github.com/repos/ReactiveX/RxPY/commits/55d40cb6a5c773bb001a778e6098fea742bcf8c3,False, merge branch master http github.com reactivex rxpy, , ,None

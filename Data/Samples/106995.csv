@@ -1,0 +1,501 @@
+No,Url,Valid,Message,Issue-url,Tag,Category
+0,https://api.github.com/repos/sinatra/sinatra/commits/0a50b5608d3ff4fda563cc3d3a600d581c57d8e0,False, fix use keyword argument ruby 3.0 1701 added test case would prior fix fail ruby 3.0 following error  middlewaretest argumenterror wrong number argument given expected  change inspired http github.com rack rack pull 1505, , ,None
+1,https://api.github.com/repos/sinatra/sinatra/commits/c33c2b1a00b56e5a497631068df254d722b6df8e,False, small improvement 1703 disable fast fail since test multiple version ruby make sense allow ruby finish regardless fails specific version run test workflow branch, , ,None
+2,https://api.github.com/repos/sinatra/sinatra/commits/6d368c062e1c950f403e22a964d8a90876ca41de,False, skip slack action set 1705 since fork access slack_webhook secret step would always fail, , ,None
+3,https://api.github.com/repos/sinatra/sinatra/commits/5513eb3c7969dc3d15b3c704df63a3ccce9ac9cb,True, merge pull request 1691 sinatra action switch travis action,https://api.github.com/repos/sinatra/sinatra/issues/1691, ,None
+4,https://api.github.com/repos/sinatra/sinatra/commits/7660d10104cadb3260c58fced3e1c9413f1c9ac6,False, notify slack failure, , ,None
+5,https://api.github.com/repos/sinatra/sinatra/commits/e968e699b4f92266157b0a435898d1cede84f6c3,False, clean field add matrix context, , ,None
+6,https://api.github.com/repos/sinatra/sinatra/commits/fa323dbc4c32b31ffc2c501e149320c5cc72231e,False, add slack action, , ,None
+7,https://api.github.com/repos/sinatra/sinatra/commits/9714720943780ff50569241deafac6889893f39d,False, remove declaration, , ,None
+8,https://api.github.com/repos/sinatra/sinatra/commits/afa973c67b2258ccd662f7621f6e0c10b1fea28b,False, switch travis action, , ,None
+9,https://api.github.com/repos/sinatra/sinatra/commits/ac5404dbd897a4b3c5b3921d2f89fecd3b540ed3,True, merge pull request 1684 andrewtblake master fix delegator pas keyword argument ruby 3.0,https://api.github.com/repos/sinatra/sinatra/issues/1684, ,None
+10,https://api.github.com/repos/sinatra/sinatra/commits/e767648e060673cacbf3dc03844986fbf36283dc,False, use ruby2_keywords pas keyword argument correctly delegation relocate ruby2_keywords gem dependency require line condition use ruby2_keywords avoid introducing gem dependency drop superfluous newline, , ,None
+11,https://api.github.com/repos/sinatra/sinatra/commits/15d8aca0d72a8e7c826f573d9afe7ee80af17570,False, merge remote tracking branch origin, , ,None
+12,https://api.github.com/repos/sinatra/sinatra/commits/24fd287d845f5292ad2a62dfa0395df455fe106f,False, add test delegation keyword argument method pass ruby 2.7 pass warning ruby 2.7 3.0 fails ruby 3.0, , ,None
+13,https://api.github.com/repos/sinatra/sinatra/commits/1d854b7c8a321f40ad098f74dc62cf18f8f4c5d6,False, fix delegator pas keyword argument ruby 3.0, , ,None
+14,https://api.github.com/repos/sinatra/sinatra/commits/cf404526373298f06a59e1a129b6cdf8282ae216,True, merge pull request 1683 cji stripe validate expanded path match public_dir serving static file,https://api.github.com/repos/sinatra/sinatra/issues/1683, ,None
+15,https://api.github.com/repos/sinatra/sinatra/commits/936ea0b1a5674b8278ccba5b4cbc5e7dcf512e68,True, merge pull request 1681 froderik patch stable branch used anymore,https://api.github.com/repos/sinatra/sinatra/issues/1681, ,None
+16,https://api.github.com/repos/sinatra/sinatra/commits/1e47d4ca3fef1e799d98c256d326656fbdb092b9,True, merge pull request 1682 olleolleolle patch use latest jruby 9.2.16.0,https://api.github.com/repos/sinatra/sinatra/issues/1682, ,None
+17,https://api.github.com/repos/sinatra/sinatra/commits/edc58e8c90fc19001e36d4635b424852e970f30d,False, use jruby 9.2.16.0, , ,None
+18,https://api.github.com/repos/sinatra/sinatra/commits/694684347c840a8ab298695abe978d12c13f3fd1,False, use latest jruby 9.2.15.0, , ,None
+19,https://api.github.com/repos/sinatra/sinatra/commits/8443f9aba2dea67b6ee7b3b188cf1ead5e410885,False, stable branch used anymore, , ,None
+20,https://api.github.com/repos/sinatra/sinatra/commits/462c3ca1db53ed3cfc394cf5948e9c948ad1c10e,False, validate expanded path match public_dir serving static file, , ,None
+21,https://api.github.com/repos/sinatra/sinatra/commits/ed2add378576ffa0d5225fd541e6a974b2f054a4,True, merge pull request 1653 jkowens per form token add support per form csrf token,https://api.github.com/repos/sinatra/sinatra/issues/1653,rack-protection,Insecure_interaction_between_components
+22,https://api.github.com/repos/sinatra/sinatra/commits/e79e9e6c56846452a90cd941244a26f3c819e61e,True, merge pull request 1619 buonomo fix namespace set sinatra contrib namespace raise key enumerable,https://api.github.com/repos/sinatra/sinatra/issues/1619, ,None
+23,https://api.github.com/repos/sinatra/sinatra/commits/671f47c6734dde09159b35edbd210e7ec6624424,False, update gem version badge, , ,None
+24,https://api.github.com/repos/sinatra/sinatra/commits/28b93a56d8849310cd86327f1424ba8c6e8dc269,False, fix typo, , ,None
+25,https://api.github.com/repos/sinatra/sinatra/commits/ad4e974ebbe41046854bee2159be3b554740400d,False, bump wlang 3.0.1, , ,None
+26,https://api.github.com/repos/sinatra/sinatra/commits/88235a9f5805fd3a0e62c97c71ea0cf893da88c6,False, remove breaking change, , ,None
+27,https://api.github.com/repos/sinatra/sinatra/commits/a9f8a98fb218c4bf55a7a481868f9a5532920d64,True, merge pull request 1671 epergo reduce rdoc generation time reduce rdoc generation time including every readme,https://api.github.com/repos/sinatra/sinatra/issues/1671, ,None
+28,https://api.github.com/repos/sinatra/sinatra/commits/d39b135c67b134bd3c8fea636f244d77422e18bc,True, merge pull request 1670 duduribeiro fix usage inherited sinatra base class keyword argument,https://api.github.com/repos/sinatra/sinatra/issues/1670, ,None
+29,https://api.github.com/repos/sinatra/sinatra/commits/8ed1f0b640d7aca6047d89bad44e1e556d3f2f37,True, merge pull request 1668 vbrazo fix typo fix several issue reviewing doc,https://api.github.com/repos/sinatra/sinatra/issues/1668, ,None
+30,https://api.github.com/repos/sinatra/sinatra/commits/f8f04e5fcebd26e044c79fadbd4859a01f331c43,False, add support per form csrf token model implementation rail provide cross compatibility, , ,Insecure_interaction_between_components
+31,https://api.github.com/repos/sinatra/sinatra/commits/e51150069644c9c93980e3a30bfc1f8134ebe404,False, add option configure token session key, , ,None
+32,https://api.github.com/repos/sinatra/sinatra/commits/77e687203acde73530cad48858c8d4612d9c6a9c,False, merge branch master, , ,None
+33,https://api.github.com/repos/sinatra/sinatra/commits/9f397eb8b193714acffc9a4d2643d4b566f44832,False, support tilt removed wlang 3.0, , ,None
+34,https://api.github.com/repos/sinatra/sinatra/commits/276065959915cbd64f776560af5cb7c3bb46fa2a,False, change initialize method accept kwargs, , ,None
+35,https://api.github.com/repos/sinatra/sinatra/commits/b979ca6c881c9eb940bfa2a775fbf97c54884a08,False, apply suggestion code review, , ,None
+36,https://api.github.com/repos/sinatra/sinatra/commits/605d7bff6bcd29ed4e4ad217d4cdd1c9dafc0c2e,False, merge branch master, , ,None
+37,https://api.github.com/repos/sinatra/sinatra/commits/cb64dd3516e486f79b3ecaad2c473830d61e56b5,False, run jruby test puma, , ,None
+38,https://api.github.com/repos/sinatra/sinatra/commits/7a1bc45dced5b738c2e84a52218af0f7a69329c3,False, add ruby, , ,None
+39,https://api.github.com/repos/sinatra/sinatra/commits/2041c4697a6fb988126d4000f0b924fd02abbbbe,False, add english readme generating rdoc, , ,None
+40,https://api.github.com/repos/sinatra/sinatra/commits/9fbb02d492f8d5ad44df6c520bed11db28ab4ec7,False, remove rdoc inline source option default behaviour, , ,None
+41,https://api.github.com/repos/sinatra/sinatra/commits/677d89cb362ffe41625057b2f324e32a0eed0e08,False, remove unused variable, , ,None
+42,https://api.github.com/repos/sinatra/sinatra/commits/a5ed7fb882a8f47043abdcf6a320561296b170f8,False, upgrade xenial, , ,None
+43,https://api.github.com/repos/sinatra/sinatra/commits/3c80f4f5fc681738300d14350e237b98b618f96d,False, returning ruby 3.0.0 test xenial linux, , ,None
+44,https://api.github.com/repos/sinatra/sinatra/commits/be5699135550006bbb1cae5bd4e811fe9add9740,False, trying use ruby head instead ruby 3.0.0 preview1 avoid error, , ,None
+45,https://api.github.com/repos/sinatra/sinatra/commits/561ec5466292272a3c8912e6503eac058f598166,False, import rvm key travis pipeline, , ,None
+46,https://api.github.com/repos/sinatra/sinatra/commits/06e049c1a548b5300cd562ff9e125f3fe4f93c9d,False, include test, , ,None
+47,https://api.github.com/repos/sinatra/sinatra/commits/64347b004e7eea0b5f453bdc6e539229fd8bc2ca,False, fix usage inherited sinatra base class keyword argument using keyword argument inherited class sinatra base break argumenterror wrong number argument given expected commit fix usage ruby3 allowing method accept positional keyword argument, , ,None
+48,https://api.github.com/repos/sinatra/sinatra/commits/2b004c3896e6660201ec5f9f1ae2700a5b1bd523,False, fixing issue, , ,None
+49,https://api.github.com/repos/sinatra/sinatra/commits/fb2392ef031e8a988bb58b51966bccc99d49c067,False, fix typo, , ,None
+50,https://api.github.com/repos/sinatra/sinatra/commits/a5a5acf3f9a809fcc76fd07eb7487e01fdd1f447,False, fix several issue reviewing doc, , ,None
+51,https://api.github.com/repos/sinatra/sinatra/commits/36eb0c4266f4d4e2ca4a93ec09338808fa398e92,False, merge branch master fix typo, , ,None
+52,https://api.github.com/repos/sinatra/sinatra/commits/238dd2bc6144587581a4448163a46443a8d91462,True, merge pull request 1665 dentarg patch document dump_errors enabled,https://api.github.com/repos/sinatra/sinatra/issues/1665, ,None
+53,https://api.github.com/repos/sinatra/sinatra/commits/e7e04306e07e08770abb970809d0e09a26237fdb,True, merge pull request 1663 drkameleon master various minor fix copy editing,https://api.github.com/repos/sinatra/sinatra/issues/1663, ,None
+54,https://api.github.com/repos/sinatra/sinatra/commits/a9649b4f18a9059de3161906c9c6e95ec06fdef9,True, merge pull request 1662 sinatra revert 1214 prepend helper revert use prepend instead include helper fix 1213,https://api.github.com/repos/sinatra/sinatra/issues/1662, ,None
+55,https://api.github.com/repos/sinatra/sinatra/commits/b3d116c39e0a2b8202172be7569007ddbbf68971,True, document dump_errors enabled close 1664,https://api.github.com/repos/sinatra/sinatra/issues/1664, ,None
+56,https://api.github.com/repos/sinatra/sinatra/commits/34859f3441402b3930104439a7b1aa9ebc9f31fd,False, various minor fix copy editing, , ,None
+57,https://api.github.com/repos/sinatra/sinatra/commits/91f15007d96a03356aebe20a7fa85e95f07a5962,True, merge pull request 1629 rkmathi rkmathi update readme update readme.ja.md follow 1627,https://api.github.com/repos/sinatra/sinatra/issues/1627, ,None
+58,https://api.github.com/repos/sinatra/sinatra/commits/ce25d56ca9557e4536804903a14a08909513cd7a,False, add helper test confirm helper included, , ,None
+59,https://api.github.com/repos/sinatra/sinatra/commits/fe2b2f70efa4cea829afb3c777581cccadaa63fc,True, move test introduced 1655 helpers_test.rb,https://api.github.com/repos/sinatra/sinatra/issues/1655,hacktoberfest-accepted,None
+60,https://api.github.com/repos/sinatra/sinatra/commits/34ca5792e203cf24c83687e2df1c3fea0a7131c5,False, add failing helper overload spec, , ,None
+61,https://api.github.com/repos/sinatra/sinatra/commits/d36e62ed3dbc762cefbcf2bf6b36c22027a7b651,True, keep test introduced 1214,https://api.github.com/repos/sinatra/sinatra/issues/1214,feedback,None
+62,https://api.github.com/repos/sinatra/sinatra/commits/fb9b2098d7618a5e947fbf622b3b1e7aba9f52cb,True, revert use prepend instead include helper fix 1213 1214 reverts commit,https://api.github.com/repos/sinatra/sinatra/issues/1213,feedback,None
+63,https://api.github.com/repos/sinatra/sinatra/commits/177392f44bb84ff69799a98d5d006bdb7286c12e,True, merge pull request 1649 jkowens fix 1647 respect content type set superclass filter,https://api.github.com/repos/sinatra/sinatra/issues/1649,regression,None
+64,https://api.github.com/repos/sinatra/sinatra/commits/eb44ad0ded8626eb316aeb13cd50c30513427593,False, respect content type set superclass filter, , ,None
+65,https://api.github.com/repos/sinatra/sinatra/commits/578c1a68f8a724893d42234bf6c5f7fedfae1a57,True, merge pull request 1652 ceclinux remove,https://api.github.com/repos/sinatra/sinatra/issues/1652,hacktoberfest-accepted,None
+66,https://api.github.com/repos/sinatra/sinatra/commits/2ddb1e0da857a6f667ed01431a1b1f303f7da6ea,False, remove, , ,None
+67,https://api.github.com/repos/sinatra/sinatra/commits/0aa8d507a4b9140c883e4110e6023e90077bd1d4,True, merge pull request 1645 chrisgavin escape static 404 page add escaping static 404 page,https://api.github.com/repos/sinatra/sinatra/issues/1645, ,None
+68,https://api.github.com/repos/sinatra/sinatra/commits/8e7cc33c49e0b6ffba3433a953c4c8d134b11f02,False, add test ensure path 404 page escaped, , ,None
+69,https://api.github.com/repos/sinatra/sinatra/commits/788b806b9be1be986aa8224c49e299d159eb351c,True, merge pull request 1648 gutjuri patch fixed typo german readme.md,https://api.github.com/repos/sinatra/sinatra/issues/1648, ,None
+70,https://api.github.com/repos/sinatra/sinatra/commits/1b3ba195000eb7f16c136e7cee0584f0df4a6649,False, accidentally reverted previous fixed, , ,None
+71,https://api.github.com/repos/sinatra/sinatra/commits/032a5000355539c4811339e4428aad11e587b8d0,False, fixed typo german readme, , ,None
+72,https://api.github.com/repos/sinatra/sinatra/commits/72ccdb042929c876414998746c3fc52bb309fbd7,False, fixed typo german translation readme, , ,None
+73,https://api.github.com/repos/sinatra/sinatra/commits/8dc1e4ab2bec6be522ed2f700771ccf16a66c3c2,True, merge pull request 1640 ceclinux minor_refactor minor refactor,https://api.github.com/repos/sinatra/sinatra/issues/1640, ,None
+74,https://api.github.com/repos/sinatra/sinatra/commits/63bcddb7a3864c89f3de02f90adb149a8e2e7ae9,True, merge pull request 1630 esparta update readme.es.md follow 1627,https://api.github.com/repos/sinatra/sinatra/issues/1627, ,None
+75,https://api.github.com/repos/sinatra/sinatra/commits/8d38b124aa33b8719f8bbca4800d0f92ef1207a2,False, add escaping static 404 page, , ,None
+76,https://api.github.com/repos/sinatra/sinatra/commits/eebec272ce97e6822417c65f1afea93ff142e585,True, merge pull request 1642 takeshi yashiro fix broken origin whitelist fix broken option 1641,https://api.github.com/repos/sinatra/sinatra/issues/1641, ,None
+77,https://api.github.com/repos/sinatra/sinatra/commits/38fc6b1717629d7047e83aa32bcbf7b9a6d33e01,False, minor refactor, , ,None
+78,https://api.github.com/repos/sinatra/sinatra/commits/6d06e4907ee39bfafa18318b6567d43170f85ef8,False, update maintenance.md, , ,None
+79,https://api.github.com/repos/sinatra/sinatra/commits/d783aa7ba30e3e4dcc8e53067c24ee936737dc3c,True, fix broken option 1641,https://api.github.com/repos/sinatra/sinatra/issues/1641, ,None
+80,https://api.github.com/repos/sinatra/sinatra/commits/0d7e580133a5bb65b05214be7aa9cf195a4698e9,False, 2.1.0 release, , ,None
+81,https://api.github.com/repos/sinatra/sinatra/commits/25d198b25df7f757bc2d0490f094bec97e395901,True, merge pull request 1622 sinatra v2.1 changelog add changelog v2.1,https://api.github.com/repos/sinatra/sinatra/issues/1622, ,None
+82,https://api.github.com/repos/sinatra/sinatra/commits/668e5e7c34e9cdcefe6744d9b397717ac4d60d9b,False, update release date, , ,None
+83,https://api.github.com/repos/sinatra/sinatra/commits/342758a67b05a6e2192b7ee133912b10d81bdeec,False, add thin handler server rack handler thin restored http github.com macournoyer thin commit, , ,None
+84,https://api.github.com/repos/sinatra/sinatra/commits/32119ef6398d34993ef5f9375a2510c856be0695,False, fix broken spec, , ,None
+85,https://api.github.com/repos/sinatra/sinatra/commits/c55b45d308eb0bf9ee853f192d4de2d7e54b0ad5,False, update usage documentation, , ,None
+86,https://api.github.com/repos/sinatra/sinatra/commits/06396180a6792326c70700dccf2fec432ad84e7f,False, fix spelling path, , ,None
+87,https://api.github.com/repos/sinatra/sinatra/commits/833e92a048a997efde87d6bd0b81a4d8ccdb208d,False, allow jruby failure temporarily, , ,None
+88,https://api.github.com/repos/sinatra/sinatra/commits/1ac8e45a09d6b0815dacc09d08e169f4a4e27a14,False, add changelog v2.1, , ,None
+89,https://api.github.com/repos/sinatra/sinatra/commits/bc7acbb6601c17d4d5f1666680d756d0aa2d4bc9,True, merge pull request 1637 jkowens readme update update streaming example readme,https://api.github.com/repos/sinatra/sinatra/issues/1637, ,None
+90,https://api.github.com/repos/sinatra/sinatra/commits/9f8b61f8159866b779a8f47bba53b80405b49384,True, merge pull request 1636 sinatra use rainbow chat use rainbow instead puma example,https://api.github.com/repos/sinatra/sinatra/issues/1636, ,None
+91,https://api.github.com/repos/sinatra/sinatra/commits/01b48686140edd2d01a6b3bb61a9bf772dec375f,True, merge pull request 1634 sinatra fix description fix wrong description message option,https://api.github.com/repos/sinatra/sinatra/issues/1634, ,None
+92,https://api.github.com/repos/sinatra/sinatra/commits/0624b13a68755af6b35fdc7c274db41bcf126866,False, update streaming example, , ,None
+93,https://api.github.com/repos/sinatra/sinatra/commits/2bbbad0289d6129d2143b4c46959bf080a28bf27,False, use rainbow instead puma example, , ,None
+94,https://api.github.com/repos/sinatra/sinatra/commits/47158d2f299c2b606fbb1586c0caf326165b293b,False, fix wrong description message option, , ,None
+95,https://api.github.com/repos/sinatra/sinatra/commits/4b502e0ec61119189ea8520b21f50c9ed989a6f9,False, make thin available used, , ,None
+96,https://api.github.com/repos/sinatra/sinatra/commits/bb413477006176b0083b8257fbad84767d077557,True, merge pull request 1632 baelter enable escapedparams passed via setting,https://api.github.com/repos/sinatra/sinatra/issues/1632, ,None
+97,https://api.github.com/repos/sinatra/sinatra/commits/2d839f82b7213b6fdbfe82fee4a14c779e984f5f,False, enable escapedparams passed via setting, , ,None
+98,https://api.github.com/repos/sinatra/sinatra/commits/87e48d0a1a54b26071ffb8125ec36124908fc1ba,False, update example app provide breach mitigation, , ,None
+99,https://api.github.com/repos/sinatra/sinatra/commits/37322766590d12121a45a862dd1369615652f45f,True, merge pull request 1631 jkowens faster xor improve performance,https://api.github.com/repos/sinatra/sinatra/issues/1631, ,None
+100,https://api.github.com/repos/sinatra/sinatra/commits/c10483c31ea61097a331af4d6fe9ab6f3736140b,False, improve performance credit jeremy evans performance improvement rail project see http github.com rail rail pull 32931, , ,None
+101,https://api.github.com/repos/sinatra/sinatra/commits/be76edfdde04742c681c8a896ea925a3cca8f8dd,False, update readme.es.md drop support thin skip, , ,None
+102,https://api.github.com/repos/sinatra/sinatra/commits/5f53078813af320f9549c798cba5cfbb3f9b002d,True, update readme.ja.md follow 1627,https://api.github.com/repos/sinatra/sinatra/issues/1627, ,None
+103,https://api.github.com/repos/sinatra/sinatra/commits/7f412580847f3861ee35be3d4c3a0e20d0156760,False, fix typo readme.ja.md, , ,None
+104,https://api.github.com/repos/sinatra/sinatra/commits/f57acefddade9710d7ca3c7a508d4484e90aacdd,True, merge pull request 1627 rkmathi rkmathi drop thin support drop thin support,https://api.github.com/repos/sinatra/sinatra/issues/1627, ,None
+105,https://api.github.com/repos/sinatra/sinatra/commits/7a964728bf86718b0a128e386797113a644c6c6e,False, run example stream.ru rainbow, , ,None
+106,https://api.github.com/repos/sinatra/sinatra/commits/965c8b9c39da2163592415f0056a196f31049b95,False, create enable test rainbow, , ,None
+107,https://api.github.com/repos/sinatra/sinatra/commits/c0d4dd74183dd57d56e317def5d0b7433ee617bc,False, use puma rainbow instead thin readme, , ,None
+108,https://api.github.com/repos/sinatra/sinatra/commits/607346295924c75a86f12ecbad9430cfc430c032,False, remove thin lib, , ,None
+109,https://api.github.com/repos/sinatra/sinatra/commits/7cec4e9eb66254b58ff28454f8a1d4af7eb27f5b,False, remove thin settings_test, , ,None
+110,https://api.github.com/repos/sinatra/sinatra/commits/559f01a295814f3de6847960705a3b24d5600aa1,False, remove thin add rainbow, , ,None
+111,https://api.github.com/repos/sinatra/sinatra/commits/b989bdaa455c61ab7d7c18330824111069251883,False, use puma instead thin example, , ,None
+112,https://api.github.com/repos/sinatra/sinatra/commits/282fb5982ed1d91d1947fae890d7e16c666efc16,False, raise key enumerable, , ,None
+113,https://api.github.com/repos/sinatra/sinatra/commits/103f8ffabd3283ab5bd101edd510db68032046c8,False, use jruby 9.2.12.0, , ,None
+114,https://api.github.com/repos/sinatra/sinatra/commits/9365e294a928e8af88eab07612e393244b1fae2f,False, use latest ruby version, , ,None
+115,https://api.github.com/repos/sinatra/sinatra/commits/49fc62e8216c6811e4b6cfbeddd47b80edb10960,True, merge pull request 1625 rhyme rhyme replace origin whitelist permitted replace,https://api.github.com/repos/sinatra/sinatra/issues/1625, ,None
+116,https://api.github.com/repos/sinatra/sinatra/commits/05ad7c5d3e0204d0b5c44b9ac288bd6f8998f3e6,False, change parameter keyword syntax, , ,None
+117,https://api.github.com/repos/sinatra/sinatra/commits/bb9a4937912cfd264c8fa3af5f010d70c9447e67,False, fix warning message, , ,None
+118,https://api.github.com/repos/sinatra/sinatra/commits/472b61045d84e9f7e7b1869badd2c3d8cb4fac0c,False, replace, , ,None
+119,https://api.github.com/repos/sinatra/sinatra/commits/166da3084d5532fdc5d9676e2df0f11259b94594,False, replace, , ,None
+120,https://api.github.com/repos/sinatra/sinatra/commits/380a833e2cf1ff9862a7392a4945241b834ec05b,True, merge pull request 1623 sinatra replace thin puma replace thin puma,https://api.github.com/repos/sinatra/sinatra/issues/1623, ,None
+121,https://api.github.com/repos/sinatra/sinatra/commits/328f66933ddc1cfab438835634c1aff9c2bec92d,False, replace thin puma http github.com rack rack commit support thin removed rack, , ,None
+122,https://api.github.com/repos/sinatra/sinatra/commits/91477e6dad7c9d8eb1c358e47b9d83b73d626f84,False, use jruby 9.2.11.1, , ,None
+123,https://api.github.com/repos/sinatra/sinatra/commits/c47b74636dedd3994cc75d3c1b2cf678b0f39962,False, refactor pinned response logic, , ,None
+124,https://api.github.com/repos/sinatra/sinatra/commits/05ee1229dcb6bd7e94c7dccaef05c5736ffbb6cd,False, override template using method supplied rack showexceptions, , ,None
+125,https://api.github.com/repos/sinatra/sinatra/commits/d112f8f67119e0248b90e98a4a384e2f4287e1fb,False, update french readme, , ,None
+126,https://api.github.com/repos/sinatra/sinatra/commits/2128dcfb31f0e067bfc8e28afd54b94021caee68,False, add setting historically sinatra response default text html content type however practice sinatra immediately clear attribute instantiating new sinatra response object default suspect let break behavior sinatra response content type default update test reflect next let introduce new setting applied instead text html content type set response finalized great e.g json api developer let also make nil able indicate default content type never applied wherever sinatra emitting html e.g error page force content type text html finally clean error handling logic behave follows set cascade header early possible error block match return value stop processing return value found bad request error inspect exception error message present response body exists present default error message remaining logic otherwise make error handler simpler write behave consistently polluting body default message none may necessary, , ,None
+127,https://api.github.com/repos/sinatra/sinatra/commits/28505410ec7d336a758cafa00e7905169221b32d,False, sinatra namespace allow set engine allows set render engine option local namespace, , ,None
+128,https://api.github.com/repos/sinatra/sinatra/commits/8fcaba8774215528b456d9e55bbd215f3ddde8fc,False, fix typo engine list, , ,None
+129,https://api.github.com/repos/sinatra/sinatra/commits/5ba52063fe2cd57ddfb544f89f3925d09d776d7b,False, update rack handler call use args ruby 2.6 fail warning puma least rack handler updated, , ,None
+130,https://api.github.com/repos/sinatra/sinatra/commits/8c257d45051d9f92660c2f7d0f2f04341da092a8,False, clean build, , ,None
+131,https://api.github.com/repos/sinatra/sinatra/commits/59ab2b034fe3510ef22f7c4d0611e1a5585c6a8b,False, add ruby 2.7 build matrix, , ,None
+132,https://api.github.com/repos/sinatra/sinatra/commits/d3b1f7b2db558e3932c97bf5d59ddbc904cb65ff,False, update jruby 9.2.11.0 1607 update jruby 9.2.11.0 jruby allowed fail, , ,None
+133,https://api.github.com/repos/sinatra/sinatra/commits/2db247dd33bb29732a8e1d7e3a2172ee9e153efb,True, use prepend instead include helper fix 1213 1214,https://api.github.com/repos/sinatra/sinatra/issues/1213,feedback,None
+134,https://api.github.com/repos/sinatra/sinatra/commits/ecf687d9f1e3669dafe25dbb2a09b032b56bfc21,False, fix issue passed route provides 1606, , ,None
+135,https://api.github.com/repos/sinatra/sinatra/commits/00bdf4faee31c777d20bce957d4809869cb84636,False, add quietlogger excludes pathes rack commonlogger 1250, , ,None
+136,https://api.github.com/repos/sinatra/sinatra/commits/0348d701adbd8c4450962790cf933151dddc225f,False, bump version 2.1.0, , ,None
+137,https://api.github.com/repos/sinatra/sinatra/commits/8ddf4f938e3a746e47bf791f97e6d06715923747,True, sinatra contrib dependency update fix 1207 1411 remove backports work around object try string underscore,https://api.github.com/repos/sinatra/sinatra/issues/1207,has attached pr,None
+138,https://api.github.com/repos/sinatra/sinatra/commits/330d9b4364d18b14a98e3f6a67325b581714f1f9,False, ruby use __dir__ instead file.dirname __file__ 1341, , ,None
+139,https://api.github.com/repos/sinatra/sinatra/commits/3d11d9f379dc2e9d30660258e71c4eb106139ee7,False, remove useless private clause 1396, , ,None
+140,https://api.github.com/repos/sinatra/sinatra/commits/c2705ce139d9c481bc67c5b5c0b10515df74534a,False, allow csp fallback default src 1490 allow content source fallback default src remove default script src style src connect src img src fallback default src default default src changed none self seems safe default especially browser implement prefetch src stricter policy needed specified loading middleware add support webrtc src navigate prefetch src directive, , ,None
+141,https://api.github.com/repos/sinatra/sinatra/commits/574e5a9e3d5af91de9332b4b89688400e44cb84d,False, add support parameter creating mime type 1256, , ,None
+142,https://api.github.com/repos/sinatra/sinatra/commits/aee28a1bda938867dc10c4a6ac876294490dc4d7,False, begin 2.1.0 development, , ,None
+143,https://api.github.com/repos/sinatra/sinatra/commits/63c0cbf5dc555b8c8ea12186f793136f03c8291d,False, drop support ruby 2.2 1455 drop support ruby 2.2, , ,None
+144,https://api.github.com/repos/sinatra/sinatra/commits/fade5feed3db694a6ae10447a8b00b3f312f35fc,False, add rack protection referrerpolicy 1291, , ,None
+145,https://api.github.com/repos/sinatra/sinatra/commits/3cc2394a1239eedb177a2f6b6d862dff5ee6de8e,False, handle null byte serving static file 1574 handle null byte serving request path null byte, , ,None
+146,https://api.github.com/repos/sinatra/sinatra/commits/1f29a6d3e3063a79095c2e30f1c4c5ba9e8c60ed,False, fix additional ruby 2.7 keyword warning 1586 fix additional ruby 2.7 keyword warning, , ,None
+147,https://api.github.com/repos/sinatra/sinatra/commits/2527f46bc4cbe3bffedc2a2658e8d737eaa5908b,True, merge pull request 1595 mfinelli csp fix arg directive fix content security policy arg directive,https://api.github.com/repos/sinatra/sinatra/issues/1595, ,General
+148,https://api.github.com/repos/sinatra/sinatra/commits/2aae16cb3caf18ca0507308de278bdba71f357ad,True, merge pull request 1605 jkowens fix failing test fix failing test,https://api.github.com/repos/sinatra/sinatra/issues/1605, ,None
+149,https://api.github.com/repos/sinatra/sinatra/commits/750aa3b0de06dad41539bdb402123b5416a3475d,False, fix failing test rack added support multi part range apparently changed format cookie expires timestamp format match spec, , ,None
+150,https://api.github.com/repos/sinatra/sinatra/commits/20bca55d716c467ab7133bc3e5ba8c804b819657,False, bump minimum required rack version, , ,None
+151,https://api.github.com/repos/sinatra/sinatra/commits/2c3e5d5b557203a30300ed534573fdccfcbc6487,False, remove ruby 2.2 build matrix, , ,None
+152,https://api.github.com/repos/sinatra/sinatra/commits/49f21894d3f643e8417ff717613f15461aa73491,False, use instead gsub, , ,None
+153,https://api.github.com/repos/sinatra/sinatra/commits/5548212f47cf5dbcf7fff0ac774112a1217be599,False, fix content security policy arg directive many csp3 arg directive multiple word calling sub transforms first need transform valid directive, , ,General
+154,https://api.github.com/repos/sinatra/sinatra/commits/a4dd24add24f2dd0e7299b9e68e12038138294d3,False, 2.0.8.1 release, , ,None
+155,https://api.github.com/repos/sinatra/sinatra/commits/623a80ba6a5e1d52092480466c880ed0b02e2ca8,True, merge pull request 1585 sinatra fix missing commit merge pull request 1572 iguchi1124 support ruby26 merge,https://api.github.com/repos/sinatra/sinatra/issues/1572, ,None
+156,https://api.github.com/repos/sinatra/sinatra/commits/63d146e4940da7cf7bb6d2c15611bfcf056ccf60,False, bump version 2.0.8.1, , ,None
+157,https://api.github.com/repos/sinatra/sinatra/commits/825299319e9ebe7407b548c6498fcecf60f704fa,True, merge pull request 1572 iguchi1124 support ruby26 merge support ruby 2.6 hash merge multiple argument,https://api.github.com/repos/sinatra/sinatra/issues/1572, ,None
+158,https://api.github.com/repos/sinatra/sinatra/commits/cf1c6b156b30417b6998a94c941d675179fac7b0,False, 2.0.8 release, , ,None
+159,https://api.github.com/repos/sinatra/sinatra/commits/3046a431d22f4023bdbaaf7936c8e2237030ab3e,True, merge pull request 1584 sinatra release v2.0.8 bump version 2.0.8,https://api.github.com/repos/sinatra/sinatra/issues/1584, ,None
+160,https://api.github.com/repos/sinatra/sinatra/commits/72180b8d2172fd50fb26df2945b7f48f3e73f406,False, bump version 2.0.8, , ,None
+161,https://api.github.com/repos/sinatra/sinatra/commits/64cf07936104b9f21641d0841a29d97fbf7ed059,True, merge pull request 1577 olleolleolle patch use jruby 9.2.9.0,https://api.github.com/repos/sinatra/sinatra/issues/1577, ,None
+162,https://api.github.com/repos/sinatra/sinatra/commits/7c144eed0a70b1da96e429231b98a33cc2d03031,True, merge pull request 1580 k0kubun hamlit support support capture content_for hamlit,https://api.github.com/repos/sinatra/sinatra/issues/1580, ,None
+163,https://api.github.com/repos/sinatra/sinatra/commits/58e1be025826a7214dcb0ef17cb511afde84a34e,False, check hamltemplate inside haml engine check, , ,None
+164,https://api.github.com/repos/sinatra/sinatra/commits/d423f565ca9f461f3c2f1fe8bb08f708fef5d4e5,True, merge pull request 1581 osamtimizer fix keyword parameter ruby 2.7.0 eliminate warning keyword parameter ruby 2.7.0,https://api.github.com/repos/sinatra/sinatra/issues/1581, ,None
+165,https://api.github.com/repos/sinatra/sinatra/commits/0bb4d0bfbc93122e681152978a0c86345baa6aba,False, fix deprecation non tested code, , ,None
+166,https://api.github.com/repos/sinatra/sinatra/commits/c906370e4fc14b9b368427026c80332c609d67b6,False, keyword parameter cause deprecation warning future occur error, , ,None
+167,https://api.github.com/repos/sinatra/sinatra/commits/78d48cdd089a57079407d608fed0f599352ccfb4,False, support capture content_for hamlit, , ,None
+168,https://api.github.com/repos/sinatra/sinatra/commits/f01eff9bfc9aac628d4afd1e3e3c3c47087b0062,False, gemfile allow jruby install activesupport, , ,None
+169,https://api.github.com/repos/sinatra/sinatra/commits/131a5fec5e8b1e0eabc84648973fcc454ee6b1dc,False, use jruby 9.2.9.0, , ,None
+170,https://api.github.com/repos/sinatra/sinatra/commits/04a02ac2b7400ab456126dbfce5519cbc200b61a,True, merge pull request 1569 jkowens fix_1567 remove routing parameter params hash,https://api.github.com/repos/sinatra/sinatra/issues/1569, ,None
+171,https://api.github.com/repos/sinatra/sinatra/commits/80f8d3be486f90b62d26660841fcfdce96bf20a9,True, merge pull request 1558 jkowens fix 1172 lookup tilt class template engine without loading file,https://api.github.com/repos/sinatra/sinatra/issues/1558, ,None
+172,https://api.github.com/repos/sinatra/sinatra/commits/f515356e47643625e449105d15d966bf5a75562e,True, merge pull request 1566 stefansundin notfound message add message notfound exception,https://api.github.com/repos/sinatra/sinatra/issues/1566, ,None
+173,https://api.github.com/repos/sinatra/sinatra/commits/f7075b255926f23968512b28aa6f90873f4fffd4,True, merge pull request 1570 krororo update ruby use ruby 2.4.9 2.5.7 2.6.5,https://api.github.com/repos/sinatra/sinatra/issues/1570, ,None
+174,https://api.github.com/repos/sinatra/sinatra/commits/a74eb3d015bec7fc725e83d846b545dc1d483871,True, merge pull request 1575 horaciob add test pre filter modify params certain case,https://api.github.com/repos/sinatra/sinatra/issues/1575, ,None
+175,https://api.github.com/repos/sinatra/sinatra/commits/e3a27b5a2f277dd2873e3409c90a87a31e9b5be7,False, remove routing parameter params hash change params hash lost routing params supplied whole hash reset processing route, , ,None
+176,https://api.github.com/repos/sinatra/sinatra/commits/77b707daab84801b3ea54748a50a56b5e90a00e8,False, add test pre filter modify params certain case, , ,None
+177,https://api.github.com/repos/sinatra/sinatra/commits/192bc9b94308fcfaa76a4e9b71daec708aa7b5b4,True, merge pull request 1540 jeduardo824 1249 update readme translation update readme translation,https://api.github.com/repos/sinatra/sinatra/issues/1540, ,None
+178,https://api.github.com/repos/sinatra/sinatra/commits/8b76b4e346969bccb2859cf778acd925a97e3064,False, use ruby 2.4.9 2.5.7 2.6.5, , ,None
+179,https://api.github.com/repos/sinatra/sinatra/commits/6ee7fc1a42e0e930eb603b9a4b67a4ff7406bfe0,True, merge pull request 1565 olleolleolle patch use ruby 2.4.7 2.5.6 2.6.4,https://api.github.com/repos/sinatra/sinatra/issues/1565, ,None
+180,https://api.github.com/repos/sinatra/sinatra/commits/722353ee7c02981050ff2658677e8a51a6ddab30,True, merge pull request 1564 fix allow yaml file fix allow yaml file issue 1563,https://api.github.com/repos/sinatra/sinatra/issues/1563,good first issue,None
+181,https://api.github.com/repos/sinatra/sinatra/commits/1199d643ef99e15e387707c267a41ed469176a55,False, add yaml extension sinatra contrib configfile, , ,None
+182,https://api.github.com/repos/sinatra/sinatra/commits/243dca5c40650269cec922ed8decfbf6f5eea83a,False, add request method path notfound exception message useful exception reporting tool, , ,None
+183,https://api.github.com/repos/sinatra/sinatra/commits/71dea98b4437e027ff07b96e11a35d6d4d03369d,False, use ruby 2.4.7 2.5.6 2.6.4, , ,None
+184,https://api.github.com/repos/sinatra/sinatra/commits/909551e4bb046b0779e075dc1a04f0c1fe54a5f3,False, lookup tilt class template engine without loading file, , ,None
+185,https://api.github.com/repos/sinatra/sinatra/commits/32d683317790180d19ff5974aea2dd277e37724f,False, 2.0.7 release, , ,None
+186,https://api.github.com/repos/sinatra/sinatra/commits/3dbbd9ea7971051a8f75009040c5f3f9ae707fbb,False, update changelog, , ,None
+187,https://api.github.com/repos/sinatra/sinatra/commits/3563a08b68baf38956bef729afa865e0d166960e,True, merge pull request 1560 sinatra fix regression fix regression close 1559,https://api.github.com/repos/sinatra/sinatra/issues/1559,regression,None
+188,https://api.github.com/repos/sinatra/sinatra/commits/dde8f0561db34188776f955256cfbd89fe01c8e8,True, fix regression close 1559,https://api.github.com/repos/sinatra/sinatra/issues/1559,regression,None
+189,https://api.github.com/repos/sinatra/sinatra/commits/4e71133aba95c07282f30756ffde23114a093f57,False, readme translation update translation update skip readme translation update translation update translation update translation update skip translation update skip translation update skip  , , ,None
+190,https://api.github.com/repos/sinatra/sinatra/commits/6795b45876c71f3de18c7ae36475b928ccf7fcaa,False, 2.0.6 release, , ,None
+191,https://api.github.com/repos/sinatra/sinatra/commits/0df27f34f3e3c73c0daf9a7881378b53214a9e95,False, use sed sed difference platform, , ,None
+192,https://api.github.com/repos/sinatra/sinatra/commits/423cef3ff383c9141b66ea2a301d540a67c7272b,True, merge pull request 1555 sinatra bump version 2.0.6 add v2.0.6 entry changelog,https://api.github.com/repos/sinatra/sinatra/issues/1555, ,None
+193,https://api.github.com/repos/sinatra/sinatra/commits/0ee9f88843c89aee3a392e7c39f06190e70f32e2,False, bump version 2.0.6, , ,None
+194,https://api.github.com/repos/sinatra/sinatra/commits/dfc6d99a2999ff5cf16712c992e08e29679aebae,False, add v2.0.6 entry changelog, , ,None
+195,https://api.github.com/repos/sinatra/sinatra/commits/95f2a18ddef92038e10b55e35b656adb2b82c200,True, merge pull request 1554 sinatra correct fix 1547 correct fix 1547,https://api.github.com/repos/sinatra/sinatra/issues/1547,regression,None
+196,https://api.github.com/repos/sinatra/sinatra/commits/6504f2c87ffa6701fbba0600acdc1986a6647909,True, correct fix 1547,https://api.github.com/repos/sinatra/sinatra/issues/1547,regression,None
+197,https://api.github.com/repos/sinatra/sinatra/commits/b0081892f1ec9f44e9a0bba6fb154f7e9d7bec86,True, merge pull request 1553 sinatra revert 1547 revert fix issue setting environment command line option,https://api.github.com/repos/sinatra/sinatra/issues/1553, ,None
+198,https://api.github.com/repos/sinatra/sinatra/commits/070d6db3ce3d064d113b44062b401a8d01bbe248,False, revert fix issue setting environment command line option reverts commit, , ,None
+199,https://api.github.com/repos/sinatra/sinatra/commits/50b7c4fc3064dcf28614503ff97b45205b79068a,True, merge pull request 1533 304 add pandoc support,https://api.github.com/repos/sinatra/sinatra/issues/1533, ,None
+200,https://api.github.com/repos/sinatra/sinatra/commits/8bd783dfed17aba8b6b543c0c86cf974e55e08fb,True, merge pull request 1547 jkowens fix_1544 fix issue setting environment command line option fix 1544,https://api.github.com/repos/sinatra/sinatra/issues/1544, ,None
+201,https://api.github.com/repos/sinatra/sinatra/commits/17cf997db2013f529166c1fd9b504c44996ebfa4,True, merge pull request 1552 olleolleolle patch use jruby 9.2.8.0,https://api.github.com/repos/sinatra/sinatra/issues/1552, ,None
+202,https://api.github.com/repos/sinatra/sinatra/commits/748aee397f25ba94107282629a0defb04ce0be8b,False, use jruby 9.2.8.0, , ,None
+203,https://api.github.com/repos/sinatra/sinatra/commits/3ae2e01a0fa88596fedf2a0b62079c97aa4d5bcc,False, fix issue setting environment command line option setting environment production command line development configuration already registered instance development notfound error handler setup command line option parsed environment configuration run, , ,None
+204,https://api.github.com/repos/sinatra/sinatra/commits/6ebf9ceb27beaaaa85fb85f3aef3607d3221c2cd,False, rename default_outvar exclude_outvar, , ,None
+205,https://api.github.com/repos/sinatra/sinatra/commits/c1743256b4a8773eec774f3e3cf00a7c7352a9b3,False, add pandoc support try fix another warning test  load file pandoc ruby skipping markdown test tilt pandoctemplate  pandoc ruby defined gemfile add gem prerequisite dependency pandoc application installed via homebrew update travis.yml make available test run final step make work exclude outvar option list provided template pandoc application called unsupported parameter stop execution return error, , ,None
+206,https://api.github.com/repos/sinatra/sinatra/commits/eee711bce740d38a9a91aa6028688c9a6d74b23b,True, merge pull request 1532 304 remove outdated code tilt 1.x version,https://api.github.com/repos/sinatra/sinatra/issues/1532, ,None
+207,https://api.github.com/repos/sinatra/sinatra/commits/1aa64f9858edc3f93cc8d46e26f724c1ae103b1c,True, merge pull request 1529 olleolleolle patch use 2.6.3,https://api.github.com/repos/sinatra/sinatra/issues/1529, ,None
+208,https://api.github.com/repos/sinatra/sinatra/commits/494c1f290ec137ed136d840b017c112e449dc31d,True, merge pull request 1528 olleolleolle patch rack protection drop ruby 1.8 compat code,https://api.github.com/repos/sinatra/sinatra/issues/1528, ,None
+209,https://api.github.com/repos/sinatra/sinatra/commits/f288b65c21aef24f286725f5d73f705f677b636f,True, merge pull request 1526 sinatra avoid error avoid multiple error even params contains special value,https://api.github.com/repos/sinatra/sinatra/issues/1526,release-note,None
+210,https://api.github.com/repos/sinatra/sinatra/commits/c4ec8837cb6d97a778843247c23fe64939e0d4e8,False, deprecate tilt 1.x support sinatra contrib, , ,None
+211,https://api.github.com/repos/sinatra/sinatra/commits/9f6c2625913db9001867e1cc376444533db94b20,False, fix warning assigned unused variable, , ,None
+212,https://api.github.com/repos/sinatra/sinatra/commits/c0dd32ec196bf103229f615a3cea915bd68e2547,False, add commonmarker gem resolve following warning test  load file commonmarker skipping markdown test tilt , , ,None
+213,https://api.github.com/repos/sinatra/sinatra/commits/1d19193653b0c2c0bde044ca2279b30b64bf7316,False, remove outdated code tilt 1.x version support found sinatra codebase still contains code handling version tilt 1.x 2.x however starting sinatra 2.0 minimally required version tilt 2.0 well commit remove old code clean bit test different markdown engine generated, , ,None
+214,https://api.github.com/repos/sinatra/sinatra/commits/a5429833e411ad30b1fe8aff63f10e244c95e83d,True, avoid multiple error even params contains special value original fix 1506 1517 commit considers frozenerror typeeror case,https://api.github.com/repos/sinatra/sinatra/issues/1506, ,None
+215,https://api.github.com/repos/sinatra/sinatra/commits/988e272950f71612d154e7696c6ca4cfc76061b9,False, use 2.6.3, , ,None
+216,https://api.github.com/repos/sinatra/sinatra/commits/0df3f3c115d58263740d7c55cc1ab57a1d44c611,False, drop ruby 1.8 check, , ,None
+217,https://api.github.com/repos/sinatra/sinatra/commits/1115703b7ccb6280a240454ab996128938c53b59,False, drop ruby 1.8 compat code, , ,None
+218,https://api.github.com/repos/sinatra/sinatra/commits/5e2e41f28395d68a922b60bc851951d46accf2b7,True, merge pull request 1527 jkowens remove unnecessary code force_encoding,https://api.github.com/repos/sinatra/sinatra/issues/1527, ,None
+219,https://api.github.com/repos/sinatra/sinatra/commits/6b96449a6e98b1758b2468d4df0296182db5f732,False, remove unnecessary code force_encoding since rack requires ruby 2.2 extra logic determining string encoding longer necessary outdated comment also removed, , ,None
+220,https://api.github.com/repos/sinatra/sinatra/commits/7b7043cde3515afde713b4da3e54443ca831d3df,True, merge pull request 1522 olleolleolle patch update matrix version,https://api.github.com/repos/sinatra/sinatra/issues/1522, ,None
+221,https://api.github.com/repos/sinatra/sinatra/commits/b369eda7ac400b04f075c7a1baca965d47e9d32d,False, jruby 9.2.7.0 2.4.6, , ,None
+222,https://api.github.com/repos/sinatra/sinatra/commits/c3a2d90680397912f9c52e817dfba40e4dbf78e0,False, 2.5.5 2.6.2 also repair typo, , ,None
+223,https://api.github.com/repos/sinatra/sinatra/commits/bc847443322c81dfc7aaeda783ca12d226c85598,False, update matrix version drop sudo false directive doe nothing, , ,None
+224,https://api.github.com/repos/sinatra/sinatra/commits/6f15fba2790ebdf4d1215cebf425dea2ea3130ea,False, update changelog contributing.md changelog entry automatically generated near future need manually update, , ,None
+225,https://api.github.com/repos/sinatra/sinatra/commits/2e368238238358538cc0e02fe900f3ea05705c0a,True, merge pull request 1517 segiddins segiddins nil param avoid typeerror params contain key without value ruby 2.4,https://api.github.com/repos/sinatra/sinatra/issues/1517,release-note,None
+226,https://api.github.com/repos/sinatra/sinatra/commits/4ceed83a16ea3f3b018d11004079393baa5c5200,True, merge pull request 1520 sinatra fix 1507 ignore bundler inline caller,https://api.github.com/repos/sinatra/sinatra/issues/1520,release-note,None
+227,https://api.github.com/repos/sinatra/sinatra/commits/932665fe159d82b47ee682d2a92597ed3f402fac,True, ignore bundler inline caller fix 1507,https://api.github.com/repos/sinatra/sinatra/issues/1507,bug,None
+228,https://api.github.com/repos/sinatra/sinatra/commits/cb4f651282295803e7484a5841f6285b87e85228,True, merge pull request 1513 gowda travis ruby 2.2.10 handle ruby 2.2.10 version travis build,https://api.github.com/repos/sinatra/sinatra/issues/1513, ,None
+229,https://api.github.com/repos/sinatra/sinatra/commits/d8c18394d86626726c256ce57c3336ca649a33ae,False, support nil param ruby 2.4, , ,None
+230,https://api.github.com/repos/sinatra/sinatra/commits/26fa5c86220890a02cc0f070ddb2696d74a5b843,True, merge pull request 1516 yuki3738 update rack protection link readme update rack protection link readme .md,https://api.github.com/repos/sinatra/sinatra/issues/1516, ,None
+231,https://api.github.com/repos/sinatra/sinatra/commits/8b693bfac667f1a164fca7e6f5b75f206752976d,False, update rack protection link readme .md, , ,None
+232,https://api.github.com/repos/sinatra/sinatra/commits/ea3f43ddabfb6796e84c864bcfd33bae9ecd5215,False, handle ruby 2.2.10 version travis build description cause travis documentation http docs.travis ci.com user language ruby bundler, , ,None
+233,https://api.github.com/repos/sinatra/sinatra/commits/f77a0d0baf62c634d089cbc2f0df60049002e247,True, merge pull request 1511 olleolleolle patch,https://api.github.com/repos/sinatra/sinatra/issues/1511, ,None
+234,https://api.github.com/repos/sinatra/sinatra/commits/7b429cb0e3f1cf09c34e5f8a408397f19b9b10e9,False, matrix add 2.6.0 update jruby 9.2.5.0, , ,None
+235,https://api.github.com/repos/sinatra/sinatra/commits/7a5c499f0e6099137fd1cb4ee20178af2a125d47,False, 2.0.5 release, , ,None
+236,https://api.github.com/repos/sinatra/sinatra/commits/af70671a43a1c0552858f9cc3ff3a420b87a46ce,True, bump version 2.0.5 close 1508,https://api.github.com/repos/sinatra/sinatra/issues/1508, ,None
+237,https://api.github.com/repos/sinatra/sinatra/commits/6f9d703c94df22fc23b03a9aead5880b5c3de23d,False, update changelog v2.0.5, , ,None
+238,https://api.github.com/repos/sinatra/sinatra/commits/69956da995b1a4c06b481431129e3e516800a0e2,True, follow 1225,https://api.github.com/repos/sinatra/sinatra/issues/1225,feature,None
+239,https://api.github.com/repos/sinatra/sinatra/commits/84b290aa9ca5a164931ed9cca770751815309d61,True, merge pull request 1225 iguchi1124 flush content add flush option sinatra contentfor flush content,https://api.github.com/repos/sinatra/sinatra/issues/1225,feature,None
+240,https://api.github.com/repos/sinatra/sinatra/commits/d75c2428bcb35973d8630074c24bda9c4ae34e23,False, merge branch master flush content, , ,None
+241,https://api.github.com/repos/sinatra/sinatra/commits/d83845e44b8733556af221960398d58430f210be,True, merge pull request 1502 jkowens refactor capture method,https://api.github.com/repos/sinatra/sinatra/issues/1502, ,None
+242,https://api.github.com/repos/sinatra/sinatra/commits/0efc51e39e04ad478f01c45515aaee5b569b6d36,False, refactor capture method simplify logic capturing content different template engine prior complexity may due encoding issue pre ruby 2.0 seem issue longer, , ,None
+243,https://api.github.com/repos/sinatra/sinatra/commits/9057b70664787221512a2f751e2e5c73eab3613c,True, merge pull request 1506 sinatra fix 1478 avoid frozenerror params contains frozen value,https://api.github.com/repos/sinatra/sinatra/issues/1506, ,None
+244,https://api.github.com/repos/sinatra/sinatra/commits/38e5d6332a35f996c76dd553f6ccce53df39241e,True, merge pull request 1504 temochka websocket empty session rack protection track accept language header default,https://api.github.com/repos/sinatra/sinatra/issues/1504, ,None
+245,https://api.github.com/repos/sinatra/sinatra/commits/6cf49c885554fa6265f119e6ad5b8d3707c22f64,False, track accept language header default modern browser e.g. safari chrome set accept language header websocket request mixture request without header result unavailable session websocket handler due built firesheep protection existing default inappropriate application employing rack session websocket connection, , ,None
+246,https://api.github.com/repos/sinatra/sinatra/commits/c686a10be68a959c34495c4969dcbabe7b93205e,True, avoid frozenerror params contains frozen value error fixed using dupped value original code testing implemented programmarchy 1479 fix 1478 close 1479,https://api.github.com/repos/sinatra/sinatra/issues/1479, ,None
+247,https://api.github.com/repos/sinatra/sinatra/commits/5d3099ee3b467356ac3c70f859e5da82233c78f1,True, merge pull request 1505 sinatra travis test avoid travis failure,https://api.github.com/repos/sinatra/sinatra/issues/1505, ,None
+248,https://api.github.com/repos/sinatra/sinatra/commits/536d0226e8659b3f872920297b1a669c2ce3e94a,False, remove rvm get head, , ,None
+249,https://api.github.com/repos/sinatra/sinatra/commits/8a7da30a84e6d6e686b8db1e060e43cff3c25b4a,True, merge pull request 1500 jkowens fix 1480 update yield_content append default erb template buffer,https://api.github.com/repos/sinatra/sinatra/issues/1500, ,None
+250,https://api.github.com/repos/sinatra/sinatra/commits/9a3106721a98952e042b5ca85ec5da7d7c573bf4,False, update capture handle empty block, , ,None
+251,https://api.github.com/repos/sinatra/sinatra/commits/bf2cb85e8694c34a17515ecac1ef120ecc2b69e1,False, improve spec yield_content default block, , ,None
+252,https://api.github.com/repos/sinatra/sinatra/commits/ac36e38bbd31bb024e6b2dd5213666055cb8565a,False, write template buffer erubi erubis, , ,None
+253,https://api.github.com/repos/sinatra/sinatra/commits/a3339e0f192c9751ff89babe1c95d8f998be0c5d,False, update capture per review, , ,None
+254,https://api.github.com/repos/sinatra/sinatra/commits/5913bec66e92f2c126deafc4b64839eb3527c93a,False, fix content_for spec, , ,None
+255,https://api.github.com/repos/sinatra/sinatra/commits/4396f1e6a88fcb861010bcea1af7e97c8c3789ed,False, fix issue setting content_for value method param, , ,None
+256,https://api.github.com/repos/sinatra/sinatra/commits/9fef844f060991d743e62b020b8ccc1e1fac6b45,False, update yield_content append default erb template buffer, , ,None
+257,https://api.github.com/repos/sinatra/sinatra/commits/94bd005d933f8ac9394cbe04d331b0b51e93f7bf,True, merge pull request 1499 krororo fix document fix missing def keyword sinatra namespace document,https://api.github.com/repos/sinatra/sinatra/issues/1499, ,None
+258,https://api.github.com/repos/sinatra/sinatra/commits/4607e1ddf68c54d5d47e951da17b5d161bfffb44,True, merge pull request 1494 tkmru support erubi fix 1487 update test doc support erubi,https://api.github.com/repos/sinatra/sinatra/issues/1487,good first issue,None
+259,https://api.github.com/repos/sinatra/sinatra/commits/faa09fd8799cc0f639a61ddd3055e5a4c247336f,False, erubi helper update doc, , ,None
+260,https://api.github.com/repos/sinatra/sinatra/commits/e030256d706ddbfbb90d9eed61b2078bb5f9fc24,False, fix missing def keyword sinatra namespace document, , ,None
+261,https://api.github.com/repos/sinatra/sinatra/commits/ba63ae84bd52174af03d3933863007ca8a37ac1c,True, merge pull request 1495 ceclinux master change fixnum integer readmes,https://api.github.com/repos/sinatra/sinatra/issues/1495, ,None
+262,https://api.github.com/repos/sinatra/sinatra/commits/f47b178ef6b54ac280e723e404a9a6ea687776e4,False, change fixnum integer readmes, , ,None
+263,https://api.github.com/repos/sinatra/sinatra/commits/509b0c2098dea7a40b6cd0160e20481216b58bc3,False, fix template language erubi, , ,None
+264,https://api.github.com/repos/sinatra/sinatra/commits/ee48c599acdc0e14713adeb3433228ef4b90e392,False, update english japanese readme erubi, , ,None
+265,https://api.github.com/repos/sinatra/sinatra/commits/2b43d84920c96bce9b3209d42090683b12eb8022,False, add erubi test sinatra contrib, , ,None
+266,https://api.github.com/repos/sinatra/sinatra/commits/68908fffb0e1d5dc60858a689f5f04d196994094,True, merge pull request 1477 mwpastore indif hash warn indifferenthash monkeypatch warning improvement,https://api.github.com/repos/sinatra/sinatra/issues/1477, ,None
+267,https://api.github.com/repos/sinatra/sinatra/commits/d90318a57efe56688efb83b3287a811f2c30faf9,True, merge pull request 1489 sinatra travis upgrade ruby version,https://api.github.com/repos/sinatra/sinatra/issues/1489, ,None
+268,https://api.github.com/repos/sinatra/sinatra/commits/8045fbe69f02a8184251adb9e23b6aec41b19281,True, upgrade ruby version close 1444 close 1450,https://api.github.com/repos/sinatra/sinatra/issues/1450, ,None
+269,https://api.github.com/repos/sinatra/sinatra/commits/e0aa37dce6f25700131ced4a09e10dda67250b36,True, merge pull request 1448 yob remove activesupport drop activesupport dependency sinatra contrib,https://api.github.com/repos/sinatra/sinatra/issues/1448, ,None
+270,https://api.github.com/repos/sinatra/sinatra/commits/b6790a01b83f930df7fe7983583020575dd1127e,True, merge pull request 1481 anusreeprakash master translating readme malayalam half portion done,https://api.github.com/repos/sinatra/sinatra/issues/1481, ,None
+271,https://api.github.com/repos/sinatra/sinatra/commits/d5bef3d210de4fdf5844e907eb20d2169dfb80b6,True, merge pull request 1482 jkowens master revert back using include matcher,https://api.github.com/repos/sinatra/sinatra/issues/1482, ,None
+272,https://api.github.com/repos/sinatra/sinatra/commits/91ba82ec512351db9438e5001fcbbe48f30f5bfd,False, indifferenthash monkeypatch warning improvement print warning ruby require monkeypatching print warning stderr instead stdout load activesupport internal testing add opt environment variable, , ,None
+273,https://api.github.com/repos/sinatra/sinatra/commits/e3d96ee91fb3ab797d54595f972613686ae0cb84,False, revert back using include matcher regression fixed rspec include matcher work expected, , ,None
+274,https://api.github.com/repos/sinatra/sinatra/commits/e874a766aa1f22032ce53ce13f0a07f88fa6eb00,False, translating readme malayalam half portion done malayalam language used indian state kerala, , ,None
+275,https://api.github.com/repos/sinatra/sinatra/commits/b7c10649cad56f3263df089027621fb1753620cb,False, prefer be_include have_key case, , ,None
+276,https://api.github.com/repos/sinatra/sinatra/commits/b62c8c588a2253928d3fc7a59ea394e8a6f90082,False, 2.0.4 release, , ,None
+277,https://api.github.com/repos/sinatra/sinatra/commits/a0db5d83f7b24710f6f58fc32571306a4e2b3287,False, bump version 2.0.4, , ,None
+278,https://api.github.com/repos/sinatra/sinatra/commits/1d4b458f6fde4658acaf2715f250436d9add5fb5,True, use have_key instead include avoid failing spec rspec 3.8.0 include matcher hash like object work correctly see http github.com rspec rspec expectation issue 1068,https://api.github.com/repos/sinatra/sinatra/issues/1068, ,None
+279,https://api.github.com/repos/sinatra/sinatra/commits/1b9ccf87c5643f8790c55a77e001b372479be911,False, replace mini_racer therubyracer mini_racer gem requires ruby 2.3 greater travisci build ruby 2.2 failing, , ,None
+280,https://api.github.com/repos/sinatra/sinatra/commits/82add9730809999ad310d1401e1ed0de59114f5e,False, update changelog v2.0.4, , ,None
+281,https://api.github.com/repos/sinatra/sinatra/commits/b801c6b76b89eb071e2b01700273054bbe8aae05,True, merge pull request 1469 guigs patch update rack protection link readme,https://api.github.com/repos/sinatra/sinatra/issues/1469, ,None
+282,https://api.github.com/repos/sinatra/sinatra/commits/13b9686beb01577c95cc37cba8c8c25089401bc1,False, update rack protection link readme, , ,None
+283,https://api.github.com/repos/sinatra/sinatra/commits/9590706ec6691520970c67b929776fd97d3c9ddd,True, merge pull request 1446 jkowens fix 1443 unescape regex capture,https://api.github.com/repos/sinatra/sinatra/issues/1446, ,None
+284,https://api.github.com/repos/sinatra/sinatra/commits/1731bf54b17bdba0e4965f0a1de83e72a39b802f,True, merge pull request 1427 mwpastore indiff hash indifferenthash improvement,https://api.github.com/repos/sinatra/sinatra/issues/1427,help wanted,None
+285,https://api.github.com/repos/sinatra/sinatra/commits/89d0ff1df6fe3a2c3fb6eb377ca0feb87b20bd60,True, merge pull request 1137 aselder fix frozen string send file blow passing frozen string send_file disposition,https://api.github.com/repos/sinatra/sinatra/issues/1137, ,None
+286,https://api.github.com/repos/sinatra/sinatra/commits/180158b725b8a964711ef8bdb3c8cbaf53d2e6a3,True, merge pull request 1452 greysteil metadata link add metadata link gemspec,https://api.github.com/repos/sinatra/sinatra/issues/1452, ,None
+287,https://api.github.com/repos/sinatra/sinatra/commits/e0f90cb5552ba8cd58b560b8cc350f176ee30c7f,False, add friendlier error message, , ,None
+288,https://api.github.com/repos/sinatra/sinatra/commits/c58452ffd28e96d523b63aa7214e29371f54e789,False, address issue caused loading sequence specifically activesupport core extension hash indifferenthash class, , ,None
+289,https://api.github.com/repos/sinatra/sinatra/commits/1caeafec67e9e0503b0dc3c4099e7b05e7b6bfbb,True, merge pull request 1454 greysteil add semver badge add semver stability badge readme,https://api.github.com/repos/sinatra/sinatra/issues/1454, ,None
+290,https://api.github.com/repos/sinatra/sinatra/commits/09236eeeed562132e77420b99ea93db0d857b450,True, merge pull request 1453 greysteil gem version badge show gem version badge readme,https://api.github.com/repos/sinatra/sinatra/issues/1453, ,None
+291,https://api.github.com/repos/sinatra/sinatra/commits/7d8e5be8527dc130d5c26c53ca668885e0b665e7,False, add support ruby 2.5 transform_keys indifferenthash, , ,None
+292,https://api.github.com/repos/sinatra/sinatra/commits/453ecd9cab6a394e4a72edfa4d96c7e5ce61b123,False, add support ruby 2.4 indifferenthash, , ,None
+293,https://api.github.com/repos/sinatra/sinatra/commits/92eeec07dac4f0d2800d34dd553160cb8b6db2be,False, slight performance improvement indifferenthash, , ,None
+294,https://api.github.com/repos/sinatra/sinatra/commits/b9f718557e879088588172a59844efb51b892ac8,False, add semver stability badge readme, , ,None
+295,https://api.github.com/repos/sinatra/sinatra/commits/13ccc755d54359906eee531588ff4ddb4b27f490,False, show gem version badge readme, , ,None
+296,https://api.github.com/repos/sinatra/sinatra/commits/357ae91f17fb3708737ab51dad5fd20395905993,False, add metadata link gemspec, , ,None
+297,https://api.github.com/repos/sinatra/sinatra/commits/47a990d9a86cd42e3a18a8145ccacd7567ace66f,True, merge pull request 1435 ybintian fix unnecessary,https://api.github.com/repos/sinatra/sinatra/issues/1435, ,None
+298,https://api.github.com/repos/sinatra/sinatra/commits/a0041528a3719cecc25c36aa8540f3e85212c796,True, merge pull request 1436 ahorek ubygems remove ubygems,https://api.github.com/repos/sinatra/sinatra/issues/1436, ,None
+299,https://api.github.com/repos/sinatra/sinatra/commits/529f79125eaa9a57a3cea3898de3155c6ad1dd90,False, unescape regex capture fix 1443, , ,None
+300,https://api.github.com/repos/sinatra/sinatra/commits/7989a78392a7ea814a9644d1216f0355deda28c5,False, drop activesupport dependency activesupport loaded provide object try large dependency monkey patch many core class although require sinatra contrib targeted load activesupport gem load path library load object try used twice maybe live manual check nil sinatra contrib currently requires ruby 2.2 better minimum lifted 2.3 object try provided ruby core, , ,None
+301,https://api.github.com/repos/sinatra/sinatra/commits/1b35eaa7b8296313d48ec27e52955f10f35462fb,True, merge pull request 1447 jakecraige patch fix broken link changelog,https://api.github.com/repos/sinatra/sinatra/issues/1447, ,None
+302,https://api.github.com/repos/sinatra/sinatra/commits/d5b2d6296ae7cded74da6bafc500e5a902cd25c7,False, fix broken link changelog add missing link rendered properly, , ,None
+303,https://api.github.com/repos/sinatra/sinatra/commits/e5cd58c43f44c65707e18af9aec198ef14d273e5,False, add test make sure named params capture unescaped, , ,None
+304,https://api.github.com/repos/sinatra/sinatra/commits/51f176109aefa5a52402bb3062fd0b4d64580b46,False, 2.0.3 release, , ,None
+305,https://api.github.com/repos/sinatra/sinatra/commits/17b4253b209c7f537f67bb984774b4933b9147b4,True, merge pull request 1442 sinatra fix 1441 fix backports regression,https://api.github.com/repos/sinatra/sinatra/issues/1442, ,None
+306,https://api.github.com/repos/sinatra/sinatra/commits/dff677098af6f6155893f99175cf54905e26a0d6,False, bump version 2.0.3, , ,None
+307,https://api.github.com/repos/sinatra/sinatra/commits/7e0944acb4ff22246be147c5a305e60b3b0c2b6b,False, add v2.0.3 entry, , ,None
+308,https://api.github.com/repos/sinatra/sinatra/commits/6479338be22eda3681dd6146108775c6c1d11f22,False, tweak require, , ,None
+309,https://api.github.com/repos/sinatra/sinatra/commits/25225ee4fbaf26c749ede9e2bc525d2a49dad2e7,False, require needed, , ,None
+310,https://api.github.com/repos/sinatra/sinatra/commits/4b77084a178665c3732ee7251d15cf18ed2fea6c,False, use activesupport try version backports wrong implementation, , ,None
+311,https://api.github.com/repos/sinatra/sinatra/commits/b52e1bbd41077bf927dd2cab61c9d7a09dd0900c,False, remove obsolete requires, , ,None
+312,https://api.github.com/repos/sinatra/sinatra/commits/c8910e9a7f9537e397f34b9e71e15757ccfbbae3,False, 2.0.2 release, , ,None
+313,https://api.github.com/repos/sinatra/sinatra/commits/20eef6e7e8b70e78c9b43796760d4f247936792c,True, merge pull request 1437 sinatra update changelog v2.0.2 update changelog v2.0.2,https://api.github.com/repos/sinatra/sinatra/issues/1437, ,None
+314,https://api.github.com/repos/sinatra/sinatra/commits/e709f2cc4794b3fd66db121537869c40d841c3ae,True, merge pull request 1439 olleolleolle update changelog v2.0.2 link changelog.md v2.0.2 link,https://api.github.com/repos/sinatra/sinatra/issues/1439, ,None
+315,https://api.github.com/repos/sinatra/sinatra/commits/27fc2bb13079a2a8121bf85f01d07ea0158d45e9,True, merge pull request 1438 olleolleolle changelog link changelog.md markdown link,https://api.github.com/repos/sinatra/sinatra/issues/1438, ,None
+316,https://api.github.com/repos/sinatra/sinatra/commits/adb3b2a230ca1621c8f9922e43d1087b1dd91e74,False, changelog.md v2.0.2 link, , ,None
+317,https://api.github.com/repos/sinatra/sinatra/commits/4af8b9ecb7290cb24bea2a214b05f111fae26d39,False, changelog.md markdown link, , ,None
+318,https://api.github.com/repos/sinatra/sinatra/commits/b3845ade0da8d6d5985bac476e31c5389a6dcd40,False, bump version 2.0.2, , ,None
+319,https://api.github.com/repos/sinatra/sinatra/commits/b17e039c360ec941956dfc17c6a66c2210830362,False, add changelog entry v2.0.2, , ,None
+320,https://api.github.com/repos/sinatra/sinatra/commits/b44fb9e879d88b1a35b1b3f8c0550304a0c241c0,False, ubygems, , ,None
+321,https://api.github.com/repos/sinatra/sinatra/commits/4c335c2c6423ad078053babf1bdc505fe99596b6,False, fix unnecessary, , ,None
+322,https://api.github.com/repos/sinatra/sinatra/commits/a1e36db87e9d6bc3a2d8721078da18e704ee8ba3,True, merge pull request 1430 olleolleolle patch travis jruby 9.2.0.0,https://api.github.com/repos/sinatra/sinatra/issues/1430, ,None
+323,https://api.github.com/repos/sinatra/sinatra/commits/17c28f2735f976ef8f74363a659a4d984fdebc3d,True, merge pull request 1431 arpitchauhan bugfix contrib required params fix sinatra requiredparams implementation,https://api.github.com/repos/sinatra/sinatra/issues/1431, ,None
+324,https://api.github.com/repos/sinatra/sinatra/commits/3742bddcee8eb5afd69cf51327c1716c506e1adc,True, merge pull request 1432 sinatra fix 1428 escape invalid query params fix 1428,https://api.github.com/repos/sinatra/sinatra/issues/1428, ,None
+325,https://api.github.com/repos/sinatra/sinatra/commits/12786867d6faaceaec62c7c2cb5b0e2dc074d71a,True, escape invalid query params fix 1428,https://api.github.com/repos/sinatra/sinatra/issues/1428, ,None
+326,https://api.github.com/repos/sinatra/sinatra/commits/55858e6c4d0e13bedb0cdec52b5168bd07d9f77f,False, contrib fix required params implementation required_params called way expects key params hash fails error undefined method has_key indeed hash params request ensured key respond has_key has_key called  required_params work properly even turn point hash params hash     properly halt status 400, , ,None
+327,https://api.github.com/repos/sinatra/sinatra/commits/df87572b0d10e07729deddc4d267489636d1761d,False, contrib add example required params spec ensures required_params fail abruptly key params expected hash turn fails currently, , ,None
+328,https://api.github.com/repos/sinatra/sinatra/commits/88e1496e0f48501d06079be71a7435c69afe70e5,False, travis jruby 9.2.0.0, , ,None
+329,https://api.github.com/repos/sinatra/sinatra/commits/5149dc9e0b0e281231b91223c6a414c905ad3a96,True, merge pull request 1425 sinatra fix broken test lock activesupport 5.1.6,https://api.github.com/repos/sinatra/sinatra/issues/1425, ,None
+330,https://api.github.com/repos/sinatra/sinatra/commits/7460bfdcbc342d27c533335ae178bb0981c00e67,True, lock activesupport 5.1.6 update http github.com sinatra sinatra issue 1423 ref http github.com rail rail issue 14643,https://api.github.com/repos/sinatra/sinatra/issues/14643, ,None
+331,https://api.github.com/repos/sinatra/sinatra/commits/83a2a6951f398f31974bb1f2bd3c4d7ea6333395,True, merge pull request 1405 iguchi1124 support ruby25 hash slice support ruby2.5 hash slice sinatra indifferenthash,https://api.github.com/repos/sinatra/sinatra/issues/1405, ,None
+332,https://api.github.com/repos/sinatra/sinatra/commits/a8b1a77547f874e1ee27b7207bcaab5cab0d1289,True, merge pull request 1422 olleolleolle patch travis use jruby 9.1.17.0,https://api.github.com/repos/sinatra/sinatra/issues/1422, ,None
+333,https://api.github.com/repos/sinatra/sinatra/commits/7ad86a358cd138aa2d7a3b6b98a3d666dc74e880,False, travis use jruby 9.1.17.0, , ,None
+334,https://api.github.com/repos/sinatra/sinatra/commits/dbc70b416df5400cbcb1b5a62e04a4b74a9a0c4a,True, merge pull request 1421 joshuaobrien fix_typo fix typo,https://api.github.com/repos/sinatra/sinatra/issues/1421, ,None
+335,https://api.github.com/repos/sinatra/sinatra/commits/224b35b234ac62a62e3f461d8cdbcef86222d5c9,False, fix typo, , ,None
+336,https://api.github.com/repos/sinatra/sinatra/commits/a27ad634a2a4972499116f54727fdf8cdf8995e3,True, merge pull request 1419 sinatra fix backports gem lock backports gem v2.8.2,https://api.github.com/repos/sinatra/sinatra/issues/1419, ,None
+337,https://api.github.com/repos/sinatra/sinatra/commits/02533ce1b6d47de0db0c8e8d1c82c001b76c35e2,False, lock backports gem v2.8.2, , ,None
+338,https://api.github.com/repos/sinatra/sinatra/commits/3fa1f2c22836b75d86a5c3c14ad319b2806b033e,True, merge pull request 1412 bk2204 default encoding params encode route parameter using setting,https://api.github.com/repos/sinatra/sinatra/issues/1412, ,None
+339,https://api.github.com/repos/sinatra/sinatra/commits/b058835d54eefd80984142642c19bd3946fc1d98,True, encode route parameter using setting fix 1362,https://api.github.com/repos/sinatra/sinatra/issues/1362, ,None
+340,https://api.github.com/repos/sinatra/sinatra/commits/b18f325a152d87170f63945ad2df75a7ff63c738,True, merge pull request 1413 naneer add xml content type csp add xml content type valid html_types rack protection,https://api.github.com/repos/sinatra/sinatra/issues/1413, ,None
+341,https://api.github.com/repos/sinatra/sinatra/commits/99897fa5d1b1d4726336a98fba04f155f75ef9ee,False, include application xml text xml content type valid html_types rack protection create additional unit test add application xml content type, , ,None
+342,https://api.github.com/repos/sinatra/sinatra/commits/44660b99a010c3b70d237bbd0dedb95cb739089d,True, merge pull request 1244 jonmidhir issue 1243 issue 1243 configuration unimplemented environment,https://api.github.com/repos/sinatra/sinatra/issues/1243,feedback,None
+343,https://api.github.com/repos/sinatra/sinatra/commits/dac516088e9a8279dd7d9a2e079ff23e4ffab5b1,False, load current environment setting regardless support environment setting file, , ,None
+344,https://api.github.com/repos/sinatra/sinatra/commits/5074c1e342a2472b16ff8ffcd5b2e12f9388da42,False, revert sinatra contrib dependency update fix 1207 1410, , ,None
+345,https://api.github.com/repos/sinatra/sinatra/commits/045a05b8df8dd8874d5dd51294e6e6c8609df4da,True, merge pull request 1208 mwpastore contrib deps sinatra contrib dependency update fix 1207,https://api.github.com/repos/sinatra/sinatra/issues/1207,has attached pr,None
+346,https://api.github.com/repos/sinatra/sinatra/commits/14f86a89442723b7616acb1b5fe2177d97f5ac0b,True, merge pull request 1188 turnon getter setter always exist,https://api.github.com/repos/sinatra/sinatra/issues/1188, ,None
+347,https://api.github.com/repos/sinatra/sinatra/commits/894e14fc8c37287e94e5bf6c15788865bc720e49,True, merge pull request 1393 nbulaj update readme.ru.md actual version english readme,https://api.github.com/repos/sinatra/sinatra/issues/1393,help wanted,None
+348,https://api.github.com/repos/sinatra/sinatra/commits/15f52c02e02264f1a171895bc1e08b028e1aefe2,False, skip fix review, , ,None
+349,https://api.github.com/repos/sinatra/sinatra/commits/71d309805132982fe59703006d8438d67bc6aba7,True, merge pull request 1400 olleolleolle fix doc authenticity token doc authenticity token example app,https://api.github.com/repos/sinatra/sinatra/issues/1400, ,None
+350,https://api.github.com/repos/sinatra/sinatra/commits/15294a6e69e6490026f0f42ff58f599efcc2319f,False, merge branch master, , ,None
+351,https://api.github.com/repos/sinatra/sinatra/commits/051b41009ebbd3ab64bd54e4f0c9803030e42ffe,False, skip fix link upstream, , ,None
+352,https://api.github.com/repos/sinatra/sinatra/commits/fac626da0bf4c24e3ff20e42d30fe103cf0c1f37,True, merge pull request 1406 iguchi1124 fix gem source url fix rack protection gem source url gemfile,https://api.github.com/repos/sinatra/sinatra/issues/1406, ,None
+353,https://api.github.com/repos/sinatra/sinatra/commits/23afce5269ee084c33971a319dd24c970c6a3b25,False, add sinatra indifferenthash slice spec, , ,None
+354,https://api.github.com/repos/sinatra/sinatra/commits/c006e58c0a1d81c93740f956256b82feecc17bdf,False, support ruby2.5 hash slice sinatra indifferenthash, , ,None
+355,https://api.github.com/repos/sinatra/sinatra/commits/cd8b3489366ea60a877e895c3e4d4d3ab41a0626,False, fix gem source url, , ,None
+356,https://api.github.com/repos/sinatra/sinatra/commits/6c1ed0b393a813a14c13054c173b333a400013e7,True, merge pull request 1401 iguchi1124 cache control fix cache control header doc skip,https://api.github.com/repos/sinatra/sinatra/issues/1401, ,None
+357,https://api.github.com/repos/sinatra/sinatra/commits/308e36bbb5b457bbe7be30b0a0b8ebdc5bf3efd5,False, fix cache control header doc skip, , ,None
+358,https://api.github.com/repos/sinatra/sinatra/commits/1a2cbc57ca5940c2317f9a57d3a6b25023f656b4,True, merge pull request 1402 iguchi1124 update gitignore remove duplicate gitignore entry,https://api.github.com/repos/sinatra/sinatra/issues/1402, ,None
+359,https://api.github.com/repos/sinatra/sinatra/commits/5142891506514725d1cba676565f2d86c1e69c76,False, skip rewrite rdoc, , ,None
+360,https://api.github.com/repos/sinatra/sinatra/commits/214c9a3ba80603d5d45821d81252fab88602168f,False, remove duplicate gitignore entry, , ,None
+361,https://api.github.com/repos/sinatra/sinatra/commits/be64d885f1abe68f73261ab034679605da0c6089,True, merge pull request 1399 iguchi1124 fix readme fix readme,https://api.github.com/repos/sinatra/sinatra/issues/1399, ,None
+362,https://api.github.com/repos/sinatra/sinatra/commits/5226279e231180f5afbbaa6a007b3847c6304d25,False, skip fix link, , ,None
+363,https://api.github.com/repos/sinatra/sinatra/commits/26e375aaac79ed95790af3f7a7e37be4b93d2265,True, merge pull request 1398 iguchi1124 remove 205 drop body response remove status code 205 drop body response,https://api.github.com/repos/sinatra/sinatra/issues/1398, ,None
+364,https://api.github.com/repos/sinatra/sinatra/commits/688afe8b456b0d394c0b5da1e5223bb1de87a2b6,False, doc authenticity token example app, , ,None
+365,https://api.github.com/repos/sinatra/sinatra/commits/28a8f4cdefc7d2732648543dfb445d07045b45b6,False, remove status code 205 drop body response, , ,None
+366,https://api.github.com/repos/sinatra/sinatra/commits/05cb1fe2fec80e584a3a77bf2143e85704979a04,True, merge pull request 1390 iguchi1124 fix captured path fix ignore empty capture params,https://api.github.com/repos/sinatra/sinatra/issues/1390, ,None
+367,https://api.github.com/repos/sinatra/sinatra/commits/3d263610c2ba5baf639567f56b565e18a330ad9d,True, merge pull request 1395 iguchi1124 remove test warning message remove sas warning message,https://api.github.com/repos/sinatra/sinatra/issues/1395, ,None
+368,https://api.github.com/repos/sinatra/sinatra/commits/def446d94f9339b3dc57e9119b0c098dd5b88329,False, remove sas warning message, , ,None
+369,https://api.github.com/repos/sinatra/sinatra/commits/06f8c839a1f35f844a93f6cf9c8642c2b954cb34,False, add filtered return empty params test, , ,None
+370,https://api.github.com/repos/sinatra/sinatra/commits/51fe0fcb00cf8f21c524370a3b7c7a4a4c7d067a,False, fix params http request path mismatching filter regex, , ,None
+371,https://api.github.com/repos/sinatra/sinatra/commits/299961ddd7eaa2dd1bdbb45916de5bffc805163e,True, merge pull request 1394 olleolleolle fix carry 1307 carry 1307 sinatra contrib readme fix link close 1307,https://api.github.com/repos/sinatra/sinatra/issues/1307,feedback,None
+372,https://api.github.com/repos/sinatra/sinatra/commits/2f3a090f29b7dec6f4f0746fcc24e48f63be6e9a,False, merge remote tracking branch olleolleolle mediafinger fix link contrib readme fix carry 1307, , ,None
+373,https://api.github.com/repos/sinatra/sinatra/commits/f1d1e98742e14d1373a3c4806ff4c08a6a94db50,False, merge remote tracking branch mediafinger mediafinger fix link contrib readme fix carry 1307, , ,None
+374,https://api.github.com/repos/sinatra/sinatra/commits/ed2f0a63afc27c50c1d0d9a1de1f9fc1066ce41e,False, update readme.ru.md actual version english readme fix small punctuation stylistic issue, , ,None
+375,https://api.github.com/repos/sinatra/sinatra/commits/55dbc51767b56c6cd0feaad50f8e2e686ec8c0c6,True, merge pull request 1392 iguchi1124 chmod chmod 644 sinatra contrib lib sinatra reloader.rb,https://api.github.com/repos/sinatra/sinatra/issues/1392, ,None
+376,https://api.github.com/repos/sinatra/sinatra/commits/c437fe36babb3d550c48e2504d600cf185b9b011,False, chmod 644 sinatra contrib lib sinatra reloader.rb, , ,None
+377,https://api.github.com/repos/sinatra/sinatra/commits/2bac2a5684f9e276d713a31ebb0ede9729282aa5,True, merge pull request 1391 iguchi1124 remove sas warning remove sas warning,https://api.github.com/repos/sinatra/sinatra/issues/1391, ,None
+378,https://api.github.com/repos/sinatra/sinatra/commits/796d097b6d71b84b3d534249cada9f73d116eaba,False, remove sas warning, , ,None
+379,https://api.github.com/repos/sinatra/sinatra/commits/78da8bd84ee743ac02a176888c1325acdf730052,False, add org contributed patch cve, , ,None
+380,https://api.github.com/repos/sinatra/sinatra/commits/2e5551ddd6de1e8909ebdd8cd3204219b42d2b55,False, update changelog cve 2018 7212 1389, , ,None
+381,https://api.github.com/repos/sinatra/sinatra/commits/4831ab658046ff12f8c3cb17a9833f942f49f7ff,False, 2.0.1 release, , ,None
+382,https://api.github.com/repos/sinatra/sinatra/commits/62fb8ad8c6a42a2e1b755a9cbc419b78ea5f10ea,False, 2.0.1.rc1 release, , ,None
+383,https://api.github.com/repos/sinatra/sinatra/commits/c5fceaab24a7a97bb70c2a87c44a97ba51feeb8b,False, 2.0.1.rc1 release, , ,None
+384,https://api.github.com/repos/sinatra/sinatra/commits/6ad721abcfe36334108dcdd05d046c361e1b7a9c,True, merge pull request 1387 namusyaka update changelog bump version 2.0.1.rc1,https://api.github.com/repos/sinatra/sinatra/issues/1387, ,None
+385,https://api.github.com/repos/sinatra/sinatra/commits/e3343b6a64e2b2c709d83d1febce7bfe6bbfc41a,False, bump version 2.0.1.rc1, , ,None
+386,https://api.github.com/repos/sinatra/sinatra/commits/cdea42b68f813058325d3c183d1f0c5a27633390,False, , , ,None
+387,https://api.github.com/repos/sinatra/sinatra/commits/968cf445485002b6bf849989154e59a9d64963f3,False, cleanup release doc bit next maintainer pray, , ,None
+388,https://api.github.com/repos/sinatra/sinatra/commits/93208deb17238af9d9d6bb9cdebeca45e7624c8d,False, add v2.0.1 section changelog, , ,None
+389,https://api.github.com/repos/sinatra/sinatra/commits/6bcc6c3499b0fae52900ae31e63676a22d4e6a72,True, merge pull request 1379 orangetw master enhanced path validation window,https://api.github.com/repos/sinatra/sinatra/issues/1379,bug,None
+390,https://api.github.com/repos/sinatra/sinatra/commits/ba7af51bd713267910078d055d01469e836fd64f,False, removed double check line removed double check line, , ,None
+391,https://api.github.com/repos/sinatra/sinatra/commits/d6617398533fce1dbb33a300eb1ab037c7b868aa,True, merge pull request 1351 jkowens fix 1350 fix issue custom error handler bad request,https://api.github.com/repos/sinatra/sinatra/issues/1351, ,None
+392,https://api.github.com/repos/sinatra/sinatra/commits/b7163b22821fe2ef65fcd5ccac305f569902cc6d,False, fix issue custom error handler bad request, , ,None
+393,https://api.github.com/repos/sinatra/sinatra/commits/a96f144c3ff16acfffadaf7504119bec1cf1eb9a,True, merge pull request 1333 dometto fix1332 add pattern match value mustermann concat fix 1332,https://api.github.com/repos/sinatra/sinatra/issues/1332, ,None
+394,https://api.github.com/repos/sinatra/sinatra/commits/6094e4a718834a3d2388b35f87e6c3cde677eedc,True, merge pull request 1377 jkowens fix 1376 override rack showexceptions pretty set custom template,https://api.github.com/repos/sinatra/sinatra/issues/1377, ,None
+395,https://api.github.com/repos/sinatra/sinatra/commits/1a3b68c4cff9eb18e2fa3f600878fc3420ad1ba7,True, merge pull request 1382 faheel master fix link markdown readme,https://api.github.com/repos/sinatra/sinatra/issues/1382, ,None
+396,https://api.github.com/repos/sinatra/sinatra/commits/946ce6d1a1f82e22609663061510a266a8dbd76d,True, merge pull request 1385 iguchi1124 update ruby version update ruby version travis,https://api.github.com/repos/sinatra/sinatra/issues/1385, ,None
+397,https://api.github.com/repos/sinatra/sinatra/commits/42b3edadd5aa6682b71be0bbf2e211feb3314e26,False, add current team 1386, , ,None
+398,https://api.github.com/repos/sinatra/sinatra/commits/20be1e5607e9a90dd4a19778f92d5c0089997cd6,False, update ruby version travis, , ,None
+399,https://api.github.com/repos/sinatra/sinatra/commits/646f7cd3bd492331fe5b282acf311d5ded1c6e67,False, fix link markdown update outdated link use http wherever available fix markdown link fix inconsistent indentation table content wrap long line around word, , ,None
+400,https://api.github.com/repos/sinatra/sinatra/commits/4c89cba2ac19171089cfe420d42e9f0e6b7179b7,False, add caputured pattern params mustermann concat case contains regexps, , ,None
+401,https://api.github.com/repos/sinatra/sinatra/commits/e0ba389c7bf30a27b1be4ea0a82f19abebc20bc6,False, fixed wrong link rack middleware section readme file 1372 fixed wrong link rack middleware section readme file, , ,None
+402,https://api.github.com/repos/sinatra/sinatra/commits/9b7efd9f53238f2845004ae87b506655c9d140a1,False, travis jruby 9.1.15.0 1370, , ,None
+403,https://api.github.com/repos/sinatra/sinatra/commits/2d7b74e6fc6cb838f8a68002a8905714e3d6c48d,True, merge pull request 1373 charlyjazz charlyjazz patch update readme.es.md according last version readme.md,https://api.github.com/repos/sinatra/sinatra/issues/1373, ,None
+404,https://api.github.com/repos/sinatra/sinatra/commits/d17aa95f5056c52daf5d7c3170fbfd831dc96381,False, enhanced path validation window, , ,None
+405,https://api.github.com/repos/sinatra/sinatra/commits/895081036e068f67a54d102de9d0f8f036fccec6,False, override pretty method set custom html template override rack showexceptions template without affecting rack apps mounted alongside sinatra, , ,None
+406,https://api.github.com/repos/sinatra/sinatra/commits/f9bbb2c623463692402196e70cd85b77ca9bfc55,False, update readme.es.md according last version readme.md, , ,None
+407,https://api.github.com/repos/sinatra/sinatra/commits/b4aaf1c43aa87936846a863a51beac6fe27892f6,False, fix misspelling 1371, , ,None
+408,https://api.github.com/repos/sinatra/sinatra/commits/36b5461a048af5dd363c268597448556869f1613,False, merge remote tracking branch upstream master, , ,None
+409,https://api.github.com/repos/sinatra/sinatra/commits/62e2f0d966acd491a44267881e6cd623b6c8945a,False, added label guide 1359, , ,None
+410,https://api.github.com/repos/sinatra/sinatra/commits/fc4fe5b7fbab158ebadbd5e533f6c3752edb23b4,True, merge pull request charlyjazz charlyjazz patch fixed wishlist link,https://api.github.com/repos/sinatra/sinatra/issues/2, ,None
+411,https://api.github.com/repos/sinatra/sinatra/commits/4d5eee462159681e5b077b52161b3372378a9521,False, fixed wishlist link, , ,None
+412,https://api.github.com/repos/sinatra/sinatra/commits/885454003167a9da62fa17b0a8a9f8bb8e8330b8,True, merge pull request charlyjazz charlyjazz patch update contributing.md,https://api.github.com/repos/sinatra/sinatra/issues/1, ,None
+413,https://api.github.com/repos/sinatra/sinatra/commits/d4b37fd811cbdf58ff96ccd2407e7ffefdffb68f,False, update contributing.md added label, , ,None
+414,https://api.github.com/repos/sinatra/sinatra/commits/ba935c9d885ee811f5e8d12356fce4ad91545cbe,True, merge pull request 1344 olleolleolle fix twitter text past spec update gem twitter text 1.14.7,https://api.github.com/repos/sinatra/sinatra/issues/1344, ,None
+415,https://api.github.com/repos/sinatra/sinatra/commits/2a5cdb0255721c567f3c3ea11ed506fa106fb8c5,True, merge pull request 1343 olleolleolle fix spec add parens avoid warning spec add parenthesis avoid ruby warning,https://api.github.com/repos/sinatra/sinatra/issues/1343, ,None
+416,https://api.github.com/repos/sinatra/sinatra/commits/3f704893f183f22757a040b8000b8903bf3301fa,True, merge pull request 1342 olleolleolle fix spec cooky remove unused local spec remove unused local seen avoid ruby warning,https://api.github.com/repos/sinatra/sinatra/issues/1342, ,None
+417,https://api.github.com/repos/sinatra/sinatra/commits/f12f816ad8541ed5387d890fee5b1fcabf5e7b1b,True, merge pull request 1356 danrice92 master documentation server_settings option issue 940,https://api.github.com/repos/sinatra/sinatra/issues/1356, ,None
+418,https://api.github.com/repos/sinatra/sinatra/commits/132748aaf45d76a98e03d2f5476f2b36b0eb5406,True, merge pull request 1355 284km update_travis ruby 2.2.8 2.3.5 2.4.2,https://api.github.com/repos/sinatra/sinatra/issues/1355, ,None
+419,https://api.github.com/repos/sinatra/sinatra/commits/775700447cbef33d91a21e9738c38eb83b63ed69,False, documentation server_settings option issue 940 documentation server_settings option issue 940 improved readability issue 940 documentation server_settings option issue 940 documentation server_settings option updated issue 940 documentation server_settings option, , ,None
+420,https://api.github.com/repos/sinatra/sinatra/commits/07e1c338354c8261eac29bd3dff211701b7ef69c,False, ruby 2.2.8 2.3.5 2.4.2, , ,None
+421,https://api.github.com/repos/sinatra/sinatra/commits/89cbd96866355729bb347a76ce601b98c3ff579b,True, merge pull request 1347 olleolleolle fix document testing helper sinatra contrib api doc testhelpers enginetracking,https://api.github.com/repos/sinatra/sinatra/issues/1347, ,None
+422,https://api.github.com/repos/sinatra/sinatra/commits/4391ed01326e496fd5b91bc0b5a735c2ae1b751e,True, merge pull request 1346 olleolleolle patch rack protection drop unused travis config,https://api.github.com/repos/sinatra/sinatra/issues/1346, ,None
+423,https://api.github.com/repos/sinatra/sinatra/commits/2777bf12d11c7bab4b7abbba23b7e72e70218708,False, sinatra contrib api doc engine tracking, , ,None
+424,https://api.github.com/repos/sinatra/sinatra/commits/3e311a3749786ebf6dc103b812964c2861d09a61,False, sinatra contrib api doc testhelpers, , ,None
+425,https://api.github.com/repos/sinatra/sinatra/commits/871f493d7733830a67713edf8bbed616f111b313,False, git ignore doc, , ,None
+426,https://api.github.com/repos/sinatra/sinatra/commits/125df069dac8e32e9e4b3519d7cd0994fa9e883e,True, readme use full url link relates test helper engine tracking see 1307,https://api.github.com/repos/sinatra/sinatra/issues/1307,feedback,None
+427,https://api.github.com/repos/sinatra/sinatra/commits/dd96efb34ad5012040f2b8dbb4ca63b7a17b736b,False, rack protection drop unused travis config, , ,None
+428,https://api.github.com/repos/sinatra/sinatra/commits/6b6ec1e4b82f3d5f90fc1651ed76440c4508de15,True, merge pull request 1345 olleolleolle patch travis jruby 9.1.13.0,https://api.github.com/repos/sinatra/sinatra/issues/1345, ,None
+429,https://api.github.com/repos/sinatra/sinatra/commits/64173303ee389397e95af37b5e8b659f8c95f193,True, sinatra contrib dependency update fix 1207 remove backports work around object try string underscore,https://api.github.com/repos/sinatra/sinatra/issues/1207,has attached pr,None
+430,https://api.github.com/repos/sinatra/sinatra/commits/8b85150fc2fd517e2aa7bd141c1fc60492f36888,False, travis jruby 9.1.13.0, , ,None
+431,https://api.github.com/repos/sinatra/sinatra/commits/d876028ae9c4b49bf73051777f1cd79433f485ce,False, update gem twitter text 1.14.7 locked 1.14.0, , ,None
+432,https://api.github.com/repos/sinatra/sinatra/commits/16f7b8ab2ee2dc66dea730f52e9fdcfc2513c51c,False, spec add parenthesis avoid ruby warning avoid warning ambiguous first argument put parenthesis space even operator, , ,None
+433,https://api.github.com/repos/sinatra/sinatra/commits/698824c09f59862188a5a3b80505cbed57fcb040,False, spec remove unused local seen, , ,None
+434,https://api.github.com/repos/sinatra/sinatra/commits/4750d087552dc7cb9cd2ab29b60b5a57e39751af,True, merge pull request 1340 olleolleolle fix changelog 148 changelog line v1.4.8,https://api.github.com/repos/sinatra/sinatra/issues/1340, ,None
+435,https://api.github.com/repos/sinatra/sinatra/commits/7c1bbb3f58d4902c87f694fce88e307f81e37902,True, merge pull request 1331 graniterock master note code change,https://api.github.com/repos/sinatra/sinatra/issues/1331, ,None
+436,https://api.github.com/repos/sinatra/sinatra/commits/751983d2cecd6731074b2f2cd15dcfc032f8145f,False, changelog 1.4.8 skip, , ,None
+437,https://api.github.com/repos/sinatra/sinatra/commits/59320a896058ef786ae76a03d539c534f01e58e9,True, merge pull request 1322 namusyaka fix 1310 avoid prefix duplication,https://api.github.com/repos/sinatra/sinatra/issues/1322, ,None
+438,https://api.github.com/repos/sinatra/sinatra/commits/948e5f6df4e503ec5451e911f01423c1be712521,True, merge pull request 1338 olleolleolle fix include version gemspec add version file gemspec,https://api.github.com/repos/sinatra/sinatra/issues/1338, ,None
+439,https://api.github.com/repos/sinatra/sinatra/commits/78770cf18ddfae1449d82243f8a3e9bda88076a6,True, merge pull request 1337 olleolleolle fix spec drop unused support method provides spec drop unused local assistance method provides,https://api.github.com/repos/sinatra/sinatra/issues/1337, ,None
+440,https://api.github.com/repos/sinatra/sinatra/commits/f4ebdc46775a06aef4cb2b44d980b99ed8868c6d,True, merge pull request 1336 olleolleolle fix spec respond spec renames spec rename local path,https://api.github.com/repos/sinatra/sinatra/issues/1336, ,None
+441,https://api.github.com/repos/sinatra/sinatra/commits/5b3c1ac686a6f9be092715ddf6f4c72866630175,True, add version file gemspec fix 1308,https://api.github.com/repos/sinatra/sinatra/issues/1308, ,None
+442,https://api.github.com/repos/sinatra/sinatra/commits/ba27d07bc1b2a8cf7a83b528a006f924be3222f1,False, spec drop unused local assistance method provides method never called instance variable never set change remove warning output test run, , ,None
+443,https://api.github.com/repos/sinatra/sinatra/commits/9b608f8c6a7fee8c76fef4b4337f1e4c00700a9d,False, spec rename local path, , ,None
+444,https://api.github.com/repos/sinatra/sinatra/commits/272b6fc43c52df13c38501b964ef357183186004,False, update readme.md add note code change, , ,None
+445,https://api.github.com/repos/sinatra/sinatra/commits/7c6c03be899e5dd5b26c0b31a588f4e2ad6e824c,True, merge pull request 1329 romasks master update readme.ru.md according last version readme.md,https://api.github.com/repos/sinatra/sinatra/issues/1329, ,None
+446,https://api.github.com/repos/sinatra/sinatra/commits/f989442786594c26be90dc124b6153ebd1fb067a,False, update readme.ru.md according last version readme.md, , ,None
+447,https://api.github.com/repos/sinatra/sinatra/commits/b8935900461766894c70f4c768a514bb868f391b,True, merge pull request 1323 ice storm master update doc session route,https://api.github.com/repos/sinatra/sinatra/issues/1323, ,None
+448,https://api.github.com/repos/sinatra/sinatra/commits/f89c8da2609bdf89156ecb6f37b263b43c17f784,False, update doc session route, , ,None
+449,https://api.github.com/repos/sinatra/sinatra/commits/7b3ae25c9b9e58056dd4733ac5d3445792aaaedd,False, get rid unnecessary assignment expression base doe respond condition permanently, , ,None
+450,https://api.github.com/repos/sinatra/sinatra/commits/77e2029d840f2ca062c74536e56d43a085f69920,False, avoid prefix duplication, , ,None
+451,https://api.github.com/repos/sinatra/sinatra/commits/a275ffd00ca32c33ea9eaa168ce99ab1b80b9697,True, merge pull request 1321 junaruga feature rbx add erubi add erubi rbx test fix failed test,https://api.github.com/repos/sinatra/sinatra/issues/1321, ,None
+452,https://api.github.com/repos/sinatra/sinatra/commits/2191a298a09ac3186d6573f1cc246674c577abc4,False, add erubi rbx test fix failed test, , ,None
+453,https://api.github.com/repos/sinatra/sinatra/commits/05f76fbce57d69bcb422a9a565a78fe8156ee27b,False, rbx rbx shrug keep, , ,None
+454,https://api.github.com/repos/sinatra/sinatra/commits/d9305b689d927eda96d9453716bc7f9e9547e3bc,False, add jruby 9.1.12.0 allow_failures least headius take break dark soul fix, , ,None
+455,https://api.github.com/repos/sinatra/sinatra/commits/d4e3be1e31c631243fcc301909dcd2079548063e,True, merge pull request 1320 horaciob adding_links adding link readme,https://api.github.com/repos/sinatra/sinatra/issues/1320, ,None
+456,https://api.github.com/repos/sinatra/sinatra/commits/8bdc9606798e04f61fe6c2436c1feb21e42b864e,True, merge pull request 1317 horaciob refactor_to_s deleting unnecesary to_s,https://api.github.com/repos/sinatra/sinatra/issues/1317, ,None
+457,https://api.github.com/repos/sinatra/sinatra/commits/c7655190128fdcc37b160d55e7afc4d4291789ce,True, merge pull request 1315 ice storm master remove space comment,https://api.github.com/repos/sinatra/sinatra/issues/1315, ,None
+458,https://api.github.com/repos/sinatra/sinatra/commits/3157d2b8cdd2ccf7e5c3081d376bced1268f7f23,True, merge pull request 1314 junaruga feature update rspec rack protection update rspec rack protection use latest version,https://api.github.com/repos/sinatra/sinatra/issues/1314, ,None
+459,https://api.github.com/repos/sinatra/sinatra/commits/4d2821ecdbdb809edc80f5dcde2f8ee2b51c942f,True, merge pull request 1312 junaruga feature remove bundler setup remove line require bundler setup,https://api.github.com/repos/sinatra/sinatra/issues/1312, ,None
+460,https://api.github.com/repos/sinatra/sinatra/commits/15d962cce73a0c5f5107c8c5e0d1956792e8bf2b,True, merge pull request 1298 olleolleolle patch travis jruby 9.1.10.0,https://api.github.com/repos/sinatra/sinatra/issues/1298, ,None
+461,https://api.github.com/repos/sinatra/sinatra/commits/f3ae2f82584b8353e176560055f7f705c76d7e34,True, merge pull request 1303 jonmidhir credit changelog entry,https://api.github.com/repos/sinatra/sinatra/issues/1303, ,None
+462,https://api.github.com/repos/sinatra/sinatra/commits/c1c28dc3e7a82f0c4352060789e3120c2319fe71,False, fix link, , ,None
+463,https://api.github.com/repos/sinatra/sinatra/commits/67f18831c3cacbcb93e231d6bc55eb3c4f49d6b7,False, adding link, , ,None
+464,https://api.github.com/repos/sinatra/sinatra/commits/4c0ec166486ad76c68905d52118edccf01528546,False, deleting unnecesary to_s, , ,None
+465,https://api.github.com/repos/sinatra/sinatra/commits/ee5776e1ae76739df8f59dfa119c4afb6bbc19c0,False, remove space comment, , ,None
+466,https://api.github.com/repos/sinatra/sinatra/commits/484d9df573a7c741b4c2b2d8da6c56805b159629,False, update rspec rack protection use latest version, , ,None
+467,https://api.github.com/repos/sinatra/sinatra/commits/94791e5278d01ceddb7e40ea11f13aaa2eab9e9f,False, remove line require bundler setup already loaded bundler, , ,None
+468,https://api.github.com/repos/sinatra/sinatra/commits/1649154c0c113a689f0c1c1ce6524b0028e3633c,False, travis jruby 9.1.12.0, , ,None
+469,https://api.github.com/repos/sinatra/sinatra/commits/0c9343affedd3b962f8385090676af9b15d1d26a,False, fix link sinatra contrib readme link broken point http contrib topic test helper engine tracking part contrib project point http github sinatra sinatra contrib sinatra topic, , ,None
+470,https://api.github.com/repos/sinatra/sinatra/commits/7a0e83b7425d8ecc0ddbc95f552fa61255e56560,False, recredit changelog entry, , ,None
+471,https://api.github.com/repos/sinatra/sinatra/commits/9b70e09282d355697e9420eee75fa6c43719e7cb,False, travis jruby 9.1.10.0, , ,None
+472,https://api.github.com/repos/sinatra/sinatra/commits/a58834812b455101111ef332c7510bc9083c30d0,True, merge pull request 1295 ninoseki master fixed broken link rack protection readme.md,https://api.github.com/repos/sinatra/sinatra/issues/1295, ,None
+473,https://api.github.com/repos/sinatra/sinatra/commits/875f36f963dd801329c660b7145a63968ff115fe,False, change relative url absolute url, , ,None
+474,https://api.github.com/repos/sinatra/sinatra/commits/a1b0de7b45a7514447a190564c97e07c42ad5400,False, fixed broken link rack protection readme.md, , ,None
+475,https://api.github.com/repos/sinatra/sinatra/commits/ec08e37bf8b4d1bbb6f28cc3eaf37eea172dc08f,False, linkify protection doc, , ,None
+476,https://api.github.com/repos/sinatra/sinatra/commits/ea1a21c0734e2d5a5d50d3a4231c0d2282e0717a,False, update homepage sinatra contrib rack protection, , ,None
+477,https://api.github.com/repos/sinatra/sinatra/commits/83c099505fb91988edd5c1d09bcd6198abd4335f,False, generate linkify doc contrib, , ,None
+478,https://api.github.com/repos/sinatra/sinatra/commits/f716739811a0591ed1cc68f55fe92720f841fc19,True, merge pull request 1292 olleolleolle patch readme use snazzy svg build badge,https://api.github.com/repos/sinatra/sinatra/issues/1292, ,None
+479,https://api.github.com/repos/sinatra/sinatra/commits/d97015b97a186703f78f9048ad4e00334485d4b1,False, readme use snazzy svg build badge, , ,None
+480,https://api.github.com/repos/sinatra/sinatra/commits/88ede968ecd1ce3bd5f2a58f386b7687b489d8c1,False, write readme includes well, , ,None
+481,https://api.github.com/repos/sinatra/sinatra/commits/5de64980e0f0fe146d8b60ca3b009f183113e68b,False, 2.0.0 release, , ,None
+482,https://api.github.com/repos/sinatra/sinatra/commits/27373cc4d041c03dfd97f17a8944e91651c6e4cc,False, 2.0.0.rc6 release, , ,None
+483,https://api.github.com/repos/sinatra/sinatra/commits/76dc6fb938edc76496aaa9b205daaefd86a55f95,False, 2.0.0.rc5 release, , ,None
+484,https://api.github.com/repos/sinatra/sinatra/commits/714bddab4a8b3aec86159fe63332682974d6265f,False, create tag create duplicate, , ,None
+485,https://api.github.com/repos/sinatra/sinatra/commits/c9b8b2037395b5b865b28ed5ef682e62588e295b,False, 2.0.0.rc5 release, , ,None
+486,https://api.github.com/repos/sinatra/sinatra/commits/5d633ff4de2bbbb267a550080289a51dac1d3d59,False, 2.0.0.rc4 release, , ,None
+487,https://api.github.com/repos/sinatra/sinatra/commits/5397945a87a1514303b986a0aa6d1052fe354997,False, fix remote release task, , ,None
+488,https://api.github.com/repos/sinatra/sinatra/commits/d7c28052e5bf9869db11415c4e85c6d427884de8,False, 2.0.0.rc4 release, , ,None
+489,https://api.github.com/repos/sinatra/sinatra/commits/0381701fd1b1e24505e2cfb727eaa5d925d7a534,False, 2.0.0.rc4 release, , ,None
+490,https://api.github.com/repos/sinatra/sinatra/commits/1cf035b2576a5a9e862c78034fe1ead3987ff439,False, 2.0.0.rc4 release, , ,None
+491,https://api.github.com/repos/sinatra/sinatra/commits/ef1fd48c39ab1643e1a247938e14af50589c9ac5,False, whoop, , ,None
+492,https://api.github.com/repos/sinatra/sinatra/commits/7bfd9e18ba83ab634425d17f5f7d5b19359991b2,False, 2.0.0.rc3 release, , ,None
+493,https://api.github.com/repos/sinatra/sinatra/commits/493b2628aee38eb78295903fa05c0c287980d144,False, 2.0.0.rc3 release, , ,None
+494,https://api.github.com/repos/sinatra/sinatra/commits/9064fd338c80350fc30ca1b1dd6f271be0a6d00e,False, 2.0.0.rc3 release, , ,None
+495,https://api.github.com/repos/sinatra/sinatra/commits/a72394f62f814384761d18bf54eb8a99d66bb9dd,False, fix sed match version, , ,None
+496,https://api.github.com/repos/sinatra/sinatra/commits/0b9a65864ad03b68ef08dfb154caf91271d6ea25,False, use single quote string, , ,None
+497,https://api.github.com/repos/sinatra/sinatra/commits/fdf7f05ba5992b7013df28a786bd34075adcd968,False, add yard rake doc task, , ,None
+498,https://api.github.com/repos/sinatra/sinatra/commits/605ab358f2216c0bf076d3508a18ff898ee5e8b4,False, bump rc3 test release task, , ,None
+499,https://api.github.com/repos/sinatra/sinatra/commits/f702670b0348db83f7e78ac79d03beb4a296a827,True, merge pull request 1284 code mancers issue 1274 tie rack protection version sinatra version issue 1274 tie sinatra contrib rack protection version sinatra version update release script,https://api.github.com/repos/sinatra/sinatra/issues/1284, ,None
