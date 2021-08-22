@@ -29,7 +29,7 @@ class SmItem ():
 
 class Sample():
 
-    LANGINTR_SET  = ["FFI", "FFI_EBD", "FFI_IMI", "FFI_IMI_EBD", "IMI", "IMI_EBD"]
+    LANGINTR_SET  = ["FFI", "FFI_IMI", "FFI_IMI_EBD", "IMI", "IMI_EBD"]
     LANGCOMBO_SET = [["python", "shell"], ["go", "shell"], ["css", "html", "javascript", "shell"], ["objective-c", "ruby"], ["html", "python"], 
                      ["c++", "python"], ["c", "python"], ["c", "c++", "shell"], ["java", "shell"], ["javascript", "php"], ["java", "javascript"], ["c", "shell"]]
 
@@ -60,6 +60,7 @@ class Sample():
             repo = {}
             repo['id']  = row['id']
             repo['url'] = row['url']
+            repo['langs'] = row['language_combinations']
             cmmt_stat_file = System.cmmt_stat_file (repo['id']) + '.csv'
             if System.is_exist (cmmt_stat_file) == False:
                 continue
@@ -150,6 +151,16 @@ class Sample():
                 row = [SamIt.Id, SamIt.Url, SamIt.Langs, SamIt.ApiType, SamIt.RemNum, SamIt.IibcNum, SamIt.PdNum, SamIt.GenNum, SamIt.VulNum]
                 writer.writerow(row)
 
+    def StatCheck (self, Type2Num):
+        Num = 0
+        for type, num in Type2Num.items ():
+            if num == self.SmpNum:
+                Num += 1
+        if Num >= 5:
+            return True
+        else:        
+            return False
+
     def StatSamplingByLangs (self):
         Langs2Num = {}
         IdDict = {}
@@ -172,24 +183,28 @@ class Sample():
             if CmmtNum < self.CmmtNum:
                 continue
 
-            Langs = self.GetLangSelt (Ai.Langs)
+            Langs = eval(Repo['langs'])
             if len (Langs) == 0:
                 continue
 
-            LangsStr = "_".join (Langs)
-            LangsNum = Langs2Num.get (LangsStr)
+            Langs = self.GetLangSelt (Langs[0].split())
+            if len (Langs) == 0:
+                continue
+            
+            Langs = "_".join(Langs)
+            LangsNum = Langs2Num.get (Langs)
             if LangsNum == None:
-                Langs2Num[LangsStr] = 1
+                Langs2Num[Langs] = 1
             else:
                 if LangsNum >= self.SmpNum:
                     continue
                 else:
-                    Langs2Num[LangsStr] = LangsNum + 1
-            print ("[%d]%s -> sampling %d" %(len (self.Samples), LangsStr, Langs2Num[LangsStr]))
+                    Langs2Num[Langs] = LangsNum + 1
+            print ("[%d]%s -> sampling %d" %(len (self.Samples), Langs, Langs2Num[Langs]))
             SamIt = SmItem (Id, Repo['url'], Langs, Ai.ApiType)
             self.Samples.append (SamIt)
             
-            if len (self.Samples) >= self.SmpNum * len (Sample.LANGCOMBO_SET):
+            if self.StatCheck(Langs2Num) == True:
                 break
         self.GrabCmmts ('StatSampleByLangs.csv', False)
         self.Samples = []
@@ -230,7 +245,7 @@ class Sample():
                 SamIt = SmItem (Id, Repo['url'], Langs, Ai.ApiType)
                 self.Samples.append (SamIt)
     
-                if len (self.Samples) >= self.SmpNum * len (Sample.LANGCOMBO_SET):
+                if self.StatCheck(Apis2Num) == True:
                     break
             self.GrabCmmts ('StatSampleByApis.csv', False)
             self.Samples = []
